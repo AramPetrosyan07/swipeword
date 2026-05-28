@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SwipeWord</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/card.css" />
+</head>
+<body class="theme-light">
+
+  <div id="app">
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-logo">SwipeWord</span>
+        <button class="icon-btn" id="btnSidebarClose" title="Close sidebar">&times;</button>
+      </div>
+      <div class="sidebar-nav">
+        <button class="sidebar-btn" id="sideImport" data-screen="import">
+          <span class="sidebar-btn-icon">&#128194;</span> Import
+        </button>
+        <button class="sidebar-btn" id="sideLearn" data-screen="learn">
+          <span class="sidebar-btn-icon">&#128218;</span> Learn
+        </button>
+        <button class="sidebar-btn" id="sideReview" data-screen="review">
+          <span class="sidebar-btn-icon">&#128260;</span> Review
+        </button>
+        <button class="sidebar-btn" id="sideStats" data-screen="stats">
+          <span class="sidebar-btn-icon">&#128200;</span> Stats
+        </button>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">History</div>
+        <div id="sidebarHistory" class="sidebar-history">
+          <div class="sidebar-history-empty">No files imported yet</div>
+        </div>
+      </div>
+      <div class="sidebar-footer">
+        <button class="sidebar-btn" id="sideShuffle">
+          <span class="sidebar-btn-icon">&#128256;</span> Shuffle
+          <span class="sidebar-toggle" id="sideShuffleIndicator">OFF</span>
+        </button>
+        <button class="sidebar-btn" id="sideTheme">
+          <span class="sidebar-btn-icon" id="sideThemeIcon">&#9789;</span> Theme
+          <span class="sidebar-toggle" id="sideThemeIndicator">LIGHT</span>
+        </button>
+        <div class="sidebar-info" id="sideInfo">
+          <div class="sidebar-info-line" id="sideFileName">No file loaded</div>
+          <div class="sidebar-info-line sidebar-info-sub" id="sideFileStats"></div>
+        </div>
+      </div>
+    </div>
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    <!-- Import Screen -->
+    <div id="screen-import" class="screen active">
+      <div class="import-container">
+        <h1 class="logo">SwipeWord</h1>
+        <p class="subtitle">Learn English words the Tinder way</p>
+        <div class="import-box" id="importBox">
+          <div class="import-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="12" y1="18" x2="12" y2="12"/>
+              <line x1="9" y1="15" x2="15" y2="15"/>
+            </svg>
+          </div>
+          <p class="import-text">Click to select a word list file</p>
+          <p class="import-hint">Supports .txt files with English → Armenian words</p>
+          <button class="btn btn-primary" id="btnImport">Choose File</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Learn Screen -->
+    <div id="screen-learn" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnMenu" title="Menu">&#9776;</button>
+        <span class="progress-text" id="progressText">0 / 0</span>
+        <div class="top-right">
+          <button class="icon-btn" id="btnShuffle" title="Shuffle">&#8635;</button>
+          <button class="icon-btn" id="btnTheme" title="Toggle theme">&#9790;</button>
+        </div>
+      </div>
+
+      <div class="card-area" id="cardArea">
+        <div class="card-stack" id="cardStack">
+          <div class="card" id="card">
+            <div class="card-inner" id="cardInner">
+              <div class="card-front">
+                <div class="card-letter-badge" id="cardLetter"></div>
+                <h2 class="card-word" id="cardWord">word</h2>
+                <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
+              </div>
+              <div class="card-back">
+                <div class="card-letter-badge" id="cardLetterBack"></div>
+                <h3 class="card-translation-label">Translation</h3>
+                <p class="card-translation" id="cardTranslation">translation</p>
+                <div class="card-example" id="cardExample">example</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="action-btn action-forgot" id="btnForgot" title="Don't remember (Left)">
+            &#10007;
+          </button>
+          <button class="action-btn action-flip" id="btnFlip" title="Show/hide translation">
+            &#128065;
+          </button>
+          <button class="action-btn action-tts" id="btnTTS" title="Listen to pronunciation">
+            &#128266;
+          </button>
+          <button class="action-btn action-remember" id="btnRemember" title="Remembered (Right)">
+            &#10003;
+          </button>
+        </div>
+      </div>
+
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <p>No more words to review!</p>
+        <button class="btn btn-primary" id="btnResetSession">Start Over</button>
+      </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="screen-review" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnReviewBack" title="Back">&#8592;</button>
+        <span class="progress-text">Review Mode</span>
+        <div></div>
+      </div>
+      <div class="review-container" id="reviewContainer">
+        <p class="review-subtitle">Practicing forgotten words</p>
+        <div class="card-area">
+          <div class="card-stack" id="reviewCardStack">
+            <div class="card" id="reviewCard">
+              <div class="card-inner" id="reviewCardInner">
+                <div class="card-front">
+                  <div class="card-letter-badge" id="reviewCardLetter"></div>
+                  <h2 class="card-word" id="reviewCardWord">word</h2>
+                  <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
+                </div>
+                <div class="card-back">
+                  <div class="card-letter-badge" id="reviewCardLetterBack"></div>
+                  <h3 class="card-translation-label">Translation</h3>
+                  <p class="card-translation" id="reviewCardTranslation">translation</p>
+                  <div class="card-example" id="reviewCardExample">example</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="action-btn action-forgot" id="btnReviewForgot">&#10007;</button>
+            <button class="action-btn action-flip" id="btnReviewFlip">&#128065;</button>
+            <button class="action-btn action-tts" id="btnReviewTTS">&#128266;</button>
+            <button class="action-btn action-remember" id="btnReviewRemember">&#10003;</button>
+          </div>
+        </div>
+      </div>
+      <div class="empty-state" id="reviewEmpty" style="display:none;">
+        <p>No forgotten words to review!</p>
+        <button class="btn btn-primary" id="btnBackToLearn">Back to Learning</button>
+      </div>
+    </div>
+
+    <!-- Stats Screen -->
+    <div id="screen-stats" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnStatsBack" title="Back">&#8592;</button>
+        <span class="progress-text">Statistics</span>
+        <div></div>
+      </div>
+      <div class="stats-container" id="statsContainer">
+        <div class="stat-card">
+          <span class="stat-number" id="statTotal">0</span>
+          <span class="stat-label">Total Words</span>
+        </div>
+        <div class="stat-card stat-remembered">
+          <span class="stat-number" id="statRemembered">0</span>
+          <span class="stat-label">Remembered</span>
+        </div>
+        <div class="stat-card stat-forgotten">
+          <span class="stat-number" id="statForgotten">0</span>
+          <span class="stat-label">Forgotten</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="statAccuracy">0%</span>
+          <span class="stat-label">Accuracy</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="statStreak">0</span>
+          <span class="stat-label">Day Streak</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="statSessions">0</span>
+          <span class="stat-label">Sessions</span>
+        </div>
+      </div>
+      <div class="stats-actions">
+        <button class="btn btn-secondary" id="btnResetProgress">Reset All Progress</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/store.js"></script>
+  <script src="scripts/parser.js"></script>
+  <script src="scripts/tts.js"></script>
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/card.js"></script>
+  <script src="scripts/stats.js"></script>
+  <script src="scripts/review.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+/* Card Area */
+.card-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-stack {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 3 / 4;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: grab;
+  transition: transform 0.3s ease;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-letter-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card-word {
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 16px;
+  word-break: break-word;
+}
+
+.card-hidden-hint {
+  font-size: 13px;
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.card-translation-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-translation {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 16px;
+  word-break: break-word;
+}
+
+.card-example {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5;
+  padding: 12px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  width: 100%;
+  max-width: 280px;
+}
+
+/* Swipe states */
+.card.swiping-left {
+  transition: none;
+}
+
+.card.swiping-right {
+  transition: none;
+}
+
+.card.fly-left {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: translateX(-120%) rotate(-20deg);
+  opacity: 0;
+}
+
+.card.fly-right {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: translateX(120%) rotate(20deg);
+  opacity: 0;
+}
+
+/* Swipe overlay indicators */
+.swipe-indicator {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  z-index: 10;
+}
+
+.swipe-indicator.visible {
+  opacity: 1;
+}
+
+.swipe-indicator-left {
+  left: 16px;
+  color: var(--danger);
+  border: 3px solid var(--danger);
+  transform: translateY(-50%) rotate(-10deg);
+}
+
+.swipe-indicator-right {
+  right: 16px;
+  color: var(--success);
+  border: 3px solid var(--success);
+  transform: translateY(-50%) rotate(10deg);
+}
+
+/* Action Buttons */
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s, box-shadow 0.15s;
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  color: var(--text);
+}
+
+.action-btn:active {
+  transform: scale(0.9);
+}
+
+.action-forgot {
+  color: var(--danger);
+  border: 2px solid var(--danger);
+}
+
+.action-forgot:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+.action-remember {
+  color: var(--success);
+  border: 2px solid var(--success);
+}
+
+.action-remember:hover {
+  background: var(--success);
+  color: #fff;
+}
+
+.action-flip {
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.action-flip:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.action-tts {
+  color: #ff9800;
+  border: 2px solid #ff9800;
+  font-size: 20px;
+}
+
+.action-tts:hover {
+  background: #ff9800;
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "swipeword",
+  "version": "1.0.0",
+  "description": "Tinder-style English → Armenian vocabulary learning app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.7.1"
+  },
+  "build": {
+    "appId": "com.swipeword.app",
+    "productName": "SwipeWord",
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
