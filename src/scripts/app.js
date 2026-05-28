@@ -64,6 +64,14 @@ class App {
       this._closeSidebar();
       this._showStats();
     });
+    document.getElementById('sideDailyHistory').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showDailyHistory();
+    });
+    document.getElementById('sideSelfTest').addEventListener('click', () => {
+      this._closeSidebar();
+      selfTest.start();
+    });
 
     document.getElementById('sideShuffle').addEventListener('click', () => {
       this.shuffleEnabled = !this.shuffleEnabled;
@@ -105,6 +113,24 @@ class App {
     });
     document.getElementById('btnReviewBack').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('btnBackToLearn').addEventListener('click', () => this._showLearnScreen());
+
+    // Daily History screen
+    document.getElementById('btnDailyHistoryBack').addEventListener('click', () => this._showLearnScreen());
+    document.getElementById('dailyDateInput').addEventListener('change', (e) => {
+      if (e.target.value) dailyHistory._loadDate(e.target.value);
+    });
+
+    // Self-Test screen
+    document.getElementById('btnSelfTestBack').addEventListener('click', () => this._showLearnScreen());
+    document.getElementById('btnSelfTestBackEmpty').addEventListener('click', () => this._showLearnScreen());
+    document.getElementById('btnSelfTestFlip').addEventListener('click', () => selfTest.flip());
+    document.getElementById('btnSelfTestRemember').addEventListener('click', () => selfTest.handleRemember());
+    document.getElementById('btnSelfTestForgot').addEventListener('click', () => selfTest.handleForgot());
+    document.getElementById('btnSelfTestTTS').addEventListener('click', () => {
+      if (selfTest.currentWord) tts.speak(selfTest.currentWord.english);
+    });
+    document.getElementById('btnSelfTestRetry').addEventListener('click', () => selfTest.reset());
+    document.getElementById('btnSelfTestDone').addEventListener('click', () => this._showLearnScreen());
 
     // Stats screen
     document.getElementById('btnStatsBack').addEventListener('click', () => this._showLearnScreen());
@@ -169,6 +195,21 @@ class App {
           case 'Z':
             e.preventDefault();
             this._undo();
+            break;
+        }
+      } else if (activeScreen.id === 'screen-selftest' && selfTest.isActive && !selfTest.isAnimating) {
+        switch (e.key) {
+          case 'ArrowLeft':
+            e.preventDefault();
+            selfTest.handleForgot();
+            break;
+          case 'ArrowRight':
+            e.preventDefault();
+            selfTest.handleRemember();
+            break;
+          case ' ':
+            e.preventDefault();
+            selfTest.flip();
             break;
         }
       } else if (activeScreen.id === 'screen-review' && reviewManager.isActive && !reviewManager.cardManager.isAnimating) {
@@ -454,6 +495,10 @@ class App {
       `;
       container.appendChild(item);
     }
+  }
+
+  _showDailyHistory() {
+    dailyHistory.show();
   }
 
   _showReview() {

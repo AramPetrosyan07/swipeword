@@ -23,6 +23,7 @@ class Store {
         if (!w.nextReview) w.nextReview = today;
       });
     }
+    if (!this.data.dailyLog) this.data.dailyLog = [];
   }
 
   _defaults() {
@@ -40,6 +41,7 @@ class Store {
       shuffle: false,
       importHistory: [],
       currentFileName: null,
+      dailyLog: [],
     };
   }
 
@@ -119,6 +121,8 @@ class Store {
     word.nextReview = this._addDays(today, word.interval);
     this.data.stats.totalReviewed++;
 
+    this._appendToDailyLog(id, word.english, word.armenian, status);
+
     if (this.data.lastPracticed !== today) {
       if (this.data.lastPracticed) {
         const lastDate = new Date(this.data.lastPracticed);
@@ -132,6 +136,25 @@ class Store {
     }
     this.save();
     return prevState;
+  }
+
+  _appendToDailyLog(wordId, english, armenian, action) {
+    const today = this._getToday();
+    let dayEntry = this.data.dailyLog.find(d => d.date === today);
+    if (!dayEntry) {
+      dayEntry = { date: today, entries: [] };
+      this.data.dailyLog.push(dayEntry);
+    }
+    dayEntry.entries.push({ wordId, english, armenian, action });
+  }
+
+  getDayHistory(dateStr) {
+    const day = this.data.dailyLog.find(d => d.date === dateStr);
+    if (!day) return { remembered: [], forgotten: [] };
+    return {
+      remembered: day.entries.filter(e => e.action === 'remembered'),
+      forgotten: day.entries.filter(e => e.action === 'forgotten'),
+    };
   }
 
   revertWord(id, prevState) {
