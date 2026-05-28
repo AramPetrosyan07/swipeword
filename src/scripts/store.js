@@ -7,10 +7,22 @@ class Store {
     const saved = await window.electronAPI.storeLoad();
     if (saved) {
       this.data = saved;
+      this._migrate();
     } else {
       this.data = this._defaults();
     }
     return this.data;
+  }
+
+  _migrate() {
+    const today = this._getToday();
+    if (this.data.words) {
+      this.data.words.forEach((w) => {
+        if (w.interval === undefined) w.interval = 0;
+        if (w.ease === undefined) w.ease = 2.5;
+        if (!w.nextReview) w.nextReview = today;
+      });
+    }
   }
 
   _defaults() {
@@ -58,12 +70,16 @@ class Store {
   }
 
   initWords(words, fileName) {
+    const today = this._getToday();
     this.data.words = words.map((w, i) => ({
       id: i,
       english: w.english,
       armenian: w.armenian,
       example: w.example || '',
       status: 'unknown',
+      interval: 0,
+      ease: 2.5,
+      nextReview: today,
     }));
     this.data.stats = {
       totalReviewed: 0,
@@ -78,13 +94,31 @@ class Store {
 
   markWord(id, status) {
     const word = this.data.words.find((w) => w.id === id);
-    if (!word) return;
+    if (!word) return null;
+
+    const prevState = {
+      status: word.status,
+      interval: word.interval,
+      ease: word.ease,
+      nextReview: word.nextReview,
+    };
+
     word.status = status;
-    if (status === 'remembered') this.data.stats.totalRemembered++;
-    else if (status === 'forgotten') this.data.stats.totalForgotten++;
+    const today = this._getToday();
+
+    if (status === 'remembered') {
+      word.interval = word.interval === 0 ? 1 : Math.round(word.interval * word.ease);
+      word.ease += 0.1;
+      this.data.stats.totalRemembered++;
+    } else if (status === 'forgotten') {
+      word.interval = 0;
+      word.ease = Math.max(1.3, word.ease - 0.2);
+      this.data.stats.totalForgotten++;
+    }
+
+    word.nextReview = this._addDays(today, word.interval);
     this.data.stats.totalReviewed++;
 
-    const today = this._getToday();
     if (this.data.lastPracticed !== today) {
       if (this.data.lastPracticed) {
         const lastDate = new Date(this.data.lastPracticed);
@@ -97,6 +131,33 @@ class Store {
       this.data.lastPracticed = today;
     }
     this.save();
+    return prevState;
+  }
+
+  revertWord(id, prevState) {
+    const word = this.data.words.find((w) => w.id === id);
+    if (!word) return;
+
+    if (word.status === 'remembered') this.data.stats.totalRemembered--;
+    else if (word.status === 'forgotten') this.data.stats.totalForgotten--;
+    this.data.stats.totalReviewed--;
+
+    word.status = prevState.status;
+    word.interval = prevState.interval;
+    word.ease = prevState.ease;
+    word.nextReview = prevState.nextReview;
+    this.save();
+  }
+
+  getDueCount() {
+    const today = this._getToday();
+    return this.data.words.filter((w) => w.nextReview <= today).length;
+  }
+
+  _addDays(dateStr, days) {
+    const d = new Date(dateStr);
+    d.setDate(d.getDate() + days);
+    return d.toISOString().split('T')[0];
   }
 
   getStats() {
@@ -129,7 +190,13 @@ class Store {
   }
 
   resetProgress() {
-    this.data.words.forEach((w) => (w.status = 'unknown'));
+    const today = this._getToday();
+    this.data.words.forEach((w) => {
+      w.status = 'unknown';
+      w.interval = 0;
+      w.ease = 2.5;
+      w.nextReview = today;
+    });
     this.data.stats = {
       totalReviewed: 0,
       totalRemembered: 0,

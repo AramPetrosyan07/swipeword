@@ -57,6 +57,10 @@ body {
   display: flex;
 }
 
+#screen-learn {
+  position: relative;
+}
+
 /* Top Bar */
 .top-bar {
   display: flex;
@@ -232,9 +236,72 @@ body {
   color: var(--text-secondary);
 }
 
+.stat-card {
+  cursor: pointer;
+}
+
 .stats-actions {
   padding: 16px;
   text-align: center;
+}
+
+/* Word List */
+.word-list {
+  flex: 1;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.word-list-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.word-list-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.word-list-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.word-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.word-list-item:hover {
+  background: var(--border);
+}
+
+.word-list-item-english {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.word-list-item-armenian {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.word-list-empty {
+  text-align: center;
+  padding: 40px 16px;
+  color: var(--text-secondary);
+  font-size: 14px;
 }
 
 /* Review Screen */
@@ -425,4 +492,183 @@ body {
 .sidebar-info-sub {
   font-size: 11px;
   margin-top: 2px;
+}
+
+/* Learn content: card + letter strip in a row */
+.learn-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+/* Letter Strip */
+.letter-strip {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 8px 2px;
+  gap: 2px;
+  border-left: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.letter-strip-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.letter-strip-item:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.letter-strip-item.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.letter-strip-item.has-words {
+  color: var(--text);
+  font-weight: 700;
+}
+
+/* Undo Toast */
+.undo-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+  z-index: 200;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.undo-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.undo-toast-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.undo-toast-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.undo-toast-btn:hover {
+  background: var(--primary-hover);
+}
+
+/* History Panel */
+.history-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg);
+  z-index: 50;
+  display: none;
+  flex-direction: column;
+}
+
+.history-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.history-panel-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.history-panel-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.history-panel-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.history-panel-item:hover {
+  background: var(--surface);
+}
+
+.history-panel-word {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+}
+
+.history-panel-translation {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.history-panel-action {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.history-remembered .history-panel-action {
+  color: var(--success);
+}
+
+.history-forgot .history-panel-action {
+  color: var(--danger);
+}
+
+.history-panel-empty {
+  text-align: center;
+  padding: 40px 16px;
+  color: var(--text-secondary);
+  font-size: 14px;
 }

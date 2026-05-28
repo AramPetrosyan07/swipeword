@@ -80,49 +80,67 @@
         <button class="icon-btn" id="btnMenu" title="Menu">&#9776;</button>
         <span class="progress-text" id="progressText">0 / 0</span>
         <div class="top-right">
+          <button class="icon-btn" id="btnHistory" title="Session history">&#128196;</button>
           <button class="icon-btn" id="btnShuffle" title="Shuffle">&#8635;</button>
           <button class="icon-btn" id="btnTheme" title="Toggle theme">&#9790;</button>
         </div>
       </div>
 
-      <div class="card-area" id="cardArea">
-        <div class="card-stack" id="cardStack">
-          <div class="card" id="card">
-            <div class="card-inner" id="cardInner">
-              <div class="card-front">
-                <div class="card-letter-badge" id="cardLetter"></div>
-                <h2 class="card-word" id="cardWord">word</h2>
-                <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
-              </div>
-              <div class="card-back">
-                <div class="card-letter-badge" id="cardLetterBack"></div>
-                <h3 class="card-translation-label">Translation</h3>
-                <p class="card-translation" id="cardTranslation">translation</p>
-                <div class="card-example" id="cardExample">example</div>
+      <div class="learn-content">
+        <div class="card-area" id="cardArea">
+          <div class="card-stack" id="cardStack">
+            <div class="card" id="card">
+              <div class="card-inner" id="cardInner">
+                <div class="card-front">
+                  <div class="card-letter-badge" id="cardLetter"></div>
+                  <h2 class="card-word" id="cardWord">word</h2>
+                  <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
+                </div>
+                <div class="card-back">
+                  <div class="card-letter-badge" id="cardLetterBack"></div>
+                  <h3 class="card-translation-label">Translation</h3>
+                  <p class="card-translation" id="cardTranslation">translation</p>
+                  <div class="card-example" id="cardExample">example</div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="card-actions">
+            <button class="action-btn action-forgot" id="btnForgot" title="Don't remember (Left)">
+              &#10007;
+            </button>
+            <button class="action-btn action-flip" id="btnFlip" title="Show/hide translation">
+              &#128065;
+            </button>
+            <button class="action-btn action-tts" id="btnTTS" title="Listen to pronunciation">
+              &#128266;
+            </button>
+            <button class="action-btn action-remember" id="btnRemember" title="Remembered (Right)">
+              &#10003;
+            </button>
+          </div>
         </div>
-        <div class="card-actions">
-          <button class="action-btn action-forgot" id="btnForgot" title="Don't remember (Left)">
-            &#10007;
-          </button>
-          <button class="action-btn action-flip" id="btnFlip" title="Show/hide translation">
-            &#128065;
-          </button>
-          <button class="action-btn action-tts" id="btnTTS" title="Listen to pronunciation">
-            &#128266;
-          </button>
-          <button class="action-btn action-remember" id="btnRemember" title="Remembered (Right)">
-            &#10003;
-          </button>
+        <div class="letter-strip" id="letterStrip"></div>
+      </div>
+
+      <div class="history-panel" id="historyPanel" style="display:none;">
+        <div class="history-panel-header">
+          <span class="history-panel-title">Session History</span>
+          <button class="icon-btn" id="btnHistoryClose" title="Close">&times;</button>
         </div>
+        <div class="history-panel-items" id="historyPanelItems"></div>
       </div>
 
       <div class="empty-state" id="emptyState" style="display:none;">
         <p>No more words to review!</p>
         <button class="btn btn-primary" id="btnResetSession">Start Over</button>
       </div>
+    </div>
+
+    <!-- Undo Toast -->
+    <div id="undoToast" class="undo-toast">
+      <span class="undo-toast-text">Swiped!</span>
+      <button class="undo-toast-btn" id="btnUndo">Undo</button>
     </div>
 
     <!-- Review Screen -->
@@ -174,30 +192,37 @@
         <div></div>
       </div>
       <div class="stats-container" id="statsContainer">
-        <div class="stat-card">
+        <div class="stat-card" data-stat="total">
           <span class="stat-number" id="statTotal">0</span>
           <span class="stat-label">Total Words</span>
         </div>
-        <div class="stat-card stat-remembered">
+        <div class="stat-card stat-remembered" data-stat="remembered">
           <span class="stat-number" id="statRemembered">0</span>
           <span class="stat-label">Remembered</span>
         </div>
-        <div class="stat-card stat-forgotten">
+        <div class="stat-card stat-forgotten" data-stat="forgotten">
           <span class="stat-number" id="statForgotten">0</span>
           <span class="stat-label">Forgotten</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-stat="accuracy">
           <span class="stat-number" id="statAccuracy">0%</span>
           <span class="stat-label">Accuracy</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-stat="streak">
           <span class="stat-number" id="statStreak">0</span>
           <span class="stat-label">Day Streak</span>
         </div>
-        <div class="stat-card">
+        <div class="stat-card" data-stat="sessions">
           <span class="stat-number" id="statSessions">0</span>
           <span class="stat-label">Sessions</span>
         </div>
+      </div>
+      <div class="word-list" id="wordList" style="display:none;">
+        <div class="word-list-header">
+          <button class="icon-btn" id="btnWordListBack" title="Back">&#8592;</button>
+          <span class="word-list-title" id="wordListTitle">Words</span>
+        </div>
+        <div class="word-list-items" id="wordListItems"></div>
       </div>
       <div class="stats-actions">
         <button class="btn btn-secondary" id="btnResetProgress">Reset All Progress</button>

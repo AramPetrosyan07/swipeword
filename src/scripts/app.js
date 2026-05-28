@@ -6,6 +6,11 @@ class App {
     this.shuffleEnabled = false;
     this.currentFileName = null;
 
+    this.undoStack = [];
+    this.undoTimer = null;
+    this.filterLetter = null;
+    this.sessionHistory = [];
+
     this.learnCard = new CardManager({
       cardEl: document.getElementById('card'),
       innerEl: document.getElementById('cardInner'),
@@ -34,6 +39,7 @@ class App {
     }
 
     this._updateSidebar();
+    this._renderLetterStrip();
   }
 
   _bindEvents() {
@@ -83,6 +89,9 @@ class App {
         tts.speak(this.learnCard.currentWord.english);
       }
     });
+    document.getElementById('btnUndo').addEventListener('click', () => this._undo());
+    document.getElementById('btnHistory').addEventListener('click', () => this._toggleHistory());
+    document.getElementById('btnHistoryClose').addEventListener('click', () => this._toggleHistory());
     document.getElementById('btnResetSession').addEventListener('click', () => this._resetSession());
 
     // Review screen
@@ -102,7 +111,15 @@ class App {
     document.getElementById('btnResetProgress').addEventListener('click', () => {
       if (confirm('Reset all progress? This cannot be undone.')) {
         appStore.resetProgress().then(() => {
-          this.words.forEach((w) => (w.status = 'unknown'));
+          const today = new Date().toISOString().split('T')[0];
+          this.words.forEach((w) => {
+            w.status = 'unknown';
+            w.interval = 0;
+            w.ease = 2.5;
+            w.nextReview = today;
+          });
+          this.undoStack = [];
+          this._hideUndoToast();
           this.currentIndex = 0;
           this._showLearnScreen();
         });
@@ -147,6 +164,11 @@ class App {
           case ' ':
             e.preventDefault();
             this.learnCard.flip();
+            break;
+          case 'z':
+          case 'Z':
+            e.preventDefault();
+            this._undo();
             break;
         }
       } else if (activeScreen.id === 'screen-review' && reviewManager.isActive && !reviewManager.cardManager.isAnimating) {
@@ -239,8 +261,11 @@ class App {
     await appStore.initWords(words, result.fileName);
     await appStore.addHistory(result.fileName, words.length);
     this.words = appStore.getAllWords();
+    this.filterLetter = null;
+    this.sessionHistory = [];
     this._startLearning();
     this._updateSidebar();
+    this._renderLetterStrip();
   }
 
   _startLearning() {
@@ -249,10 +274,14 @@ class App {
   }
 
   _buildQueue() {
-    const unknown = this.words.filter((w) => w.status === 'unknown');
-    const forgotten = this.words.filter((w) => w.status === 'forgotten');
+    const today = new Date().toISOString().split('T')[0];
+    this.screenOrder = this.words.filter((w) => w.nextReview <= today);
 
-    this.screenOrder = [...unknown, ...forgotten];
+    if (this.filterLetter) {
+      this.screenOrder = this.screenOrder.filter(
+        (w) => w.english.charAt(0).toUpperCase() === this.filterLetter
+      );
+    }
 
     if (this.shuffleEnabled) {
       for (let i = this.screenOrder.length - 1; i > 0; i--) {
@@ -264,9 +293,42 @@ class App {
     this.currentIndex = 0;
   }
 
+  _renderLetterStrip() {
+    const strip = document.getElementById('letterStrip');
+    if (!strip) return;
+    strip.innerHTML = '';
+
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    for (const letter of letters) {
+      const btn = document.createElement('button');
+      btn.className = 'letter-strip-item';
+      btn.textContent = letter;
+      btn.dataset.letter = letter;
+
+      const count = this.words.filter(
+        (w) => w.english.charAt(0).toUpperCase() === letter && w.nextReview <= new Date().toISOString().split('T')[0]
+      ).length;
+      if (count > 0) btn.classList.add('has-words');
+      if (this.filterLetter === letter) btn.classList.add('active');
+
+      btn.addEventListener('click', () => {
+        if (this.filterLetter === letter) {
+          this.filterLetter = null;
+        } else {
+          this.filterLetter = letter;
+        }
+        this._startLearning();
+        this._renderLetterStrip();
+      });
+
+      strip.appendChild(btn);
+    }
+  }
+
   _showImportScreen() {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-import').classList.add('active');
+    this.filterLetter = null;
   }
 
   _showLearnScreen() {
@@ -275,19 +337,14 @@ class App {
 
     this._buildQueue();
     this._showCurrentCard();
+    this._renderLetterStrip();
   }
 
   _showCurrentCard() {
-    const unknownCount = this.words.filter((w) => w.status === 'unknown').length;
-
-    if (this.currentIndex >= this.screenOrder.length && unknownCount === 0) {
+    if (this.currentIndex >= this.screenOrder.length) {
       document.getElementById('cardArea').style.display = 'none';
       document.getElementById('emptyState').style.display = 'flex';
       return;
-    }
-
-    if (this.currentIndex >= this.screenOrder.length) {
-      this._buildQueue();
     }
 
     document.getElementById('cardArea').style.display = 'flex';
@@ -295,31 +352,108 @@ class App {
 
     this.learnCard.show(this.screenOrder[this.currentIndex]);
 
-    const reviewed = appStore.data.stats.totalReviewed || 0;
+    const due = this.screenOrder.length;
     const total = this.words.length;
-    document.getElementById('progressText').textContent = `${reviewed} / ${total}`;
+    const filterText = this.filterLetter ? ` [${this.filterLetter}]` : '';
+    document.getElementById('progressText').textContent = `Due: ${due} / ${total}${filterText}`;
+    this._renderLetterStrip();
   }
 
   _handleForgot(word) {
-    appStore.markWord(word.id, 'forgotten');
+    const prevState = appStore.markWord(word.id, 'forgotten');
+    if (prevState) {
+      this.undoStack.push({ wordId: word.id, prevState });
+      this.sessionHistory.push({ english: word.english, armenian: word.armenian, action: 'forgot' });
+    }
     this.currentIndex++;
     this._showCurrentCard();
+    this._showUndoToast();
   }
 
   _handleRemember(word) {
-    appStore.markWord(word.id, 'remembered');
+    const prevState = appStore.markWord(word.id, 'remembered');
+    if (prevState) {
+      this.undoStack.push({ wordId: word.id, prevState });
+      this.sessionHistory.push({ english: word.english, armenian: word.armenian, action: 'remembered' });
+    }
     this.currentIndex++;
     this._showCurrentCard();
+    this._showUndoToast();
+  }
+
+  _undo() {
+    if (this.undoStack.length === 0) return;
+    if (this.learnCard.isAnimating) return;
+    const last = this.undoStack.pop();
+    appStore.revertWord(last.wordId, last.prevState);
+    this.currentIndex = Math.max(0, this.currentIndex - 1);
+    this.sessionHistory.pop();
+    this._showCurrentCard();
+    this._hideUndoToast();
+  }
+
+  _showUndoToast() {
+    const toast = document.getElementById('undoToast');
+    if (!toast) return;
+    toast.classList.add('visible');
+    clearTimeout(this.undoTimer);
+    this.undoTimer = setTimeout(() => this._hideUndoToast(), 3000);
+  }
+
+  _hideUndoToast() {
+    const toast = document.getElementById('undoToast');
+    if (!toast) return;
+    toast.classList.remove('visible');
+    clearTimeout(this.undoTimer);
   }
 
   _resetSession() {
-    this.words.forEach((w) => (w.status = 'unknown'));
+    this.undoStack = [];
+    this.filterLetter = null;
+    this.sessionHistory = [];
+    this._hideUndoToast();
+    this.words.forEach((w) => {
+      w.status = 'unknown';
+      w.interval = 0;
+      w.ease = 2.5;
+      w.nextReview = new Date().toISOString().split('T')[0];
+    });
     appStore.data.stats.totalReviewed = 0;
     appStore.data.stats.totalRemembered = 0;
     appStore.data.stats.totalForgotten = 0;
     appStore.save();
     this._buildQueue();
     this._showCurrentCard();
+    this._renderLetterStrip();
+  }
+
+  _toggleHistory() {
+    const panel = document.getElementById('historyPanel');
+    const isOpen = panel.style.display === 'flex';
+    panel.style.display = isOpen ? 'none' : 'flex';
+    if (!isOpen) this._renderHistoryPanel();
+  }
+
+  _renderHistoryPanel() {
+    const container = document.getElementById('historyPanelItems');
+    container.innerHTML = '';
+
+    if (this.sessionHistory.length === 0) {
+      container.innerHTML = '<div class="history-panel-empty">No words reviewed yet this session</div>';
+      return;
+    }
+
+    for (let i = this.sessionHistory.length - 1; i >= 0; i--) {
+      const entry = this.sessionHistory[i];
+      const item = document.createElement('div');
+      item.className = `history-panel-item history-${entry.action}`;
+      item.innerHTML = `
+        <div class="history-panel-word">${entry.english}</div>
+        <div class="history-panel-translation">${entry.armenian}</div>
+        <div class="history-panel-action">${entry.action === 'remembered' ? '&#10003;' : '&#10007;'}</div>
+      `;
+      container.appendChild(item);
+    }
   }
 
   _showReview() {
