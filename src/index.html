@@ -61,6 +61,13 @@
 
     <!-- Import Screen -->
     <div id="screen-import" class="screen active">
+      <div class="top-bar">
+        <div></div>
+        <span class="progress-text">Import Words</span>
+        <div class="top-right">
+          <button class="icon-btn" id="btnImportModes" title="Learning Modes">&#127918;</button>
+        </div>
+      </div>
       <div class="import-container">
         <h1 class="logo">SwipeWord</h1>
         <p class="subtitle">Learn English words the Tinder way</p>
@@ -88,6 +95,7 @@
         <div class="top-right">
           <button class="icon-btn" id="btnHistory" title="Session history">&#128196;</button>
           <button class="icon-btn" id="btnShuffle" title="Shuffle">&#8635;</button>
+          <button class="icon-btn" id="btnModes" title="Learning Modes">&#127918;</button>
           <button class="icon-btn" id="btnTheme" title="Toggle theme">&#9790;</button>
         </div>
       </div>
@@ -140,6 +148,235 @@
       <div class="empty-state" id="emptyState" style="display:none;">
         <p>No more words to review!</p>
         <button class="btn btn-primary" id="btnResetSession">Start Over</button>
+      </div>
+    </div>
+
+    <!-- Modes Panel Overlay -->
+    <div id="modesOverlay" class="modes-overlay" style="display:none;">
+      <div class="modes-panel">
+        <div class="modes-panel-header">
+          <span class="modes-panel-title">&#127918; Learning Modes</span>
+          <button class="icon-btn" id="btnModesClose">&times;</button>
+        </div>
+        <div class="modes-grid" id="modesGrid"></div>
+        <div class="modes-footer">
+          <label>Collection:</label>
+          <select id="modesCollectionSelect">
+            <option value="all">All Words</option>
+            <option value="due">Due Words</option>
+            <option value="forgotten">Forgotten Words</option>
+            <option value="remembered">Remembered Words</option>
+          </select>
+        </div>
+        <div class="modes-letter-filter">
+          <span class="modes-letter-label">Letter:</span>
+          <button class="modes-letter-btn active" data-letter="">All</button>
+          <div class="modes-letter-list" id="modesLetterList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Typing Mode Screen -->
+    <div id="screen-typing" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnTypingBack" title="Back">&#8592;</button>
+        <span class="progress-text">Typing Mode</span>
+        <span class="progress-text" id="typingProgress">1 / 10</span>
+      </div>
+      <div class="typing-content">
+        <div class="typing-prompt" id="typingPrompt">&#65039;</div>
+        <input type="text" class="typing-input" id="typingInput" placeholder="Type the English word..." autocomplete="off" spellcheck="false" />
+        <div class="typing-feedback" id="typingFeedback"></div>
+        <div class="typing-actions">
+          <button class="btn btn-secondary" id="btnTypingSkip">Skip</button>
+          <button class="btn btn-primary" id="btnTypingSubmit">Check</button>
+        </div>
+      </div>
+      <div class="typing-result" id="typingResult" style="display:none;">
+        <div class="typing-result-icon">&#127942;</div>
+        <h2 class="typing-result-title">Typing Complete!</h2>
+        <p class="typing-result-score" id="typingResultScore">0 / 0</p>
+        <p class="typing-result-pct" id="typingResultPct">0%</p>
+        <div class="typing-result-actions">
+          <button class="btn btn-primary" id="btnTypingRetry">Try Again</button>
+          <button class="btn btn-secondary" id="btnTypingDone">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speed Round Screen -->
+    <div id="screen-speed" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnSpeedBack" title="Back">&#8592;</button>
+        <span class="progress-text">Speed Round</span>
+        <span class="progress-text" id="speedProgress">1 / 10</span>
+      </div>
+      <div class="speed-content">
+        <div class="speed-timer" id="speedTimer">
+          <svg class="speed-timer-ring" viewBox="0 0 100 100">
+            <circle class="speed-timer-bg" cx="50" cy="50" r="45"/>
+            <circle class="speed-timer-fill" id="speedTimerFill" cx="50" cy="50" r="45"/>
+          </svg>
+          <span class="speed-timer-text" id="speedTimerText">5</span>
+        </div>
+        <div class="card-area">
+          <div class="card-stack" id="speedCardStack">
+            <div class="card" id="speedCard">
+              <div class="card-inner" id="speedCardInner">
+                <div class="card-front">
+                  <div class="card-letter-badge" id="speedCardLetter"></div>
+                  <h2 class="card-word" id="speedCardWord">word</h2>
+                  <div class="card-hidden-hint">&#128065; Tap to reveal</div>
+                </div>
+                <div class="card-back">
+                  <div class="card-letter-badge" id="speedCardLetterBack"></div>
+                  <h3 class="card-translation-label">Translation</h3>
+                  <p class="card-translation" id="speedCardTranslation">translation</p>
+                  <div class="card-example" id="speedCardExample">example</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="action-btn action-forgot" id="btnSpeedForgot">&#10007;</button>
+            <button class="action-btn action-flip" id="btnSpeedFlip">&#128065;</button>
+            <button class="action-btn action-remember" id="btnSpeedRemember">&#10003;</button>
+          </div>
+        </div>
+      </div>
+      <div class="selftest-result" id="speedResult" style="display:none;">
+        <div class="selftest-result-icon">&#9201;</div>
+        <h2 class="selftest-result-title">Time's Up!</h2>
+        <p class="selftest-result-score" id="speedResultScore">0 / 0</p>
+        <p class="selftest-result-pct" id="speedResultPct">0%</p>
+        <div class="selftest-result-actions">
+          <button class="btn btn-primary" id="btnSpeedRetry">Try Again</button>
+          <button class="btn btn-secondary" id="btnSpeedDone">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Listening Mode Screen -->
+    <div id="screen-listening" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnListeningBack" title="Back">&#8592;</button>
+        <span class="progress-text">Listening Mode</span>
+        <span class="progress-text" id="listeningProgress">1 / 10</span>
+      </div>
+      <div class="listening-content">
+        <div class="listening-speaker" id="listeningSpeaker">&#128264;</div>
+        <button class="btn btn-secondary" id="btnListeningReplay">&#128266; Tap to replay</button>
+        <div class="listening-word" id="listeningWord" style="display:none;"></div>
+        <div class="listening-translation" id="listeningTranslation" style="display:none;"></div>
+        <div class="listening-actions">
+          <button class="btn btn-secondary" id="btnListeningForgot">&#10007; I don't know</button>
+          <button class="btn btn-primary" id="btnListeningRemember">&#10003; I know it</button>
+        </div>
+      </div>
+      <div class="selftest-result" id="listeningResult" style="display:none;">
+        <h2 class="selftest-result-title">Listening Complete!</h2>
+        <p class="selftest-result-score" id="listeningResultScore">0 / 0</p>
+        <p class="selftest-result-pct" id="listeningResultPct">0%</p>
+        <div class="selftest-result-actions">
+          <button class="btn btn-primary" id="btnListeningRetry">Try Again</button>
+          <button class="btn btn-secondary" id="btnListeningDone">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Multiple Choice Screen -->
+    <div id="screen-multichoice" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnMultichoiceBack" title="Back">&#8592;</button>
+        <span class="progress-text">Multiple Choice</span>
+        <span class="progress-text" id="multichoiceProgress">1 / 10</span>
+      </div>
+      <div class="multichoice-content">
+        <div class="multichoice-question" id="multichoiceQuestion">word</div>
+        <div class="multichoice-options" id="multichoiceOptions"></div>
+      </div>
+      <div class="selftest-result" id="multichoiceResult" style="display:none;">
+        <h2 class="selftest-result-title">Multiple Choice Complete!</h2>
+        <p class="selftest-result-score" id="multichoiceResultScore">0 / 0</p>
+        <p class="selftest-result-pct" id="multichoiceResultPct">0%</p>
+        <div class="selftest-result-actions">
+          <button class="btn btn-primary" id="btnMultichoiceRetry">Try Again</button>
+          <button class="btn btn-secondary" id="btnMultichoiceDone">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Challenge Mode Screen -->
+    <div id="screen-challenge" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnChallengeBack" title="Back">&#8592;</button>
+        <span class="progress-text">Challenge Mode</span>
+        <span class="progress-text" id="challengeBestIndicator">Best: 0</span>
+      </div>
+      <div class="challenge-content">
+        <div class="challenge-timer" id="challengeTimer">60</div>
+        <div class="challenge-score" id="challengeScore">Words: 0</div>
+        <div class="card-area">
+          <div class="card-stack" id="challengeCardStack">
+            <div class="card" id="challengeCard">
+              <div class="card-inner" id="challengeCardInner">
+                <div class="card-front">
+                  <div class="card-letter-badge" id="challengeCardLetter"></div>
+                  <h2 class="card-word" id="challengeCardWord">word</h2>
+                  <div class="card-hidden-hint">&#128065; Tap to reveal</div>
+                </div>
+                <div class="card-back">
+                  <div class="card-letter-badge" id="challengeCardLetterBack"></div>
+                  <h3 class="card-translation-label">Translation</h3>
+                  <p class="card-translation" id="challengeCardTranslation">translation</p>
+                  <div class="card-example" id="challengeCardExample">example</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="action-btn action-forgot" id="btnChallengeForgot">&#10007;</button>
+            <button class="action-btn action-flip" id="btnChallengeFlip">&#128065;</button>
+            <button class="action-btn action-remember" id="btnChallengeRemember">&#10003;</button>
+          </div>
+        </div>
+      </div>
+      <div class="selftest-result" id="challengeResult" style="display:none;">
+        <div class="selftest-result-icon">&#127942;</div>
+        <h2 class="selftest-result-title">Challenge Complete!</h2>
+        <p class="selftest-result-score" id="challengeResultScore">0 words/min</p>
+        <div class="challenge-best-new" id="challengeBestNew" style="display:none;">&#127881; NEW BEST!</div>
+        <div class="selftest-result-actions">
+          <button class="btn btn-primary" id="btnChallengeRetry">Try Again</button>
+          <button class="btn btn-secondary" id="btnChallengeDone">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Story Mode Screen -->
+    <div id="screen-story" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnStoryBack" title="Back">&#8592;</button>
+        <span class="progress-text">Story Mode</span>
+        <div></div>
+      </div>
+      <div class="story-list" id="storyList"></div>
+      <div class="story-reader" id="storyReader" style="display:none;">
+        <div class="story-reader-header">
+          <button class="icon-btn" id="btnStoryReaderBack" title="Back">&#8592;</button>
+          <span class="story-reader-title" id="storyReaderTitle"></span>
+        </div>
+        <div class="story-reader-content" id="storyReaderContent"></div>
+        <div class="story-reader-footer">
+          <button class="btn btn-primary" id="btnStoryMarkRead">Mark as Read</button>
+        </div>
+      </div>
+      <div class="story-popup" id="storyPopup" style="display:none;">
+        <div class="story-popup-content">
+          <span class="story-popup-word" id="storyPopupWord"></span>
+          <span class="story-popup-translation" id="storyPopupTranslation"></span>
+          <button class="icon-btn" id="btnStoryPopupClose">&times;</button>
+        </div>
       </div>
     </div>
 
@@ -330,6 +567,15 @@
   <script src="scripts/review.js"></script>
   <script src="scripts/daily-history.js"></script>
   <script src="scripts/selftest.js"></script>
+  <script src="scripts/base-mode.js"></script>
+  <script src="scripts/modes.js"></script>
+  <script src="scripts/typing-mode.js"></script>
+  <script src="scripts/speed-mode.js"></script>
+  <script src="scripts/listening-mode.js"></script>
+  <script src="scripts/multichoice-mode.js"></script>
+  <script src="scripts/challenge-mode.js"></script>
+  <script src="scripts/story-mode.js"></script>
+  <script src="scripts/collections.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>

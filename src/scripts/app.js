@@ -38,6 +38,8 @@ class App {
       this._startLearning();
     }
 
+    modesManager.init();
+
     this._updateSidebar();
     this._renderLetterStrip();
   }
@@ -87,6 +89,9 @@ class App {
     // Import
     document.getElementById('btnImport').addEventListener('click', () => this._importFile());
     document.getElementById('importBox').addEventListener('click', () => this._importFile());
+    document.getElementById('btnImportModes').addEventListener('click', () => {
+      if (this.words.length > 0) modesManager.open();
+    });
 
     // Learn screen
     document.getElementById('btnForgot').addEventListener('click', () => this.learnCard.animateForgot());
@@ -157,6 +162,9 @@ class App {
       this.shuffleEnabled = !this.shuffleEnabled;
       if (this.words.length > 0) this._buildQueue();
       this._updateSidebar();
+    });
+    document.getElementById('btnModes').addEventListener('click', () => {
+      modesManager.open();
     });
     document.getElementById('btnTheme').addEventListener('click', () => {
       themeManager.toggle();

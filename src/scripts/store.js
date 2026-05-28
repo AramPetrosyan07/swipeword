@@ -42,6 +42,10 @@ class Store {
       importHistory: [],
       currentFileName: null,
       dailyLog: [],
+      collections: [],
+      challengeBest: 0,
+      storyProgress: [],
+      storyWords: [],
     };
   }
 
@@ -210,6 +214,29 @@ class Store {
 
   getAllWords() {
     return this.data.words;
+  }
+
+  getWordsForMode(filter) {
+    const today = this._getToday();
+    switch (filter) {
+      case 'all':
+        return this.getAllWords();
+      case 'due':
+        return this.data.words.filter((w) => w.nextReview <= today);
+      case 'forgotten':
+        return this.getForgottenWords();
+      case 'remembered':
+        return this.data.words.filter((w) => w.status === 'remembered');
+      default:
+        if (filter && filter.startsWith('collection-')) {
+          const colId = filter.replace('collection-', '');
+          const col = this.data.collections.find((c) => c.id === colId);
+          if (col) {
+            return this.data.words.filter((w) => col.wordIds.includes(w.id));
+          }
+        }
+        return this.getAllWords();
+    }
   }
 
   resetProgress() {
