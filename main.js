@@ -67,3 +67,16 @@ ipcMain.handle("store:save", (_event, data) => {
     return false;
   }
 });
+
+const dictPath = path.join(__dirname, "b2_dictionary.json");
+
+ipcMain.handle("store:loadDictionary", async () => {
+  try {
+    if (fs.existsSync(dictPath)) {
+      return JSON.parse(fs.readFileSync(dictPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load dictionary:", e);
+  }
+  return null;
+});

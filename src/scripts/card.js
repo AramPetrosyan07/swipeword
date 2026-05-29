@@ -7,6 +7,9 @@ class CardManager {
     this.exampleEl = config.exampleEl;
     this.letterEl = config.letterEl;
     this.letterBackEl = config.letterBackEl;
+    this.synonymsEl = config.synonymsEl || null;
+    this.antonymsEl = config.antonymsEl || null;
+    this.descriptionEl = config.descriptionEl || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
     this.mode = config.mode || 'learn';
@@ -26,7 +29,23 @@ class CardManager {
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
     this.translationEl.textContent = word.armenian;
-    this.exampleEl.textContent = word.example || '';
+    const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
+    this.exampleEl.innerHTML = examples.map((ex, i) =>
+      `<span class="card-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`
+    ).join('');
+
+    if (this.synonymsEl) {
+      this.synonymsEl.textContent = word.synonyms && word.synonyms.length > 0
+        ? 'Synonyms: ' + word.synonyms.join(', ') : '';
+    }
+    if (this.antonymsEl) {
+      this.antonymsEl.textContent = word.antonyms && word.antonyms.length > 0
+        ? 'Antonyms: ' + word.antonyms.join(', ') : '';
+    }
+    if (this.descriptionEl) {
+      this.descriptionEl.textContent = word.description || '';
+    }
+
     const letter = word.english.charAt(0).toUpperCase();
     this.letterEl.textContent = letter;
     this.letterBackEl.textContent = letter;

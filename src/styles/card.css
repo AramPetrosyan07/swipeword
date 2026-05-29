@@ -119,6 +119,9 @@
 }
 
 .card-example {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   font-size: 14px;
   color: var(--text-secondary);
   text-align: center;
@@ -129,6 +132,37 @@
   border-radius: var(--radius-sm);
   width: 100%;
   max-width: 280px;
+}
+
+.card-example-item {
+  display: block;
+}
+
+.card-synonyms,
+.card-antonyms {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.5;
+  padding: 4px 12px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.card-antonyms {
+  margin-bottom: 4px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #2e7d32;
+  text-align: center;
+  line-height: 1.5;
+  padding: 4px 12px 8px;
+  width: 100%;
+  max-width: 280px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
 }
 
 /* Swipe states */

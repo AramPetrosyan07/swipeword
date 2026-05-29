@@ -1,6 +1,7 @@
 class Store {
   constructor() {
     this.data = null;
+    this.dictionary = [];
   }
 
   async load() {
@@ -12,6 +13,18 @@ class Store {
       this.data = this._defaults();
     }
     return this.data;
+  }
+
+  async loadDictionary() {
+    try {
+      const dict = await window.electronAPI.storeLoadDictionary();
+      if (dict && Array.isArray(dict)) {
+        this.dictionary = dict;
+      }
+    } catch (e) {
+      console.error('Failed to load dictionary:', e);
+    }
+    return this.dictionary;
   }
 
   _migrate() {
@@ -29,6 +42,7 @@ class Store {
   _defaults() {
     return {
       words: [],
+      customContent: {},
       stats: {
         totalReviewed: 0,
         totalRemembered: 0,
@@ -75,18 +89,107 @@ class Store {
     return await window.electronAPI.storeSave(this.data);
   }
 
-  initWords(words, fileName) {
+  _mergeWord(progress) {
+    const CUSTOM_THRESHOLD = 100000;
+
+    if (progress.id >= CUSTOM_THRESHOLD) {
+      const custom = this.data.customContent && this.data.customContent[progress.id];
+      if (custom) {
+        return {
+          id: progress.id,
+          english: custom.english || 'Unknown',
+          armenian: custom.armenian || '',
+          example: custom.example || '',
+          synonyms: [],
+          antonyms: [],
+          description: '',
+          examples: [],
+          status: progress.status,
+          interval: progress.interval,
+          ease: progress.ease,
+          nextReview: progress.nextReview,
+        };
+      }
+    }
+
+    const dictEntry = this.dictionary && this.dictionary[progress.id];
+
+    if (dictEntry) {
+      return {
+        id: progress.id,
+        english: dictEntry.word,
+        armenian: Array.isArray(dictEntry.armenian) ? dictEntry.armenian.join(', ') : (dictEntry.armenian || ''),
+        example: dictEntry.examples && dictEntry.examples[0] ? dictEntry.examples[0] : '',
+        synonyms: dictEntry.synonyms || [],
+        antonyms: dictEntry.antonyms || [],
+        description: dictEntry.description || '',
+        examples: dictEntry.examples || [],
+        status: progress.status,
+        interval: progress.interval,
+        ease: progress.ease,
+        nextReview: progress.nextReview,
+      };
+    }
+
+    if (progress.english !== undefined) {
+      return progress;
+    }
+
+    return {
+      id: progress.id,
+      english: `Word #${progress.id}`,
+      armenian: '',
+      example: '',
+      synonyms: [],
+      antonyms: [],
+      description: '',
+      examples: [],
+      status: progress.status,
+      interval: progress.interval,
+      ease: progress.ease,
+      nextReview: progress.nextReview,
+    };
+  }
+
+  initFromDictionary(count, fileName) {
     const today = this._getToday();
-    this.data.words = words.map((w, i) => ({
+    this.data.words = Array.from({ length: count }, (_, i) => ({
       id: i,
-      english: w.english,
-      armenian: w.armenian,
-      example: w.example || '',
       status: 'unknown',
       interval: 0,
       ease: 2.5,
       nextReview: today,
     }));
+    this.data.customContent = {};
+    this.data.stats = {
+      totalReviewed: 0,
+      totalRemembered: 0,
+      totalForgotten: 0,
+      sessionsCompleted: 0,
+    };
+    this.data.lastPracticed = null;
+    this.data.currentFileName = fileName || null;
+    return this.save();
+  }
+
+  initCustomWords(parsedWords, fileName) {
+    const today = this._getToday();
+    const offset = 100000;
+    this.data.words = parsedWords.map((w, i) => ({
+      id: offset + i,
+      status: 'unknown',
+      interval: 0,
+      ease: 2.5,
+      nextReview: today,
+    }));
+    this.data.customContent = {};
+    parsedWords.forEach((w, i) => {
+      this.data.customContent[offset + i] = {
+        english: w.english,
+        armenian: w.armenian,
+        example: w.example || '',
+      };
+    });
     this.data.stats = {
       totalReviewed: 0,
       totalRemembered: 0,
@@ -125,7 +228,8 @@ class Store {
     word.nextReview = this._addDays(today, word.interval);
     this.data.stats.totalReviewed++;
 
-    this._appendToDailyLog(id, word.english, word.armenian, status);
+    const merged = this._mergeWord(word);
+    this._appendToDailyLog(id, merged.english, merged.armenian, status);
 
     if (this.data.lastPracticed !== today) {
       if (this.data.lastPracticed) {
@@ -188,9 +292,10 @@ class Store {
   }
 
   getStats() {
-    const total = this.data.words.length;
-    const remembered = this.data.words.filter((w) => w.status === 'remembered').length;
-    const forgotten = this.data.words.filter((w) => w.status === 'forgotten').length;
+    const all = this.getAllWords();
+    const total = all.length;
+    const remembered = all.filter((w) => w.status === 'remembered').length;
+    const forgotten = all.filter((w) => w.status === 'forgotten').length;
     const accuracy = this.data.stats.totalReviewed > 0
       ? Math.round((this.data.stats.totalRemembered / this.data.stats.totalReviewed) * 100)
       : 0;
@@ -205,15 +310,21 @@ class Store {
   }
 
   getForgottenWords() {
-    return this.data.words.filter((w) => w.status === 'forgotten');
+    return this.data.words.filter((w) => w.status === 'forgotten').map((w) => this._mergeWord(w));
   }
 
   getUnknownWords() {
-    return this.data.words.filter((w) => w.status === 'unknown');
+    return this.data.words.filter((w) => w.status === 'unknown').map((w) => this._mergeWord(w));
   }
 
   getAllWords() {
-    return this.data.words;
+    return this.data.words.map((w) => this._mergeWord(w));
+  }
+
+  getWordById(id) {
+    const progress = this.data.words.find((w) => w.id === id);
+    if (!progress) return null;
+    return this._mergeWord(progress);
   }
 
   getWordsForMode(filter) {
@@ -222,17 +333,19 @@ class Store {
       case 'all':
         return this.getAllWords();
       case 'due':
-        return this.data.words.filter((w) => w.nextReview <= today);
+        return this.data.words.filter((w) => w.nextReview <= today).map((w) => this._mergeWord(w));
       case 'forgotten':
         return this.getForgottenWords();
       case 'remembered':
-        return this.data.words.filter((w) => w.status === 'remembered');
+        return this.data.words.filter((w) => w.status === 'remembered').map((w) => this._mergeWord(w));
       default:
         if (filter && filter.startsWith('collection-')) {
           const colId = filter.replace('collection-', '');
           const col = this.data.collections.find((c) => c.id === colId);
           if (col) {
-            return this.data.words.filter((w) => col.wordIds.includes(w.id));
+            return this.data.words
+              .filter((w) => col.wordIds.includes(w.id))
+              .map((w) => this._mergeWord(w));
           }
         }
         return this.getAllWords();

@@ -19,6 +19,9 @@ class App {
       exampleEl: document.getElementById('cardExample'),
       letterEl: document.getElementById('cardLetter'),
       letterBackEl: document.getElementById('cardLetterBack'),
+      synonymsEl: document.getElementById('cardSynonyms'),
+      antonymsEl: document.getElementById('cardAntonyms'),
+      descriptionEl: document.getElementById('cardDescription'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),
@@ -27,6 +30,7 @@ class App {
 
   async init() {
     await appStore.load();
+    await appStore.loadDictionary();
     themeManager.init();
 
     this._bindEvents();
@@ -35,6 +39,12 @@ class App {
     if (savedWords.length > 0) {
       this.words = savedWords;
       this.currentFileName = appStore.data.currentFileName || null;
+      this._startLearning();
+    } else if (appStore.dictionary.length > 0) {
+      await appStore.initFromDictionary(appStore.dictionary.length, 'b2_dictionary');
+      await appStore.addHistory('b2_dictionary', appStore.dictionary.length);
+      this.words = appStore.getAllWords();
+      this.currentFileName = 'b2_dictionary';
       this._startLearning();
     }
 
@@ -45,7 +55,6 @@ class App {
   }
 
   _bindEvents() {
-    // Sidebar
     document.getElementById('btnMenu').addEventListener('click', () => this._toggleSidebar());
     document.getElementById('btnSidebarClose').addEventListener('click', () => this._closeSidebar());
     document.getElementById('sidebarOverlay').addEventListener('click', () => this._closeSidebar());
@@ -86,14 +95,12 @@ class App {
       this._updateSidebar();
     });
 
-    // Import
     document.getElementById('btnImport').addEventListener('click', () => this._importFile());
     document.getElementById('importBox').addEventListener('click', () => this._importFile());
     document.getElementById('btnImportModes').addEventListener('click', () => {
       if (this.words.length > 0) modesManager.open();
     });
 
-    // Learn screen
     document.getElementById('btnForgot').addEventListener('click', () => this.learnCard.animateForgot());
     document.getElementById('btnRemember').addEventListener('click', () => this.learnCard.animateRemember());
     document.getElementById('btnFlip').addEventListener('click', () => this.learnCard.flip());
@@ -107,7 +114,6 @@ class App {
     document.getElementById('btnHistoryClose').addEventListener('click', () => this._toggleHistory());
     document.getElementById('btnResetSession').addEventListener('click', () => this._resetSession());
 
-    // Review screen
     document.getElementById('btnReviewForgot').addEventListener('click', () => reviewManager.cardManager.animateForgot());
     document.getElementById('btnReviewRemember').addEventListener('click', () => reviewManager.cardManager.animateRemember());
     document.getElementById('btnReviewFlip').addEventListener('click', () => reviewManager.cardManager.flip());
@@ -119,13 +125,11 @@ class App {
     document.getElementById('btnReviewBack').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('btnBackToLearn').addEventListener('click', () => this._showLearnScreen());
 
-    // Daily History screen
     document.getElementById('btnDailyHistoryBack').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('dailyDateInput').addEventListener('change', (e) => {
       if (e.target.value) dailyHistory._loadDate(e.target.value);
     });
 
-    // Self-Test screen
     document.getElementById('btnSelfTestBack').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('btnSelfTestBackEmpty').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('btnSelfTestFlip').addEventListener('click', () => selfTest.flip());
@@ -137,18 +141,11 @@ class App {
     document.getElementById('btnSelfTestRetry').addEventListener('click', () => selfTest.reset());
     document.getElementById('btnSelfTestDone').addEventListener('click', () => this._showLearnScreen());
 
-    // Stats screen
     document.getElementById('btnStatsBack').addEventListener('click', () => this._showLearnScreen());
     document.getElementById('btnResetProgress').addEventListener('click', () => {
       if (confirm('Reset all progress? This cannot be undone.')) {
         appStore.resetProgress().then(() => {
-          const today = new Date().toISOString().split('T')[0];
-          this.words.forEach((w) => {
-            w.status = 'unknown';
-            w.interval = 0;
-            w.ease = 2.5;
-            w.nextReview = today;
-          });
+          this.words = appStore.getAllWords();
           this.undoStack = [];
           this._hideUndoToast();
           this.currentIndex = 0;
@@ -157,7 +154,6 @@ class App {
       }
     });
 
-    // Top bar buttons (learn screen)
     document.getElementById('btnShuffle').addEventListener('click', () => {
       this.shuffleEnabled = !this.shuffleEnabled;
       if (this.words.length > 0) this._buildQueue();
@@ -171,7 +167,6 @@ class App {
       this._updateSidebar();
     });
 
-    // Keyboard
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT') return;
 
@@ -254,23 +249,19 @@ class App {
   }
 
   _updateSidebar() {
-    // Shuffle indicator
     const shuffleInd = document.getElementById('sideShuffleIndicator');
     shuffleInd.textContent = this.shuffleEnabled ? 'ON' : 'OFF';
     shuffleInd.classList.toggle('active', this.shuffleEnabled);
 
-    // Theme indicator
     const themeInd = document.getElementById('sideThemeIndicator');
     themeInd.textContent = themeManager.darkMode ? 'DARK' : 'LIGHT';
     themeInd.classList.toggle('active', themeManager.darkMode);
 
-    // File info
     document.getElementById('sideFileName').textContent = this.currentFileName || 'No file loaded';
     const stats = appStore.getStats();
     document.getElementById('sideFileStats').textContent =
       `${stats.total} words · ${stats.remembered} remembered · ${stats.forgotten} forgotten`;
 
-    // History
     this._renderHistory();
   }
 
@@ -307,7 +298,7 @@ class App {
     }
 
     this.currentFileName = result.fileName;
-    await appStore.initWords(words, result.fileName);
+    await appStore.initCustomWords(words, result.fileName);
     await appStore.addHistory(result.fileName, words.length);
     this.words = appStore.getAllWords();
     this.filterLetter = null;
@@ -393,6 +384,7 @@ class App {
     if (this.currentIndex >= this.screenOrder.length) {
       document.getElementById('cardArea').style.display = 'none';
       document.getElementById('emptyState').style.display = 'flex';
+      document.getElementById('progressText').textContent = `0 / 0`;
       return;
     }
 
@@ -401,10 +393,17 @@ class App {
 
     this.learnCard.show(this.screenOrder[this.currentIndex]);
 
-    const due = this.screenOrder.length;
-    const total = this.words.length;
-    const filterText = this.filterLetter ? ` [${this.filterLetter}]` : '';
-    document.getElementById('progressText').textContent = `Due: ${due} / ${total}${filterText}`;
+    const pos = this.currentIndex + 1;
+    let total;
+    if (this.filterLetter) {
+      total = this.words.filter(
+        (w) => w.english.charAt(0).toUpperCase() === this.filterLetter
+      ).length;
+    } else {
+      total = this.screenOrder.length;
+    }
+    const filterLabel = this.filterLetter ? ` [${this.filterLetter}]` : '';
+    document.getElementById('progressText').textContent = `${pos} / ${total}${filterLabel}`;
     this._renderLetterStrip();
   }
 
@@ -461,19 +460,12 @@ class App {
     this.filterLetter = null;
     this.sessionHistory = [];
     this._hideUndoToast();
-    this.words.forEach((w) => {
-      w.status = 'unknown';
-      w.interval = 0;
-      w.ease = 2.5;
-      w.nextReview = new Date().toISOString().split('T')[0];
+    appStore.resetProgress().then(() => {
+      this.words = appStore.getAllWords();
+      this._buildQueue();
+      this._showCurrentCard();
+      this._renderLetterStrip();
     });
-    appStore.data.stats.totalReviewed = 0;
-    appStore.data.stats.totalRemembered = 0;
-    appStore.data.stats.totalForgotten = 0;
-    appStore.save();
-    this._buildQueue();
-    this._showCurrentCard();
-    this._renderLetterStrip();
   }
 
   _toggleHistory() {
