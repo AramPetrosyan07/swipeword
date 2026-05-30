@@ -10,6 +10,9 @@ class CardManager {
     this.synonymsEl = config.synonymsEl || null;
     this.antonymsEl = config.antonymsEl || null;
     this.descriptionEl = config.descriptionEl || null;
+    this.tagsEl = config.tagsEl || null;
+    this.tagsFrontEl = config.tagsFrontEl || null;
+    this.onTagClick = config.onTagClick || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
     this.mode = config.mode || 'learn';
@@ -45,6 +48,29 @@ class CardManager {
     if (this.descriptionEl) {
       this.descriptionEl.textContent = word.description || '';
     }
+
+    const tagNames = appStore.getTagsForWord(word.id);
+
+    const renderTags = (container) => {
+      if (!container) return;
+      if (tagNames.length === 0) {
+        container.innerHTML = '';
+        return;
+      }
+      container.innerHTML = tagNames.map((name) => {
+        const tag = appStore.tags[name];
+        return `<span class="card-tag-badge" data-tag="${name}">${tag.icon || ''} ${tag.label}</span>`;
+      }).join('');
+      container.querySelectorAll('.card-tag-badge').forEach((badge) => {
+        badge.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (this.onTagClick) this.onTagClick(badge.dataset.tag);
+        });
+      });
+    };
+
+    renderTags(this.tagsFrontEl);
+    renderTags(this.tagsEl);
 
     const letter = word.english.charAt(0).toUpperCase();
     this.letterEl.textContent = letter;

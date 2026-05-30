@@ -80,3 +80,16 @@ ipcMain.handle("store:loadDictionary", async () => {
   }
   return null;
 });
+
+const tagsPath = path.join(__dirname, "tags.json");
+
+ipcMain.handle("store:loadTags", async () => {
+  try {
+    if (fs.existsSync(tagsPath)) {
+      return JSON.parse(fs.readFileSync(tagsPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load tags:", e);
+  }
+  return null;
+});

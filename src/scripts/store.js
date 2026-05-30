@@ -2,6 +2,7 @@ class Store {
   constructor() {
     this.data = null;
     this.dictionary = [];
+    this.tags = {};
   }
 
   async load() {
@@ -25,6 +26,18 @@ class Store {
       console.error('Failed to load dictionary:', e);
     }
     return this.dictionary;
+  }
+
+  async loadTags() {
+    try {
+      const tags = await window.electronAPI.storeLoadTags();
+      if (tags && typeof tags === 'object') {
+        this.tags = tags;
+      }
+    } catch (e) {
+      console.error('Failed to load tags:', e);
+    }
+    return this.tags;
   }
 
   _migrate() {
@@ -369,6 +382,26 @@ class Store {
     this.data.streak = 0;
     this.data.lastPracticed = null;
     return this.save();
+  }
+
+  getWordsByTag(tagName) {
+    const tag = this.tags[tagName];
+    if (!tag) return [];
+    return tag.wordIds
+      .map((id) => this.getWordById(id))
+      .filter((w) => w !== null);
+  }
+
+  getAllTagNames() {
+    return Object.keys(this.tags);
+  }
+
+  getTagsForWord(wordId) {
+    const result = [];
+    for (const [name, tag] of Object.entries(this.tags)) {
+      if (tag.wordIds.includes(wordId)) result.push(name);
+    }
+    return result;
   }
 }
 

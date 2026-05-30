@@ -22,15 +22,22 @@ class App {
       synonymsEl: document.getElementById('cardSynonyms'),
       antonymsEl: document.getElementById('cardAntonyms'),
       descriptionEl: document.getElementById('cardDescription'),
+      tagsEl: document.getElementById('cardTags'),
+      tagsFrontEl: document.getElementById('cardTagsFront'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),
+      onTagClick: (tagName) => {
+        if (this.learnCard.isFlipped) this.learnCard.flip();
+        tagsPage.showTag(tagName);
+      },
     });
   }
 
   async init() {
     await appStore.load();
     await appStore.loadDictionary();
+    await appStore.loadTags();
     themeManager.init();
 
     this._bindEvents();
@@ -74,6 +81,10 @@ class App {
     document.getElementById('sideStats').addEventListener('click', () => {
       this._closeSidebar();
       this._showStats();
+    });
+    document.getElementById('sideTags').addEventListener('click', () => {
+      this._closeSidebar();
+      tagsPage.show();
     });
     document.getElementById('sideDailyHistory').addEventListener('click', () => {
       this._closeSidebar();

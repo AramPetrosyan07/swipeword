@@ -29,6 +29,9 @@
         <button class="sidebar-btn" id="sideStats" data-screen="stats">
           <span class="sidebar-btn-icon">&#128200;</span> Stats
         </button>
+        <button class="sidebar-btn" id="sideTags" data-screen="tags">
+          <span class="sidebar-btn-icon">&#127991;</span> Tags
+        </button>
         <button class="sidebar-btn" id="sideDailyHistory" data-screen="daily-history">
           <span class="sidebar-btn-icon">&#128197;</span> Daily History
         </button>
@@ -108,6 +111,7 @@
                 <div class="card-front">
                   <div class="card-letter-badge" id="cardLetter"></div>
                   <h2 class="card-word" id="cardWord">word</h2>
+                  <div class="card-tags-front" id="cardTagsFront"></div>
                   <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
                 </div>
                 <div class="card-back">
@@ -118,6 +122,7 @@
                   <div class="card-synonyms" id="cardSynonyms"></div>
                   <div class="card-antonyms" id="cardAntonyms"></div>
                   <div class="card-description" id="cardDescription"></div>
+                  <div class="card-tags" id="cardTags"></div>
                 </div>
               </div>
             </div>
@@ -383,6 +388,30 @@
       </div>
     </div>
 
+    <!-- Tags Screen -->
+    <div id="screen-tags" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnTagsBack" title="Back">&#8592;</button>
+        <span class="progress-text">Tags</span>
+        <div></div>
+      </div>
+      <div class="tag-grid" id="tagGrid">
+        <div class="tag-grid-items" id="tagGridItems"></div>
+      </div>
+      <div class="tag-word-list" id="tagWordList" style="display:none;">
+        <div class="tag-word-list-header">
+          <div class="tag-word-list-title-row">
+            <span class="tag-word-list-title" id="tagWordListTitle"></span>
+            <span class="tag-word-list-progress" id="tagWordListProgress"></span>
+          </div>
+          <div class="tag-word-list-items" id="tagWordListItems"></div>
+        </div>
+        <div class="tag-word-list-actions">
+          <button class="btn btn-primary" id="btnTagPractice">Practice All</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Undo Toast -->
     <div id="undoToast" class="undo-toast">
       <span class="undo-toast-text">Swiped!</span>
@@ -579,6 +608,7 @@
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
   <script src="scripts/collections.js"></script>
+  <script src="scripts/tags-page.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>
