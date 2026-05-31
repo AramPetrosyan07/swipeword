@@ -15,6 +15,10 @@ class SelfTest {
     this.letterBackEl = document.getElementById('selftestCardLetterBack');
     this.russianEl = document.getElementById('selftestCardRussian');
     this.russianExampleEl = document.getElementById('selftestCardRussianExample');
+    this.adjEl = document.getElementById('selftestCardAdj');
+    this.advEl = document.getElementById('selftestCardAdv');
+    this.adjWrapperEl = document.getElementById('selftestCardAdjWrapper');
+    this.advWrapperEl = document.getElementById('selftestCardAdvWrapper');
     this.progressEl = document.getElementById('selftestProgress');
     this.cardArea = this.cardEl.closest('.card-area');
     this.emptyEl = document.getElementById('selftestEmpty');
@@ -79,6 +83,18 @@ class SelfTest {
       this.russianExampleEl.innerHTML = russianEx.length > 0
         ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
         : '';
+    }
+    if (this.adjEl) {
+      this.adjEl.textContent = word.adjective ? `adj: ${word.adjective}` : '';
+    }
+    if (this.adjWrapperEl) {
+      this.adjWrapperEl.style.display = word.adjective ? '' : 'none';
+    }
+    if (this.advEl) {
+      this.advEl.textContent = word.adverb ? `adv: ${word.adverb}` : '';
+    }
+    if (this.advWrapperEl) {
+      this.advWrapperEl.style.display = word.adverb ? '' : 'none';
     }
     this.translationEl.textContent = word.armenian;
     this.exampleEl.textContent = word.example || '';

@@ -28,6 +28,10 @@ class CardManager {
     this.descriptionEl = config.descriptionEl || null;
     this.russianEl = config.russianEl || null;
     this.russianExampleEl = config.russianExampleEl || null;
+    this.adjEl = config.adjEl || null;
+    this.advEl = config.advEl || null;
+    this.adjWrapperEl = config.adjWrapperEl || null;
+    this.advWrapperEl = config.advWrapperEl || null;
     this.tagsEl = config.tagsEl || null;
     this.tagsFrontEl = config.tagsFrontEl || null;
     this.onTagClick = config.onTagClick || null;
@@ -58,6 +62,18 @@ class CardManager {
       this.russianExampleEl.innerHTML = russianEx.length > 0
         ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
         : '';
+    }
+    if (this.adjEl) {
+      this.adjEl.textContent = word.adjective ? `adj: ${word.adjective}` : '';
+    }
+    if (this.adjWrapperEl) {
+      this.adjWrapperEl.style.display = word.adjective ? '' : 'none';
+    }
+    if (this.advEl) {
+      this.advEl.textContent = word.adverb ? `adv: ${word.adverb}` : '';
+    }
+    if (this.advWrapperEl) {
+      this.advWrapperEl.style.display = word.adverb ? '' : 'none';
     }
     this.translationEl.textContent = word.armenian;
     const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
