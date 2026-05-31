@@ -42,6 +42,7 @@ class CardManager {
     this.currentWord = null;
     this.isFlipped = false;
     this.isAnimating = false;
+    this._enterTimer = null;
 
     this._setupSwipe();
   }
@@ -52,6 +53,11 @@ class CardManager {
     this.isAnimating = false;
     this.cardEl.className = 'card';
     this.cardEl.dataset.type = word.type || '';
+    clearTimeout(this._enterTimer);
+    this.cardEl.classList.add('entering');
+    this._enterTimer = setTimeout(() => {
+      this.cardEl.classList.remove('entering');
+    }, 380);
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
     if (this.russianEl) {

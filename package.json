@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "start:dev": "nodemon --watch src --exec \"npm start\"",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
@@ -13,7 +14,8 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^41.7.1"
+    "electron": "^41.7.1",
+    "nodemon": "^3.1.14"
   },
   "build": {
     "appId": "com.swipeword.app",
