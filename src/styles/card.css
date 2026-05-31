@@ -12,7 +12,7 @@
 
 .card-stack {
   width: 100%;
-  max-width: 340px;
+  max-width: 420px;
   aspect-ratio: 3 / 4;
   position: relative;
   margin-bottom: 24px;
@@ -87,12 +87,34 @@
 }
 
 .card-word {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 800;
   text-align: center;
   color: var(--text);
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   word-break: break-word;
+}
+
+.card-russian {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.card-russian-example {
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 8px;
+  max-width: 260px;
+}
+
+.card-russian-example-item {
+  display: block;
 }
 
 .card-hidden-hint {

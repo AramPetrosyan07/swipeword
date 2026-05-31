@@ -22,6 +22,8 @@ class App {
       synonymsEl: document.getElementById('cardSynonyms'),
       antonymsEl: document.getElementById('cardAntonyms'),
       descriptionEl: document.getElementById('cardDescription'),
+      russianEl: document.getElementById('cardRussian'),
+      russianExampleEl: document.getElementById('cardRussianExample'),
       tagsEl: document.getElementById('cardTags'),
       tagsFrontEl: document.getElementById('cardTagsFront'),
       mode: 'learn',

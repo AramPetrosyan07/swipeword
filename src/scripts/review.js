@@ -12,6 +12,8 @@ class ReviewManager {
       exampleEl: document.getElementById('reviewCardExample'),
       letterEl: document.getElementById('reviewCardLetter'),
       letterBackEl: document.getElementById('reviewCardLetterBack'),
+      russianEl: document.getElementById('reviewCardRussian'),
+      russianExampleEl: document.getElementById('reviewCardRussianExample'),
       mode: 'review',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),

@@ -26,6 +26,8 @@ class CardManager {
     this.synonymsEl = config.synonymsEl || null;
     this.antonymsEl = config.antonymsEl || null;
     this.descriptionEl = config.descriptionEl || null;
+    this.russianEl = config.russianEl || null;
+    this.russianExampleEl = config.russianExampleEl || null;
     this.tagsEl = config.tagsEl || null;
     this.tagsFrontEl = config.tagsFrontEl || null;
     this.onTagClick = config.onTagClick || null;
@@ -48,6 +50,15 @@ class CardManager {
     this.cardEl.dataset.type = word.type || '';
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
+    if (this.russianEl) {
+      this.russianEl.textContent = word.russian || '';
+    }
+    if (this.russianExampleEl) {
+      const russianEx = word.russian_example || [];
+      this.russianExampleEl.innerHTML = russianEx.length > 0
+        ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
+        : '';
+    }
     this.translationEl.textContent = word.armenian;
     const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
     this.exampleEl.innerHTML = examples.map((ex, i) =>

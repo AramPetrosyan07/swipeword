@@ -13,6 +13,8 @@ class SelfTest {
     this.exampleEl = document.getElementById('selftestCardExample');
     this.letterEl = document.getElementById('selftestCardLetter');
     this.letterBackEl = document.getElementById('selftestCardLetterBack');
+    this.russianEl = document.getElementById('selftestCardRussian');
+    this.russianExampleEl = document.getElementById('selftestCardRussianExample');
     this.progressEl = document.getElementById('selftestProgress');
     this.cardArea = this.cardEl.closest('.card-area');
     this.emptyEl = document.getElementById('selftestEmpty');
@@ -69,6 +71,15 @@ class SelfTest {
     this.letterBackEl.textContent = word.english.charAt(0).toUpperCase();
     this.cardEl.dataset.type = word.type || '';
     this.wordEl.textContent = word.english;
+    if (this.russianEl) {
+      this.russianEl.textContent = word.russian || '';
+    }
+    if (this.russianExampleEl) {
+      const russianEx = word.russian_example || [];
+      this.russianExampleEl.innerHTML = russianEx.length > 0
+        ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
+        : '';
+    }
     this.translationEl.textContent = word.armenian;
     this.exampleEl.textContent = word.example || '';
     this.innerEl.classList.remove('flipped');
