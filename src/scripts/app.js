@@ -48,10 +48,10 @@ class App {
       this.currentFileName = appStore.data.currentFileName || null;
       this._startLearning();
     } else if (appStore.dictionary.length > 0) {
-      await appStore.initFromDictionary(appStore.dictionary.length, 'b2_dictionary');
-      await appStore.addHistory('b2_dictionary', appStore.dictionary.length);
+      await appStore.initFromDictionary(appStore.dictionary.length, 'b2-word-list');
+      await appStore.addHistory('b2-word-list', appStore.dictionary.length);
       this.words = appStore.getAllWords();
-      this.currentFileName = 'b2_dictionary';
+      this.currentFileName = 'b2-word-list';
       this._startLearning();
     }
 

@@ -68,7 +68,7 @@ ipcMain.handle("store:save", (_event, data) => {
   }
 });
 
-const dictPath = path.join(__dirname, "b2_dictionary.json");
+const dictPath = path.join(__dirname, "b2-word-list.json");
 
 ipcMain.handle("store:loadDictionary", async () => {
   try {

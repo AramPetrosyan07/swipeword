@@ -1,3 +1,19 @@
+const TYPE_COLORS = {
+  noun:       { light: { bg: '#D6E8F7', border: '#B0C4DE' }, dark: { bg: '#1a2a45', border: '#2a4a6e' } },
+  verb:       { light: { bg: '#D4EDDA', border: '#A3C9A8' }, dark: { bg: '#1a3a25', border: '#2a5a3a' } },
+  adjective:  { light: { bg: '#FFE2CC', border: '#E6B88A' }, dark: { bg: '#3a2a15', border: '#5a4020' } },
+  adverb:     { light: { bg: '#F8D7DA', border: '#E6A8AC' }, dark: { bg: '#3a1a1a', border: '#5a2a2a' } },
+  preposition:{ light: { bg: '#E8D5F5', border: '#C9A8E0' }, dark: { bg: '#2a1a3a', border: '#4a2a5a' } },
+  phrase:     { light: { bg: '#D1ECF1', border: '#A3C9D4' }, dark: { bg: '#1a3a3a', border: '#2a5a5a' } },
+  conjunction:{ light: { bg: '#FFF3CD', border: '#E6D68A' }, dark: { bg: '#3a3a1a', border: '#5a5a2a' } },
+  determiner: { light: { bg: '#E2E3E5', border: '#C4C6C8' }, dark: { bg: '#2a2a2a', border: '#4a4a4a' } },
+  pronoun:    { light: { bg: '#F5D5E0', border: '#DBA8BC' }, dark: { bg: '#3a1a2a', border: '#5a2a40' } },
+};
+
+function getTypeColors(type) {
+  return TYPE_COLORS[type] || null;
+}
+
 class CardManager {
   constructor(config) {
     this.cardEl = config.cardEl;
@@ -29,6 +45,7 @@ class CardManager {
     this.isFlipped = false;
     this.isAnimating = false;
     this.cardEl.className = 'card';
+    this.cardEl.dataset.type = word.type || '';
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
     this.translationEl.textContent = word.armenian;

@@ -67,6 +67,7 @@ class SelfTest {
 
     this.letterEl.textContent = word.english.charAt(0).toUpperCase();
     this.letterBackEl.textContent = word.english.charAt(0).toUpperCase();
+    this.cardEl.dataset.type = word.type || '';
     this.wordEl.textContent = word.english;
     this.translationEl.textContent = word.armenian;
     this.exampleEl.textContent = word.example || '';
