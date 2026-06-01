@@ -10,6 +10,8 @@ class App {
     this.undoStack = [];
     this.undoTimer = null;
     this.filterLetter = null;
+    this.listViewActive = false;
+    this.cameFromList = false;
     this.sessionHistory = [];
 
     this.learnCard = new CardManager({
@@ -202,6 +204,7 @@ class App {
       this.shuffleEnabled = !this.shuffleEnabled;
       if (this.words.length > 0) this._buildQueue();
       this._updateSidebar();
+      if (this.listViewActive) this._renderListView();
     });
     document.getElementById('btnModes').addEventListener('click', () => {
       modesManager.open();
@@ -216,7 +219,14 @@ class App {
       btn.classList.toggle('active', this.favFilterEnabled);
       btn.innerHTML = this.favFilterEnabled ? '\u2605' : '\u2606';
       this._buildQueue();
-      this._showCurrentCard();
+      if (this.listViewActive) {
+        this._renderListView();
+      } else {
+        this._showCurrentCard();
+      }
+    });
+    document.getElementById('btnListView').addEventListener('click', () => {
+      this._toggleListView();
     });
     document.getElementById('btnStar').addEventListener('click', () => {
       this.learnCard.toggleFavorite();
@@ -251,9 +261,18 @@ class App {
           this._closeSidebar();
           return;
         }
+        if (this.listViewActive) {
+          this._toggleListView();
+          return;
+        }
+        if (this.cameFromList) {
+          this._toggleListView();
+          return;
+        }
       }
 
       if (activeScreen.id === 'screen-learn' && !this.learnCard.isAnimating) {
+        if (this.listViewActive) return;
         if (studyModeManager.isLearningMode) {
           switch (e.key) {
             case 'ArrowLeft':
@@ -469,6 +488,13 @@ class App {
     favBtn.classList.toggle('active', this.favFilterEnabled);
     favBtn.innerHTML = this.favFilterEnabled ? '\u2605' : '\u2606';
 
+    this.listViewActive = false;
+    this.cameFromList = false;
+    document.getElementById('listView').style.display = 'none';
+    document.querySelector('.learn-content').style.display = 'flex';
+    document.getElementById('btnListView').innerHTML = '\u2630';
+    document.getElementById('btnListView').title = 'List view';
+
     this._buildQueue();
     this._showCurrentCard();
     this._renderLetterStrip();
@@ -619,6 +645,75 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-stats').classList.add('active');
     statsManager.show();
+  }
+
+  _toggleListView() {
+    if (this.cameFromList) {
+      this.cameFromList = false;
+      this.listViewActive = true;
+      this._renderListView();
+      document.getElementById('cardArea').style.display = 'none';
+      document.getElementById('emptyState').style.display = 'none';
+      document.querySelector('.learn-content').style.display = 'none';
+      document.getElementById('listView').style.display = 'flex';
+      document.getElementById('btnListView').innerHTML = '\u2715';
+      document.getElementById('btnListView').title = 'Card view';
+      return;
+    }
+
+    this.listViewActive = !this.listViewActive;
+    if (this.listViewActive) {
+      this._renderListView();
+      document.getElementById('cardArea').style.display = 'none';
+      document.getElementById('emptyState').style.display = 'none';
+      document.querySelector('.learn-content').style.display = 'none';
+      document.getElementById('listView').style.display = 'flex';
+      document.getElementById('btnListView').innerHTML = '\u2715';
+      document.getElementById('btnListView').title = 'Card view';
+    } else {
+      document.getElementById('listView').style.display = 'none';
+      document.querySelector('.learn-content').style.display = 'flex';
+      document.getElementById('btnListView').innerHTML = '\u2630';
+      document.getElementById('btnListView').title = 'List view';
+      this._showCurrentCard();
+    }
+  }
+
+  _renderListView() {
+    const container = document.getElementById('listView');
+    container.innerHTML = '';
+
+    if (this.screenOrder.length === 0) {
+      container.innerHTML = '<div class="list-empty">No words to display</div>';
+      return;
+    }
+
+    const header = document.createElement('div');
+    header.className = 'list-header';
+    header.innerHTML = '<span>' + this.screenOrder.length + ' words</span>';
+    container.appendChild(header);
+
+    this.screenOrder.forEach((word, index) => {
+      const row = document.createElement('div');
+      row.className = 'list-row';
+      row.innerHTML =
+        '<span class="list-col-english">' + word.english + '</span>' +
+        '<span class="list-col-armenian">' + (word.armenian || '') + '</span>' +
+        '<span class="list-col-russian">' + (word.russian || word.translation || '') + '</span>';
+      row.addEventListener('click', () => this._handleListRowClick(index));
+      container.appendChild(row);
+    });
+  }
+
+  _handleListRowClick(index) {
+    this.currentIndex = index;
+    this.cameFromList = true;
+    this.listViewActive = false;
+    document.getElementById('listView').style.display = 'none';
+    document.querySelector('.learn-content').style.display = 'flex';
+    document.getElementById('btnListView').innerHTML = '\u2715';
+    document.getElementById('btnListView').title = 'Back to list';
+    this._showCurrentCard();
   }
 }
 
