@@ -6,8 +6,8 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 880,
-    height: 760,
+    width: 1080,
+    height: 960,
     minWidth: 400,
     minHeight: 600,
     resizable: true,

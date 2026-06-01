@@ -87,7 +87,7 @@
 }
 
 .card-word {
-  font-size: 51px;
+  font-size: 38px;
   font-weight: 600;
   text-align: center;
   color: var(--text);
@@ -96,7 +96,7 @@
 }
 
 .card-russian {
-  font-size: 51px;
+  font-size: 38px;
   font-weight: 600;
   text-align: center;
   color: var(--text-secondary);
@@ -166,7 +166,7 @@
 }
 
 .card-translation {
-  font-size: 44px;
+  font-size: 33px;
   font-weight: 700;
   text-align: center;
   color: var(--text);
@@ -485,6 +485,187 @@
 }
 .theme-dark .card[data-type="pronoun"] .card-front,
 .theme-dark .card[data-type="pronoun"] .card-back {
+  background: #3a1a2a;
+  border-color: #5a2a40;
+}
+
+/* Learning mode elements - hidden by default */
+.learning-only {
+  display: none;
+}
+
+/* Body class toggles learning mode */
+body.learning-mode .learning-only {
+  display: block;
+}
+
+body.learning-mode .card-hidden-hint {
+  display: none;
+}
+
+body.learning-mode .checking-actions {
+  display: none;
+}
+
+body.learning-mode .learning-actions {
+  display: flex;
+}
+
+.learning-actions {
+  display: none;
+}
+
+.checking-actions {
+  display: flex;
+}
+
+/* Bigger card in learning mode */
+body.learning-mode .card-stack {
+  max-width: 680px;
+  aspect-ratio: auto;
+  min-height: 640px;
+}
+
+body.learning-mode .card-front {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 20px 24px 24px;
+  gap: 4px;
+}
+
+body.learning-mode .card-back {
+  display: none;
+}
+
+body.learning-mode .card-word {
+  font-size: 42px;
+  margin-top: 8px;
+}
+
+body.learning-mode .card-russian {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+body.learning-mode #cardLearnContent {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  margin-top: 8px;
+}
+
+body.learning-mode .card-translation-label {
+  margin-bottom: 2px;
+}
+
+body.learning-mode .card-translation {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+body.learning-mode .card-example,
+body.learning-mode .card-russian-example {
+  max-width: 100%;
+}
+
+body.learning-mode .card-synonyms,
+body.learning-mode .card-antonyms,
+body.learning-mode .card-description {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Prev/next buttons in learning mode */
+.action-prev,
+.action-next {
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-size: 24px;
+}
+
+.action-prev:hover,
+.action-next:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Learning mode type colors */
+body.learning-mode .card[data-type="noun"] .card-front {
+  background: #D6E8F7;
+  border-color: #B0C4DE;
+}
+body.learning-mode .card[data-type="verb"] .card-front {
+  background: #D4EDDA;
+  border-color: #A3C9A8;
+}
+body.learning-mode .card[data-type="adjective"] .card-front {
+  background: #FFE2CC;
+  border-color: #E6B88A;
+}
+body.learning-mode .card[data-type="adverb"] .card-front {
+  background: #F8D7DA;
+  border-color: #E6A8AC;
+}
+body.learning-mode .card[data-type="preposition"] .card-front {
+  background: #E8D5F5;
+  border-color: #C9A8E0;
+}
+body.learning-mode .card[data-type="phrase"] .card-front {
+  background: #D1ECF1;
+  border-color: #A3C9D4;
+}
+body.learning-mode .card[data-type="conjunction"] .card-front {
+  background: #FFF3CD;
+  border-color: #E6D68A;
+}
+body.learning-mode .card[data-type="determiner"] .card-front {
+  background: #E2E3E5;
+  border-color: #C4C6C8;
+}
+body.learning-mode .card[data-type="pronoun"] .card-front {
+  background: #F5D5E0;
+  border-color: #DBA8BC;
+}
+
+/* Dark theme learning mode type colors */
+body.theme-dark.learning-mode .card[data-type="noun"] .card-front {
+  background: #1a2a45;
+  border-color: #2a4a6e;
+}
+body.theme-dark.learning-mode .card[data-type="verb"] .card-front {
+  background: #1a3a25;
+  border-color: #2a5a3a;
+}
+body.theme-dark.learning-mode .card[data-type="adjective"] .card-front {
+  background: #3a2a15;
+  border-color: #5a4020;
+}
+body.theme-dark.learning-mode .card[data-type="adverb"] .card-front {
+  background: #3a1a1a;
+  border-color: #5a2a2a;
+}
+body.theme-dark.learning-mode .card[data-type="preposition"] .card-front {
+  background: #2a1a3a;
+  border-color: #4a2a5a;
+}
+body.theme-dark.learning-mode .card[data-type="phrase"] .card-front {
+  background: #1a3a3a;
+  border-color: #2a5a5a;
+}
+body.theme-dark.learning-mode .card[data-type="conjunction"] .card-front {
+  background: #3a3a1a;
+  border-color: #5a5a2a;
+}
+body.theme-dark.learning-mode .card[data-type="determiner"] .card-front {
+  background: #2a2a2a;
+  border-color: #4a4a4a;
+}
+body.theme-dark.learning-mode .card[data-type="pronoun"] .card-front {
   background: #3a1a2a;
   border-color: #5a2a40;
 }

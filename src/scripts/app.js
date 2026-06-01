@@ -30,6 +30,17 @@ class App {
       advWrapperEl: document.getElementById('cardAdvWrapper'),
       tagsEl: document.getElementById('cardTags'),
       tagsFrontEl: document.getElementById('cardTagsFront'),
+      learnTranslationEl: document.getElementById('cardLearnTranslation'),
+      learnExampleEl: document.getElementById('cardLearnExample'),
+      learnRussianExampleEl: document.getElementById('cardLearnRussianExample'),
+      learnAdjEl: document.getElementById('cardLearnAdj'),
+      learnAdvEl: document.getElementById('cardLearnAdv'),
+      learnAdjWrapperEl: document.getElementById('cardLearnAdjWrapper'),
+      learnAdvWrapperEl: document.getElementById('cardLearnAdvWrapper'),
+      learnSynonymsEl: document.getElementById('cardLearnSynonyms'),
+      learnAntonymsEl: document.getElementById('cardLearnAntonyms'),
+      learnDescriptionEl: document.getElementById('cardLearnDescription'),
+      learnTagsEl: document.getElementById('cardLearnTags'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),
@@ -45,6 +56,7 @@ class App {
     await appStore.loadDictionary();
     await appStore.loadTags();
     themeManager.init();
+    studyModeManager.init();
 
     this._bindEvents();
 
@@ -179,6 +191,21 @@ class App {
     document.getElementById('btnModes').addEventListener('click', () => {
       modesManager.open();
     });
+    document.getElementById('btnLearnMode').addEventListener('click', () => {
+      studyModeManager.toggle();
+      this._showCurrentCard();
+    });
+    document.getElementById('btnLearnPrev').addEventListener('click', () => {
+      this._handleLearnPrev();
+    });
+    document.getElementById('btnLearnNext').addEventListener('click', () => {
+      this._handleLearnNext();
+    });
+    document.getElementById('btnLearnTTS').addEventListener('click', () => {
+      if (this.learnCard.currentWord) {
+        tts.speak(this.learnCard.currentWord.english);
+      }
+    });
     document.getElementById('btnTheme').addEventListener('click', () => {
       themeManager.toggle();
       this._updateSidebar();
@@ -198,24 +225,37 @@ class App {
       }
 
       if (activeScreen.id === 'screen-learn' && !this.learnCard.isAnimating) {
-        switch (e.key) {
-          case 'ArrowLeft':
-            e.preventDefault();
-            this.learnCard.animateForgot();
-            break;
-          case 'ArrowRight':
-            e.preventDefault();
-            this.learnCard.animateRemember();
-            break;
-          case ' ':
-            e.preventDefault();
-            this.learnCard.flip();
-            break;
-          case 'z':
-          case 'Z':
-            e.preventDefault();
-            this._undo();
-            break;
+        if (studyModeManager.isLearningMode) {
+          switch (e.key) {
+            case 'ArrowLeft':
+              e.preventDefault();
+              this._handleLearnPrev();
+              break;
+            case 'ArrowRight':
+              e.preventDefault();
+              this._handleLearnNext();
+              break;
+          }
+        } else {
+          switch (e.key) {
+            case 'ArrowLeft':
+              e.preventDefault();
+              this.learnCard.animateForgot();
+              break;
+            case 'ArrowRight':
+              e.preventDefault();
+              this.learnCard.animateRemember();
+              break;
+            case ' ':
+              e.preventDefault();
+              this.learnCard.flip();
+              break;
+            case 'z':
+            case 'Z':
+              e.preventDefault();
+              this._undo();
+              break;
+          }
         }
       } else if (activeScreen.id === 'screen-selftest' && selfTest.isActive && !selfTest.isAnimating) {
         switch (e.key) {
@@ -409,6 +449,7 @@ class App {
     document.getElementById('emptyState').style.display = 'none';
 
     this.learnCard.show(this.screenOrder[this.currentIndex]);
+    this.learnCard.setMode(studyModeManager.isLearningMode);
 
     const pos = this.currentIndex + 1;
     let total;
@@ -444,6 +485,18 @@ class App {
     this.currentIndex++;
     this._showCurrentCard();
     this._showUndoToast();
+  }
+
+  _handleLearnPrev() {
+    if (this.currentIndex <= 0) return;
+    this.currentIndex--;
+    this._showCurrentCard();
+  }
+
+  _handleLearnNext() {
+    if (this.currentIndex >= this.screenOrder.length - 1) return;
+    this.currentIndex++;
+    this._showCurrentCard();
   }
 
   _undo() {

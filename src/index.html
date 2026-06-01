@@ -99,6 +99,7 @@
           <button class="icon-btn" id="btnHistory" title="Session history">&#128196;</button>
           <button class="icon-btn" id="btnShuffle" title="Shuffle">&#8635;</button>
           <button class="icon-btn" id="btnModes" title="Learning Modes">&#127918;</button>
+          <button class="icon-btn" id="btnLearnMode" title="Toggle learning/checking mode">&#128214;</button>
           <button class="icon-btn" id="btnTheme" title="Toggle theme">&#9790;</button>
         </div>
       </div>
@@ -119,6 +120,22 @@
                   </div>
                   <div class="card-tags-front" id="cardTagsFront"></div>
                   <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
+                  <div class="learning-only" id="cardLearnContent">
+                    <h3 class="card-translation-label">Translation</h3>
+                    <p class="card-translation" id="cardLearnTranslation">translation</p>
+                    <div class="card-example" id="cardLearnExample">example</div>
+                    <div class="card-russian-example" id="cardLearnRussianExample"></div>
+                    <div class="card-field-wrapper card-field-adj" id="cardLearnAdjWrapper">
+                      <div class="card-adj" id="cardLearnAdj"></div>
+                    </div>
+                    <div class="card-field-wrapper card-field-adv" id="cardLearnAdvWrapper">
+                      <div class="card-adv" id="cardLearnAdv"></div>
+                    </div>
+                    <div class="card-synonyms" id="cardLearnSynonyms"></div>
+                    <div class="card-antonyms" id="cardLearnAntonyms"></div>
+                    <div class="card-description" id="cardLearnDescription"></div>
+                    <div class="card-tags" id="cardLearnTags"></div>
+                  </div>
                 </div>
                 <div class="card-back">
                   <div class="card-letter-badge" id="cardLetterBack"></div>
@@ -140,7 +157,7 @@
               </div>
             </div>
           </div>
-          <div class="card-actions">
+          <div class="card-actions checking-actions" id="checkingActions">
             <button class="action-btn action-forgot" id="btnForgot" title="Don't remember (Left)">
               &#10007;
             </button>
@@ -152,6 +169,17 @@
             </button>
             <button class="action-btn action-remember" id="btnRemember" title="Remembered (Right)">
               &#10003;
+            </button>
+          </div>
+          <div class="card-actions learning-actions" id="learningActions">
+            <button class="action-btn action-prev" id="btnLearnPrev" title="Previous word">
+              &#8592;
+            </button>
+            <button class="action-btn action-tts" id="btnLearnTTS" title="Listen to pronunciation">
+              &#128266;
+            </button>
+            <button class="action-btn action-next" id="btnLearnNext" title="Next word">
+              &#8594;
             </button>
           </div>
         </div>
@@ -669,6 +697,7 @@
   <script src="scripts/multichoice-mode.js"></script>
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
+  <script src="scripts/study-mode.js"></script>
   <script src="scripts/collections.js"></script>
   <script src="scripts/tags-page.js"></script>
   <script src="scripts/app.js"></script>

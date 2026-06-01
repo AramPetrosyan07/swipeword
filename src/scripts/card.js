@@ -34,10 +34,22 @@ class CardManager {
     this.advWrapperEl = config.advWrapperEl || null;
     this.tagsEl = config.tagsEl || null;
     this.tagsFrontEl = config.tagsFrontEl || null;
+    this.learnTranslationEl = config.learnTranslationEl || null;
+    this.learnExampleEl = config.learnExampleEl || null;
+    this.learnRussianExampleEl = config.learnRussianExampleEl || null;
+    this.learnAdjEl = config.learnAdjEl || null;
+    this.learnAdvEl = config.learnAdvEl || null;
+    this.learnAdjWrapperEl = config.learnAdjWrapperEl || null;
+    this.learnAdvWrapperEl = config.learnAdvWrapperEl || null;
+    this.learnSynonymsEl = config.learnSynonymsEl || null;
+    this.learnAntonymsEl = config.learnAntonymsEl || null;
+    this.learnDescriptionEl = config.learnDescriptionEl || null;
+    this.learnTagsEl = config.learnTagsEl || null;
     this.onTagClick = config.onTagClick || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
     this.mode = config.mode || 'learn';
+    this._learningMode = false;
 
     this.currentWord = null;
     this.isFlipped = false;
@@ -45,6 +57,11 @@ class CardManager {
     this._enterTimer = null;
 
     this._setupSwipe();
+  }
+
+  setMode(isLearning) {
+    this._learningMode = isLearning;
+    this.cardEl.classList.toggle('learning-mode', isLearning);
   }
 
   show(word) {
@@ -99,6 +116,45 @@ class CardManager {
       this.descriptionEl.textContent = word.description || '';
     }
 
+    if (this.learnTranslationEl) {
+      this.learnTranslationEl.textContent = word.armenian;
+    }
+    if (this.learnExampleEl) {
+      const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
+      this.learnExampleEl.innerHTML = examples.map((ex, i) =>
+        `<span class="card-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`
+      ).join('');
+    }
+    if (this.learnRussianExampleEl) {
+      const russianEx = word.russian_example || [];
+      this.learnRussianExampleEl.innerHTML = russianEx.length > 0
+        ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
+        : '';
+    }
+    if (this.learnAdjEl) {
+      this.learnAdjEl.textContent = word.adjective ? `adj: ${word.adjective}` : '';
+    }
+    if (this.learnAdjWrapperEl) {
+      this.learnAdjWrapperEl.style.display = word.adjective ? '' : 'none';
+    }
+    if (this.learnAdvEl) {
+      this.learnAdvEl.textContent = word.adverb ? `adv: ${word.adverb}` : '';
+    }
+    if (this.learnAdvWrapperEl) {
+      this.learnAdvWrapperEl.style.display = word.adverb ? '' : 'none';
+    }
+    if (this.learnSynonymsEl) {
+      this.learnSynonymsEl.textContent = word.synonyms && word.synonyms.length > 0
+        ? 'Synonyms: ' + word.synonyms.join(', ') : '';
+    }
+    if (this.learnAntonymsEl) {
+      this.learnAntonymsEl.textContent = word.antonyms && word.antonyms.length > 0
+        ? 'Antonyms: ' + word.antonyms.join(', ') : '';
+    }
+    if (this.learnDescriptionEl) {
+      this.learnDescriptionEl.textContent = word.description || '';
+    }
+
     const tagNames = appStore.getTagsForWord(word.id);
 
     const renderTags = (container) => {
@@ -121,6 +177,7 @@ class CardManager {
 
     renderTags(this.tagsFrontEl);
     renderTags(this.tagsEl);
+    renderTags(this.learnTagsEl);
 
     const letter = word.english.charAt(0).toUpperCase();
     this.letterEl.textContent = letter;
@@ -128,6 +185,7 @@ class CardManager {
   }
 
   flip() {
+    if (this._learningMode) return;
     if (this.isAnimating) return;
     this.isFlipped = !this.isFlipped;
     this.cardEl.classList.toggle('flipped', this.isFlipped);
@@ -140,6 +198,7 @@ class CardManager {
   }
 
   animateForgot() {
+    if (this._learningMode) return;
     if (this.isAnimating) return;
     this.isAnimating = true;
     this.cardEl.classList.add('fly-left');
@@ -152,6 +211,7 @@ class CardManager {
   }
 
   animateRemember() {
+    if (this._learningMode) return;
     if (this.isAnimating) return;
     this.isAnimating = true;
     this.cardEl.classList.add('fly-right');
@@ -169,6 +229,7 @@ class CardManager {
     let currentX = 0;
 
     const onStart = (e) => {
+      if (this._learningMode) return;
       if (this.isAnimating) return;
       const point = e.touches ? e.touches[0] : e;
       startX = point.clientX;

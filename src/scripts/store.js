@@ -50,6 +50,7 @@ class Store {
       });
     }
     if (!this.data.dailyLog) this.data.dailyLog = [];
+    if (this.data.learnMode === undefined) this.data.learnMode = true;
   }
 
   _defaults() {
@@ -65,6 +66,7 @@ class Store {
       streak: 0,
       lastPracticed: null,
       darkMode: false,
+      learnMode: true,
       shuffle: false,
       importHistory: [],
       currentFileName: null,
