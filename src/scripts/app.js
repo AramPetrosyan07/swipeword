@@ -250,6 +250,11 @@ class App {
       this._updateSidebar();
     });
 
+    document.getElementById('btnWordCardPopupClose').addEventListener('click', () => this._closeWordCardPopup());
+    document.getElementById('wordCardPopup').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('wordCardPopup')) this._closeWordCardPopup();
+    });
+
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT') return;
 
@@ -257,6 +262,11 @@ class App {
       if (!activeScreen) return;
 
       if (e.key === 'Escape') {
+        const popup = document.getElementById('wordCardPopup');
+        if (popup.style.display === 'flex') {
+          this._closeWordCardPopup();
+          return;
+        }
         if (document.getElementById('sidebar').classList.contains('open')) {
           this._closeSidebar();
           return;
@@ -696,7 +706,9 @@ class App {
     this.screenOrder.forEach((word, index) => {
       const row = document.createElement('div');
       row.className = 'list-row';
+      const star = appStore.isFavorite(word.id) ? '\u2605' : '';
       row.innerHTML =
+        '<span class="list-col-star">' + star + '</span>' +
         '<span class="list-col-english">' + word.english + '</span>' +
         '<span class="list-col-armenian">' + (word.armenian || '') + '</span>' +
         '<span class="list-col-russian">' + (word.russian || word.translation || '') + '</span>';
@@ -706,14 +718,90 @@ class App {
   }
 
   _handleListRowClick(index) {
-    this.currentIndex = index;
-    this.cameFromList = true;
-    this.listViewActive = false;
-    document.getElementById('listView').style.display = 'none';
-    document.querySelector('.learn-content').style.display = 'flex';
-    document.getElementById('btnListView').innerHTML = '\u2715';
-    document.getElementById('btnListView').title = 'Back to list';
-    this._showCurrentCard();
+    const word = this.screenOrder[index];
+    if (!word) return;
+    this._showWordCardPopup(word);
+  }
+
+  _showWordCardPopup(word) {
+    const popup = document.getElementById('wordCardPopup');
+    const body = document.getElementById('wordCardPopupBody');
+    body.dataset.type = word.type || '';
+
+    document.getElementById('wordCardPopupLetterText').textContent = word.english.charAt(0).toUpperCase();
+    document.getElementById('wordCardPopupType').textContent = word.type || '';
+    document.getElementById('wordCardPopupWord').textContent = word.english;
+    document.getElementById('wordCardPopupTranslation').textContent = word.armenian;
+    document.getElementById('wordCardPopupRussian').textContent = word.russian || word.translation || '';
+
+    const ex = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
+    const exEl = document.getElementById('wordCardPopupExamples');
+    if (ex.length > 0) {
+      exEl.innerHTML = ex.map((e, i) => `<span class="card-example-item">${i + 1}. &ldquo;${e}&rdquo;</span>`).join('');
+      exEl.style.display = '';
+    } else {
+      exEl.style.display = 'none';
+    }
+
+    const russianEx = word.russian_example || [];
+    const russianExEl = document.getElementById('wordCardPopupRussianExamples');
+    if (russianEx.length > 0) {
+      russianExEl.innerHTML = russianEx.map((e, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${e}&rdquo;</span>`).join('');
+      russianExEl.style.display = '';
+    } else {
+      russianExEl.style.display = 'none';
+    }
+
+    const adjEl = document.getElementById('wordCardPopupAdj');
+    const adjWrapper = document.getElementById('wordCardPopupAdjWrapper');
+    if (word.adjective) {
+      adjEl.textContent = 'adj: ' + word.adjective;
+      adjWrapper.style.display = '';
+    } else {
+      adjWrapper.style.display = 'none';
+    }
+
+    const advEl = document.getElementById('wordCardPopupAdv');
+    const advWrapper = document.getElementById('wordCardPopupAdvWrapper');
+    if (word.adverb) {
+      advEl.textContent = 'adv: ' + word.adverb;
+      advWrapper.style.display = '';
+    } else {
+      advWrapper.style.display = 'none';
+    }
+
+    const synEl = document.getElementById('wordCardPopupSynonyms');
+    const synText = word.synonyms && word.synonyms.length > 0 ? word.synonyms.join(', ') : '';
+    synEl.textContent = synText ? 'Synonyms: ' + synText : '';
+    synEl.style.display = synText ? '' : 'none';
+
+    const antEl = document.getElementById('wordCardPopupAntonyms');
+    const antText = word.antonyms && word.antonyms.length > 0 ? word.antonyms.join(', ') : '';
+    antEl.textContent = antText ? 'Antonyms: ' + antText : '';
+    antEl.style.display = antText ? '' : 'none';
+
+    const descEl = document.getElementById('wordCardPopupDescription');
+    descEl.textContent = word.description || '';
+    descEl.style.display = word.description ? '' : 'none';
+
+    const tagsEl = document.getElementById('wordCardPopupTags');
+    const tagNames = appStore.getTagsForWord(word.id);
+    if (tagNames.length > 0) {
+      tagsEl.innerHTML = tagNames.map((name) => {
+        const tag = appStore.tags[name];
+        return `<span class="card-tag-badge">${tag.icon || ''} ${tag.label}</span>`;
+      }).join('');
+      tagsEl.style.display = '';
+    } else {
+      tagsEl.innerHTML = '';
+      tagsEl.style.display = 'none';
+    }
+
+    popup.style.display = 'flex';
+  }
+
+  _closeWordCardPopup() {
+    document.getElementById('wordCardPopup').style.display = 'none';
   }
 }
 
