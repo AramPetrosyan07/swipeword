@@ -110,7 +110,10 @@
             <div class="card" id="card">
               <div class="card-inner" id="cardInner">
                 <div class="card-front">
-                  <div class="card-letter-badge" id="cardLetter"></div>
+                  <div class="card-letter-badge" id="cardLetter">
+                    <span class="card-badge-letter" id="cardLetterText"></span>
+                    <span class="card-badge-type" id="cardLetterType"></span>
+                  </div>
                   <div class="card-field-wrapper">
                     <h2 class="card-word" id="cardWord">word</h2>
                   </div>
@@ -121,7 +124,6 @@
                   <div class="card-tags-front" id="cardTagsFront"></div>
                   <div class="card-hidden-hint">&#128065; Tap to reveal translation</div>
                   <div class="learning-only" id="cardLearnContent">
-                    <h3 class="card-translation-label">Translation</h3>
                     <p class="card-translation" id="cardLearnTranslation">translation</p>
                     <div class="card-example" id="cardLearnExample">example</div>
                     <div class="card-russian-example" id="cardLearnRussianExample"></div>
@@ -134,11 +136,13 @@
                     <div class="card-synonyms" id="cardLearnSynonyms"></div>
                     <div class="card-antonyms" id="cardLearnAntonyms"></div>
                     <div class="card-description" id="cardLearnDescription"></div>
-                    <div class="card-tags" id="cardLearnTags"></div>
                   </div>
                 </div>
                 <div class="card-back">
-                  <div class="card-letter-badge" id="cardLetterBack"></div>
+                  <div class="card-letter-badge" id="cardLetterBack">
+                    <span class="card-badge-letter" id="cardLetterBackText"></span>
+                    <span class="card-badge-type" id="cardLetterBackType"></span>
+                  </div>
                   <h3 class="card-translation-label">Translation</h3>
                   <p class="card-translation" id="cardTranslation">translation</p>
                   <div class="card-example" id="cardExample">example</div>
@@ -481,6 +485,11 @@
     <div id="undoToast" class="undo-toast">
       <span class="undo-toast-text">Swiped!</span>
       <button class="undo-toast-btn" id="btnUndo">Undo</button>
+    </div>
+
+    <!-- Copy Toast -->
+    <div id="copyToast" class="copy-toast">
+      <span class="copy-toast-text" id="copyToastText">Copied!</span>
     </div>
 
     <!-- Review Screen -->

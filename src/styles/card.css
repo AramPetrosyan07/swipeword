@@ -74,16 +74,32 @@
   position: absolute;
   top: 16px;
   left: 16px;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 16px;
   background: var(--primary);
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
+  padding: 0 10px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.card-badge-letter {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.card-badge-type {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: lowercase;
+  opacity: 0.85;
+  line-height: 1;
 }
 
 .card-word {
@@ -555,7 +571,6 @@ body.learning-mode #cardLearnContent {
   align-items: center;
   gap: 6px;
   padding-top: 8px;
-  border-top: 1px solid var(--border);
   margin-top: 8px;
 }
 
@@ -592,6 +607,11 @@ body.learning-mode .card-description {
 .action-next:hover {
   background: var(--primary);
   color: #fff;
+}
+
+/* Copyable elements */
+[data-copy] {
+  cursor: pointer;
 }
 
 /* Learning mode type colors */

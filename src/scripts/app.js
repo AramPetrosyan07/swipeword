@@ -40,7 +40,6 @@ class App {
       learnSynonymsEl: document.getElementById('cardLearnSynonyms'),
       learnAntonymsEl: document.getElementById('cardLearnAntonyms'),
       learnDescriptionEl: document.getElementById('cardLearnDescription'),
-      learnTagsEl: document.getElementById('cardLearnTags'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),

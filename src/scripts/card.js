@@ -44,7 +44,6 @@ class CardManager {
     this.learnSynonymsEl = config.learnSynonymsEl || null;
     this.learnAntonymsEl = config.learnAntonymsEl || null;
     this.learnDescriptionEl = config.learnDescriptionEl || null;
-    this.learnTagsEl = config.learnTagsEl || null;
     this.onTagClick = config.onTagClick || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
@@ -57,6 +56,7 @@ class CardManager {
     this._enterTimer = null;
 
     this._setupSwipe();
+    this._setupCopyDelegation();
   }
 
   setMode(isLearning) {
@@ -77,82 +77,100 @@ class CardManager {
     }, 380);
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
+    this.wordEl.dataset.copy = word.english;
     if (this.russianEl) {
       this.russianEl.textContent = word.russian || '';
+      this.russianEl.dataset.copy = word.russian || '';
     }
     if (this.russianExampleEl) {
       const russianEx = word.russian_example || [];
       this.russianExampleEl.innerHTML = russianEx.length > 0
-        ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
+        ? russianEx.map((ex, i) => `<span class="card-russian-example-item" data-copy="${ex.replace(/"/g, '&quot;')}">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
         : '';
     }
     if (this.adjEl) {
       this.adjEl.textContent = word.adjective ? `adj: ${word.adjective}` : '';
+      this.adjEl.dataset.copy = word.adjective || '';
     }
     if (this.adjWrapperEl) {
       this.adjWrapperEl.style.display = word.adjective ? '' : 'none';
     }
     if (this.advEl) {
       this.advEl.textContent = word.adverb ? `adv: ${word.adverb}` : '';
+      this.advEl.dataset.copy = word.adverb || '';
     }
     if (this.advWrapperEl) {
       this.advWrapperEl.style.display = word.adverb ? '' : 'none';
     }
     this.translationEl.textContent = word.armenian;
+    this.translationEl.dataset.copy = word.armenian;
     const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
     this.exampleEl.innerHTML = examples.map((ex, i) =>
-      `<span class="card-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`
+      `<span class="card-example-item" data-copy="${ex.replace(/"/g, '&quot;')}">${i + 1}. &ldquo;${ex}&rdquo;</span>`
     ).join('');
 
     if (this.synonymsEl) {
-      this.synonymsEl.textContent = word.synonyms && word.synonyms.length > 0
-        ? 'Synonyms: ' + word.synonyms.join(', ') : '';
+      const synText = word.synonyms && word.synonyms.length > 0
+        ? word.synonyms.join(', ') : '';
+      this.synonymsEl.textContent = synText ? 'Synonyms: ' + synText : '';
+      this.synonymsEl.dataset.copy = synText;
     }
     if (this.antonymsEl) {
-      this.antonymsEl.textContent = word.antonyms && word.antonyms.length > 0
-        ? 'Antonyms: ' + word.antonyms.join(', ') : '';
+      const antText = word.antonyms && word.antonyms.length > 0
+        ? word.antonyms.join(', ') : '';
+      this.antonymsEl.textContent = antText ? 'Antonyms: ' + antText : '';
+      this.antonymsEl.dataset.copy = antText;
     }
     if (this.descriptionEl) {
       this.descriptionEl.textContent = word.description || '';
+      this.descriptionEl.dataset.copy = word.description || '';
     }
 
     if (this.learnTranslationEl) {
       this.learnTranslationEl.textContent = word.armenian;
+      this.learnTranslationEl.dataset.copy = word.armenian;
     }
     if (this.learnExampleEl) {
       const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
       this.learnExampleEl.innerHTML = examples.map((ex, i) =>
-        `<span class="card-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`
+        `<span class="card-example-item" data-copy="${ex.replace(/"/g, '&quot;')}">${i + 1}. &ldquo;${ex}&rdquo;</span>`
       ).join('');
     }
     if (this.learnRussianExampleEl) {
       const russianEx = word.russian_example || [];
       this.learnRussianExampleEl.innerHTML = russianEx.length > 0
-        ? russianEx.map((ex, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
+        ? russianEx.map((ex, i) => `<span class="card-russian-example-item" data-copy="${ex.replace(/"/g, '&quot;')}">${i + 1}. &ldquo;${ex}&rdquo;</span>`).join('')
         : '';
     }
     if (this.learnAdjEl) {
       this.learnAdjEl.textContent = word.adjective ? `adj: ${word.adjective}` : '';
+      this.learnAdjEl.dataset.copy = word.adjective || '';
     }
     if (this.learnAdjWrapperEl) {
       this.learnAdjWrapperEl.style.display = word.adjective ? '' : 'none';
     }
     if (this.learnAdvEl) {
       this.learnAdvEl.textContent = word.adverb ? `adv: ${word.adverb}` : '';
+      this.learnAdvEl.dataset.copy = word.adverb || '';
     }
     if (this.learnAdvWrapperEl) {
       this.learnAdvWrapperEl.style.display = word.adverb ? '' : 'none';
     }
     if (this.learnSynonymsEl) {
-      this.learnSynonymsEl.textContent = word.synonyms && word.synonyms.length > 0
-        ? 'Synonyms: ' + word.synonyms.join(', ') : '';
+      const synText = word.synonyms && word.synonyms.length > 0
+        ? word.synonyms.join(', ') : '';
+      this.learnSynonymsEl.textContent = synText ? 'Synonyms: ' + synText : '';
+      this.learnSynonymsEl.dataset.copy = synText;
     }
     if (this.learnAntonymsEl) {
-      this.learnAntonymsEl.textContent = word.antonyms && word.antonyms.length > 0
-        ? 'Antonyms: ' + word.antonyms.join(', ') : '';
+      const antText = word.antonyms && word.antonyms.length > 0
+        ? word.antonyms.join(', ') : '';
+      this.learnAntonymsEl.textContent = antText ? 'Antonyms: ' + antText : '';
+      this.learnAntonymsEl.dataset.copy = antText;
     }
     if (this.learnDescriptionEl) {
       this.learnDescriptionEl.textContent = word.description || '';
+      this.learnDescriptionEl.dataset.copy = word.description || '';
     }
 
     const tagNames = appStore.getTagsForWord(word.id);
@@ -177,11 +195,21 @@ class CardManager {
 
     renderTags(this.tagsFrontEl);
     renderTags(this.tagsEl);
-    renderTags(this.learnTagsEl);
 
     const letter = word.english.charAt(0).toUpperCase();
-    this.letterEl.textContent = letter;
-    this.letterBackEl.textContent = letter;
+    const typeLabel = word.type || '';
+    if (this.letterEl) {
+      const letterText = this.letterEl.querySelector('.card-badge-letter');
+      const typeText = this.letterEl.querySelector('.card-badge-type');
+      if (letterText) letterText.textContent = letter;
+      if (typeText) typeText.textContent = typeLabel;
+    }
+    if (this.letterBackEl) {
+      const letterText = this.letterBackEl.querySelector('.card-badge-letter');
+      const typeText = this.letterBackEl.querySelector('.card-badge-type');
+      if (letterText) letterText.textContent = letter;
+      if (typeText) typeText.textContent = typeLabel;
+    }
   }
 
   flip() {
@@ -304,4 +332,29 @@ class CardManager {
     document.addEventListener('touchmove', onMove, { passive: true });
     document.addEventListener('touchend', onEnd);
   }
+
+  _setupCopyDelegation() {
+    this.cardEl.addEventListener('click', (e) => {
+      const target = e.target.closest('[data-copy]');
+      if (!target) return;
+      const text = target.dataset.copy || target.textContent.trim();
+      if (!text) return;
+      navigator.clipboard.writeText(text).then(() => {
+        showCopyToast(text);
+      }).catch(() => {});
+    });
+  }
+}
+
+function showCopyToast(text) {
+  const toast = document.getElementById('copyToast');
+  const textEl = document.getElementById('copyToastText');
+  if (!toast || !textEl) return;
+  const display = text.length > 60 ? text.substring(0, 57) + '...' : text;
+  textEl.textContent = `Copied: ${display}`;
+  toast.classList.add('visible');
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => {
+    toast.classList.remove('visible');
+  }, 2000);
 }

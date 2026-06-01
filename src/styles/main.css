@@ -750,6 +750,37 @@ body {
   background: var(--primary-hover);
 }
 
+/* Copy Toast */
+.copy-toast {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  padding: 10px 20px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+  z-index: 200;
+  opacity: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+  max-width: 80vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.copy-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.copy-toast-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* History Panel */
 .history-panel {
   position: absolute;
