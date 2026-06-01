@@ -609,6 +609,23 @@ body.learning-mode .card-description {
   color: #fff;
 }
 
+/* Star button */
+.action-star {
+  color: #f5a623;
+  border: 2px solid #f5a623;
+  font-size: 22px;
+}
+
+.action-star:hover {
+  background: #f5a623;
+  color: #fff;
+}
+
+.action-star.is-favorite {
+  background: #f5a623;
+  color: #fff;
+}
+
 /* Copyable elements */
 [data-copy] {
   cursor: pointer;

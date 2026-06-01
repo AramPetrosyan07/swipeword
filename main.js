@@ -93,3 +93,17 @@ ipcMain.handle("store:loadTags", async () => {
   }
   return null;
 });
+
+const favFilePath = path.join(__dirname, "matched_ids.txt");
+
+ipcMain.handle("store:loadFavoritesFile", async () => {
+  try {
+    if (fs.existsSync(favFilePath)) {
+      const content = fs.readFileSync(favFilePath, "utf-8");
+      return content.trim().split("\n").map((line) => parseInt(line.trim(), 10)).filter((id) => !isNaN(id));
+    }
+  } catch (e) {
+    console.error("Failed to load favorites file:", e);
+  }
+  return [];
+});

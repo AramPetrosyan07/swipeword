@@ -6,4 +6,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   storeSave: (data) => ipcRenderer.invoke('store:save', data),
   storeLoadDictionary: () => ipcRenderer.invoke('store:loadDictionary'),
   storeLoadTags: () => ipcRenderer.invoke('store:loadTags'),
+  loadFavoritesFile: () => ipcRenderer.invoke('store:loadFavoritesFile'),
 });

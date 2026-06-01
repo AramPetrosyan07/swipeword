@@ -44,6 +44,8 @@ class CardManager {
     this.learnSynonymsEl = config.learnSynonymsEl || null;
     this.learnAntonymsEl = config.learnAntonymsEl || null;
     this.learnDescriptionEl = config.learnDescriptionEl || null;
+    this.starEl = config.starEl || null;
+    this.learnStarEl = config.learnStarEl || null;
     this.onTagClick = config.onTagClick || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
@@ -62,6 +64,28 @@ class CardManager {
   setMode(isLearning) {
     this._learningMode = isLearning;
     this.cardEl.classList.toggle('learning-mode', isLearning);
+  }
+
+  updateStarIcon() {
+    if (!this.currentWord) return;
+    const isFav = appStore.isFavorite(this.currentWord.id);
+    const icon = isFav ? '\u2605' : '\u2606';
+    if (this.starEl) {
+      this.starEl.innerHTML = icon;
+      this.starEl.classList.toggle('is-favorite', isFav);
+      this.starEl.title = isFav ? 'Remove from favorites' : 'Add to favorites';
+    }
+    if (this.learnStarEl) {
+      this.learnStarEl.innerHTML = icon;
+      this.learnStarEl.classList.toggle('is-favorite', isFav);
+      this.learnStarEl.title = isFav ? 'Remove from favorites' : 'Add to favorites';
+    }
+  }
+
+  toggleFavorite() {
+    if (!this.currentWord) return;
+    appStore.toggleFavorite(this.currentWord.id);
+    this.updateStarIcon();
   }
 
   show(word) {

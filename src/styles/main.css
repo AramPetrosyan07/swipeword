@@ -92,6 +92,10 @@ body {
   background: var(--border);
 }
 
+#btnFavFilter.active {
+  color: #f5a623;
+}
+
 .progress-text {
   font-size: 14px;
   font-weight: 600;

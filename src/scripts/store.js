@@ -51,6 +51,7 @@ class Store {
     }
     if (!this.data.dailyLog) this.data.dailyLog = [];
     if (this.data.learnMode === undefined) this.data.learnMode = true;
+    if (!this.data.favorites) this.data.favorites = [];
   }
 
   _defaults() {
@@ -65,6 +66,7 @@ class Store {
       },
       streak: 0,
       lastPracticed: null,
+      favorites: [],
       darkMode: false,
       learnMode: true,
       shuffle: false,
@@ -419,6 +421,27 @@ class Store {
       if (tag.wordIds.includes(wordId)) result.push(name);
     }
     return result;
+  }
+
+  isFavorite(id) {
+    return this.data.favorites.includes(id);
+  }
+
+  toggleFavorite(id) {
+    const idx = this.data.favorites.indexOf(id);
+    if (idx === -1) {
+      this.data.favorites.push(id);
+    } else {
+      this.data.favorites.splice(idx, 1);
+    }
+    this.save();
+    return idx === -1;
+  }
+
+  getFavoriteWords() {
+    return this.data.favorites
+      .map((id) => this.getWordById(id))
+      .filter((w) => w !== null);
   }
 }
 

@@ -4,6 +4,7 @@ class App {
     this.currentIndex = 0;
     this.screenOrder = [];
     this.shuffleEnabled = false;
+    this.favFilterEnabled = false;
     this.currentFileName = null;
 
     this.undoStack = [];
@@ -40,6 +41,8 @@ class App {
       learnSynonymsEl: document.getElementById('cardLearnSynonyms'),
       learnAntonymsEl: document.getElementById('cardLearnAntonyms'),
       learnDescriptionEl: document.getElementById('cardLearnDescription'),
+      starEl: document.getElementById('btnStar'),
+      learnStarEl: document.getElementById('btnLearnStar'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),
@@ -54,6 +57,19 @@ class App {
     await appStore.load();
     await appStore.loadDictionary();
     await appStore.loadTags();
+
+    if (appStore.data.favorites.length === 0) {
+      try {
+        const ids = await window.electronAPI.loadFavoritesFile();
+        if (ids && ids.length > 0) {
+          appStore.data.favorites = ids;
+          await appStore.save();
+        }
+      } catch (e) {
+        console.error('Failed to load favorites file:', e);
+      }
+    }
+
     themeManager.init();
     studyModeManager.init();
 
@@ -193,6 +209,20 @@ class App {
     document.getElementById('btnLearnMode').addEventListener('click', () => {
       studyModeManager.toggle();
       this._showCurrentCard();
+    });
+    document.getElementById('btnFavFilter').addEventListener('click', () => {
+      this.favFilterEnabled = !this.favFilterEnabled;
+      const btn = document.getElementById('btnFavFilter');
+      btn.classList.toggle('active', this.favFilterEnabled);
+      btn.innerHTML = this.favFilterEnabled ? '\u2605' : '\u2606';
+      this._buildQueue();
+      this._showCurrentCard();
+    });
+    document.getElementById('btnStar').addEventListener('click', () => {
+      this.learnCard.toggleFavorite();
+    });
+    document.getElementById('btnLearnStar').addEventListener('click', () => {
+      this.learnCard.toggleFavorite();
     });
     document.getElementById('btnLearnPrev').addEventListener('click', () => {
       this._handleLearnPrev();
@@ -379,6 +409,10 @@ class App {
       );
     }
 
+    if (this.favFilterEnabled) {
+      this.screenOrder = this.screenOrder.filter((w) => appStore.isFavorite(w.id));
+    }
+
     if (this.shuffleEnabled) {
       for (let i = this.screenOrder.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -431,6 +465,10 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
 
+    const favBtn = document.getElementById('btnFavFilter');
+    favBtn.classList.toggle('active', this.favFilterEnabled);
+    favBtn.innerHTML = this.favFilterEnabled ? '\u2605' : '\u2606';
+
     this._buildQueue();
     this._showCurrentCard();
     this._renderLetterStrip();
@@ -449,6 +487,7 @@ class App {
 
     this.learnCard.show(this.screenOrder[this.currentIndex]);
     this.learnCard.setMode(studyModeManager.isLearningMode);
+    this.learnCard.updateStarIcon();
 
     const pos = this.currentIndex + 1;
     let total;
