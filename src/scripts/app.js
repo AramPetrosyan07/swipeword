@@ -45,6 +45,12 @@ class App {
       learnDescriptionEl: document.getElementById('cardLearnDescription'),
       starEl: document.getElementById('btnStar'),
       learnStarEl: document.getElementById('btnLearnStar'),
+      noteEl: document.getElementById('cardNote'),
+      noteDisplayEl: document.getElementById('cardNoteDisplay'),
+      noteEmptyEl: document.getElementById('cardNoteEmpty'),
+      learnNoteEl: document.getElementById('cardLearnNote'),
+      learnNoteDisplayEl: document.getElementById('cardLearnNoteDisplay'),
+      learnNoteEmptyEl: document.getElementById('cardLearnNoteEmpty'),
       mode: 'learn',
       onForgot: (word) => this._handleForgot(word),
       onRemember: (word) => this._handleRemember(word),
@@ -52,6 +58,7 @@ class App {
         if (this.learnCard.isFlipped) this.learnCard.flip();
         tagsPage.showTag(tagName);
       },
+      onNoteClick: (word) => this._openNoteEditor(word),
     });
   }
 
@@ -128,6 +135,10 @@ class App {
     document.getElementById('sideSelfTest').addEventListener('click', () => {
       this._closeSidebar();
       selfTest.start();
+    });
+    document.getElementById('sideCollector').addEventListener('click', () => {
+      this._closeSidebar();
+      wordCollector.show();
     });
 
     document.getElementById('sideShuffle').addEventListener('click', () => {
@@ -255,6 +266,13 @@ class App {
       if (e.target === document.getElementById('wordCardPopup')) this._closeWordCardPopup();
     });
 
+    document.getElementById('btnNoteEditorSave').addEventListener('click', () => this._saveNote());
+    document.getElementById('btnNoteEditorCancel').addEventListener('click', () => this._closeNoteEditor());
+    document.getElementById('btnNoteEditorClose').addEventListener('click', () => this._closeNoteEditor());
+    document.getElementById('noteEditorPopup').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('noteEditorPopup')) this._closeNoteEditor();
+    });
+
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT') return;
 
@@ -262,6 +280,11 @@ class App {
       if (!activeScreen) return;
 
       if (e.key === 'Escape') {
+        const notePopup = document.getElementById('noteEditorPopup');
+        if (notePopup.style.display === 'flex') {
+          this._closeNoteEditor();
+          return;
+        }
         const popup = document.getElementById('wordCardPopup');
         if (popup.style.display === 'flex') {
           this._closeWordCardPopup();
@@ -797,11 +820,50 @@ class App {
       tagsEl.style.display = 'none';
     }
 
+    const noteEl = document.getElementById('wordCardPopupNote');
+    const noteText = appStore.getNote(word.id);
+    if (noteText) {
+      noteEl.textContent = '\uD83D\uDCDD ' + noteText;
+      noteEl.style.display = '';
+    } else {
+      noteEl.style.display = 'none';
+    }
+
     popup.style.display = 'flex';
   }
 
   _closeWordCardPopup() {
     document.getElementById('wordCardPopup').style.display = 'none';
+  }
+
+  _openNoteEditor(word) {
+    if (!word) return;
+    this._noteEditingWordId = word.id;
+    document.getElementById('noteEditorWord').textContent = word.english;
+    document.getElementById('noteEditorTextarea').value = appStore.getNote(word.id);
+    document.getElementById('noteEditorPopup').style.display = 'flex';
+    document.getElementById('noteEditorTextarea').focus();
+  }
+
+  _saveNote() {
+    const id = this._noteEditingWordId;
+    if (id === undefined) return;
+    const text = document.getElementById('noteEditorTextarea').value;
+    appStore.setNote(id, text).then(() => {
+      this._closeNoteEditor();
+      const word = appStore.getWordById(id);
+      if (word) {
+        if (this.learnCard.currentWord && this.learnCard.currentWord.id === id) {
+          this.learnCard.currentWord = word;
+          this.learnCard.show(word);
+        }
+      }
+    });
+  }
+
+  _closeNoteEditor() {
+    document.getElementById('noteEditorPopup').style.display = 'none';
+    this._noteEditingWordId = undefined;
   }
 }
 

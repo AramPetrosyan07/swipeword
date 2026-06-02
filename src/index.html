@@ -38,6 +38,9 @@
         <button class="sidebar-btn" id="sideSelfTest" data-screen="selftest">
           <span class="sidebar-btn-icon">&#128221;</span> Self-Test
         </button>
+        <button class="sidebar-btn" id="sideCollector" data-screen="collector">
+          <span class="sidebar-btn-icon">&#128221;</span> Collector
+        </button>
       </div>
       <div class="sidebar-section">
         <div class="sidebar-section-title">History</div>
@@ -138,6 +141,10 @@
                     <div class="card-synonyms" id="cardLearnSynonyms"></div>
                     <div class="card-antonyms" id="cardLearnAntonyms"></div>
                     <div class="card-description" id="cardLearnDescription"></div>
+                    <div class="card-note" id="cardLearnNote">
+                      <div class="card-note-display" id="cardLearnNoteDisplay"></div>
+                      <div class="card-note-empty" id="cardLearnNoteEmpty">+ Add note</div>
+                    </div>
                   </div>
                 </div>
                 <div class="card-back">
@@ -158,6 +165,10 @@
                   <div class="card-synonyms" id="cardSynonyms"></div>
                   <div class="card-antonyms" id="cardAntonyms"></div>
                   <div class="card-description" id="cardDescription"></div>
+                  <div class="card-note" id="cardNote">
+                    <div class="card-note-display" id="cardNoteDisplay"></div>
+                    <div class="card-note-empty" id="cardNoteEmpty">+ Add note</div>
+                  </div>
                   <div class="card-tags" id="cardTags"></div>
                 </div>
               </div>
@@ -514,7 +525,24 @@
           <div class="word-card-popup-synonyms" id="wordCardPopupSynonyms"></div>
           <div class="word-card-popup-antonyms" id="wordCardPopupAntonyms"></div>
           <div class="word-card-popup-description" id="wordCardPopupDescription"></div>
+          <div class="word-card-popup-note" id="wordCardPopupNote"></div>
           <div class="word-card-popup-tags" id="wordCardPopupTags"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Note Editor Popup -->
+    <div id="noteEditorPopup" class="note-editor-popup" style="display:none;">
+      <div class="note-editor-content">
+        <div class="note-editor-header">
+          <span class="note-editor-title">Personal Note</span>
+          <button class="icon-btn" id="btnNoteEditorClose">&times;</button>
+        </div>
+        <div class="note-editor-word" id="noteEditorWord"></div>
+        <textarea id="noteEditorTextarea" placeholder="Write your memory hook, mnemonic, or personal note..." rows="4"></textarea>
+        <div class="note-editor-actions">
+          <button class="btn btn-secondary" id="btnNoteEditorCancel">Cancel</button>
+          <button class="btn btn-primary" id="btnNoteEditorSave">Save Note</button>
         </div>
       </div>
     </div>
@@ -624,6 +652,20 @@
         </div>
         <div class="word-list-items" id="wordListItems"></div>
       </div>
+      <div class="charts-section">
+        <div class="chart-card">
+          <h3 class="chart-title">Daily Activity (14 days)</h3>
+          <div class="chart-canvas-wrap">
+            <canvas id="chartDailyActivity" width="600" height="200"></canvas>
+          </div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Learning Progress</h3>
+          <div class="chart-canvas-wrap">
+            <canvas id="chartLearningProgress" width="600" height="200"></canvas>
+          </div>
+        </div>
+      </div>
       <div class="stats-actions">
         <button class="btn btn-secondary" id="btnResetProgress">Reset All Progress</button>
       </div>
@@ -725,6 +767,41 @@
         </div>
       </div>
     </div>
+
+    <!-- Word Collector Screen -->
+    <div id="screen-collector" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnCollectorBack" title="Back">&#8592;</button>
+        <span class="progress-text">Word Collector</span>
+        <div></div>
+      </div>
+      <div class="collector-content">
+        <div class="collector-input-area">
+          <div class="collector-search-wrap">
+            <input type="text" id="collectorInput" placeholder="Type a word to search or add..." autocomplete="off" spellcheck="false" />
+            <div class="collector-suggestions" id="collectorSuggestions"></div>
+          </div>
+          <button class="btn btn-primary" id="btnCollectorAdd">Add to Collection</button>
+        </div>
+        <div class="collector-word-detail" id="collectorWordDetail" style="display:none;">
+          <div class="collector-detail-english" id="collectorDetailEnglish"></div>
+          <div class="collector-detail-translation">
+            <span class="collector-detail-label">Armenian:</span>
+            <span id="collectorDetailArmenian"></span>
+          </div>
+          <div class="collector-detail-translation">
+            <span class="collector-detail-label">Russian:</span>
+            <span id="collectorDetailRussian"></span>
+          </div>
+          <div class="collector-detail-type" id="collectorDetailType"></div>
+          <div class="collector-detail-example" id="collectorDetailExample"></div>
+        </div>
+        <div class="collector-list">
+          <h3 class="collector-list-title">Collected Words</h3>
+          <div class="collector-list-items" id="collectorListItems"></div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="scripts/store.js"></script>
@@ -747,6 +824,8 @@
   <script src="scripts/study-mode.js"></script>
   <script src="scripts/collections.js"></script>
   <script src="scripts/tags-page.js"></script>
+  <script src="scripts/charts.js"></script>
+  <script src="scripts/word-collector.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>

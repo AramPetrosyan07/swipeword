@@ -52,6 +52,7 @@ class Store {
     if (!this.data.dailyLog) this.data.dailyLog = [];
     if (this.data.learnMode === undefined) this.data.learnMode = true;
     if (!this.data.favorites) this.data.favorites = [];
+    if (!this.data.notes) this.data.notes = {};
   }
 
   _defaults() {
@@ -77,6 +78,7 @@ class Store {
       challengeBest: 0,
       storyProgress: [],
       storyWords: [],
+      notes: {},
     };
   }
 
@@ -100,6 +102,65 @@ class Store {
 
   _getToday() {
     return new Date().toISOString().split('T')[0];
+  }
+
+  getNote(id) {
+    return this.data.notes && this.data.notes[id] ? this.data.notes[id] : '';
+  }
+
+  setNote(id, text) {
+    if (!this.data.notes) this.data.notes = {};
+    if (text.trim()) {
+      this.data.notes[id] = text.trim();
+    } else {
+      delete this.data.notes[id];
+    }
+    return this.save();
+  }
+
+  getDailyActivity(days = 30) {
+    const today = new Date();
+    const result = [];
+    for (let i = days - 1; i >= 0; i--) {
+      const d = new Date(today);
+      d.setDate(d.getDate() - i);
+      const dateStr = d.toISOString().split('T')[0];
+      const dayEntry = this.data.dailyLog.find(entry => entry.date === dateStr);
+      if (dayEntry) {
+        const remembered = dayEntry.entries.filter(e => e.action === 'remembered').length;
+        const forgotten = dayEntry.entries.filter(e => e.action === 'forgotten').length;
+        result.push({ date: dateStr, remembered, forgotten });
+      } else {
+        result.push({ date: dateStr, remembered: 0, forgotten: 0 });
+      }
+    }
+    return result;
+  }
+
+  getCumulativeStats() {
+    const today = new Date();
+    const result = [];
+    const seen = {};
+    let cumRemembered = 0;
+    let cumForgotten = 0;
+
+    const allDays = [...this.data.dailyLog].sort((a, b) => a.date.localeCompare(b.date));
+
+    for (const day of allDays) {
+      for (const entry of day.entries) {
+        if (seen[entry.wordId]) continue;
+        seen[entry.wordId] = true;
+        if (entry.action === 'remembered') cumRemembered++;
+        else cumForgotten++;
+      }
+      result.push({
+        date: day.date,
+        cumulativeRemembered: cumRemembered,
+        cumulativeForgotten: cumForgotten,
+        totalUnique: cumRemembered + cumForgotten,
+      });
+    }
+    return result;
   }
 
   async save() {

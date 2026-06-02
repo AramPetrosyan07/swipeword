@@ -249,6 +249,120 @@ body {
   text-align: center;
 }
 
+/* Charts Section */
+.charts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 16px;
+}
+
+.chart-card {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.chart-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  padding: 12px 16px 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chart-canvas-wrap {
+  padding: 4px 8px 8px;
+}
+
+.chart-canvas-wrap canvas {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+/* Note Editor Popup */
+.note-editor-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-editor-content {
+  background: var(--surface);
+  border-radius: var(--radius);
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.note-editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.note-editor-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.note-editor-word {
+  text-align: center;
+  padding: 12px 16px 4px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.note-editor-content textarea {
+  display: block;
+  width: calc(100% - 32px);
+  margin: 12px 16px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 80px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.note-editor-content textarea:focus {
+  border-color: var(--primary);
+}
+
+.note-editor-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.note-editor-actions .btn {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
 /* Tags Screen */
 .tag-grid {
   flex: 1;
@@ -1850,6 +1964,17 @@ body {
   margin-top: 4px;
 }
 
+.word-card-popup-note {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.4;
+  padding: 6px 12px 2px;
+  width: 100%;
+  word-break: break-word;
+}
+
 .word-card-popup-tags {
   display: flex;
   justify-content: center;
@@ -1878,3 +2003,233 @@ body {
 .theme-dark .word-card-popup-body[data-type="conjunction"] { background: #3a3a1a; border-color: #5a5a2a; }
 .theme-dark .word-card-popup-body[data-type="determiner"] { background: #2a2a2a; border-color: #4a4a4a; }
 .theme-dark .word-card-popup-body[data-type="pronoun"] { background: #3a1a2a; border-color: #5a2a40; }
+
+/* Word Collector Screen */
+.collector-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 16px;
+  gap: 12px;
+}
+
+.collector-input-area {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.collector-search-wrap {
+  position: relative;
+  flex: 1;
+}
+
+#collectorInput {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+#collectorInput:focus {
+  border-color: var(--primary);
+}
+
+.collector-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.collector-suggestion {
+  padding: 10px 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.1s;
+  border-bottom: 1px solid var(--border);
+}
+
+.collector-suggestion:last-child {
+  border-bottom: none;
+}
+
+.collector-suggestion:hover,
+.collector-suggestion.active {
+  background: var(--bg);
+}
+
+.collector-suggestion strong {
+  color: var(--primary);
+}
+
+.collector-suggestion-word {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.collector-suggestion-translation {
+  font-size: 13px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50%;
+}
+
+.collector-suggestion-no-result {
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-style: italic;
+  justify-content: center;
+  padding: 14px;
+}
+
+#btnCollectorAdd {
+  flex-shrink: 0;
+  padding: 12px 20px;
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+.collector-word-detail {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.collector-detail-english {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.collector-detail-translation {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.collector-detail-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-right: 4px;
+}
+
+.collector-detail-type {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.collector-detail-example {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.collector-list {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.collector-list-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}
+
+.collector-list-items {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.collector-empty {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.collector-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.12s;
+}
+
+.collector-list-item:last-child {
+  border-bottom: none;
+}
+
+.collector-list-item:hover {
+  background: var(--bg);
+}
+
+.collector-list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.collector-list-word {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.collector-list-date {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.collector-list-remove {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--danger);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 0.15s;
+  opacity: 0.5;
+}
+
+.collector-list-remove:hover {
+  opacity: 1;
+  background: rgba(244, 67, 54, 0.1);
+}

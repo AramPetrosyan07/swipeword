@@ -94,6 +94,50 @@ ipcMain.handle("store:loadTags", async () => {
   return null;
 });
 
+const collectionPath = path.join(__dirname, "custom-collection.json");
+
+ipcMain.handle("collection:load", async () => {
+  try {
+    if (fs.existsSync(collectionPath)) {
+      return JSON.parse(fs.readFileSync(collectionPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load collection:", e);
+  }
+  return [];
+});
+
+ipcMain.handle("collection:add", async (_event, word) => {
+  try {
+    let data = [];
+    if (fs.existsSync(collectionPath)) {
+      data = JSON.parse(fs.readFileSync(collectionPath, "utf-8"));
+    }
+    if (data.some(item => item.word.toLowerCase() === word.toLowerCase())) {
+      return { success: false, reason: "exists" };
+    }
+    data.push({ word, addedAt: new Date().toISOString().split("T")[0] });
+    fs.writeFileSync(collectionPath, JSON.stringify(data, null, 2), "utf-8");
+    return { success: true };
+  } catch (e) {
+    console.error("Failed to add to collection:", e);
+    return { success: false, reason: "error" };
+  }
+});
+
+ipcMain.handle("collection:remove", async (_event, word) => {
+  try {
+    if (!fs.existsSync(collectionPath)) return { success: false };
+    let data = JSON.parse(fs.readFileSync(collectionPath, "utf-8"));
+    data = data.filter(item => item.word.toLowerCase() !== word.toLowerCase());
+    fs.writeFileSync(collectionPath, JSON.stringify(data, null, 2), "utf-8");
+    return { success: true };
+  } catch (e) {
+    console.error("Failed to remove from collection:", e);
+    return { success: false };
+  }
+});
+
 const favFilePath = path.join(__dirname, "matched_ids.txt");
 
 ipcMain.handle("store:loadFavoritesFile", async () => {

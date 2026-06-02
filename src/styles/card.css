@@ -270,6 +270,51 @@
   transform: scale(1.05);
 }
 
+/* Card Note */
+.card-note {
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+  padding: 6px 12px 4px;
+  border-top: 1px dashed var(--border);
+  margin-top: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-radius: 6px;
+}
+
+.card-note:hover {
+  background: rgba(108, 99, 255, 0.08);
+}
+
+.card-note-display {
+  font-size: 13px;
+  color: var(--primary);
+  font-weight: 500;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.card-note-empty {
+  font-size: 12px;
+  color: var(--primary);
+  font-weight: 600;
+  opacity: 0.6;
+  letter-spacing: 0.3px;
+  transition: opacity 0.15s;
+}
+
+.card-note:hover .card-note-empty {
+  opacity: 1;
+}
+
+/* Learning mode note */
+body.learning-mode .card-note {
+  max-width: 100%;
+  width: 100%;
+  padding: 8px 16px;
+}
+
 /* Swipe states */
 .card.swiping-left {
   transition: none;
@@ -543,7 +588,7 @@ body.learning-mode .card-stack {
 }
 
 body.learning-mode .card-front {
-  overflow: hidden;
+  overflow-y: auto;
   justify-content: flex-start;
   padding: 20px 24px 24px;
   gap: 4px;

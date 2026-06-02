@@ -25,6 +25,7 @@ class StatsManager {
     document.getElementById('statStreak').textContent = stats.streak;
     document.getElementById('statSessions').textContent = stats.sessions;
     this._hideWordList();
+    chartsManager.update();
   }
 
   _showWordList(stat) {

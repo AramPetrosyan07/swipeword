@@ -46,6 +46,13 @@ class CardManager {
     this.learnDescriptionEl = config.learnDescriptionEl || null;
     this.starEl = config.starEl || null;
     this.learnStarEl = config.learnStarEl || null;
+    this.noteEl = config.noteEl || null;
+    this.noteEmptyEl = config.noteEmptyEl || null;
+    this.noteDisplayEl = config.noteDisplayEl || null;
+    this.learnNoteEl = config.learnNoteEl || null;
+    this.learnNoteEmptyEl = config.learnNoteEmptyEl || null;
+    this.learnNoteDisplayEl = config.learnNoteDisplayEl || null;
+    this.onNoteClick = config.onNoteClick || null;
     this.onTagClick = config.onTagClick || null;
     this.onForgot = config.onForgot || (() => {});
     this.onRemember = config.onRemember || (() => {});
@@ -219,6 +226,31 @@ class CardManager {
 
     renderTags(this.tagsFrontEl);
     renderTags(this.tagsEl);
+
+    const noteText = appStore.getNote(word.id);
+    const renderNote = (displayEl, emptyEl) => {
+      if (!displayEl && !emptyEl) return;
+      if (noteText) {
+        if (displayEl) {
+          displayEl.textContent = noteText;
+          displayEl.style.display = '';
+        }
+        if (emptyEl) emptyEl.style.display = 'none';
+      } else {
+        if (displayEl) displayEl.style.display = 'none';
+        if (emptyEl) emptyEl.style.display = '';
+      }
+    };
+    renderNote(this.noteDisplayEl, this.noteEmptyEl);
+    renderNote(this.learnNoteDisplayEl, this.learnNoteEmptyEl);
+
+    if (this._noteClickBound) {
+      if (this.noteEl) this.noteEl.removeEventListener('click', this._noteClickBound);
+      if (this.learnNoteEl) this.learnNoteEl.removeEventListener('click', this._noteClickBound);
+    }
+    this._noteClickBound = () => { if (this.onNoteClick) this.onNoteClick(this.currentWord); };
+    if (this.noteEl) this.noteEl.addEventListener('click', this._noteClickBound);
+    if (this.learnNoteEl) this.learnNoteEl.addEventListener('click', this._noteClickBound);
 
     const letter = word.english.charAt(0).toUpperCase();
     const typeLabel = word.type || '';
