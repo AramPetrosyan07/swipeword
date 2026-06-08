@@ -1,0 +1,10506 @@
+[
+  {
+    "id": 1,
+    "english": "abolish",
+    "armenian": "վերացնել",
+    "letter": "A",
+    "russian": "отменять",
+    "type": ""
+  },
+  {
+    "id": 2,
+    "english": "abortion",
+    "armenian": "աբորտ",
+    "letter": "A",
+    "russian": "аборт",
+    "type": ""
+  },
+  {
+    "id": 3,
+    "english": "absence",
+    "armenian": "բացակայությունը",
+    "letter": "A",
+    "russian": "отсутствие",
+    "type": ""
+  },
+  {
+    "id": 4,
+    "english": "absent",
+    "armenian": "բացակայում է",
+    "letter": "A",
+    "russian": "отсутствующий",
+    "type": ""
+  },
+  {
+    "id": 5,
+    "english": "absurd",
+    "armenian": "անհեթեթ",
+    "letter": "A",
+    "russian": "абсурдный",
+    "type": ""
+  },
+  {
+    "id": 6,
+    "english": "abundance",
+    "armenian": "առատություն",
+    "letter": "A",
+    "russian": "избыток",
+    "type": ""
+  },
+  {
+    "id": 7,
+    "english": "abuse",
+    "armenian": "չարաշահում",
+    "letter": "A",
+    "russian": "злоупотреблять",
+    "type": ""
+  },
+  {
+    "id": 8,
+    "english": "academy",
+    "armenian": "ակադեմիան",
+    "letter": "A",
+    "russian": "академия",
+    "type": ""
+  },
+  {
+    "id": 9,
+    "english": "accelerate",
+    "armenian": "արագացնել",
+    "letter": "A",
+    "russian": "ускоряться",
+    "type": ""
+  },
+  {
+    "id": 10,
+    "english": "acceptance",
+    "armenian": "ընդունումը",
+    "letter": "A",
+    "russian": "принятие",
+    "type": ""
+  },
+  {
+    "id": 11,
+    "english": "accessible",
+    "armenian": "հասանելի",
+    "letter": "A",
+    "russian": "доступный",
+    "type": ""
+  },
+  {
+    "id": 12,
+    "english": "accomplishment",
+    "armenian": "ձեռքբերում",
+    "letter": "A",
+    "russian": "достижение",
+    "type": ""
+  },
+  {
+    "id": 13,
+    "english": "accordance",
+    "armenian": "համապատասխանությունը",
+    "letter": "A",
+    "russian": "соответствие",
+    "type": ""
+  },
+  {
+    "id": 14,
+    "english": "accordingly",
+    "armenian": "համապատասխանաբար",
+    "letter": "A",
+    "russian": "соответственно",
+    "type": ""
+  },
+  {
+    "id": 15,
+    "english": "accountability",
+    "armenian": "հաշվետվողականություն",
+    "letter": "A",
+    "russian": "подотчетность",
+    "type": ""
+  },
+  {
+    "id": 16,
+    "english": "accountable",
+    "armenian": "հաշվետու",
+    "letter": "A",
+    "russian": "подотчетный",
+    "type": ""
+  },
+  {
+    "id": 17,
+    "english": "accumulate",
+    "armenian": "կուտակել",
+    "letter": "A",
+    "russian": "накапливать",
+    "type": ""
+  },
+  {
+    "id": 18,
+    "english": "accumulation",
+    "armenian": "կուտակում",
+    "letter": "A",
+    "russian": "накопление",
+    "type": ""
+  },
+  {
+    "id": 19,
+    "english": "accusation",
+    "armenian": "մեղադրանք",
+    "letter": "A",
+    "russian": "обвинение",
+    "type": ""
+  },
+  {
+    "id": 20,
+    "english": "accused",
+    "armenian": "մեղադրյալ",
+    "letter": "A",
+    "russian": "обвиняемый",
+    "type": ""
+  },
+  {
+    "id": 21,
+    "english": "acid",
+    "armenian": "թթու",
+    "letter": "A",
+    "russian": "кислота",
+    "type": ""
+  },
+  {
+    "id": 22,
+    "english": "acquisition",
+    "armenian": "ձեռքբերում",
+    "letter": "A",
+    "russian": "приобретение",
+    "type": ""
+  },
+  {
+    "id": 23,
+    "english": "acre",
+    "armenian": "ակր",
+    "letter": "A",
+    "russian": "акр",
+    "type": ""
+  },
+  {
+    "id": 24,
+    "english": "activation",
+    "armenian": "ակտիվացում",
+    "letter": "A",
+    "russian": "активация",
+    "type": ""
+  },
+  {
+    "id": 25,
+    "english": "activist",
+    "armenian": "ակտիվիստ",
+    "letter": "A",
+    "russian": "активист",
+    "type": ""
+  },
+  {
+    "id": 26,
+    "english": "acute",
+    "armenian": "սուր",
+    "letter": "A",
+    "russian": "острый",
+    "type": ""
+  },
+  {
+    "id": 27,
+    "english": "adaptation",
+    "armenian": "հարմարվողականություն",
+    "letter": "A",
+    "russian": "приспособление",
+    "type": ""
+  },
+  {
+    "id": 28,
+    "english": "adhere",
+    "armenian": "հավատարիմ մնալ",
+    "letter": "A",
+    "russian": "придерживаться",
+    "type": ""
+  },
+  {
+    "id": 29,
+    "english": "adjacent",
+    "armenian": "կից",
+    "letter": "A",
+    "russian": "соседний",
+    "type": ""
+  },
+  {
+    "id": 30,
+    "english": "adjustment",
+    "armenian": "ճշգրտում",
+    "letter": "A",
+    "russian": "корректирование",
+    "type": ""
+  },
+  {
+    "id": 31,
+    "english": "administer",
+    "armenian": "տնօրինել",
+    "letter": "A",
+    "russian": "управлять",
+    "type": ""
+  },
+  {
+    "id": 32,
+    "english": "administrative",
+    "armenian": "վարչական",
+    "letter": "A",
+    "russian": "административный",
+    "type": ""
+  },
+  {
+    "id": 33,
+    "english": "administrator",
+    "armenian": "ադմինիստրատոր",
+    "letter": "A",
+    "russian": "администратор",
+    "type": ""
+  },
+  {
+    "id": 34,
+    "english": "admission",
+    "armenian": "ընդունելություն",
+    "letter": "A",
+    "russian": "допуск",
+    "type": ""
+  },
+  {
+    "id": 35,
+    "english": "adolescent",
+    "armenian": "դեռահաս",
+    "letter": "A",
+    "russian": "подросток",
+    "type": ""
+  },
+  {
+    "id": 36,
+    "english": "adoption",
+    "armenian": "ընդունումը",
+    "letter": "A",
+    "russian": "принятие",
+    "type": ""
+  },
+  {
+    "id": 37,
+    "english": "adverse",
+    "armenian": "անբարենպաստ",
+    "letter": "A",
+    "russian": "неблагоприятный",
+    "type": ""
+  },
+  {
+    "id": 38,
+    "english": "advocate",
+    "armenian": "փաստաբան",
+    "letter": "A",
+    "russian": "защитник",
+    "type": ""
+  },
+  {
+    "id": 39,
+    "english": "aesthetic",
+    "armenian": "գեղագիտական",
+    "letter": "A",
+    "russian": "эстетический",
+    "type": ""
+  },
+  {
+    "id": 40,
+    "english": "affection",
+    "armenian": "ջերմություն",
+    "letter": "A",
+    "russian": "привязанность",
+    "type": ""
+  },
+  {
+    "id": 41,
+    "english": "aftermath",
+    "armenian": "հետեւանքները",
+    "letter": "A",
+    "russian": "последствия",
+    "type": ""
+  },
+  {
+    "id": 42,
+    "english": "aggression",
+    "armenian": "ագրեսիա",
+    "letter": "A",
+    "russian": "агрессия",
+    "type": ""
+  },
+  {
+    "id": 43,
+    "english": "agricultural",
+    "armenian": "գյուղատնտեսական",
+    "letter": "A",
+    "russian": "сельскохозяйственный",
+    "type": ""
+  },
+  {
+    "id": 44,
+    "english": "aide",
+    "armenian": "օգնական",
+    "letter": "A",
+    "russian": "помощник",
+    "type": ""
+  },
+  {
+    "id": 45,
+    "english": "albeit",
+    "armenian": "չնայած",
+    "letter": "A",
+    "russian": "хотя",
+    "type": ""
+  },
+  {
+    "id": 46,
+    "english": "alert",
+    "armenian": "զգոն",
+    "letter": "A",
+    "russian": "тревога",
+    "type": ""
+  },
+  {
+    "id": 47,
+    "english": "alien",
+    "armenian": "այլմոլորակային",
+    "letter": "A",
+    "russian": "чужак",
+    "type": ""
+  },
+  {
+    "id": 48,
+    "english": "align",
+    "armenian": "հարթեցնել",
+    "letter": "A",
+    "russian": "выровнять",
+    "type": ""
+  },
+  {
+    "id": 49,
+    "english": "alignment",
+    "armenian": "հավասարեցում",
+    "letter": "A",
+    "russian": "выравнивание",
+    "type": ""
+  },
+  {
+    "id": 50,
+    "english": "alike",
+    "armenian": "միանման",
+    "letter": "A",
+    "russian": "одинаково",
+    "type": ""
+  },
+  {
+    "id": 51,
+    "english": "allegation",
+    "armenian": "պնդում",
+    "letter": "A",
+    "russian": "обвинение",
+    "type": ""
+  },
+  {
+    "id": 52,
+    "english": "allege",
+    "armenian": "պնդում",
+    "letter": "A",
+    "russian": "утверждать",
+    "type": ""
+  },
+  {
+    "id": 53,
+    "english": "allegedly",
+    "armenian": "իբր",
+    "letter": "A",
+    "russian": "якобы",
+    "type": ""
+  },
+  {
+    "id": 54,
+    "english": "alliance",
+    "armenian": "դաշինք",
+    "letter": "A",
+    "russian": "альянс",
+    "type": ""
+  },
+  {
+    "id": 55,
+    "english": "allocate",
+    "armenian": "հատկացնել",
+    "letter": "A",
+    "russian": "выделять",
+    "type": ""
+  },
+  {
+    "id": 56,
+    "english": "allocation",
+    "armenian": "հատկացում",
+    "letter": "A",
+    "russian": "распределение",
+    "type": ""
+  },
+  {
+    "id": 57,
+    "english": "allowance",
+    "armenian": "նպաստ",
+    "letter": "A",
+    "russian": "разрешение",
+    "type": ""
+  },
+  {
+    "id": 58,
+    "english": "ally",
+    "armenian": "դաշնակից",
+    "letter": "A",
+    "russian": "союзник",
+    "type": ""
+  },
+  {
+    "id": 59,
+    "english": "aluminium",
+    "armenian": "ալյումինե",
+    "letter": "A",
+    "russian": "алюминий",
+    "type": ""
+  },
+  {
+    "id": 60,
+    "english": "amateur",
+    "armenian": "սիրողական",
+    "letter": "A",
+    "russian": "любитель",
+    "type": ""
+  },
+  {
+    "id": 61,
+    "english": "ambassador",
+    "armenian": "դեսպան",
+    "letter": "A",
+    "russian": "посол",
+    "type": ""
+  },
+  {
+    "id": 62,
+    "english": "amend",
+    "armenian": "փոփոխել",
+    "letter": "A",
+    "russian": "исправлять",
+    "type": ""
+  },
+  {
+    "id": 63,
+    "english": "amendment",
+    "armenian": "փոփոխություն",
+    "letter": "A",
+    "russian": "поправка",
+    "type": ""
+  },
+  {
+    "id": 64,
+    "english": "amid",
+    "armenian": "մեջտեղում",
+    "letter": "A",
+    "russian": "среди",
+    "type": ""
+  },
+  {
+    "id": 65,
+    "english": "analogy",
+    "armenian": "անալոգիա",
+    "letter": "A",
+    "russian": "аналогия",
+    "type": ""
+  },
+  {
+    "id": 66,
+    "english": "anchor",
+    "armenian": "խարիսխ",
+    "letter": "A",
+    "russian": "якорь",
+    "type": ""
+  },
+  {
+    "id": 67,
+    "english": "angel",
+    "armenian": "հրեշտակ",
+    "letter": "A",
+    "russian": "ангел",
+    "type": ""
+  },
+  {
+    "id": 68,
+    "english": "anonymous",
+    "armenian": "անանուն",
+    "letter": "A",
+    "russian": "анонимный",
+    "type": ""
+  },
+  {
+    "id": 69,
+    "english": "apparatus",
+    "armenian": "ապարատ",
+    "letter": "A",
+    "russian": "аппарат",
+    "type": ""
+  },
+  {
+    "id": 70,
+    "english": "appealing",
+    "armenian": "գրավիչ",
+    "letter": "A",
+    "russian": "привлекательный",
+    "type": ""
+  },
+  {
+    "id": 71,
+    "english": "appetite",
+    "armenian": "ախորժակը",
+    "letter": "A",
+    "russian": "аппетит",
+    "type": ""
+  },
+  {
+    "id": 72,
+    "english": "applaud",
+    "armenian": "ծափահարել",
+    "letter": "A",
+    "russian": "аплодировать",
+    "type": ""
+  },
+  {
+    "id": 73,
+    "english": "applicable",
+    "armenian": "կիրառելի",
+    "letter": "A",
+    "russian": "применимый",
+    "type": ""
+  },
+  {
+    "id": 74,
+    "english": "appoint",
+    "armenian": "նշանակել",
+    "letter": "A",
+    "russian": "назначать",
+    "type": ""
+  },
+  {
+    "id": 75,
+    "english": "appreciation",
+    "armenian": "գնահատանք",
+    "letter": "A",
+    "russian": "признательность",
+    "type": ""
+  },
+  {
+    "id": 76,
+    "english": "arbitrary",
+    "armenian": "կամայական",
+    "letter": "A",
+    "russian": "произвольный",
+    "type": ""
+  },
+  {
+    "id": 77,
+    "english": "architectural",
+    "armenian": "ճարտարապետական",
+    "letter": "A",
+    "russian": "архитектурный",
+    "type": ""
+  },
+  {
+    "id": 78,
+    "english": "archive",
+    "armenian": "արխիվ",
+    "letter": "A",
+    "russian": "архив",
+    "type": ""
+  },
+  {
+    "id": 79,
+    "english": "arena",
+    "armenian": "ասպարեզ",
+    "letter": "A",
+    "russian": "арена",
+    "type": ""
+  },
+  {
+    "id": 80,
+    "english": "arguably",
+    "armenian": "վիճելի",
+    "letter": "A",
+    "russian": "возможно",
+    "type": ""
+  },
+  {
+    "id": 81,
+    "english": "arm",
+    "armenian": "արմ",
+    "letter": "A",
+    "russian": "рука",
+    "type": ""
+  },
+  {
+    "id": 82,
+    "english": "array",
+    "armenian": "զանգված",
+    "letter": "A",
+    "russian": "множество",
+    "type": ""
+  },
+  {
+    "id": 83,
+    "english": "articulate",
+    "armenian": "արտահայտել",
+    "letter": "A",
+    "russian": "формулировать",
+    "type": ""
+  },
+  {
+    "id": 84,
+    "english": "ash",
+    "armenian": "մոխիր",
+    "letter": "A",
+    "russian": "пепел",
+    "type": ""
+  },
+  {
+    "id": 85,
+    "english": "aspiration",
+    "armenian": "ձգտումը",
+    "letter": "A",
+    "russian": "стремление",
+    "type": ""
+  },
+  {
+    "id": 86,
+    "english": "aspire",
+    "armenian": "ձգտել",
+    "letter": "A",
+    "russian": "стремиться",
+    "type": ""
+  },
+  {
+    "id": 87,
+    "english": "assassination",
+    "armenian": "սպանություն",
+    "letter": "A",
+    "russian": "убийство",
+    "type": ""
+  },
+  {
+    "id": 88,
+    "english": "assault",
+    "armenian": "հարձակում",
+    "letter": "A",
+    "russian": "атаковать",
+    "type": ""
+  },
+  {
+    "id": 89,
+    "english": "assemble",
+    "armenian": "հավաքել",
+    "letter": "A",
+    "russian": "собрать",
+    "type": ""
+  },
+  {
+    "id": 90,
+    "english": "assembly",
+    "armenian": "ժողով",
+    "letter": "A",
+    "russian": "сборка",
+    "type": ""
+  },
+  {
+    "id": 91,
+    "english": "assert",
+    "armenian": "պնդել",
+    "letter": "A",
+    "russian": "утверждать",
+    "type": ""
+  },
+  {
+    "id": 92,
+    "english": "assertion",
+    "armenian": "պնդումը",
+    "letter": "A",
+    "russian": "утверждение",
+    "type": ""
+  },
+  {
+    "id": 93,
+    "english": "assurance",
+    "armenian": "հավաստիացում",
+    "letter": "A",
+    "russian": "гарантия",
+    "type": ""
+  },
+  {
+    "id": 94,
+    "english": "asylum",
+    "armenian": "ապաստան",
+    "letter": "A",
+    "russian": "убежище",
+    "type": ""
+  },
+  {
+    "id": 95,
+    "english": "atrocity",
+    "armenian": "վայրագություն",
+    "letter": "A",
+    "russian": "злодеяние",
+    "type": ""
+  },
+  {
+    "id": 96,
+    "english": "attain",
+    "armenian": "հասնել",
+    "letter": "A",
+    "russian": "достичь",
+    "type": ""
+  },
+  {
+    "id": 97,
+    "english": "attendance",
+    "armenian": "հաճախում",
+    "letter": "A",
+    "russian": "посещаемость",
+    "type": ""
+  },
+  {
+    "id": 98,
+    "english": "attorney",
+    "armenian": "փաստաբան",
+    "letter": "A",
+    "russian": "адвокат",
+    "type": ""
+  },
+  {
+    "id": 99,
+    "english": "attribute",
+    "armenian": "հատկանիշ",
+    "letter": "A",
+    "russian": "атрибут",
+    "type": ""
+  },
+  {
+    "id": 100,
+    "english": "audit",
+    "armenian": "աուդիտ",
+    "letter": "A",
+    "russian": "аудит",
+    "type": ""
+  },
+  {
+    "id": 101,
+    "english": "authentic",
+    "armenian": "իսկական",
+    "letter": "A",
+    "russian": "аутентичный",
+    "type": ""
+  },
+  {
+    "id": 102,
+    "english": "authorize",
+    "armenian": "լիազորել",
+    "letter": "A",
+    "russian": "разрешать",
+    "type": ""
+  },
+  {
+    "id": 103,
+    "english": "auto",
+    "armenian": "ավտո",
+    "letter": "A",
+    "russian": "авто",
+    "type": ""
+  },
+  {
+    "id": 104,
+    "english": "autonomy",
+    "armenian": "ինքնավարություն",
+    "letter": "A",
+    "russian": "автономия",
+    "type": ""
+  },
+  {
+    "id": 105,
+    "english": "availability",
+    "armenian": "հասանելիություն",
+    "letter": "A",
+    "russian": "доступность",
+    "type": ""
+  },
+  {
+    "id": 106,
+    "english": "await",
+    "armenian": "սպասել",
+    "letter": "A",
+    "russian": "ждать",
+    "type": ""
+  },
+  {
+    "id": 107,
+    "english": "backdrop",
+    "armenian": "ֆոն",
+    "letter": "B",
+    "russian": "фон",
+    "type": ""
+  },
+  {
+    "id": 108,
+    "english": "backing",
+    "armenian": "աջակցություն",
+    "letter": "B",
+    "russian": "поддержка",
+    "type": ""
+  },
+  {
+    "id": 109,
+    "english": "backup",
+    "armenian": "կրկնօրինակում",
+    "letter": "B",
+    "russian": "резервное копирование",
+    "type": ""
+  },
+  {
+    "id": 110,
+    "english": "bail",
+    "armenian": "գրավ",
+    "letter": "B",
+    "russian": "залог",
+    "type": ""
+  },
+  {
+    "id": 111,
+    "english": "ballot",
+    "armenian": "քվեաթերթիկ",
+    "letter": "B",
+    "russian": "избирательный бюллетень",
+    "type": ""
+  },
+  {
+    "id": 112,
+    "english": "banner",
+    "armenian": "դրոշակ",
+    "letter": "B",
+    "russian": "баннер",
+    "type": ""
+  },
+  {
+    "id": 113,
+    "english": "bare",
+    "armenian": "մերկ",
+    "letter": "B",
+    "russian": "голый",
+    "type": ""
+  },
+  {
+    "id": 114,
+    "english": "barrel",
+    "armenian": "տակառ",
+    "letter": "B",
+    "russian": "бочка",
+    "type": ""
+  },
+  {
+    "id": 115,
+    "english": "bass1",
+    "armenian": "բաս 1",
+    "letter": "B",
+    "russian": "бас1",
+    "type": ""
+  },
+  {
+    "id": 116,
+    "english": "bat",
+    "armenian": "չղջիկ",
+    "letter": "B",
+    "russian": "летучая мышь",
+    "type": ""
+  },
+  {
+    "id": 117,
+    "english": "battlefield",
+    "armenian": "մարտադաշտ",
+    "letter": "B",
+    "russian": "поле битвы",
+    "type": ""
+  },
+  {
+    "id": 118,
+    "english": "bay",
+    "armenian": "bay",
+    "letter": "B",
+    "russian": "залив",
+    "type": ""
+  },
+  {
+    "id": 119,
+    "english": "beam",
+    "armenian": "ճառագայթ",
+    "letter": "B",
+    "russian": "луч",
+    "type": ""
+  },
+  {
+    "id": 120,
+    "english": "beast",
+    "armenian": "գազան",
+    "letter": "B",
+    "russian": "зверь",
+    "type": ""
+  },
+  {
+    "id": 121,
+    "english": "behalf",
+    "armenian": "անունից",
+    "letter": "B",
+    "russian": "от имени",
+    "type": ""
+  },
+  {
+    "id": 122,
+    "english": "beloved",
+    "armenian": "սիրելի",
+    "letter": "B",
+    "russian": "возлюбленный",
+    "type": ""
+  },
+  {
+    "id": 123,
+    "english": "bench",
+    "armenian": "նստարան",
+    "letter": "B",
+    "russian": "лавка",
+    "type": ""
+  },
+  {
+    "id": 124,
+    "english": "benchmark",
+    "armenian": "հենանիշ",
+    "letter": "B",
+    "russian": "эталон",
+    "type": ""
+  },
+  {
+    "id": 125,
+    "english": "beneath",
+    "armenian": "տակը",
+    "letter": "B",
+    "russian": "под",
+    "type": ""
+  },
+  {
+    "id": 126,
+    "english": "beneficiary",
+    "armenian": "շահառու",
+    "letter": "B",
+    "russian": "бенефициар",
+    "type": ""
+  },
+  {
+    "id": 127,
+    "english": "betray",
+    "armenian": "դավաճանել",
+    "letter": "B",
+    "russian": "предавать",
+    "type": ""
+  },
+  {
+    "id": 128,
+    "english": "bind",
+    "armenian": "կապել",
+    "letter": "B",
+    "russian": "связывать",
+    "type": ""
+  },
+  {
+    "id": 129,
+    "english": "biography",
+    "armenian": "կենսագրություն",
+    "letter": "B",
+    "russian": "биография",
+    "type": ""
+  },
+  {
+    "id": 130,
+    "english": "bishop",
+    "armenian": "եպիսկոպոս",
+    "letter": "B",
+    "russian": "епископ",
+    "type": ""
+  },
+  {
+    "id": 131,
+    "english": "bizarre",
+    "armenian": "տարօրինակ",
+    "letter": "B",
+    "russian": "странный",
+    "type": ""
+  },
+  {
+    "id": 132,
+    "english": "blade",
+    "armenian": "սայր",
+    "letter": "B",
+    "russian": "лезвие",
+    "type": ""
+  },
+  {
+    "id": 133,
+    "english": "blast",
+    "armenian": "պայթյուն",
+    "letter": "B",
+    "russian": "взрыв",
+    "type": ""
+  },
+  {
+    "id": 134,
+    "english": "bleed",
+    "armenian": "արյունահոսել",
+    "letter": "B",
+    "russian": "истекать кровью",
+    "type": ""
+  },
+  {
+    "id": 135,
+    "english": "blend",
+    "armenian": "խառնուրդ",
+    "letter": "B",
+    "russian": "смешивать",
+    "type": ""
+  },
+  {
+    "id": 136,
+    "english": "bless",
+    "armenian": "օրհնել",
+    "letter": "B",
+    "russian": "благословить",
+    "type": ""
+  },
+  {
+    "id": 137,
+    "english": "blessing",
+    "armenian": "օրհնություն",
+    "letter": "B",
+    "russian": "благословение",
+    "type": ""
+  },
+  {
+    "id": 138,
+    "english": "boast",
+    "armenian": "պարծենալ",
+    "letter": "B",
+    "russian": "хвастаться",
+    "type": ""
+  },
+  {
+    "id": 139,
+    "english": "bonus",
+    "armenian": "բոնուս",
+    "letter": "B",
+    "russian": "бонус",
+    "type": ""
+  },
+  {
+    "id": 140,
+    "english": "boom",
+    "armenian": "բում",
+    "letter": "B",
+    "russian": "бум",
+    "type": ""
+  },
+  {
+    "id": 141,
+    "english": "bounce",
+    "armenian": "ցատկում",
+    "letter": "B",
+    "russian": "подпрыгивать",
+    "type": ""
+  },
+  {
+    "id": 142,
+    "english": "boundary",
+    "armenian": "սահման",
+    "letter": "B",
+    "russian": "граница",
+    "type": ""
+  },
+  {
+    "id": 143,
+    "english": "bow1",
+    "armenian": "աղեղ 1",
+    "letter": "B",
+    "russian": "лук1",
+    "type": ""
+  },
+  {
+    "id": 144,
+    "english": "breach",
+    "armenian": "խախտում",
+    "letter": "B",
+    "russian": "нарушение",
+    "type": ""
+  },
+  {
+    "id": 145,
+    "english": "breakdown",
+    "armenian": "խափանում",
+    "letter": "B",
+    "russian": "авария",
+    "type": ""
+  },
+  {
+    "id": 146,
+    "english": "breakthrough",
+    "armenian": "բեկում",
+    "letter": "B",
+    "russian": "прорыв",
+    "type": ""
+  },
+  {
+    "id": 147,
+    "english": "breed",
+    "armenian": "ցեղատեսակ",
+    "letter": "B",
+    "russian": "порода",
+    "type": ""
+  },
+  {
+    "id": 148,
+    "english": "broadband",
+    "armenian": "լայնաշերտ",
+    "letter": "B",
+    "russian": "широкополосный доступ",
+    "type": ""
+  },
+  {
+    "id": 149,
+    "english": "browser",
+    "armenian": "բրաուզեր",
+    "letter": "B",
+    "russian": "браузер",
+    "type": ""
+  },
+  {
+    "id": 150,
+    "english": "brutal",
+    "armenian": "դաժան",
+    "letter": "B",
+    "russian": "жестокий",
+    "type": ""
+  },
+  {
+    "id": 151,
+    "english": "buck",
+    "armenian": "փող",
+    "letter": "B",
+    "russian": "доллар",
+    "type": ""
+  },
+  {
+    "id": 152,
+    "english": "buddy",
+    "armenian": "ընկեր",
+    "letter": "B",
+    "russian": "приятель",
+    "type": ""
+  },
+  {
+    "id": 153,
+    "english": "buffer",
+    "armenian": "բուֆեր",
+    "letter": "B",
+    "russian": "буфер",
+    "type": ""
+  },
+  {
+    "id": 154,
+    "english": "bulk",
+    "armenian": "սորուն",
+    "letter": "B",
+    "russian": "масса",
+    "type": ""
+  },
+  {
+    "id": 155,
+    "english": "burden",
+    "armenian": "բեռը",
+    "letter": "B",
+    "russian": "груз",
+    "type": ""
+  },
+  {
+    "id": 156,
+    "english": "bureaucracy",
+    "armenian": "բյուրոկրատիա",
+    "letter": "B",
+    "russian": "бюрократия",
+    "type": ""
+  },
+  {
+    "id": 157,
+    "english": "burial",
+    "armenian": "թաղում",
+    "letter": "B",
+    "russian": "захоронение",
+    "type": ""
+  },
+  {
+    "id": 158,
+    "english": "burst",
+    "armenian": "պայթել",
+    "letter": "B",
+    "russian": "лопаться",
+    "type": ""
+  },
+  {
+    "id": 159,
+    "english": "cabinet",
+    "armenian": "կաբինետ",
+    "letter": "C",
+    "russian": "кабинет",
+    "type": ""
+  },
+  {
+    "id": 160,
+    "english": "calculation",
+    "armenian": "հաշվարկ",
+    "letter": "C",
+    "russian": "расчет",
+    "type": ""
+  },
+  {
+    "id": 161,
+    "english": "canvas",
+    "armenian": "կտավ",
+    "letter": "C",
+    "russian": "холст",
+    "type": ""
+  },
+  {
+    "id": 162,
+    "english": "capability",
+    "armenian": "կարողություն",
+    "letter": "C",
+    "russian": "способность",
+    "type": ""
+  },
+  {
+    "id": 163,
+    "english": "capitalism",
+    "armenian": "կապիտալիզմ",
+    "letter": "C",
+    "russian": "капитализм",
+    "type": ""
+  },
+  {
+    "id": 164,
+    "english": "capitalist",
+    "armenian": "կապիտալիստական",
+    "letter": "C",
+    "russian": "капиталистический",
+    "type": ""
+  },
+  {
+    "id": 165,
+    "english": "cargo",
+    "armenian": "բեռներ",
+    "letter": "C",
+    "russian": "груз",
+    "type": ""
+  },
+  {
+    "id": 166,
+    "english": "carriage",
+    "armenian": "վագոն",
+    "letter": "C",
+    "russian": "перевозка",
+    "type": ""
+  },
+  {
+    "id": 167,
+    "english": "carve",
+    "armenian": "քանդակել",
+    "letter": "C",
+    "russian": "вырезать",
+    "type": ""
+  },
+  {
+    "id": 168,
+    "english": "casino",
+    "armenian": "խաղատուն",
+    "letter": "C",
+    "russian": "казино",
+    "type": ""
+  },
+  {
+    "id": 169,
+    "english": "casualty",
+    "armenian": "զոհ",
+    "letter": "C",
+    "russian": "жертва",
+    "type": ""
+  },
+  {
+    "id": 170,
+    "english": "catalogue",
+    "armenian": "կատալոգ",
+    "letter": "C",
+    "russian": "каталог",
+    "type": ""
+  },
+  {
+    "id": 171,
+    "english": "cater",
+    "armenian": "սպասարկել",
+    "letter": "C",
+    "russian": "обслуживать",
+    "type": ""
+  },
+  {
+    "id": 172,
+    "english": "cattle",
+    "armenian": "խոշոր եղջերավոր անասուններ",
+    "letter": "C",
+    "russian": "крупный рогатый скот",
+    "type": ""
+  },
+  {
+    "id": 173,
+    "english": "caution",
+    "armenian": "զգուշություն",
+    "letter": "C",
+    "russian": "осторожность",
+    "type": ""
+  },
+  {
+    "id": 174,
+    "english": "cautious",
+    "armenian": "զգուշավոր",
+    "letter": "C",
+    "russian": "осторожный",
+    "type": ""
+  },
+  {
+    "id": 175,
+    "english": "cease",
+    "armenian": "դադարեցնել",
+    "letter": "C",
+    "russian": "прекратить",
+    "type": ""
+  },
+  {
+    "id": 176,
+    "english": "cemetery",
+    "armenian": "գերեզմանատուն",
+    "letter": "C",
+    "russian": "кладбище",
+    "type": ""
+  },
+  {
+    "id": 177,
+    "english": "chamber",
+    "armenian": "պալատ",
+    "letter": "C",
+    "russian": "камера",
+    "type": ""
+  },
+  {
+    "id": 178,
+    "english": "chaos",
+    "armenian": "քաոս",
+    "letter": "C",
+    "russian": "хаос",
+    "type": ""
+  },
+  {
+    "id": 179,
+    "english": "characterize",
+    "armenian": "բնութագրել",
+    "letter": "C",
+    "russian": "характеризовать",
+    "type": ""
+  },
+  {
+    "id": 180,
+    "english": "charm",
+    "armenian": "հմայքը",
+    "letter": "C",
+    "russian": "очарование",
+    "type": ""
+  },
+  {
+    "id": 181,
+    "english": "charter",
+    "armenian": "կանոնադրություն",
+    "letter": "C",
+    "russian": "устав",
+    "type": ""
+  },
+  {
+    "id": 182,
+    "english": "chronic",
+    "armenian": "քրոնիկ",
+    "letter": "C",
+    "russian": "хронический",
+    "type": ""
+  },
+  {
+    "id": 183,
+    "english": "chunk",
+    "armenian": "կտոր",
+    "letter": "C",
+    "russian": "кусок",
+    "type": ""
+  },
+  {
+    "id": 184,
+    "english": "circulate",
+    "armenian": "շրջանառել",
+    "letter": "C",
+    "russian": "распространять",
+    "type": ""
+  },
+  {
+    "id": 185,
+    "english": "circulation",
+    "armenian": "շրջանառություն",
+    "letter": "C",
+    "russian": "обращение",
+    "type": ""
+  },
+  {
+    "id": 186,
+    "english": "citizenship",
+    "armenian": "քաղաքացիություն",
+    "letter": "C",
+    "russian": "гражданство",
+    "type": ""
+  },
+  {
+    "id": 187,
+    "english": "civic",
+    "armenian": "քաղաքացիական",
+    "letter": "C",
+    "russian": "гражданский",
+    "type": ""
+  },
+  {
+    "id": 188,
+    "english": "civilian",
+    "armenian": "քաղաքացիական",
+    "letter": "C",
+    "russian": "гражданский",
+    "type": ""
+  },
+  {
+    "id": 189,
+    "english": "clarity",
+    "armenian": "պարզություն",
+    "letter": "C",
+    "russian": "ясность",
+    "type": ""
+  },
+  {
+    "id": 190,
+    "english": "clash",
+    "armenian": "բախում",
+    "letter": "C",
+    "russian": "столкновение",
+    "type": ""
+  },
+  {
+    "id": 191,
+    "english": "classification",
+    "armenian": "դասակարգում",
+    "letter": "C",
+    "russian": "классификация",
+    "type": ""
+  },
+  {
+    "id": 192,
+    "english": "cling",
+    "armenian": "կառչել",
+    "letter": "C",
+    "russian": "цепляться",
+    "type": ""
+  },
+  {
+    "id": 193,
+    "english": "clinical",
+    "armenian": "կլինիկական",
+    "letter": "C",
+    "russian": "клинический",
+    "type": ""
+  },
+  {
+    "id": 194,
+    "english": "closure",
+    "armenian": "փակում",
+    "letter": "C",
+    "russian": "закрытие",
+    "type": ""
+  },
+  {
+    "id": 195,
+    "english": "cluster",
+    "armenian": "կլաստեր",
+    "letter": "C",
+    "russian": "кластер",
+    "type": ""
+  },
+  {
+    "id": 196,
+    "english": "coalition",
+    "armenian": "կոալիցիա",
+    "letter": "C",
+    "russian": "коалиция",
+    "type": ""
+  },
+  {
+    "id": 197,
+    "english": "coastal",
+    "armenian": "ափամերձ",
+    "letter": "C",
+    "russian": "прибрежный",
+    "type": ""
+  },
+  {
+    "id": 198,
+    "english": "cocktail",
+    "armenian": "կոկտեյլ",
+    "letter": "C",
+    "russian": "коктейль",
+    "type": ""
+  },
+  {
+    "id": 199,
+    "english": "cognitive",
+    "armenian": "ճանաչողական",
+    "letter": "C",
+    "russian": "познавательный",
+    "type": ""
+  },
+  {
+    "id": 200,
+    "english": "coincide",
+    "armenian": "համընկնում են",
+    "letter": "C",
+    "russian": "совпадать",
+    "type": ""
+  },
+  {
+    "id": 201,
+    "english": "collaborate",
+    "armenian": "համագործակցել",
+    "letter": "C",
+    "russian": "сотрудничать",
+    "type": ""
+  },
+  {
+    "id": 202,
+    "english": "collaboration",
+    "armenian": "համագործակցություն",
+    "letter": "C",
+    "russian": "сотрудничество",
+    "type": ""
+  },
+  {
+    "id": 203,
+    "english": "collective",
+    "armenian": "հավաքական",
+    "letter": "C",
+    "russian": "коллектив",
+    "type": ""
+  },
+  {
+    "id": 204,
+    "english": "collision",
+    "armenian": "բախում",
+    "letter": "C",
+    "russian": "столкновение",
+    "type": ""
+  },
+  {
+    "id": 205,
+    "english": "colonial",
+    "armenian": "գաղութային",
+    "letter": "C",
+    "russian": "колониальный",
+    "type": ""
+  },
+  {
+    "id": 206,
+    "english": "columnist",
+    "armenian": "սյունակագիր",
+    "letter": "C",
+    "russian": "обозреватель",
+    "type": ""
+  },
+  {
+    "id": 207,
+    "english": "combat",
+    "armenian": "մարտական",
+    "letter": "C",
+    "russian": "бой",
+    "type": ""
+  },
+  {
+    "id": 208,
+    "english": "commence",
+    "armenian": "սկսել",
+    "letter": "C",
+    "russian": "начать",
+    "type": ""
+  },
+  {
+    "id": 209,
+    "english": "commentary",
+    "armenian": "մեկնաբանություն",
+    "letter": "C",
+    "russian": "комментарий",
+    "type": ""
+  },
+  {
+    "id": 210,
+    "english": "commentator",
+    "armenian": "մեկնաբան",
+    "letter": "C",
+    "russian": "комментатор",
+    "type": ""
+  },
+  {
+    "id": 211,
+    "english": "commerce",
+    "armenian": "առեւտուր",
+    "letter": "C",
+    "russian": "коммерция",
+    "type": ""
+  },
+  {
+    "id": 212,
+    "english": "commissioner",
+    "armenian": "հանձնակատար",
+    "letter": "C",
+    "russian": "комиссар",
+    "type": ""
+  },
+  {
+    "id": 213,
+    "english": "commodity",
+    "armenian": "ապրանք",
+    "letter": "C",
+    "russian": "товар",
+    "type": ""
+  },
+  {
+    "id": 214,
+    "english": "communist",
+    "armenian": "կոմունիստ",
+    "letter": "C",
+    "russian": "коммунист",
+    "type": ""
+  },
+  {
+    "id": 215,
+    "english": "companion",
+    "armenian": "ուղեկից",
+    "letter": "C",
+    "russian": "компаньон",
+    "type": ""
+  },
+  {
+    "id": 216,
+    "english": "comparable",
+    "armenian": "համեմատելի",
+    "letter": "C",
+    "russian": "сопоставимый",
+    "type": ""
+  },
+  {
+    "id": 217,
+    "english": "compassion",
+    "armenian": "կարեկցանք",
+    "letter": "C",
+    "russian": "сострадание",
+    "type": ""
+  },
+  {
+    "id": 218,
+    "english": "compel",
+    "armenian": "ստիպել",
+    "letter": "C",
+    "russian": "принуждать",
+    "type": ""
+  },
+  {
+    "id": 219,
+    "english": "compelling",
+    "armenian": "համոզիչ",
+    "letter": "C",
+    "russian": "неотразимый",
+    "type": ""
+  },
+  {
+    "id": 220,
+    "english": "compensate",
+    "armenian": "փոխհատուցել",
+    "letter": "C",
+    "russian": "компенсировать",
+    "type": ""
+  },
+  {
+    "id": 221,
+    "english": "compensation",
+    "armenian": "փոխհատուցում",
+    "letter": "C",
+    "russian": "компенсация",
+    "type": ""
+  },
+  {
+    "id": 222,
+    "english": "competence",
+    "armenian": "իրավասությունը",
+    "letter": "C",
+    "russian": "компетентность",
+    "type": ""
+  },
+  {
+    "id": 223,
+    "english": "competent",
+    "armenian": "իրավասու",
+    "letter": "C",
+    "russian": "компетентный",
+    "type": ""
+  },
+  {
+    "id": 224,
+    "english": "compile",
+    "armenian": "կազմել",
+    "letter": "C",
+    "russian": "компилировать",
+    "type": ""
+  },
+  {
+    "id": 225,
+    "english": "complement",
+    "armenian": "լրացնում",
+    "letter": "C",
+    "russian": "дополнять",
+    "type": ""
+  },
+  {
+    "id": 226,
+    "english": "complexity",
+    "armenian": "բարդություն",
+    "letter": "C",
+    "russian": "сложность",
+    "type": ""
+  },
+  {
+    "id": 227,
+    "english": "compliance",
+    "armenian": "համապատասխանությունը",
+    "letter": "C",
+    "russian": "согласие",
+    "type": ""
+  },
+  {
+    "id": 228,
+    "english": "complication",
+    "armenian": "բարդություն",
+    "letter": "C",
+    "russian": "осложнение",
+    "type": ""
+  },
+  {
+    "id": 229,
+    "english": "comply",
+    "armenian": "համապատասխանել",
+    "letter": "C",
+    "russian": "исполнять",
+    "type": ""
+  },
+  {
+    "id": 230,
+    "english": "composition",
+    "armenian": "կազմը",
+    "letter": "C",
+    "russian": "композиция",
+    "type": ""
+  },
+  {
+    "id": 231,
+    "english": "compromise",
+    "armenian": "փոխզիջում",
+    "letter": "C",
+    "russian": "компромисс",
+    "type": ""
+  },
+  {
+    "id": 232,
+    "english": "compute",
+    "armenian": "հաշվարկել",
+    "letter": "C",
+    "russian": "вычислить",
+    "type": ""
+  },
+  {
+    "id": 233,
+    "english": "conceal",
+    "armenian": "թաքցնել",
+    "letter": "C",
+    "russian": "скрывать",
+    "type": ""
+  },
+  {
+    "id": 234,
+    "english": "concede",
+    "armenian": "զիջել",
+    "letter": "C",
+    "russian": "уступать",
+    "type": ""
+  },
+  {
+    "id": 235,
+    "english": "conceive",
+    "armenian": "հղիանալ",
+    "letter": "C",
+    "russian": "зачать",
+    "type": ""
+  },
+  {
+    "id": 236,
+    "english": "conception",
+    "armenian": "հայեցակարգը",
+    "letter": "C",
+    "russian": "концепция",
+    "type": ""
+  },
+  {
+    "id": 237,
+    "english": "concession",
+    "armenian": "զիջում",
+    "letter": "C",
+    "russian": "уступка",
+    "type": ""
+  },
+  {
+    "id": 238,
+    "english": "condemn",
+    "armenian": "դատապարտել",
+    "letter": "C",
+    "russian": "осуждать",
+    "type": ""
+  },
+  {
+    "id": 239,
+    "english": "confer",
+    "armenian": "հրավիրել",
+    "letter": "C",
+    "russian": "назначать",
+    "type": ""
+  },
+  {
+    "id": 240,
+    "english": "confession",
+    "armenian": "խոստովանություն",
+    "letter": "C",
+    "russian": "признание",
+    "type": ""
+  },
+  {
+    "id": 241,
+    "english": "configuration",
+    "armenian": "կոնֆիգուրացիա",
+    "letter": "C",
+    "russian": "конфигурация",
+    "type": ""
+  },
+  {
+    "id": 242,
+    "english": "confine",
+    "armenian": "սահմանափակել",
+    "letter": "C",
+    "russian": "ограничивать",
+    "type": ""
+  },
+  {
+    "id": 243,
+    "english": "confirmation",
+    "armenian": "հաստատում",
+    "letter": "C",
+    "russian": "подтверждение",
+    "type": ""
+  },
+  {
+    "id": 244,
+    "english": "confront",
+    "armenian": "դիմակայել",
+    "letter": "C",
+    "russian": "противостоять",
+    "type": ""
+  },
+  {
+    "id": 245,
+    "english": "confrontation",
+    "armenian": "առճակատում",
+    "letter": "C",
+    "russian": "конфронтация",
+    "type": ""
+  },
+  {
+    "id": 246,
+    "english": "congratulate",
+    "armenian": "շնորհավորել",
+    "letter": "C",
+    "russian": "поздравлять",
+    "type": ""
+  },
+  {
+    "id": 247,
+    "english": "congregation",
+    "armenian": "ժողով",
+    "letter": "C",
+    "russian": "собрание",
+    "type": ""
+  },
+  {
+    "id": 248,
+    "english": "congressional",
+    "armenian": "կոնգրեսական",
+    "letter": "C",
+    "russian": "Конгресс",
+    "type": ""
+  },
+  {
+    "id": 249,
+    "english": "conquer",
+    "armenian": "նվաճել",
+    "letter": "C",
+    "russian": "завоевывать",
+    "type": ""
+  },
+  {
+    "id": 250,
+    "english": "conscience",
+    "armenian": "խիղճը",
+    "letter": "C",
+    "russian": "совесть",
+    "type": ""
+  },
+  {
+    "id": 251,
+    "english": "consciousness",
+    "armenian": "գիտակցությունը",
+    "letter": "C",
+    "russian": "сознание",
+    "type": ""
+  },
+  {
+    "id": 252,
+    "english": "consecutive",
+    "armenian": "հաջորդական",
+    "letter": "C",
+    "russian": "последовательный",
+    "type": ""
+  },
+  {
+    "id": 253,
+    "english": "consensus",
+    "armenian": "կոնսենսուս",
+    "letter": "C",
+    "russian": "консенсус",
+    "type": ""
+  },
+  {
+    "id": 254,
+    "english": "consent",
+    "armenian": "համաձայնություն",
+    "letter": "C",
+    "russian": "согласие",
+    "type": ""
+  },
+  {
+    "id": 255,
+    "english": "conserve",
+    "armenian": "պահպանել",
+    "letter": "C",
+    "russian": "сохранять",
+    "type": ""
+  },
+  {
+    "id": 256,
+    "english": "consistency",
+    "armenian": "հետեւողականություն",
+    "letter": "C",
+    "russian": "последовательность",
+    "type": ""
+  },
+  {
+    "id": 257,
+    "english": "consolidate",
+    "armenian": "համախմբել",
+    "letter": "C",
+    "russian": "консолидировать",
+    "type": ""
+  },
+  {
+    "id": 258,
+    "english": "constituency",
+    "armenian": "ընտրատարածք",
+    "letter": "C",
+    "russian": "избирательный округ",
+    "type": ""
+  },
+  {
+    "id": 259,
+    "english": "constitute",
+    "armenian": "կազմում",
+    "letter": "C",
+    "russian": "составляют",
+    "type": ""
+  },
+  {
+    "id": 260,
+    "english": "constitution",
+    "armenian": "սահմանադրությունը",
+    "letter": "C",
+    "russian": "конституция",
+    "type": ""
+  },
+  {
+    "id": 261,
+    "english": "constitutional",
+    "armenian": "սահմանադրական",
+    "letter": "C",
+    "russian": "конституционный",
+    "type": ""
+  },
+  {
+    "id": 262,
+    "english": "constraint",
+    "armenian": "սահմանափակում",
+    "letter": "C",
+    "russian": "ограничение",
+    "type": ""
+  },
+  {
+    "id": 263,
+    "english": "consultation",
+    "armenian": "խորհրդակցություն",
+    "letter": "C",
+    "russian": "консультация",
+    "type": ""
+  },
+  {
+    "id": 264,
+    "english": "contemplate",
+    "armenian": "խորհել",
+    "letter": "C",
+    "russian": "созерцать",
+    "type": ""
+  },
+  {
+    "id": 265,
+    "english": "contempt",
+    "armenian": "արհամարհանք",
+    "letter": "C",
+    "russian": "презрение",
+    "type": ""
+  },
+  {
+    "id": 266,
+    "english": "contend",
+    "armenian": "պայքարել",
+    "letter": "C",
+    "russian": "бороться",
+    "type": ""
+  },
+  {
+    "id": 267,
+    "english": "contender",
+    "armenian": "հավակնորդ",
+    "letter": "C",
+    "russian": "претендент",
+    "type": ""
+  },
+  {
+    "id": 268,
+    "english": "content2",
+    "armenian": "բովանդակություն2",
+    "letter": "C",
+    "russian": "контент2",
+    "type": ""
+  },
+  {
+    "id": 269,
+    "english": "contention",
+    "armenian": "վիճաբանություն",
+    "letter": "C",
+    "russian": "раздор",
+    "type": ""
+  },
+  {
+    "id": 270,
+    "english": "continually",
+    "armenian": "շարունակաբար",
+    "letter": "C",
+    "russian": "постоянно",
+    "type": ""
+  },
+  {
+    "id": 271,
+    "english": "contractor",
+    "armenian": "կապալառու",
+    "letter": "C",
+    "russian": "подрядчик",
+    "type": ""
+  },
+  {
+    "id": 272,
+    "english": "contradiction",
+    "armenian": "հակասություն",
+    "letter": "C",
+    "russian": "противоречие",
+    "type": ""
+  },
+  {
+    "id": 273,
+    "english": "contrary",
+    "armenian": "հակառակը",
+    "letter": "C",
+    "russian": "вопреки",
+    "type": ""
+  },
+  {
+    "id": 274,
+    "english": "contributor",
+    "armenian": "ներդրող",
+    "letter": "C",
+    "russian": "участник",
+    "type": ""
+  },
+  {
+    "id": 275,
+    "english": "conversion",
+    "armenian": "դարձի",
+    "letter": "C",
+    "russian": "преобразование",
+    "type": ""
+  },
+  {
+    "id": 276,
+    "english": "convict",
+    "armenian": "դատապարտյալ",
+    "letter": "C",
+    "russian": "осужденный",
+    "type": ""
+  },
+  {
+    "id": 277,
+    "english": "conviction",
+    "armenian": "համոզմունք",
+    "letter": "C",
+    "russian": "убеждение",
+    "type": ""
+  },
+  {
+    "id": 278,
+    "english": "cooperate",
+    "armenian": "համագործակցել",
+    "letter": "C",
+    "russian": "сотрудничать",
+    "type": ""
+  },
+  {
+    "id": 279,
+    "english": "cooperative",
+    "armenian": "կոոպերատիվ",
+    "letter": "C",
+    "russian": "кооператив",
+    "type": ""
+  },
+  {
+    "id": 280,
+    "english": "coordinate",
+    "armenian": "կոորդինացնել",
+    "letter": "C",
+    "russian": "координировать",
+    "type": ""
+  },
+  {
+    "id": 281,
+    "english": "coordination",
+    "armenian": "համակարգումը",
+    "letter": "C",
+    "russian": "координация",
+    "type": ""
+  },
+  {
+    "id": 282,
+    "english": "coordinator",
+    "armenian": "համակարգող",
+    "letter": "C",
+    "russian": "координатор",
+    "type": ""
+  },
+  {
+    "id": 283,
+    "english": "cop",
+    "armenian": "ոստիկան",
+    "letter": "C",
+    "russian": "полицейский",
+    "type": ""
+  },
+  {
+    "id": 284,
+    "english": "copper",
+    "armenian": "պղինձ",
+    "letter": "C",
+    "russian": "медь",
+    "type": ""
+  },
+  {
+    "id": 285,
+    "english": "copyright",
+    "armenian": "հեղինակային իրավունք",
+    "letter": "C",
+    "russian": "авторское право",
+    "type": ""
+  },
+  {
+    "id": 286,
+    "english": "correction",
+    "armenian": "ուղղում",
+    "letter": "C",
+    "russian": "исправление",
+    "type": ""
+  },
+  {
+    "id": 287,
+    "english": "correlate",
+    "armenian": "փոխկապակցել",
+    "letter": "C",
+    "russian": "коррелировать",
+    "type": ""
+  },
+  {
+    "id": 288,
+    "english": "correlation",
+    "armenian": "հարաբերակցությունը",
+    "letter": "C",
+    "russian": "корреляция",
+    "type": ""
+  },
+  {
+    "id": 289,
+    "english": "correspond",
+    "armenian": "համապատասխանել",
+    "letter": "C",
+    "russian": "переписываться",
+    "type": ""
+  },
+  {
+    "id": 290,
+    "english": "correspondence",
+    "armenian": "նամակագրություն",
+    "letter": "C",
+    "russian": "переписка",
+    "type": ""
+  },
+  {
+    "id": 291,
+    "english": "correspondent",
+    "armenian": "թղթակից",
+    "letter": "C",
+    "russian": "корреспондент",
+    "type": ""
+  },
+  {
+    "id": 292,
+    "english": "corresponding",
+    "armenian": "համապատասխան",
+    "letter": "C",
+    "russian": "соответствующий",
+    "type": ""
+  },
+  {
+    "id": 293,
+    "english": "corrupt",
+    "armenian": "կոռումպացված",
+    "letter": "C",
+    "russian": "коррумпированный",
+    "type": ""
+  },
+  {
+    "id": 294,
+    "english": "corruption",
+    "armenian": "կոռուպցիա",
+    "letter": "C",
+    "russian": "коррупция",
+    "type": ""
+  },
+  {
+    "id": 295,
+    "english": "costly",
+    "armenian": "ծախսատար",
+    "letter": "C",
+    "russian": "дорогостоящий",
+    "type": ""
+  },
+  {
+    "id": 296,
+    "english": "councillor",
+    "armenian": "խորհրդական",
+    "letter": "C",
+    "russian": "советник",
+    "type": ""
+  },
+  {
+    "id": 297,
+    "english": "counselling",
+    "armenian": "խորհրդատվություն",
+    "letter": "C",
+    "russian": "консультирование",
+    "type": ""
+  },
+  {
+    "id": 298,
+    "english": "counsellor",
+    "armenian": "խորհրդական",
+    "letter": "C",
+    "russian": "консультант",
+    "type": ""
+  },
+  {
+    "id": 299,
+    "english": "counter",
+    "armenian": "հաշվիչ",
+    "letter": "C",
+    "russian": "прилавок",
+    "type": ""
+  },
+  {
+    "id": 300,
+    "english": "counterpart",
+    "armenian": "գործընկեր",
+    "letter": "C",
+    "russian": "коллега",
+    "type": ""
+  },
+  {
+    "id": 301,
+    "english": "countless",
+    "armenian": "անթիվ",
+    "letter": "C",
+    "russian": "бесчисленное множество",
+    "type": ""
+  },
+  {
+    "id": 302,
+    "english": "coup",
+    "armenian": "հեղաշրջում",
+    "letter": "C",
+    "russian": "переворот",
+    "type": ""
+  },
+  {
+    "id": 303,
+    "english": "courtesy",
+    "armenian": "քաղաքավարություն",
+    "letter": "C",
+    "russian": "учтивость",
+    "type": ""
+  },
+  {
+    "id": 304,
+    "english": "craft",
+    "armenian": "արհեստ",
+    "letter": "C",
+    "russian": "ремесло",
+    "type": ""
+  },
+  {
+    "id": 305,
+    "english": "crawl",
+    "armenian": "սողալ",
+    "letter": "C",
+    "russian": "ползти",
+    "type": ""
+  },
+  {
+    "id": 306,
+    "english": "creator",
+    "armenian": "ստեղծող",
+    "letter": "C",
+    "russian": "создатель",
+    "type": ""
+  },
+  {
+    "id": 307,
+    "english": "credibility",
+    "armenian": "վստահելիություն",
+    "letter": "C",
+    "russian": "авторитет",
+    "type": ""
+  },
+  {
+    "id": 308,
+    "english": "credible",
+    "armenian": "վստահելի",
+    "letter": "C",
+    "russian": "заслуживающий доверия",
+    "type": ""
+  },
+  {
+    "id": 309,
+    "english": "creep",
+    "armenian": "սողալ",
+    "letter": "C",
+    "russian": "слизняк",
+    "type": ""
+  },
+  {
+    "id": 310,
+    "english": "critique",
+    "armenian": "քննադատություն",
+    "letter": "C",
+    "russian": "критика",
+    "type": ""
+  },
+  {
+    "id": 311,
+    "english": "crown",
+    "armenian": "թագ",
+    "letter": "C",
+    "russian": "корона",
+    "type": ""
+  },
+  {
+    "id": 312,
+    "english": "crude",
+    "armenian": "անմշակ",
+    "letter": "C",
+    "russian": "сырой",
+    "type": ""
+  },
+  {
+    "id": 313,
+    "english": "crush",
+    "armenian": "ջախջախել",
+    "letter": "C",
+    "russian": "раздавить",
+    "type": ""
+  },
+  {
+    "id": 314,
+    "english": "crystal",
+    "armenian": "բյուրեղյա",
+    "letter": "C",
+    "russian": "кристалл",
+    "type": ""
+  },
+  {
+    "id": 315,
+    "english": "cult",
+    "armenian": "պաշտամունք",
+    "letter": "C",
+    "russian": "культ",
+    "type": ""
+  },
+  {
+    "id": 316,
+    "english": "cultivate",
+    "armenian": "մշակել",
+    "letter": "C",
+    "russian": "культивировать",
+    "type": ""
+  },
+  {
+    "id": 317,
+    "english": "curiosity",
+    "armenian": "հետաքրքրասիրություն",
+    "letter": "C",
+    "russian": "любопытство",
+    "type": ""
+  },
+  {
+    "id": 318,
+    "english": "custody",
+    "armenian": "խնամակալությունը",
+    "letter": "C",
+    "russian": "попечение",
+    "type": ""
+  },
+  {
+    "id": 319,
+    "english": "cutting",
+    "armenian": "կտրում",
+    "letter": "C",
+    "russian": "резка",
+    "type": ""
+  },
+  {
+    "id": 320,
+    "english": "cynical",
+    "armenian": "ցինիկ",
+    "letter": "C",
+    "russian": "циничный",
+    "type": ""
+  },
+  {
+    "id": 321,
+    "english": "dam",
+    "armenian": "պատնեշ",
+    "letter": "D",
+    "russian": "плотина",
+    "type": ""
+  },
+  {
+    "id": 322,
+    "english": "damaging",
+    "armenian": "վնասաբեր",
+    "letter": "D",
+    "russian": "повреждающий",
+    "type": ""
+  },
+  {
+    "id": 323,
+    "english": "dawn",
+    "armenian": "լուսաբաց",
+    "letter": "D",
+    "russian": "рассвет",
+    "type": ""
+  },
+  {
+    "id": 324,
+    "english": "debris",
+    "armenian": "բեկորներ",
+    "letter": "D",
+    "russian": "обломки",
+    "type": ""
+  },
+  {
+    "id": 325,
+    "english": "debut",
+    "armenian": "դեբյուտ",
+    "letter": "D",
+    "russian": "дебют",
+    "type": ""
+  },
+  {
+    "id": 326,
+    "english": "decision-making",
+    "armenian": "որոշումների կայացում",
+    "letter": "D",
+    "russian": "принятие решений",
+    "type": ""
+  },
+  {
+    "id": 327,
+    "english": "decisive",
+    "armenian": "վճռական",
+    "letter": "D",
+    "russian": "решающий",
+    "type": ""
+  },
+  {
+    "id": 328,
+    "english": "declaration",
+    "armenian": "հռչակագիր",
+    "letter": "D",
+    "russian": "декларация",
+    "type": ""
+  },
+  {
+    "id": 329,
+    "english": "dedicated",
+    "armenian": "նվիրված",
+    "letter": "D",
+    "russian": "преданный",
+    "type": ""
+  },
+  {
+    "id": 330,
+    "english": "dedication",
+    "armenian": "նվիրում",
+    "letter": "D",
+    "russian": "преданность",
+    "type": ""
+  },
+  {
+    "id": 331,
+    "english": "deed",
+    "armenian": "գործ",
+    "letter": "D",
+    "russian": "поступок",
+    "type": ""
+  },
+  {
+    "id": 332,
+    "english": "deem",
+    "armenian": "համարել",
+    "letter": "D",
+    "russian": "считать",
+    "type": ""
+  },
+  {
+    "id": 333,
+    "english": "default",
+    "armenian": "լռելյայն",
+    "letter": "D",
+    "russian": "по умолчанию",
+    "type": ""
+  },
+  {
+    "id": 334,
+    "english": "defect",
+    "armenian": "արատ",
+    "letter": "D",
+    "russian": "дефект",
+    "type": ""
+  },
+  {
+    "id": 335,
+    "english": "defensive",
+    "armenian": "պաշտպանական",
+    "letter": "D",
+    "russian": "оборонительный",
+    "type": ""
+  },
+  {
+    "id": 336,
+    "english": "deficiency",
+    "armenian": "պակասություն",
+    "letter": "D",
+    "russian": "недостаток",
+    "type": ""
+  },
+  {
+    "id": 337,
+    "english": "deficit",
+    "armenian": "դեֆիցիտ",
+    "letter": "D",
+    "russian": "дефицит",
+    "type": ""
+  },
+  {
+    "id": 338,
+    "english": "defy",
+    "armenian": "դիմադրել",
+    "letter": "D",
+    "russian": "бросать вызов",
+    "type": ""
+  },
+  {
+    "id": 339,
+    "english": "delegate",
+    "armenian": "պատվիրակ",
+    "letter": "D",
+    "russian": "делегат",
+    "type": ""
+  },
+  {
+    "id": 340,
+    "english": "delegation",
+    "armenian": "պատվիրակություն",
+    "letter": "D",
+    "russian": "делегация",
+    "type": ""
+  },
+  {
+    "id": 341,
+    "english": "delicate",
+    "armenian": "նուրբ",
+    "letter": "D",
+    "russian": "нежный",
+    "type": ""
+  },
+  {
+    "id": 342,
+    "english": "demon",
+    "armenian": "դև",
+    "letter": "D",
+    "russian": "демон",
+    "type": ""
+  },
+  {
+    "id": 343,
+    "english": "denial",
+    "armenian": "ժխտում",
+    "letter": "D",
+    "russian": "отрицание",
+    "type": ""
+  },
+  {
+    "id": 344,
+    "english": "denounce",
+    "armenian": "դատապարտել",
+    "letter": "D",
+    "russian": "денонсировать",
+    "type": ""
+  },
+  {
+    "id": 345,
+    "english": "dense",
+    "armenian": "խիտ",
+    "letter": "D",
+    "russian": "плотный",
+    "type": ""
+  },
+  {
+    "id": 346,
+    "english": "density",
+    "armenian": "խտությունը",
+    "letter": "D",
+    "russian": "плотность",
+    "type": ""
+  },
+  {
+    "id": 347,
+    "english": "dependence",
+    "armenian": "կախվածություն",
+    "letter": "D",
+    "russian": "зависимость",
+    "type": ""
+  },
+  {
+    "id": 348,
+    "english": "depict",
+    "armenian": "պատկերել",
+    "letter": "D",
+    "russian": "изображать",
+    "type": ""
+  },
+  {
+    "id": 349,
+    "english": "deploy",
+    "armenian": "տեղակայել",
+    "letter": "D",
+    "russian": "развертывать",
+    "type": ""
+  },
+  {
+    "id": 350,
+    "english": "deployment",
+    "armenian": "տեղակայում",
+    "letter": "D",
+    "russian": "развертывание",
+    "type": ""
+  },
+  {
+    "id": 351,
+    "english": "deposit",
+    "armenian": "ավանդ",
+    "letter": "D",
+    "russian": "депозит",
+    "type": ""
+  },
+  {
+    "id": 352,
+    "english": "deprive",
+    "armenian": "զրկել",
+    "letter": "D",
+    "russian": "лишать",
+    "type": ""
+  },
+  {
+    "id": 353,
+    "english": "deputy",
+    "armenian": "պատգամավոր",
+    "letter": "D",
+    "russian": "депутат",
+    "type": ""
+  },
+  {
+    "id": 354,
+    "english": "descend",
+    "armenian": "իջնել",
+    "letter": "D",
+    "russian": "спуститься",
+    "type": ""
+  },
+  {
+    "id": 355,
+    "english": "descent",
+    "armenian": "ծագում",
+    "letter": "D",
+    "russian": "спуск",
+    "type": ""
+  },
+  {
+    "id": 356,
+    "english": "designate",
+    "armenian": "նշանակել",
+    "letter": "D",
+    "russian": "назначать",
+    "type": ""
+  },
+  {
+    "id": 357,
+    "english": "desirable",
+    "armenian": "ցանկալի է",
+    "letter": "D",
+    "russian": "желательно",
+    "type": ""
+  },
+  {
+    "id": 358,
+    "english": "desktop",
+    "armenian": "աշխատասեղան",
+    "letter": "D",
+    "russian": "рабочий стол",
+    "type": ""
+  },
+  {
+    "id": 359,
+    "english": "destructive",
+    "armenian": "կործանարար",
+    "letter": "D",
+    "russian": "разрушительный",
+    "type": ""
+  },
+  {
+    "id": 360,
+    "english": "detain",
+    "armenian": "կալանավորել",
+    "letter": "D",
+    "russian": "задерживать",
+    "type": ""
+  },
+  {
+    "id": 361,
+    "english": "detection",
+    "armenian": "հայտնաբերում",
+    "letter": "D",
+    "russian": "обнаружение",
+    "type": ""
+  },
+  {
+    "id": 362,
+    "english": "detention",
+    "armenian": "կալանավորումը",
+    "letter": "D",
+    "russian": "задержание",
+    "type": ""
+  },
+  {
+    "id": 363,
+    "english": "deteriorate",
+    "armenian": "վատթարանալ",
+    "letter": "D",
+    "russian": "ухудшаться",
+    "type": ""
+  },
+  {
+    "id": 364,
+    "english": "devastate",
+    "armenian": "ավերել",
+    "letter": "D",
+    "russian": "опустошать",
+    "type": ""
+  },
+  {
+    "id": 365,
+    "english": "devil",
+    "armenian": "սատանան",
+    "letter": "D",
+    "russian": "дьявол",
+    "type": ""
+  },
+  {
+    "id": 366,
+    "english": "devise",
+    "armenian": "հորինել",
+    "letter": "D",
+    "russian": "придумать",
+    "type": ""
+  },
+  {
+    "id": 367,
+    "english": "diagnose",
+    "armenian": "ախտորոշել",
+    "letter": "D",
+    "russian": "диагностировать",
+    "type": ""
+  },
+  {
+    "id": 368,
+    "english": "diagnosis",
+    "armenian": "ախտորոշում",
+    "letter": "D",
+    "russian": "диагноз",
+    "type": ""
+  },
+  {
+    "id": 369,
+    "english": "dictate",
+    "armenian": "թելադրել",
+    "letter": "D",
+    "russian": "диктовать",
+    "type": ""
+  },
+  {
+    "id": 370,
+    "english": "dictator",
+    "armenian": "բռնապետ",
+    "letter": "D",
+    "russian": "диктатор",
+    "type": ""
+  },
+  {
+    "id": 371,
+    "english": "differentiate",
+    "armenian": "տարբերակել",
+    "letter": "D",
+    "russian": "дифференцировать",
+    "type": ""
+  },
+  {
+    "id": 372,
+    "english": "dignity",
+    "armenian": "արժանապատվությունը",
+    "letter": "D",
+    "russian": "достоинство",
+    "type": ""
+  },
+  {
+    "id": 373,
+    "english": "dilemma",
+    "armenian": "երկընտրանք",
+    "letter": "D",
+    "russian": "дилемма",
+    "type": ""
+  },
+  {
+    "id": 374,
+    "english": "dimension",
+    "armenian": "հարթություն",
+    "letter": "D",
+    "russian": "измерение",
+    "type": ""
+  },
+  {
+    "id": 375,
+    "english": "diminish",
+    "armenian": "նվազեցնել",
+    "letter": "D",
+    "russian": "уменьшать",
+    "type": ""
+  },
+  {
+    "id": 376,
+    "english": "dip",
+    "armenian": "ընկղմվել",
+    "letter": "D",
+    "russian": "окунать",
+    "type": ""
+  },
+  {
+    "id": 377,
+    "english": "diplomat",
+    "armenian": "դիվանագետ",
+    "letter": "D",
+    "russian": "дипломат",
+    "type": ""
+  },
+  {
+    "id": 378,
+    "english": "diplomatic",
+    "armenian": "դիվանագիտական",
+    "letter": "D",
+    "russian": "дипломатический",
+    "type": ""
+  },
+  {
+    "id": 379,
+    "english": "directory",
+    "armenian": "գրացուցակ",
+    "letter": "D",
+    "russian": "каталог",
+    "type": ""
+  },
+  {
+    "id": 380,
+    "english": "disastrous",
+    "armenian": "աղետալի",
+    "letter": "D",
+    "russian": "катастрофический",
+    "type": ""
+  },
+  {
+    "id": 381,
+    "english": "discard",
+    "armenian": "հրաժարվել",
+    "letter": "D",
+    "russian": "отказаться",
+    "type": ""
+  },
+  {
+    "id": 382,
+    "english": "discharge",
+    "armenian": "արտանետում",
+    "letter": "D",
+    "russian": "увольнять",
+    "type": ""
+  },
+  {
+    "id": 383,
+    "english": "disclose",
+    "armenian": "բացահայտել",
+    "letter": "D",
+    "russian": "раскрывать",
+    "type": ""
+  },
+  {
+    "id": 384,
+    "english": "disclosure",
+    "armenian": "բացահայտում",
+    "letter": "D",
+    "russian": "раскрытие информации",
+    "type": ""
+  },
+  {
+    "id": 385,
+    "english": "discourse",
+    "armenian": "դիսկուրս",
+    "letter": "D",
+    "russian": "дискурс",
+    "type": ""
+  },
+  {
+    "id": 386,
+    "english": "discretion",
+    "armenian": "հայեցողություն",
+    "letter": "D",
+    "russian": "осмотрительность",
+    "type": ""
+  },
+  {
+    "id": 387,
+    "english": "discrimination",
+    "armenian": "խտրականություն",
+    "letter": "D",
+    "russian": "дискриминация",
+    "type": ""
+  },
+  {
+    "id": 388,
+    "english": "dismissal",
+    "armenian": "աշխատանքից ազատում",
+    "letter": "D",
+    "russian": "увольнение",
+    "type": ""
+  },
+  {
+    "id": 389,
+    "english": "displace",
+    "armenian": "տեղահանել",
+    "letter": "D",
+    "russian": "вытеснять",
+    "type": ""
+  },
+  {
+    "id": 390,
+    "english": "disposal",
+    "armenian": "տնօրինում",
+    "letter": "D",
+    "russian": "утилизация",
+    "type": ""
+  },
+  {
+    "id": 391,
+    "english": "dispose",
+    "armenian": "տնօրինել",
+    "letter": "D",
+    "russian": "распоряжаться",
+    "type": ""
+  },
+  {
+    "id": 392,
+    "english": "dispute",
+    "armenian": "վեճ",
+    "letter": "D",
+    "russian": "спор",
+    "type": ""
+  },
+  {
+    "id": 393,
+    "english": "disrupt",
+    "armenian": "խանգարել",
+    "letter": "D",
+    "russian": "нарушать",
+    "type": ""
+  },
+  {
+    "id": 394,
+    "english": "disruption",
+    "armenian": "խանգարում",
+    "letter": "D",
+    "russian": "нарушение",
+    "type": ""
+  },
+  {
+    "id": 395,
+    "english": "dissolve",
+    "armenian": "լուծարել",
+    "letter": "D",
+    "russian": "растворяться",
+    "type": ""
+  },
+  {
+    "id": 396,
+    "english": "distinction",
+    "armenian": "տարբերակում",
+    "letter": "D",
+    "russian": "различие",
+    "type": ""
+  },
+  {
+    "id": 397,
+    "english": "distinctive",
+    "armenian": "տարբերակիչ",
+    "letter": "D",
+    "russian": "отличительный",
+    "type": ""
+  },
+  {
+    "id": 398,
+    "english": "distort",
+    "armenian": "աղավաղել",
+    "letter": "D",
+    "russian": "искажать",
+    "type": ""
+  },
+  {
+    "id": 399,
+    "english": "distress",
+    "armenian": "անհանգստություն",
+    "letter": "D",
+    "russian": "бедствие",
+    "type": ""
+  },
+  {
+    "id": 400,
+    "english": "disturbing",
+    "armenian": "անհանգստացնող",
+    "letter": "D",
+    "russian": "тревожный",
+    "type": ""
+  },
+  {
+    "id": 401,
+    "english": "divert",
+    "armenian": "շեղել",
+    "letter": "D",
+    "russian": "отвлекать",
+    "type": ""
+  },
+  {
+    "id": 402,
+    "english": "divine",
+    "armenian": "աստվածային",
+    "letter": "D",
+    "russian": "божественный",
+    "type": ""
+  },
+  {
+    "id": 403,
+    "english": "doctrine",
+    "armenian": "վարդապետություն",
+    "letter": "D",
+    "russian": "доктрина",
+    "type": ""
+  },
+  {
+    "id": 404,
+    "english": "documentation",
+    "armenian": "փաստաթղթեր",
+    "letter": "D",
+    "russian": "документация",
+    "type": ""
+  },
+  {
+    "id": 405,
+    "english": "domain",
+    "armenian": "տիրույթ",
+    "letter": "D",
+    "russian": "домен",
+    "type": ""
+  },
+  {
+    "id": 406,
+    "english": "dominance",
+    "armenian": "գերակայություն",
+    "letter": "D",
+    "russian": "доминирование",
+    "type": ""
+  },
+  {
+    "id": 407,
+    "english": "donor",
+    "armenian": "դոնոր",
+    "letter": "D",
+    "russian": "донор",
+    "type": ""
+  },
+  {
+    "id": 408,
+    "english": "dose",
+    "armenian": "չափաբաժին",
+    "letter": "D",
+    "russian": "доза",
+    "type": ""
+  },
+  {
+    "id": 409,
+    "english": "drain",
+    "armenian": "ցամաքեցնել",
+    "letter": "D",
+    "russian": "осушать",
+    "type": ""
+  },
+  {
+    "id": 410,
+    "english": "drift",
+    "armenian": "դրեյֆ",
+    "letter": "D",
+    "russian": "дрейфовать",
+    "type": ""
+  },
+  {
+    "id": 411,
+    "english": "driving",
+    "armenian": "վարել",
+    "letter": "D",
+    "russian": "вождение",
+    "type": ""
+  },
+  {
+    "id": 412,
+    "english": "drown",
+    "armenian": "խեղդվել",
+    "letter": "D",
+    "russian": "тонуть",
+    "type": ""
+  },
+  {
+    "id": 413,
+    "english": "dual",
+    "armenian": "երկակի",
+    "letter": "D",
+    "russian": "двойной",
+    "type": ""
+  },
+  {
+    "id": 414,
+    "english": "dub",
+    "armenian": "կրկնօրինակել",
+    "letter": "D",
+    "russian": "дублировать",
+    "type": ""
+  },
+  {
+    "id": 415,
+    "english": "dumb",
+    "armenian": "համր",
+    "letter": "D",
+    "russian": "тупой",
+    "type": ""
+  },
+  {
+    "id": 416,
+    "english": "duo",
+    "armenian": "դուետ",
+    "letter": "D",
+    "russian": "дуэт",
+    "type": ""
+  },
+  {
+    "id": 417,
+    "english": "dynamic",
+    "armenian": "դինամիկ",
+    "letter": "D",
+    "russian": "динамичный",
+    "type": ""
+  },
+  {
+    "id": 418,
+    "english": "eager",
+    "armenian": "եռանդուն",
+    "letter": "E",
+    "russian": "жаждущий",
+    "type": ""
+  },
+  {
+    "id": 419,
+    "english": "earnings",
+    "armenian": "վաստակը",
+    "letter": "E",
+    "russian": "заработок",
+    "type": ""
+  },
+  {
+    "id": 420,
+    "english": "ease",
+    "armenian": "հեշտություն",
+    "letter": "E",
+    "russian": "простота",
+    "type": ""
+  },
+  {
+    "id": 421,
+    "english": "echo",
+    "armenian": "արձագանք",
+    "letter": "E",
+    "russian": "эхо",
+    "type": ""
+  },
+  {
+    "id": 422,
+    "english": "ecological",
+    "armenian": "էկոլոգիական",
+    "letter": "E",
+    "russian": "экологический",
+    "type": ""
+  },
+  {
+    "id": 423,
+    "english": "educator",
+    "armenian": "մանկավարժ",
+    "letter": "E",
+    "russian": "педагог",
+    "type": ""
+  },
+  {
+    "id": 424,
+    "english": "effectiveness",
+    "armenian": "արդյունավետությունը",
+    "letter": "E",
+    "russian": "эффективность",
+    "type": ""
+  },
+  {
+    "id": 425,
+    "english": "efficiency",
+    "armenian": "արդյունավետությունը",
+    "letter": "E",
+    "russian": "эффективность",
+    "type": ""
+  },
+  {
+    "id": 426,
+    "english": "ego",
+    "armenian": "էգո",
+    "letter": "E",
+    "russian": "эго",
+    "type": ""
+  },
+  {
+    "id": 427,
+    "english": "elaborate",
+    "armenian": "մշակել",
+    "letter": "E",
+    "russian": "разрабатывать",
+    "type": ""
+  },
+  {
+    "id": 428,
+    "english": "electoral",
+    "armenian": "ընտրական",
+    "letter": "E",
+    "russian": "избирательный",
+    "type": ""
+  },
+  {
+    "id": 429,
+    "english": "elevate",
+    "armenian": "բարձրացնել",
+    "letter": "E",
+    "russian": "возвышать",
+    "type": ""
+  },
+  {
+    "id": 430,
+    "english": "eligible",
+    "armenian": "իրավասու",
+    "letter": "E",
+    "russian": "имеющий право",
+    "type": ""
+  },
+  {
+    "id": 431,
+    "english": "elite",
+    "armenian": "էլիտա",
+    "letter": "E",
+    "russian": "элита",
+    "type": ""
+  },
+  {
+    "id": 432,
+    "english": "embark",
+    "armenian": "նավարկել",
+    "letter": "E",
+    "russian": "отправляться в путь",
+    "type": ""
+  },
+  {
+    "id": 433,
+    "english": "embarrassment",
+    "armenian": "խայտառակություն",
+    "letter": "E",
+    "russian": "смущение",
+    "type": ""
+  },
+  {
+    "id": 434,
+    "english": "embassy",
+    "armenian": "դեսպանատուն",
+    "letter": "E",
+    "russian": "посольство",
+    "type": ""
+  },
+  {
+    "id": 435,
+    "english": "embed",
+    "armenian": "ներդնել",
+    "letter": "E",
+    "russian": "вставлять",
+    "type": ""
+  },
+  {
+    "id": 436,
+    "english": "embody",
+    "armenian": "մարմնավորել",
+    "letter": "E",
+    "russian": "воплощать",
+    "type": ""
+  },
+  {
+    "id": 437,
+    "english": "emergence",
+    "armenian": "առաջացում",
+    "letter": "E",
+    "russian": "появление",
+    "type": ""
+  },
+  {
+    "id": 438,
+    "english": "empirical",
+    "armenian": "էմպիրիկ",
+    "letter": "E",
+    "russian": "эмпирический",
+    "type": ""
+  },
+  {
+    "id": 439,
+    "english": "empower",
+    "armenian": "հզորացնել",
+    "letter": "E",
+    "russian": "расширять возможности",
+    "type": ""
+  },
+  {
+    "id": 440,
+    "english": "enact",
+    "armenian": "ընդունել",
+    "letter": "E",
+    "russian": "принять",
+    "type": ""
+  },
+  {
+    "id": 441,
+    "english": "encompass",
+    "armenian": "ընդգրկել",
+    "letter": "E",
+    "russian": "охватывать",
+    "type": ""
+  },
+  {
+    "id": 442,
+    "english": "encouragement",
+    "armenian": "խրախուսում",
+    "letter": "E",
+    "russian": "поощрение",
+    "type": ""
+  },
+  {
+    "id": 443,
+    "english": "encouraging",
+    "armenian": "խրախուսող",
+    "letter": "E",
+    "russian": "обнадеживающий",
+    "type": ""
+  },
+  {
+    "id": 444,
+    "english": "endeavour",
+    "armenian": "ջանք",
+    "letter": "E",
+    "russian": "стараться",
+    "type": ""
+  },
+  {
+    "id": 445,
+    "english": "endless",
+    "armenian": "անվերջ",
+    "letter": "E",
+    "russian": "бесконечный",
+    "type": ""
+  },
+  {
+    "id": 446,
+    "english": "endorse",
+    "armenian": "հաստատել",
+    "letter": "E",
+    "russian": "одобрять",
+    "type": ""
+  },
+  {
+    "id": 447,
+    "english": "endorsement",
+    "armenian": "հաստատում",
+    "letter": "E",
+    "russian": "поддержка",
+    "type": ""
+  },
+  {
+    "id": 448,
+    "english": "endure",
+    "armenian": "դիմանալ",
+    "letter": "E",
+    "russian": "терпеть",
+    "type": ""
+  },
+  {
+    "id": 449,
+    "english": "enforce",
+    "armenian": "պարտադրել",
+    "letter": "E",
+    "russian": "обеспечивать соблюдение",
+    "type": ""
+  },
+  {
+    "id": 450,
+    "english": "enforcement",
+    "armenian": "կիրարկումը",
+    "letter": "E",
+    "russian": "исполнение",
+    "type": ""
+  },
+  {
+    "id": 451,
+    "english": "engagement",
+    "armenian": "նշանադրություն",
+    "letter": "E",
+    "russian": "обручение",
+    "type": ""
+  },
+  {
+    "id": 452,
+    "english": "engaging",
+    "armenian": "գրավիչ",
+    "letter": "E",
+    "russian": "привлекательный",
+    "type": ""
+  },
+  {
+    "id": 453,
+    "english": "enquire",
+    "armenian": "հարցնել",
+    "letter": "E",
+    "russian": "спрашивать",
+    "type": ""
+  },
+  {
+    "id": 454,
+    "english": "enrich",
+    "armenian": "հարստացնել",
+    "letter": "E",
+    "russian": "обогащать",
+    "type": ""
+  },
+  {
+    "id": 455,
+    "english": "enrol",
+    "armenian": "գրանցել",
+    "letter": "E",
+    "russian": "зарегистрироваться",
+    "type": ""
+  },
+  {
+    "id": 456,
+    "english": "ensue",
+    "armenian": "հետեւել",
+    "letter": "E",
+    "russian": "следовать",
+    "type": ""
+  },
+  {
+    "id": 457,
+    "english": "enterprise",
+    "armenian": "ձեռնարկություն",
+    "letter": "E",
+    "russian": "предприятие",
+    "type": ""
+  },
+  {
+    "id": 458,
+    "english": "enthusiast",
+    "armenian": "էնտուզիաստ",
+    "letter": "E",
+    "russian": "энтузиаст",
+    "type": ""
+  },
+  {
+    "id": 459,
+    "english": "entitle",
+    "armenian": "իրավունք",
+    "letter": "E",
+    "russian": "давать право",
+    "type": ""
+  },
+  {
+    "id": 460,
+    "english": "entity",
+    "armenian": "սուբյեկտ",
+    "letter": "E",
+    "russian": "сущность",
+    "type": ""
+  },
+  {
+    "id": 461,
+    "english": "epidemic",
+    "armenian": "համաճարակ",
+    "letter": "E",
+    "russian": "эпидемия",
+    "type": ""
+  },
+  {
+    "id": 462,
+    "english": "equality",
+    "armenian": "հավասարություն",
+    "letter": "E",
+    "russian": "равенство",
+    "type": ""
+  },
+  {
+    "id": 463,
+    "english": "equation",
+    "armenian": "հավասարումը",
+    "letter": "E",
+    "russian": "уравнение",
+    "type": ""
+  },
+  {
+    "id": 464,
+    "english": "erect",
+    "armenian": "կանգուն",
+    "letter": "E",
+    "russian": "возводить",
+    "type": ""
+  },
+  {
+    "id": 465,
+    "english": "escalate",
+    "armenian": "սրվել",
+    "letter": "E",
+    "russian": "обострять",
+    "type": ""
+  },
+  {
+    "id": 466,
+    "english": "essence",
+    "armenian": "էությունը",
+    "letter": "E",
+    "russian": "сущность",
+    "type": ""
+  },
+  {
+    "id": 467,
+    "english": "establishment",
+    "armenian": "հիմնում",
+    "letter": "E",
+    "russian": "учреждение",
+    "type": ""
+  },
+  {
+    "id": 468,
+    "english": "eternal",
+    "armenian": "հավերժական",
+    "letter": "E",
+    "russian": "вечный",
+    "type": ""
+  },
+  {
+    "id": 469,
+    "english": "evacuate",
+    "armenian": "էվակուացնել",
+    "letter": "E",
+    "russian": "эвакуируюсь",
+    "type": ""
+  },
+  {
+    "id": 470,
+    "english": "evoke",
+    "armenian": "առաջացնել",
+    "letter": "E",
+    "russian": "вызывать",
+    "type": ""
+  },
+  {
+    "id": 471,
+    "english": "evolutionary",
+    "armenian": "էվոլյուցիոն",
+    "letter": "E",
+    "russian": "эволюционный",
+    "type": ""
+  },
+  {
+    "id": 472,
+    "english": "exaggerate",
+    "armenian": "չափազանցնել",
+    "letter": "E",
+    "russian": "преувеличивать",
+    "type": ""
+  },
+  {
+    "id": 473,
+    "english": "excellence",
+    "armenian": "գերազանցություն",
+    "letter": "E",
+    "russian": "превосходство",
+    "type": ""
+  },
+  {
+    "id": 474,
+    "english": "exceptional",
+    "armenian": "բացառիկ",
+    "letter": "E",
+    "russian": "исключительный",
+    "type": ""
+  },
+  {
+    "id": 475,
+    "english": "excess",
+    "armenian": "ավելցուկ",
+    "letter": "E",
+    "russian": "избыток",
+    "type": ""
+  },
+  {
+    "id": 476,
+    "english": "exclusion",
+    "armenian": "բացառումը",
+    "letter": "E",
+    "russian": "исключение",
+    "type": ""
+  },
+  {
+    "id": 477,
+    "english": "exclusive",
+    "armenian": "բացառիկ",
+    "letter": "E",
+    "russian": "эксклюзивный",
+    "type": ""
+  },
+  {
+    "id": 478,
+    "english": "exclusively",
+    "armenian": "բացառապես",
+    "letter": "E",
+    "russian": "исключительно",
+    "type": ""
+  },
+  {
+    "id": 479,
+    "english": "execute",
+    "armenian": "կատարել",
+    "letter": "E",
+    "russian": "выполнять",
+    "type": ""
+  },
+  {
+    "id": 480,
+    "english": "execution",
+    "armenian": "կատարումը",
+    "letter": "E",
+    "russian": "исполнение",
+    "type": ""
+  },
+  {
+    "id": 481,
+    "english": "exert",
+    "armenian": "գործադրել",
+    "letter": "E",
+    "russian": "оказывать",
+    "type": ""
+  },
+  {
+    "id": 482,
+    "english": "exile",
+    "armenian": "աքսոր",
+    "letter": "E",
+    "russian": "изгнание",
+    "type": ""
+  },
+  {
+    "id": 483,
+    "english": "exit",
+    "armenian": "ելք",
+    "letter": "E",
+    "russian": "Выход",
+    "type": ""
+  },
+  {
+    "id": 484,
+    "english": "expenditure",
+    "armenian": "ծախսեր",
+    "letter": "E",
+    "russian": "расходы",
+    "type": ""
+  },
+  {
+    "id": 485,
+    "english": "experimental",
+    "armenian": "փորձարարական",
+    "letter": "E",
+    "russian": "экспериментальный",
+    "type": ""
+  },
+  {
+    "id": 486,
+    "english": "expire",
+    "armenian": "ժամկետը լրանալ",
+    "letter": "E",
+    "russian": "истекает",
+    "type": ""
+  },
+  {
+    "id": 487,
+    "english": "explicit",
+    "armenian": "բացահայտ",
+    "letter": "E",
+    "russian": "явный",
+    "type": ""
+  },
+  {
+    "id": 488,
+    "english": "explicitly",
+    "armenian": "հստակորեն",
+    "letter": "E",
+    "russian": "явно",
+    "type": ""
+  },
+  {
+    "id": 489,
+    "english": "exploitation",
+    "armenian": "շահագործում",
+    "letter": "E",
+    "russian": "эксплуатация",
+    "type": ""
+  },
+  {
+    "id": 490,
+    "english": "explosive",
+    "armenian": "պայթուցիկ",
+    "letter": "E",
+    "russian": "взрывчатый",
+    "type": ""
+  },
+  {
+    "id": 491,
+    "english": "extract",
+    "armenian": "քաղվածք",
+    "letter": "E",
+    "russian": "извлекать",
+    "type": ""
+  },
+  {
+    "id": 492,
+    "english": "extremist",
+    "armenian": "ծայրահեղական",
+    "letter": "E",
+    "russian": "экстремистский",
+    "type": ""
+  },
+  {
+    "id": 493,
+    "english": "facilitate",
+    "armenian": "հեշտացնել",
+    "letter": "F",
+    "russian": "способствовать",
+    "type": ""
+  },
+  {
+    "id": 494,
+    "english": "faction",
+    "armenian": "խմբակցություն",
+    "letter": "F",
+    "russian": "фракция",
+    "type": ""
+  },
+  {
+    "id": 495,
+    "english": "faculty",
+    "armenian": "ֆակուլտետը",
+    "letter": "F",
+    "russian": "факультет",
+    "type": ""
+  },
+  {
+    "id": 496,
+    "english": "fade",
+    "armenian": "մարել",
+    "letter": "F",
+    "russian": "тускнеть",
+    "type": ""
+  },
+  {
+    "id": 497,
+    "english": "fairness",
+    "armenian": "արդարություն",
+    "letter": "F",
+    "russian": "справедливость",
+    "type": ""
+  },
+  {
+    "id": 498,
+    "english": "fatal",
+    "armenian": "ճակատագրական",
+    "letter": "F",
+    "russian": "смертельный",
+    "type": ""
+  },
+  {
+    "id": 499,
+    "english": "fate",
+    "armenian": "ճակատագիր",
+    "letter": "F",
+    "russian": "судьба",
+    "type": ""
+  },
+  {
+    "id": 500,
+    "english": "favourable",
+    "armenian": "բարենպաստ",
+    "letter": "F",
+    "russian": "благоприятный",
+    "type": ""
+  },
+  {
+    "id": 501,
+    "english": "feat",
+    "armenian": "feat",
+    "letter": "F",
+    "russian": "подвиг",
+    "type": ""
+  },
+  {
+    "id": 502,
+    "english": "feminist",
+    "armenian": "ֆեմինիստ",
+    "letter": "F",
+    "russian": "феминистка",
+    "type": ""
+  },
+  {
+    "id": 503,
+    "english": "fibre",
+    "armenian": "մանրաթել",
+    "letter": "F",
+    "russian": "волокно",
+    "type": ""
+  },
+  {
+    "id": 504,
+    "english": "fierce",
+    "armenian": "կատաղի",
+    "letter": "F",
+    "russian": "яростный",
+    "type": ""
+  },
+  {
+    "id": 505,
+    "english": "film-maker",
+    "armenian": "կինոռեժիսոր",
+    "letter": "F",
+    "russian": "кинорежиссер",
+    "type": ""
+  },
+  {
+    "id": 506,
+    "english": "filter",
+    "armenian": "զտիչ",
+    "letter": "F",
+    "russian": "фильтр",
+    "type": ""
+  },
+  {
+    "id": 507,
+    "english": "fine",
+    "armenian": "տուգանք",
+    "letter": "F",
+    "russian": "отлично",
+    "type": ""
+  },
+  {
+    "id": 508,
+    "english": "firearm",
+    "armenian": "հրազեն",
+    "letter": "F",
+    "russian": "огнестрельное оружие",
+    "type": ""
+  },
+  {
+    "id": 509,
+    "english": "fit",
+    "armenian": "տեղավորել",
+    "letter": "F",
+    "russian": "соответствовать",
+    "type": ""
+  },
+  {
+    "id": 510,
+    "english": "fixture",
+    "armenian": "հարմարանք",
+    "letter": "F",
+    "russian": "приспособление",
+    "type": ""
+  },
+  {
+    "id": 511,
+    "english": "flaw",
+    "armenian": "թերություն",
+    "letter": "F",
+    "russian": "недостаток",
+    "type": ""
+  },
+  {
+    "id": 512,
+    "english": "flawed",
+    "armenian": "թերի",
+    "letter": "F",
+    "russian": "ошибочный",
+    "type": ""
+  },
+  {
+    "id": 513,
+    "english": "flee",
+    "armenian": "փախչել",
+    "letter": "F",
+    "russian": "бежать",
+    "type": ""
+  },
+  {
+    "id": 514,
+    "english": "fleet",
+    "armenian": "նավատորմ",
+    "letter": "F",
+    "russian": "флот",
+    "type": ""
+  },
+  {
+    "id": 515,
+    "english": "flesh",
+    "armenian": "միս",
+    "letter": "F",
+    "russian": "плоть",
+    "type": ""
+  },
+  {
+    "id": 516,
+    "english": "flexibility",
+    "armenian": "ճկունություն",
+    "letter": "F",
+    "russian": "гибкость",
+    "type": ""
+  },
+  {
+    "id": 517,
+    "english": "flourish",
+    "armenian": "ծաղկել",
+    "letter": "F",
+    "russian": "процветать",
+    "type": ""
+  },
+  {
+    "id": 518,
+    "english": "fluid",
+    "armenian": "հեղուկ",
+    "letter": "F",
+    "russian": "жидкость",
+    "type": ""
+  },
+  {
+    "id": 519,
+    "english": "footage",
+    "armenian": "կադրեր",
+    "letter": "F",
+    "russian": "отснятый материал",
+    "type": ""
+  },
+  {
+    "id": 520,
+    "english": "foreigner",
+    "armenian": "օտարերկրացի",
+    "letter": "F",
+    "russian": "иностранец",
+    "type": ""
+  },
+  {
+    "id": 521,
+    "english": "forge",
+    "armenian": "կեղծել",
+    "letter": "F",
+    "russian": "ковать",
+    "type": ""
+  },
+  {
+    "id": 522,
+    "english": "formula",
+    "armenian": "բանաձեւ",
+    "letter": "F",
+    "russian": "формула",
+    "type": ""
+  },
+  {
+    "id": 523,
+    "english": "formulate",
+    "armenian": "ձեւակերպել",
+    "letter": "F",
+    "russian": "формулировать",
+    "type": ""
+  },
+  {
+    "id": 524,
+    "english": "forth",
+    "armenian": "առաջ",
+    "letter": "F",
+    "russian": "вперед",
+    "type": ""
+  },
+  {
+    "id": 525,
+    "english": "forthcoming",
+    "armenian": "առաջիկայում",
+    "letter": "F",
+    "russian": "предстоящий",
+    "type": ""
+  },
+  {
+    "id": 526,
+    "english": "foster",
+    "armenian": "խնամակալ",
+    "letter": "F",
+    "russian": "взращивать",
+    "type": ""
+  },
+  {
+    "id": 527,
+    "english": "fragile",
+    "armenian": "փխրուն",
+    "letter": "F",
+    "russian": "хрупкий",
+    "type": ""
+  },
+  {
+    "id": 528,
+    "english": "franchise",
+    "armenian": "արտոնություն",
+    "letter": "F",
+    "russian": "франшиза",
+    "type": ""
+  },
+  {
+    "id": 529,
+    "english": "frankly",
+    "armenian": "անկեղծ ասած",
+    "letter": "F",
+    "russian": "честно говоря",
+    "type": ""
+  },
+  {
+    "id": 530,
+    "english": "frustrated",
+    "armenian": "հիասթափված",
+    "letter": "F",
+    "russian": "расстроенный",
+    "type": ""
+  },
+  {
+    "id": 531,
+    "english": "frustrating",
+    "armenian": "հիասթափեցնող",
+    "letter": "F",
+    "russian": "раздражающий",
+    "type": ""
+  },
+  {
+    "id": 532,
+    "english": "frustration",
+    "armenian": "հիասթափություն",
+    "letter": "F",
+    "russian": "разочарование",
+    "type": ""
+  },
+  {
+    "id": 533,
+    "english": "functional",
+    "armenian": "ֆունկցիոնալ",
+    "letter": "F",
+    "russian": "функциональный",
+    "type": ""
+  },
+  {
+    "id": 534,
+    "english": "fundraising",
+    "armenian": "դրամահավաք",
+    "letter": "F",
+    "russian": "сбор средств",
+    "type": ""
+  },
+  {
+    "id": 535,
+    "english": "funeral",
+    "armenian": "հուղարկավորություն",
+    "letter": "F",
+    "russian": "похороны",
+    "type": ""
+  },
+  {
+    "id": 536,
+    "english": "gallon",
+    "armenian": "գալոն",
+    "letter": "G",
+    "russian": "галлон",
+    "type": ""
+  },
+  {
+    "id": 537,
+    "english": "gambling",
+    "armenian": "Դրամախաղ",
+    "letter": "G",
+    "russian": "играть в азартные игры",
+    "type": ""
+  },
+  {
+    "id": 538,
+    "english": "gathering",
+    "armenian": "հավաք",
+    "letter": "G",
+    "russian": "встреча",
+    "type": ""
+  },
+  {
+    "id": 539,
+    "english": "gaze",
+    "armenian": "հայացք",
+    "letter": "G",
+    "russian": "взгляд",
+    "type": ""
+  },
+  {
+    "id": 540,
+    "english": "gear",
+    "armenian": "հանդերձում",
+    "letter": "G",
+    "russian": "механизм",
+    "type": ""
+  },
+  {
+    "id": 541,
+    "english": "generic",
+    "armenian": "ընդհանուր",
+    "letter": "G",
+    "russian": "универсальный",
+    "type": ""
+  },
+  {
+    "id": 542,
+    "english": "genocide",
+    "armenian": "ցեղասպանություն",
+    "letter": "G",
+    "russian": "геноцид",
+    "type": ""
+  },
+  {
+    "id": 543,
+    "english": "glance",
+    "armenian": "հայացք",
+    "letter": "G",
+    "russian": "взглянуть мельком",
+    "type": ""
+  },
+  {
+    "id": 544,
+    "english": "glimpse",
+    "armenian": "հայացք",
+    "letter": "G",
+    "russian": "случайно заметить",
+    "type": ""
+  },
+  {
+    "id": 545,
+    "english": "glorious",
+    "armenian": "փառավոր",
+    "letter": "G",
+    "russian": "славный",
+    "type": ""
+  },
+  {
+    "id": 546,
+    "english": "glory",
+    "armenian": "փառք",
+    "letter": "G",
+    "russian": "слава",
+    "type": ""
+  },
+  {
+    "id": 547,
+    "english": "governance",
+    "armenian": "կառավարում",
+    "letter": "G",
+    "russian": "управление",
+    "type": ""
+  },
+  {
+    "id": 548,
+    "english": "grace",
+    "armenian": "շնորհք",
+    "letter": "G",
+    "russian": "милость",
+    "type": ""
+  },
+  {
+    "id": 549,
+    "english": "grasp",
+    "armenian": "բռնել",
+    "letter": "G",
+    "russian": "понять",
+    "type": ""
+  },
+  {
+    "id": 550,
+    "english": "grave",
+    "armenian": "գերեզման",
+    "letter": "G",
+    "russian": "могила",
+    "type": ""
+  },
+  {
+    "id": 551,
+    "english": "gravity",
+    "armenian": "ձգողականություն",
+    "letter": "G",
+    "russian": "гравитация",
+    "type": ""
+  },
+  {
+    "id": 552,
+    "english": "grid",
+    "armenian": "ցանց",
+    "letter": "G",
+    "russian": "сетка",
+    "type": ""
+  },
+  {
+    "id": 553,
+    "english": "grief",
+    "armenian": "վիշտը",
+    "letter": "G",
+    "russian": "горе",
+    "type": ""
+  },
+  {
+    "id": 554,
+    "english": "grin",
+    "armenian": "քմծիծաղ",
+    "letter": "G",
+    "russian": "ухмылка",
+    "type": ""
+  },
+  {
+    "id": 555,
+    "english": "grind",
+    "armenian": "մանրացնել",
+    "letter": "G",
+    "russian": "молоть",
+    "type": ""
+  },
+  {
+    "id": 556,
+    "english": "grip",
+    "armenian": "բռնել",
+    "letter": "G",
+    "russian": "схватить",
+    "type": ""
+  },
+  {
+    "id": 557,
+    "english": "gross",
+    "armenian": "համախառն",
+    "letter": "G",
+    "russian": "валовой",
+    "type": ""
+  },
+  {
+    "id": 558,
+    "english": "guerrilla",
+    "armenian": "պարտիզանական",
+    "letter": "G",
+    "russian": "партизан",
+    "type": ""
+  },
+  {
+    "id": 559,
+    "english": "guidance",
+    "armenian": "ուղղորդում",
+    "letter": "G",
+    "russian": "руководство",
+    "type": ""
+  },
+  {
+    "id": 560,
+    "english": "guilt",
+    "armenian": "մեղքի զգացում",
+    "letter": "G",
+    "russian": "вина",
+    "type": ""
+  },
+  {
+    "id": 561,
+    "english": "gut",
+    "armenian": "աղիքներ",
+    "letter": "G",
+    "russian": "кишка",
+    "type": ""
+  },
+  {
+    "id": 562,
+    "english": "hail",
+    "armenian": "կարկուտ",
+    "letter": "H",
+    "russian": "град",
+    "type": ""
+  },
+  {
+    "id": 563,
+    "english": "halfway",
+    "armenian": "կես ճանապարհին",
+    "letter": "H",
+    "russian": "наполовину",
+    "type": ""
+  },
+  {
+    "id": 564,
+    "english": "halt",
+    "armenian": "դադարեցնել",
+    "letter": "H",
+    "russian": "остановка",
+    "type": ""
+  },
+  {
+    "id": 565,
+    "english": "handful",
+    "armenian": "բուռ",
+    "letter": "H",
+    "russian": "горстка",
+    "type": ""
+  },
+  {
+    "id": 566,
+    "english": "handling",
+    "armenian": "բեռնաթափում",
+    "letter": "H",
+    "russian": "умение обращаться",
+    "type": ""
+  },
+  {
+    "id": 567,
+    "english": "handy",
+    "armenian": "հարմար",
+    "letter": "H",
+    "russian": "удобный",
+    "type": ""
+  },
+  {
+    "id": 568,
+    "english": "harassment",
+    "armenian": "ոտնձգություն",
+    "letter": "H",
+    "russian": "домогательство",
+    "type": ""
+  },
+  {
+    "id": 569,
+    "english": "hardware",
+    "armenian": "ապարատային",
+    "letter": "H",
+    "russian": "аппаратное обеспечение",
+    "type": ""
+  },
+  {
+    "id": 570,
+    "english": "harmony",
+    "armenian": "ներդաշնակություն",
+    "letter": "H",
+    "russian": "гармония",
+    "type": ""
+  },
+  {
+    "id": 571,
+    "english": "harsh",
+    "armenian": "դաժան",
+    "letter": "H",
+    "russian": "жесткий",
+    "type": ""
+  },
+  {
+    "id": 572,
+    "english": "harvest",
+    "armenian": "բերքահավաք",
+    "letter": "H",
+    "russian": "урожай",
+    "type": ""
+  },
+  {
+    "id": 573,
+    "english": "hatred",
+    "armenian": "ատելություն",
+    "letter": "H",
+    "russian": "ненависть",
+    "type": ""
+  },
+  {
+    "id": 574,
+    "english": "haunt",
+    "armenian": "հետապնդել",
+    "letter": "H",
+    "russian": "преследовать",
+    "type": ""
+  },
+  {
+    "id": 575,
+    "english": "hazard",
+    "armenian": "վտանգ",
+    "letter": "H",
+    "russian": "опасность",
+    "type": ""
+  },
+  {
+    "id": 576,
+    "english": "heighten",
+    "armenian": "բարձրացնել",
+    "letter": "H",
+    "russian": "повысить",
+    "type": ""
+  },
+  {
+    "id": 577,
+    "english": "heritage",
+    "armenian": "ժառանգություն",
+    "letter": "H",
+    "russian": "наследство",
+    "type": ""
+  },
+  {
+    "id": 578,
+    "english": "hierarchy",
+    "armenian": "հիերարխիա",
+    "letter": "H",
+    "russian": "иерархия",
+    "type": ""
+  },
+  {
+    "id": 579,
+    "english": "high-profile",
+    "armenian": "բարձրակարգ",
+    "letter": "H",
+    "russian": "громкий",
+    "type": ""
+  },
+  {
+    "id": 580,
+    "english": "hint",
+    "armenian": "ակնարկ",
+    "letter": "H",
+    "russian": "намекать",
+    "type": ""
+  },
+  {
+    "id": 581,
+    "english": "homeland",
+    "armenian": "հայրենիք",
+    "letter": "H",
+    "russian": "родина",
+    "type": ""
+  },
+  {
+    "id": 582,
+    "english": "hook",
+    "armenian": "կեռիկ",
+    "letter": "H",
+    "russian": "крюк",
+    "type": ""
+  },
+  {
+    "id": 583,
+    "english": "hopeful",
+    "armenian": "հուսադրող",
+    "letter": "H",
+    "russian": "обнадеживающий",
+    "type": ""
+  },
+  {
+    "id": 584,
+    "english": "horizon",
+    "armenian": "հորիզոն",
+    "letter": "H",
+    "russian": "горизонт",
+    "type": ""
+  },
+  {
+    "id": 585,
+    "english": "horn",
+    "armenian": "եղջյուր",
+    "letter": "H",
+    "russian": "рог",
+    "type": ""
+  },
+  {
+    "id": 586,
+    "english": "hostage",
+    "armenian": "պատանդ",
+    "letter": "H",
+    "russian": "заложник",
+    "type": ""
+  },
+  {
+    "id": 587,
+    "english": "hostile",
+    "armenian": "թշնամական",
+    "letter": "H",
+    "russian": "враждебный",
+    "type": ""
+  },
+  {
+    "id": 588,
+    "english": "hostility",
+    "armenian": "թշնամանք",
+    "letter": "H",
+    "russian": "враждебность",
+    "type": ""
+  },
+  {
+    "id": 589,
+    "english": "humanitarian",
+    "armenian": "մարդասիրական",
+    "letter": "H",
+    "russian": "гуманитарный",
+    "type": ""
+  },
+  {
+    "id": 590,
+    "english": "humanity",
+    "armenian": "մարդկությունը",
+    "letter": "H",
+    "russian": "человечество",
+    "type": ""
+  },
+  {
+    "id": 591,
+    "english": "humble",
+    "armenian": "խոնարհ",
+    "letter": "H",
+    "russian": "скромный",
+    "type": ""
+  },
+  {
+    "id": 592,
+    "english": "hydrogen",
+    "armenian": "ջրածինը",
+    "letter": "H",
+    "russian": "водород",
+    "type": ""
+  },
+  {
+    "id": 593,
+    "english": "identification",
+    "armenian": "նույնականացում",
+    "letter": "I",
+    "russian": "идентификация",
+    "type": ""
+  },
+  {
+    "id": 594,
+    "english": "ideological",
+    "armenian": "գաղափարական",
+    "letter": "I",
+    "russian": "идеологический",
+    "type": ""
+  },
+  {
+    "id": 595,
+    "english": "ideology",
+    "armenian": "գաղափարախոսություն",
+    "letter": "I",
+    "russian": "идеология",
+    "type": ""
+  },
+  {
+    "id": 596,
+    "english": "idiot",
+    "armenian": "ապուշ",
+    "letter": "I",
+    "russian": "идиот",
+    "type": ""
+  },
+  {
+    "id": 597,
+    "english": "ignorance",
+    "armenian": "անտեղյակություն",
+    "letter": "I",
+    "russian": "невежество",
+    "type": ""
+  },
+  {
+    "id": 598,
+    "english": "imagery",
+    "armenian": "պատկերազարդում",
+    "letter": "I",
+    "russian": "образы",
+    "type": ""
+  },
+  {
+    "id": 599,
+    "english": "immense",
+    "armenian": "հսկայական",
+    "letter": "I",
+    "russian": "огромный",
+    "type": ""
+  },
+  {
+    "id": 600,
+    "english": "imminent",
+    "armenian": "մոտալուտ",
+    "letter": "I",
+    "russian": "неизбежный",
+    "type": ""
+  },
+  {
+    "id": 601,
+    "english": "implementation",
+    "armenian": "իրականացում",
+    "letter": "I",
+    "russian": "выполнение",
+    "type": ""
+  },
+  {
+    "id": 602,
+    "english": "imprison",
+    "armenian": "բանտարկել",
+    "letter": "I",
+    "russian": "заключать в тюрьму",
+    "type": ""
+  },
+  {
+    "id": 603,
+    "english": "imprisonment",
+    "armenian": "ազատազրկում",
+    "letter": "I",
+    "russian": "тюремное заключение",
+    "type": ""
+  },
+  {
+    "id": 604,
+    "english": "inability",
+    "armenian": "անկարողություն",
+    "letter": "I",
+    "russian": "неспособность",
+    "type": ""
+  },
+  {
+    "id": 605,
+    "english": "inadequate",
+    "armenian": "ոչ ադեկվատ",
+    "letter": "I",
+    "russian": "неадекватный",
+    "type": ""
+  },
+  {
+    "id": 606,
+    "english": "inappropriate",
+    "armenian": "անպատշաճ",
+    "letter": "I",
+    "russian": "неприличный",
+    "type": ""
+  },
+  {
+    "id": 607,
+    "english": "incidence",
+    "armenian": "դեպքերը",
+    "letter": "I",
+    "russian": "заболеваемость",
+    "type": ""
+  },
+  {
+    "id": 608,
+    "english": "inclined",
+    "armenian": "հակված",
+    "letter": "I",
+    "russian": "наклоненный",
+    "type": ""
+  },
+  {
+    "id": 609,
+    "english": "inclusion",
+    "armenian": "ներառումը",
+    "letter": "I",
+    "russian": "включение",
+    "type": ""
+  },
+  {
+    "id": 610,
+    "english": "incur",
+    "armenian": "կրել",
+    "letter": "I",
+    "russian": "понести",
+    "type": ""
+  },
+  {
+    "id": 611,
+    "english": "indicator",
+    "armenian": "ցուցիչ",
+    "letter": "I",
+    "russian": "индикатор",
+    "type": ""
+  },
+  {
+    "id": 612,
+    "english": "indictment",
+    "armenian": "մեղադրական եզրակացություն",
+    "letter": "I",
+    "russian": "обвинительное заключение",
+    "type": ""
+  },
+  {
+    "id": 613,
+    "english": "indigenous",
+    "armenian": "բնիկ",
+    "letter": "I",
+    "russian": "местный",
+    "type": ""
+  },
+  {
+    "id": 614,
+    "english": "induce",
+    "armenian": "դրդել",
+    "letter": "I",
+    "russian": "вызывать",
+    "type": ""
+  },
+  {
+    "id": 615,
+    "english": "indulge",
+    "armenian": "անձնատուր լինել",
+    "letter": "I",
+    "russian": "предаваться",
+    "type": ""
+  },
+  {
+    "id": 616,
+    "english": "inequality",
+    "armenian": "անհավասարություն",
+    "letter": "I",
+    "russian": "неравенство",
+    "type": ""
+  },
+  {
+    "id": 617,
+    "english": "infamous",
+    "armenian": "տխրահռչակ",
+    "letter": "I",
+    "russian": "печально известный",
+    "type": ""
+  },
+  {
+    "id": 618,
+    "english": "infant",
+    "armenian": "նորածին",
+    "letter": "I",
+    "russian": "младенец",
+    "type": ""
+  },
+  {
+    "id": 619,
+    "english": "infect",
+    "armenian": "վարակել",
+    "letter": "I",
+    "russian": "заразить",
+    "type": ""
+  },
+  {
+    "id": 620,
+    "english": "inflict",
+    "armenian": "պատճառել",
+    "letter": "I",
+    "russian": "нанести",
+    "type": ""
+  },
+  {
+    "id": 621,
+    "english": "influential",
+    "armenian": "ազդեցիկ",
+    "letter": "I",
+    "russian": "влиятельный",
+    "type": ""
+  },
+  {
+    "id": 622,
+    "english": "inherent",
+    "armenian": "բնորոշ",
+    "letter": "I",
+    "russian": "присущий",
+    "type": ""
+  },
+  {
+    "id": 623,
+    "english": "inhibit",
+    "armenian": "արգելակել",
+    "letter": "I",
+    "russian": "тормозить",
+    "type": ""
+  },
+  {
+    "id": 624,
+    "english": "initiate",
+    "armenian": "նախաձեռնել",
+    "letter": "I",
+    "russian": "инициировать",
+    "type": ""
+  },
+  {
+    "id": 625,
+    "english": "inject",
+    "armenian": "ներարկել",
+    "letter": "I",
+    "russian": "вводить",
+    "type": ""
+  },
+  {
+    "id": 626,
+    "english": "injection",
+    "armenian": "ներարկում",
+    "letter": "I",
+    "russian": "инъекция",
+    "type": ""
+  },
+  {
+    "id": 627,
+    "english": "injustice",
+    "armenian": "անարդարություն",
+    "letter": "I",
+    "russian": "несправедливость",
+    "type": ""
+  },
+  {
+    "id": 628,
+    "english": "inmate",
+    "armenian": "բանտարկյալ",
+    "letter": "I",
+    "russian": "заключенный",
+    "type": ""
+  },
+  {
+    "id": 629,
+    "english": "insertion",
+    "armenian": "ներդրում",
+    "letter": "I",
+    "russian": "вставка",
+    "type": ""
+  },
+  {
+    "id": 630,
+    "english": "insider",
+    "armenian": "ինսայդեր",
+    "letter": "I",
+    "russian": "инсайдер",
+    "type": ""
+  },
+  {
+    "id": 631,
+    "english": "inspect",
+    "armenian": "ստուգել",
+    "letter": "I",
+    "russian": "проверять",
+    "type": ""
+  },
+  {
+    "id": 632,
+    "english": "inspection",
+    "armenian": "զննում",
+    "letter": "I",
+    "russian": "инспекция",
+    "type": ""
+  },
+  {
+    "id": 633,
+    "english": "inspiration",
+    "armenian": "ոգեշնչում",
+    "letter": "I",
+    "russian": "вдохновение",
+    "type": ""
+  },
+  {
+    "id": 634,
+    "english": "instinct",
+    "armenian": "բնազդը",
+    "letter": "I",
+    "russian": "инстинкт",
+    "type": ""
+  },
+  {
+    "id": 635,
+    "english": "institutional",
+    "armenian": "ինստիտուցիոնալ",
+    "letter": "I",
+    "russian": "институциональный",
+    "type": ""
+  },
+  {
+    "id": 636,
+    "english": "instruct",
+    "armenian": "հրահանգել",
+    "letter": "I",
+    "russian": "инструктировать",
+    "type": ""
+  },
+  {
+    "id": 637,
+    "english": "instrumental",
+    "armenian": "գործիքային",
+    "letter": "I",
+    "russian": "инструментальный",
+    "type": ""
+  },
+  {
+    "id": 638,
+    "english": "insufficient",
+    "armenian": "անբավարար",
+    "letter": "I",
+    "russian": "недостаточный",
+    "type": ""
+  },
+  {
+    "id": 639,
+    "english": "insult",
+    "armenian": "վիրավորանք",
+    "letter": "I",
+    "russian": "оскорблять",
+    "type": ""
+  },
+  {
+    "id": 640,
+    "english": "intact",
+    "armenian": "անձեռնմխելի",
+    "letter": "I",
+    "russian": "нетронутый",
+    "type": ""
+  },
+  {
+    "id": 641,
+    "english": "intake",
+    "armenian": "ընդունումը",
+    "letter": "I",
+    "russian": "прием",
+    "type": ""
+  },
+  {
+    "id": 642,
+    "english": "integral",
+    "armenian": "ինտեգրալ",
+    "letter": "I",
+    "russian": "интеграл",
+    "type": ""
+  },
+  {
+    "id": 643,
+    "english": "integrated",
+    "armenian": "ինտեգրված",
+    "letter": "I",
+    "russian": "интегрированный",
+    "type": ""
+  },
+  {
+    "id": 644,
+    "english": "integration",
+    "armenian": "ինտեգրում",
+    "letter": "I",
+    "russian": "интеграция",
+    "type": ""
+  },
+  {
+    "id": 645,
+    "english": "integrity",
+    "armenian": "ամբողջականություն",
+    "letter": "I",
+    "russian": "честность",
+    "type": ""
+  },
+  {
+    "id": 646,
+    "english": "intellectual",
+    "armenian": "մտավորական",
+    "letter": "I",
+    "russian": "интеллектуальный",
+    "type": ""
+  },
+  {
+    "id": 647,
+    "english": "intensify",
+    "armenian": "ուժեղացնել",
+    "letter": "I",
+    "russian": "усиливать",
+    "type": ""
+  },
+  {
+    "id": 648,
+    "english": "intensity",
+    "armenian": "ինտենսիվությունը",
+    "letter": "I",
+    "russian": "интенсивность",
+    "type": ""
+  },
+  {
+    "id": 649,
+    "english": "intensive",
+    "armenian": "ինտենսիվ",
+    "letter": "I",
+    "russian": "интенсивный",
+    "type": ""
+  },
+  {
+    "id": 650,
+    "english": "intent",
+    "armenian": "մտադրություն",
+    "letter": "I",
+    "russian": "намерение",
+    "type": ""
+  },
+  {
+    "id": 651,
+    "english": "interactive",
+    "armenian": "ինտերակտիվ",
+    "letter": "I",
+    "russian": "интерактивный",
+    "type": ""
+  },
+  {
+    "id": 652,
+    "english": "interface",
+    "armenian": "ինտերֆեյս",
+    "letter": "I",
+    "russian": "интерфейс",
+    "type": ""
+  },
+  {
+    "id": 653,
+    "english": "interfere",
+    "armenian": "խանգարել",
+    "letter": "I",
+    "russian": "вмешиваться",
+    "type": ""
+  },
+  {
+    "id": 654,
+    "english": "interference",
+    "armenian": "միջամտություն",
+    "letter": "I",
+    "russian": "вмешательство",
+    "type": ""
+  },
+  {
+    "id": 655,
+    "english": "interim",
+    "armenian": "միջանկյալ",
+    "letter": "I",
+    "russian": "временный",
+    "type": ""
+  },
+  {
+    "id": 656,
+    "english": "interior",
+    "armenian": "ինտերիեր",
+    "letter": "I",
+    "russian": "интерьер",
+    "type": ""
+  },
+  {
+    "id": 657,
+    "english": "intermediate",
+    "armenian": "միջանկյալ",
+    "letter": "I",
+    "russian": "средний",
+    "type": ""
+  },
+  {
+    "id": 658,
+    "english": "intervene",
+    "armenian": "միջամտել",
+    "letter": "I",
+    "russian": "вмешиваться",
+    "type": ""
+  },
+  {
+    "id": 659,
+    "english": "intervention",
+    "armenian": "միջամտություն",
+    "letter": "I",
+    "russian": "вмешательство",
+    "type": ""
+  },
+  {
+    "id": 660,
+    "english": "intimate",
+    "armenian": "ինտիմ",
+    "letter": "I",
+    "russian": "интимный",
+    "type": ""
+  },
+  {
+    "id": 661,
+    "english": "intriguing",
+    "armenian": "ինտրիգային",
+    "letter": "I",
+    "russian": "интригующий",
+    "type": ""
+  },
+  {
+    "id": 662,
+    "english": "investigator",
+    "armenian": "քննիչ",
+    "letter": "I",
+    "russian": "следователь",
+    "type": ""
+  },
+  {
+    "id": 663,
+    "english": "invisible",
+    "armenian": "անտեսանելի",
+    "letter": "I",
+    "russian": "невидимый",
+    "type": ""
+  },
+  {
+    "id": 664,
+    "english": "invoke",
+    "armenian": "կանչել",
+    "letter": "I",
+    "russian": "вызывать",
+    "type": ""
+  },
+  {
+    "id": 665,
+    "english": "involvement",
+    "armenian": "ներգրավվածություն",
+    "letter": "I",
+    "russian": "участие",
+    "type": ""
+  },
+  {
+    "id": 666,
+    "english": "ironic",
+    "armenian": "հեգնական",
+    "letter": "I",
+    "russian": "ироничный",
+    "type": ""
+  },
+  {
+    "id": 667,
+    "english": "ironically",
+    "armenian": "հեգնանքով",
+    "letter": "I",
+    "russian": "по иронии судьбы",
+    "type": ""
+  },
+  {
+    "id": 668,
+    "english": "irony",
+    "armenian": "հեգնանք",
+    "letter": "I",
+    "russian": "ирония",
+    "type": ""
+  },
+  {
+    "id": 669,
+    "english": "irrelevant",
+    "armenian": "անտեղի",
+    "letter": "I",
+    "russian": "не имеющий отношения",
+    "type": ""
+  },
+  {
+    "id": 670,
+    "english": "isolation",
+    "armenian": "մեկուսացում",
+    "letter": "I",
+    "russian": "изоляция",
+    "type": ""
+  },
+  {
+    "id": 671,
+    "english": "judicial",
+    "armenian": "դատական",
+    "letter": "J",
+    "russian": "судебный",
+    "type": ""
+  },
+  {
+    "id": 672,
+    "english": "junction",
+    "armenian": "հանգույց",
+    "letter": "J",
+    "russian": "перекресток",
+    "type": ""
+  },
+  {
+    "id": 673,
+    "english": "jurisdiction",
+    "armenian": "իրավասություն",
+    "letter": "J",
+    "russian": "юрисдикция",
+    "type": ""
+  },
+  {
+    "id": 674,
+    "english": "just",
+    "armenian": "պարզապես",
+    "letter": "J",
+    "russian": "только",
+    "type": ""
+  },
+  {
+    "id": 675,
+    "english": "justification",
+    "armenian": "հիմնավորումը",
+    "letter": "J",
+    "russian": "оправдание",
+    "type": ""
+  },
+  {
+    "id": 676,
+    "english": "kidnap",
+    "armenian": "առեւանգել",
+    "letter": "K",
+    "russian": "похитить",
+    "type": ""
+  },
+  {
+    "id": 677,
+    "english": "kidney",
+    "armenian": "երիկամը",
+    "letter": "K",
+    "russian": "почка",
+    "type": ""
+  },
+  {
+    "id": 678,
+    "english": "kingdom",
+    "armenian": "թագավորություն",
+    "letter": "K",
+    "russian": "королевство",
+    "type": ""
+  },
+  {
+    "id": 679,
+    "english": "lad",
+    "armenian": "տղա",
+    "letter": "L",
+    "russian": "парень",
+    "type": ""
+  },
+  {
+    "id": 680,
+    "english": "landlord",
+    "armenian": "տանտեր",
+    "letter": "L",
+    "russian": "домовладелец",
+    "type": ""
+  },
+  {
+    "id": 681,
+    "english": "landmark",
+    "armenian": "ուղենիշ",
+    "letter": "L",
+    "russian": "ориентир",
+    "type": ""
+  },
+  {
+    "id": 682,
+    "english": "lap",
+    "armenian": "ծոց",
+    "letter": "L",
+    "russian": "колени",
+    "type": ""
+  },
+  {
+    "id": 683,
+    "english": "large-scale",
+    "armenian": "լայնածավալ",
+    "letter": "L",
+    "russian": "крупномасштабный",
+    "type": ""
+  },
+  {
+    "id": 684,
+    "english": "laser",
+    "armenian": "լազերային",
+    "letter": "L",
+    "russian": "лазер",
+    "type": ""
+  },
+  {
+    "id": 685,
+    "english": "latter",
+    "armenian": "վերջինս",
+    "letter": "L",
+    "russian": "последний",
+    "type": ""
+  },
+  {
+    "id": 686,
+    "english": "lawn",
+    "armenian": "սիզամարգ",
+    "letter": "L",
+    "russian": "лужайка",
+    "type": ""
+  },
+  {
+    "id": 687,
+    "english": "lawsuit",
+    "armenian": "դատական ​​հայց",
+    "letter": "L",
+    "russian": "иск",
+    "type": ""
+  },
+  {
+    "id": 688,
+    "english": "layout",
+    "armenian": "դասավորությունը",
+    "letter": "L",
+    "russian": "макет",
+    "type": ""
+  },
+  {
+    "id": 689,
+    "english": "leak",
+    "armenian": "արտահոսք",
+    "letter": "L",
+    "russian": "утечка",
+    "type": ""
+  },
+  {
+    "id": 690,
+    "english": "leap",
+    "armenian": "ցատկ",
+    "letter": "L",
+    "russian": "прыгнуть",
+    "type": ""
+  },
+  {
+    "id": 691,
+    "english": "legacy",
+    "armenian": "ժառանգություն",
+    "letter": "L",
+    "russian": "наследие",
+    "type": ""
+  },
+  {
+    "id": 692,
+    "english": "legendary",
+    "armenian": "լեգենդար",
+    "letter": "L",
+    "russian": "легендарный",
+    "type": ""
+  },
+  {
+    "id": 693,
+    "english": "legislation",
+    "armenian": "օրենսդրությունը",
+    "letter": "L",
+    "russian": "законодательство",
+    "type": ""
+  },
+  {
+    "id": 694,
+    "english": "legislative",
+    "armenian": "օրենսդրական",
+    "letter": "L",
+    "russian": "законодательный",
+    "type": ""
+  },
+  {
+    "id": 695,
+    "english": "legislature",
+    "armenian": "օրենսդիր մարմին",
+    "letter": "L",
+    "russian": "законодательный орган",
+    "type": ""
+  },
+  {
+    "id": 696,
+    "english": "legitimate",
+    "armenian": "օրինական",
+    "letter": "L",
+    "russian": "законный",
+    "type": ""
+  },
+  {
+    "id": 697,
+    "english": "lengthy",
+    "armenian": "երկար",
+    "letter": "L",
+    "russian": "длинный",
+    "type": ""
+  },
+  {
+    "id": 698,
+    "english": "lesbian",
+    "armenian": "լեսբուհի",
+    "letter": "L",
+    "russian": "лесбиянка",
+    "type": ""
+  },
+  {
+    "id": 699,
+    "english": "lesser",
+    "armenian": "ավելի փոքր",
+    "letter": "L",
+    "russian": "меньший",
+    "type": ""
+  },
+  {
+    "id": 700,
+    "english": "lethal",
+    "armenian": "մահացու",
+    "letter": "L",
+    "russian": "смертельный",
+    "type": ""
+  },
+  {
+    "id": 701,
+    "english": "liable",
+    "armenian": "պատասխանատու",
+    "letter": "L",
+    "russian": "ответственный",
+    "type": ""
+  },
+  {
+    "id": 702,
+    "english": "liberal",
+    "armenian": "ազատական",
+    "letter": "L",
+    "russian": "либеральный",
+    "type": ""
+  },
+  {
+    "id": 703,
+    "english": "liberation",
+    "armenian": "ազատագրում",
+    "letter": "L",
+    "russian": "освобождение",
+    "type": ""
+  },
+  {
+    "id": 704,
+    "english": "liberty",
+    "armenian": "ազատություն",
+    "letter": "L",
+    "russian": "свобода",
+    "type": ""
+  },
+  {
+    "id": 705,
+    "english": "license",
+    "armenian": "լիցենզիա",
+    "letter": "L",
+    "russian": "лицензия",
+    "type": ""
+  },
+  {
+    "id": 706,
+    "english": "lifelong",
+    "armenian": "ցմահ",
+    "letter": "L",
+    "russian": "пожизненный",
+    "type": ""
+  },
+  {
+    "id": 707,
+    "english": "likelihood",
+    "armenian": "հավանականությունը",
+    "letter": "L",
+    "russian": "вероятность",
+    "type": ""
+  },
+  {
+    "id": 708,
+    "english": "limb",
+    "armenian": "վերջույթ",
+    "letter": "L",
+    "russian": "конечность",
+    "type": ""
+  },
+  {
+    "id": 709,
+    "english": "linear",
+    "armenian": "գծային",
+    "letter": "L",
+    "russian": "линейный",
+    "type": ""
+  },
+  {
+    "id": 710,
+    "english": "line-up",
+    "armenian": "շարքը",
+    "letter": "L",
+    "russian": "расстановка",
+    "type": ""
+  },
+  {
+    "id": 711,
+    "english": "linger",
+    "armenian": "ձգձգել",
+    "letter": "L",
+    "russian": "задерживаться",
+    "type": ""
+  },
+  {
+    "id": 712,
+    "english": "listing",
+    "armenian": "ցուցակագրում",
+    "letter": "L",
+    "russian": "листинг",
+    "type": ""
+  },
+  {
+    "id": 713,
+    "english": "literacy",
+    "armenian": "գրագիտություն",
+    "letter": "L",
+    "russian": "грамотность",
+    "type": ""
+  },
+  {
+    "id": 714,
+    "english": "liver",
+    "armenian": "լյարդ",
+    "letter": "L",
+    "russian": "печень",
+    "type": ""
+  },
+  {
+    "id": 715,
+    "english": "lobby",
+    "armenian": "լոբբի",
+    "letter": "L",
+    "russian": "лобби",
+    "type": ""
+  },
+  {
+    "id": 716,
+    "english": "log",
+    "armenian": "գերան",
+    "letter": "L",
+    "russian": "бревно",
+    "type": ""
+  },
+  {
+    "id": 717,
+    "english": "logic",
+    "armenian": "տրամաբանությունը",
+    "letter": "L",
+    "russian": "логика",
+    "type": ""
+  },
+  {
+    "id": 718,
+    "english": "long-standing",
+    "armenian": "երկարամյա",
+    "letter": "L",
+    "russian": "давний",
+    "type": ""
+  },
+  {
+    "id": 719,
+    "english": "long-time",
+    "armenian": "երկար ժամանակ",
+    "letter": "L",
+    "russian": "много времени",
+    "type": ""
+  },
+  {
+    "id": 720,
+    "english": "loom",
+    "armenian": "ջուլհակ",
+    "letter": "L",
+    "russian": "ткацкий станок",
+    "type": ""
+  },
+  {
+    "id": 721,
+    "english": "loop",
+    "armenian": "հանգույց",
+    "letter": "L",
+    "russian": "петля",
+    "type": ""
+  },
+  {
+    "id": 722,
+    "english": "loyalty",
+    "armenian": "հավատարմություն",
+    "letter": "L",
+    "russian": "верность",
+    "type": ""
+  },
+  {
+    "id": 723,
+    "english": "machinery",
+    "armenian": "մեքենաներ",
+    "letter": "M",
+    "russian": "техника",
+    "type": ""
+  },
+  {
+    "id": 724,
+    "english": "magical",
+    "armenian": "կախարդական",
+    "letter": "M",
+    "russian": "волшебный",
+    "type": ""
+  },
+  {
+    "id": 725,
+    "english": "magistrate",
+    "armenian": "դատավոր",
+    "letter": "M",
+    "russian": "мировой судья",
+    "type": ""
+  },
+  {
+    "id": 726,
+    "english": "magnetic",
+    "armenian": "մագնիսական",
+    "letter": "M",
+    "russian": "магнитный",
+    "type": ""
+  },
+  {
+    "id": 727,
+    "english": "magnitude",
+    "armenian": "մեծությունը",
+    "letter": "M",
+    "russian": "величина",
+    "type": ""
+  },
+  {
+    "id": 728,
+    "english": "mainland",
+    "armenian": "մայրցամաք",
+    "letter": "M",
+    "russian": "материк",
+    "type": ""
+  },
+  {
+    "id": 729,
+    "english": "mainstream",
+    "armenian": "mainstream",
+    "letter": "M",
+    "russian": "мейнстрим",
+    "type": ""
+  },
+  {
+    "id": 730,
+    "english": "maintenance",
+    "armenian": "սպասարկում",
+    "letter": "M",
+    "russian": "обслуживание",
+    "type": ""
+  },
+  {
+    "id": 731,
+    "english": "mandate",
+    "armenian": "մանդատ",
+    "letter": "M",
+    "russian": "мандат",
+    "type": ""
+  },
+  {
+    "id": 732,
+    "english": "mandatory",
+    "armenian": "պարտադիր",
+    "letter": "M",
+    "russian": "обязательный",
+    "type": ""
+  },
+  {
+    "id": 733,
+    "english": "manifest",
+    "armenian": "դրսևորել",
+    "letter": "M",
+    "russian": "манифестировать",
+    "type": ""
+  },
+  {
+    "id": 734,
+    "english": "manipulate",
+    "armenian": "շահարկել",
+    "letter": "M",
+    "russian": "манипулировать",
+    "type": ""
+  },
+  {
+    "id": 735,
+    "english": "manipulation",
+    "armenian": "մանիպուլյացիա",
+    "letter": "M",
+    "russian": "манипуляция",
+    "type": ""
+  },
+  {
+    "id": 736,
+    "english": "manuscript",
+    "armenian": "ձեռագիր",
+    "letter": "M",
+    "russian": "рукопись",
+    "type": ""
+  },
+  {
+    "id": 737,
+    "english": "march",
+    "armenian": "երթ",
+    "letter": "M",
+    "russian": "маршировать",
+    "type": ""
+  },
+  {
+    "id": 738,
+    "english": "marginal",
+    "armenian": "մարգինալ",
+    "letter": "M",
+    "russian": "маргинальный",
+    "type": ""
+  },
+  {
+    "id": 739,
+    "english": "marine",
+    "armenian": "ծովային",
+    "letter": "M",
+    "russian": "морской",
+    "type": ""
+  },
+  {
+    "id": 740,
+    "english": "marketplace",
+    "armenian": "շուկա",
+    "letter": "M",
+    "russian": "рынок",
+    "type": ""
+  },
+  {
+    "id": 741,
+    "english": "mask",
+    "armenian": "դիմակ",
+    "letter": "M",
+    "russian": "маска",
+    "type": ""
+  },
+  {
+    "id": 742,
+    "english": "massacre",
+    "armenian": "ջարդ",
+    "letter": "M",
+    "russian": "резня",
+    "type": ""
+  },
+  {
+    "id": 743,
+    "english": "mathematical",
+    "armenian": "մաթեմատիկական",
+    "letter": "M",
+    "russian": "математический",
+    "type": ""
+  },
+  {
+    "id": 744,
+    "english": "mature",
+    "armenian": "հասունացած",
+    "letter": "M",
+    "russian": "зрелый",
+    "type": ""
+  },
+  {
+    "id": 745,
+    "english": "maximize",
+    "armenian": "առավելագույնի հասցնել",
+    "letter": "M",
+    "russian": "максимизировать",
+    "type": ""
+  },
+  {
+    "id": 746,
+    "english": "meaningful",
+    "armenian": "իմաստալից",
+    "letter": "M",
+    "russian": "значимый",
+    "type": ""
+  },
+  {
+    "id": 747,
+    "english": "meantime",
+    "armenian": "միևնույն ժամանակ",
+    "letter": "M",
+    "russian": "тем временем",
+    "type": ""
+  },
+  {
+    "id": 748,
+    "english": "medieval",
+    "armenian": "միջնադարյան",
+    "letter": "M",
+    "russian": "средневековый",
+    "type": ""
+  },
+  {
+    "id": 749,
+    "english": "meditation",
+    "armenian": "մեդիտացիա",
+    "letter": "M",
+    "russian": "медитация",
+    "type": ""
+  },
+  {
+    "id": 750,
+    "english": "melody",
+    "armenian": "մեղեդի",
+    "letter": "M",
+    "russian": "мелодия",
+    "type": ""
+  },
+  {
+    "id": 751,
+    "english": "memo",
+    "armenian": "հուշագիր",
+    "letter": "M",
+    "russian": "памятка",
+    "type": ""
+  },
+  {
+    "id": 752,
+    "english": "memoir",
+    "armenian": "հուշագրություն",
+    "letter": "M",
+    "russian": "мемуары",
+    "type": ""
+  },
+  {
+    "id": 753,
+    "english": "memorial",
+    "armenian": "հուշահամալիր",
+    "letter": "M",
+    "russian": "мемориал",
+    "type": ""
+  },
+  {
+    "id": 754,
+    "english": "mentor",
+    "armenian": "դաստիարակ",
+    "letter": "M",
+    "russian": "наставник",
+    "type": ""
+  },
+  {
+    "id": 755,
+    "english": "merchant",
+    "armenian": "վաճառական",
+    "letter": "M",
+    "russian": "торговец",
+    "type": ""
+  },
+  {
+    "id": 756,
+    "english": "mercy",
+    "armenian": "ողորմություն",
+    "letter": "M",
+    "russian": "милосердие",
+    "type": ""
+  },
+  {
+    "id": 757,
+    "english": "mere",
+    "armenian": "պարզապես",
+    "letter": "M",
+    "russian": "просто",
+    "type": ""
+  },
+  {
+    "id": 758,
+    "english": "merely",
+    "armenian": "պարզապես",
+    "letter": "M",
+    "russian": "просто",
+    "type": ""
+  },
+  {
+    "id": 759,
+    "english": "merge",
+    "armenian": "միաձուլվել",
+    "letter": "M",
+    "russian": "слить",
+    "type": ""
+  },
+  {
+    "id": 760,
+    "english": "merger",
+    "armenian": "միաձուլում",
+    "letter": "M",
+    "russian": "слияние",
+    "type": ""
+  },
+  {
+    "id": 761,
+    "english": "merit",
+    "armenian": "արժանիք",
+    "letter": "M",
+    "russian": "заслуга",
+    "type": ""
+  },
+  {
+    "id": 762,
+    "english": "methodology",
+    "armenian": "մեթոդաբանություն",
+    "letter": "M",
+    "russian": "методология",
+    "type": ""
+  },
+  {
+    "id": 763,
+    "english": "midst",
+    "armenian": "միջն",
+    "letter": "M",
+    "russian": "посреди",
+    "type": ""
+  },
+  {
+    "id": 764,
+    "english": "migration",
+    "armenian": "միգրացիան",
+    "letter": "M",
+    "russian": "миграция",
+    "type": ""
+  },
+  {
+    "id": 765,
+    "english": "militant",
+    "armenian": "ռազմատենչ",
+    "letter": "M",
+    "russian": "воинственный",
+    "type": ""
+  },
+  {
+    "id": 766,
+    "english": "militia",
+    "armenian": "միլիցիա",
+    "letter": "M",
+    "russian": "милиция",
+    "type": ""
+  },
+  {
+    "id": 767,
+    "english": "mill",
+    "armenian": "ջրաղաց",
+    "letter": "M",
+    "russian": "мельница",
+    "type": ""
+  },
+  {
+    "id": 768,
+    "english": "minimal",
+    "armenian": "նվազագույն",
+    "letter": "M",
+    "russian": "минимальный",
+    "type": ""
+  },
+  {
+    "id": 769,
+    "english": "minimize",
+    "armenian": "նվազագույնի հասցնել",
+    "letter": "M",
+    "russian": "минимизировать",
+    "type": ""
+  },
+  {
+    "id": 770,
+    "english": "mining",
+    "armenian": "հանքարդյունաբերություն",
+    "letter": "M",
+    "russian": "добыча полезных ископаемых",
+    "type": ""
+  },
+  {
+    "id": 771,
+    "english": "ministry",
+    "armenian": "նախարարություն",
+    "letter": "M",
+    "russian": "министерство",
+    "type": ""
+  },
+  {
+    "id": 772,
+    "english": "minute2",
+    "armenian": "րոպե 2",
+    "letter": "M",
+    "russian": "минута2",
+    "type": ""
+  },
+  {
+    "id": 773,
+    "english": "miracle",
+    "armenian": "հրաշք",
+    "letter": "M",
+    "russian": "чудо",
+    "type": ""
+  },
+  {
+    "id": 774,
+    "english": "misery",
+    "armenian": "թշվառություն",
+    "letter": "M",
+    "russian": "невзгоды",
+    "type": ""
+  },
+  {
+    "id": 775,
+    "english": "misleading",
+    "armenian": "մոլորեցնող",
+    "letter": "M",
+    "russian": "вводящий в заблуждение",
+    "type": ""
+  },
+  {
+    "id": 776,
+    "english": "missile",
+    "armenian": "հրթիռ",
+    "letter": "M",
+    "russian": "ракета",
+    "type": ""
+  },
+  {
+    "id": 777,
+    "english": "mob",
+    "armenian": "ամբոխ",
+    "letter": "M",
+    "russian": "толпа",
+    "type": ""
+  },
+  {
+    "id": 778,
+    "english": "mobility",
+    "armenian": "շարժունակություն",
+    "letter": "M",
+    "russian": "мобильность",
+    "type": ""
+  },
+  {
+    "id": 779,
+    "english": "mobilize",
+    "armenian": "մոբիլիզացնել",
+    "letter": "M",
+    "russian": "мобилизовать",
+    "type": ""
+  },
+  {
+    "id": 780,
+    "english": "moderate",
+    "armenian": "չափավոր",
+    "letter": "M",
+    "russian": "умеренный",
+    "type": ""
+  },
+  {
+    "id": 781,
+    "english": "modification",
+    "armenian": "փոփոխություն",
+    "letter": "M",
+    "russian": "модификация",
+    "type": ""
+  },
+  {
+    "id": 782,
+    "english": "momentum",
+    "armenian": "թափը",
+    "letter": "M",
+    "russian": "импульс",
+    "type": ""
+  },
+  {
+    "id": 783,
+    "english": "monk",
+    "armenian": "վանական",
+    "letter": "M",
+    "russian": "монах",
+    "type": ""
+  },
+  {
+    "id": 784,
+    "english": "monopoly",
+    "armenian": "մենաշնորհ",
+    "letter": "M",
+    "russian": "монополия",
+    "type": ""
+  },
+  {
+    "id": 785,
+    "english": "morality",
+    "armenian": "բարոյականությունը",
+    "letter": "M",
+    "russian": "мораль",
+    "type": ""
+  },
+  {
+    "id": 786,
+    "english": "motive",
+    "armenian": "շարժառիթը",
+    "letter": "M",
+    "russian": "мотив",
+    "type": ""
+  },
+  {
+    "id": 787,
+    "english": "motorist",
+    "armenian": "ավտովարորդ",
+    "letter": "M",
+    "russian": "автомобилист",
+    "type": ""
+  },
+  {
+    "id": 788,
+    "english": "municipal",
+    "armenian": "քաղաքային",
+    "letter": "M",
+    "russian": "муниципальный",
+    "type": ""
+  },
+  {
+    "id": 789,
+    "english": "mutual",
+    "armenian": "փոխադարձ",
+    "letter": "M",
+    "russian": "взаимный",
+    "type": ""
+  },
+  {
+    "id": 790,
+    "english": "namely",
+    "armenian": "մասնավորապես",
+    "letter": "N",
+    "russian": "а именно",
+    "type": ""
+  },
+  {
+    "id": 791,
+    "english": "nationwide",
+    "armenian": "համազգային",
+    "letter": "N",
+    "russian": "общенациональный",
+    "type": ""
+  },
+  {
+    "id": 792,
+    "english": "naval",
+    "armenian": "ծովային",
+    "letter": "N",
+    "russian": "военно-морской",
+    "type": ""
+  },
+  {
+    "id": 793,
+    "english": "neglect",
+    "armenian": "անտեսում",
+    "letter": "N",
+    "russian": "пренебрегать",
+    "type": ""
+  },
+  {
+    "id": 794,
+    "english": "neighbouring",
+    "armenian": "հարեւան",
+    "letter": "N",
+    "russian": "соседний",
+    "type": ""
+  },
+  {
+    "id": 795,
+    "english": "nest",
+    "armenian": "բույն",
+    "letter": "N",
+    "russian": "гнездо",
+    "type": ""
+  },
+  {
+    "id": 796,
+    "english": "net",
+    "armenian": "ցանց",
+    "letter": "N",
+    "russian": "сеть",
+    "type": ""
+  },
+  {
+    "id": 797,
+    "english": "newsletter",
+    "armenian": "տեղեկագիր",
+    "letter": "N",
+    "russian": "информационный бюллетень",
+    "type": ""
+  },
+  {
+    "id": 798,
+    "english": "niche",
+    "armenian": "խորշ",
+    "letter": "N",
+    "russian": "ниша",
+    "type": ""
+  },
+  {
+    "id": 799,
+    "english": "noble",
+    "armenian": "ազնվական",
+    "letter": "N",
+    "russian": "благородный",
+    "type": ""
+  },
+  {
+    "id": 800,
+    "english": "nod",
+    "armenian": "գլխով արեք",
+    "letter": "N",
+    "russian": "кивок",
+    "type": ""
+  },
+  {
+    "id": 801,
+    "english": "nominate",
+    "armenian": "առաջադրել",
+    "letter": "N",
+    "russian": "номинировать",
+    "type": ""
+  },
+  {
+    "id": 802,
+    "english": "nomination",
+    "armenian": "անվանակարգում",
+    "letter": "N",
+    "russian": "номинация",
+    "type": ""
+  },
+  {
+    "id": 803,
+    "english": "nominee",
+    "armenian": "թեկնածու",
+    "letter": "N",
+    "russian": "кандидат",
+    "type": ""
+  },
+  {
+    "id": 804,
+    "english": "nonetheless",
+    "armenian": "այնուամենայնիվ",
+    "letter": "N",
+    "russian": "тем не менее",
+    "type": ""
+  },
+  {
+    "id": 805,
+    "english": "non-profit",
+    "armenian": "շահույթ չհետապնդող",
+    "letter": "N",
+    "russian": "некоммерческая организация",
+    "type": ""
+  },
+  {
+    "id": 806,
+    "english": "nonsense",
+    "armenian": "անհեթեթություն",
+    "letter": "N",
+    "russian": "ерунда",
+    "type": ""
+  },
+  {
+    "id": 807,
+    "english": "noon",
+    "armenian": "կեսօր",
+    "letter": "N",
+    "russian": "полдень",
+    "type": ""
+  },
+  {
+    "id": 808,
+    "english": "notable",
+    "armenian": "նշանավոր",
+    "letter": "N",
+    "russian": "заметный",
+    "type": ""
+  },
+  {
+    "id": 809,
+    "english": "notably",
+    "armenian": "հատկապես",
+    "letter": "N",
+    "russian": "особенно",
+    "type": ""
+  },
+  {
+    "id": 810,
+    "english": "notify",
+    "armenian": "տեղեկացնել",
+    "letter": "N",
+    "russian": "уведомить",
+    "type": ""
+  },
+  {
+    "id": 811,
+    "english": "notorious",
+    "armenian": "տխրահռչակ",
+    "letter": "N",
+    "russian": "печально известный",
+    "type": ""
+  },
+  {
+    "id": 812,
+    "english": "novel",
+    "armenian": "վեպ",
+    "letter": "N",
+    "russian": "роман",
+    "type": ""
+  },
+  {
+    "id": 813,
+    "english": "nursery",
+    "armenian": "մանկապարտեզ",
+    "letter": "N",
+    "russian": "детская",
+    "type": ""
+  },
+  {
+    "id": 814,
+    "english": "objection",
+    "armenian": "առարկություն",
+    "letter": "O",
+    "russian": "возражение",
+    "type": ""
+  },
+  {
+    "id": 815,
+    "english": "oblige",
+    "armenian": "պարտավորեցնել",
+    "letter": "O",
+    "russian": "обязывать",
+    "type": ""
+  },
+  {
+    "id": 816,
+    "english": "obsess",
+    "armenian": "մոլուցք",
+    "letter": "O",
+    "russian": "одержим",
+    "type": ""
+  },
+  {
+    "id": 817,
+    "english": "obsession",
+    "armenian": "մոլուցք",
+    "letter": "O",
+    "russian": "одержимость",
+    "type": ""
+  },
+  {
+    "id": 818,
+    "english": "occasional",
+    "armenian": "պատահական",
+    "letter": "O",
+    "russian": "случайный",
+    "type": ""
+  },
+  {
+    "id": 819,
+    "english": "occurrence",
+    "armenian": "առաջացում",
+    "letter": "O",
+    "russian": "возникновение",
+    "type": ""
+  },
+  {
+    "id": 820,
+    "english": "odds",
+    "armenian": "հավանականություն",
+    "letter": "O",
+    "russian": "шансы",
+    "type": ""
+  },
+  {
+    "id": 821,
+    "english": "offering",
+    "armenian": "առաջարկություն",
+    "letter": "O",
+    "russian": "предложение",
+    "type": ""
+  },
+  {
+    "id": 822,
+    "english": "offspring",
+    "armenian": "սերունդ",
+    "letter": "O",
+    "russian": "потомство",
+    "type": ""
+  },
+  {
+    "id": 823,
+    "english": "operational",
+    "armenian": "գործառնական",
+    "letter": "O",
+    "russian": "оперативный",
+    "type": ""
+  },
+  {
+    "id": 824,
+    "english": "opt",
+    "armenian": "ընտրել",
+    "letter": "O",
+    "russian": "выбрать",
+    "type": ""
+  },
+  {
+    "id": 825,
+    "english": "optical",
+    "armenian": "օպտիկական",
+    "letter": "O",
+    "russian": "оптический",
+    "type": ""
+  },
+  {
+    "id": 826,
+    "english": "optimism",
+    "armenian": "լավատեսություն",
+    "letter": "O",
+    "russian": "оптимизм",
+    "type": ""
+  },
+  {
+    "id": 827,
+    "english": "oral",
+    "armenian": "բանավոր",
+    "letter": "O",
+    "russian": "оральный",
+    "type": ""
+  },
+  {
+    "id": 828,
+    "english": "organizational",
+    "armenian": "կազմակերպչական",
+    "letter": "O",
+    "russian": "организационный",
+    "type": ""
+  },
+  {
+    "id": 829,
+    "english": "orientation",
+    "armenian": "կողմնորոշում",
+    "letter": "O",
+    "russian": "ориентация",
+    "type": ""
+  },
+  {
+    "id": 830,
+    "english": "originate",
+    "armenian": "ծագել",
+    "letter": "O",
+    "russian": "возникать",
+    "type": ""
+  },
+  {
+    "id": 831,
+    "english": "outbreak",
+    "armenian": "բռնկում",
+    "letter": "O",
+    "russian": "вспышка",
+    "type": ""
+  },
+  {
+    "id": 832,
+    "english": "outing",
+    "armenian": "զբոսանք",
+    "letter": "O",
+    "russian": "прогулка",
+    "type": ""
+  },
+  {
+    "id": 833,
+    "english": "outlet",
+    "armenian": "վարդակից",
+    "letter": "O",
+    "russian": "выход",
+    "type": ""
+  },
+  {
+    "id": 834,
+    "english": "outlook",
+    "armenian": "հեռանկար",
+    "letter": "O",
+    "russian": "мировоззрение",
+    "type": ""
+  },
+  {
+    "id": 835,
+    "english": "outrage",
+    "armenian": "վրդովմունք",
+    "letter": "O",
+    "russian": "возмущение",
+    "type": ""
+  },
+  {
+    "id": 836,
+    "english": "outsider",
+    "armenian": "դրսից",
+    "letter": "O",
+    "russian": "посторонний",
+    "type": ""
+  },
+  {
+    "id": 837,
+    "english": "overlook",
+    "armenian": "անտեսել",
+    "letter": "O",
+    "russian": "игнорировать",
+    "type": ""
+  },
+  {
+    "id": 838,
+    "english": "overly",
+    "armenian": "չափից դուրս",
+    "letter": "O",
+    "russian": "чрезмерно",
+    "type": ""
+  },
+  {
+    "id": 839,
+    "english": "oversee",
+    "armenian": "վերահսկել",
+    "letter": "O",
+    "russian": "наблюдать",
+    "type": ""
+  },
+  {
+    "id": 840,
+    "english": "overturn",
+    "armenian": "շրջել",
+    "letter": "O",
+    "russian": "опрокидывать",
+    "type": ""
+  },
+  {
+    "id": 841,
+    "english": "overwhelm",
+    "armenian": "գերակշռել",
+    "letter": "O",
+    "russian": "подавлять",
+    "type": ""
+  },
+  {
+    "id": 842,
+    "english": "overwhelming",
+    "armenian": "ճնշող",
+    "letter": "O",
+    "russian": "подавляющий",
+    "type": ""
+  },
+  {
+    "id": 843,
+    "english": "pad",
+    "armenian": "պահոց",
+    "letter": "P",
+    "russian": "подушечка",
+    "type": ""
+  },
+  {
+    "id": 844,
+    "english": "parameter",
+    "armenian": "պարամետր",
+    "letter": "P",
+    "russian": "параметр",
+    "type": ""
+  },
+  {
+    "id": 845,
+    "english": "parental",
+    "armenian": "ծնողական",
+    "letter": "P",
+    "russian": "родительский",
+    "type": ""
+  },
+  {
+    "id": 846,
+    "english": "parish",
+    "armenian": "ծխական",
+    "letter": "P",
+    "russian": "приход",
+    "type": ""
+  },
+  {
+    "id": 847,
+    "english": "parliamentary",
+    "armenian": "խորհրդարանական",
+    "letter": "P",
+    "russian": "парламентский",
+    "type": ""
+  },
+  {
+    "id": 848,
+    "english": "partial",
+    "armenian": "մասնակի",
+    "letter": "P",
+    "russian": "частичный",
+    "type": ""
+  },
+  {
+    "id": 849,
+    "english": "partially",
+    "armenian": "մասամբ",
+    "letter": "P",
+    "russian": "частично",
+    "type": ""
+  },
+  {
+    "id": 850,
+    "english": "passing",
+    "armenian": "անցնող",
+    "letter": "P",
+    "russian": "прохождение",
+    "type": ""
+  },
+  {
+    "id": 851,
+    "english": "passive",
+    "armenian": "պասիվ",
+    "letter": "P",
+    "russian": "пассивный",
+    "type": ""
+  },
+  {
+    "id": 852,
+    "english": "pastor",
+    "armenian": "հովիվ",
+    "letter": "P",
+    "russian": "пастор",
+    "type": ""
+  },
+  {
+    "id": 853,
+    "english": "patch",
+    "armenian": "կարկատել",
+    "letter": "P",
+    "russian": "пластырь",
+    "type": ""
+  },
+  {
+    "id": 854,
+    "english": "patent",
+    "armenian": "արտոնագիր",
+    "letter": "P",
+    "russian": "патент",
+    "type": ""
+  },
+  {
+    "id": 855,
+    "english": "pathway",
+    "armenian": "ճանապարհ",
+    "letter": "P",
+    "russian": "путь",
+    "type": ""
+  },
+  {
+    "id": 856,
+    "english": "patrol",
+    "armenian": "պարեկություն",
+    "letter": "P",
+    "russian": "патруль",
+    "type": ""
+  },
+  {
+    "id": 857,
+    "english": "patron",
+    "armenian": "հովանավոր",
+    "letter": "P",
+    "russian": "покровитель",
+    "type": ""
+  },
+  {
+    "id": 858,
+    "english": "peak",
+    "armenian": "գագաթնակետը",
+    "letter": "P",
+    "russian": "пик",
+    "type": ""
+  },
+  {
+    "id": 859,
+    "english": "peasant",
+    "armenian": "գյուղացի",
+    "letter": "P",
+    "russian": "крестьянин",
+    "type": ""
+  },
+  {
+    "id": 860,
+    "english": "peculiar",
+    "armenian": "յուրօրինակ",
+    "letter": "P",
+    "russian": "своеобразный",
+    "type": ""
+  },
+  {
+    "id": 861,
+    "english": "persist",
+    "armenian": "համառել",
+    "letter": "P",
+    "russian": "сопротивляться",
+    "type": ""
+  },
+  {
+    "id": 862,
+    "english": "persistent",
+    "armenian": "համառ",
+    "letter": "P",
+    "russian": "настойчивый",
+    "type": ""
+  },
+  {
+    "id": 863,
+    "english": "personnel",
+    "armenian": "անձնակազմը",
+    "letter": "P",
+    "russian": "персонал",
+    "type": ""
+  },
+  {
+    "id": 864,
+    "english": "petition",
+    "armenian": "միջնորդություն",
+    "letter": "P",
+    "russian": "петиция",
+    "type": ""
+  },
+  {
+    "id": 865,
+    "english": "philosopher",
+    "armenian": "փիլիսոփա",
+    "letter": "P",
+    "russian": "философ",
+    "type": ""
+  },
+  {
+    "id": 866,
+    "english": "philosophical",
+    "armenian": "փիլիսոփայական",
+    "letter": "P",
+    "russian": "философский",
+    "type": ""
+  },
+  {
+    "id": 867,
+    "english": "physician",
+    "armenian": "բժիշկ",
+    "letter": "P",
+    "russian": "врач",
+    "type": ""
+  },
+  {
+    "id": 868,
+    "english": "pioneer",
+    "armenian": "պիոներ",
+    "letter": "P",
+    "russian": "пионер",
+    "type": ""
+  },
+  {
+    "id": 869,
+    "english": "pipeline",
+    "armenian": "խողովակաշար",
+    "letter": "P",
+    "russian": "трубопровод",
+    "type": ""
+  },
+  {
+    "id": 870,
+    "english": "pirate",
+    "armenian": "ծովահեն",
+    "letter": "P",
+    "russian": "пират",
+    "type": ""
+  },
+  {
+    "id": 871,
+    "english": "pit",
+    "armenian": "փոս",
+    "letter": "P",
+    "russian": "яма",
+    "type": ""
+  },
+  {
+    "id": 872,
+    "english": "plea",
+    "armenian": "խնդրանք",
+    "letter": "P",
+    "russian": "просьба",
+    "type": ""
+  },
+  {
+    "id": 873,
+    "english": "plead",
+    "armenian": "աղերսել",
+    "letter": "P",
+    "russian": "умолять",
+    "type": ""
+  },
+  {
+    "id": 874,
+    "english": "pledge",
+    "armenian": "գրավ",
+    "letter": "P",
+    "russian": "приносить присягу",
+    "type": ""
+  },
+  {
+    "id": 875,
+    "english": "plug",
+    "armenian": "խրոցակ",
+    "letter": "P",
+    "russian": "затыкать",
+    "type": ""
+  },
+  {
+    "id": 876,
+    "english": "plunge",
+    "armenian": "սուզվել",
+    "letter": "P",
+    "russian": "погружаться",
+    "type": ""
+  },
+  {
+    "id": 877,
+    "english": "pole",
+    "armenian": "բևեռ",
+    "letter": "P",
+    "russian": "столб",
+    "type": ""
+  },
+  {
+    "id": 878,
+    "english": "poll",
+    "armenian": "հարցում",
+    "letter": "P",
+    "russian": "голосование",
+    "type": ""
+  },
+  {
+    "id": 879,
+    "english": "pond",
+    "armenian": "լճակ",
+    "letter": "P",
+    "russian": "пруд",
+    "type": ""
+  },
+  {
+    "id": 880,
+    "english": "pop",
+    "armenian": "փոփ",
+    "letter": "P",
+    "russian": "поп",
+    "type": ""
+  },
+  {
+    "id": 881,
+    "english": "portfolio",
+    "armenian": "պորտֆոլիո",
+    "letter": "P",
+    "russian": "портфель",
+    "type": ""
+  },
+  {
+    "id": 882,
+    "english": "portray",
+    "armenian": "պատկերել",
+    "letter": "P",
+    "russian": "изображать",
+    "type": ""
+  },
+  {
+    "id": 883,
+    "english": "postpone",
+    "armenian": "հետաձգել",
+    "letter": "P",
+    "russian": "откладывать",
+    "type": ""
+  },
+  {
+    "id": 884,
+    "english": "post-war",
+    "armenian": "հետպատերազմյան",
+    "letter": "P",
+    "russian": "послевоенный",
+    "type": ""
+  },
+  {
+    "id": 885,
+    "english": "practitioner",
+    "armenian": "պրակտիկանտ",
+    "letter": "P",
+    "russian": "практик",
+    "type": ""
+  },
+  {
+    "id": 886,
+    "english": "preach",
+    "armenian": "քարոզել",
+    "letter": "P",
+    "russian": "проповедовать",
+    "type": ""
+  },
+  {
+    "id": 887,
+    "english": "precedent",
+    "armenian": "նախադեպ",
+    "letter": "P",
+    "russian": "прецедент",
+    "type": ""
+  },
+  {
+    "id": 888,
+    "english": "precision",
+    "armenian": "ճշգրտություն",
+    "letter": "P",
+    "russian": "точность",
+    "type": ""
+  },
+  {
+    "id": 889,
+    "english": "predator",
+    "armenian": "գիշատիչ",
+    "letter": "P",
+    "russian": "хищник",
+    "type": ""
+  },
+  {
+    "id": 890,
+    "english": "predecessor",
+    "armenian": "նախորդը",
+    "letter": "P",
+    "russian": "предшественник",
+    "type": ""
+  },
+  {
+    "id": 891,
+    "english": "predominantly",
+    "armenian": "գերակշռող",
+    "letter": "P",
+    "russian": "преимущественно",
+    "type": ""
+  },
+  {
+    "id": 892,
+    "english": "pregnancy",
+    "armenian": "հղիություն",
+    "letter": "P",
+    "russian": "беременность",
+    "type": ""
+  },
+  {
+    "id": 893,
+    "english": "prejudice",
+    "armenian": "նախապաշարմունք",
+    "letter": "P",
+    "russian": "предрассудки",
+    "type": ""
+  },
+  {
+    "id": 894,
+    "english": "preliminary",
+    "armenian": "նախնական",
+    "letter": "P",
+    "russian": "предварительный",
+    "type": ""
+  },
+  {
+    "id": 895,
+    "english": "premier",
+    "armenian": "պրեմիերա",
+    "letter": "P",
+    "russian": "премьер",
+    "type": ""
+  },
+  {
+    "id": 896,
+    "english": "premise",
+    "armenian": "նախադրյալ",
+    "letter": "P",
+    "russian": "помещение",
+    "type": ""
+  },
+  {
+    "id": 897,
+    "english": "premium",
+    "armenian": "պրեմիում",
+    "letter": "P",
+    "russian": "премия",
+    "type": ""
+  },
+  {
+    "id": 898,
+    "english": "prescribe",
+    "armenian": "նշանակել",
+    "letter": "P",
+    "russian": "предписывать",
+    "type": ""
+  },
+  {
+    "id": 899,
+    "english": "prescription",
+    "armenian": "դեղատոմս",
+    "letter": "P",
+    "russian": "рецепт",
+    "type": ""
+  },
+  {
+    "id": 900,
+    "english": "presently",
+    "armenian": "ներկայումս",
+    "letter": "P",
+    "russian": "в настоящее время",
+    "type": ""
+  },
+  {
+    "id": 901,
+    "english": "preservation",
+    "armenian": "պահպանում",
+    "letter": "P",
+    "russian": "сохранение",
+    "type": ""
+  },
+  {
+    "id": 902,
+    "english": "preside",
+    "armenian": "նախագահում է",
+    "letter": "P",
+    "russian": "председательствовать",
+    "type": ""
+  },
+  {
+    "id": 903,
+    "english": "presidency",
+    "armenian": "նախագահությունը",
+    "letter": "P",
+    "russian": "президентство",
+    "type": ""
+  },
+  {
+    "id": 904,
+    "english": "presidential",
+    "armenian": "նախագահական",
+    "letter": "P",
+    "russian": "президентский",
+    "type": ""
+  },
+  {
+    "id": 905,
+    "english": "prestigious",
+    "armenian": "հեղինակավոր",
+    "letter": "P",
+    "russian": "престижный",
+    "type": ""
+  },
+  {
+    "id": 906,
+    "english": "presumably",
+    "armenian": "ենթադրաբար",
+    "letter": "P",
+    "russian": "предположительно",
+    "type": ""
+  },
+  {
+    "id": 907,
+    "english": "presume",
+    "armenian": "ենթադրել",
+    "letter": "P",
+    "russian": "предполагать",
+    "type": ""
+  },
+  {
+    "id": 908,
+    "english": "prevail",
+    "armenian": "գերակշռել",
+    "letter": "P",
+    "russian": "преобладать",
+    "type": ""
+  },
+  {
+    "id": 909,
+    "english": "prevalence",
+    "armenian": "տարածվածությունը",
+    "letter": "P",
+    "russian": "распространенность",
+    "type": ""
+  },
+  {
+    "id": 910,
+    "english": "prevention",
+    "armenian": "կանխարգելում",
+    "letter": "P",
+    "russian": "профилактика",
+    "type": ""
+  },
+  {
+    "id": 911,
+    "english": "prey",
+    "armenian": "որս",
+    "letter": "P",
+    "russian": "добыча",
+    "type": ""
+  },
+  {
+    "id": 912,
+    "english": "principal",
+    "armenian": "գլխավոր",
+    "letter": "P",
+    "russian": "главный",
+    "type": ""
+  },
+  {
+    "id": 913,
+    "english": "privatization",
+    "armenian": "սեփականաշնորհում",
+    "letter": "P",
+    "russian": "приватизация",
+    "type": ""
+  },
+  {
+    "id": 914,
+    "english": "privilege",
+    "armenian": "արտոնություն",
+    "letter": "P",
+    "russian": "привилегия",
+    "type": ""
+  },
+  {
+    "id": 915,
+    "english": "probe",
+    "armenian": "զոնդ",
+    "letter": "P",
+    "russian": "зонд",
+    "type": ""
+  },
+  {
+    "id": 916,
+    "english": "problematic",
+    "armenian": "խնդրահարույց",
+    "letter": "P",
+    "russian": "проблемный",
+    "type": ""
+  },
+  {
+    "id": 917,
+    "english": "proceedings",
+    "armenian": "վարույթ",
+    "letter": "P",
+    "russian": "разбирательство",
+    "type": ""
+  },
+  {
+    "id": 918,
+    "english": "proceeds",
+    "armenian": "հասույթը",
+    "letter": "P",
+    "russian": "доходы",
+    "type": ""
+  },
+  {
+    "id": 919,
+    "english": "processing",
+    "armenian": "վերամշակում",
+    "letter": "P",
+    "russian": "обработка",
+    "type": ""
+  },
+  {
+    "id": 920,
+    "english": "processor",
+    "armenian": "պրոցեսոր",
+    "letter": "P",
+    "russian": "процессор",
+    "type": ""
+  },
+  {
+    "id": 921,
+    "english": "proclaim",
+    "armenian": "հռչակել",
+    "letter": "P",
+    "russian": "провозглашать",
+    "type": ""
+  },
+  {
+    "id": 922,
+    "english": "productive",
+    "armenian": "արդյունավետ",
+    "letter": "P",
+    "russian": "продуктивный",
+    "type": ""
+  },
+  {
+    "id": 923,
+    "english": "productivity",
+    "armenian": "արտադրողականություն",
+    "letter": "P",
+    "russian": "производительность",
+    "type": ""
+  },
+  {
+    "id": 924,
+    "english": "profitable",
+    "armenian": "շահութաբեր",
+    "letter": "P",
+    "russian": "прибыльный",
+    "type": ""
+  },
+  {
+    "id": 925,
+    "english": "profound",
+    "armenian": "խորը",
+    "letter": "P",
+    "russian": "глубокий",
+    "type": ""
+  },
+  {
+    "id": 926,
+    "english": "projection",
+    "armenian": "պրոյեկցիա",
+    "letter": "P",
+    "russian": "проекция",
+    "type": ""
+  },
+  {
+    "id": 927,
+    "english": "prominent",
+    "armenian": "նշանավոր",
+    "letter": "P",
+    "russian": "видный",
+    "type": ""
+  },
+  {
+    "id": 928,
+    "english": "pronounced",
+    "armenian": "արտասանված",
+    "letter": "P",
+    "russian": "выраженный",
+    "type": ""
+  },
+  {
+    "id": 929,
+    "english": "propaganda",
+    "armenian": "քարոզչություն",
+    "letter": "P",
+    "russian": "пропаганда",
+    "type": ""
+  },
+  {
+    "id": 930,
+    "english": "proposition",
+    "armenian": "առաջարկություն",
+    "letter": "P",
+    "russian": "предложение",
+    "type": ""
+  },
+  {
+    "id": 931,
+    "english": "prosecute",
+    "armenian": "քրեական պատասխանատվության ենթարկել",
+    "letter": "P",
+    "russian": "преследовать по суду",
+    "type": ""
+  },
+  {
+    "id": 932,
+    "english": "prosecution",
+    "armenian": "քրեական հետապնդում",
+    "letter": "P",
+    "russian": "судебное преследование",
+    "type": ""
+  },
+  {
+    "id": 933,
+    "english": "prosecutor",
+    "armenian": "դատախազ",
+    "letter": "P",
+    "russian": "прокурор",
+    "type": ""
+  },
+  {
+    "id": 934,
+    "english": "prospective",
+    "armenian": "հեռանկարային",
+    "letter": "P",
+    "russian": "перспективный",
+    "type": ""
+  },
+  {
+    "id": 935,
+    "english": "prosperity",
+    "armenian": "բարգավաճում",
+    "letter": "P",
+    "russian": "процветание",
+    "type": ""
+  },
+  {
+    "id": 936,
+    "english": "protective",
+    "armenian": "պաշտպանիչ",
+    "letter": "P",
+    "russian": "защитный",
+    "type": ""
+  },
+  {
+    "id": 937,
+    "english": "protocol",
+    "armenian": "արձանագրություն",
+    "letter": "P",
+    "russian": "протокол",
+    "type": ""
+  },
+  {
+    "id": 938,
+    "english": "province",
+    "armenian": "գավառ",
+    "letter": "P",
+    "russian": "провинция",
+    "type": ""
+  },
+  {
+    "id": 939,
+    "english": "provincial",
+    "armenian": "գավառական",
+    "letter": "P",
+    "russian": "провинциальный",
+    "type": ""
+  },
+  {
+    "id": 940,
+    "english": "provision",
+    "armenian": "տրամադրում",
+    "letter": "P",
+    "russian": "обеспечение",
+    "type": ""
+  },
+  {
+    "id": 941,
+    "english": "provoke",
+    "armenian": "հրահրել",
+    "letter": "P",
+    "russian": "провоцировать",
+    "type": ""
+  },
+  {
+    "id": 942,
+    "english": "psychiatric",
+    "armenian": "հոգեբուժական",
+    "letter": "P",
+    "russian": "психиатрический",
+    "type": ""
+  },
+  {
+    "id": 943,
+    "english": "pulse",
+    "armenian": "զարկերակ",
+    "letter": "P",
+    "russian": "пульс",
+    "type": ""
+  },
+  {
+    "id": 944,
+    "english": "pump",
+    "armenian": "պոմպ",
+    "letter": "P",
+    "russian": "насос",
+    "type": ""
+  },
+  {
+    "id": 945,
+    "english": "punch",
+    "armenian": "դակիչ",
+    "letter": "P",
+    "russian": "ударить кулаком",
+    "type": ""
+  },
+  {
+    "id": 946,
+    "english": "query",
+    "armenian": "հարցում",
+    "letter": "Q",
+    "russian": "запрос",
+    "type": ""
+  },
+  {
+    "id": 947,
+    "english": "quest",
+    "armenian": "որոնում",
+    "letter": "Q",
+    "russian": "квест",
+    "type": ""
+  },
+  {
+    "id": 948,
+    "english": "quota",
+    "armenian": "քվոտա",
+    "letter": "Q",
+    "russian": "квота",
+    "type": ""
+  },
+  {
+    "id": 949,
+    "english": "radar",
+    "armenian": "ռադար",
+    "letter": "R",
+    "russian": "радар",
+    "type": ""
+  },
+  {
+    "id": 950,
+    "english": "radical",
+    "armenian": "արմատական",
+    "letter": "R",
+    "russian": "радикальный",
+    "type": ""
+  },
+  {
+    "id": 951,
+    "english": "rage",
+    "armenian": "կատաղություն",
+    "letter": "R",
+    "russian": "ярость",
+    "type": ""
+  },
+  {
+    "id": 952,
+    "english": "raid",
+    "armenian": "արշավանք",
+    "letter": "R",
+    "russian": "рейд",
+    "type": ""
+  },
+  {
+    "id": 953,
+    "english": "rally",
+    "armenian": "հանրահավաք",
+    "letter": "R",
+    "russian": "митинг",
+    "type": ""
+  },
+  {
+    "id": 954,
+    "english": "ranking",
+    "armenian": "վարկանիշը",
+    "letter": "R",
+    "russian": "рейтинг",
+    "type": ""
+  },
+  {
+    "id": 955,
+    "english": "rape",
+    "armenian": "բռնաբարություն",
+    "letter": "R",
+    "russian": "изнасилование",
+    "type": ""
+  },
+  {
+    "id": 956,
+    "english": "ratio",
+    "armenian": "հարաբերակցությունը",
+    "letter": "R",
+    "russian": "соотношение",
+    "type": ""
+  },
+  {
+    "id": 957,
+    "english": "rational",
+    "armenian": "ռացիոնալ",
+    "letter": "R",
+    "russian": "рациональный",
+    "type": ""
+  },
+  {
+    "id": 958,
+    "english": "ray",
+    "armenian": "ճառագայթ",
+    "letter": "R",
+    "russian": "луч",
+    "type": ""
+  },
+  {
+    "id": 959,
+    "english": "readily",
+    "armenian": "պատրաստակամորեն",
+    "letter": "R",
+    "russian": "с готовностью",
+    "type": ""
+  },
+  {
+    "id": 960,
+    "english": "realization",
+    "armenian": "իրականացում",
+    "letter": "R",
+    "russian": "реализация",
+    "type": ""
+  },
+  {
+    "id": 961,
+    "english": "realm",
+    "armenian": "թագավորություն",
+    "letter": "R",
+    "russian": "область",
+    "type": ""
+  },
+  {
+    "id": 962,
+    "english": "rear",
+    "armenian": "թիկունքում",
+    "letter": "R",
+    "russian": "задний",
+    "type": ""
+  },
+  {
+    "id": 963,
+    "english": "reasoning",
+    "armenian": "պատճառաբանելով",
+    "letter": "R",
+    "russian": "рассуждение",
+    "type": ""
+  },
+  {
+    "id": 964,
+    "english": "reassure",
+    "armenian": "հանգստացնել",
+    "letter": "R",
+    "russian": "успокоить",
+    "type": ""
+  },
+  {
+    "id": 965,
+    "english": "rebel",
+    "armenian": "ապստամբ",
+    "letter": "R",
+    "russian": "мятежник",
+    "type": ""
+  },
+  {
+    "id": 966,
+    "english": "rebellion",
+    "armenian": "ապստամբություն",
+    "letter": "R",
+    "russian": "бунт",
+    "type": ""
+  },
+  {
+    "id": 967,
+    "english": "recipient",
+    "armenian": "ստացող",
+    "letter": "R",
+    "russian": "получатель",
+    "type": ""
+  },
+  {
+    "id": 968,
+    "english": "reconstruction",
+    "armenian": "վերակառուցում",
+    "letter": "R",
+    "russian": "реконструкция",
+    "type": ""
+  },
+  {
+    "id": 969,
+    "english": "recount1",
+    "armenian": "վերահաշվարկ 1",
+    "letter": "R",
+    "russian": "пересчет1",
+    "type": ""
+  },
+  {
+    "id": 970,
+    "english": "referendum",
+    "armenian": "հանրաքվե",
+    "letter": "R",
+    "russian": "референдум",
+    "type": ""
+  },
+  {
+    "id": 971,
+    "english": "reflection",
+    "armenian": "արտացոլումը",
+    "letter": "R",
+    "russian": "отражение",
+    "type": ""
+  },
+  {
+    "id": 972,
+    "english": "reform",
+    "armenian": "բարեփոխում",
+    "letter": "R",
+    "russian": "реформа",
+    "type": ""
+  },
+  {
+    "id": 973,
+    "english": "refuge",
+    "armenian": "ապաստան",
+    "letter": "R",
+    "russian": "убежище",
+    "type": ""
+  },
+  {
+    "id": 974,
+    "english": "refusal",
+    "armenian": "մերժում",
+    "letter": "R",
+    "russian": "отказ",
+    "type": ""
+  },
+  {
+    "id": 975,
+    "english": "regain",
+    "armenian": "վերականգնել",
+    "letter": "R",
+    "russian": "вернуть себе",
+    "type": ""
+  },
+  {
+    "id": 976,
+    "english": "regardless",
+    "armenian": "անկախ նրանից",
+    "letter": "R",
+    "russian": "несмотря ни на что",
+    "type": ""
+  },
+  {
+    "id": 977,
+    "english": "regime",
+    "armenian": "ռեժիմը",
+    "letter": "R",
+    "russian": "режим",
+    "type": ""
+  },
+  {
+    "id": 978,
+    "english": "regulator",
+    "armenian": "կարգավորող",
+    "letter": "R",
+    "russian": "регулятор",
+    "type": ""
+  },
+  {
+    "id": 979,
+    "english": "regulatory",
+    "armenian": "կարգավորող",
+    "letter": "R",
+    "russian": "нормативный",
+    "type": ""
+  },
+  {
+    "id": 980,
+    "english": "rehabilitation",
+    "armenian": "վերականգնողական",
+    "letter": "R",
+    "russian": "реабилитация",
+    "type": ""
+  },
+  {
+    "id": 981,
+    "english": "reign",
+    "armenian": "թագավորել",
+    "letter": "R",
+    "russian": "править",
+    "type": ""
+  },
+  {
+    "id": 982,
+    "english": "rejection",
+    "armenian": "մերժում",
+    "letter": "R",
+    "russian": "отказ",
+    "type": ""
+  },
+  {
+    "id": 983,
+    "english": "relevance",
+    "armenian": "համապատասխանություն",
+    "letter": "R",
+    "russian": "актуальность",
+    "type": ""
+  },
+  {
+    "id": 984,
+    "english": "reliability",
+    "armenian": "հուսալիություն",
+    "letter": "R",
+    "russian": "надежность",
+    "type": ""
+  },
+  {
+    "id": 985,
+    "english": "reluctant",
+    "armenian": "դժկամ",
+    "letter": "R",
+    "russian": "вынужденный",
+    "type": ""
+  },
+  {
+    "id": 986,
+    "english": "remainder",
+    "armenian": "մնացորդը",
+    "letter": "R",
+    "russian": "остаток",
+    "type": ""
+  },
+  {
+    "id": 987,
+    "english": "remains",
+    "armenian": "մնում է",
+    "letter": "R",
+    "russian": "останки",
+    "type": ""
+  },
+  {
+    "id": 988,
+    "english": "remedy",
+    "armenian": "միջոց",
+    "letter": "R",
+    "russian": "средство",
+    "type": ""
+  },
+  {
+    "id": 989,
+    "english": "reminder",
+    "armenian": "հիշեցում",
+    "letter": "R",
+    "russian": "напоминание",
+    "type": ""
+  },
+  {
+    "id": 990,
+    "english": "removal",
+    "armenian": "հեռացում",
+    "letter": "R",
+    "russian": "удаление",
+    "type": ""
+  },
+  {
+    "id": 991,
+    "english": "render",
+    "armenian": "մատուցել",
+    "letter": "R",
+    "russian": "оказывать",
+    "type": ""
+  },
+  {
+    "id": 992,
+    "english": "renew",
+    "armenian": "թարմացնել",
+    "letter": "R",
+    "russian": "возобновлять",
+    "type": ""
+  },
+  {
+    "id": 993,
+    "english": "renowned",
+    "armenian": "հայտնի",
+    "letter": "R",
+    "russian": "известный",
+    "type": ""
+  },
+  {
+    "id": 994,
+    "english": "rental",
+    "armenian": "վարձակալություն",
+    "letter": "R",
+    "russian": "аренда",
+    "type": ""
+  },
+  {
+    "id": 995,
+    "english": "replacement",
+    "armenian": "փոխարինում",
+    "letter": "R",
+    "russian": "замена",
+    "type": ""
+  },
+  {
+    "id": 996,
+    "english": "reportedly",
+    "armenian": "հաղորդվում է",
+    "letter": "R",
+    "russian": "как сообщается",
+    "type": ""
+  },
+  {
+    "id": 997,
+    "english": "representation",
+    "armenian": "ներկայացուցչություն",
+    "letter": "R",
+    "russian": "представительство",
+    "type": ""
+  },
+  {
+    "id": 998,
+    "english": "reproduce",
+    "armenian": "վերարտադրել",
+    "letter": "R",
+    "russian": "воспроизводить",
+    "type": ""
+  },
+  {
+    "id": 999,
+    "english": "reproduction",
+    "armenian": "վերարտադրություն",
+    "letter": "R",
+    "russian": "воспроизводство",
+    "type": ""
+  },
+  {
+    "id": 1000,
+    "english": "republic",
+    "armenian": "հանրապետություն",
+    "letter": "R",
+    "russian": "республика",
+    "type": ""
+  },
+  {
+    "id": 1001,
+    "english": "resemble",
+    "armenian": "նմանվել",
+    "letter": "R",
+    "russian": "напоминать",
+    "type": ""
+  },
+  {
+    "id": 1002,
+    "english": "reside",
+    "armenian": "բնակվել",
+    "letter": "R",
+    "russian": "проживать",
+    "type": ""
+  },
+  {
+    "id": 1003,
+    "english": "residence",
+    "armenian": "բնակավայր",
+    "letter": "R",
+    "russian": "резиденция",
+    "type": ""
+  },
+  {
+    "id": 1004,
+    "english": "residential",
+    "armenian": "բնակելի",
+    "letter": "R",
+    "russian": "Жилой",
+    "type": ""
+  },
+  {
+    "id": 1005,
+    "english": "residue",
+    "armenian": "նստվածք",
+    "letter": "R",
+    "russian": "остаток",
+    "type": ""
+  },
+  {
+    "id": 1006,
+    "english": "resignation",
+    "armenian": "հրաժարական",
+    "letter": "R",
+    "russian": "отставка",
+    "type": ""
+  },
+  {
+    "id": 1007,
+    "english": "resistance",
+    "armenian": "դիմադրություն",
+    "letter": "R",
+    "russian": "сопротивление",
+    "type": ""
+  },
+  {
+    "id": 1008,
+    "english": "respective",
+    "armenian": "համապատասխան",
+    "letter": "R",
+    "russian": "соответствующий",
+    "type": ""
+  },
+  {
+    "id": 1009,
+    "english": "respectively",
+    "armenian": "համապատասխանաբար",
+    "letter": "R",
+    "russian": "соответственно",
+    "type": ""
+  },
+  {
+    "id": 1010,
+    "english": "restoration",
+    "armenian": "վերականգնում",
+    "letter": "R",
+    "russian": "восстановление",
+    "type": ""
+  },
+  {
+    "id": 1011,
+    "english": "restraint",
+    "armenian": "զսպվածություն",
+    "letter": "R",
+    "russian": "сдержанность",
+    "type": ""
+  },
+  {
+    "id": 1012,
+    "english": "resume",
+    "armenian": "ռեզյումե",
+    "letter": "R",
+    "russian": "резюме",
+    "type": ""
+  },
+  {
+    "id": 1013,
+    "english": "retreat",
+    "armenian": "նահանջել",
+    "letter": "R",
+    "russian": "отступление",
+    "type": ""
+  },
+  {
+    "id": 1014,
+    "english": "retrieve",
+    "armenian": "առբերել",
+    "letter": "R",
+    "russian": "забрать",
+    "type": ""
+  },
+  {
+    "id": 1015,
+    "english": "revelation",
+    "armenian": "հայտնություն",
+    "letter": "R",
+    "russian": "откровение",
+    "type": ""
+  },
+  {
+    "id": 1016,
+    "english": "revenge",
+    "armenian": "վրեժխնդրություն",
+    "letter": "R",
+    "russian": "месть",
+    "type": ""
+  },
+  {
+    "id": 1017,
+    "english": "reverse",
+    "armenian": "հակադարձ",
+    "letter": "R",
+    "russian": "обеспечить регресс",
+    "type": ""
+  },
+  {
+    "id": 1018,
+    "english": "revival",
+    "armenian": "վերածնունդ",
+    "letter": "R",
+    "russian": "возрождение",
+    "type": ""
+  },
+  {
+    "id": 1019,
+    "english": "revive",
+    "armenian": "վերակենդանացնել",
+    "letter": "R",
+    "russian": "оживить",
+    "type": ""
+  },
+  {
+    "id": 1020,
+    "english": "revolutionary",
+    "armenian": "հեղափոխական",
+    "letter": "R",
+    "russian": "революционный",
+    "type": ""
+  },
+  {
+    "id": 1021,
+    "english": "rhetoric",
+    "armenian": "հռետորաբանություն",
+    "letter": "R",
+    "russian": "риторика",
+    "type": ""
+  },
+  {
+    "id": 1022,
+    "english": "rifle",
+    "armenian": "հրացան",
+    "letter": "R",
+    "russian": "винтовка",
+    "type": ""
+  },
+  {
+    "id": 1023,
+    "english": "riot",
+    "armenian": "խռովություն",
+    "letter": "R",
+    "russian": "бунт",
+    "type": ""
+  },
+  {
+    "id": 1024,
+    "english": "rip",
+    "armenian": "պատռել",
+    "letter": "R",
+    "russian": "рвать",
+    "type": ""
+  },
+  {
+    "id": 1025,
+    "english": "ritual",
+    "armenian": "ծես",
+    "letter": "R",
+    "russian": "ритуал",
+    "type": ""
+  },
+  {
+    "id": 1026,
+    "english": "robust",
+    "armenian": "ամուր",
+    "letter": "R",
+    "russian": "крепкий",
+    "type": ""
+  },
+  {
+    "id": 1027,
+    "english": "rock",
+    "armenian": "ռոք",
+    "letter": "R",
+    "russian": "камень",
+    "type": ""
+  },
+  {
+    "id": 1028,
+    "english": "rod",
+    "armenian": "ձող",
+    "letter": "R",
+    "russian": "стержень",
+    "type": ""
+  },
+  {
+    "id": 1029,
+    "english": "rotate",
+    "armenian": "պտտել",
+    "letter": "R",
+    "russian": "вращать",
+    "type": ""
+  },
+  {
+    "id": 1030,
+    "english": "rotation",
+    "armenian": "ռոտացիան",
+    "letter": "R",
+    "russian": "вращение",
+    "type": ""
+  },
+  {
+    "id": 1031,
+    "english": "ruling",
+    "armenian": "իշխող",
+    "letter": "R",
+    "russian": "постановление",
+    "type": ""
+  },
+  {
+    "id": 1032,
+    "english": "rumour",
+    "armenian": "բամբասանք",
+    "letter": "R",
+    "russian": "слух",
+    "type": ""
+  },
+  {
+    "id": 1033,
+    "english": "sack",
+    "armenian": "պարկ",
+    "letter": "S",
+    "russian": "мешок",
+    "type": ""
+  },
+  {
+    "id": 1034,
+    "english": "sacred",
+    "armenian": "սուրբ",
+    "letter": "S",
+    "russian": "священный",
+    "type": ""
+  },
+  {
+    "id": 1035,
+    "english": "sacrifice",
+    "armenian": "զոհաբերություն",
+    "letter": "S",
+    "russian": "жертва",
+    "type": ""
+  },
+  {
+    "id": 1036,
+    "english": "saint",
+    "armenian": "սուրբ",
+    "letter": "S",
+    "russian": "святой",
+    "type": ""
+  },
+  {
+    "id": 1037,
+    "english": "sake",
+    "armenian": "հանուն",
+    "letter": "S",
+    "russian": "ради",
+    "type": ""
+  },
+  {
+    "id": 1038,
+    "english": "sanction",
+    "armenian": "պատժամիջոց",
+    "letter": "S",
+    "russian": "санкция",
+    "type": ""
+  },
+  {
+    "id": 1039,
+    "english": "say",
+    "armenian": "ասա",
+    "letter": "S",
+    "russian": "сказать",
+    "type": ""
+  },
+  {
+    "id": 1040,
+    "english": "scattered",
+    "armenian": "ցրված",
+    "letter": "S",
+    "russian": "разбросанный",
+    "type": ""
+  },
+  {
+    "id": 1041,
+    "english": "sceptical",
+    "armenian": "թերահավատ",
+    "letter": "S",
+    "russian": "скептический",
+    "type": ""
+  },
+  {
+    "id": 1042,
+    "english": "scope",
+    "armenian": "շրջանակը",
+    "letter": "S",
+    "russian": "объем",
+    "type": ""
+  },
+  {
+    "id": 1043,
+    "english": "screw",
+    "armenian": "պտուտակ",
+    "letter": "S",
+    "russian": "винт",
+    "type": ""
+  },
+  {
+    "id": 1044,
+    "english": "scrutiny",
+    "armenian": "զննում",
+    "letter": "S",
+    "russian": "исследование",
+    "type": ""
+  },
+  {
+    "id": 1045,
+    "english": "seal",
+    "armenian": "կնիք",
+    "letter": "S",
+    "russian": "тюлень",
+    "type": ""
+  },
+  {
+    "id": 1046,
+    "english": "secular",
+    "armenian": "աշխարհիկ",
+    "letter": "S",
+    "russian": "светский",
+    "type": ""
+  },
+  {
+    "id": 1047,
+    "english": "seemingly",
+    "armenian": "առերեւույթ",
+    "letter": "S",
+    "russian": "по-видимому",
+    "type": ""
+  },
+  {
+    "id": 1048,
+    "english": "segment",
+    "armenian": "հատված",
+    "letter": "S",
+    "russian": "сегмент",
+    "type": ""
+  },
+  {
+    "id": 1049,
+    "english": "seize",
+    "armenian": "գրավել",
+    "letter": "S",
+    "russian": "захватывать",
+    "type": ""
+  },
+  {
+    "id": 1050,
+    "english": "seldom",
+    "armenian": "հազվադեպ",
+    "letter": "S",
+    "russian": "редко",
+    "type": ""
+  },
+  {
+    "id": 1051,
+    "english": "selective",
+    "armenian": "ընտրովի",
+    "letter": "S",
+    "russian": "избирательный",
+    "type": ""
+  },
+  {
+    "id": 1052,
+    "english": "senator",
+    "armenian": "սենատոր",
+    "letter": "S",
+    "russian": "сенатор",
+    "type": ""
+  },
+  {
+    "id": 1053,
+    "english": "sensation",
+    "armenian": "սենսացիա",
+    "letter": "S",
+    "russian": "ощущение",
+    "type": ""
+  },
+  {
+    "id": 1054,
+    "english": "sensitivity",
+    "armenian": "զգայունություն",
+    "letter": "S",
+    "russian": "чувствительность",
+    "type": ""
+  },
+  {
+    "id": 1055,
+    "english": "sentiment",
+    "armenian": "տրամադրություն",
+    "letter": "S",
+    "russian": "настроение",
+    "type": ""
+  },
+  {
+    "id": 1056,
+    "english": "separation",
+    "armenian": "բաժանում",
+    "letter": "S",
+    "russian": "разделение",
+    "type": ""
+  },
+  {
+    "id": 1057,
+    "english": "serial",
+    "armenian": "սերիալ",
+    "letter": "S",
+    "russian": "сериал",
+    "type": ""
+  },
+  {
+    "id": 1058,
+    "english": "settlement",
+    "armenian": "կարգավորումը",
+    "letter": "S",
+    "russian": "урегулирование",
+    "type": ""
+  },
+  {
+    "id": 1059,
+    "english": "set-up",
+    "armenian": "տեղադրում",
+    "letter": "S",
+    "russian": "настраивать",
+    "type": ""
+  },
+  {
+    "id": 1060,
+    "english": "sexuality",
+    "armenian": "սեքսուալություն",
+    "letter": "S",
+    "russian": "сексуальность",
+    "type": ""
+  },
+  {
+    "id": 1061,
+    "english": "shareholder",
+    "armenian": "բաժնետեր",
+    "letter": "S",
+    "russian": "акционер",
+    "type": ""
+  },
+  {
+    "id": 1062,
+    "english": "shatter",
+    "armenian": "կոտրել",
+    "letter": "S",
+    "russian": "разбить",
+    "type": ""
+  },
+  {
+    "id": 1063,
+    "english": "shed",
+    "armenian": "թափել",
+    "letter": "S",
+    "russian": "сбрасывать",
+    "type": ""
+  },
+  {
+    "id": 1064,
+    "english": "sheer",
+    "armenian": "թափանցիկ",
+    "letter": "S",
+    "russian": "явный",
+    "type": ""
+  },
+  {
+    "id": 1065,
+    "english": "shipping",
+    "armenian": "առաքում",
+    "letter": "S",
+    "russian": "перевозки",
+    "type": ""
+  },
+  {
+    "id": 1066,
+    "english": "shoot",
+    "armenian": "կրակել",
+    "letter": "S",
+    "russian": "стрелять",
+    "type": ""
+  },
+  {
+    "id": 1067,
+    "english": "shrink",
+    "armenian": "նեղանալ",
+    "letter": "S",
+    "russian": "сокращать",
+    "type": ""
+  },
+  {
+    "id": 1068,
+    "english": "shrug",
+    "armenian": "ուսերը թոթվել",
+    "letter": "S",
+    "russian": "пожать плечами",
+    "type": ""
+  },
+  {
+    "id": 1069,
+    "english": "sigh",
+    "armenian": "հառաչել",
+    "letter": "S",
+    "russian": "вздох",
+    "type": ""
+  },
+  {
+    "id": 1070,
+    "english": "simulate",
+    "armenian": "մոդելավորել",
+    "letter": "S",
+    "russian": "моделировать",
+    "type": ""
+  },
+  {
+    "id": 1071,
+    "english": "simulation",
+    "armenian": "սիմուլյացիա",
+    "letter": "S",
+    "russian": "моделирование",
+    "type": ""
+  },
+  {
+    "id": 1072,
+    "english": "simultaneously",
+    "armenian": "միաժամանակ",
+    "letter": "S",
+    "russian": "одновременно",
+    "type": ""
+  },
+  {
+    "id": 1073,
+    "english": "sin",
+    "armenian": "մեղք",
+    "letter": "S",
+    "russian": "грех",
+    "type": ""
+  },
+  {
+    "id": 1074,
+    "english": "situated",
+    "armenian": "գտնվում է",
+    "letter": "S",
+    "russian": "расположен",
+    "type": ""
+  },
+  {
+    "id": 1075,
+    "english": "sketch",
+    "armenian": "էսքիզ",
+    "letter": "S",
+    "russian": "эскиз",
+    "type": ""
+  },
+  {
+    "id": 1076,
+    "english": "skip",
+    "armenian": "բաց թողնել",
+    "letter": "S",
+    "russian": "пропускать",
+    "type": ""
+  },
+  {
+    "id": 1077,
+    "english": "slam",
+    "armenian": "հարվածել",
+    "letter": "S",
+    "russian": "хлопнуть",
+    "type": ""
+  },
+  {
+    "id": 1078,
+    "english": "slap",
+    "armenian": "ապտակ",
+    "letter": "S",
+    "russian": "шлепок",
+    "type": ""
+  },
+  {
+    "id": 1079,
+    "english": "slash",
+    "armenian": "կտրատել",
+    "letter": "S",
+    "russian": "косая черта",
+    "type": ""
+  },
+  {
+    "id": 1080,
+    "english": "slavery",
+    "armenian": "ստրկություն",
+    "letter": "S",
+    "russian": "рабство",
+    "type": ""
+  },
+  {
+    "id": 1081,
+    "english": "slot",
+    "armenian": "բնիկ",
+    "letter": "S",
+    "russian": "слот",
+    "type": ""
+  },
+  {
+    "id": 1082,
+    "english": "smash",
+    "armenian": "ջարդել",
+    "letter": "S",
+    "russian": "разгромить",
+    "type": ""
+  },
+  {
+    "id": 1083,
+    "english": "snap",
+    "armenian": "դիպչել",
+    "letter": "S",
+    "russian": "щелчок",
+    "type": ""
+  },
+  {
+    "id": 1084,
+    "english": "soak",
+    "armenian": "թրջել",
+    "letter": "S",
+    "russian": "впитывать",
+    "type": ""
+  },
+  {
+    "id": 1085,
+    "english": "soar",
+    "armenian": "սավառնել",
+    "letter": "S",
+    "russian": "парить",
+    "type": ""
+  },
+  {
+    "id": 1086,
+    "english": "socialist",
+    "armenian": "սոցիալիստ",
+    "letter": "S",
+    "russian": "социалистический",
+    "type": ""
+  },
+  {
+    "id": 1087,
+    "english": "sole",
+    "armenian": "միակ",
+    "letter": "S",
+    "russian": "подошва",
+    "type": ""
+  },
+  {
+    "id": 1088,
+    "english": "solely",
+    "armenian": "բացառապես",
+    "letter": "S",
+    "russian": "исключительно",
+    "type": ""
+  },
+  {
+    "id": 1089,
+    "english": "solicitor",
+    "armenian": "փաստաբան",
+    "letter": "S",
+    "russian": "адвокат",
+    "type": ""
+  },
+  {
+    "id": 1090,
+    "english": "solidarity",
+    "armenian": "համերաշխություն",
+    "letter": "S",
+    "russian": "солидарность",
+    "type": ""
+  },
+  {
+    "id": 1091,
+    "english": "solo",
+    "armenian": "սոլո",
+    "letter": "S",
+    "russian": "соло",
+    "type": ""
+  },
+  {
+    "id": 1092,
+    "english": "sound",
+    "armenian": "ձայն",
+    "letter": "S",
+    "russian": "звук",
+    "type": ""
+  },
+  {
+    "id": 1093,
+    "english": "sovereignty",
+    "armenian": "ինքնիշխանություն",
+    "letter": "S",
+    "russian": "суверенитет",
+    "type": ""
+  },
+  {
+    "id": 1094,
+    "english": "spam",
+    "armenian": "սպամ",
+    "letter": "S",
+    "russian": "спам",
+    "type": ""
+  },
+  {
+    "id": 1095,
+    "english": "span",
+    "armenian": "span",
+    "letter": "S",
+    "russian": "охватывать",
+    "type": ""
+  },
+  {
+    "id": 1096,
+    "english": "spare",
+    "armenian": "պահեստային",
+    "letter": "S",
+    "russian": "запасной",
+    "type": ""
+  },
+  {
+    "id": 1097,
+    "english": "spark",
+    "armenian": "կայծ",
+    "letter": "S",
+    "russian": "искра",
+    "type": ""
+  },
+  {
+    "id": 1098,
+    "english": "specialized",
+    "armenian": "մասնագիտացված",
+    "letter": "S",
+    "russian": "специализированный",
+    "type": ""
+  },
+  {
+    "id": 1099,
+    "english": "specification",
+    "armenian": "ճշգրտում",
+    "letter": "S",
+    "russian": "спецификация",
+    "type": ""
+  },
+  {
+    "id": 1100,
+    "english": "specimen",
+    "armenian": "նմուշ",
+    "letter": "S",
+    "russian": "образец",
+    "type": ""
+  },
+  {
+    "id": 1101,
+    "english": "spectacle",
+    "armenian": "տեսարան",
+    "letter": "S",
+    "russian": "зрелище",
+    "type": ""
+  },
+  {
+    "id": 1102,
+    "english": "spectrum",
+    "armenian": "սպեկտրը",
+    "letter": "S",
+    "russian": "спектр",
+    "type": ""
+  },
+  {
+    "id": 1103,
+    "english": "spell",
+    "armenian": "ուղղագրություն",
+    "letter": "S",
+    "russian": "заклинание",
+    "type": ""
+  },
+  {
+    "id": 1104,
+    "english": "sphere",
+    "armenian": "ոլորտը",
+    "letter": "S",
+    "russian": "сфера",
+    "type": ""
+  },
+  {
+    "id": 1105,
+    "english": "spin",
+    "armenian": "պտտել",
+    "letter": "S",
+    "russian": "вращаться",
+    "type": ""
+  },
+  {
+    "id": 1106,
+    "english": "spine",
+    "armenian": "ողնաշարը",
+    "letter": "S",
+    "russian": "позвоночник",
+    "type": ""
+  },
+  {
+    "id": 1107,
+    "english": "spotlight",
+    "armenian": "ուշադրության կենտրոնում",
+    "letter": "S",
+    "russian": "прожектор",
+    "type": ""
+  },
+  {
+    "id": 1108,
+    "english": "spouse",
+    "armenian": "ամուսին",
+    "letter": "S",
+    "russian": "супруг",
+    "type": ""
+  },
+  {
+    "id": 1109,
+    "english": "spy",
+    "armenian": "լրտես",
+    "letter": "S",
+    "russian": "шпион",
+    "type": ""
+  },
+  {
+    "id": 1110,
+    "english": "squad",
+    "armenian": "ջոկատ",
+    "letter": "S",
+    "russian": "отряд",
+    "type": ""
+  },
+  {
+    "id": 1111,
+    "english": "squeeze",
+    "armenian": "սեղմել",
+    "letter": "S",
+    "russian": "сжимать",
+    "type": ""
+  },
+  {
+    "id": 1112,
+    "english": "stab",
+    "armenian": "դանակահարել",
+    "letter": "S",
+    "russian": "нанести удар",
+    "type": ""
+  },
+  {
+    "id": 1113,
+    "english": "stability",
+    "armenian": "կայունություն",
+    "letter": "S",
+    "russian": "стабильность",
+    "type": ""
+  },
+  {
+    "id": 1114,
+    "english": "stabilize",
+    "armenian": "կայունացնել",
+    "letter": "S",
+    "russian": "стабилизировать",
+    "type": ""
+  },
+  {
+    "id": 1115,
+    "english": "stake",
+    "armenian": "ցց",
+    "letter": "S",
+    "russian": "ставка",
+    "type": ""
+  },
+  {
+    "id": 1116,
+    "english": "standing",
+    "armenian": "կանգնած",
+    "letter": "S",
+    "russian": "стоя",
+    "type": ""
+  },
+  {
+    "id": 1117,
+    "english": "stark",
+    "armenian": "խիստ",
+    "letter": "S",
+    "russian": "резкий",
+    "type": ""
+  },
+  {
+    "id": 1118,
+    "english": "statistical",
+    "armenian": "վիճակագրական",
+    "letter": "S",
+    "russian": "статистический",
+    "type": ""
+  },
+  {
+    "id": 1119,
+    "english": "steer",
+    "armenian": "ղեկ",
+    "letter": "S",
+    "russian": "управлять",
+    "type": ""
+  },
+  {
+    "id": 1120,
+    "english": "stem",
+    "armenian": "ցողունը",
+    "letter": "S",
+    "russian": "корень",
+    "type": ""
+  },
+  {
+    "id": 1121,
+    "english": "stereotype",
+    "armenian": "կարծրատիպ",
+    "letter": "S",
+    "russian": "стереотип",
+    "type": ""
+  },
+  {
+    "id": 1122,
+    "english": "stimulus",
+    "armenian": "խթան",
+    "letter": "S",
+    "russian": "стимул",
+    "type": ""
+  },
+  {
+    "id": 1123,
+    "english": "stir",
+    "armenian": "խառնել",
+    "letter": "S",
+    "russian": "помешивать",
+    "type": ""
+  },
+  {
+    "id": 1124,
+    "english": "storage",
+    "armenian": "պահեստավորում",
+    "letter": "S",
+    "russian": "хранилище",
+    "type": ""
+  },
+  {
+    "id": 1125,
+    "english": "straightforward",
+    "armenian": "շիտակ",
+    "letter": "S",
+    "russian": "простой",
+    "type": ""
+  },
+  {
+    "id": 1126,
+    "english": "strain",
+    "armenian": "լարում",
+    "letter": "S",
+    "russian": "напряжение",
+    "type": ""
+  },
+  {
+    "id": 1127,
+    "english": "strand",
+    "armenian": "թել",
+    "letter": "S",
+    "russian": "прядь",
+    "type": ""
+  },
+  {
+    "id": 1128,
+    "english": "strategic",
+    "armenian": "ռազմավարական",
+    "letter": "S",
+    "russian": "стратегический",
+    "type": ""
+  },
+  {
+    "id": 1129,
+    "english": "striking",
+    "armenian": "հարվածող",
+    "letter": "S",
+    "russian": "поразительный",
+    "type": ""
+  },
+  {
+    "id": 1130,
+    "english": "strip",
+    "armenian": "քերթել",
+    "letter": "S",
+    "russian": "полоска",
+    "type": ""
+  },
+  {
+    "id": 1131,
+    "english": "strive",
+    "armenian": "ձգտել",
+    "letter": "S",
+    "russian": "стремиться",
+    "type": ""
+  },
+  {
+    "id": 1132,
+    "english": "structural",
+    "armenian": "կառուցվածքային",
+    "letter": "S",
+    "russian": "структурный",
+    "type": ""
+  },
+  {
+    "id": 1133,
+    "english": "stumble",
+    "armenian": "սայթաքել",
+    "letter": "S",
+    "russian": "спотыкаться",
+    "type": ""
+  },
+  {
+    "id": 1134,
+    "english": "stun",
+    "armenian": "շշմեցնել",
+    "letter": "S",
+    "russian": "оглушить",
+    "type": ""
+  },
+  {
+    "id": 1135,
+    "english": "submission",
+    "armenian": "ներկայացում",
+    "letter": "S",
+    "russian": "подчинение",
+    "type": ""
+  },
+  {
+    "id": 1136,
+    "english": "subscriber",
+    "armenian": "բաժանորդ",
+    "letter": "S",
+    "russian": "подписчик",
+    "type": ""
+  },
+  {
+    "id": 1137,
+    "english": "subscription",
+    "armenian": "բաժանորդագրություն",
+    "letter": "S",
+    "russian": "подписка",
+    "type": ""
+  },
+  {
+    "id": 1138,
+    "english": "subsidy",
+    "armenian": "սուբսիդիա",
+    "letter": "S",
+    "russian": "субсидия",
+    "type": ""
+  },
+  {
+    "id": 1139,
+    "english": "substantial",
+    "armenian": "էական",
+    "letter": "S",
+    "russian": "существенный",
+    "type": ""
+  },
+  {
+    "id": 1140,
+    "english": "substantially",
+    "armenian": "էապես",
+    "letter": "S",
+    "russian": "существенно",
+    "type": ""
+  },
+  {
+    "id": 1141,
+    "english": "substitute",
+    "armenian": "փոխարինող",
+    "letter": "S",
+    "russian": "заменять",
+    "type": ""
+  },
+  {
+    "id": 1142,
+    "english": "substitution",
+    "armenian": "փոխարինում",
+    "letter": "S",
+    "russian": "замена",
+    "type": ""
+  },
+  {
+    "id": 1143,
+    "english": "subtle",
+    "armenian": "նուրբ",
+    "letter": "S",
+    "russian": "тонкий",
+    "type": ""
+  },
+  {
+    "id": 1144,
+    "english": "suburban",
+    "armenian": "ծայրամասային",
+    "letter": "S",
+    "russian": "пригородный",
+    "type": ""
+  },
+  {
+    "id": 1145,
+    "english": "succession",
+    "armenian": "իրավահաջորդություն",
+    "letter": "S",
+    "russian": "преемственность",
+    "type": ""
+  },
+  {
+    "id": 1146,
+    "english": "successive",
+    "armenian": "հաջորդական",
+    "letter": "S",
+    "russian": "последовательный",
+    "type": ""
+  },
+  {
+    "id": 1147,
+    "english": "successor",
+    "armenian": "իրավահաջորդ",
+    "letter": "S",
+    "russian": "преемник",
+    "type": ""
+  },
+  {
+    "id": 1148,
+    "english": "suck",
+    "armenian": "ծծել",
+    "letter": "S",
+    "russian": "сосать",
+    "type": ""
+  },
+  {
+    "id": 1149,
+    "english": "sue",
+    "armenian": "դատի տալ",
+    "letter": "S",
+    "russian": "Сью",
+    "type": ""
+  },
+  {
+    "id": 1150,
+    "english": "suicide",
+    "armenian": "ինքնասպանություն",
+    "letter": "S",
+    "russian": "самоубийство",
+    "type": ""
+  },
+  {
+    "id": 1151,
+    "english": "suite",
+    "armenian": "հավաքակազմ",
+    "letter": "S",
+    "russian": "люкс",
+    "type": ""
+  },
+  {
+    "id": 1152,
+    "english": "summit",
+    "armenian": "գագաթնաժողով",
+    "letter": "S",
+    "russian": "саммит",
+    "type": ""
+  },
+  {
+    "id": 1153,
+    "english": "superb",
+    "armenian": "հոյակապ",
+    "letter": "S",
+    "russian": "превосходно",
+    "type": ""
+  },
+  {
+    "id": 1154,
+    "english": "superior",
+    "armenian": "վերադաս",
+    "letter": "S",
+    "russian": "начальство",
+    "type": ""
+  },
+  {
+    "id": 1155,
+    "english": "supervise",
+    "armenian": "վերահսկել",
+    "letter": "S",
+    "russian": "контролировать",
+    "type": ""
+  },
+  {
+    "id": 1156,
+    "english": "supervision",
+    "armenian": "վերահսկողություն",
+    "letter": "S",
+    "russian": "надзор",
+    "type": ""
+  },
+  {
+    "id": 1157,
+    "english": "supervisor",
+    "armenian": "վերահսկիչ",
+    "letter": "S",
+    "russian": "руководитель",
+    "type": ""
+  },
+  {
+    "id": 1158,
+    "english": "supplement",
+    "armenian": "լրացում",
+    "letter": "S",
+    "russian": "добавка",
+    "type": ""
+  },
+  {
+    "id": 1159,
+    "english": "supportive",
+    "armenian": "աջակցող",
+    "letter": "S",
+    "russian": "поддерживающий",
+    "type": ""
+  },
+  {
+    "id": 1160,
+    "english": "supposedly",
+    "armenian": "ենթադրաբար",
+    "letter": "S",
+    "russian": "предположительно",
+    "type": ""
+  },
+  {
+    "id": 1161,
+    "english": "suppress",
+    "armenian": "ճնշել",
+    "letter": "S",
+    "russian": "подавлять",
+    "type": ""
+  },
+  {
+    "id": 1162,
+    "english": "supreme",
+    "armenian": "գերագույն",
+    "letter": "S",
+    "russian": "верховный",
+    "type": ""
+  },
+  {
+    "id": 1163,
+    "english": "surge",
+    "armenian": "ալիք",
+    "letter": "S",
+    "russian": "всплеск",
+    "type": ""
+  },
+  {
+    "id": 1164,
+    "english": "surgical",
+    "armenian": "վիրաբուժական",
+    "letter": "S",
+    "russian": "хирургический",
+    "type": ""
+  },
+  {
+    "id": 1165,
+    "english": "surplus",
+    "armenian": "ավելցուկ",
+    "letter": "S",
+    "russian": "излишек",
+    "type": ""
+  },
+  {
+    "id": 1166,
+    "english": "surrender",
+    "armenian": "հանձնվել",
+    "letter": "S",
+    "russian": "сдаваться",
+    "type": ""
+  },
+  {
+    "id": 1167,
+    "english": "surveillance",
+    "armenian": "հսկողություն",
+    "letter": "S",
+    "russian": "наблюдение",
+    "type": ""
+  },
+  {
+    "id": 1168,
+    "english": "suspension",
+    "armenian": "կասեցում",
+    "letter": "S",
+    "russian": "приостановка",
+    "type": ""
+  },
+  {
+    "id": 1169,
+    "english": "suspicion",
+    "armenian": "կասկածանք",
+    "letter": "S",
+    "russian": "подозрение",
+    "type": ""
+  },
+  {
+    "id": 1170,
+    "english": "suspicious",
+    "armenian": "կասկածելի",
+    "letter": "S",
+    "russian": "подозрительный",
+    "type": ""
+  },
+  {
+    "id": 1171,
+    "english": "sustain",
+    "armenian": "պահպանել",
+    "letter": "S",
+    "russian": "поддерживать",
+    "type": ""
+  },
+  {
+    "id": 1172,
+    "english": "swing",
+    "armenian": "ճոճանակ",
+    "letter": "S",
+    "russian": "качать",
+    "type": ""
+  },
+  {
+    "id": 1173,
+    "english": "sword",
+    "armenian": "սուրը",
+    "letter": "S",
+    "russian": "меч",
+    "type": ""
+  },
+  {
+    "id": 1174,
+    "english": "symbolic",
+    "armenian": "խորհրդանշական",
+    "letter": "S",
+    "russian": "символический",
+    "type": ""
+  },
+  {
+    "id": 1175,
+    "english": "syndrome",
+    "armenian": "համախտանիշ",
+    "letter": "S",
+    "russian": "синдром",
+    "type": ""
+  },
+  {
+    "id": 1176,
+    "english": "synthesis",
+    "armenian": "սինթեզ",
+    "letter": "S",
+    "russian": "синтез",
+    "type": ""
+  },
+  {
+    "id": 1177,
+    "english": "systematic",
+    "armenian": "համակարգված",
+    "letter": "S",
+    "russian": "систематический",
+    "type": ""
+  },
+  {
+    "id": 1178,
+    "english": "tackle",
+    "armenian": "լուծել",
+    "letter": "T",
+    "russian": "взяться",
+    "type": ""
+  },
+  {
+    "id": 1179,
+    "english": "tactic",
+    "armenian": "մարտավարություն",
+    "letter": "T",
+    "russian": "тактика",
+    "type": ""
+  },
+  {
+    "id": 1180,
+    "english": "tactical",
+    "armenian": "մարտավարական",
+    "letter": "T",
+    "russian": "тактический",
+    "type": ""
+  },
+  {
+    "id": 1181,
+    "english": "taxpayer",
+    "armenian": "հարկատու",
+    "letter": "T",
+    "russian": "налогоплательщик",
+    "type": ""
+  },
+  {
+    "id": 1182,
+    "english": "tempt",
+    "armenian": "գայթակղել",
+    "letter": "T",
+    "russian": "искушать",
+    "type": ""
+  },
+  {
+    "id": 1183,
+    "english": "tenant",
+    "armenian": "վարձակալ",
+    "letter": "T",
+    "russian": "жилец",
+    "type": ""
+  },
+  {
+    "id": 1184,
+    "english": "tender",
+    "armenian": "քնքուշ",
+    "letter": "T",
+    "russian": "нежный",
+    "type": ""
+  },
+  {
+    "id": 1185,
+    "english": "tenure",
+    "armenian": "պաշտոնավարումը",
+    "letter": "T",
+    "russian": "срок владения",
+    "type": ""
+  },
+  {
+    "id": 1186,
+    "english": "terminal",
+    "armenian": "տերմինալ",
+    "letter": "T",
+    "russian": "Терминал",
+    "type": ""
+  },
+  {
+    "id": 1187,
+    "english": "terminate",
+    "armenian": "դադարեցնել",
+    "letter": "T",
+    "russian": "прекратить",
+    "type": ""
+  },
+  {
+    "id": 1188,
+    "english": "terrain",
+    "armenian": "տեղանքը",
+    "letter": "T",
+    "russian": "местность",
+    "type": ""
+  },
+  {
+    "id": 1189,
+    "english": "terrific",
+    "armenian": "ահավոր",
+    "letter": "T",
+    "russian": "потрясающий",
+    "type": ""
+  },
+  {
+    "id": 1190,
+    "english": "testify",
+    "armenian": "վկայել",
+    "letter": "T",
+    "russian": "свидетельствовать",
+    "type": ""
+  },
+  {
+    "id": 1191,
+    "english": "testimony",
+    "armenian": "վկայություն",
+    "letter": "T",
+    "russian": "показания",
+    "type": ""
+  },
+  {
+    "id": 1192,
+    "english": "texture",
+    "armenian": "հյուսվածք",
+    "letter": "T",
+    "russian": "текстура",
+    "type": ""
+  },
+  {
+    "id": 1193,
+    "english": "thankfully",
+    "armenian": "բարեբախտաբար",
+    "letter": "T",
+    "russian": "к счастью",
+    "type": ""
+  },
+  {
+    "id": 1194,
+    "english": "theatrical",
+    "armenian": "թատերական",
+    "letter": "T",
+    "russian": "театральный",
+    "type": ""
+  },
+  {
+    "id": 1195,
+    "english": "theology",
+    "armenian": "աստվածաբանություն",
+    "letter": "T",
+    "russian": "богословие",
+    "type": ""
+  },
+  {
+    "id": 1196,
+    "english": "theoretical",
+    "armenian": "տեսական",
+    "letter": "T",
+    "russian": "теоретический",
+    "type": ""
+  },
+  {
+    "id": 1197,
+    "english": "thereafter",
+    "armenian": "դրանից հետո",
+    "letter": "T",
+    "russian": "после этого",
+    "type": ""
+  },
+  {
+    "id": 1198,
+    "english": "thereby",
+    "armenian": "դրանով իսկ",
+    "letter": "T",
+    "russian": "тем самым",
+    "type": ""
+  },
+  {
+    "id": 1199,
+    "english": "thoughtful",
+    "armenian": "մտածկոտ",
+    "letter": "T",
+    "russian": "вдумчивый",
+    "type": ""
+  },
+  {
+    "id": 1200,
+    "english": "thought-provoking",
+    "armenian": "մտածելու տեղիք է տալիս",
+    "letter": "T",
+    "russian": "заставляет задуматься",
+    "type": ""
+  },
+  {
+    "id": 1201,
+    "english": "thread",
+    "armenian": "թել",
+    "letter": "T",
+    "russian": "нить",
+    "type": ""
+  },
+  {
+    "id": 1202,
+    "english": "threshold",
+    "armenian": "շեմը",
+    "letter": "T",
+    "russian": "порог",
+    "type": ""
+  },
+  {
+    "id": 1203,
+    "english": "thrilled",
+    "armenian": "հուզված",
+    "letter": "T",
+    "russian": "взволнованный",
+    "type": ""
+  },
+  {
+    "id": 1204,
+    "english": "thrive",
+    "armenian": "բարգավաճել",
+    "letter": "T",
+    "russian": "процветать",
+    "type": ""
+  },
+  {
+    "id": 1205,
+    "english": "tide",
+    "armenian": "ալիքը",
+    "letter": "T",
+    "russian": "прилив",
+    "type": ""
+  },
+  {
+    "id": 1206,
+    "english": "tighten",
+    "armenian": "խստացնել",
+    "letter": "T",
+    "russian": "затягивать",
+    "type": ""
+  },
+  {
+    "id": 1207,
+    "english": "timber",
+    "armenian": "փայտանյութ",
+    "letter": "T",
+    "russian": "древесина",
+    "type": ""
+  },
+  {
+    "id": 1208,
+    "english": "timely",
+    "armenian": "ժամանակին",
+    "letter": "T",
+    "russian": "своевременный",
+    "type": ""
+  },
+  {
+    "id": 1209,
+    "english": "tobacco",
+    "armenian": "ծխախոտ",
+    "letter": "T",
+    "russian": "табак",
+    "type": ""
+  },
+  {
+    "id": 1210,
+    "english": "tolerance",
+    "armenian": "հանդուրժողականություն",
+    "letter": "T",
+    "russian": "терпимость",
+    "type": ""
+  },
+  {
+    "id": 1211,
+    "english": "tolerate",
+    "armenian": "հանդուրժել",
+    "letter": "T",
+    "russian": "терпеть",
+    "type": ""
+  },
+  {
+    "id": 1212,
+    "english": "toll",
+    "armenian": "վճարովի",
+    "letter": "T",
+    "russian": "потери",
+    "type": ""
+  },
+  {
+    "id": 1213,
+    "english": "top",
+    "armenian": "վերեւ",
+    "letter": "T",
+    "russian": "вершина",
+    "type": ""
+  },
+  {
+    "id": 1214,
+    "english": "torture",
+    "armenian": "խոշտանգում",
+    "letter": "T",
+    "russian": "пытка",
+    "type": ""
+  },
+  {
+    "id": 1215,
+    "english": "toss",
+    "armenian": "նետել",
+    "letter": "T",
+    "russian": "бросать",
+    "type": ""
+  },
+  {
+    "id": 1216,
+    "english": "total",
+    "armenian": "ընդհանուր",
+    "letter": "T",
+    "russian": "общий",
+    "type": ""
+  },
+  {
+    "id": 1217,
+    "english": "toxic",
+    "armenian": "թունավոր",
+    "letter": "T",
+    "russian": "токсичный",
+    "type": ""
+  },
+  {
+    "id": 1218,
+    "english": "trace",
+    "armenian": "հետք",
+    "letter": "T",
+    "russian": "след",
+    "type": ""
+  },
+  {
+    "id": 1219,
+    "english": "trademark",
+    "armenian": "ապրանքանիշ",
+    "letter": "T",
+    "russian": "торговая марка",
+    "type": ""
+  },
+  {
+    "id": 1220,
+    "english": "trail",
+    "armenian": "հետք",
+    "letter": "T",
+    "russian": "тащить",
+    "type": ""
+  },
+  {
+    "id": 1221,
+    "english": "trailer",
+    "armenian": "թրեյլեր",
+    "letter": "T",
+    "russian": "трейлер",
+    "type": ""
+  },
+  {
+    "id": 1222,
+    "english": "transaction",
+    "armenian": "գործարք",
+    "letter": "T",
+    "russian": "сделка",
+    "type": ""
+  },
+  {
+    "id": 1223,
+    "english": "transcript",
+    "armenian": "սղագրություն",
+    "letter": "T",
+    "russian": "стенограмма",
+    "type": ""
+  },
+  {
+    "id": 1224,
+    "english": "transformation",
+    "armenian": "վերափոխում",
+    "letter": "T",
+    "russian": "трансформация",
+    "type": ""
+  },
+  {
+    "id": 1225,
+    "english": "transit",
+    "armenian": "տարանցիկ",
+    "letter": "T",
+    "russian": "транзит",
+    "type": ""
+  },
+  {
+    "id": 1226,
+    "english": "transmission",
+    "armenian": "փոխանցում",
+    "letter": "T",
+    "russian": "передача инфекции",
+    "type": ""
+  },
+  {
+    "id": 1227,
+    "english": "transparency",
+    "armenian": "թափանցիկություն",
+    "letter": "T",
+    "russian": "прозрачность",
+    "type": ""
+  },
+  {
+    "id": 1228,
+    "english": "transparent",
+    "armenian": "թափանցիկ",
+    "letter": "T",
+    "russian": "прозрачный",
+    "type": ""
+  },
+  {
+    "id": 1229,
+    "english": "trauma",
+    "armenian": "տրավմա",
+    "letter": "T",
+    "russian": "травма",
+    "type": ""
+  },
+  {
+    "id": 1230,
+    "english": "treaty",
+    "armenian": "պայմանագիր",
+    "letter": "T",
+    "russian": "договор",
+    "type": ""
+  },
+  {
+    "id": 1231,
+    "english": "tremendous",
+    "armenian": "ահռելի",
+    "letter": "T",
+    "russian": "огромный",
+    "type": ""
+  },
+  {
+    "id": 1232,
+    "english": "tribal",
+    "armenian": "ցեղային",
+    "letter": "T",
+    "russian": "племенной",
+    "type": ""
+  },
+  {
+    "id": 1233,
+    "english": "tribunal",
+    "armenian": "տրիբունալ",
+    "letter": "T",
+    "russian": "трибунал",
+    "type": ""
+  },
+  {
+    "id": 1234,
+    "english": "tribute",
+    "armenian": "հարգանքի տուրք",
+    "letter": "T",
+    "russian": "дань",
+    "type": ""
+  },
+  {
+    "id": 1235,
+    "english": "trigger",
+    "armenian": "ձգան",
+    "letter": "T",
+    "russian": "курок",
+    "type": ""
+  },
+  {
+    "id": 1236,
+    "english": "trio",
+    "armenian": "եռյակ",
+    "letter": "T",
+    "russian": "трио",
+    "type": ""
+  },
+  {
+    "id": 1237,
+    "english": "triumph",
+    "armenian": "հաղթանակ",
+    "letter": "T",
+    "russian": "триумф",
+    "type": ""
+  },
+  {
+    "id": 1238,
+    "english": "trophy",
+    "armenian": "ավար",
+    "letter": "T",
+    "russian": "трофей",
+    "type": ""
+  },
+  {
+    "id": 1239,
+    "english": "troubled",
+    "armenian": "անհանգիստ",
+    "letter": "T",
+    "russian": "обеспокоенный",
+    "type": ""
+  },
+  {
+    "id": 1240,
+    "english": "trustee",
+    "armenian": "հոգաբարձու",
+    "letter": "T",
+    "russian": "попечитель",
+    "type": ""
+  },
+  {
+    "id": 1241,
+    "english": "tuition",
+    "armenian": "ուսման վարձը",
+    "letter": "T",
+    "russian": "обучение",
+    "type": ""
+  },
+  {
+    "id": 1242,
+    "english": "turnout",
+    "armenian": "մասնակցությունը",
+    "letter": "T",
+    "russian": "оказаться",
+    "type": ""
+  },
+  {
+    "id": 1243,
+    "english": "turnover",
+    "armenian": "շրջանառություն",
+    "letter": "T",
+    "russian": "оборот",
+    "type": ""
+  },
+  {
+    "id": 1244,
+    "english": "twist",
+    "armenian": "շրջադարձ",
+    "letter": "T",
+    "russian": "крутить",
+    "type": ""
+  },
+  {
+    "id": 1245,
+    "english": "undergraduate",
+    "armenian": "բակալավրիատ",
+    "letter": "U",
+    "russian": "бакалавриат",
+    "type": ""
+  },
+  {
+    "id": 1246,
+    "english": "underlying",
+    "armenian": "հիմքում ընկած",
+    "letter": "U",
+    "russian": "лежащий в основе",
+    "type": ""
+  },
+  {
+    "id": 1247,
+    "english": "undermine",
+    "armenian": "խարխլել",
+    "letter": "U",
+    "russian": "подрывать",
+    "type": ""
+  },
+  {
+    "id": 1248,
+    "english": "undoubtedly",
+    "armenian": "անկասկած",
+    "letter": "U",
+    "russian": "несомненно",
+    "type": ""
+  },
+  {
+    "id": 1249,
+    "english": "unify",
+    "armenian": "միավորել",
+    "letter": "U",
+    "russian": "объединить",
+    "type": ""
+  },
+  {
+    "id": 1250,
+    "english": "unprecedented",
+    "armenian": "աննախադեպ",
+    "letter": "U",
+    "russian": "беспрецедентный",
+    "type": ""
+  },
+  {
+    "id": 1251,
+    "english": "unveil",
+    "armenian": "բացել",
+    "letter": "U",
+    "russian": "раскрыть",
+    "type": ""
+  },
+  {
+    "id": 1252,
+    "english": "upcoming",
+    "armenian": "առաջիկայում",
+    "letter": "U",
+    "russian": "предстоящий",
+    "type": ""
+  },
+  {
+    "id": 1253,
+    "english": "upgrade",
+    "armenian": "արդիականացնել",
+    "letter": "U",
+    "russian": "обновление",
+    "type": ""
+  },
+  {
+    "id": 1254,
+    "english": "uphold",
+    "armenian": "պահպանել",
+    "letter": "U",
+    "russian": "поддерживать",
+    "type": ""
+  },
+  {
+    "id": 1255,
+    "english": "utility",
+    "armenian": "օգտակար",
+    "letter": "U",
+    "russian": "полезность",
+    "type": ""
+  },
+  {
+    "id": 1256,
+    "english": "utilize",
+    "armenian": "օգտագործել",
+    "letter": "U",
+    "russian": "использовать",
+    "type": ""
+  },
+  {
+    "id": 1257,
+    "english": "utterly",
+    "armenian": "միանգամայն",
+    "letter": "U",
+    "russian": "крайне",
+    "type": ""
+  },
+  {
+    "id": 1258,
+    "english": "vacuum",
+    "armenian": "վակուում",
+    "letter": "V",
+    "russian": "вакуум",
+    "type": ""
+  },
+  {
+    "id": 1259,
+    "english": "vague",
+    "armenian": "անորոշ",
+    "letter": "V",
+    "russian": "нечеткий",
+    "type": ""
+  },
+  {
+    "id": 1260,
+    "english": "validity",
+    "armenian": "վավերականություն",
+    "letter": "V",
+    "russian": "действительность",
+    "type": ""
+  },
+  {
+    "id": 1261,
+    "english": "vanish",
+    "armenian": "անհետանալ",
+    "letter": "V",
+    "russian": "исчезнуть",
+    "type": ""
+  },
+  {
+    "id": 1262,
+    "english": "variable",
+    "armenian": "փոփոխական",
+    "letter": "V",
+    "russian": "переменная",
+    "type": ""
+  },
+  {
+    "id": 1263,
+    "english": "varied",
+    "armenian": "բազմազան",
+    "letter": "V",
+    "russian": "разнообразный",
+    "type": ""
+  },
+  {
+    "id": 1264,
+    "english": "vein",
+    "armenian": "երակ",
+    "letter": "V",
+    "russian": "вена",
+    "type": ""
+  },
+  {
+    "id": 1265,
+    "english": "venture",
+    "armenian": "ձեռնարկություն",
+    "letter": "V",
+    "russian": "риск",
+    "type": ""
+  },
+  {
+    "id": 1266,
+    "english": "verbal",
+    "armenian": "բանավոր",
+    "letter": "V",
+    "russian": "словесный",
+    "type": ""
+  },
+  {
+    "id": 1267,
+    "english": "verdict",
+    "armenian": "դատավճիռը",
+    "letter": "V",
+    "russian": "приговор",
+    "type": ""
+  },
+  {
+    "id": 1268,
+    "english": "verify",
+    "armenian": "ստուգել",
+    "letter": "V",
+    "russian": "проверять",
+    "type": ""
+  },
+  {
+    "id": 1269,
+    "english": "verse",
+    "armenian": "չափածո",
+    "letter": "V",
+    "russian": "стих",
+    "type": ""
+  },
+  {
+    "id": 1270,
+    "english": "versus",
+    "armenian": "ընդդեմ",
+    "letter": "V",
+    "russian": "против",
+    "type": ""
+  },
+  {
+    "id": 1271,
+    "english": "vessel",
+    "armenian": "անոթ",
+    "letter": "V",
+    "russian": "судно",
+    "type": ""
+  },
+  {
+    "id": 1272,
+    "english": "veteran",
+    "armenian": "վետերան",
+    "letter": "V",
+    "russian": "ветеран",
+    "type": ""
+  },
+  {
+    "id": 1273,
+    "english": "viable",
+    "armenian": "կենսունակ",
+    "letter": "V",
+    "russian": "жизнеспособный",
+    "type": ""
+  },
+  {
+    "id": 1274,
+    "english": "vibrant",
+    "armenian": "կենսունակ",
+    "letter": "V",
+    "russian": "яркий",
+    "type": ""
+  },
+  {
+    "id": 1275,
+    "english": "vice",
+    "armenian": "փոխանորդ",
+    "letter": "V",
+    "russian": "порок",
+    "type": ""
+  },
+  {
+    "id": 1276,
+    "english": "vicious",
+    "armenian": "արատավոր",
+    "letter": "V",
+    "russian": "беспощадный",
+    "type": ""
+  },
+  {
+    "id": 1277,
+    "english": "villager",
+    "armenian": "գյուղացի",
+    "letter": "V",
+    "russian": "сельский житель",
+    "type": ""
+  },
+  {
+    "id": 1278,
+    "english": "violate",
+    "armenian": "խախտում",
+    "letter": "V",
+    "russian": "нарушать",
+    "type": ""
+  },
+  {
+    "id": 1279,
+    "english": "violation",
+    "armenian": "խախտում",
+    "letter": "V",
+    "russian": "нарушение",
+    "type": ""
+  },
+  {
+    "id": 1280,
+    "english": "virtue",
+    "armenian": "առաքինություն",
+    "letter": "V",
+    "russian": "достоинство",
+    "type": ""
+  },
+  {
+    "id": 1281,
+    "english": "vocal",
+    "armenian": "վոկալ",
+    "letter": "V",
+    "russian": "вокал",
+    "type": ""
+  },
+  {
+    "id": 1282,
+    "english": "vow",
+    "armenian": "ուխտ",
+    "letter": "V",
+    "russian": "клятва",
+    "type": ""
+  },
+  {
+    "id": 1283,
+    "english": "vulnerability",
+    "armenian": "խոցելիություն",
+    "letter": "V",
+    "russian": "уязвимость",
+    "type": ""
+  },
+  {
+    "id": 1284,
+    "english": "vulnerable",
+    "armenian": "խոցելի",
+    "letter": "V",
+    "russian": "уязвимый",
+    "type": ""
+  },
+  {
+    "id": 1285,
+    "english": "ward",
+    "armenian": "հիվանդասենյակ",
+    "letter": "W",
+    "russian": "сторожить",
+    "type": ""
+  },
+  {
+    "id": 1286,
+    "english": "warehouse",
+    "armenian": "պահեստ",
+    "letter": "W",
+    "russian": "склад",
+    "type": ""
+  },
+  {
+    "id": 1287,
+    "english": "warfare",
+    "armenian": "պատերազմ",
+    "letter": "W",
+    "russian": "война",
+    "type": ""
+  },
+  {
+    "id": 1288,
+    "english": "warrant",
+    "armenian": "երաշխիք",
+    "letter": "W",
+    "russian": "ордер",
+    "type": ""
+  },
+  {
+    "id": 1289,
+    "english": "warrior",
+    "armenian": "մարտիկ",
+    "letter": "W",
+    "russian": "воин",
+    "type": ""
+  },
+  {
+    "id": 1290,
+    "english": "weaken",
+    "armenian": "թուլացնել",
+    "letter": "W",
+    "russian": "ослабить",
+    "type": ""
+  },
+  {
+    "id": 1291,
+    "english": "weave",
+    "armenian": "հյուսել",
+    "letter": "W",
+    "russian": "ткать",
+    "type": ""
+  },
+  {
+    "id": 1292,
+    "english": "weed",
+    "armenian": "մոլախոտ",
+    "letter": "W",
+    "russian": "сорняк",
+    "type": ""
+  },
+  {
+    "id": 1293,
+    "english": "well",
+    "armenian": "լավ",
+    "letter": "W",
+    "russian": "хорошо",
+    "type": ""
+  },
+  {
+    "id": 1294,
+    "english": "well-being",
+    "armenian": "բարեկեցություն",
+    "letter": "W",
+    "russian": "благополучие",
+    "type": ""
+  },
+  {
+    "id": 1295,
+    "english": "whatsoever",
+    "armenian": "ինչ էլ որ լինի",
+    "letter": "W",
+    "russian": "что бы то ни было",
+    "type": ""
+  },
+  {
+    "id": 1296,
+    "english": "whereby",
+    "armenian": "որով",
+    "letter": "W",
+    "russian": "посредством чего",
+    "type": ""
+  },
+  {
+    "id": 1297,
+    "english": "whilst",
+    "armenian": "մինչդեռ",
+    "letter": "W",
+    "russian": "пока",
+    "type": ""
+  },
+  {
+    "id": 1298,
+    "english": "whip",
+    "armenian": "մտրակել",
+    "letter": "W",
+    "russian": "хлыст",
+    "type": ""
+  },
+  {
+    "id": 1299,
+    "english": "wholly",
+    "armenian": "ամբողջությամբ",
+    "letter": "W",
+    "russian": "полностью",
+    "type": ""
+  },
+  {
+    "id": 1300,
+    "english": "widen",
+    "armenian": "լայնացնել",
+    "letter": "W",
+    "russian": "расширять",
+    "type": ""
+  },
+  {
+    "id": 1301,
+    "english": "widow",
+    "armenian": "այրի",
+    "letter": "W",
+    "russian": "вдова",
+    "type": ""
+  },
+  {
+    "id": 1302,
+    "english": "width",
+    "armenian": "լայնությունը",
+    "letter": "W",
+    "russian": "ширина",
+    "type": ""
+  },
+  {
+    "id": 1303,
+    "english": "willingness",
+    "armenian": "պատրաստակամություն",
+    "letter": "W",
+    "russian": "готовность",
+    "type": ""
+  },
+  {
+    "id": 1304,
+    "english": "wipe",
+    "armenian": "սրբել",
+    "letter": "W",
+    "russian": "вытирать",
+    "type": ""
+  },
+  {
+    "id": 1305,
+    "english": "wit",
+    "armenian": "խելք",
+    "letter": "W",
+    "russian": "остроумие",
+    "type": ""
+  },
+  {
+    "id": 1306,
+    "english": "withdrawal",
+    "armenian": "դուրսբերում",
+    "letter": "W",
+    "russian": "снятие",
+    "type": ""
+  },
+  {
+    "id": 1307,
+    "english": "workout",
+    "armenian": "մարզվելը",
+    "letter": "W",
+    "russian": "тренировка",
+    "type": ""
+  },
+  {
+    "id": 1308,
+    "english": "worship",
+    "armenian": "երկրպագություն",
+    "letter": "W",
+    "russian": "поклонение",
+    "type": ""
+  },
+  {
+    "id": 1309,
+    "english": "worthwhile",
+    "armenian": "արժանի",
+    "letter": "W",
+    "russian": "стоящий",
+    "type": ""
+  },
+  {
+    "id": 1310,
+    "english": "worthy",
+    "armenian": "արժանի",
+    "letter": "W",
+    "russian": "достойный",
+    "type": ""
+  },
+  {
+    "id": 1311,
+    "english": "yell",
+    "armenian": "բղավել",
+    "letter": "Y",
+    "russian": "кричать",
+    "type": ""
+  },
+  {
+    "id": 1312,
+    "english": "yield",
+    "armenian": "բերքատվությունը",
+    "letter": "Y",
+    "russian": "урожай",
+    "type": ""
+  },
+  {
+    "id": 1313,
+    "english": "youngster",
+    "armenian": "երիտասարդ",
+    "letter": "Y",
+    "russian": "юноша",
+    "type": ""
+  }
+]

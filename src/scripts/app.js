@@ -12,6 +12,7 @@ class App {
     this.filterLetter = null;
     this.listViewActive = false;
     this.cameFromList = false;
+    this._listCardOverlayActive = false;
     this.sessionHistory = [];
 
     this.learnCard = new CardManager({
@@ -261,9 +262,11 @@ class App {
       this._updateSidebar();
     });
 
-    document.getElementById('btnWordCardPopupClose').addEventListener('click', () => this._closeWordCardPopup());
-    document.getElementById('wordCardPopup').addEventListener('click', (e) => {
-      if (e.target === document.getElementById('wordCardPopup')) this._closeWordCardPopup();
+    document.getElementById('btnCardOverlayClose').addEventListener('click', () => this._closeCardOnList());
+    document.querySelector('.learn-content').addEventListener('click', (e) => {
+      if (e.target === document.querySelector('.learn-content') && this._listCardOverlayActive) {
+        this._closeCardOnList();
+      }
     });
 
     document.getElementById('btnNoteEditorSave').addEventListener('click', () => this._saveNote());
@@ -285,9 +288,8 @@ class App {
           this._closeNoteEditor();
           return;
         }
-        const popup = document.getElementById('wordCardPopup');
-        if (popup.style.display === 'flex') {
-          this._closeWordCardPopup();
+        if (this._listCardOverlayActive) {
+          this._closeCardOnList();
           return;
         }
         if (document.getElementById('sidebar').classList.contains('open')) {
@@ -568,6 +570,11 @@ class App {
       this.undoStack.push({ wordId: word.id, prevState });
       this.sessionHistory.push({ english: word.english, armenian: word.armenian, action: 'forgot' });
     }
+    if (this._listCardOverlayActive) {
+      this._closeCardOnList();
+      this._showUndoToast();
+      return;
+    }
     this.currentIndex++;
     this._showCurrentCard();
     this._showUndoToast();
@@ -578,6 +585,11 @@ class App {
     if (prevState) {
       this.undoStack.push({ wordId: word.id, prevState });
       this.sessionHistory.push({ english: word.english, armenian: word.armenian, action: 'remembered' });
+    }
+    if (this._listCardOverlayActive) {
+      this._closeCardOnList();
+      this._showUndoToast();
+      return;
     }
     this.currentIndex++;
     this._showCurrentCard();
@@ -681,6 +693,10 @@ class App {
   }
 
   _toggleListView() {
+    if (this._listCardOverlayActive) {
+      this._closeCardOnList();
+      return;
+    }
     if (this.cameFromList) {
       this.cameFromList = false;
       this.listViewActive = true;
@@ -743,97 +759,30 @@ class App {
   _handleListRowClick(index) {
     const word = this.screenOrder[index];
     if (!word) return;
-    this._showWordCardPopup(word);
+    this._showCardOnList(word);
   }
 
-  _showWordCardPopup(word) {
-    const popup = document.getElementById('wordCardPopup');
-    const body = document.getElementById('wordCardPopupBody');
-    body.dataset.type = word.type || '';
-
-    document.getElementById('wordCardPopupLetterText').textContent = word.english.charAt(0).toUpperCase();
-    document.getElementById('wordCardPopupType').textContent = word.type || '';
-    document.getElementById('wordCardPopupWord').textContent = word.english;
-    document.getElementById('wordCardPopupTranslation').textContent = word.armenian;
-    document.getElementById('wordCardPopupRussian').textContent = word.russian || word.translation || '';
-
-    const ex = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
-    const exEl = document.getElementById('wordCardPopupExamples');
-    if (ex.length > 0) {
-      exEl.innerHTML = ex.map((e, i) => `<span class="card-example-item">${i + 1}. &ldquo;${e}&rdquo;</span>`).join('');
-      exEl.style.display = '';
-    } else {
-      exEl.style.display = 'none';
-    }
-
-    const russianEx = word.russian_example || [];
-    const russianExEl = document.getElementById('wordCardPopupRussianExamples');
-    if (russianEx.length > 0) {
-      russianExEl.innerHTML = russianEx.map((e, i) => `<span class="card-russian-example-item">${i + 1}. &ldquo;${e}&rdquo;</span>`).join('');
-      russianExEl.style.display = '';
-    } else {
-      russianExEl.style.display = 'none';
-    }
-
-    const adjEl = document.getElementById('wordCardPopupAdj');
-    const adjWrapper = document.getElementById('wordCardPopupAdjWrapper');
-    if (word.adjective) {
-      adjEl.textContent = 'adj: ' + word.adjective;
-      adjWrapper.style.display = '';
-    } else {
-      adjWrapper.style.display = 'none';
-    }
-
-    const advEl = document.getElementById('wordCardPopupAdv');
-    const advWrapper = document.getElementById('wordCardPopupAdvWrapper');
-    if (word.adverb) {
-      advEl.textContent = 'adv: ' + word.adverb;
-      advWrapper.style.display = '';
-    } else {
-      advWrapper.style.display = 'none';
-    }
-
-    const synEl = document.getElementById('wordCardPopupSynonyms');
-    const synText = word.synonyms && word.synonyms.length > 0 ? word.synonyms.join(', ') : '';
-    synEl.textContent = synText ? 'Synonyms: ' + synText : '';
-    synEl.style.display = synText ? '' : 'none';
-
-    const antEl = document.getElementById('wordCardPopupAntonyms');
-    const antText = word.antonyms && word.antonyms.length > 0 ? word.antonyms.join(', ') : '';
-    antEl.textContent = antText ? 'Antonyms: ' + antText : '';
-    antEl.style.display = antText ? '' : 'none';
-
-    const descEl = document.getElementById('wordCardPopupDescription');
-    descEl.textContent = word.description || '';
-    descEl.style.display = word.description ? '' : 'none';
-
-    const tagsEl = document.getElementById('wordCardPopupTags');
-    const tagNames = appStore.getTagsForWord(word.id);
-    if (tagNames.length > 0) {
-      tagsEl.innerHTML = tagNames.map((name) => {
-        const tag = appStore.tags[name];
-        return `<span class="card-tag-badge">${tag.icon || ''} ${tag.label}</span>`;
-      }).join('');
-      tagsEl.style.display = '';
-    } else {
-      tagsEl.innerHTML = '';
-      tagsEl.style.display = 'none';
-    }
-
-    const noteEl = document.getElementById('wordCardPopupNote');
-    const noteText = appStore.getNote(word.id);
-    if (noteText) {
-      noteEl.textContent = '\uD83D\uDCDD ' + noteText;
-      noteEl.style.display = '';
-    } else {
-      noteEl.style.display = 'none';
-    }
-
-    popup.style.display = 'flex';
+  _showCardOnList(word) {
+    this._listCardOverlayActive = true;
+    const learnContent = document.querySelector('.learn-content');
+    learnContent.classList.add('list-card-overlay');
+    learnContent.style.display = 'flex';
+    document.getElementById('cardArea').style.display = 'flex';
+    document.getElementById('letterStrip').style.display = 'none';
+    this.learnCard.show(word);
+    this.learnCard.setMode(studyModeManager.isLearningMode);
+    this.learnCard.updateStarIcon();
+    this.learnCard.resetFlip();
   }
 
-  _closeWordCardPopup() {
-    document.getElementById('wordCardPopup').style.display = 'none';
+  _closeCardOnList() {
+    if (!this._listCardOverlayActive) return;
+    this._listCardOverlayActive = false;
+    const learnContent = document.querySelector('.learn-content');
+    learnContent.classList.remove('list-card-overlay');
+    learnContent.style.display = 'none';
+    document.getElementById('cardArea').style.display = 'none';
+    document.getElementById('letterStrip').style.display = '';
   }
 
   _openNoteEditor(word) {

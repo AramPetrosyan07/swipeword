@@ -788,3 +788,12 @@
     ]
   }
 }
+
+{
+    "id": 1,
+    "english": "...",
+    "armenian": "..., ...",
+    "letter": "A",
+    "russian": "..., ...",
+    "type": "verb"
+  }
