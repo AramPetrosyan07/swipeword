@@ -2,6 +2,8 @@ class Store {
   constructor() {
     this.data = null;
     this.dictionary = [];
+    this.b2Dictionary = [];
+    this.c1Dictionary = [];
     this.tags = {};
   }
 
@@ -18,12 +20,15 @@ class Store {
 
   async loadDictionary() {
     try {
-      const dict = await window.electronAPI.storeLoadDictionary();
-      if (dict && Array.isArray(dict)) {
-        this.dictionary = dict;
-      }
+      const [b2, c1] = await Promise.all([
+        window.electronAPI.storeLoadDictionary(),
+        window.electronAPI.storeLoadC1Dictionary(),
+      ]);
+      if (b2 && Array.isArray(b2)) this.b2Dictionary = b2;
+      if (c1 && Array.isArray(c1)) this.c1Dictionary = c1;
+      this.dictionary = this.data.vocabulary === 'c1' ? this.c1Dictionary : this.b2Dictionary;
     } catch (e) {
-      console.error('Failed to load dictionary:', e);
+      console.error('Failed to load dictionaries:', e);
     }
     return this.dictionary;
   }
@@ -40,6 +45,43 @@ class Store {
     return this.tags;
   }
 
+  async switchVocabulary(vocab) {
+    if (vocab === this.data.vocabulary) return;
+    const cur = this.data.vocabulary;
+    this.data[`${cur}_words`] = this.data.words;
+    this.data[`${cur}_favorites`] = this.data.favorites;
+    this.data[`${cur}_notes`] = this.data.notes;
+    this.data[`${cur}_customContent`] = this.data.customContent;
+    this.data[`${cur}_stats`] = this.data.stats;
+    this.data[`${cur}_currentFileName`] = this.data.currentFileName;
+    this.data.vocabulary = vocab;
+    this.dictionary = vocab === 'c1' ? this.c1Dictionary : this.b2Dictionary;
+    const savedWords = this.data[`${vocab}_words`];
+    if (savedWords && savedWords.length > 0) {
+      this.data.words = savedWords;
+      this.data.favorites = this.data[`${vocab}_favorites`] || [];
+      this.data.notes = this.data[`${vocab}_notes`] || {};
+      this.data.customContent = this.data[`${vocab}_customContent`] || {};
+      this.data.stats = this.data[`${vocab}_stats`] || { totalReviewed: 0, totalRemembered: 0, totalForgotten: 0, sessionsCompleted: 0 };
+      this.data.currentFileName = this.data[`${vocab}_currentFileName`] || null;
+    } else {
+      this.data.favorites = [];
+      this.data.notes = {};
+      this.data.customContent = {};
+      this.initFromDictionary(this.dictionary.length, vocab === 'c1' ? 'oxford_c1_words' : 'b2-word-list');
+    }
+    await this.save();
+  }
+
+  getCurrentIndex() {
+    const idx = this.data[`${this.data.vocabulary}_currentIndex`];
+    return idx != null ? idx : 0;
+  }
+
+  setCurrentIndex(index) {
+    this.data[`${this.data.vocabulary}_currentIndex`] = index;
+  }
+
   _migrate() {
     const today = this._getToday();
     if (this.data.words) {
@@ -53,6 +95,12 @@ class Store {
     if (this.data.learnMode === undefined) this.data.learnMode = true;
     if (!this.data.favorites) this.data.favorites = [];
     if (!this.data.notes) this.data.notes = {};
+    if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
+    if (this.data.c1_favorites) {
+      this.data.c1_favorites = [];
+      this.data.c1_notes = {};
+      this.data.c1_words = null;
+    }
   }
 
   _defaults() {
@@ -79,6 +127,7 @@ class Store {
       storyProgress: [],
       storyWords: [],
       notes: {},
+      vocabulary: 'b2',
     };
   }
 

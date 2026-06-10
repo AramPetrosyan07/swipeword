@@ -68,7 +68,7 @@ class App {
     await appStore.loadDictionary();
     await appStore.loadTags();
 
-    if (appStore.data.favorites.length === 0) {
+    if (appStore.data.vocabulary !== 'c1' && appStore.data.favorites.length === 0) {
       try {
         const ids = await window.electronAPI.loadFavoritesFile();
         if (ids && ids.length > 0) {
@@ -225,6 +225,8 @@ class App {
       studyModeManager.toggle();
       this._showCurrentCard();
     });
+    document.getElementById('btnVocabSwitch').addEventListener('click', () => this._switchVocabulary());
+
     document.getElementById('btnFavFilter').addEventListener('click', () => {
       this.favFilterEnabled = !this.favFilterEnabled;
       const btn = document.getElementById('btnFavFilter');
@@ -374,6 +376,22 @@ class App {
     });
   }
 
+  async _switchVocabulary() {
+    appStore.setCurrentIndex(this.currentIndex);
+    const newVocab = appStore.data.vocabulary === 'b2' ? 'c1' : 'b2';
+    await appStore.switchVocabulary(newVocab);
+    this.words = appStore.getAllWords();
+    this.currentIndex = appStore.getCurrentIndex();
+    this.currentFileName = appStore.data.currentFileName;
+    this.undoStack = [];
+    this.sessionHistory = [];
+    this.filterLetter = null;
+    this._startLearning();
+    this._updateSidebar();
+    this._renderLetterStrip();
+    document.getElementById('btnVocabSwitch').textContent = newVocab.toUpperCase();
+  }
+
   _toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('sidebarOverlay');
@@ -518,6 +536,8 @@ class App {
   _showLearnScreen() {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
+
+    document.getElementById('btnVocabSwitch').textContent = (appStore.data.vocabulary || 'b2').toUpperCase();
 
     const favBtn = document.getElementById('btnFavFilter');
     favBtn.classList.toggle('active', this.favFilterEnabled);
