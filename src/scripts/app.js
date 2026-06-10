@@ -68,7 +68,7 @@ class App {
     await appStore.loadDictionary();
     await appStore.loadTags();
 
-    if (appStore.data.vocabulary !== 'c1' && appStore.data.favorites.length === 0) {
+    if (appStore.data.vocabulary === 'b2' && appStore.data.favorites.length === 0) {
       try {
         const ids = await window.electronAPI.loadFavoritesFile();
         if (ids && ids.length > 0) {
@@ -91,10 +91,12 @@ class App {
       this.currentFileName = appStore.data.currentFileName || null;
       this._startLearning();
     } else if (appStore.dictionary.length > 0) {
-      await appStore.initFromDictionary(appStore.dictionary.length, 'b2-word-list');
-      await appStore.addHistory('b2-word-list', appStore.dictionary.length);
+      const vocab = appStore.data.vocabulary || 'b2';
+      const fileName = vocab === 'c1' ? 'oxford_c1_words' : vocab === 'verb' ? 'verb' : 'b2-word-list';
+      await appStore.initFromDictionary(appStore.dictionary.length, fileName);
+      await appStore.addHistory(fileName, appStore.dictionary.length);
       this.words = appStore.getAllWords();
-      this.currentFileName = 'b2-word-list';
+      this.currentFileName = fileName;
       this._startLearning();
     }
 
@@ -378,7 +380,10 @@ class App {
 
   async _switchVocabulary() {
     appStore.setCurrentIndex(this.currentIndex);
-    const newVocab = appStore.data.vocabulary === 'b2' ? 'c1' : 'b2';
+    const order = ['b2', 'c1', 'verb'];
+    const cur = appStore.data.vocabulary;
+    const idx = order.indexOf(cur);
+    const newVocab = order[(idx + 1) % order.length];
     await appStore.switchVocabulary(newVocab);
     this.words = appStore.getAllWords();
     this.currentIndex = appStore.getCurrentIndex();
@@ -389,7 +394,7 @@ class App {
     this._startLearning();
     this._updateSidebar();
     this._renderLetterStrip();
-    document.getElementById('btnVocabSwitch').textContent = newVocab.toUpperCase();
+    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', newVocab);
   }
 
   _toggleSidebar() {
@@ -537,7 +542,7 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
 
-    document.getElementById('btnVocabSwitch').textContent = (appStore.data.vocabulary || 'b2').toUpperCase();
+    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', appStore.data.vocabulary || 'b2');
 
     const favBtn = document.getElementById('btnFavFilter');
     favBtn.classList.toggle('active', this.favFilterEnabled);

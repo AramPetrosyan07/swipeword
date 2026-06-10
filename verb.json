@@ -1,0 +1,1405 @@
+[
+  {
+    "id": 1,
+    "english": "CALL OFF",
+    "russian": "отменить",
+    "type": "phrasal verb",
+    "english_example": [
+      "They **called off** the game.",
+      "The game was **called off** because of the weather.",
+      "The conference has just been **called off**.",
+      "It was decided to **call off** this event."
+    ]
+  },
+  {
+    "id": 2,
+    "english": "FIGURE OUT",
+    "russian": "понимать, разобраться",
+    "type": "phrasal verb",
+    "english_example": [
+      "I can't **figure out** how it works.",
+      "He can't **figure out** what to do."
+    ]
+  },
+  {
+    "id": 3,
+    "english": "LOOK UP TO",
+    "russian": "восхищаться, уважать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I really **look up to** him.",
+      "I **look up to** such a person.",
+      "Not surprisingly, most people **look up to** him because he is a real hero."
+    ]
+  },
+  {
+    "id": 4,
+    "english": "GO ON",
+    "russian": "продолжать ; происходить",
+    "type": "phrasal verb",
+    "english_example": [
+      "He can't **go on** pretending that everything is okay.",
+      "My friend **went on** talking about it.",
+      "I would like to **go on** studying English.",
+      "What's **going on** here?"
+    ]
+  },
+  {
+    "id": 5,
+    "english": "FLICK THROUGH",
+    "russian": "просмотреть, пролистать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I will **flick through** this document.",
+      "I took one book and **flicked through** it."
+    ]
+  },
+  {
+    "id": 6,
+    "english": "SEE OFF",
+    "russian": "провожать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll **see you off** after lessons.",
+      "He **saw her off** after the party."
+    ]
+  },
+  {
+    "id": 7,
+    "english": "TAKE UP",
+    "russian": "начать заниматься",
+    "type": "phrasal verb",
+    "english_example": [
+      "I **took up** studying English seriously.",
+      "I **took up** jogging."
+    ]
+  },
+  {
+    "id": 8,
+    "english": "LOOK INTO",
+    "russian": "изучать, расследовать",
+    "type": "phrasal verb",
+    "english_example": [
+      "My colleague wants to **look into** this problem more thoroughly.",
+      "The police are **looking into** this crime."
+    ]
+  },
+  {
+    "id": 9,
+    "english": "MAKE UP FOR",
+    "russian": "компенсировать",
+    "type": "phrasal verb",
+    "english_example": [
+      "Who will **make up for** these losses?",
+      "I'll try to **make up for** lost time.",
+      "I don't think they will be able to **make up for** these losses so quickly."
+    ]
+  },
+  {
+    "id": 10,
+    "english": "GIVE UP",
+    "russian": "сдаваться; бросать",
+    "type": "phrasal verb",
+    "english_example": [
+      "Never **give up**.",
+      "He **gave up** smoking a couple of years ago."
+    ]
+  },
+  {
+    "id": 11,
+    "english": "THROW AWAY",
+    "russian": "выбрасывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "She **threw it away**.",
+      "I don't need it, so you can **throw it away**."
+    ]
+  },
+  {
+    "id": 12,
+    "english": "LOOK UP",
+    "russian": "искать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll **look it up** in a dictionary.",
+      "You can **look it up** in a dictionary."
+    ]
+  },
+  {
+    "id": 13,
+    "english": "ASK OUT",
+    "russian": "приглашать на свидание",
+    "type": "phrasal verb",
+    "english_example": [
+      "He decided to **ask her out**.",
+      "He was so happy to **ask her out**."
+    ]
+  },
+  {
+    "id": 14,
+    "english": "LEAVE OUT",
+    "russian": "упускать, не включать",
+    "type": "phrasal verb",
+    "english_example": [
+      "Some very important details were **left out**.",
+      "It is seen that the most important details were **left out**."
+    ]
+  },
+  {
+    "id": 15,
+    "english": "DISAGREE WITH / ON",
+    "russian": "не соглашаться с кем-л. / по поводу",
+    "type": "phrasal verb",
+    "english_example": [
+      "They **disagree on** this issue.",
+      "He **disagrees with** his colleagues **on** many issues."
+    ]
+  },
+  {
+    "id": 16,
+    "english": "ADVANTAGES OF",
+    "russian": "преимущества чего-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "This is one of the main **advantages of** this profession.",
+      "This is one of the main **advantages of** living in this city."
+    ]
+  },
+  {
+    "id": 17,
+    "english": "DISADVANTAGES OF",
+    "russian": "недостатки чего-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "This is one of the **disadvantages of** this job.",
+      "What are the **advantages and disadvantages of** distance learning?"
+    ]
+  },
+  {
+    "id": 18,
+    "english": "ABSENCE FROM",
+    "russian": "отсутствие на",
+    "type": "phrasal verb",
+    "english_example": [
+      "How did he explain his **absence from** work?"
+    ]
+  },
+  {
+    "id": 19,
+    "english": "COMPENSATE FOR",
+    "russian": "компенсировать что-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "They must **compensate** you **for** these losses."
+    ]
+  },
+  {
+    "id": 20,
+    "english": "DEMAND FOR",
+    "russian": "спрос на",
+    "type": "phrasal verb",
+    "english_example": [
+      "There is a growing **demand for** these products.",
+      "There is a growing **demand for** cheap housing."
+    ]
+  },
+  {
+    "id": 21,
+    "english": "APOLOGIZE TO",
+    "russian": "извиняться перед кем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He went and **apologized to** her."
+    ]
+  },
+  {
+    "id": 22,
+    "english": "APOLOGIZE FOR",
+    "russian": "извиняться за что-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "They **apologized for** the delay.",
+      "I'd like to **apologize for** coming late."
+    ]
+  },
+  {
+    "id": 23,
+    "english": "STARE AT",
+    "russian": "уставиться на",
+    "type": "phrasal verb",
+    "english_example": [
+      "The stranger was **staring at** him.",
+      "Everyone was **staring at** her."
+    ]
+  },
+  {
+    "id": 24,
+    "english": "INTERFERE IN",
+    "russian": "вмешиваться во что-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "I think he shouldn't **interfere in** other people's affairs."
+    ]
+  },
+  {
+    "id": 25,
+    "english": "CURE FOR",
+    "russian": "лечение от",
+    "type": "phrasal verb",
+    "english_example": [
+      "A **cure for** this disease hasn't been found yet.",
+      "There is no **cure for** this disease."
+    ]
+  },
+  {
+    "id": 26,
+    "english": "CURE OF",
+    "russian": "излечить от",
+    "type": "phrasal verb",
+    "english_example": [
+      "He was **cured of** this disease."
+    ]
+  },
+  {
+    "id": 27,
+    "english": "SUITABLE FOR",
+    "russian": "подходит для",
+    "type": "phrasal verb",
+    "english_example": [
+      "This apartment is **suitable for** a small family.",
+      "This documentary is perfectly **suitable for** people of all ages."
+    ]
+  },
+  {
+    "id": 28,
+    "english": "BORED WITH",
+    "russian": "надоело, наскучило",
+    "type": "phrasal verb",
+    "english_example": [
+      "He says that he is really **bored with** his present job.",
+      "The kids got **bored with** the game."
+    ]
+  },
+  {
+    "id": 29,
+    "english": "PROVIDE WITH",
+    "russian": "предоставлять",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **provides** us **with** very valuable information.",
+      "The company **provides** very good conditions **for** its employees."
+    ]
+  },
+  {
+    "id": 30,
+    "english": "DELIGHTED WITH",
+    "russian": "в восторге от",
+    "type": "phrasal verb",
+    "english_example": [
+      "I was **delighted with** this result."
+    ]
+  },
+  {
+    "id": 31,
+    "english": "DELIGHTED TO",
+    "russian": "в восторге делать что-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'm absolutely **delighted to** see you.",
+      "I'm absolutely **delighted to** be here.",
+      "I'm absolutely **delighted to** hear that."
+    ]
+  },
+  {
+    "id": 32,
+    "english": "PLEASED TO",
+    "russian": "рад",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'm **pleased to** meet you."
+    ]
+  },
+  {
+    "id": 33,
+    "english": "DEPEND ON",
+    "russian": "зависеть от",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **depends on** his parents.",
+      "He strongly **depends on** his parents."
+    ]
+  },
+  {
+    "id": 34,
+    "english": "FAMILIAR TO",
+    "russian": "знаком кому-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "This place doesn't look **familiar to** me."
+    ]
+  },
+  {
+    "id": 35,
+    "english": "OPTIMISTIC ABOUT",
+    "russian": "оптимистичный по поводу",
+    "type": "phrasal verb",
+    "english_example": [
+      "He is very **optimistic about** the future of the company."
+    ]
+  },
+  {
+    "id": 36,
+    "english": "CONFIDENT OF",
+    "russian": "уверен в",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'm absolutely **confident of** that."
+    ]
+  },
+  {
+    "id": 37,
+    "english": "DANGER OF",
+    "russian": "опасность чего-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "There is a **danger of** new protests.",
+      "There is a **danger of** a new crisis."
+    ]
+  },
+  {
+    "id": 38,
+    "english": "KNOWN FOR",
+    "russian": "известен чем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He is **known for** his honesty.",
+      "This city is **known for** its rich history.",
+      "He is **known for** his kindness."
+    ]
+  },
+  {
+    "id": 39,
+    "english": "LACK OF",
+    "russian": "недостаток, нехватка",
+    "type": "phrasal verb",
+    "english_example": [
+      "They demonstrated a **lack of** knowledge and experience.",
+      "I know that I have a **lack of** confidence, but I'm trying to work on this problem."
+    ]
+  },
+  {
+    "id": 40,
+    "english": "LACK",
+    "russian": "не хватать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I know that I **lack** confidence, but I'm trying to work on this problem."
+    ]
+  },
+  {
+    "id": 41,
+    "english": "GET ON WITH / GET ALONG WITH",
+    "russian": "ладить с кем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "I **get on well with** my neighbors.",
+      "We **get on well with** each other.",
+      "My colleagues and I **get along well with** each other."
+    ]
+  },
+  {
+    "id": 42,
+    "english": "CATCH UP WITH",
+    "russian": "догнать кого-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll try to **catch up with** the others.",
+      "I can't **catch up with** you.",
+      "I'll try to **catch up with** you."
+    ]
+  },
+  {
+    "id": 43,
+    "english": "KEEP UP WITH",
+    "russian": "поспевать, не отставать",
+    "type": "phrasal verb",
+    "english_example": [
+      "It was very difficult for him to **keep up with** the rest of the class."
+    ]
+  },
+  {
+    "id": 44,
+    "english": "BE OVER",
+    "russian": "закончиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "It will **be over** soon.",
+      "The game will **be over** soon."
+    ]
+  },
+  {
+    "id": 45,
+    "english": "COME ACROSS",
+    "russian": "встретить, натолкнуться",
+    "type": "phrasal verb",
+    "english_example": [
+      "I **came across** so many new words in this text.",
+      "I have never **come across** this word.",
+      "I have never **come across** this expression."
+    ]
+  },
+  {
+    "id": 46,
+    "english": "CARRY ON",
+    "russian": "продолжать",
+    "type": "phrasal verb",
+    "english_example": [
+      "We can't **carry on** doing this.",
+      "I'll **carry on** doing this."
+    ]
+  },
+  {
+    "id": 47,
+    "english": "RUN OUT OF",
+    "russian": "закончиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "She **ran out of** money.",
+      "We've just **run out of** time.",
+      "As I see, we are **running out of** time.",
+      "We need to hurry up because we are **running out of** time."
+    ]
+  },
+  {
+    "id": 48,
+    "english": "LOOK DOWN ON",
+    "russian": "смотреть свысока",
+    "type": "phrasal verb",
+    "english_example": [
+      "Some of his colleagues **look down on** him."
+    ]
+  },
+  {
+    "id": 49,
+    "english": "GET DOWN",
+    "russian": "расстраивать, угнетать",
+    "type": "phrasal verb",
+    "english_example": [
+      "These problems sometimes **get me down**.",
+      "This daily routine **gets her down**."
+    ]
+  },
+  {
+    "id": 50,
+    "english": "GET DOWN TO",
+    "russian": "приступить к",
+    "type": "phrasal verb",
+    "english_example": [
+      "I need to **get down to** work.",
+      "Let's **get down to** business."
+    ]
+  },
+  {
+    "id": 51,
+    "english": "FIND OUT",
+    "russian": "выяснить, узнать",
+    "type": "phrasal verb",
+    "english_example": [
+      "She wants to **find out** the whole truth."
+    ]
+  },
+  {
+    "id": 52,
+    "english": "COME IN (FOR)",
+    "russian": "зайти, заглянуть",
+    "type": "phrasal verb",
+    "english_example": [
+      "Would you like to **come in for** a cup of coffee?",
+      "You can **come in for** a cup of tea."
+    ]
+  },
+  {
+    "id": 53,
+    "english": "COME ROUND",
+    "russian": "заглянуть, навестить",
+    "type": "phrasal verb",
+    "english_example": [
+      "If you don't mind, I'll **come round** to you for a cup of tea."
+    ]
+  },
+  {
+    "id": 54,
+    "english": "TAKE AFTER",
+    "russian": "быть похожим на",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **takes after** his father.",
+      "She doesn't **take after** his sister at all."
+    ]
+  },
+  {
+    "id": 55,
+    "english": "LOOK AFTER",
+    "russian": "присматривать, ухаживать",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **looks after** his old grandmother."
+    ]
+  },
+  {
+    "id": 56,
+    "english": "LOOK OUT / WATCH OUT",
+    "russian": "смотреть по сторонам, остерегаться",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Look out!**",
+      "**Watch out**, or you can fall."
+    ]
+  },
+  {
+    "id": 57,
+    "english": "BRING UP",
+    "russian": "воспитывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "He was born and **brought up** in the States.",
+      "He was **brought up** by his uncle."
+    ]
+  },
+  {
+    "id": 58,
+    "english": "FALL OUT",
+    "russian": "ссориться",
+    "type": "phrasal verb",
+    "english_example": [
+      "He tries not to **fall out** with others."
+    ]
+  },
+  {
+    "id": 59,
+    "english": "LOOK THROUGH",
+    "russian": "просмотреть, пролистать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll **look through** these documents."
+    ]
+  },
+  {
+    "id": 60,
+    "english": "FALL BEHIND",
+    "russian": "отставать",
+    "type": "phrasal verb",
+    "english_example": [
+      "If you don't do anything urgent, you can **fall behind** very easily.",
+      "She **fell behind** the rest of the group."
+    ]
+  },
+  {
+    "id": 61,
+    "english": "LOOK BACK (ON)",
+    "russian": "оглядываться",
+    "type": "phrasal verb",
+    "english_example": [
+      "When she **looks back on** those days, she realizes how happy she was.",
+      "**Looking back on** my life, I come to the conclusion that many mistakes were made."
+    ]
+  },
+  {
+    "id": 62,
+    "english": "LOOK AHEAD",
+    "russian": "смотреть вперёд, забегать вперёд",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Looking ahead**, we need to be ready for this."
+    ]
+  },
+  {
+    "id": 63,
+    "english": "PUT ACROSS",
+    "russian": "донести, передать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll try to **put across** my idea.",
+      "I tried to **put across** this point."
+    ]
+  },
+  {
+    "id": 64,
+    "english": "GET BACK TO",
+    "russian": "возвращаться к",
+    "type": "phrasal verb",
+    "english_example": [
+      "Let's **get back to** discussing our work.",
+      "Let's **get back to** discussing this."
+    ]
+  },
+  {
+    "id": 65,
+    "english": "PUT OFF",
+    "russian": "откладывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I wouldn't like to **put it off** till tomorrow.",
+      "Never **put off** till tomorrow what you can do today."
+    ]
+  },
+  {
+    "id": 66,
+    "english": "GO OFF",
+    "russian": "испортиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "The food can **go off**.",
+      "All the food **went off**."
+    ]
+  },
+  {
+    "id": 67,
+    "english": "LET DOWN",
+    "russian": "подвести",
+    "type": "phrasal verb",
+    "english_example": [
+      "I know that he will never **let us down**.",
+      "If my memory doesn't **let me down**."
+    ]
+  },
+  {
+    "id": 68,
+    "english": "DROP OUT OF",
+    "russian": "бросить учёбу",
+    "type": "phrasal verb",
+    "english_example": [
+      "To everyone's surprise, he **dropped out of** college."
+    ]
+  },
+  {
+    "id": 69,
+    "english": "TAKE OFF",
+    "russian": "взлетать ; снимать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The plane will **take off** in an hour."
+    ]
+  },
+  {
+    "id": 70,
+    "english": "TALK OVER",
+    "russian": "обговорить, обсудить",
+    "type": "phrasal verb",
+    "english_example": [
+      "I need to **talk it over** with you."
+    ]
+  },
+  {
+    "id": 71,
+    "english": "GO UP",
+    "russian": "вырастать, подниматься",
+    "type": "phrasal verb",
+    "english_example": [
+      "The price **went up** to our surprise.",
+      "The cost of this apartment **went up** by 10% last year."
+    ]
+  },
+  {
+    "id": 72,
+    "english": "GO DOWN",
+    "russian": "снижаться",
+    "type": "phrasal verb",
+    "english_example": [
+      "The price of oil **went down** by more than 30% recently.",
+      "Her income **went down** by 20%."
+    ]
+  },
+  {
+    "id": 73,
+    "english": "PUT UP WITH",
+    "russian": "мириться с",
+    "type": "phrasal verb",
+    "english_example": [
+      "She can't **put up with** this anymore.",
+      "He can't **put up with** this injustice."
+    ]
+  },
+  {
+    "id": 74,
+    "english": "PUT UP",
+    "russian": "повысить",
+    "type": "phrasal verb",
+    "english_example": [
+      "They decided to **put up** the price.",
+      "The company was forced to **put up** the price."
+    ]
+  },
+  {
+    "id": 75,
+    "english": "GO BY",
+    "russian": "проходить",
+    "type": "phrasal verb",
+    "english_example": [
+      "Time **goes by** so quickly.",
+      "It is a well-known fact that time **goes by** so quickly."
+    ]
+  },
+  {
+    "id": 76,
+    "english": "THINK OVER",
+    "russian": "обдумать",
+    "type": "phrasal verb",
+    "english_example": [
+      "She said that she would need some time to **think over** their proposal."
+    ]
+  },
+  {
+    "id": 77,
+    "english": "POINT OUT",
+    "russian": "отмечать, указывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'd like to **point out** that this is worth our attention.",
+      "I'd like to **point out** that this is really important.",
+      "The teacher **pointed out** these mistakes."
+    ]
+  },
+  {
+    "id": 78,
+    "english": "COUNT ON",
+    "russian": "рассчитывать на",
+    "type": "phrasal verb",
+    "english_example": [
+      "You can **count on** my help.",
+      "You can **count on** my support."
+    ]
+  },
+  {
+    "id": 79,
+    "english": "GET BY (ON)",
+    "russian": "прожить на, обходиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "It's almost impossible to **get by on** such a low salary.",
+      "How does he **get by on** such a small income?"
+    ]
+  },
+  {
+    "id": 80,
+    "english": "MAKE UP",
+    "russian": "придумывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "She **made up** this story.",
+      "You need to **make up** your own sentence."
+    ]
+  },
+  {
+    "id": 81,
+    "english": "GET AWAY",
+    "russian": "сбежать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The robbers didn't manage to **get away**."
+    ]
+  },
+  {
+    "id": 82,
+    "english": "PUT FORWARD",
+    "russian": "выдвигать, предлагать",
+    "type": "phrasal verb",
+    "english_example": [
+      "A new interesting suggestion was **put forward**.",
+      "They **put forward** a very interesting idea."
+    ]
+  },
+  {
+    "id": 83,
+    "english": "PUT OUT",
+    "russian": "потушить",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Put out** the fire."
+    ]
+  },
+  {
+    "id": 84,
+    "english": "MAKE OUT",
+    "russian": "понимать, различать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I can't **make out** what's going on.",
+      "I can't **make out** what she's talking about.",
+      "As far as I can **make out**, we need to do the following."
+    ]
+  },
+  {
+    "id": 85,
+    "english": "CARRY OUT",
+    "russian": "проводить",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'm going to **carry out** this research.",
+      "They **carried out** a very interesting experiment."
+    ]
+  },
+  {
+    "id": 86,
+    "english": "GIVE AWAY",
+    "russian": "раздавать, отдавать",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **gave away** his old clothes.",
+      "He **gave** the money **away** to charity."
+    ]
+  },
+  {
+    "id": 87,
+    "english": "PICK UP",
+    "russian": "забрать",
+    "type": "phrasal verb",
+    "english_example": [
+      "He'll **pick you up** after school.",
+      "I'll **pick you up** after the meeting is over."
+    ]
+  },
+  {
+    "id": 88,
+    "english": "CUT DOWN ON",
+    "russian": "уменьшить потребление",
+    "type": "phrasal verb",
+    "english_example": [
+      "He decided to **cut down on** smoking.",
+      "She wants to **cut down on** eating chocolate."
+    ]
+  },
+  {
+    "id": 89,
+    "english": "CHEER UP",
+    "russian": "взбодриться, поднять настроение",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Cheer up!**",
+      "I suppose this news will **cheer you up**."
+    ]
+  },
+  {
+    "id": 90,
+    "english": "CLOSE DOWN",
+    "russian": "закрыться",
+    "type": "phrasal verb",
+    "english_example": [
+      "This company will have to **close down**.",
+      "The company had to **close down** because of a very difficult economic situation."
+    ]
+  },
+  {
+    "id": 91,
+    "english": "BRING DOWN",
+    "russian": "снижать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The company decided to **bring down** the price."
+    ]
+  },
+  {
+    "id": 92,
+    "english": "BACK UP",
+    "russian": "поддерживать; создавать резервную копию",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll **back you up** when you need it.",
+      "I need to make sure I **backed up** everything.",
+      "Make sure you **backed up** all the files."
+    ]
+  },
+  {
+    "id": 93,
+    "english": "PUT ASIDE",
+    "russian": "отложить, отбросить в сторону",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Put aside** all your fears."
+    ]
+  },
+  {
+    "id": 94,
+    "english": "PUT DOWN",
+    "russian": "унижать, оскорблять",
+    "type": "phrasal verb",
+    "english_example": [
+      "Stop **putting him down**."
+    ]
+  },
+  {
+    "id": 95,
+    "english": "CALM DOWN",
+    "russian": "успокоиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Calm down!**",
+      "You need to **calm down** a little.",
+      "I'll try to **calm her down**."
+    ]
+  },
+  {
+    "id": 96,
+    "english": "COOL DOWN",
+    "russian": "успокоиться, остыть",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Cool down!**",
+      "He **cooled down** and realized that he was wrong.",
+      "You need to **cool down** and look at it more objectively."
+    ]
+  },
+  {
+    "id": 97,
+    "english": "WRITE DOWN",
+    "russian": "записать",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll **write down** this word.",
+      "I'll **write this word down**."
+    ]
+  },
+  {
+    "id": 98,
+    "english": "COME ALONG",
+    "russian": "пойти с кем-то, присоединиться",
+    "type": "phrasal verb",
+    "english_example": [
+      "You can **come along** with me.",
+      "Do you want to **come along**?"
+    ]
+  },
+  {
+    "id": 99,
+    "english": "CHECK IN",
+    "russian": "зарегистрироваться",
+    "type": "phrasal verb",
+    "english_example": [
+      "I **checked in** at the hotel.",
+      "I have already **checked in** at the hotel.",
+      "When are you going to **check in**?"
+    ]
+  },
+  {
+    "id": 100,
+    "english": "CHECK OUT",
+    "russian": "выезжать",
+    "type": "phrasal verb",
+    "english_example": [
+      "What time will he **check out**?"
+    ]
+  },
+  {
+    "id": 101,
+    "english": "BREAK OUT",
+    "russian": "разразиться, вспыхнуть",
+    "type": "phrasal verb",
+    "english_example": [
+      "The fire **broke out** suddenly."
+    ]
+  },
+  {
+    "id": 102,
+    "english": "DRESS DOWN",
+    "russian": "одеваться неформально",
+    "type": "phrasal verb",
+    "english_example": [
+      "Some office workers **dress down** on Fridays."
+    ]
+  },
+  {
+    "id": 103,
+    "english": "CALL FOR",
+    "russian": "требовать",
+    "type": "phrasal verb",
+    "english_example": [
+      "This type of work **calls for** more skills and professionalism.",
+      "This **calls for** extra effort.",
+      "This kind of work **calls for** more concentration."
+    ]
+  },
+  {
+    "id": 104,
+    "english": "EAT OUT",
+    "russian": "есть не дома",
+    "type": "phrasal verb",
+    "english_example": [
+      "Do you like **eating out**?",
+      "Let's **eat out** tonight."
+    ]
+  },
+  {
+    "id": 105,
+    "english": "COME ON",
+    "russian": "давай, ну же",
+    "type": "phrasal verb",
+    "english_example": [
+      "**Come on**, try it again.",
+      "**Come on**, let's do it."
+    ]
+  },
+  {
+    "id": 106,
+    "english": "DO UP",
+    "russian": "застегнуть ; ремонтировать",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **did up** his jacket.",
+      "**Do up** your belt.",
+      "She **did up** her apartment last summer.",
+      "He bought an old house and **did it up**."
+    ]
+  },
+  {
+    "id": 107,
+    "english": "MOVE ON (TO)",
+    "russian": "перейти к",
+    "type": "phrasal verb",
+    "english_example": [
+      "I **moved on to** the next exercise.",
+      "Let's **move on to** the next question."
+    ]
+  },
+  {
+    "id": 108,
+    "english": "TAKE IN",
+    "russian": "обманывать",
+    "type": "phrasal verb",
+    "english_example": [
+      "They want to **take her in**.",
+      "This woman was **taken in**."
+    ]
+  },
+  {
+    "id": 109,
+    "english": "GIVE OFF",
+    "russian": "издавать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The food **gives off** a bad smell.",
+      "That food **gives off** a very unpleasant smell."
+    ]
+  },
+  {
+    "id": 110,
+    "english": "GIVE OUT",
+    "russian": "раздавать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The teacher **gave out** these materials."
+    ]
+  },
+  {
+    "id": 111,
+    "english": "BRING ABOUT",
+    "russian": "вызывать, приводить к",
+    "type": "phrasal verb",
+    "english_example": [
+      "The government **brought about** a new law.",
+      "This **brought about** profound changes in the lives of ordinary people."
+    ]
+  },
+  {
+    "id": 112,
+    "english": "COME THROUGH",
+    "russian": "перенести, пройти через",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **came through** a very complicated operation.",
+      "He couldn't imagine what I **came through**."
+    ]
+  },
+  {
+    "id": 113,
+    "english": "GO UNDER",
+    "russian": "разориться",
+    "type": "phrasal verb",
+    "english_example": [
+      "The company will **go under** if the situation doesn't improve."
+    ]
+  },
+  {
+    "id": 114,
+    "english": "BRIGHTEN UP",
+    "russian": "скрасить, украсить",
+    "type": "phrasal verb",
+    "english_example": [
+      "This **brightens up** my life.",
+      "It **brightens up** my life."
+    ]
+  },
+  {
+    "id": 115,
+    "english": "INVEST IN",
+    "russian": "вкладывать, инвестировать в",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **invested** his money **in** a very risky project."
+    ]
+  },
+  {
+    "id": 116,
+    "english": "SURPRISED AT / BY",
+    "russian": "удивлён чем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "I was **surprised at / by** his reaction to these words."
+    ]
+  },
+  {
+    "id": 117,
+    "english": "NEED FOR",
+    "russian": "необходимость в",
+    "type": "phrasal verb",
+    "english_example": [
+      "There was no **need for** such radical changes."
+    ]
+  },
+  {
+    "id": 118,
+    "english": "MANAGE TO",
+    "russian": "суметь, удалось",
+    "type": "phrasal verb",
+    "english_example": [
+      "How did you **manage to** enter the room?"
+    ]
+  },
+  {
+    "id": 119,
+    "english": "AWARE OF",
+    "russian": "осведомлён о, осознавать",
+    "type": "phrasal verb",
+    "english_example": [
+      "The company is fully **aware of** this problem.",
+      "I am fully **aware of** the fact that it takes time."
+    ]
+  },
+  {
+    "id": 120,
+    "english": "INSIST ON",
+    "russian": "настаивать на",
+    "type": "phrasal verb",
+    "english_example": [
+      "Our director **insists on** punctuality."
+    ]
+  },
+  {
+    "id": 121,
+    "english": "ABSORBED IN",
+    "russian": "поглощён чем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He is completely **absorbed in** the movie."
+    ]
+  },
+  {
+    "id": 122,
+    "english": "ENGROSSED IN",
+    "russian": "поглощён чем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He is **engrossed in** the book."
+    ]
+  },
+  {
+    "id": 123,
+    "english": "SHOUT AT",
+    "russian": "кричать на",
+    "type": "phrasal verb",
+    "english_example": [
+      "He needs to stop **shouting at** her."
+    ]
+  },
+  {
+    "id": 124,
+    "english": "CONSIST OF",
+    "russian": "состоять из",
+    "type": "phrasal verb",
+    "english_example": [
+      "The cake **consists of** flour, sugar and eggs.",
+      "The book **consists of** 10 chapters."
+    ]
+  },
+  {
+    "id": 125,
+    "english": "IMPRESSED BY / WITH",
+    "russian": "поражён, изумлён",
+    "type": "phrasal verb",
+    "english_example": [
+      "I was really **impressed by** the result.",
+      "I was really **impressed by** the news."
+    ]
+  },
+  {
+    "id": 126,
+    "english": "REGISTER FOR",
+    "russian": "зарегистрироваться на",
+    "type": "phrasal verb",
+    "english_example": [
+      "Have you already **registered for** the course?",
+      "I'm going to **register for** the course."
+    ]
+  },
+  {
+    "id": 127,
+    "english": "COMPLAIN ABOUT",
+    "russian": "жаловаться на",
+    "type": "phrasal verb",
+    "english_example": [
+      "Did he **complain about** it?",
+      "He **complains about** his salary because he is often underpaid."
+    ]
+  },
+  {
+    "id": 128,
+    "english": "KEY TO",
+    "russian": "ключ к",
+    "type": "phrasal verb",
+    "english_example": [
+      "What is the **key to** success?",
+      "Hard work is the **key to** success."
+    ]
+  },
+  {
+    "id": 129,
+    "english": "EXCITED ABOUT",
+    "russian": "взволнован, в восторге от",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'm so **excited about** the upcoming event.",
+      "She is **excited about** the upcoming concert."
+    ]
+  },
+  {
+    "id": 130,
+    "english": "APPLY TO",
+    "russian": "подать заявление в",
+    "type": "phrasal verb",
+    "english_example": [
+      "She **applied to** this university and was accepted."
+    ]
+  },
+  {
+    "id": 131,
+    "english": "HOPE FOR",
+    "russian": "надеяться на",
+    "type": "phrasal verb",
+    "english_example": [
+      "We **hope for** further cooperation.",
+      "We **hope for** fruitful cooperation with you."
+    ]
+  },
+  {
+    "id": 132,
+    "english": "SYMPATHY FOR",
+    "russian": "сочувствие к",
+    "type": "phrasal verb",
+    "english_example": [
+      "He doesn't feel **sympathy for** those people who are in real need."
+    ]
+  },
+  {
+    "id": 133,
+    "english": "SMILE AT",
+    "russian": "улыбаться кому-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He **smiled at** her and waved."
+    ]
+  },
+  {
+    "id": 134,
+    "english": "DEPEND ON",
+    "russian": "зависеть от",
+    "type": "phrasal verb",
+    "english_example": [
+      "He doesn't want to **depend on** his parents any longer."
+    ]
+  },
+  {
+    "id": 135,
+    "english": "SUFFER FROM",
+    "russian": "страдать от",
+    "type": "phrasal verb",
+    "english_example": [
+      "He often **suffers from** depression.",
+      "She **suffers from** constant headaches."
+    ]
+  },
+  {
+    "id": 136,
+    "english": "LEAD TO",
+    "russian": "привести к",
+    "type": "phrasal verb",
+    "english_example": [
+      "This **led** the company **to** bankruptcy.",
+      "Do you agree that hard work **leads** us **to** success?",
+      "This can **lead to** unforeseen circumstances."
+    ]
+  },
+  {
+    "id": 137,
+    "english": "INVITATION TO",
+    "russian": "приглашение на",
+    "type": "phrasal verb",
+    "english_example": [
+      "I'll send you an **invitation to** the meeting."
+    ]
+  },
+  {
+    "id": 138,
+    "english": "BUSY WITH",
+    "russian": "занят чем-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "They are **busy with** a very important project."
+    ]
+  },
+  {
+    "id": 139,
+    "english": "CONTRIBUTION TO",
+    "russian": "вклад во что-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "He made a very significant **contribution to** our society.",
+      "He made a substantial **contribution to** charity."
+    ]
+  },
+  {
+    "id": 140,
+    "english": "ACCUSE OF",
+    "russian": "обвинять в",
+    "type": "phrasal verb",
+    "english_example": [
+      "He was unfairly **accused of** that crime."
+    ]
+  },
+  {
+    "id": 141,
+    "english": "RESISTANCE TO",
+    "russian": "сопротивление чему-то",
+    "type": "phrasal verb",
+    "english_example": [
+      "There was so much **resistance to** this new law."
+    ]
+  },
+  {
+    "id": 142,
+    "english": "INCREASE IN",
+    "russian": "рост / увеличение",
+    "type": "phrasal verb",
+    "english_example": [
+      "There was a sudden **increase in** sales.",
+      "They predicted a huge **increase in** sales."
+    ]
+  },
+  {
+    "id": 143,
+    "english": "DECREASE IN",
+    "russian": "снижение",
+    "type": "phrasal verb",
+    "english_example": [
+      "There was an unexpected **decrease in** sales."
+    ]
+  }
+]

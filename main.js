@@ -70,6 +70,7 @@ ipcMain.handle("store:save", (_event, data) => {
 
 const dictPath = path.join(__dirname, "b2-word-list.json");
 const c1DictPath = path.join(__dirname, "oxford_c1_words.json");
+const verbDictPath = path.join(__dirname, "verb.json");
 
 ipcMain.handle("store:loadDictionary", async () => {
   try {
@@ -89,6 +90,17 @@ ipcMain.handle("store:loadC1Dictionary", async () => {
     }
   } catch (e) {
     console.error("Failed to load C1 dictionary:", e);
+  }
+  return null;
+});
+
+ipcMain.handle("store:loadVerbDictionary", async () => {
+  try {
+    if (fs.existsSync(verbDictPath)) {
+      return JSON.parse(fs.readFileSync(verbDictPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load verb dictionary:", e);
   }
   return null;
 });

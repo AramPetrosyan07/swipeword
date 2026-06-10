@@ -4,6 +4,7 @@ class Store {
     this.dictionary = [];
     this.b2Dictionary = [];
     this.c1Dictionary = [];
+    this.verbDictionary = [];
     this.tags = {};
   }
 
@@ -20,17 +21,25 @@ class Store {
 
   async loadDictionary() {
     try {
-      const [b2, c1] = await Promise.all([
+      const [b2, c1, verb] = await Promise.all([
         window.electronAPI.storeLoadDictionary(),
         window.electronAPI.storeLoadC1Dictionary(),
+        window.electronAPI.storeLoadVerbDictionary(),
       ]);
       if (b2 && Array.isArray(b2)) this.b2Dictionary = b2;
       if (c1 && Array.isArray(c1)) this.c1Dictionary = c1;
-      this.dictionary = this.data.vocabulary === 'c1' ? this.c1Dictionary : this.b2Dictionary;
+      if (verb && Array.isArray(verb)) this.verbDictionary = verb;
+      this.dictionary = this._getDictionaryForVocab(this.data.vocabulary);
     } catch (e) {
       console.error('Failed to load dictionaries:', e);
     }
     return this.dictionary;
+  }
+
+  _getDictionaryForVocab(vocab) {
+    if (vocab === 'c1') return this.c1Dictionary;
+    if (vocab === 'verb') return this.verbDictionary;
+    return this.b2Dictionary;
   }
 
   async loadTags() {
@@ -45,6 +54,12 @@ class Store {
     return this.tags;
   }
 
+  _fileNameForVocab(vocab) {
+    if (vocab === 'c1') return 'oxford_c1_words';
+    if (vocab === 'verb') return 'verb';
+    return 'b2-word-list';
+  }
+
   async switchVocabulary(vocab) {
     if (vocab === this.data.vocabulary) return;
     const cur = this.data.vocabulary;
@@ -55,7 +70,7 @@ class Store {
     this.data[`${cur}_stats`] = this.data.stats;
     this.data[`${cur}_currentFileName`] = this.data.currentFileName;
     this.data.vocabulary = vocab;
-    this.dictionary = vocab === 'c1' ? this.c1Dictionary : this.b2Dictionary;
+    this.dictionary = this._getDictionaryForVocab(vocab);
     const savedWords = this.data[`${vocab}_words`];
     if (savedWords && savedWords.length > 0) {
       this.data.words = savedWords;
@@ -68,7 +83,7 @@ class Store {
       this.data.favorites = [];
       this.data.notes = {};
       this.data.customContent = {};
-      this.initFromDictionary(this.dictionary.length, vocab === 'c1' ? 'oxford_c1_words' : 'b2-word-list');
+      this.initFromDictionary(this.dictionary.length, this._fileNameForVocab(vocab));
     }
     await this.save();
   }
