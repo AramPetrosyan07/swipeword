@@ -14,6 +14,7 @@ class App {
     this.listViewActive = false;
     this.cameFromList = false;
     this._listCardOverlayActive = false;
+    this._listCardIndex = 0;
     this.sessionHistory = [];
 
     this.learnCard = new CardManager({
@@ -323,8 +324,8 @@ class App {
       }
 
       if (activeScreen.id === 'screen-learn' && !this.learnCard.isAnimating) {
-        if (this.listViewActive) return;
-        if (studyModeManager.isLearningMode) {
+        if (this.listViewActive && !this._listCardOverlayActive) return;
+        if (studyModeManager.isLearningMode || this._listCardOverlayActive) {
           switch (e.key) {
             case 'ArrowLeft':
               e.preventDefault();
@@ -638,12 +639,22 @@ class App {
   }
 
   _handleLearnPrev() {
+    if (this._listCardOverlayActive) {
+      if (this._listCardIndex <= 0) return;
+      this._showCardOnList(this._listCardIndex - 1);
+      return;
+    }
     if (this.currentIndex <= 0) return;
     this.currentIndex--;
     this._showCurrentCard();
   }
 
   _handleLearnNext() {
+    if (this._listCardOverlayActive) {
+      if (this._listCardIndex >= this.screenOrder.length - 1) return;
+      this._showCardOnList(this._listCardIndex + 1);
+      return;
+    }
     if (this.currentIndex >= this.screenOrder.length - 1) return;
     this.currentIndex++;
     this._showCurrentCard();
@@ -800,18 +811,21 @@ class App {
   _handleListRowClick(index) {
     const word = this.screenOrder[index];
     if (!word) return;
-    this._showCardOnList(word);
+    this._showCardOnList(index);
   }
 
-  _showCardOnList(word) {
+  _showCardOnList(index) {
+    const word = this.screenOrder[index];
+    if (!word) return;
     this._listCardOverlayActive = true;
+    this._listCardIndex = index;
     const learnContent = document.querySelector('.learn-content');
     learnContent.classList.add('list-card-overlay');
     learnContent.style.display = 'flex';
     document.getElementById('cardArea').style.display = 'flex';
     document.getElementById('letterStrip').style.display = 'none';
     this.learnCard.show(word);
-    this.learnCard.setMode(studyModeManager.isLearningMode);
+    this.learnCard.setMode(true);
     this.learnCard.updateStarIcon();
     this.learnCard.resetFlip();
   }
