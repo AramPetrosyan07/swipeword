@@ -73,22 +73,47 @@ class WordCollector {
 
   _search(query) {
     const q = query.toLowerCase();
-    const dict = appStore.dictionary;
-    if (!dict) return;
+    const dicts = [
+      ...(appStore.b2Dictionary || []),
+      ...(appStore.c1Dictionary || []),
+      ...(appStore.verbDictionary || []),
+    ];
+    if (dicts.length === 0) return;
 
+    const seen = new Set();
     const matches = [];
-    for (const entry of dict) {
-      const word = entry.english || '';
-      if (word.toLowerCase() === q) {
+    for (const entry of dicts) {
+      const id = entry.id;
+      if (seen.has(id)) continue;
+      seen.add(id);
+
+      const english = (entry.english || '').toLowerCase();
+      const armenian = (Array.isArray(entry.armenian) ? entry.armenian.join(' ') : (entry.armenian || '')).toLowerCase();
+      const russian = (entry.russian || '').toLowerCase();
+
+      if (english === q) {
         matches.unshift(entry);
         if (matches.length > 10) matches.pop();
-      } else if (word.toLowerCase().startsWith(q)) {
+      } else if (english.startsWith(q)) {
+        matches.push(entry);
+        if (matches.length > 10) break;
+      } else if (q.length >= 1 && armenian.includes(q)) {
+        matches.push(entry);
+        if (matches.length > 10) break;
+      } else if (q.length >= 1 && russian.includes(q)) {
         matches.push(entry);
         if (matches.length > 10) break;
       }
     }
 
     this._renderSuggestions(matches, q);
+  }
+
+  _dictLabel(entry) {
+    if (appStore.b2Dictionary && appStore.b2Dictionary.some(e => e.id === entry.id && e.english === entry.english)) return 'B2';
+    if (appStore.c1Dictionary && appStore.c1Dictionary.some(e => e.id === entry.id && e.english === entry.english)) return 'C1';
+    if (appStore.verbDictionary && appStore.verbDictionary.some(e => e.id === entry.id && e.english === entry.english)) return 'Verb';
+    return '';
   }
 
   _renderSuggestions(matches, query) {
@@ -108,9 +133,19 @@ class WordCollector {
       item.className = 'collector-suggestion';
       const english = entry.english || '';
       const armenian = Array.isArray(entry.armenian) ? entry.armenian.join(', ') : (entry.armenian || '');
+      const russian = entry.russian || '';
+      const label = this._dictLabel(entry);
+      const armenianHtml = this._highlight(armenian, query);
+      const russianHtml = russian ? this._highlight(russian, query) : '';
       item.innerHTML = `
-        <span class="collector-suggestion-word">${this._highlight(english, query)}</span>
-        <span class="collector-suggestion-translation">${this._escape(armenian)}</span>
+        <div class="collector-suggestion-info">
+          <span class="collector-suggestion-word">${this._highlight(english, query)}</span>
+          ${label ? `<span class="collector-suggestion-badge">${label}</span>` : ''}
+        </div>
+        <div class="collector-suggestion-translations">
+          <span class="collector-suggestion-translation">${armenianHtml}</span>
+          ${russian ? `<span class="collector-suggestion-russian">${russianHtml}</span>` : ''}
+        </div>
       `;
       item.addEventListener('click', () => {
         this._selectSuggestion(entry);
@@ -208,10 +243,14 @@ class WordCollector {
   }
 
   _findInDictionary(word) {
-    const dict = appStore.dictionary;
-    if (!dict) return null;
+    const dicts = [
+      ...(appStore.b2Dictionary || []),
+      ...(appStore.c1Dictionary || []),
+      ...(appStore.verbDictionary || []),
+    ];
+    if (dicts.length === 0) return null;
     const q = word.toLowerCase();
-    for (const entry of dict) {
+    for (const entry of dicts) {
       if ((entry.english || '').toLowerCase() === q) return entry;
     }
     return null;

@@ -3,6 +3,7 @@
     "id": 1,
     "english": "CALL OFF",
     "russian": "отменить",
+    "armenian": "չեղարկել",
     "type": "phrasal verb",
     "english_example": [
       "They **called off** the game.",
@@ -15,6 +16,7 @@
     "id": 2,
     "english": "FIGURE OUT",
     "russian": "понимать, разобраться",
+    "armenian": "հասկանալ, պարզել",
     "type": "phrasal verb",
     "english_example": [
       "I can't **figure out** how it works.",
@@ -25,6 +27,7 @@
     "id": 3,
     "english": "LOOK UP TO",
     "russian": "восхищаться, уважать",
+    "armenian": "հարգել, հիանալ",
     "type": "phrasal verb",
     "english_example": [
       "I really **look up to** him.",
@@ -36,6 +39,7 @@
     "id": 4,
     "english": "GO ON",
     "russian": "продолжать ; происходить",
+    "armenian": "շարունակել, տեղի ունենալ",
     "type": "phrasal verb",
     "english_example": [
       "He can't **go on** pretending that everything is okay.",
@@ -48,6 +52,7 @@
     "id": 5,
     "english": "FLICK THROUGH",
     "russian": "просмотреть, пролистать",
+    "armenian": "թերթել, աչքի անցկացնել",
     "type": "phrasal verb",
     "english_example": [
       "I will **flick through** this document.",
@@ -58,6 +63,7 @@
     "id": 6,
     "english": "SEE OFF",
     "russian": "провожать",
+    "armenian": "ճանապարհել",
     "type": "phrasal verb",
     "english_example": [
       "I'll **see you off** after lessons.",
@@ -68,6 +74,7 @@
     "id": 7,
     "english": "TAKE UP",
     "russian": "начать заниматься",
+    "armenian": "սկսել զբաղվել",
     "type": "phrasal verb",
     "english_example": [
       "I **took up** studying English seriously.",
@@ -78,6 +85,7 @@
     "id": 8,
     "english": "LOOK INTO",
     "russian": "изучать, расследовать",
+    "armenian": "ուսումնասիրել, հետաքննել",
     "type": "phrasal verb",
     "english_example": [
       "My colleague wants to **look into** this problem more thoroughly.",
@@ -88,6 +96,7 @@
     "id": 9,
     "english": "MAKE UP FOR",
     "russian": "компенсировать",
+    "armenian": "փոխհատուցել",
     "type": "phrasal verb",
     "english_example": [
       "Who will **make up for** these losses?",
@@ -99,6 +108,7 @@
     "id": 10,
     "english": "GIVE UP",
     "russian": "сдаваться; бросать",
+    "armenian": "հանձնվել, թողնել",
     "type": "phrasal verb",
     "english_example": [
       "Never **give up**.",
@@ -109,6 +119,7 @@
     "id": 11,
     "english": "THROW AWAY",
     "russian": "выбрасывать",
+    "armenian": "դեն նետել, թափել",
     "type": "phrasal verb",
     "english_example": [
       "She **threw it away**.",
@@ -119,6 +130,7 @@
     "id": 12,
     "english": "LOOK UP",
     "russian": "искать",
+    "armenian": "փնտրել (բառարանում)",
     "type": "phrasal verb",
     "english_example": [
       "I'll **look it up** in a dictionary.",
@@ -129,6 +141,7 @@
     "id": 13,
     "english": "ASK OUT",
     "russian": "приглашать на свидание",
+    "armenian": "ժամադրության հրավիրել",
     "type": "phrasal verb",
     "english_example": [
       "He decided to **ask her out**.",
@@ -139,6 +152,7 @@
     "id": 14,
     "english": "LEAVE OUT",
     "russian": "упускать, не включать",
+    "armenian": "բաց թողնել, չներառել",
     "type": "phrasal verb",
     "english_example": [
       "Some very important details were **left out**.",
@@ -149,6 +163,7 @@
     "id": 15,
     "english": "DISAGREE WITH / ON",
     "russian": "не соглашаться с кем-л. / по поводу",
+    "armenian": "համաձայն չլինել (ինչ-որ մեկի հետ / ինչ-որ բանի շուրջ)",
     "type": "phrasal verb",
     "english_example": [
       "They **disagree on** this issue.",
@@ -159,6 +174,7 @@
     "id": 16,
     "english": "ADVANTAGES OF",
     "russian": "преимущества чего-то",
+    "armenian": "առավելությունները",
     "type": "phrasal verb",
     "english_example": [
       "This is one of the main **advantages of** this profession.",
@@ -169,6 +185,7 @@
     "id": 17,
     "english": "DISADVANTAGES OF",
     "russian": "недостатки чего-то",
+    "armenian": "թերությունները",
     "type": "phrasal verb",
     "english_example": [
       "This is one of the **disadvantages of** this job.",
@@ -179,24 +196,23 @@
     "id": 18,
     "english": "ABSENCE FROM",
     "russian": "отсутствие на",
+    "armenian": "բացակայություն",
     "type": "phrasal verb",
-    "english_example": [
-      "How did he explain his **absence from** work?"
-    ]
+    "english_example": ["How did he explain his **absence from** work?"]
   },
   {
     "id": 19,
     "english": "COMPENSATE FOR",
     "russian": "компенсировать что-то",
+    "armenian": "փոխհատուցել (ինչ-որ բան)",
     "type": "phrasal verb",
-    "english_example": [
-      "They must **compensate** you **for** these losses."
-    ]
+    "english_example": ["They must **compensate** you **for** these losses."]
   },
   {
     "id": 20,
     "english": "DEMAND FOR",
     "russian": "спрос на",
+    "armenian": "պահանջարկ",
     "type": "phrasal verb",
     "english_example": [
       "There is a growing **demand for** these products.",
@@ -207,15 +223,15 @@
     "id": 21,
     "english": "APOLOGIZE TO",
     "russian": "извиняться перед кем-то",
+    "armenian": "ներողություն խնդրել (ինչ-որ մեկից)",
     "type": "phrasal verb",
-    "english_example": [
-      "He went and **apologized to** her."
-    ]
+    "english_example": ["He went and **apologized to** her."]
   },
   {
     "id": 22,
     "english": "APOLOGIZE FOR",
     "russian": "извиняться за что-то",
+    "armenian": "ներողություն խնդրել (ինչ-որ բանի համար)",
     "type": "phrasal verb",
     "english_example": [
       "They **apologized for** the delay.",
@@ -226,6 +242,7 @@
     "id": 23,
     "english": "STARE AT",
     "russian": "уставиться на",
+    "armenian": "սևեռվել, չռված նայել",
     "type": "phrasal verb",
     "english_example": [
       "The stranger was **staring at** him.",
@@ -236,6 +253,7 @@
     "id": 24,
     "english": "INTERFERE IN",
     "russian": "вмешиваться во что-то",
+    "armenian": "միջամտել",
     "type": "phrasal verb",
     "english_example": [
       "I think he shouldn't **interfere in** other people's affairs."
@@ -245,6 +263,7 @@
     "id": 25,
     "english": "CURE FOR",
     "russian": "лечение от",
+    "armenian": "դեղ, բուժում",
     "type": "phrasal verb",
     "english_example": [
       "A **cure for** this disease hasn't been found yet.",
@@ -255,15 +274,15 @@
     "id": 26,
     "english": "CURE OF",
     "russian": "излечить от",
+    "armenian": "բուժել (հիվանդությունից)",
     "type": "phrasal verb",
-    "english_example": [
-      "He was **cured of** this disease."
-    ]
+    "english_example": ["He was **cured of** this disease."]
   },
   {
     "id": 27,
     "english": "SUITABLE FOR",
     "russian": "подходит для",
+    "armenian": "հարմար, համապատասխան",
     "type": "phrasal verb",
     "english_example": [
       "This apartment is **suitable for** a small family.",
@@ -274,6 +293,7 @@
     "id": 28,
     "english": "BORED WITH",
     "russian": "надоело, наскучило",
+    "armenian": "ձանձրացած",
     "type": "phrasal verb",
     "english_example": [
       "He says that he is really **bored with** his present job.",
@@ -284,6 +304,7 @@
     "id": 29,
     "english": "PROVIDE WITH",
     "russian": "предоставлять",
+    "armenian": "ապահովել, տրամադրել",
     "type": "phrasal verb",
     "english_example": [
       "He **provides** us **with** very valuable information.",
@@ -294,15 +315,15 @@
     "id": 30,
     "english": "DELIGHTED WITH",
     "russian": "в восторге от",
+    "armenian": "հիացած (ինչ-որ բանով)",
     "type": "phrasal verb",
-    "english_example": [
-      "I was **delighted with** this result."
-    ]
+    "english_example": ["I was **delighted with** this result."]
   },
   {
     "id": 31,
     "english": "DELIGHTED TO",
     "russian": "в восторге делать что-то",
+    "armenian": "անչափ ուրախ լինել (ինչ-որ բան անել)",
     "type": "phrasal verb",
     "english_example": [
       "I'm absolutely **delighted to** see you.",
@@ -314,15 +335,15 @@
     "id": 32,
     "english": "PLEASED TO",
     "russian": "рад",
+    "armenian": "ուրախ լինել",
     "type": "phrasal verb",
-    "english_example": [
-      "I'm **pleased to** meet you."
-    ]
+    "english_example": ["I'm **pleased to** meet you."]
   },
   {
     "id": 33,
     "english": "DEPEND ON",
     "russian": "зависеть от",
+    "armenian": "կախված լինել",
     "type": "phrasal verb",
     "english_example": [
       "He **depends on** his parents.",
@@ -333,33 +354,31 @@
     "id": 34,
     "english": "FAMILIAR TO",
     "russian": "знаком кому-то",
+    "armenian": "ծանոթ լինել",
     "type": "phrasal verb",
-    "english_example": [
-      "This place doesn't look **familiar to** me."
-    ]
+    "english_example": ["This place doesn't look **familiar to** me."]
   },
   {
     "id": 35,
     "english": "OPTIMISTIC ABOUT",
     "russian": "оптимистичный по поводу",
+    "armenian": "լավատեսորեն տրամադրված",
     "type": "phrasal verb",
-    "english_example": [
-      "He is very **optimistic about** the future of the company."
-    ]
+    "english_example": ["He is **optimistic about** the future of the company."]
   },
   {
     "id": 36,
     "english": "CONFIDENT OF",
     "russian": "уверен в",
+    "armenian": "վստահ",
     "type": "phrasal verb",
-    "english_example": [
-      "I'm absolutely **confident of** that."
-    ]
+    "english_example": ["I'm absolutely **confident of** that."]
   },
   {
     "id": 37,
     "english": "DANGER OF",
     "russian": "опасность чего-то",
+    "armenian": "վտանգ",
     "type": "phrasal verb",
     "english_example": [
       "There is a **danger of** new protests.",
@@ -370,6 +389,7 @@
     "id": 38,
     "english": "KNOWN FOR",
     "russian": "известен чем-то",
+    "armenian": "հայտնի (ինչ-որ բանով)",
     "type": "phrasal verb",
     "english_example": [
       "He is **known for** his honesty.",
@@ -381,6 +401,7 @@
     "id": 39,
     "english": "LACK OF",
     "russian": "недостаток, нехватка",
+    "armenian": "պակաս, չգոյություն",
     "type": "phrasal verb",
     "english_example": [
       "They demonstrated a **lack of** knowledge and experience.",
@@ -391,6 +412,7 @@
     "id": 40,
     "english": "LACK",
     "russian": "не хватать",
+    "armenian": "պակասել, չհերիքել",
     "type": "phrasal verb",
     "english_example": [
       "I know that I **lack** confidence, but I'm trying to work on this problem."
@@ -400,6 +422,7 @@
     "id": 41,
     "english": "GET ON WITH / GET ALONG WITH",
     "russian": "ладить с кем-то",
+    "armenian": "լավ հարաբերություններ ունենալ, յոլա գնալ",
     "type": "phrasal verb",
     "english_example": [
       "I **get on well with** my neighbors.",
@@ -411,6 +434,7 @@
     "id": 42,
     "english": "CATCH UP WITH",
     "russian": "догнать кого-то",
+    "armenian": "հասնել (ինչ-որ մեկին)",
     "type": "phrasal verb",
     "english_example": [
       "I'll try to **catch up with** the others.",
@@ -422,6 +446,7 @@
     "id": 43,
     "english": "KEEP UP WITH",
     "russian": "поспевать, не отставать",
+    "armenian": "հետ չմնալ, համընթաց քայլել",
     "type": "phrasal verb",
     "english_example": [
       "It was very difficult for him to **keep up with** the rest of the class."
@@ -431,6 +456,7 @@
     "id": 44,
     "english": "BE OVER",
     "russian": "закончиться",
+    "armenian": "ավարտվել",
     "type": "phrasal verb",
     "english_example": [
       "It will **be over** soon.",
@@ -441,6 +467,7 @@
     "id": 45,
     "english": "COME ACROSS",
     "russian": "встретить, натолкнуться",
+    "armenian": "պատահաբար հանդիպել, բախվել",
     "type": "phrasal verb",
     "english_example": [
       "I **came across** so many new words in this text.",
@@ -452,6 +479,7 @@
     "id": 46,
     "english": "CARRY ON",
     "russian": "продолжать",
+    "armenian": "շարունակել",
     "type": "phrasal verb",
     "english_example": [
       "We can't **carry on** doing this.",
@@ -462,6 +490,7 @@
     "id": 47,
     "english": "RUN OUT OF",
     "russian": "закончиться",
+    "armenian": "վերջանալ, սպառվել",
     "type": "phrasal verb",
     "english_example": [
       "She **ran out of** money.",
@@ -474,15 +503,15 @@
     "id": 48,
     "english": "LOOK DOWN ON",
     "russian": "смотреть свысока",
+    "armenian": "վերևից նայել, արհամարհել",
     "type": "phrasal verb",
-    "english_example": [
-      "Some of his colleagues **look down on** him."
-    ]
+    "english_example": ["Some of his colleagues **look down on** him."]
   },
   {
     "id": 49,
     "english": "GET DOWN",
     "russian": "расстраивать, угнетать",
+    "armenian": "տխրեցնել, ընկճել",
     "type": "phrasal verb",
     "english_example": [
       "These problems sometimes **get me down**.",
@@ -493,6 +522,7 @@
     "id": 50,
     "english": "GET DOWN TO",
     "russian": "приступить к",
+    "armenian": "գործի անցնել, ձեռնամուխ լինել",
     "type": "phrasal verb",
     "english_example": [
       "I need to **get down to** work.",
@@ -503,15 +533,15 @@
     "id": 51,
     "english": "FIND OUT",
     "russian": "выяснить, узнать",
+    "armenian": "պարզել, իմանալ",
     "type": "phrasal verb",
-    "english_example": [
-      "She wants to **find out** the whole truth."
-    ]
+    "english_example": ["She wants to **find out** the whole truth."]
   },
   {
     "id": 52,
     "english": "COME IN (FOR)",
     "russian": "зайти, заглянуть",
+    "armenian": "ներս մտնել, այցելել",
     "type": "phrasal verb",
     "english_example": [
       "Would you like to **come in for** a cup of coffee?",
@@ -522,6 +552,7 @@
     "id": 53,
     "english": "COME ROUND",
     "russian": "заглянуть, навестить",
+    "armenian": "հյուր գալ, այցելել",
     "type": "phrasal verb",
     "english_example": [
       "If you don't mind, I'll **come round** to you for a cup of tea."
@@ -531,6 +562,7 @@
     "id": 54,
     "english": "TAKE AFTER",
     "russian": "быть похожим на",
+    "armenian": "նմանվել (ծնողներին)",
     "type": "phrasal verb",
     "english_example": [
       "He **takes after** his father.",
@@ -541,25 +573,23 @@
     "id": 55,
     "english": "LOOK AFTER",
     "russian": "присматривать, ухаживать",
+    "armenian": "խնամել, խնամք տանել",
     "type": "phrasal verb",
-    "english_example": [
-      "He **looks after** his old grandmother."
-    ]
+    "english_example": ["He **looks after** his old grandmother."]
   },
   {
     "id": 56,
     "english": "LOOK OUT / WATCH OUT",
     "russian": "смотреть по сторонам, остерегаться",
+    "armenian": "զգույշ լինել, զգուշանալ",
     "type": "phrasal verb",
-    "english_example": [
-      "**Look out!**",
-      "**Watch out**, or you can fall."
-    ]
+    "english_example": ["**Look out!**", "**Watch out**, or you can fall."]
   },
   {
     "id": 57,
     "english": "BRING UP",
     "russian": "воспитывать",
+    "armenian": "մեծացնել, դաստիարակել",
     "type": "phrasal verb",
     "english_example": [
       "He was born and **brought up** in the States.",
@@ -569,25 +599,24 @@
   {
     "id": 58,
     "english": "FALL OUT",
-    "russian": "ссориться",
+    "russian": "ссыриться",
+    "armenian": "վիճել, կռվել",
     "type": "phrasal verb",
-    "english_example": [
-      "He tries not to **fall out** with others."
-    ]
+    "english_example": ["He tries not to **fall out** with others."]
   },
   {
     "id": 59,
     "english": "LOOK THROUGH",
     "russian": "просмотреть, пролистать",
+    "armenian": "աչքի անցկացնել, վերանայել",
     "type": "phrasal verb",
-    "english_example": [
-      "I'll **look through** these documents."
-    ]
+    "english_example": ["I'll **look through** these documents."]
   },
   {
     "id": 60,
     "english": "FALL BEHIND",
     "russian": "отставать",
+    "armenian": "հետ մնալ",
     "type": "phrasal verb",
     "english_example": [
       "If you don't do anything urgent, you can **fall behind** very easily.",
@@ -598,6 +627,7 @@
     "id": 61,
     "english": "LOOK BACK (ON)",
     "russian": "оглядываться",
+    "armenian": "հետ նայել, անդրադառնալ (անցյալին)",
     "type": "phrasal verb",
     "english_example": [
       "When she **looks back on** those days, she realizes how happy she was.",
@@ -608,15 +638,15 @@
     "id": 62,
     "english": "LOOK AHEAD",
     "russian": "смотреть вперёд, забегать вперёд",
+    "armenian": "առաջ նայել, ապագային նայել",
     "type": "phrasal verb",
-    "english_example": [
-      "**Looking ahead**, we need to be ready for this."
-    ]
+    "english_example": ["**Looking ahead**, we need to be ready for this."]
   },
   {
     "id": 63,
     "english": "PUT ACROSS",
     "russian": "донести, передать",
+    "armenian": "հասցնել, բացատրել",
     "type": "phrasal verb",
     "english_example": [
       "I'll try to **put across** my idea.",
@@ -627,6 +657,7 @@
     "id": 64,
     "english": "GET BACK TO",
     "russian": "возвращаться к",
+    "armenian": "վերադառնալ (ինչ-որ թեմայի)",
     "type": "phrasal verb",
     "english_example": [
       "Let's **get back to** discussing our work.",
@@ -637,6 +668,7 @@
     "id": 65,
     "english": "PUT OFF",
     "russian": "откладывать",
+    "armenian": "հետաձգել",
     "type": "phrasal verb",
     "english_example": [
       "I wouldn't like to **put it off** till tomorrow.",
@@ -647,6 +679,7 @@
     "id": 66,
     "english": "GO OFF",
     "russian": "испортиться",
+    "armenian": "փչանալ, թթվել (ուտելիքի մասին)",
     "type": "phrasal verb",
     "english_example": [
       "The food can **go off**.",
@@ -657,6 +690,7 @@
     "id": 67,
     "english": "LET DOWN",
     "russian": "подвести",
+    "armenian": "հուսախաբ անել, քաշել",
     "type": "phrasal verb",
     "english_example": [
       "I know that he will never **let us down**.",
@@ -667,6 +701,7 @@
     "id": 68,
     "english": "DROP OUT OF",
     "russian": "бросить учёбу",
+    "armenian": "դուրս մնալ, կիսատ թողնել (ուսումը)",
     "type": "phrasal verb",
     "english_example": [
       "To everyone's surprise, he **dropped out of** college."
@@ -676,24 +711,23 @@
     "id": 69,
     "english": "TAKE OFF",
     "russian": "взлетать ; снимать",
+    "armenian": "օդ բարձրանալ, թռչել / հանել (հագուստը)",
     "type": "phrasal verb",
-    "english_example": [
-      "The plane will **take off** in an hour."
-    ]
+    "english_example": ["The plane will **take off** in an hour."]
   },
   {
     "id": 70,
     "english": "TALK OVER",
     "russian": "обговорить, обсудить",
+    "armenian": "քննարկել",
     "type": "phrasal verb",
-    "english_example": [
-      "I need to **talk it over** with you."
-    ]
+    "english_example": ["I need to **talk it over** with you."]
   },
   {
     "id": 71,
     "english": "GO UP",
     "russian": "вырастать, подниматься",
+    "armenian": "բարձրանալ, թանկանալ",
     "type": "phrasal verb",
     "english_example": [
       "The price **went up** to our surprise.",
@@ -704,6 +738,7 @@
     "id": 72,
     "english": "GO DOWN",
     "russian": "снижаться",
+    "armenian": "իջնել, էժանանալ",
     "type": "phrasal verb",
     "english_example": [
       "The price of oil **went down** by more than 30% recently.",
@@ -714,6 +749,7 @@
     "id": 73,
     "english": "PUT UP WITH",
     "russian": "мириться с",
+    "armenian": "համակերպվել",
     "type": "phrasal verb",
     "english_example": [
       "She can't **put up with** this anymore.",
@@ -724,6 +760,7 @@
     "id": 74,
     "english": "PUT UP",
     "russian": "повысить",
+    "armenian": "բարձրացնել (գինը)",
     "type": "phrasal verb",
     "english_example": [
       "They decided to **put up** the price.",
@@ -734,6 +771,7 @@
     "id": 75,
     "english": "GO BY",
     "russian": "проходить",
+    "armenian": "անցնել (ժամանակի մասին)",
     "type": "phrasal verb",
     "english_example": [
       "Time **goes by** so quickly.",
@@ -744,6 +782,7 @@
     "id": 76,
     "english": "THINK OVER",
     "russian": "обдумать",
+    "armenian": "կշռադատել, մտածել",
     "type": "phrasal verb",
     "english_example": [
       "She said that she would need some time to **think over** their proposal."
@@ -753,6 +792,7 @@
     "id": 77,
     "english": "POINT OUT",
     "russian": "отмечать, указывать",
+    "armenian": "մատնանշել, նշել",
     "type": "phrasal verb",
     "english_example": [
       "I'd like to **point out** that this is worth our attention.",
@@ -764,6 +804,7 @@
     "id": 78,
     "english": "COUNT ON",
     "russian": "рассчитывать на",
+    "armenian": "հույսը դնել (ինչ-որ մեկի վրա)",
     "type": "phrasal verb",
     "english_example": [
       "You can **count on** my help.",
@@ -774,6 +815,7 @@
     "id": 79,
     "english": "GET BY (ON)",
     "russian": "прожить на, обходиться",
+    "armenian": "յոլա գնալ, գոյատևել",
     "type": "phrasal verb",
     "english_example": [
       "It's almost impossible to **get by on** such a low salary.",
@@ -784,6 +826,7 @@
     "id": 80,
     "english": "MAKE UP",
     "russian": "придумывать",
+    "armenian": "հորինել",
     "type": "phrasal verb",
     "english_example": [
       "She **made up** this story.",
@@ -794,15 +837,15 @@
     "id": 81,
     "english": "GET AWAY",
     "russian": "сбежать",
+    "armenian": "փախչել, ճողոպրել",
     "type": "phrasal verb",
-    "english_example": [
-      "The robbers didn't manage to **get away**."
-    ]
+    "english_example": ["The robbers didn't manage to **get away**."]
   },
   {
     "id": 82,
     "english": "PUT FORWARD",
     "russian": "выдвигать, предлагать",
+    "armenian": "առաջ քաշել, առաջարկել",
     "type": "phrasal verb",
     "english_example": [
       "A new interesting suggestion was **put forward**.",
@@ -813,15 +856,15 @@
     "id": 83,
     "english": "PUT OUT",
     "russian": "потушить",
+    "armenian": "հանգցնել (կրակը)",
     "type": "phrasal verb",
-    "english_example": [
-      "**Put out** the fire."
-    ]
+    "english_example": ["**Put out** the fire."]
   },
   {
     "id": 84,
     "english": "MAKE OUT",
     "russian": "понимать, различать",
+    "armenian": "հասկանալ, տարբերել",
     "type": "phrasal verb",
     "english_example": [
       "I can't **make out** what's going on.",
@@ -833,6 +876,7 @@
     "id": 85,
     "english": "CARRY OUT",
     "russian": "проводить",
+    "armenian": "իրականացնել, անցկացնել",
     "type": "phrasal verb",
     "english_example": [
       "I'm going to **carry out** this research.",
@@ -843,6 +887,7 @@
     "id": 86,
     "english": "GIVE AWAY",
     "russian": "раздавать, отдавать",
+    "armenian": "բաժանել, նվիրել",
     "type": "phrasal verb",
     "english_example": [
       "He **gave away** his old clothes.",
@@ -853,6 +898,7 @@
     "id": 87,
     "english": "PICK UP",
     "russian": "забрать",
+    "armenian": "վերցնել, մեքենայով վերցնել",
     "type": "phrasal verb",
     "english_example": [
       "He'll **pick you up** after school.",
@@ -863,6 +909,7 @@
     "id": 88,
     "english": "CUT DOWN ON",
     "russian": "уменьшить потребление",
+    "armenian": "կրճատել, քչացնել",
     "type": "phrasal verb",
     "english_example": [
       "He decided to **cut down on** smoking.",
@@ -873,6 +920,7 @@
     "id": 89,
     "english": "CHEER UP",
     "russian": "взбодриться, поднять настроение",
+    "armenian": "ուրախանալ, տրամադրությունը բարձրացնել",
     "type": "phrasal verb",
     "english_example": [
       "**Cheer up!**",
@@ -883,6 +931,7 @@
     "id": 90,
     "english": "CLOSE DOWN",
     "russian": "закрыться",
+    "armenian": "փակվել (ընդմիշտ)",
     "type": "phrasal verb",
     "english_example": [
       "This company will have to **close down**.",
@@ -893,15 +942,15 @@
     "id": 91,
     "english": "BRING DOWN",
     "russian": "снижать",
+    "armenian": "իջեցնել, նվազեցնել",
     "type": "phrasal verb",
-    "english_example": [
-      "The company decided to **bring down** the price."
-    ]
+    "english_example": ["The company decided to **bring down** the price."]
   },
   {
     "id": 92,
     "english": "BACK UP",
     "russian": "поддерживать; создавать резервную копию",
+    "armenian": "աջակցել / պահուստային պատճեն անել",
     "type": "phrasal verb",
     "english_example": [
       "I'll **back you up** when you need it.",
@@ -913,24 +962,23 @@
     "id": 93,
     "english": "PUT ASIDE",
     "russian": "отложить, отбросить в сторону",
+    "armenian": "մի կողմ դնել, հետ գցել",
     "type": "phrasal verb",
-    "english_example": [
-      "**Put aside** all your fears."
-    ]
+    "english_example": ["**Put aside** all your fears."]
   },
   {
     "id": 94,
     "english": "PUT DOWN",
     "russian": "унижать, оскорблять",
+    "armenian": "նվաստացնել, վիրավորել",
     "type": "phrasal verb",
-    "english_example": [
-      "Stop **putting him down**."
-    ]
+    "english_example": ["Stop **putting him down**."]
   },
   {
     "id": 95,
     "english": "CALM DOWN",
     "russian": "успокоиться",
+    "armenian": "հանգստանալ",
     "type": "phrasal verb",
     "english_example": [
       "**Calm down!**",
@@ -942,6 +990,7 @@
     "id": 96,
     "english": "COOL DOWN",
     "russian": "успокоиться, остыть",
+    "armenian": "հանդարտվել, սառչել",
     "type": "phrasal verb",
     "english_example": [
       "**Cool down!**",
@@ -953,6 +1002,7 @@
     "id": 97,
     "english": "WRITE DOWN",
     "russian": "записать",
+    "armenian": "գրի առնել, գրել",
     "type": "phrasal verb",
     "english_example": [
       "I'll **write down** this word.",
@@ -963,6 +1013,7 @@
     "id": 98,
     "english": "COME ALONG",
     "russian": "пойти с кем-то, присоединиться",
+    "armenian": "միանալ, հետը գալ",
     "type": "phrasal verb",
     "english_example": [
       "You can **come along** with me.",
@@ -973,6 +1024,7 @@
     "id": 99,
     "english": "CHECK IN",
     "russian": "зарегистрироваться",
+    "armenian": "գրանցվել (հյուրանոցում)",
     "type": "phrasal verb",
     "english_example": [
       "I **checked in** at the hotel.",
@@ -984,33 +1036,31 @@
     "id": 100,
     "english": "CHECK OUT",
     "russian": "выезжать",
+    "armenian": "դուրս գրվել (հյուրանոցից)",
     "type": "phrasal verb",
-    "english_example": [
-      "What time will he **check out**?"
-    ]
+    "english_example": ["What time will he **check out**?"]
   },
   {
     "id": 101,
     "english": "BREAK OUT",
     "russian": "разразиться, вспыхнуть",
+    "armenian": "բռնկվել, սկսվել",
     "type": "phrasal verb",
-    "english_example": [
-      "The fire **broke out** suddenly."
-    ]
+    "english_example": ["The fire **broke out** suddenly."]
   },
   {
     "id": 102,
     "english": "DRESS DOWN",
     "russian": "одеваться неформально",
+    "armenian": "հասարակ/ոչ պաշտոնական հագնվել",
     "type": "phrasal verb",
-    "english_example": [
-      "Some office workers **dress down** on Fridays."
-    ]
+    "english_example": ["Some office workers **dress down** on Fridays."]
   },
   {
     "id": 103,
     "english": "CALL FOR",
     "russian": "требовать",
+    "armenian": "պահանջել",
     "type": "phrasal verb",
     "english_example": [
       "This type of work **calls for** more skills and professionalism.",
@@ -1022,6 +1072,7 @@
     "id": 104,
     "english": "EAT OUT",
     "russian": "есть не дома",
+    "armenian": "դրսում ուտել",
     "type": "phrasal verb",
     "english_example": [
       "Do you like **eating out**?",
@@ -1032,6 +1083,7 @@
     "id": 105,
     "english": "COME ON",
     "russian": "давай, ну же",
+    "armenian": "դե՛, արի՛",
     "type": "phrasal verb",
     "english_example": [
       "**Come on**, try it again.",
@@ -1042,6 +1094,7 @@
     "id": 106,
     "english": "DO UP",
     "russian": "застегнуть ; ремонтировать",
+    "armenian": "կոճկել / վերանորոգել",
     "type": "phrasal verb",
     "english_example": [
       "He **did up** his jacket.",
@@ -1054,6 +1107,7 @@
     "id": 107,
     "english": "MOVE ON (TO)",
     "russian": "перейти к",
+    "armenian": "առաջ անցնել, անցնել (մյուսին)",
     "type": "phrasal verb",
     "english_example": [
       "I **moved on to** the next exercise.",
@@ -1064,6 +1118,7 @@
     "id": 108,
     "english": "TAKE IN",
     "russian": "обманывать",
+    "armenian": "խաբել, մոլորեցնել",
     "type": "phrasal verb",
     "english_example": [
       "They want to **take her in**.",
@@ -1074,6 +1129,7 @@
     "id": 109,
     "english": "GIVE OFF",
     "russian": "издавать",
+    "armenian": "արձակել (հոտ, լույս)",
     "type": "phrasal verb",
     "english_example": [
       "The food **gives off** a bad smell.",
@@ -1084,15 +1140,15 @@
     "id": 110,
     "english": "GIVE OUT",
     "russian": "раздавать",
+    "armenian": "բաժանել",
     "type": "phrasal verb",
-    "english_example": [
-      "The teacher **gave out** these materials."
-    ]
+    "english_example": ["The teacher **gave out** these materials."]
   },
   {
     "id": 111,
     "english": "BRING ABOUT",
     "russian": "вызывать, приводить к",
+    "armenian": "առաջացնել, հանգեցնել",
     "type": "phrasal verb",
     "english_example": [
       "The government **brought about** a new law.",
@@ -1103,6 +1159,7 @@
     "id": 112,
     "english": "COME THROUGH",
     "russian": "перенести, пройти через",
+    "armenian": "անցնել միջով, հաղթահարել",
     "type": "phrasal verb",
     "english_example": [
       "He **came through** a very complicated operation.",
@@ -1113,6 +1170,7 @@
     "id": 113,
     "english": "GO UNDER",
     "russian": "разориться",
+    "armenian": "սնանկանալ",
     "type": "phrasal verb",
     "english_example": [
       "The company will **go under** if the situation doesn't improve."
@@ -1122,6 +1180,7 @@
     "id": 114,
     "english": "BRIGHTEN UP",
     "russian": "скрасить, украсить",
+    "armenian": "պայծառացնել, գեղեցկացնել",
     "type": "phrasal verb",
     "english_example": [
       "This **brightens up** my life.",
@@ -1132,6 +1191,7 @@
     "id": 115,
     "english": "INVEST IN",
     "russian": "вкладывать, инвестировать в",
+    "armenian": "ներդրում կատարել, ներդնել",
     "type": "phrasal verb",
     "english_example": [
       "He **invested** his money **in** a very risky project."
@@ -1141,6 +1201,7 @@
     "id": 116,
     "english": "SURPRISED AT / BY",
     "russian": "удивлён чем-то",
+    "armenian": "զարմացած",
     "type": "phrasal verb",
     "english_example": [
       "I was **surprised at / by** his reaction to these words."
@@ -1150,24 +1211,23 @@
     "id": 117,
     "english": "NEED FOR",
     "russian": "необходимость в",
+    "armenian": "կարիք, պահանջ",
     "type": "phrasal verb",
-    "english_example": [
-      "There was no **need for** such radical changes."
-    ]
+    "english_example": ["There was no **need for** such radical changes."]
   },
   {
     "id": 118,
     "english": "MANAGE TO",
     "russian": "суметь, удалось",
+    "armenian": "հաջողվել, կարողանալ",
     "type": "phrasal verb",
-    "english_example": [
-      "How did you **manage to** enter the room?"
-    ]
+    "english_example": ["How did you **manage to** enter the room?"]
   },
   {
     "id": 119,
     "english": "AWARE OF",
     "russian": "осведомлён о, осознавать",
+    "armenian": "տեղյակ, գիտակից",
     "type": "phrasal verb",
     "english_example": [
       "The company is fully **aware of** this problem.",
@@ -1178,42 +1238,39 @@
     "id": 120,
     "english": "INSIST ON",
     "russian": "настаивать на",
+    "armenian": "պնդել",
     "type": "phrasal verb",
-    "english_example": [
-      "Our director **insists on** punctuality."
-    ]
+    "english_example": ["Our director **insists on** punctuality."]
   },
   {
     "id": 121,
     "english": "ABSORBED IN",
     "russian": "поглощён чем-то",
+    "armenian": "կլանված",
     "type": "phrasal verb",
-    "english_example": [
-      "He is completely **absorbed in** the movie."
-    ]
+    "english_example": ["He is completely **absorbed in** the movie."]
   },
   {
     "id": 122,
     "english": "ENGROSSED IN",
     "russian": "поглощён чем-то",
+    "armenian": "խորասուզված, կլանված",
     "type": "phrasal verb",
-    "english_example": [
-      "He is **engrossed in** the book."
-    ]
+    "english_example": ["He is **engrossed in** the book."]
   },
   {
     "id": 123,
     "english": "SHOUT AT",
     "russian": "кричать на",
+    "armenian": "գոռալ (ինչ-որ մեկի վրա)",
     "type": "phrasal verb",
-    "english_example": [
-      "He needs to stop **shouting at** her."
-    ]
+    "english_example": ["He needs to stop **shouting at** her."]
   },
   {
     "id": 124,
     "english": "CONSIST OF",
     "russian": "состоять из",
+    "armenian": "բաղկացած լինել",
     "type": "phrasal verb",
     "english_example": [
       "The cake **consists of** flour, sugar and eggs.",
@@ -1224,6 +1281,7 @@
     "id": 125,
     "english": "IMPRESSED BY / WITH",
     "russian": "поражён, изумлён",
+    "armenian": "տպավորված",
     "type": "phrasal verb",
     "english_example": [
       "I was really **impressed by** the result.",
@@ -1234,6 +1292,7 @@
     "id": 126,
     "english": "REGISTER FOR",
     "russian": "зарегистрироваться на",
+    "armenian": "գրանցվել",
     "type": "phrasal verb",
     "english_example": [
       "Have you already **registered for** the course?",
@@ -1244,6 +1303,7 @@
     "id": 127,
     "english": "COMPLAIN ABOUT",
     "russian": "жаловаться на",
+    "armenian": "բողոքել",
     "type": "phrasal verb",
     "english_example": [
       "Did he **complain about** it?",
@@ -1254,6 +1314,7 @@
     "id": 128,
     "english": "KEY TO",
     "russian": "ключ к",
+    "armenian": "բանալի (հաջողության և այլն)",
     "type": "phrasal verb",
     "english_example": [
       "What is the **key to** success?",
@@ -1264,6 +1325,7 @@
     "id": 129,
     "english": "EXCITED ABOUT",
     "russian": "взволнован, в восторге от",
+    "armenian": "ոգևորված",
     "type": "phrasal verb",
     "english_example": [
       "I'm so **excited about** the upcoming event.",
@@ -1274,15 +1336,15 @@
     "id": 130,
     "english": "APPLY TO",
     "russian": "подать заявление в",
+    "armenian": "դիմել (դիմում ներկայացնել)",
     "type": "phrasal verb",
-    "english_example": [
-      "She **applied to** this university and was accepted."
-    ]
+    "english_example": ["She **applied to** this university and was accepted."]
   },
   {
     "id": 131,
     "english": "HOPE FOR",
     "russian": "надеяться на",
+    "armenian": "հուսալ, հույս ունենալ",
     "type": "phrasal verb",
     "english_example": [
       "We **hope for** further cooperation.",
@@ -1293,6 +1355,7 @@
     "id": 132,
     "english": "SYMPATHY FOR",
     "russian": "сочувствие к",
+    "armenian": "կարեկցանք",
     "type": "phrasal verb",
     "english_example": [
       "He doesn't feel **sympathy for** those people who are in real need."
@@ -1302,15 +1365,15 @@
     "id": 133,
     "english": "SMILE AT",
     "russian": "улыбаться кому-то",
+    "armenian": "ժպտալ",
     "type": "phrasal verb",
-    "english_example": [
-      "He **smiled at** her and waved."
-    ]
+    "english_example": ["He **smiled at** her and waved."]
   },
   {
     "id": 134,
     "english": "DEPEND ON",
     "russian": "зависеть от",
+    "armenian": "կախված լինել",
     "type": "phrasal verb",
     "english_example": [
       "He doesn't want to **depend on** his parents any longer."
@@ -1320,6 +1383,7 @@
     "id": 135,
     "english": "SUFFER FROM",
     "russian": "страдать от",
+    "armenian": "տառապել",
     "type": "phrasal verb",
     "english_example": [
       "He often **suffers from** depression.",
@@ -1330,6 +1394,7 @@
     "id": 136,
     "english": "LEAD TO",
     "russian": "привести к",
+    "armenian": "հանգեցնել, տանել",
     "type": "phrasal verb",
     "english_example": [
       "This **led** the company **to** bankruptcy.",
@@ -1341,24 +1406,23 @@
     "id": 137,
     "english": "INVITATION TO",
     "russian": "приглашение на",
+    "armenian": "հրավեր",
     "type": "phrasal verb",
-    "english_example": [
-      "I'll send you an **invitation to** the meeting."
-    ]
+    "english_example": ["I'll send you an **invitation to** the meeting."]
   },
   {
     "id": 138,
     "english": "BUSY WITH",
     "russian": "занят чем-то",
+    "armenian": "զբաղված",
     "type": "phrasal verb",
-    "english_example": [
-      "They are **busy with** a very important project."
-    ]
+    "english_example": ["They are **busy with** a very important project."]
   },
   {
     "id": 139,
     "english": "CONTRIBUTION TO",
     "russian": "вклад во что-то",
+    "armenian": "ավանդ, ներդրում",
     "type": "phrasal verb",
     "english_example": [
       "He made a very significant **contribution to** our society.",
@@ -1369,24 +1433,23 @@
     "id": 140,
     "english": "ACCUSE OF",
     "russian": "обвинять в",
+    "armenian": "մեղադրել",
     "type": "phrasal verb",
-    "english_example": [
-      "He was unfairly **accused of** that crime."
-    ]
+    "english_example": ["He was unfairly **accused of** that crime."]
   },
   {
     "id": 141,
     "english": "RESISTANCE TO",
     "russian": "сопротивление чему-то",
+    "armenian": "դիմադրություն",
     "type": "phrasal verb",
-    "english_example": [
-      "There was so much **resistance to** this new law."
-    ]
+    "english_example": ["There was so much **resistance to** this new law."]
   },
   {
     "id": 142,
     "english": "INCREASE IN",
     "russian": "рост / увеличение",
+    "armenian": "աճ, ավելացում",
     "type": "phrasal verb",
     "english_example": [
       "There was a sudden **increase in** sales.",
@@ -1397,9 +1460,8 @@
     "id": 143,
     "english": "DECREASE IN",
     "russian": "снижение",
+    "armenian": "նվազում, անկում",
     "type": "phrasal verb",
-    "english_example": [
-      "There was an unexpected **decrease in** sales."
-    ]
+    "english_example": ["There was an unexpected **decrease in** sales."]
   }
 ]

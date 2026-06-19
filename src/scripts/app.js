@@ -4,6 +4,7 @@ class App {
     this.currentIndex = 0;
     this.screenOrder = [];
     this.shuffleEnabled = false;
+    this.sortEnabled = false;
     this.favFilterEnabled = false;
     this.currentFileName = null;
 
@@ -219,6 +220,17 @@ class App {
       if (this.words.length > 0) this._buildQueue();
       this._updateSidebar();
       if (this.listViewActive) this._renderListView();
+    });
+    document.getElementById('btnSort').addEventListener('click', () => {
+      this.sortEnabled = !this.sortEnabled;
+      const btn = document.getElementById('btnSort');
+      btn.classList.toggle('active', this.sortEnabled);
+      if (this.words.length > 0) this._buildQueue();
+      if (this.listViewActive) {
+        this._renderListView();
+      } else {
+        this._showCurrentCard();
+      }
     });
     document.getElementById('btnModes').addEventListener('click', () => {
       modesManager.open();
@@ -488,6 +500,10 @@ class App {
 
     if (this.favFilterEnabled) {
       this.screenOrder = this.screenOrder.filter((w) => appStore.isFavorite(w.id));
+    }
+
+    if (this.sortEnabled) {
+      this.screenOrder.sort((a, b) => a.english.localeCompare(b.english));
     }
 
     if (this.shuffleEnabled) {
