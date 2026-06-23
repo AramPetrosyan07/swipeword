@@ -659,6 +659,7 @@ body.learning-mode .card-description {
   color: #f5a623;
   border: 2px solid #f5a623;
   font-size: 22px;
+  opacity: 0.9;
 }
 
 .action-star:hover {
@@ -669,6 +670,7 @@ body.learning-mode .card-description {
 .action-star.is-favorite {
   background: #f5a623;
   color: #fff;
+  opacity: 1;
 }
 
 /* Copyable elements */

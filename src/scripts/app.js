@@ -797,12 +797,22 @@ class App {
     this.screenOrder.forEach((word, index) => {
       const row = document.createElement('div');
       row.className = 'list-row';
-      const star = appStore.isFavorite(word.id) ? '\u2605' : '';
+      const isFav = appStore.isFavorite(word.id);
+      const starChar = isFav ? '\u2605' : '\u2606';
       row.innerHTML =
-        '<span class="list-col-star">' + star + '</span>' +
+        '<span class="list-col-star list-star-btn">' + starChar + '</span>' +
         '<span class="list-col-english">' + word.english + '</span>' +
         '<span class="list-col-armenian">' + (word.armenian || '') + '</span>' +
         '<span class="list-col-russian">' + (word.russian || word.translation || '') + '</span>';
+      const starSpan = row.querySelector('.list-star-btn');
+      starSpan.classList.toggle('is-favorite', isFav);
+      starSpan.addEventListener('click', (e) => {
+        e.stopPropagation();
+        appStore.toggleFavorite(word.id);
+        const nowFav = appStore.isFavorite(word.id);
+        starSpan.textContent = nowFav ? '\u2605' : '\u2606';
+        starSpan.classList.toggle('is-favorite', nowFav);
+      });
       row.addEventListener('click', () => this._handleListRowClick(index));
       container.appendChild(row);
     });
