@@ -111,10 +111,11 @@ class Store {
     if (!this.data.favorites) this.data.favorites = [];
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
-    if (this.data.c1_favorites) {
+    if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
       this.data.c1_words = null;
+      this.data._c1Migrated = true;
     }
   }
 
