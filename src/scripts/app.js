@@ -594,14 +594,18 @@ class App {
 
     const pos = this.currentIndex + 1;
     let total;
-    if (this.filterLetter) {
+    if (this.favFilterEnabled) {
+      total = this.screenOrder.length;
+    } else if (this.filterLetter) {
       total = this.words.filter(
         (w) => w.english.charAt(0).toUpperCase() === this.filterLetter
       ).length;
     } else {
       total = this.screenOrder.length;
     }
-    const filterLabel = this.filterLetter ? ` [${this.filterLetter}]` : '';
+    let filterLabel = '';
+    if (this.filterLetter) filterLabel += ` [${this.filterLetter}]`;
+    if (this.favFilterEnabled) filterLabel += ' \u2605';
     document.getElementById('progressText').textContent = `${pos} / ${total}${filterLabel}`;
     this._renderLetterStrip();
   }
