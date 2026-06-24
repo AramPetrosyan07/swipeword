@@ -257,11 +257,19 @@ class App {
     document.getElementById('btnListView').addEventListener('click', () => {
       this._toggleListView();
     });
-    document.getElementById('btnStar').addEventListener('click', () => {
-      this.learnCard.toggleFavorite();
+    document.getElementById('btnStar').addEventListener('click', async () => {
+      await this.learnCard.toggleFavorite();
     });
-    document.getElementById('btnLearnStar').addEventListener('click', () => {
-      this.learnCard.toggleFavorite();
+    document.getElementById('btnStar').addEventListener('contextmenu', async (e) => {
+      e.preventDefault();
+      await this.learnCard.toggleGreenStar();
+    });
+    document.getElementById('btnLearnStar').addEventListener('click', async () => {
+      await this.learnCard.toggleFavorite();
+    });
+    document.getElementById('btnLearnStar').addEventListener('contextmenu', async (e) => {
+      e.preventDefault();
+      await this.learnCard.toggleGreenStar();
     });
     document.getElementById('btnLearnPrev').addEventListener('click', () => {
       this._handleLearnPrev();
@@ -500,7 +508,7 @@ class App {
     }
 
     if (this.favFilterEnabled) {
-      this.screenOrder = this.screenOrder.filter((w) => appStore.isFavorite(w.id));
+      this.screenOrder = this.screenOrder.filter((w) => appStore.isFavorite(w.id) || appStore.isGreenStar(w.id));
     }
 
     if (this.sortEnabled) {
@@ -802,7 +810,9 @@ class App {
       const row = document.createElement('div');
       row.className = 'list-row';
       const isFav = appStore.isFavorite(word.id);
-      const starChar = isFav ? '\u2605' : '\u2606';
+      const isGreen = appStore.isGreenStar(word.id);
+      const isActive = isFav || isGreen;
+      const starChar = isActive ? '\u2605' : '\u2606';
       row.innerHTML =
         '<span class="list-col-star list-star-btn">' + starChar + '</span>' +
         '<span class="list-col-english">' + word.english + '</span>' +
@@ -810,12 +820,27 @@ class App {
         '<span class="list-col-russian">' + (word.russian || word.translation || '') + '</span>';
       const starSpan = row.querySelector('.list-star-btn');
       starSpan.classList.toggle('is-favorite', isFav);
-      starSpan.addEventListener('click', (e) => {
+      starSpan.classList.toggle('is-green-star', isGreen);
+      starSpan.addEventListener('click', async (e) => {
         e.stopPropagation();
-        appStore.toggleFavorite(word.id);
-        const nowFav = appStore.isFavorite(word.id);
-        starSpan.textContent = nowFav ? '\u2605' : '\u2606';
+        const id = word.id;
+        if (appStore.isGreenStar(id)) await appStore.toggleGreenStar(id);
+        const nowFav = await appStore.toggleFavorite(id);
+        const nowGreen = appStore.isGreenStar(id);
+        starSpan.textContent = (nowFav || nowGreen) ? '\u2605' : '\u2606';
         starSpan.classList.toggle('is-favorite', nowFav);
+        starSpan.classList.toggle('is-green-star', nowGreen);
+      });
+      starSpan.addEventListener('contextmenu', async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const id = word.id;
+        if (appStore.isFavorite(id)) await appStore.toggleFavorite(id);
+        const nowGreen = await appStore.toggleGreenStar(id);
+        const nowFav = appStore.isFavorite(id);
+        starSpan.textContent = (nowFav || nowGreen) ? '\u2605' : '\u2606';
+        starSpan.classList.toggle('is-favorite', nowFav);
+        starSpan.classList.toggle('is-green-star', nowGreen);
       });
       row.addEventListener('click', () => this._handleListRowClick(index));
       container.appendChild(row);

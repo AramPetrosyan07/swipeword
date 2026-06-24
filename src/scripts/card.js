@@ -76,22 +76,37 @@ class CardManager {
   updateStarIcon() {
     if (!this.currentWord) return;
     const isFav = appStore.isFavorite(this.currentWord.id);
-    const icon = isFav ? '\u2605' : '\u2606';
-    if (this.starEl) {
-      this.starEl.innerHTML = icon;
-      this.starEl.classList.toggle('is-favorite', isFav);
-      this.starEl.title = isFav ? 'Remove from favorites' : 'Add to favorites';
-    }
-    if (this.learnStarEl) {
-      this.learnStarEl.innerHTML = icon;
-      this.learnStarEl.classList.toggle('is-favorite', isFav);
-      this.learnStarEl.title = isFav ? 'Remove from favorites' : 'Add to favorites';
-    }
+    const isGreen = appStore.isGreenStar(this.currentWord.id);
+    const isActive = isFav || isGreen;
+    const icon = isActive ? '\u2605' : '\u2606';
+    const setEl = (el) => {
+      if (!el) return;
+      el.innerHTML = icon;
+      el.classList.toggle('is-favorite', isFav);
+      el.classList.toggle('is-green-star', isGreen);
+      el.title = isFav ? 'Remove from favorites' : isGreen ? 'Remove green star' : (this._learningMode ? 'Add to favorites' : 'Add to favorites');
+    };
+    setEl(this.starEl);
+    setEl(this.learnStarEl);
   }
 
-  toggleFavorite() {
+  async toggleFavorite() {
     if (!this.currentWord) return;
-    appStore.toggleFavorite(this.currentWord.id);
+    const id = this.currentWord.id;
+    if (appStore.isGreenStar(id)) {
+      await appStore.toggleGreenStar(id);
+    }
+    await appStore.toggleFavorite(id);
+    this.updateStarIcon();
+  }
+
+  async toggleGreenStar() {
+    if (!this.currentWord) return;
+    const id = this.currentWord.id;
+    if (appStore.isFavorite(id)) {
+      await appStore.toggleFavorite(id);
+    }
+    await appStore.toggleGreenStar(id);
     this.updateStarIcon();
   }
 

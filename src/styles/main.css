@@ -939,6 +939,14 @@ body {
   opacity: 1;
 }
 
+.list-star-btn.is-green-star {
+  opacity: 1;
+  color: #00ff00;
+  text-shadow:
+    0 0 15px rgba(0, 255, 0, 0.9),
+    0 0 20px rgba(0, 255, 0, 0.5);
+}
+
 .list-col-english {
   flex: 0 0 30%;
   font-size: 16px;

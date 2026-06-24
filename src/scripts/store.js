@@ -65,6 +65,7 @@ class Store {
     const cur = this.data.vocabulary;
     this.data[`${cur}_words`] = this.data.words;
     this.data[`${cur}_favorites`] = this.data.favorites;
+    this.data[`${cur}_greenStars`] = this.data.greenStars;
     this.data[`${cur}_notes`] = this.data.notes;
     this.data[`${cur}_customContent`] = this.data.customContent;
     this.data[`${cur}_stats`] = this.data.stats;
@@ -75,12 +76,14 @@ class Store {
     if (savedWords && savedWords.length > 0) {
       this.data.words = savedWords;
       this.data.favorites = this.data[`${vocab}_favorites`] || [];
+      this.data.greenStars = this.data[`${vocab}_greenStars`] || [];
       this.data.notes = this.data[`${vocab}_notes`] || {};
       this.data.customContent = this.data[`${vocab}_customContent`] || {};
       this.data.stats = this.data[`${vocab}_stats`] || { totalReviewed: 0, totalRemembered: 0, totalForgotten: 0, sessionsCompleted: 0 };
       this.data.currentFileName = this.data[`${vocab}_currentFileName`] || null;
     } else {
       this.data.favorites = [];
+      this.data.greenStars = [];
       this.data.notes = {};
       this.data.customContent = {};
       this.initFromDictionary(this.dictionary.length, this._fileNameForVocab(vocab));
@@ -109,6 +112,7 @@ class Store {
     if (!this.data.dailyLog) this.data.dailyLog = [];
     if (this.data.learnMode === undefined) this.data.learnMode = true;
     if (!this.data.favorites) this.data.favorites = [];
+    if (!this.data.greenStars) this.data.greenStars = [];
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
     if (this.data.c1_favorites && !this.data._c1Migrated) {
@@ -132,6 +136,7 @@ class Store {
       streak: 0,
       lastPracticed: null,
       favorites: [],
+      greenStars: [],
       darkMode: false,
       learnMode: true,
       shuffle: false,
@@ -553,14 +558,29 @@ class Store {
     return this.data.favorites.includes(id);
   }
 
-  toggleFavorite(id) {
+  async toggleFavorite(id) {
     const idx = this.data.favorites.indexOf(id);
     if (idx === -1) {
       this.data.favorites.push(id);
     } else {
       this.data.favorites.splice(idx, 1);
     }
-    this.save();
+    await this.save();
+    return idx === -1;
+  }
+
+  isGreenStar(id) {
+    return this.data.greenStars.includes(id);
+  }
+
+  async toggleGreenStar(id) {
+    const idx = this.data.greenStars.indexOf(id);
+    if (idx === -1) {
+      this.data.greenStars.push(id);
+    } else {
+      this.data.greenStars.splice(idx, 1);
+    }
+    await this.save();
     return idx === -1;
   }
 
