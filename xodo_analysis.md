@@ -380,5 +380,51 @@ A **secure, legally binding e-signature platform** with built-in document editin
 
 ---
 
+---
+
+## Proposed Feature: In-App Word/Sentence Translation (for SwipeWord)
+
+### Overview
+Add a **tap-to-translate** feature that lets the user click/tap any word or sentence within the app and see its translation in a bottom-sliding panel. Uses the **Google Translate API** (via `https://translate.googleapis.com/translate_a/single`) for on-demand translation.
+
+### Behavior
+1. User clicks/taps a word or selects a sentence (highlighted text).
+2. A **bottom panel** slides up from the bottom of the screen, displaying:
+   - The original text (source language, auto-detected)
+   - The translated text (target language, default: Armenian)
+   - A speaker icon to hear the original text via TTS
+   - A "Copy" button to copy the translation
+3. Tapping outside the panel or swiping it down dismisses it.
+4. The panel is resizable — can be dragged up to show more content (full translation, alternatives, usage examples).
+
+### Google Translate API
+- **Endpoint:** `GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl={target}&dt=t&q={text}`
+- **Source language (`sl`):** `auto` (auto-detect)
+- **Target language (`tl`):** configurable (default `hy` for Armenian)
+- **Response:** JSON array with translation text, detected language, etc.
+- Implementation via `fetch()` in the renderer process.
+
+### UI / States
+| State | Description |
+|-------|-------------|
+| **Closed** | Panel hidden, only a small handle/indicator visible at bottom |
+| **Loading** | Spinner inside panel while API request is in flight |
+| **Result** | Source text + translation displayed; TTS and Copy buttons |
+| **Error** | "Translation unavailable" message with retry button |
+| **Empty** | No text selected — "Select a word or sentence to translate" hint |
+
+### Integration Points
+- Activated from **Story Mode** (reading stories with vocabulary highlighting)
+- Activated from **any card** (click the word/translation on the card)
+- Activated from **Word Collector** (look up unknown words)
+- Configurable target language in app Settings (Armenian, Russian, or other)
+- Rate-limited (debounced) to avoid excessive API calls during text selection
+
+### Dependencies
+- Internet connection required (Google Translate API calls)
+- No additional npm packages — uses browser's built-in `fetch()`
+
+---
+
 *Analysis performed: June 26, 2026*  
 *Source: xodo.com, eversign.com, blog posts, app store listings, support portal*
