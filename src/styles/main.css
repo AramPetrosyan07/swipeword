@@ -134,7 +134,7 @@ body {
 .vocab-switch[data-vocab="b2"] .vocab-switch-label.b2,
 .vocab-switch[data-vocab="c1"] .vocab-switch-label.c1,
 .vocab-switch[data-vocab="verb"] .vocab-switch-label.verb {
-  color: #fff;
+  color: var(--text);
 }
 
 .vocab-switch-knob {
@@ -2485,3 +2485,27 @@ body {
   justify-content: flex-end;
   margin-top: 4px;
 }
+
+/* Reader sub-pages */
+#screen-reader .reader-body {
+  display: none;
+}
+
+.reader-page {
+  display: none;
+  flex: 1;
+  flex-direction: column;
+}
+
+.reader-page.active {
+  display: flex;
+}
+
+.reader-page-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

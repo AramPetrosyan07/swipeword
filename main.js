@@ -21,6 +21,26 @@ function createWindow() {
   mainWindow.loadFile(path.join(__dirname, "src", "index.html"));
 }
 
+// Live Reload: Watch the src directory and reload the window automatically when changes occur
+let devWatchTimeout;
+fs.watch(
+  path.join(__dirname, "src"),
+  { recursive: true },
+  (eventType, filename) => {
+    if (mainWindow) {
+      clearTimeout(devWatchTimeout);
+      devWatchTimeout = setTimeout(() => {
+        try {
+          mainWindow.webContents.reloadIgnoringCache();
+          console.log(`Live Reload: Reloaded due to change in ${filename}`);
+        } catch (e) {
+          // App window might have been closed
+        }
+      }, 150);
+    }
+  },
+);
+
 app.whenReady().then(createWindow);
 
 app.on("window-all-closed", () => {
@@ -137,7 +157,7 @@ ipcMain.handle("collection:add", async (_event, word) => {
     if (fs.existsSync(collectionPath)) {
       data = JSON.parse(fs.readFileSync(collectionPath, "utf-8"));
     }
-    if (data.some(item => item.word.toLowerCase() === word.toLowerCase())) {
+    if (data.some((item) => item.word.toLowerCase() === word.toLowerCase())) {
       return { success: false, reason: "exists" };
     }
     data.push({ word, addedAt: new Date().toISOString().split("T")[0] });
@@ -153,7 +173,9 @@ ipcMain.handle("collection:remove", async (_event, word) => {
   try {
     if (!fs.existsSync(collectionPath)) return { success: false };
     let data = JSON.parse(fs.readFileSync(collectionPath, "utf-8"));
-    data = data.filter(item => item.word.toLowerCase() !== word.toLowerCase());
+    data = data.filter(
+      (item) => item.word.toLowerCase() !== word.toLowerCase(),
+    );
     fs.writeFileSync(collectionPath, JSON.stringify(data, null, 2), "utf-8");
     return { success: true };
   } catch (e) {
@@ -184,13 +206,59 @@ ipcMain.handle("file:read", async (_event, filePath) => {
   }
 });
 
+ipcMain.handle("fs:readdir", async (_event, dirPath) => {
+  try {
+    const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+    const items = entries
+      .filter((e) => !e.name.startsWith("."))
+      .map((e) => {
+        const fullPath = path.join(dirPath, e.name);
+        let stat;
+        try { stat = fs.statSync(fullPath); } catch { stat = null; }
+        return {
+          name: e.name,
+          path: fullPath,
+          isDirectory: e.isDirectory(),
+          size: stat ? stat.size : 0,
+          mtimeMs: stat ? stat.mtimeMs : 0,
+        };
+      });
+    items.sort((a, b) => {
+      if (a.isDirectory !== b.isDirectory) return a.isDirectory ? -1 : 1;
+      return a.name.localeCompare(b.name);
+    });
+    return items;
+  } catch (e) {
+    console.error("Failed to read directory:", e);
+    return null;
+  }
+});
+
+ipcMain.handle("fs:getHomeDir", async () => {
+  return app.getPath("documents");
+});
+
+ipcMain.handle("dialog:openAny", async () => {
+  const result = await dialog.showOpenDialog(mainWindow, {
+    title: "Open file",
+    properties: ["openFile"],
+  });
+  if (result.canceled || result.filePaths.length === 0) return null;
+  const filePath = result.filePaths[0];
+  return { filePath, fileName: path.basename(filePath) };
+});
+
 const favFilePath = path.join(__dirname, "matched_ids.txt");
 
 ipcMain.handle("store:loadFavoritesFile", async () => {
   try {
     if (fs.existsSync(favFilePath)) {
       const content = fs.readFileSync(favFilePath, "utf-8");
-      return content.trim().split("\n").map((line) => parseInt(line.trim(), 10)).filter((id) => !isNaN(id));
+      return content
+        .trim()
+        .split("\n")
+        .map((line) => parseInt(line.trim(), 10))
+        .filter((id) => !isNaN(id));
     }
   } catch (e) {
     console.error("Failed to load favorites file:", e);

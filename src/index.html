@@ -25,50 +25,71 @@
         </div>
         <button class="icon-btn" id="btnSidebarClose" title="Close sidebar">&times;</button>
       </div>
-      <div class="sidebar-nav">
-        <button class="sidebar-btn" id="sideImport" data-screen="import">
-          <span class="sidebar-btn-icon">&#128194;</span> Import
-        </button>
-        <button class="sidebar-btn" id="sideLearn" data-screen="learn">
-          <span class="sidebar-btn-icon">&#128218;</span> Learn
-        </button>
-        <button class="sidebar-btn" id="sideReview" data-screen="review">
-          <span class="sidebar-btn-icon">&#128260;</span> Review
-        </button>
-        <button class="sidebar-btn" id="sideStats" data-screen="stats">
-          <span class="sidebar-btn-icon">&#128200;</span> Stats
-        </button>
-        <button class="sidebar-btn" id="sideTags" data-screen="tags">
-          <span class="sidebar-btn-icon">&#127991;</span> Tags
-        </button>
-        <button class="sidebar-btn" id="sideDailyHistory" data-screen="daily-history">
-          <span class="sidebar-btn-icon">&#128197;</span> Daily History
-        </button>
-        <button class="sidebar-btn" id="sideSelfTest" data-screen="selftest">
-          <span class="sidebar-btn-icon">&#128221;</span> Self-Test
-        </button>
-        <button class="sidebar-btn" id="sideCollector" data-screen="collector">
-          <span class="sidebar-btn-icon">&#128221;</span> Collector
-        </button>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-section-title">History</div>
-        <div id="sidebarHistory" class="sidebar-history">
-          <div class="sidebar-history-empty">No files imported yet</div>
+      <div id="sidebarReadContent" style="display:none;">
+        <div class="sidebar-nav">
+          <button class="sidebar-btn active" data-readpage="viewer" id="sideReaderViewer">
+            <span class="sidebar-btn-icon">&#128214;</span> Viewer
+          </button>
+          <button class="sidebar-btn" data-readpage="recovered" id="sideReaderRecovered">
+            <span class="sidebar-btn-icon">&#128260;</span> Recovered Files
+          </button>
+          <button class="sidebar-btn" data-readpage="recent" id="sideReaderRecent">
+            <span class="sidebar-btn-icon">&#128196;</span> Recent Documents
+          </button>
+          <button class="sidebar-btn" data-readpage="pinned" id="sideReaderPinned">
+            <span class="sidebar-btn-icon">&#128204;</span> Pinned Folders
+          </button>
+          <button class="sidebar-btn" data-readpage="browse" id="sideReaderBrowse">
+            <span class="sidebar-btn-icon">&#128194;</span> Browse
+          </button>
         </div>
       </div>
-      <div class="sidebar-footer">
-        <button class="sidebar-btn" id="sideShuffle">
-          <span class="sidebar-btn-icon">&#128256;</span> Shuffle
-          <span class="sidebar-toggle" id="sideShuffleIndicator">OFF</span>
-        </button>
-        <button class="sidebar-btn" id="sideTheme">
-          <span class="sidebar-btn-icon" id="sideThemeIcon">&#9789;</span> Theme
-          <span class="sidebar-toggle" id="sideThemeIndicator">LIGHT</span>
-        </button>
-        <div class="sidebar-info" id="sideInfo">
-          <div class="sidebar-info-line" id="sideFileName">No file loaded</div>
-          <div class="sidebar-info-line sidebar-info-sub" id="sideFileStats"></div>
+      <div id="sidebarLearnContent">
+        <div class="sidebar-nav">
+          <button class="sidebar-btn" id="sideImport" data-screen="import">
+            <span class="sidebar-btn-icon">&#128194;</span> Import
+          </button>
+          <button class="sidebar-btn" id="sideLearn" data-screen="learn">
+            <span class="sidebar-btn-icon">&#128218;</span> Learn
+          </button>
+          <button class="sidebar-btn" id="sideReview" data-screen="review">
+            <span class="sidebar-btn-icon">&#128260;</span> Review
+          </button>
+          <button class="sidebar-btn" id="sideStats" data-screen="stats">
+            <span class="sidebar-btn-icon">&#128200;</span> Stats
+          </button>
+          <button class="sidebar-btn" id="sideTags" data-screen="tags">
+            <span class="sidebar-btn-icon">&#127991;</span> Tags
+          </button>
+          <button class="sidebar-btn" id="sideDailyHistory" data-screen="daily-history">
+            <span class="sidebar-btn-icon">&#128197;</span> Daily History
+          </button>
+          <button class="sidebar-btn" id="sideSelfTest" data-screen="selftest">
+            <span class="sidebar-btn-icon">&#128221;</span> Self-Test
+          </button>
+          <button class="sidebar-btn" id="sideCollector" data-screen="collector">
+            <span class="sidebar-btn-icon">&#128221;</span> Collector
+          </button>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">History</div>
+          <div id="sidebarHistory" class="sidebar-history">
+            <div class="sidebar-history-empty">No files imported yet</div>
+          </div>
+        </div>
+        <div class="sidebar-footer">
+          <button class="sidebar-btn" id="sideShuffle">
+            <span class="sidebar-btn-icon">&#128256;</span> Shuffle
+            <span class="sidebar-toggle" id="sideShuffleIndicator">OFF</span>
+          </button>
+          <button class="sidebar-btn" id="sideTheme">
+            <span class="sidebar-btn-icon" id="sideThemeIcon">&#9789;</span> Theme
+            <span class="sidebar-toggle" id="sideThemeIndicator">LIGHT</span>
+          </button>
+          <div class="sidebar-info" id="sideInfo">
+            <div class="sidebar-info-line" id="sideFileName">No file loaded</div>
+            <div class="sidebar-info-line sidebar-info-sub" id="sideFileStats"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -759,18 +780,8 @@
     <!-- Reader Screen -->
     <div id="screen-reader" class="screen">
       <div class="reader-toolbar">
-        <button class="icon-btn" id="btnReaderBack" title="Back to Learn">&#8592;</button>
+        <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
         <span class="reader-title" id="readerTitle">Reader</span>
-        <div class="reader-toolbar-right">
-          <button class="icon-btn reader-page-btn" id="btnReaderPrevPage" title="Previous page">&#9664;</button>
-          <span class="reader-page-info" id="readerPageInfo">- / -</span>
-          <button class="icon-btn reader-page-btn" id="btnReaderNextPage" title="Next page">&#9654;</button>
-          <button class="icon-btn" id="btnReaderZoomOut" title="Zoom out">&#8722;</button>
-          <span class="reader-zoom-level" id="readerZoomLevel">100%</span>
-          <button class="icon-btn" id="btnReaderZoomIn" title="Zoom in">&#43;</button>
-          <button class="icon-btn" id="btnReaderTheme" title="Change theme">&#127769;</button>
-          <button class="icon-btn" id="btnReaderOpen" title="Open PDF">&#128194;</button>
-        </div>
       </div>
       <div class="reader-body">
         <div class="reader-empty" id="readerEmpty">
@@ -783,6 +794,51 @@
           <div class="reader-page-container" id="readerPageContainer">
             <canvas id="readerCanvas"></canvas>
             <div class="reader-text-layer" id="readerTextLayer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="reader-page active" id="reader-viewer">
+        <div class="reader-page-content">
+          <div class="reader-empty">
+            <div class="reader-empty-icon">&#128065;</div>
+            <h2 class="reader-empty-title">Viewer</h2>
+            <p class="reader-empty-text">Open a document to start reading</p>
+          </div>
+        </div>
+      </div>
+      <div class="reader-page" id="reader-recovered">
+        <div class="reader-page-content">
+          <div class="reader-empty">
+            <div class="reader-empty-icon">&#128259;</div>
+            <h2 class="reader-empty-title">Recovered Files</h2>
+            <p class="reader-empty-text">No recovered files</p>
+          </div>
+        </div>
+      </div>
+      <div class="reader-page" id="reader-recent">
+        <div class="reader-page-content">
+          <div class="reader-empty">
+            <div class="reader-empty-icon">&#128337;</div>
+            <h2 class="reader-empty-title">Recent Documents</h2>
+            <p class="reader-empty-text">No recent documents</p>
+          </div>
+        </div>
+      </div>
+      <div class="reader-page" id="reader-pinned">
+        <div class="reader-page-content">
+          <div class="reader-empty">
+            <div class="reader-empty-icon">&#128204;</div>
+            <h2 class="reader-empty-title">Pinned Folders</h2>
+            <p class="reader-empty-text">No pinned folders</p>
+          </div>
+        </div>
+      </div>
+      <div class="reader-page" id="reader-browse">
+        <div class="reader-page-content">
+          <div class="reader-empty">
+            <div class="reader-empty-icon">&#128194;</div>
+            <h2 class="reader-empty-title">Browse</h2>
+            <p class="reader-empty-text">Open a PDF file to start reading</p>
           </div>
         </div>
       </div>
@@ -861,6 +917,7 @@
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
   <script src="scripts/reader.js"></script>
+  <script src="scripts/browse.js"></script>
   <script src="scripts/study-mode.js"></script>
   <script src="scripts/collections.js"></script>
   <script src="scripts/tags-page.js"></script>

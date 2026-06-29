@@ -142,6 +142,17 @@ class App {
       this._closeSidebar();
       selfTest.start();
     });
+    document.querySelectorAll('#sidebarReadContent .sidebar-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        if (btn.dataset.readpage === 'browse') {
+          this._closeSidebar();
+          browseOpenPDF();
+        } else {
+          this._switchReaderPage(btn.dataset.readpage);
+          this._closeSidebar();
+        }
+      });
+    });
     document.getElementById('sideCollector').addEventListener('click', () => {
       this._closeSidebar();
       wordCollector.show();
@@ -312,30 +323,15 @@ class App {
       if (e.target === document.getElementById('noteEditorPopup')) this._closeNoteEditor();
     });
 
-    document.getElementById('btnReaderBack').addEventListener('click', () => {
-      this._switchAppMode('learn');
+    document.getElementById('btnReaderMenu').addEventListener('click', () => {
+      this._toggleSidebar();
     });
-    document.getElementById('btnReaderOpen').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.openFile();
-    });
-    document.getElementById('btnReaderOpenEmpty').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.openFile();
-    });
-    document.getElementById('btnReaderPrevPage').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.prevPage();
-    });
-    document.getElementById('btnReaderNextPage').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.nextPage();
-    });
-    document.getElementById('btnReaderZoomIn').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.zoomIn();
-    });
-    document.getElementById('btnReaderZoomOut').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.zoomOut();
-    });
-    document.getElementById('btnReaderTheme').addEventListener('click', () => {
-      if (typeof readerMode !== 'undefined') readerMode.toggleTheme();
-    });
+    const btnOpenEmpty = document.getElementById('btnReaderOpenEmpty');
+    if (btnOpenEmpty) {
+      btnOpenEmpty.addEventListener('click', () => {
+        if (typeof readerMode !== 'undefined') readerMode.openFile();
+      });
+    }
     document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
       document.getElementById('readerTranslatePopup').style.display = 'none';
     });
@@ -466,15 +462,28 @@ class App {
       document.querySelector('.learn-content').style.display = 'none';
       document.getElementById('cardArea').style.display = 'none';
       document.getElementById('listView').style.display = 'none';
+      document.getElementById('sidebarLearnContent').style.display = 'none';
+      document.getElementById('sidebarReadContent').style.display = '';
     } else {
       this._closeSidebar();
       document.getElementById('screen-reader').classList.remove('active');
+      document.getElementById('sidebarLearnContent').style.display = '';
+      document.getElementById('sidebarReadContent').style.display = 'none';
       if (this.words.length > 0) {
         this._showLearnScreen();
       } else {
         this._showImportScreen();
       }
     }
+  }
+
+  _switchReaderPage(page) {
+    document.querySelectorAll('.reader-page').forEach((p) => p.classList.remove('active'));
+    document.querySelectorAll('#sidebarReadContent .sidebar-btn').forEach((b) => b.classList.remove('active'));
+    const pageEl = document.getElementById('reader-' + page);
+    if (pageEl) pageEl.classList.add('active');
+    const btnEl = document.querySelector('#sidebarReadContent .sidebar-btn[data-readpage="' + page + '"]');
+    if (btnEl) btnEl.classList.add('active');
   }
 
   async _switchVocabulary() {

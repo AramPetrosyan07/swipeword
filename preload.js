@@ -14,4 +14,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   collectionLoad: () => ipcRenderer.invoke('collection:load'),
   collectionAdd: (word) => ipcRenderer.invoke('collection:add', word),
   collectionRemove: (word) => ipcRenderer.invoke('collection:remove', word),
+  readDir: (dirPath) => ipcRenderer.invoke('fs:readdir', dirPath),
+  getHomeDir: () => ipcRenderer.invoke('fs:getHomeDir'),
+  openAnyDialog: () => ipcRenderer.invoke('dialog:openAny'),
 });

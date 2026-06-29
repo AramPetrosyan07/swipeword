@@ -22,18 +22,32 @@ class ReaderMode {
     try {
       const result = await window.electronAPI.openPDFDialog();
       if (!result) return;
-      const pdfData = await window.electronAPI.readFile(result.filePath);
-      if (!pdfData) {
-        alert('Failed to read PDF file');
-        return;
-      }
-      this.currentFilePath = result.filePath;
-      this._title.textContent = result.fileName;
-      this._loadPDF(pdfData);
+      await this._loadFromPath(result.filePath, result.fileName);
     } catch (e) {
       console.error('Failed to open file:', e);
       alert('Failed to open PDF file');
     }
+  }
+
+  async openFileAtPath(filePath) {
+    try {
+      const fileName = filePath.split('\\').pop().split('/').pop();
+      await this._loadFromPath(filePath, fileName);
+    } catch (e) {
+      console.error('Failed to open file:', e);
+      alert('Failed to open PDF file');
+    }
+  }
+
+  async _loadFromPath(filePath, fileName) {
+    const pdfData = await window.electronAPI.readFile(filePath);
+    if (!pdfData) {
+      alert('Failed to read PDF file');
+      return;
+    }
+    this.currentFilePath = filePath;
+    this._title.textContent = fileName;
+    this._loadPDF(pdfData);
   }
 
   async _loadPDF(data) {
