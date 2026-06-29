@@ -480,6 +480,9 @@ class App {
     if (pageEl) pageEl.classList.add('active');
     const btnEl = document.querySelector('#sidebarReadContent .sidebar-btn[data-readpage="' + page + '"]');
     if (btnEl) btnEl.classList.add('active');
+    if (page === 'pinned' && typeof showPinnedFolder !== 'undefined') {
+      showPinnedFolder();
+    }
   }
 
   async _switchVocabulary() {
