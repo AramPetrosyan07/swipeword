@@ -162,6 +162,28 @@ ipcMain.handle("collection:remove", async (_event, word) => {
   }
 });
 
+ipcMain.handle("dialog:openPDF", async () => {
+  const result = await dialog.showOpenDialog(mainWindow, {
+    title: "Open PDF file",
+    filters: [{ name: "PDF Files", extensions: ["pdf"] }],
+    properties: ["openFile"],
+  });
+  if (result.canceled || result.filePaths.length === 0) return null;
+  const filePath = result.filePaths[0];
+  const fileName = path.basename(filePath);
+  return { fileName, filePath };
+});
+
+ipcMain.handle("file:read", async (_event, filePath) => {
+  try {
+    const buffer = fs.readFileSync(filePath);
+    return buffer;
+  } catch (e) {
+    console.error("Failed to read file:", e);
+    return null;
+  }
+});
+
 const favFilePath = path.join(__dirname, "matched_ids.txt");
 
 ipcMain.handle("store:loadFavoritesFile", async () => {

@@ -16,6 +16,7 @@ class App {
     this._listCardOverlayActive = false;
     this._listCardIndex = 0;
     this.sessionHistory = [];
+    this._currentAppMode = 'learn';
 
     this.learnCard = new CardManager({
       cardEl: document.getElementById('card'),
@@ -144,6 +145,16 @@ class App {
     document.getElementById('sideCollector').addEventListener('click', () => {
       this._closeSidebar();
       wordCollector.show();
+    });
+
+    document.querySelectorAll('.sidebar-mode-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const mode = btn.dataset.mode;
+        if (mode !== this._currentAppMode) {
+          this._switchAppMode(mode);
+          this._closeSidebar();
+        }
+      });
     });
 
     document.getElementById('sideShuffle').addEventListener('click', () => {
@@ -301,6 +312,34 @@ class App {
       if (e.target === document.getElementById('noteEditorPopup')) this._closeNoteEditor();
     });
 
+    document.getElementById('btnReaderBack').addEventListener('click', () => {
+      this._switchAppMode('learn');
+    });
+    document.getElementById('btnReaderOpen').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.openFile();
+    });
+    document.getElementById('btnReaderOpenEmpty').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.openFile();
+    });
+    document.getElementById('btnReaderPrevPage').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.prevPage();
+    });
+    document.getElementById('btnReaderNextPage').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.nextPage();
+    });
+    document.getElementById('btnReaderZoomIn').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.zoomIn();
+    });
+    document.getElementById('btnReaderZoomOut').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.zoomOut();
+    });
+    document.getElementById('btnReaderTheme').addEventListener('click', () => {
+      if (typeof readerMode !== 'undefined') readerMode.toggleTheme();
+    });
+    document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
+      document.getElementById('readerTranslatePopup').style.display = 'none';
+    });
+
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT') return;
 
@@ -327,6 +366,10 @@ class App {
         }
         if (this.cameFromList) {
           this._toggleListView();
+          return;
+        }
+        if (activeScreen.id === 'screen-reader' && this._currentAppMode === 'read') {
+          this._switchAppMode('learn');
           return;
         }
       }
@@ -365,6 +408,19 @@ class App {
               break;
           }
         }
+      } else if (activeScreen.id === 'screen-reader' && this._currentAppMode === 'read') {
+        if (typeof readerMode !== 'undefined') {
+          switch (e.key) {
+            case 'ArrowLeft':
+              e.preventDefault();
+              readerMode.prevPage();
+              break;
+            case 'ArrowRight':
+              e.preventDefault();
+              readerMode.nextPage();
+              break;
+          }
+        }
       } else if (activeScreen.id === 'screen-selftest' && selfTest.isActive && !selfTest.isAnimating) {
         switch (e.key) {
           case 'ArrowLeft':
@@ -397,6 +453,28 @@ class App {
         }
       }
     });
+  }
+
+  _switchAppMode(mode) {
+    this._currentAppMode = mode;
+    document.querySelectorAll('.sidebar-mode-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.mode === mode);
+    });
+    if (mode === 'read') {
+      document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+      document.getElementById('screen-reader').classList.add('active');
+      document.querySelector('.learn-content').style.display = 'none';
+      document.getElementById('cardArea').style.display = 'none';
+      document.getElementById('listView').style.display = 'none';
+    } else {
+      this._closeSidebar();
+      document.getElementById('screen-reader').classList.remove('active');
+      if (this.words.length > 0) {
+        this._showLearnScreen();
+      } else {
+        this._showImportScreen();
+      }
+    }
   }
 
   async _switchVocabulary() {

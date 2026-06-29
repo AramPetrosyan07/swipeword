@@ -13,7 +13,16 @@
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
       <div class="sidebar-header">
-        <span class="sidebar-logo">SwipeWord</span>
+        <div class="sidebar-mode-switch" id="sidebarModeSwitch">
+          <button class="sidebar-mode-btn active" data-mode="learn" title="Learn Words">
+            <span class="sidebar-mode-icon">📖</span>
+            <span class="sidebar-mode-label">Words</span>
+          </button>
+          <button class="sidebar-mode-btn" data-mode="read" title="Read Books">
+            <span class="sidebar-mode-icon">📚</span>
+            <span class="sidebar-mode-label">Read</span>
+          </button>
+        </div>
         <button class="icon-btn" id="btnSidebarClose" title="Close sidebar">&times;</button>
       </div>
       <div class="sidebar-nav">
@@ -747,6 +756,57 @@
       </div>
     </div>
 
+    <!-- Reader Screen -->
+    <div id="screen-reader" class="screen">
+      <div class="reader-toolbar">
+        <button class="icon-btn" id="btnReaderBack" title="Back to Learn">&#8592;</button>
+        <span class="reader-title" id="readerTitle">Reader</span>
+        <div class="reader-toolbar-right">
+          <button class="icon-btn reader-page-btn" id="btnReaderPrevPage" title="Previous page">&#9664;</button>
+          <span class="reader-page-info" id="readerPageInfo">- / -</span>
+          <button class="icon-btn reader-page-btn" id="btnReaderNextPage" title="Next page">&#9654;</button>
+          <button class="icon-btn" id="btnReaderZoomOut" title="Zoom out">&#8722;</button>
+          <span class="reader-zoom-level" id="readerZoomLevel">100%</span>
+          <button class="icon-btn" id="btnReaderZoomIn" title="Zoom in">&#43;</button>
+          <button class="icon-btn" id="btnReaderTheme" title="Change theme">&#127769;</button>
+          <button class="icon-btn" id="btnReaderOpen" title="Open PDF">&#128194;</button>
+        </div>
+      </div>
+      <div class="reader-body">
+        <div class="reader-empty" id="readerEmpty">
+          <div class="reader-empty-icon">&#128214;</div>
+          <h2 class="reader-empty-title">No book open</h2>
+          <p class="reader-empty-text">Open a PDF file to start reading</p>
+          <button class="btn btn-primary" id="btnReaderOpenEmpty">Open PDF</button>
+        </div>
+        <div class="reader-viewport" id="readerViewport" style="display:none;">
+          <div class="reader-page-container" id="readerPageContainer">
+            <canvas id="readerCanvas"></canvas>
+            <div class="reader-text-layer" id="readerTextLayer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
+        <div class="reader-translate-header">
+          <span class="reader-translate-word" id="readerTranslateWord"></span>
+          <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
+        </div>
+        <div class="reader-translate-body">
+          <div class="reader-translate-row">
+            <span class="reader-translate-label">Armenian:</span>
+            <span class="reader-translate-value" id="readerTranslateArmenian"></span>
+          </div>
+          <div class="reader-translate-row">
+            <span class="reader-translate-label">Russian:</span>
+            <span class="reader-translate-value" id="readerTranslateRussian"></span>
+          </div>
+        </div>
+        <div class="reader-translate-actions">
+          <button class="btn btn-secondary" id="btnReaderAddWord">+ Add to collection</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Word Collector Screen -->
     <div id="screen-collector" class="screen">
       <div class="top-bar">
@@ -800,6 +860,7 @@
   <script src="scripts/multichoice-mode.js"></script>
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
+  <script src="scripts/reader.js"></script>
   <script src="scripts/study-mode.js"></script>
   <script src="scripts/collections.js"></script>
   <script src="scripts/tags-page.js"></script>
