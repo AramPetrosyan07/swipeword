@@ -145,11 +145,9 @@ class App {
     document.querySelectorAll('#sidebarReadContent .sidebar-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
         if (btn.dataset.readpage === 'browse') {
-          this._closeSidebar();
           browseOpenPDF();
         } else {
           this._switchReaderPage(btn.dataset.readpage);
-          this._closeSidebar();
         }
       });
     });
@@ -163,7 +161,6 @@ class App {
         const mode = btn.dataset.mode;
         if (mode !== this._currentAppMode) {
           this._switchAppMode(mode);
-          this._closeSidebar();
         }
       });
     });
@@ -465,7 +462,6 @@ class App {
       document.getElementById('sidebarLearnContent').style.display = 'none';
       document.getElementById('sidebarReadContent').style.display = '';
     } else {
-      this._closeSidebar();
       document.getElementById('screen-reader').classList.remove('active');
       document.getElementById('sidebarLearnContent').style.display = '';
       document.getElementById('sidebarReadContent').style.display = 'none';
