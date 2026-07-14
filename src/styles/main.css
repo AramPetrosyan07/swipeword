@@ -781,6 +781,11 @@ body {
   background: var(--border);
 }
 
+.sidebar-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+
 .sidebar-btn-icon {
   font-size: 18px;
   width: 24px;
@@ -2487,10 +2492,6 @@ body {
 }
 
 /* Reader sub-pages */
-#screen-reader .reader-body {
-  display: none;
-}
-
 .reader-page {
   display: none;
   flex: 1;
@@ -2506,6 +2507,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Viewer canvas container */
+.reader-viewer-container {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: auto;
+  padding: 24px 16px;
+  background: var(--bg);
+}
+
+.reader-page-wrapper {
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+/* Hide old unused reader-body */
+#screen-reader .reader-body {
+  display: none;
 }
 
 /* Folder browser (Pinned, etc.) */

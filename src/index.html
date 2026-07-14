@@ -798,11 +798,17 @@
         </div>
       </div>
       <div class="reader-page active" id="reader-viewer">
-        <div class="reader-page-content">
+        <div class="reader-page-content reader-viewer-empty" id="viewerEmpty">
           <div class="reader-empty">
             <div class="reader-empty-icon">&#128065;</div>
             <h2 class="reader-empty-title">Viewer</h2>
             <p class="reader-empty-text">Open a document to start reading</p>
+          </div>
+        </div>
+        <div class="reader-viewer-container" id="viewerContainer" style="display:none;">
+          <div class="reader-page-wrapper" id="pageWrapper">
+            <canvas id="viewerCanvas"></canvas>
+            <div class="reader-text-layer" id="viewerTextLayer"></div>
           </div>
         </div>
       </div>
@@ -914,6 +920,7 @@
   <script src="scripts/multichoice-mode.js"></script>
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js"></script>
   <script src="scripts/reader.js"></script>
   <script src="scripts/browse.js"></script>
   <script src="scripts/study-mode.js"></script>
