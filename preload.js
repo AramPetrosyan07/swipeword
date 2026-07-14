@@ -21,4 +21,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   dictionaryAdd: (entry) => ipcRenderer.invoke('dictionary:add', entry),
   dictionaryRemove: (id) => ipcRenderer.invoke('dictionary:remove', id),
   dictionaryLoad: () => ipcRenderer.invoke('dictionary:load'),
+  youtubeCaptions: (videoId) => ipcRenderer.invoke('youtube:captions', videoId),
 });

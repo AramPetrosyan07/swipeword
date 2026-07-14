@@ -18,6 +18,11 @@ class App {
     this.sessionHistory = [];
     this._currentAppMode = 'learn';
 
+    this._ytCaptions = [];
+    this._ytCaptionTimer = null;
+    this._ytCurrentLineIndex = -1;
+    this._ytIframe = null;
+
     this.translationPopup = new TranslationPopup();
     this.wordsPage = new WordsPage();
 
@@ -1163,12 +1168,14 @@ class App {
       document.getElementById('readCollapsedLabelYoutube').textContent = title;
       document.getElementById('readYoutubeArea').style.display = 'flex';
       document.getElementById('readYoutubePlayer').innerHTML =
-        '<iframe src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0" ' +
+        '<iframe id="readYoutubeIframe" src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0&enablejsapi=1" ' +
         'referrerpolicy="strict-origin-when-cross-origin" ' +
         'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
         'allowfullscreen></iframe>';
+      this._ytIframe = document.getElementById('readYoutubeIframe');
       document.getElementById('readYoutubeSubtitles').innerHTML =
-        '<p style="color:var(--text-secondary);">Subtitles will appear here (coming soon).</p>';
+        '<p style="color:var(--text-secondary);">Loading captions...</p>';
+      this._fetchYoutubeCaptions(videoId);
     } else if (sourceType === 'pdf') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('readCollapsedBarPdf').style.display = 'flex';
@@ -1190,7 +1197,100 @@ class App {
     this._readSourceInfo = sourceInfo;
   }
 
+  async _fetchYoutubeCaptions(videoId) {
+    const subEl = document.getElementById('readYoutubeSubtitles');
+    try {
+      const lines = await window.electronAPI.youtubeCaptions(videoId);
+      if (!lines || lines.length === 0) {
+        subEl.innerHTML = '<p style="color:var(--text-secondary);">No captions available for this video.</p>';
+        return;
+      }
+      this._ytCaptions = lines;
+      this._renderYoutubeSubtitles(lines);
+      this._startYoutubeSync();
+    } catch (e) {
+      console.error('Failed to fetch captions:', e);
+      subEl.innerHTML = '<p style="color:var(--text-secondary);">Failed to load captions.</p>';
+    }
+  }
+
+  _renderYoutubeSubtitles(lines) {
+    const subEl = document.getElementById('readYoutubeSubtitles');
+    const sourceInfo = this._readSourceInfo;
+    subEl.innerHTML = lines
+      .map((line, i) => {
+        const wrapped = WordWrapper.wrap(line.text);
+        return '<div class="yt-sub-line" data-index="' + i + '" data-start="' + line.start + '">' + wrapped + '</div>';
+      })
+      .join('');
+    this.translationPopup.bindToContainer(subEl, sourceInfo);
+  }
+
+  _startYoutubeSync() {
+    this._stopYoutubeSync();
+    this._ytCurrentLineIndex = -1;
+    const subEl = document.getElementById('readYoutubeSubtitles');
+
+    const getCurrentTime = () => {
+      if (!this._ytIframe || !this._ytIframe.contentWindow) return;
+      this._ytIframe.contentWindow.postMessage(
+        JSON.stringify({ event: 'command', func: 'getCurrentTime', args: [] }),
+        '*'
+      );
+    };
+
+    this._onYtMessage = (event) => {
+      if (typeof event.data !== 'string') return;
+      try {
+        const msg = JSON.parse(event.data);
+        if (msg.event !== 'infoDelivery' || !msg.info || msg.info.currentTime == null) return;
+        const time = msg.info.currentTime;
+        const captions = this._ytCaptions;
+        if (!captions.length) return;
+
+        let idx = -1;
+        for (let i = captions.length - 1; i >= 0; i--) {
+          if (time >= captions[i].start - 0.15) { idx = i; break; }
+        }
+
+        if (idx !== this._ytCurrentLineIndex) {
+          this._ytCurrentLineIndex = idx;
+          const lines = subEl.querySelectorAll('.yt-sub-line');
+          lines.forEach((el, i) => {
+            const distance = Math.abs(i - idx);
+            el.classList.toggle('yt-sub-active', i === idx);
+            el.classList.toggle('yt-sub-near', i !== idx && distance <= 2);
+          });
+          if (idx >= 0 && lines[idx]) {
+            lines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }
+      } catch {}
+    };
+    window.addEventListener('message', this._onYtMessage);
+
+    // Request current time every 250ms
+    this._ytCaptionTimer = setInterval(getCurrentTime, 250);
+    // Initial request after a short delay to let the player start
+    setTimeout(getCurrentTime, 2000);
+  }
+
+  _stopYoutubeSync() {
+    if (this._ytCaptionTimer) {
+      clearInterval(this._ytCaptionTimer);
+      this._ytCaptionTimer = null;
+    }
+    if (this._onYtMessage) {
+      window.removeEventListener('message', this._onYtMessage);
+      this._onYtMessage = null;
+    }
+    this._ytCaptions = [];
+    this._ytCurrentLineIndex = -1;
+    this._ytIframe = null;
+  }
+
   _resetReadPage() {
+    this._stopYoutubeSync();
     document.getElementById('readerTranslatePopup').style.display = 'none';
     this._readSourceInfo = null;
 
@@ -1207,6 +1307,7 @@ class App {
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
+    document.getElementById('readYoutubeSubtitles').innerHTML = '';
 
     this._readPdfFile = null;
     const dropzone = document.getElementById('readPdfDropzone');
