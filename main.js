@@ -1,10 +1,57 @@
 const { app, BrowserWindow, ipcMain, dialog } = require("electron");
 const path = require("path");
 const fs = require("fs");
+const http = require("http");
+
+const MIME_TYPES = {
+  ".html": "text/html",
+  ".js": "application/javascript",
+  ".mjs": "application/javascript",
+  ".css": "text/css",
+  ".json": "application/json",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".svg": "image/svg+xml",
+  ".gif": "image/gif",
+  ".ico": "image/x-icon",
+  ".woff": "font/woff",
+  ".woff2": "font/woff2",
+  ".ttf": "font/ttf",
+  ".eot": "application/vnd.ms-fontobject",
+};
+
+function startLocalServer() {
+  const srcDir = path.join(__dirname, "src");
+  const server = http.createServer((req, res) => {
+    const urlPath = decodeURIComponent(req.url.split("?")[0]);
+    let filePath = path.join(srcDir, urlPath === "/" ? "index.html" : urlPath);
+    const ext = path.extname(filePath).toLowerCase();
+    const contentType = MIME_TYPES[ext] || "application/octet-stream";
+
+    fs.readFile(filePath, (err, data) => {
+      if (err) {
+        res.writeHead(404);
+        res.end("Not found");
+        return;
+      }
+      res.writeHead(200, { "Content-Type": contentType });
+      res.end(data);
+    });
+  });
+
+  return new Promise((resolve) => {
+    server.listen(0, "127.0.0.1", () => {
+      resolve(server.address().port);
+    });
+  });
+}
 
 let mainWindow;
 
-function createWindow() {
+async function createWindow() {
+  const port = await startLocalServer();
+
   mainWindow = new BrowserWindow({
     width: 1080,
     height: 960,
@@ -18,7 +65,18 @@ function createWindow() {
     },
   });
 
-  mainWindow.loadFile(path.join(__dirname, "src", "index.html"));
+  // Intercept requests to YouTube/Google to inject a valid Referer header.
+  // This is needed because YouTube's embed player requires an HTTP Referer,
+  // and Electron's default protocol (file://) does not provide one.
+  mainWindow.webContents.session.webRequest.onBeforeSendHeaders(
+    { urls: ["*://*.youtube.com/*", "*://*.googlevideo.com/*"] },
+    (details, callback) => {
+      details.requestHeaders["Referer"] = "http://127.0.0.1:" + port + "/";
+      callback({ requestHeaders: details.requestHeaders });
+    },
+  );
+
+  mainWindow.loadURL("http://127.0.0.1:" + port + "/");
 }
 
 // Live Reload: Watch the src directory and reload the window automatically when changes occur
@@ -264,4 +322,69 @@ ipcMain.handle("store:loadFavoritesFile", async () => {
     console.error("Failed to load favorites file:", e);
   }
   return [];
+});
+
+// --- Translation API (MyMemory free tier) ---
+const translateCache = new Map();
+
+ipcMain.handle("translate:word", async (_event, word) => {
+  if (translateCache.has(word)) return translateCache.get(word);
+
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|hy`;
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const armenian = data.responseData?.translatedText || "";
+
+    const ruUrl = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|ru`;
+    const ruResp = await fetch(ruUrl);
+    const ruData = await ruResp.json();
+    const russian = ruData.responseData?.translatedText || "";
+
+    const result = { armenian, russian, transliteration: "" };
+    translateCache.set(word, result);
+    return result;
+  } catch (e) {
+    console.error("Translation failed:", e);
+    return { armenian: "", russian: "", transliteration: "" };
+  }
+});
+
+// --- Personal Dictionary ---
+const dictionaryPath = path.join(app.getPath("userData"), "swipeword-dictionary.json");
+
+function loadDictionaryFile() {
+  try {
+    if (fs.existsSync(dictionaryPath)) {
+      return JSON.parse(fs.readFileSync(dictionaryPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load dictionary:", e);
+  }
+  return [];
+}
+
+function saveDictionaryFile(data) {
+  fs.writeFileSync(dictionaryPath, JSON.stringify(data, null, 2), "utf-8");
+}
+
+ipcMain.handle("dictionary:load", async () => {
+  return loadDictionaryFile();
+});
+
+ipcMain.handle("dictionary:add", async (_event, entry) => {
+  const data = loadDictionaryFile();
+  if (data.some((e) => e.word === entry.word && e.sourceId === entry.sourceId)) {
+    return { success: false, reason: "exists" };
+  }
+  data.push(entry);
+  saveDictionaryFile(data);
+  return { success: true };
+});
+
+ipcMain.handle("dictionary:remove", async (_event, id) => {
+  let data = loadDictionaryFile();
+  data = data.filter((e) => e.id !== id);
+  saveDictionaryFile(data);
+  return { success: true };
 });

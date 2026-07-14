@@ -18,6 +18,9 @@ class App {
     this.sessionHistory = [];
     this._currentAppMode = 'learn';
 
+    this.translationPopup = new TranslationPopup();
+    this.wordsPage = new WordsPage();
+
     this.learnCard = new CardManager({
       cardEl: document.getElementById('card'),
       innerEl: document.getElementById('cardInner'),
@@ -142,18 +145,21 @@ class App {
       this._closeSidebar();
       selfTest.start();
     });
-    document.querySelectorAll('#sidebarReadContent .sidebar-btn').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        if (btn.dataset.readpage === 'browse') {
-          browseOpenPDF();
-        } else {
-          this._switchReaderPage(btn.dataset.readpage);
-        }
-      });
+    document.getElementById('sideWords').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showWordsPage();
+    });
+    document.getElementById('sideReader').addEventListener('click', () => {
+      this._closeSidebar();
+      if (this._currentAppMode !== 'read') this._switchAppMode('read');
     });
     document.getElementById('sideCollector').addEventListener('click', () => {
       this._closeSidebar();
       wordCollector.show();
+    });
+    document.getElementById('sideLearnWords').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showWordsPage();
     });
 
     document.querySelectorAll('.sidebar-mode-btn').forEach((btn) => {
@@ -323,23 +329,21 @@ class App {
     document.getElementById('btnReaderMenu').addEventListener('click', () => {
       this._toggleSidebar();
     });
-    const btnOpenEmpty = document.getElementById('btnReaderOpenEmpty');
-    if (btnOpenEmpty) {
-      btnOpenEmpty.addEventListener('click', () => {
-        if (typeof readerMode !== 'undefined') readerMode.openFile();
-      });
-    }
-    document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
-      document.getElementById('readerTranslatePopup').style.display = 'none';
-    });
+
+    this._bindReadPageEvents();
 
     document.addEventListener('keydown', (e) => {
-      if (e.target.tagName === 'INPUT') return;
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
       const activeScreen = document.querySelector('.screen.active');
       if (!activeScreen) return;
 
       if (e.key === 'Escape') {
+        const translatePopup = document.getElementById('readerTranslatePopup');
+        if (translatePopup.style.display !== 'none') {
+          translatePopup.style.display = 'none';
+          return;
+        }
         const notePopup = document.getElementById('noteEditorPopup');
         if (notePopup.style.display === 'flex') {
           this._closeNoteEditor();
@@ -362,7 +366,20 @@ class App {
           return;
         }
         if (activeScreen.id === 'screen-reader' && this._currentAppMode === 'read') {
-          this._switchAppMode('learn');
+          if (this._readCurrentPage) {
+            this._backToReadHome();
+          } else {
+            this._switchAppMode('learn');
+          }
+          return;
+        }
+        if (activeScreen.id === 'screen-words') {
+          if (this._currentAppMode === 'read') {
+            document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+            document.getElementById('screen-reader').classList.add('active');
+          } else {
+            this._showLearnScreen();
+          }
           return;
         }
       }
@@ -461,6 +478,7 @@ class App {
       document.getElementById('listView').style.display = 'none';
       document.getElementById('sidebarLearnContent').style.display = 'none';
       document.getElementById('sidebarReadContent').style.display = '';
+      this._backToReadHome();
     } else {
       document.getElementById('screen-reader').classList.remove('active');
       document.getElementById('sidebarLearnContent').style.display = '';
@@ -473,16 +491,10 @@ class App {
     }
   }
 
-  _switchReaderPage(page) {
-    document.querySelectorAll('.reader-page').forEach((p) => p.classList.remove('active'));
-    document.querySelectorAll('#sidebarReadContent .sidebar-btn').forEach((b) => b.classList.remove('active'));
-    const pageEl = document.getElementById('reader-' + page);
-    if (pageEl) pageEl.classList.add('active');
-    const btnEl = document.querySelector('#sidebarReadContent .sidebar-btn[data-readpage="' + page + '"]');
-    if (btnEl) btnEl.classList.add('active');
-    if (page === 'pinned' && typeof showPinnedFolder !== 'undefined') {
-      showPinnedFolder();
-    }
+  _showWordsPage() {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-words').classList.add('active');
+    this.wordsPage.show();
   }
 
   async _switchVocabulary() {
@@ -993,6 +1005,220 @@ class App {
   _closeNoteEditor() {
     document.getElementById('noteEditorPopup').style.display = 'none';
     this._noteEditingWordId = undefined;
+  }
+
+  _bindReadPageEvents() {
+    this._readCurrentPage = null;
+    this._readPdfFile = null;
+
+    document.querySelectorAll('.read-home-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        this._openReadPage(card.dataset.mode);
+      });
+    });
+
+    document.getElementById('btnReaderBack').addEventListener('click', () => {
+      this._backToReadHome();
+    });
+
+    document.getElementById('btnReadText').addEventListener('click', () => {
+      this._loadTextContent();
+    });
+    document.getElementById('btnReadNewText').addEventListener('click', () => {
+      this._resetReadPage();
+    });
+
+    const dropzone = document.getElementById('readPdfDropzone');
+    const fileInput = document.getElementById('readPdfFileInput');
+    dropzone.addEventListener('click', () => fileInput.click());
+    dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+    dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('dragover');
+      const file = e.dataTransfer.files[0];
+      if (file && file.type === 'application/pdf') this._setPdfFile(file);
+    });
+    fileInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) this._setPdfFile(file);
+    });
+    document.getElementById('btnReadPdf').addEventListener('click', () => {
+      this._loadPdfContent();
+    });
+    document.getElementById('btnReadNewPdf').addEventListener('click', () => {
+      this._resetReadPage();
+    });
+
+    document.getElementById('btnReadYoutube').addEventListener('click', () => {
+      this._loadYoutubeContent();
+    });
+    document.getElementById('btnReadNewYoutube').addEventListener('click', () => {
+      this._resetReadPage();
+    });
+
+    document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
+      document.getElementById('readerTranslatePopup').style.display = 'none';
+    });
+
+    document.addEventListener('click', (e) => {
+      const popup = document.getElementById('readerTranslatePopup');
+      if (popup.style.display !== 'none' && !popup.contains(e.target) && !e.target.classList.contains('rw-word')) {
+        popup.style.display = 'none';
+      }
+    });
+  }
+
+  _openReadPage(mode) {
+    this._readCurrentPage = mode;
+    document.getElementById('readHome').style.display = 'none';
+    document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
+    const pageEl = document.getElementById('read-page-' + mode);
+    if (pageEl) pageEl.classList.add('active');
+
+    const titles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
+    document.getElementById('readerTitle').textContent = titles[mode] || 'Read';
+    document.getElementById('btnReaderBack').style.display = '';
+    document.getElementById('btnReaderMenu').style.display = 'none';
+  }
+
+  _backToReadHome() {
+    this._resetReadPage();
+    document.getElementById('readHome').style.display = '';
+    document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
+    document.getElementById('readerTitle').textContent = 'Read';
+    document.getElementById('btnReaderBack').style.display = 'none';
+    document.getElementById('btnReaderMenu').style.display = '';
+    this._readCurrentPage = null;
+  }
+
+  _loadTextContent() {
+    const text = document.getElementById('readTextInput').value.trim();
+    if (!text) return;
+    this._showReadContent('text', 'Text', text);
+  }
+
+  _setPdfFile(file) {
+    this._readPdfFile = file;
+    const dropzone = document.getElementById('readPdfDropzone');
+    dropzone.classList.add('read-dropzone-loaded');
+    dropzone.querySelector('.read-dropzone-text').textContent = file.name;
+    document.getElementById('btnReadPdf').disabled = false;
+  }
+
+  async _loadPdfContent() {
+    if (!this._readPdfFile) return;
+    const arrayBuffer = await this._readPdfFile.arrayBuffer();
+    const typedArray = new Uint8Array(arrayBuffer);
+    let fullText = '';
+    try {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
+      const doc = await pdfjsLib.getDocument({ data: typedArray }).promise;
+      for (let i = 1; i <= doc.numPages; i++) {
+        const page = await doc.getPage(i);
+        const content = await page.getTextContent();
+        const pageText = content.items.map((item) => item.str).join(' ');
+        fullText += pageText + '\n\n';
+      }
+    } catch (e) {
+      console.error('PDF parse error:', e);
+      fullText = 'Failed to parse PDF.';
+    }
+    const title = this._readPdfFile.name.replace(/\.pdf$/i, '');
+    this._showReadContent('pdf', title, fullText.trim());
+  }
+
+  _loadYoutubeContent() {
+    const url = document.getElementById('readYoutubeInput').value.trim();
+    if (!url) return;
+    const videoId = this._extractYoutubeId(url);
+    if (!videoId) {
+      alert('Invalid YouTube URL');
+      return;
+    }
+    this._showReadContent('youtube', url, null, videoId);
+  }
+
+  _extractYoutubeId(url) {
+    const patterns = [
+      /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]{11})/,
+      /^([a-zA-Z0-9_-]{11})$/,
+    ];
+    for (const p of patterns) {
+      const m = url.match(p);
+      if (m) return m[1];
+    }
+    return null;
+  }
+
+  _showReadContent(sourceType, title, text, videoId) {
+    const sourceInfo = { type: sourceType, title, id: Date.now().toString(36) };
+    if (sourceType === 'youtube' && videoId) {
+      sourceInfo.youtubeUrl = 'https://youtube.com/watch?v=' + videoId;
+    }
+
+    if (sourceType === 'youtube' && videoId) {
+      document.getElementById('read-page-youtube').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
+      document.getElementById('readCollapsedLabelYoutube').textContent = title;
+      document.getElementById('readYoutubeArea').style.display = 'flex';
+      document.getElementById('readYoutubePlayer').innerHTML =
+        '<iframe src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0" ' +
+        'referrerpolicy="strict-origin-when-cross-origin" ' +
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+        'allowfullscreen></iframe>';
+      document.getElementById('readYoutubeSubtitles').innerHTML =
+        '<p style="color:var(--text-secondary);">Subtitles will appear here (coming soon).</p>';
+    } else if (sourceType === 'pdf') {
+      document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('readCollapsedBarPdf').style.display = 'flex';
+      document.getElementById('readCollapsedLabelPdf').textContent = title;
+      document.getElementById('readContentAreaPdf').style.display = 'block';
+      const view = document.getElementById('readTextViewPdf');
+      view.innerHTML = WordWrapper.wrap(text);
+      this.translationPopup.bindToContainer(view, sourceInfo);
+    } else {
+      document.getElementById('read-page-text').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('readCollapsedBarText').style.display = 'flex';
+      document.getElementById('readCollapsedLabelText').textContent = title;
+      document.getElementById('readContentAreaText').style.display = 'block';
+      const view = document.getElementById('readTextView');
+      view.innerHTML = WordWrapper.wrap(text);
+      this.translationPopup.bindToContainer(view, sourceInfo);
+    }
+
+    this._readSourceInfo = sourceInfo;
+  }
+
+  _resetReadPage() {
+    document.getElementById('readerTranslatePopup').style.display = 'none';
+    this._readSourceInfo = null;
+
+    document.getElementById('readTextInput').value = '';
+    const textPage = document.getElementById('read-page-text');
+    textPage.querySelector('.read-page-input').style.display = '';
+    document.getElementById('readCollapsedBarText').style.display = 'none';
+    document.getElementById('readContentAreaText').style.display = 'none';
+    document.getElementById('readTextView').innerHTML = '';
+
+    document.getElementById('readYoutubeInput').value = '';
+    const ytPage = document.getElementById('read-page-youtube');
+    ytPage.querySelector('.read-page-input').style.display = '';
+    document.getElementById('readCollapsedBarYoutube').style.display = 'none';
+    document.getElementById('readYoutubeArea').style.display = 'none';
+    document.getElementById('readYoutubePlayer').innerHTML = '';
+
+    this._readPdfFile = null;
+    const dropzone = document.getElementById('readPdfDropzone');
+    dropzone.classList.remove('read-dropzone-loaded');
+    dropzone.querySelector('.read-dropzone-text').textContent = 'Drop PDF here or click to browse';
+    document.getElementById('readPdfFileInput').value = '';
+    document.getElementById('btnReadPdf').disabled = true;
+    const pdfPage = document.getElementById('read-page-pdf');
+    pdfPage.querySelector('.read-page-input').style.display = '';
+    document.getElementById('readCollapsedBarPdf').style.display = 'none';
+    document.getElementById('readContentAreaPdf').style.display = 'none';
+    document.getElementById('readTextViewPdf').innerHTML = '';
   }
 }
 

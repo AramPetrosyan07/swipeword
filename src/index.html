@@ -27,20 +27,11 @@
       </div>
       <div id="sidebarReadContent" style="display:none;">
         <div class="sidebar-nav">
-          <button class="sidebar-btn active" data-readpage="viewer" id="sideReaderViewer">
-            <span class="sidebar-btn-icon">&#128214;</span> Viewer
+          <button class="sidebar-btn active" data-screen="reader" id="sideReader">
+            <span class="sidebar-btn-icon">&#128214;</span> Read
           </button>
-          <button class="sidebar-btn" data-readpage="recovered" id="sideReaderRecovered">
-            <span class="sidebar-btn-icon">&#128260;</span> Recovered Files
-          </button>
-          <button class="sidebar-btn" data-readpage="recent" id="sideReaderRecent">
-            <span class="sidebar-btn-icon">&#128196;</span> Recent Documents
-          </button>
-          <button class="sidebar-btn" data-readpage="pinned" id="sideReaderPinned">
-            <span class="sidebar-btn-icon">&#128204;</span> Pinned Folders
-          </button>
-          <button class="sidebar-btn" data-readpage="browse" id="sideReaderBrowse">
-            <span class="sidebar-btn-icon">&#128194;</span> Browse
+          <button class="sidebar-btn" data-screen="words" id="sideWords">
+            <span class="sidebar-btn-icon">&#128209;</span> Words
           </button>
         </div>
       </div>
@@ -69,6 +60,9 @@
           </button>
           <button class="sidebar-btn" id="sideCollector" data-screen="collector">
             <span class="sidebar-btn-icon">&#128221;</span> Collector
+          </button>
+          <button class="sidebar-btn" id="sideLearnWords" data-screen="words">
+            <span class="sidebar-btn-icon">&#128209;</span> Saved Words
           </button>
         </div>
         <div class="sidebar-section">
@@ -781,71 +775,82 @@
     <div id="screen-reader" class="screen">
       <div class="reader-toolbar">
         <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
-        <span class="reader-title" id="readerTitle">Reader</span>
+        <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back">&#8592;</button>
+        <span class="reader-title" id="readerTitle">Read</span>
       </div>
-      <div class="reader-body">
-        <div class="reader-empty" id="readerEmpty">
-          <div class="reader-empty-icon">&#128214;</div>
-          <h2 class="reader-empty-title">No book open</h2>
-          <p class="reader-empty-text">Open a PDF file to start reading</p>
-          <button class="btn btn-primary" id="btnReaderOpenEmpty">Open PDF</button>
+
+      <!-- Home: 3 mode buttons -->
+      <div class="read-home" id="readHome">
+        <div class="read-home-cards">
+          <button class="read-home-card" data-mode="text" id="readCardText">
+            <span class="read-home-icon">&#9998;</span>
+            <span class="read-home-label">Text</span>
+            <span class="read-home-desc">Read any text or article with instant translation</span>
+          </button>
+          <button class="read-home-card" data-mode="pdf" id="readCardPdf">
+            <span class="read-home-icon">&#128196;</span>
+            <span class="read-home-label">PDF</span>
+            <span class="read-home-desc">Drop a PDF to extract and read its text</span>
+          </button>
+          <button class="read-home-card" data-mode="youtube" id="readCardYoutube">
+            <span class="read-home-icon">&#9654;</span>
+            <span class="read-home-label">YouTube</span>
+            <span class="read-home-desc">Watch videos with interactive subtitles</span>
+          </button>
         </div>
-        <div class="reader-viewport" id="readerViewport" style="display:none;">
-          <div class="reader-page-container" id="readerPageContainer">
-            <canvas id="readerCanvas"></canvas>
-            <div class="reader-text-layer" id="readerTextLayer"></div>
+      </div>
+
+      <!-- Sub-page: Text -->
+      <div class="read-page" id="read-page-text">
+        <div class="read-page-input">
+          <textarea class="read-textarea" id="readTextInput" placeholder="Paste or type text here..." spellcheck="false"></textarea>
+          <button class="btn btn-primary read-action-btn" id="btnReadText">Read &#9654;</button>
+        </div>
+        <div class="read-collapsed-bar" id="readCollapsedBarText" style="display:none;">
+          <span class="read-collapsed-label" id="readCollapsedLabelText"></span>
+          <button class="btn btn-secondary btn-sm" id="btnReadNewText">&#8592; New</button>
+        </div>
+        <div class="read-content-area" id="readContentAreaText" style="display:none;">
+          <div class="read-text-view" id="readTextView"></div>
+        </div>
+      </div>
+
+      <!-- Sub-page: PDF -->
+      <div class="read-page" id="read-page-pdf">
+        <div class="read-page-input">
+          <div class="read-dropzone" id="readPdfDropzone">
+            <span class="read-dropzone-icon">&#128228;</span>
+            <span class="read-dropzone-text">Drop PDF here or click to browse</span>
+            <input type="file" id="readPdfFileInput" accept=".pdf" hidden />
           </div>
+          <button class="btn btn-primary read-action-btn" id="btnReadPdf" disabled>Load &#9654;</button>
+        </div>
+        <div class="read-collapsed-bar" id="readCollapsedBarPdf" style="display:none;">
+          <span class="read-collapsed-label" id="readCollapsedLabelPdf"></span>
+          <button class="btn btn-secondary btn-sm" id="btnReadNewPdf">&#8592; New</button>
+        </div>
+        <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
+          <div class="read-text-view" id="readTextViewPdf"></div>
         </div>
       </div>
-      <div class="reader-page active" id="reader-viewer">
-        <div class="reader-page-content reader-viewer-empty" id="viewerEmpty">
-          <div class="reader-empty">
-            <div class="reader-empty-icon">&#128065;</div>
-            <h2 class="reader-empty-title">Viewer</h2>
-            <p class="reader-empty-text">Open a document to start reading</p>
-          </div>
+
+      <!-- Sub-page: YouTube -->
+      <div class="read-page" id="read-page-youtube">
+        <div class="read-page-input">
+          <input type="text" class="read-url-input" id="readYoutubeInput" placeholder="Paste YouTube URL..." />
+          <button class="btn btn-primary read-action-btn" id="btnReadYoutube">Watch &#9654;</button>
         </div>
-        <div class="reader-viewer-container" id="viewerContainer" style="display:none;">
-          <div class="reader-page-wrapper" id="pageWrapper">
-            <canvas id="viewerCanvas"></canvas>
-            <div class="reader-text-layer" id="viewerTextLayer"></div>
-          </div>
+        <div class="read-collapsed-bar" id="readCollapsedBarYoutube" style="display:none;">
+          <span class="read-collapsed-label" id="readCollapsedLabelYoutube"></span>
+          <button class="btn btn-secondary btn-sm" id="btnReadNewYoutube">&#8592; New</button>
         </div>
-      </div>
-      <div class="reader-page" id="reader-recovered">
-        <div class="reader-page-content">
-          <div class="reader-empty">
-            <div class="reader-empty-icon">&#128259;</div>
-            <h2 class="reader-empty-title">Recovered Files</h2>
-            <p class="reader-empty-text">No recovered files</p>
-          </div>
+        <div class="read-youtube-area" id="readYoutubeArea" style="display:none;">
+          <div class="read-youtube-player" id="readYoutubePlayer"></div>
+          <div class="read-youtube-subtitles" id="readYoutubeSubtitles"></div>
         </div>
       </div>
-      <div class="reader-page" id="reader-recent">
-        <div class="reader-page-content">
-          <div class="reader-empty">
-            <div class="reader-empty-icon">&#128337;</div>
-            <h2 class="reader-empty-title">Recent Documents</h2>
-            <p class="reader-empty-text">No recent documents</p>
-          </div>
-        </div>
-      </div>
-      <div class="reader-page" id="reader-pinned">
-        <div class="fb-toolbar">
-          <button class="icon-btn" id="pinnedBack" title="Go back">&#8592;</button>
-          <div class="fb-path" id="pinnedPath"></div>
-        </div>
-        <div class="fb-grid" id="pinnedGrid"></div>
-      </div>
-      <div class="reader-page" id="reader-browse">
-        <div class="reader-page-content">
-          <div class="reader-empty">
-            <div class="reader-empty-icon">&#128194;</div>
-            <h2 class="reader-empty-title">Browse</h2>
-            <p class="reader-empty-text">Open a PDF file to start reading</p>
-          </div>
-        </div>
-      </div>
+
+      <!-- Translation Popup -->
       <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
         <div class="reader-translate-header">
           <span class="reader-translate-word" id="readerTranslateWord"></span>
@@ -853,17 +858,37 @@
         </div>
         <div class="reader-translate-body">
           <div class="reader-translate-row">
-            <span class="reader-translate-label">Armenian:</span>
+            <span class="reader-translate-label">&#127462;&#127454; Armenian:</span>
             <span class="reader-translate-value" id="readerTranslateArmenian"></span>
           </div>
           <div class="reader-translate-row">
-            <span class="reader-translate-label">Russian:</span>
+            <span class="reader-translate-label">&#127479;&#127482; Russian:</span>
             <span class="reader-translate-value" id="readerTranslateRussian"></span>
           </div>
         </div>
         <div class="reader-translate-actions">
-          <button class="btn btn-secondary" id="btnReaderAddWord">+ Add to collection</button>
+          <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
         </div>
+      </div>
+    </div>
+
+    <!-- Words Page (Saved Vocabulary) -->
+    <div id="screen-words" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnWordsBack" title="Back">&#8592;</button>
+        <span class="progress-text">Saved Words</span>
+        <div id="wordsSearchWrap" style="display:none;">
+          <input type="text" id="btnWordsSearch" class="words-search-input" placeholder="Search words..." autocomplete="off" spellcheck="false" />
+        </div>
+        <div></div>
+      </div>
+      <div class="words-page-content">
+        <div class="words-empty" id="wordsEmpty">
+          <div class="words-empty-icon">&#128209;</div>
+          <h2 class="words-empty-title">No saved words yet</h2>
+          <p class="words-empty-text">Double-click any word while reading to save it.</p>
+        </div>
+        <div class="words-source-list" id="wordsSourceList"></div>
       </div>
     </div>
 
@@ -907,6 +932,8 @@
   <script src="scripts/parser.js"></script>
   <script src="scripts/tts.js"></script>
   <script src="scripts/theme.js"></script>
+  <script src="scripts/word-wrapper.js"></script>
+  <script src="scripts/translation-popup.js"></script>
   <script src="scripts/card.js"></script>
   <script src="scripts/stats.js"></script>
   <script src="scripts/review.js"></script>
@@ -928,6 +955,7 @@
   <script src="scripts/tags-page.js"></script>
   <script src="scripts/charts.js"></script>
   <script src="scripts/word-collector.js"></script>
+  <script src="scripts/words-page.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>
