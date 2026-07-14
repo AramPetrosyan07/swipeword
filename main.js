@@ -272,7 +272,11 @@ ipcMain.handle("fs:readdir", async (_event, dirPath) => {
       .map((e) => {
         const fullPath = path.join(dirPath, e.name);
         let stat;
-        try { stat = fs.statSync(fullPath); } catch { stat = null; }
+        try {
+          stat = fs.statSync(fullPath);
+        } catch {
+          stat = null;
+        }
         return {
           name: e.name,
           path: fullPath,
@@ -352,105 +356,34 @@ ipcMain.handle("translate:word", async (_event, word) => {
 
 // --- YouTube Captions ---
 const captionCache = new Map();
+const { YoutubeTranscript } = require("youtube-transcript");
 
 ipcMain.handle("youtube:captions", async (_event, videoId) => {
   if (captionCache.has(videoId)) return captionCache.get(videoId);
 
   try {
-    // Fetch the YouTube watch page to extract available caption tracks
-    const watchUrl = "https://www.youtube.com/watch?v=" + videoId;
-    const watchResp = await fetch(watchUrl, {
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-        "Accept-Language": "en-US,en;q=0.9",
-      },
-    });
-    const html = await watchResp.text();
-
-    // Extract captionTracks from the embedded player response
-    const tracksMatch = html.match(/"captionTracks":\s*(\[.*?\])/);
-    if (!tracksMatch) {
-      console.log("No captionTracks found in page HTML for video:", videoId);
-      captionCache.set(videoId, []);
-      return [];
-    }
-
-    const tracks = JSON.parse(tracksMatch[1]);
-    console.log("Found", tracks.length, "caption tracks:", tracks.map(t => t.languageCode + (t.kind ? "(" + t.kind + ")" : "")).join(", "));
-    if (!tracks || tracks.length === 0) {
-      captionCache.set(videoId, []);
-      return [];
-    }
-
-    // Prefer English, otherwise take the first track
-    let track =
-      tracks.find((t) => t.languageCode === "en") ||
-      tracks.find((t) => t.languageCode?.startsWith("en")) ||
-      tracks[0];
-    console.log("Selected caption track:", track.languageCode, track.kind || "manual");
-
-    // Fetch the timedtext (default XML format — most reliable)
-    let timedUrl = track.baseUrl;
-    if (!timedUrl) {
-      captionCache.set(videoId, []);
-      return [];
-    }
-    console.log("Fetching captions from:", timedUrl);
-
-    const ttResp = await fetch(timedUrl, {
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-        "Referer": "https://www.youtube.com/",
-        "Origin": "https://www.youtube.com",
-      },
-    });
-    const ttBuffer = await ttResp.arrayBuffer();
-    const ttBytes = new Uint8Array(ttBuffer);
-    console.log("Captions response status:", ttResp.status, "bytes:", ttBytes.length);
-    // Check for gzip (1f 8b) or deflate (78 01/78 9c/78 da) magic bytes
-    if (ttBytes.length > 2) {
-      console.log("First 4 bytes:", Array.from(ttBytes.slice(0, 4)).map(b => b.toString(16).padStart(2, "0")).join(" "));
-    }
-    let ttText;
-    if (ttBytes.length > 2 && ttBytes[0] === 0x1f && ttBytes[1] === 0x8b) {
-      const { gunzipSync } = require("zlib");
-      ttText = gunzipSync(Buffer.from(ttBytes), "utf-8");
-    } else if (ttBytes.length > 2 && ttBytes[0] === 0x78) {
-      const { inflateSync } = require("zlib");
-      ttText = inflateSync(Buffer.from(ttBytes), "utf-8");
-    } else {
-      ttText = Buffer.from(ttBytes).toString("utf-8");
-    }
-    console.log("Captions decoded length:", ttText.length);
-    if (!ttText || ttText.length < 10) {
-      captionCache.set(videoId, []);
-      return [];
-    }
-
-    // Parse XML format: <p t="startMs" d="durationMs">text</p> with <s> segments
-    const lines = [];
-    const pRegex = /<p\s[^>]*t="(\d+)"[^>]*d="(\d+)"[^>]*>([\s\S]*?)<\/p>/g;
-    let match;
-    while ((match = pRegex.exec(ttText)) !== null) {
-      const start = parseInt(match[1], 10) / 1000;
-      const duration = parseInt(match[2], 10) / 1000;
-      // Strip <s> tags and inner XML, keeping only text content
-      const raw = match[3].replace(/<[^>]+>/g, "").trim();
-      if (raw) lines.push({ start, duration, text: raw });
-    }
-
+    console.log("Fetching transcript via youtube-transcript for:", videoId);
+    const transcript = await YoutubeTranscript.fetchTranscript(videoId);
+    const lines = transcript.map((t) => ({
+      start: t.offset / 1000,
+      duration: t.duration / 1000,
+      text: t.text,
+    }));
+    console.log("youtube-transcript lines:", lines.length);
     captionCache.set(videoId, lines);
     return lines;
   } catch (e) {
-    console.error("Failed to fetch YouTube captions:", e);
+    console.error("youtube-transcript failed:", e.message);
+    captionCache.set(videoId, []);
     return [];
   }
 });
 
 // --- Personal Dictionary ---
-const dictionaryPath = path.join(app.getPath("userData"), "swipeword-dictionary.json");
+const dictionaryPath = path.join(
+  app.getPath("userData"),
+  "swipeword-dictionary.json",
+);
 
 function loadDictionaryFile() {
   try {
@@ -473,7 +406,9 @@ ipcMain.handle("dictionary:load", async () => {
 
 ipcMain.handle("dictionary:add", async (_event, entry) => {
   const data = loadDictionaryFile();
-  if (data.some((e) => e.word === entry.word && e.sourceId === entry.sourceId)) {
+  if (
+    data.some((e) => e.word === entry.word && e.sourceId === entry.sourceId)
+  ) {
     return { success: false, reason: "exists" };
   }
   data.push(entry);
