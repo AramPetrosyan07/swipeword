@@ -1062,6 +1062,20 @@ class App {
       this._resetReadPage();
     });
 
+    document.getElementById('ytResizeSlider').addEventListener('input', (e) => {
+      const pct = parseInt(e.target.value, 10);
+      const player = document.getElementById('readYoutubePlayer');
+      player.style.width = pct + '%';
+      player.style.margin = pct < 100 ? '0 auto' : '';
+    });
+    document.getElementById('ytResizeReset').addEventListener('click', () => {
+      const slider = document.getElementById('ytResizeSlider');
+      slider.value = 100;
+      const player = document.getElementById('readYoutubePlayer');
+      player.style.width = '100%';
+      player.style.margin = '';
+    });
+
     document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
       document.getElementById('readerTranslatePopup').style.display = 'none';
     });
@@ -1167,6 +1181,10 @@ class App {
       document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
       document.getElementById('readCollapsedLabelYoutube').textContent = title;
       document.getElementById('readYoutubeArea').style.display = 'flex';
+      const ytSlider = document.getElementById('ytResizeSlider');
+      ytSlider.value = 100;
+      document.getElementById('readYoutubePlayer').style.width = '100%';
+      document.getElementById('readYoutubePlayer').style.margin = '';
       document.getElementById('readYoutubePlayer').innerHTML =
         '<iframe id="readYoutubeIframe" src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0&enablejsapi=1" ' +
         'referrerpolicy="strict-origin-when-cross-origin" ' +
@@ -1307,6 +1325,9 @@ class App {
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
+    document.getElementById('readYoutubePlayer').style.width = '100%';
+    document.getElementById('readYoutubePlayer').style.margin = '';
+    document.getElementById('ytResizeSlider').value = 100;
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
 
     this._readPdfFile = null;

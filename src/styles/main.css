@@ -2622,6 +2622,49 @@ body {
   border: none;
 }
 
+.yt-resize-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  background: var(--bg-secondary, #1a1a2e);
+  border-top: 1px solid var(--border-color, rgba(255,255,255,0.08));
+  flex-shrink: 0;
+}
+
+.yt-resize-label {
+  font-size: 11px;
+  color: var(--text-secondary, #888);
+  white-space: nowrap;
+}
+
+.yt-resize-slider {
+  flex: 1;
+  max-width: 200px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--border-color, rgba(255,255,255,0.15));
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.yt-resize-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent, #6478ff);
+  cursor: pointer;
+}
+
+.yt-resize-reset {
+  font-size: 13px;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
 .read-youtube-subtitles {
   flex: 1;
   overflow-y: auto;
