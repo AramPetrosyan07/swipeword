@@ -11,6 +11,7 @@ class TranslationPopup {
     this._currentSource = null;
     this._cache = new Map();
     this._boundContainers = new WeakSet();
+    this.onSave = null;
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
@@ -109,6 +110,7 @@ class TranslationPopup {
       if (result && result.success) {
         this._saveBtn.textContent = 'Saved!';
         setTimeout(() => { this._saveBtn.textContent = '+ Save to Dictionary'; }, 1500);
+        if (this.onSave) this.onSave(entry);
       } else if (result && result.reason === 'exists') {
         this._saveBtn.textContent = 'Already saved';
         setTimeout(() => { this._saveBtn.textContent = '+ Save to Dictionary'; }, 1500);

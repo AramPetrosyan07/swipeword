@@ -24,6 +24,11 @@ class App {
     this._ytIframe = null;
 
     this.translationPopup = new TranslationPopup();
+    this.translationPopup.onSave = () => {
+      if (this._readSourceInfo && this._readSourceInfo.type === 'youtube') {
+        this._renderYoutubeSavedWords();
+      }
+    };
     this.wordsPage = new WordsPage();
 
     this.learnCard = new CardManager({
@@ -1068,6 +1073,7 @@ class App {
     });
 
     this._initYoutubeResize();
+    this._initYoutubeHResize();
 
     document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
       document.getElementById('readerTranslatePopup').style.display = 'none';
@@ -1179,6 +1185,77 @@ class App {
     });
   }
 
+  _initYoutubeHResize() {
+    const divider = document.getElementById('ytHDivider');
+    const subPanel = document.getElementById('ytSubtitlePanel');
+    const overlay = document.getElementById('ytDragOverlayH');
+    const split = document.getElementById('ytBottomSplit');
+    let dragging = false, startX = 0, startW = 0;
+
+    divider.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      dragging = true;
+      startX = e.clientX;
+      startW = subPanel.offsetWidth;
+      overlay.classList.add('active');
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+    });
+
+    divider.addEventListener('dblclick', () => {
+      subPanel.style.flexBasis = '90%';
+      subPanel.style.flexGrow = '0';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - startX;
+      const splitW = split.offsetWidth - divider.offsetWidth;
+      const minW = 200;
+      const maxW = splitW - 120;
+      let newW = Math.max(minW, Math.min(maxW, startW + dx));
+      subPanel.style.flexBasis = newW + 'px';
+      subPanel.style.flexGrow = '0';
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging = false;
+      overlay.classList.remove('active');
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
+  }
+
+  async _renderYoutubeSavedWords() {
+    const listEl = document.getElementById('ytWordsList');
+    const src = this._readSourceInfo;
+    if (!src || src.type !== 'youtube' || !src.youtubeUrl) {
+      listEl.innerHTML = '<div class="yt-word-empty">No video loaded</div>';
+      return;
+    }
+    try {
+      const allWords = await window.electronAPI.dictionaryLoad();
+      const videoWords = (allWords || []).filter(w => w.youtubeUrl === src.youtubeUrl);
+      if (videoWords.length === 0) {
+        listEl.innerHTML = '<div class="yt-word-empty">No saved words yet.<br>Double-click a word in subtitles to translate and save it.</div>';
+        return;
+      }
+      listEl.innerHTML = videoWords
+        .map(w => {
+          const trans = w.translation || '';
+          return '<div class="yt-word-item" data-word="' + w.word + '">' +
+            '<div class="yt-word-en">' + w.word + '</div>' +
+            (trans ? '<div class="yt-word-trans">' + trans + '</div>' : '') +
+            '</div>';
+        })
+        .join('');
+    } catch (e) {
+      listEl.innerHTML = '<div class="yt-word-empty">Failed to load words</div>';
+    }
+  }
+
   _loadYoutubeContent() {
     const url = document.getElementById('readYoutubeInput').value.trim();
     if (!url) return;
@@ -1223,6 +1300,7 @@ class App {
       this._ytIframe = document.getElementById('readYoutubeIframe');
       document.getElementById('readYoutubeSubtitles').innerHTML =
         '<p style="color:var(--text-secondary);">Loading captions...</p>';
+      this._renderYoutubeSavedWords();
       this._fetchYoutubeCaptions(videoId);
     } else if (sourceType === 'pdf') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
@@ -1357,6 +1435,9 @@ class App {
     document.getElementById('readYoutubePlayer').innerHTML = '';
     document.getElementById('readYoutubePlayer').style.height = '45%';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
+    document.getElementById('ytWordsList').innerHTML = '';
+    document.getElementById('ytSubtitlePanel').style.flexBasis = '90%';
+    document.getElementById('ytSubtitlePanel').style.flexGrow = '0';
 
     this._readPdfFile = null;
     const dropzone = document.getElementById('readPdfDropzone');

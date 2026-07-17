@@ -2702,6 +2702,135 @@ body {
   transform: scale(1.01);
 }
 
+/* YouTube Bottom Split (subtitles + saved words) */
+.yt-bottom-split {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  min-height: 0;
+}
+
+.yt-subtitle-panel {
+  flex: 0 0 90%;
+  min-width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.yt-subtitle-panel .read-youtube-subtitles {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.yt-h-divider {
+  width: 6px;
+  flex-shrink: 0;
+  background: var(--bg-secondary, #1a1a2e);
+  border-left: 1px solid var(--border-color, rgba(255,255,255,0.06));
+  border-right: 1px solid var(--border-color, rgba(255,255,255,0.06));
+  cursor: col-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  transition: background 0.15s;
+  position: relative;
+  z-index: 5;
+}
+
+.yt-h-divider:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+}
+
+.yt-h-divider::before,
+.yt-h-divider::after {
+  content: '';
+  width: 2px;
+  height: 16px;
+  border-radius: 1px;
+  background: var(--text-secondary, #666);
+  opacity: 0.5;
+}
+
+.yt-h-divider:hover::before,
+.yt-h-divider:hover::after {
+  opacity: 0.9;
+  background: var(--accent, #6478ff);
+}
+
+.yt-drag-overlay-h {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  cursor: col-resize;
+}
+
+.yt-drag-overlay-h.active {
+  display: block;
+}
+
+.yt-words-panel {
+  flex: 0 0 10%;
+  min-width: 120px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--border);
+}
+
+.yt-words-header {
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.yt-words-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.yt-word-item {
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.yt-word-item:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.1));
+}
+
+.yt-word-en {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.yt-word-trans {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.yt-word-empty {
+  padding: 20px 14px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 /* Words Page */
 .words-page-content {
   flex: 1;
