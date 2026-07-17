@@ -1151,35 +1151,47 @@ class App {
     const player = document.getElementById('readYoutubePlayer');
     const area = document.getElementById('readYoutubeArea');
     const overlay = document.getElementById('ytDragOverlay');
-    let dragging = false, startY = 0, startH = 0;
+    let dragging = false, startY = 0, startH = 0, areaH = 0, rafId = 0, pendingY = 0;
 
-    divider.addEventListener('mousedown', (e) => {
+    divider.addEventListener('pointerdown', (e) => {
       e.preventDefault();
       dragging = true;
       startY = e.clientY;
       startH = player.offsetHeight;
+      areaH = area.offsetHeight;
       overlay.classList.add('active');
+      divider.setPointerCapture(e.pointerId);
       document.body.style.cursor = 'row-resize';
       document.body.style.userSelect = 'none';
+      player.style.willChange = 'height';
     });
 
     divider.addEventListener('dblclick', () => {
+      player.style.willChange = 'height';
       player.style.height = '45%';
+      requestAnimationFrame(() => { player.style.willChange = ''; });
     });
 
-    document.addEventListener('mousemove', (e) => {
+    divider.addEventListener('pointermove', (e) => {
       if (!dragging) return;
-      const dy = e.clientY - startY;
-      const maxH = area.offsetHeight - 60;
-      const minH = 80;
-      let newH = Math.max(minH, Math.min(maxH, startH + dy));
-      player.style.height = newH + 'px';
+      pendingY = e.clientY;
+      if (!rafId) {
+        rafId = requestAnimationFrame(() => {
+          rafId = 0;
+          const dy = pendingY - startY;
+          const maxH = areaH - 60;
+          const minH = 80;
+          player.style.height = Math.max(minH, Math.min(maxH, startH + dy)) + 'px';
+        });
+      }
     });
 
-    document.addEventListener('mouseup', () => {
+    divider.addEventListener('pointerup', () => {
       if (!dragging) return;
       dragging = false;
+      if (rafId) { cancelAnimationFrame(rafId); rafId = 0; }
       overlay.classList.remove('active');
+      player.style.willChange = '';
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
     });
@@ -1190,15 +1202,17 @@ class App {
     const subPanel = document.getElementById('ytSubtitlePanel');
     const overlay = document.getElementById('ytDragOverlayH');
     const split = document.getElementById('ytBottomSplit');
-    let dragging = false, startX = 0, startW = 0;
+    let dragging = false, startX = 0, startW = 0, splitW = 0, rafId = 0, pendingX = 0;
 
-    divider.addEventListener('mousedown', (e) => {
+    divider.addEventListener('pointerdown', (e) => {
       e.preventDefault();
       e.stopPropagation();
       dragging = true;
       startX = e.clientX;
       startW = subPanel.offsetWidth;
+      splitW = split.offsetWidth - divider.offsetWidth;
       overlay.classList.add('active');
+      divider.setPointerCapture(e.pointerId);
       document.body.style.cursor = 'col-resize';
       document.body.style.userSelect = 'none';
     });
@@ -1208,20 +1222,25 @@ class App {
       subPanel.style.flexGrow = '0';
     });
 
-    document.addEventListener('mousemove', (e) => {
+    divider.addEventListener('pointermove', (e) => {
       if (!dragging) return;
-      const dx = e.clientX - startX;
-      const splitW = split.offsetWidth - divider.offsetWidth;
-      const minW = 200;
-      const maxW = splitW - 120;
-      let newW = Math.max(minW, Math.min(maxW, startW + dx));
-      subPanel.style.flexBasis = newW + 'px';
-      subPanel.style.flexGrow = '0';
+      pendingX = e.clientX;
+      if (!rafId) {
+        rafId = requestAnimationFrame(() => {
+          rafId = 0;
+          const dx = pendingX - startX;
+          const minW = 200;
+          const maxW = splitW - 120;
+          subPanel.style.flexBasis = Math.max(minW, Math.min(maxW, startW + dx)) + 'px';
+          subPanel.style.flexGrow = '0';
+        });
+      }
     });
 
-    document.addEventListener('mouseup', () => {
+    divider.addEventListener('pointerup', () => {
       if (!dragging) return;
       dragging = false;
+      if (rafId) { cancelAnimationFrame(rafId); rafId = 0; }
       overlay.classList.remove('active');
       document.body.style.cursor = '';
       document.body.style.userSelect = '';
@@ -1356,6 +1375,7 @@ class App {
     this._stopYoutubeSync();
     this._ytCurrentLineIndex = -1;
     const subEl = document.getElementById('readYoutubeSubtitles');
+    const subLines = subEl.querySelectorAll('.yt-sub-line');
 
     const getCurrentTime = () => {
       if (!this._ytIframe || !this._ytIframe.contentWindow) return;
@@ -1381,23 +1401,23 @@ class App {
 
         if (idx !== this._ytCurrentLineIndex) {
           this._ytCurrentLineIndex = idx;
-          const lines = subEl.querySelectorAll('.yt-sub-line');
-          lines.forEach((el, i) => {
+          for (let i = 0; i < subLines.length; i++) {
             const distance = Math.abs(i - idx);
-            el.classList.toggle('yt-sub-active', i === idx);
-            el.classList.toggle('yt-sub-near', i !== idx && distance <= 2);
-          });
-          if (idx >= 0 && lines[idx]) {
-            lines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            const el = subLines[i];
+            const isActive = i === idx;
+            const isNear = !isActive && distance <= 2;
+            if (el.classList.contains('yt-sub-active') !== isActive) el.classList.toggle('yt-sub-active', isActive);
+            if (el.classList.contains('yt-sub-near') !== isNear) el.classList.toggle('yt-sub-near', isNear);
+          }
+          if (idx >= 0 && subLines[idx]) {
+            subLines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
           }
         }
       } catch {}
     };
     window.addEventListener('message', this._onYtMessage);
 
-    // Request current time every 250ms
     this._ytCaptionTimer = setInterval(getCurrentTime, 250);
-    // Initial request after a short delay to let the player start
     setTimeout(getCurrentTime, 2000);
   }
 
