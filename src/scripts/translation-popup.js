@@ -20,14 +20,71 @@ class TranslationPopup {
   bindToContainer(container, sourceInfo) {
     if (this._boundContainers.has(container)) return;
     this._boundContainers.add(container);
-    container.addEventListener('dblclick', (e) => {
-      const span = e.target.closest('.rw-word');
-      if (!span) return;
+
+    let isDragging = false;
+    let startWord = null;
+    let selectedWords = [];
+
+    const clearHighlights = () => {
+      selectedWords.forEach(w => w.classList.remove('selected'));
+      selectedWords = [];
+    };
+
+    const updateHighlights = (from, to) => {
+      clearHighlights();
+      if (!from || !to) return;
+      const words = Array.from(container.querySelectorAll('.rw-word'));
+      const fromIdx = words.indexOf(from);
+      const toIdx = words.indexOf(to);
+      if (fromIdx === -1 || toIdx === -1) return;
+      const start = Math.min(fromIdx, toIdx);
+      const end = Math.max(fromIdx, toIdx);
+      for (let i = start; i <= end; i++) {
+        words[i].classList.add('selected');
+        selectedWords.push(words[i]);
+      }
+    };
+
+    const wordFromPoint = (x, y) => {
+      const el = document.elementFromPoint(x, y);
+      return el ? el.closest('.rw-word') : null;
+    };
+
+    const showTranslation = (words, anchorEl) => {
+      const text = words.map(w => w.dataset.word || w.textContent).join(' ');
+      const context = WordWrapper.getSentenceForWord(container.textContent, text);
+      this.show(text, context, anchorEl, sourceInfo);
+    };
+
+    container.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      const word = e.target.closest('.rw-word');
+      if (!word) return;
       e.preventDefault();
-      e.stopPropagation();
-      const word = span.dataset.word || span.textContent;
-      const context = WordWrapper.getSentenceForWord(container.textContent, word);
-      this.show(word, context, span, sourceInfo);
+      isDragging = true;
+      startWord = word;
+      selectedWords = [word];
+      word.classList.add('selected');
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      const word = wordFromPoint(e.clientX, e.clientY);
+      if (word && word !== startWord) {
+        updateHighlights(startWord, word);
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      if (!isDragging) return;
+      isDragging = false;
+
+      const wordsCopy = [...selectedWords];
+      clearHighlights();
+
+      if (wordsCopy.length > 0) {
+        showTranslation(wordsCopy, wordsCopy[0]);
+      }
     });
   }
 
@@ -39,6 +96,8 @@ class TranslationPopup {
     this._armenianEl.textContent = '...';
     this._russianEl.textContent = '...';
     this._popup.style.display = 'flex';
+    this._popup.dataset.justOpened = '1';
+    setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
 
     const rect = targetEl.getBoundingClientRect();
     const popupW = 320;

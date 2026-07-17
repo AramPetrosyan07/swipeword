@@ -1081,7 +1081,7 @@ class App {
 
     document.addEventListener('click', (e) => {
       const popup = document.getElementById('readerTranslatePopup');
-      if (popup.style.display !== 'none' && !popup.contains(e.target) && !e.target.classList.contains('rw-word')) {
+      if (popup.style.display !== 'none' && !popup.contains(e.target) && !e.target.closest('.rw-word') && !popup.dataset.justOpened) {
         popup.style.display = 'none';
       }
     });
