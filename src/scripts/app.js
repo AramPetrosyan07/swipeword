@@ -1026,6 +1026,11 @@ class App {
       this._backToReadHome();
     });
 
+    document.getElementById('btnReaderTheme').addEventListener('click', () => {
+      themeManager.toggle();
+      this._updateSidebar();
+    });
+
     document.getElementById('btnReadText').addEventListener('click', () => {
       this._loadTextContent();
     });
