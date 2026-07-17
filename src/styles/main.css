@@ -2607,62 +2607,71 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 
 .read-youtube-player {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 45%;
+  min-height: 80px;
   background: #000;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .read-youtube-player iframe {
-  width: 100%;
   height: 100%;
+  aspect-ratio: 16 / 9;
   border: none;
+  max-width: 100%;
 }
 
-.yt-resize-bar {
+.yt-drag-overlay {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  cursor: row-resize;
+}
+
+.yt-drag-overlay.active {
+  display: block;
+}
+
+.yt-pane-divider {
+  height: 6px;
+  background: var(--bg-secondary, #1a1a2e);
+  border-top: 1px solid var(--border-color, rgba(255,255,255,0.06));
+  border-bottom: 1px solid var(--border-color, rgba(255,255,255,0.06));
+  cursor: row-resize;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 4px 12px;
-  background: var(--bg-secondary, #1a1a2e);
-  border-top: 1px solid var(--border-color, rgba(255,255,255,0.08));
-  flex-shrink: 0;
+  justify-content: center;
+  gap: 3px;
+  transition: background 0.15s;
 }
 
-.yt-resize-label {
-  font-size: 11px;
-  color: var(--text-secondary, #888);
-  white-space: nowrap;
+.yt-pane-divider:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
 }
 
-.yt-resize-slider {
-  flex: 1;
-  max-width: 200px;
-  height: 4px;
-  -webkit-appearance: none;
-  appearance: none;
-  background: var(--border-color, rgba(255,255,255,0.15));
-  border-radius: 2px;
-  outline: none;
-  cursor: pointer;
+.yt-pane-divider::before,
+.yt-pane-divider::after {
+  content: '';
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--text-secondary, #666);
+  opacity: 0.5;
 }
 
-.yt-resize-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
+.yt-pane-divider:hover::before,
+.yt-pane-divider:hover::after {
+  opacity: 0.9;
   background: var(--accent, #6478ff);
-  cursor: pointer;
-}
-
-.yt-resize-reset {
-  font-size: 13px;
-  padding: 2px 6px;
-  line-height: 1;
 }
 
 .read-youtube-subtitles {

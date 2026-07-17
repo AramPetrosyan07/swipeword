@@ -1062,19 +1062,7 @@ class App {
       this._resetReadPage();
     });
 
-    document.getElementById('ytResizeSlider').addEventListener('input', (e) => {
-      const pct = parseInt(e.target.value, 10);
-      const player = document.getElementById('readYoutubePlayer');
-      player.style.width = pct + '%';
-      player.style.margin = pct < 100 ? '0 auto' : '';
-    });
-    document.getElementById('ytResizeReset').addEventListener('click', () => {
-      const slider = document.getElementById('ytResizeSlider');
-      slider.value = 100;
-      const player = document.getElementById('readYoutubePlayer');
-      player.style.width = '100%';
-      player.style.margin = '';
-    });
+    this._initYoutubeResize();
 
     document.getElementById('btnReaderTranslateClose').addEventListener('click', () => {
       document.getElementById('readerTranslatePopup').style.display = 'none';
@@ -1147,6 +1135,45 @@ class App {
     this._showReadContent('pdf', title, fullText.trim());
   }
 
+  _initYoutubeResize() {
+    const divider = document.getElementById('ytPaneDivider');
+    const player = document.getElementById('readYoutubePlayer');
+    const area = document.getElementById('readYoutubeArea');
+    const overlay = document.getElementById('ytDragOverlay');
+    let dragging = false, startY = 0, startH = 0;
+
+    divider.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      dragging = true;
+      startY = e.clientY;
+      startH = player.offsetHeight;
+      overlay.classList.add('active');
+      document.body.style.cursor = 'row-resize';
+      document.body.style.userSelect = 'none';
+    });
+
+    divider.addEventListener('dblclick', () => {
+      player.style.height = '45%';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!dragging) return;
+      const dy = e.clientY - startY;
+      const maxH = area.offsetHeight - 60;
+      const minH = 80;
+      let newH = Math.max(minH, Math.min(maxH, startH + dy));
+      player.style.height = newH + 'px';
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging = false;
+      overlay.classList.remove('active');
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
+  }
+
   _loadYoutubeContent() {
     const url = document.getElementById('readYoutubeInput').value.trim();
     if (!url) return;
@@ -1181,11 +1208,9 @@ class App {
       document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
       document.getElementById('readCollapsedLabelYoutube').textContent = title;
       document.getElementById('readYoutubeArea').style.display = 'flex';
-      const ytSlider = document.getElementById('ytResizeSlider');
-      ytSlider.value = 100;
-      document.getElementById('readYoutubePlayer').style.width = '100%';
-      document.getElementById('readYoutubePlayer').style.margin = '';
-      document.getElementById('readYoutubePlayer').innerHTML =
+      const ytPlayer = document.getElementById('readYoutubePlayer');
+      ytPlayer.style.height = '45%';
+      ytPlayer.innerHTML =
         '<iframe id="readYoutubeIframe" src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0&enablejsapi=1" ' +
         'referrerpolicy="strict-origin-when-cross-origin" ' +
         'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
@@ -1325,9 +1350,7 @@ class App {
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
-    document.getElementById('readYoutubePlayer').style.width = '100%';
-    document.getElementById('readYoutubePlayer').style.margin = '';
-    document.getElementById('ytResizeSlider').value = 100;
+    document.getElementById('readYoutubePlayer').style.height = '45%';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
 
     this._readPdfFile = null;
