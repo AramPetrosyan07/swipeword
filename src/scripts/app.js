@@ -1362,10 +1362,15 @@ class App {
   _renderYoutubeSubtitles(lines) {
     const subEl = document.getElementById('readYoutubeSubtitles');
     const sourceInfo = this._readSourceInfo;
+    const fmtTime = (s) => {
+      const m = Math.floor(s / 60);
+      const sec = Math.floor(s % 60);
+      return m + ':' + String(sec).padStart(2, '0');
+    };
     subEl.innerHTML = lines
       .map((line, i) => {
         const wrapped = WordWrapper.wrap(line.text);
-        return '<div class="yt-sub-line" data-index="' + i + '" data-start="' + line.start + '">' + wrapped + '</div>';
+        return '<div class="yt-sub-line" data-index="' + i + '" data-start="' + line.start + '"><span class="yt-sub-time">' + fmtTime(line.start) + '</span>' + wrapped + '</div>';
       })
       .join('');
     this.translationPopup.bindToContainer(subEl, sourceInfo);
