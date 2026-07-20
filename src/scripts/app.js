@@ -21,7 +21,7 @@ class App {
     this._ytCaptions = [];
     this._ytCaptionTimer = null;
     this._ytCurrentLineIndex = -1;
-    this._ytIframe = null;
+    this._ytPlayer = null;
 
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
@@ -1309,18 +1309,26 @@ class App {
       document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
       document.getElementById('readCollapsedLabelYoutube').textContent = title;
       document.getElementById('readYoutubeArea').style.display = 'flex';
-      const ytPlayer = document.getElementById('readYoutubePlayer');
-      ytPlayer.style.height = '45%';
-      ytPlayer.innerHTML =
-        '<iframe id="readYoutubeIframe" src="https://www.youtube-nocookie.com/embed/' + videoId + '?rel=0&enablejsapi=1" ' +
-        'referrerpolicy="strict-origin-when-cross-origin" ' +
-        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
-        'allowfullscreen></iframe>';
-      this._ytIframe = document.getElementById('readYoutubeIframe');
+      const ytPlayerEl = document.getElementById('readYoutubePlayer');
+      ytPlayerEl.style.height = '45%';
+      ytPlayerEl.innerHTML = '';
       document.getElementById('readYoutubeSubtitles').innerHTML =
         '<p style="color:var(--text-secondary);">Loading captions...</p>';
       this._renderYoutubeSavedWords();
       this._fetchYoutubeCaptions(videoId);
+      this._ytPlayer = new YT.Player('readYoutubePlayer', {
+        height: '100%',
+        width: '100%',
+        videoId: videoId,
+        playerVars: { rel: 0 },
+        events: {
+          onReady: () => {
+            if (this._ytCaptions && this._ytCaptions.length > 0) {
+              this._startYoutubeSync();
+            }
+          }
+        }
+      });
     } else if (sourceType === 'pdf') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('readCollapsedBarPdf').style.display = 'flex';
@@ -1352,7 +1360,9 @@ class App {
       }
       this._ytCaptions = lines;
       this._renderYoutubeSubtitles(lines);
-      this._startYoutubeSync();
+      if (this._ytPlayer && typeof this._ytPlayer.getCurrentTime === 'function') {
+        this._startYoutubeSync();
+      }
     } catch (e) {
       console.error('Failed to fetch captions:', e);
       subEl.innerHTML = '<p style="color:var(--text-secondary);">Failed to load captions.</p>';
@@ -1377,53 +1387,46 @@ class App {
   }
 
   _startYoutubeSync() {
-    this._stopYoutubeSync();
+    if (this._ytCaptionTimer) {
+      clearInterval(this._ytCaptionTimer);
+      this._ytCaptionTimer = null;
+    }
     this._ytCurrentLineIndex = -1;
     const subEl = document.getElementById('readYoutubeSubtitles');
     const subLines = subEl.querySelectorAll('.yt-sub-line');
+    const timeEl = document.getElementById('readYoutubeCurrentTime');
 
-    const getCurrentTime = () => {
-      if (!this._ytIframe || !this._ytIframe.contentWindow) return;
-      this._ytIframe.contentWindow.postMessage(
-        JSON.stringify({ event: 'command', func: 'getCurrentTime', args: [] }),
-        '*'
-      );
-    };
+    this._ytCaptionTimer = setInterval(() => {
+      if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
+      const time = this._ytPlayer.getCurrentTime();
 
-    this._onYtMessage = (event) => {
-      if (typeof event.data !== 'string') return;
-      try {
-        const msg = JSON.parse(event.data);
-        if (msg.event !== 'infoDelivery' || !msg.info || msg.info.currentTime == null) return;
-        const time = msg.info.currentTime;
-        const captions = this._ytCaptions;
-        if (!captions.length) return;
+      const mins = Math.floor(time / 60);
+      const secs = Math.floor(time % 60);
+      timeEl.textContent = mins + ':' + String(secs).padStart(2, '0');
 
-        let idx = -1;
-        for (let i = captions.length - 1; i >= 0; i--) {
-          if (time >= captions[i].start - 0.15) { idx = i; break; }
+      const captions = this._ytCaptions;
+      if (!captions || !captions.length) return;
+
+      let idx = -1;
+      for (let i = captions.length - 1; i >= 0; i--) {
+        if (time >= captions[i].start - 0.15) { idx = i; break; }
+      }
+
+      if (idx !== this._ytCurrentLineIndex) {
+        this._ytCurrentLineIndex = idx;
+        for (let i = 0; i < subLines.length; i++) {
+          const distance = Math.abs(i - idx);
+          const el = subLines[i];
+          const isActive = i === idx;
+          const isNear = !isActive && distance <= 2;
+          if (el.classList.contains('yt-sub-active') !== isActive) el.classList.toggle('yt-sub-active', isActive);
+          if (el.classList.contains('yt-sub-near') !== isNear) el.classList.toggle('yt-sub-near', isNear);
         }
-
-        if (idx !== this._ytCurrentLineIndex) {
-          this._ytCurrentLineIndex = idx;
-          for (let i = 0; i < subLines.length; i++) {
-            const distance = Math.abs(i - idx);
-            const el = subLines[i];
-            const isActive = i === idx;
-            const isNear = !isActive && distance <= 2;
-            if (el.classList.contains('yt-sub-active') !== isActive) el.classList.toggle('yt-sub-active', isActive);
-            if (el.classList.contains('yt-sub-near') !== isNear) el.classList.toggle('yt-sub-near', isNear);
-          }
-          if (idx >= 0 && subLines[idx]) {
-            subLines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }
+        if (idx >= 0 && subLines[idx]) {
+          subLines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-      } catch {}
-    };
-    window.addEventListener('message', this._onYtMessage);
-
-    this._ytCaptionTimer = setInterval(getCurrentTime, 250);
-    setTimeout(getCurrentTime, 2000);
+      }
+    }, 250);
   }
 
   _stopYoutubeSync() {
@@ -1431,13 +1434,9 @@ class App {
       clearInterval(this._ytCaptionTimer);
       this._ytCaptionTimer = null;
     }
-    if (this._onYtMessage) {
-      window.removeEventListener('message', this._onYtMessage);
-      this._onYtMessage = null;
-    }
     this._ytCaptions = [];
     this._ytCurrentLineIndex = -1;
-    this._ytIframe = null;
+    this._ytPlayer = null;
   }
 
   _resetReadPage() {
@@ -1459,6 +1458,7 @@ class App {
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
     document.getElementById('readYoutubePlayer').style.height = '45%';
+    document.getElementById('readYoutubeCurrentTime').textContent = '0:00';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
     document.getElementById('ytWordsList').innerHTML = '';
     document.getElementById('ytSubtitlePanel').style.flexBasis = '90%';
