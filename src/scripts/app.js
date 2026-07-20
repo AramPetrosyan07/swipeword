@@ -1394,15 +1394,10 @@ class App {
     this._ytCurrentLineIndex = -1;
     const subEl = document.getElementById('readYoutubeSubtitles');
     const subLines = subEl.querySelectorAll('.yt-sub-line');
-    const timeEl = document.getElementById('readYoutubeCurrentTime');
 
     this._ytCaptionTimer = setInterval(() => {
       if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
       const time = this._ytPlayer.getCurrentTime();
-
-      const mins = Math.floor(time / 60);
-      const secs = Math.floor(time % 60);
-      timeEl.textContent = mins + ':' + String(secs).padStart(2, '0');
 
       const captions = this._ytCaptions;
       if (!captions || !captions.length) return;
@@ -1458,7 +1453,6 @@ class App {
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
     document.getElementById('readYoutubePlayer').style.height = '45%';
-    document.getElementById('readYoutubeCurrentTime').textContent = '0:00';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
     document.getElementById('ytWordsList').innerHTML = '';
     document.getElementById('ytSubtitlePanel').style.flexBasis = '90%';
