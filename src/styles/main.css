@@ -2686,9 +2686,9 @@ body {
   padding: 6px 10px;
   border-radius: 6px;
   margin-bottom: 4px;
-  transition: background-color 0.2s, opacity 0.2s, transform 0.2s;
+  transition: background-color 0.2s, opacity 0.2s, transform 0.2s, color 0.2s;
   opacity: 1;
-  color: #000;
+  color: #333;
   cursor: default;
   content-visibility: auto;
   contain-intrinsic-size: 0 40px;
@@ -2709,11 +2709,12 @@ body {
 }
 
 .yt-sub-line.yt-sub-near {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .yt-sub-line.yt-sub-active {
-  background: var(--primary-bg, rgba(100, 120, 255, 0.12));
+  background: rgba(0, 128, 0, 0.10);
+  color: #1a6b1a;
   opacity: 1;
   font-weight: 600;
   transform: scale(1.01);
