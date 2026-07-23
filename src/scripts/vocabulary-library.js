@@ -8,6 +8,13 @@ class VocabularyLibrary {
     this._dictSort = 'newest';
     this._view = 'grid';
     this._bound = false;
+    this._filters = {
+      armenian: true,
+      russian: true,
+      context: true,
+      timestamp: true,
+      date: true,
+    };
   }
 
   async show() {
@@ -16,8 +23,7 @@ class VocabularyLibrary {
     this._dictSearchQuery = '';
     this._view = 'grid';
 
-    document.getElementById('vocabLibSearchInput').value = '';
-    document.getElementById('vocabLibSearchWrap').style.display = 'none';
+    document.getElementById('vocabLibFilterDropdown').style.display = 'none';
 
     try {
       this._entries = await window.electronAPI.dictionaryLoad();
@@ -40,13 +46,6 @@ class VocabularyLibrary {
       this._handleBack();
     });
 
-    document.getElementById('vocabLibSearchInput').addEventListener('input', (e) => {
-      this._searchQuery = e.target.value.trim().toLowerCase();
-      if (this._view === 'grid') {
-        this._renderGrid();
-      }
-    });
-
     document.getElementById('vocabLibDictSort').addEventListener('change', (e) => {
       this._dictSort = e.target.value;
       this._renderDictList();
@@ -60,6 +59,28 @@ class VocabularyLibrary {
     document.getElementById('btnVocabLibDeleteAll').addEventListener('click', () => {
       this._handleDeleteAll();
     });
+
+    const filterBtn = document.getElementById('btnVocabLibFilter');
+    const filterDropdown = document.getElementById('vocabLibFilterDropdown');
+    filterBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = filterDropdown.style.display === 'flex';
+      filterDropdown.style.display = isOpen ? 'none' : 'flex';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (filterDropdown.style.display === 'flex' && !filterDropdown.contains(e.target) && e.target !== filterBtn) {
+        filterDropdown.style.display = 'none';
+      }
+    });
+
+    const filterIds = { armenian: 'vocabFilterArmenian', russian: 'vocabFilterRussian', context: 'vocabFilterContext', timestamp: 'vocabFilterTimestamp', date: 'vocabFilterDate' };
+    for (const [key, id] of Object.entries(filterIds)) {
+      document.getElementById(id).addEventListener('change', (e) => {
+        this._filters[key] = e.target.checked;
+        this._renderDictList();
+      });
+    }
   }
 
   _handleBack() {
@@ -68,7 +89,6 @@ class VocabularyLibrary {
       this._currentVideoUrl = null;
       this._dictSearchQuery = '';
       document.getElementById('vocabLibDictSearch').value = '';
-      document.getElementById('vocabLibSearchWrap').style.display = 'none';
       this._render();
     } else {
       if (app._currentAppMode === 'read') {
@@ -163,14 +183,17 @@ class VocabularyLibrary {
     const empty = document.getElementById('vocabLibEmpty');
     const dict = document.getElementById('vocabLibDict');
     const content = document.getElementById('vocabLibContent');
+    const filterDropdown = document.getElementById('vocabLibFilterDropdown');
 
     if (this._view === 'dict') {
       content.style.display = 'none';
       dict.style.display = '';
+      filterDropdown.style.display = 'none';
       this._renderDict();
     } else {
       content.style.display = '';
       dict.style.display = 'none';
+      filterDropdown.style.display = 'none';
       this._renderGrid();
     }
   }
@@ -180,30 +203,16 @@ class VocabularyLibrary {
     const empty = document.getElementById('vocabLibEmpty');
     const videos = this._getVideoEntries();
 
-    let filtered = videos;
-    if (this._searchQuery) {
-      filtered = videos.filter(
-        (v) =>
-          v.title.toLowerCase().includes(this._searchQuery) ||
-          v.url.toLowerCase().includes(this._searchQuery)
-      );
-    }
-
-    if (filtered.length === 0) {
+    if (videos.length === 0) {
       empty.style.display = '';
       grid.innerHTML = '';
-      if (this._searchQuery) {
-        empty.querySelector('.vocablib-empty-title').textContent = 'No videos found';
-        empty.querySelector('.vocablib-empty-text').textContent = 'Try a different search.';
-      } else {
-        empty.querySelector('.vocablib-empty-title').textContent = 'No vocabulary yet';
-        empty.querySelector('.vocablib-empty-text').textContent = 'Watch a YouTube video and save words to build your library.';
-      }
+      empty.querySelector('.vocablib-empty-title').textContent = 'No vocabulary yet';
+      empty.querySelector('.vocablib-empty-text').textContent = 'Watch a YouTube video and save words to build your library.';
       return;
     }
 
     empty.style.display = 'none';
-    grid.innerHTML = filtered
+    grid.innerHTML = videos
       .map((v) => {
         const timeAgo = this._timeAgo(v.lastWatched);
         const thumbSrc = v.thumbnailUrl
@@ -288,7 +297,6 @@ class VocabularyLibrary {
     this._dictSort = 'newest';
     document.getElementById('vocabLibDictSearch').value = '';
     document.getElementById('vocabLibDictSort').value = 'newest';
-    document.getElementById('vocabLibSearchWrap').style.display = 'none';
     this._render();
   }
 
@@ -341,38 +349,51 @@ class VocabularyLibrary {
       return;
     }
 
+    const f = this._filters;
+
     listEl.innerHTML = words
       .map((w) => {
-        const date = new Date(w.timestamp).toLocaleDateString();
-        const time = this._fmtTime(w.videoTimestamp || 0);
-        const context = w.context
+        const date = f.date ? `<span class="vocablib-word-date">${new Date(w.timestamp).toLocaleDateString()}</span>` : '';
+        const time = f.timestamp && w.videoTimestamp ? `<span class="vocablib-word-timestamp" title="Video timestamp">${this._fmtTime(w.videoTimestamp)}</span>` : '';
+        const context = f.context && w.context
           ? `<div class="vocablib-word-context">&ldquo;${this._highlightWord(this._esc(w.context), this._esc(w.word))}&rdquo;</div>`
           : '';
-        const russian = w.russian
+        const armenian = f.armenian && w.translation
+          ? `<span class="vocablib-word-armenian">${this._esc(w.translation)}</span>`
+          : '';
+        const russian = f.russian && w.russian
           ? `<span class="vocablib-word-russian">${this._esc(w.russian)}</span>`
           : '';
 
+        const hasTranslations = armenian || russian;
+        const isCompact = !context && !time && !date;
+
+        const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word">&#128465;</button>`;
+        const deleteInline = `<button class="vocablib-word-delete-inline" data-id="${w.id}" title="Delete word">&#128465;</button>`;
+
         return `
-          <div class="vocablib-word" data-id="${w.id}">
+          <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
             <div class="vocablib-word-main">
               <div class="vocablib-word-en">${this._esc(w.word)}</div>
-              <div class="vocablib-word-translations">
-                <span class="vocablib-word-armenian">${this._esc(w.translation || '')}</span>
-                ${russian}
+              <div style="display:flex;align-items:baseline;gap:8px;">
+                ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
+                ${isCompact ? deleteInline : ''}
               </div>
             </div>
             ${context}
+            ${(time || date) ? `
             <div class="vocablib-word-footer">
-              <span class="vocablib-word-timestamp" title="Video timestamp">${time}</span>
-              <span class="vocablib-word-date">${date}</span>
-              <button class="vocablib-word-delete" data-id="${w.id}" title="Delete word">&#128465;</button>
+              ${time}
+              ${date}
+              ${deleteBtn}
             </div>
+            ` : (!isCompact ? `<div class="vocablib-word-footer">${deleteBtn}</div>` : '')}
           </div>
         `;
       })
       .join('');
 
-    listEl.querySelectorAll('.vocablib-word-delete').forEach((btn) => {
+    listEl.querySelectorAll('.vocablib-word-delete, .vocablib-word-delete-inline').forEach((btn) => {
       btn.addEventListener('click', async (e) => {
         e.stopPropagation();
         await this._deleteWord(btn.dataset.id);

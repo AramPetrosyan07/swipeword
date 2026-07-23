@@ -911,9 +911,6 @@
       <div class="top-bar">
         <button class="icon-btn" id="btnVocabLibBack" title="Back">&#8592;</button>
         <span class="progress-text">Vocabulary Library</span>
-        <div id="vocabLibSearchWrap" style="display:none;">
-          <input type="text" id="vocabLibSearchInput" class="words-search-input" placeholder="Search videos or words..." autocomplete="off" spellcheck="false" />
-        </div>
         <div></div>
       </div>
 
@@ -954,6 +951,41 @@
             </select>
           </div>
           <div class="vocablib-dict-toolbar-right">
+            <div class="vocablib-search-group">
+              <button class="icon-btn vocablib-filter-btn" id="btnVocabLibFilter" title="Filter displayed info">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="4" y1="6" x2="20" y2="6"/><circle cx="8" cy="6" r="2"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="16" cy="12" r="2"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="10" cy="18" r="2"/>
+                </svg>
+              </button>
+              <div class="vocablib-filter-dropdown" id="vocabLibFilterDropdown" style="display:none;">
+                <div class="vocablib-filter-title">Show in word cards</div>
+                <label class="vocablib-filter-option">
+                  <input type="checkbox" id="vocabFilterArmenian" checked />
+                  <span class="vocablib-filter-check"></span>
+                  <span>&#127462;&#127454; Armenian translation</span>
+                </label>
+                <label class="vocablib-filter-option">
+                  <input type="checkbox" id="vocabFilterRussian" checked />
+                  <span class="vocablib-filter-check"></span>
+                  <span>&#127479;&#127482; Russian translation</span>
+                </label>
+                <label class="vocablib-filter-option">
+                  <input type="checkbox" id="vocabFilterContext" checked />
+                  <span class="vocablib-filter-check"></span>
+                  <span>&#128203; Context / sentence</span>
+                </label>
+                <label class="vocablib-filter-option">
+                  <input type="checkbox" id="vocabFilterTimestamp" checked />
+                  <span class="vocablib-filter-check"></span>
+                  <span>&#9201; Video timestamp</span>
+                </label>
+                <label class="vocablib-filter-option">
+                  <input type="checkbox" id="vocabFilterDate" checked />
+                  <span class="vocablib-filter-check"></span>
+                  <span>&#128197; Date saved</span>
+                </label>
+              </div>
+            </div>
             <input type="text" id="vocabLibDictSearch" class="vocablib-dict-search" placeholder="Search words..." autocomplete="off" spellcheck="false" />
             <button class="vocablib-delete-all-btn" id="btnVocabLibDeleteAll" title="Delete all words from this video">&#128465; Delete All</button>
           </div>
