@@ -99,23 +99,6 @@ class TranslationPopup {
     this._popup.dataset.justOpened = '1';
     setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
 
-    const rect = targetEl.getBoundingClientRect();
-    const popupW = 320;
-    const popupH = 200;
-    let left = rect.left + rect.width / 2 - popupW / 2;
-    let top = rect.bottom + 8;
-    if (top + popupH > window.innerHeight) {
-      top = rect.top - popupH - 8;
-    }
-    if (left < 8) left = 8;
-    if (left + popupW > window.innerWidth - 8) left = window.innerWidth - popupW - 8;
-    if (top < 8) top = 8;
-    this._popup.style.left = left + 'px';
-    this._popup.style.top = top + 'px';
-    this._popup.style.position = 'fixed';
-    this._popup.style.bottom = 'auto';
-    this._popup.style.transform = 'none';
-
     this._fetchTranslation(word);
   }
 

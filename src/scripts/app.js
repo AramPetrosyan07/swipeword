@@ -1218,7 +1218,7 @@ class App {
     });
 
     divider.addEventListener('dblclick', () => {
-      subPanel.style.flexBasis = '90%';
+      subPanel.style.flexBasis = '50%';
       subPanel.style.flexGrow = '0';
     });
 
@@ -1311,6 +1311,10 @@ class App {
       document.getElementById('readYoutubeArea').style.display = 'flex';
       const ytPlayerEl = document.getElementById('readYoutubePlayer');
       ytPlayerEl.style.height = '45%';
+      if (this._ytPlayer) {
+        try { this._ytPlayer.destroy(); } catch (e) {}
+        this._ytPlayer = null;
+      }
       ytPlayerEl.innerHTML = '';
       document.getElementById('readYoutubeSubtitles').innerHTML =
         '<p style="color:var(--text-secondary);">Loading captions...</p>';
@@ -1431,7 +1435,10 @@ class App {
     }
     this._ytCaptions = [];
     this._ytCurrentLineIndex = -1;
-    this._ytPlayer = null;
+    if (this._ytPlayer) {
+      try { this._ytPlayer.destroy(); } catch (e) {}
+      this._ytPlayer = null;
+    }
   }
 
   _resetReadPage() {
@@ -1455,7 +1462,7 @@ class App {
     document.getElementById('readYoutubePlayer').style.height = '45%';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
     document.getElementById('ytWordsList').innerHTML = '';
-    document.getElementById('ytSubtitlePanel').style.flexBasis = '90%';
+    document.getElementById('ytSubtitlePanel').style.flexBasis = '50%';
     document.getElementById('ytSubtitlePanel').style.flexGrow = '0';
 
     this._readPdfFile = null;

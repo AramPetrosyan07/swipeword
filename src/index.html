@@ -856,6 +856,26 @@
             <div class="yt-words-panel" id="ytWordsPanel">
               <div class="yt-words-header">Saved Words</div>
               <div class="yt-words-list" id="ytWordsList"></div>
+              <!-- Translation Popup -->
+              <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
+                <div class="reader-translate-header">
+                  <span class="reader-translate-word" id="readerTranslateWord"></span>
+                  <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
+                </div>
+                <div class="reader-translate-body">
+                  <div class="reader-translate-row">
+                    <span class="reader-translate-label">&#127462;&#127454; Armenian:</span>
+                    <span class="reader-translate-value" id="readerTranslateArmenian"></span>
+                  </div>
+                  <div class="reader-translate-row">
+                    <span class="reader-translate-label">&#127479;&#127482; Russian:</span>
+                    <span class="reader-translate-value" id="readerTranslateRussian"></span>
+                  </div>
+                </div>
+                <div class="reader-translate-actions">
+                  <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
+                </div>
+              </div>
             </div>
             <div class="yt-drag-overlay-h" id="ytDragOverlayH"></div>
           </div>
@@ -863,26 +883,6 @@
         </div>
       </div>
 
-      <!-- Translation Popup -->
-      <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
-        <div class="reader-translate-header">
-          <span class="reader-translate-word" id="readerTranslateWord"></span>
-          <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
-        </div>
-        <div class="reader-translate-body">
-          <div class="reader-translate-row">
-            <span class="reader-translate-label">&#127462;&#127454; Armenian:</span>
-            <span class="reader-translate-value" id="readerTranslateArmenian"></span>
-          </div>
-          <div class="reader-translate-row">
-            <span class="reader-translate-label">&#127479;&#127482; Russian:</span>
-            <span class="reader-translate-value" id="readerTranslateRussian"></span>
-          </div>
-        </div>
-        <div class="reader-translate-actions">
-          <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
-        </div>
-      </div>
     </div>
 
     <!-- Words Page (Saved Vocabulary) -->
