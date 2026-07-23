@@ -22,6 +22,7 @@ class App {
     this._ytCaptionTimer = null;
     this._ytCurrentLineIndex = -1;
     this._ytPlayer = null;
+    this._ytPositionTimer = null;
 
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
@@ -170,6 +171,14 @@ class App {
     document.getElementById('sideLearnWords').addEventListener('click', () => {
       this._closeSidebar();
       this._showWordsPage();
+    });
+    document.getElementById('sideVocabLib').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showVocabLib();
+    });
+    document.getElementById('sideVocabLibRead').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showVocabLib();
     });
 
     document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
@@ -392,6 +401,17 @@ class App {
           }
           return;
         }
+        if (activeScreen.id === 'screen-vocablib') {
+          if (vocabLibrary._view === 'dict') {
+            vocabLibrary._handleBack();
+          } else if (this._currentAppMode === 'read') {
+            document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+            document.getElementById('screen-reader').classList.add('active');
+          } else {
+            this._showLearnScreen();
+          }
+          return;
+        }
       }
 
       if (activeScreen.id === 'screen-learn' && !this.learnCard.isAnimating) {
@@ -505,6 +525,12 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-words').classList.add('active');
     this.wordsPage.show();
+  }
+
+  _showVocabLib() {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-vocablib').classList.add('active');
+    vocabLibrary.show();
   }
 
   async _switchVocabulary() {
@@ -1264,18 +1290,29 @@ class App {
       listEl.innerHTML = videoWords
         .map(w => {
           const trans = w.translation || '';
-          return '<div class="yt-word-item" data-word="' + w.word + '">' +
+          const ts = w.videoTimestamp || 0;
+          return '<div class="yt-word-item" data-word="' + w.word + '" data-timestamp="' + ts + '">' +
             '<div class="yt-word-en">' + w.word + '</div>' +
             (trans ? '<div class="yt-word-trans">' + trans + '</div>' : '') +
             '</div>';
         })
         .join('');
+
+      listEl.querySelectorAll('.yt-word-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const ts = parseFloat(item.dataset.timestamp) || 0;
+          if (this._ytPlayer && typeof this._ytPlayer.seekTo === 'function' && ts > 0) {
+            this._ytPlayer.seekTo(Math.max(0, ts - 4), true);
+            this._ytPlayer.playVideo();
+          }
+        });
+      });
     } catch (e) {
       listEl.innerHTML = '<div class="yt-word-empty">Failed to load words</div>';
     }
   }
 
-  _loadYoutubeContent() {
+  async _loadYoutubeContent() {
     const url = document.getElementById('readYoutubeInput').value.trim();
     if (!url) return;
     const videoId = this._extractYoutubeId(url);
@@ -1283,7 +1320,17 @@ class App {
       alert('Invalid YouTube URL');
       return;
     }
-    this._showReadContent('youtube', url, null, videoId);
+    let title = url;
+    try {
+      const resp = await fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.title) title = data.title;
+      }
+    } catch (e) {
+      // fallback to URL as title
+    }
+    this._showReadContent('youtube', title, null, videoId);
   }
 
   _extractYoutubeId(url) {
@@ -1330,9 +1377,15 @@ class App {
             if (this._ytCaptions && this._ytCaptions.length > 0) {
               this._startYoutubeSync();
             }
+          },
+          onStateChange: (event) => {
+            if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
+              this._saveYoutubePosition();
+            }
           }
         }
       });
+      this._startPositionTracking();
     } else if (sourceType === 'pdf') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('readCollapsedBarPdf').style.display = 'flex';
@@ -1436,8 +1489,35 @@ class App {
     this._ytCaptions = [];
     this._ytCurrentLineIndex = -1;
     if (this._ytPlayer) {
+      this._saveYoutubePosition();
       try { this._ytPlayer.destroy(); } catch (e) {}
       this._ytPlayer = null;
+    }
+    if (this._ytPositionTimer) {
+      clearInterval(this._ytPositionTimer);
+      this._ytPositionTimer = null;
+    }
+  }
+
+  _startPositionTracking() {
+    if (this._ytPositionTimer) {
+      clearInterval(this._ytPositionTimer);
+    }
+    this._ytPositionTimer = setInterval(() => {
+      this._saveYoutubePosition();
+    }, 5000);
+  }
+
+  async _saveYoutubePosition() {
+    if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
+    if (!this._readSourceInfo || this._readSourceInfo.type !== 'youtube') return;
+    const url = this._readSourceInfo.youtubeUrl;
+    if (!url) return;
+    const position = this._ytPlayer.getCurrentTime();
+    try {
+      await window.electronAPI.vocabLibUpdatePosition(url, position);
+    } catch (e) {
+      // silently fail
     }
   }
 

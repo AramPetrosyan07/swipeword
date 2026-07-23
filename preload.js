@@ -22,4 +22,9 @@ contextBridge.exposeInMainWorld('electronAPI', {
   dictionaryRemove: (id) => ipcRenderer.invoke('dictionary:remove', id),
   dictionaryLoad: () => ipcRenderer.invoke('dictionary:load'),
   youtubeCaptions: (videoId) => ipcRenderer.invoke('youtube:captions', videoId),
+  vocabLibLoadMeta: () => ipcRenderer.invoke('vocablib:loadMeta'),
+  vocabLibSaveMeta: (data) => ipcRenderer.invoke('vocablib:saveMeta', data),
+  vocabLibUpdatePosition: (youtubeUrl, position) => ipcRenderer.invoke('vocablib:updatePosition', youtubeUrl, position),
+  vocabLibDeleteVideo: (youtubeUrl) => ipcRenderer.invoke('vocablib:deleteVideo', youtubeUrl),
+  vocabLibDeleteWord: (wordId) => ipcRenderer.invoke('vocablib:deleteWord', wordId),
 });

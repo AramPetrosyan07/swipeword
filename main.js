@@ -379,6 +379,85 @@ ipcMain.handle("youtube:captions", async (_event, videoId) => {
   }
 });
 
+// --- Video Metadata for Vocabulary Library ---
+const videoMetaPath = path.join(
+  app.getPath("userData"),
+  "swipeword-video-meta.json",
+);
+
+function loadVideoMetaFile() {
+  try {
+    if (fs.existsSync(videoMetaPath)) {
+      return JSON.parse(fs.readFileSync(videoMetaPath, "utf-8"));
+    }
+  } catch (e) {
+    console.error("Failed to load video meta:", e);
+  }
+  return {};
+}
+
+function saveVideoMetaFile(data) {
+  fs.writeFileSync(videoMetaPath, JSON.stringify(data, null, 2), "utf-8");
+}
+
+ipcMain.handle("vocablib:loadMeta", async () => {
+  return loadVideoMetaFile();
+});
+
+ipcMain.handle("vocablib:saveMeta", async (_event, data) => {
+  try {
+    saveVideoMetaFile(data);
+    return { success: true };
+  } catch (e) {
+    console.error("Failed to save video meta:", e);
+    return { success: false };
+  }
+});
+
+ipcMain.handle("vocablib:updatePosition", async (_event, youtubeUrl, position) => {
+  try {
+    const data = loadVideoMetaFile();
+    if (!data[youtubeUrl]) {
+      data[youtubeUrl] = {};
+    }
+    data[youtubeUrl].lastPosition = position;
+    data[youtubeUrl].lastWatched = Date.now();
+    saveVideoMetaFile(data);
+    return { success: true };
+  } catch (e) {
+    console.error("Failed to update position:", e);
+    return { success: false };
+  }
+});
+
+ipcMain.handle("vocablib:deleteVideo", async (_event, youtubeUrl) => {
+  try {
+    const dictData = loadDictionaryFile();
+    const filtered = dictData.filter((e) => e.youtubeUrl !== youtubeUrl);
+    saveDictionaryFile(filtered);
+    const meta = loadVideoMetaFile();
+    delete meta[youtubeUrl];
+    saveVideoMetaFile(meta);
+    return { success: true };
+  } catch (e) {
+    console.error("Failed to delete video vocabulary:", e);
+    return { success: false };
+  }
+});
+
+ipcMain.handle("vocablib:deleteWord", async (_event, wordId) => {
+  try {
+    let data = loadDictionaryFile();
+    const word = data.find((e) => e.id === wordId);
+    data = data.filter((e) => e.id !== wordId);
+    saveDictionaryFile(data);
+    return { success: true, youtubeUrl: word ? word.youtubeUrl : null };
+  } catch (e) {
+    console.error("Failed to delete word:", e);
+    return { success: false };
+  }
+});
+
 // --- Personal Dictionary ---
 const dictionaryPath = path.join(
   app.getPath("userData"),
@@ -413,6 +492,29 @@ ipcMain.handle("dictionary:add", async (_event, entry) => {
   }
   data.push(entry);
   saveDictionaryFile(data);
+
+  if (entry.sourceType === "youtube" && entry.youtubeUrl) {
+    const meta = loadVideoMetaFile();
+    if (!meta[entry.youtubeUrl]) {
+      meta[entry.youtubeUrl] = {
+        title: entry.sourceTitle || "",
+        thumbnailUrl: entry.thumbnailUrl || "",
+        createdAt: Date.now(),
+        lastWatched: Date.now(),
+        lastPosition: 0,
+      };
+    } else {
+      meta[entry.youtubeUrl].lastWatched = Date.now();
+      if (entry.thumbnailUrl && !meta[entry.youtubeUrl].thumbnailUrl) {
+        meta[entry.youtubeUrl].thumbnailUrl = entry.thumbnailUrl;
+      }
+      if (entry.sourceTitle && !meta[entry.youtubeUrl].title) {
+        meta[entry.youtubeUrl].title = entry.sourceTitle;
+      }
+    }
+    saveVideoMetaFile(meta);
+  }
+
   return { success: true };
 });
 

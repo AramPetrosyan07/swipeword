@@ -24,6 +24,9 @@
           <button class="sidebar-btn" data-screen="words" id="sideWords">
             <span class="sidebar-btn-icon">&#128209;</span> Words
           </button>
+          <button class="sidebar-btn" id="sideVocabLibRead" data-screen="vocablib">
+            <span class="sidebar-btn-icon">&#127909;</span> Vocabulary Library
+          </button>
         </div>
       </div>
       <div id="sidebarLearnContent">
@@ -54,6 +57,9 @@
           </button>
           <button class="sidebar-btn" id="sideLearnWords" data-screen="words">
             <span class="sidebar-btn-icon">&#128209;</span> Saved Words
+          </button>
+          <button class="sidebar-btn" id="sideVocabLib" data-screen="vocablib">
+            <span class="sidebar-btn-icon">&#127909;</span> Vocabulary Library
           </button>
         </div>
         <div class="sidebar-section">
@@ -900,6 +906,62 @@
 
     </div>
 
+    <!-- Vocabulary Library Screen -->
+    <div id="screen-vocablib" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnVocabLibBack" title="Back">&#8592;</button>
+        <span class="progress-text">Vocabulary Library</span>
+        <div id="vocabLibSearchWrap" style="display:none;">
+          <input type="text" id="vocabLibSearchInput" class="words-search-input" placeholder="Search videos or words..." autocomplete="off" spellcheck="false" />
+        </div>
+        <div></div>
+      </div>
+
+      <!-- Video Grid View -->
+      <div class="vocablib-content" id="vocabLibContent">
+        <div class="vocablib-empty" id="vocabLibEmpty">
+          <div class="vocablib-empty-icon">&#127909;</div>
+          <h2 class="vocablib-empty-title">No vocabulary yet</h2>
+          <p class="vocablib-empty-text">Watch a YouTube video and save words to build your library.</p>
+        </div>
+        <div class="vocablib-grid" id="vocabLibGrid"></div>
+      </div>
+
+      <!-- Dictionary Detail View -->
+      <div class="vocablib-dict" id="vocabLibDict" style="display:none;">
+        <div class="vocablib-dict-header" id="vocabLibDictHeader">
+          <div class="vocablib-dict-thumb-wrap" id="vocabLibDictThumbWrap">
+            <div class="vocablib-dict-thumb" id="vocabLibDictThumb"></div>
+            <div class="vocablib-dict-play" id="vocabLibDictPlay">&#9654;</div>
+          </div>
+          <div class="vocablib-dict-info">
+            <h2 class="vocablib-dict-title" id="vocabLibDictTitle"></h2>
+            <div class="vocablib-dict-meta">
+              <span id="vocabLibDictWordCount"></span>
+              <span class="vocablib-dict-meta-sep">&middot;</span>
+              <span id="vocabLibDictLastWatched"></span>
+            </div>
+          </div>
+        </div>
+        <div class="vocablib-dict-toolbar">
+          <div class="vocablib-dict-toolbar-left">
+            <select id="vocabLibDictSort" class="vocablib-select">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="alpha">A &rarr; Z</option>
+              <option value="alpha-desc">Z &rarr; A</option>
+              <option value="timestamp">Video Timestamp</option>
+            </select>
+          </div>
+          <div class="vocablib-dict-toolbar-right">
+            <input type="text" id="vocabLibDictSearch" class="vocablib-dict-search" placeholder="Search words..." autocomplete="off" spellcheck="false" />
+            <button class="vocablib-delete-all-btn" id="btnVocabLibDeleteAll" title="Delete all words from this video">&#128465; Delete All</button>
+          </div>
+        </div>
+        <div class="vocablib-dict-list" id="vocabLibDictList"></div>
+      </div>
+    </div>
+
     <!-- Words Page (Saved Vocabulary) -->
     <div id="screen-words" class="screen">
       <div class="top-bar">
@@ -984,6 +1046,7 @@
   <script src="scripts/charts.js"></script>
   <script src="scripts/word-collector.js"></script>
   <script src="scripts/words-page.js"></script>
+  <script src="scripts/vocabulary-library.js"></script>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="scripts/app.js"></script>
 </body>

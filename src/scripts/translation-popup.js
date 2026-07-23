@@ -134,16 +134,32 @@ class TranslationPopup {
     const word = this._currentWord;
     const lower = word.toLowerCase();
     const cached = this._cache.get(lower) || {};
+
+    let thumbnailUrl = '';
+    let videoTimestamp = 0;
+    if (this._currentSource && this._currentSource.type === 'youtube' && this._currentSource.youtubeUrl) {
+      const match = this._currentSource.youtubeUrl.match(/(?:watch\?v=|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
+      if (match) {
+        thumbnailUrl = `https://img.youtube.com/vi/${match[1]}/mqdefault.jpg`;
+      }
+      if (typeof app !== 'undefined' && app._ytPlayer && typeof app._ytPlayer.getCurrentTime === 'function') {
+        videoTimestamp = Math.floor(app._ytPlayer.getCurrentTime());
+      }
+    }
+
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       word: lower,
       translation: cached.armenian || '',
+      russian: cached.russian || '',
       transliteration: cached.transliteration || '',
       context: this._currentContext,
       sourceType: this._currentSource.type || 'text',
       sourceTitle: this._currentSource.title || '',
       sourceId: this._currentSource.id || '',
       youtubeUrl: this._currentSource.youtubeUrl || '',
+      thumbnailUrl: thumbnailUrl,
+      videoTimestamp: videoTimestamp,
       timestamp: Date.now(),
     };
 
