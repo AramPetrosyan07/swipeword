@@ -13,16 +13,7 @@
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
       <div class="sidebar-header">
-        <div class="sidebar-mode-switch" id="sidebarModeSwitch">
-          <button class="sidebar-mode-btn active" data-mode="learn" title="Learn Words">
-            <span class="sidebar-mode-icon">📖</span>
-            <span class="sidebar-mode-label">Words</span>
-          </button>
-          <button class="sidebar-mode-btn" data-mode="read" title="Read Books">
-            <span class="sidebar-mode-icon">📚</span>
-            <span class="sidebar-mode-label">Read</span>
-          </button>
-        </div>
+        <span class="sidebar-logo">SwipeWord</span>
         <button class="icon-btn" id="btnSidebarClose" title="Close sidebar">&times;</button>
       </div>
       <div id="sidebarReadContent" style="display:none;">
@@ -120,7 +111,19 @@
     <!-- Learn Screen -->
     <div id="screen-learn" class="screen">
       <div class="top-bar">
-        <button class="icon-btn" id="btnMenu" title="Menu">&#9776;</button>
+        <div class="top-left">
+          <button class="icon-btn" id="btnMenu" title="Menu">&#9776;</button>
+          <div class="topbar-mode-switch" id="topbarModeSwitch">
+            <button class="topbar-mode-btn active" data-mode="learn" title="Learn Words">
+              <span class="topbar-mode-icon">&#128214;</span>
+              <span class="topbar-mode-label">Words</span>
+            </button>
+            <button class="topbar-mode-btn" data-mode="read" title="Read">
+              <span class="topbar-mode-icon">&#128218;</span>
+              <span class="topbar-mode-label">Read</span>
+            </button>
+          </div>
+        </div>
         <span class="progress-text" id="progressText">0 / 0</span>
         <div class="top-right">
           <button class="icon-btn" id="btnHistory" title="Session history">&#128196;</button>
@@ -774,8 +777,20 @@
     <!-- Reader Screen -->
     <div id="screen-reader" class="screen">
       <div class="reader-toolbar">
-        <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
-        <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back">&#8592;</button>
+        <div class="top-left">
+          <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
+          <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back">&#8592;</button>
+          <div class="topbar-mode-switch" id="topbarModeSwitchRead">
+            <button class="topbar-mode-btn" data-mode="learn" title="Learn Words">
+              <span class="topbar-mode-icon">&#128214;</span>
+              <span class="topbar-mode-label">Words</span>
+            </button>
+            <button class="topbar-mode-btn active" data-mode="read" title="Read">
+              <span class="topbar-mode-icon">&#128218;</span>
+              <span class="topbar-mode-label">Read</span>
+            </button>
+          </div>
+        </div>
         <span class="reader-title" id="readerTitle">Read</span>
         <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
       </div>

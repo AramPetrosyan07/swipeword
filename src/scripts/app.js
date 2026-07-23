@@ -172,7 +172,7 @@ class App {
       this._showWordsPage();
     });
 
-    document.querySelectorAll('.sidebar-mode-btn').forEach((btn) => {
+    document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
         const mode = btn.dataset.mode;
         if (mode !== this._currentAppMode) {
@@ -477,7 +477,7 @@ class App {
 
   _switchAppMode(mode) {
     this._currentAppMode = mode;
-    document.querySelectorAll('.sidebar-mode-btn').forEach((btn) => {
+    document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.mode === mode);
     });
     if (mode === 'read') {
