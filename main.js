@@ -331,26 +331,25 @@ ipcMain.handle("store:loadFavoritesFile", async () => {
 // --- Translation API (MyMemory free tier) ---
 const translateCache = new Map();
 
-ipcMain.handle("translate:word", async (_event, word) => {
-  if (translateCache.has(word)) return translateCache.get(word);
+ipcMain.handle("translate:word", async (_event, { word, from, to1, to2 }) => {
+  const cacheKey = `${word}|${from}|${to1 || ""}|${to2 || ""}`;
+  if (translateCache.has(cacheKey)) return translateCache.get(cacheKey);
 
   try {
-    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|hy`;
-    const resp = await fetch(url);
-    const data = await resp.json();
-    const armenian = data.responseData?.translatedText || "";
+    const results = {};
+    for (const lang of [to1, to2]) {
+      if (!lang) continue;
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${from}|${lang}`;
+      const resp = await fetch(url);
+      const data = await resp.json();
+      results[lang] = data.responseData?.translatedText || "";
+    }
 
-    const ruUrl = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|ru`;
-    const ruResp = await fetch(ruUrl);
-    const ruData = await ruResp.json();
-    const russian = ruData.responseData?.translatedText || "";
-
-    const result = { armenian, russian, transliteration: "" };
-    translateCache.set(word, result);
-    return result;
+    translateCache.set(cacheKey, results);
+    return results;
   } catch (e) {
     console.error("Translation failed:", e);
-    return { armenian: "", russian: "", transliteration: "" };
+    return {};
   }
 });
 

@@ -2,8 +2,7 @@ class TranslationPopup {
   constructor() {
     this._popup = document.getElementById('readerTranslatePopup');
     this._wordEl = document.getElementById('readerTranslateWord');
-    this._armenianEl = document.getElementById('readerTranslateArmenian');
-    this._russianEl = document.getElementById('readerTranslateRussian');
+    this._bodyEl = this._popup.querySelector('.reader-translate-body');
     this._saveBtn = document.getElementById('btnReaderAddWord');
     this._closeBtn = document.getElementById('btnReaderTranslateClose');
     this._currentWord = null;
@@ -12,9 +11,42 @@ class TranslationPopup {
     this._cache = new Map();
     this._boundContainers = new WeakSet();
     this.onSave = null;
+    this._languages = { from: 'en', to1: 'hy', to2: 'ru' };
+    this._langNames = {
+      en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
+      ru:'Russian',ar:'Arabic',zh:'Chinese',ja:'Japanese',ko:'Korean',hi:'Hindi',
+      hy:'Armenian',tr:'Turkish',pl:'Polish',nl:'Dutch',sv:'Swedish',uk:'Ukrainian',
+      el:'Greek',cs:'Czech',ro:'Romanian',hu:'Hungarian',fi:'Finnish',da:'Danish',
+      no:'Norwegian',he:'Hebrew',th:'Thai',vi:'Vietnamese',id:'Indonesian',
+      ka:'Georgian',bn:'Bengali',ur:'Urdu',fa:'Persian',sw:'Swahili',fil:'Filipino',ms:'Malay'
+    };
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
+  }
+
+  setLanguages(from, to1, to2) {
+    this._languages = { from, to1, to2 };
+    this._cache.clear();
+  }
+
+  _buildRows() {
+    const langs = this._languages;
+    const rows = [];
+    if (langs.to1) rows.push({ lang: langs.to1, label: this._langNames[langs.to1] || langs.to1 });
+    if (langs.to2) rows.push({ lang: langs.to2, label: this._langNames[langs.to2] || langs.to2 });
+    return rows;
+  }
+
+  _renderBody(translations) {
+    const rows = this._buildRows();
+    this._bodyEl.innerHTML = rows.map(r => {
+      const val = translations[r.lang] || '...';
+      return `<div class="reader-translate-row" data-lang="${r.lang}">
+        <span class="reader-translate-label">${r.label}:</span>
+        <span class="reader-translate-value">${val}</span>
+      </div>`;
+    }).join('');
   }
 
   bindToContainer(container, sourceInfo) {
@@ -93,8 +125,7 @@ class TranslationPopup {
     this._currentContext = context;
     this._currentSource = sourceInfo || {};
     this._wordEl.textContent = word;
-    this._armenianEl.textContent = '...';
-    this._russianEl.textContent = '...';
+    this._renderBody({});
     this._popup.style.display = 'flex';
     this._popup.dataset.justOpened = '1';
     setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
@@ -111,21 +142,21 @@ class TranslationPopup {
   async _fetchTranslation(word) {
     const lower = word.toLowerCase();
     if (this._cache.has(lower)) {
-      const cached = this._cache.get(lower);
-      this._armenianEl.textContent = cached.armenian || 'N/A';
-      this._russianEl.textContent = cached.russian || 'N/A';
+      this._renderBody(this._cache.get(lower));
       return;
     }
 
     try {
-      const result = await window.electronAPI.translateWord(lower);
+      const { from, to1, to2 } = this._languages;
+      const result = await window.electronAPI.translateWord(lower, from, to1, to2);
       const data = result || {};
       this._cache.set(lower, data);
-      this._armenianEl.textContent = data.armenian || 'N/A';
-      this._russianEl.textContent = data.russian || 'N/A';
+      this._renderBody(data);
     } catch (e) {
-      this._armenianEl.textContent = 'Unavailable';
-      this._russianEl.textContent = 'Unavailable';
+      const errData = {};
+      if (this._languages.to1) errData[this._languages.to1] = 'Unavailable';
+      if (this._languages.to2) errData[this._languages.to2] = 'Unavailable';
+      this._renderBody(errData);
     }
   }
 
@@ -150,9 +181,11 @@ class TranslationPopup {
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       word: lower,
-      translation: cached.armenian || '',
-      russian: cached.russian || '',
-      transliteration: cached.transliteration || '',
+      translation: cached[this._languages.to1] || '',
+      russian: cached[this._languages.to2] || '',
+      transliteration: '',
+      translationLang: this._languages.to1,
+      russianLang: this._languages.to2,
       context: this._currentContext,
       sourceType: this._currentSource.type || 'text',
       sourceTitle: this._currentSource.title || '',

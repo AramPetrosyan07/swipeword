@@ -23,6 +23,10 @@ class App {
     this._ytCurrentLineIndex = -1;
     this._ytPlayer = null;
     this._ytPositionTimer = null;
+    this._ytSourceLang = 'en';
+    this._ytTargetLang1 = 'hy';
+    this._ytTargetLang2 = 'ru';
+    this._loadLangPrefs();
 
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
@@ -1043,6 +1047,36 @@ class App {
     this._noteEditingWordId = undefined;
   }
 
+  _loadLangPrefs() {
+    try {
+      const saved = localStorage.getItem('yt-lang-prefs');
+      if (saved) {
+        const p = JSON.parse(saved);
+        this._ytSourceLang = p.from || 'en';
+        this._ytTargetLang1 = p.to1 || 'hy';
+        this._ytTargetLang2 = p.to2 || 'ru';
+      }
+    } catch (e) {}
+  }
+
+  _saveLangPrefs() {
+    try {
+      localStorage.setItem('yt-lang-prefs', JSON.stringify({
+        from: this._ytSourceLang,
+        to1: this._ytTargetLang1,
+        to2: this._ytTargetLang2
+      }));
+    } catch (e) {}
+  }
+
+  _applyLangPrefsToUI() {
+    const sel1 = document.getElementById('ytLangTarget1');
+    const sel2 = document.getElementById('ytLangTarget2');
+    if (sel1) sel1.value = this._ytTargetLang1;
+    if (sel2) sel2.value = this._ytTargetLang2;
+    this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+  }
+
   _bindReadPageEvents() {
     this._readCurrentPage = null;
     this._readPdfFile = null;
@@ -1096,6 +1130,19 @@ class App {
     });
     document.getElementById('btnReadNewYoutube').addEventListener('click', () => {
       this._resetReadPage();
+    });
+
+    document.getElementById('ytLangTarget1').addEventListener('change', (e) => {
+      this._ytTargetLang1 = e.target.value;
+      this._saveLangPrefs();
+      this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+      this.translationPopup._cache.clear();
+    });
+    document.getElementById('ytLangTarget2').addEventListener('change', (e) => {
+      this._ytTargetLang2 = e.target.value;
+      this._saveLangPrefs();
+      this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+      this.translationPopup._cache.clear();
     });
 
     this._initYoutubeResize();
@@ -1356,6 +1403,8 @@ class App {
       document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
       document.getElementById('readCollapsedLabelYoutube').textContent = title;
       document.getElementById('readYoutubeArea').style.display = 'flex';
+      document.getElementById('ytLangBar').style.display = 'flex';
+      this._applyLangPrefsToUI();
       const ytPlayerEl = document.getElementById('readYoutubePlayer');
       ytPlayerEl.style.height = '45%';
       if (this._ytPlayer) {
@@ -1538,6 +1587,7 @@ class App {
     ytPage.querySelector('.read-page-input').style.display = '';
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
+    document.getElementById('ytLangBar').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
     document.getElementById('readYoutubePlayer').style.height = '45%';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
