@@ -15,6 +15,16 @@ class VocabularyLibrary {
       timestamp: true,
       date: true,
     };
+    this._langFilter = null;
+    this._allLangs = new Set();
+    this._langNames = {
+      en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
+      ru:'Russian',ar:'Arabic',zh:'Chinese',ja:'Japanese',ko:'Korean',hi:'Hindi',
+      hy:'Armenian',tr:'Turkish',pl:'Polish',nl:'Dutch',sv:'Swedish',uk:'Ukrainian',
+      el:'Greek',cs:'Czech',ro:'Romanian',hu:'Hungarian',fi:'Finnish',da:'Danish',
+      no:'Norwegian',he:'Hebrew',th:'Thai',vi:'Vietnamese',id:'Indonesian',
+      ka:'Georgian',bn:'Bengali',ur:'Urdu',fa:'Persian',sw:'Swahili',fil:'Filipino',ms:'Malay'
+    };
   }
 
   async show() {
@@ -22,6 +32,7 @@ class VocabularyLibrary {
     this._searchQuery = '';
     this._dictSearchQuery = '';
     this._view = 'grid';
+    this._langFilter = null;
 
     document.getElementById('vocabLibFilterDropdown').style.display = 'none';
 
@@ -83,11 +94,31 @@ class VocabularyLibrary {
     }
   }
 
+  _updateFilterLabels() {
+    if (!this._currentVideoUrl) return;
+    const words = this._entries.filter(
+      e => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
+    );
+    const langs = new Set();
+    for (const w of words) {
+      if (w.translationLang) langs.add(w.translationLang);
+      if (w.russianLang) langs.add(w.russianLang);
+    }
+    const langArr = Array.from(langs);
+    const label1 = langArr[0] ? (this._langNames[langArr[0]] || langArr[0]) : 'Armenian';
+    const label2 = langArr[1] ? (this._langNames[langArr[1]] || langArr[1]) : 'Russian';
+    const lbl1 = document.getElementById('vocabFilterArmenian').closest('label').querySelector('span:last-child');
+    const lbl2 = document.getElementById('vocabFilterRussian').closest('label').querySelector('span:last-child');
+    if (lbl1) lbl1.textContent = label1 + ' translation';
+    if (lbl2) lbl2.textContent = label2 + ' translation';
+  }
+
   _handleBack() {
     if (this._view === 'dict') {
       this._view = 'grid';
       this._currentVideoUrl = null;
       this._dictSearchQuery = '';
+      this._langFilter = null;
       document.getElementById('vocabLibDictSearch').value = '';
       this._render();
     } else {
@@ -102,6 +133,7 @@ class VocabularyLibrary {
 
   _getVideoEntries() {
     const map = new Map();
+    this._allLangs = new Set();
     for (const entry of this._entries) {
       if (entry.sourceType !== 'youtube' || !entry.youtubeUrl) continue;
       const url = entry.youtubeUrl;
@@ -115,6 +147,7 @@ class VocabularyLibrary {
           lastWatched: meta.lastWatched || 0,
           createdAt: meta.createdAt || 0,
           lastPosition: meta.lastPosition || 0,
+          langs: new Set(),
         });
       }
       const video = map.get(url);
@@ -122,9 +155,22 @@ class VocabularyLibrary {
       if (entry.timestamp > video.lastWatched) {
         video.lastWatched = entry.timestamp;
       }
+      const t1 = entry.translationLang || (entry.translation ? 'hy' : null);
+      const t2 = entry.russianLang || (entry.russian ? 'ru' : null);
+      if (t1) {
+        video.langs.add(t1);
+        this._allLangs.add(t1);
+      }
+      if (t2) {
+        video.langs.add(t2);
+        this._allLangs.add(t2);
+      }
     }
 
-    const videos = Array.from(map.values());
+    let videos = Array.from(map.values());
+    if (this._langFilter) {
+      videos = videos.filter(v => v.langs.has(this._langFilter));
+    }
     videos.sort((a, b) => b.lastWatched - a.lastWatched);
     return videos;
   }
@@ -202,12 +248,18 @@ class VocabularyLibrary {
     const grid = document.getElementById('vocabLibGrid');
     const empty = document.getElementById('vocabLibEmpty');
     const videos = this._getVideoEntries();
+    this._renderLangFilter();
 
     if (videos.length === 0) {
       empty.style.display = '';
       grid.innerHTML = '';
-      empty.querySelector('.vocablib-empty-title').textContent = 'No vocabulary yet';
-      empty.querySelector('.vocablib-empty-text').textContent = 'Watch a YouTube video and save words to build your library.';
+      if (this._langFilter) {
+        empty.querySelector('.vocablib-empty-title').textContent = 'No videos match filter';
+        empty.querySelector('.vocablib-empty-text').textContent = 'Try selecting a different language or clear the filter.';
+      } else {
+        empty.querySelector('.vocablib-empty-title').textContent = 'No vocabulary yet';
+        empty.querySelector('.vocablib-empty-text').textContent = 'Watch a YouTube video and save words to build your library.';
+      }
       return;
     }
 
@@ -222,6 +274,18 @@ class VocabularyLibrary {
         const posBadge = v.lastPosition > 0
           ? `<span class="vocablib-card-position">${this._fmtTime(v.lastPosition)}</span>`
           : '';
+        const langs = Array.from(v.langs);
+        const langHtml = langs.length > 0
+          ? `<div class="vocablib-card-langs">
+              <span class="vocablib-card-lang-en">EN</span>
+              ${langs.map(l => {
+                const name = this._langNames[l] || l.toUpperCase();
+                const code = l;
+                const cls = langs.indexOf(l) === 0 ? 'vocablib-card-lang-t1' : 'vocablib-card-lang-t2';
+                return `<span class="${cls}">${name}</span>`;
+              }).join('')}
+            </div>`
+          : '';
 
         return `
           <div class="vocablib-card" data-url="${this._esc(v.url)}">
@@ -235,6 +299,7 @@ class VocabularyLibrary {
             </div>
             <div class="vocablib-card-body" data-url="${this._esc(v.url)}">
               <div class="vocablib-card-title">${this._esc(v.title)}</div>
+              ${langHtml}
               <div class="vocablib-card-meta">
                 <span class="vocablib-card-word-count">${v.wordCount} word${v.wordCount !== 1 ? 's' : ''}</span>
                 <span class="vocablib-card-meta-sep">&middot;</span>
@@ -265,6 +330,40 @@ class VocabularyLibrary {
         this._openDictionary(el.dataset.url);
       });
     });
+  }
+
+  _renderLangFilter() {
+    const container = document.getElementById('vocabLibLangFilter');
+    const chipsEl = document.getElementById('vocabLibLangChips');
+    const langs = Array.from(this._allLangs).sort();
+
+    if (langs.length <= 1) {
+      container.style.display = 'none';
+      return;
+    }
+
+    container.style.display = 'flex';
+    chipsEl.innerHTML = '';
+
+    const allChip = document.createElement('button');
+    allChip.className = 'vocablib-lang-chip' + (this._langFilter === null ? ' active' : '');
+    allChip.textContent = 'All';
+    allChip.addEventListener('click', () => {
+      this._langFilter = null;
+      this._render();
+    });
+    chipsEl.appendChild(allChip);
+
+    for (const lang of langs) {
+      const chip = document.createElement('button');
+      chip.className = 'vocablib-lang-chip' + (this._langFilter === lang ? ' active' : '');
+      chip.textContent = this._langNames[lang] || lang;
+      chip.addEventListener('click', () => {
+        this._langFilter = this._langFilter === lang ? null : lang;
+        this._render();
+      });
+      chipsEl.appendChild(chip);
+    }
   }
 
   _openVideoPlayer(youtubeUrl) {
@@ -333,6 +432,7 @@ class VocabularyLibrary {
       ? `Last active ${this._timeAgo(video.lastWatched)}`
       : '';
 
+    this._updateFilterLabels();
     this._renderDictList();
   }
 
