@@ -2436,12 +2436,72 @@ body {
   color: var(--text);
 }
 
-.reader-translate-word-item {
-  background: var(--bg-secondary, rgba(128,128,128,0.1));
-  padding: 2px 8px;
-  border-radius: 4px;
+.rw-word-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
   font-size: 13px;
+  border: 1px solid var(--border);
+  background: var(--bg-secondary, rgba(128,128,128,0.08));
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.rw-word-tts {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 100%;
+  padding: 3px 0;
+  cursor: pointer;
+  font-size: 10px;
+  color: var(--text-secondary);
+  background: transparent;
+  transition: background 0.15s, color 0.15s;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.rw-word-tts:hover {
+  background: rgba(100, 120, 255, 0.2);
+  color: var(--primary);
+}
+
+.rw-word-tts:active {
+  background: rgba(100, 120, 255, 0.35);
+}
+
+.rw-word-copy {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  cursor: pointer;
   white-space: nowrap;
+  color: var(--text);
+  transition: background 0.15s;
+  user-select: none;
+}
+
+.rw-word-copy:hover {
+  background: rgba(227, 0, 216, 0.12);
+}
+
+.rw-word-copy:active {
+  background: rgba(227, 0, 216, 0.25);
+}
+
+.rw-word-chip.copied {
+  background: #e300d8;
+  border-color: #e300d8;
+}
+
+.rw-word-chip.copied .rw-word-copy {
+  color: #fff;
+}
+
+.rw-word-chip.copied .rw-word-tts {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .reader-translate-actions {

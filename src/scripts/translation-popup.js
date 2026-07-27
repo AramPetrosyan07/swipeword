@@ -22,9 +22,55 @@ class TranslationPopup {
       no:'Norwegian',he:'Hebrew',th:'Thai',vi:'Vietnamese',id:'Indonesian',
       ka:'Georgian',bn:'Bengali',ur:'Urdu',fa:'Persian',sw:'Swahili',fil:'Filipino',ms:'Malay'
     };
+    this._langSpeechMap = {
+      en:'en-US',es:'es-ES',fr:'fr-FR',de:'de-DE',it:'it-IT',pt:'pt-PT',
+      ru:'ru-RU',ar:'ar-SA',zh:'zh-CN',ja:'ja-JP',ko:'ko-KR',hi:'hi-IN',
+      hy:'hy-AM',tr:'tr-TR',pl:'pl-PL',nl:'nl-NL',sv:'sv-SE',uk:'uk-UA',
+      el:'el-GR',cs:'cs-CZ',ro:'ro-RO',hu:'hu-HU',fi:'fi-FI',da:'da-DK',
+      no:'no-NO',he:'he-IL',th:'th-TH',vi:'vi-VN',id:'id-ID',ka:'ka-GE',
+      bn:'bn-BD',ur:'ur-PK',fa:'fa-IR',sw:'sw-KE',fil:'fil-PH',ms:'ms-MY'
+    };
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
+    this._bodyEl.addEventListener('click', (e) => {
+      const left = e.target.closest('.rw-word-copy');
+      const right = e.target.closest('.rw-word-tts');
+      if (left) {
+        this._copyWord(left.dataset.text);
+        left.closest('.rw-word-chip').classList.add('copied');
+        setTimeout(() => {
+          const chip = left.closest('.rw-word-chip');
+          if (chip) chip.classList.remove('copied');
+        }, 600);
+      } else if (right) {
+        this._speakWord(right.dataset.text, right.dataset.lang);
+      }
+    });
+  }
+
+  _speakWord(text, lang) {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = this._langSpeechMap[lang] || lang;
+    utterance.rate = 0.85;
+    utterance.pitch = 1;
+    window.speechSynthesis.speak(utterance);
+  }
+
+  _copyWord(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      const toast = document.getElementById('copyToast');
+      const textEl = document.getElementById('copyToastText');
+      if (!toast || !textEl) return;
+      textEl.innerHTML = '<span style="color:#4caf50;font-weight:700;">&#10003;</span> Copied';
+      toast.classList.add('visible');
+      clearTimeout(toast._hideTimer);
+      toast._hideTimer = setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 1500);
+    }).catch(() => {});
   }
 
   setLanguages(from, langs, wordCount) {
@@ -40,9 +86,19 @@ class TranslationPopup {
       const val = translations[lang];
       let wordsHtml;
       if (Array.isArray(val)) {
-        wordsHtml = val.map((v, i) => `<span class="reader-translate-word-item">${v}</span>`).join('');
+        wordsHtml = val.filter(v => v && v !== '—').map(v => {
+          const safe = v.replace(/"/g, '&quot;').replace(/</g, '&lt;');
+          return `<span class="rw-word-chip">
+            <span class="rw-word-tts" data-text="${safe}" data-lang="${lang}" title="Listen">&#9654;</span>
+            <span class="rw-word-copy" data-text="${safe}" title="Click to copy">${v}</span>
+          </span>`;
+        }).join('');
       } else {
-        wordsHtml = `<span class="reader-translate-word-item">${val || '...'}</span>`;
+        const safe = (val || '...').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+        wordsHtml = `<span class="rw-word-chip">
+          <span class="rw-word-tts" data-text="${safe}" data-lang="${lang}" title="Listen">&#9654;</span>
+          <span class="rw-word-copy" data-text="${safe}" title="Click to copy">${val || '...'}</span>
+        </span>`;
       }
       return `<div class="reader-translate-row" data-lang="${lang}">
         <span class="reader-translate-label">${label}:</span>
