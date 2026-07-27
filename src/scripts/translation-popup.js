@@ -11,7 +11,9 @@ class TranslationPopup {
     this._cache = new Map();
     this._boundContainers = new WeakSet();
     this.onSave = null;
-    this._languages = { from: 'en', to1: 'hy', to2: 'ru' };
+    this._languages = { from: 'en' };
+    this._targetLangs = ['hy', 'ru'];
+    this._wordCount = 3;
     this._langNames = {
       en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
       ru:'Russian',ar:'Arabic',zh:'Chinese',ja:'Japanese',ko:'Korean',hi:'Hindi',
@@ -25,26 +27,26 @@ class TranslationPopup {
     this._saveBtn.addEventListener('click', () => this._save());
   }
 
-  setLanguages(from, to1, to2) {
-    this._languages = { from, to1, to2 };
+  setLanguages(from, langs, wordCount) {
+    this._languages = { from };
+    this._targetLangs = Array.isArray(langs) ? langs.filter(Boolean) : [langs];
+    if (wordCount !== undefined) this._wordCount = wordCount;
     this._cache.clear();
   }
 
-  _buildRows() {
-    const langs = this._languages;
-    const rows = [];
-    if (langs.to1) rows.push({ lang: langs.to1, label: this._langNames[langs.to1] || langs.to1 });
-    if (langs.to2) rows.push({ lang: langs.to2, label: this._langNames[langs.to2] || langs.to2 });
-    return rows;
-  }
-
   _renderBody(translations) {
-    const rows = this._buildRows();
-    this._bodyEl.innerHTML = rows.map(r => {
-      const val = translations[r.lang] || '...';
-      return `<div class="reader-translate-row" data-lang="${r.lang}">
-        <span class="reader-translate-label">${r.label}:</span>
-        <span class="reader-translate-value">${val}</span>
+    this._bodyEl.innerHTML = this._targetLangs.map(lang => {
+      const label = this._langNames[lang] || lang;
+      const val = translations[lang];
+      let wordsHtml;
+      if (Array.isArray(val)) {
+        wordsHtml = val.map((v, i) => `<span class="reader-translate-word-item">${v}</span>`).join('');
+      } else {
+        wordsHtml = `<span class="reader-translate-word-item">${val || '...'}</span>`;
+      }
+      return `<div class="reader-translate-row" data-lang="${lang}">
+        <span class="reader-translate-label">${label}:</span>
+        <span class="reader-translate-values">${wordsHtml}</span>
       </div>`;
     }).join('');
   }
@@ -147,15 +149,16 @@ class TranslationPopup {
     }
 
     try {
-      const { from, to1, to2 } = this._languages;
-      const result = await window.electronAPI.translateWord(lower, from, to1, to2);
+      const { from } = this._languages;
+      const langs = this._targetLangs;
+      const count = this._wordCount;
+      const result = await window.electronAPI.translateWord(lower, from, langs, count);
       const data = result || {};
       this._cache.set(lower, data);
       this._renderBody(data);
     } catch (e) {
       const errData = {};
-      if (this._languages.to1) errData[this._languages.to1] = 'Unavailable';
-      if (this._languages.to2) errData[this._languages.to2] = 'Unavailable';
+      this._targetLangs.forEach(lang => { errData[lang] = ['Unavailable']; });
       this._renderBody(errData);
     }
   }
@@ -178,14 +181,19 @@ class TranslationPopup {
       }
     }
 
+    const firstLang = this._targetLangs[0] || '';
+    const secondLang = this._targetLangs[1] || '';
+    const firstVal = cached[firstLang];
+    const secondVal = cached[secondLang];
+
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       word: lower,
-      translation: cached[this._languages.to1] || '',
-      russian: cached[this._languages.to2] || '',
+      translation: Array.isArray(firstVal) ? firstVal[0] || '' : firstVal || '',
+      russian: Array.isArray(secondVal) ? secondVal[0] || '' : secondVal || '',
       transliteration: '',
-      translationLang: this._languages.to1,
-      russianLang: this._languages.to2,
+      translationLang: firstLang,
+      russianLang: secondLang,
       context: this._currentContext,
       sourceType: this._currentSource.type || 'text',
       sourceTitle: this._currentSource.title || '',

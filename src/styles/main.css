@@ -2419,16 +2419,29 @@ body {
   display: flex;
   gap: 8px;
   font-size: 14px;
+  align-items: baseline;
 }
 
 .reader-translate-label {
   color: var(--text-secondary);
   font-weight: 600;
   min-width: 70px;
+  flex-shrink: 0;
 }
 
-.reader-translate-value {
+.reader-translate-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
   color: var(--text);
+}
+
+.reader-translate-word-item {
+  background: var(--bg-secondary, rgba(128,128,128,0.1));
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  white-space: nowrap;
 }
 
 .reader-translate-actions {
@@ -2681,6 +2694,12 @@ body {
 
 .yt-lang-select:focus {
   border-color: var(--primary);
+}
+
+.yt-lang-count-select {
+  min-width: 40px;
+  font-weight: 600;
+  text-align: center;
 }
 
 /* Reading / Content Area */

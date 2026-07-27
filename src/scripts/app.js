@@ -26,6 +26,9 @@ class App {
     this._ytSourceLang = 'en';
     this._ytTargetLang1 = 'hy';
     this._ytTargetLang2 = 'ru';
+    this._ytTargetLang3 = 'es';
+    this._ytLangCount = 2;
+    this._ytWordCount = 3;
     this._loadLangPrefs();
 
     this.translationPopup = new TranslationPopup();
@@ -1055,6 +1058,9 @@ class App {
         this._ytSourceLang = p.from || 'en';
         this._ytTargetLang1 = p.to1 || 'hy';
         this._ytTargetLang2 = p.to2 || 'ru';
+        this._ytTargetLang3 = p.to3 || 'es';
+        this._ytLangCount = p.count || 2;
+        this._ytWordCount = p.words || 3;
       }
     } catch (e) {}
   }
@@ -1064,7 +1070,10 @@ class App {
       localStorage.setItem('yt-lang-prefs', JSON.stringify({
         from: this._ytSourceLang,
         to1: this._ytTargetLang1,
-        to2: this._ytTargetLang2
+        to2: this._ytTargetLang2,
+        to3: this._ytTargetLang3,
+        count: this._ytLangCount,
+        words: this._ytWordCount
       }));
     } catch (e) {}
   }
@@ -1072,9 +1081,49 @@ class App {
   _applyLangPrefsToUI() {
     const sel1 = document.getElementById('ytLangTarget1');
     const sel2 = document.getElementById('ytLangTarget2');
+    const sel3 = document.getElementById('ytLangTarget3');
+    const countSel = document.getElementById('ytLangCount');
+    const wordSel = document.getElementById('ytWordCount');
     if (sel1) sel1.value = this._ytTargetLang1;
     if (sel2) sel2.value = this._ytTargetLang2;
-    this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+    if (sel3) sel3.value = this._ytTargetLang3;
+    if (countSel) countSel.value = this._ytLangCount;
+    if (wordSel) wordSel.value = this._ytWordCount;
+    this._updateLangSelectVisibility();
+    this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
+  }
+
+  _getActiveLangs() {
+    const langs = [this._ytTargetLang1];
+    if (this._ytLangCount >= 2 && this._ytTargetLang2) langs.push(this._ytTargetLang2);
+    if (this._ytLangCount >= 3 && this._ytTargetLang3) langs.push(this._ytTargetLang3);
+    return langs;
+  }
+
+  _updateLangSelectVisibility() {
+    const count = this._ytLangCount;
+    const sel2 = document.getElementById('ytLangTarget2');
+    const sel3 = document.getElementById('ytLangTarget3');
+
+    if (count >= 2 && sel2) {
+      sel2.style.display = '';
+      if (!sel2.value) { sel2.value = 'ru'; this._ytTargetLang2 = 'ru'; }
+    } else if (sel2) { sel2.style.display = 'none'; }
+
+    if (count >= 3 && sel3) {
+      sel3.style.display = '';
+      if (!sel3.value) { sel3.value = 'es'; this._ytTargetLang3 = 'es'; }
+    } else if (sel3) { sel3.style.display = 'none'; }
+
+    document.querySelectorAll('.yt-lang-extra').forEach(el => {
+      if (el.tagName === 'LABEL') {
+        const nextSelect = el.nextElementSibling;
+        if (nextSelect && nextSelect.classList.contains('yt-lang-select')) {
+          el.style.display = nextSelect.style.display;
+        }
+      }
+    });
+    this._saveLangPrefs();
   }
 
   _bindReadPageEvents() {
@@ -1132,16 +1181,35 @@ class App {
       this._resetReadPage();
     });
 
+    document.getElementById('ytLangCount').addEventListener('change', (e) => {
+      this._ytLangCount = parseInt(e.target.value) || 2;
+      this._saveLangPrefs();
+      this._updateLangSelectVisibility();
+      this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
+      this.translationPopup._cache.clear();
+    });
+    document.getElementById('ytWordCount').addEventListener('change', (e) => {
+      this._ytWordCount = parseInt(e.target.value) || 3;
+      this._saveLangPrefs();
+      this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
+      this.translationPopup._cache.clear();
+    });
     document.getElementById('ytLangTarget1').addEventListener('change', (e) => {
       this._ytTargetLang1 = e.target.value;
       this._saveLangPrefs();
-      this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+      this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
       this.translationPopup._cache.clear();
     });
     document.getElementById('ytLangTarget2').addEventListener('change', (e) => {
       this._ytTargetLang2 = e.target.value;
       this._saveLangPrefs();
-      this.translationPopup.setLanguages(this._ytSourceLang, this._ytTargetLang1, this._ytTargetLang2);
+      this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
+      this.translationPopup._cache.clear();
+    });
+    document.getElementById('ytLangTarget3').addEventListener('change', (e) => {
+      this._ytTargetLang3 = e.target.value;
+      this._saveLangPrefs();
+      this.translationPopup.setLanguages(this._ytSourceLang, this._getActiveLangs(), this._ytWordCount);
       this.translationPopup._cache.clear();
     });
 

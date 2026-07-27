@@ -328,22 +328,60 @@ ipcMain.handle("store:loadFavoritesFile", async () => {
   return [];
 });
 
-// --- Translation API (MyMemory free tier) ---
+// --- Translation API (MyMemory + Google Translate free endpoint) ---
 const translateCache = new Map();
 
-ipcMain.handle("translate:word", async (_event, { word, from, to1, to2 }) => {
-  const cacheKey = `${word}|${from}|${to1 || ""}|${to2 || ""}`;
+async function _mymemoryTranslate(word, from, to) {
+  const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${from}|${to}`;
+  const resp = await fetch(url);
+  const data = await resp.json();
+  return data.responseData?.translatedText || "";
+}
+
+async function _googleTranslate(word, from, to) {
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(word)}`;
+  const resp = await fetch(url);
+  const data = await resp.json();
+  return data[0]?.map(s => s[0]).join('') || "";
+}
+
+async function _fetchAlternatives(word, from, to, count) {
+  const alts = [];
+  const lower = word.toLowerCase();
+
+  const promises = [];
+
+  if (count >= 1) promises.push(_mymemoryTranslate(lower, from, to).catch(() => ""));
+  if (count >= 2) promises.push(_googleTranslate(lower, from, to).catch(() => ""));
+  if (count >= 3) promises.push(_mymemoryTranslate("the " + lower, from, to).catch(() => ""));
+  if (count >= 4) promises.push(_googleTranslate("to " + lower, from, to).catch(() => ""));
+
+  const results = await Promise.all(promises);
+
+  for (const r of results) {
+    const trimmed = (r || "").trim();
+    if (trimmed && trimmed.toLowerCase() !== lower && !alts.includes(trimmed)) {
+      alts.push(trimmed);
+    }
+  }
+
+  while (alts.length < count) alts.push("—");
+  return alts.slice(0, count);
+}
+
+ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) => {
+  const langList = Array.isArray(langs) ? langs : [langs].filter(Boolean);
+  const wordCount = Math.min(Math.max(parseInt(count) || 1, 1), 4);
+  const cacheKey = `${word}|${from}|${langList.join(",")}|w${wordCount}`;
   if (translateCache.has(cacheKey)) return translateCache.get(cacheKey);
 
   try {
     const results = {};
-    for (const lang of [to1, to2]) {
-      if (!lang) continue;
-      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${from}|${lang}`;
-      const resp = await fetch(url);
-      const data = await resp.json();
-      results[lang] = data.responseData?.translatedText || "";
-    }
+    const tasks = langList.map(async (lang) => {
+      if (!lang) return;
+      results[lang] = await _fetchAlternatives(word, from, lang, wordCount);
+    });
+    await Promise.all(tasks);
 
     translateCache.set(cacheKey, results);
     return results;
