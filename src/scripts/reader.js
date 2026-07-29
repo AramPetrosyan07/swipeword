@@ -23,13 +23,14 @@ class ReaderMode {
     const viewport = page.getViewport({ scale: this.scale });
 
     const canvas = document.getElementById('pdfViewerCanvas');
-    const ctx = canvas.getContext('2d');
-    canvas.width = viewport.width;
-    canvas.height = viewport.height;
-
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = viewport.width * dpr;
+    canvas.height = viewport.height * dpr;
     canvas.style.width = viewport.width + 'px';
     canvas.style.height = viewport.height + 'px';
 
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
     const renderContext = { canvasContext: ctx, viewport };
     await page.render(renderContext).promise;
 
