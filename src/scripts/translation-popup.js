@@ -100,13 +100,13 @@ class TranslationPopup {
       const result = await window.electronAPI.ttsSpeak(text, lang);
       if (result && result.success) {
         const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
-        audio.play();
-      } else {
-        this._showTtsNotice(`TTS unavailable for ${this._langNames[lang] || lang}`, 'error');
+        await audio.play();
+        return;
       }
     } catch (e) {
-      this._showTtsNotice(`TTS failed for ${this._langNames[lang] || lang}`, 'error');
+      console.warn('TTS fallback failed:', e);
     }
+    this._showTtsNotice(`TTS unavailable for ${this._langNames[lang] || lang}`, 'error');
   }
 
   _showTtsNotice(msg, type) {

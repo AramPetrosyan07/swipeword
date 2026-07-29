@@ -391,18 +391,63 @@ ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) =>
   }
 });
 
-// --- TTS (Google Translate TTS fallback for languages without system voices) ---
-async function _googleTTS(text, lang) {
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${lang}&client=gtx&ttsspeed=1`;
-  const resp = await fetch(url);
-  if (!resp.ok) throw new Error(`TTS request failed: ${resp.status}`);
-  const buffer = await resp.arrayBuffer();
-  return Buffer.from(buffer).toString('base64');
+// --- TTS (Microsoft Edge TTS via edge-tts Python CLI) ---
+const { spawn } = require("child_process");
+
+const _ttsVoiceMap = {
+  ru: "ru-RU-SvetlanaNeural",
+  hy: "en-US-AndrewMultilingualNeural",
+  en: "en-US-EmmaNeural",
+  es: "es-ES-AlvaroNeural",
+  fr: "fr-FR-DeniseNeural",
+  de: "de-DE-KatjaNeural",
+  it: "it-IT-DiegoNeural",
+  pt: "pt-PT-RaquelNeural",
+  pl: "pl-PL-AgnieszkaNeural",
+  tr: "tr-TR-AhmetNeural",
+  uk: "uk-UA-OstapNeural",
+};
+
+const _ttsCache = new Map();
+
+async function _edgeTTS(text, lang) {
+  const voice = _ttsVoiceMap[lang] || "en-US-AndrewMultilingualNeural";
+  const cacheKey = `${text}|${voice}`;
+  if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
+
+  const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
+  fs.writeFileSync(tmpFile, text, "utf-8");
+
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    const child = spawn("edge-tts", ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
+    child.stdout.on("data", (chunk) => chunks.push(chunk));
+    child.stderr.on("data", () => {});
+    child.on("error", (err) => {
+      try { fs.unlinkSync(tmpFile); } catch {}
+      reject(new Error(`edge-tts spawn failed: ${err.message}`));
+    });
+    child.on("close", (code) => {
+      try { fs.unlinkSync(tmpFile); } catch {}
+      if (code !== 0) {
+        reject(new Error(`edge-tts exited with code ${code}`));
+        return;
+      }
+      const buffer = Buffer.concat(chunks);
+      if (buffer.length < 100) {
+        reject(new Error("No audio data received from edge-tts"));
+        return;
+      }
+      const base64 = buffer.toString("base64");
+      _ttsCache.set(cacheKey, base64);
+      resolve(base64);
+    });
+  });
 }
 
 ipcMain.handle("tts:speak", async (_event, { text, lang }) => {
   try {
-    const audio = await _googleTTS(text, lang);
+    const audio = await _edgeTTS(text, lang);
     return { success: true, audio };
   } catch (e) {
     console.error("TTS failed:", e);
