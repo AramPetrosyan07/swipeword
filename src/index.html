@@ -796,6 +796,16 @@
               <span class="topbar-mode-label">Read</span>
             </button>
           </div>
+          <div class="reader-lang-bar" id="readerLangBar" style="display:none;">
+            <select id="readerSourceLang" class="reader-lang-select" title="Source language (the language of the book)"></select>
+            <select id="readerTargetLang" class="reader-lang-select" title="Target language (translate to)"></select>
+            <select id="readerWordCount" class="reader-lang-select reader-lang-count" title="Number of translations per word">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
         </div>
         <span class="reader-title" id="readerTitle">Read</span>
         <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
@@ -868,7 +878,11 @@
         <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
           <div class="pdf-viewer" id="pdfViewer">
             <div class="pdf-viewer-scroll" id="pdfViewerScroll">
-              <canvas id="pdfViewerCanvas"></canvas>
+              <div class="pdf-viewer-page" id="pdfViewerPage">
+                <canvas id="pdfViewerCanvas"></canvas>
+                <div class="pdf-text-layer" id="pdfTextLayer"></div>
+              </div>
+              <div class="pdf-text" id="pdfText"></div>
             </div>
             <div class="pdf-viewer-controls">
               <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
@@ -1038,28 +1052,29 @@
             <div class="yt-words-panel" id="ytWordsPanel">
               <div class="yt-words-header">Saved Words</div>
               <div class="yt-words-list" id="ytWordsList"></div>
-              <!-- Translation Popup -->
-              <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
-                <div class="reader-translate-header">
-                  <span class="reader-translate-word" id="readerTranslateWord"></span>
-                  <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
-                </div>
-                <div class="reader-translate-body">
-                </div>
-                <div class="reader-translate-actions">
-                  <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
-                </div>
-              </div>
             </div>
             <div class="yt-drag-overlay-h" id="ytDragOverlayH"></div>
           </div>
           <div class="yt-drag-overlay" id="ytDragOverlay"></div>
         </div>
+        </div>
+
+        <!-- Translation Popup (shared across all reader modes) -->
+        <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
+          <div class="reader-translate-header">
+            <span class="reader-translate-word" id="readerTranslateWord"></span>
+            <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
+          </div>
+          <div class="reader-translate-body">
+          </div>
+          <div class="reader-translate-actions">
+            <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
+          </div>
+        </div>
+
       </div>
 
-    </div>
-
-    <!-- Vocabulary Library Screen -->
+      <!-- Vocabulary Library Screen -->
     <div id="screen-vocablib" class="screen">
       <div class="top-bar">
         <button class="icon-btn" id="btnVocabLibBack" title="Back">&#8592;</button>

@@ -38,7 +38,69 @@ class ReaderMode {
     document.getElementById('pdfPageCount').textContent = this.pageCount;
     document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
 
+    await this._renderText(num);
+
     document.getElementById('pdfViewerScroll').scrollTop = 0;
+  }
+
+  async _renderText(num) {
+    const layerEl = document.getElementById('pdfTextLayer');
+    const textEl = document.getElementById('pdfText');
+    if (!layerEl) return;
+    layerEl.innerHTML = '';
+    layerEl.style.display = '';
+    if (textEl) { textEl.innerHTML = ''; textEl.style.display = 'none'; }
+    try {
+      const page = await this.pdfDoc.getPage(num);
+      if (this.pageNum !== num) return;
+      const viewport = page.getViewport({ scale: this.scale });
+      const rawDims = viewport.rawDims;
+      const pageH = rawDims ? rawDims.pageHeight : viewport.height / this.scale;
+      layerEl.style.width = viewport.width + 'px';
+      layerEl.style.height = viewport.height + 'px';
+      const content = await page.getTextContent();
+      if (this.pageNum !== num) return;
+      const { items } = content;
+      if (items.length === 0) {
+        if (textEl) {
+          textEl.innerHTML = '<p style="color:var(--text-secondary);font-style:italic;font-size:14px;">No extractable text on this page.</p>';
+          textEl.style.display = '';
+        }
+        layerEl.style.display = 'none';
+        return;
+      }
+      for (const item of items) {
+        if (!item.str || !item.str.trim()) continue;
+        const x = item.transform[4] * this.scale;
+        const y = (pageH - item.transform[5]) * this.scale;
+        const fontSize = Math.hypot(item.transform[2], item.transform[3]) * this.scale;
+        const span = document.createElement('span');
+        span.style.left = x + 'px';
+        span.style.top = y + 'px';
+        span.style.fontSize = fontSize + 'px';
+        span.style.fontFamily = 'sans-serif';
+        span.style.lineHeight = '1';
+        span.style.whiteSpace = 'pre';
+        span.innerHTML = WordWrapper.wrap(item.str);
+        layerEl.appendChild(span);
+      }
+    } catch (e) {
+      console.warn('Text render failed:', e);
+      if (textEl) {
+        textEl.innerHTML = '';
+        textEl.style.display = 'none';
+      }
+      if (layerEl) layerEl.style.display = 'none';
+    }
+  }
+
+  getPageText(num) {
+    if (!this.pdfDoc) return Promise.resolve('');
+    return this.pdfDoc.getPage(num).then(page =>
+      page.getTextContent().then(content =>
+        content.items.map(item => item.str).join(' ')
+      )
+    ).catch(() => '');
   }
 
   async prevPage() {
@@ -71,8 +133,10 @@ class ReaderMode {
     const page = await this.pdfDoc.getPage(1);
     const vp = page.getViewport({ scale: 1 });
     const container = document.getElementById('pdfViewerScroll');
-    const maxW = container.clientWidth - 32;
-    if (vp.width > maxW) {
+    const cw = container.clientWidth;
+    if (cw <= 0) return;
+    const maxW = cw - 32;
+    if (vp.width > maxW && maxW > 0) {
       this.scale = maxW / vp.width;
     }
   }
@@ -87,6 +151,10 @@ class ReaderMode {
       canvas.width = 0;
       canvas.height = 0;
     }
+    const textEl = document.getElementById('pdfText');
+    if (textEl) { textEl.innerHTML = ''; textEl.style.display = 'none'; }
+    const layerEl = document.getElementById('pdfTextLayer');
+    if (layerEl) { layerEl.innerHTML = ''; layerEl.style.display = 'none'; }
   }
 }
 

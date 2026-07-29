@@ -31,6 +31,11 @@ class App {
     this._ytWordCount = 3;
     this._loadLangPrefs();
 
+    this._pdfSourceLang = 'en';
+    this._pdfTargetLang = 'hy';
+    this._pdfWordCount = 3;
+    this._loadReaderLangPrefs();
+
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
       if (this._readSourceInfo && this._readSourceInfo.type === 'youtube') {
@@ -357,6 +362,7 @@ class App {
     });
 
     this._bindReadPageEvents();
+    this._populateReaderLangSelects();
 
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
@@ -1126,6 +1132,66 @@ class App {
     this._saveLangPrefs();
   }
 
+  _langNameList() {
+    return [
+      ['en','English'],['es','Spanish'],['fr','French'],['de','German'],
+      ['it','Italian'],['pt','Portuguese'],['ru','Russian'],['ar','Arabic'],
+      ['zh','Chinese'],['ja','Japanese'],['ko','Korean'],['hi','Hindi'],
+      ['hy','Armenian'],['tr','Turkish'],['pl','Polish'],['nl','Dutch'],
+      ['sv','Swedish'],['uk','Ukrainian'],['el','Greek'],['cs','Czech'],
+      ['ro','Romanian'],['hu','Hungarian'],['fi','Finnish'],['da','Danish'],
+      ['no','Norwegian'],['he','Hebrew'],['th','Thai'],['vi','Vietnamese'],
+      ['id','Indonesian'],['ka','Georgian'],['bn','Bengali'],['ur','Urdu'],
+      ['fa','Persian'],['sw','Swahili'],['fil','Filipino'],['ms','Malay']
+    ];
+  }
+
+  _populateReaderLangSelects() {
+    const langs = this._langNameList();
+    const sourceSel = document.getElementById('readerSourceLang');
+    const targetSel = document.getElementById('readerTargetLang');
+    if (!sourceSel || !targetSel) return;
+    sourceSel.innerHTML = langs.map(([v, label]) =>
+      `<option value="${v}">${label}</option>`
+    ).join('');
+    targetSel.innerHTML = langs.map(([v, label]) =>
+      `<option value="${v}">${label}</option>`
+    ).join('');
+    this._applyReaderLangPrefs();
+  }
+
+  _loadReaderLangPrefs() {
+    try {
+      const saved = localStorage.getItem('reader-lang-prefs');
+      if (saved) {
+        const p = JSON.parse(saved);
+        this._pdfSourceLang = p.from || 'en';
+        this._pdfTargetLang = p.to || 'hy';
+        this._pdfWordCount = p.words || 3;
+      }
+    } catch (e) {}
+  }
+
+  _saveReaderLangPrefs() {
+    try {
+      localStorage.setItem('reader-lang-prefs', JSON.stringify({
+        from: this._pdfSourceLang,
+        to: this._pdfTargetLang,
+        words: this._pdfWordCount
+      }));
+    } catch (e) {}
+  }
+
+  _applyReaderLangPrefs() {
+    const sourceSel = document.getElementById('readerSourceLang');
+    const targetSel = document.getElementById('readerTargetLang');
+    const wordSel = document.getElementById('readerWordCount');
+    if (sourceSel) sourceSel.value = this._pdfSourceLang;
+    if (targetSel) targetSel.value = this._pdfTargetLang;
+    if (wordSel) wordSel.value = this._pdfWordCount;
+    this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
+  }
+
   _bindReadPageEvents() {
     this._readCurrentPage = null;
     this._readPdfFile = null;
@@ -1228,6 +1294,18 @@ class App {
       this.translationPopup._cache.clear();
     });
 
+    const langSelChange = (e) => {
+      this._pdfSourceLang = document.getElementById('readerSourceLang').value;
+      this._pdfTargetLang = document.getElementById('readerTargetLang').value;
+      this._pdfWordCount = parseInt(document.getElementById('readerWordCount').value) || 3;
+      this._saveReaderLangPrefs();
+      this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
+      this.translationPopup._cache.clear();
+    };
+    document.getElementById('readerSourceLang').addEventListener('change', langSelChange);
+    document.getElementById('readerTargetLang').addEventListener('change', langSelChange);
+    document.getElementById('readerWordCount').addEventListener('change', langSelChange);
+
     this._initYoutubeResize();
     this._initYoutubeHResize();
 
@@ -1314,8 +1392,13 @@ class App {
       document.getElementById('pdfViewer').style.display = 'flex';
       document.getElementById('readTextViewPdf').style.display = 'none';
       document.getElementById('readTextViewPdf').innerHTML = '';
+      document.getElementById('readerLangBar').style.display = 'flex';
 
+      this._applyReaderLangPrefs();
       await readerMode.loadPdf(data);
+      const sourceInfo = { type: 'pdf', title, id: Date.now().toString(36) };
+      this._readSourceInfo = sourceInfo;
+      this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
     } catch (e) {
       console.error('PDF load error:', e);
       document.getElementById('readContentAreaPdf').style.display = 'none';
@@ -1623,7 +1706,11 @@ class App {
       document.getElementById('readCollapsedLabelPdf').textContent = title;
       document.getElementById('readContentAreaPdf').style.display = 'block';
       document.getElementById('readTextViewPdf').innerHTML = '';
-      readerMode.loadPdf(text);
+      document.getElementById('readerLangBar').style.display = 'flex';
+      this._applyReaderLangPrefs();
+      readerMode.loadPdf(text).then(() => {
+        this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
+      });
     } else if (sourceType === 'pdf-error') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('pdfLibrary').style.display = 'none';
@@ -1798,6 +1885,11 @@ class App {
     document.getElementById('readCollapsedBarPdf').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('pdfViewer').style.display = '';
+    document.getElementById('readerLangBar').style.display = 'none';
+    document.getElementById('pdfText').innerHTML = '';
+    const tl = document.getElementById('pdfTextLayer');
+    if (tl) { tl.innerHTML = ''; tl.style.display = ''; }
+    document.getElementById('pdfText').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';

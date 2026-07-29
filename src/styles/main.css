@@ -2375,22 +2375,45 @@ body {
   flex: 1;
 }
 
+.reader-lang-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 12px;
+  padding-left: 12px;
+  border-left: 1px solid var(--border);
+}
+
+.reader-lang-select {
+  font-size: 12px;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  max-width: 140px;
+  font-family: inherit;
+}
+
+.reader-lang-count {
+  max-width: 60px;
+}
+
 /* Translate popup */
 .reader-translate-popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: fixed;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
-  padding: 16px 20px;
-  z-index: 100;
+  padding: 12px 16px;
+  z-index: 1000;
   min-width: 200px;
-  max-width: 90%;
+  max-width: min(400px, 90vw);
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
+  font-size: 14px;
 }
 
 .reader-translate-header {
@@ -2743,12 +2766,95 @@ body {
   overflow: auto;
   padding: 16px;
   background: var(--bg, #fff);
+  scrollbar-width: none;
+}
+.pdf-viewer-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.pdf-viewer-page {
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .pdf-viewer-scroll canvas {
   display: block;
-  margin: 0 auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.pdf-text-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  color: transparent;
+}
+
+.pdf-text-layer > span {
+  position: absolute;
+  white-space: pre;
+  transform-origin: 0% 0%;
+}
+
+.pdf-text-layer p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.pdf-text-layer .rw-word {
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  transition: none;
+}
+
+.pdf-text-layer .rw-word:hover {
+  background: rgba(108, 99, 255, 0.25);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.pdf-text-layer .rw-word.selected {
+  background: rgba(108, 99, 255, 0.45);
+  border-radius: 2px;
+}
+
+.pdf-text {
+  max-width: 800px;
+  margin: 24px auto 0;
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text);
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.pdf-text .rw-word {
+  cursor: pointer;
+  border-bottom: 1px dashed var(--text-tertiary);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.pdf-text .rw-word:hover {
+  background: rgba(108, 99, 255, 0.08);
+  border-bottom-color: var(--primary);
+}
+
+.pdf-text .rw-word.selected {
+  background: rgba(108, 99, 255, 0.2);
+  border-bottom-color: var(--primary);
+  border-bottom-style: solid;
+}
+
+.pdf-text p {
+  margin: 0 0 0.5em 0;
 }
 
 .pdf-viewer-controls {

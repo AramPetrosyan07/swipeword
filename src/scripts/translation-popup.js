@@ -246,6 +246,32 @@ class TranslationPopup {
     this._wordEl.textContent = word;
     this._renderBody({});
     this._popup.style.display = 'flex';
+    this._popup.style.top = '';
+    this._popup.style.left = '';
+    this._popup.style.transform = '';
+    void this._popup.offsetHeight;
+
+    if (targetEl) {
+      const rect = targetEl.getBoundingClientRect();
+      const popupW = this._popup.offsetWidth;
+      const popupH = this._popup.offsetHeight;
+      const gap = 8;
+      const margin = 10;
+      let top = rect.bottom + gap;
+      let left = rect.left + rect.width / 2 - popupW / 2;
+
+      if (top + popupH > window.innerHeight - margin) {
+        top = rect.top - popupH - gap;
+      }
+      if (left < margin) left = margin;
+      if (left + popupW > window.innerWidth - margin) {
+        left = window.innerWidth - popupW - margin;
+      }
+
+      this._popup.style.top = top + 'px';
+      this._popup.style.left = left + 'px';
+    }
+
     this._popup.dataset.justOpened = '1';
     setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
 
