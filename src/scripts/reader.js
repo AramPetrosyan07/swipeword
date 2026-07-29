@@ -27,14 +27,15 @@ class ReaderMode {
     canvas.width = viewport.width;
     canvas.height = viewport.height;
 
+    canvas.style.width = viewport.width + 'px';
+    canvas.style.height = viewport.height + 'px';
+
     const renderContext = { canvasContext: ctx, viewport };
     await page.render(renderContext).promise;
 
     document.getElementById('pdfPageNum').textContent = num;
     document.getElementById('pdfPageCount').textContent = this.pageCount;
     document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
-
-    document.getElementById('pdfViewerScroll').scrollTop = 0;
   }
 
   async prevPage() {
@@ -49,14 +50,17 @@ class ReaderMode {
     }
   }
 
-  async zoomIn() {
-    this.scale = Math.min(this.scale * 1.25, 4);
+  async zoomBy(factor) {
+    this.scale = Math.min(Math.max(this.scale * factor, 0.1), 10);
     await this.renderPage(this.pageNum);
   }
 
+  async zoomIn() {
+    await this.zoomBy(1.25);
+  }
+
   async zoomOut() {
-    this.scale = Math.max(this.scale / 1.25, 0.25);
-    await this.renderPage(this.pageNum);
+    await this.zoomBy(0.8);
   }
 
   async _fitWidth() {

@@ -1184,11 +1184,8 @@ class App {
     document.getElementById('pdfViewerScroll').addEventListener('wheel', (e) => {
       if (e.ctrlKey || e.metaKey) {
         e.preventDefault();
-        if (e.deltaY < 0) {
-          readerMode.zoomIn();
-        } else {
-          readerMode.zoomOut();
-        }
+        const factor = 1 - e.deltaY * 0.001;
+        readerMode.zoomBy(factor);
       }
     });
 
