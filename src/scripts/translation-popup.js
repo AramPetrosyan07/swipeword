@@ -262,6 +262,7 @@ class TranslationPopup {
     const lower = word.toLowerCase();
     if (this._cache.has(lower)) {
       this._renderBody(this._cache.get(lower));
+      this._preloadTTS(this._cache.get(lower));
       return;
     }
 
@@ -273,10 +274,25 @@ class TranslationPopup {
       const data = result || {};
       this._cache.set(lower, data);
       this._renderBody(data);
+      this._preloadTTS(data);
     } catch (e) {
       const errData = {};
       this._targetLangs.forEach(lang => { errData[lang] = ['Unavailable']; });
       this._renderBody(errData);
+    }
+  }
+
+  _preloadTTS(data) {
+    if (!data) return;
+    for (const lang of this._targetLangs) {
+      const values = data[lang];
+      if (!values) continue;
+      const words = Array.isArray(values) ? values : [values];
+      for (const text of words) {
+        if (text && text !== '—' && text !== '...' && text !== 'Unavailable') {
+          window.electronAPI.ttsSpeak(text, lang).catch(() => {});
+        }
+      }
     }
   }
 

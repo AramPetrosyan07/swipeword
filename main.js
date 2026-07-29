@@ -409,16 +409,18 @@ const _ttsVoiceMap = {
 };
 
 const _ttsCache = new Map();
+const _ttsPending = new Map();
 
 async function _edgeTTS(text, lang) {
   const voice = _ttsVoiceMap[lang] || "en-US-AndrewMultilingualNeural";
   const cacheKey = `${text}|${voice}`;
   if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
+  if (_ttsPending.has(cacheKey)) return _ttsPending.get(cacheKey);
 
   const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
   fs.writeFileSync(tmpFile, text, "utf-8");
 
-  return new Promise((resolve, reject) => {
+  const promise = new Promise((resolve, reject) => {
     const chunks = [];
     const child = spawn("edge-tts", ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
     child.stdout.on("data", (chunk) => chunks.push(chunk));
@@ -443,6 +445,13 @@ async function _edgeTTS(text, lang) {
       resolve(base64);
     });
   });
+
+  _ttsPending.set(cacheKey, promise);
+  try {
+    return await promise;
+  } finally {
+    _ttsPending.delete(cacheKey);
+  }
 }
 
 ipcMain.handle("tts:speak", async (_event, { text, lang }) => {
