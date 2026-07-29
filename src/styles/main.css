@@ -3707,6 +3707,38 @@ body {
   font-size: 15px;
   font-weight: 700;
   color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vocablib-tts-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 9px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  user-select: none;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.vocablib-tts-btn:hover {
+  background: rgba(100, 120, 255, 0.15);
+  color: var(--primary);
+  border-color: rgba(100, 120, 255, 0.3);
+}
+
+.vocablib-tts-btn:active {
+  background: rgba(100, 120, 255, 0.3);
 }
 
 .vocablib-word-translations {

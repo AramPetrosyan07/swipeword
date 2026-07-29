@@ -458,12 +458,22 @@ class VocabularyLibrary {
         const context = f.context && w.context
           ? `<div class="vocablib-word-context">&ldquo;${this._highlightWord(this._esc(w.context), this._esc(w.word))}&rdquo;</div>`
           : '';
-        const armenian = f.armenian && w.translation
-          ? `<span class="vocablib-word-armenian">${this._esc(w.translation)}</span>`
-          : '';
-        const russian = f.russian && w.russian
-          ? `<span class="vocablib-word-russian">${this._esc(w.russian)}</span>`
-          : '';
+
+        const engTtsBtn = `<button class="vocablib-tts-btn" data-tts-text="${this._esc(w.word)}" data-tts-lang="en" title="Listen">&#9654;</button>`;
+
+        let armenian = '';
+        if (f.armenian && w.translation) {
+          const safeText = this._esc(w.translation);
+          const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.translationLang || 'hy')}" title="Listen">&#9654;</button>`;
+          armenian = `<span class="vocablib-word-armenian">${ttsBtn} ${safeText}</span>`;
+        }
+
+        let russian = '';
+        if (f.russian && w.russian) {
+          const safeText = this._esc(w.russian);
+          const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.russianLang || 'ru')}" title="Listen">&#9654;</button>`;
+          russian = `<span class="vocablib-word-russian">${ttsBtn} ${safeText}</span>`;
+        }
 
         const hasTranslations = armenian || russian;
         const isCompact = !context && !time && !date;
@@ -474,11 +484,9 @@ class VocabularyLibrary {
         return `
           <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
             <div class="vocablib-word-main">
-              <div class="vocablib-word-en">${this._esc(w.word)}</div>
-              <div style="display:flex;align-items:baseline;gap:8px;">
-                ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
-                ${isCompact ? deleteInline : ''}
-              </div>
+              <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
+              ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
+              ${isCompact ? deleteInline : ''}
             </div>
             ${context}
             ${(time || date) ? `
@@ -499,6 +507,48 @@ class VocabularyLibrary {
         await this._deleteWord(btn.dataset.id);
       });
     });
+
+    listEl.querySelectorAll('.vocablib-tts-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const text = btn.dataset.ttsText;
+        const lang = btn.dataset.ttsLang;
+        if (text) this._speak(text, lang);
+      });
+    });
+
+    this._preloadTTS(words);
+  }
+
+  _speak(text, lang) {
+    if (lang === 'en') {
+      if (typeof tts !== 'undefined' && tts.speak) {
+        tts.speak(text);
+      }
+    } else {
+      window.electronAPI.ttsSpeak(text, lang)
+        .then(result => {
+          if (result && result.success) {
+            const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
+            audio.play().catch(() => {});
+          }
+        })
+        .catch(() => {});
+    }
+  }
+
+  _preloadTTS(words) {
+    if (!words) return;
+    for (const w of words) {
+      if (w.translation) {
+        const lang = w.translationLang || 'hy';
+        window.electronAPI.ttsSpeak(w.translation, lang).catch(() => {});
+      }
+      if (w.russian) {
+        const lang = w.russianLang || 'ru';
+        window.electronAPI.ttsSpeak(w.russian, lang).catch(() => {});
+      }
+    }
   }
 
   async _deleteWord(wordId) {
