@@ -37,6 +37,8 @@ class ReaderMode {
     document.getElementById('pdfPageNum').textContent = num;
     document.getElementById('pdfPageCount').textContent = this.pageCount;
     document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
+
+    document.getElementById('pdfViewerScroll').scrollTop = 0;
   }
 
   async prevPage() {
