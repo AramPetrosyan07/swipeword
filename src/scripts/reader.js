@@ -69,20 +69,32 @@ class ReaderMode {
         layerEl.style.display = 'none';
         return;
       }
+      const ascentRatio = 0.85;
       for (const item of items) {
         if (!item.str || !item.str.trim()) continue;
         const x = item.transform[4] * this.scale;
         const y = (pageH - item.transform[5]) * this.scale;
         const fontSize = Math.hypot(item.transform[2], item.transform[3]) * this.scale;
+        if (fontSize <= 0) continue;
         const span = document.createElement('span');
         span.style.left = x + 'px';
-        span.style.top = y + 'px';
+        span.style.top = (y - fontSize * ascentRatio) + 'px';
         span.style.fontSize = fontSize + 'px';
         span.style.fontFamily = 'sans-serif';
         span.style.lineHeight = '1';
         span.style.whiteSpace = 'pre';
-        span.innerHTML = WordWrapper.wrap(item.str);
+        span.textContent = item.str;
         layerEl.appendChild(span);
+      }
+      const allSpans = layerEl.querySelectorAll(':scope > span');
+      for (const s of allSpans) {
+        const text = s.textContent;
+        if (!text.trim()) continue;
+        const words = text.split(/\s+/).filter(Boolean);
+        s.innerHTML = words.map(w => {
+          const safe = w.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          return `<span class="rw-word" data-word="${safe}">${safe}</span>`;
+        }).join(' ');
       }
     } catch (e) {
       console.warn('Text render failed:', e);

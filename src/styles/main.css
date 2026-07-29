@@ -2775,6 +2775,7 @@ body {
 .pdf-viewer-page {
   position: relative;
   margin: 0 auto;
+  width: fit-content;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
@@ -2798,16 +2799,10 @@ body {
   transform-origin: 0% 0%;
 }
 
-.pdf-text-layer p {
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-
 .pdf-text-layer .rw-word {
   cursor: pointer;
   border-radius: 2px;
-  padding: 0;
+  padding: 0 1px;
   margin: 0;
   border: none;
   background: transparent;
