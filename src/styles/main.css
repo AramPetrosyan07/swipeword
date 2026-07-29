@@ -2732,6 +2732,70 @@ body {
   flex-shrink: 0;
 }
 
+.pdf-viewer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pdf-viewer-scroll {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background: var(--bg, #fff);
+}
+
+.pdf-viewer-scroll canvas {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  max-width: 100%;
+  height: auto;
+}
+
+.pdf-viewer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+  flex-shrink: 0;
+}
+
+.pdf-nav-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text);
+  transition: background 0.15s;
+}
+
+.pdf-nav-btn:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-nav-btn:active {
+  background: var(--bg-active);
+}
+
+.pdf-page-info {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-width: 100px;
+  text-align: center;
+}
+
+.pdf-zoom-info {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-left: 8px;
+}
+
 .read-url-input {
   width: 100%;
   border: 1px solid var(--border);

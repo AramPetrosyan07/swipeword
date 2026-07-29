@@ -1175,6 +1175,23 @@ class App {
       this._resetReadPage();
     });
 
+    document.getElementById('pdfPrevPage').addEventListener('click', () => {
+      readerMode.prevPage();
+    });
+    document.getElementById('pdfNextPage').addEventListener('click', () => {
+      readerMode.nextPage();
+    });
+    document.getElementById('pdfViewerScroll').addEventListener('wheel', (e) => {
+      if (e.ctrlKey || e.metaKey) {
+        e.preventDefault();
+        if (e.deltaY < 0) {
+          readerMode.zoomIn();
+        } else {
+          readerMode.zoomOut();
+        }
+      }
+    });
+
     document.getElementById('btnReadYoutube').addEventListener('click', () => {
       this._loadYoutubeContent();
     });
@@ -1279,34 +1296,35 @@ class App {
       const arrayBuffer = await this._readPdfFile.arrayBuffer();
       data = new Uint8Array(arrayBuffer);
       title = this._readPdfFile.name.replace(/\.pdf$/i, '');
+      this._readPdfFile = null;
     } else if (this._readPdfPath) {
       const buf = await window.electronAPI.readFile(this._readPdfPath);
       if (!buf) {
-        this._showReadContent('pdf', 'Error', 'Failed to read PDF file.');
+        this._showReadContent('pdf-error', 'Error', 'Failed to read PDF file.');
         return;
       }
       data = new Uint8Array(buf);
       title = this._readPdfPath.replace(/.*[/\\]/, '').replace(/\.pdf$/i, '');
+      this._readPdfPath = null;
     }
-    this._readPdfFile = null;
-    this._readPdfPath = null;
 
-    let fullText = '';
     try {
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
-      const doc = await pdfjsLib.getDocument({ data }).promise;
-      for (let i = 1; i <= doc.numPages; i++) {
-        const page = await doc.getPage(i);
-        const content = await page.getTextContent();
-        const pageText = content.items.map((item) => item.str).join(' ');
-        fullText += pageText + '\n\n';
-      }
+      document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('pdfLibrary').style.display = 'none';
+      document.getElementById('readCollapsedBarPdf').style.display = 'flex';
+      document.getElementById('readCollapsedLabelPdf').textContent = title;
+      document.getElementById('readContentAreaPdf').style.display = 'block';
+      document.getElementById('pdfViewer').style.display = 'flex';
+      document.getElementById('readTextViewPdf').style.display = 'none';
+      document.getElementById('readTextViewPdf').innerHTML = '';
+
+      await readerMode.loadPdf(data);
     } catch (e) {
-      console.error('PDF parse error:', e);
-      fullText = 'Failed to parse PDF.';
+      console.error('PDF load error:', e);
+      document.getElementById('readContentAreaPdf').style.display = 'none';
+      document.getElementById('readTextViewPdf').style.display = 'block';
+      document.getElementById('readTextViewPdf').innerHTML = 'Failed to load PDF: ' + e.message;
     }
-    if (!fullText.trim()) fullText = 'No text could be extracted from this PDF (it may be a scanned document).';
-    this._showReadContent('pdf', title, fullText.trim());
   }
 
   async _loadPdfFromPath(filePath) {
@@ -1607,9 +1625,17 @@ class App {
       document.getElementById('readCollapsedBarPdf').style.display = 'flex';
       document.getElementById('readCollapsedLabelPdf').textContent = title;
       document.getElementById('readContentAreaPdf').style.display = 'block';
-      const view = document.getElementById('readTextViewPdf');
-      view.innerHTML = WordWrapper.wrap(text);
-      this.translationPopup.bindToContainer(view, sourceInfo);
+      document.getElementById('readTextViewPdf').innerHTML = '';
+      readerMode.loadPdf(text);
+    } else if (sourceType === 'pdf-error') {
+      document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('pdfLibrary').style.display = 'none';
+      document.getElementById('readCollapsedBarPdf').style.display = 'flex';
+      document.getElementById('readCollapsedLabelPdf').textContent = title;
+      document.getElementById('readContentAreaPdf').style.display = 'block';
+      document.getElementById('pdfViewer').style.display = 'none';
+      document.getElementById('readTextViewPdf').style.display = 'block';
+      document.getElementById('readTextViewPdf').innerHTML = text;
     } else {
       document.getElementById('read-page-text').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('readCollapsedBarText').style.display = 'flex';
@@ -1764,6 +1790,7 @@ class App {
 
     this._readPdfFile = null;
     this._readPdfPath = null;
+    readerMode.reset();
     const dropzone = document.getElementById('readPdfDropzone');
     dropzone.classList.remove('read-dropzone-loaded');
     dropzone.querySelector('.read-dropzone-text').textContent = 'Drop PDF here or click to browse';
@@ -1773,7 +1800,9 @@ class App {
     pdfPage.querySelector('.read-page-input').style.display = '';
     document.getElementById('readCollapsedBarPdf').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
+    document.getElementById('pdfViewer').style.display = '';
     document.getElementById('readTextViewPdf').innerHTML = '';
+    document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';
   }
 }

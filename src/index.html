@@ -866,7 +866,20 @@
           <button class="btn btn-secondary btn-sm" id="btnReadNewPdf">&#8592; New</button>
         </div>
         <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
-          <div class="read-text-view" id="readTextViewPdf"></div>
+          <div class="pdf-viewer" id="pdfViewer">
+            <div class="pdf-viewer-scroll" id="pdfViewerScroll">
+              <canvas id="pdfViewerCanvas"></canvas>
+            </div>
+            <div class="pdf-viewer-controls">
+              <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
+              <span class="pdf-page-info" id="pdfPageInfo">
+                Page <span id="pdfPageNum">1</span> of <span id="pdfPageCount">1</span>
+              </span>
+              <button class="pdf-nav-btn" id="pdfNextPage" title="Next page">&#9654;</button>
+              <span class="pdf-zoom-info" id="pdfZoomInfo">100%</span>
+            </div>
+          </div>
+          <div class="read-text-view" id="readTextViewPdf" style="display:none;"></div>
         </div>
       </div>
 
