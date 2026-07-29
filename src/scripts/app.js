@@ -1129,6 +1129,7 @@ class App {
   _bindReadPageEvents() {
     this._readCurrentPage = null;
     this._readPdfFile = null;
+    this._readPdfPath = null;
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
       card.addEventListener('click', () => {
@@ -1239,6 +1240,10 @@ class App {
     document.getElementById('readerTitle').textContent = titles[mode] || 'Read';
     document.getElementById('btnReaderBack').style.display = '';
     document.getElementById('btnReaderMenu').style.display = 'none';
+
+    if (mode === 'pdf') {
+      this._scanPdfLibrary();
+    }
   }
 
   _backToReadHome() {
@@ -1266,13 +1271,30 @@ class App {
   }
 
   async _loadPdfContent() {
-    if (!this._readPdfFile) return;
-    const arrayBuffer = await this._readPdfFile.arrayBuffer();
-    const typedArray = new Uint8Array(arrayBuffer);
+    if (!this._readPdfFile && !this._readPdfPath) return;
+
+    let data;
+    let title;
+    if (this._readPdfFile) {
+      const arrayBuffer = await this._readPdfFile.arrayBuffer();
+      data = new Uint8Array(arrayBuffer);
+      title = this._readPdfFile.name.replace(/\.pdf$/i, '');
+    } else if (this._readPdfPath) {
+      const buf = await window.electronAPI.readFile(this._readPdfPath);
+      if (!buf) {
+        this._showReadContent('pdf', 'Error', 'Failed to read PDF file.');
+        return;
+      }
+      data = new Uint8Array(buf);
+      title = this._readPdfPath.replace(/.*[/\\]/, '').replace(/\.pdf$/i, '');
+    }
+    this._readPdfFile = null;
+    this._readPdfPath = null;
+
     let fullText = '';
     try {
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
-      const doc = await pdfjsLib.getDocument({ data: typedArray }).promise;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
+      const doc = await pdfjsLib.getDocument({ data }).promise;
       for (let i = 1; i <= doc.numPages; i++) {
         const page = await doc.getPage(i);
         const content = await page.getTextContent();
@@ -1283,8 +1305,84 @@ class App {
       console.error('PDF parse error:', e);
       fullText = 'Failed to parse PDF.';
     }
-    const title = this._readPdfFile.name.replace(/\.pdf$/i, '');
+    if (!fullText.trim()) fullText = 'No text could be extracted from this PDF (it may be a scanned document).';
     this._showReadContent('pdf', title, fullText.trim());
+  }
+
+  async _loadPdfFromPath(filePath) {
+    this._readPdfPath = filePath;
+    await this._loadPdfContent();
+  }
+
+  async _scanPdfLibrary() {
+    const listEl = document.getElementById('pdfLibraryList');
+    const emptyEl = document.getElementById('pdfLibraryEmpty');
+    const noFolderEl = document.getElementById('pdfLibraryNoFolder');
+    const loadingEl = document.getElementById('pdfLibraryLoading');
+    listEl.innerHTML = '';
+    emptyEl.style.display = 'none';
+    noFolderEl.style.display = 'none';
+    loadingEl.style.display = '';
+
+    let folderPath;
+    try {
+      folderPath = await window.electronAPI.getHomeDir();
+    } catch (e) {
+      folderPath = '';
+    }
+    if (!folderPath) {
+      loadingEl.style.display = 'none';
+      noFolderEl.style.display = '';
+      return;
+    }
+    folderPath = folderPath + '\\swipeword';
+
+    let items;
+    try {
+      items = await window.electronAPI.readDir(folderPath);
+    } catch (e) {
+      loadingEl.style.display = 'none';
+      noFolderEl.style.display = '';
+      return;
+    }
+    loadingEl.style.display = 'none';
+
+    if (!items || items.length === 0) {
+      emptyEl.style.display = '';
+      return;
+    }
+
+    const pdfs = items.filter((item) => !item.isDirectory && item.name.toLowerCase().endsWith('.pdf'));
+    if (pdfs.length === 0) {
+      emptyEl.style.display = '';
+      return;
+    }
+
+    pdfs.forEach((pdf) => {
+      const item = document.createElement('div');
+      item.className = 'pdf-library-item';
+      const size = pdf.size > 1024 * 1024
+        ? (pdf.size / 1024 / 1024).toFixed(1) + ' MB'
+        : (pdf.size / 1024).toFixed(0) + ' KB';
+      item.innerHTML =
+        '<span class="pdf-library-item-icon">&#128196;</span>' +
+        '<span class="pdf-library-item-name">' + this._escapeHtml(pdf.name.replace(/\.pdf$/i, '')) + '</span>' +
+        '<span class="pdf-library-item-size">' + size + '</span>';
+      item.addEventListener('click', () => {
+        const path = pdf.path;
+        this._resetReadPage();
+        this._readPdfPath = path;
+        document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+        this._loadPdfContent();
+      });
+      listEl.appendChild(item);
+    });
+  }
+
+  _escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
   }
 
   _initYoutubeResize() {
@@ -1505,6 +1603,7 @@ class App {
       this._startPositionTracking();
     } else if (sourceType === 'pdf') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+      document.getElementById('pdfLibrary').style.display = 'none';
       document.getElementById('readCollapsedBarPdf').style.display = 'flex';
       document.getElementById('readCollapsedLabelPdf').textContent = title;
       document.getElementById('readContentAreaPdf').style.display = 'block';
@@ -1664,6 +1763,7 @@ class App {
     document.getElementById('ytSubtitlePanel').style.flexGrow = '0';
 
     this._readPdfFile = null;
+    this._readPdfPath = null;
     const dropzone = document.getElementById('readPdfDropzone');
     dropzone.classList.remove('read-dropzone-loaded');
     dropzone.querySelector('.read-dropzone-text').textContent = 'Drop PDF here or click to browse';
@@ -1674,6 +1774,7 @@ class App {
     document.getElementById('readCollapsedBarPdf').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
+    document.getElementById('pdfLibrary').style.display = '';
   }
 }
 

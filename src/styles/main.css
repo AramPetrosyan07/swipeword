@@ -2656,6 +2656,82 @@ body {
   font-weight: 600;
 }
 
+.pdf-library {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.pdf-library-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.pdf-library-loading {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  padding: 8px 0;
+}
+
+.pdf-library-empty,
+.pdf-library-nofolder {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  padding: 8px 0;
+}
+
+.pdf-library-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pdf-library-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s;
+  user-select: none;
+}
+
+.pdf-library-item:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-library-item:active {
+  background: var(--bg-active);
+}
+
+.pdf-library-item-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.pdf-library-item-name {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pdf-library-item-size {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
 .read-url-input {
   width: 100%;
   border: 1px solid var(--border);

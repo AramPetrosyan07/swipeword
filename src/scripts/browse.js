@@ -1,10 +1,1 @@
-class FolderBrowser {
-  constructor() {}
-  async open() {}
-}
-
-let pinnedFolderBrowser = null;
-
-async function showPinnedFolder() {}
-
-async function browseOpenPDF() {}
+// PDF library browsing is handled in app.js (_scanPdfLibrary, _loadPdfFromPath)
