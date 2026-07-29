@@ -391,6 +391,25 @@ ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) =>
   }
 });
 
+// --- TTS (Google Translate TTS fallback for languages without system voices) ---
+async function _googleTTS(text, lang) {
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${lang}&client=gtx&ttsspeed=1`;
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`TTS request failed: ${resp.status}`);
+  const buffer = await resp.arrayBuffer();
+  return Buffer.from(buffer).toString('base64');
+}
+
+ipcMain.handle("tts:speak", async (_event, { text, lang }) => {
+  try {
+    const audio = await _googleTTS(text, lang);
+    return { success: true, audio };
+  } catch (e) {
+    console.error("TTS failed:", e);
+    return { success: false, error: e.message };
+  }
+});
+
 // --- YouTube Captions ---
 const captionCache = new Map();
 const { YoutubeTranscript } = require("youtube-transcript");

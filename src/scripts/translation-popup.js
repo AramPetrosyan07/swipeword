@@ -49,14 +49,75 @@ class TranslationPopup {
     });
   }
 
-  _speakWord(text, lang) {
+  async _loadVoices() {
+    const voices = window.speechSynthesis.getVoices();
+    if (voices.length) return voices;
+    return new Promise(resolve => {
+      window.speechSynthesis.onvoiceschanged = () => {
+        resolve(window.speechSynthesis.getVoices());
+      };
+      setTimeout(() => resolve(window.speechSynthesis.getVoices() || []), 3000);
+    });
+  }
+
+  _getVoice(lang) {
+    const locale = this._langSpeechMap[lang] || lang;
+    const voices = window.speechSynthesis.getVoices();
+    const prefix = locale.split('-')[0];
+    return voices.find(v => v.lang === locale)
+        || voices.find(v => v.lang.startsWith(prefix))
+        || null;
+  }
+
+  async _speakWord(text, lang) {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = this._langSpeechMap[lang] || lang;
-    utterance.rate = 0.85;
-    utterance.pitch = 1;
-    window.speechSynthesis.speak(utterance);
+    await this._loadVoices();
+    const voice = this._getVoice(lang);
+    const locale = this._langSpeechMap[lang] || lang;
+
+    if (voice) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = locale;
+      utterance.rate = 0.85;
+      utterance.pitch = 1;
+      utterance.voice = voice;
+      let usedFallback = false;
+      utterance.onerror = () => {
+        if (!usedFallback) {
+          usedFallback = true;
+          this._fallbackTTS(text, lang);
+        }
+      };
+      window.speechSynthesis.speak(utterance);
+    } else {
+      this._fallbackTTS(text, lang);
+    }
+  }
+
+  async _fallbackTTS(text, lang) {
+    try {
+      const result = await window.electronAPI.ttsSpeak(text, lang);
+      if (result && result.success) {
+        const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
+        audio.play();
+      } else {
+        this._showTtsNotice(`TTS unavailable for ${this._langNames[lang] || lang}`, 'error');
+      }
+    } catch (e) {
+      this._showTtsNotice(`TTS failed for ${this._langNames[lang] || lang}`, 'error');
+    }
+  }
+
+  _showTtsNotice(msg, type) {
+    const toast = document.getElementById('copyToast');
+    const textEl = document.getElementById('copyToastText');
+    if (!toast || !textEl) return;
+    const color = type === 'error' ? '#f44336' : '#ff9800';
+    textEl.innerHTML = `<span style="color:${color};">&#9888;</span> ${msg}`;
+    toast.classList.add('visible');
+    clearTimeout(toast._hideTimer);
+    toast._hideTimer = setTimeout(() => toast.classList.remove('visible'), 5000);
   }
 
   _copyWord(text) {
