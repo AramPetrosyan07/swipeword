@@ -1703,6 +1703,7 @@ class App {
     if (sourceType === 'youtube' && videoId) {
       sourceInfo.youtubeUrl = 'https://youtube.com/watch?v=' + videoId;
     }
+    this._readSourceInfo = sourceInfo;
 
     if (sourceType === 'youtube' && videoId) {
       document.getElementById('read-page-youtube').querySelector('.read-page-input').style.display = 'none';
@@ -1774,8 +1775,6 @@ class App {
       view.innerHTML = WordWrapper.wrap(text);
       this.translationPopup.bindToContainer(view, sourceInfo);
     }
-
-    this._readSourceInfo = sourceInfo;
   }
 
   async _fetchYoutubeCaptions(videoId) {

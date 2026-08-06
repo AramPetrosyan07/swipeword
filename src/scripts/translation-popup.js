@@ -11,6 +11,7 @@ class TranslationPopup {
     this._currentSource = null;
     this._cache = new Map();
     this._boundContainers = new WeakSet();
+    this._containerSources = new WeakMap();
     this.onSave = null;
     this._languages = { from: 'en' };
     this._targetLangs = ['hy', 'ru'];
@@ -170,6 +171,7 @@ class TranslationPopup {
   }
 
   bindToContainer(container, sourceInfo) {
+    this._containerSources.set(container, sourceInfo);
     if (this._boundContainers.has(container)) return;
     this._boundContainers.add(container);
 
@@ -205,7 +207,7 @@ class TranslationPopup {
     const showTranslation = (words, anchorEl) => {
       const text = words.map(w => w.dataset.word || w.textContent).join(' ');
       const context = WordWrapper.getSentenceForWord(container.textContent, text);
-      this.show(text, context, anchorEl, sourceInfo);
+      this.show(text, context, anchorEl, this._containerSources.get(container) || sourceInfo);
     };
 
     container.addEventListener('mousedown', (e) => {
