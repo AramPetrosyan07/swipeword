@@ -24,9 +24,10 @@ class App {
     this._ytPlayer = null;
     this._ytPositionTimer = null;
     this._ytShadowActive = false;
-    this._ytShadowLine = -1;
-    this._ytShadowRepeatsLeft = 0;
-    this._ytShadowRepeatCount = 3;
+    this._ytShadowSentenceIdx = -1;
+    this._ytShadowSentencesLeft = 0;
+    this._ytShadowSentenceCount = 3;
+    this._ytSentences = [];
     this._ytShadowSpeed = 1;
     this._ytShadowLastActionTime = 0;
     this._ytSourceLang = 'en';
@@ -1295,7 +1296,7 @@ class App {
       }
     });
     document.getElementById('ytShadowRepeatCount').addEventListener('change', (e) => {
-      this._ytShadowRepeatCount = parseInt(e.target.value, 10) || 0;
+      this._ytShadowSentenceCount = parseInt(e.target.value, 10) || 0;
     });
     document.getElementById('ytShadowSpeed').addEventListener('change', (e) => {
       this._ytShadowSpeed = parseFloat(e.target.value) || 1;
@@ -1787,6 +1788,7 @@ class App {
         return;
       }
       this._ytCaptions = lines;
+      this._buildYtSentences();
       this._renderYoutubeSubtitles(lines);
       if (this._ytPlayer && typeof this._ytPlayer.getCurrentTime === 'function') {
         this._startYoutubeSync();
@@ -1850,89 +1852,123 @@ class App {
         }
       }
 
-      if (this._ytShadowActive && this._ytShadowLine >= 0 && captions[this._ytShadowLine]) {
-        const cap = captions[this._ytShadowLine];
-        if (subLines[this._ytShadowLine] && !subLines[this._ytShadowLine].classList.contains('yt-sub-practicing')) {
-          subLines[this._ytShadowLine].classList.add('yt-sub-practicing');
-        }
-        const end = cap.start + cap.duration;
+      if (this._ytShadowActive && this._ytShadowSentenceIdx >= 0 && this._ytSentences[this._ytShadowSentenceIdx]) {
+        const sent = this._ytSentences[this._ytShadowSentenceIdx];
+        this._setPracticingLines(sent);
         const now = Date.now();
-        if (time >= end && now - (this._ytShadowLastActionTime || 0) > 400) {
+        if (time >= sent.endTime && now - (this._ytShadowLastActionTime || 0) > 400) {
           this._ytShadowLastActionTime = now;
-          if (this._ytShadowRepeatsLeft === -1) {
-            this._ytPlayer.seekTo(cap.start, true);
-            this._ytPlayer.playVideo();
-          } else if (this._ytShadowRepeatsLeft > 1) {
-            this._ytShadowRepeatsLeft--;
-            this._ytPlayer.seekTo(cap.start, true);
-            this._ytPlayer.playVideo();
-          } else {
-            this._ytShadowNext();
-          }
+          this._ytPlayer.seekTo(sent.startTime, true);
+          this._ytPlayer.playVideo();
         }
       }
     }, 250);
   }
 
-  _ytShadowStart() {
-    if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
-    if (!this._ytCaptions || !this._ytCaptions.length) return;
-    const time = this._ytPlayer.getCurrentTime();
-    let idx = -1;
-    for (let i = this._ytCaptions.length - 1; i >= 0; i--) {
-      if (time >= this._ytCaptions[i].start - 0.15) { idx = i; break; }
+  _buildYtSentences() {
+    const lines = this._ytCaptions || [];
+    this._ytSentences = [];
+    let start = -1;
+    for (let i = 0; i < lines.length; i++) {
+      if (start === -1) start = i;
+      const text = (lines[i].text || '').trim();
+      if (/[.!?]$/.test(text)) {
+        const first = lines[start];
+        const last = lines[i];
+        this._ytSentences.push({
+          startIndex: start,
+          endIndex: i,
+          startTime: first.start,
+          endTime: last.start + last.duration,
+          text: lines.slice(start, i + 1).map(l => l.text).join(' ')
+        });
+        start = -1;
+      }
     }
-    if (idx < 0) idx = 0;
-    this._ytShadowStartLine(idx);
+    if (start !== -1) {
+      const first = lines[start];
+      const last = lines[lines.length - 1];
+      this._ytSentences.push({
+        startIndex: start,
+        endIndex: lines.length - 1,
+        startTime: first.start,
+        endTime: last.start + last.duration,
+        text: lines.slice(start).map(l => l.text).join(' ')
+      });
+    }
+    return this._ytSentences;
   }
 
-  _ytShadowStartLine(lineIndex) {
-    if (!this._ytCaptions || !this._ytCaptions.length) return;
-    if (lineIndex < 0 || lineIndex >= this._ytCaptions.length) return;
+  _findYtSentenceAtTime(time) {
+    const sents = this._ytSentences || [];
+    for (let i = sents.length - 1; i >= 0; i--) {
+      if (time >= sents[i].startTime - 0.15) return i;
+    }
+    return sents.length ? 0 : -1;
+  }
+
+  _setPracticingLines(sent) {
+    const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line');
+    subLines.forEach((el, i) => {
+      if (i >= sent.startIndex && i <= sent.endIndex) {
+        el.classList.add('yt-sub-practicing');
+      } else {
+        el.classList.remove('yt-sub-practicing');
+      }
+    });
+  }
+
+  _ytShadowStart() {
+    if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
+    if (!this._ytSentences || !this._ytSentences.length) return;
+    const idx = this._findYtSentenceAtTime(this._ytPlayer.getCurrentTime());
+    if (idx < 0) return;
+    this._ytShadowSentencesLeft = this._ytShadowSentenceCount === 0 ? -1 : this._ytShadowSentenceCount;
+    this._ytShadowStartSentence(idx);
+  }
+
+  _ytShadowStartSentence(sentIdx) {
+    if (!this._ytSentences || sentIdx < 0 || sentIdx >= this._ytSentences.length) return;
     if (!this._ytPlayer || typeof this._ytPlayer.seekTo !== 'function') return;
+    const sent = this._ytSentences[sentIdx];
     this._ytShadowActive = true;
-    this._ytShadowLine = lineIndex;
-    this._ytShadowRepeatsLeft = this._ytShadowRepeatCount === 0 ? -1 : this._ytShadowRepeatCount;
+    this._ytShadowSentenceIdx = sentIdx;
     this._ytShadowLastActionTime = Date.now();
-    document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing').forEach((el) => el.classList.remove('yt-sub-practicing'));
-    const subLine = document.querySelector('#readYoutubeSubtitles .yt-sub-line[data-index="' + lineIndex + '"]');
-    if (subLine) subLine.classList.add('yt-sub-practicing');
-    const cap = this._ytCaptions[lineIndex];
-    this._ytPlayer.seekTo(cap.start, true);
+    this._setPracticingLines(sent);
+    this._ytPlayer.seekTo(sent.startTime, true);
     this._ytPlayer.playVideo();
     this._updateYtShadowUI();
   }
 
   _ytShadowRepeat() {
-    const idx = this._ytCurrentLineIndex;
-    if (idx < 0) {
-      const time = this._ytPlayer && typeof this._ytPlayer.getCurrentTime === 'function' ? this._ytPlayer.getCurrentTime() : 0;
-      const captions = this._ytCaptions || [];
-      let found = -1;
-      for (let i = captions.length - 1; i >= 0; i--) {
-        if (time >= captions[i].start - 0.15) { found = i; break; }
-      }
-      if (found < 0) return;
-      this._ytShadowStartLine(found);
+    if (this._ytShadowSentenceIdx >= 0) {
+      this._ytShadowStartSentence(this._ytShadowSentenceIdx);
       return;
     }
-    this._ytShadowStartLine(idx);
+    this._ytShadowStart();
   }
 
   _ytShadowNext() {
-    if (!this._ytCaptions || !this._ytCaptions.length) return;
-    const nextIndex = this._ytShadowActive ? this._ytShadowLine + 1 : this._ytCurrentLineIndex + 1;
-    if (nextIndex < 0 || nextIndex >= this._ytCaptions.length) {
+    if (!this._ytSentences || !this._ytSentences.length) return;
+    const nextIdx = this._ytShadowSentenceIdx + 1;
+    if (nextIdx >= this._ytSentences.length) {
       this._ytShadowStop();
       return;
     }
-    this._ytShadowStartLine(nextIndex);
+    if (this._ytShadowSentencesLeft > 0) {
+      this._ytShadowSentencesLeft--;
+      if (this._ytShadowSentencesLeft <= 0) {
+        this._ytShadowStop();
+        return;
+      }
+    }
+    this._ytShadowStartSentence(nextIdx);
   }
 
   _ytShadowStop() {
     this._ytShadowActive = false;
-    this._ytShadowLine = -1;
-    this._ytShadowRepeatsLeft = 0;
+    this._ytShadowSentenceIdx = -1;
+    this._ytShadowSentencesLeft = 0;
     const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing');
     subLines.forEach((el) => el.classList.remove('yt-sub-practicing'));
     this._updateYtShadowUI();
@@ -1954,6 +1990,7 @@ class App {
       this._ytCaptionTimer = null;
     }
     this._ytCaptions = [];
+    this._ytSentences = [];
     this._ytCurrentLineIndex = -1;
     this._ytShadowStop();
     if (this._ytPlayer) {
