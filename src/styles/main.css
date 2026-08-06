@@ -2416,6 +2416,19 @@ body {
   font-size: 14px;
 }
 
+.reader-translate-popup.yt-mode {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  right: 8px;
+  transform: translateY(-50%);
+  max-width: none;
+  min-width: 0;
+  max-height: calc(100% - 16px);
+  overflow-y: auto;
+  z-index: 40;
+}
+
 .reader-translate-header {
   display: flex;
   align-items: center;

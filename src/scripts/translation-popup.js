@@ -1,6 +1,7 @@
 class TranslationPopup {
   constructor() {
     this._popup = document.getElementById('readerTranslatePopup');
+    this._defaultParent = this._popup.parentNode;
     this._wordEl = document.getElementById('readerTranslateWord');
     this._bodyEl = this._popup.querySelector('.reader-translate-body');
     this._saveBtn = document.getElementById('btnReaderAddWord');
@@ -251,31 +252,53 @@ class TranslationPopup {
     this._popup.style.transform = '';
     void this._popup.offsetHeight;
 
-    if (targetEl) {
-      const rect = targetEl.getBoundingClientRect();
-      const popupW = this._popup.offsetWidth;
-      const popupH = this._popup.offsetHeight;
-      const gap = 8;
-      const margin = 10;
-      let top = rect.bottom + gap;
-      let left = rect.left + rect.width / 2 - popupW / 2;
+    if (this._currentSource.type === 'youtube') {
+      this._showInYoutubePanel();
+    } else {
+      this._restoreDefaultPlacement();
+      if (targetEl) {
+        const rect = targetEl.getBoundingClientRect();
+        const popupW = this._popup.offsetWidth;
+        const popupH = this._popup.offsetHeight;
+        const gap = 8;
+        const margin = 10;
+        let top = rect.bottom + gap;
+        let left = rect.left + rect.width / 2 - popupW / 2;
 
-      if (top + popupH > window.innerHeight - margin) {
-        top = rect.top - popupH - gap;
-      }
-      if (left < margin) left = margin;
-      if (left + popupW > window.innerWidth - margin) {
-        left = window.innerWidth - popupW - margin;
-      }
+        if (top + popupH > window.innerHeight - margin) {
+          top = rect.top - popupH - gap;
+        }
+        if (left < margin) left = margin;
+        if (left + popupW > window.innerWidth - margin) {
+          left = window.innerWidth - popupW - margin;
+        }
 
-      this._popup.style.top = top + 'px';
-      this._popup.style.left = left + 'px';
+        this._popup.style.top = top + 'px';
+        this._popup.style.left = left + 'px';
+      }
     }
 
     this._popup.dataset.justOpened = '1';
     setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
 
     this._fetchTranslation(word);
+  }
+
+  _showInYoutubePanel() {
+    const panel = document.getElementById('ytWordsPanel');
+    if (panel) {
+      if (this._popup.parentNode !== panel) {
+        panel.appendChild(this._popup);
+      }
+    }
+    this._popup.classList.add('yt-mode');
+  }
+
+  _restoreDefaultPlacement() {
+    if (this._defaultParent && this._popup.parentNode !== this._defaultParent) {
+      this._defaultParent.appendChild(this._popup);
+    }
+    this._popup.classList.remove('yt-mode');
   }
 
   hide() {
