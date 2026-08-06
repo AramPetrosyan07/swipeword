@@ -25,7 +25,7 @@ class App {
     this._ytPositionTimer = null;
     this._ytShadowActive = false;
     this._ytShadowSentenceIdx = -1;
-    this._ytShadowSentenceCount = 3;
+    this._ytShadowSentenceCount = 1;
     this._ytSentences = [];
     this._ytShadowSpeed = 1;
     this._ytShadowLastActionTime = 0;
@@ -1852,12 +1852,14 @@ class App {
       }
 
       if (this._ytShadowActive && this._ytShadowSentenceIdx >= 0 && this._ytSentences[this._ytShadowSentenceIdx]) {
-        const sent = this._ytSentences[this._ytShadowSentenceIdx];
-        this._setPracticingLines(sent);
+        const blockEnd = this._ytShadowBlockEnd();
         const now = Date.now();
-        if (time >= sent.endTime && now - (this._ytShadowLastActionTime || 0) > 400) {
+        this._setPracticingRange(this._ytShadowSentenceIdx, blockEnd);
+        const blockLast = this._ytSentences[blockEnd - 1];
+        if (time >= blockLast.endTime && now - (this._ytShadowLastActionTime || 0) > 400) {
           this._ytShadowLastActionTime = now;
-          this._ytPlayer.seekTo(sent.startTime, true);
+          const first = this._ytSentences[this._ytShadowSentenceIdx];
+          this._ytPlayer.seekTo(first.startTime, true);
           this._ytPlayer.playVideo();
         }
       }
@@ -1866,19 +1868,23 @@ class App {
 
   _buildYtSentences() {
     const lines = this._ytCaptions || [];
+    const MAX_LINES = 6;
+    const MAX_SECONDS = 8;
     this._ytSentences = [];
     let start = -1;
     for (let i = 0; i < lines.length; i++) {
       if (start === -1) start = i;
-      const text = (lines[i].text || '').trim();
-      if (/[.!?]$/.test(text)) {
-        const first = lines[start];
-        const last = lines[i];
+      const first = lines[start];
+      const cur = lines[i];
+      const text = (cur.text || '').trim();
+      const endsSentence = /[.!?]["'\u2019)\]]*$/.test(text);
+      const exceeds = (i - start + 1) >= MAX_LINES || (cur.start + cur.duration - first.start) >= MAX_SECONDS;
+      if (endsSentence || exceeds) {
         this._ytSentences.push({
           startIndex: start,
           endIndex: i,
           startTime: first.start,
-          endTime: last.start + last.duration,
+          endTime: cur.start + cur.duration,
           text: lines.slice(start, i + 1).map(l => l.text).join(' ')
         });
         start = -1;
@@ -1906,15 +1912,21 @@ class App {
     return sents.length ? 0 : -1;
   }
 
-  _setPracticingLines(sent) {
+  _setPracticingRange(startSentIdx, endSentIdx) {
+    const sents = this._ytSentences || [];
+    if (startSentIdx < 0 || endSentIdx <= startSentIdx || endSentIdx > sents.length) return;
+    const firstLine = sents[startSentIdx].startIndex;
+    const lastLine = sents[endSentIdx - 1].endIndex;
     const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line');
     subLines.forEach((el, i) => {
-      if (i >= sent.startIndex && i <= sent.endIndex) {
-        el.classList.add('yt-sub-practicing');
-      } else {
-        el.classList.remove('yt-sub-practicing');
-      }
+      el.classList.toggle('yt-sub-practicing', i >= firstLine && i <= lastLine);
     });
+  }
+
+  _ytShadowBlockEnd() {
+    const count = this._ytShadowSentenceCount;
+    if (count <= 0) return this._ytSentences.length;
+    return Math.min(this._ytSentences.length, this._ytShadowSentenceIdx + count);
   }
 
   _ytShadowStart() {
@@ -1928,11 +1940,11 @@ class App {
   _ytShadowStartSentence(sentIdx) {
     if (!this._ytSentences || sentIdx < 0 || sentIdx >= this._ytSentences.length) return;
     if (!this._ytPlayer || typeof this._ytPlayer.seekTo !== 'function') return;
-    const sent = this._ytSentences[sentIdx];
     this._ytShadowActive = true;
     this._ytShadowSentenceIdx = sentIdx;
     this._ytShadowLastActionTime = Date.now();
-    this._setPracticingLines(sent);
+    this._setPracticingRange(sentIdx, this._ytShadowBlockEnd());
+    const sent = this._ytSentences[sentIdx];
     this._ytPlayer.seekTo(sent.startTime, true);
     this._ytPlayer.playVideo();
     this._updateYtShadowUI();
