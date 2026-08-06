@@ -1659,7 +1659,7 @@ class App {
         item.addEventListener('click', () => {
           const ts = parseFloat(item.dataset.timestamp) || 0;
           if (this._ytPlayer && typeof this._ytPlayer.seekTo === 'function' && ts > 0) {
-            this._ytPlayer.seekTo(Math.max(0, ts - 4), true);
+            this._ytPlayer.seekTo(Math.max(0, ts - 2), true);
             this._ytPlayer.playVideo();
             this._ytFlashTargetLine = -1;
             const lines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line');
