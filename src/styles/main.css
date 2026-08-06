@@ -3251,7 +3251,7 @@ body {
   border-radius: var(--radius, 8px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   padding: 8px 12px 12px;
-  min-width: 150px;
+  min-width: 180px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -3269,6 +3269,16 @@ body {
 
 .yt-shadow-title:first-child {
   padding-top: 0;
+}
+
+.yt-shadow-select {
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
 }
 
 /* YouTube Bottom Split (subtitles + saved words) */

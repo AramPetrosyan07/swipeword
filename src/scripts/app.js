@@ -1294,6 +1294,15 @@ class App {
         this._ytShadowStart();
       }
     });
+    document.getElementById('ytShadowRepeatCount').addEventListener('change', (e) => {
+      this._ytShadowRepeatCount = parseInt(e.target.value, 10) || 0;
+    });
+    document.getElementById('ytShadowSpeed').addEventListener('change', (e) => {
+      this._ytShadowSpeed = parseFloat(e.target.value) || 1;
+      if (this._ytPlayer && typeof this._ytPlayer.setPlaybackRate === 'function') {
+        this._ytPlayer.setPlaybackRate(this._ytShadowSpeed);
+      }
+    });
 
     document.getElementById('ytLangCount').addEventListener('change', (e) => {
       this._ytLangCount = parseInt(e.target.value) || 2;
