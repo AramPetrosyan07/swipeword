@@ -9,6 +9,7 @@ class TranslationPopup {
     this._currentWord = null;
     this._currentContext = '';
     this._currentSource = null;
+    this._currentTimestamp = 0;
     this._cache = new Map();
     this._boundContainers = new WeakSet();
     this._containerSources = new WeakMap();
@@ -246,6 +247,17 @@ class TranslationPopup {
     this._currentWord = word;
     this._currentContext = context;
     this._currentSource = sourceInfo || {};
+    this._currentTimestamp = 0;
+    if (this._currentSource.type === 'youtube') {
+      const lineEl = targetEl ? targetEl.closest('.yt-sub-line') : null;
+      const lineStart = lineEl ? parseFloat(lineEl.dataset.start) : NaN;
+      if (!isNaN(lineStart)) {
+        this._currentTimestamp = Math.floor(lineStart);
+      } else if (typeof app !== 'undefined' && app._ytPlayer && typeof app._ytPlayer.getCurrentTime === 'function') {
+        const t = app._ytPlayer.getCurrentTime();
+        if (!isNaN(t) && isFinite(t)) this._currentTimestamp = Math.floor(t);
+      }
+    }
     this._wordEl.textContent = word;
     this._renderBody({});
     this._popup.style.display = 'flex';
@@ -354,14 +366,11 @@ class TranslationPopup {
     const cached = this._cache.get(lower) || {};
 
     let thumbnailUrl = '';
-    let videoTimestamp = 0;
+    let videoTimestamp = this._currentTimestamp || 0;
     if (this._currentSource && this._currentSource.type === 'youtube' && this._currentSource.youtubeUrl) {
       const match = this._currentSource.youtubeUrl.match(/(?:watch\?v=|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
       if (match) {
         thumbnailUrl = `https://img.youtube.com/vi/${match[1]}/mqdefault.jpg`;
-      }
-      if (typeof app !== 'undefined' && app._ytPlayer && typeof app._ytPlayer.getCurrentTime === 'function') {
-        videoTimestamp = Math.floor(app._ytPlayer.getCurrentTime());
       }
     }
 
