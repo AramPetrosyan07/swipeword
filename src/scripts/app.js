@@ -23,6 +23,12 @@ class App {
     this._ytCurrentLineIndex = -1;
     this._ytPlayer = null;
     this._ytPositionTimer = null;
+    this._ytShadowActive = false;
+    this._ytShadowLine = -1;
+    this._ytShadowRepeatsLeft = 0;
+    this._ytShadowRepeatCount = 3;
+    this._ytShadowSpeed = 1;
+    this._ytShadowLastActionTime = 0;
     this._ytSourceLang = 'en';
     this._ytTargetLang1 = 'hy';
     this._ytTargetLang2 = 'ru';
@@ -1262,6 +1268,35 @@ class App {
       this._resetReadPage();
     });
 
+    document.getElementById('btnYtRepeat').addEventListener('click', () => {
+      this._ytShadowRepeat();
+    });
+    document.getElementById('btnYtNext').addEventListener('click', () => {
+      this._ytShadowNext();
+    });
+
+    const shadowBtn = document.getElementById('btnYtShadowSettings');
+    const shadowDropdown = document.getElementById('ytShadowDropdown');
+    shadowBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = shadowDropdown.style.display === 'flex';
+      shadowDropdown.style.display = isOpen ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (shadowDropdown.style.display === 'flex' && !shadowDropdown.contains(e.target) && e.target !== shadowBtn) {
+        shadowDropdown.style.display = 'none';
+      }
+    });
+    document.getElementById('ytShadowRepeatCount').addEventListener('change', (e) => {
+      this._ytShadowRepeatCount = parseInt(e.target.value, 10) || 0;
+    });
+    document.getElementById('ytShadowSpeed').addEventListener('change', (e) => {
+      this._ytShadowSpeed = parseFloat(e.target.value) || 1;
+      if (this._ytPlayer && typeof this._ytPlayer.setPlaybackRate === 'function') {
+        this._ytPlayer.setPlaybackRate(this._ytShadowSpeed);
+      }
+    });
+
     document.getElementById('ytLangCount').addEventListener('change', (e) => {
       this._ytLangCount = parseInt(e.target.value) || 2;
       this._saveLangPrefs();
@@ -1687,6 +1722,9 @@ class App {
         playerVars: { rel: 0 },
         events: {
           onReady: () => {
+            if (this._ytShadowSpeed !== 1 && typeof this._ytPlayer.setPlaybackRate === 'function') {
+              try { this._ytPlayer.setPlaybackRate(this._ytShadowSpeed); } catch (e) {}
+            }
             if (this._ytCaptions && this._ytCaptions.length > 0) {
               this._startYoutubeSync();
             }
@@ -1804,7 +1842,79 @@ class App {
           subLines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
       }
+
+      if (this._ytShadowActive && this._ytShadowLine >= 0 && captions[this._ytShadowLine]) {
+        const cap = captions[this._ytShadowLine];
+        if (subLines[this._ytShadowLine] && !subLines[this._ytShadowLine].classList.contains('yt-sub-practicing')) {
+          subLines[this._ytShadowLine].classList.add('yt-sub-practicing');
+        }
+        const end = cap.start + cap.duration;
+        const now = Date.now();
+        if (time >= end && now - (this._ytShadowLastActionTime || 0) > 400) {
+          this._ytShadowLastActionTime = now;
+          if (this._ytShadowRepeatsLeft === -1) {
+            this._ytPlayer.seekTo(cap.start, true);
+            this._ytPlayer.playVideo();
+          } else if (this._ytShadowRepeatsLeft > 1) {
+            this._ytShadowRepeatsLeft--;
+            this._ytPlayer.seekTo(cap.start, true);
+            this._ytPlayer.playVideo();
+          } else {
+            this._ytShadowNext();
+          }
+        }
+      }
     }, 250);
+  }
+
+  _ytShadowStartLine(lineIndex) {
+    if (!this._ytCaptions || !this._ytCaptions.length) return;
+    if (lineIndex < 0 || lineIndex >= this._ytCaptions.length) return;
+    if (!this._ytPlayer || typeof this._ytPlayer.seekTo !== 'function') return;
+    this._ytShadowActive = true;
+    this._ytShadowLine = lineIndex;
+    this._ytShadowRepeatsLeft = this._ytShadowRepeatCount === 0 ? -1 : this._ytShadowRepeatCount;
+    this._ytShadowLastActionTime = Date.now();
+    document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing').forEach((el) => el.classList.remove('yt-sub-practicing'));
+    const subLine = document.querySelector('#readYoutubeSubtitles .yt-sub-line[data-index="' + lineIndex + '"]');
+    if (subLine) subLine.classList.add('yt-sub-practicing');
+    const cap = this._ytCaptions[lineIndex];
+    this._ytPlayer.seekTo(cap.start, true);
+    this._ytPlayer.playVideo();
+  }
+
+  _ytShadowRepeat() {
+    const idx = this._ytCurrentLineIndex;
+    if (idx < 0) {
+      const time = this._ytPlayer && typeof this._ytPlayer.getCurrentTime === 'function' ? this._ytPlayer.getCurrentTime() : 0;
+      const captions = this._ytCaptions || [];
+      let found = -1;
+      for (let i = captions.length - 1; i >= 0; i--) {
+        if (time >= captions[i].start - 0.15) { found = i; break; }
+      }
+      if (found < 0) return;
+      this._ytShadowStartLine(found);
+      return;
+    }
+    this._ytShadowStartLine(idx);
+  }
+
+  _ytShadowNext() {
+    if (!this._ytCaptions || !this._ytCaptions.length) return;
+    const nextIndex = this._ytShadowActive ? this._ytShadowLine + 1 : this._ytCurrentLineIndex + 1;
+    if (nextIndex < 0 || nextIndex >= this._ytCaptions.length) {
+      this._ytShadowStop();
+      return;
+    }
+    this._ytShadowStartLine(nextIndex);
+  }
+
+  _ytShadowStop() {
+    this._ytShadowActive = false;
+    this._ytShadowLine = -1;
+    this._ytShadowRepeatsLeft = 0;
+    const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing');
+    subLines.forEach((el) => el.classList.remove('yt-sub-practicing'));
   }
 
   _stopYoutubeSync() {
@@ -1814,8 +1924,14 @@ class App {
     }
     this._ytCaptions = [];
     this._ytCurrentLineIndex = -1;
+    this._ytShadowStop();
     if (this._ytPlayer) {
       this._saveYoutubePosition();
+      try {
+        if (typeof this._ytPlayer.setPlaybackRate === 'function') {
+          this._ytPlayer.setPlaybackRate(1);
+        }
+      } catch (e) {}
       try { this._ytPlayer.destroy(); } catch (e) {}
       this._ytPlayer = null;
     }
