@@ -1287,13 +1287,11 @@ class App {
         shadowDropdown.style.display = 'none';
       }
     });
-    document.getElementById('ytShadowRepeatCount').addEventListener('change', (e) => {
-      this._ytShadowRepeatCount = parseInt(e.target.value, 10) || 0;
-    });
-    document.getElementById('ytShadowSpeed').addEventListener('change', (e) => {
-      this._ytShadowSpeed = parseFloat(e.target.value) || 1;
-      if (this._ytPlayer && typeof this._ytPlayer.setPlaybackRate === 'function') {
-        this._ytPlayer.setPlaybackRate(this._ytShadowSpeed);
+    document.getElementById('btnYtShadowToggle').addEventListener('click', () => {
+      if (this._ytShadowActive) {
+        this._ytShadowStop();
+      } else {
+        this._ytShadowStart();
       }
     });
 
@@ -1867,6 +1865,18 @@ class App {
     }, 250);
   }
 
+  _ytShadowStart() {
+    if (!this._ytPlayer || typeof this._ytPlayer.getCurrentTime !== 'function') return;
+    if (!this._ytCaptions || !this._ytCaptions.length) return;
+    const time = this._ytPlayer.getCurrentTime();
+    let idx = -1;
+    for (let i = this._ytCaptions.length - 1; i >= 0; i--) {
+      if (time >= this._ytCaptions[i].start - 0.15) { idx = i; break; }
+    }
+    if (idx < 0) idx = 0;
+    this._ytShadowStartLine(idx);
+  }
+
   _ytShadowStartLine(lineIndex) {
     if (!this._ytCaptions || !this._ytCaptions.length) return;
     if (lineIndex < 0 || lineIndex >= this._ytCaptions.length) return;
@@ -1881,6 +1891,7 @@ class App {
     const cap = this._ytCaptions[lineIndex];
     this._ytPlayer.seekTo(cap.start, true);
     this._ytPlayer.playVideo();
+    this._updateYtShadowUI();
   }
 
   _ytShadowRepeat() {
@@ -1915,6 +1926,17 @@ class App {
     this._ytShadowRepeatsLeft = 0;
     const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing');
     subLines.forEach((el) => el.classList.remove('yt-sub-practicing'));
+    this._updateYtShadowUI();
+  }
+
+  _updateYtShadowUI() {
+    const on = !!this._ytShadowActive;
+    const toggle = document.getElementById('btnYtShadowToggle');
+    const repeatBtn = document.getElementById('btnYtRepeat');
+    const nextBtn = document.getElementById('btnYtNext');
+    if (toggle) toggle.classList.toggle('active', on);
+    if (repeatBtn) repeatBtn.style.display = on ? '' : 'none';
+    if (nextBtn) nextBtn.style.display = on ? '' : 'none';
   }
 
   _stopYoutubeSync() {

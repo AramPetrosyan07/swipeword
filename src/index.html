@@ -908,6 +908,17 @@
           <button class="btn btn-secondary btn-sm" id="btnReadNewYoutube">&#8592; New</button>
         </div>
         <div class="yt-lang-bar" id="ytLangBar" style="display:none;">
+          <div class="yt-shadow-settings" id="ytShadowSettings">
+            <button class="yt-shadow-action-btn" id="btnYtRepeat" style="display:none;" title="Repeat the current sentence">&#128257; Repeat</button>
+            <button class="yt-shadow-action-btn" id="btnYtNext" style="display:none;" title="Play the next sentence">&#9197; Next</button>
+            <button class="yt-shadow-gear-btn" id="btnYtShadowSettings" title="Shadowing settings">&#9881;</button>
+            <div class="yt-shadow-dropdown" id="ytShadowDropdown" style="display:none;">
+              <div class="yt-shadow-title">Shadowing</div>
+              <button class="yt-shadow-toggle" id="btnYtShadowToggle">
+                <span id="ytShadowToggleText">Shadow</span>
+              </button>
+            </div>
+          </div>
           <span class="yt-lang-source-label">From: <strong id="ytLangSourceText">English</strong></span>
           <div class="yt-lang-selects">
             <label class="yt-lang-label">Languages:</label>
@@ -1043,31 +1054,6 @@
         </div>
         <div class="read-youtube-area" id="readYoutubeArea" style="display:none;">
           <div class="read-youtube-player" id="readYoutubePlayer"></div>
-          <div class="yt-shadow-bar" id="ytShadowBar">
-            <button class="btn btn-secondary btn-sm" id="btnYtRepeat" title="Repeat the current sentence">&#128257; Repeat</button>
-            <button class="btn btn-secondary btn-sm" id="btnYtNext" title="Play the next sentence">&#9197; Next</button>
-            <div class="yt-shadow-settings" id="ytShadowSettings">
-              <button class="btn btn-secondary btn-sm" id="btnYtShadowSettings" title="Shadowing settings">&#9881;</button>
-              <div class="yt-shadow-dropdown" id="ytShadowDropdown" style="display:none;">
-                <div class="yt-shadow-title">Sentence repeats</div>
-                <select id="ytShadowRepeatCount" class="yt-shadow-select">
-                  <option value="1">1 time</option>
-                  <option value="2">2 times</option>
-                  <option value="3" selected>3 times</option>
-                  <option value="5">5 times</option>
-                  <option value="0">Infinite</option>
-                </select>
-                <div class="yt-shadow-title">Playback speed</div>
-                <select id="ytShadowSpeed" class="yt-shadow-select">
-                  <option value="0.5">0.5x</option>
-                  <option value="0.75">0.75x</option>
-                  <option value="1" selected>1x</option>
-                  <option value="1.25">1.25x</option>
-                  <option value="1.5">1.5x</option>
-                </select>
-              </div>
-            </div>
-          </div>
           <div class="yt-pane-divider" id="ytPaneDivider" title="Drag to resize. Double-click to reset."></div>
           <div class="yt-bottom-split" id="ytBottomSplit">
             <div class="yt-subtitle-panel" id="ytSubtitlePanel">

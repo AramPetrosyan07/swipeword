@@ -2959,13 +2959,14 @@ body {
 .yt-lang-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 8px 20px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
   gap: 12px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .yt-lang-source-label {
@@ -2983,6 +2984,7 @@ body {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .yt-lang-label {
@@ -3157,26 +3159,91 @@ body {
   background: rgba(100, 120, 255, 0.08);
 }
 
-/* YouTube Shadowing Toolbar */
-.yt-shadow-bar {
-  flex-shrink: 0;
+/* YouTube Shadowing Controls */
+.yt-shadow-settings {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.yt-shadow-gear-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.yt-shadow-gear-btn:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+  border-color: var(--primary);
+}
+
+.yt-shadow-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 12px;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.yt-shadow-action-btn:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+  border-color: var(--primary);
+}
+
+.yt-shadow-toggle {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 10px;
-  background: var(--bg-secondary, #1a1a2e);
-  border-bottom: 1px solid var(--border);
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
-.yt-shadow-settings {
-  position: relative;
-  margin-left: auto;
+.yt-shadow-toggle:hover {
+  border-color: var(--primary);
+}
+
+.yt-shadow-toggle.active {
+  background: #2e7d32;
+  border-color: #2e7d32;
+  color: #fff;
+}
+
+.yt-shadow-toggle.active:hover {
+  background: #2e7d32;
+  border-color: #2e7d32;
 }
 
 .yt-shadow-dropdown {
   position: absolute;
   top: 100%;
-  right: 0;
+  left: 0;
   margin-top: 6px;
   z-index: 100;
   background: var(--surface);
@@ -3184,7 +3251,7 @@ body {
   border-radius: var(--radius, 8px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   padding: 8px 12px 12px;
-  min-width: 180px;
+  min-width: 150px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -3202,16 +3269,6 @@ body {
 
 .yt-shadow-title:first-child {
   padding-top: 0;
-}
-
-.yt-shadow-select {
-  width: 100%;
-  padding: 5px 8px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  font-size: 13px;
 }
 
 /* YouTube Bottom Split (subtitles + saved words) */
