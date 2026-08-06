@@ -27,6 +27,8 @@ class App {
     this._ytShadowSentenceIdx = -1;
     this._ytShadowSentenceCount = 1;
     this._ytSentences = [];
+    this._ytSavedWords = new Set();
+    this._ytFlashTargetLine = -1;
     this._ytShadowSpeed = 1;
     this._ytShadowLastActionTime = 0;
     this._ytSourceLang = 'en';
@@ -1636,6 +1638,8 @@ class App {
     try {
       const allWords = await window.electronAPI.dictionaryLoad();
       const videoWords = (allWords || []).filter(w => w.youtubeUrl === src.youtubeUrl);
+      this._ytSavedWords = new Set(videoWords.map(w => (w.word || '').toLowerCase()));
+      this._markYtSavedWords();
       if (videoWords.length === 0) {
         listEl.innerHTML = '<div class="yt-word-empty">No saved words yet.<br>Double-click a word in subtitles to translate and save it.</div>';
         return;
@@ -1657,6 +1661,29 @@ class App {
           if (this._ytPlayer && typeof this._ytPlayer.seekTo === 'function' && ts > 0) {
             this._ytPlayer.seekTo(Math.max(0, ts - 4), true);
             this._ytPlayer.playVideo();
+            this._ytFlashTargetLine = -1;
+            const lines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line');
+            let best = -1;
+            let bestDiff = Infinity;
+            for (let i = 0; i < lines.length; i++) {
+              const start = parseFloat(lines[i].dataset.start);
+              if (Math.floor(start) === ts) {
+                this._ytFlashTargetLine = i;
+                break;
+              }
+              const diff = Math.abs(start - ts);
+              if (diff < bestDiff) {
+                bestDiff = diff;
+                best = i;
+              }
+            }
+            if (this._ytFlashTargetLine === -1) this._ytFlashTargetLine = best;
+            const targetLine = this._ytFlashTargetLine >= 0
+              ? document.querySelector('#readYoutubeSubtitles .yt-sub-line[data-index="' + this._ytFlashTargetLine + '"]')
+              : null;
+            if (targetLine) {
+              targetLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
           }
         });
       });
@@ -1812,6 +1839,36 @@ class App {
       })
       .join('');
     this.translationPopup.bindToContainer(subEl, sourceInfo);
+    this._markYtSavedWords();
+  }
+
+  _markYtSavedWords() {
+    if (!this._ytSavedWords || this._ytSavedWords.size === 0) return;
+    const words = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line .rw-word');
+    words.forEach((el) => {
+      const w = (el.dataset.word || '').toLowerCase();
+      el.classList.toggle('yt-word-saved', this._ytSavedWords.has(w));
+    });
+  }
+
+  _flashYtSavedWords(lineIndex) {
+    if (!this._ytSavedWords || this._ytSavedWords.size === 0) return;
+    const line = document.querySelector('#readYoutubeSubtitles .yt-sub-line[data-index="' + lineIndex + '"]');
+    if (!line) return;
+    const words = line.querySelectorAll('.rw-word.yt-word-saved');
+    words.forEach((el) => {
+      el.classList.remove('yt-word-flash');
+      void el.offsetWidth;
+      el.classList.add('yt-word-flash');
+    });
+  }
+
+  _isYtLineReadable(line) {
+    const container = document.getElementById('readYoutubeSubtitles');
+    if (!container || !line) return false;
+    const cRect = container.getBoundingClientRect();
+    const lRect = line.getBoundingClientRect();
+    return lRect.top >= cRect.top && lRect.bottom <= cRect.bottom;
   }
 
   _startYoutubeSync() {
@@ -1847,6 +1904,14 @@ class App {
         }
         if (idx >= 0 && subLines[idx]) {
           subLines[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+
+      if (this._ytFlashTargetLine >= 0) {
+        const tLine = document.querySelector('#readYoutubeSubtitles .yt-sub-line[data-index="' + this._ytFlashTargetLine + '"]');
+        if (tLine && this._isYtLineReadable(tLine)) {
+          this._flashYtSavedWords(this._ytFlashTargetLine);
+          this._ytFlashTargetLine = -1;
         }
       }
 
@@ -1994,6 +2059,8 @@ class App {
     }
     this._ytCaptions = [];
     this._ytSentences = [];
+    this._ytSavedWords = new Set();
+    this._ytFlashTargetLine = -1;
     this._ytCurrentLineIndex = -1;
     this._ytShadowStop();
     if (this._ytPlayer) {

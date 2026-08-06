@@ -3159,6 +3159,17 @@ body {
   background: rgba(100, 120, 255, 0.08);
 }
 
+.yt-sub-line .rw-word.yt-word-flash {
+  animation: ytWordFlash 2s ease-in-out forwards;
+}
+
+@keyframes ytWordFlash {
+  0% { background-color: rgba(51, 102, 255, 0); }
+  25% { background-color: #3366ff; }
+  75% { background-color: #3366ff; }
+  100% { background-color: rgba(51, 102, 255, 0); }
+}
+
 /* YouTube Shadowing Controls */
 .yt-shadow-settings {
   position: relative;
