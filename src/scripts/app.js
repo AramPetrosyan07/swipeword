@@ -25,7 +25,6 @@ class App {
     this._ytPositionTimer = null;
     this._ytShadowActive = false;
     this._ytShadowSentenceIdx = -1;
-    this._ytShadowSentencesLeft = 0;
     this._ytShadowSentenceCount = 3;
     this._ytSentences = [];
     this._ytShadowSpeed = 1;
@@ -1269,8 +1268,8 @@ class App {
       this._resetReadPage();
     });
 
-    document.getElementById('btnYtRepeat').addEventListener('click', () => {
-      this._ytShadowRepeat();
+    document.getElementById('btnYtPrev').addEventListener('click', () => {
+      this._ytShadowPrev();
     });
     document.getElementById('btnYtNext').addEventListener('click', () => {
       this._ytShadowNext();
@@ -1923,7 +1922,6 @@ class App {
     if (!this._ytSentences || !this._ytSentences.length) return;
     const idx = this._findYtSentenceAtTime(this._ytPlayer.getCurrentTime());
     if (idx < 0) return;
-    this._ytShadowSentencesLeft = this._ytShadowSentenceCount === 0 ? -1 : this._ytShadowSentenceCount;
     this._ytShadowStartSentence(idx);
   }
 
@@ -1940,12 +1938,14 @@ class App {
     this._updateYtShadowUI();
   }
 
-  _ytShadowRepeat() {
-    if (this._ytShadowSentenceIdx >= 0) {
-      this._ytShadowStartSentence(this._ytShadowSentenceIdx);
+  _ytShadowPrev() {
+    if (!this._ytSentences || !this._ytSentences.length) return;
+    const prevIdx = this._ytShadowSentenceIdx - 1;
+    if (prevIdx < 0) {
+      this._ytShadowStartSentence(this._ytSentences.length - 1);
       return;
     }
-    this._ytShadowStart();
+    this._ytShadowStartSentence(prevIdx);
   }
 
   _ytShadowNext() {
@@ -1955,20 +1955,12 @@ class App {
       this._ytShadowStop();
       return;
     }
-    if (this._ytShadowSentencesLeft > 0) {
-      this._ytShadowSentencesLeft--;
-      if (this._ytShadowSentencesLeft <= 0) {
-        this._ytShadowStop();
-        return;
-      }
-    }
     this._ytShadowStartSentence(nextIdx);
   }
 
   _ytShadowStop() {
     this._ytShadowActive = false;
     this._ytShadowSentenceIdx = -1;
-    this._ytShadowSentencesLeft = 0;
     const subLines = document.querySelectorAll('#readYoutubeSubtitles .yt-sub-line.yt-sub-practicing');
     subLines.forEach((el) => el.classList.remove('yt-sub-practicing'));
     this._updateYtShadowUI();
@@ -1977,10 +1969,10 @@ class App {
   _updateYtShadowUI() {
     const on = !!this._ytShadowActive;
     const toggle = document.getElementById('btnYtShadowToggle');
-    const repeatBtn = document.getElementById('btnYtRepeat');
+    const prevBtn = document.getElementById('btnYtPrev');
     const nextBtn = document.getElementById('btnYtNext');
     if (toggle) toggle.classList.toggle('active', on);
-    if (repeatBtn) repeatBtn.style.display = on ? '' : 'none';
+    if (prevBtn) prevBtn.style.display = on ? '' : 'none';
     if (nextBtn) nextBtn.style.display = on ? '' : 'none';
   }
 
