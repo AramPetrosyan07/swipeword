@@ -2364,8 +2364,7 @@ class App {
     dropzone.querySelector('.read-dropzone-text').textContent = 'Drop PDF here or click to browse';
     document.getElementById('readPdfFileInput').value = '';
     document.getElementById('btnReadPdf').disabled = true;
-    const pdfPage = document.getElementById('read-page-pdf');
-    pdfPage.querySelector('.read-page-input').style.display = '';
+    this._pdfSyncDropzone();
     document.getElementById('readCollapsedBarPdf').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('pdfViewer').style.display = '';
