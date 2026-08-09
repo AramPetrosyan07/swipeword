@@ -809,6 +809,7 @@
         </div>
         <span class="reader-title" id="readerTitle">Read</span>
         <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
+        <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
         <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
       </div>
 
@@ -908,33 +909,12 @@
           <span class="read-collapsed-label" id="readCollapsedLabelYoutube"></span>
           <button class="btn btn-secondary btn-sm" id="btnReadNewYoutube">&#8592; New</button>
         </div>
-        <div class="yt-lang-bar" id="ytLangBar" style="display:none;">
+        <div class="yt-lang-bar yt-lang-collapsed" id="ytLangBar">
+          <div class="yt-lang-bar-inner">
           <div class="yt-shadow-settings" id="ytShadowSettings">
             <button class="yt-shadow-action-btn" id="btnYtPrev" style="display:none;" title="Play the previous sentence">&#9198; Prev</button>
             <button class="yt-shadow-action-btn" id="btnYtNext" style="display:none;" title="Play the next sentence">&#9197; Next</button>
             <button class="yt-shadow-gear-btn" id="btnYtShadowSettings" title="Shadowing settings">Shad</button>
-            <div class="yt-shadow-dropdown" id="ytShadowDropdown" style="display:none;">
-              <div class="yt-shadow-title">Shadowing</div>
-              <button class="yt-shadow-toggle" id="btnYtShadowToggle">
-                <span id="ytShadowToggleText">Shadow</span>
-              </button>
-              <div class="yt-shadow-title">Sentences to listen</div>
-              <select id="ytShadowRepeatCount" class="yt-shadow-select">
-                <option value="1" selected>1 sentence</option>
-                <option value="2">2 sentences</option>
-                <option value="3">3 sentences</option>
-                <option value="5">5 sentences</option>
-                <option value="0">Infinite</option>
-              </select>
-              <div class="yt-shadow-title">Playback speed</div>
-              <select id="ytShadowSpeed" class="yt-shadow-select">
-                <option value="0.5">0.5x</option>
-                <option value="0.75">0.75x</option>
-                <option value="1" selected>1x</option>
-                <option value="1.25">1.25x</option>
-                <option value="1.5">1.5x</option>
-              </select>
-            </div>
           </div>
           <span class="yt-lang-source-label">From: <strong id="ytLangSourceText">English</strong></span>
           <div class="yt-lang-selects">
@@ -1070,13 +1050,36 @@
           </div>
           <div class="yt-voice-dropdown" id="ytVoiceDropdown">
             <button class="yt-voice-btn" id="btnYtVoice" title="Choose who pronounces the translated word">&#128266; <span id="ytVoiceLabel">Andrew</span> &#9662;</button>
-            <div class="yt-voice-menu" id="ytVoiceMenu" style="display:none;">
-              <div class="yt-voice-title">Who speaks the word?</div>
-              <button class="yt-voice-option" data-voice="0">Andrew</button>
-              <button class="yt-voice-option" data-voice="1">Brian</button>
-              <button class="yt-voice-option" data-voice="2">Emma</button>
-              <button class="yt-voice-option" data-voice="3">Ava</button>
-            </div>
+          </div>
+          </div>
+          <div class="yt-shadow-dropdown" id="ytShadowDropdown" style="display:none;">
+            <div class="yt-shadow-title">Shadowing</div>
+            <button class="yt-shadow-toggle" id="btnYtShadowToggle">
+              <span id="ytShadowToggleText">Shadow</span>
+            </button>
+            <div class="yt-shadow-title">Sentences to listen</div>
+            <select id="ytShadowRepeatCount" class="yt-shadow-select">
+              <option value="1" selected>1 sentence</option>
+              <option value="2">2 sentences</option>
+              <option value="3">3 sentences</option>
+              <option value="5">5 sentences</option>
+              <option value="0">Infinite</option>
+            </select>
+            <div class="yt-shadow-title">Playback speed</div>
+            <select id="ytShadowSpeed" class="yt-shadow-select">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+            </select>
+          </div>
+          <div class="yt-voice-menu" id="ytVoiceMenu" style="display:none;">
+            <div class="yt-voice-title">Who speaks the word?</div>
+            <button class="yt-voice-option" data-voice="0">Andrew</button>
+            <button class="yt-voice-option" data-voice="1">Brian</button>
+            <button class="yt-voice-option" data-voice="2">Emma</button>
+            <button class="yt-voice-option" data-voice="3">Ava</button>
           </div>
         </div>
         <div class="read-youtube-area" id="readYoutubeArea" style="display:none;">

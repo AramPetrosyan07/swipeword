@@ -2404,6 +2404,11 @@ body {
   max-width: 60px;
 }
 
+#btnReaderLangBarToggle {
+  font-size: 13px;
+  padding: 4px 6px;
+}
+
 /* Translate popup */
 .reader-translate-popup {
   position: fixed;
@@ -2961,16 +2966,28 @@ body {
 
 /* YouTube Language Bar */
 .yt-lang-bar {
+  flex-shrink: 0;
+  position: relative;
+}
+
+.yt-lang-bar.yt-lang-collapsed .yt-shadow-dropdown,
+.yt-lang-bar.yt-lang-collapsed .yt-voice-menu {
+  display: none !important;
+}
+
+.yt-lang-bar-inner {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 8px 20px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
-  flex-shrink: 0;
   gap: 12px;
   flex-wrap: wrap;
-  position: relative;
+}
+
+.yt-lang-bar.yt-lang-collapsed .yt-lang-bar-inner {
+  display: none;
 }
 
 .yt-lang-source-label {

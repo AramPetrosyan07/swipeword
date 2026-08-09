@@ -1275,6 +1275,13 @@ class App {
     document.getElementById('btnReadNewToolbar').addEventListener('click', () => {
       this._resetReadPage();
     });
+    document.getElementById('btnReaderLangBarToggle').addEventListener('click', () => {
+      const bar = document.getElementById('ytLangBar');
+      const btn = document.getElementById('btnReaderLangBarToggle');
+      const collapsed = bar.classList.toggle('yt-lang-collapsed');
+      btn.innerHTML = collapsed ? '&#9660;' : '&#9650;';
+      btn.title = collapsed ? 'Show settings bar' : 'Hide settings bar';
+    });
 
     document.getElementById('btnYtPrev').addEventListener('click', () => {
       this._ytShadowPrev();
@@ -1766,8 +1773,11 @@ class App {
       document.getElementById('readCollapsedBarYoutube').style.display = 'none';
       document.getElementById('readerTitle').textContent = title;
       document.getElementById('btnReadNewToolbar').style.display = '';
+      document.getElementById('btnReaderLangBarToggle').style.display = '';
       document.getElementById('readYoutubeArea').style.display = 'flex';
-      document.getElementById('ytLangBar').style.display = 'flex';
+      document.getElementById('ytLangBar').classList.remove('yt-lang-collapsed');
+      document.getElementById('btnReaderLangBarToggle').innerHTML = '&#9650;';
+      document.getElementById('btnReaderLangBarToggle').title = 'Hide settings bar';
       this._applyLangPrefsToUI();
       const ytPlayerEl = document.getElementById('readYoutubePlayer');
       ytPlayerEl.style.height = '45%';
@@ -2168,8 +2178,11 @@ class App {
     ytPage.querySelector('.read-page-input').style.display = '';
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('btnReadNewToolbar').style.display = 'none';
+    document.getElementById('btnReaderLangBarToggle').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
-    document.getElementById('ytLangBar').style.display = 'none';
+    document.getElementById('ytLangBar').classList.add('yt-lang-collapsed');
+    document.getElementById('btnReaderLangBarToggle').innerHTML = '&#9650;';
+    document.getElementById('btnReaderLangBarToggle').title = 'Hide settings bar';
     document.getElementById('readYoutubePlayer').innerHTML = '';
     document.getElementById('readYoutubePlayer').style.height = '45%';
     document.getElementById('readYoutubeSubtitles').innerHTML = '';
