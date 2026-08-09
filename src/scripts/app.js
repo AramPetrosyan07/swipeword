@@ -2147,7 +2147,7 @@ class App {
     document.querySelectorAll('#ytVoiceMenu .yt-voice-option').forEach((opt) => {
       const v = parseInt(opt.dataset.voice, 10);
       opt.classList.toggle('active', v === voice);
-      if (v === voice && labelEl) labelEl.innerHTML = opt.dataset.icon || '&#128100;';
+      if (v === voice && labelEl) labelEl.textContent = opt.textContent;
     });
   }
 
