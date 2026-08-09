@@ -1269,6 +1269,9 @@ class App {
     document.getElementById('btnReadNewYoutube').addEventListener('click', () => {
       this._resetReadPage();
     });
+    document.getElementById('btnReadNewToolbar').addEventListener('click', () => {
+      this._resetReadPage();
+    });
 
     document.getElementById('btnYtPrev').addEventListener('click', () => {
       this._ytShadowPrev();
@@ -1734,8 +1737,9 @@ class App {
 
     if (sourceType === 'youtube' && videoId) {
       document.getElementById('read-page-youtube').querySelector('.read-page-input').style.display = 'none';
-      document.getElementById('readCollapsedBarYoutube').style.display = 'flex';
-      document.getElementById('readCollapsedLabelYoutube').textContent = title;
+      document.getElementById('readCollapsedBarYoutube').style.display = 'none';
+      document.getElementById('readerTitle').textContent = title;
+      document.getElementById('btnReadNewToolbar').style.display = '';
       document.getElementById('readYoutubeArea').style.display = 'flex';
       document.getElementById('ytLangBar').style.display = 'flex';
       this._applyLangPrefsToUI();
@@ -2117,6 +2121,7 @@ class App {
     const ytPage = document.getElementById('read-page-youtube');
     ytPage.querySelector('.read-page-input').style.display = '';
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
+    document.getElementById('btnReadNewToolbar').style.display = 'none';
     document.getElementById('readYoutubeArea').style.display = 'none';
     document.getElementById('ytLangBar').style.display = 'none';
     document.getElementById('readYoutubePlayer').innerHTML = '';
@@ -2147,6 +2152,8 @@ class App {
     document.getElementById('readTextViewPdf').innerHTML = '';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';
+    const resetTitles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
+    document.getElementById('readerTitle').textContent = resetTitles[this._readCurrentPage] || 'Read';
   }
 }
 
