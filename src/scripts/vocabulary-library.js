@@ -371,6 +371,7 @@ class VocabularyLibrary {
     const position = meta.lastPosition || 0;
 
     app._switchAppMode('read');
+    app._openReadPage('youtube');
     setTimeout(() => {
       const input = document.getElementById('readYoutubeInput');
       input.value = youtubeUrl;
