@@ -2425,6 +2425,14 @@ body {
   font-size: 14px;
 }
 
+.reader-translate-popup:not(.yt-mode) {
+  width: max-content;
+  min-width: 0;
+  max-width: 90vw;
+  max-height: calc(100vh - 20px);
+  overflow-y: auto;
+}
+
 .reader-translate-popup.yt-mode {
   position: absolute;
   top: 50%;
