@@ -142,33 +142,116 @@ class ReaderMode {
     }
   }
 
+  _getMeasureCtx() {
+    if (!this._measureCtx) {
+      const canvas = document.createElement('canvas');
+      canvas.width = 100;
+      canvas.height = 100;
+      this._measureCtx = canvas.getContext('2d', { alpha: false });
+    }
+    return this._measureCtx;
+  }
+
   _splitTextIntoWords(container) {
     container.querySelectorAll('br').forEach((br) => br.remove());
     const textDivs = container.querySelectorAll('span[role="presentation"]');
     for (const div of textDivs) {
       const text = div.textContent;
       if (!text) continue;
+      if (div.dir === 'rtl' || /rotate\(/.test(div.style.transform || '')) {
+        this._splitDivInline(div, text);
+        continue;
+      }
+      const cs = getComputedStyle(div);
+      const fontSize = parseFloat(cs.fontSize);
+      const family = cs.fontFamily;
+      if (!isFinite(fontSize) || fontSize <= 0 || !family) {
+        this._splitDivInline(div, text);
+        continue;
+      }
+      const ctx = this._getMeasureCtx();
+      ctx.font = `${fontSize}px ${family}`;
+      let m0;
+      try {
+        m0 = ctx.measureText('');
+      } catch (e) {
+        this._splitDivInline(div, text);
+        continue;
+      }
+      const asc0 = m0.fontBoundingBoxAscent || 0;
+      const desc0 = Math.abs(m0.fontBoundingBoxDescent) || 0;
+      if (asc0 + desc0 <= 0) {
+        this._splitDivInline(div, text);
+        continue;
+      }
+      const baseline = (fontSize * asc0) / (asc0 + desc0);
+      let cursor = 0;
       const frag = document.createDocumentFragment();
-      const re = /\S+/g;
-      let lastIndex = 0;
-      let m;
-      while ((m = re.exec(text)) !== null) {
-        if (m.index > lastIndex) {
-          frag.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+      for (const token of text.split(/(\s+)/)) {
+        if (token === '') continue;
+        let m;
+        try {
+          m = ctx.measureText(token);
+        } catch (e) {
+          m = null;
         }
+        if (!m) {
+          this._splitDivInline(div, text);
+          cursor = -1;
+          break;
+        }
+        const width = m.width || 0;
+        if (/^\s+$/.test(token)) {
+          cursor += width;
+          continue;
+        }
+        let ba = m.actualBoundingBoxAscent;
+        let bd = m.actualBoundingBoxDescent;
+        if (typeof ba !== 'number' || typeof bd !== 'number' || !(ba + Math.abs(bd) > 0)) {
+          this._splitDivInline(div, text);
+          cursor = -1;
+          break;
+        }
+        bd = Math.abs(bd);
         const span = document.createElement('span');
         span.className = 'rw-word';
-        span.dataset.word = m[0];
-        span.textContent = m[0];
+        span.dataset.word = token;
+        span.textContent = token;
+        span.style.position = 'absolute';
+        span.style.left = cursor + 'px';
+        span.style.top = (baseline - ba) + 'px';
+        span.style.width = width + 'px';
+        span.style.height = (ba + bd) + 'px';
         frag.appendChild(span);
-        lastIndex = m.index + m[0].length;
+        cursor += width;
       }
-      if (lastIndex < text.length) {
-        frag.appendChild(document.createTextNode(text.slice(lastIndex)));
-      }
+      if (cursor < 0) continue;
       div.textContent = '';
       div.appendChild(frag);
     }
+  }
+
+  _splitDivInline(div, text) {
+    const frag = document.createDocumentFragment();
+    const re = /\S+/g;
+    let lastIndex = 0;
+    let m;
+    while ((m = re.exec(text)) !== null) {
+      if (m.index > lastIndex) {
+        frag.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+      }
+      const span = document.createElement('span');
+      span.className = 'rw-word';
+      span.dataset.word = m[0];
+      span.textContent = m[0];
+      frag.appendChild(span);
+      lastIndex = m.index + m[0].length;
+    }
+    if (lastIndex < text.length) {
+      frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+    div.textContent = '';
+    div.appendChild(frag);
   }
 
   getPageText(num) {

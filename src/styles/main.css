@@ -2930,25 +2930,25 @@ body {
 
 .pdf-scroll-layer .rw-word {
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 0;
   margin: 0;
   border: none;
   background: transparent;
   color: transparent;
-  transition: none;
+  transition: background 0.12s ease;
   box-sizing: border-box;
 }
 
 .pdf-scroll-layer .rw-word:hover {
-  background: rgba(108, 99, 255, 0.25);
-  border-radius: 2px;
+  background: rgba(108, 99, 255, 0.22);
+  border-radius: 3px;
   text-decoration: none;
 }
 
 .pdf-scroll-layer .rw-word.selected {
-  background: rgba(108, 99, 255, 0.45);
-  border-radius: 2px;
+  background: rgba(108, 99, 255, 0.42);
+  border-radius: 3px;
 }
 
 .pdf-viewer-controls {
