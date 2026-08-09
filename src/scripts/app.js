@@ -489,18 +489,6 @@ class App {
               e.preventDefault();
               readerMode.nextPage();
               break;
-            case 'ArrowUp':
-              if (!readerMode.isScrollMode()) {
-                e.preventDefault();
-                readerMode.prevPage();
-              }
-              break;
-            case 'ArrowDown':
-              if (!readerMode.isScrollMode()) {
-                e.preventDefault();
-                readerMode.nextPage();
-              }
-              break;
           }
         }
       } else if (activeScreen.id === 'screen-selftest' && selfTest.isActive && !selfTest.isAnimating) {
@@ -1289,9 +1277,6 @@ class App {
     document.getElementById('pdfViewerScroll').addEventListener('scroll', () => {
       readerMode.onScroll();
     });
-    document.getElementById('pdfModeToggle').addEventListener('click', () => {
-      readerMode.toggleMode();
-    });
 
     document.getElementById('btnReadYoutube').addEventListener('click', () => {
       this._loadYoutubeContent();
@@ -1456,7 +1441,6 @@ class App {
   }
 
   _bindPdfLayers(sourceInfo) {
-    this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
     const layers = document.querySelectorAll('#pdfPages .pdf-scroll-layer');
     layers.forEach((layer) => {
       this.translationPopup.bindToContainer(layer, sourceInfo);
@@ -2398,10 +2382,6 @@ class App {
     document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('pdfViewer').style.display = '';
     document.getElementById('readerLangBar').style.display = 'none';
-    document.getElementById('pdfText').innerHTML = '';
-    const tl = document.getElementById('pdfTextLayer');
-    if (tl) { tl.innerHTML = ''; tl.style.display = ''; }
-    document.getElementById('pdfText').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';

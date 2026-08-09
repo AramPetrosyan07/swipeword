@@ -2889,13 +2889,6 @@ body {
   display: none;
 }
 
-.pdf-viewer-page {
-  position: relative;
-  margin: 0 auto;
-  width: fit-content;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
 .pdf-pages {
   display: flex;
   flex-direction: column;
@@ -2917,7 +2910,6 @@ body {
   display: block;
 }
 
-.pdf-text-layer,
 .pdf-scroll-layer {
   position: absolute;
   inset: 0;
@@ -2928,7 +2920,6 @@ body {
   color: transparent;
 }
 
-.pdf-text-layer .rw-word,
 .pdf-scroll-layer .rw-word {
   cursor: pointer;
   border-radius: 2px;
@@ -2941,48 +2932,15 @@ body {
   box-sizing: border-box;
 }
 
-.pdf-text-layer .rw-word:hover,
 .pdf-scroll-layer .rw-word:hover {
   background: rgba(108, 99, 255, 0.25);
   border-radius: 2px;
   text-decoration: none;
 }
 
-.pdf-text-layer .rw-word.selected,
 .pdf-scroll-layer .rw-word.selected {
   background: rgba(108, 99, 255, 0.45);
   border-radius: 2px;
-}
-
-.pdf-text {
-  max-width: 800px;
-  margin: 24px auto 0;
-  font-size: 17px;
-  line-height: 1.8;
-  color: var(--text);
-  user-select: text;
-  -webkit-user-select: text;
-}
-
-.pdf-text .rw-word {
-  cursor: pointer;
-  border-bottom: 1px dashed var(--text-tertiary);
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.pdf-text .rw-word:hover {
-  background: rgba(108, 99, 255, 0.08);
-  border-bottom-color: var(--primary);
-}
-
-.pdf-text .rw-word.selected {
-  background: rgba(108, 99, 255, 0.2);
-  border-bottom-color: var(--primary);
-  border-bottom-style: solid;
-}
-
-.pdf-text p {
-  margin: 0 0 0.5em 0;
 }
 
 .pdf-viewer-controls {

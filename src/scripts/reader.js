@@ -4,7 +4,6 @@ class ReaderMode {
     this.pageNum = 1;
     this.pageCount = 0;
     this.scale = 1;
-    this.mode = 'scroll';
     this.rendered = new Set();
     this.slots = [];
     this._pageOffsets = [];
@@ -21,44 +20,12 @@ class ReaderMode {
     this.scale = 1;
     await this._fitWidth();
     await this._buildScrollSlots();
-    this._applyMode();
-  }
-
-  isScrollMode() {
-    return this.mode === 'scroll';
-  }
-
-  async toggleMode() {
-    this.mode = this.mode === 'scroll' ? 'page' : 'scroll';
-    this._applyMode();
-  }
-
-  _applyMode() {
+    const pagesEl = document.getElementById('pdfPages');
+    if (pagesEl) pagesEl.style.display = 'flex';
+    this._buildPageOffsets();
     const scrollContainer = document.getElementById('pdfViewerScroll');
-    const pageModeEl = document.getElementById('pdfViewerPage');
-    const scrollModeEl = document.getElementById('pdfPages');
-    const toggleBtn = document.getElementById('pdfModeToggle');
-    this._generation++;
-    if (this.mode === 'scroll') {
-      if (pageModeEl) pageModeEl.style.display = 'none';
-      if (scrollModeEl) scrollModeEl.style.display = 'flex';
-      this._buildPageOffsets();
-      if (toggleBtn) {
-        toggleBtn.textContent = '\u25A0 Page';
-        toggleBtn.title = 'Switch to single page view';
-      }
-      if (scrollContainer) scrollContainer.scrollTop = 0;
-      this.onScroll(true);
-    } else {
-      if (scrollModeEl) scrollModeEl.style.display = 'none';
-      if (pageModeEl) pageModeEl.style.display = '';
-      if (toggleBtn) {
-        toggleBtn.textContent = '\u25BC Scroll';
-        toggleBtn.title = 'Switch to continuous scroll view';
-      }
-      if (scrollContainer) scrollContainer.scrollTop = 0;
-      this.renderPage(this.pageNum);
-    }
+    if (scrollContainer) scrollContainer.scrollTop = 0;
+    this.onScroll(true);
   }
 
   async _buildScrollSlots() {
@@ -109,22 +76,6 @@ class ReaderMode {
     }
   }
 
-  async renderPage(num) {
-    if (!this.pdfDoc) return;
-    this.pageNum = num;
-    const canvas = document.getElementById('pdfViewerCanvas');
-    const layerEl = document.getElementById('pdfTextLayer');
-    if (!canvas || !layerEl) return;
-    const gen = ++this._generation;
-    await this.renderPageTo(canvas, layerEl, num, gen);
-
-    document.getElementById('pdfPageNum').textContent = num;
-    document.getElementById('pdfPageCount').textContent = this.pageCount;
-    document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
-
-    document.getElementById('pdfViewerScroll').scrollTop = 0;
-  }
-
   async renderScrollPage(num) {
     if (!this.pdfDoc || num < 1 || num > this.pageCount) return;
     if (this.rendered.has(num)) return;
@@ -164,8 +115,6 @@ class ReaderMode {
     if (!layerEl) return;
     layerEl.innerHTML = '';
     layerEl.style.display = '';
-    const textEl = document.getElementById('pdfText');
-    if (textEl) { textEl.innerHTML = ''; textEl.style.display = 'none'; }
     try {
       const page = await this.pdfDoc.getPage(num);
       if (gen !== this._generation) return;
@@ -178,10 +127,6 @@ class ReaderMode {
       if (gen !== this._generation) return;
       const { items } = content;
       if (items.length === 0) {
-        if (textEl && this.mode === 'page') {
-          textEl.innerHTML = '<p style="color:var(--text-secondary);font-style:italic;font-size:14px;">No extractable text on this page.</p>';
-          textEl.style.display = '';
-        }
         layerEl.style.display = 'none';
         return;
       }
@@ -221,10 +166,6 @@ class ReaderMode {
       }
     } catch (e) {
       console.warn('Text render failed:', e);
-      if (textEl) {
-        textEl.innerHTML = '';
-        textEl.style.display = 'none';
-      }
       if (layerEl) layerEl.style.display = 'none';
     }
   }
@@ -289,7 +230,6 @@ class ReaderMode {
   }
 
   onScroll(force) {
-    if (this.mode !== 'scroll') return;
     if (this._scrollPending && !force) return;
     this._scrollPending = true;
     requestAnimationFrame(() => {
@@ -299,7 +239,6 @@ class ReaderMode {
   }
 
   _updateOnScroll() {
-    if (this.mode !== 'scroll') return;
     const container = document.getElementById('pdfViewerScroll');
     if (!container) return;
     const range = this._visiblePageRange();
@@ -350,26 +289,14 @@ class ReaderMode {
   }
 
   async prevPage() {
-    if (this.mode === 'scroll') {
-      if (this.pageNum > 1) {
-        this._scrollToPage(this.pageNum - 1);
-      }
-      return;
-    }
     if (this.pageNum > 1) {
-      await this.renderPage(this.pageNum - 1);
+      this._scrollToPage(this.pageNum - 1);
     }
   }
 
   async nextPage() {
-    if (this.mode === 'scroll') {
-      if (this.pageNum < this.pageCount) {
-        this._scrollToPage(this.pageNum + 1);
-      }
-      return;
-    }
     if (this.pageNum < this.pageCount) {
-      await this.renderPage(this.pageNum + 1);
+      this._scrollToPage(this.pageNum + 1);
     }
   }
 
@@ -383,22 +310,18 @@ class ReaderMode {
 
   async zoomBy(factor) {
     this.scale = Math.min(Math.max(this.scale * factor, 0.1), 10);
-    if (this.mode === 'scroll') {
-      const container = document.getElementById('pdfViewerScroll');
-      let anchorPage = this.pageNum;
-      let anchorOffset = 0;
-      if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
-        anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
-      }
-      await this._resizeScrollSlots();
-      this._buildPageOffsets();
-      if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
-        container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
-      }
-      this.onScroll(true);
-      return;
+    const container = document.getElementById('pdfViewerScroll');
+    let anchorPage = this.pageNum;
+    let anchorOffset = 0;
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
     }
-    await this.renderPage(this.pageNum);
+    await this._resizeScrollSlots();
+    this._buildPageOffsets();
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
+    }
+    this.onScroll(true);
   }
 
   async _resizeScrollSlots() {
@@ -446,15 +369,6 @@ class ReaderMode {
     this._pageOffsets = [];
     this._viewports = [];
     this._generation++;
-    const canvas = document.getElementById('pdfViewerCanvas');
-    if (canvas) {
-      canvas.width = 0;
-      canvas.height = 0;
-    }
-    const textEl = document.getElementById('pdfText');
-    if (textEl) { textEl.innerHTML = ''; textEl.style.display = 'none'; }
-    const layerEl = document.getElementById('pdfTextLayer');
-    if (layerEl) { layerEl.innerHTML = ''; layerEl.style.display = 'none'; }
     const pagesEl = document.getElementById('pdfPages');
     if (pagesEl) {
       pagesEl.innerHTML = '';
