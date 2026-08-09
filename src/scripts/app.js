@@ -1843,6 +1843,16 @@ class App {
       })
       .join('');
     this.translationPopup.bindToContainer(subEl, sourceInfo);
+    subEl.addEventListener('contextmenu', (e) => {
+      const lineEl = e.target.closest ? e.target.closest('.yt-sub-line') : null;
+      if (!lineEl) return;
+      e.preventDefault();
+      const ts = parseFloat(lineEl.dataset.start);
+      if (this._ytPlayer && typeof this._ytPlayer.seekTo === 'function' && !isNaN(ts)) {
+        this._ytPlayer.seekTo(Math.max(0, ts - 0.2), true);
+        this._ytPlayer.playVideo();
+      }
+    });
     this._markYtSavedWords();
   }
 
