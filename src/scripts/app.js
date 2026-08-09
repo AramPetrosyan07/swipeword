@@ -1502,7 +1502,7 @@ class App {
   }
 
   async _scanPdfLibrary() {
-    const savedFolder = localStorage.getItem('swipeword-pdf-folder');
+    const savedFolder = appStore.data && appStore.data.pdfFolder;
     if (!savedFolder) {
       this._showPdfLibraryPrompt();
       return;
@@ -1520,7 +1520,10 @@ class App {
       return;
     }
     if (!folder) return;
-    localStorage.setItem('swipeword-pdf-folder', folder);
+    if (appStore.data) {
+      appStore.data.pdfFolder = folder;
+      await appStore.save();
+    }
     this._pdfDirStack = [folder];
     await this._pdfRenderCurrent();
   }

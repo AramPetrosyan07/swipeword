@@ -116,6 +116,7 @@ class Store {
     if (!this.data.greenStars) this.data.greenStars = [];
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
+    if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
     if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
@@ -151,6 +152,7 @@ class Store {
       storyWords: [],
       notes: {},
       vocabulary: 'b2',
+      pdfFolder: null,
     };
   }
 

@@ -2910,21 +2910,16 @@ body {
   color: transparent;
 }
 
-.pdf-text-layer > span {
-  position: absolute;
-  white-space: pre;
-  transform-origin: 0% 0%;
-}
-
 .pdf-text-layer .rw-word {
   cursor: pointer;
   border-radius: 2px;
-  padding: 0 1px;
+  padding: 0;
   margin: 0;
   border: none;
   background: transparent;
   color: transparent;
   transition: none;
+  box-sizing: border-box;
 }
 
 .pdf-text-layer .rw-word:hover {
