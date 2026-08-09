@@ -851,20 +851,24 @@
 
       <!-- Sub-page: PDF -->
       <div class="read-page" id="read-page-pdf">
-        <div class="pdf-library" id="pdfLibrary">
-          <div class="pdf-library-header">
-            <span class="pdf-library-icon">&#128218;</span>
-            <span>PDF Library</span>
+          <div class="pdf-library" id="pdfLibrary">
+            <div class="pdf-library-header">
+              <span class="pdf-library-title">
+                <span class="pdf-library-icon">&#128218;</span>
+                <span>PDF Library</span>
+              </span>
+              <button class="btn btn-secondary btn-sm" id="btnPdfChooseFolder" title="Choose a folder to browse">&#128193; Choose Folder</button>
+            </div>
+            <div class="pdf-library-breadcrumb" id="pdfBreadcrumb" style="display:none;"></div>
+            <div class="pdf-library-list" id="pdfLibraryList"></div>
+            <div class="pdf-library-empty" id="pdfLibraryEmpty" style="display:none;">
+              This folder is empty.
+            </div>
+            <div class="pdf-library-nofolder" id="pdfLibraryNoFolder" style="display:none;">
+              No folder selected. Click &quot;Choose Folder&quot; to pick one.
+            </div>
+            <div class="pdf-library-loading" id="pdfLibraryLoading">Scanning...</div>
           </div>
-          <div class="pdf-library-list" id="pdfLibraryList"></div>
-          <div class="pdf-library-empty" id="pdfLibraryEmpty" style="display:none;">
-            No PDFs found in your Documents/swipeword folder.
-          </div>
-          <div class="pdf-library-nofolder" id="pdfLibraryNoFolder" style="display:none;">
-            The swipeword folder does not exist.
-          </div>
-          <div class="pdf-library-loading" id="pdfLibraryLoading">Scanning...</div>
-        </div>
         <div class="read-page-input">
           <div class="read-dropzone" id="readPdfDropzone">
             <span class="read-dropzone-icon">&#128228;</span>

@@ -258,6 +258,15 @@ ipcMain.handle("dialog:openPDF", async () => {
   return { fileName, filePath };
 });
 
+ipcMain.handle("dialog:openDirectory", async () => {
+  const result = await dialog.showOpenDialog(mainWindow, {
+    title: "Choose a folder",
+    properties: ["openDirectory", "createDirectory"],
+  });
+  if (result.canceled || result.filePaths.length === 0) return null;
+  return result.filePaths[0];
+});
+
 ipcMain.handle("file:read", async (_event, filePath) => {
   try {
     const buffer = fs.readFileSync(filePath);

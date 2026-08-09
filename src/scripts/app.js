@@ -44,6 +44,12 @@ class App {
     this._pdfWordCount = 3;
     this._loadReaderLangPrefs();
 
+    this._pdfDirStack = [];
+    this._pdfThumbCache = new Map();
+    this._pdfThumbQueue = [];
+    this._pdfThumbActive = 0;
+    this._pdfThumbMaxConcurrent = 3;
+
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
       if (this._readSourceInfo && this._readSourceInfo.type === 'youtube') {
@@ -1251,6 +1257,9 @@ class App {
     document.getElementById('btnReadNewPdf').addEventListener('click', () => {
       this._resetReadPage();
     });
+    document.getElementById('btnPdfChooseFolder').addEventListener('click', () => {
+      this._pdfChooseFolder();
+    });
 
     document.getElementById('pdfPrevPage').addEventListener('click', () => {
       readerMode.prevPage();
@@ -1493,68 +1502,225 @@ class App {
   }
 
   async _scanPdfLibrary() {
+    const savedFolder = localStorage.getItem('swipeword-pdf-folder');
+    if (!savedFolder) {
+      this._showPdfLibraryPrompt();
+      return;
+    }
+    this._pdfDirStack = [savedFolder];
+    await this._pdfRenderCurrent();
+  }
+
+  async _pdfChooseFolder() {
+    let folder;
+    try {
+      folder = await window.electronAPI.chooseFolder();
+    } catch (e) {
+      console.error('Folder picker failed:', e);
+      return;
+    }
+    if (!folder) return;
+    localStorage.setItem('swipeword-pdf-folder', folder);
+    this._pdfDirStack = [folder];
+    await this._pdfRenderCurrent();
+  }
+
+  _showPdfLibraryPrompt() {
     const listEl = document.getElementById('pdfLibraryList');
     const emptyEl = document.getElementById('pdfLibraryEmpty');
     const noFolderEl = document.getElementById('pdfLibraryNoFolder');
     const loadingEl = document.getElementById('pdfLibraryLoading');
+    const breadcrumbEl = document.getElementById('pdfBreadcrumb');
+    listEl.innerHTML = '';
+    emptyEl.style.display = 'none';
+    noFolderEl.style.display = '';
+    loadingEl.style.display = 'none';
+    breadcrumbEl.style.display = 'none';
+    this._pdfSyncDropzone();
+  }
+
+  _pdfSyncDropzone() {
+    const input = document.getElementById('read-page-pdf').querySelector('.read-page-input');
+    input.style.display = this._pdfDirStack.length ? 'none' : '';
+  }
+
+  async _pdfRenderCurrent() {
+    const listEl = document.getElementById('pdfLibraryList');
+    const emptyEl = document.getElementById('pdfLibraryEmpty');
+    const noFolderEl = document.getElementById('pdfLibraryNoFolder');
+    const loadingEl = document.getElementById('pdfLibraryLoading');
+    const breadcrumbEl = document.getElementById('pdfBreadcrumb');
+
     listEl.innerHTML = '';
     emptyEl.style.display = 'none';
     noFolderEl.style.display = 'none';
     loadingEl.style.display = '';
 
-    let folderPath;
-    try {
-      folderPath = await window.electronAPI.getHomeDir();
-    } catch (e) {
-      folderPath = '';
-    }
-    if (!folderPath) {
-      loadingEl.style.display = 'none';
-      noFolderEl.style.display = '';
-      return;
-    }
-    folderPath = folderPath + '\\swipeword';
+    const currentPath = this._pdfDirStack[this._pdfDirStack.length - 1];
+
+    this._pdfRenderBreadcrumb(breadcrumbEl);
 
     let items;
     try {
-      items = await window.electronAPI.readDir(folderPath);
+      items = await window.electronAPI.readDir(currentPath);
     } catch (e) {
-      loadingEl.style.display = 'none';
-      noFolderEl.style.display = '';
-      return;
+      items = null;
     }
     loadingEl.style.display = 'none';
 
-    if (!items || items.length === 0) {
-      emptyEl.style.display = '';
+    if (!items) {
+      noFolderEl.textContent = 'Folder not found. Choose another one.';
+      noFolderEl.style.display = '';
       return;
     }
 
-    const pdfs = items.filter((item) => !item.isDirectory && item.name.toLowerCase().endsWith('.pdf'));
-    if (pdfs.length === 0) {
+    if (items.length === 0) {
       emptyEl.style.display = '';
+      this._pdfSyncDropzone();
       return;
     }
 
-    pdfs.forEach((pdf) => {
-      const item = document.createElement('div');
-      item.className = 'pdf-library-item';
-      const size = pdf.size > 1024 * 1024
-        ? (pdf.size / 1024 / 1024).toFixed(1) + ' MB'
-        : (pdf.size / 1024).toFixed(0) + ' KB';
-      item.innerHTML =
-        '<span class="pdf-library-item-icon">&#128196;</span>' +
-        '<span class="pdf-library-item-name">' + this._escapeHtml(pdf.name.replace(/\.pdf$/i, '')) + '</span>' +
-        '<span class="pdf-library-item-size">' + size + '</span>';
-      item.addEventListener('click', () => {
-        const path = pdf.path;
-        this._resetReadPage();
-        this._readPdfPath = path;
-        document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
-        this._loadPdfContent();
-      });
-      listEl.appendChild(item);
+    items.forEach((entry) => this._pdfRenderItem(listEl, entry));
+    this._pdfSyncDropzone();
+  }
+
+  _pdfRenderBreadcrumb(breadcrumbEl) {
+    breadcrumbEl.innerHTML = '';
+    if (this._pdfDirStack.length === 0) {
+      breadcrumbEl.style.display = 'none';
+      return;
+    }
+    breadcrumbEl.style.display = '';
+    this._pdfDirStack.forEach((path, idx) => {
+      const isLast = idx === this._pdfDirStack.length - 1;
+      const label = idx === 0
+        ? (path.replace(/[/\\]+$/, '').split(/[/\\]/).pop() || path)
+        : (path.replace(/[/\\]+$/, '').split(/[/\\]/).pop() || path);
+      if (idx > 0) {
+        const sep = document.createElement('span');
+        sep.className = 'pdf-library-crumb-sep';
+        sep.textContent = '\u203A';
+        breadcrumbEl.appendChild(sep);
+      }
+      const crumb = document.createElement('span');
+      crumb.className = 'pdf-library-crumb' + (isLast ? ' current' : '');
+      crumb.textContent = label;
+      crumb.title = path;
+      if (!isLast) {
+        crumb.addEventListener('click', () => this._pdfGoTo(idx));
+      }
+      breadcrumbEl.appendChild(crumb);
     });
+  }
+
+  _pdfGoTo(index) {
+    this._pdfDirStack = this._pdfDirStack.slice(0, index + 1);
+    this._pdfThumbQueue.length = 0;
+    this._pdfRenderCurrent();
+  }
+
+  _pdfRenderItem(listEl, entry) {
+    const row = document.createElement('div');
+    const size = this._formatBytes(entry.size);
+
+    if (entry.isDirectory) {
+      row.className = 'pdf-library-item pdf-library-folder';
+      row.innerHTML =
+        '<span class="pdf-library-item-icon">&#128193;</span>' +
+        '<span class="pdf-library-item-name">' + this._escapeHtml(entry.name) + '</span>' +
+        '<span class="pdf-library-item-size">Folder</span>';
+      row.addEventListener('click', () => {
+        this._pdfDirStack.push(entry.path);
+        this._pdfThumbQueue.length = 0;
+        this._pdfRenderCurrent();
+      });
+      listEl.appendChild(row);
+      return;
+    }
+
+    const isPdf = entry.name.toLowerCase().endsWith('.pdf');
+    if (!isPdf) {
+      row.className = 'pdf-library-item pdf-library-disabled';
+      row.innerHTML =
+        '<span class="pdf-library-item-icon">&#128196;</span>' +
+        '<span class="pdf-library-item-name">' + this._escapeHtml(entry.name) + '</span>' +
+        '<span class="pdf-library-item-size">' + size + '</span>';
+      listEl.appendChild(row);
+      return;
+    }
+
+    row.className = 'pdf-library-item';
+    const thumbHtml =
+      '<span class="pdf-library-item-thumb">' +
+        '<span class="pdf-library-item-thumb-ph">PDF</span>' +
+        '<img class="pdf-library-item-thumb-img" alt="" />' +
+      '</span>';
+    row.innerHTML = thumbHtml +
+      '<span class="pdf-library-item-name">' + this._escapeHtml(entry.name.replace(/\.pdf$/i, '')) + '</span>' +
+      '<span class="pdf-library-item-size">' + size + '</span>';
+    row.addEventListener('click', () => {
+      const path = entry.path;
+      this._resetReadPage();
+      this._readPdfPath = path;
+      document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+      this._loadPdfContent();
+    });
+    listEl.appendChild(row);
+
+    const imgEl = row.querySelector('.pdf-library-item-thumb-img');
+    const key = entry.path + '|' + entry.mtimeMs;
+    if (this._pdfThumbCache.has(key)) {
+      imgEl.src = this._pdfThumbCache.get(key);
+      imgEl.classList.add('loaded');
+    } else if (entry.size > 100 * 1024 * 1024) {
+      imgEl.parentElement.querySelector('.pdf-library-item-thumb-ph').textContent = '\u2013';
+    } else {
+      this._pdfThumbQueue.push({ path: entry.path, mtimeMs: entry.mtimeMs, imgEl });
+      this._pdfPumpThumbs();
+    }
+  }
+
+  _pdfPumpThumbs() {
+    while (this._pdfThumbActive < this._pdfThumbMaxConcurrent && this._pdfThumbQueue.length) {
+      const job = this._pdfThumbQueue.shift();
+      this._pdfThumbActive++;
+      this._pdfRenderThumb(job.path, job.mtimeMs, job.imgEl).finally(() => {
+        this._pdfThumbActive--;
+        this._pdfPumpThumbs();
+      });
+    }
+  }
+
+  async _pdfRenderThumb(path, mtimeMs, imgEl) {
+    const key = path + '|' + mtimeMs;
+    try {
+      const buf = await window.electronAPI.readFile(path);
+      if (!buf) return;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
+      const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
+      const page = await doc.getPage(1);
+      const base = page.getViewport({ scale: 1 });
+      const scale = 92 / base.width;
+      const vp = page.getViewport({ scale });
+      const canvas = document.createElement('canvas');
+      canvas.width = vp.width;
+      canvas.height = vp.height;
+      await page.render({ canvasContext: canvas.getContext('2d'), viewport: vp }).promise;
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.7);
+      this._pdfThumbCache.set(key, dataUrl);
+      imgEl.src = dataUrl;
+      imgEl.classList.add('loaded');
+      doc.destroy();
+    } catch (e) {
+      console.warn('Thumbnail failed:', path, e);
+    }
+  }
+
+  _formatBytes(bytes) {
+    if (!bytes && bytes !== 0) return '';
+    if (bytes > 1024 * 1024) return (bytes / 1024 / 1024).toFixed(1) + ' MB';
+    if (bytes > 1024) return (bytes / 1024).toFixed(0) + ' KB';
+    return bytes + ' B';
   }
 
   _escapeHtml(str) {
