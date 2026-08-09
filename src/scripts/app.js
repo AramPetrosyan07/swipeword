@@ -122,6 +122,9 @@ class App {
 
     this._bindEvents();
 
+    this.translationPopup.setVoice(appStore.data.ttsVoice != null ? appStore.data.ttsVoice : 0);
+    this._updateVoiceUi();
+
     const savedWords = appStore.getAllWords();
     if (savedWords.length > 0) {
       this.words = savedWords;
@@ -1292,6 +1295,29 @@ class App {
         shadowDropdown.style.display = 'none';
       }
     });
+
+    const voiceBtn = document.getElementById('btnYtVoice');
+    const voiceMenu = document.getElementById('ytVoiceMenu');
+    voiceBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      voiceMenu.style.display = voiceMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (voiceMenu.style.display === 'flex' && !voiceMenu.contains(e.target) && e.target !== voiceBtn) {
+        voiceMenu.style.display = 'none';
+      }
+    });
+    voiceMenu.querySelectorAll('.yt-voice-option').forEach((opt) => {
+      opt.addEventListener('click', () => {
+        const voice = parseInt(opt.dataset.voice, 10);
+        appStore.data.ttsVoice = voice;
+        appStore.save();
+        this.translationPopup.setVoice(voice);
+        this._updateVoiceUi();
+        voiceMenu.style.display = 'none';
+      });
+    });
+
     document.getElementById('btnYtShadowToggle').addEventListener('click', () => {
       if (this._ytShadowActive) {
         this._ytShadowStop();
@@ -2113,6 +2139,16 @@ class App {
     } catch (e) {
       // silently fail
     }
+  }
+
+  _updateVoiceUi() {
+    const voice = appStore.data.ttsVoice != null ? appStore.data.ttsVoice : 0;
+    const labelEl = document.getElementById('ytVoiceLabel');
+    document.querySelectorAll('#ytVoiceMenu .yt-voice-option').forEach((opt) => {
+      const v = parseInt(opt.dataset.voice, 10);
+      opt.classList.toggle('active', v === voice);
+      if (v === voice && labelEl) labelEl.innerHTML = opt.dataset.icon || '&#128100;';
+    });
   }
 
   _resetReadPage() {

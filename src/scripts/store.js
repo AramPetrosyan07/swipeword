@@ -111,6 +111,7 @@ class Store {
     }
     if (!this.data.dailyLog) this.data.dailyLog = [];
     if (this.data.learnMode === undefined) this.data.learnMode = true;
+    if (this.data.ttsVoice === undefined) this.data.ttsVoice = 0;
     if (!this.data.favorites) this.data.favorites = [];
     if (!this.data.greenStars) this.data.greenStars = [];
     if (!this.data.notes) this.data.notes = {};
@@ -139,6 +140,7 @@ class Store {
       greenStars: [],
       darkMode: false,
       learnMode: true,
+      ttsVoice: 0,
       shuffle: false,
       importHistory: [],
       currentFileName: null,

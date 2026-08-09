@@ -394,25 +394,66 @@ ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) =>
 // --- TTS (Microsoft Edge TTS via edge-tts Python CLI) ---
 const { spawn } = require("child_process");
 
-const _ttsVoiceMap = {
-  ru: "ru-RU-SvetlanaNeural",
-  hy: "en-US-AndrewMultilingualNeural",
-  en: "en-US-EmmaNeural",
-  es: "es-ES-AlvaroNeural",
-  fr: "fr-FR-DeniseNeural",
-  de: "de-DE-KatjaNeural",
-  it: "it-IT-DiegoNeural",
-  pt: "pt-PT-RaquelNeural",
-  pl: "pl-PL-AgnieszkaNeural",
-  tr: "tr-TR-AhmetNeural",
-  uk: "uk-UA-OstapNeural",
+// 4 voice personas per language: [Male1, Male2, Female1, Female2].
+// null slots fall back to the English multilingual pool below (these pronounce
+// foreign words well - they were already used for Armenian).
+const _ttsVoices = {
+  hy:  [null, null, null, null],
+  ru:  ["ru-RU-DmitryNeural", null, "ru-RU-SvetlanaNeural", null],
+  en:  ["en-US-ChristopherNeural", "en-US-GuyNeural", "en-US-JennyNeural", "en-US-AriaNeural"],
+  es:  ["es-ES-AlvaroNeural", "es-MX-JorgeNeural", "es-ES-ElviraNeural", "es-MX-DaliaNeural"],
+  fr:  ["fr-FR-HenriNeural", "fr-CA-AntoineNeural", "fr-FR-DeniseNeural", "fr-CA-SylvieNeural"],
+  de:  ["de-DE-ConradNeural", "de-DE-KillianNeural", "de-DE-KatjaNeural", "de-DE-AmalaNeural"],
+  it:  ["it-IT-DiegoNeural", null, "it-IT-ElsaNeural", "it-IT-IsabellaNeural"],
+  pt:  ["pt-PT-DuarteNeural", null, "pt-PT-RaquelNeural", "pt-BR-FranciscaNeural"],
+  ar:  ["ar-SA-HamedNeural", null, "ar-SA-ZariyahNeural", null],
+  zh:  ["zh-CN-YunxiNeural", null, "zh-CN-XiaoxiaoNeural", null],
+  ja:  ["ja-JP-KeitaNeural", null, "ja-JP-NanamiNeural", null],
+  ko:  ["ko-KR-InJoonNeural", "ko-KR-HyunsuMultilingualNeural", "ko-KR-SunHiNeural", null],
+  hi:  ["hi-IN-MadhurNeural", null, "hi-IN-SwaraNeural", null],
+  tr:  ["tr-TR-AhmetNeural", null, "tr-TR-EmelNeural", null],
+  pl:  ["pl-PL-MarekNeural", null, "pl-PL-ZofiaNeural", null],
+  nl:  ["nl-NL-MaartenNeural", null, "nl-NL-FennaNeural", null],
+  sv:  ["sv-SE-MattiasNeural", null, "sv-SE-SofieNeural", null],
+  uk:  ["uk-UA-OstapNeural", null, "uk-UA-PolinaNeural", null],
+  el:  ["el-GR-NestorasNeural", null, "el-GR-AthinaNeural", null],
+  cs:  ["cs-CZ-AntoninNeural", null, "cs-CZ-VlastaNeural", null],
+  ro:  ["ro-RO-EmilNeural", null, "ro-RO-AlinaNeural", null],
+  hu:  ["hu-HU-TamasNeural", null, "hu-HU-NoemiNeural", null],
+  fi:  ["fi-FI-HarriNeural", null, "fi-FI-NooraNeural", null],
+  da:  ["da-DK-JeppeNeural", null, "da-DK-ChristelNeural", null],
+  no:  ["nb-NO-FinnNeural", null, "nb-NO-PernilleNeural", null],
+  he:  ["he-IL-AvriNeural", null, "he-IL-HilaNeural", null],
+  th:  ["th-TH-NiwatNeural", null, "th-TH-PremwadeeNeural", null],
+  vi:  ["vi-VN-NamMinhNeural", null, "vi-VN-HoaiMyNeural", null],
+  id:  ["id-ID-ArdiNeural", null, "id-ID-GadisNeural", null],
+  ka:  ["ka-GE-GiorgiNeural", null, "ka-GE-EkaNeural", null],
+  bn:  ["bn-BD-PradeepNeural", null, "bn-BD-NabanitaNeural", null],
+  ur:  ["ur-PK-AsadNeural", null, "ur-PK-UzmaNeural", null],
+  fa:  ["fa-IR-FaridNeural", null, "fa-IR-DilaraNeural", null],
+  sw:  ["sw-KE-RafikiNeural", null, "sw-KE-ZuriNeural", null],
+  fil: ["fil-PH-AngeloNeural", null, "fil-PH-BlessicaNeural", null],
+  ms:  ["ms-MY-OsmanNeural", null, "ms-MY-YasminNeural", null],
 };
+
+const _ttsPool = [
+  "en-US-AndrewMultilingualNeural",
+  "en-US-BrianMultilingualNeural",
+  "en-US-EmmaMultilingualNeural",
+  "en-US-AvaMultilingualNeural",
+];
+
+function _ttsVoiceFor(lang, voiceIndex) {
+  const slot = Math.max(0, Math.min(3, parseInt(voiceIndex) || 0));
+  const list = _ttsVoices[lang] || _ttsVoices.en;
+  return list[slot] || _ttsPool[slot];
+}
 
 const _ttsCache = new Map();
 const _ttsPending = new Map();
 
-async function _edgeTTS(text, lang) {
-  const voice = _ttsVoiceMap[lang] || "en-US-AndrewMultilingualNeural";
+async function _edgeTTS(text, lang, voiceIndex) {
+  const voice = _ttsVoiceFor(lang, voiceIndex);
   const cacheKey = `${text}|${voice}`;
   if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
   if (_ttsPending.has(cacheKey)) return _ttsPending.get(cacheKey);
@@ -454,9 +495,9 @@ async function _edgeTTS(text, lang) {
   }
 }
 
-ipcMain.handle("tts:speak", async (_event, { text, lang }) => {
+ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
   try {
-    const audio = await _edgeTTS(text, lang);
+    const audio = await _edgeTTS(text, lang, voice);
     return { success: true, audio };
   } catch (e) {
     console.error("TTS failed:", e);

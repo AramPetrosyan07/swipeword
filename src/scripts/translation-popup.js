@@ -17,6 +17,7 @@ class TranslationPopup {
     this._languages = { from: 'en' };
     this._targetLangs = ['hy', 'ru'];
     this._wordCount = 3;
+    this._voiceId = 0;
     this._langNames = {
       en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
       ru:'Russian',ar:'Arabic',zh:'Chinese',ja:'Japanese',ko:'Korean',hi:'Hindi',
@@ -52,55 +53,18 @@ class TranslationPopup {
     });
   }
 
-  async _loadVoices() {
-    const voices = window.speechSynthesis.getVoices();
-    if (voices.length) return voices;
-    return new Promise(resolve => {
-      window.speechSynthesis.onvoiceschanged = () => {
-        resolve(window.speechSynthesis.getVoices());
-      };
-      setTimeout(() => resolve(window.speechSynthesis.getVoices() || []), 3000);
-    });
-  }
-
-  _getVoice(lang) {
-    const locale = this._langSpeechMap[lang] || lang;
-    const voices = window.speechSynthesis.getVoices();
-    const prefix = locale.split('-')[0];
-    return voices.find(v => v.lang === locale)
-        || voices.find(v => v.lang.startsWith(prefix))
-        || null;
+  setVoice(id) {
+    this._voiceId = (id === undefined || id === null) ? 0 : id;
   }
 
   async _speakWord(text, lang) {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    await this._loadVoices();
-    const voice = this._getVoice(lang);
-    const locale = this._langSpeechMap[lang] || lang;
-
-    if (voice) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = locale;
-      utterance.rate = 0.85;
-      utterance.pitch = 1;
-      utterance.voice = voice;
-      let usedFallback = false;
-      utterance.onerror = () => {
-        if (!usedFallback) {
-          usedFallback = true;
-          this._fallbackTTS(text, lang);
-        }
-      };
-      window.speechSynthesis.speak(utterance);
-    } else {
-      this._fallbackTTS(text, lang);
-    }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    await this._fallbackTTS(text, lang);
   }
 
   async _fallbackTTS(text, lang) {
     try {
-      const result = await window.electronAPI.ttsSpeak(text, lang);
+      const result = await window.electronAPI.ttsSpeak(text, lang, this._voiceId);
       if (result && result.success) {
         const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
         await audio.play();
@@ -353,7 +317,7 @@ class TranslationPopup {
       const words = Array.isArray(values) ? values : [values];
       for (const text of words) {
         if (text && text !== '—' && text !== '...' && text !== 'Unavailable') {
-          window.electronAPI.ttsSpeak(text, lang).catch(() => {});
+          window.electronAPI.ttsSpeak(text, lang, this._voiceId).catch(() => {});
         }
       }
     }

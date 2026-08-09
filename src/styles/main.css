@@ -3020,6 +3020,81 @@ body {
   text-align: center;
 }
 
+.yt-voice-dropdown {
+  position: relative;
+  margin-left: auto;
+}
+
+.yt-voice-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.yt-voice-btn:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+  border-color: var(--primary);
+}
+
+.yt-voice-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 6px;
+  min-width: 150px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  padding: 6px;
+  z-index: 100;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.yt-voice-title {
+  font-size: 11px;
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.yt-voice-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.yt-voice-option:hover {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+}
+
+.yt-voice-option.active {
+  background: var(--primary-bg, rgba(100, 120, 255, 0.25));
+  font-weight: 600;
+}
+
 /* Reading / Content Area */
 .read-content-area {
   flex: 1;
