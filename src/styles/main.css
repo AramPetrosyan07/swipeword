@@ -3186,14 +3186,16 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
+  padding: 5px 10px;
   height: 28px;
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--bg);
   color: var(--text);
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
+  font-family: inherit;
+  font-style: italic;
   line-height: 1;
   transition: background 0.15s, border-color 0.15s;
 }
