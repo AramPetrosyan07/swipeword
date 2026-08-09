@@ -2920,6 +2920,14 @@ body {
   color: transparent;
 }
 
+.pdf-scroll-layer span[role="presentation"] {
+  position: absolute;
+  white-space: pre;
+  transform-origin: 0 0;
+  line-height: 1;
+  text-align: left;
+}
+
 .pdf-scroll-layer .rw-word {
   cursor: pointer;
   border-radius: 2px;

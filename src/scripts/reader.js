@@ -119,80 +119,56 @@ class ReaderMode {
       const page = await this.pdfDoc.getPage(num);
       if (gen !== this._generation) return;
       const viewport = page.getViewport({ scale: this.scale });
-      const rawDims = viewport.rawDims;
-      const pageH = rawDims ? rawDims.pageHeight : viewport.height / this.scale;
       layerEl.style.width = viewport.width + 'px';
       layerEl.style.height = viewport.height + 'px';
+      layerEl.style.setProperty('--scale-factor', this.scale);
       const content = await page.getTextContent();
       if (gen !== this._generation) return;
-      const { items } = content;
-      if (items.length === 0) {
+      if (!content.items || content.items.length === 0) {
         layerEl.style.display = 'none';
         return;
       }
-      const ascentRatio = 0.85;
-      const measureCtx = this._getMeasureCtx();
-      for (const item of items) {
-        if (!item.str || !item.str.trim()) continue;
-        const x = item.transform[4] * this.scale;
-        const y = (pageH - item.transform[5]) * this.scale;
-        const fontSize = Math.hypot(item.transform[2], item.transform[3]) * this.scale;
-        if (fontSize <= 0) continue;
-
-        const top = (y - fontSize * ascentRatio) + 'px';
-        measureCtx.font = Math.max(1, Math.round(fontSize)) + 'px sans-serif';
-
-        const words = item.str.split(/\s+/).filter(Boolean);
-        if (words.length === 0) continue;
-
-        let itemWidth = (item.width || 0) * this.scale;
-
-        if (words.length === 1) {
-          if (itemWidth <= 0) itemWidth = measureCtx.measureText(words[0]).width;
-          this._appendWordSpan(layerEl, words[0], x, top, fontSize, itemWidth);
-        } else {
-          if (itemWidth <= 0) {
-            itemWidth = words.reduce((sum, w) => sum + measureCtx.measureText(w).width, 0);
-          }
-          const widths = words.map((w) => Math.max(1, measureCtx.measureText(w).width));
-          const total = widths.reduce((a, b) => a + b, 0) || 1;
-          let offset = 0;
-          words.forEach((w, i) => {
-            const ww = (widths[i] / total) * itemWidth;
-            this._appendWordSpan(layerEl, w, x + offset, top, fontSize, ww);
-            offset += ww;
-          });
-        }
-      }
+      const task = pdfjsLib.renderTextLayer({
+        textContentSource: content,
+        container: layerEl,
+        viewport,
+      });
+      await task.promise;
+      if (gen !== this._generation) return;
+      this._splitTextIntoWords(layerEl);
     } catch (e) {
       console.warn('Text render failed:', e);
       if (layerEl) layerEl.style.display = 'none';
     }
   }
 
-  _getMeasureCtx() {
-    if (!this._measureCtx) {
-      this._measureCtx = document.createElement('canvas').getContext('2d');
+  _splitTextIntoWords(container) {
+    container.querySelectorAll('br').forEach((br) => br.remove());
+    const textDivs = container.querySelectorAll('span[role="presentation"]');
+    for (const div of textDivs) {
+      const text = div.textContent;
+      if (!text) continue;
+      const frag = document.createDocumentFragment();
+      const re = /\S+/g;
+      let lastIndex = 0;
+      let m;
+      while ((m = re.exec(text)) !== null) {
+        if (m.index > lastIndex) {
+          frag.appendChild(document.createTextNode(text.slice(lastIndex, m.index)));
+        }
+        const span = document.createElement('span');
+        span.className = 'rw-word';
+        span.dataset.word = m[0];
+        span.textContent = m[0];
+        frag.appendChild(span);
+        lastIndex = m.index + m[0].length;
+      }
+      if (lastIndex < text.length) {
+        frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+      }
+      div.textContent = '';
+      div.appendChild(frag);
     }
-    return this._measureCtx;
-  }
-
-  _appendWordSpan(layerEl, word, left, top, fontSize, width) {
-    const span = document.createElement('span');
-    span.className = 'rw-word';
-    span.dataset.word = word;
-    span.textContent = word;
-    span.style.position = 'absolute';
-    span.style.left = left + 'px';
-    span.style.top = top;
-    span.style.width = Math.max(1, width) + 'px';
-    span.style.height = fontSize + 'px';
-    span.style.fontSize = fontSize + 'px';
-    span.style.lineHeight = '1';
-    span.style.whiteSpace = 'nowrap';
-    span.style.overflow = 'hidden';
-    span.style.fontFamily = 'sans-serif';
-    layerEl.appendChild(span);
   }
 
   getPageText(num) {
