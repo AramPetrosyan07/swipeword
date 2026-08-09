@@ -489,6 +489,18 @@ class App {
               e.preventDefault();
               readerMode.nextPage();
               break;
+            case 'ArrowUp':
+              if (!readerMode.isScrollMode()) {
+                e.preventDefault();
+                readerMode.prevPage();
+              }
+              break;
+            case 'ArrowDown':
+              if (!readerMode.isScrollMode()) {
+                e.preventDefault();
+                readerMode.nextPage();
+              }
+              break;
           }
         }
       } else if (activeScreen.id === 'screen-selftest' && selfTest.isActive && !selfTest.isAnimating) {
@@ -1274,6 +1286,12 @@ class App {
         readerMode.zoomBy(factor);
       }
     });
+    document.getElementById('pdfViewerScroll').addEventListener('scroll', () => {
+      readerMode.onScroll();
+    });
+    document.getElementById('pdfModeToggle').addEventListener('click', () => {
+      readerMode.toggleMode();
+    });
 
     document.getElementById('btnReadYoutube').addEventListener('click', () => {
       this._loadYoutubeContent();
@@ -1437,6 +1455,14 @@ class App {
     this._readCurrentPage = null;
   }
 
+  _bindPdfLayers(sourceInfo) {
+    this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
+    const layers = document.querySelectorAll('#pdfPages .pdf-scroll-layer');
+    layers.forEach((layer) => {
+      this.translationPopup.bindToContainer(layer, sourceInfo);
+    });
+  }
+
   _loadTextContent() {
     const text = document.getElementById('readTextInput').value.trim();
     if (!text) return;
@@ -1487,7 +1513,7 @@ class App {
       await readerMode.loadPdf(data);
       const sourceInfo = { type: 'pdf', title, id: Date.now().toString(36) };
       this._readSourceInfo = sourceInfo;
-      this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
+      this._bindPdfLayers(sourceInfo);
     } catch (e) {
       console.error('PDF load error:', e);
       document.getElementById('readContentAreaPdf').style.display = 'none';
@@ -1991,7 +2017,7 @@ class App {
       document.getElementById('readerLangBar').style.display = 'flex';
       this._applyReaderLangPrefs();
       readerMode.loadPdf(text).then(() => {
-        this.translationPopup.bindToContainer(document.getElementById('pdfTextLayer'), sourceInfo);
+        this._bindPdfLayers(sourceInfo);
       });
     } else if (sourceType === 'pdf-error') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
