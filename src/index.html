@@ -912,9 +912,21 @@
         <div class="yt-lang-bar yt-lang-collapsed" id="ytLangBar">
           <div class="yt-lang-bar-inner">
           <div class="yt-shadow-settings" id="ytShadowSettings">
+            <button class="yt-shadow-gear-btn" id="btnYtSettings" title="Subtitle settings">&#9881;</button>
             <button class="yt-shadow-action-btn" id="btnYtPrev" style="display:none;" title="Play the previous sentence">&#9198; Prev</button>
             <button class="yt-shadow-action-btn" id="btnYtNext" style="display:none;" title="Play the next sentence">&#9197; Next</button>
             <button class="yt-shadow-gear-btn" id="btnYtShadowSettings" title="Shadowing settings">Shad</button>
+            <div class="yt-settings-dropdown" id="ytSettingsDropdown" style="display:none;">
+              <div class="yt-shadow-title">Subtitle</div>
+              <label class="yt-settings-field">
+                <span>Font size</span>
+                <input type="number" id="ytSubFontSize" min="10" max="40" step="1" />
+              </label>
+              <label class="yt-settings-field">
+                <span>Line gap</span>
+                <input type="number" id="ytSubLineGap" min="0" max="30" step="1" />
+              </label>
+            </div>
           </div>
           <span class="yt-lang-source-label">From: <strong id="ytLangSourceText">English</strong></span>
           <div class="yt-lang-selects">

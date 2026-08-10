@@ -1315,6 +1315,51 @@ class App {
       }
     });
 
+    const settingsBtn = document.getElementById('btnYtSettings');
+    const settingsDropdown = document.getElementById('ytSettingsDropdown');
+    const subFontInput = document.getElementById('ytSubFontSize');
+    const subGapInput = document.getElementById('ytSubLineGap');
+    const subtitlesEl = document.getElementById('readYoutubeSubtitles');
+
+    const applyYtSubSettings = () => {
+      const sub = appStore.data.ytSubtitle || {};
+      const fontSize = sub.fontSize || 18;
+      const lineGap = sub.lineGap || 8;
+      subFontInput.value = fontSize;
+      subGapInput.value = lineGap;
+      subtitlesEl.style.setProperty('--yt-sub-font-size', fontSize + 'px');
+      subtitlesEl.style.setProperty('--yt-sub-gap', lineGap + 'px');
+    };
+
+    settingsBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      settingsDropdown.style.display = settingsDropdown.style.display === 'flex' ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (settingsDropdown.style.display === 'flex' && !settingsDropdown.contains(e.target) && e.target !== settingsBtn) {
+        settingsDropdown.style.display = 'none';
+      }
+    });
+    subFontInput.addEventListener('input', (e) => {
+      const v = parseInt(e.target.value, 10);
+      if (v >= 10 && v <= 40) {
+        appStore.data.ytSubtitle = appStore.data.ytSubtitle || {};
+        appStore.data.ytSubtitle.fontSize = v;
+        subtitlesEl.style.setProperty('--yt-sub-font-size', v + 'px');
+      }
+    });
+    subFontInput.addEventListener('change', () => appStore.save());
+    subGapInput.addEventListener('input', (e) => {
+      const v = parseInt(e.target.value, 10);
+      if (v >= 0 && v <= 30) {
+        appStore.data.ytSubtitle = appStore.data.ytSubtitle || {};
+        appStore.data.ytSubtitle.lineGap = v;
+        subtitlesEl.style.setProperty('--yt-sub-gap', v + 'px');
+      }
+    });
+    subGapInput.addEventListener('change', () => appStore.save());
+    applyYtSubSettings();
+
     const voiceBtn = document.getElementById('btnYtVoice');
     const voiceMenu = document.getElementById('ytVoiceMenu');
     voiceBtn.addEventListener('click', (e) => {
