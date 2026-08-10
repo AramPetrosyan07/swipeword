@@ -15,6 +15,17 @@ class ReaderMode {
   async loadPdf(data) {
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
     this.pdfDoc = await pdfjsLib.getDocument({ data }).promise;
+    await this._setupDoc();
+  }
+
+  async loadPdfDoc(doc) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
+    this.pdfDoc = doc;
+    await this._setupDoc();
+  }
+
+  async _setupDoc() {
+    if (!this.pdfDoc) return;
     this.pageCount = this.pdfDoc.numPages;
     this.pageNum = 1;
     this.scale = 1;

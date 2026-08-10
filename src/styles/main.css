@@ -3126,6 +3126,83 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   white-space: nowrap;
 }
 
+/* PDF tab bar */
+.pdf-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.pdf-tabs-strip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  flex: 1;
+  scrollbar-width: thin;
+}
+
+.pdf-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 220px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.pdf-tab:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.pdf-tab-name {
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pdf-tab-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 0;
+  flex-shrink: 0;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.pdf-tab-close:hover {
+  opacity: 1;
+  background: rgba(127, 127, 127, 0.25);
+}
+
 /* YouTube Language Bar */
 .yt-lang-bar {
   flex-shrink: 0;
