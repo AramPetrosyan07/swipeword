@@ -21,7 +21,40 @@ const MIME_TYPES = {
   ".eot": "application/vnd.ms-fontobject",
 };
 
-function startLocalServer() {
+const DEFAULT_PORT = 8123;
+
+function _portFilePath() {
+  return path.join(app.getPath("userData"), "swipeword-port.json");
+}
+
+function _readSavedPort() {
+  try {
+    if (fs.existsSync(_portFilePath())) {
+      const port = JSON.parse(fs.readFileSync(_portFilePath(), "utf-8"));
+      return Number.isInteger(port) && port > 0 ? port : null;
+    }
+  } catch (e) {}
+  return null;
+}
+
+function _writeSavedPort(port) {
+  try {
+    fs.writeFileSync(_portFilePath(), JSON.stringify(port), "utf-8");
+  } catch (e) {}
+}
+
+function _tryListen(server, port) {
+  return new Promise((resolve) => {
+    const onError = () => resolve(null);
+    server.once("error", onError);
+    server.listen(port, "127.0.0.1", () => {
+      server.removeListener("error", onError);
+      resolve(port);
+    });
+  });
+}
+
+async function startLocalServer() {
   const srcDir = path.join(__dirname, "src");
   const server = http.createServer((req, res) => {
     const urlPath = decodeURIComponent(req.url.split("?")[0]);
@@ -40,11 +73,23 @@ function startLocalServer() {
     });
   });
 
-  return new Promise((resolve) => {
-    server.listen(0, "127.0.0.1", () => {
-      resolve(server.address().port);
-    });
-  });
+  const candidates = [];
+  const saved = _readSavedPort();
+  if (saved) candidates.push(saved);
+  if (!candidates.includes(DEFAULT_PORT)) candidates.push(DEFAULT_PORT);
+  for (let p = DEFAULT_PORT + 1; candidates.length < 20; p++) {
+    candidates.push(p);
+  }
+  candidates.push(0);
+
+  for (const port of candidates) {
+    const bound = await _tryListen(server, port);
+    if (bound !== null) {
+      if (bound > 0) _writeSavedPort(bound);
+      return bound;
+    }
+  }
+  return 0;
 }
 
 let mainWindow;
