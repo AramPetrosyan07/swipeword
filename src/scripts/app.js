@@ -208,6 +208,7 @@ class App {
     document.getElementById('sidePdfViewer').addEventListener('click', () => this._pdfShowSidebarView('viewer'));
     document.getElementById('sidePdfRecent').addEventListener('click', () => this._pdfShowSidebarView('recent'));
     document.getElementById('sidePdfPinned').addEventListener('click', () => this._pdfShowSidebarView('pinned'));
+    document.getElementById('sidePdfLast').addEventListener('click', () => this._pdfOpenLast());
 
     document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -604,7 +605,11 @@ class App {
 
   _closeSidebar() {
     if (document.body.classList.contains('pdf-rail')) {
-      this._deactivatePdfRail();
+      const sidebar = document.getElementById('sidebar');
+      if (!sidebar.classList.contains('collapsed')) {
+        sidebar.classList.add('collapsed');
+        document.body.classList.add('pdf-rail-collapsed');
+      }
       return;
     }
     document.getElementById('sidebar').classList.remove('open');
@@ -1646,11 +1651,31 @@ class App {
     await appStore.save();
   }
 
+  _pdfOpenLast() {
+    if (!document.body.classList.contains('pdf-rail')) this._closeSidebar();
+    const recents = appStore.data.pdfRecents || [];
+    if (this._currentAppMode !== 'read') this._switchAppMode('read');
+    if (document.querySelector('.screen.active') !== document.getElementById('screen-reader')) {
+      document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+      document.getElementById('screen-reader').classList.add('active');
+    }
+    if (this._readCurrentPage !== 'pdf') this._openReadPage('pdf');
+    if (recents.length === 0) {
+      this._pdfShowSidebarView('viewer');
+      return;
+    }
+    this._pdfOpenPath(recents[0].path);
+  }
+
   _pdfShowSidebarView(view) {
     if (!document.body.classList.contains('pdf-rail')) this._closeSidebar();
     this._pdfViewMode = view;
     this._syncPdfSidebarButtons();
     if (this._currentAppMode !== 'read') this._switchAppMode('read');
+    if (document.querySelector('.screen.active') !== document.getElementById('screen-reader')) {
+      document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+      document.getElementById('screen-reader').classList.add('active');
+    }
     if (this._readCurrentPage !== 'pdf') this._openReadPage('pdf');
     if (view === 'viewer') this._pdfShowViewer();
     else if (view === 'recent') this._pdfShowRecents();
