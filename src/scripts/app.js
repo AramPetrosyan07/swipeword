@@ -1286,18 +1286,26 @@ class App {
 
     const dropzone = document.getElementById('readPdfDropzone');
     const fileInput = document.getElementById('readPdfFileInput');
-    dropzone.addEventListener('click', () => fileInput.click());
+    dropzone.addEventListener('click', async () => {
+      const res = await window.electronAPI.openPDFDialog();
+      if (!res) return;
+      this._setPdfPath(res.filePath, res.fileName);
+    });
     dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
     dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
     dropzone.addEventListener('drop', (e) => {
       e.preventDefault();
       dropzone.classList.remove('dragover');
       const file = e.dataTransfer.files[0];
-      if (file && file.type === 'application/pdf') this._setPdfFile(file);
+      if (!file || file.type !== 'application/pdf') return;
+      if (file.path) this._setPdfPath(file.path, file.name);
+      else this._setPdfFile(file);
     });
     fileInput.addEventListener('change', (e) => {
       const file = e.target.files[0];
-      if (file) this._setPdfFile(file);
+      if (!file) return;
+      if (file.path) this._setPdfPath(file.path, file.name);
+      else this._setPdfFile(file);
     });
     document.getElementById('btnReadPdf').addEventListener('click', () => {
       this._loadPdfContent();
@@ -1552,9 +1560,20 @@ class App {
 
   _setPdfFile(file) {
     this._readPdfFile = file;
+    this._readPdfPath = null;
     const dropzone = document.getElementById('readPdfDropzone');
     dropzone.classList.add('read-dropzone-loaded');
     dropzone.querySelector('.read-dropzone-text').textContent = file.name;
+    document.getElementById('btnReadPdf').disabled = false;
+  }
+
+  _setPdfPath(path, name) {
+    this._readPdfFile = null;
+    this._readPdfPath = path;
+    this._addPdfRecent((name || path).replace(/\.pdf$/i, ''), path);
+    const dropzone = document.getElementById('readPdfDropzone');
+    dropzone.classList.add('read-dropzone-loaded');
+    dropzone.querySelector('.read-dropzone-text').textContent = name || path;
     document.getElementById('btnReadPdf').disabled = false;
   }
 
@@ -1656,11 +1675,17 @@ class App {
   _pdfShowViewer() {
     if (this._readSourceInfo && document.getElementById('readContentAreaPdf').style.display === 'block') return;
     document.getElementById('pdfLibrary').style.display = '';
+    document.getElementById('pdfLibraryTitleText').textContent = 'PDF Library';
+    document.getElementById('pdfLibraryTitleText').parentElement.querySelector('.pdf-library-icon').innerHTML = '&#128218;';
+    document.getElementById('btnPdfChooseFolder').style.display = '';
     this._scanPdfLibrary();
   }
 
   _pdfShowRecents() {
     this._pdfShowListMode();
+    document.getElementById('pdfLibraryTitleText').textContent = 'Recent Documents';
+    document.getElementById('pdfLibraryTitleText').parentElement.querySelector('.pdf-library-icon').innerHTML = '&#9201;';
+    document.getElementById('btnPdfChooseFolder').style.display = 'none';
     const recents = appStore.data.pdfRecents || [];
     const listEl = document.getElementById('pdfLibraryList');
     const emptyEl = document.getElementById('pdfLibraryEmpty');
@@ -1685,6 +1710,9 @@ class App {
 
   _pdfShowPinned() {
     this._pdfShowListMode();
+    document.getElementById('pdfLibraryTitleText').textContent = 'Pinned Folders';
+    document.getElementById('pdfLibraryTitleText').parentElement.querySelector('.pdf-library-icon').innerHTML = '&#128204;';
+    document.getElementById('btnPdfChooseFolder').style.display = 'none';
     const pinned = appStore.data.pdfPinnedFolders || [];
     const listEl = document.getElementById('pdfLibraryList');
     const emptyEl = document.getElementById('pdfLibraryEmpty');
