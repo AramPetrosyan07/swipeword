@@ -1724,6 +1724,8 @@ class App {
   _pdfOpenPath(path) {
     this._addPdfRecent(path.replace(/.*[/\\]/, '').replace(/\.pdf$/i, ''), path);
     this._resetReadPage();
+    this._pdfViewMode = 'last';
+    this._syncPdfSidebarButtons();
     this._readPdfPath = path;
     document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
     this._loadPdfContent();
@@ -1768,7 +1770,12 @@ class App {
     if (this._pdfTabs.length > 0) {
       this._showPdfTab(Math.max(0, this._pdfActiveTab));
     } else {
-      this._pdfShowViewer();
+      const page = document.getElementById('read-page-pdf');
+      page.querySelector('.read-page-input').style.display = '';
+      document.getElementById('pdfLibrary').style.display = 'none';
+      document.getElementById('pdfTabsBar').style.display = 'none';
+      document.getElementById('readContentAreaPdf').style.display = 'none';
+      document.getElementById('pdfViewer').style.display = 'flex';
     }
   }
 
@@ -1780,7 +1787,9 @@ class App {
   }
 
   _pdfShowViewer() {
-    if (this._readSourceInfo && document.getElementById('readContentAreaPdf').style.display === 'block') return;
+    document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+    document.getElementById('pdfTabsBar').style.display = 'none';
+    document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';
     document.getElementById('pdfLibraryTitleText').textContent = 'PDF Library';
     document.getElementById('pdfLibraryTitleText').parentElement.querySelector('.pdf-library-icon').innerHTML = '&#128218;';
