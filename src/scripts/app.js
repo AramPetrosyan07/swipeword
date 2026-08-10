@@ -1699,12 +1699,26 @@ class App {
     recents.forEach((r) => {
       const row = document.createElement('div');
       row.className = 'pdf-library-item';
-      row.innerHTML =
-        '<span class="pdf-library-item-icon">&#128196;</span>' +
+      const thumbHtml =
+        '<span class="pdf-library-item-thumb">' +
+          '<span class="pdf-library-item-thumb-ph">PDF</span>' +
+          '<img class="pdf-library-item-thumb-img" alt="" />' +
+        '</span>';
+      row.innerHTML = thumbHtml +
         '<span class="pdf-library-item-name">' + this._escapeHtml(r.name) + '</span>' +
         '<span class="pdf-library-item-size">' + this._escapeHtml(r.date || 'PDF') + '</span>';
       row.addEventListener('click', () => this._pdfOpenPath(r.path));
       listEl.appendChild(row);
+
+      const imgEl = row.querySelector('.pdf-library-item-thumb-img');
+      const key = r.path + '|0';
+      if (this._pdfThumbCache.has(key)) {
+        imgEl.src = this._pdfThumbCache.get(key);
+        imgEl.classList.add('loaded');
+      } else {
+        this._pdfThumbQueue.push({ path: r.path, mtimeMs: 0, imgEl });
+        this._pdfPumpThumbs();
+      }
     });
   }
 
