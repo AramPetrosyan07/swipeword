@@ -2844,6 +2844,28 @@ body {
   flex-shrink: 0;
 }
 
+.pdf-library-item-pin {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px 4px;
+  opacity: 0.45;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.pdf-library-item-pin:hover {
+  opacity: 1;
+}
+
+.pdf-library-item-pin.pinned {
+  opacity: 1;
+  color: var(--primary);
+}
+
 .pdf-library-item-thumb {
   position: relative;
   width: 34px;

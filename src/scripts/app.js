@@ -209,6 +209,9 @@ class App {
       this._closeSidebar();
       this._showVocabLib();
     });
+    document.getElementById('sidePdfViewer').addEventListener('click', () => this._pdfShowSidebarView('viewer'));
+    document.getElementById('sidePdfRecent').addEventListener('click', () => this._pdfShowSidebarView('recent'));
+    document.getElementById('sidePdfPinned').addEventListener('click', () => this._pdfShowSidebarView('pinned'));
 
     document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -1213,6 +1216,7 @@ class App {
     this._readCurrentPage = null;
     this._readPdfFile = null;
     this._readPdfPath = null;
+    this._pdfViewMode = 'viewer';
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
       card.addEventListener('click', () => {
@@ -1468,7 +1472,7 @@ class App {
     const titles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
     document.getElementById('readerTitle').textContent = titles[mode] || 'Read';
     document.getElementById('btnReaderBack').style.display = '';
-    document.getElementById('btnReaderMenu').style.display = 'none';
+    document.getElementById('btnReaderMenu').style.display = '';
 
     if (mode === 'pdf') {
       this._scanPdfLibrary();
@@ -1554,6 +1558,130 @@ class App {
   async _loadPdfFromPath(filePath) {
     this._readPdfPath = filePath;
     await this._loadPdfContent();
+  }
+
+  _pdfOpenPath(path) {
+    this._addPdfRecent(path.replace(/.*[/\\]/, '').replace(/\.pdf$/i, ''), path);
+    this._resetReadPage();
+    this._readPdfPath = path;
+    document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+    this._loadPdfContent();
+  }
+
+  _addPdfRecent(name, path) {
+    if (!appStore.data.pdfRecents) appStore.data.pdfRecents = [];
+    const recents = appStore.data.pdfRecents;
+    const idx = recents.findIndex((r) => r.path === path);
+    if (idx !== -1) recents.splice(idx, 1);
+    recents.unshift({ name, path, date: new Date().toISOString().slice(0, 10) });
+    if (recents.length > 20) recents.length = 20;
+    appStore.save();
+  }
+
+  async _togglePinFolder(path) {
+    if (!appStore.data.pdfPinnedFolders) appStore.data.pdfPinnedFolders = [];
+    const pinned = appStore.data.pdfPinnedFolders;
+    const idx = pinned.indexOf(path);
+    if (idx === -1) pinned.push(path);
+    else pinned.splice(idx, 1);
+    await appStore.save();
+  }
+
+  _pdfShowSidebarView(view) {
+    this._closeSidebar();
+    this._pdfViewMode = view;
+    this._syncPdfSidebarButtons();
+    if (this._currentAppMode !== 'read') this._switchAppMode('read');
+    if (this._readCurrentPage !== 'pdf') this._openReadPage('pdf');
+    if (view === 'viewer') this._pdfShowViewer();
+    else if (view === 'recent') this._pdfShowRecents();
+    else this._pdfShowPinned();
+  }
+
+  _syncPdfSidebarButtons() {
+    const map = { viewer: 'sidePdfViewer', recent: 'sidePdfRecent', pinned: 'sidePdfPinned' };
+    ['sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned'].forEach((id) => {
+      document.getElementById(id).classList.toggle('active', map[this._pdfViewMode] === id);
+    });
+  }
+
+  _pdfShowViewer() {
+    if (this._readSourceInfo && document.getElementById('readContentAreaPdf').style.display === 'block') return;
+    document.getElementById('pdfLibrary').style.display = '';
+    this._scanPdfLibrary();
+  }
+
+  _pdfShowRecents() {
+    this._pdfShowListMode();
+    const recents = appStore.data.pdfRecents || [];
+    const listEl = document.getElementById('pdfLibraryList');
+    const emptyEl = document.getElementById('pdfLibraryEmpty');
+    listEl.innerHTML = '';
+    if (recents.length === 0) {
+      emptyEl.textContent = 'No recent documents yet. Open a PDF from the library.';
+      emptyEl.style.display = '';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    recents.forEach((r) => {
+      const row = document.createElement('div');
+      row.className = 'pdf-library-item';
+      row.innerHTML =
+        '<span class="pdf-library-item-icon">&#128196;</span>' +
+        '<span class="pdf-library-item-name">' + this._escapeHtml(r.name) + '</span>' +
+        '<span class="pdf-library-item-size">' + this._escapeHtml(r.date || 'PDF') + '</span>';
+      row.addEventListener('click', () => this._pdfOpenPath(r.path));
+      listEl.appendChild(row);
+    });
+  }
+
+  _pdfShowPinned() {
+    this._pdfShowListMode();
+    const pinned = appStore.data.pdfPinnedFolders || [];
+    const listEl = document.getElementById('pdfLibraryList');
+    const emptyEl = document.getElementById('pdfLibraryEmpty');
+    listEl.innerHTML = '';
+    if (pinned.length === 0) {
+      emptyEl.textContent = 'No pinned folders yet. Pin folders from the PDF library with the &#128204; button.';
+      emptyEl.style.display = '';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    pinned.forEach((path) => {
+      const label = path.replace(/[/\\]+$/, '').split(/[/\\]/).pop() || path;
+      const row = document.createElement('div');
+      row.className = 'pdf-library-item pdf-library-folder';
+      row.innerHTML =
+        '<span class="pdf-library-item-icon">&#128193;</span>' +
+        '<span class="pdf-library-item-name">' + this._escapeHtml(label) + '</span>' +
+        '<button class="pdf-library-item-pin pinned" title="Unpin folder">&#128204;</button>';
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('.pdf-library-item-pin')) return;
+        this._pdfDirStack = [path];
+        this._pdfThumbQueue.length = 0;
+        this._pdfViewMode = 'viewer';
+        this._syncPdfSidebarButtons();
+        this._pdfRenderCurrent();
+      });
+      row.querySelector('.pdf-library-item-pin').addEventListener('click', async (e) => {
+        e.stopPropagation();
+        await this._togglePinFolder(path);
+        this._pdfShowPinned();
+      });
+      listEl.appendChild(row);
+    });
+  }
+
+  _pdfShowListMode() {
+    this._readSourceInfo = null;
+    document.getElementById('pdfLibrary').style.display = '';
+    document.getElementById('readContentAreaPdf').style.display = 'none';
+    document.getElementById('pdfViewer').style.display = '';
+    document.getElementById('readTextViewPdf').style.display = 'none';
+    document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+    document.getElementById('pdfBreadcrumb').style.display = 'none';
+    document.getElementById('pdfLibraryNoFolder').style.display = 'none';
+    document.getElementById('pdfLibraryLoading').style.display = 'none';
   }
 
   async _scanPdfLibrary() {
@@ -1682,14 +1810,22 @@ class App {
     const size = this._formatBytes(entry.size);
 
     if (entry.isDirectory) {
+      const pinned = (appStore.data.pdfPinnedFolders || []).includes(entry.path);
       row.className = 'pdf-library-item pdf-library-folder';
       row.innerHTML =
         '<span class="pdf-library-item-icon">&#128193;</span>' +
         '<span class="pdf-library-item-name">' + this._escapeHtml(entry.name) + '</span>' +
+        '<button class="pdf-library-item-pin' + (pinned ? ' pinned' : '') + '" title="' + (pinned ? 'Unpin folder' : 'Pin folder') + '">&#128204;</button>' +
         '<span class="pdf-library-item-size">Folder</span>';
-      row.addEventListener('click', () => {
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('.pdf-library-item-pin')) return;
         this._pdfDirStack.push(entry.path);
         this._pdfThumbQueue.length = 0;
+        this._pdfRenderCurrent();
+      });
+      row.querySelector('.pdf-library-item-pin').addEventListener('click', async (e) => {
+        e.stopPropagation();
+        await this._togglePinFolder(entry.path);
         this._pdfRenderCurrent();
       });
       listEl.appendChild(row);
@@ -1717,11 +1853,7 @@ class App {
       '<span class="pdf-library-item-name">' + this._escapeHtml(entry.name.replace(/\.pdf$/i, '')) + '</span>' +
       '<span class="pdf-library-item-size">' + size + '</span>';
     row.addEventListener('click', () => {
-      const path = entry.path;
-      this._resetReadPage();
-      this._readPdfPath = path;
-      document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
-      this._loadPdfContent();
+      this._pdfOpenPath(entry.path);
     });
     listEl.appendChild(row);
 

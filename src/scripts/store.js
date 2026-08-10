@@ -117,6 +117,8 @@ class Store {
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
     if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
+    if (!this.data.pdfRecents) this.data.pdfRecents = [];
+    if (!this.data.pdfPinnedFolders) this.data.pdfPinnedFolders = [];
     if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
@@ -153,6 +155,8 @@ class Store {
       notes: {},
       vocabulary: 'b2',
       pdfFolder: null,
+      pdfRecents: [],
+      pdfPinnedFolders: [],
     };
   }
 
