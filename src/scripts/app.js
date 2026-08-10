@@ -189,14 +189,6 @@ class App {
       this._closeSidebar();
       this._showWordsPage();
     });
-    document.getElementById('sideReader').addEventListener('click', () => {
-      this._closeSidebar();
-      if (this._currentAppMode !== 'read') {
-        this._switchAppMode('read');
-      } else if (this._readCurrentPage) {
-        this._backToReadHome();
-      }
-    });
     document.getElementById('sideCollector').addEventListener('click', () => {
       this._closeSidebar();
       wordCollector.show();
