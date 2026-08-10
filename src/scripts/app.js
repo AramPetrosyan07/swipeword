@@ -154,7 +154,7 @@ class App {
 
   _bindEvents() {
     document.getElementById('btnMenu').addEventListener('click', () => this._toggleSidebar());
-    document.getElementById('btnSidebarClose').addEventListener('click', () => this._closeSidebar());
+    document.getElementById('btnSidebarClose').addEventListener('click', () => this._toggleSidebar());
     document.getElementById('sidebarOverlay').addEventListener('click', () => this._closeSidebar());
 
     document.getElementById('sideImport').addEventListener('click', () => {
@@ -191,7 +191,11 @@ class App {
     });
     document.getElementById('sideReader').addEventListener('click', () => {
       this._closeSidebar();
-      if (this._currentAppMode !== 'read') this._switchAppMode('read');
+      if (this._currentAppMode !== 'read') {
+        this._switchAppMode('read');
+      } else if (this._readCurrentPage) {
+        this._backToReadHome();
+      }
     });
     document.getElementById('sideCollector').addEventListener('click', () => {
       this._closeSidebar();
@@ -405,7 +409,13 @@ class App {
           this._closeCardOnList();
           return;
         }
-        if (document.getElementById('sidebar').classList.contains('open')) {
+        const sidebarEl = document.getElementById('sidebar');
+        if (document.body.classList.contains('pdf-rail')) {
+          if (!sidebarEl.classList.contains('collapsed')) {
+            this._toggleSidebar();
+            return;
+          }
+        } else if (sidebarEl.classList.contains('open')) {
           this._closeSidebar();
           return;
         }
@@ -543,6 +553,7 @@ class App {
       document.getElementById('sidebarReadContent').style.display = '';
       this._backToReadHome();
     } else {
+      this._deactivatePdfRail();
       document.getElementById('screen-reader').classList.remove('active');
       document.getElementById('sidebarLearnContent').style.display = '';
       document.getElementById('sidebarReadContent').style.display = 'none';
@@ -587,16 +598,49 @@ class App {
 
   _toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('sidebarOverlay');
+    if (document.body.classList.contains('pdf-rail')) {
+      const collapsed = sidebar.classList.toggle('collapsed');
+      document.body.classList.toggle('pdf-rail-collapsed', collapsed);
+      if (!collapsed) this._updateSidebar();
+      return;
+    }
     const isOpen = sidebar.classList.contains('open');
     sidebar.classList.toggle('open');
-    overlay.classList.toggle('open');
+    document.getElementById('sidebarOverlay').classList.toggle('open');
     if (!isOpen) this._updateSidebar();
   }
 
   _closeSidebar() {
+    if (document.body.classList.contains('pdf-rail')) {
+      this._deactivatePdfRail();
+      return;
+    }
     document.getElementById('sidebar').classList.remove('open');
     document.getElementById('sidebarOverlay').classList.remove('open');
+  }
+
+  _activatePdfRail() {
+    document.body.classList.add('pdf-rail', 'pdf-rail-collapsed');
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.remove('open');
+    sidebar.classList.add('collapsed');
+    document.getElementById('sidebarOverlay').classList.remove('open');
+    const btn = document.getElementById('btnSidebarClose');
+    if (btn) btn.style.display = 'none';
+    this._updateSidebar();
+  }
+
+  _deactivatePdfRail() {
+    document.body.classList.remove('pdf-rail', 'pdf-rail-collapsed');
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.remove('collapsed', 'open');
+    document.getElementById('sidebarOverlay').classList.remove('open');
+    const btn = document.getElementById('btnSidebarClose');
+    if (btn) {
+      btn.style.display = '';
+      btn.innerHTML = '&times;';
+      btn.title = 'Close sidebar';
+    }
   }
 
   _updateSidebar() {
@@ -1475,12 +1519,16 @@ class App {
     document.getElementById('btnReaderMenu').style.display = '';
 
     if (mode === 'pdf') {
+      this._activatePdfRail();
       this._scanPdfLibrary();
+    } else {
+      this._deactivatePdfRail();
     }
   }
 
   _backToReadHome() {
     this._resetReadPage();
+    this._deactivatePdfRail();
     document.getElementById('readHome').style.display = '';
     document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
     document.getElementById('readerTitle').textContent = 'Read';
@@ -1588,7 +1636,7 @@ class App {
   }
 
   _pdfShowSidebarView(view) {
-    this._closeSidebar();
+    if (!document.body.classList.contains('pdf-rail')) this._closeSidebar();
     this._pdfViewMode = view;
     this._syncPdfSidebarButtons();
     if (this._currentAppMode !== 'read') this._switchAppMode('read');

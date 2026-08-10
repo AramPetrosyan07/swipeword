@@ -49,6 +49,16 @@ body {
   overflow: hidden;
 }
 
+body.pdf-rail #app {
+  box-sizing: border-box;
+  padding-left: 280px;
+  transition: padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.pdf-rail.pdf-rail-collapsed #app {
+  padding-left: 64px;
+}
+
 .screen {
   display: none;
   flex-direction: column;
@@ -731,6 +741,15 @@ body {
   transform: translateX(0);
 }
 
+body.pdf-rail .sidebar {
+  transform: translateX(0);
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.pdf-rail .sidebar.collapsed {
+  width: 64px;
+}
+
 .sidebar-overlay {
   position: fixed;
   top: 0;
@@ -928,6 +947,42 @@ body {
 .sidebar-info-sub {
   font-size: 11px;
   margin-top: 2px;
+}
+
+/* Sidebar collapsed in PDF reader rail (icons only) */
+body.pdf-rail .sidebar.collapsed .sidebar-header {
+  display: none;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-logo {
+  display: none;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-nav {
+  padding: 12px 4px;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-btn {
+  font-size: 0;
+  justify-content: center;
+  gap: 0;
+  padding: 12px 0;
+  text-align: center;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-btn .sidebar-btn-icon {
+  font-size: 18px;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-toggle {
+  display: none;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-section-title,
+body.pdf-rail .sidebar.collapsed .sidebar-history,
+body.pdf-rail .sidebar.collapsed .sidebar-history-empty,
+body.pdf-rail .sidebar.collapsed .sidebar-info {
+  display: none;
 }
 
 /* Learn content: card + letter strip in a row */
