@@ -153,6 +153,8 @@ class App {
 
     this._updateSidebar();
     this._renderLetterStrip();
+
+    await this._restorePdfTabs();
   }
 
   _bindEvents() {
@@ -1332,6 +1334,7 @@ class App {
     });
     document.getElementById('pdfViewerScroll').addEventListener('scroll', () => {
       readerMode.onScroll();
+      this._pdfSaveScrollDebounced();
     });
 
     document.getElementById('btnReadYoutube').addEventListener('click', () => {
@@ -1615,8 +1618,10 @@ class App {
     try {
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
       const doc = await pdfjsLib.getDocument({ data }).promise;
-      this._pdfTabs.push({ path, name: title, doc, scrollTop: 0 });
+      const savedPos = (appStore.data.pdfScrollPositions || {})[path || title];
+      this._pdfTabs.push({ path, name: title, doc, scrollTop: savedPos || 0 });
       this._pdfActiveTab = this._pdfTabs.length - 1;
+      this._pdfPersistOpenTabs();
       await this._showPdfTab(this._pdfActiveTab);
     } catch (e) {
       console.error('PDF load error:', e);
@@ -1631,8 +1636,17 @@ class App {
     if (!tab) return;
     const scrollContainer = document.getElementById('pdfViewerScroll');
     const prev = this._pdfTabs[this._pdfActiveTab];
-    if (prev && scrollContainer) prev.scrollTop = scrollContainer.scrollTop;
+    if (prev && prev !== tab && scrollContainer) {
+      prev.scrollTop = scrollContainer.scrollTop;
+      const prevKey = prev.path || prev.name;
+      if (prevKey) {
+        if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
+        appStore.data.pdfScrollPositions[prevKey] = prev.scrollTop;
+        appStore.save();
+      }
+    }
     this._pdfActiveTab = index;
+    appStore.data.pdfActiveTab = tab.path || tab.name;
     this._renderPdfTabs();
     document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = 'none';
@@ -1686,13 +1700,24 @@ class App {
   async _closePdfTab(index) {
     const tab = this._pdfTabs[index];
     if (!tab) return;
+    const scrollContainer = document.getElementById('pdfViewerScroll');
+    if (index === this._pdfActiveTab && scrollContainer) {
+      const key = tab.path || tab.name;
+      if (key) {
+        if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
+        appStore.data.pdfScrollPositions[key] = scrollContainer.scrollTop;
+        appStore.save();
+      }
+    }
     if (tab.doc) {
       try { tab.doc.destroy(); } catch (e) {}
     }
     const wasActive = index === this._pdfActiveTab;
     this._pdfTabs.splice(index, 1);
+    this._pdfPersistOpenTabs();
     if (this._pdfTabs.length === 0) {
       this._pdfActiveTab = -1;
+      appStore.data.pdfActiveTab = null;
       this._readSourceInfo = null;
       readerMode.reset();
       const bar = document.getElementById('pdfTabsBar');
@@ -1739,6 +1764,76 @@ class App {
     recents.unshift({ name, path, date: new Date().toISOString().slice(0, 10) });
     if (recents.length > 20) recents.length = 20;
     appStore.save();
+  }
+
+  _pdfSaveScrollDebounced() {
+    if (this._pdfSaveScrollTimer) clearTimeout(this._pdfSaveScrollTimer);
+    this._pdfSaveScrollTimer = setTimeout(() => this._pdfSaveScroll(), 300);
+  }
+
+  _pdfSaveScroll() {
+    const tab = this._pdfTabs[this._pdfActiveTab];
+    const scrollContainer = document.getElementById('pdfViewerScroll');
+    if (!tab || !scrollContainer) return;
+    tab.scrollTop = scrollContainer.scrollTop;
+    const key = tab.path || tab.name;
+    if (!key) return;
+    if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
+    appStore.data.pdfScrollPositions[key] = tab.scrollTop;
+    appStore.save();
+  }
+
+  _pdfPersistOpenTabs() {
+    if (!appStore.data.pdfOpenTabs) appStore.data.pdfOpenTabs = [];
+    const open = appStore.data.pdfOpenTabs;
+    open.length = 0;
+    this._pdfTabs.forEach((t) => {
+      if (t.path) open.push({ path: t.path, name: t.name });
+    });
+    appStore.save();
+  }
+
+  _pdfRemoveOpenTab(path) {
+    const open = appStore.data.pdfOpenTabs;
+    if (!open) return;
+    const idx = open.findIndex((e) => e.path === path);
+    if (idx !== -1) {
+      open.splice(idx, 1);
+      appStore.save();
+    }
+  }
+
+  async _restorePdfTabs() {
+    const saved = appStore.data.pdfOpenTabs || [];
+    if (!saved.length) return;
+    const activeKey = appStore.data.pdfActiveTab;
+    for (const entry of saved) {
+      if (!entry.path) continue;
+      if (this._pdfTabs.some((t) => t.path === entry.path)) continue;
+      const buf = await window.electronAPI.readFile(entry.path);
+      if (!buf) {
+        this._pdfRemoveOpenTab(entry.path);
+        continue;
+      }
+      try {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
+        const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
+        const savedPos = (appStore.data.pdfScrollPositions || {})[entry.path];
+        this._pdfTabs.push({ path: entry.path, name: entry.name, doc, scrollTop: savedPos || 0 });
+      } catch (e) {
+        console.error('PDF restore error:', e);
+        this._pdfRemoveOpenTab(entry.path);
+      }
+    }
+    if (this._pdfTabs.length > 0) {
+      let idx = -1;
+      if (activeKey) idx = this._pdfTabs.findIndex((t) => (t.path || t.name) === activeKey);
+      if (idx === -1) idx = this._pdfTabs.length - 1;
+      this._pdfActiveTab = idx;
+      appStore.data.pdfActiveTab = activeKey || this._pdfTabs[idx].path || this._pdfTabs[idx].name;
+      this._pdfPersistOpenTabs();
+      this._renderPdfTabs();
+    }
   }
 
   async _togglePinFolder(path) {

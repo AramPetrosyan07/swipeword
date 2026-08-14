@@ -119,6 +119,8 @@ class Store {
     if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
     if (!this.data.pdfRecents) this.data.pdfRecents = [];
     if (!this.data.pdfPinnedFolders) this.data.pdfPinnedFolders = [];
+    if (!this.data.pdfScrollPositions) this.data.pdfScrollPositions = {};
+    if (!this.data.pdfOpenTabs) this.data.pdfOpenTabs = [];
     if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
@@ -157,6 +159,9 @@ class Store {
       pdfFolder: null,
       pdfRecents: [],
       pdfPinnedFolders: [],
+      pdfScrollPositions: {},
+      pdfOpenTabs: [],
+      pdfActiveTab: null,
     };
   }
 
