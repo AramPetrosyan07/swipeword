@@ -172,25 +172,16 @@ class ReaderMode {
       });
       await task.promise;
       if (gen !== this._generation) return;
-      this._splitTextIntoWords(layerEl);
+      this._splitTextIntoWordsFromItems(layerEl, content.items);
     } catch (e) {
       console.warn('Text render failed:', e);
       if (layerEl) layerEl.style.display = 'none';
     }
   }
 
-  _getMeasureCtx() {
-    if (!this._measureCtx) {
-      const canvas = document.createElement('canvas');
-      canvas.width = 100;
-      canvas.height = 100;
-      this._measureCtx = canvas.getContext('2d', { alpha: false });
-    }
-    return this._measureCtx;
-  }
-  _splitTextIntoWords(container) {
-    container.querySelectorAll('br').forEach((br) => br.remove());
-    const textDivs = container.querySelectorAll('span[role="presentation"]');
+  _splitTextIntoWordsFromItems(layerEl, items) {
+    layerEl.querySelectorAll('br').forEach((br) => br.remove());
+    const textDivs = layerEl.querySelectorAll('span[role="presentation"]');
     for (const div of textDivs) {
       const text = div.textContent;
       if (!text) continue;
@@ -200,12 +191,15 @@ class ReaderMode {
       }
       const fontSize = this._divFontSize(div);
       const family = div.style.fontFamily;
+      const weight = div.style.fontWeight || 'normal';
+      const style = div.style.fontStyle || 'normal';
+      const stretch = div.style.fontStretch || 'normal';
       if (!isFinite(fontSize) || fontSize <= 0 || !family) {
         this._splitDivInline(div, text);
         continue;
       }
       const ctx = this._getMeasureCtx();
-      ctx.font = `${fontSize}px ${family}`;
+      ctx.font = `${style} ${weight} ${stretch} ${fontSize}px ${family}`;
       let m0;
       try {
         m0 = ctx.measureText('');
@@ -267,6 +261,16 @@ class ReaderMode {
       div.textContent = '';
       div.appendChild(frag);
     }
+  }
+
+  _getMeasureCtx() {
+    if (!this._measureCtx) {
+      const canvas = document.createElement('canvas');
+      canvas.width = 100;
+      canvas.height = 100;
+      this._measureCtx = canvas.getContext('2d', { alpha: false });
+    }
+    return this._measureCtx;
   }
 
   _divFontSize(div) {
