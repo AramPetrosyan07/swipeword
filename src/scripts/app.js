@@ -52,11 +52,16 @@ class App {
 
     this._pdfTabs = [];
     this._pdfActiveTab = -1;
+    this._pdfSidebarWords = [];
+    this._translationSidebarVisible = false;
 
     this.translationPopup = new TranslationPopup();
     this.translationPopup.onSave = () => {
       if (this._readSourceInfo && this._readSourceInfo.type === 'youtube') {
         this._renderYoutubeSavedWords();
+      }
+      if (this._readCurrentPage === 'pdf') {
+        this._loadPdfSidebarWords();
       }
     };
     this.wordsPage = new WordsPage();
@@ -1310,6 +1315,7 @@ class App {
     this._readerSettingsMode = false;
     this._readerEditMode = false;
     this._pdfViewMode = appStore.data.pdfViewMode || 'viewer';
+    this._translationSidebarVisible = !!(appStore.data && appStore.data.translationSidebar);
 
     pdfAnnot.bind(document.getElementById('pdfPages'));
 
@@ -1327,6 +1333,11 @@ class App {
       themeManager.toggle();
       this._updateSidebar();
     });
+
+    document.getElementById('btnTranslationSidebar').addEventListener('click', () => {
+      this._toggleTranslationSidebar();
+    });
+    this._applyTranslationSidebar(false);
 
     document.getElementById('btnReadText').addEventListener('click', () => {
       this._loadTextContent();
@@ -1604,6 +1615,7 @@ class App {
 
     document.getElementById('btnReaderBack').style.display = mode === 'pdf' ? 'none' : '';
     document.getElementById('btnReaderMenu').style.display = '';
+    this._updateTranslationSidebarBtnVisibility();
 
     if (mode === 'pdf') {
       this._activatePdfRail();
@@ -1637,6 +1649,7 @@ class App {
     document.getElementById('btnReaderBack').style.display = 'none';
     document.getElementById('btnReaderMenu').style.display = '';
     this._readCurrentPage = null;
+    this._updateTranslationSidebarBtnVisibility();
   }
 
   _bindPdfLayers(sourceInfo) {
@@ -1741,6 +1754,7 @@ class App {
     document.getElementById('pdfLibrary').style.display = 'none';
     document.getElementById('pdfTabsBar').style.display = 'flex';
     document.getElementById('readContentAreaPdf').style.display = 'block';
+    document.getElementById('pdfSplit').style.display = '';
     document.getElementById('pdfViewer').style.display = 'flex';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
@@ -1754,6 +1768,8 @@ class App {
     const sourceInfo = { type: 'pdf', title: tab.name, id: Date.now().toString(36) };
     this._readSourceInfo = sourceInfo;
     this._bindPdfLayers(sourceInfo);
+    this._updateTranslationSidebarBtnVisibility();
+    this._loadPdfSidebarWords();
   }
 
   _renderPdfTabs() {
@@ -1808,6 +1824,8 @@ class App {
       this._pdfActiveTab = -1;
       appStore.data.pdfActiveTab = null;
       this._readSourceInfo = null;
+      this._pdfSidebarWords = [];
+      this._translationSidebarRender();
       readerMode.reset();
       const bar = document.getElementById('pdfTabsBar');
       const strip = document.getElementById('pdfTabsStrip');
@@ -1869,6 +1887,78 @@ class App {
     if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
     appStore.data.pdfScrollPositions[key] = tab.scrollTop;
     appStore.save();
+  }
+
+  _updateTranslationSidebarBtnVisibility() {
+    const btn = document.getElementById('btnTranslationSidebar');
+    if (btn) btn.style.display = this._readCurrentPage === 'pdf' ? '' : 'none';
+  }
+
+  _toggleTranslationSidebar() {
+    this._translationSidebarVisible = !this._translationSidebarVisible;
+    if (appStore.data) {
+      appStore.data.translationSidebar = this._translationSidebarVisible;
+      appStore.save();
+    }
+    this._applyTranslationSidebar(true);
+  }
+
+  _applyTranslationSidebar(refit) {
+    const sidebar = document.getElementById('translationSidebar');
+    const btn = document.getElementById('btnTranslationSidebar');
+    if (sidebar) sidebar.style.display = this._translationSidebarVisible ? 'flex' : 'none';
+    if (btn) btn.classList.toggle('active', this._translationSidebarVisible);
+    if (refit && this._readCurrentPage === 'pdf') {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          if (this._readCurrentPage === 'pdf') readerMode.fitToWidth();
+        });
+      });
+    }
+  }
+
+  async _loadPdfSidebarWords() {
+    const tab = this._pdfTabs[this._pdfActiveTab];
+    if (!tab) {
+      this._pdfSidebarWords = [];
+      this._translationSidebarRender();
+      return;
+    }
+    try {
+      const allWords = await window.electronAPI.dictionaryLoad();
+      this._pdfSidebarWords = (allWords || [])
+        .filter((w) => w.sourceType === 'pdf' && w.sourceTitle === tab.name)
+        .sort((a, b) => b.timestamp - a.timestamp);
+    } catch (e) {
+      this._pdfSidebarWords = [];
+    }
+    this._translationSidebarRender();
+  }
+
+  _translationSidebarRender() {
+    const listEl = document.getElementById('translationSidebarList');
+    const countEl = document.getElementById('translationSidebarCount');
+    const seen = new Set();
+    const words = [];
+    for (const w of this._pdfSidebarWords || []) {
+      const key = (w.word || '').toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      words.push(w);
+    }
+    if (countEl) countEl.textContent = String(words.length);
+    if (!listEl) return;
+    if (words.length === 0) {
+      listEl.innerHTML = '<div class="translation-sidebar-empty">No saved words yet.<br>Select a word on the PDF and save it to see it here.</div>';
+      return;
+    }
+    listEl.innerHTML = words.map((w) => {
+      const trans = w.translation || '';
+      return '<div class="translation-sidebar-item">' +
+        '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
+        (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
+        '</div>';
+    }).join('');
   }
 
   _pdfPersistOpenTabs() {
@@ -2559,6 +2649,7 @@ class App {
       document.getElementById('pdfLibrary').style.display = 'none';
       document.getElementById('pdfTabsBar').style.display = 'none';
       document.getElementById('readContentAreaPdf').style.display = 'block';
+      document.getElementById('pdfSplit').style.display = 'none';
       document.getElementById('pdfViewer').style.display = 'none';
       document.getElementById('readTextViewPdf').style.display = 'block';
       document.getElementById('readTextViewPdf').innerHTML = text;

@@ -470,6 +470,23 @@ class ReaderMode {
     }
   }
 
+  async fitToWidth() {
+    if (!this.pdfDoc) return;
+    const container = document.getElementById('pdfViewerScroll');
+    const anchorPage = this.pageNum;
+    let anchorOffset = 0;
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
+    }
+    await this._fitWidth();
+    await this._resizeScrollSlots();
+    this._buildPageOffsets();
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
+    }
+    this.onScroll(true);
+  }
+
   reset() {
     this.pdfDoc = null;
     this.pageNum = 1;

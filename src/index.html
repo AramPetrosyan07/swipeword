@@ -841,6 +841,7 @@
         <div class="reader-toolbar-right">
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
+          <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
           <button class="icon-btn" id="btnReaderEditBtn" title="Annotate PDF">&#9998;</button>
           <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
           <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
@@ -915,17 +916,26 @@
           <div class="pdf-tabs-strip" id="pdfTabsStrip"></div>
         </div>
         <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
-          <div class="pdf-viewer" id="pdfViewer">
-            <div class="pdf-viewer-scroll" id="pdfViewerScroll">
-              <div class="pdf-pages" id="pdfPages" style="display:none;"></div>
+          <div class="pdf-split" id="pdfSplit">
+            <div class="pdf-viewer" id="pdfViewer">
+              <div class="pdf-viewer-scroll" id="pdfViewerScroll">
+                <div class="pdf-pages" id="pdfPages" style="display:none;"></div>
+              </div>
+              <div class="pdf-viewer-controls">
+                <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
+                <span class="pdf-page-info" id="pdfPageInfo">
+                  Page <span id="pdfPageNum">1</span> of <span id="pdfPageCount">1</span>
+                </span>
+                <button class="pdf-nav-btn" id="pdfNextPage" title="Next page">&#9654;</button>
+                <span class="pdf-zoom-info" id="pdfZoomInfo">100%</span>
+              </div>
             </div>
-            <div class="pdf-viewer-controls">
-              <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
-              <span class="pdf-page-info" id="pdfPageInfo">
-                Page <span id="pdfPageNum">1</span> of <span id="pdfPageCount">1</span>
-              </span>
-              <button class="pdf-nav-btn" id="pdfNextPage" title="Next page">&#9654;</button>
-              <span class="pdf-zoom-info" id="pdfZoomInfo">100%</span>
+            <div class="translation-sidebar" id="translationSidebar" style="display:none;">
+              <div class="translation-sidebar-header">
+                <span class="translation-sidebar-title">Saved Translations</span>
+                <span class="translation-sidebar-count" id="translationSidebarCount">0</span>
+              </div>
+              <div class="translation-sidebar-list" id="translationSidebarList"></div>
             </div>
           </div>
           <div class="read-text-view" id="readTextViewPdf" style="display:none;"></div>

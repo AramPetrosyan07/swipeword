@@ -116,6 +116,7 @@ class Store {
     if (!this.data.greenStars) this.data.greenStars = [];
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
+    if (this.data.translationSidebar === undefined) this.data.translationSidebar = false;
     if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
     if (!this.data.pdfRecents) this.data.pdfRecents = [];
     if (!this.data.pdfPinnedFolders) this.data.pdfPinnedFolders = [];
@@ -163,6 +164,7 @@ class Store {
       pdfOpenTabs: [],
       pdfActiveTab: null,
       pdfViewMode: 'viewer',
+      translationSidebar: false,
       pdfAnnotations: {},
     };
   }
