@@ -622,6 +622,7 @@ class App {
   }
 
   _activatePdfRail() {
+    this._pdfRailActivatedAt = performance.now();
     document.body.classList.add('pdf-rail', 'pdf-rail-collapsed');
     const sidebar = document.getElementById('sidebar');
     sidebar.classList.remove('open');
@@ -630,6 +631,14 @@ class App {
     const btn = document.getElementById('btnSidebarClose');
     if (btn) btn.style.display = 'none';
     this._updateSidebar();
+  }
+
+  _pdfRailSettled() {
+    if (!document.body.classList.contains('pdf-rail')) return Promise.resolve();
+    const elapsed = performance.now() - (this._pdfRailActivatedAt || 0);
+    const wait = Math.max(0, 360 - elapsed);
+    if (wait <= 0) return Promise.resolve();
+    return new Promise((r) => setTimeout(r, wait));
   }
 
   _deactivatePdfRail() {
@@ -1531,11 +1540,14 @@ class App {
 
     if (mode === 'pdf') {
       this._activatePdfRail();
-      if (this._pdfTabs.length > 0) {
-        this._showPdfTab(Math.max(0, this._pdfActiveTab));
-      } else {
-        this._scanPdfLibrary();
-      }
+      this._pdfRailSettled().then(() => {
+        if (this._readCurrentPage !== 'pdf') return;
+        if (this._pdfTabs.length > 0) {
+          this._showPdfTab(Math.max(0, this._pdfActiveTab));
+        } else {
+          this._scanPdfLibrary();
+        }
+      });
     } else {
       this._deactivatePdfRail();
     }
@@ -1657,6 +1669,7 @@ class App {
     document.getElementById('readTextViewPdf').innerHTML = '';
     document.getElementById('readerLangBar').style.display = 'flex';
     this._applyReaderLangPrefs();
+    await this._pdfRailSettled();
     await readerMode.loadPdfDoc(tab.doc);
     if (scrollContainer && tab.scrollTop > 0) {
       scrollContainer.scrollTop = tab.scrollTop;
@@ -1855,10 +1868,13 @@ class App {
       document.getElementById('screen-reader').classList.add('active');
     }
     if (this._readCurrentPage !== 'pdf') this._openReadPage('pdf');
-    if (view === 'viewer') this._pdfShowViewer();
-    else if (view === 'recent') this._pdfShowRecents();
-    else if (view === 'pinned') this._pdfShowPinned();
-    else this._pdfOpenLast();
+    this._pdfRailSettled().then(() => {
+      if (this._readCurrentPage !== 'pdf') return;
+      if (view === 'viewer') this._pdfShowViewer();
+      else if (view === 'recent') this._pdfShowRecents();
+      else if (view === 'pinned') this._pdfShowPinned();
+      else this._pdfOpenLast();
+    });
   }
 
   _pdfOpenLast() {

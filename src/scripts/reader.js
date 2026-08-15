@@ -10,6 +10,7 @@ class ReaderMode {
     this._generation = 0;
     this._scrollPending = false;
     this._viewports = [];
+    this._renderQueue = Promise.resolve();
   }
 
   async loadPdf(data) {
@@ -47,14 +48,17 @@ class ReaderMode {
     this.rendered.clear();
     this._viewports = [];
     const scale = this.scale;
-    for (let i = 1; i <= this.pageCount; i++) {
-      const page = await this.pdfDoc.getPage(i);
-      const viewport = page.getViewport({ scale });
+    const pages = await Promise.all(
+      Array.from({ length: this.pageCount }, (_, i) => this.pdfDoc.getPage(i + 1))
+    );
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < pages.length; i++) {
+      const viewport = pages[i].getViewport({ scale });
       this._viewports.push(viewport);
 
       const slot = document.createElement('div');
       slot.className = 'pdf-scroll-page';
-      slot.dataset.page = i;
+      slot.dataset.page = i + 1;
       slot.style.height = viewport.height + 'px';
       slot.style.width = viewport.width + 'px';
 
@@ -66,9 +70,10 @@ class ReaderMode {
       layer.className = 'pdf-scroll-layer';
       slot.appendChild(layer);
 
-      container.appendChild(slot);
+      frag.appendChild(slot);
       this.slots.push(slot);
     }
+    container.appendChild(frag);
   }
 
   _buildPageOffsets() {
@@ -96,9 +101,23 @@ class ReaderMode {
     const layerEl = slot.querySelector('.pdf-scroll-layer');
     if (!canvas || !layerEl) return;
     const gen = this._generation;
-    await this.renderPageTo(canvas, layerEl, num, gen);
-    if (gen !== this._generation) return;
-    this.rendered.add(num);
+    const task = this._renderQueue.then(() => {
+      if (gen !== this._generation) return;
+      if (this.rendered.has(num)) return;
+      if (!this._isNearVisible(num)) return;
+      return this.renderPageTo(canvas, layerEl, num, gen).then(() => {
+        if (gen === this._generation) this.rendered.add(num);
+      });
+    }).catch(() => {});
+    this._renderQueue = task;
+    return task;
+  }
+
+  _isNearVisible(num) {
+    const range = this._visiblePageRange();
+    if (!range) return true;
+    const i = num - 1;
+    return i >= range.unloadStart && i <= range.unloadEnd;
   }
 
   async renderPageTo(canvas, layerEl, num, gen) {
@@ -106,7 +125,7 @@ class ReaderMode {
     if (gen !== this._generation) return;
     const viewport = page.getViewport({ scale: this.scale });
 
-    const dpr = window.devicePixelRatio || 1;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
     canvas.width = viewport.width * dpr;
     canvas.height = viewport.height * dpr;
     canvas.style.width = viewport.width + 'px';
@@ -162,7 +181,6 @@ class ReaderMode {
     }
     return this._measureCtx;
   }
-
   _splitTextIntoWords(container) {
     container.querySelectorAll('br').forEach((br) => br.remove());
     const textDivs = container.querySelectorAll('span[role="presentation"]');
@@ -173,9 +191,8 @@ class ReaderMode {
         this._splitDivInline(div, text);
         continue;
       }
-      const cs = getComputedStyle(div);
-      const fontSize = parseFloat(cs.fontSize);
-      const family = cs.fontFamily;
+      const fontSize = this._divFontSize(div);
+      const family = div.style.fontFamily;
       if (!isFinite(fontSize) || fontSize <= 0 || !family) {
         this._splitDivInline(div, text);
         continue;
@@ -240,6 +257,21 @@ class ReaderMode {
       div.textContent = '';
       div.appendChild(frag);
     }
+  }
+
+  _divFontSize(div) {
+    const raw = div.style.fontSize;
+    if (raw) {
+      if (raw.startsWith('calc(')) {
+        const m = raw.match(/calc\(var\(--scale-factor\)\*([\d.]+)px\)/);
+        if (m) return parseFloat(m[1]) * this.scale;
+        const m2 = raw.match(/([\d.]+)px/);
+        if (m2) return parseFloat(m2[1]);
+      }
+      const v = parseFloat(raw);
+      if (isFinite(v)) return v;
+    }
+    return parseFloat(getComputedStyle(div).fontSize);
   }
 
   _splitDivInline(div, text) {
@@ -439,6 +471,7 @@ class ReaderMode {
     this._pageOffsets = [];
     this._viewports = [];
     this._generation++;
+    this._renderQueue = Promise.resolve();
     const pagesEl = document.getElementById('pdfPages');
     if (pagesEl) {
       pagesEl.innerHTML = '';
