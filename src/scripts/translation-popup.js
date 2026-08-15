@@ -204,6 +204,10 @@ class TranslationPopup {
       clearHighlights();
 
       if (wordsCopy.length > 0) {
+        if (typeof pdfAnnot !== 'undefined' && pdfAnnot.isWordToolActive && pdfAnnot.isWordToolActive()) {
+          pdfAnnot.addFromWords(container, wordsCopy);
+          return;
+        }
         showTranslation(wordsCopy, wordsCopy[0]);
       }
     });

@@ -2506,13 +2506,25 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   display: flex !important;
 }
 
-#screen-reader.reader-edit-mode .pdf-scroll-annot {
+#screen-reader.reader-edit-mode:not(.reader-edit-wordtool) .pdf-scroll-annot {
   pointer-events: auto;
   cursor: crosshair;
 }
 
-#screen-reader.reader-edit-mode .pdf-scroll-layer {
+#screen-reader.reader-edit-mode:not(.reader-edit-wordtool) .pdf-scroll-layer {
   pointer-events: none;
+}
+
+#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-annot {
+  pointer-events: none;
+}
+
+#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-layer {
+  pointer-events: auto;
+}
+
+#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-layer .rw-word {
+  cursor: text;
 }
 
 .reader-edit-bar {

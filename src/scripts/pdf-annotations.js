@@ -1,3 +1,5 @@
+const MARKUP_TOOLS = ['highlight', 'underline', 'strike', 'squiggly'];
+
 class PdfAnnotator {
   constructor() {
     this.activeFileKey = null;
@@ -60,8 +62,13 @@ class PdfAnnotator {
     g.setAttribute('data-aid', a.id);
     g.setAttribute('data-page', a.page);
     if (this.selectedId === a.id) g.setAttribute('class', 'annot-selected');
-    const el = this._shapeFor(a, s);
-    if (el) g.appendChild(el);
+    const color = a.color || this.color;
+    if (MARKUP_TOOLS.includes(a.type) && a.words && a.words.length) {
+      a.words.forEach((r) => g.appendChild(this._markupShape(a.type, r, s, color)));
+    } else {
+      const el = this._shapeFor(a, s);
+      if (el) g.appendChild(el);
+    }
     if (a.type === 'link' && a.url) {
       const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
       title.textContent = a.url;
@@ -70,51 +77,63 @@ class PdfAnnotator {
     return g;
   }
 
+  _markupShape(type, r, s, color) {
+    const NS = 'http://www.w3.org/2000/svg';
+    const x = Math.round(r.x * s);
+    const y = Math.round(r.y * s);
+    const w = Math.round((r.x + r.w) * s) - x;
+    const h = Math.round((r.y + r.h) * s) - y;
+    if (type === 'highlight') {
+      const el = document.createElementNS(NS, 'rect');
+      el.setAttribute('x', x);
+      el.setAttribute('y', y);
+      el.setAttribute('width', w);
+      el.setAttribute('height', h);
+      el.setAttribute('fill', color);
+      el.setAttribute('opacity', '0.4');
+      el.setAttribute('stroke', color);
+      el.setAttribute('stroke-width', '1');
+      return el;
+    }
+    if (type === 'underline') {
+      const ly = y + h - 2;
+      return this._mkLine(NS, x, ly, x + w, ly, color, 2);
+    }
+    if (type === 'strike') {
+      const ly = y + Math.round(h / 2);
+      return this._mkLine(NS, x, ly, x + w, ly, color, 2);
+    }
+    if (type === 'squiggly') {
+      const ly = y + h - 2;
+      const p = document.createElementNS(NS, 'path');
+      const amp = 1.6 * s;
+      const period = 3.2 * s;
+      let d = '';
+      const n = Math.max(4, Math.round(Math.abs(w) / period));
+      for (let i = 0; i <= n; i++) {
+        const px = x + (w * i) / n;
+        const py = ly + (i % 2 === 0 ? 0 : amp);
+        d += (i === 0 ? 'M' : 'L') + px.toFixed(1) + ',' + py.toFixed(1) + ' ';
+      }
+      p.setAttribute('d', d);
+      p.setAttribute('fill', 'none');
+      p.setAttribute('stroke', color);
+      p.setAttribute('stroke-width', '2');
+      p.setAttribute('stroke-linecap', 'round');
+      return p;
+    }
+    return null;
+  }
+
   _shapeFor(a, s) {
     const NS = 'http://www.w3.org/2000/svg';
     const color = a.color || this.color;
     switch (a.type) {
-      case 'highlight': {
-        const r = document.createElementNS(NS, 'rect');
-        r.setAttribute('x', a.x * s);
-        r.setAttribute('y', a.y * s);
-        r.setAttribute('width', a.w * s);
-        r.setAttribute('height', a.h * s);
-        r.setAttribute('fill', color);
-        r.setAttribute('opacity', '0.4');
-        r.setAttribute('stroke', color);
-        r.setAttribute('stroke-width', '1');
-        return r;
-      }
-      case 'underline': {
-        const y = (a.y + a.h - 1.5) * s;
-        return this._mkLine(NS, a.x * s, y, (a.x + a.w) * s, y, color, 2);
-      }
-      case 'strike': {
-        const y = (a.y + a.h / 2) * s;
-        return this._mkLine(NS, a.x * s, y, (a.x + a.w) * s, y, color, 2);
-      }
-      case 'squiggly': {
-        const y = (a.y + a.h - 1) * s;
-        const p = document.createElementNS(NS, 'path');
-        const amp = 1.6 * s;
-        const period = 3.2 * s;
-        let d = '';
-        const x0 = a.x * s;
-        const x1 = (a.x + a.w) * s;
-        const n = Math.max(4, Math.round(Math.abs(x1 - x0) / period));
-        for (let i = 0; i <= n; i++) {
-          const px = x0 + ((x1 - x0) * i) / n;
-          const py = y + (i % 2 === 0 ? 0 : amp);
-          d += (i === 0 ? 'M' : 'L') + px.toFixed(1) + ',' + py.toFixed(1) + ' ';
-        }
-        p.setAttribute('d', d);
-        p.setAttribute('fill', 'none');
-        p.setAttribute('stroke', color);
-        p.setAttribute('stroke-width', '2');
-        p.setAttribute('stroke-linecap', 'round');
-        return p;
-      }
+      case 'highlight':
+      case 'underline':
+      case 'strike':
+      case 'squiggly':
+        return this._markupShape(a.type, { x: a.x, y: a.y, w: a.w, h: a.h }, s, color);
       case 'link': {
         const r = document.createElementNS(NS, 'rect');
         r.setAttribute('x', a.x * s);
@@ -202,6 +221,36 @@ class PdfAnnotator {
     return document.getElementById('screen-reader').classList.contains('reader-edit-mode');
   }
 
+  isWordToolActive() {
+    return this._active() && MARKUP_TOOLS.includes(this.tool);
+  }
+
+  _markupWordRect(word) {
+    const layer = word.closest('.pdf-scroll-layer');
+    const lr = layer.getBoundingClientRect();
+    const wr = word.getBoundingClientRect();
+    const s = this.scale();
+    return {
+      x: (wr.left - lr.left) / s,
+      y: (wr.top - lr.top) / s,
+      w: wr.width / s,
+      h: wr.height / s,
+    };
+  }
+
+  _clearWordSel() {
+    document.querySelectorAll('.pdf-scroll-layer .rw-word.selected').forEach((w) => w.classList.remove('selected'));
+  }
+
+  addFromWords(layer, words) {
+    if (!words || !words.length) return;
+    const slot = layer.closest('.pdf-scroll-page');
+    const page = slot ? parseInt(slot.dataset.page, 10) : 1;
+    const rects = words.map((w) => this._markupWordRect(w)).filter((r) => r.w > 0.1 && r.h > 0.1);
+    if (!rects.length) return;
+    this._add({ type: this.tool, page, words: rects, color: this.color });
+  }
+
   _coords(e) {
     const slot = e.target.closest ? e.target.closest('.pdf-scroll-page') : null;
     if (!slot) return null;
@@ -216,6 +265,7 @@ class PdfAnnotator {
 
   _onDown(e) {
     if (!this._active() || !this.tool) return;
+    if (this.isWordToolActive()) return;
     const c = this._coords(e);
     if (!c) return;
     if (this.tool === 'select') {
@@ -317,6 +367,9 @@ class PdfAnnotator {
   setTool(tool) {
     this.tool = tool;
     this.selectedId = null;
+    this._clearWordSel();
+    const screen = document.getElementById('screen-reader');
+    if (screen) screen.classList.toggle('reader-edit-wordtool', MARKUP_TOOLS.includes(tool));
     this.renderAll();
     document.querySelectorAll('#readerEditBar .reader-tool-btn').forEach((b) => {
       b.classList.toggle('active', b.dataset.tool === tool);
@@ -379,23 +432,28 @@ class PdfAnnotator {
         try {
           const top = (y, h) => ph - (y + (h || 0));
           const base = (y) => ph - y;
-          const qp = (x, y, w, h) => [x, base(y + (h || 0)), x + w, base(y + (h || 0)), x, base(y), x + w, base(y)];
           let d = null;
           switch (a.type) {
             case 'highlight':
             case 'underline':
             case 'strike':
-            case 'squiggly':
-              d = {
-                Type: 'Annot',
-                Subtype: a.type === 'highlight' ? 'Highlight' : a.type === 'underline' ? 'Underline' : a.type === 'strike' ? 'StrikeOut' : 'Squiggly',
-                Rect: [a.x, top(a.y, a.h), a.x + a.w, top(a.y, a.h) + a.h],
-                QuadPoints: qp(a.x, a.y, a.w, a.h),
-                C: rgb(a.color),
-                T: 'SwipeWord',
-                M: 'D:' + this._nowStamp(),
-              };
+            case 'squiggly': {
+              const subtype = a.type === 'highlight' ? 'Highlight' : a.type === 'underline' ? 'Underline' : a.type === 'strike' ? 'StrikeOut' : 'Squiggly';
+              const rects = (a.words && a.words.length) ? a.words : [{ x: a.x, y: a.y, w: a.w, h: a.h }];
+              for (const r of rects) {
+                const bottom = top(r.y, r.h);
+                page.node.addAnnot(ctx.register(ctx.obj({
+                  Type: 'Annot',
+                  Subtype: subtype,
+                  Rect: [r.x, bottom, r.x + r.w, bottom + r.h],
+                  QuadPoints: [r.x, bottom + r.h, r.x + r.w, bottom + r.h, r.x, bottom, r.x + r.w, bottom],
+                  C: rgb(a.color),
+                  T: 'SwipeWord',
+                  M: 'D:' + this._nowStamp(),
+                })));
+              }
               break;
+            }
             case 'link':
               d = {
                 Type: 'Annot',
