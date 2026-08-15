@@ -1535,7 +1535,7 @@ class App {
 
     const titles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
     document.getElementById('readerTitle').textContent = titles[mode] || 'Read';
-    document.getElementById('btnReaderBack').style.display = '';
+    document.getElementById('btnReaderBack').style.display = mode === 'pdf' ? 'none' : '';
     document.getElementById('btnReaderMenu').style.display = '';
 
     if (mode === 'pdf') {
