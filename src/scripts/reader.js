@@ -248,14 +248,17 @@ class ReaderMode {
           break;
         }
         bd = Math.abs(bd);
+        const left = m.actualBoundingBoxLeft || 0;
+        const right = m.actualBoundingBoxRight || 0;
+        const visualWidth = right - left;
         const span = document.createElement('span');
         span.className = 'rw-word';
         span.dataset.word = token;
         span.textContent = token;
         span.style.position = 'absolute';
-        span.style.left = cursor + 'px';
+        span.style.left = (cursor + left) + 'px';
         span.style.top = (baseline - ba) + 'px';
-        span.style.width = width + 'px';
+        span.style.width = visualWidth + 'px';
         span.style.height = (ba + bd) + 'px';
         frag.appendChild(span);
         cursor += width;
