@@ -3154,6 +3154,24 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   border-left: 1px solid var(--border);
   background: var(--surface);
   overflow: hidden;
+  position: relative;
+}
+
+.translation-sidebar-resizer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  cursor: col-resize;
+  background: transparent;
+  z-index: 10;
+  touch-action: none;
+}
+
+.translation-sidebar-resizer:hover {
+  background: var(--primary);
+  opacity: 0.5;
 }
 
 .translation-sidebar-header {
@@ -3200,6 +3218,7 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   border: 1px solid var(--border);
   background: var(--bg);
   transition: background 0.15s;
+  position: relative;
 }
 
 .translation-sidebar-word {
@@ -3208,12 +3227,39 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   color: var(--text);
   margin-bottom: 2px;
   word-break: break-word;
+  padding-right: 28px;
 }
 
 .translation-sidebar-trans {
   font-size: 12px;
   color: var(--text-secondary);
   word-break: break-word;
+}
+
+.translation-sidebar-delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s, color 0.15s;
+}
+
+.translation-sidebar-item:hover .translation-sidebar-delete {
+  opacity: 1;
+}
+
+.translation-sidebar-delete:hover {
+  background: var(--danger);
+  color: #fff;
 }
 
 #btnTranslationSidebar.active {

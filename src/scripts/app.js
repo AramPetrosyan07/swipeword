@@ -1337,6 +1337,8 @@ class App {
     document.getElementById('btnTranslationSidebar').addEventListener('click', () => {
       this._toggleTranslationSidebar();
     });
+
+    this._initSidebarResizer();
     this._applyTranslationSidebar(false);
 
     document.getElementById('btnReadText').addEventListener('click', () => {
@@ -1954,11 +1956,67 @@ class App {
     }
     listEl.innerHTML = words.map((w) => {
       const trans = w.translation || '';
-      return '<div class="translation-sidebar-item">' +
+      return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '">' +
         '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
         (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
+        '<button class="translation-sidebar-delete" title="Remove">&#10007;</button>' +
         '</div>';
     }).join('');
+
+    listEl.querySelectorAll('.translation-sidebar-delete').forEach((btn) => {
+      btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const item = btn.closest('.translation-sidebar-item');
+        if (!item) return;
+        const id = item.dataset.id;
+        await this._removeSidebarWord(id);
+      });
+    });
+  }
+
+  async _removeSidebarWord(id) {
+    try {
+      await window.electronAPI.dictionaryRemove(id);
+      this._pdfSidebarWords = this._pdfSidebarWords.filter(w => w.id !== id);
+      this._translationSidebarRender();
+    } catch (e) {
+      console.error('Failed to remove word:', e);
+    }
+  }
+
+  _setSidebarWidth(width) {
+    const sidebar = document.getElementById('translationSidebar');
+    if (sidebar) sidebar.style.width = width + 'px';
+  }
+
+  _initSidebarResizer() {
+    const resizer = document.getElementById('translationSidebarResizer');
+    if (!resizer) return;
+    let startX = 0;
+    let startWidth = 260;
+    let captured = false;
+    resizer.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      startX = e.clientX;
+      startWidth = document.getElementById('translationSidebar').offsetWidth;
+      resizer.setPointerCapture(e.pointerId);
+      captured = true;
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+    });
+    document.addEventListener('pointermove', (e) => {
+      if (!captured) return;
+      const dx = startX - e.clientX;
+      const newWidth = Math.max(180, Math.min(500, startWidth + dx));
+      this._setSidebarWidth(newWidth);
+    });
+    document.addEventListener('pointerup', () => {
+      if (!captured) return;
+      resizer.releasePointerCapture();
+      captured = false;
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
   }
 
   _pdfPersistOpenTabs() {
