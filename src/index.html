@@ -36,6 +36,17 @@
           <button class="sidebar-btn" id="sideVocabLibRead" data-screen="vocablib">
             <span class="sidebar-btn-icon">&#127909;</span> Vocabulary Library
           </button>
+          <div class="sidebar-mode-divider"></div>
+          <div class="sidebar-mode-switch" id="topbarModeSwitchRead">
+            <button class="sidebar-mode-btn" data-mode="learn" title="Learn Words">
+              <span class="sidebar-mode-icon">&#128214;</span>
+              <span class="sidebar-mode-label">Words</span>
+            </button>
+            <button class="sidebar-mode-btn active" data-mode="read" title="Read">
+              <span class="sidebar-mode-icon">&#128218;</span>
+              <span class="sidebar-mode-label">Read</span>
+            </button>
+          </div>
         </div>
       </div>
       <div id="sidebarLearnContent">
@@ -791,35 +802,28 @@
 
     <!-- Reader Screen -->
     <div id="screen-reader" class="screen">
-      <div class="reader-toolbar">
-        <div class="top-left">
+      <div class="reader-toolbar" id="readerToolbar">
+        <div class="reader-toolbar-left">
           <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
           <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back">&#8592;</button>
-          <div class="topbar-mode-switch" id="topbarModeSwitchRead">
-            <button class="topbar-mode-btn" data-mode="learn" title="Learn Words">
-              <span class="topbar-mode-icon">&#128214;</span>
-              <span class="topbar-mode-label">Words</span>
-            </button>
-            <button class="topbar-mode-btn active" data-mode="read" title="Read">
-              <span class="topbar-mode-icon">&#128218;</span>
-              <span class="topbar-mode-label">Read</span>
-            </button>
-          </div>
-          <div class="reader-lang-bar" id="readerLangBar" style="display:none;">
-            <select id="readerSourceLang" class="reader-lang-select" title="Source language (the language of the book)"></select>
-            <select id="readerTargetLang" class="reader-lang-select" title="Target language (translate to)"></select>
-            <select id="readerWordCount" class="reader-lang-select reader-lang-count" title="Number of translations per word">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3" selected>3</option>
-              <option value="4">4</option>
-            </select>
-          </div>
         </div>
-        <span class="reader-title" id="readerTitle">Read</span>
-        <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
-        <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
-        <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
+        <div class="reader-lang-bar" id="readerLangBar" style="display:none;">
+          <select id="readerSourceLang" class="reader-lang-select" title="Source language (the language of the book)"></select>
+          <select id="readerTargetLang" class="reader-lang-select" title="Target language (translate to)"></select>
+          <select id="readerWordCount" class="reader-lang-select reader-lang-count" title="Number of translations per word">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+          </select>
+          <button class="icon-btn reader-lang-close" id="btnReaderLangClose" title="Close language settings">&times;</button>
+        </div>
+        <div class="reader-toolbar-right">
+          <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
+          <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
+          <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
+          <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
+        </div>
       </div>
 
       <!-- Home: 3 mode buttons -->
@@ -888,7 +892,6 @@
         </div>
         <div class="pdf-tabs" id="pdfTabsBar" style="display:none;">
           <div class="pdf-tabs-strip" id="pdfTabsStrip"></div>
-          <button class="btn btn-secondary btn-sm" id="btnReadNewPdf">&#8592; New</button>
         </div>
         <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
           <div class="pdf-viewer" id="pdfViewer">

@@ -215,7 +215,7 @@ class App {
     document.getElementById('sidePdfPinned').addEventListener('click', () => this._pdfShowSidebarView('pinned'));
     document.getElementById('sidePdfLast').addEventListener('click', () => this._pdfShowSidebarView('last'));
 
-    document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
+    document.querySelectorAll('.topbar-mode-btn, .sidebar-mode-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
         const mode = btn.dataset.mode;
         if (mode !== this._currentAppMode) {
@@ -398,6 +398,10 @@ class App {
           translatePopup.style.display = 'none';
           return;
         }
+        if (this._readerSettingsMode) {
+          this._setReaderSettingsMode(false);
+          return;
+        }
         const notePopup = document.getElementById('noteEditorPopup');
         if (notePopup.style.display === 'flex') {
           this._closeNoteEditor();
@@ -538,7 +542,7 @@ class App {
 
   _switchAppMode(mode) {
     this._currentAppMode = mode;
-    document.querySelectorAll('.topbar-mode-btn').forEach((btn) => {
+    document.querySelectorAll('.topbar-mode-btn, .sidebar-mode-btn').forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.mode === mode);
     });
     if (mode === 'read') {
@@ -1257,6 +1261,12 @@ class App {
     } catch (e) {}
   }
 
+  _setReaderSettingsMode(on) {
+    this._readerSettingsMode = on;
+    document.getElementById('screen-reader').classList.toggle('reader-settings-mode', on);
+    if (on) this._applyReaderLangPrefs();
+  }
+
   _applyReaderLangPrefs() {
     const sourceSel = document.getElementById('readerSourceLang');
     const targetSel = document.getElementById('readerTargetLang');
@@ -1271,6 +1281,7 @@ class App {
     this._readCurrentPage = null;
     this._readPdfFile = null;
     this._readPdfPath = null;
+    this._readerSettingsMode = false;
     this._pdfViewMode = appStore.data.pdfViewMode || 'viewer';
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
@@ -1321,9 +1332,6 @@ class App {
     document.getElementById('btnReadPdf').addEventListener('click', () => {
       this._loadPdfContent();
     });
-    document.getElementById('btnReadNewPdf').addEventListener('click', () => {
-      this._resetReadPage();
-    });
     document.getElementById('btnPdfChooseFolder').addEventListener('click', () => {
       this._pdfChooseFolder();
     });
@@ -1361,6 +1369,13 @@ class App {
       const collapsed = bar.classList.toggle('yt-lang-collapsed');
       btn.innerHTML = collapsed ? '&#9660;' : '&#9650;';
       btn.title = collapsed ? 'Show settings bar' : 'Hide settings bar';
+    });
+
+    document.getElementById('btnReaderLangBtn').addEventListener('click', () => {
+      this._setReaderSettingsMode(true);
+    });
+    document.getElementById('btnReaderLangClose').addEventListener('click', () => {
+      this._setReaderSettingsMode(false);
     });
 
     document.getElementById('btnYtPrev').addEventListener('click', () => {
@@ -1533,8 +1548,6 @@ class App {
     const pageEl = document.getElementById('read-page-' + mode);
     if (pageEl) pageEl.classList.add('active');
 
-    const titles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
-    document.getElementById('readerTitle').textContent = titles[mode] || 'Read';
     document.getElementById('btnReaderBack').style.display = mode === 'pdf' ? 'none' : '';
     document.getElementById('btnReaderMenu').style.display = '';
 
@@ -1567,7 +1580,6 @@ class App {
     this._deactivatePdfRail();
     document.getElementById('readHome').style.display = '';
     document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
-    document.getElementById('readerTitle').textContent = 'Read';
     document.getElementById('btnReaderBack').style.display = 'none';
     document.getElementById('btnReaderMenu').style.display = '';
     this._readCurrentPage = null;
@@ -1677,7 +1689,6 @@ class App {
     document.getElementById('pdfViewer').style.display = 'flex';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
-    document.getElementById('readerLangBar').style.display = 'flex';
     this._applyReaderLangPrefs();
     await this._pdfRailSettled();
     await readerMode.loadPdfDoc(tab.doc);
@@ -2448,7 +2459,6 @@ class App {
     if (sourceType === 'youtube' && videoId) {
       document.getElementById('read-page-youtube').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('readCollapsedBarYoutube').style.display = 'none';
-      document.getElementById('readerTitle').textContent = title;
       document.getElementById('btnReadNewToolbar').style.display = '';
       document.getElementById('btnReaderLangBarToggle').style.display = '';
       document.getElementById('readYoutubeArea').style.display = 'flex';
@@ -2827,6 +2837,7 @@ class App {
 
   _resetReadPage() {
     this._stopYoutubeSync();
+    this._setReaderSettingsMode(false);
     document.getElementById('readerTranslatePopup').style.display = 'none';
     this._readSourceInfo = null;
 
@@ -2866,12 +2877,9 @@ class App {
     document.getElementById('pdfTabsBar').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
     document.getElementById('pdfViewer').style.display = '';
-    document.getElementById('readerLangBar').style.display = 'none';
     document.getElementById('readTextViewPdf').innerHTML = '';
     document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = '';
-    const resetTitles = { text: 'Text Reader', pdf: 'PDF Reader', youtube: 'YouTube Reader' };
-    document.getElementById('readerTitle').textContent = resetTitles[this._readCurrentPage] || 'Read';
   }
 }
 

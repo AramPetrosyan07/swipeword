@@ -788,6 +788,12 @@ body.pdf-rail .sidebar.collapsed {
   border-radius: var(--radius-sm);
   padding: 2px;
   gap: 2px;
+  margin: 0 14px 4px;
+}
+
+.sidebar-mode-divider {
+  border-top: 1px solid var(--border);
+  margin: 8px 14px 10px;
 }
 
 .sidebar-mode-btn {
@@ -975,6 +981,11 @@ body.pdf-rail .sidebar.collapsed .sidebar-btn .sidebar-btn-icon {
 }
 
 body.pdf-rail .sidebar.collapsed .sidebar-toggle {
+  display: none;
+}
+
+body.pdf-rail .sidebar.collapsed .sidebar-mode-switch,
+body.pdf-rail .sidebar.collapsed .sidebar-mode-divider {
   display: none;
 }
 
@@ -2416,6 +2427,7 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 .reader-toolbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 12px;
   padding: 8px 16px;
   background: var(--surface);
@@ -2423,24 +2435,22 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   z-index: 10;
 }
 
-.reader-title {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text);
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.reader-toolbar-left,
+.reader-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .reader-lang-bar {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-left: 12px;
-  padding-left: 12px;
-  border-left: 1px solid var(--border);
+}
+
+.reader-lang-close {
+  font-size: 16px;
+  padding: 4px 8px;
 }
 
 .reader-lang-select {
@@ -2462,6 +2472,23 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 #btnReaderLangBarToggle {
   font-size: 13px;
   padding: 4px 6px;
+}
+
+/* Reader toolbar: language settings mode */
+#screen-reader.reader-settings-mode #btnReaderMenu,
+#screen-reader.reader-settings-mode #btnReaderBack,
+#screen-reader.reader-settings-mode #btnReaderLangBtn,
+#screen-reader.reader-settings-mode #btnReadNewToolbar,
+#screen-reader.reader-settings-mode #btnReaderLangBarToggle {
+  display: none !important;
+}
+
+#screen-reader.reader-settings-mode #readerLangBar {
+  display: flex !important;
+}
+
+#screen-reader.reader-settings-mode #pdfTabsBar {
+  display: none !important;
 }
 
 /* Translate popup */
