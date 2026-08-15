@@ -3278,6 +3278,30 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   display: none;
 }
 
+body.theme-dark .pdf-viewer-scroll {
+  background: var(--bg);
+}
+
+body.theme-dark .pdf-scroll-page {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+body.theme-dark .pdf-scroll-canvas {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body.theme-dark .pdf-scroll-layer {
+  color: #fff;
+}
+
+body.theme-dark .pdf-scroll-layer .rw-word:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+body.theme-dark .pdf-scroll-layer .rw-word.selected {
+  background: rgba(108, 99, 255, 0.42);
+}
+
 .pdf-pages {
   display: flex;
   flex-direction: column;
