@@ -1271,7 +1271,7 @@ class App {
     this._readCurrentPage = null;
     this._readPdfFile = null;
     this._readPdfPath = null;
-    this._pdfViewMode = 'viewer';
+    this._pdfViewMode = appStore.data.pdfViewMode || 'viewer';
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
       card.addEventListener('click', () => {
@@ -1540,17 +1540,26 @@ class App {
 
     if (mode === 'pdf') {
       this._activatePdfRail();
-      this._pdfRailSettled().then(() => {
-        if (this._readCurrentPage !== 'pdf') return;
-        if (this._pdfTabs.length > 0) {
-          this._showPdfTab(Math.max(0, this._pdfActiveTab));
-        } else {
-          this._scanPdfLibrary();
-        }
-      });
+      this._showPdfView(this._pdfViewMode);
     } else {
       this._deactivatePdfRail();
     }
+  }
+
+  _setPdfViewMode(view) {
+    this._pdfViewMode = view;
+    if (appStore.data) {
+      appStore.data.pdfViewMode = view;
+      appStore.save();
+    }
+    this._syncPdfSidebarButtons();
+  }
+
+  _showPdfView(view) {
+    if (view === 'recent') this._pdfShowRecents();
+    else if (view === 'pinned') this._pdfShowPinned();
+    else if (view === 'last') this._pdfOpenLast();
+    else this._pdfShowViewer();
   }
 
   _backToReadHome() {
@@ -1659,6 +1668,7 @@ class App {
     }
     this._pdfActiveTab = index;
     appStore.data.pdfActiveTab = tab.path || tab.name;
+    this._setPdfViewMode('last');
     this._renderPdfTabs();
     document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = 'none';
@@ -1762,8 +1772,7 @@ class App {
   _pdfOpenPath(path) {
     this._addPdfRecent(path.replace(/.*[/\\]/, '').replace(/\.pdf$/i, ''), path);
     this._resetReadPage();
-    this._pdfViewMode = 'last';
-    this._syncPdfSidebarButtons();
+    this._setPdfViewMode('last');
     this._readPdfPath = path;
     document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
     this._loadPdfContent();
@@ -1860,21 +1869,17 @@ class App {
 
   _pdfShowSidebarView(view) {
     if (!document.body.classList.contains('pdf-rail')) this._closeSidebar();
-    this._pdfViewMode = view;
-    this._syncPdfSidebarButtons();
+    this._setPdfViewMode(view);
     if (this._currentAppMode !== 'read') this._switchAppMode('read');
     if (document.querySelector('.screen.active') !== document.getElementById('screen-reader')) {
       document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
       document.getElementById('screen-reader').classList.add('active');
     }
-    if (this._readCurrentPage !== 'pdf') this._openReadPage('pdf');
-    this._pdfRailSettled().then(() => {
-      if (this._readCurrentPage !== 'pdf') return;
-      if (view === 'viewer') this._pdfShowViewer();
-      else if (view === 'recent') this._pdfShowRecents();
-      else if (view === 'pinned') this._pdfShowPinned();
-      else this._pdfOpenLast();
-    });
+    if (this._readCurrentPage !== 'pdf') {
+      this._openReadPage('pdf');
+    } else {
+      this._showPdfView(view);
+    }
   }
 
   _pdfOpenLast() {
@@ -1976,8 +1981,7 @@ class App {
         if (e.target.closest('.pdf-library-item-pin')) return;
         this._pdfDirStack = [path];
         this._pdfThumbQueue.length = 0;
-        this._pdfViewMode = 'viewer';
-        this._syncPdfSidebarButtons();
+        this._setPdfViewMode('viewer');
         this._pdfRenderCurrent();
       });
       row.querySelector('.pdf-library-item-pin').addEventListener('click', async (e) => {

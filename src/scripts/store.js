@@ -162,6 +162,7 @@ class Store {
       pdfScrollPositions: {},
       pdfOpenTabs: [],
       pdfActiveTab: null,
+      pdfViewMode: 'viewer',
     };
   }
 
