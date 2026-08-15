@@ -1298,6 +1298,54 @@ class App {
     }
   }
 
+  _setThemeColorsMode(on) {
+    this._themeColorsMode = on;
+    document.getElementById('screen-reader').classList.toggle('theme-colors-mode', on);
+    if (on) this._loadThemeColors();
+  }
+
+  _loadThemeColors() {
+    const light = themeManager.lightColors || {};
+    const dark = themeManager.darkColors || {};
+    document.getElementById('themeLightBg').value = light.bg || '#f5f5f5';
+    document.getElementById('themeLightText').value = light.text || '#1a1a2e';
+    document.getElementById('themeLightPdfBg').value = light.pdfBg || '#ffffff';
+    document.getElementById('themeLightPdfText').value = light.pdfText || '#00000000';
+    document.getElementById('themeLightSelect').value = light.select || '#6c63ff';
+    document.getElementById('themeLightPdfSelect').value = light.pdfSelect || '#6c63ff38';
+    document.getElementById('themeDarkBg').value = dark.bg || '#1a1a2e';
+    document.getElementById('themeDarkText').value = dark.text || '#e0e0e0';
+    document.getElementById('themeDarkPdfBg').value = dark.pdfBg || '#16213e';
+    document.getElementById('themeDarkPdfText').value = dark.pdfText || '#ffffff';
+    document.getElementById('themeDarkSelect').value = dark.select || '#6c63ff';
+    document.getElementById('themeDarkPdfSelect').value = dark.pdfSelect || '#6c63ff6b';
+  }
+
+  _applyThemeColors() {
+    const light = {
+      bg: document.getElementById('themeLightBg').value,
+      text: document.getElementById('themeLightText').value,
+      pdfBg: document.getElementById('themeLightPdfBg').value,
+      pdfText: document.getElementById('themeLightPdfText').value,
+      select: document.getElementById('themeLightSelect').value,
+      pdfSelect: document.getElementById('themeLightPdfSelect').value,
+    };
+    const dark = {
+      bg: document.getElementById('themeDarkBg').value,
+      text: document.getElementById('themeDarkText').value,
+      pdfBg: document.getElementById('themeDarkPdfBg').value,
+      pdfText: document.getElementById('themeDarkPdfText').value,
+      select: document.getElementById('themeDarkSelect').value,
+      pdfSelect: document.getElementById('themeDarkPdfSelect').value,
+    };
+    themeManager.setCustomColors(light, dark);
+  }
+
+  _resetThemeColors() {
+    themeManager.resetCustomColors();
+    this._loadThemeColors();
+  }
+
   _applyReaderLangPrefs() {
     const sourceSel = document.getElementById('readerSourceLang');
     const targetSel = document.getElementById('readerTargetLang');
@@ -1336,6 +1384,22 @@ class App {
 
     document.getElementById('btnTranslationSidebar').addEventListener('click', () => {
       this._toggleTranslationSidebar();
+    });
+
+    document.getElementById('btnThemeColors').addEventListener('click', () => {
+      this._setThemeColorsMode(true);
+    });
+
+    document.getElementById('btnThemeColorsClose').addEventListener('click', () => {
+      this._setThemeColorsMode(false);
+    });
+
+    document.getElementById('btnThemeColorsReset').addEventListener('click', () => {
+      this._resetThemeColors();
+    });
+
+    document.querySelectorAll('#themeColorsBar input[type="color"]').forEach((input) => {
+      input.addEventListener('change', () => this._applyThemeColors());
     });
 
     this._initSidebarResizer();

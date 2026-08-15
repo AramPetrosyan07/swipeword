@@ -842,9 +842,51 @@
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
           <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
+          <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#128249;</button>
           <button class="icon-btn" id="btnReaderEditBtn" title="Annotate PDF">&#9998;</button>
           <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
           <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
+        </div>
+        <div class="theme-colors-bar" id="themeColorsBar" style="display:none;">
+          <div class="theme-colors-header">
+            <span class="theme-colors-title">&#128249; Customize Colors</span>
+            <button class="icon-btn" id="btnThemeColorsClose" title="Close">&#10007;</button>
+          </div>
+          <div class="theme-colors-grid">
+            <fieldset class="theme-color-group">
+              <legend>Light Mode</legend>
+              <div class="theme-color-row">
+                <label><span>BG</span><input type="color" id="themeLightBg" value="#f5f5f5" /></label>
+                <label><span>Text</span><input type="color" id="themeLightText" value="#1a1a2e" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>PDF BG</span><input type="color" id="themeLightPdfBg" value="#ffffff" /></label>
+                <label><span>PDF Text</span><input type="color" id="themeLightPdfText" value="#00000000" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>Select</span><input type="color" id="themeLightSelect" value="#6c63ff" /></label>
+                <label><span>PDF Select</span><input type="color" id="themeLightPdfSelect" value="#6c63ff38" /></label>
+              </div>
+            </fieldset>
+            <fieldset class="theme-color-group">
+              <legend>Dark Mode</legend>
+              <div class="theme-color-row">
+                <label><span>BG</span><input type="color" id="themeDarkBg" value="#1a1a2e" /></label>
+                <label><span>Text</span><input type="color" id="themeDarkText" value="#e0e0e0" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>PDF BG</span><input type="color" id="themeDarkPdfBg" value="#16213e" /></label>
+                <label><span>PDF Text</span><input type="color" id="themeDarkPdfText" value="#ffffff" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>Select</span><input type="color" id="themeDarkSelect" value="#6c63ff" /></label>
+                <label><span>PDF Select</span><input type="color" id="themeDarkPdfSelect" value="#6c63ff6b" /></label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="theme-colors-actions">
+            <button class="btn btn-secondary btn-sm" id="btnThemeColorsReset">&#8634; Reset to Defaults</button>
+          </div>
         </div>
       </div>
 
