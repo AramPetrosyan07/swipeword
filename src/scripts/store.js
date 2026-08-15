@@ -163,6 +163,7 @@ class Store {
       pdfOpenTabs: [],
       pdfActiveTab: null,
       pdfViewMode: 'viewer',
+      pdfAnnotations: {},
     };
   }
 

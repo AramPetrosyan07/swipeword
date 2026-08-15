@@ -5,6 +5,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   openPDFDialog: () => ipcRenderer.invoke('dialog:openPDF'),
   chooseFolder: () => ipcRenderer.invoke('dialog:openDirectory'),
   readFile: (filePath) => ipcRenderer.invoke('file:read', filePath),
+  savePdf: (data, defaultName) => ipcRenderer.invoke('dialog:savePDF', data, defaultName),
   storeLoad: () => ipcRenderer.invoke('store:load'),
   storeSave: (data) => ipcRenderer.invoke('store:save', data),
   storeLoadDictionary: () => ipcRenderer.invoke('store:loadDictionary'),

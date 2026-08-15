@@ -322,6 +322,22 @@ ipcMain.handle("file:read", async (_event, filePath) => {
   }
 });
 
+ipcMain.handle("dialog:savePDF", async (_event, data, defaultName) => {
+  const result = await dialog.showSaveDialog(mainWindow, {
+    title: "Save annotated PDF",
+    defaultPath: defaultName,
+    filters: [{ name: "PDF Files", extensions: ["pdf"] }],
+  });
+  if (result.canceled || !result.filePath) return { success: false, canceled: true };
+  try {
+    fs.writeFileSync(result.filePath, Buffer.from(data));
+    return { success: true, filePath: result.filePath };
+  } catch (e) {
+    console.error("Failed to save PDF:", e);
+    return { success: false, error: e.message };
+  }
+});
+
 ipcMain.handle("fs:readdir", async (_event, dirPath) => {
   try {
     const entries = fs.readdirSync(dirPath, { withFileTypes: true });

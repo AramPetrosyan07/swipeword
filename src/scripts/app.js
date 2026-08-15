@@ -398,6 +398,10 @@ class App {
           translatePopup.style.display = 'none';
           return;
         }
+        if (this._readerEditMode) {
+          this._setReaderEditMode(false);
+          return;
+        }
         if (this._readerSettingsMode) {
           this._setReaderSettingsMode(false);
           return;
@@ -1267,6 +1271,28 @@ class App {
     if (on) this._applyReaderLangPrefs();
   }
 
+  _setReaderEditMode(on) {
+    this._readerEditMode = on;
+    if (on && this._readerSettingsMode) this._setReaderSettingsMode(false);
+    if (on && (this._readCurrentPage !== 'pdf' || this._pdfActiveTab < 0)) {
+      alert('Open a PDF first to annotate it.');
+      on = false;
+      this._readerEditMode = false;
+    }
+    document.getElementById('screen-reader').classList.toggle('reader-edit-mode', on);
+    const editBar = document.getElementById('readerEditBar');
+    if (editBar) editBar.style.display = on ? 'flex' : 'none';
+    if (on) {
+      const tab = this._pdfTabs[this._pdfActiveTab];
+      if (tab) pdfAnnot.setFile(tab.path || tab.name);
+      pdfAnnot.setTool('select');
+      pdfAnnot.renderAll();
+    } else {
+      pdfAnnot.setTool(null);
+      pdfAnnot.selectedId = null;
+    }
+  }
+
   _applyReaderLangPrefs() {
     const sourceSel = document.getElementById('readerSourceLang');
     const targetSel = document.getElementById('readerTargetLang');
@@ -1282,7 +1308,10 @@ class App {
     this._readPdfFile = null;
     this._readPdfPath = null;
     this._readerSettingsMode = false;
+    this._readerEditMode = false;
     this._pdfViewMode = appStore.data.pdfViewMode || 'viewer';
+
+    pdfAnnot.bind(document.getElementById('pdfPages'));
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
       card.addEventListener('click', () => {
@@ -1377,6 +1406,31 @@ class App {
     document.getElementById('btnReaderLangClose').addEventListener('click', () => {
       this._setReaderSettingsMode(false);
     });
+
+    document.getElementById('btnReaderEditBtn').addEventListener('click', () => {
+      this._setReaderEditMode(!this._readerEditMode);
+    });
+    document.getElementById('btnReaderEditClose').addEventListener('click', () => {
+      this._setReaderEditMode(false);
+    });
+    document.getElementById('btnReaderEditSave').addEventListener('click', () => {
+      pdfAnnot.saveToPdf();
+    });
+    document.getElementById('btnReaderEditDelete').addEventListener('click', () => {
+      pdfAnnot.deleteSelected();
+    });
+    document.querySelectorAll('#readerEditBar .reader-tool-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        pdfAnnot.setTool(btn.dataset.tool);
+      });
+    });
+    const colorInput = document.getElementById('btnReaderColor');
+    if (colorInput) {
+      colorInput.addEventListener('input', () => {
+        pdfAnnot.color = colorInput.value;
+        pdfAnnot.colorChanged();
+      });
+    }
 
     document.getElementById('btnYtPrev').addEventListener('click', () => {
       this._ytShadowPrev();
@@ -1681,6 +1735,7 @@ class App {
     this._pdfActiveTab = index;
     appStore.data.pdfActiveTab = tab.path || tab.name;
     this._setPdfViewMode('last');
+    pdfAnnot.setFile(tab.path || tab.name);
     this._renderPdfTabs();
     document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
     document.getElementById('pdfLibrary').style.display = 'none';
@@ -2838,6 +2893,7 @@ class App {
   _resetReadPage() {
     this._stopYoutubeSync();
     this._setReaderSettingsMode(false);
+    this._setReaderEditMode(false);
     document.getElementById('readerTranslatePopup').style.display = 'none';
     this._readSourceInfo = null;
 

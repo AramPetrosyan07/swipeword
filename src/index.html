@@ -818,9 +818,30 @@
           </select>
           <button class="icon-btn reader-lang-close" id="btnReaderLangClose" title="Close language settings">&times;</button>
         </div>
+        <div class="reader-edit-bar" id="readerEditBar" style="display:none;">
+          <input type="color" id="btnReaderColor" value="#ffeb3b" title="Annotation color" />
+          <span class="reader-edit-sep"></span>
+          <button class="reader-tool-btn" data-tool="select" title="Select / delete">&#128064;</button>
+          <span class="reader-edit-sep"></span>
+          <button class="reader-tool-btn" data-tool="highlight" title="Highlight">&#128141;</button>
+          <button class="reader-tool-btn" data-tool="underline" title="Underline">U&#817;</button>
+          <button class="reader-tool-btn" data-tool="strike" title="Strikethrough">S&#822;</button>
+          <button class="reader-tool-btn" data-tool="squiggly" title="Squiggly">&#12304;</button>
+          <span class="reader-edit-sep"></span>
+          <button class="reader-tool-btn" data-tool="ink" title="Marker">&#128396;</button>
+          <button class="reader-tool-btn" data-tool="line" title="Line">&#128207;</button>
+          <button class="reader-tool-btn" data-tool="arrow" title="Arrow">&#10148;</button>
+          <button class="reader-tool-btn" data-tool="text" title="Text box">&#9999;</button>
+          <button class="reader-tool-btn" data-tool="link" title="Link">&#128279;</button>
+          <span class="reader-edit-sep"></span>
+          <button class="icon-btn" id="btnReaderEditDelete" title="Delete selected">&#128465;</button>
+          <button class="icon-btn" id="btnReaderEditSave" title="Save to PDF">&#128190;</button>
+          <button class="icon-btn reader-lang-close" id="btnReaderEditClose" title="Close annotation tools">&times;</button>
+        </div>
         <div class="reader-toolbar-right">
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
+          <button class="icon-btn" id="btnReaderEditBtn" title="Annotate PDF">&#9998;</button>
           <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
           <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
         </div>
@@ -1307,7 +1328,9 @@
   <script src="scripts/challenge-mode.js"></script>
   <script src="scripts/story-mode.js"></script>
   <script src="lib/pdf/pdf.min.js"></script>
+  <script src="lib/pdf-lib/pdf-lib.js"></script>
   <script src="scripts/reader.js"></script>
+  <script src="scripts/pdf-annotations.js"></script>
   <script src="scripts/browse.js"></script>
   <script src="scripts/study-mode.js"></script>
   <script src="scripts/collections.js"></script>
