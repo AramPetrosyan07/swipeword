@@ -2010,7 +2010,15 @@ class App {
       const newWidth = Math.max(180, Math.min(500, startWidth + dx));
       this._setSidebarWidth(newWidth);
     });
-    document.addEventListener('pointerup', () => {
+    document.addEventListener('pointerup', (e) => {
+      if (!captured) return;
+      if (e.target !== resizer && !resizer.hasPointerCapture(e.pointerId)) return;
+      resizer.releasePointerCapture(e.pointerId);
+      captured = false;
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
+    resizer.addEventListener('pointercancel', () => {
       if (!captured) return;
       resizer.releasePointerCapture();
       captured = false;
