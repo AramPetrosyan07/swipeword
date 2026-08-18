@@ -70,10 +70,6 @@ class ReaderMode {
       layer.className = 'pdf-scroll-layer';
       slot.appendChild(layer);
 
-      const annot = document.createElement('svg');
-      annot.className = 'pdf-scroll-annot';
-      slot.appendChild(annot);
-
       frag.appendChild(slot);
       this.slots.push(slot);
     }
@@ -112,7 +108,6 @@ class ReaderMode {
       return this.renderPageTo(canvas, layerEl, num, gen).then(() => {
         if (gen === this._generation) {
           this.rendered.add(num);
-          try { pdfAnnot.renderPage(num); } catch (e) {}
         }
       });
     }).catch(() => {});
@@ -401,8 +396,6 @@ class ReaderMode {
       canvas.height = 0;
     }
     if (layerEl) layerEl.innerHTML = '';
-    const annotEl = slot.querySelector('.pdf-scroll-annot');
-    if (annotEl) annotEl.innerHTML = '';
     this.rendered.delete(num);
   }
 

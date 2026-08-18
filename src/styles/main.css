@@ -2497,140 +2497,6 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   display: none !important;
 }
 
-/* Reader toolbar: annotation edit mode */
-#screen-reader.reader-edit-mode #btnReaderMenu,
-#screen-reader.reader-edit-mode #btnReaderBack,
-#screen-reader.reader-edit-mode #btnReaderLangBtn,
-#screen-reader.reader-edit-mode #btnReaderLangBarToggle,
-#screen-reader.reader-edit-mode #btnReadNewToolbar,
-#screen-reader.reader-edit-mode #btnReaderEditBtn,
-#screen-reader.reader-edit-mode #readerLangBar {
-  display: none !important;
-}
-
-#screen-reader.reader-edit-mode #readerEditBar {
-  display: flex !important;
-}
-
-#screen-reader.reader-edit-mode:not(.reader-edit-wordtool) .pdf-scroll-annot {
-  pointer-events: auto;
-  cursor: crosshair;
-}
-
-#screen-reader.reader-edit-mode:not(.reader-edit-wordtool) .pdf-scroll-layer {
-  pointer-events: none;
-}
-
-#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-annot {
-  pointer-events: none;
-}
-
-#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-layer {
-  pointer-events: auto;
-}
-
-#screen-reader.reader-edit-mode.reader-edit-wordtool .pdf-scroll-layer .rw-word {
-  cursor: text;
-}
-
-.reader-edit-bar {
-  align-items: center;
-  gap: 4px;
-  padding: 0 8px;
-}
-
-.reader-edit-sep {
-  width: 1px;
-  height: 20px;
-  background: var(--border);
-  margin: 0 4px;
-}
-
-.reader-tool-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 30px;
-  height: 28px;
-  padding: 0 6px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg);
-  color: var(--text);
-  font-size: 14px;
-  line-height: 1;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.reader-tool-btn:hover {
-  background: var(--bg-hover);
-}
-
-.reader-tool-btn.active {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: #fff;
-}
-
-#btnReaderColor {
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: none;
-  cursor: pointer;
-}
-
-.pdf-annot-modal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 2000;
-}
-
-.pdf-annot-modal.show {
-  display: flex;
-}
-
-.pdf-annot-modal-box {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  min-width: 320px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-}
-
-.pdf-annot-modal-title {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.pdf-annot-modal-input {
-  width: 100%;
-  padding: 8px 10px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--text);
-  font-size: 14px;
-  box-sizing: border-box;
-}
-
-.pdf-annot-modal-btns {
-  display: flex;
-  justify-content: flex-end;
-  gap: 8px;
-}
-
 /* Translate popup */
 .reader-translate-popup {
   position: fixed;
@@ -3361,7 +3227,6 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 #screen-reader.theme-colors-mode #btnReaderLangBtn,
 #screen-reader.theme-colors-mode #btnReadNewToolbar,
 #screen-reader.theme-colors-mode #btnReaderLangBarToggle,
-#screen-reader.theme-colors-mode #btnReaderEditBtn,
 #screen-reader.theme-colors-mode #btnTranslationSidebar {
   display: none !important;
 }
@@ -3452,27 +3317,6 @@ body.theme-dark .pdf-scroll-canvas {
   transform-origin: 0 0;
   line-height: 1;
   text-align: left;
-}
-
-.pdf-scroll-annot {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 6;
-}
-
-.pdf-scroll-annot > g {
-  cursor: pointer;
-}
-
-g.annot-draft {
-  opacity: 0.55;
-}
-
-g.annot-selected {
-  outline: 2px dashed #e04545;
-  outline-offset: 2px;
 }
 
 .pdf-scroll-layer .rw-word {
