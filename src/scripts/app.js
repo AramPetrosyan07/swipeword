@@ -389,6 +389,11 @@ class App {
       this._toggleSidebar();
     });
 
+    const screenObserver = new MutationObserver(() => this._updateSidebarVisibility());
+    document.querySelectorAll('.screen').forEach((s) => {
+      screenObserver.observe(s, { attributes: true, attributeFilter: ['class'] });
+    });
+
     this._bindReadPageEvents();
     this._populateReaderLangSelects();
 
@@ -556,6 +561,27 @@ class App {
   _updateSidebarContent(which) {
     document.getElementById('sidebarLearnContent').style.display = which === 'learn' ? '' : 'none';
     document.getElementById('sidebarReadContent').style.display = which === 'read' ? '' : 'none';
+  }
+
+  _updateSidebarVisibility() {
+    const activeScreen = document.querySelector('.screen.active');
+    if (!activeScreen) return;
+    const id = activeScreen.id;
+    const sidebarAllowed = (id === 'screen-learn' || id === 'screen-reader');
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (!sidebarAllowed) {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('open');
+      sidebar.style.display = 'none';
+      overlay.style.display = 'none';
+      if (document.body.classList.contains('pdf-rail')) {
+        this._deactivatePdfRail();
+      }
+    } else {
+      sidebar.style.display = '';
+      overlay.style.display = '';
+    }
   }
 
   _showWordsPage() {
