@@ -448,8 +448,7 @@ class App {
         }
         if (activeScreen.id === 'screen-words') {
           if (this._currentAppMode === 'read') {
-            document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-            document.getElementById('screen-reader').classList.add('active');
+            this._backToReadHome();
           } else {
             this._showLearnScreen();
           }
@@ -459,8 +458,7 @@ class App {
           if (vocabLibrary._view === 'dict') {
             vocabLibrary._handleBack();
           } else if (this._currentAppMode === 'read') {
-            document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-            document.getElementById('screen-reader').classList.add('active');
+            this._backToReadHome();
           } else {
             this._showLearnScreen();
           }
@@ -1276,6 +1274,10 @@ class App {
     if (on) this._applyReaderLangPrefs();
   }
 
+  _setReaderEditMode(on) {
+    this._readerEditMode = on;
+  }
+
   _setThemeColorsMode(on) {
     this._themeColorsMode = on;
     document.getElementById('screen-reader').classList.toggle('theme-colors-mode', on);
@@ -1629,7 +1631,7 @@ class App {
     const pageEl = document.getElementById('read-page-' + mode);
     if (pageEl) pageEl.classList.add('active');
 
-    document.getElementById('btnReaderBack').style.display = mode === 'pdf' ? 'none' : '';
+    document.getElementById('btnReaderBack').style.display = '';
     document.getElementById('btnReaderMenu').style.display = '';
     this._updateTranslationSidebarBtnVisibility();
 
