@@ -122,12 +122,7 @@ class VocabularyLibrary {
       document.getElementById('vocabLibDictSearch').value = '';
       this._render();
     } else {
-      if (app._currentAppMode === 'read') {
-        document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-        document.getElementById('screen-reader').classList.add('active');
-      } else {
-        app._showLearnScreen();
-      }
+      app._showReadHome();
     }
   }
 
@@ -370,7 +365,7 @@ class VocabularyLibrary {
     const meta = this._videoMeta[youtubeUrl] || {};
     const position = meta.lastPosition || 0;
 
-    app._switchAppMode('read');
+    app._showReadHome();
     app._openReadPage('youtube');
     setTimeout(() => {
       const input = document.getElementById('readYoutubeInput');

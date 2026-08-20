@@ -12,12 +12,7 @@ class WordsPage {
         this._currentSourceId = null;
         this._render();
       } else {
-        if (app._currentAppMode === 'read') {
-          document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-          document.getElementById('screen-reader').classList.add('active');
-        } else {
-          app._showLearnScreen();
-        }
+        app._showReadHome();
       }
     });
 

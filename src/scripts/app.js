@@ -16,7 +16,6 @@ class App {
     this._listCardOverlayActive = false;
     this._listCardIndex = 0;
     this.sessionHistory = [];
-    this._currentAppMode = 'learn';
 
     this._ytCaptions = [];
     this._ytCaptionTimer = null;
@@ -152,6 +151,8 @@ class App {
       this.words = appStore.getAllWords();
       this.currentFileName = fileName;
       this._startLearning();
+    } else {
+      this._showReadHome();
     }
 
     modesManager.init();
@@ -220,13 +221,13 @@ class App {
     document.getElementById('sidePdfPinned').addEventListener('click', () => this._pdfShowSidebarView('pinned'));
     document.getElementById('sidePdfLast').addEventListener('click', () => this._pdfShowSidebarView('last'));
 
-    document.querySelectorAll('.topbar-mode-btn, .sidebar-mode-btn').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const mode = btn.dataset.mode;
-        if (mode !== this._currentAppMode) {
-          this._switchAppMode(mode);
-        }
-      });
+    document.getElementById('readCardWords').addEventListener('click', () => {
+      if (this.words.length > 0) this._showLearnScreen();
+      else this._showImportScreen();
+    });
+
+    document.getElementById('btnLearnBack').addEventListener('click', () => {
+      this._showReadHome();
     });
 
     document.getElementById('sideShuffle').addEventListener('click', () => {
@@ -438,29 +439,24 @@ class App {
           this._toggleListView();
           return;
         }
-        if (activeScreen.id === 'screen-reader' && this._currentAppMode === 'read') {
+        if (activeScreen.id === 'screen-reader') {
           if (this._readCurrentPage) {
             this._backToReadHome();
           } else {
-            this._switchAppMode('learn');
+            if (this.words.length > 0) this._showLearnScreen();
+            else this._showImportScreen();
           }
           return;
         }
         if (activeScreen.id === 'screen-words') {
-          if (this._currentAppMode === 'read') {
-            this._backToReadHome();
-          } else {
-            this._showLearnScreen();
-          }
+          this._showReadHome();
           return;
         }
         if (activeScreen.id === 'screen-vocablib') {
           if (vocabLibrary._view === 'dict') {
             vocabLibrary._handleBack();
-          } else if (this._currentAppMode === 'read') {
-            this._backToReadHome();
           } else {
-            this._showLearnScreen();
+            this._showReadHome();
           }
           return;
         }
@@ -500,7 +496,7 @@ class App {
               break;
           }
         }
-      } else if (activeScreen.id === 'screen-reader' && this._currentAppMode === 'read') {
+      } else if (activeScreen.id === 'screen-reader') {
         if (typeof readerMode !== 'undefined') {
           switch (e.key) {
             case 'ArrowLeft':
@@ -547,31 +543,19 @@ class App {
     });
   }
 
-  _switchAppMode(mode) {
-    this._currentAppMode = mode;
-    document.querySelectorAll('.topbar-mode-btn, .sidebar-mode-btn').forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.mode === mode);
-    });
-    if (mode === 'read') {
-      document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-      document.getElementById('screen-reader').classList.add('active');
-      document.querySelector('.learn-content').style.display = 'none';
-      document.getElementById('cardArea').style.display = 'none';
-      document.getElementById('listView').style.display = 'none';
-      document.getElementById('sidebarLearnContent').style.display = 'none';
-      document.getElementById('sidebarReadContent').style.display = '';
-      this._backToReadHome();
-    } else {
-      this._deactivatePdfRail();
-      document.getElementById('screen-reader').classList.remove('active');
-      document.getElementById('sidebarLearnContent').style.display = '';
-      document.getElementById('sidebarReadContent').style.display = 'none';
-      if (this.words.length > 0) {
-        this._showLearnScreen();
-      } else {
-        this._showImportScreen();
-      }
-    }
+  _showReadHome() {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-reader').classList.add('active');
+    document.querySelector('.learn-content').style.display = 'none';
+    document.getElementById('cardArea').style.display = 'none';
+    document.getElementById('listView').style.display = 'none';
+    this._backToReadHome();
+    this._updateSidebarContent('read');
+  }
+
+  _updateSidebarContent(which) {
+    document.getElementById('sidebarLearnContent').style.display = which === 'learn' ? '' : 'none';
+    document.getElementById('sidebarReadContent').style.display = which === 'read' ? '' : 'none';
   }
 
   _showWordsPage() {
@@ -727,7 +711,7 @@ class App {
 
   _startLearning() {
     this._buildQueue();
-    this._showLearnScreen();
+    this._showReadHome();
   }
 
   _buildQueue() {
@@ -799,6 +783,7 @@ class App {
   _showLearnScreen() {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
+    this._updateSidebarContent('learn');
 
     document.getElementById('btnVocabSwitch').setAttribute('data-vocab', appStore.data.vocabulary || 'b2');
 
@@ -1346,6 +1331,7 @@ class App {
 
     document.querySelectorAll('.read-home-card').forEach((card) => {
       card.addEventListener('click', () => {
+        if (card.dataset.mode === 'words') return;
         this._openReadPage(card.dataset.mode);
       });
     });
@@ -2107,10 +2093,8 @@ class App {
   _pdfShowSidebarView(view) {
     if (!document.body.classList.contains('pdf-rail')) this._closeSidebar();
     this._setPdfViewMode(view);
-    if (this._currentAppMode !== 'read') this._switchAppMode('read');
     if (document.querySelector('.screen.active') !== document.getElementById('screen-reader')) {
-      document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-      document.getElementById('screen-reader').classList.add('active');
+      this._showReadHome();
     }
     if (this._readCurrentPage !== 'pdf') {
       this._openReadPage('pdf');

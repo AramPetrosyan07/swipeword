@@ -16,7 +16,7 @@
         <span class="sidebar-logo">SwipeWord</span>
         <button class="icon-btn" id="btnSidebarClose" title="Collapse sidebar">&times;</button>
       </div>
-      <div id="sidebarReadContent" style="display:none;">
+      <div id="sidebarReadContent">
         <div class="sidebar-nav">
           <button class="sidebar-btn" id="sidePdfLast">
             <span class="sidebar-btn-icon">&#128065;</span> Viewer
@@ -36,20 +36,9 @@
           <button class="sidebar-btn" id="sideVocabLibRead" data-screen="vocablib">
             <span class="sidebar-btn-icon">&#127909;</span> Vocabulary Library
           </button>
-          <div class="sidebar-mode-divider"></div>
-          <div class="sidebar-mode-switch" id="topbarModeSwitchRead">
-            <button class="sidebar-mode-btn" data-mode="learn" title="Learn Words">
-              <span class="sidebar-mode-icon">&#128214;</span>
-              <span class="sidebar-mode-label">Words</span>
-            </button>
-            <button class="sidebar-mode-btn active" data-mode="read" title="Read">
-              <span class="sidebar-mode-icon">&#128218;</span>
-              <span class="sidebar-mode-label">Read</span>
-            </button>
-          </div>
         </div>
       </div>
-      <div id="sidebarLearnContent">
+      <div id="sidebarLearnContent" style="display:none;">
         <div class="sidebar-nav">
           <button class="sidebar-btn" id="sideImport" data-screen="import">
             <span class="sidebar-btn-icon">&#128194;</span> Import
@@ -139,16 +128,7 @@
       <div class="top-bar">
         <div class="top-left">
           <button class="icon-btn" id="btnMenu" title="Menu">&#9776;</button>
-          <div class="topbar-mode-switch" id="topbarModeSwitch">
-            <button class="topbar-mode-btn active" data-mode="learn" title="Learn Words">
-              <span class="topbar-mode-icon">&#128214;</span>
-              <span class="topbar-mode-label">Words</span>
-            </button>
-            <button class="topbar-mode-btn" data-mode="read" title="Read">
-              <span class="topbar-mode-icon">&#128218;</span>
-              <span class="topbar-mode-label">Read</span>
-            </button>
-          </div>
+          <button class="icon-btn" id="btnLearnBack" title="Back to Read Home">&#8592;</button>
         </div>
         <span class="progress-text" id="progressText">0 / 0</span>
         <div class="top-right">
@@ -869,7 +849,7 @@
         </div>
       </div>
 
-      <!-- Home: 3 mode buttons -->
+      <!-- Home: 4 mode buttons -->
       <div class="read-home" id="readHome">
         <div class="read-home-cards">
           <button class="read-home-card" data-mode="text" id="readCardText">
@@ -886,6 +866,11 @@
             <span class="read-home-icon">&#9654;</span>
             <span class="read-home-label">YouTube</span>
             <span class="read-home-desc">Watch videos with interactive subtitles</span>
+          </button>
+          <button class="read-home-card" data-mode="words" id="readCardWords">
+            <span class="read-home-icon">&#128214;</span>
+            <span class="read-home-label">Words</span>
+            <span class="read-home-desc">Learn and practice vocabulary with flashcards</span>
           </button>
         </div>
       </div>
