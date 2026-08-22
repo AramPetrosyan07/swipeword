@@ -242,6 +242,7 @@ class App {
     });
 
     document.getElementById('btnImport').addEventListener('click', () => this._importFile());
+    document.getElementById('btnImportBack').addEventListener('click', () => this._importBack());
     document.getElementById('importBox').addEventListener('click', () => this._importFile());
     document.getElementById('btnImportModes').addEventListener('click', () => {
       if (this.words.length > 0) modesManager.open();
@@ -453,6 +454,12 @@ class App {
           }
           return;
         }
+        if (activeScreen.id === 'screen-import') {
+          if (document.getElementById('btnImportBack').style.visibility !== 'hidden') {
+            this._importBack();
+          }
+          return;
+        }
         if (activeScreen.id === 'screen-words') {
           this._showReadHome();
           return;
@@ -570,14 +577,16 @@ class App {
     const sidebarAllowed = (id === 'screen-learn' || id === 'screen-reader');
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('sidebarOverlay');
+    if (document.body.classList.contains('pdf-rail') && id !== 'screen-reader') {
+      if (this._pdfSaveScrollTimer) clearTimeout(this._pdfSaveScrollTimer);
+      this._pdfSaveScroll();
+      this._deactivatePdfRail();
+    }
     if (!sidebarAllowed) {
       sidebar.classList.remove('open');
       overlay.classList.remove('open');
       sidebar.style.display = 'none';
       overlay.style.display = 'none';
-      if (document.body.classList.contains('pdf-rail')) {
-        this._deactivatePdfRail();
-      }
     } else {
       sidebar.style.display = '';
       overlay.style.display = '';
@@ -801,9 +810,35 @@ class App {
   }
 
   _showImportScreen() {
+    const active = document.querySelector('.screen.active');
+    this._importReturnScreen = active && active.id !== 'screen-import' ? active.id : null;
+    document.getElementById('btnImportBack').style.visibility = this._importReturnScreen ? 'visible' : 'hidden';
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-import').classList.add('active');
     this.filterLetter = null;
+  }
+
+  _importBack() {
+    const prev = this._importReturnScreen;
+    this._importReturnScreen = null;
+    switch (prev) {
+      case 'screen-words':
+        this._showWordsPage();
+        break;
+      case 'screen-vocablib':
+        this._showVocabLib();
+        break;
+      case 'screen-stats':
+        this._showStats();
+        break;
+      case 'screen-daily-history':
+        this._showDailyHistory();
+        break;
+      default:
+        if (this.words.length > 0) this._showLearnScreen();
+        else this._showReadHome();
+        break;
+    }
   }
 
   _showLearnScreen() {
@@ -1672,6 +1707,8 @@ class App {
   }
 
   _backToReadHome() {
+    if (this._pdfSaveScrollTimer) clearTimeout(this._pdfSaveScrollTimer);
+    this._pdfSaveScroll();
     this._resetReadPage();
     this._deactivatePdfRail();
     document.getElementById('readHome').style.display = '';
