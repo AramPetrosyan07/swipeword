@@ -81,7 +81,8 @@ class AlphabetPage {
 
   pronounce() {
     const letter = this.alphabet.letters[this.current];
-    tts.speak(letter.char, this.alphabet.lang);
+    const word = letter.label ? letter.label.hy : letter.char;
+    tts.speak(word, this.alphabet.lang);
   }
 
   goTo(index) {
