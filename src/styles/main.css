@@ -2437,8 +2437,12 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 }
 
 .pdf-read-aloud-active {
-  background: rgba(108, 99, 255, 0.3);
-  border-radius: 3px;
+  background: transparent;
+  border-radius: 0;
+  text-decoration: underline;
+  text-decoration-color: #dc2626;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 3px;
 }
 
 /* Read Aloud mode: red hover on words to indicate right-click-to-start */

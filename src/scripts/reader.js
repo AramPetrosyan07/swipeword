@@ -612,12 +612,21 @@ class ReaderMode {
       }
     }
     if (startIdx === -1) return;
+    let highlightStart = startIdx;
+    let wordCount = sentWords.length;
+    if (idx === this._readAloudStartIdx && this._readAloudClickedEl) {
+      const clickedIdx = Array.from(words).indexOf(this._readAloudClickedEl);
+      if (clickedIdx >= startIdx && clickedIdx < startIdx + sentWords.length) {
+        highlightStart = clickedIdx;
+        wordCount = sentWords.length - (clickedIdx - startIdx);
+      }
+    }
     let matchCount = 0;
-    for (let i = startIdx; i < words.length && matchCount < sentWords.length; i++) {
+    for (let i = highlightStart; i < words.length && matchCount < wordCount; i++) {
       words[i].classList.add('pdf-read-aloud-active');
       matchCount++;
     }
-    const activeEl = words[startIdx];
+    const activeEl = words[highlightStart];
     if (activeEl) {
       const container = document.getElementById('pdfViewerScroll');
       if (container) {
@@ -644,6 +653,8 @@ class ReaderMode {
     this._readAloudSentences = await this._extractAllSentences();
     if (!this._readAloudSentences.length) return;
     this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences, clickedPage, clickedEl);
+    this._readAloudStartIdx = this._readAloudIdx;
+    this._readAloudClickedEl = clickedEl;
     this._readAloudActive = true;
     this._readAloudPaused = false;
     this._readAloudSpeakCurrent();
@@ -657,16 +668,6 @@ class ReaderMode {
     }
     const sent = this._readAloudSentences[this._readAloudIdx];
     this._highlightReadAloudSentence(this._readAloudIdx);
-    const container = document.getElementById('pdfViewerScroll');
-    const slot = this.slots[sent.page - 1];
-    if (container && slot) {
-      const slotTop = slot.offsetTop;
-      const slotH = slot.offsetHeight;
-      const viewH = container.clientHeight;
-      if (slotTop < container.scrollTop || slotTop + slotH > container.scrollTop + viewH) {
-        container.scrollTo({ top: slotTop - 40, behavior: 'smooth' });
-      }
-    }
     try {
       const result = await window.electronAPI.ttsSpeak(sent.text, this._readAloudLang, this._readAloudVoiceId);
       if (!this._readAloudActive || this._readAloudPaused) return;
@@ -709,6 +710,8 @@ class ReaderMode {
     this._readAloudPaused = false;
     this._readAloudIdx = 0;
     this._readAloudSentences = [];
+    this._readAloudStartIdx = 0;
+    this._readAloudClickedEl = null;
     if (this._readAloudAudio) {
       this._readAloudAudio.pause();
       this._readAloudAudio = null;
