@@ -1467,6 +1467,12 @@ class App {
     document.getElementById('pdfNextPage').addEventListener('click', () => {
       readerMode.nextPage();
     });
+    document.getElementById('pdfZoomIn5').addEventListener('click', () => {
+      readerMode.zoomIn5();
+    });
+    document.getElementById('pdfZoomOut5').addEventListener('click', () => {
+      readerMode.zoomOut5();
+    });
     document.getElementById('pdfViewerScroll').addEventListener('wheel', (e) => {
       if (e.ctrlKey || e.metaKey) {
         e.preventDefault();

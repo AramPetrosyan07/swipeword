@@ -457,6 +457,38 @@ class ReaderMode {
     await this.zoomBy(0.8);
   }
 
+  async zoomIn5() {
+    this.scale = Math.min(Math.max(Math.round((this.scale + 0.05) * 100) / 100, 0.1), 10);
+    const container = document.getElementById('pdfViewerScroll');
+    let anchorPage = this.pageNum;
+    let anchorOffset = 0;
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
+    }
+    await this._resizeScrollSlots();
+    this._buildPageOffsets();
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
+    }
+    this.onScroll(true);
+  }
+
+  async zoomOut5() {
+    this.scale = Math.min(Math.max(Math.round((this.scale - 0.05) * 100) / 100, 0.1), 10);
+    const container = document.getElementById('pdfViewerScroll');
+    let anchorPage = this.pageNum;
+    let anchorOffset = 0;
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
+    }
+    await this._resizeScrollSlots();
+    this._buildPageOffsets();
+    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+      container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
+    }
+    this.onScroll(true);
+  }
+
   async _fitWidth() {
     if (!this.pdfDoc) return;
     const page = await this.pdfDoc.getPage(1);
