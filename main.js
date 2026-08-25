@@ -473,7 +473,7 @@ const { spawn } = require("child_process");
 // foreign words well - they were already used for Armenian).
 const _ttsVoices = {
   hy:  [null, null, null, null],
-  ru:  ["ru-RU-DmitryNeural", null, "ru-RU-SvetlanaNeural", null],
+  ru:  ["ru-RU-DmitryNeural", "ru-RU-DmitryNeural", "ru-RU-SvetlanaNeural", "ru-RU-SvetlanaNeural"],
   en:  ["en-US-ChristopherNeural", "en-US-GuyNeural", "en-US-JennyNeural", "en-US-AriaNeural"],
   es:  ["es-ES-AlvaroNeural", "es-MX-JorgeNeural", "es-ES-ElviraNeural", "es-MX-DaliaNeural"],
   fr:  ["fr-FR-HenriNeural", "fr-CA-AntoineNeural", "fr-FR-DeniseNeural", "fr-CA-SylvieNeural"],
@@ -519,8 +519,13 @@ const _ttsPool = [
 
 function _ttsVoiceFor(lang, voiceIndex) {
   const slot = Math.max(0, Math.min(3, parseInt(voiceIndex) || 0));
-  const list = _ttsVoices[lang] || _ttsVoices.en;
-  return list[slot] || _ttsPool[slot];
+  const short = (lang || '').split('-')[0].toLowerCase();
+  const list = _ttsVoices[lang] || _ttsVoices[short] || _ttsVoices.en;
+  const voice = list[slot];
+  if (voice) return voice;
+  const poolVoice = _ttsPool[slot];
+  if (short === 'hy') return poolVoice;
+  return poolVoice;
 }
 
 const _ttsCache = new Map();
@@ -532,11 +537,12 @@ async function _edgeTTS(text, lang, voiceIndex) {
   if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
   if (_ttsPending.has(cacheKey)) return _ttsPending.get(cacheKey);
 
-  const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
-  fs.writeFileSync(tmpFile, text, "utf-8");
-
   const promise = new Promise((resolve, reject) => {
     const chunks = [];
+    // Write with UTF-8 BOM so Python (edge-tts) auto-detects UTF-8 on Windows
+    // (Without BOM, Python defaults to cp1252 which breaks Armenian/Russian text)
+    const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
+    fs.writeFileSync(tmpFile, "\ufeff" + text, "utf-8");
     const child = spawn("edge-tts", ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
     child.stdout.on("data", (chunk) => chunks.push(chunk));
     child.stderr.on("data", () => {});

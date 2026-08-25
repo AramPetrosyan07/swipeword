@@ -4,9 +4,11 @@ class TTS {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang || 'en-US';
-    if (lang && lang.startsWith('hy')) {
-      const voice = window.speechSynthesis.getVoices().find((v) => v.lang && v.lang.toLowerCase().startsWith('hy'));
-      if (voice) utterance.voice = voice;
+    const short = (lang || '').split('-')[0].toLowerCase();
+    const voices = window.speechSynthesis.getVoices();
+    const matched = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(short));
+    if (matched) utterance.voice = matched;
+    if (short === 'hy') {
       utterance.rate = 0.7;
     } else {
       utterance.rate = 0.9;

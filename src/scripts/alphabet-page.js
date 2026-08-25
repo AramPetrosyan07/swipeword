@@ -118,10 +118,24 @@ class AlphabetPage {
   pronounce() {
     const letter = this.alphabet.letters[this.current];
     const word = letter.label ? letter.label.hy : letter.char;
+    this._speak(word, this.alphabet.lang);
+  }
+
+  _speak(word, lang) {
+    lang = lang || this.alphabet.lang;
     if (window.electronAPI && window.electronAPI.ttsSpeak) {
-      window.electronAPI.ttsSpeak(word, this.alphabet.lang, this._voiceId).catch(() => {});
+      window.electronAPI.ttsSpeak(word, lang, this._voiceId).then((result) => {
+        if (result && result.success) {
+          const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
+          audio.play();
+        } else {
+          tts.speak(word, lang);
+        }
+      }).catch(() => {
+        tts.speak(word, lang);
+      });
     } else {
-      tts.speak(word, this.alphabet.lang);
+      tts.speak(word, lang);
     }
   }
 
@@ -154,9 +168,30 @@ class AlphabetPage {
         if (letter.label) {
           const labelEl = document.createElement('div');
           labelEl.className = 'alphabet-slide-label';
-          labelEl.innerHTML = '<span class="label-hy">' + letter.label.hy + '</span>' +
-            '<span class="label-en">' + letter.label.en + '</span>' +
-            '<span class="label-ru">' + letter.label.ru + '</span>';
+          const hySpan = document.createElement('span');
+          hySpan.className = 'label-hy clickable-label';
+          hySpan.textContent = letter.label.hy;
+          hySpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this._speak(letter.label.hy, 'hy-AM');
+          });
+          const enSpan = document.createElement('span');
+          enSpan.className = 'label-en clickable-label';
+          enSpan.textContent = letter.label.en;
+          enSpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this._speak(letter.label.en, 'en-US');
+          });
+          const ruSpan = document.createElement('span');
+          ruSpan.className = 'label-ru clickable-label';
+          ruSpan.textContent = letter.label.ru;
+          ruSpan.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this._speak(letter.label.ru, 'ru-RU');
+          });
+          labelEl.appendChild(hySpan);
+          labelEl.appendChild(enSpan);
+          labelEl.appendChild(ruSpan);
           slide.appendChild(labelEl);
         }
       }
