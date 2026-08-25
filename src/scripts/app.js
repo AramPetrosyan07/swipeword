@@ -415,8 +415,8 @@ class App {
           return;
         }
         if (readerMode._readAloudActive) {
-          readerMode.readAloudStop();
-          this._updateReadAloudUI(false);
+          readerMode.readAloudPause();
+          this._updateReadAloudPlayBtn(false);
           return;
         }
         if (this._readerEditMode) {
@@ -1321,12 +1321,18 @@ class App {
 
   _updateReadAloudUI(active) {
     const btn = document.getElementById('btnReadAloud');
-    const langSel = document.getElementById('readAloudLang');
-    const stopBtn = document.getElementById('btnReadAloudStop');
+    const inline = document.getElementById('readAloudInline');
     if (btn) btn.classList.toggle('active', active);
-    if (langSel) langSel.style.display = active ? '' : 'none';
-    if (stopBtn) stopBtn.style.display = active ? '' : 'none';
-    if (!active) this._readAloudMode = false;
+    if (inline) inline.style.display = active ? 'flex' : 'none';
+    if (!active) {
+      this._readAloudMode = false;
+      this._updateReadAloudPlayBtn(false);
+    }
+  }
+
+  _updateReadAloudPlayBtn(playing) {
+    const playBtn = document.getElementById('btnReadAloudPlay');
+    if (playBtn) playBtn.innerHTML = playing ? '&#9646;&#9646;' : '&#9654;';
   }
 
   _loadReaderLangPrefs() {
@@ -1511,6 +1517,11 @@ class App {
     document.getElementById('btnReadAloud').addEventListener('click', () => {
       this._toggleReadAloud();
     });
+    document.getElementById('btnReadAloudPlay').addEventListener('click', () => {
+      if (!readerMode._readAloudActive) return;
+      const playing = readerMode.readAloudTogglePause();
+      this._updateReadAloudPlayBtn(playing);
+    });
     document.getElementById('btnReadAloudStop').addEventListener('click', () => {
       readerMode.readAloudStop();
       this._updateReadAloudUI(false);
@@ -1521,16 +1532,21 @@ class App {
         this._updateReadAloudUI(false);
       }
     });
-    document.getElementById('pdfPages').addEventListener('click', (e) => {
+    document.getElementById('readAloudSpeed').addEventListener('change', (e) => {
+      readerMode.readAloudSetSpeed(parseFloat(e.target.value) || 1);
+    });
+    document.getElementById('pdfPages').addEventListener('contextmenu', (e) => {
       if (!this._readAloudMode) return;
       const word = e.target.closest('.rw-word');
       if (!word) return;
       e.preventDefault();
       e.stopPropagation();
       const lang = document.getElementById('readAloudLang').value || 'en';
+      const speed = parseFloat(document.getElementById('readAloudSpeed').value) || 1;
       const voiceId = this.translationPopup ? this.translationPopup._voiceId : 0;
-      readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId);
+      readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId, speed);
       this._updateReadAloudUI(true);
+      this._updateReadAloudPlayBtn(true);
     });
     document.getElementById('pdfViewerScroll').addEventListener('wheel', (e) => {
       if (e.ctrlKey || e.metaKey) {

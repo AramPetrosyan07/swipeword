@@ -587,22 +587,36 @@ class ReaderMode {
       words[i].classList.add('pdf-read-aloud-active');
       matchCount++;
     }
+    const activeEl = words[startIdx];
+    if (activeEl) {
+      const container = document.getElementById('pdfViewerScroll');
+      if (container) {
+        const elTop = activeEl.getBoundingClientRect().top + container.scrollTop;
+        const viewH = container.clientHeight;
+        if (elTop < container.scrollTop + 60 || elTop > container.scrollTop + viewH - 60) {
+          container.scrollTo({ top: elTop - 80, behavior: 'smooth' });
+        }
+      }
+    }
   }
 
-  async readAloudStart(wordText, lang, voiceId) {
-    this.readAloudStop();
+  async readAloudStart(wordText, lang, voiceId, speed) {
     if (!this.pdfDoc) return;
+    if (!this._readAloudSentences.length) {
+      this._readAloudSentences = await this._extractAllSentences();
+    }
+    if (!this._readAloudSentences.length) return;
     this._readAloudLang = lang || 'en';
     this._readAloudVoiceId = voiceId || 0;
-    this._readAloudSentences = await this._extractAllSentences();
-    if (!this._readAloudSentences.length) return;
+    this._readAloudSpeed = speed || 1;
     this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences);
     this._readAloudActive = true;
+    this._readAloudPaused = false;
     this._readAloudSpeakCurrent();
   }
 
   async _readAloudSpeakCurrent() {
-    if (!this._readAloudActive) return;
+    if (!this._readAloudActive || this._readAloudPaused) return;
     if (this._readAloudIdx >= this._readAloudSentences.length) {
       this.readAloudStop();
       return;
@@ -621,9 +635,10 @@ class ReaderMode {
     }
     try {
       const result = await window.electronAPI.ttsSpeak(sent.text, this._readAloudLang, this._readAloudVoiceId);
-      if (!this._readAloudActive) return;
+      if (!this._readAloudActive || this._readAloudPaused) return;
       if (result && result.success) {
         const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
+        audio.playbackRate = this._readAloudSpeed || 1;
         this._readAloudAudio = audio;
         await new Promise((resolve) => {
           audio.onended = resolve;
@@ -635,13 +650,29 @@ class ReaderMode {
     } catch (e) {
       console.warn('Read aloud TTS failed:', e);
     }
-    if (!this._readAloudActive) return;
+    if (!this._readAloudActive || this._readAloudPaused) return;
     this._readAloudIdx++;
+    this._readAloudSpeakCurrent();
+  }
+
+  readAloudPause() {
+    if (!this._readAloudActive) return;
+    this._readAloudPaused = true;
+    if (this._readAloudAudio) {
+      this._readAloudAudio.pause();
+      this._readAloudAudio = null;
+    }
+  }
+
+  readAloudResume() {
+    if (!this._readAloudActive || !this._readAloudPaused) return;
+    this._readAloudPaused = false;
     this._readAloudSpeakCurrent();
   }
 
   readAloudStop() {
     this._readAloudActive = false;
+    this._readAloudPaused = false;
     this._readAloudIdx = 0;
     this._readAloudSentences = [];
     if (this._readAloudAudio) {
@@ -651,13 +682,22 @@ class ReaderMode {
     document.querySelectorAll('.pdf-read-aloud-active').forEach(el => el.classList.remove('pdf-read-aloud-active'));
   }
 
-  readAloudToggle(wordText, lang, voiceId) {
-    if (this._readAloudActive) {
-      this.readAloudStop();
+  readAloudTogglePause() {
+    if (!this._readAloudActive) return false;
+    if (this._readAloudPaused) {
+      this.readAloudResume();
+      return true;
+    } else {
+      this.readAloudPause();
       return false;
     }
-    this.readAloudStart(wordText, lang, voiceId);
-    return true;
+  }
+
+  readAloudSetSpeed(speed) {
+    this._readAloudSpeed = speed;
+    if (this._readAloudAudio) {
+      this._readAloudAudio.playbackRate = speed;
+    }
   }
 }
 

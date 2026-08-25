@@ -802,10 +802,19 @@
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
           <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
-          <span class="read-aloud-group" id="readAloudGroup">
-            <button class="icon-btn" id="btnReadAloud" title="Read Aloud">&#128266;</button>
-            <select id="readAloudLang" class="reader-lang-select read-aloud-lang" style="display:none;" title="Language for read aloud"></select>
-            <button class="icon-btn read-aloud-stop" id="btnReadAloudStop" style="display:none;" title="Stop reading">&#9632;</button>
+          <button class="icon-btn" id="btnReadAloud" title="Read Aloud (right-click to start)">&#128266;</button>
+          <span class="read-aloud-inline" id="readAloudInline" style="display:none;">
+            <button class="read-aloud-inline-btn" id="btnReadAloudPlay" title="Play / Pause">&#9654;</button>
+            <button class="read-aloud-inline-btn read-aloud-inline-stop" id="btnReadAloudStop" title="Stop">&#9632;</button>
+            <select id="readAloudLang" class="reader-lang-select read-aloud-inline-select" title="Reading language"></select>
+            <select id="readAloudSpeed" class="reader-lang-select read-aloud-inline-select read-aloud-speed-select" title="Reading speed">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+              <option value="2">2x</option>
+            </select>
           </span>
           <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#128249;</button>
           <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
