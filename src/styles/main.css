@@ -2390,6 +2390,31 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   padding: 4px 6px;
 }
 
+.read-aloud-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.read-aloud-lang {
+  max-width: 110px;
+}
+
+.read-aloud-stop {
+  color: #f44336 !important;
+}
+
+#btnReadAloud.active {
+  background: var(--accent, #6c63ff);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.pdf-read-aloud-active {
+  background: rgba(108, 99, 255, 0.3);
+  border-radius: 3px;
+}
+
 /* Reader toolbar: language settings mode */
 #screen-reader.reader-settings-mode #btnReaderMenu,
 #screen-reader.reader-settings-mode #btnReaderBack,

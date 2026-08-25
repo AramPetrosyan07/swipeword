@@ -42,6 +42,7 @@ class App {
     this._pdfTargetLang = 'hy';
     this._pdfWordCount = 3;
     this._loadReaderLangPrefs();
+    this._readAloudMode = false;
 
     this._pdfDirStack = [];
     this._pdfThumbCache = new Map();
@@ -399,6 +400,7 @@ class App {
 
     this._bindReadPageEvents();
     this._populateReaderLangSelects();
+    this._populateReadAloudLang();
 
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
@@ -410,6 +412,11 @@ class App {
         const translatePopup = document.getElementById('readerTranslatePopup');
         if (translatePopup.style.display !== 'none') {
           translatePopup.style.display = 'none';
+          return;
+        }
+        if (readerMode._readAloudActive) {
+          readerMode.readAloudStop();
+          this._updateReadAloudUI(false);
           return;
         }
         if (this._readerEditMode) {
@@ -1294,6 +1301,34 @@ class App {
     this._applyReaderLangPrefs();
   }
 
+  _populateReadAloudLang() {
+    const langs = this._langNameList();
+    const sel = document.getElementById('readAloudLang');
+    if (!sel) return;
+    sel.innerHTML = langs.map(([v, label]) =>
+      `<option value="${v}">${label}</option>`
+    ).join('');
+    sel.value = this._pdfSourceLang || 'en';
+  }
+
+  _toggleReadAloud() {
+    this._readAloudMode = !this._readAloudMode;
+    this._updateReadAloudUI(this._readAloudMode);
+    if (!this._readAloudMode) {
+      readerMode.readAloudStop();
+    }
+  }
+
+  _updateReadAloudUI(active) {
+    const btn = document.getElementById('btnReadAloud');
+    const langSel = document.getElementById('readAloudLang');
+    const stopBtn = document.getElementById('btnReadAloudStop');
+    if (btn) btn.classList.toggle('active', active);
+    if (langSel) langSel.style.display = active ? '' : 'none';
+    if (stopBtn) stopBtn.style.display = active ? '' : 'none';
+    if (!active) this._readAloudMode = false;
+  }
+
   _loadReaderLangPrefs() {
     try {
       const saved = localStorage.getItem('reader-lang-prefs');
@@ -1472,6 +1507,30 @@ class App {
     });
     document.getElementById('pdfZoomOut5').addEventListener('click', () => {
       readerMode.zoomOut5();
+    });
+    document.getElementById('btnReadAloud').addEventListener('click', () => {
+      this._toggleReadAloud();
+    });
+    document.getElementById('btnReadAloudStop').addEventListener('click', () => {
+      readerMode.readAloudStop();
+      this._updateReadAloudUI(false);
+    });
+    document.getElementById('readAloudLang').addEventListener('change', () => {
+      if (readerMode._readAloudActive) {
+        readerMode.readAloudStop();
+        this._updateReadAloudUI(false);
+      }
+    });
+    document.getElementById('pdfPages').addEventListener('click', (e) => {
+      if (!this._readAloudMode) return;
+      const word = e.target.closest('.rw-word');
+      if (!word) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const lang = document.getElementById('readAloudLang').value || 'en';
+      const voiceId = this.translationPopup ? this.translationPopup._voiceId : 0;
+      readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId);
+      this._updateReadAloudUI(true);
     });
     document.getElementById('pdfViewerScroll').addEventListener('wheel', (e) => {
       if (e.ctrlKey || e.metaKey) {
@@ -1652,6 +1711,8 @@ class App {
       this._saveReaderLangPrefs();
       this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
       this.translationPopup._cache.clear();
+      const readAloudSel = document.getElementById('readAloudLang');
+      if (readAloudSel) readAloudSel.value = this._pdfSourceLang;
     };
     document.getElementById('readerSourceLang').addEventListener('change', langSelChange);
     document.getElementById('readerTargetLang').addEventListener('change', langSelChange);
@@ -3123,6 +3184,8 @@ class App {
     this._readPdfFile = null;
     this._readPdfPath = null;
     readerMode.reset();
+    this._readAloudMode = false;
+    this._updateReadAloudUI(false);
     const dropzone = document.getElementById('readPdfDropzone');
     dropzone.classList.remove('read-dropzone-loaded');
     dropzone.querySelector('.read-dropzone-text').textContent = 'Drop PDF here or click to browse';
