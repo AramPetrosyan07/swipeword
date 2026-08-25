@@ -156,6 +156,8 @@ class App {
     }
 
     modesManager.init();
+    alphabetPage.init();
+    textPractice.init();
 
     this._updateSidebar();
     this._renderLetterStrip();
@@ -1429,13 +1431,6 @@ class App {
     this._initSidebarResizer();
     this._applyTranslationSidebar(false);
 
-    document.getElementById('btnReadText').addEventListener('click', () => {
-      this._loadTextContent();
-    });
-    document.getElementById('btnReadNewText').addEventListener('click', () => {
-      this._resetReadPage();
-    });
-
     const dropzone = document.getElementById('readPdfDropzone');
     const fileInput = document.getElementById('readPdfFileInput');
     dropzone.addEventListener('click', async () => {
@@ -1724,12 +1719,6 @@ class App {
     layers.forEach((layer) => {
       this.translationPopup.bindToContainer(layer, sourceInfo);
     });
-  }
-
-  _loadTextContent() {
-    const text = document.getElementById('readTextInput').value.trim();
-    if (!text) return;
-    this._showReadContent('text', 'Text', text);
   }
 
   _setPdfFile(file) {
@@ -2781,14 +2770,6 @@ class App {
       document.getElementById('pdfViewer').style.display = 'none';
       document.getElementById('readTextViewPdf').style.display = 'block';
       document.getElementById('readTextViewPdf').innerHTML = text;
-    } else {
-      document.getElementById('read-page-text').querySelector('.read-page-input').style.display = 'none';
-      document.getElementById('readCollapsedBarText').style.display = 'flex';
-      document.getElementById('readCollapsedLabelText').textContent = title;
-      document.getElementById('readContentAreaText').style.display = 'block';
-      const view = document.getElementById('readTextView');
-      view.innerHTML = WordWrapper.wrap(text);
-      this.translationPopup.bindToContainer(view, sourceInfo);
     }
   }
 
@@ -3115,13 +3096,6 @@ class App {
     this._setReaderEditMode(false);
     document.getElementById('readerTranslatePopup').style.display = 'none';
     this._readSourceInfo = null;
-
-    document.getElementById('readTextInput').value = '';
-    const textPage = document.getElementById('read-page-text');
-    textPage.querySelector('.read-page-input').style.display = '';
-    document.getElementById('readCollapsedBarText').style.display = 'none';
-    document.getElementById('readContentAreaText').style.display = 'none';
-    document.getElementById('readTextView').innerHTML = '';
 
     document.getElementById('readYoutubeInput').value = '';
     const ytPage = document.getElementById('read-page-youtube');

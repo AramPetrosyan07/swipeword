@@ -849,14 +849,9 @@
         </div>
       </div>
 
-      <!-- Home: 4 mode buttons -->
+      <!-- Home: main learning tools -->
       <div class="read-home" id="readHome">
         <div class="read-home-cards">
-          <button class="read-home-card" data-mode="text" id="readCardText">
-            <span class="read-home-icon">&#9998;</span>
-            <span class="read-home-label">Text</span>
-            <span class="read-home-desc">Read any text or article with instant translation</span>
-          </button>
           <button class="read-home-card" data-mode="pdf" id="readCardPdf">
             <span class="read-home-icon">&#128196;</span>
             <span class="read-home-label">PDF</span>
@@ -872,21 +867,65 @@
             <span class="read-home-label">Words</span>
             <span class="read-home-desc">Learn and practice vocabulary with flashcards</span>
           </button>
+          <button class="read-home-card" data-mode="alphabet" id="readCardAlphabet">
+            <span class="read-home-icon">&#1329;</span>
+            <span class="read-home-label">Alphabet</span>
+            <span class="read-home-desc">Learn the Armenian letters step by step</span>
+          </button>
+          <button class="read-home-card" data-mode="textpractice" id="readCardTextPractice">
+            <span class="read-home-icon">&#9998;</span>
+            <span class="read-home-label">Text Practice</span>
+            <span class="read-home-desc">Fill in the missing words in a short text</span>
+          </button>
         </div>
       </div>
 
-      <!-- Sub-page: Text -->
-      <div class="read-page" id="read-page-text">
-        <div class="read-page-input">
-          <textarea class="read-textarea" id="readTextInput" placeholder="Paste or type text here..." spellcheck="false"></textarea>
-          <button class="btn btn-primary read-action-btn" id="btnReadText">Read &#9654;</button>
+      <!-- Sub-page: Alphabet -->
+      <div class="read-page" id="read-page-alphabet">
+        <div class="alphabet-page">
+          <div class="alphabet-header">
+            <span class="alphabet-title" id="alphabetTitle">Armenian Alphabet</span>
+            <span class="alphabet-counter" id="alphabetCounter">1 / 39</span>
+          </div>
+          <div class="alphabet-viewer">
+            <button class="icon-btn alphabet-nav-btn" id="btnAlphabetPrev" title="Previous letter">&#9664;</button>
+            <div class="alphabet-track" id="alphabetTrack"></div>
+            <button class="icon-btn alphabet-nav-btn" id="btnAlphabetNext" title="Next letter">&#9654;</button>
+          </div>
+          <div class="alphabet-footer">
+            <div class="alphabet-dots" id="alphabetDots"></div>
+            <button class="btn btn-primary alphabet-speak-btn" id="btnAlphabetSpeak">&#128266; Pronunciation</button>
+          </div>
         </div>
-        <div class="read-collapsed-bar" id="readCollapsedBarText" style="display:none;">
-          <span class="read-collapsed-label" id="readCollapsedLabelText"></span>
-          <button class="btn btn-secondary btn-sm" id="btnReadNewText">&#8592; New</button>
-        </div>
-        <div class="read-content-area" id="readContentAreaText" style="display:none;">
-          <div class="read-text-view" id="readTextView"></div>
+      </div>
+
+      <!-- Sub-page: Text Practice -->
+      <div class="read-page" id="read-page-textpractice">
+        <div class="textpractice-page">
+          <h2 class="tp-title" id="tpTitle"></h2>
+          <div class="tp-text" id="tpText"></div>
+          <div class="tp-done-bar" id="tpDoneBar" style="display:none;">
+            <button class="btn btn-primary" id="btnTpDone">Done &#10003;</button>
+          </div>
+          <div class="word-bank-section">
+            <h3 class="word-bank-title">Available Words</h3>
+            <div class="tp-bank" id="tpBank"></div>
+            <div class="tp-bank-empty" id="tpBankEmpty" style="display:none;">All words are placed</div>
+          </div>
+          <div class="tp-result" id="tpResult" style="display:none;">
+            <div class="tp-result-icon">&#127937;</div>
+            <h2 class="tp-result-heading">Result</h2>
+            <div class="tp-result-stats">
+              <div class="tp-result-row tp-correct-text">Correct: <span id="tpResultCorrect">0</span></div>
+              <div class="tp-result-row tp-wrong-text">Wrong: <span id="tpResultWrong">0</span></div>
+              <div class="tp-result-row">Total: <span id="tpResultScore">0 / 0</span></div>
+              <div class="tp-result-row tp-result-pct">Score: <span id="tpResultPct">0%</span></div>
+            </div>
+            <div class="tp-result-actions">
+              <button class="btn btn-primary" id="btnTpRetry">Try Again</button>
+              <button class="btn btn-secondary" id="btnTpBack">&#8592; Back</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1355,6 +1394,8 @@
   <script src="scripts/word-collector.js"></script>
   <script src="scripts/words-page.js"></script>
   <script src="scripts/vocabulary-library.js"></script>
+  <script src="scripts/alphabet-page.js"></script>
+  <script src="scripts/text-practice.js"></script>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="scripts/app.js"></script>
 </body>
