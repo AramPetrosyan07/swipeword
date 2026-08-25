@@ -52,6 +52,7 @@ class AlphabetPage {
     this.alphabet = ALPHABETS[0];
     this.current = 0;
     this._scrollTimer = null;
+    this._voiceId = 0;
   }
 
   init() {
@@ -59,6 +60,9 @@ class AlphabetPage {
     this.dotsEl = document.getElementById('alphabetDots');
     this.counterEl = document.getElementById('alphabetCounter');
     if (!this.trackEl) return;
+
+    this._voiceId = (window.appStore && appStore.data.ttsVoice != null) ? appStore.data.ttsVoice : 0;
+    this._updateVoiceUi();
 
     document.getElementById('alphabetTitle').textContent = this.alphabet.name;
     this._buildSlides();
@@ -68,11 +72,43 @@ class AlphabetPage {
     document.getElementById('btnAlphabetNext').addEventListener('click', () => this.goTo(this.current + 1));
     document.getElementById('btnAlphabetSpeak').addEventListener('click', () => this.pronounce());
 
+    const voiceBtn = document.getElementById('btnAlphabetVoice');
+    const voiceMenu = document.getElementById('alphabetVoiceMenu');
+    voiceBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      voiceMenu.style.display = voiceMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (voiceMenu.style.display === 'flex' && !voiceMenu.contains(e.target) && e.target !== voiceBtn) {
+        voiceMenu.style.display = 'none';
+      }
+    });
+    voiceMenu.querySelectorAll('.yt-voice-option').forEach((opt) => {
+      opt.addEventListener('click', () => {
+        this._voiceId = parseInt(opt.dataset.voice, 10);
+        if (window.appStore) {
+          appStore.data.ttsVoice = this._voiceId;
+          appStore.save();
+        }
+        this._updateVoiceUi();
+        voiceMenu.style.display = 'none';
+      });
+    });
+
     this.trackEl.addEventListener('scroll', () => {
       clearTimeout(this._scrollTimer);
       this._scrollTimer = setTimeout(() => this._syncFromScroll(), 80);
     });
     this._update();
+  }
+
+  _updateVoiceUi() {
+    const label = document.getElementById('alphabetVoiceLabel');
+    document.querySelectorAll('#alphabetVoiceMenu .yt-voice-option').forEach((opt) => {
+      const v = parseInt(opt.dataset.voice, 10);
+      opt.classList.toggle('active', v === this._voiceId);
+      if (v === this._voiceId && label) label.textContent = opt.textContent;
+    });
   }
 
   open() {
@@ -82,7 +118,11 @@ class AlphabetPage {
   pronounce() {
     const letter = this.alphabet.letters[this.current];
     const word = letter.label ? letter.label.hy : letter.char;
-    tts.speak(word, this.alphabet.lang);
+    if (window.electronAPI && window.electronAPI.ttsSpeak) {
+      window.electronAPI.ttsSpeak(word, this.alphabet.lang, this._voiceId).catch(() => {});
+    } else {
+      tts.speak(word, this.alphabet.lang);
+    }
   }
 
   goTo(index) {

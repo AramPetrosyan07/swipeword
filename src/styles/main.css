@@ -4992,6 +4992,17 @@ body.theme-dark .pdf-scroll-canvas {
   flex-shrink: 0;
 }
 
+.alphabet-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.alphabet-voice-dropdown {
+  position: relative;
+}
+
 .alphabet-title {
   font-size: 18px;
   font-weight: 700;
