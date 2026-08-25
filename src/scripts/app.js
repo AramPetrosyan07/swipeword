@@ -1537,14 +1537,20 @@ class App {
     });
     document.getElementById('pdfPages').addEventListener('contextmenu', (e) => {
       if (!this._readAloudMode) return;
-      const word = e.target.closest('.rw-word');
+      let word = e.target.closest('.rw-word');
+      if (!word) {
+        const el = document.elementFromPoint(e.clientX, e.clientY);
+        if (el) word = el.closest('.rw-word');
+      }
       if (!word) return;
       e.preventDefault();
       e.stopPropagation();
+      const slot = word.closest('.pdf-scroll-page');
+      const clickedPage = slot ? parseInt(slot.dataset.page, 10) : 0;
       const lang = document.getElementById('readAloudLang').value || 'en';
       const speed = parseFloat(document.getElementById('readAloudSpeed').value) || 1;
       const voiceId = this.translationPopup ? this.translationPopup._voiceId : 0;
-      readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId, speed);
+      readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId, speed, clickedPage, word);
       this._updateReadAloudUI(true);
       this._updateReadAloudPlayBtn(true);
     });

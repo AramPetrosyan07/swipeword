@@ -544,21 +544,51 @@ class ReaderMode {
     for (let i = 1; i <= this.pageCount; i++) {
       const text = await this.getPageText(i);
       if (!text) continue;
+      const pageStart = sentences.length;
       const parts = text.split(/(?<=[.!?])\s+/);
       for (const part of parts) {
         const trimmed = part.trim();
-        if (trimmed) sentences.push({ text: trimmed, page: i });
+        if (trimmed) sentences.push({ text: trimmed, page: i, pageStart });
       }
     }
     return sentences;
   }
 
-  _findSentenceForWord(wordText, sentences) {
-    const clean = wordText.replace(/[^\w]/g, '').toLowerCase();
-    for (let i = 0; i < sentences.length; i++) {
-      if (sentences[i].text.toLowerCase().includes(clean)) return i;
+  _findSentenceForWord(wordText, sentences, clickedPage, clickedEl) {
+    if (clickedPage > 0 && clickedEl) {
+      const layer = clickedEl.closest('.pdf-scroll-layer');
+      if (layer) {
+        const allWords = Array.from(layer.querySelectorAll('.rw-word'));
+        const clickedIdx = allWords.indexOf(clickedEl);
+        const pageSents = sentences.filter(s => s.page === clickedPage);
+        let acc = 0;
+        for (const s of pageSents) {
+          const wordCount = s.text.split(/\s+/).length;
+          if (clickedIdx >= acc && clickedIdx < acc + wordCount) {
+            return sentences.indexOf(s);
+          }
+          acc += wordCount;
+        }
+        if (pageSents.length > 0) {
+          let best = 0;
+          let bestDist = Infinity;
+          acc = 0;
+          for (let i = 0; i < pageSents.length; i++) {
+            const mid = acc + Math.floor(pageSents[i].text.split(/\s+/).length / 2);
+            const dist = Math.abs(clickedIdx - mid);
+            if (dist < bestDist) { bestDist = dist; best = i; }
+            acc += pageSents[i].text.split(/\s+/).length;
+          }
+          return sentences.indexOf(pageSents[best]);
+        }
+      }
     }
-    return 0;
+    const clean = wordText.replace(/[^\w]/g, '').toLowerCase();
+    let lastMatch = -1;
+    for (let i = 0; i < sentences.length; i++) {
+      if (sentences[i].text.toLowerCase().includes(clean)) lastMatch = i;
+    }
+    return lastMatch >= 0 ? lastMatch : 0;
   }
 
   _highlightReadAloudSentence(idx) {
@@ -600,16 +630,14 @@ class ReaderMode {
     }
   }
 
-  async readAloudStart(wordText, lang, voiceId, speed) {
+  async readAloudStart(wordText, lang, voiceId, speed, clickedPage, clickedEl) {
     if (!this.pdfDoc) return;
-    if (!this._readAloudSentences.length) {
-      this._readAloudSentences = await this._extractAllSentences();
-    }
-    if (!this._readAloudSentences.length) return;
     this._readAloudLang = lang || 'en';
     this._readAloudVoiceId = voiceId || 0;
     this._readAloudSpeed = speed || 1;
-    this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences);
+    this._readAloudSentences = await this._extractAllSentences();
+    if (!this._readAloudSentences.length) return;
+    this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences, clickedPage, clickedEl);
     this._readAloudActive = true;
     this._readAloudPaused = false;
     this._readAloudSpeakCurrent();
