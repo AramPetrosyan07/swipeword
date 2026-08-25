@@ -1322,8 +1322,10 @@ class App {
   _updateReadAloudUI(active) {
     const btn = document.getElementById('btnReadAloud');
     const inline = document.getElementById('readAloudInline');
+    const pdfPages = document.getElementById('pdfPages');
     if (btn) btn.classList.toggle('active', active);
     if (inline) inline.style.display = active ? 'flex' : 'none';
+    if (pdfPages) pdfPages.classList.toggle('read-aloud-mode', !!active);
     if (!active) {
       this._readAloudMode = false;
       this._updateReadAloudPlayBtn(false);

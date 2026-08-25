@@ -2441,6 +2441,18 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   border-radius: 3px;
 }
 
+/* Read Aloud mode: red hover on words to indicate right-click-to-start */
+.pdf-pages.read-aloud-mode .pdf-scroll-layer .rw-word:hover {
+  background: rgba(220, 38, 38, 0.45) !important;
+  border-radius: 3px;
+  cursor: crosshair;
+  transition: background 0.08s ease;
+}
+
+.pdf-pages.read-aloud-mode .pdf-scroll-layer .rw-word {
+  cursor: crosshair;
+}
+
 /* Reader toolbar: language settings mode */
 #screen-reader.reader-settings-mode #btnReaderMenu,
 #screen-reader.reader-settings-mode #btnReaderBack,

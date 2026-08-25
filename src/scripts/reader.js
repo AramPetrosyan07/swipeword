@@ -632,6 +632,12 @@ class ReaderMode {
 
   async readAloudStart(wordText, lang, voiceId, speed, clickedPage, clickedEl) {
     if (!this.pdfDoc) return;
+    // Stop any currently playing audio before restarting
+    if (this._readAloudAudio) {
+      this._readAloudAudio.pause();
+      this._readAloudAudio = null;
+    }
+    this._readAloudActive = false;
     this._readAloudLang = lang || 'en';
     this._readAloudVoiceId = voiceId || 0;
     this._readAloudSpeed = speed || 1;
