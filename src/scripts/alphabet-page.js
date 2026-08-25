@@ -4,45 +4,45 @@ const ALPHABETS = [
     name: 'Armenian Alphabet',
     lang: 'hy-AM',
     letters: [
-      { char: 'ա', image: 'assets/alphabet/hy/ա.png' },
-      { char: 'բ', image: 'assets/alphabet/hy/բ.png' },
-      { char: 'գ', image: 'assets/alphabet/hy/գ.png' },
-      { char: 'դ', image: 'assets/alphabet/hy/դ.png' },
-      { char: 'ե', image: 'assets/alphabet/hy/ե.png' },
-      { char: 'զ', image: 'assets/alphabet/hy/զ.png' },
-      { char: 'է', image: 'assets/alphabet/hy/է.png' },
-      { char: 'ը', image: 'assets/alphabet/hy/ը.png' },
-      { char: 'թ', image: 'assets/alphabet/hy/թ.png' },
-      { char: 'ժ', image: 'assets/alphabet/hy/ժ.png' },
-      { char: 'ի', image: 'assets/alphabet/hy/ի.png' },
-      { char: 'լ', image: 'assets/alphabet/hy/լ.jpg' },
-      { char: 'խ', image: 'assets/alphabet/hy/խ.png' },
-      { char: 'ծ', image: 'assets/alphabet/hy/ծ.png' },
-      { char: 'կ', image: 'assets/alphabet/hy/կ.jpg' },
-      { char: 'հ', image: 'assets/alphabet/hy/հ.jpg' },
-      { char: 'ձ', image: 'assets/alphabet/hy/ձ.jpg' },
-      { char: 'ղ', image: 'assets/alphabet/hy/ղ.jpg' },
-      { char: 'ճ', image: 'assets/alphabet/hy/ճ.jpg' },
-      { char: 'մ', image: 'assets/alphabet/hy/մ.jpg' },
-      { char: 'յ', image: 'assets/alphabet/hy/յ.jpg' },
-      { char: 'ն', image: 'assets/alphabet/hy/ն.jpg' },
-      { char: 'շ', image: 'assets/alphabet/hy/շ.jpg' },
-      { char: 'ո', image: 'assets/alphabet/hy/ո.jpg' },
-      { char: 'ու', image: 'assets/alphabet/hy/ու.jpg' },
-      { char: 'չ', image: 'assets/alphabet/hy/չ.jpg' },
-      { char: 'պ', image: 'assets/alphabet/hy/պ.jpg' },
-      { char: 'ջ', image: 'assets/alphabet/hy/ջ.jpg' },
-      { char: 'ռ', image: 'assets/alphabet/hy/ռ.jpg' },
-      { char: 'ս', image: 'assets/alphabet/hy/ս.jpg' },
-      { char: 'վ', image: 'assets/alphabet/hy/վ.jpg' },
-      { char: 'տ', image: 'assets/alphabet/hy/տ.jpg' },
-      { char: 'ր', image: 'assets/alphabet/hy/ր.jpg' },
-      { char: 'ց', image: 'assets/alphabet/hy/ց.jpg' },
-      { char: 'փ', image: 'assets/alphabet/hy/փ.jpg' },
-      { char: 'ք', image: 'assets/alphabet/hy/ք.jpg' },
-      { char: 'օ', image: 'assets/alphabet/hy/օ.jpg' },
-      { char: 'ֆ', image: 'assets/alphabet/hy/ֆ.jpg' },
-      { char: 'և', image: 'assets/alphabet/hy/և.jpg' },
+      { char: "ա", image: "assets/alphabet/hy/ա.png", example: "assets/examples/առյուծ.jpg" },
+      { char: "բ", image: "assets/alphabet/hy/բ.png", example: "assets/examples/բանան.jpg" },
+      { char: "գ", image: "assets/alphabet/hy/գ.png", example: "assets/examples/գնդակ.jpg" },
+      { char: "դ", image: "assets/alphabet/hy/դ.png", example: "assets/examples/դանակ.jpg" },
+      { char: "ե", image: "assets/alphabet/hy/ե.png", example: "assets/examples/եղնիկ.jpg" },
+      { char: "զ", image: "assets/alphabet/hy/զ.png", example: "assets/examples/զատիկ.jpg" },
+      { char: "է", image: "assets/alphabet/hy/է.png", example: "assets/examples/էներգիա.jpg" },
+      { char: "ը", image: "assets/alphabet/hy/ը.png", example: "assets/examples/ընձուղտ.avif" },
+      { char: "թ", image: "assets/alphabet/hy/թ.png", example: "assets/examples/թութակ.jpg" },
+      { char: "ժ", image: "assets/alphabet/hy/ժ.png", example: "assets/examples/ժամացույց.jpg" },
+      { char: "ի", image: "assets/alphabet/hy/ի.png", example: "assets/examples/ինտերնետ.jpg" },
+      { char: "լ", image: "assets/alphabet/hy/լ.jpg", example: "assets/examples/լուսին.jpg" },
+      { char: "խ", image: "assets/alphabet/hy/խ.png", example: "assets/examples/խաղող.jpg" },
+      { char: "ծ", image: "assets/alphabet/hy/ծ.png", example: "assets/examples/ծիրան.webp" },
+      { char: "կ", image: "assets/alphabet/hy/կ.jpg", example: "assets/examples/կրակ.jpg" },
+      { char: "հ", image: "assets/alphabet/hy/հ.jpg", example: "assets/examples/hեծանիվ.webp" },
+      { char: "ձ", image: "assets/alphabet/hy/ձ.jpg", example: "assets/examples/ձուկ.jpg" },
+      { char: "ղ", image: "assets/alphabet/hy/ղ.jpg", example: "assets/examples/ղեկավար.jpg" },
+      { char: "ճ", image: "assets/alphabet/hy/ճ.jpg", example: "assets/examples/ճանապարհ.jpg" },
+      { char: "մ", image: "assets/alphabet/hy/մ.jpg", example: "assets/examples/մեքենա.jpg" },
+      { char: "յ", image: "assets/alphabet/hy/յ.jpg", example: "assets/examples/յասաման.jpg" },
+      { char: "ն", image: "assets/alphabet/hy/ն.jpg", example: "assets/examples/նկար.jpg" },
+      { char: "շ", image: "assets/alphabet/hy/շ.jpg", example: "assets/examples/շուն.webp" },
+      { char: "ո", image: "assets/alphabet/hy/ո.jpg", example: "assets/examples/ոզնի.jpg" },
+      { char: "ու", image: "assets/alphabet/hy/ու.jpg", example: "assets/examples/ուղտ.webp" },
+      { char: "չ", image: "assets/alphabet/hy/չ.jpg", example: "assets/examples/չարություն.jpg" },
+      { char: "պ", image: "assets/alphabet/hy/պ.jpg", example: "assets/examples/պատ.jpg" },
+      { char: "ջ", image: "assets/alphabet/hy/ջ.jpg", example: "assets/examples/ջուր.jpg" },
+      { char: "ռ", image: "assets/alphabet/hy/ռ.jpg", example: "assets/examples/ռիսկ.jpg" },
+      { char: "ս", image: "assets/alphabet/hy/ս.jpg", example: "assets/examples/սունկ.jpg" },
+      { char: "վ", image: "assets/alphabet/hy/վ.jpg", example: "assets/examples/վարդ.jpg" },
+      { char: "տ", image: "assets/alphabet/hy/տ.jpg", example: "assets/examples/տուն.jpg" },
+      { char: "ր", image: "assets/alphabet/hy/ր.jpg", example: "assets/examples/րոպե.jpg" },
+      { char: "ց", image: "assets/alphabet/hy/ց.jpg", example: "assets/examples/ցուրտ.jpg" },
+      { char: "փ", image: "assets/alphabet/hy/փ.jpg", example: "assets/examples/փիղ.webp" },
+      { char: "ք", image: "assets/alphabet/hy/ք.jpg", example: "assets/examples/քաղաք.jpeg" },
+      { char: "օ", image: "assets/alphabet/hy/օ.jpg", example: "assets/examples/օդանավ.jpg" },
+      { char: "ֆ", image: "assets/alphabet/hy/ֆ.jpg", example: "assets/examples/ֆուտբոլ.jpg" },
+      { char: "և", image: "assets/alphabet/hy/և.jpg" },
     ],
   },
 ];
@@ -99,6 +99,17 @@ class AlphabetPage {
       const slide = document.createElement('div');
       slide.className = 'alphabet-slide';
       slide.dataset.index = i;
+
+      if (letter.example) {
+        const exampleWrap = document.createElement('div');
+        exampleWrap.className = 'alphabet-slide-example-wrap';
+        const exampleImg = document.createElement('img');
+        exampleImg.src = letter.example;
+        exampleImg.alt = letter.char;
+        exampleImg.draggable = false;
+        exampleWrap.appendChild(exampleImg);
+        slide.appendChild(exampleWrap);
+      }
 
       const imgWrap = document.createElement('div');
       imgWrap.className = 'alphabet-slide-img-wrap';

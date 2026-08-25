@@ -5095,6 +5095,23 @@ body.theme-dark .pdf-scroll-canvas {
   object-fit: contain;
 }
 
+.alphabet-slide-example-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+}
+
+.alphabet-slide-example-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .alphabet-slide-char {
   font-size: 30px;
   font-weight: 700;
