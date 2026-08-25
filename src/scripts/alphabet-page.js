@@ -100,6 +100,7 @@ class AlphabetPage {
       this._scrollTimer = setTimeout(() => this._syncFromScroll(), 80);
     });
     this._update();
+    this._preloadTTS();
   }
 
   _updateVoiceUi() {
@@ -136,6 +137,19 @@ class AlphabetPage {
       });
     } else {
       tts.speak(word, lang);
+    }
+  }
+
+  _preloadTTS() {
+    if (!window.electronAPI || !window.electronAPI.ttsSpeak) return;
+    for (const letter of this.alphabet.letters) {
+      if (letter.label) {
+        window.electronAPI.ttsSpeak(letter.label.hy, 'hy-AM', this._voiceId).catch(() => {});
+        window.electronAPI.ttsSpeak(letter.label.en, 'en-US', this._voiceId).catch(() => {});
+        window.electronAPI.ttsSpeak(letter.label.ru, 'ru-RU', this._voiceId).catch(() => {});
+      } else {
+        window.electronAPI.ttsSpeak(letter.char, this.alphabet.lang, this._voiceId).catch(() => {});
+      }
     }
   }
 

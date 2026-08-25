@@ -8,11 +8,7 @@ class TTS {
     const voices = window.speechSynthesis.getVoices();
     const matched = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(short));
     if (matched) utterance.voice = matched;
-    if (short === 'hy') {
-      utterance.rate = 0.7;
-    } else {
-      utterance.rate = 0.9;
-    }
+    utterance.rate = 1;
     utterance.pitch = 1;
     window.speechSynthesis.speak(utterance);
   }
