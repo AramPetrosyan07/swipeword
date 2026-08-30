@@ -402,7 +402,7 @@ ipcMain.handle("store:loadFavoritesFile", async () => {
   return [];
 });
 
-// --- Translation API (MyMemory + Google Translate free endpoint) ---
+// --- Translation API (MyMemory + Google Translate dict-chrome-ex endpoint) ---
 const translateCache = new Map();
 
 async function _mymemoryTranslate(word, from, to) {
@@ -413,22 +413,35 @@ async function _mymemoryTranslate(word, from, to) {
 }
 
 async function _googleTranslate(word, from, to) {
-  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(word)}`;
+  // dict-chrome-ex endpoint: works reliably (unlike the blocked gtx endpoint)
+  // and auto-detects the source language even when `sl` is missing/wrong.
+  const url = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${from}&tl=${to}&q=${encodeURIComponent(word)}`;
   const resp = await fetch(url);
   const data = await resp.json();
-  return data[0]?.map(s => s[0]).join('') || "";
+  if (!Array.isArray(data)) return "";
+  const parts = data.filter((p) => typeof p === "string" && p);
+  return parts.join(" ");
 }
 
 async function _fetchAlternatives(word, from, to, count) {
   const alts = [];
   const lower = word.toLowerCase();
+  const samePair = from === to;
 
   const promises = [];
 
-  if (count >= 1) promises.push(_mymemoryTranslate(lower, from, to).catch(() => ""));
+  // MyMemory returns HTTP 403 when source and target are the same language,
+  // so skip it for same-pair targets and rely on the auto-detecting Google
+  // endpoint below (it still detects the correct source).
+  if (!samePair && count >= 1) promises.push(_mymemoryTranslate(lower, from, to).catch(() => ""));
   if (count >= 2) promises.push(_googleTranslate(lower, from, to).catch(() => ""));
-  if (count >= 3) promises.push(_mymemoryTranslate("the " + lower, from, to).catch(() => ""));
-  if (count >= 4) promises.push(_googleTranslate("to " + lower, from, to).catch(() => ""));
+
+  // English verb/noun-prefix variants only make sense when translating FROM
+  // English; for other sources they produce garbage, so skip them.
+  if (from === "en") {
+    if (!samePair && count >= 3) promises.push(_mymemoryTranslate("the " + lower, from, to).catch(() => ""));
+    if (count >= 4) promises.push(_googleTranslate("to " + lower, from, to).catch(() => ""));
+  }
 
   const results = await Promise.all(promises);
 
