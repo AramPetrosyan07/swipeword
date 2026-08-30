@@ -1309,6 +1309,10 @@ class App {
       `<option value="${v}">${label}</option>`
     ).join('');
     sel.value = this._pdfSourceLang || 'en';
+    const voiceSel = document.getElementById('readAloudVoice');
+    if (voiceSel) {
+      voiceSel.value = String(appStore.data.ttsVoice != null ? appStore.data.ttsVoice : 0);
+    }
   }
 
   _toggleReadAloud() {
@@ -1555,6 +1559,17 @@ class App {
     document.getElementById('readAloudSpeed').addEventListener('change', (e) => {
       readerMode.readAloudSetSpeed(parseFloat(e.target.value) || 1);
     });
+    document.getElementById('readAloudVoice').addEventListener('change', (e) => {
+      const voice = parseInt(e.target.value, 10) || 0;
+      appStore.data.ttsVoice = voice;
+      appStore.save();
+      if (this.translationPopup) this.translationPopup.setVoice(voice);
+      this._updateVoiceUi();
+      if (readerMode._readAloudActive) {
+        readerMode.readAloudStop();
+        this._updateReadAloudUI(false);
+      }
+    });
     document.getElementById('pdfPages').addEventListener('contextmenu', (e) => {
       if (!this._readAloudMode) return;
       let word = e.target.closest('.rw-word');
@@ -1572,7 +1587,7 @@ class App {
       const clickedPage = slot ? parseInt(slot.dataset.page, 10) : 0;
       const lang = document.getElementById('readAloudLang').value || 'en';
       const speed = parseFloat(document.getElementById('readAloudSpeed').value) || 1;
-      const voiceId = this.translationPopup ? this.translationPopup._voiceId : 0;
+      const voiceId = parseInt(document.getElementById('readAloudVoice').value, 10) || 0;
       readerMode.readAloudStart(word.dataset.word || word.textContent, lang, voiceId, speed, clickedPage, word);
       this._updateReadAloudUI(true);
       this._updateReadAloudPlayBtn(true);
@@ -3210,6 +3225,8 @@ class App {
       opt.classList.toggle('active', v === voice);
       if (v === voice && labelEl) labelEl.textContent = opt.textContent;
     });
+    const readAloudVoice = document.getElementById('readAloudVoice');
+    if (readAloudVoice) readAloudVoice.value = String(voice);
   }
 
   _resetReadPage() {
