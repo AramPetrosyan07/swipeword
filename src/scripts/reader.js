@@ -634,15 +634,8 @@ class ReaderMode {
       const s = this._readAloudSentences[i];
       if (s.page === sent.page) startIdx += s.text.split(/\s+/).length;
     }
-    let highlightStart = startIdx;
-    let wordCount = sentWords.length;
-    if (idx === this._readAloudStartIdx && this._readAloudClickedEl) {
-      const clickedIdx = Array.from(words).indexOf(this._readAloudClickedEl);
-      if (clickedIdx >= startIdx && clickedIdx < startIdx + sentWords.length) {
-        highlightStart = clickedIdx;
-        wordCount = sentWords.length - (clickedIdx - startIdx);
-      }
-    }
+    const highlightStart = startIdx;
+    const wordCount = sentWords.length;
     let matchCount = 0;
     for (let i = highlightStart; i < words.length && matchCount < wordCount; i++) {
       words[i].classList.add('pdf-read-aloud-active');
