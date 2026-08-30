@@ -1566,8 +1566,7 @@ class App {
       if (this.translationPopup) this.translationPopup.setVoice(voice);
       this._updateVoiceUi();
       if (readerMode._readAloudActive) {
-        readerMode.readAloudStop();
-        this._updateReadAloudUI(false);
+        readerMode.readAloudSetVoice(voice);
       }
     });
     document.getElementById('pdfPages').addEventListener('contextmenu', (e) => {

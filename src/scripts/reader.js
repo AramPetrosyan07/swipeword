@@ -777,6 +777,17 @@ class ReaderMode {
       this._readAloudAudio.playbackRate = speed;
     }
   }
+
+  readAloudSetVoice(voiceId) {
+    this._readAloudVoiceId = voiceId || 0;
+    if (!this._readAloudActive || this._readAloudPaused) return;
+    const token = ++this._readAloudToken;
+    if (this._readAloudAudio) {
+      this._readAloudAudio.pause();
+      this._readAloudAudio = null;
+    }
+    this._readAloudSpeakCurrent(token);
+  }
 }
 
 const readerMode = new ReaderMode();
