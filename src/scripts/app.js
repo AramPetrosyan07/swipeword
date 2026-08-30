@@ -1942,6 +1942,13 @@ class App {
     this._applyReaderLangPrefs();
     await this._pdfRailSettled();
     await readerMode.loadPdfDoc(tab.doc);
+    const detected = await readerMode.detectSourceLang();
+    if (detected && detected !== this._pdfSourceLang) {
+      this._pdfSourceLang = detected;
+      this._applyReaderLangPrefs();
+      const readAloudSel = document.getElementById('readAloudLang');
+      if (readAloudSel) readAloudSel.value = detected;
+    }
     let savedTop = tab.scrollTop;
     if (!savedTop && appStore.data.pdfScrollPositions) {
       savedTop = appStore.data.pdfScrollPositions[tab.path || tab.name] || 0;

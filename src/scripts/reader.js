@@ -318,6 +318,23 @@ class ReaderMode {
     ).catch(() => '');
   }
 
+  async detectSourceLang(samplePages) {
+    if (!this.pdfDoc) return '';
+    const pages = Math.min(samplePages || 3, this.pageCount);
+    let sample = '';
+    for (let i = 1; i <= pages; i++) {
+      sample += await this.getPageText(i);
+      if (/[\u0530-\u058F]/.test(sample) || /[\u0400-\u04FF]/.test(sample)) break;
+    }
+    if (!sample) return '';
+    const hy = (sample.match(/[\u0530-\u058F]/g) || []).length;
+    const ru = (sample.match(/[\u0400-\u04FF]/g) || []).length;
+    const latin = (sample.match(/[A-Za-z]/g) || []).length;
+    if (ru >= hy && ru >= latin) return 'ru';
+    if (hy >= ru && hy >= latin) return 'hy';
+    return 'en';
+  }
+
   _visiblePageRange() {
     const container = document.getElementById('pdfViewerScroll');
     if (!container || this.slots.length === 0) return null;
