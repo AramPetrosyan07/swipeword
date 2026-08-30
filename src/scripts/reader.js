@@ -726,13 +726,20 @@ class ReaderMode {
     this._readAloudPaused = true;
     if (this._readAloudAudio) {
       this._readAloudAudio.pause();
-      this._readAloudAudio = null;
     }
   }
 
   readAloudResume() {
     if (!this._readAloudActive || !this._readAloudPaused) return;
     this._readAloudPaused = false;
+    // Resume the same audio element from its paused position so playback
+    // continues; the pending speak promise resolves when it ends naturally.
+    const audio = this._readAloudAudio;
+    if (audio && !audio.ended) {
+      audio.play().catch(() => {});
+      return;
+    }
+    this._readAloudAudio = null;
     this._readAloudSpeakCurrent(this._readAloudToken);
   }
 
