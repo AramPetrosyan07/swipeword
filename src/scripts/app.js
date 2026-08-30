@@ -2027,11 +2027,15 @@ class App {
     const tab = this._pdfTabs[this._pdfActiveTab];
     const scrollContainer = document.getElementById('pdfViewerScroll');
     if (!tab || !scrollContainer) return;
-    tab.scrollTop = scrollContainer.scrollTop;
     const key = tab.path || tab.name;
     if (!key) return;
+    const viewerEl = document.getElementById('readContentAreaPdf');
+    const isShown = this._readCurrentPage === 'pdf' && viewerEl && viewerEl.style.display !== 'none';
+    if (isShown) {
+      tab.scrollTop = scrollContainer.scrollTop;
+    }
     if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
-    appStore.data.pdfScrollPositions[key] = tab.scrollTop;
+    appStore.data.pdfScrollPositions[key] = tab.scrollTop || 0;
     appStore.save();
   }
 
