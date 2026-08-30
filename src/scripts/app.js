@@ -1337,6 +1337,24 @@ class App {
     if (playBtn) playBtn.innerHTML = playing ? '&#9646;&#9646;' : '&#9654;';
   }
 
+  _findNearestPdfWord(clientX, clientY, limit) {
+    const words = document.querySelectorAll('.pdf-scroll-layer .rw-word');
+    let best = null;
+    let bestD = Infinity;
+    let checked = 0;
+    for (const w of words) {
+      if (checked >= (limit || Infinity)) break;
+      checked++;
+      const r = w.getBoundingClientRect();
+      if (!r.width && !r.height) continue;
+      const dx = clientX < r.left ? r.left - clientX : (clientX > r.right ? clientX - r.right : 0);
+      const dy = clientY < r.top ? r.top - clientY : (clientY > r.bottom ? clientY - r.bottom : 0);
+      const d = Math.sqrt(dx * dx + dy * dy);
+      if (d < bestD) { bestD = d; best = w; }
+    }
+    return best;
+  }
+
   _loadReaderLangPrefs() {
     try {
       const saved = localStorage.getItem('reader-lang-prefs');
@@ -1543,6 +1561,9 @@ class App {
       if (!word) {
         const el = document.elementFromPoint(e.clientX, e.clientY);
         if (el) word = el.closest('.rw-word');
+      }
+      if (!word && e.target && e.target.closest('.pdf-scroll-page')) {
+        word = this._findNearestPdfWord(e.clientX, e.clientY);
       }
       if (!word) return;
       e.preventDefault();

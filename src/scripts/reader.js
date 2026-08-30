@@ -11,6 +11,9 @@ class ReaderMode {
     this._scrollPending = false;
     this._viewports = [];
     this._renderQueue = Promise.resolve();
+    this._readAloudToken = 0;
+    this._readAloudClickedPage = 0;
+    this._readAloudClickedIdx = -1;
   }
 
   async loadPdf(data) {
@@ -530,6 +533,9 @@ class ReaderMode {
     this._viewports = [];
     this._generation++;
     this._renderQueue = Promise.resolve();
+    this._readAloudToken++;
+    this._readAloudClickedPage = 0;
+    this._readAloudClickedIdx = -1;
     const pagesEl = document.getElementById('pdfPages');
     if (pagesEl) {
       pagesEl.innerHTML = '';
@@ -555,12 +561,22 @@ class ReaderMode {
   }
 
   _findSentenceForWord(wordText, sentences, clickedPage, clickedEl) {
+    let clickedIdx = -1;
+    let layer = null;
     if (clickedPage > 0 && clickedEl) {
-      const layer = clickedEl.closest('.pdf-scroll-layer');
-      if (layer) {
-        const allWords = Array.from(layer.querySelectorAll('.rw-word'));
-        const clickedIdx = allWords.indexOf(clickedEl);
-        const pageSents = sentences.filter(s => s.page === clickedPage);
+      if (this._readAloudClickedIdx >= 0) {
+        clickedIdx = this._readAloudClickedIdx;
+      } else {
+        layer = clickedEl.closest ? clickedEl.closest('.pdf-scroll-layer') : null;
+        if (layer) {
+          const words = Array.from(layer.querySelectorAll('.rw-word'));
+          clickedIdx = words.indexOf(clickedEl);
+        }
+      }
+    }
+    if (clickedPage > 0 && clickedIdx >= 0) {
+      const pageSents = sentences.filter(s => s.page === clickedPage);
+      if (pageSents.length > 0) {
         let acc = 0;
         for (const s of pageSents) {
           const wordCount = s.text.split(/\s+/).length;
@@ -569,21 +585,28 @@ class ReaderMode {
           }
           acc += wordCount;
         }
-        if (pageSents.length > 0) {
-          let best = 0;
-          let bestDist = Infinity;
-          acc = 0;
-          for (let i = 0; i < pageSents.length; i++) {
-            const mid = acc + Math.floor(pageSents[i].text.split(/\s+/).length / 2);
-            const dist = Math.abs(clickedIdx - mid);
-            if (dist < bestDist) { bestDist = dist; best = i; }
-            acc += pageSents[i].text.split(/\s+/).length;
-          }
-          return sentences.indexOf(pageSents[best]);
+        let best = 0;
+        let bestDist = Infinity;
+        acc = 0;
+        for (let i = 0; i < pageSents.length; i++) {
+          const mid = acc + Math.floor(pageSents[i].text.split(/\s+/).length / 2);
+          const dist = Math.abs(clickedIdx - mid);
+          if (dist < bestDist) { bestDist = dist; best = i; }
+          acc += pageSents[i].text.split(/\s+/).length;
         }
+        return sentences.indexOf(pageSents[best]);
       }
     }
-    const clean = wordText.replace(/[^\w]/g, '').toLowerCase();
+    if (clickedPage > 0 && sentences.length) {
+      let best = 0;
+      let bestPd = Infinity;
+      for (let i = 0; i < sentences.length; i++) {
+        const pd = Math.abs(sentences[i].page - clickedPage);
+        if (pd < bestPd) { bestPd = pd; best = i; }
+      }
+      return best;
+    }
+    const clean = wordText ? wordText.replace(/[^\w]/g, '').toLowerCase() : '';
     let lastMatch = -1;
     for (let i = 0; i < sentences.length; i++) {
       if (sentences[i].text.toLowerCase().includes(clean)) lastMatch = i;
@@ -603,15 +626,14 @@ class ReaderMode {
     const words = layer.querySelectorAll('.rw-word');
     const sentWords = sent.text.split(/\s+/);
     if (!sentWords.length) return;
-    const first = sentWords[0].replace(/[^\w]/g, '').toLowerCase();
-    let startIdx = -1;
-    for (let i = 0; i < words.length; i++) {
-      if ((words[i].dataset.word || words[i].textContent).replace(/[^\w]/g, '').toLowerCase() === first) {
-        startIdx = i;
-        break;
-      }
+    // Map the sentence to its word offset within the page using the same
+    // per-page word counts that determine the reading position, so the
+    // underline always lands on the sentence actually being spoken.
+    let startIdx = 0;
+    for (let i = 0; i < idx; i++) {
+      const s = this._readAloudSentences[i];
+      if (s.page === sent.page) startIdx += s.text.split(/\s+/).length;
     }
-    if (startIdx === -1) return;
     let highlightStart = startIdx;
     let wordCount = sentWords.length;
     if (idx === this._readAloudStartIdx && this._readAloudClickedEl) {
@@ -641,27 +663,39 @@ class ReaderMode {
 
   async readAloudStart(wordText, lang, voiceId, speed, clickedPage, clickedEl) {
     if (!this.pdfDoc) return;
-    // Stop any currently playing audio before restarting
+    // Invalidate any previously running speech session so only one can be active.
+    const token = ++this._readAloudToken;
+    this._readAloudActive = false;
+    this._readAloudPaused = false;
+    this._readAloudLang = lang || 'en';
+    this._readAloudVoiceId = voiceId || 0;
+    this._readAloudSpeed = speed || 1;
+    this._readAloudClickedPage = clickedPage || 0;
+    this._readAloudClickedIdx = -1;
+    if (clickedEl && clickedPage > 0) {
+      const layer = clickedEl.closest ? clickedEl.closest('.pdf-scroll-layer') : null;
+      if (layer) {
+        const idx = Array.from(layer.querySelectorAll('.rw-word')).indexOf(clickedEl);
+        if (idx >= 0) this._readAloudClickedIdx = idx;
+      }
+    }
     if (this._readAloudAudio) {
       this._readAloudAudio.pause();
       this._readAloudAudio = null;
     }
-    this._readAloudActive = false;
-    this._readAloudLang = lang || 'en';
-    this._readAloudVoiceId = voiceId || 0;
-    this._readAloudSpeed = speed || 1;
     this._readAloudSentences = await this._extractAllSentences();
     if (!this._readAloudSentences.length) return;
-    this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences, clickedPage, clickedEl);
+    if (token !== this._readAloudToken) return;
+    this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences, this._readAloudClickedPage, clickedEl);
     this._readAloudStartIdx = this._readAloudIdx;
     this._readAloudClickedEl = clickedEl;
     this._readAloudActive = true;
     this._readAloudPaused = false;
-    this._readAloudSpeakCurrent();
+    this._readAloudSpeakCurrent(token);
   }
 
-  async _readAloudSpeakCurrent() {
-    if (!this._readAloudActive || this._readAloudPaused) return;
+  async _readAloudSpeakCurrent(token) {
+    if (token !== this._readAloudToken || !this._readAloudActive || this._readAloudPaused) return;
     if (this._readAloudIdx >= this._readAloudSentences.length) {
       this.readAloudStop();
       return;
@@ -670,10 +704,14 @@ class ReaderMode {
     this._highlightReadAloudSentence(this._readAloudIdx);
     try {
       const result = await window.electronAPI.ttsSpeak(sent.text, this._readAloudLang, this._readAloudVoiceId);
-      if (!this._readAloudActive || this._readAloudPaused) return;
+      if (token !== this._readAloudToken || !this._readAloudActive || this._readAloudPaused) return;
       if (result && result.success) {
         const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
         audio.playbackRate = this._readAloudSpeed || 1;
+        if (token !== this._readAloudToken || !this._readAloudActive || this._readAloudPaused) {
+          audio.pause();
+          return;
+        }
         this._readAloudAudio = audio;
         await new Promise((resolve) => {
           audio.onended = resolve;
@@ -685,9 +723,9 @@ class ReaderMode {
     } catch (e) {
       console.warn('Read aloud TTS failed:', e);
     }
-    if (!this._readAloudActive || this._readAloudPaused) return;
+    if (token !== this._readAloudToken || !this._readAloudActive || this._readAloudPaused) return;
     this._readAloudIdx++;
-    this._readAloudSpeakCurrent();
+    this._readAloudSpeakCurrent(token);
   }
 
   readAloudPause() {
@@ -702,16 +740,19 @@ class ReaderMode {
   readAloudResume() {
     if (!this._readAloudActive || !this._readAloudPaused) return;
     this._readAloudPaused = false;
-    this._readAloudSpeakCurrent();
+    this._readAloudSpeakCurrent(this._readAloudToken);
   }
 
   readAloudStop() {
+    this._readAloudToken++;
     this._readAloudActive = false;
     this._readAloudPaused = false;
     this._readAloudIdx = 0;
     this._readAloudSentences = [];
     this._readAloudStartIdx = 0;
     this._readAloudClickedEl = null;
+    this._readAloudClickedPage = 0;
+    this._readAloudClickedIdx = -1;
     if (this._readAloudAudio) {
       this._readAloudAudio.pause();
       this._readAloudAudio = null;
