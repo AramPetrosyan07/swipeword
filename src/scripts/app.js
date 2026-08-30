@@ -1907,8 +1907,12 @@ class App {
     this._applyReaderLangPrefs();
     await this._pdfRailSettled();
     await readerMode.loadPdfDoc(tab.doc);
-    if (scrollContainer && tab.scrollTop > 0) {
-      scrollContainer.scrollTop = tab.scrollTop;
+    let savedTop = tab.scrollTop;
+    if (!savedTop && appStore.data.pdfScrollPositions) {
+      savedTop = appStore.data.pdfScrollPositions[tab.path || tab.name] || 0;
+    }
+    if (scrollContainer && savedTop > 0) {
+      scrollContainer.scrollTop = savedTop;
       readerMode.onScroll(true);
     }
     const sourceInfo = { type: 'pdf', title: tab.name, id: Date.now().toString(36) };
@@ -2031,12 +2035,14 @@ class App {
     if (!key) return;
     const viewerEl = document.getElementById('readContentAreaPdf');
     const isShown = this._readCurrentPage === 'pdf' && viewerEl && viewerEl.style.display !== 'none';
-    if (isShown) {
+    if (isShown && scrollContainer.scrollHeight > 0) {
       tab.scrollTop = scrollContainer.scrollTop;
     }
-    if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
-    appStore.data.pdfScrollPositions[key] = tab.scrollTop || 0;
-    appStore.save();
+    if (tab.scrollTop > 0) {
+      if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
+      appStore.data.pdfScrollPositions[key] = tab.scrollTop;
+      appStore.save();
+    }
   }
 
   _updateTranslationSidebarBtnVisibility() {
