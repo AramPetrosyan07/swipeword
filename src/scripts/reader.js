@@ -14,6 +14,7 @@ class ReaderMode {
     this._readAloudToken = 0;
     this._readAloudClickedPage = 0;
     this._readAloudClickedIdx = -1;
+    this._readAloudQueued = null;
   }
 
   async loadPdf(data) {
@@ -553,6 +554,7 @@ class ReaderMode {
     this._readAloudToken++;
     this._readAloudClickedPage = 0;
     this._readAloudClickedIdx = -1;
+    this._readAloudQueued = null;
     const pagesEl = document.getElementById('pdfPages');
     if (pagesEl) {
       pagesEl.innerHTML = '';
@@ -675,6 +677,7 @@ class ReaderMode {
     if (!this.pdfDoc) return;
     // Invalidate any previously running speech session so only one can be active.
     const token = ++this._readAloudToken;
+    this._readAloudQueued = null;
     this._readAloudActive = false;
     this._readAloudPaused = false;
     this._readAloudLang = lang || 'en';
@@ -712,8 +715,25 @@ class ReaderMode {
     }
     const sent = this._readAloudSentences[this._readAloudIdx];
     this._highlightReadAloudSentence(this._readAloudIdx);
+
+    // Use the audio that was prefetched while the previous sentence was playing,
+    // or generate the current sentence's audio now for the very first sentence.
+    const currentPromise =
+      this._readAloudQueued ||
+      window.electronAPI.ttsSpeak(sent.text, this._readAloudLang, this._readAloudVoiceId);
+    this._readAloudQueued = null;
+
+    // Look ahead: start generating the NEXT sentence's audio while the current
+    // one is retrieved/played, so the next one is ready and playback is gapless.
+    const next = this._readAloudSentences[this._readAloudIdx + 1];
+    if (next) {
+      this._readAloudQueued = window.electronAPI
+        .ttsSpeak(next.text, this._readAloudLang, this._readAloudVoiceId)
+        .catch(() => null);
+    }
+
     try {
-      const result = await window.electronAPI.ttsSpeak(sent.text, this._readAloudLang, this._readAloudVoiceId);
+      const result = await currentPromise;
       if (token !== this._readAloudToken || !this._readAloudActive || this._readAloudPaused) return;
       if (result && result.success) {
         const audio = new Audio('data:audio/mpeg;base64,' + result.audio);
@@ -768,6 +788,7 @@ class ReaderMode {
     this._readAloudSentences = [];
     this._readAloudStartIdx = 0;
     this._readAloudClickedEl = null;
+    this._readAloudQueued = null;
     this._readAloudClickedPage = 0;
     this._readAloudClickedIdx = -1;
     if (this._readAloudAudio) {
@@ -799,6 +820,7 @@ class ReaderMode {
     this._readAloudVoiceId = voiceId || 0;
     if (!this._readAloudActive || this._readAloudPaused) return;
     const token = ++this._readAloudToken;
+    this._readAloudQueued = null;
     if (this._readAloudAudio) {
       this._readAloudAudio.pause();
       this._readAloudAudio = null;

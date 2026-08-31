@@ -328,7 +328,13 @@ class App {
       studyModeManager.toggle();
       this._showCurrentCard();
     });
-    document.getElementById('btnVocabSwitch').addEventListener('click', () => this._switchVocabulary());
+    document.querySelectorAll('#btnVocabSwitch .vocab-switch-label').forEach((label) => {
+      label.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const vocab = label.classList.contains('b2') ? 'b2' : label.classList.contains('c1') ? 'c1' : 'verb';
+        this._switchVocabulary(vocab);
+      });
+    });
 
     document.getElementById('btnFavFilter').addEventListener('click', () => {
       this.favFilterEnabled = !this.favFilterEnabled;
@@ -614,23 +620,22 @@ class App {
     vocabLibrary.show();
   }
 
-  async _switchVocabulary() {
-    appStore.setCurrentIndex(this.currentIndex);
-    const order = ['b2', 'c1', 'verb'];
+  async _switchVocabulary(target) {
     const cur = appStore.data.vocabulary;
-    const idx = order.indexOf(cur);
-    const newVocab = order[(idx + 1) % order.length];
-    await appStore.switchVocabulary(newVocab);
+    if (target === cur) return;
+    appStore.setCurrentIndex(this.currentIndex);
+    await appStore.switchVocabulary(target);
     this.words = appStore.getAllWords();
     this.currentIndex = appStore.getCurrentIndex();
     this.currentFileName = appStore.data.currentFileName;
     this.undoStack = [];
     this.sessionHistory = [];
     this.filterLetter = null;
-    this._startLearning();
+    this._buildQueue();
+    this._showCurrentCard();
     this._updateSidebar();
     this._renderLetterStrip();
-    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', newVocab);
+    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', target);
   }
 
   _toggleSidebar() {

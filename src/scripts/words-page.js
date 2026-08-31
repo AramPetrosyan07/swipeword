@@ -54,9 +54,7 @@ class WordsPage {
       if (entry.timestamp < src.firstDate) src.firstDate = entry.timestamp;
       if (entry.timestamp > src.lastDate) src.lastDate = entry.timestamp;
     }
-    const sources = Array.from(map.values());
-    sources.sort((a, b) => b.lastDate - a.lastDate);
-    return sources;
+    return Array.from(map.values());
   }
 
   _getSourceEntries(sourceId) {
@@ -67,7 +65,6 @@ class WordsPage {
         (e.translation || '').toLowerCase().includes(this._searchQuery)
       );
     }
-    entries.sort((a, b) => b.timestamp - a.timestamp);
     return entries;
   }
 
