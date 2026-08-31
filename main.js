@@ -154,6 +154,21 @@ app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
 
+app.on("before-quit", () => {
+  if (_storeSaveTimer) {
+    clearTimeout(_storeSaveTimer);
+    _storeSaveTimer = null;
+  }
+  if (_storePendingData !== null) {
+    try {
+      fs.writeFileSync(storePath, JSON.stringify(_storePendingData), "utf-8");
+    } catch (e) {
+      console.error("Failed to flush store on quit:", e);
+    }
+    _storePendingData = null;
+  }
+});
+
 app.on("activate", () => {
   if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
@@ -185,14 +200,29 @@ ipcMain.handle("store:load", () => {
   return null;
 });
 
+let _storeSaveTimer = null;
+let _storePendingData = null;
+let _storeSaveChain = Promise.resolve();
+
+function _flushStoreSave() {
+  const data = _storePendingData;
+  _storePendingData = null;
+  if (data === null) return;
+  const tmp = storePath + ".tmp";
+  _storeSaveChain = _storeSaveChain
+    .then(() => fs.promises.writeFile(tmp, JSON.stringify(data), "utf-8"))
+    .then(() => fs.promises.rename(tmp, storePath))
+    .catch((e) => console.error("Failed to save store:", e));
+}
+
 ipcMain.handle("store:save", (_event, data) => {
-  try {
-    fs.writeFileSync(storePath, JSON.stringify(data, null, 2), "utf-8");
-    return true;
-  } catch (e) {
-    console.error("Failed to save store:", e);
-    return false;
-  }
+  _storePendingData = data;
+  if (_storeSaveTimer) clearTimeout(_storeSaveTimer);
+  _storeSaveTimer = setTimeout(() => {
+    _storeSaveTimer = null;
+    _flushStoreSave();
+  }, 250);
+  return true;
 });
 
 const dictPath = path.join(__dirname, "b2-word-list.json");

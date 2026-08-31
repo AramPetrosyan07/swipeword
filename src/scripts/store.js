@@ -54,6 +54,23 @@ class Store {
     return this.tags;
   }
 
+  _savedWordsCache = null;
+
+  async loadSavedWords() {
+    if (this._savedWordsCache) return this._savedWordsCache;
+    try {
+      const entries = await window.electronAPI.dictionaryLoad();
+      this._savedWordsCache = entries || [];
+    } catch (e) {
+      this._savedWordsCache = [];
+    }
+    return this._savedWordsCache;
+  }
+
+  invalidateSavedWordsCache() {
+    this._savedWordsCache = null;
+  }
+
   _fileNameForVocab(vocab) {
     if (vocab === 'c1') return 'oxford_c1_words';
     if (vocab === 'verb') return 'verb';

@@ -1903,6 +1903,7 @@ class App {
     }
 
     try {
+      await window._ensurePdfJs();
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
       const doc = await pdfjsLib.getDocument({ data }).promise;
       const savedPos = (appStore.data.pdfScrollPositions || {})[path || title];
@@ -2128,7 +2129,7 @@ class App {
       return;
     }
     try {
-      const allWords = await window.electronAPI.dictionaryLoad();
+      const allWords = await appStore.loadSavedWords();
       this._pdfSidebarWords = (allWords || [])
         .filter((w) => w.sourceType === 'pdf' && w.sourceTitle === tab.name)
         .sort((a, b) => b.timestamp - a.timestamp);
@@ -2164,20 +2165,23 @@ class App {
         '</div>';
     }).join('');
 
-    listEl.querySelectorAll('.translation-sidebar-delete').forEach((btn) => {
-      btn.addEventListener('click', async (e) => {
+    if (!this._translationSidebarDelegated) {
+      this._translationSidebarDelegated = true;
+      listEl.addEventListener('click', async (e) => {
+        const btn = e.target.closest('.translation-sidebar-delete');
+        if (!btn) return;
         e.stopPropagation();
         const item = btn.closest('.translation-sidebar-item');
         if (!item) return;
-        const id = item.dataset.id;
-        await this._removeSidebarWord(id);
+        await this._removeSidebarWord(item.dataset.id);
       });
-    });
+    }
   }
 
   async _removeSidebarWord(id) {
     try {
       await window.electronAPI.dictionaryRemove(id);
+      appStore.invalidateSavedWordsCache();
       this._pdfSidebarWords = this._pdfSidebarWords.filter(w => w.id !== id);
       this._translationSidebarRender();
     } catch (e) {
@@ -2261,6 +2265,7 @@ class App {
         continue;
       }
       try {
+        await window._ensurePdfJs();
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
         const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
         const savedPos = (appStore.data.pdfScrollPositions || {})[entry.path];
@@ -2628,6 +2633,7 @@ class App {
     try {
       const buf = await window.electronAPI.readFile(path);
       if (!buf) return;
+      await window._ensurePdfJs();
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
       const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
       const page = await doc.getPage(1);
@@ -2770,7 +2776,7 @@ class App {
       return;
     }
     try {
-      const allWords = await window.electronAPI.dictionaryLoad();
+      const allWords = await appStore.loadSavedWords();
       const videoWords = (allWords || []).filter(w => w.youtubeUrl === src.youtubeUrl);
       this._ytSavedWords = new Set(videoWords.map(w => (w.word || '').toLowerCase()));
       this._markYtSavedWords();
@@ -2789,8 +2795,11 @@ class App {
         })
         .join('');
 
-      listEl.querySelectorAll('.yt-word-item').forEach(item => {
-        item.addEventListener('click', () => {
+      if (!this._ytWordsListDelegated) {
+        this._ytWordsListDelegated = true;
+        listEl.addEventListener('click', (e) => {
+          const item = e.target.closest('.yt-word-item');
+          if (!item) return;
           const ts = parseFloat(item.dataset.timestamp) || 0;
           if (this._ytPlayer && typeof this._ytPlayer.seekTo === 'function' && ts > 0) {
             this._ytPlayer.seekTo(Math.max(0, ts - 2), true);
@@ -2820,7 +2829,7 @@ class App {
             }
           }
         });
-      });
+      }
     } catch (e) {
       listEl.innerHTML = '<div class="yt-word-empty">Failed to load words</div>';
     }
@@ -2887,28 +2896,34 @@ class App {
         '<p style="color:var(--text-secondary);">Loading captions...</p>';
       this._renderYoutubeSavedWords();
       this._fetchYoutubeCaptions(videoId);
-      this._ytPlayer = new YT.Player('readYoutubePlayer', {
-        height: '100%',
-        width: '100%',
-        videoId: videoId,
-        playerVars: { rel: 0 },
-        events: {
-          onReady: () => {
-            if (this._ytShadowSpeed !== 1 && typeof this._ytPlayer.setPlaybackRate === 'function') {
-              try { this._ytPlayer.setPlaybackRate(this._ytShadowSpeed); } catch (e) {}
+      window._ensureYouTubeApi().then(() => {
+        try {
+          this._ytPlayer = new YT.Player('readYoutubePlayer', {
+            height: '100%',
+            width: '100%',
+            videoId: videoId,
+            playerVars: { rel: 0 },
+            events: {
+              onReady: () => {
+                if (this._ytShadowSpeed !== 1 && typeof this._ytPlayer.setPlaybackRate === 'function') {
+                  try { this._ytPlayer.setPlaybackRate(this._ytShadowSpeed); } catch (e) {}
+                }
+                if (this._ytCaptions && this._ytCaptions.length > 0) {
+                  this._startYoutubeSync();
+                }
+              },
+              onStateChange: (event) => {
+                if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
+                  this._saveYoutubePosition();
+                }
+              }
             }
-            if (this._ytCaptions && this._ytCaptions.length > 0) {
-              this._startYoutubeSync();
-            }
-          },
-          onStateChange: (event) => {
-            if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
-              this._saveYoutubePosition();
-            }
-          }
+          });
+          this._startPositionTracking();
+        } catch (e) {
+          console.error('YouTube player init error:', e);
         }
-      });
-      this._startPositionTracking();
+      }).catch((e) => console.error('Failed to load YouTube API:', e));
     } else if (sourceType === 'pdf-error') {
       document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
       document.getElementById('pdfLibrary').style.display = 'none';

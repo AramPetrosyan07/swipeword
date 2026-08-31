@@ -18,12 +18,14 @@ class ReaderMode {
   }
 
   async loadPdf(data) {
+    await window._ensurePdfJs();
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
     this.pdfDoc = await pdfjsLib.getDocument({ data }).promise;
     await this._setupDoc();
   }
 
   async loadPdfDoc(doc) {
+    await window._ensurePdfJs();
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
     this.pdfDoc = doc;
     await this._setupDoc();

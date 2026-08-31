@@ -27,7 +27,7 @@ class WordsPage {
     this._searchQuery = '';
     document.getElementById('btnWordsSearch').value = '';
     try {
-      this._entries = await window.electronAPI.dictionaryLoad();
+      this._entries = await appStore.loadSavedWords();
     } catch (e) {
       this._entries = [];
     }
@@ -153,6 +153,7 @@ class WordsPage {
         e.stopPropagation();
         const id = btn.dataset.id;
         await window.electronAPI.dictionaryRemove(id);
+        appStore.invalidateSavedWordsCache();
         this._entries = this._entries.filter((en) => en.id !== id);
         this._render();
       });

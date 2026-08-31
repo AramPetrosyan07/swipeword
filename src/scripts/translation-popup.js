@@ -373,6 +373,7 @@ class TranslationPopup {
     try {
       const result = await window.electronAPI.dictionaryAdd(entry);
       if (result && result.success) {
+        appStore.invalidateSavedWordsCache();
         this._saveBtn.textContent = 'Saved!';
         setTimeout(() => { this._saveBtn.textContent = '+ Save to Dictionary'; }, 1500);
         if (this.onSave) this.onSave(entry);

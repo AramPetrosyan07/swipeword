@@ -37,7 +37,7 @@ class VocabularyLibrary {
     document.getElementById('vocabLibFilterDropdown').style.display = 'none';
 
     try {
-      this._entries = await window.electronAPI.dictionaryLoad();
+      this._entries = await appStore.loadSavedWords();
       this._videoMeta = await window.electronAPI.vocabLibLoadMeta();
     } catch (e) {
       this._entries = [];
@@ -551,6 +551,7 @@ class VocabularyLibrary {
     try {
       const result = await window.electronAPI.vocabLibDeleteWord(wordId);
       if (result && result.success) {
+        appStore.invalidateSavedWordsCache();
         this._entries = this._entries.filter((e) => e.id !== wordId);
         const remaining = this._entries.filter(
           (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
@@ -579,6 +580,7 @@ class VocabularyLibrary {
     try {
       const result = await window.electronAPI.vocabLibDeleteVideo(this._currentVideoUrl);
       if (result && result.success) {
+        appStore.invalidateSavedWordsCache();
         this._entries = this._entries.filter(
           (e) => e.youtubeUrl !== this._currentVideoUrl
         );

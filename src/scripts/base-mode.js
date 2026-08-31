@@ -57,6 +57,10 @@ class BaseMode {
 
   back() {
     this.isActive = false;
+    if (this.timerInterval) {
+      clearInterval(this.timerInterval);
+      this.timerInterval = null;
+    }
     document.getElementById('modesOverlay').style.display = 'flex';
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
