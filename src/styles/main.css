@@ -5341,6 +5341,36 @@ body.theme-dark .pdf-scroll-canvas {
   line-height: 1.2;
 }
 
+.alphabet-slide-compare {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.compare-letter {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 6px;
+  line-height: 1.2;
+}
+
+.compare-upper {
+  color: var(--primary);
+  background: var(--primary-bg, rgba(74, 144, 226, 0.08));
+}
+
+.compare-ru {
+  color: #4a90d9;
+  background: rgba(74, 144, 217, 0.08);
+}
+
+.compare-en {
+  color: #50c878;
+  background: rgba(80, 200, 120, 0.08);
+}
+
 .alphabet-footer {
   display: flex;
   align-items: center;
