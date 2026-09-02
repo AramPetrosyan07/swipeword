@@ -11,6 +11,7 @@ class TranslationPopup {
     this._currentSource = null;
     this._currentTimestamp = 0;
     this._pdfAnchorRect = null;
+    this._resumeOnHide = false;
     this._cache = new Map();
     this._boundContainers = new WeakSet();
     this._containerSources = new WeakMap();
@@ -244,7 +245,20 @@ class TranslationPopup {
     this._popup.dataset.justOpened = '1';
     setTimeout(() => { delete this._popup.dataset.justOpened; }, 0);
 
+    if (this._autoPauseOn()) {
+      this._resumeOnHide = true;
+      if (app && app._ytPlayer && typeof app._ytPlayer.pauseVideo === 'function') {
+        app._ytPlayer.pauseVideo();
+      }
+    }
+
     this._fetchTranslation(word);
+  }
+
+  _autoPauseOn() {
+    if (!this._currentSource || this._currentSource.type !== 'youtube') return false;
+    const sub = (appStore && appStore.data && appStore.data.ytSubtitle) || {};
+    return !!sub.autoPause;
   }
 
   _showInYoutubePanel() {
@@ -292,6 +306,12 @@ class TranslationPopup {
     this._popup.style.display = 'none';
     this._currentWord = null;
     this._currentContext = '';
+    if (this._resumeOnHide) {
+      this._resumeOnHide = false;
+      if (app && app._ytPlayer && typeof app._ytPlayer.playVideo === 'function') {
+        app._ytPlayer.playVideo();
+      }
+    }
   }
 
   async _fetchTranslation(word) {
@@ -374,12 +394,10 @@ class TranslationPopup {
       const result = await window.electronAPI.dictionaryAdd(entry);
       if (result && result.success) {
         appStore.invalidateSavedWordsCache();
-        this._saveBtn.textContent = 'Saved!';
-        setTimeout(() => { this._saveBtn.textContent = '+ Save to Dictionary'; }, 1500);
         if (this.onSave) this.onSave(entry);
+        this.hide();
       } else if (result && result.reason === 'exists') {
-        this._saveBtn.textContent = 'Already saved';
-        setTimeout(() => { this._saveBtn.textContent = '+ Save to Dictionary'; }, 1500);
+        this.hide();
       }
     } catch (e) {
       console.error('Failed to save word:', e);

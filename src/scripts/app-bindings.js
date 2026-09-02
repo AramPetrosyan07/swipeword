@@ -202,6 +202,7 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   const subFontInput = document.getElementById('ytSubFontSize');
   const subGapInput = document.getElementById('ytSubLineGap');
   const subtitlesEl = document.getElementById('readYoutubeSubtitles');
+  const autoPauseInput = document.getElementById('ytAutoPause');
 
   const applyYtSubSettings = () => {
     const sub = appStore.data.ytSubtitle || {};
@@ -209,6 +210,7 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     const lineGap = sub.lineGap || 8;
     subFontInput.value = fontSize;
     subGapInput.value = lineGap;
+    autoPauseInput.checked = !!sub.autoPause;
     subtitlesEl.style.setProperty('--yt-sub-font-size', fontSize + 'px');
     subtitlesEl.style.setProperty('--yt-sub-gap', lineGap + 'px');
   };
@@ -240,6 +242,11 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     }
   });
   subGapInput.addEventListener('change', () => appStore.save());
+  autoPauseInput.addEventListener('change', (e) => {
+    appStore.data.ytSubtitle = appStore.data.ytSubtitle || {};
+    appStore.data.ytSubtitle.autoPause = !!e.target.checked;
+    appStore.save();
+  });
   applyYtSubSettings();
 
   const voiceBtn = document.getElementById('btnYtVoice');
