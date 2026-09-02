@@ -5390,6 +5390,7 @@ body.theme-dark .pdf-scroll-canvas {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 22px 26px;
+  min-height: 200px;
   user-select: none;
 }
 
@@ -5432,6 +5433,17 @@ body.theme-dark .pdf-scroll-canvas {
   transform: scale(1.07);
   border-color: var(--primary);
   background: rgba(108, 99, 255, 0.28);
+}
+
+.tp-slot.click-target {
+  border-color: var(--primary);
+  background: rgba(108, 99, 255, 0.18);
+  animation: tp-slot-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes tp-slot-pulse {
+  0%, 100% { border-color: var(--primary); }
+  50% { border-color: rgba(108, 99, 255, 0.4); }
 }
 
 .tp-slot.tp-correct {
@@ -5506,6 +5518,14 @@ body.theme-dark .pdf-scroll-canvas {
   transform: translateY(-2px);
   border-color: var(--primary);
   box-shadow: 0 6px 16px rgba(108, 99, 255, 0.25);
+}
+
+.tp-chip.selected {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  background: rgba(108, 99, 255, 0.16);
+  box-shadow: 0 6px 16px rgba(108, 99, 255, 0.25);
+  outline: 2px solid var(--primary);
 }
 
 .tp-chip.dragging {
@@ -5610,14 +5630,25 @@ body.theme-dark .pdf-scroll-canvas {
   gap: 16px;
 }
 
+.tp-read-header {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
 .tp-read-text {
+  flex: 1;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 22px 26px;
-  max-height: 60vh;
-  overflow-y: auto;
+}
+
+.tp-read-skip-btn {
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 0;
 }
 
 .tp-read-line {

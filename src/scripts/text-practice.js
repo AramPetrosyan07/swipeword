@@ -485,6 +485,7 @@ class TextPractice {
     this._bankOrder = [];
     this._evaluated = false;
     this._drag = null;
+    this._selectedChip = null;
   }
 
   init() {
@@ -495,7 +496,6 @@ class TextPractice {
 
     this._bound = true;
     document.getElementById('btnTpReadSkip').addEventListener('click', () => this._startPractice());
-    document.getElementById('btnTpReadBack').addEventListener('click', () => this._showList());
     document.getElementById('btnTpDone').addEventListener('click', () => this._evaluate());
     document.getElementById('btnTpRepeat').addEventListener('click', () => this._repeatChunk());
     document.getElementById('btnTpNext').addEventListener('click', () => this._nextChunk());
@@ -565,11 +565,14 @@ class TextPractice {
     this._practiceEl.style.display = '';
     document.getElementById('tpResult').style.display = 'none';
     this._loadChunk();
+    this._practiceEl.scrollIntoView({ block: 'start' });
+    this._practiceEl.parentElement.scrollTop = 0;
   }
 
   _loadChunk() {
     this._evaluated = false;
     this._drag = null;
+    this._selectedChip = null;
     document.getElementById('tpResult').style.display = 'none';
     document.getElementById('tpDoneBar').style.display = 'none';
 
@@ -591,8 +594,9 @@ class TextPractice {
     this._currentChunk.forEach((line) => {
       const words = line.split(/\s+/).filter((w) => w.length > 0);
       const slotLine = [];
-      words.forEach((w) => {
-        if (Math.random() < 0.35 && this._words.length < words.length + 4) {
+      const blankIdx = words.length > 1 ? Math.floor(Math.random() * words.length) : -1;
+      words.forEach((w, wi) => {
+        if (wi === blankIdx) {
           this._words.push({ id: wordId, text: w });
           slotLine.push({ blank: true, wordId: wordId });
           wordId++;
@@ -686,7 +690,13 @@ class TextPractice {
     slot.addEventListener('click', () => {
       if (this._evaluated) return;
       const i = parseInt(slot.dataset.slot, 10);
-      if (this._placed[i] !== null) this._removeFromSlot(i);
+      if (this._placed[i] !== null) {
+        this._removeFromSlot(i);
+      } else if (this._selectedChip !== null) {
+        this._place(this._selectedChip, null, i);
+        this._selectedChip = null;
+        this._update();
+      }
     });
   }
 
@@ -705,6 +715,9 @@ class TextPractice {
       if (this._evaluated || !this._drag) return;
       if (this._drag.fromSlot !== null) this._removeFromSlot(this._drag.fromSlot);
       this._drag = null;
+    });
+    bankEl.addEventListener('click', (e) => {
+      if (e.target === bankEl) this._selectedChip = null;
     });
   }
 
@@ -743,13 +756,16 @@ class TextPractice {
     slotEls.forEach((el, i) => {
       const wordId = this._placed[i];
       el.innerHTML = '';
-      el.classList.remove('filled');
+      el.classList.remove('filled', 'click-target');
       if (!this._evaluated) el.classList.remove('tp-correct', 'tp-wrong');
       if (wordId !== null) {
         el.classList.add('filled');
         el.textContent = this._words[wordId].text;
       } else {
         el.textContent = '\u00A0';
+        if (this._selectedChip !== null && !this._evaluated) {
+          el.classList.add('click-target');
+        }
       }
     });
 
@@ -757,17 +773,27 @@ class TextPractice {
     bankEl.innerHTML = '';
     this._bankOrder.forEach((wordId) => {
       const chip = document.createElement('div');
-      chip.className = 'tp-chip';
+      chip.className = 'tp-chip' + (this._selectedChip === wordId ? ' selected' : '');
       chip.textContent = this._words[wordId].text;
       chip.draggable = !this._evaluated;
       chip.addEventListener('dragstart', (e) => {
         const fromSlot = this._placed.indexOf(wordId);
         this._drag = { wordId, fromSlot: fromSlot >= 0 ? fromSlot : null };
+        this._selectedChip = null;
         e.dataTransfer.effectAllowed = 'move';
         e.dataTransfer.setData('text/plain', String(wordId));
         chip.classList.add('dragging');
       });
       chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
+      chip.addEventListener('click', () => {
+        if (this._evaluated) return;
+        if (this._selectedChip === wordId) {
+          this._selectedChip = null;
+        } else {
+          this._selectedChip = wordId;
+        }
+        this._update();
+      });
       bankEl.appendChild(chip);
     });
 
