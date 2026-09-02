@@ -2700,7 +2700,8 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 
 .read-page-input {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   gap: 10px;
   padding: 16px 20px;
   background: var(--surface);
@@ -3379,7 +3380,7 @@ body.theme-dark .pdf-scroll-canvas {
 }
 
 .read-url-input {
-  width: 100%;
+  flex: 1;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
