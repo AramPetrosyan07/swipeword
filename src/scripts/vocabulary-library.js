@@ -14,6 +14,7 @@ class VocabularyLibrary {
       context: true,
       timestamp: true,
       date: true,
+      ...this._loadFilters(),
     };
     this._langFilter = null;
     this._allLangs = new Set();
@@ -89,8 +90,26 @@ class VocabularyLibrary {
     for (const [key, id] of Object.entries(filterIds)) {
       document.getElementById(id).addEventListener('change', (e) => {
         this._filters[key] = e.target.checked;
+        this._saveFilters();
         this._renderDictList();
       });
+    }
+  }
+
+  _loadFilters() {
+    try {
+      const saved = localStorage.getItem('vocablib-filters');
+      return saved ? JSON.parse(saved) : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  _saveFilters() {
+    try {
+      localStorage.setItem('vocablib-filters', JSON.stringify(this._filters));
+    } catch (e) {
+      // ignore storage errors
     }
   }
 
@@ -428,8 +447,17 @@ class VocabularyLibrary {
       ? `Last active ${this._timeAgo(video.lastWatched)}`
       : '';
 
+    this._syncFilterCheckboxes();
     this._updateFilterLabels();
     this._renderDictList();
+  }
+
+  _syncFilterCheckboxes() {
+    const filterIds = { armenian: 'vocabFilterArmenian', russian: 'vocabFilterRussian', context: 'vocabFilterContext', timestamp: 'vocabFilterTimestamp', date: 'vocabFilterDate' };
+    for (const [key, id] of Object.entries(filterIds)) {
+      const el = document.getElementById(id);
+      if (el) el.checked = !!this._filters[key];
+    }
   }
 
   _renderDictList() {
