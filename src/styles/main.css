@@ -5567,3 +5567,73 @@ body.theme-dark .pdf-scroll-canvas {
   justify-content: center;
   gap: 12px;
 }
+
+/* Story list */
+.tp-story-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.tp-story-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.tp-story-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: 0 6px 16px rgba(108, 99, 255, 0.2);
+}
+
+.tp-story-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.tp-story-author {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* Read view */
+.tp-read-view {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tp-read-text {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 26px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.tp-read-line {
+  font-size: 19px;
+  line-height: 2;
+  margin: 0 0 4px;
+}
+
+.tp-read-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Practice view */
+.tp-practice-view {
+  display: flex;
+  flex-direction: column;
+}

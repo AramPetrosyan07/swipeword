@@ -158,7 +158,7 @@ class App {
 
     modesManager.init();
     alphabetPage.init();
-    textPractice.init();
+    textPractice.open();
 
     this._updateSidebar();
     this._renderLetterStrip();

@@ -20,6 +20,10 @@ __appMixinReader['_openReadPage'] = function(mode) {
   if (mode === 'youtube' && typeof this._updateYoutubeRecommendations === 'function') {
     this._updateYoutubeRecommendations();
   }
+
+  if (mode === 'textpractice' && typeof textPractice !== 'undefined') {
+    textPractice.open();
+  }
 };
 
 __appMixinReader['_setPdfViewMode'] = function(view) {

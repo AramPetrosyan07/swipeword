@@ -151,28 +151,38 @@
       <!-- Sub-page: Text Practice -->
       <div class="read-page" id="read-page-textpractice">
         <div class="textpractice-page">
-          <h2 class="tp-title" id="tpTitle"></h2>
-          <div class="tp-text" id="tpText"></div>
-          <div class="tp-done-bar" id="tpDoneBar" style="display:none;">
-            <button class="btn btn-primary" id="btnTpDone">Done &#10003;</button>
-          </div>
-          <div class="word-bank-section">
-            <h3 class="word-bank-title">Available Words</h3>
-            <div class="tp-bank" id="tpBank"></div>
-            <div class="tp-bank-empty" id="tpBankEmpty" style="display:none;">All words are placed</div>
-          </div>
-          <div class="tp-result" id="tpResult" style="display:none;">
-            <div class="tp-result-icon">&#127937;</div>
-            <h2 class="tp-result-heading">Result</h2>
-            <div class="tp-result-stats">
-              <div class="tp-result-row tp-correct-text">Correct: <span id="tpResultCorrect">0</span></div>
-              <div class="tp-result-row tp-wrong-text">Wrong: <span id="tpResultWrong">0</span></div>
-              <div class="tp-result-row">Total: <span id="tpResultScore">0 / 0</span></div>
-              <div class="tp-result-row tp-result-pct">Score: <span id="tpResultPct">0%</span></div>
+          <h2 class="tp-title" id="tpTitle">Text Practice</h2>
+          <div class="tp-story-list" id="tpStoryList"></div>
+          <div class="tp-read-view" id="tpReadView" style="display:none;">
+            <div class="tp-read-text" id="tpReadText"></div>
+            <div class="tp-read-actions">
+              <button class="btn btn-primary" id="btnTpReadSkip">Skip &#9654;</button>
             </div>
-            <div class="tp-result-actions">
-              <button class="btn btn-primary" id="btnTpRetry">Try Again</button>
-              <button class="btn btn-secondary" id="btnTpBack">&#8592; Back</button>
+          </div>
+          <div class="tp-practice-view" id="tpPracticeView" style="display:none;">
+            <div class="tp-text" id="tpText"></div>
+            <div class="tp-done-bar" id="tpDoneBar" style="display:none;">
+              <button class="btn btn-primary" id="btnTpDone">Done &#10003;</button>
+            </div>
+            <div class="word-bank-section">
+              <h3 class="word-bank-title">Available Words</h3>
+              <div class="tp-bank" id="tpBank"></div>
+              <div class="tp-bank-empty" id="tpBankEmpty" style="display:none;">All words are placed</div>
+            </div>
+            <div class="tp-result" id="tpResult" style="display:none;">
+              <div class="tp-result-icon">&#127937;</div>
+              <h2 class="tp-result-heading">Result</h2>
+              <div class="tp-result-stats">
+                <div class="tp-result-row tp-correct-text">Correct: <span id="tpResultCorrect">0</span></div>
+                <div class="tp-result-row tp-wrong-text">Wrong: <span id="tpResultWrong">0</span></div>
+                <div class="tp-result-row">Total: <span id="tpResultScore">0 / 0</span></div>
+                <div class="tp-result-row tp-result-pct">Score: <span id="tpResultPct">0%</span></div>
+              </div>
+              <div class="tp-result-actions">
+                <button class="btn btn-primary" id="btnTpRepeat">Repeat</button>
+                <button class="btn btn-primary" id="btnTpNext">Next &#9654;</button>
+                <button class="btn btn-secondary" id="btnTpBackToList">&#8592; Stories</button>
+              </div>
             </div>
           </div>
         </div>
