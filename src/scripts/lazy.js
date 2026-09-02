@@ -24,8 +24,18 @@
   };
 
   window._ensureYouTubeApi = function () {
-    return loadScript('https://www.youtube.com/iframe_api', () =>
-      typeof window.YT !== 'undefined' && typeof window.YT.Player === 'function'
-    );
+    if (typeof window.YT !== 'undefined' && typeof window.YT.Player === 'function') {
+      return Promise.resolve();
+    }
+    return new Promise((resolve) => {
+      const prev = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = function () {
+        if (typeof prev === 'function') prev();
+        resolve();
+      };
+      const s = document.createElement('script');
+      s.src = 'https://www.youtube.com/iframe_api';
+      document.head.appendChild(s);
+    });
   };
 })();
