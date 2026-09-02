@@ -249,6 +249,16 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   });
   applyYtSubSettings();
 
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 's') return;
+    const tag = document.activeElement ? document.activeElement.tagName : '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    if (this.translationPopup && this.translationPopup._popup.style.display !== 'none' && this.translationPopup._currentWord) {
+      e.preventDefault();
+      this.translationPopup._save();
+    }
+  });
+
   const voiceBtn = document.getElementById('btnYtVoice');
   const voiceMenu = document.getElementById('ytVoiceMenu');
   voiceBtn.addEventListener('click', (e) => {
