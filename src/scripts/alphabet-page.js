@@ -218,26 +218,33 @@ class AlphabetPage {
       img.draggable = false;
       imgWrap.appendChild(img);
 
+      const charRow = document.createElement('div');
+      charRow.className = 'alphabet-slide-char-row';
+      if (letter.uppercase) {
+        const s = document.createElement('span');
+        s.className = 'compare-letter compare-upper';
+        s.textContent = letter.uppercase;
+        charRow.appendChild(s);
+      }
       const charEl = document.createElement('span');
-      charEl.className = 'alphabet-slide-char';
+      charEl.className = 'compare-letter compare-hy';
       charEl.textContent = letter.char;
-
-      const compEl = document.createElement('div');
-      compEl.className = 'alphabet-slide-compare';
-      const parts = [];
-      if (letter.uppercase) parts.push({ text: letter.uppercase, cls: 'compare-upper' });
-      if (letter.ru) parts.push({ text: letter.ru, cls: 'compare-ru' });
-      if (letter.en) parts.push({ text: letter.en, cls: 'compare-en' });
-      parts.forEach(p => {
-        const span = document.createElement('span');
-        span.className = 'compare-letter ' + p.cls;
-        span.textContent = p.text;
-        compEl.appendChild(span);
-      });
+      charRow.appendChild(charEl);
+      if (letter.ru) {
+        const s = document.createElement('span');
+        s.className = 'compare-letter compare-ru';
+        s.textContent = letter.ru;
+        charRow.appendChild(s);
+      }
+      if (letter.en) {
+        const s = document.createElement('span');
+        s.className = 'compare-letter compare-en';
+        s.textContent = letter.en;
+        charRow.appendChild(s);
+      }
 
       slide.appendChild(imgWrap);
-      slide.appendChild(charEl);
-      if (parts.length) slide.appendChild(compEl);
+      slide.appendChild(charRow);
       slide.addEventListener('click', () => {
         if (i !== this.current) this.goTo(i);
         else this.pronounce();

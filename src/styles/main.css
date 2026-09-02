@@ -5341,11 +5341,12 @@ body.theme-dark .pdf-scroll-canvas {
   line-height: 1.2;
 }
 
-.alphabet-slide-compare {
+.alphabet-slide-char-row {
   display: flex;
-  gap: 8px;
   align-items: center;
-  margin-top: 4px;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .compare-letter {
@@ -5354,6 +5355,11 @@ body.theme-dark .pdf-scroll-canvas {
   padding: 2px 8px;
   border-radius: 6px;
   line-height: 1.2;
+}
+
+.compare-hy {
+  color: var(--primary);
+  background: var(--primary-bg, rgba(74, 144, 226, 0.08));
 }
 
 .compare-upper {
