@@ -502,30 +502,28 @@ class VocabularyLibrary {
         const hasTranslations = armenian || russian;
         const isCompact = !context && !time && !date;
 
-        const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word">&#128465;</button>`;
-        const deleteInline = `<button class="vocablib-word-delete-inline" data-id="${w.id}" title="Delete word">&#128465;</button>`;
+        const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word" aria-label="Delete word">&times;</button>`;
 
         return `
           <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
+            ${deleteBtn}
             <div class="vocablib-word-main">
               <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
               ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
-              ${isCompact ? deleteInline : ''}
             </div>
             ${context}
             ${(time || date) ? `
             <div class="vocablib-word-footer">
               ${time}
               ${date}
-              ${deleteBtn}
             </div>
-            ` : (!isCompact ? `<div class="vocablib-word-footer">${deleteBtn}</div>` : '')}
+            ` : ''}
           </div>
         `;
       })
       .join('');
 
-    listEl.querySelectorAll('.vocablib-word-delete, .vocablib-word-delete-inline').forEach((btn) => {
+    listEl.querySelectorAll('.vocablib-word-delete').forEach((btn) => {
       btn.addEventListener('click', async (e) => {
         e.stopPropagation();
         await this._deleteWord(btn.dataset.id);

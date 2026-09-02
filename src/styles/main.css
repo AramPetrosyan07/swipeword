@@ -4837,6 +4837,7 @@ body.theme-dark .pdf-scroll-canvas {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.2s, padding 0.2s;
   animation: vocablib-word-in 0.25s ease;
+  position: relative;
 }
 
 .vocablib-word.vocablib-word-compact {
@@ -4857,6 +4858,7 @@ body.theme-dark .pdf-scroll-canvas {
   display: flex;
   align-items: baseline;
   gap: 10px;
+  padding-right: 28px;
 }
 
 .vocablib-word-compact .vocablib-word-main {
@@ -4955,26 +4957,38 @@ body.theme-dark .pdf-scroll-canvas {
   justify-content: space-between;
 }
 
-.vocablib-word-compact .vocablib-word-delete-inline {
+.vocablib-word-delete {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  z-index: 2;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background: none;
   border: none;
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
   cursor: pointer;
-  padding: 2px 4px;
   border-radius: 4px;
-  opacity: 0;
-  transition: all 0.2s;
+  opacity: 0.55;
+  transition: opacity 0.15s, color 0.15s, background 0.15s;
   flex-shrink: 0;
 }
 
-.vocablib-word-compact:hover .vocablib-word-delete-inline {
+.vocablib-word:hover .vocablib-word-delete {
   opacity: 1;
 }
 
-.vocablib-word-compact .vocablib-word-delete-inline:hover {
+.vocablib-word-delete:hover {
   color: var(--danger);
   background: rgba(244, 67, 54, 0.1);
+  opacity: 1;
 }
 
 .vocablib-word-timestamp {
@@ -4987,27 +5001,6 @@ body.theme-dark .pdf-scroll-canvas {
 
 .vocablib-word-date {
   flex: 1;
-}
-
-.vocablib-word-delete {
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  font-size: 14px;
-  cursor: pointer;
-  padding: 2px 4px;
-  border-radius: 4px;
-  opacity: 0;
-  transition: all 0.2s;
-}
-
-.vocablib-word:hover .vocablib-word-delete {
-  opacity: 1;
-}
-
-.vocablib-word-delete:hover {
-  color: var(--danger);
-  background: rgba(244, 67, 54, 0.1);
 }
 
 /* Filter Dropdown */
