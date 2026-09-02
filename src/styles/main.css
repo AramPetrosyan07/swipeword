@@ -3424,6 +3424,15 @@ body.theme-dark .pdf-scroll-canvas {
   gap: 12px;
 }
 
+.yt-recent-grid {
+  grid-template-columns: none;
+  grid-auto-flow: column;
+  grid-auto-columns: 180px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+}
+
 .yt-recommendation-card {
   background: var(--surface);
   border: 1px solid var(--border);

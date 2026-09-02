@@ -167,6 +167,30 @@ __appMixinYoutube['_renderYoutubeSavedWords'] = async function() {
   }
 };
 
+__appMixinYoutube['_ytCardHtml'] = function(r) {
+  return '<div class="yt-recommendation-card" data-videoid="' + this._escAttr(r.videoId) + '" data-title="' + this._escAttr(r.title) + '">' +
+    '<div class="yt-recommendation-thumb">' +
+      (r.thumbnailUrl
+        ? '<img src="' + this._escAttr(r.thumbnailUrl) + '" alt="" loading="lazy" class="yt-recommendation-thumb-img" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'yt-recommendation-thumb-fallback\');">'
+        : '') +
+      '<span class="yt-recommendation-thumb-fallback" style="display:' + (r.thumbnailUrl ? 'none' : 'flex') + ';">&#9654;</span>' +
+    '</div>' +
+    '<div class="yt-recommendation-title">' + this._esc(r.title) + '</div>' +
+  '</div>';
+};
+
+__appMixinYoutube['_ytBindCards'] = function(container) {
+  container.querySelectorAll('.yt-recommendation-card').forEach((el) => {
+    el.addEventListener('click', () => {
+      const vid = el.dataset.videoid;
+      if (!vid) return;
+      const inputEl = document.getElementById('readYoutubeInput');
+      inputEl.value = 'https://youtube.com/watch?v=' + vid;
+      this._loadYoutubeContent();
+    });
+  });
+};
+
 __appMixinYoutube['_updateYoutubeRecommendations'] = async function() {
   const panel = document.getElementById('ytRecommendations');
   const input = document.getElementById('readYoutubeInput');
@@ -179,53 +203,58 @@ __appMixinYoutube['_updateYoutubeRecommendations'] = async function() {
     return;
   }
   panel.style.display = '';
-  const grid = document.getElementById('ytRecommendationsGrid');
+  const recentHeader = document.getElementById('ytRecentHeader');
+  const recentGrid = document.getElementById('ytRecentGrid');
+  const recHeader = document.getElementById('ytRecommendedHeader');
+  const recGrid = document.getElementById('ytRecommendationsGrid');
+  const ID_RE = /(?:watch\?v=|youtu\.be\/|embed\/|^)([a-zA-Z0-9_-]{11})$/;
   try {
     const meta = await window.electronAPI.vocabLibLoadMeta();
     const played = Object.keys(meta || {});
     if (played.length === 0) {
-      grid.innerHTML = '<div class="yt-recommendations-empty">Watch a video and save words to get recommendations.</div>';
+      recentHeader.style.display = 'none';
+      recentGrid.innerHTML = '';
+      recHeader.style.display = 'none';
+      recGrid.innerHTML = '<div class="yt-recommendations-empty">Watch a video and save words to get recommendations.</div>';
       return;
     }
     const seen = new Set(played);
     played.sort((a, b) => (meta[b].lastWatched || 0) - (meta[a].lastWatched || 0));
+
+    recentHeader.style.display = '';
+    recentGrid.innerHTML = played.slice(0, 5).map((url) => {
+      const m = meta[url] || {};
+      const idMatch = (m.youtubeUrl || url).match(/(?:watch\?v=|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
+      const videoId = idMatch ? idMatch[1] : (url.match(ID_RE) ? url.match(ID_RE)[1] : url);
+      return this._ytCardHtml({
+        videoId,
+        title: m.title || url,
+        thumbnailUrl: m.thumbnailUrl || 'https://img.youtube.com/vi/' + videoId + '/mqdefault.jpg'
+      });
+    }).join('');
+    this._ytBindCards(recentGrid);
+
     const source = meta[played[0]];
     const sourceId = (source.youtubeUrl || played[0]).match(/(?:watch\?v=|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
     if (!sourceId) {
-      grid.innerHTML = '<div class="yt-recommendations-empty">No recommendations available.</div>';
+      recHeader.style.display = 'none';
+      recGrid.innerHTML = '<div class="yt-recommendations-empty">No recommendations available.</div>';
       return;
     }
     const related = await window.electronAPI.youtubeRelated(sourceId[1]);
     const fresh = related.filter((r) => !seen.has('https://youtube.com/watch?v=' + r.videoId));
     if (fresh.length === 0) {
-      grid.innerHTML = '<div class="yt-recommendations-empty">No new recommendations found.</div>';
+      recHeader.style.display = 'none';
+      recGrid.innerHTML = '<div class="yt-recommendations-empty">No new recommendations found.</div>';
       return;
     }
-    grid.innerHTML = fresh
-      .map((r) =>
-        '<div class="yt-recommendation-card" data-videoid="' + r.videoId + '" data-title="' + this._escAttr(r.title) + '">' +
-          '<div class="yt-recommendation-thumb">' +
-            (r.thumbnailUrl
-              ? '<img src="' + this._escAttr(r.thumbnailUrl) + '" alt="" loading="lazy" class="yt-recommendation-thumb-img" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'yt-recommendation-thumb-fallback\');">'
-              : '') +
-            '<span class="yt-recommendation-thumb-fallback" style="display:' + (r.thumbnailUrl ? 'none' : 'flex') + ';">&#9654;</span>' +
-          '</div>' +
-          '<div class="yt-recommendation-title">' + this._esc(r.title) + '</div>' +
-        '</div>'
-      )
-      .join('');
-    grid.querySelectorAll('.yt-recommendation-card').forEach((el) => {
-      el.addEventListener('click', () => {
-        const vid = el.dataset.videoid;
-        if (!vid) return;
-        const inputEl = document.getElementById('readYoutubeInput');
-        inputEl.value = 'https://youtube.com/watch?v=' + vid;
-        this._loadYoutubeContent();
-      });
-    });
+    recHeader.style.display = '';
+    recGrid.innerHTML = fresh.map((r) => this._ytCardHtml(r)).join('');
+    this._ytBindCards(recGrid);
   } catch (e) {
     console.error('Failed to load recommendations:', e);
-    grid.innerHTML = '<div class="yt-recommendations-empty">Failed to load recommendations.</div>';
+    recHeader.style.display = 'none';
+    recGrid.innerHTML = '<div class="yt-recommendations-empty">Failed to load recommendations.</div>';
   }
 };
 
