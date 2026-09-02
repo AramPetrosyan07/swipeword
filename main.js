@@ -640,6 +640,85 @@ ipcMain.handle("youtube:captions", async (_event, videoId) => {
   }
 });
 
+// --- YouTube Related Video Recommendations ---
+const { net } = require("electron");
+
+ipcMain.handle("youtube:related", async (_event, videoId) => {
+  if (!videoId || !/^[a-zA-Z0-9_-]{11}$/.test(videoId)) return [];
+  try {
+    const body = {
+      context: {
+        client: {
+          clientName: "WEB",
+          clientVersion: "2.20250101.00.00",
+          hl: "en",
+          gl: "US",
+        },
+      },
+      videoId: videoId,
+    };
+    const res = await net.fetch(
+      "https://www.youtube.com/youtubei/v1/next?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      },
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    const results =
+      data &&
+      data.contents &&
+      data.contents.twoColumnWatchNextResults &&
+      data.contents.twoColumnWatchNextResults.secondaryResults &&
+      data.contents.twoColumnWatchNextResults.secondaryResults.secondaryResults &&
+      data.contents.twoColumnWatchNextResults.secondaryResults.secondaryResults.results;
+    if (!Array.isArray(results)) return [];
+
+    const out = [];
+    for (const item of results) {
+      if (!item || typeof item !== "object") continue;
+      let videoId = null;
+      let title = "";
+      let thumb = "";
+
+      const lockup = item.lockupViewModel;
+      if (lockup && lockup.contentId) {
+        videoId = lockup.contentId;
+        title =
+          (lockup.metadata &&
+            lockup.metadata.lockupMetadataViewModel &&
+            lockup.metadata.lockupMetadataViewModel.title &&
+            lockup.metadata.lockupMetadataViewModel.title.content) ||
+          "";
+        if (lockup.contentImage && lockup.contentImage.thumbnailViewModel) {
+          const thumbs = lockup.contentImage.thumbnailViewModel.image &&
+            lockup.contentImage.thumbnailViewModel.image.sources;
+          if (Array.isArray(thumbs) && thumbs.length) {
+            thumb = thumbs[thumbs.length - 1].url || "";
+          }
+        }
+      } else {
+        const r = item.compactVideoRenderer || item.videoRenderer || item.compactRadioRenderer;
+        videoId = r && (r.videoId || (r.navigationEndpoint && r.navigationEndpoint.watchEndpoint && r.navigationEndpoint.watchEndpoint.videoId));
+        title = (r && r.title && ((r.title.runs && r.title.runs[0] && r.title.runs[0].text) || r.title.simpleText)) || "";
+        thumb = (r && r.thumbnail && r.thumbnail.thumbnails && r.thumbnail.thumbnails.length)
+          ? r.thumbnail.thumbnails[r.thumbnail.thumbnails.length - 1].url
+          : "";
+      }
+
+      if (!videoId || !/^[a-zA-Z0-9_-]{11}$/.test(videoId)) continue;
+      if (!title) continue;
+      out.push({ videoId, title, thumbnailUrl: thumb });
+    }
+    return out;
+  } catch (e) {
+    console.error("youtube:related failed:", e.message);
+    return [];
+  }
+});
+
 // --- Video Metadata for Vocabulary Library ---
 const videoMetaPath = path.join(
   app.getPath("userData"),

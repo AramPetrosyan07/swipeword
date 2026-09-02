@@ -16,6 +16,10 @@ __appMixinReader['_openReadPage'] = function(mode) {
   } else {
     this._deactivatePdfRail();
   }
+
+  if (mode === 'youtube' && typeof this._updateYoutubeRecommendations === 'function') {
+    this._updateYoutubeRecommendations();
+  }
 };
 
 __appMixinReader['_setPdfViewMode'] = function(view) {

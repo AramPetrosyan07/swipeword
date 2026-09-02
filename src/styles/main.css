@@ -3400,6 +3400,85 @@ body.theme-dark .pdf-scroll-canvas {
   flex-shrink: 0;
 }
 
+/* --- YouTube Recommendations (shown before a URL is pasted) --- */
+.yt-recommendations {
+  padding: 12px 20px 16px;
+  flex: 1 1 0;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.yt-recommendations-header {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.yt-recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.yt-recommendation-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.1s;
+}
+
+.yt-recommendation-card:hover {
+  border-color: var(--primary);
+}
+
+.yt-recommendation-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.yt-recommendation-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.yt-recommendation-thumb-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-size: 22px;
+}
+
+.yt-recommendation-title {
+  padding: 8px 10px 10px;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.yt-recommendations-empty {
+  color: var(--text-secondary);
+  font-size: 13px;
+  padding: 4px 2px;
+}
+
+
 .btn-sm {
   font-size: 13px;
   padding: 6px 14px;

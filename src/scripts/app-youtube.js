@@ -167,6 +167,81 @@ __appMixinYoutube['_renderYoutubeSavedWords'] = async function() {
   }
 };
 
+__appMixinYoutube['_updateYoutubeRecommendations'] = async function() {
+  const panel = document.getElementById('ytRecommendations');
+  const input = document.getElementById('readYoutubeInput');
+  if (!panel) return;
+  const inputVisible = !!(input && input.offsetParent !== null && getComputedStyle(
+    document.getElementById('read-page-youtube').querySelector('.read-page-input')
+  ).display !== 'none');
+  if (!inputVisible) {
+    panel.style.display = 'none';
+    return;
+  }
+  panel.style.display = '';
+  const grid = document.getElementById('ytRecommendationsGrid');
+  try {
+    const meta = await window.electronAPI.vocabLibLoadMeta();
+    const played = Object.keys(meta || {});
+    if (played.length === 0) {
+      grid.innerHTML = '<div class="yt-recommendations-empty">Watch a video and save words to get recommendations.</div>';
+      return;
+    }
+    const seen = new Set(played);
+    played.sort((a, b) => (meta[b].lastWatched || 0) - (meta[a].lastWatched || 0));
+    const source = meta[played[0]];
+    const sourceId = (source.youtubeUrl || played[0]).match(/(?:watch\?v=|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
+    if (!sourceId) {
+      grid.innerHTML = '<div class="yt-recommendations-empty">No recommendations available.</div>';
+      return;
+    }
+    const related = await window.electronAPI.youtubeRelated(sourceId[1]);
+    const fresh = related.filter((r) => !seen.has('https://youtube.com/watch?v=' + r.videoId));
+    if (fresh.length === 0) {
+      grid.innerHTML = '<div class="yt-recommendations-empty">No new recommendations found.</div>';
+      return;
+    }
+    grid.innerHTML = fresh
+      .map((r) =>
+        '<div class="yt-recommendation-card" data-videoid="' + r.videoId + '" data-title="' + this._escAttr(r.title) + '">' +
+          '<div class="yt-recommendation-thumb">' +
+            (r.thumbnailUrl
+              ? '<img src="' + this._escAttr(r.thumbnailUrl) + '" alt="" loading="lazy" class="yt-recommendation-thumb-img" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'yt-recommendation-thumb-fallback\');">'
+              : '') +
+            '<span class="yt-recommendation-thumb-fallback" style="display:' + (r.thumbnailUrl ? 'none' : 'flex') + ';">&#9654;</span>' +
+          '</div>' +
+          '<div class="yt-recommendation-title">' + this._esc(r.title) + '</div>' +
+        '</div>'
+      )
+      .join('');
+    grid.querySelectorAll('.yt-recommendation-card').forEach((el) => {
+      el.addEventListener('click', () => {
+        const vid = el.dataset.videoid;
+        if (!vid) return;
+        const inputEl = document.getElementById('readYoutubeInput');
+        inputEl.value = 'https://youtube.com/watch?v=' + vid;
+        this._loadYoutubeContent();
+      });
+    });
+  } catch (e) {
+    console.error('Failed to load recommendations:', e);
+    grid.innerHTML = '<div class="yt-recommendations-empty">Failed to load recommendations.</div>';
+  }
+};
+
+__appMixinYoutube['_escAttr'] = function(str) {
+  return String(str == null ? '' : str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+};
+
+__appMixinYoutube['_esc'] = function(str) {
+  return String(str == null ? '' : str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+};
+
 __appMixinYoutube['_loadYoutubeContent'] = async function() {
   const url = document.getElementById('readYoutubeInput').value.trim();
   if (!url) return;
@@ -209,6 +284,8 @@ __appMixinYoutube['_showReadContent'] = function(sourceType, title, text, videoI
 
   if (sourceType === 'youtube' && videoId) {
     document.getElementById('read-page-youtube').querySelector('.read-page-input').style.display = 'none';
+    const recPanel = document.getElementById('ytRecommendations');
+    if (recPanel) recPanel.style.display = 'none';
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
     document.getElementById('btnReadNewToolbar').style.display = '';
     document.getElementById('btnReaderLangBarToggle').style.display = '';
@@ -597,6 +674,7 @@ __appMixinYoutube['_resetReadPage'] = function() {
   document.getElementById('readYoutubeInput').value = '';
   const ytPage = document.getElementById('read-page-youtube');
   ytPage.querySelector('.read-page-input').style.display = '';
+  this._updateYoutubeRecommendations();
   document.getElementById('readCollapsedBarYoutube').style.display = 'none';
   document.getElementById('btnReadNewToolbar').style.display = 'none';
   document.getElementById('btnReaderLangBarToggle').style.display = 'none';
