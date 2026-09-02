@@ -496,7 +496,15 @@ ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) =>
 });
 
 // --- TTS (Microsoft Edge TTS via edge-tts Python CLI) ---
-const { spawn } = require("child_process");
+const { spawn, execSync } = require("child_process");
+
+let _edgeTTSPath = "edge-tts";
+try {
+  _edgeTTSPath = execSync("where edge-tts", { encoding: "utf-8" }).trim().split("\n")[0].trim();
+} catch (_) {
+  // fallback: keep "edge-tts" and hope it's in PATH
+}
+console.log("edge-tts path:", _edgeTTSPath);
 
 // 4 voice personas per language: [Male1, Male2, Female1, Female2].
 // null slots fall back to the English multilingual pool below (these pronounce
@@ -573,7 +581,7 @@ async function _edgeTTS(text, lang, voiceIndex) {
     // (Without BOM, Python defaults to cp1252 which breaks Armenian/Russian text)
     const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
     fs.writeFileSync(tmpFile, "\ufeff" + text, "utf-8");
-    const child = spawn("edge-tts", ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
+    const child = spawn(_edgeTTSPath, ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
     child.stdout.on("data", (chunk) => chunks.push(chunk));
     child.stderr.on("data", () => {});
     child.on("error", (err) => {
