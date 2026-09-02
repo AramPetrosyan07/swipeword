@@ -689,6 +689,12 @@ __appMixinYoutube['_updateVoiceUi'] = function() {
     opt.classList.toggle('active', v === voice);
     if (v === voice && labelEl) labelEl.textContent = opt.textContent;
   });
+  const readerLabelEl = document.getElementById('readerVoiceLabel');
+  document.querySelectorAll('#readerVoiceMenu .yt-voice-option').forEach((opt) => {
+    const v = parseInt(opt.dataset.voice, 10);
+    opt.classList.toggle('active', v === voice);
+    if (v === voice && readerLabelEl) readerLabelEl.textContent = opt.textContent;
+  });
   const readAloudVoice = document.getElementById('readAloudVoice');
   if (readAloudVoice) readAloudVoice.value = String(voice);
 };

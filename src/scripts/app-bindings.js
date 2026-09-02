@@ -119,6 +119,31 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
       readerMode.readAloudSetVoice(voice);
     }
   });
+
+  const readerVoiceBtn = document.getElementById('btnReaderVoice');
+  const readerVoiceMenu = document.getElementById('readerVoiceMenu');
+  if (readerVoiceBtn && readerVoiceMenu) {
+    readerVoiceBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      readerVoiceMenu.style.display = readerVoiceMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (readerVoiceMenu.style.display === 'flex' && !readerVoiceMenu.contains(e.target) && e.target !== readerVoiceBtn) {
+        readerVoiceMenu.style.display = 'none';
+      }
+    });
+    readerVoiceMenu.querySelectorAll('.yt-voice-option').forEach((opt) => {
+      opt.addEventListener('click', () => {
+        const voice = parseInt(opt.dataset.voice, 10);
+        appStore.data.ttsVoice = voice;
+        appStore.save();
+        if (this.translationPopup) this.translationPopup.setVoice(voice);
+        this._updateVoiceUi();
+        readerVoiceMenu.style.display = 'none';
+      });
+    });
+  }
+
   document.getElementById('pdfPages').addEventListener('contextmenu', (e) => {
     if (!this._readAloudMode) return;
     let word = e.target.closest('.rw-word');
