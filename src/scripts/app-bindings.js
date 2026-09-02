@@ -23,6 +23,12 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     this._updateSidebar();
   });
 
+  document.getElementById('btnUpdateRestart').addEventListener('click', () => {
+    if (window.electronAPI && window.electronAPI.updateAndRestart) {
+      window.electronAPI.updateAndRestart();
+    }
+  });
+
   document.getElementById('btnTranslationSidebar').addEventListener('click', () => {
     this._toggleTranslationSidebar();
   });

@@ -31,4 +31,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   vocabLibDeleteVideo: (youtubeUrl) => ipcRenderer.invoke('vocablib:deleteVideo', youtubeUrl),
   vocabLibDeleteWord: (wordId) => ipcRenderer.invoke('vocablib:deleteWord', wordId),
   ttsSpeak: (text, lang, voice) => ipcRenderer.invoke('tts:speak', { text, lang, voice }),
+  updateAndRestart: () => ipcRenderer.invoke('app:updateAndRestart'),
 });

@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, dialog, Menu } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu, shell } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const http = require("http");
@@ -863,4 +863,11 @@ ipcMain.handle("dictionary:remove", async (_event, id) => {
   data = data.filter((e) => e.id !== id);
   saveDictionaryFile(data);
   return { success: true };
+});
+
+ipcMain.handle("app:updateAndRestart", async () => {
+  const batPath = path.join(app.getAppPath(), "update-and-start.bat");
+  if (!fs.existsSync(batPath)) return { success: false, error: "update-and-start.bat not found" };
+  shell.openPath(batPath);
+  app.quit();
 });
