@@ -20,6 +20,7 @@ class VocabularyLibrary {
     this._editMode = false;
     this._editSelection = new Set();
     this._editWordMap = new Map();
+    this._mode = 'youtube';
     this._allLangs = new Set();
     this._langNames = {
       en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
@@ -31,6 +32,29 @@ class VocabularyLibrary {
     };
   }
 
+  setMode(mode) {
+    this._mode = mode === 'pdf' ? 'pdf' : 'youtube';
+  }
+
+  _isYt() {
+    return this._mode === 'youtube';
+  }
+
+  _containerFilterType() {
+    return this._isYt() ? 'youtube' : 'pdf';
+  }
+
+  _containerKey(e) {
+    return this._isYt() ? e.youtubeUrl : (e.sourceTitle || '');
+  }
+
+  _matchesContainer(e, key) {
+    if (this._isYt()) {
+      return e.sourceType === 'youtube' && e.youtubeUrl === key;
+    }
+    return e.sourceType === 'pdf' && (e.sourceTitle || '') === key;
+  }
+
   async show() {
     this._currentVideoUrl = null;
     this._searchQuery = '';
@@ -39,11 +63,12 @@ class VocabularyLibrary {
     this._langFilter = null;
     this._setEditMode(false);
 
+    document.getElementById('vocabLibTitle').textContent = this._mode === 'pdf' ? 'Vocabulary Books' : 'Vocabulary Videos';
     document.getElementById('vocabLibFilterDropdown').style.display = 'none';
 
     try {
       this._entries = await appStore.loadSavedWords();
-      this._videoMeta = await window.electronAPI.vocabLibLoadMeta();
+      this._videoMeta = this._mode === 'pdf' ? {} : (await window.electronAPI.vocabLibLoadMeta());
     } catch (e) {
       this._entries = [];
       this._videoMeta = {};
@@ -131,9 +156,7 @@ class VocabularyLibrary {
 
   _updateFilterLabels() {
     if (!this._currentVideoUrl) return;
-    const words = this._entries.filter(
-      e => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
-    );
+    const words = this._entries.filter((e) => this._matchesContainer(e, this._currentVideoUrl));
     const langs = new Set();
     for (const w of words) {
       if (w.translationLang) langs.add(w.translationLang);
@@ -166,22 +189,38 @@ class VocabularyLibrary {
     const map = new Map();
     this._allLangs = new Set();
     for (const entry of this._entries) {
-      if (entry.sourceType !== 'youtube' || !entry.youtubeUrl) continue;
-      const url = entry.youtubeUrl;
-      if (!map.has(url)) {
-        const meta = this._videoMeta[url] || {};
-        map.set(url, {
-          url,
-          title: meta.title || entry.sourceTitle || 'Untitled Video',
-          thumbnailUrl: meta.thumbnailUrl || this._extractThumbnail(url),
-          wordCount: 0,
-          lastWatched: meta.lastWatched || 0,
-          createdAt: meta.createdAt || 0,
-          lastPosition: meta.lastPosition || 0,
-          langs: new Set(),
-        });
+      if (!this._matchesContainer(entry, entry[this._isYt() ? 'youtubeUrl' : 'sourceTitle'])) continue;
+      const key = this._containerKey(entry);
+      if (!key) continue;
+      if (!map.has(key)) {
+        if (this._isYt()) {
+          const meta = this._videoMeta[key] || {};
+          map.set(key, {
+            key,
+            url: key,
+            title: meta.title || entry.sourceTitle || 'Untitled Video',
+            thumbnailUrl: meta.thumbnailUrl || this._extractThumbnail(key),
+            wordCount: 0,
+            lastWatched: meta.lastWatched || 0,
+            createdAt: meta.createdAt || 0,
+            lastPosition: meta.lastPosition || 0,
+            langs: new Set(),
+          });
+        } else {
+          map.set(key, {
+            key,
+            url: key,
+            title: entry.sourceTitle || 'Untitled Book',
+            thumbnailUrl: '',
+            wordCount: 0,
+            lastWatched: 0,
+            createdAt: 0,
+            lastPosition: 0,
+            langs: new Set(),
+          });
+        }
       }
-      const video = map.get(url);
+      const video = map.get(key);
       video.wordCount++;
       if (entry.timestamp > video.lastWatched) {
         video.lastWatched = entry.timestamp;
@@ -220,9 +259,7 @@ class VocabularyLibrary {
   }
 
   _getWordsForVideo(youtubeUrl) {
-    let words = this._entries.filter(
-      (e) => e.sourceType === 'youtube' && e.youtubeUrl === youtubeUrl
-    );
+    let words = this._entries.filter((e) => this._matchesContainer(e, youtubeUrl));
 
     if (this._dictSearchQuery) {
       words = words.filter(
@@ -285,11 +322,13 @@ class VocabularyLibrary {
       empty.style.display = '';
       grid.innerHTML = '';
       if (this._langFilter) {
-        empty.querySelector('.vocablib-empty-title').textContent = 'No videos match filter';
+        empty.querySelector('.vocablib-empty-title').textContent = this._isYt() ? 'No videos match filter' : 'No books match filter';
         empty.querySelector('.vocablib-empty-text').textContent = 'Try selecting a different language or clear the filter.';
       } else {
         empty.querySelector('.vocablib-empty-title').textContent = 'No vocabulary yet';
-        empty.querySelector('.vocablib-empty-text').textContent = 'Watch a YouTube video and save words to build your library.';
+        empty.querySelector('.vocablib-empty-text').textContent = this._isYt()
+          ? 'Watch a YouTube video and save words to build your library.'
+          : 'Open a PDF and save words to build your book library.';
       }
       return;
     }
@@ -301,7 +340,7 @@ class VocabularyLibrary {
         const thumbSrc = v.thumbnailUrl
           ? `<img src="${this._esc(v.thumbnailUrl)}" alt="" loading="lazy" class="vocablib-card-thumb-img" onerror="this.style.display='none';this.parentElement.classList.add('vocablib-card-thumb-fallback');">`
           : '';
-        const fallbackIcon = '<span class="vocablib-card-thumb-fallback-icon">&#9654;</span>';
+        const fallbackIcon = `<span class="vocablib-card-thumb-fallback-icon">${this._isYt() ? '&#9654;' : '&#128218;'}</span>`;
         const posBadge = v.lastPosition > 0
           ? `<span class="vocablib-card-position">${this._fmtTime(v.lastPosition)}</span>`
           : '';
@@ -320,13 +359,13 @@ class VocabularyLibrary {
 
         return `
           <div class="vocablib-card" data-url="${this._esc(v.url)}">
-            <div class="vocablib-card-thumb">
+            <div class="vocablib-card-thumb${this._isYt() ? '' : ' vocablib-card-thumb-book'}">
               ${thumbSrc}
               ${fallbackIcon}
-              ${posBadge}
-              <div class="vocablib-card-thumb-overlay">
+              ${this._isYt() && posBadge}
+              ${this._isYt() ? `<div class="vocablib-card-thumb-overlay">
                 <button class="vocablib-card-play-btn" data-url="${this._esc(v.url)}" title="Resume watching">&#9654;</button>
-              </div>
+              </div>` : ''}
             </div>
             <div class="vocablib-card-body" data-url="${this._esc(v.url)}">
               <div class="vocablib-card-title">${this._esc(v.title)}</div>
@@ -352,7 +391,9 @@ class VocabularyLibrary {
     grid.querySelectorAll('.vocablib-card-thumb').forEach((el) => {
       el.addEventListener('click', (e) => {
         if (e.target.closest('.vocablib-card-play-btn')) return;
-        this._openVideoPlayer(el.closest('.vocablib-card').dataset.url);
+        const url = el.closest('.vocablib-card').dataset.url;
+        if (this._isYt()) this._openVideoPlayer(url);
+        else this._openDictionary(url);
       });
     });
 
@@ -394,6 +435,22 @@ class VocabularyLibrary {
         this._render();
       });
       chipsEl.appendChild(chip);
+    }
+  }
+
+  _openBook(title) {
+    if (!title) return;
+    let path = '';
+    const recents = (appStore.data && appStore.data.pdfRecents) || [];
+    const match = recents.find((r) => r.name === title);
+    if (match) path = match.path;
+
+    app._showReadHome();
+    app._openReadPage('pdf');
+    if (path && app._pdfOpenPath) {
+      setTimeout(() => app._pdfOpenPath(path), 300);
+    } else {
+      app._pdfShowViewer('viewer');
     }
   }
 
@@ -450,13 +507,18 @@ class VocabularyLibrary {
     if (video.thumbnailUrl) {
       thumbEl.innerHTML = `<img src="${this._esc(video.thumbnailUrl)}" alt="" onerror="this.style.display='none';">`;
     } else {
-      thumbEl.innerHTML = '<span class="vocablib-dict-thumb-fallback">&#9654;</span>';
+      thumbEl.innerHTML = `<span class="vocablib-dict-thumb-fallback">${this._isYt() ? '&#9654;' : '&#128218;'}</span>`;
     }
 
-    thumbWrap.onclick = () => this._openVideoPlayer(video.url);
+    const openContainer = () => {
+      if (this._isYt()) this._openVideoPlayer(video.url);
+      else this._openBook(video.url);
+    };
+
+    thumbWrap.onclick = openContainer;
     playBtn.onclick = (e) => {
       e.stopPropagation();
-      this._openVideoPlayer(video.url);
+      openContainer();
     };
 
     titleEl.textContent = video.title;
@@ -620,9 +682,7 @@ class VocabularyLibrary {
   _rebuildEditWordMap() {
     this._editWordMap.clear();
     const seen = new Set();
-    const words = this._entries.filter(
-      (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
-    );
+    const words = this._entries.filter((e) => this._matchesContainer(e, this._currentVideoUrl));
     for (const w of words) {
       const key = w.word.toLowerCase();
       if (!this._editWordMap.has(key)) {
@@ -690,7 +750,7 @@ class VocabularyLibrary {
 
     for (const key of keys) {
       const parent = this._entries.find(
-        (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl && e.word.toLowerCase() === key
+        (e) => this._matchesContainer(e, this._currentVideoUrl) && e.word.toLowerCase() === key
       );
 
       let parentWord = parent;
@@ -700,7 +760,7 @@ class VocabularyLibrary {
         }
       }
 
-      const sourceUrl = parentWord ? parentWord.youtubeUrl : this._currentVideoUrl;
+      const sourceUrl = parentWord ? this._containerKey(parentWord) : this._currentVideoUrl;
       const videoTimestamp = parentWord ? (parentWord.videoTimestamp || 0) : 0;
 
       try {
@@ -712,6 +772,7 @@ class VocabularyLibrary {
         const firstVal = data[t1];
         const secondVal = data[t2];
 
+        const isPdf = !this._isYt();
         const entry = {
           id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
           word: key,
@@ -721,10 +782,10 @@ class VocabularyLibrary {
           translationLang: t1,
           russianLang: t2,
           context: parentWord ? parentWord.context : '',
-          sourceType: 'youtube',
+          sourceType: isPdf ? 'pdf' : 'youtube',
           sourceTitle: parentWord ? parentWord.sourceTitle || '' : '',
           sourceId: parentWord ? parentWord.sourceId || '' : '',
-          youtubeUrl: sourceUrl,
+          youtubeUrl: isPdf ? '' : sourceUrl,
           thumbnailUrl: parentWord ? parentWord.thumbnailUrl || '' : '',
           videoTimestamp: videoTimestamp,
           timestamp: Date.now(),
@@ -803,9 +864,7 @@ class VocabularyLibrary {
       if (result && result.success) {
         appStore.invalidateSavedWordsCache();
         this._entries = this._entries.filter((e) => e.id !== wordId);
-        const remaining = this._entries.filter(
-          (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
-        );
+        const remaining = this._entries.filter((e) => this._matchesContainer(e, this._currentVideoUrl));
         if (remaining.length === 0) {
           this._view = 'grid';
           this._currentVideoUrl = null;
@@ -821,26 +880,31 @@ class VocabularyLibrary {
 
   async _handleDeleteAll() {
     if (!this._currentVideoUrl) return;
-    const count = this._entries.filter(
-      (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
-    ).length;
-    if (!confirm(`Delete ${count} word${count !== 1 ? 's' : ''} from this video? This cannot be undone.`)) {
+    const target = this._entries.filter((e) => this._matchesContainer(e, this._currentVideoUrl));
+    const count = target.length;
+    if (!confirm(`Delete ${count} word${count !== 1 ? 's' : ''} from this ${this._isYt() ? 'video' : 'book'}? This cannot be undone.`)) {
       return;
     }
     try {
-      const result = await window.electronAPI.vocabLibDeleteVideo(this._currentVideoUrl);
-      if (result && result.success) {
+      if (this._isYt()) {
+        const result = await window.electronAPI.vocabLibDeleteVideo(this._currentVideoUrl);
+        if (result && result.success) {
+          appStore.invalidateSavedWordsCache();
+          this._entries = this._entries.filter((e) => !this._matchesContainer(e, this._currentVideoUrl));
+          delete this._videoMeta[this._currentVideoUrl];
+        }
+      } else {
+        for (const w of target) {
+          await window.electronAPI.vocabLibDeleteWord(w.id);
+        }
         appStore.invalidateSavedWordsCache();
-        this._entries = this._entries.filter(
-          (e) => e.youtubeUrl !== this._currentVideoUrl
-        );
-        delete this._videoMeta[this._currentVideoUrl];
-        this._view = 'grid';
-        this._currentVideoUrl = null;
-        this._render();
+        this._entries = this._entries.filter((e) => !this._matchesContainer(e, this._currentVideoUrl));
       }
+      this._view = 'grid';
+      this._currentVideoUrl = null;
+      this._render();
     } catch (e) {
-      console.error('Failed to delete video vocabulary:', e);
+      console.error('Failed to delete vocabulary:', e);
     }
   }
 

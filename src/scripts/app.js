@@ -213,11 +213,19 @@ class App {
     });
     document.getElementById('sideVocabLib').addEventListener('click', () => {
       this._closeSidebar();
-      this._showVocabLib();
+      this._showVocabLib('youtube');
     });
     document.getElementById('sideVocabLibRead').addEventListener('click', () => {
       this._closeSidebar();
-      this._showVocabLib();
+      this._showVocabLib('youtube');
+    });
+    document.getElementById('sideVocabBooks').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showVocabLib('pdf');
+    });
+    document.getElementById('sideVocabBooksRead').addEventListener('click', () => {
+      this._closeSidebar();
+      this._showVocabLib('pdf');
     });
     document.getElementById('sidePdfViewer').addEventListener('click', () => this._pdfShowSidebarView('viewer'));
     document.getElementById('sidePdfRecent').addEventListener('click', () => this._pdfShowSidebarView('recent'));
@@ -614,7 +622,8 @@ class App {
     this.wordsPage.show();
   }
 
-  _showVocabLib() {
+  _showVocabLib(mode) {
+    vocabLibrary.setMode(mode || 'youtube');
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-vocablib').classList.add('active');
     vocabLibrary.show();
