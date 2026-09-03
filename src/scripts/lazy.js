@@ -15,12 +15,22 @@
     });
   }
 
+  let pdfLibLoadPromise = null;
+
   window._ensurePdfJs = function () {
     if (!pdfLoadPromise) {
       pdfLoadPromise = loadScript('lib/pdf/pdf.min.js', () => typeof window.pdfjsLib !== 'undefined')
         .catch((e) => { pdfLoadPromise = null; throw e; });
     }
     return pdfLoadPromise;
+  };
+
+  window._ensurePdfLib = function () {
+    if (!pdfLibLoadPromise) {
+      pdfLibLoadPromise = loadScript('lib/pdf-lib/pdf-lib.js', () => typeof window.PDFLib !== 'undefined')
+        .catch((e) => { pdfLibLoadPromise = null; throw e; });
+    }
+    return pdfLibLoadPromise;
   };
 
   window._ensureYouTubeApi = function () {

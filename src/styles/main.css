@@ -2685,6 +2685,51 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 .annot-c-green { background-color: #81c784; }
 .annot-c-blue { background-color: #64b5f6; }
 .annot-c-pink { background-color: #f06292; }
+.annot-c-purple { background-color: #ba68c8; }
+.annot-c-orange { background-color: #ffb74d; }
+
+.annot-custom-color-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+.annot-custom-color-btn input[type="color"] {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.annot-underline-color-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.annot-underline-color-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: #2196f3;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.annot-tools-secondary-row {
+  margin-top: 2px;
+}
 
 .annot-style-btns {
   display: flex;
@@ -2778,6 +2823,16 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 
 .rw-word.annot-highlight-pink {
   background-color: rgba(240, 98, 146, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-highlight-purple {
+  background-color: rgba(186, 104, 200, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-highlight-orange {
+  background-color: rgba(255, 183, 77, 0.45) !important;
   border-radius: 2px;
 }
 

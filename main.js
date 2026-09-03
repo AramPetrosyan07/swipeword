@@ -352,6 +352,16 @@ ipcMain.handle("file:read", async (_event, filePath) => {
   }
 });
 
+ipcMain.handle("file:write", async (_event, filePath, data) => {
+  try {
+    fs.writeFileSync(filePath, Buffer.from(data));
+    return { success: true, filePath };
+  } catch (e) {
+    console.error("Failed to write file:", e);
+    return { success: false, error: e.message };
+  }
+});
+
 ipcMain.handle("dialog:savePDF", async (_event, data, defaultName) => {
   const result = await dialog.showSaveDialog(mainWindow, {
     title: "Save annotated PDF",

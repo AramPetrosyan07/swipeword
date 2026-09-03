@@ -73,6 +73,36 @@ class TranslationPopup {
       });
     });
 
+    // Custom Color picker
+    const customColorInput = document.getElementById('annotCustomColorInput');
+    if (customColorInput) {
+      customColorInput.addEventListener('input', (e) => {
+        const color = e.target.value;
+        this._applyAnnotation({ color });
+      });
+      customColorInput.addEventListener('change', (e) => {
+        const color = e.target.value;
+        this._applyAnnotation({ color });
+      });
+    }
+
+    // Underline color picker
+    const underlineColorInput = document.getElementById('annotUnderlineColorInput');
+    if (underlineColorInput) {
+      underlineColorInput.addEventListener('input', (e) => {
+        const underlineColor = e.target.value;
+        const preview = document.getElementById('annotUnderlineColorPreview');
+        if (preview) preview.style.backgroundColor = underlineColor;
+        this._applyAnnotation({ underlineColor });
+      });
+      underlineColorInput.addEventListener('change', (e) => {
+        const underlineColor = e.target.value;
+        const preview = document.getElementById('annotUnderlineColorPreview');
+        if (preview) preview.style.backgroundColor = underlineColor;
+        this._applyAnnotation({ underlineColor });
+      });
+    }
+
     // Underline
     const btnUnderline = document.getElementById('btnAnnotUnderline');
     if (btnUnderline) {
@@ -170,6 +200,14 @@ class TranslationPopup {
       }
       if (changes.underline !== undefined) {
         updated.underline = changes.underline;
+        if (changes.underline && !updated.underlineColor) {
+          const uInput = document.getElementById('annotUnderlineColorInput');
+          updated.underlineColor = uInput ? uInput.value : '#2196f3';
+        }
+      }
+      if (changes.underlineColor !== undefined) {
+        updated.underlineColor = changes.underlineColor;
+        if (!updated.underline) updated.underline = 'straight';
       }
       if (changes.note !== undefined) {
         updated.note = changes.note;
@@ -198,7 +236,9 @@ class TranslationPopup {
     const key = `${firstWord.dataset.page}_${firstWord.dataset.widx}`;
     const cur = annots[key] && annots[key].underline;
     const next = (cur === type) ? null : type;
-    this._applyAnnotation({ underline: next });
+    const uInput = document.getElementById('annotUnderlineColorInput');
+    const uColor = (annots[key] && annots[key].underlineColor) || (uInput ? uInput.value : '#2196f3');
+    this._applyAnnotation({ underline: next, underlineColor: uColor });
   }
 
   _clearAnnotation() {
@@ -232,6 +272,7 @@ class TranslationPopup {
     const docKey = this._getDocKey();
     let curColor = null;
     let curUnderline = null;
+    let curUnderlineColor = '#2196f3';
     let curNote = '';
 
     if (docKey && this._targetWords && this._targetWords.length > 0 && typeof appStore !== 'undefined') {
@@ -242,6 +283,7 @@ class TranslationPopup {
       if (a) {
         curColor = a.color || null;
         curUnderline = a.underline || null;
+        curUnderlineColor = a.underlineColor || '#2196f3';
         curNote = a.note || '';
       }
     }
@@ -249,6 +291,16 @@ class TranslationPopup {
     this._annotToolbar.querySelectorAll('.annot-color-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.color === curColor);
     });
+
+    const customColorInput = document.getElementById('annotCustomColorInput');
+    if (customColorInput && curColor && curColor.startsWith('#')) {
+      customColorInput.value = curColor;
+    }
+
+    const underlineColorInput = document.getElementById('annotUnderlineColorInput');
+    const underlineColorPreview = document.getElementById('annotUnderlineColorPreview');
+    if (underlineColorInput) underlineColorInput.value = curUnderlineColor;
+    if (underlineColorPreview) underlineColorPreview.style.backgroundColor = curUnderlineColor;
 
     const btnUnderline = document.getElementById('btnAnnotUnderline');
     if (btnUnderline) btnUnderline.classList.toggle('active', curUnderline === 'straight');

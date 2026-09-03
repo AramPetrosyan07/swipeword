@@ -316,6 +316,77 @@ __appMixinReader['_pdfSaveScroll'] = function() {
 __appMixinReader['_updateTranslationSidebarBtnVisibility'] = function() {
   const btn = document.getElementById('btnTranslationSidebar');
   if (btn) btn.style.display = this._readCurrentPage === 'pdf' ? '' : 'none';
+  const saveBtn = document.getElementById('btnSavePdfFile');
+  if (saveBtn) saveBtn.style.display = (this._readCurrentPage === 'pdf' && this._pdfTabs && this._pdfTabs.length > 0) ? '' : 'none';
+};
+
+__appMixinReader['_saveCurrentPdfFile'] = async function() {
+  if (this._readCurrentPage !== 'pdf' || !this._pdfTabs || !this._pdfTabs[this._pdfActiveTab]) return;
+  const tab = this._pdfTabs[this._pdfActiveTab];
+  let rawBuffer = null;
+
+  try {
+    if (tab.path) {
+      const buf = await window.electronAPI.readFile(tab.path);
+      if (buf) rawBuffer = new Uint8Array(buf);
+    }
+  } catch (e) {
+    console.warn('Could not read original path for save:', e);
+  }
+
+  if (!rawBuffer && tab.doc && typeof tab.doc.getData === 'function') {
+    try {
+      rawBuffer = await tab.doc.getData();
+    } catch (e) {}
+  }
+
+  if (!rawBuffer) {
+    this._showSaveToast('Cannot find original PDF data to save', 'error');
+    return;
+  }
+
+  try {
+    const saveBtn = document.getElementById('btnSavePdfFile');
+    if (saveBtn) {
+      saveBtn.disabled = true;
+      saveBtn.textContent = 'Saving...';
+    }
+
+    const modifiedBytes = await readerMode.exportAnnotatedPdf(rawBuffer);
+    const defaultName = (tab.name || 'document') + '_annotated.pdf';
+    const result = await window.electronAPI.savePdf(modifiedBytes, defaultName);
+
+    if (saveBtn) {
+      saveBtn.disabled = false;
+      saveBtn.innerHTML = '&#128190; Save PDF';
+    }
+
+    if (result && result.success) {
+      this._showSaveToast('PDF successfully saved with annotations!', 'success');
+    } else if (result && !result.canceled) {
+      this._showSaveToast(result.error || 'Failed to save PDF', 'error');
+    }
+  } catch (e) {
+    console.error('Error saving PDF:', e);
+    const saveBtn = document.getElementById('btnSavePdfFile');
+    if (saveBtn) {
+      saveBtn.disabled = false;
+      saveBtn.innerHTML = '&#128190; Save PDF';
+    }
+    this._showSaveToast('Error saving PDF: ' + e.message, 'error');
+  }
+};
+
+__appMixinReader['_showSaveToast'] = function(msg, type) {
+  const toast = document.getElementById('copyToast');
+  const textEl = document.getElementById('copyToastText');
+  if (!toast || !textEl) return;
+  const icon = type === 'success' ? '&#10003;' : '&#9888;';
+  const color = type === 'success' ? '#4caf50' : '#f44336';
+  textEl.innerHTML = `<span style="color:${color};font-weight:700;">${icon}</span> ${msg}`;
+  toast.classList.add('visible');
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => toast.classList.remove('visible'), 3000);
 };
 
 __appMixinReader['_toggleTranslationSidebar'] = function() {

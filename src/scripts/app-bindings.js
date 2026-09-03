@@ -33,6 +33,23 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     this._toggleTranslationSidebar();
   });
 
+  const savePdfBtn = document.getElementById('btnSavePdfFile');
+  if (savePdfBtn) {
+    savePdfBtn.addEventListener('click', () => {
+      this._saveCurrentPdfFile();
+    });
+  }
+
+  // Ctrl+S / Cmd+S handler
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+      if (this._readCurrentPage === 'pdf' && this._pdfTabs && this._pdfTabs.length > 0) {
+        e.preventDefault();
+        this._saveCurrentPdfFile();
+      }
+    }
+  });
+
   document.getElementById('btnThemeColors').addEventListener('click', () => {
     this._setThemeColorsMode(true);
   });

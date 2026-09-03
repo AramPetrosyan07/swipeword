@@ -26,6 +26,7 @@
           <button class="icon-btn reader-lang-close" id="btnReaderLangClose" title="Close language settings">&times;</button>
         </div>
         <div class="reader-toolbar-right">
+          <button class="btn btn-primary btn-sm" id="btnSavePdfFile" style="display:none;" title="Save annotations to PDF (Ctrl+S)">&#128190; Save PDF</button>
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
           <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
@@ -511,16 +512,29 @@
           </div>
           <div class="reader-annot-toolbar" id="readerAnnotToolbar" style="display:none;">
             <div class="annot-tools-row">
-              <span class="annot-tools-label">Mark:</span>
+              <span class="annot-tools-label">Highlight:</span>
               <div class="annot-color-palette">
-                <button class="annot-color-btn annot-c-yellow" data-color="yellow" title="Highlight Yellow"></button>
-                <button class="annot-color-btn annot-c-green" data-color="green" title="Highlight Green"></button>
-                <button class="annot-color-btn annot-c-blue" data-color="blue" title="Highlight Blue"></button>
-                <button class="annot-color-btn annot-c-pink" data-color="pink" title="Highlight Pink"></button>
+                <button class="annot-color-btn annot-c-yellow" data-color="#ffd54f" title="Yellow"></button>
+                <button class="annot-color-btn annot-c-green" data-color="#81c784" title="Green"></button>
+                <button class="annot-color-btn annot-c-blue" data-color="#64b5f6" title="Blue"></button>
+                <button class="annot-color-btn annot-c-pink" data-color="#f06292" title="Pink"></button>
+                <button class="annot-color-btn annot-c-purple" data-color="#ba68c8" title="Purple"></button>
+                <button class="annot-color-btn annot-c-orange" data-color="#ffb74d" title="Orange"></button>
+                <label class="annot-custom-color-btn" title="Pick any custom highlight color">
+                  <span class="annot-custom-color-icon">&#127912;</span>
+                  <input type="color" id="annotCustomColorInput" value="#ffd54f" />
+                </label>
               </div>
+            </div>
+            <div class="annot-tools-row annot-tools-secondary-row">
+              <span class="annot-tools-label">Underline:</span>
               <div class="annot-style-btns">
                 <button class="annot-btn" id="btnAnnotUnderline" title="Toggle Underline"><u>U</u></button>
                 <button class="annot-btn" id="btnAnnotWavy" title="Toggle Wavy Underline"><span class="annot-wavy-icon">〰</span></button>
+                <label class="annot-custom-color-btn annot-underline-color-label" title="Underline Color">
+                  <span class="annot-underline-color-indicator" id="annotUnderlineColorPreview"></span>
+                  <input type="color" id="annotUnderlineColorInput" value="#2196f3" />
+                </label>
                 <button class="annot-btn" id="btnAnnotNoteToggle" title="Add / Edit Markdown Note">📝</button>
                 <button class="annot-btn annot-clear-btn" id="btnAnnotClear" title="Clear markings">✕</button>
               </div>

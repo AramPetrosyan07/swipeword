@@ -342,18 +342,36 @@ class ReaderMode {
       const widx = w.dataset.widx;
       const key = `${p}_${widx}`;
       const a = annots[key];
-      // clear existing annotation classes
+      // clear existing annotation classes and inline styles
       w.classList.remove(
         'annot-highlight-yellow', 'annot-highlight-green', 'annot-highlight-blue', 'annot-highlight-pink',
+        'annot-highlight-purple', 'annot-highlight-orange',
         'annot-underline', 'annot-underline-wavy', 'annot-has-note'
       );
+      w.style.backgroundColor = '';
+      w.style.textDecoration = '';
+      w.style.textDecorationColor = '';
+      w.style.textDecorationStyle = '';
+      w.style.textDecorationThickness = '';
+      w.style.textUnderlineOffset = '';
       w.removeAttribute('data-annot-note');
+
       if (a) {
         if (a.color) {
-          w.classList.add(`annot-highlight-${a.color}`);
+          if (a.color.startsWith('#') || a.color.startsWith('rgb')) {
+            w.style.backgroundColor = this._colorWithAlpha(a.color, 0.45);
+            w.style.borderRadius = '2px';
+          } else {
+            w.classList.add(`annot-highlight-${a.color}`);
+          }
         }
         if (a.underline) {
-          w.classList.add(a.underline === 'wavy' ? 'annot-underline-wavy' : 'annot-underline');
+          const uColor = a.underlineColor || '#2196f3';
+          w.style.textDecoration = 'underline';
+          w.style.textDecorationColor = uColor;
+          w.style.textDecorationStyle = a.underline === 'wavy' ? 'wavy' : 'solid';
+          w.style.textDecorationThickness = '2px';
+          w.style.textUnderlineOffset = '3px';
         }
         if (a.note && a.note.trim()) {
           w.classList.add('annot-has-note');
@@ -361,6 +379,113 @@ class ReaderMode {
         }
       }
     });
+  }
+
+  _colorWithAlpha(color, alpha) {
+    if (color.startsWith('#')) {
+      let hex = color.slice(1);
+      if (hex.length === 3) hex = hex.split('').map(c => c + c).join('');
+      const r = parseInt(hex.slice(0, 2), 16) || 0;
+      const g = parseInt(hex.slice(2, 4), 16) || 0;
+      const b = parseInt(hex.slice(4, 6), 16) || 0;
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+    return color;
+  }
+
+  _parseRgb01(color) {
+    if (!color) return { r: 1, g: 0.9, b: 0.2 };
+    let hex = color;
+    if (hex.startsWith('#')) hex = hex.slice(1);
+    if (hex.length === 3) hex = hex.split('').map(c => c + c).join('');
+    const r = (parseInt(hex.slice(0, 2), 16) || 255) / 255;
+    const g = (parseInt(hex.slice(2, 4), 16) || 255) / 255;
+    const b = (parseInt(hex.slice(4, 6), 16) || 0) / 255;
+    return { r, g, b };
+  }
+
+  async exportAnnotatedPdf(rawBuffer) {
+    await window._ensurePdfLib();
+    const { PDFDocument, rgb, degrees } = window.PDFLib;
+    const pdfDoc = await PDFDocument.load(rawBuffer);
+    const docKey = this._getActiveDocKey();
+    if (!docKey || typeof appStore === 'undefined') {
+      return await pdfDoc.save();
+    }
+    const annots = appStore.getPdfAnnotations(docKey);
+    const totalPages = pdfDoc.getPageCount();
+
+    for (let pNum = 1; pNum <= totalPages; pNum++) {
+      const pageIndex = pNum - 1;
+      const page = pdfDoc.getPage(pageIndex);
+      const { width: pWidth, height: pHeight } = page.getSize();
+      
+      // Get rendered slot or viewport info
+      const jsPage = this.pdfDoc ? await this.pdfDoc.getPage(pNum) : null;
+      if (!jsPage) continue;
+      const vp = jsPage.getViewport({ scale: 1 });
+      const scaleX = pWidth / vp.width;
+      const scaleY = pHeight / vp.height;
+
+      // Find all annotations on this page
+      const prefix = `${pNum}_`;
+      const pageAnnotKeys = Object.keys(annots).filter(k => k.startsWith(prefix));
+      if (!pageAnnotKeys.length) continue;
+
+      // Find words in DOM or construct their coordinates
+      const slot = this.slots[pageIndex];
+      if (!slot) continue;
+      const wordEls = slot.querySelectorAll('.rw-word');
+      
+      wordEls.forEach(w => {
+        const widx = w.dataset.widx;
+        const a = annots[`${pNum}_${widx}`];
+        if (!a) return;
+
+        const leftPx = parseFloat(w.style.left) || 0;
+        const topPx = parseFloat(w.style.top) || 0;
+        const widthPx = parseFloat(w.style.width) || (parseFloat(w.offsetWidth) || 0);
+        const heightPx = parseFloat(w.style.height) || (parseFloat(w.offsetHeight) || 0);
+
+        // Convert current CSS scale to PDF coordinate system (origin is bottom-left in PDF-lib)
+        const unscaledLeft = leftPx / this.scale;
+        const unscaledTop = topPx / this.scale;
+        const unscaledWidth = widthPx / this.scale;
+        const unscaledHeight = heightPx / this.scale;
+
+        const pdfX = unscaledLeft * scaleX;
+        const pdfY = pHeight - ((unscaledTop + unscaledHeight) * scaleY);
+        const pdfW = unscaledWidth * scaleX;
+        const pdfH = unscaledHeight * scaleY;
+
+        // Draw highlight rectangle
+        if (a.color) {
+          const c = this._parseRgb01(a.color);
+          page.drawRectangle({
+            x: pdfX,
+            y: pdfY,
+            width: pdfW,
+            height: pdfH,
+            color: rgb(c.r, c.g, c.b),
+            opacity: 0.4,
+          });
+        }
+
+        // Draw underline
+        if (a.underline) {
+          const uc = this._parseRgb01(a.underlineColor || '#2196f3');
+          page.drawLine({
+            start: { x: pdfX, y: pdfY },
+            end: { x: pdfX + pdfW, y: pdfY },
+            thickness: 1.5,
+            color: rgb(uc.r, uc.g, uc.b),
+            opacity: 0.85,
+          });
+        }
+      });
+    }
+
+    return await pdfDoc.save();
   }
 
   refreshAllAnnotations() {
