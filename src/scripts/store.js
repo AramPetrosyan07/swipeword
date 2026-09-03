@@ -137,8 +137,8 @@ class Store {
     if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
     if (!this.data.pdfRecents) this.data.pdfRecents = [];
     if (!this.data.pdfPinnedFolders) this.data.pdfPinnedFolders = [];
-    if (!this.data.pdfScrollPositions) this.data.pdfScrollPositions = {};
     if (!this.data.pdfOpenTabs) this.data.pdfOpenTabs = [];
+    if (!this.data.pdfAnnotations) this.data.pdfAnnotations = {};
     if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
@@ -220,6 +220,29 @@ class Store {
       delete this.data.notes[id];
     }
     return this.save();
+  }
+
+  getPdfAnnotations(pdfKey) {
+    if (!this.data.pdfAnnotations) this.data.pdfAnnotations = {};
+    return this.data.pdfAnnotations[pdfKey] || {};
+  }
+
+  setPdfAnnotation(pdfKey, annotId, annotData) {
+    if (!this.data.pdfAnnotations) this.data.pdfAnnotations = {};
+    if (!this.data.pdfAnnotations[pdfKey]) this.data.pdfAnnotations[pdfKey] = {};
+    if (annotData) {
+      this.data.pdfAnnotations[pdfKey][annotId] = {
+        ...annotData,
+        updatedAt: Date.now()
+      };
+    } else {
+      delete this.data.pdfAnnotations[pdfKey][annotId];
+    }
+    return this.save();
+  }
+
+  removePdfAnnotation(pdfKey, annotId) {
+    return this.setPdfAnnotation(pdfKey, annotId, null);
   }
 
   getDailyActivity(days = 30) {

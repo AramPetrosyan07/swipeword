@@ -2635,6 +2635,203 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   margin-top: 4px;
 }
 
+/* Annotation Toolbar in Popup */
+.reader-annot-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  margin-top: 2px;
+}
+
+.annot-tools-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.annot-tools-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.annot-color-palette {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.annot-color-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.annot-color-btn:hover {
+  transform: scale(1.2);
+}
+
+.annot-color-btn.active {
+  border-color: var(--text);
+  transform: scale(1.15);
+}
+
+.annot-c-yellow { background-color: #ffd54f; }
+.annot-c-green { background-color: #81c784; }
+.annot-c-blue { background-color: #64b5f6; }
+.annot-c-pink { background-color: #f06292; }
+
+.annot-style-btns {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.annot-btn {
+  background: var(--bg-secondary, rgba(128,128,128,0.1));
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.annot-btn:hover {
+  background: var(--surface-hover, rgba(100,120,255,0.15));
+  border-color: var(--primary);
+}
+
+.annot-btn.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.annot-clear-btn {
+  color: var(--text-secondary);
+  padding: 2px 6px;
+}
+
+.annot-clear-btn:hover {
+  background: rgba(244, 67, 54, 0.15);
+  color: #f44336;
+  border-color: #f44336;
+}
+
+.annot-note-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.annot-note-input {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  padding: 6px 8px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 48px;
+}
+
+.annot-note-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.annot-note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+/* Word Annotations in PDF Layer */
+.rw-word.annot-highlight-yellow {
+  background-color: rgba(255, 213, 79, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-highlight-green {
+  background-color: rgba(129, 199, 132, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-highlight-blue {
+  background-color: rgba(100, 181, 246, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-highlight-pink {
+  background-color: rgba(240, 98, 146, 0.45) !important;
+  border-radius: 2px;
+}
+
+.rw-word.annot-underline {
+  text-decoration: underline !important;
+  text-decoration-color: #2196f3 !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+
+.rw-word.annot-underline-wavy {
+  text-decoration: underline wavy !important;
+  text-decoration-color: #e91e63 !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+
+.rw-word.annot-has-note {
+  position: relative;
+}
+
+.rw-word.annot-has-note::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 5px;
+  height: 5px;
+  background-color: #ff9800;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(255, 152, 0, 0.8);
+  pointer-events: none;
+}
+
+/* Hover preview for markdown notes */
+.rw-word.annot-has-note:hover::before {
+  content: attr(data-annot-note);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(25, 25, 30, 0.92);
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  max-width: 200px;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  line-height: 1.3;
+}
+
 /* Read Page — Home: 3 Mode Cards */
 .read-home {
   flex: 1;

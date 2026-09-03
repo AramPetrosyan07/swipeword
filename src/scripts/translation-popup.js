@@ -39,6 +39,7 @@ class TranslationPopup {
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
+    this._initAnnotationControls();
     this._bodyEl.addEventListener('click', (e) => {
       const left = e.target.closest('.rw-word-copy');
       const right = e.target.closest('.rw-word-tts');
@@ -53,6 +54,214 @@ class TranslationPopup {
         this._speakWord(right.dataset.text, right.dataset.lang);
       }
     });
+  }
+
+  _initAnnotationControls() {
+    this._annotToolbar = document.getElementById('readerAnnotToolbar');
+    this._annotNoteBox = document.getElementById('annotNoteBox');
+    this._annotNoteTextarea = document.getElementById('annotNoteTextarea');
+    this._targetWords = [];
+
+    if (!this._annotToolbar) return;
+
+    // Color palette click
+    this._annotToolbar.querySelectorAll('.annot-color-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const color = btn.dataset.color;
+        this._applyAnnotation({ color });
+      });
+    });
+
+    // Underline
+    const btnUnderline = document.getElementById('btnAnnotUnderline');
+    if (btnUnderline) {
+      btnUnderline.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._toggleUnderline('straight');
+      });
+    }
+
+    // Wavy underline
+    const btnWavy = document.getElementById('btnAnnotWavy');
+    if (btnWavy) {
+      btnWavy.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._toggleUnderline('wavy');
+      });
+    }
+
+    // Toggle note box
+    const btnNoteToggle = document.getElementById('btnAnnotNoteToggle');
+    if (btnNoteToggle) {
+      btnNoteToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (this._annotNoteBox.style.display === 'none') {
+          this._annotNoteBox.style.display = 'flex';
+          this._annotNoteTextarea.focus();
+        } else {
+          this._annotNoteBox.style.display = 'none';
+        }
+        this._fitToViewport();
+      });
+    }
+
+    // Save note
+    const btnNoteSave = document.getElementById('btnAnnotNoteSave');
+    if (btnNoteSave) {
+      btnNoteSave.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const note = this._annotNoteTextarea.value.trim();
+        this._applyAnnotation({ note });
+        this._annotNoteBox.style.display = 'none';
+        this._fitToViewport();
+      });
+    }
+
+    // Cancel note
+    const btnNoteCancel = document.getElementById('btnAnnotNoteCancel');
+    if (btnNoteCancel) {
+      btnNoteCancel.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._annotNoteBox.style.display = 'none';
+        this._fitToViewport();
+      });
+    }
+
+    // Clear annotation
+    const btnClear = document.getElementById('btnAnnotClear');
+    if (btnClear) {
+      btnClear.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._clearAnnotation();
+      });
+    }
+  }
+
+  _getDocKey() {
+    if (this._currentSource && this._currentSource.title) {
+      return this._currentSource.title;
+    }
+    if (typeof app !== 'undefined' && app._pdfTabs && app._pdfTabs[app._pdfActiveTab]) {
+      const t = app._pdfTabs[app._pdfActiveTab];
+      return t.path || t.name;
+    }
+    return null;
+  }
+
+  _applyAnnotation(changes) {
+    if (!this._targetWords || this._targetWords.length === 0) return;
+    const docKey = this._getDocKey();
+    if (!docKey || typeof appStore === 'undefined') return;
+
+    const annots = appStore.getPdfAnnotations(docKey);
+
+    this._targetWords.forEach(w => {
+      const p = w.dataset.page;
+      const widx = w.dataset.widx;
+      if (p === undefined || widx === undefined) return;
+      const key = `${p}_${widx}`;
+      const existing = annots[key] || { page: parseInt(p, 10), widx: parseInt(widx, 10), word: w.dataset.word || w.textContent };
+      
+      const updated = { ...existing };
+      if (changes.color !== undefined) {
+        // toggle color if clicked same color
+        updated.color = (updated.color === changes.color) ? null : changes.color;
+      }
+      if (changes.underline !== undefined) {
+        updated.underline = changes.underline;
+      }
+      if (changes.note !== undefined) {
+        updated.note = changes.note;
+      }
+
+      // If all properties cleared, remove annotation
+      if (!updated.color && !updated.underline && !updated.note) {
+        appStore.removePdfAnnotation(docKey, key);
+      } else {
+        appStore.setPdfAnnotation(docKey, key, updated);
+      }
+    });
+
+    if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+      readerMode.refreshAllAnnotations();
+    }
+    this._syncAnnotationUI();
+  }
+
+  _toggleUnderline(type) {
+    if (!this._targetWords || this._targetWords.length === 0) return;
+    const docKey = this._getDocKey();
+    if (!docKey || typeof appStore === 'undefined') return;
+    const annots = appStore.getPdfAnnotations(docKey);
+    const firstWord = this._targetWords[0];
+    const key = `${firstWord.dataset.page}_${firstWord.dataset.widx}`;
+    const cur = annots[key] && annots[key].underline;
+    const next = (cur === type) ? null : type;
+    this._applyAnnotation({ underline: next });
+  }
+
+  _clearAnnotation() {
+    if (!this._targetWords || this._targetWords.length === 0) return;
+    const docKey = this._getDocKey();
+    if (!docKey || typeof appStore === 'undefined') return;
+
+    this._targetWords.forEach(w => {
+      const p = w.dataset.page;
+      const widx = w.dataset.widx;
+      if (p === undefined || widx === undefined) return;
+      const key = `${p}_${widx}`;
+      appStore.removePdfAnnotation(docKey, key);
+    });
+
+    if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+      readerMode.refreshAllAnnotations();
+    }
+    if (this._annotNoteTextarea) this._annotNoteTextarea.value = '';
+    if (this._annotNoteBox) this._annotNoteBox.style.display = 'none';
+    this._syncAnnotationUI();
+    this._fitToViewport();
+  }
+
+  _syncAnnotationUI() {
+    if (!this._annotToolbar) return;
+    const isPdf = this._currentSource && this._currentSource.type === 'pdf';
+    this._annotToolbar.style.display = isPdf ? 'flex' : 'none';
+    if (!isPdf) return;
+
+    const docKey = this._getDocKey();
+    let curColor = null;
+    let curUnderline = null;
+    let curNote = '';
+
+    if (docKey && this._targetWords && this._targetWords.length > 0 && typeof appStore !== 'undefined') {
+      const annots = appStore.getPdfAnnotations(docKey);
+      const firstWord = this._targetWords[0];
+      const key = `${firstWord.dataset.page}_${firstWord.dataset.widx}`;
+      const a = annots[key];
+      if (a) {
+        curColor = a.color || null;
+        curUnderline = a.underline || null;
+        curNote = a.note || '';
+      }
+    }
+
+    this._annotToolbar.querySelectorAll('.annot-color-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.color === curColor);
+    });
+
+    const btnUnderline = document.getElementById('btnAnnotUnderline');
+    if (btnUnderline) btnUnderline.classList.toggle('active', curUnderline === 'straight');
+
+    const btnWavy = document.getElementById('btnAnnotWavy');
+    if (btnWavy) btnWavy.classList.toggle('active', curUnderline === 'wavy');
+
+    const btnNoteToggle = document.getElementById('btnAnnotNoteToggle');
+    if (btnNoteToggle) btnNoteToggle.classList.toggle('active', !!curNote);
+
+    if (this._annotNoteTextarea) {
+      this._annotNoteTextarea.value = curNote;
+    }
   }
 
   setVoice(id) {
@@ -175,7 +384,7 @@ class TranslationPopup {
     const showTranslation = (words, anchorEl) => {
       const text = words.map(w => w.dataset.word || w.textContent).join(' ');
       const context = WordWrapper.getSentenceForWord(container.textContent, text);
-      this.show(text, context, anchorEl, this._containerSources.get(container) || sourceInfo);
+      this.show(text, context, anchorEl, this._containerSources.get(container) || sourceInfo, words);
     };
 
     container.addEventListener('mousedown', (e) => {
@@ -210,12 +419,14 @@ class TranslationPopup {
     });
   }
 
-  show(word, context, targetEl, sourceInfo) {
+  show(word, context, targetEl, sourceInfo, words) {
     this._currentWord = word;
     this._currentContext = context;
     this._currentSource = sourceInfo || {};
     this._currentTimestamp = 0;
     this._pdfAnchorRect = null;
+    this._targetWords = Array.isArray(words) && words.length > 0 ? words : (targetEl ? [targetEl] : []);
+    this._syncAnnotationUI();
     if (this._currentSource.type === 'youtube') {
       const lineEl = targetEl ? targetEl.closest('.yt-sub-line') : null;
       const lineStart = lineEl ? parseFloat(lineEl.dataset.start) : NaN;

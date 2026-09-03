@@ -509,6 +509,30 @@
           </div>
           <div class="reader-translate-body">
           </div>
+          <div class="reader-annot-toolbar" id="readerAnnotToolbar" style="display:none;">
+            <div class="annot-tools-row">
+              <span class="annot-tools-label">Mark:</span>
+              <div class="annot-color-palette">
+                <button class="annot-color-btn annot-c-yellow" data-color="yellow" title="Highlight Yellow"></button>
+                <button class="annot-color-btn annot-c-green" data-color="green" title="Highlight Green"></button>
+                <button class="annot-color-btn annot-c-blue" data-color="blue" title="Highlight Blue"></button>
+                <button class="annot-color-btn annot-c-pink" data-color="pink" title="Highlight Pink"></button>
+              </div>
+              <div class="annot-style-btns">
+                <button class="annot-btn" id="btnAnnotUnderline" title="Toggle Underline"><u>U</u></button>
+                <button class="annot-btn" id="btnAnnotWavy" title="Toggle Wavy Underline"><span class="annot-wavy-icon">〰</span></button>
+                <button class="annot-btn" id="btnAnnotNoteToggle" title="Add / Edit Markdown Note">📝</button>
+                <button class="annot-btn annot-clear-btn" id="btnAnnotClear" title="Clear markings">✕</button>
+              </div>
+            </div>
+            <div class="annot-note-box" id="annotNoteBox" style="display:none;">
+              <textarea id="annotNoteTextarea" class="annot-note-input" placeholder="Markdown note (supports **bold**, *italic*, `code`, - lists)..." rows="2"></textarea>
+              <div class="annot-note-actions">
+                <button class="btn btn-secondary btn-sm" id="btnAnnotNoteSave">Save Note</button>
+                <button class="btn btn-text btn-sm" id="btnAnnotNoteCancel">Cancel</button>
+              </div>
+            </div>
+          </div>
           <div class="reader-translate-actions">
             <button class="btn btn-secondary" id="btnReaderAddWord">+ Save to Dictionary</button>
           </div>

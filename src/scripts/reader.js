@@ -173,21 +173,23 @@ class ReaderMode {
       });
       await task.promise;
       if (gen !== this._generation) return;
-      this._splitTextIntoWordsFromItems(layerEl, content.items);
+      this._splitTextIntoWordsFromItems(layerEl, content.items, num);
+      this.applyAnnotationsToPage(layerEl, num);
     } catch (e) {
       console.warn('Text render failed:', e);
       if (layerEl) layerEl.style.display = 'none';
     }
   }
 
-  _splitTextIntoWordsFromItems(layerEl, items) {
+  _splitTextIntoWordsFromItems(layerEl, items, pageNum) {
     layerEl.querySelectorAll('br').forEach((br) => br.remove());
     const textDivs = layerEl.querySelectorAll('span[role="presentation"]');
+    let wordIndex = 0;
     for (const div of textDivs) {
       const text = div.textContent;
       if (!text) continue;
       if (div.dir === 'rtl' || /rotate\(/.test(div.style.transform || '')) {
-        this._splitDivInline(div, text);
+        wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
         continue;
       }
       const fontSize = this._divFontSize(div);
@@ -196,7 +198,7 @@ class ReaderMode {
       const style = div.style.fontStyle || 'normal';
       const stretch = div.style.fontStretch || 'normal';
       if (!isFinite(fontSize) || fontSize <= 0 || !family) {
-        this._splitDivInline(div, text);
+        wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
         continue;
       }
       const ctx = this._getMeasureCtx();
@@ -205,13 +207,13 @@ class ReaderMode {
       try {
         m0 = ctx.measureText('');
       } catch (e) {
-        this._splitDivInline(div, text);
+        wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
         continue;
       }
       const asc0 = m0.fontBoundingBoxAscent || 0;
       const desc0 = Math.abs(m0.fontBoundingBoxDescent) || 0;
       if (asc0 + desc0 <= 0) {
-        this._splitDivInline(div, text);
+        wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
         continue;
       }
       const baseline = (fontSize * asc0) / (asc0 + desc0);
@@ -226,7 +228,7 @@ class ReaderMode {
           m = null;
         }
         if (!m) {
-          this._splitDivInline(div, text);
+          wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
           cursor = -1;
           break;
         }
@@ -238,7 +240,7 @@ class ReaderMode {
         let ba = m.actualBoundingBoxAscent;
         let bd = m.actualBoundingBoxDescent;
         if (typeof ba !== 'number' || typeof bd !== 'number' || !(ba + Math.abs(bd) > 0)) {
-          this._splitDivInline(div, text);
+          wordIndex = this._splitDivInline(div, text, pageNum, wordIndex);
           cursor = -1;
           break;
         }
@@ -249,6 +251,8 @@ class ReaderMode {
         const span = document.createElement('span');
         span.className = 'rw-word';
         span.dataset.word = token;
+        span.dataset.page = pageNum || '';
+        span.dataset.widx = wordIndex++;
         span.textContent = token;
         span.style.position = 'absolute';
         span.style.left = (cursor + left) + 'px';
@@ -289,7 +293,8 @@ class ReaderMode {
     return parseFloat(getComputedStyle(div).fontSize);
   }
 
-  _splitDivInline(div, text) {
+  _splitDivInline(div, text, pageNum, startIdx = 0) {
+    let wordIndex = startIdx;
     const frag = document.createDocumentFragment();
     const re = /\S+/g;
     let lastIndex = 0;
@@ -301,6 +306,8 @@ class ReaderMode {
       const span = document.createElement('span');
       span.className = 'rw-word';
       span.dataset.word = m[0];
+      span.dataset.page = pageNum || '';
+      span.dataset.widx = wordIndex++;
       span.textContent = m[0];
       frag.appendChild(span);
       lastIndex = m.index + m[0].length;
@@ -310,6 +317,59 @@ class ReaderMode {
     }
     div.textContent = '';
     div.appendChild(frag);
+    return wordIndex;
+  }
+
+  _getActiveDocKey() {
+    if (typeof app !== 'undefined' && app._readSourceInfo && app._readSourceInfo.title) {
+      return app._readSourceInfo.title;
+    }
+    if (typeof app !== 'undefined' && app._pdfTabs && app._pdfTabs[app._pdfActiveTab]) {
+      const t = app._pdfTabs[app._pdfActiveTab];
+      return t.path || t.name;
+    }
+    return null;
+  }
+
+  applyAnnotationsToPage(layerEl, pageNum) {
+    if (!layerEl || typeof appStore === 'undefined') return;
+    const docKey = this._getActiveDocKey();
+    if (!docKey) return;
+    const annots = appStore.getPdfAnnotations(docKey);
+    const p = String(pageNum);
+    const words = layerEl.querySelectorAll('.rw-word');
+    words.forEach(w => {
+      const widx = w.dataset.widx;
+      const key = `${p}_${widx}`;
+      const a = annots[key];
+      // clear existing annotation classes
+      w.classList.remove(
+        'annot-highlight-yellow', 'annot-highlight-green', 'annot-highlight-blue', 'annot-highlight-pink',
+        'annot-underline', 'annot-underline-wavy', 'annot-has-note'
+      );
+      w.removeAttribute('data-annot-note');
+      if (a) {
+        if (a.color) {
+          w.classList.add(`annot-highlight-${a.color}`);
+        }
+        if (a.underline) {
+          w.classList.add(a.underline === 'wavy' ? 'annot-underline-wavy' : 'annot-underline');
+        }
+        if (a.note && a.note.trim()) {
+          w.classList.add('annot-has-note');
+          w.setAttribute('data-annot-note', a.note.trim());
+        }
+      }
+    });
+  }
+
+  refreshAllAnnotations() {
+    const layers = document.querySelectorAll('#pdfPages .pdf-scroll-layer');
+    layers.forEach(layer => {
+      const slot = layer.closest('.pdf-scroll-page');
+      const page = slot ? parseInt(slot.dataset.page, 10) : 1;
+      this.applyAnnotationsToPage(layer, page);
+    });
   }
 
   getPageText(num) {
