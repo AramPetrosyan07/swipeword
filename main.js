@@ -593,7 +593,8 @@ async function _edgeTTS(text, lang, voiceIndex) {
     fs.writeFileSync(tmpFile, "\ufeff" + text, "utf-8");
     const child = spawn(_edgeTTSPath, ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
     child.stdout.on("data", (chunk) => chunks.push(chunk));
-    child.stderr.on("data", () => {});
+    const stderrChunks = [];
+    child.stderr.on("data", (chunk) => stderrChunks.push(chunk));
     child.on("error", (err) => {
       try { fs.unlinkSync(tmpFile); } catch {}
       reject(new Error(`edge-tts spawn failed: ${err.message}`));
@@ -601,7 +602,8 @@ async function _edgeTTS(text, lang, voiceIndex) {
     child.on("close", (code) => {
       try { fs.unlinkSync(tmpFile); } catch {}
       if (code !== 0) {
-        reject(new Error(`edge-tts exited with code ${code}`));
+        const stderrMsg = Buffer.concat(stderrChunks).toString("utf-8").trim();
+        reject(new Error(`edge-tts exited with code ${code}: ${stderrMsg || "(no stderr)"}`));
         return;
       }
       const buffer = Buffer.concat(chunks);
