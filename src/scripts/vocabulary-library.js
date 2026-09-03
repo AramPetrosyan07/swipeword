@@ -207,11 +207,15 @@ class VocabularyLibrary {
             langs: new Set(),
           });
         } else {
+          const recents = (appStore.data && appStore.data.pdfRecents) || [];
+          const r = recents.find((x) => x.name === entry.sourceTitle);
           map.set(key, {
             key,
             url: key,
             title: entry.sourceTitle || 'Untitled Book',
             thumbnailUrl: '',
+            path: r ? r.path : '',
+            mtimeMs: r ? (r.mtimeMs || 0) : 0,
             wordCount: 0,
             lastWatched: 0,
             createdAt: 0,
@@ -339,7 +343,7 @@ class VocabularyLibrary {
         const timeAgo = this._timeAgo(v.lastWatched);
         const thumbSrc = v.thumbnailUrl
           ? `<img src="${this._esc(v.thumbnailUrl)}" alt="" loading="lazy" class="vocablib-card-thumb-img" onerror="this.style.display='none';this.parentElement.classList.add('vocablib-card-thumb-fallback');">`
-          : '';
+          : (this._isYt() ? '' : `<img alt="" loading="lazy" class="vocablib-card-thumb-img" data-thumb-path="${this._esc(v.path || '')}" data-thumb-mtime="${v.mtimeMs || 0}" style="display:none;">`);
         const fallbackIcon = `<span class="vocablib-card-thumb-fallback-icon">${this._isYt() ? '&#9654;' : '&#128218;'}</span>`;
         const posBadge = v.lastPosition > 0
           ? `<span class="vocablib-card-position">${this._fmtTime(v.lastPosition)}</span>`
@@ -401,6 +405,24 @@ class VocabularyLibrary {
       el.addEventListener('click', () => {
         this._openDictionary(el.dataset.url);
       });
+    });
+
+    grid.querySelectorAll('.vocablib-card-thumb-img[data-thumb-path]').forEach((img) => {
+      const path = img.dataset.thumbPath;
+      if (!path || !app || typeof app._pdfRenderThumb !== 'function') return;
+      const key = path + '|' + img.dataset.thumbMtime;
+      if (app._pdfThumbCache && app._pdfThumbCache.has(key)) {
+        img.src = app._pdfThumbCache.get(key);
+        img.style.display = '';
+        img.parentElement.classList.add('vocablib-card-thumb-book-loaded');
+      } else {
+        app._pdfRenderThumb(path, Number(img.dataset.thumbMtime) || 0, img).then(() => {
+          if (img.src) {
+            img.style.display = '';
+            img.parentElement.classList.add('vocablib-card-thumb-book-loaded');
+          }
+        });
+      }
     });
   }
 

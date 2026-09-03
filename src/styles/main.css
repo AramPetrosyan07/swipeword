@@ -4488,6 +4488,18 @@ body.theme-dark .pdf-scroll-canvas {
   color: rgba(255, 255, 255, 0.4);
 }
 
+.vocablib-card-thumb-book-loaded .vocablib-card-thumb-fallback-icon {
+  display: none;
+}
+
+.vocablib-card-thumb-book-loaded .vocablib-card-thumb-img {
+  display: block;
+}
+
+.vocablib-card-thumb-book .vocablib-card-thumb-img {
+  object-fit: contain;
+}
+
 .vocablib-card-position {
   position: absolute;
   bottom: 8px;
