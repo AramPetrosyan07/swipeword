@@ -869,7 +869,14 @@
             </div>
             <input type="text" id="vocabLibDictSearch" class="vocablib-dict-search" placeholder="Search words..." autocomplete="off" spellcheck="false" />
             <button class="vocablib-delete-all-btn" id="btnVocabLibDeleteAll" title="Delete all words from this video">&#128465; Delete All</button>
+            <button class="vocablib-edit-btn" id="btnVocabLibEdit" title="Edit mode: batch-save words from context sentences">&#9998; Edit</button>
           </div>
+        </div>
+        <div class="vocablib-accept-bar" id="vocabLibAcceptBar" style="display:none;">
+          <span class="vocablib-accept-info">Select words inside the context sentences below to save them.</span>
+          <button class="vocablib-accept-btn" id="btnVocabLibAccept">Accept <span id="vocabLibAcceptCount"></span></button>
+          <button class="vocablib-accept-cancel" id="btnVocabLibAcceptCancel">Cancel</button>
+          <span class="vocablib-accept-feedback" id="vocabLibAcceptFeedback"></span>
         </div>
         <div class="vocablib-dict-list" id="vocabLibDictList"></div>
       </div>

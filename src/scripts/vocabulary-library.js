@@ -17,6 +17,9 @@ class VocabularyLibrary {
       ...this._loadFilters(),
     };
     this._langFilter = null;
+    this._editMode = false;
+    this._editSelection = new Set();
+    this._editWordMap = new Map();
     this._allLangs = new Set();
     this._langNames = {
       en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',
@@ -34,6 +37,7 @@ class VocabularyLibrary {
     this._dictSearchQuery = '';
     this._view = 'grid';
     this._langFilter = null;
+    this._setEditMode(false);
 
     document.getElementById('vocabLibFilterDropdown').style.display = 'none';
 
@@ -70,6 +74,18 @@ class VocabularyLibrary {
 
     document.getElementById('btnVocabLibDeleteAll').addEventListener('click', () => {
       this._handleDeleteAll();
+    });
+
+    document.getElementById('btnVocabLibEdit').addEventListener('click', () => {
+      this._toggleEditMode();
+    });
+
+    document.getElementById('btnVocabLibAccept').addEventListener('click', () => {
+      this._acceptSelection();
+    });
+
+    document.getElementById('btnVocabLibAcceptCancel').addEventListener('click', () => {
+      this._setEditMode(false);
     });
 
     const filterBtn = document.getElementById('btnVocabLibFilter');
@@ -134,6 +150,7 @@ class VocabularyLibrary {
 
   _handleBack() {
     if (this._view === 'dict') {
+      this._setEditMode(false);
       this._view = 'grid';
       this._currentVideoUrl = null;
       this._dictSearchQuery = '';
@@ -405,6 +422,7 @@ class VocabularyLibrary {
   }
 
   _openDictionary(youtubeUrl) {
+    this._setEditMode(false);
     this._view = 'dict';
     this._currentVideoUrl = youtubeUrl;
     this._dictSearchQuery = '';
@@ -464,6 +482,8 @@ class VocabularyLibrary {
     const listEl = document.getElementById('vocabLibDictList');
     const words = this._getWordsForVideo(this._currentVideoUrl);
 
+    this._rebuildEditWordMap();
+
     if (words.length === 0) {
       listEl.innerHTML = `
         <div class="vocablib-dict-empty">
@@ -477,6 +497,10 @@ class VocabularyLibrary {
 
     listEl.innerHTML = words
       .map((w) => {
+        if (this._editMode) {
+          return this._renderEditWord(w);
+        }
+
         const date = f.date ? `<span class="vocablib-word-date">${new Date(w.timestamp).toLocaleDateString()}</span>` : '';
         const time = f.timestamp && w.videoTimestamp ? `<span class="vocablib-word-timestamp" title="Video timestamp">${this._fmtTime(w.videoTimestamp)}</span>` : '';
         const context = f.context && w.context
@@ -539,7 +563,207 @@ class VocabularyLibrary {
       });
     });
 
+    listEl.querySelectorAll('.vocablib-edit-chip[data-word]').forEach((chip) => {
+      chip.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._toggleChipSelection(chip.dataset.word, chip);
+      });
+    });
+
+    listEl.querySelectorAll('.vocablib-edit-parent[data-parent]').forEach((btn) => {
+      const key = btn.dataset.parent.toLowerCase();
+      const selected = this._editSelection.has(key);
+      btn.classList.toggle('selected', selected);
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this._toggleChipSelection(btn.dataset.parent, btn);
+      });
+    });
+
     this._preloadTTS(words);
+  }
+
+  _renderEditWord(w) {
+    const hasContext = !!(w.context && w.context.trim());
+    const contextHtml = hasContext
+      ? `<div class="vocablib-word-context vocablib-edit-context">${this._renderChips(w.context)}</div>`
+      : '<div class="vocablib-edit-no-context">No context sentence for this word.</div>';
+
+    return `
+      <div class="vocablib-word vocablib-word-edit" data-id="${w.id}">
+        <div class="vocablib-word-main">
+          <button class="vocablib-edit-parent" data-parent="${this._esc(w.word)}" title="Click to select this word">
+            ${this._esc(w.word)}
+          </button>
+        </div>
+        ${contextHtml}
+      </div>
+    `;
+  }
+
+  _renderChips(context) {
+    const chips = this._tokenizeContext(context);
+    return chips.map((token) => {
+      const key = token.toLowerCase();
+      if (!this._editWordMap.has(key) || this._isParentWord(key)) {
+        return `<span class="vocablib-edit-nonword">${this._esc(token)}</span>`;
+      }
+      const selected = this._editSelection.has(key);
+      return `<button class="vocablib-edit-chip${selected ? ' selected' : ''}" data-word="${this._esc(token)}" title="Click to select">${this._esc(token)}</button>`;
+    }).join(' ');
+  }
+
+  _tokenizeContext(context) {
+    return String(context).split(/(\s+)/).filter((t) => t.trim().length > 0);
+  }
+
+  _rebuildEditWordMap() {
+    this._editWordMap.clear();
+    const seen = new Set();
+    const words = this._entries.filter(
+      (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl
+    );
+    for (const w of words) {
+      const key = w.word.toLowerCase();
+      if (!this._editWordMap.has(key)) {
+        this._editWordMap.set(key, w);
+      }
+      if (w.context && !seen.has(w.context)) {
+        seen.add(w.context);
+      }
+    }
+  }
+
+  _isParentWord(key) {
+    return false;
+  }
+
+  _toggleChipSelection(word, chipEl) {
+    const key = word.toLowerCase();
+    if (this._editSelection.has(key)) {
+      this._editSelection.delete(key);
+      chipEl.classList.remove('selected');
+    } else {
+      this._editSelection.add(key);
+      chipEl.classList.add('selected');
+    }
+    this._updateAcceptCount();
+  }
+
+  _updateAcceptCount() {
+    const countEl = document.getElementById('vocabLibAcceptCount');
+    if (countEl) countEl.textContent = this._editSelection.size ? `(${this._editSelection.size})` : '';
+  }
+
+  _setEditMode(on) {
+    this._editMode = on;
+    if (!on) {
+      this._editSelection.clear();
+    }
+    const acceptBar = document.getElementById('vocabLibAcceptBar');
+    const editBtn = document.getElementById('btnVocabLibEdit');
+    const feedback = document.getElementById('vocabLibAcceptFeedback');
+    if (acceptBar) acceptBar.style.display = on ? 'flex' : 'none';
+    if (editBtn) editBtn.classList.toggle('active', on);
+    if (feedback) feedback.textContent = '';
+    this._updateAcceptCount();
+    if (this._view === 'dict' && this._currentVideoUrl) {
+      this._renderDictList();
+    }
+  }
+
+  _toggleEditMode() {
+    this._setEditMode(!this._editMode);
+  }
+
+  async _acceptSelection() {
+    const keys = Array.from(this._editSelection);
+    if (keys.length === 0) return;
+
+    const feedback = document.getElementById('vocabLibAcceptFeedback');
+    const acceptBar = document.getElementById('vocabLibAcceptBar');
+
+    let saved = 0;
+    let skipped = 0;
+
+    const firstLang = (app._getActiveLangs && app._getActiveLangs()[0]) || this._primaryTargetLang() || 'hy';
+
+    for (const key of keys) {
+      const parent = this._entries.find(
+        (e) => e.sourceType === 'youtube' && e.youtubeUrl === this._currentVideoUrl && e.word.toLowerCase() === key
+      );
+
+      let parentWord = parent;
+      if (!parentWord) {
+        for (const [k, w] of this._editWordMap) {
+          if (k === key) { parentWord = w; break; }
+        }
+      }
+
+      const sourceUrl = parentWord ? parentWord.youtubeUrl : this._currentVideoUrl;
+      const videoTimestamp = parentWord ? (parentWord.videoTimestamp || 0) : 0;
+
+      try {
+        const langs = (app._getActiveLangs ? app._getActiveLangs() : [firstLang]);
+        const result = await window.electronAPI.translateWord(key, 'en', langs, 2);
+        const data = result || {};
+        const t1 = langs[0] || '';
+        const t2 = langs[1] || '';
+        const firstVal = data[t1];
+        const secondVal = data[t2];
+
+        const entry = {
+          id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+          word: key,
+          translation: Array.isArray(firstVal) ? firstVal[0] || '' : firstVal || '',
+          russian: Array.isArray(secondVal) ? secondVal[0] || '' : secondVal || '',
+          transliteration: '',
+          translationLang: t1,
+          russianLang: t2,
+          context: parentWord ? parentWord.context : '',
+          sourceType: 'youtube',
+          sourceTitle: parentWord ? parentWord.sourceTitle || '' : '',
+          sourceId: parentWord ? parentWord.sourceId || '' : '',
+          youtubeUrl: sourceUrl,
+          thumbnailUrl: parentWord ? parentWord.thumbnailUrl || '' : '',
+          videoTimestamp: videoTimestamp,
+          timestamp: Date.now(),
+        };
+
+        const addResult = await window.electronAPI.dictionaryAdd(entry);
+        if (addResult && addResult.success) {
+          saved++;
+        } else if (addResult && addResult.reason === 'exists') {
+          skipped++;
+        } else {
+          skipped++;
+        }
+      } catch (e) {
+        skipped++;
+        console.error('Failed to save word in edit mode:', e);
+      }
+    }
+
+    appStore.invalidateSavedWordsCache();
+    this._entries = await appStore.loadSavedWords();
+
+    if (feedback) {
+      feedback.textContent = `Saved ${saved}, skipped ${skipped} already saved.`;
+      setTimeout(() => { if (feedback) feedback.textContent = ''; }, 4000);
+    }
+
+    this._setEditMode(false);
+  }
+
+  _primaryTargetLang() {
+    try {
+      const saved = localStorage.getItem('yt-lang-prefs');
+      if (saved) {
+        const p = JSON.parse(saved);
+        return p.to1 || 'hy';
+      }
+    } catch (e) {}
+    return 'hy';
   }
 
   _speak(text, lang) {
