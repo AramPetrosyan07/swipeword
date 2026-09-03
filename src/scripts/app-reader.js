@@ -1,6 +1,15 @@
 __appMixinReader = {};
+__appMixinReader['_setReadSidebarCompact'] = function(compact) {
+  const ids = ['sidePdfLast', 'sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned', 'sideWords'];
+  ids.forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = compact ? 'none' : '';
+  });
+};
+
 __appMixinReader['_openReadPage'] = function(mode) {
   this._readCurrentPage = mode;
+  this._setReadSidebarCompact(false);
   document.getElementById('readHome').style.display = 'none';
   document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
   const pageEl = document.getElementById('read-page-' + mode);
@@ -46,6 +55,7 @@ __appMixinReader['_backToReadHome'] = function() {
   if (this._pdfSaveScrollTimer) clearTimeout(this._pdfSaveScrollTimer);
   this._pdfSaveScroll();
   this._resetReadPage();
+  this._setReadSidebarCompact(true);
   this._deactivatePdfRail();
   document.getElementById('readHome').style.display = '';
   document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
