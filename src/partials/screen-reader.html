@@ -164,6 +164,15 @@
         <div class="textpractice-page">
           <h2 class="tp-title" id="tpTitle">Text Practice</h2>
           <div class="tp-story-list" id="tpStoryList"></div>
+          <div class="tp-custom-form" id="tpCustomForm" style="display:none;">
+            <h3 class="tp-custom-heading">Add Custom Story</h3>
+            <input type="text" class="tp-custom-title" placeholder="Story title (optional)" maxlength="200" />
+            <textarea class="tp-custom-text" placeholder="Paste or type your story text here..." rows="12"></textarea>
+            <div class="tp-custom-actions">
+              <button class="btn btn-primary" id="btnTpCustomSubmit">Start &#9654;</button>
+              <button class="btn btn-secondary" id="btnTpCustomCancel">&#8592; Cancel</button>
+            </div>
+          </div>
           <div class="tp-read-view" id="tpReadView" style="display:none;">
             <div class="tp-read-header">
               <div class="tp-read-text" id="tpReadText"></div>
@@ -193,6 +202,11 @@
                 <button class="btn btn-primary" id="btnTpRepeat">Repeat</button>
                 <button class="btn btn-primary" id="btnTpNext">Next &#9654;</button>
                 <button class="btn btn-secondary" id="btnTpBackToList">&#8592; Stories</button>
+              </div>
+              <div class="tp-complete-msg" id="tpCompleteMsg" style="display:none;">
+                <div class="tp-complete-icon">&#127881;</div>
+                <div class="tp-complete-text">Story completed!</div>
+                <button class="btn btn-primary" id="btnTpBackToList2">&#8592; Back to Stories</button>
               </div>
             </div>
           </div>

@@ -5861,3 +5861,100 @@ body.theme-dark .pdf-scroll-canvas {
   display: flex;
   flex-direction: column;
 }
+
+/* Add custom story card */
+.tp-add-card {
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+}
+
+.tp-add-card-inner {
+  text-align: center;
+}
+
+.tp-add-icon {
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.tp-add-label {
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+/* Custom story form */
+.tp-custom-form {
+  margin-top: 16px;
+}
+
+.tp-custom-heading {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.tp-custom-title {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tp-custom-title:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.tp-custom-text {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 200px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.tp-custom-text:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.tp-custom-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* Completion message */
+.tp-complete-msg {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.tp-complete-icon {
+  font-size: 40px;
+}
+
+.tp-complete-text {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 8px 0 16px;
+  color: var(--success);
+}

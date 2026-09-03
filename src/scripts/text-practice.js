@@ -492,6 +492,7 @@ class TextPractice {
     this._listEl = document.getElementById('tpStoryList');
     this._readEl = document.getElementById('tpReadView');
     this._practiceEl = document.getElementById('tpPracticeView');
+    this._customForm = document.getElementById('tpCustomForm');
     if (!this._listEl) return;
 
     this._bound = true;
@@ -500,6 +501,9 @@ class TextPractice {
     document.getElementById('btnTpRepeat').addEventListener('click', () => this._repeatChunk());
     document.getElementById('btnTpNext').addEventListener('click', () => this._nextChunk());
     document.getElementById('btnTpBackToList').addEventListener('click', () => this._showList());
+    document.getElementById('btnTpBackToList2').addEventListener('click', () => this._showList());
+    document.getElementById('btnTpCustomSubmit').addEventListener('click', () => this._submitCustomStory());
+    document.getElementById('btnTpCustomCancel').addEventListener('click', () => this._cancelCustomForm());
 
     this._bindBankDrop();
   }
@@ -517,6 +521,7 @@ class TextPractice {
     this._practiceEl.style.display = 'none';
     document.getElementById('tpResult').style.display = 'none';
     document.getElementById('tpDoneBar').style.display = 'none';
+    this._setDisplay('tpCompleteMsg', 'none');
 
     this._listEl.innerHTML = '';
     TP_STORIES.forEach((story) => {
@@ -528,6 +533,45 @@ class TextPractice {
       card.addEventListener('click', () => this._openStory(story));
       this._listEl.appendChild(card);
     });
+
+    const addCard = document.createElement('div');
+    addCard.className = 'tp-story-card tp-add-card';
+    addCard.innerHTML =
+      '<div class="tp-add-card-inner">' +
+        '<div class="tp-add-icon">+</div>' +
+        '<div class="tp-add-label">Add Custom Story</div>' +
+      '</div>';
+    addCard.addEventListener('click', () => this._showCustomForm());
+    this._listEl.appendChild(addCard);
+
+    this._customForm.style.display = 'none';
+  }
+
+  _showCustomForm() {
+    this._listEl.style.display = 'none';
+    this._customForm.style.display = '';
+    this._customForm.querySelector('.tp-custom-title').value = '';
+    this._customForm.querySelector('.tp-custom-text').value = '';
+    this._customForm.querySelector('.tp-custom-text').focus();
+  }
+
+  _submitCustomStory() {
+    const titleInput = this._customForm.querySelector('.tp-custom-title');
+    const textInput = this._customForm.querySelector('.tp-custom-text');
+    const title = titleInput.value.trim() || 'Custom Story';
+    const raw = textInput.value.trim();
+    if (!raw) return;
+
+    const lines = raw.split(/\r?\n/).filter((l) => l.trim().length > 0);
+    if (lines.length === 0) return;
+
+    const story = { id: 'custom-' + Date.now(), title: title, author: 'Custom', lines: lines };
+    this._openStory(story);
+  }
+
+  _cancelCustomForm() {
+    this._customForm.style.display = 'none';
+    this._listEl.style.display = '';
   }
 
   _openStory(story) {
@@ -545,6 +589,7 @@ class TextPractice {
     this._practiceEl.style.display = 'none';
     document.getElementById('tpResult').style.display = 'none';
     document.getElementById('tpDoneBar').style.display = 'none';
+    this._setDisplay('tpCompleteMsg', 'none');
 
     const readTextEl = document.getElementById('tpReadText');
     readTextEl.innerHTML = '';
@@ -564,9 +609,13 @@ class TextPractice {
     this._readEl.style.display = 'none';
     this._practiceEl.style.display = '';
     document.getElementById('tpResult').style.display = 'none';
+    document.getElementById('tpDoneBar').style.display = 'none';
+    this._setDisplay('tpCompleteMsg', 'none');
     this._loadChunk();
     this._practiceEl.scrollIntoView({ block: 'start' });
-    this._practiceEl.parentElement.scrollTop = 0;
+    if (this._practiceEl.parentElement) {
+      this._practiceEl.parentElement.scrollTop = 0;
+    }
   }
 
   _loadChunk() {
@@ -575,6 +624,7 @@ class TextPractice {
     this._selectedChip = null;
     document.getElementById('tpResult').style.display = 'none';
     document.getElementById('tpDoneBar').style.display = 'none';
+    this._setDisplay('tpCompleteMsg', 'none');
 
     const start = this._chunkIndex * this._chunkSize;
     const end = Math.min(start + this._chunkSize, this._lines.length);
@@ -594,11 +644,11 @@ class TextPractice {
     this._currentChunk.forEach((line) => {
       const words = line.split(/\s+/).filter((w) => w.length > 0);
       const slotLine = [];
-      const blankIdx = words.length > 1 ? Math.floor(Math.random() * words.length) : -1;
+      const blankIdx = words.length > 0 ? Math.floor(Math.random() * words.length) : -1;
       words.forEach((w, wi) => {
         if (wi === blankIdx) {
           this._words.push({ id: wordId, text: w });
-          slotLine.push({ blank: true, wordId: wordId });
+          slotLine.push({ blank: true, wordId: wordId, text: w });
           wordId++;
         } else {
           slotLine.push({ blank: false, text: w });
@@ -626,9 +676,11 @@ class TextPractice {
           const slot = document.createElement('span');
           slot.className = 'tp-slot';
           slot.dataset.slot = gapIndex++;
-          slot.style.minWidth = Math.max(3.5, seg.text.length * 0.68) + 'em';
+          const wordText = seg.text || (this._words[seg.wordId] ? this._words[seg.wordId].text : '');
+          slot.style.minWidth = Math.max(3.5, (wordText ? wordText.length : 4) * 0.68) + 'em';
           this._bindSlot(slot);
           lineEl.appendChild(slot);
+          lineEl.appendChild(document.createTextNode(' '));
         } else {
           lineEl.appendChild(document.createTextNode(seg.text + ' '));
         }
@@ -651,7 +703,7 @@ class TextPractice {
     });
 
     const total = this._words.length;
-    const pct = Math.round((correct / total) * 100);
+    const pct = total > 0 ? Math.round((correct / total) * 100) : 100;
     document.getElementById('tpResultScore').textContent = correct + ' / ' + total;
     document.getElementById('tpResultCorrect').textContent = correct;
     document.getElementById('tpResultWrong').textContent = total - correct;
@@ -661,6 +713,7 @@ class TextPractice {
 
     const hasMore = (this._chunkIndex + 1) * this._chunkSize < this._lines.length;
     document.getElementById('btnTpNext').style.display = hasMore ? '' : 'none';
+    if (!hasMore) this._setDisplay('tpCompleteMsg', '');
   }
 
   _repeatChunk() {
@@ -800,9 +853,22 @@ class TextPractice {
     const emptyChipNote = document.getElementById('tpBankEmpty');
     if (emptyChipNote) emptyChipNote.style.display = this._bankOrder.length === 0 ? '' : 'none';
 
-    const allFilled = this._placed.every((w) => w !== null);
+    const allFilled = this._placed.length > 0 && this._placed.every((w) => w !== null);
     document.getElementById('tpDoneBar').style.display =
       !this._evaluated && allFilled ? '' : 'none';
+  }
+
+  _el(id) {
+    const el = document.getElementById(id);
+    if (!el) {
+      throw new Error('TextPractice: missing element #' + id);
+    }
+    return el;
+  }
+
+  _setDisplay(id, value) {
+    const el = document.getElementById(id);
+    if (el) el.style.display = value;
   }
 
   _shuffle(arr) {
