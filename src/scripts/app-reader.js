@@ -353,8 +353,16 @@ __appMixinReader['_saveCurrentPdfFile'] = async function() {
     }
 
     const modifiedBytes = await readerMode.exportAnnotatedPdf(rawBuffer);
-    const defaultName = (tab.name || 'document') + '_annotated.pdf';
-    const result = await window.electronAPI.savePdf(modifiedBytes, defaultName);
+
+    let result;
+    if (tab.path && window.electronAPI.writeFile) {
+      // Overwrite the existing open file directly
+      result = await window.electronAPI.writeFile(tab.path, modifiedBytes);
+    } else {
+      // If opened via file input without absolute path
+      const defaultName = (tab.name || 'document') + '.pdf';
+      result = await window.electronAPI.savePdf(modifiedBytes, defaultName);
+    }
 
     if (saveBtn) {
       saveBtn.disabled = false;
@@ -362,7 +370,7 @@ __appMixinReader['_saveCurrentPdfFile'] = async function() {
     }
 
     if (result && result.success) {
-      this._showSaveToast('PDF successfully saved with annotations!', 'success');
+      this._showSaveToast('Saved changes directly to PDF file!', 'success');
     } else if (result && !result.canceled) {
       this._showSaveToast(result.error || 'Failed to save PDF', 'error');
     }

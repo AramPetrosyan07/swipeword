@@ -406,8 +406,8 @@ class ReaderMode {
 
   async exportAnnotatedPdf(rawBuffer) {
     await window._ensurePdfLib();
-    const { PDFDocument, rgb, degrees } = window.PDFLib;
-    const pdfDoc = await PDFDocument.load(rawBuffer);
+    const { PDFDocument, rgb } = window.PDFLib;
+    const pdfDoc = await PDFDocument.load(rawBuffer, { ignoreEncryption: true });
     const docKey = this._getActiveDocKey();
     if (!docKey || typeof appStore === 'undefined') {
       return await pdfDoc.save();
@@ -417,72 +417,120 @@ class ReaderMode {
 
     for (let pNum = 1; pNum <= totalPages; pNum++) {
       const pageIndex = pNum - 1;
-      const page = pdfDoc.getPage(pageIndex);
-      const { width: pWidth, height: pHeight } = page.getSize();
-      
-      // Get rendered slot or viewport info
-      const jsPage = this.pdfDoc ? await this.pdfDoc.getPage(pNum) : null;
-      if (!jsPage) continue;
-      const vp = jsPage.getViewport({ scale: 1 });
-      const scaleX = pWidth / vp.width;
-      const scaleY = pHeight / vp.height;
-
-      // Find all annotations on this page
       const prefix = `${pNum}_`;
       const pageAnnotKeys = Object.keys(annots).filter(k => k.startsWith(prefix));
       if (!pageAnnotKeys.length) continue;
 
-      // Find words in DOM or construct their coordinates
+      const page = pdfDoc.getPage(pageIndex);
+      const { width: pWidth, height: pHeight } = page.getSize();
+      
+      const jsPage = this.pdfDoc ? await this.pdfDoc.getPage(pNum) : null;
+      if (!jsPage) continue;
+      const vp = jsPage.getViewport({ scale: this.scale || 1 });
+      const scaleX = pWidth / vp.width;
+      const scaleY = pHeight / vp.height;
+
       const slot = this.slots[pageIndex];
-      if (!slot) continue;
-      const wordEls = slot.querySelectorAll('.rw-word');
+      let layer = slot ? slot.querySelector('.pdf-scroll-layer') : null;
+
+      // If page was offscreen/unrendered, render text layer temporarily
+      let tempLayer = null;
+      if (!layer || !layer.querySelector('.rw-word')) {
+        tempLayer = document.createElement('div');
+        tempLayer.className = 'pdf-scroll-layer';
+        tempLayer.style.position = 'absolute';
+        tempLayer.style.left = '0';
+        tempLayer.style.top = '0';
+        tempLayer.style.visibility = 'hidden';
+        tempLayer.style.width = vp.width + 'px';
+        tempLayer.style.height = vp.height + 'px';
+        tempLayer.style.setProperty('--scale-factor', this.scale || 1);
+        document.body.appendChild(tempLayer);
+        const content = await jsPage.getTextContent();
+        if (content && content.items && content.items.length > 0) {
+          const task = pdfjsLib.renderTextLayer({
+            textContentSource: content,
+            container: tempLayer,
+            viewport: vp,
+          });
+          await task.promise;
+          this._splitTextIntoWordsFromItems(tempLayer, content.items, pNum);
+          layer = tempLayer;
+        }
+      }
+
+      if (!layer) continue;
+      const wordEls = layer.querySelectorAll('.rw-word');
       
       wordEls.forEach(w => {
         const widx = w.dataset.widx;
         const a = annots[`${pNum}_${widx}`];
         if (!a) return;
 
-        const leftPx = parseFloat(w.style.left) || 0;
-        const topPx = parseFloat(w.style.top) || 0;
+        // Position of word inside span[role="presentation"]
+        const wordLeft = parseFloat(w.style.left) || 0;
+        const wordTop = parseFloat(w.style.top) || 0;
         const widthPx = parseFloat(w.style.width) || (parseFloat(w.offsetWidth) || 0);
         const heightPx = parseFloat(w.style.height) || (parseFloat(w.offsetHeight) || 0);
 
-        // Convert current CSS scale to PDF coordinate system (origin is bottom-left in PDF-lib)
-        const unscaledLeft = leftPx / this.scale;
-        const unscaledTop = topPx / this.scale;
-        const unscaledWidth = widthPx / this.scale;
-        const unscaledHeight = heightPx / this.scale;
+        // Position of the presentation span inside the page layer
+        const parentSpan = w.closest('span[role="presentation"]');
+        let parentLeft = 0;
+        let parentTop = 0;
 
-        const pdfX = unscaledLeft * scaleX;
-        const pdfY = pHeight - ((unscaledTop + unscaledHeight) * scaleY);
-        const pdfW = unscaledWidth * scaleX;
-        const pdfH = unscaledHeight * scaleY;
+        if (parentSpan) {
+          if (parentSpan.style.left) parentLeft = parseFloat(parentSpan.style.left) || 0;
+          else parentLeft = parentSpan.offsetLeft || 0;
+
+          if (parentSpan.style.top) parentTop = parseFloat(parentSpan.style.top) || 0;
+          else parentTop = parentSpan.offsetTop || 0;
+        }
+
+        const totalLeftPx = parentLeft + wordLeft;
+        const totalTopPx = parentTop + wordTop;
+
+        const pdfX = totalLeftPx * scaleX;
+        const pdfY = pHeight - ((totalTopPx + heightPx) * scaleY);
+        const pdfW = widthPx * scaleX;
+        const pdfH = heightPx * scaleY;
 
         // Draw highlight rectangle
         if (a.color) {
           const c = this._parseRgb01(a.color);
-          page.drawRectangle({
-            x: pdfX,
-            y: pdfY,
-            width: pdfW,
-            height: pdfH,
-            color: rgb(c.r, c.g, c.b),
-            opacity: 0.4,
-          });
+          try {
+            page.drawRectangle({
+              x: Math.max(0, pdfX),
+              y: Math.max(0, pdfY),
+              width: Math.min(pWidth, pdfW),
+              height: Math.min(pHeight, pdfH),
+              color: rgb(c.r, c.g, c.b),
+              opacity: 0.4,
+            });
+          } catch (err) {
+            console.warn('Could not draw rectangle annotation:', err);
+          }
         }
 
         // Draw underline
         if (a.underline) {
           const uc = this._parseRgb01(a.underlineColor || '#2196f3');
-          page.drawLine({
-            start: { x: pdfX, y: pdfY },
-            end: { x: pdfX + pdfW, y: pdfY },
-            thickness: 1.5,
-            color: rgb(uc.r, uc.g, uc.b),
-            opacity: 0.85,
-          });
+          try {
+            page.drawLine({
+              start: { x: Math.max(0, pdfX), y: Math.max(0, pdfY) },
+              end: { x: Math.min(pWidth, pdfX + pdfW), y: Math.max(0, pdfY) },
+              thickness: 1.5,
+              color: rgb(uc.r, uc.g, uc.b),
+              opacity: 0.85,
+            });
+          } catch (err) {
+            console.warn('Could not draw line annotation:', err);
+          }
         }
       });
+
+      if (tempLayer && tempLayer.parentNode) {
+        tempLayer.parentNode.removeChild(tempLayer);
+      }
     }
 
     return await pdfDoc.save();
