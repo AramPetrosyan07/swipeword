@@ -514,7 +514,6 @@ try {
 } catch (_) {
   // fallback: keep "edge-tts" and hope it's in PATH
 }
-console.log("edge-tts path:", _edgeTTSPath);
 
 // 4 voice personas per language: [Male1, Male2, Female1, Female2].
 // null slots fall back to the English multilingual pool below (these pronounce
@@ -585,52 +584,64 @@ async function _edgeTTS(text, lang, voiceIndex) {
   if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
   if (_ttsPending.has(cacheKey)) return _ttsPending.get(cacheKey);
 
-  const promise = new Promise((resolve, reject) => {
-    const chunks = [];
-    // Write with UTF-8 BOM so Python (edge-tts) auto-detects UTF-8 on Windows
-    // (Without BOM, Python defaults to cp1252 which breaks Armenian/Russian text)
-    const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}.txt`);
-    fs.writeFileSync(tmpFile, "\ufeff" + text, "utf-8");
-    const child = spawn(_edgeTTSPath, ["-f", tmpFile, "--voice", voice, "--write-media", "-"], { shell: true });
-    child.stdout.on("data", (chunk) => chunks.push(chunk));
-    const stderrChunks = [];
-    child.stderr.on("data", (chunk) => stderrChunks.push(chunk));
-    child.on("error", (err) => {
-      try { fs.unlinkSync(tmpFile); } catch {}
-      reject(new Error(`edge-tts spawn failed: ${err.message}`));
-    });
-    child.on("close", (code) => {
-      try { fs.unlinkSync(tmpFile); } catch {}
-      if (code !== 0) {
-        const stderrMsg = Buffer.concat(stderrChunks).toString("utf-8").trim();
-        reject(new Error(`edge-tts exited with code ${code}: ${stderrMsg || "(no stderr)"}`));
-        return;
-      }
-      const buffer = Buffer.concat(chunks);
-      if (buffer.length < 100) {
-        reject(new Error("No audio data received from edge-tts"));
-        return;
-      }
-      const base64 = buffer.toString("base64");
-      _ttsCache.set(cacheKey, base64);
-      resolve(base64);
-    });
-  });
-
-  _ttsPending.set(cacheKey, promise);
-  try {
-    return await promise;
-  } finally {
-    _ttsPending.delete(cacheKey);
+  const trimmed = (text || "").trim();
+  if (!trimmed) {
+    throw new Error("TTS called with empty text");
   }
-}
 
+  const MAX_RETRIES = 2;
+
+  async function attempt(attemptNum) {
+    const promise = new Promise((resolve, reject) => {
+      const chunks = [];
+      const tmpFile = path.join(app.getPath("temp"), `swipeword-tts-${Date.now()}-${attemptNum}.txt`);
+      fs.writeFileSync(tmpFile, "\ufeff" + trimmed, "utf-8");
+      const child = spawn(_edgeTTSPath, ["-f", tmpFile, "--voice", voice, "--write-media", "-"]);
+      child.stdout.on("data", (chunk) => chunks.push(chunk));
+      const stderrChunks = [];
+      child.stderr.on("data", (chunk) => stderrChunks.push(chunk));
+      child.on("error", (err) => {
+        try { fs.unlinkSync(tmpFile); } catch {}
+        reject(new Error(`edge-tts spawn failed: ${err.message}`));
+      });
+      child.on("close", (code) => {
+        try { fs.unlinkSync(tmpFile); } catch {}
+        if (code !== 0) {
+          const stderrMsg = Buffer.concat(stderrChunks).toString("utf-8").trim();
+          reject(new Error(`edge-tts exited with code ${code}: ${stderrMsg || "(no stderr)"}`));
+          return;
+        }
+        const buffer = Buffer.concat(chunks);
+        if (buffer.length < 100) {
+          reject(new Error("No audio data received from edge-tts"));
+          return;
+        }
+        resolve(buffer.toString("base64"));
+      });
+    });
+    return promise;
+  }
+
+  let lastErr;
+  for (let i = 0; i <= MAX_RETRIES; i++) {
+    try {
+      const result = await attempt(i);
+      _ttsCache.set(cacheKey, result);
+      return result;
+    } catch (e) {
+      lastErr = e;
+      if (i < MAX_RETRIES) {
+        await new Promise((r) => setTimeout(r, 300 * (i + 1)));
+      }
+    }
+  }
+  throw lastErr;
+}
 ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
   try {
     const audio = await _edgeTTS(text, lang, voice);
     return { success: true, audio };
   } catch (e) {
-    console.error("TTS failed:", e);
     return { success: false, error: e.message };
   }
 });
