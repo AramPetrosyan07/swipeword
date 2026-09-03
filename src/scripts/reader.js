@@ -462,39 +462,26 @@ class ReaderMode {
       if (!layer) continue;
       const wordEls = layer.querySelectorAll('.rw-word');
       
+      const layerRect = layer.getBoundingClientRect();
+
       wordEls.forEach(w => {
         const widx = w.dataset.widx;
         const a = annots[`${pNum}_${widx}`];
         if (!a) return;
 
-        // Position of word inside span[role="presentation"]
-        const wordLeft = parseFloat(w.style.left) || 0;
-        const wordTop = parseFloat(w.style.top) || 0;
-        const widthPx = parseFloat(w.style.width) || (parseFloat(w.offsetWidth) || 0);
-        const heightPx = parseFloat(w.style.height) || (parseFloat(w.offsetHeight) || 0);
+        const wRect = w.getBoundingClientRect();
+        const widthPx = wRect.width || parseFloat(w.style.width) || 0;
+        const heightPx = wRect.height || parseFloat(w.style.height) || 0;
+        if (widthPx <= 0 || heightPx <= 0) return;
 
-        // Position of the presentation span inside the page layer
-        const parentSpan = w.closest('span[role="presentation"]');
-        let parentLeft = 0;
-        let parentTop = 0;
-
-        if (parentSpan) {
-          if (parentSpan.style.left) parentLeft = parseFloat(parentSpan.style.left) || 0;
-          else parentLeft = parentSpan.offsetLeft || 0;
-
-          if (parentSpan.style.top) parentTop = parseFloat(parentSpan.style.top) || 0;
-          else parentTop = parentSpan.offsetTop || 0;
-        }
-
-        const totalLeftPx = parentLeft + wordLeft;
-        const totalTopPx = parentTop + wordTop;
+        const totalLeftPx = wRect.left - layerRect.left;
+        const totalTopPx = wRect.top - layerRect.top;
 
         const pdfX = totalLeftPx * scaleX;
         const pdfY = pHeight - ((totalTopPx + heightPx) * scaleY);
         const pdfW = widthPx * scaleX;
         const pdfH = heightPx * scaleY;
 
-        // Draw highlight rectangle
         if (a.color) {
           const c = this._parseRgb01(a.color);
           try {
@@ -511,13 +498,13 @@ class ReaderMode {
           }
         }
 
-        // Draw underline
         if (a.underline) {
           const uc = this._parseRgb01(a.underlineColor || '#2196f3');
+          const underlineY = Math.max(0, pdfY - 1.5);
           try {
             page.drawLine({
-              start: { x: Math.max(0, pdfX), y: Math.max(0, pdfY) },
-              end: { x: Math.min(pWidth, pdfX + pdfW), y: Math.max(0, pdfY) },
+              start: { x: Math.max(0, pdfX), y: underlineY },
+              end: { x: Math.min(pWidth, pdfX + pdfW), y: underlineY },
               thickness: 1.5,
               color: rgb(uc.r, uc.g, uc.b),
               opacity: 0.85,
