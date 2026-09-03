@@ -158,6 +158,7 @@ class App {
 
     modesManager.init();
     alphabetPage.init();
+    textPractice.setOnBack(() => this._backToReadHome());
     textPractice.open();
 
     this._updateSidebar();

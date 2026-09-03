@@ -5862,6 +5862,12 @@ body.theme-dark .pdf-scroll-canvas {
   flex-direction: column;
 }
 
+.tp-top-bar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+
 /* Add custom story card */
 .tp-add-card {
   border-style: dashed;

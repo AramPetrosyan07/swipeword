@@ -504,8 +504,25 @@ class TextPractice {
     document.getElementById('btnTpBackToList2').addEventListener('click', () => this._showList());
     document.getElementById('btnTpCustomSubmit').addEventListener('click', () => this._submitCustomStory());
     document.getElementById('btnTpCustomCancel').addEventListener('click', () => this._cancelCustomForm());
+    document.getElementById('btnTpBack').addEventListener('click', () => this.goBack());
 
     this._bindBankDrop();
+  }
+
+  setOnBack(cb) {
+    this._onBack = cb;
+  }
+
+  goBack() {
+    if (this._customForm.style.display !== 'none') {
+      this._cancelCustomForm();
+    } else if (this._view === 'practice') {
+      this._showRead();
+    } else if (this._view === 'read') {
+      this._showList();
+    } else {
+      if (typeof this._onBack === 'function') this._onBack();
+    }
   }
 
   open() {
