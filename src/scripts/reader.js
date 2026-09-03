@@ -76,6 +76,11 @@ class ReaderMode {
       layer.className = 'pdf-scroll-layer';
       slot.appendChild(layer);
 
+      const pageBadge = document.createElement('div');
+      pageBadge.className = 'pdf-page-badge';
+      pageBadge.textContent = i + 1;
+      slot.appendChild(pageBadge);
+
       frag.appendChild(slot);
       this.slots.push(slot);
     }
@@ -646,6 +651,10 @@ class ReaderMode {
     if (this.pageNum > 1) {
       this._scrollToPage(this.pageNum - 1);
     }
+  }
+
+  async gotoPage(num) {
+    this._scrollToPage(num);
   }
 
   async nextPage() {

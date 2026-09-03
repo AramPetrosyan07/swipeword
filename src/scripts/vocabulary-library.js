@@ -476,6 +476,14 @@ class VocabularyLibrary {
     }
   }
 
+  _openBookAtPage(title, page) {
+    if (!title) return;
+    this._openBook(title);
+    if (page && readerMode && typeof readerMode.gotoPage === 'function') {
+      setTimeout(() => readerMode.gotoPage(page), 1200);
+    }
+  }
+
   _openVideoPlayer(youtubeUrl) {
     const meta = this._videoMeta[youtubeUrl] || {};
     const position = meta.lastPosition || 0;
@@ -610,11 +618,17 @@ class VocabularyLibrary {
         const hasTranslations = armenian || russian;
         const isCompact = !context && !time && !date;
 
+        const hasPage = w.sourceType === 'pdf';
+        const pageBtn = hasPage && w.page
+          ? `<button class="vocablib-word-page" data-page="${w.page}" data-book="${this._esc(w.sourceTitle || '')}" title="Go to page ${w.page}" aria-label="Go to page ${w.page}">p. ${w.page}</button>`
+          : '';
+
         const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word" aria-label="Delete word">&times;</button>`;
 
         return `
           <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
             ${deleteBtn}
+            ${pageBtn}
             <div class="vocablib-word-main">
               <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
               ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
@@ -635,6 +649,15 @@ class VocabularyLibrary {
       btn.addEventListener('click', async (e) => {
         e.stopPropagation();
         await this._deleteWord(btn.dataset.id);
+      });
+    });
+
+    listEl.querySelectorAll('.vocablib-word-page').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const page = parseInt(btn.dataset.page, 10);
+        const title = btn.dataset.book;
+        this._openBookAtPage(title, page);
       });
     });
 
@@ -807,6 +830,7 @@ class VocabularyLibrary {
           sourceType: isPdf ? 'pdf' : 'youtube',
           sourceTitle: parentWord ? parentWord.sourceTitle || '' : '',
           sourceId: parentWord ? parentWord.sourceId || '' : '',
+          page: parentWord ? (parentWord.page || null) : null,
           youtubeUrl: isPdf ? '' : sourceUrl,
           thumbnailUrl: parentWord ? parentWord.thumbnailUrl || '' : '',
           videoTimestamp: videoTimestamp,

@@ -179,6 +179,19 @@ class TranslationPopup {
     return null;
   }
 
+  _resolvePdfPage(targetEl, words) {
+    if (!this._currentSource || this._currentSource.type !== 'pdf') return null;
+    const list = Array.isArray(words) && words.length > 0 ? words : (targetEl ? [targetEl] : []);
+    for (const el of list) {
+      const p = parseInt(el && el.dataset ? el.dataset.page : '', 10);
+      if (!isNaN(p) && p > 0) return p;
+    }
+    if (typeof readerMode !== 'undefined' && readerMode.pageNum) {
+      return readerMode.pageNum;
+    }
+    return null;
+  }
+
   _applyAnnotation(changes) {
     if (!this._targetWords || this._targetWords.length === 0) return;
     const docKey = this._getDocKey();
@@ -475,6 +488,7 @@ class TranslationPopup {
     this._currentWord = word;
     this._currentContext = context;
     this._currentSource = sourceInfo || {};
+    this._pdfPage = this._resolvePdfPage(targetEl, words);
     this._currentTimestamp = 0;
     this._pdfAnchorRect = null;
     this._targetWords = Array.isArray(words) && words.length > 0 ? words : (targetEl ? [targetEl] : []);
@@ -647,6 +661,7 @@ class TranslationPopup {
       sourceType: this._currentSource.type || 'text',
       sourceTitle: this._currentSource.title || '',
       sourceId: this._currentSource.id || '',
+      page: this._pdfPage || null,
       youtubeUrl: this._currentSource.youtubeUrl || '',
       thumbnailUrl: thumbnailUrl,
       videoTimestamp: videoTimestamp,

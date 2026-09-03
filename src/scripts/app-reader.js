@@ -457,10 +457,14 @@ __appMixinReader['_translationSidebarRender'] = function() {
   }
   listEl.innerHTML = words.map((w) => {
     const trans = w.translation || '';
+    const pageHtml = w.sourceType === 'pdf' && w.page
+      ? '<span class="translation-sidebar-page" title="Saved on page ' + this._escapeHtml(w.page) + '">p. ' + this._escapeHtml(w.page) + '</span>'
+      : '';
     return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '">' +
       '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
       (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
       '<button class="translation-sidebar-delete" title="Remove">&#10007;</button>' +
+      pageHtml +
       '</div>';
   }).join('');
 
