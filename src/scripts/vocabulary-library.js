@@ -588,7 +588,7 @@ class VocabularyLibrary {
     const f = this._filters;
 
     listEl.innerHTML = words
-      .map((w) => {
+      .map((w, i) => {
         if (this._editMode) {
           return this._renderEditWord(w);
         }
@@ -627,8 +627,11 @@ class VocabularyLibrary {
 
         return `
           <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
+            <div class="vocablib-word-corner">
+              <span class="vocablib-word-number">${i + 1}</span>
+              ${pageBtn}
+            </div>
             ${deleteBtn}
-            ${pageBtn}
             <div class="vocablib-word-main">
               <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
               ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}

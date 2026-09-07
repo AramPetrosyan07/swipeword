@@ -105,6 +105,10 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   document.getElementById('pdfNextPage').addEventListener('click', () => {
     readerMode.nextPage();
   });
+  document.getElementById('pdfPageSlider').addEventListener('input', (e) => {
+    const num = parseInt(e.target.value, 10) || 1;
+    readerMode.gotoPage(num);
+  });
   document.getElementById('pdfZoomIn5').addEventListener('click', () => {
     readerMode.zoomIn5();
   });

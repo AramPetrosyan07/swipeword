@@ -3672,6 +3672,49 @@ body.theme-dark .pdf-scroll-canvas {
   text-align: center;
 }
 
+.pdf-page-slider {
+  flex: 1;
+  min-width: 80px;
+  max-width: 320px;
+  height: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pdf-page-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  border-radius: 2px;
+  background: var(--border);
+}
+
+.pdf-page-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+.pdf-page-slider::-moz-range-track {
+  height: 2px;
+  border-radius: 2px;
+  background: var(--border);
+}
+
+.pdf-page-slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+  cursor: pointer;
+}
+
 .pdf-zoom-info {
   font-size: 12px;
   color: var(--text-secondary);
@@ -5323,12 +5366,13 @@ body.theme-dark .pdf-scroll-canvas {
   display: flex;
   align-items: baseline;
   gap: 10px;
-  padding-right: 28px;
+  padding-right: 110px;
 }
 
 .vocablib-word-compact .vocablib-word-main {
   margin-bottom: 0;
   gap: 6px;
+  padding-right: 96px;
 }
 
 .vocablib-word-en {
@@ -5422,6 +5466,28 @@ body.theme-dark .pdf-scroll-canvas {
   justify-content: space-between;
 }
 
+.vocablib-word-corner {
+  position: absolute;
+  top: 6px;
+  right: 34px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vocablib-word-number {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+  opacity: 0.7;
+}
+
+.vocablib-word:hover .vocablib-word-number {
+  opacity: 1;
+}
+
 .vocablib-word-delete {
   position: absolute;
   top: 6px;
@@ -5470,6 +5536,11 @@ body.theme-dark .pdf-scroll-canvas {
 
 .vocablib-word:hover .vocablib-word-page {
   opacity: 1;
+}
+
+.vocablib-word-corner .vocablib-word-page {
+  position: static;
+  cursor: pointer;
 }
 
 .vocablib-word-page:hover {

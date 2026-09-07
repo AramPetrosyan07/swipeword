@@ -36,6 +36,7 @@ class ReaderMode {
     this.pageCount = this.pdfDoc.numPages;
     this.pageNum = 1;
     this.scale = 1;
+    this._syncPageSlider();
     await this._fitWidth();
     await this._buildScrollSlots();
     const pagesEl = document.getElementById('pdfPages');
@@ -618,6 +619,7 @@ class ReaderMode {
     }
     document.getElementById('pdfPageCount').textContent = this.pageCount;
     document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
+    this._syncPageSlider();
 
     for (let i = range.start; i <= range.end; i++) {
       const num = i + 1;
@@ -669,6 +671,15 @@ class ReaderMode {
     container.scrollTop = this._pageOffsets[num - 1];
     this.pageNum = num;
     document.getElementById('pdfPageNum').textContent = num;
+    this._syncPageSlider();
+  }
+
+  _syncPageSlider() {
+    const s = document.getElementById('pdfPageSlider');
+    if (!s) return;
+    const count = Math.max(this.pageCount, 1);
+    if (Number(s.max) !== count) s.max = String(count);
+    s.value = String(Math.min(Math.max(this.pageNum, 1), count));
   }
 
   async zoomBy(factor) {
