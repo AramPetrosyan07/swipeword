@@ -111,9 +111,11 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   });
   document.getElementById('pdfZoomIn5').addEventListener('click', () => {
     readerMode.zoomIn5();
+    this._pdfSaveZoom();
   });
   document.getElementById('pdfZoomOut5').addEventListener('click', () => {
     readerMode.zoomOut5();
+    this._pdfSaveZoom();
   });
   document.getElementById('btnReadAloud').addEventListener('click', () => {
     this._toggleReadAloud();
@@ -198,6 +200,7 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
       e.preventDefault();
       const factor = 1 - e.deltaY * 0.001;
       readerMode.zoomBy(factor);
+      this._pdfSaveZoom();
     }
   });
   document.getElementById('pdfViewerScroll').addEventListener('scroll', () => {

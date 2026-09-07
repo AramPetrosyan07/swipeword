@@ -2528,6 +2528,7 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   font-size: 18px;
   font-weight: 700;
   color: var(--primary);
+  cursor: pointer;
 }
 
 .reader-translate-close {

@@ -150,6 +150,8 @@ __appMixinReader['_showPdfTab'] = async function(index) {
     if (prevKey) {
       if (!appStore.data.pdfScrollPositions) appStore.data.pdfScrollPositions = {};
       appStore.data.pdfScrollPositions[prevKey] = prev.scrollTop;
+      if (!appStore.data.pdfZoomLevels) appStore.data.pdfZoomLevels = {};
+      appStore.data.pdfZoomLevels[prevKey] = readerMode.scale;
       appStore.save();
     }
   }
@@ -167,6 +169,9 @@ __appMixinReader['_showPdfTab'] = async function(index) {
   document.getElementById('readTextViewPdf').innerHTML = '';
   this._applyReaderLangPrefs();
   await this._pdfRailSettled();
+  const tabKey = tab.path || tab.name;
+  const savedZoom = (appStore.data.pdfZoomLevels || {})[tabKey];
+  readerMode.savedScale = savedZoom ? Math.min(Math.max(savedZoom, 0.1), 10) : null;
   await readerMode.loadPdfDoc(tab.doc);
   const detected = await readerMode.detectSourceLang();
   if (detected && detected !== this._pdfSourceLang) {
@@ -313,6 +318,17 @@ __appMixinReader['_pdfSaveScroll'] = function() {
   }
 };
 
+__appMixinReader['_pdfSaveZoom'] = function() {
+  if (typeof readerMode === 'undefined' || !readerMode || !readerMode.scale) return;
+  const tab = this._pdfTabs[this._pdfActiveTab];
+  if (!tab) return;
+  const key = tab.path || tab.name;
+  if (!key) return;
+  if (!appStore.data.pdfZoomLevels) appStore.data.pdfZoomLevels = {};
+  appStore.data.pdfZoomLevels[key] = Math.round(readerMode.scale * 100) / 100;
+  appStore.save();
+};
+
 __appMixinReader['_updateTranslationSidebarBtnVisibility'] = function() {
   const btn = document.getElementById('btnTranslationSidebar');
   if (btn) btn.style.display = this._readCurrentPage === 'pdf' ? '' : 'none';
@@ -414,7 +430,10 @@ __appMixinReader['_applyTranslationSidebar'] = function(refit) {
   if (refit && this._readCurrentPage === 'pdf') {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        if (this._readCurrentPage === 'pdf') readerMode.fitToWidth();
+        if (this._readCurrentPage === 'pdf') {
+          readerMode.fitToWidth();
+          this._pdfSaveZoom();
+        }
       });
     });
   }

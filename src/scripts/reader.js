@@ -35,9 +35,14 @@ class ReaderMode {
     if (!this.pdfDoc) return;
     this.pageCount = this.pdfDoc.numPages;
     this.pageNum = 1;
-    this.scale = 1;
+    if (this.savedScale && this.savedScale > 0) {
+      this.scale = Math.min(Math.max(this.savedScale, 0.1), 10);
+      this.savedScale = null;
+    } else {
+      this.scale = 1;
+      await this._fitWidth();
+    }
     this._syncPageSlider();
-    await this._fitWidth();
     await this._buildScrollSlots();
     const pagesEl = document.getElementById('pdfPages');
     if (pagesEl) pagesEl.style.display = 'flex';

@@ -39,6 +39,9 @@ class TranslationPopup {
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
+    this._wordEl.addEventListener('click', () => {
+      if (this._wordEl.textContent) this._copyWord(this._wordEl.textContent);
+    });
     this._initAnnotationControls();
     this._bodyEl.addEventListener('click', (e) => {
       const left = e.target.closest('.rw-word-copy');
