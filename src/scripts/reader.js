@@ -920,6 +920,38 @@ class ReaderMode {
     }
   }
 
+  async readAloudText(text, lang, voiceId, speed, highlightCb, startIndex) {
+    if (!text) return;
+    // Invalidate any previously running speech session so only one can be active.
+    const token = ++this._readAloudToken;
+    this._readAloudQueued = null;
+    this._readAloudActive = false;
+    this._readAloudPaused = false;
+    this._readAloudHighlightCb = highlightCb || null;
+    this._readAloudLang = lang || 'en';
+    this._readAloudVoiceId = voiceId || 0;
+    this._readAloudSpeed = speed || 1;
+    this._readAloudClickedPage = 0;
+    this._readAloudClickedIdx = -1;
+    this._readAloudClickedEl = null;
+    if (this._readAloudAudio) {
+      this._readAloudAudio.pause();
+      this._readAloudAudio = null;
+    }
+    this._readAloudSentences = text
+      .split(/(?<=[.!?])\s+/)
+      .map((t) => t.trim())
+      .filter(Boolean)
+      .map((t) => ({ text: t, page: 0 }));
+    if (!this._readAloudSentences.length) return;
+    if (token !== this._readAloudToken) return;
+    this._readAloudIdx = Math.max(0, Math.min(startIndex || 0, this._readAloudSentences.length - 1));
+    this._readAloudStartIdx = this._readAloudIdx;
+    this._readAloudActive = true;
+    this._readAloudPaused = false;
+    this._readAloudSpeakCurrent(token);
+  }
+
   async readAloudStart(wordText, lang, voiceId, speed, clickedPage, clickedEl) {
     if (!this.pdfDoc) return;
     // Invalidate any previously running speech session so only one can be active.
@@ -961,7 +993,11 @@ class ReaderMode {
       return;
     }
     const sent = this._readAloudSentences[this._readAloudIdx];
-    this._highlightReadAloudSentence(this._readAloudIdx);
+    if (this._readAloudHighlightCb) {
+      this._readAloudHighlightCb(this._readAloudIdx);
+    } else {
+      this._highlightReadAloudSentence(this._readAloudIdx);
+    }
 
     // Use the audio that was prefetched while the previous sentence was playing,
     // or generate the current sentence's audio now for the very first sentence.
@@ -1043,6 +1079,10 @@ class ReaderMode {
       this._readAloudAudio = null;
     }
     document.querySelectorAll('.pdf-read-aloud-active').forEach(el => el.classList.remove('pdf-read-aloud-active'));
+    if (this._readAloudHighlightCb) {
+      this._readAloudHighlightCb(-1);
+      this._readAloudHighlightCb = null;
+    }
   }
 
   readAloudTogglePause() {

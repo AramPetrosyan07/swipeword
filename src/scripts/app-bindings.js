@@ -471,12 +471,89 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   document.getElementById('btnPdfTextClear').addEventListener('click', () => {
     document.getElementById('pdfTextMainInput').value = '';
   });
+  document.getElementById('btnPdfTextEdit').addEventListener('click', () => {
+    readerMode.readAloudStop();
+    this._updatePdfTextReadAloudButtons();
+    document.getElementById('pdfTextView').style.display = 'none';
+    document.getElementById('pdfTextEditorSection').style.display = '';
+    document.getElementById('pdfTextMainInput').focus();
+  });
   document.getElementById('pdfTextMainInput').addEventListener('keydown', (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
       e.preventDefault();
       this._loadTextContent();
     }
   });
+
+  const pdfTextLangChange = () => {
+    this._pdfSourceLang = document.getElementById('pdfTextSourceLang').value;
+    this._pdfTargetLang = document.getElementById('pdfTextTargetLang').value;
+    this._pdfWordCount = parseInt(document.getElementById('pdfTextWordCount').value) || 3;
+    this._saveReaderLangPrefs();
+    const readerSource = document.getElementById('readerSourceLang');
+    const readerTarget = document.getElementById('readerTargetLang');
+    const readerWord = document.getElementById('readerWordCount');
+    if (readerSource) readerSource.value = this._pdfSourceLang;
+    if (readerTarget) readerTarget.value = this._pdfTargetLang;
+    if (readerWord) readerWord.value = this._pdfWordCount;
+    this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
+    this.translationPopup._cache.clear();
+  };
+  document.getElementById('pdfTextSourceLang').addEventListener('change', pdfTextLangChange);
+  document.getElementById('pdfTextTargetLang').addEventListener('change', pdfTextLangChange);
+  document.getElementById('pdfTextWordCount').addEventListener('change', pdfTextLangChange);
+
+  const pdfTextVoiceBtn = document.getElementById('btnPdfTextVoice');
+  const pdfTextVoiceMenu = document.getElementById('pdfTextVoiceMenu');
+  if (pdfTextVoiceBtn && pdfTextVoiceMenu) {
+    pdfTextVoiceBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      pdfTextVoiceMenu.style.display = pdfTextVoiceMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
+    document.addEventListener('click', (e) => {
+      if (pdfTextVoiceMenu.style.display === 'flex' && !pdfTextVoiceMenu.contains(e.target) && e.target !== pdfTextVoiceBtn) {
+        pdfTextVoiceMenu.style.display = 'none';
+      }
+    });
+    pdfTextVoiceMenu.querySelectorAll('.yt-voice-option').forEach((opt) => {
+      opt.addEventListener('click', () => {
+        const voice = parseInt(opt.dataset.voice, 10);
+        appStore.data.ttsVoice = voice;
+        appStore.save();
+        if (this.translationPopup) this.translationPopup.setVoice(voice);
+        this._updateVoiceUi();
+        pdfTextVoiceMenu.style.display = 'none';
+      });
+    });
+  }
+
+  document.getElementById('btnPdfTextReadAloud').addEventListener('click', () => {
+    this._startPdfTextReadAloud(0);
+  });
+  document.getElementById('btnPdfTextPause').addEventListener('click', () => {
+    if (!readerMode._readAloudActive) return;
+    readerMode.readAloudTogglePause();
+    this._updatePdfTextReadAloudButtons();
+  });
+  document.getElementById('btnPdfTextStop').addEventListener('click', () => {
+    readerMode.readAloudStop();
+    this._updatePdfTextReadAloudButtons();
+  });
+  document.getElementById('pdfTextSpeed').addEventListener('change', (e) => {
+    readerMode.readAloudSetSpeed(parseFloat(e.target.value) || 1);
+  });
+
+  const pdfTextViewBody = document.getElementById('pdfTextViewBody');
+  if (pdfTextViewBody) {
+    pdfTextViewBody.addEventListener('contextmenu', (e) => {
+      const word = e.target.closest ? e.target.closest('.rw-word') : null;
+      if (!word) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const idx = word.dataset.sent ? parseInt(word.dataset.sent, 10) : 0;
+      this._startPdfTextReadAloud(idx);
+    });
+  }
 
   document.addEventListener('click', (e) => {
     const popup = document.getElementById('readerTranslatePopup');

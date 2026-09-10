@@ -222,10 +222,52 @@
 
         <!-- Text Input Panel (inside PDF page) -->
         <div class="pdf-text-panel" id="pdfTextPanel" style="display:none;">
-          <textarea class="pdf-text-textarea" id="pdfTextMainInput" placeholder="Paste or type your text here..." rows="12"></textarea>
-          <div class="pdf-text-actions">
-            <button class="btn btn-primary" id="btnPdfTextLoad">Load &#9654;</button>
-            <button class="btn btn-secondary" id="btnPdfTextClear">Clear</button>
+          <div class="pdf-text-langbar" id="pdfTextLangbar">
+            <span class="pdf-text-lang-label">From:</span>
+            <select id="pdfTextSourceLang" class="pdf-text-lang-select" title="Source language (the language of the text)"></select>
+            <span class="pdf-text-lang-label">To:</span>
+            <select id="pdfTextTargetLang" class="pdf-text-lang-select" title="Target language (translate to)"></select>
+            <select id="pdfTextWordCount" class="pdf-text-lang-select pdf-text-count-select" title="Number of translations per word">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+            </select>
+            <div class="yt-voice-dropdown" id="pdfTextVoiceDropdown">
+              <button class="yt-voice-btn" id="btnPdfTextVoice" title="Choose who pronounces the translated word">&#128266; <span id="pdfTextVoiceLabel">Andrew</span> &#9662;</button>
+              <div class="yt-voice-menu" id="pdfTextVoiceMenu" style="display:none;">
+                <div class="yt-voice-title">Who speaks the word?</div>
+                <button class="yt-voice-option" data-voice="0">Andrew</button>
+                <button class="yt-voice-option" data-voice="1">Brian</button>
+                <button class="yt-voice-option" data-voice="2">Emma</button>
+                <button class="yt-voice-option" data-voice="3">Ava</button>
+              </div>
+            </div>
+            <span class="pdf-text-langbar-sep"></span>
+            <button class="pdf-text-read-btn" id="btnPdfTextReadAloud" title="Read the text aloud">&#9654; Read</button>
+            <button class="pdf-text-read-btn" id="btnPdfTextPause" title="Pause / Resume" style="display:none;">&#8214; Pause</button>
+            <button class="pdf-text-read-btn pdf-text-read-stop" id="btnPdfTextStop" title="Stop" style="display:none;">&#9632; Stop</button>
+            <select id="pdfTextSpeed" class="pdf-text-speed-select" title="Playback speed">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+            </select>
+          </div>
+          <div class="pdf-text-editor" id="pdfTextEditorSection">
+            <textarea class="pdf-text-textarea" id="pdfTextMainInput" placeholder="Paste or type your text here..." rows="12"></textarea>
+            <div class="pdf-text-actions">
+              <button class="btn btn-primary" id="btnPdfTextLoad">Load &#9654;</button>
+              <button class="btn btn-secondary" id="btnPdfTextClear">Clear</button>
+            </div>
+          </div>
+          <div class="pdf-text-view" id="pdfTextView" style="display:none;">
+            <div class="pdf-text-view-bar">
+              <button class="btn btn-secondary btn-sm" id="btnPdfTextEdit">&#8592; Edit Text</button>
+              <span class="pdf-text-view-title" id="pdfTextViewTitle"></span>
+            </div>
+            <div class="pdf-text-view-body" id="pdfTextViewBody"></div>
           </div>
         </div>
 

@@ -699,6 +699,12 @@ __appMixinYoutube['_updateVoiceUi'] = function() {
     opt.classList.toggle('active', v === voice);
     if (v === voice && readerLabelEl) readerLabelEl.textContent = opt.textContent;
   });
+  const pdfTextLabelEl = document.getElementById('pdfTextVoiceLabel');
+  document.querySelectorAll('#pdfTextVoiceMenu .yt-voice-option').forEach((opt) => {
+    const v = parseInt(opt.dataset.voice, 10);
+    opt.classList.toggle('active', v === voice);
+    if (v === voice && pdfTextLabelEl) pdfTextLabelEl.textContent = opt.textContent;
+  });
   const readAloudVoice = document.getElementById('readAloudVoice');
   if (readAloudVoice) readAloudVoice.value = String(voice);
 };
@@ -749,5 +755,12 @@ __appMixinYoutube['_resetReadPage'] = function() {
   document.getElementById('readTextViewPdf').style.display = 'none';
   document.getElementById('pdfLibrary').style.display = '';
 
+  if (readerMode._readAloudActive) readerMode.readAloudStop();
+  this._pdfTextSourceText = null;
+  document.getElementById('pdfTextViewBody').innerHTML = '';
+  document.getElementById('pdfTextView').style.display = 'none';
+  document.getElementById('pdfTextEditorSection').style.display = '';
+  document.getElementById('pdfTextMainInput').value = '';
+  this._updatePdfTextReadAloudButtons();
   document.getElementById('pdfTextPanel').style.display = 'none';
 };
