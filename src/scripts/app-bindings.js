@@ -33,6 +33,13 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     document.getElementById('screen-reader').classList.add('active');
   });
 
+  const createRunFileBtn = document.getElementById('btnCreateRunFile');
+  if (createRunFileBtn) {
+    createRunFileBtn.addEventListener('click', () => {
+      this._createRunFile();
+    });
+  }
+
   const updateRestartBtn = document.getElementById('btnUpdateRestart');
   if (updateRestartBtn) {
     updateRestartBtn.addEventListener('click', () => {

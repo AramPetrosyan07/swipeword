@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, dialog, Menu, shell } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu, shell, nativeImage } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const http = require("http");
@@ -901,4 +901,90 @@ ipcMain.handle("app:updateAndRestart", async () => {
   if (!fs.existsSync(batPath)) return { success: false, error: "update-and-start.bat not found" };
   shell.openPath(batPath);
   app.quit();
+});
+
+function _pngToIco(pngBuffer) {
+  const header = Buffer.alloc(6);
+  header.writeUInt16LE(0, 0);
+  header.writeUInt16LE(1, 2);
+  header.writeUInt16LE(1, 4);
+  const entry = Buffer.alloc(16);
+  entry[0] = 0;
+  entry[1] = 0;
+  entry[2] = 0;
+  entry[3] = 0;
+  entry.writeUInt16LE(1, 4);
+  entry.writeUInt16LE(32, 6);
+  entry.writeUInt32LE(pngBuffer.length, 8);
+  entry.writeUInt32LE(22, 12);
+  return Buffer.concat([header, entry, pngBuffer]);
+}
+
+function _buildLauncherIcon(iconPath, outputDir) {
+  const img = nativeImage.createFromPath(iconPath);
+  if (img.isEmpty()) return iconPath;
+  let square = img;
+  const { width, height } = square.getSize();
+  if (width !== height) {
+    const side = Math.min(width, height);
+    const x = Math.round((width - side) / 2);
+    const y = Math.round((height - side) / 2);
+    square = img.crop({ x, y, width: side, height: side });
+  }
+  const resized = square.getSize().width === 256 ? square : square.resize({ width: 256, height: 256 });
+  const icoPath = path.join(outputDir, "SwipeWord.ico");
+  fs.writeFileSync(icoPath, _pngToIco(resized.toPNG()));
+  return icoPath;
+}
+
+ipcMain.handle("dialog:createRunFile", async () => {
+  try {
+    const result = await dialog.showOpenDialog(mainWindow, {
+      title: "Choose a folder for the SwipeWord launcher",
+      properties: ["openDirectory", "createDirectory"],
+    });
+    if (result.canceled || result.filePaths.length === 0) return { success: false, canceled: true };
+
+    const projectDir = __dirname;
+    const iconPath = path.join(projectDir, "src", "assets", "icon.png");
+    const outputDir = result.filePaths[0];
+
+    const batPath = path.join(outputDir, "SwipeWord.bat");
+    const batContent = [
+      "@echo off",
+      'cd /d "' + projectDir + '"',
+      "npm run start",
+      "pause",
+    ].join("\r\n") + "\r\n";
+    fs.writeFileSync(batPath, batContent, "utf-8");
+
+    const esc = (s) => s.replace(/'/g, "''");
+    let shortcutPath = null;
+    let iconFile = iconPath;
+    try {
+      iconFile = _buildLauncherIcon(iconPath, outputDir);
+    } catch (e) {
+      console.error("Failed to build launcher icon:", e);
+    }
+    try {
+      shortcutPath = path.join(outputDir, "SwipeWord.lnk");
+      const ps = [
+        `$ws = New-Object -ComObject WScript.Shell`,
+        `$s = $ws.CreateShortcut('${esc(shortcutPath)}')`,
+        `$s.TargetPath = '${esc(batPath)}'`,
+        `$s.WorkingDirectory = '${esc(outputDir)}'`,
+        `$s.IconLocation = '${esc(iconFile)}'`,
+        `$s.Save()`,
+      ].join("; ");
+      execSync(`powershell -NoProfile -ExecutionPolicy Bypass -Command "${ps.replace(/"/g, '\\"')}"`);
+    } catch (e) {
+      console.error("Failed to create shortcut:", e);
+      shortcutPath = null;
+    }
+
+    return { success: true, batPath, shortcutPath, projectPath: projectDir };
+  } catch (e) {
+    console.error("dialog:createRunFile failed:", e);
+    return { success: false, error: e.message || String(e) };
+  }
 });

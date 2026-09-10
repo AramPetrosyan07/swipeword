@@ -250,3 +250,24 @@ __appMixinSettings['_applyReaderLangPrefs'] = function() {
   if (wordSel) wordSel.value = this._pdfWordCount;
   this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
 };
+
+__appMixinSettings['_createRunFile'] = async function() {
+  if (!window.electronAPI || !window.electronAPI.createRunFile) return;
+  const btn = document.getElementById('btnCreateRunFile');
+  if (btn) btn.disabled = true;
+  try {
+    const result = await window.electronAPI.createRunFile();
+    console.log('createRunFile result:', result);
+    if (!result) return;
+    if (!result.success) {
+      alert('Failed to create launcher: ' + (result.error || 'unknown error'));
+      return;
+    }
+    alert('Launcher created!\n\n' + (result.shortcutPath || result.batPath));
+  } catch (e) {
+    console.error('Failed to create run file:', e);
+    alert('Failed to create launcher: ' + (e.message || e));
+  } finally {
+    if (btn) btn.disabled = false;
+  }
+};
