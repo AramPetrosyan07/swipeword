@@ -100,11 +100,6 @@
             <span class="read-home-label">Text Practice</span>
             <span class="read-home-desc">Fill in the missing words in a short text</span>
           </button>
-          <button class="read-home-card" data-mode="text" id="readCardText">
-            <span class="read-home-icon">&#128221;</span>
-            <span class="read-home-label">Text</span>
-            <span class="read-home-desc">Paste or type text to translate and pronounce</span>
-          </button>
         </div>
       </div>
 
@@ -196,26 +191,6 @@
         </div>
       </div>
 
-      <!-- Sub-page: Text Input -->
-      <div class="read-page" id="read-page-text">
-        <div class="text-input-page">
-          <div class="text-input-area" id="textInputArea">
-            <textarea class="text-input-textarea" id="textMainInput" placeholder="Paste or type your text here..." rows="10"></textarea>
-            <div class="text-input-actions">
-              <button class="btn btn-primary" id="btnTextLoad">Load &#9654;</button>
-              <button class="btn btn-secondary" id="btnTextClear">Clear</button>
-            </div>
-          </div>
-          <div class="text-reader-container" id="textReaderContainer" style="display:none;">
-            <div class="text-reader-header">
-              <button class="btn btn-secondary btn-sm" id="btnTextBack">&#8592; Edit Text</button>
-              <span class="text-reader-title" id="textReaderTitle"></span>
-            </div>
-            <div class="text-reader-content" id="textReaderContent"></div>
-          </div>
-        </div>
-      </div>
-
       <!-- Sub-page: PDF -->
       <div class="read-page" id="read-page-pdf">
           <div class="pdf-library" id="pdfLibrary">
@@ -244,6 +219,16 @@
           </div>
           <button class="btn btn-primary read-action-btn" id="btnReadPdf" disabled>Load &#9654;</button>
         </div>
+
+        <!-- Text Input Panel (inside PDF page) -->
+        <div class="pdf-text-panel" id="pdfTextPanel" style="display:none;">
+          <textarea class="pdf-text-textarea" id="pdfTextMainInput" placeholder="Paste or type your text here..." rows="12"></textarea>
+          <div class="pdf-text-actions">
+            <button class="btn btn-primary" id="btnPdfTextLoad">Load &#9654;</button>
+            <button class="btn btn-secondary" id="btnPdfTextClear">Clear</button>
+          </div>
+        </div>
+
         <div class="pdf-tabs" id="pdfTabsBar" style="display:none;">
           <div class="pdf-tabs-strip" id="pdfTabsStrip"></div>
         </div>

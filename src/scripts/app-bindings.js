@@ -465,16 +465,13 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     document.getElementById('readerTranslatePopup').style.display = 'none';
   });
 
-  document.getElementById('btnTextLoad').addEventListener('click', () => {
+  document.getElementById('btnPdfTextLoad').addEventListener('click', () => {
     this._loadTextContent();
   });
-  document.getElementById('btnTextClear').addEventListener('click', () => {
-    document.getElementById('textMainInput').value = '';
+  document.getElementById('btnPdfTextClear').addEventListener('click', () => {
+    document.getElementById('pdfTextMainInput').value = '';
   });
-  document.getElementById('btnTextBack').addEventListener('click', () => {
-    this._showTextEditor();
-  });
-  document.getElementById('textMainInput').addEventListener('keydown', (e) => {
+  document.getElementById('pdfTextMainInput').addEventListener('keydown', (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
       e.preventDefault();
       this._loadTextContent();

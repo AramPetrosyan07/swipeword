@@ -1,6 +1,6 @@
 __appMixinReader = {};
 __appMixinReader['_setReadSidebarCompact'] = function(compact) {
-  const ids = ['sidePdfLast', 'sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned', 'sideWords'];
+  const ids = ['sidePdfLast', 'sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned', 'sidePdfText', 'sideWords'];
   ids.forEach((id) => {
     const el = document.getElementById(id);
     if (el) el.style.display = compact ? 'none' : '';
@@ -33,10 +33,6 @@ __appMixinReader['_openReadPage'] = function(mode) {
   if (mode === 'textpractice' && typeof textPractice !== 'undefined') {
     textPractice.open();
   }
-
-  if (mode === 'text') {
-    this._showTextEditor();
-  }
 };
 
 __appMixinReader['_setPdfViewMode'] = function(view) {
@@ -51,6 +47,7 @@ __appMixinReader['_setPdfViewMode'] = function(view) {
 __appMixinReader['_showPdfView'] = function(view) {
   if (view === 'recent') this._pdfShowRecents();
   else if (view === 'pinned') this._pdfShowPinned();
+  else if (view === 'text') this._showTextPanel();
   else if (view === 'last') this._pdfOpenLast();
   else this._pdfShowViewer();
 };
@@ -163,6 +160,7 @@ __appMixinReader['_showPdfTab'] = async function(index) {
   appStore.data.pdfActiveTab = tab.path || tab.name;
   this._setPdfViewMode('last');
   this._renderPdfTabs();
+  document.getElementById('pdfTextPanel').style.display = 'none';
   document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
   document.getElementById('pdfLibrary').style.display = 'none';
   document.getElementById('pdfTabsBar').style.display = 'flex';
@@ -635,6 +633,7 @@ __appMixinReader['_pdfShowSidebarView'] = function(view) {
 };
 
 __appMixinReader['_pdfOpenLast'] = function() {
+  document.getElementById('pdfTextPanel').style.display = 'none';
   if (this._pdfTabs.length > 0) {
     this._showPdfTab(Math.max(0, this._pdfActiveTab));
   } else {
@@ -643,21 +642,24 @@ __appMixinReader['_pdfOpenLast'] = function() {
     document.getElementById('pdfLibrary').style.display = 'none';
     document.getElementById('pdfTabsBar').style.display = 'none';
     document.getElementById('readContentAreaPdf').style.display = 'none';
+    document.getElementById('readTextViewPdf').style.display = 'none';
     document.getElementById('pdfViewer').style.display = 'flex';
   }
 };
 
 __appMixinReader['_syncPdfSidebarButtons'] = function() {
-  const map = { viewer: 'sidePdfViewer', recent: 'sidePdfRecent', pinned: 'sidePdfPinned', last: 'sidePdfLast' };
-  ['sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned', 'sidePdfLast'].forEach((id) => {
+  const map = { viewer: 'sidePdfViewer', recent: 'sidePdfRecent', pinned: 'sidePdfPinned', last: 'sidePdfLast', text: 'sidePdfText' };
+  ['sidePdfViewer', 'sidePdfRecent', 'sidePdfPinned', 'sidePdfLast', 'sidePdfText'].forEach((id) => {
     document.getElementById(id).classList.toggle('active', map[this._pdfViewMode] === id);
   });
 };
 
 __appMixinReader['_pdfShowViewer'] = function() {
+  document.getElementById('pdfTextPanel').style.display = 'none';
   document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
   document.getElementById('pdfTabsBar').style.display = 'none';
   document.getElementById('readContentAreaPdf').style.display = 'none';
+  document.getElementById('readTextViewPdf').style.display = 'none';
   document.getElementById('pdfLibrary').style.display = '';
   document.getElementById('pdfLibraryTitleText').textContent = 'PDF Library';
   document.getElementById('pdfLibraryTitleText').parentElement.querySelector('.pdf-library-icon').innerHTML = '&#128218;';
@@ -747,6 +749,7 @@ __appMixinReader['_pdfShowPinned'] = function() {
 
 __appMixinReader['_pdfShowListMode'] = function() {
   this._readSourceInfo = null;
+  document.getElementById('pdfTextPanel').style.display = 'none';
   document.getElementById('pdfLibrary').style.display = '';
   document.getElementById('readContentAreaPdf').style.display = 'none';
   document.getElementById('pdfViewer').style.display = '';
@@ -992,30 +995,50 @@ __appMixinReader['_escapeHtml'] = function(str) {
 };
 
 __appMixinReader['_loadTextContent'] = function() {
-  const textarea = document.getElementById('textMainInput');
+  const textarea = document.getElementById('pdfTextMainInput');
   const text = (textarea.value || '').trim();
   if (!text) return;
 
-  const inputArea = document.getElementById('textInputArea');
-  const readerContainer = document.getElementById('textReaderContainer');
-  const contentEl = document.getElementById('textReaderContent');
-  const titleEl = document.getElementById('textReaderTitle');
+  const textPanel = document.getElementById('pdfTextPanel');
+  const contentArea = document.getElementById('readContentAreaPdf');
+  const textDisplay = document.getElementById('readTextViewPdf');
 
-  inputArea.style.display = 'none';
-  readerContainer.style.display = '';
-  titleEl.textContent = text.slice(0, 60) + (text.length > 60 ? '...' : '');
+  textPanel.style.display = 'none';
+  contentArea.style.display = 'block';
+  textDisplay.style.display = 'block';
+  textDisplay.innerHTML = WordWrapper.wrap(text);
 
-  contentEl.innerHTML = WordWrapper.wrap(text);
+  document.getElementById('pdfSplit').style.display = 'none';
+  document.getElementById('pdfTabsBar').style.display = 'none';
+  document.getElementById('pdfLibrary').style.display = 'none';
+  document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
 
   const sourceInfo = { type: 'text', title: 'Custom Text', id: Date.now().toString(36) };
   this._readSourceInfo = sourceInfo;
   this._applyReaderLangPrefs();
-  this.translationPopup.bindToContainer(contentEl, sourceInfo);
+  this.translationPopup.bindToContainer(textDisplay, sourceInfo);
+  this._updateTranslationSidebarBtnVisibility();
 };
 
-__appMixinReader['_showTextEditor'] = function() {
-  const inputArea = document.getElementById('textInputArea');
-  const readerContainer = document.getElementById('textReaderContainer');
-  inputArea.style.display = '';
-  readerContainer.style.display = 'none';
+__appMixinReader['_showTextPanel'] = function() {
+  this._pdfSaveScroll();
+  this._setPdfViewMode('text');
+  if (document.querySelector('.screen.active') !== document.getElementById('screen-reader')) {
+    this._showReadHome();
+  }
+  if (this._readCurrentPage !== 'pdf') {
+    if (this._readCurrentPage) {
+      this._resetReadPage();
+    } else {
+      this._openReadPage('pdf');
+    }
+  }
+  document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
+  document.getElementById('pdfLibrary').style.display = 'none';
+  document.getElementById('pdfTabsBar').style.display = 'none';
+  document.getElementById('pdfTextPanel').style.display = '';
+  document.getElementById('readContentAreaPdf').style.display = 'none';
+  document.getElementById('readTextViewPdf').style.display = 'none';
+  document.getElementById('readTextViewPdf').innerHTML = '';
+  document.getElementById('pdfTextMainInput').focus();
 };

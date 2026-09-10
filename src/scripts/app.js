@@ -232,6 +232,7 @@ class App {
     document.getElementById('sidePdfRecent').addEventListener('click', () => this._pdfShowSidebarView('recent'));
     document.getElementById('sidePdfPinned').addEventListener('click', () => this._pdfShowSidebarView('pinned'));
     document.getElementById('sidePdfLast').addEventListener('click', () => this._pdfShowSidebarView('last'));
+    document.getElementById('sidePdfText').addEventListener('click', () => this._pdfShowSidebarView('text'));
 
     document.getElementById('readCardWords').addEventListener('click', () => {
       if (this.words.length > 0) this._showLearnScreen();
