@@ -23,15 +23,31 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     this._updateSidebar();
   });
 
-  document.getElementById('btnUpdateRestart').addEventListener('click', () => {
-    if (window.electronAPI && window.electronAPI.updateAndRestart) {
-      window.electronAPI.updateAndRestart();
-    }
+  document.getElementById('btnReaderSettings').addEventListener('click', () => {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-settings').classList.add('active');
   });
 
-  document.getElementById('btnTranslationSidebar').addEventListener('click', () => {
-    this._toggleTranslationSidebar();
+  document.getElementById('btnSettingsBack').addEventListener('click', () => {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-reader').classList.add('active');
   });
+
+  const updateRestartBtn = document.getElementById('btnUpdateRestart');
+  if (updateRestartBtn) {
+    updateRestartBtn.addEventListener('click', () => {
+      if (window.electronAPI && window.electronAPI.updateAndRestart) {
+        window.electronAPI.updateAndRestart();
+      }
+    });
+  }
+
+  const translationSidebarBtn = document.getElementById('btnTranslationSidebar');
+  if (translationSidebarBtn) {
+    translationSidebarBtn.addEventListener('click', () => {
+      this._toggleTranslationSidebar();
+    });
+  }
 
   const savePdfBtn = document.getElementById('btnSavePdfFile');
   if (savePdfBtn) {
@@ -50,17 +66,26 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     }
   });
 
-  document.getElementById('btnThemeColors').addEventListener('click', () => {
-    this._setThemeColorsMode(true);
-  });
+  const themeColorsBtn = document.getElementById('btnThemeColors');
+  if (themeColorsBtn) {
+    themeColorsBtn.addEventListener('click', () => {
+      this._setThemeColorsMode(true);
+    });
+  }
 
-  document.getElementById('btnThemeColorsClose').addEventListener('click', () => {
-    this._setThemeColorsMode(false);
-  });
+  const themeColorsCloseBtn = document.getElementById('btnThemeColorsClose');
+  if (themeColorsCloseBtn) {
+    themeColorsCloseBtn.addEventListener('click', () => {
+      this._setThemeColorsMode(false);
+    });
+  }
 
-  document.getElementById('btnThemeColorsReset').addEventListener('click', () => {
-    this._resetThemeColors();
-  });
+  const themeColorsResetBtn = document.getElementById('btnThemeColorsReset');
+  if (themeColorsResetBtn) {
+    themeColorsResetBtn.addEventListener('click', () => {
+      this._resetThemeColors();
+    });
+  }
 
   document.querySelectorAll('#themeColorsBar input[type="color"]').forEach((input) => {
     input.addEventListener('change', () => this._applyThemeColors());
@@ -117,37 +142,55 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     readerMode.zoomOut5();
     this._pdfSaveZoom();
   });
-  document.getElementById('btnReadAloud').addEventListener('click', () => {
-    this._toggleReadAloud();
-  });
-  document.getElementById('btnReadAloudPlay').addEventListener('click', () => {
-    if (!readerMode._readAloudActive) return;
-    const playing = readerMode.readAloudTogglePause();
-    this._updateReadAloudPlayBtn(playing);
-  });
-  document.getElementById('btnReadAloudStop').addEventListener('click', () => {
-    readerMode.readAloudStop();
-    this._updateReadAloudUI(false);
-  });
-  document.getElementById('readAloudLang').addEventListener('change', () => {
-    if (readerMode._readAloudActive) {
+  const readAloudBtn = document.getElementById('btnReadAloud');
+  if (readAloudBtn) {
+    readAloudBtn.addEventListener('click', () => {
+      this._toggleReadAloud();
+    });
+  }
+  const readAloudPlayBtn = document.getElementById('btnReadAloudPlay');
+  if (readAloudPlayBtn) {
+    readAloudPlayBtn.addEventListener('click', () => {
+      if (!readerMode._readAloudActive) return;
+      const playing = readerMode.readAloudTogglePause();
+      this._updateReadAloudPlayBtn(playing);
+    });
+  }
+  const readAloudStopBtn = document.getElementById('btnReadAloudStop');
+  if (readAloudStopBtn) {
+    readAloudStopBtn.addEventListener('click', () => {
       readerMode.readAloudStop();
       this._updateReadAloudUI(false);
-    }
-  });
-  document.getElementById('readAloudSpeed').addEventListener('change', (e) => {
-    readerMode.readAloudSetSpeed(parseFloat(e.target.value) || 1);
-  });
-  document.getElementById('readAloudVoice').addEventListener('change', (e) => {
-    const voice = parseInt(e.target.value, 10) || 0;
-    appStore.data.ttsVoice = voice;
-    appStore.save();
-    if (this.translationPopup) this.translationPopup.setVoice(voice);
-    this._updateVoiceUi();
-    if (readerMode._readAloudActive) {
-      readerMode.readAloudSetVoice(voice);
-    }
-  });
+    });
+  }
+  const readAloudLangEl = document.getElementById('readAloudLang');
+  if (readAloudLangEl) {
+    readAloudLangEl.addEventListener('change', () => {
+      if (readerMode._readAloudActive) {
+        readerMode.readAloudStop();
+        this._updateReadAloudUI(false);
+      }
+    });
+  }
+  const readAloudSpeedEl = document.getElementById('readAloudSpeed');
+  if (readAloudSpeedEl) {
+    readAloudSpeedEl.addEventListener('change', (e) => {
+      readerMode.readAloudSetSpeed(parseFloat(e.target.value) || 1);
+    });
+  }
+  const readAloudVoiceEl = document.getElementById('readAloudVoice');
+  if (readAloudVoiceEl) {
+    readAloudVoiceEl.addEventListener('change', (e) => {
+      const voice = parseInt(e.target.value, 10) || 0;
+      appStore.data.ttsVoice = voice;
+      appStore.save();
+      if (this.translationPopup) this.translationPopup.setVoice(voice);
+      this._updateVoiceUi();
+      if (readerMode._readAloudActive) {
+        readerMode.readAloudSetVoice(voice);
+      }
+    });
+  }
 
   const readerVoiceBtn = document.getElementById('btnReaderVoice');
   const readerVoiceMenu = document.getElementById('readerVoiceMenu');
@@ -214,20 +257,29 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   document.getElementById('btnReadNewYoutube').addEventListener('click', () => {
     this._resetReadPage();
   });
-  document.getElementById('btnReadNewToolbar').addEventListener('click', () => {
-    this._resetReadPage();
-  });
-  document.getElementById('btnReaderLangBarToggle').addEventListener('click', () => {
-    const bar = document.getElementById('ytLangBar');
-    const btn = document.getElementById('btnReaderLangBarToggle');
-    const collapsed = bar.classList.toggle('yt-lang-collapsed');
-    btn.innerHTML = collapsed ? '&#9660;' : '&#9650;';
-    btn.title = collapsed ? 'Show settings bar' : 'Hide settings bar';
-  });
+  const readNewToolbarBtn = document.getElementById('btnReadNewToolbar');
+  if (readNewToolbarBtn) {
+    readNewToolbarBtn.addEventListener('click', () => {
+      this._resetReadPage();
+    });
+  }
+  const readerLangBarToggle = document.getElementById('btnReaderLangBarToggle');
+  if (readerLangBarToggle) {
+    readerLangBarToggle.addEventListener('click', () => {
+      const bar = document.getElementById('ytLangBar');
+      const btn = document.getElementById('btnReaderLangBarToggle');
+      const collapsed = bar.classList.toggle('yt-lang-collapsed');
+      btn.innerHTML = collapsed ? '&#9660;' : '&#9650;';
+      btn.title = collapsed ? 'Show settings bar' : 'Hide settings bar';
+    });
+  }
 
-  document.getElementById('btnReaderLangBtn').addEventListener('click', () => {
-    this._setReaderSettingsMode(true);
-  });
+  const readerLangBtn = document.getElementById('btnReaderLangBtn');
+  if (readerLangBtn) {
+    readerLangBtn.addEventListener('click', () => {
+      this._setReaderSettingsMode(true);
+    });
+  }
   document.getElementById('btnReaderLangClose').addEventListener('click', () => {
     this._setReaderSettingsMode(false);
   });

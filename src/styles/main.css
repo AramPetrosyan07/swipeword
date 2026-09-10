@@ -6391,3 +6391,17 @@ body.theme-dark .pdf-scroll-canvas {
   margin: 8px 0 16px;
   color: var(--success);
 }
+
+/* Settings Screen */
+.settings-container {
+  flex: 1;
+  padding: 24px 16px;
+  overflow-y: auto;
+}
+
+.settings-placeholder {
+  text-align: center;
+  color: var(--text-muted, #888);
+  font-size: 16px;
+  margin-top: 40px;
+}

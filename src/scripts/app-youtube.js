@@ -316,12 +316,16 @@ __appMixinYoutube['_showReadContent'] = function(sourceType, title, text, videoI
     const recPanel = document.getElementById('ytRecommendations');
     if (recPanel) recPanel.style.display = 'none';
     document.getElementById('readCollapsedBarYoutube').style.display = 'none';
-    document.getElementById('btnReadNewToolbar').style.display = '';
-    document.getElementById('btnReaderLangBarToggle').style.display = '';
+    const ytNewToolbar = document.getElementById('btnReadNewToolbar');
+    if (ytNewToolbar) ytNewToolbar.style.display = '';
     document.getElementById('readYoutubeArea').style.display = 'flex';
     document.getElementById('ytLangBar').classList.remove('yt-lang-collapsed');
-    document.getElementById('btnReaderLangBarToggle').innerHTML = '&#9650;';
-    document.getElementById('btnReaderLangBarToggle').title = 'Hide settings bar';
+    const ytLangBarToggle = document.getElementById('btnReaderLangBarToggle');
+    if (ytLangBarToggle) {
+      ytLangBarToggle.style.display = '';
+      ytLangBarToggle.innerHTML = '&#9650;';
+      ytLangBarToggle.title = 'Hide settings bar';
+    }
     this._applyLangPrefsToUI();
     const ytPlayerEl = document.getElementById('readYoutubePlayer');
     ytPlayerEl.style.height = '45%';
@@ -711,12 +715,15 @@ __appMixinYoutube['_resetReadPage'] = function() {
   ytPage.querySelector('.read-page-input').style.display = '';
   this._updateYoutubeRecommendations();
   document.getElementById('readCollapsedBarYoutube').style.display = 'none';
-  document.getElementById('btnReadNewToolbar').style.display = 'none';
-  document.getElementById('btnReaderLangBarToggle').style.display = 'none';
+  const ytResetNewToolbar = document.getElementById('btnReadNewToolbar');
+  if (ytResetNewToolbar) ytResetNewToolbar.style.display = 'none';
   document.getElementById('readYoutubeArea').style.display = 'none';
   document.getElementById('ytLangBar').classList.add('yt-lang-collapsed');
-  document.getElementById('btnReaderLangBarToggle').innerHTML = '&#9650;';
-  document.getElementById('btnReaderLangBarToggle').title = 'Hide settings bar';
+  const ytResetLangBarToggle = document.getElementById('btnReaderLangBarToggle');
+  if (ytResetLangBarToggle) {
+    ytResetLangBarToggle.innerHTML = '&#9650;';
+    ytResetLangBarToggle.title = 'Hide settings bar';
+  }
   document.getElementById('readYoutubePlayer').innerHTML = '';
   document.getElementById('readYoutubePlayer').style.height = '45%';
   document.getElementById('readYoutubeSubtitles').innerHTML = '';
