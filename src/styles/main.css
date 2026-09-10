@@ -3273,6 +3273,27 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   min-width: 0;
 }
 
+.pdf-main-row {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.pdf-main-col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.pdf-main-col > .pdf-text-panel,
+.pdf-main-col > .read-content-area {
+  flex: 1;
+  min-height: 0;
+}
+
 .translation-sidebar {
   width: 260px;
   flex-shrink: 0;

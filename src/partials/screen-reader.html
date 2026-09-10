@@ -26,6 +26,33 @@
           <button class="icon-btn reader-lang-close" id="btnReaderLangClose" title="Close language settings">&times;</button>
         </div>
         <div class="reader-toolbar-right">
+          <button class="btn btn-primary btn-sm" id="btnSavePdfFile" style="display:none;" title="Save annotations to PDF (Ctrl+S)">&#128190; Save PDF</button>
+          <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
+          <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
+          <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
+          <button class="icon-btn" id="btnReadAloud" title="Read Aloud (right-click to start)">&#128266;</button>
+          <span class="read-aloud-inline" id="readAloudInline" style="display:none;">
+            <button class="read-aloud-inline-btn" id="btnReadAloudPlay" title="Play / Pause">&#9654;</button>
+            <button class="read-aloud-inline-btn read-aloud-inline-stop" id="btnReadAloudStop" title="Stop">&#9632;</button>
+            <select id="readAloudLang" class="reader-lang-select read-aloud-inline-select" title="Reading language"></select>
+            <select id="readAloudVoice" class="reader-lang-select read-aloud-inline-select" title="Reading voice">
+              <option value="0">Andrew</option>
+              <option value="1">Brian</option>
+              <option value="2">Emma</option>
+              <option value="3">Ava</option>
+            </select>
+            <select id="readAloudSpeed" class="reader-lang-select read-aloud-inline-select read-aloud-speed-select" title="Reading speed">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+              <option value="2">2x</option>
+            </select>
+          </span>
+          <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#128249;</button>
+          <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
+          <button class="icon-btn" id="btnUpdateRestart" title="Update &amp; restart">&#8635;</button>
           <button class="icon-btn" id="btnReaderSettings" title="Settings">&#9881;</button>
           <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
         </div>
@@ -220,8 +247,14 @@
           <button class="btn btn-primary read-action-btn" id="btnReadPdf" disabled>Load &#9654;</button>
         </div>
 
-        <!-- Text Input Panel (inside PDF page) -->
-        <div class="pdf-text-panel" id="pdfTextPanel" style="display:none;">
+        <div class="pdf-tabs" id="pdfTabsBar" style="display:none;">
+          <div class="pdf-tabs-strip" id="pdfTabsStrip"></div>
+        </div>
+
+        <div class="pdf-main-row" id="pdfMainRow">
+          <div class="pdf-main-col" id="pdfMainCol">
+            <!-- Text Input Panel (inside PDF page) -->
+            <div class="pdf-text-panel" id="pdfTextPanel" style="display:none;">
           <div class="pdf-text-langbar" id="pdfTextLangbar">
             <span class="pdf-text-lang-label">From:</span>
             <select id="pdfTextSourceLang" class="pdf-text-lang-select" title="Source language (the language of the text)"></select>
@@ -269,40 +302,38 @@
             </div>
             <div class="pdf-text-view-body" id="pdfTextViewBody"></div>
           </div>
-        </div>
-
-        <div class="pdf-tabs" id="pdfTabsBar" style="display:none;">
-          <div class="pdf-tabs-strip" id="pdfTabsStrip"></div>
-        </div>
-        <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
-          <div class="pdf-split" id="pdfSplit">
-            <div class="pdf-viewer" id="pdfViewer">
-              <div class="pdf-viewer-scroll" id="pdfViewerScroll">
-                <div class="pdf-pages" id="pdfPages" style="display:none;"></div>
-              </div>
-              <div class="pdf-viewer-controls">
-                <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
-                <span class="pdf-page-info" id="pdfPageInfo">
-                  Page <span id="pdfPageNum">1</span> of <span id="pdfPageCount">1</span>
-                </span>
-                <button class="pdf-nav-btn" id="pdfNextPage" title="Next page">&#9654;</button>
-                <input type="range" class="pdf-page-slider" id="pdfPageSlider" min="1" max="1" value="1" title="Scroll pages quickly" />
-                <span class="pdf-zoom-separator"></span>
-                <button class="pdf-nav-btn pdf-zoom-btn" id="pdfZoomOut5" title="Zoom out 5%">&#8722;</button>
-                <span class="pdf-zoom-info" id="pdfZoomInfo">100%</span>
-                <button class="pdf-nav-btn pdf-zoom-btn" id="pdfZoomIn5" title="Zoom in 5%">&#43;</button>
-              </div>
-            </div>
-            <div class="translation-sidebar" id="translationSidebar" style="display:none;">
-              <div class="translation-sidebar-resizer" id="translationSidebarResizer" title="Drag to resize"></div>
-              <div class="translation-sidebar-header">
-                <span class="translation-sidebar-title">Saved Translations</span>
-                <span class="translation-sidebar-count" id="translationSidebarCount">0</span>
-              </div>
-              <div class="translation-sidebar-list" id="translationSidebarList"></div>
-            </div>
           </div>
-          <div class="read-text-view" id="readTextViewPdf" style="display:none;"></div>
+          <div class="read-content-area" id="readContentAreaPdf" style="display:none;">
+            <div class="pdf-split" id="pdfSplit">
+              <div class="pdf-viewer" id="pdfViewer">
+                <div class="pdf-viewer-scroll" id="pdfViewerScroll">
+                  <div class="pdf-pages" id="pdfPages" style="display:none;"></div>
+                </div>
+                <div class="pdf-viewer-controls">
+                  <button class="pdf-nav-btn" id="pdfPrevPage" title="Previous page">&#9664;</button>
+                  <span class="pdf-page-info" id="pdfPageInfo">
+                    Page <span id="pdfPageNum">1</span> of <span id="pdfPageCount">1</span>
+                  </span>
+                  <button class="pdf-nav-btn" id="pdfNextPage" title="Next page">&#9654;</button>
+                  <input type="range" class="pdf-page-slider" id="pdfPageSlider" min="1" max="1" value="1" title="Scroll pages quickly" />
+                  <span class="pdf-zoom-separator"></span>
+                  <button class="pdf-nav-btn pdf-zoom-btn" id="pdfZoomOut5" title="Zoom out 5%">&#8722;</button>
+                  <span class="pdf-zoom-info" id="pdfZoomInfo">100%</span>
+                  <button class="pdf-nav-btn pdf-zoom-btn" id="pdfZoomIn5" title="Zoom in 5%">&#43;</button>
+                </div>
+              </div>
+            </div>
+            <div class="read-text-view" id="readTextViewPdf" style="display:none;"></div>
+          </div>
+          </div>
+          <div class="translation-sidebar" id="translationSidebar" style="display:none;">
+            <div class="translation-sidebar-resizer" id="translationSidebarResizer" title="Drag to resize"></div>
+            <div class="translation-sidebar-header">
+              <span class="translation-sidebar-title">Saved Translations</span>
+              <span class="translation-sidebar-count" id="translationSidebarCount">0</span>
+            </div>
+            <div class="translation-sidebar-list" id="translationSidebarList"></div>
+          </div>
         </div>
       </div>
 

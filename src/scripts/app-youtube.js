@@ -763,4 +763,5 @@ __appMixinYoutube['_resetReadPage'] = function() {
   document.getElementById('pdfTextMainInput').value = '';
   this._updatePdfTextReadAloudButtons();
   document.getElementById('pdfTextPanel').style.display = 'none';
+  document.getElementById('translationSidebar').style.display = 'none';
 };

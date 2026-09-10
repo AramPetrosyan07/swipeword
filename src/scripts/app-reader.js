@@ -195,6 +195,7 @@ __appMixinReader['_showPdfTab'] = async function(index) {
   this._bindPdfLayers(sourceInfo);
   this._updateTranslationSidebarBtnVisibility();
   this._loadPdfSidebarWords();
+  this._applyTranslationSidebar(false);
 };
 
 __appMixinReader['_renderPdfTabs'] = function() {
@@ -459,6 +460,18 @@ __appMixinReader['_loadPdfSidebarWords'] = async function() {
   this._translationSidebarRender();
 };
 
+__appMixinReader['_loadPdfTextSidebarWords'] = async function() {
+  try {
+    const allWords = await appStore.loadSavedWords();
+    this._pdfSidebarWords = (allWords || [])
+      .filter((w) => w.sourceType === 'text')
+      .sort((a, b) => b.timestamp - a.timestamp);
+  } catch (e) {
+    this._pdfSidebarWords = [];
+  }
+  this._translationSidebarRender();
+};
+
 __appMixinReader['_translationSidebarRender'] = function() {
   const listEl = document.getElementById('translationSidebarList');
   const countEl = document.getElementById('translationSidebarCount');
@@ -473,7 +486,7 @@ __appMixinReader['_translationSidebarRender'] = function() {
   if (countEl) countEl.textContent = String(words.length);
   if (!listEl) return;
   if (words.length === 0) {
-    listEl.innerHTML = '<div class="translation-sidebar-empty">No saved words yet.<br>Select a word on the PDF and save it to see it here.</div>';
+    listEl.innerHTML = '<div class="translation-sidebar-empty">No saved words yet.<br>Select a word and save it to see it here.</div>';
     return;
   }
   listEl.innerHTML = words.map((w) => {
@@ -637,6 +650,7 @@ __appMixinReader['_pdfOpenLast'] = function() {
   if (this._pdfTabs.length > 0) {
     this._showPdfTab(Math.max(0, this._pdfActiveTab));
   } else {
+    document.getElementById('translationSidebar').style.display = 'none';
     const page = document.getElementById('read-page-pdf');
     page.querySelector('.read-page-input').style.display = '';
     document.getElementById('pdfLibrary').style.display = 'none';
@@ -656,6 +670,7 @@ __appMixinReader['_syncPdfSidebarButtons'] = function() {
 
 __appMixinReader['_pdfShowViewer'] = function() {
   document.getElementById('pdfTextPanel').style.display = 'none';
+  document.getElementById('translationSidebar').style.display = 'none';
   document.getElementById('read-page-pdf').querySelector('.read-page-input').style.display = 'none';
   document.getElementById('pdfTabsBar').style.display = 'none';
   document.getElementById('readContentAreaPdf').style.display = 'none';
@@ -1056,6 +1071,8 @@ __appMixinReader['_loadTextContent'] = function() {
   this._applyPdfTextLangPrefs();
   this.translationPopup.bindToContainer(body, sourceInfo);
   this._updateTranslationSidebarBtnVisibility();
+  this._applyTranslationSidebar(false);
+  this._loadPdfTextSidebarWords();
 };
 
 __appMixinReader['_pdfTextHighlight'] = function(idx) {
@@ -1127,6 +1144,9 @@ __appMixinReader['_showTextPanel'] = function() {
   document.getElementById('readTextViewPdf').style.display = 'none';
   document.getElementById('pdfTextPanel').style.display = '';
   this._populatePdfTextLangSelects();
+  this._updateTranslationSidebarBtnVisibility();
+  this._applyTranslationSidebar(false);
+  this._loadPdfTextSidebarWords();
   const editor = document.getElementById('pdfTextEditorSection');
   const view = document.getElementById('pdfTextView');
   if (this._pdfTextSourceText) {
