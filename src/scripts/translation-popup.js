@@ -15,6 +15,7 @@ class TranslationPopup {
     this._cache = new Map();
     this._boundContainers = new WeakSet();
     this._containerSources = new WeakMap();
+    this._selectedTranslations = new Map();
     this.onSave = null;
     this._languages = { from: 'en' };
     this._targetLangs = ['hy', 'ru'];
@@ -56,6 +57,12 @@ class TranslationPopup {
       } else if (right) {
         this._speakWord(right.dataset.text, right.dataset.lang);
       }
+    });
+    this._bodyEl.addEventListener('contextmenu', (e) => {
+      const chip = e.target.closest('.rw-word-chip[data-index]');
+      if (!chip) return;
+      e.preventDefault();
+      this._toggleChipSelection(chip);
     });
   }
 
@@ -391,28 +398,73 @@ class TranslationPopup {
     this._bodyEl.innerHTML = this._targetLangs.map(lang => {
       const label = this._langNames[lang] || lang;
       const val = translations[lang];
+      const values = Array.isArray(val)
+        ? val.filter(v => v && v !== '—')
+        : ((val && val !== '—') ? [val] : []);
       let wordsHtml;
-      if (Array.isArray(val)) {
-        wordsHtml = val.filter(v => v && v !== '—').map(v => {
+      if (values.length === 0) {
+        wordsHtml = '<span class="rw-word-ellipsis">...</span>';
+      } else {
+        wordsHtml = values.map((v, i) => {
           const safe = v.replace(/"/g, '&quot;').replace(/</g, '&lt;');
-          return `<span class="rw-word-chip">
+          return `<span class="rw-word-chip" data-lang="${lang}" data-index="${i}" title="Right-click to select for saving">
             <span class="rw-word-tts" data-text="${safe}" data-lang="${lang}" title="Listen">&#9654;</span>
             <span class="rw-word-copy" data-text="${safe}" title="Click to copy">${v}</span>
           </span>`;
         }).join('');
-      } else {
-        const safe = (val || '...').replace(/"/g, '&quot;').replace(/</g, '&lt;');
-        wordsHtml = `<span class="rw-word-chip">
-          <span class="rw-word-tts" data-text="${safe}" data-lang="${lang}" title="Listen">&#9654;</span>
-          <span class="rw-word-copy" data-text="${safe}" title="Click to copy">${val || '...'}</span>
-        </span>`;
       }
       return `<div class="reader-translate-row" data-lang="${lang}">
         <span class="reader-translate-label">${label}:</span>
         <span class="reader-translate-values">${wordsHtml}</span>
       </div>`;
     }).join('');
+    this._defaultSelectFirst();
+    this._syncSelectedChips();
     this._fitToViewport();
+  }
+
+  _defaultSelectFirst() {
+    this._bodyEl.querySelectorAll('.reader-translate-row[data-lang]').forEach(row => {
+      const lang = row.dataset.lang;
+      if (this._selectedTranslations.has(lang)) return;
+      if (row.querySelector('.rw-word-chip[data-index]')) {
+        this._selectedTranslations.set(lang, new Set([0]));
+      }
+    });
+  }
+
+  _syncSelectedChips() {
+    const sel = this._selectedTranslations;
+    this._bodyEl.querySelectorAll('.rw-word-chip[data-index]').forEach(chip => {
+      const index = parseInt(chip.dataset.index, 10);
+      const isSelected = !!(sel.get(chip.dataset.lang) || new Set()).has(index);
+      chip.classList.toggle('selected', isSelected);
+    });
+  }
+
+  _toggleChipSelection(chip) {
+    const lang = chip.dataset.lang;
+    const index = parseInt(chip.dataset.index, 10);
+    const set = this._selectedTranslations.get(lang) || new Set();
+    if (set.has(index)) {
+      set.delete(index);
+    } else {
+      set.add(index);
+    }
+    this._selectedTranslations.set(lang, set);
+    this._syncSelectedChips();
+  }
+
+  _selectedValuesFor(lang, values) {
+    const list = Array.isArray(values)
+      ? values.filter(v => v && v !== '—')
+      : ((values && values !== '—') ? [values] : []);
+    if (list.length === 0) return '';
+    const set = this._selectedTranslations.get(lang) || new Set();
+    const indices = set.size > 0
+      ? Array.from(set).sort((a, b) => a - b).filter(i => i >= 0 && i < list.length)
+      : [0];
+    return indices.map(i => list[i]).filter(Boolean).join(', ');
   }
 
   bindToContainer(container, sourceInfo) {
@@ -491,6 +543,7 @@ class TranslationPopup {
     this._currentWord = word;
     this._currentContext = context;
     this._currentSource = sourceInfo || {};
+    this._selectedTranslations.clear();
     this._pdfPage = this._resolvePdfPage(targetEl, words);
     this._currentTimestamp = 0;
     this._pdfAnchorRect = null;
@@ -655,8 +708,8 @@ class TranslationPopup {
     const entry = {
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
       word: lower,
-      translation: Array.isArray(firstVal) ? firstVal[0] || '' : firstVal || '',
-      russian: Array.isArray(secondVal) ? secondVal[0] || '' : secondVal || '',
+      translation: this._selectedValuesFor(firstLang, firstVal),
+      russian: this._selectedValuesFor(secondLang, secondVal),
       transliteration: '',
       translationLang: firstLang,
       russianLang: secondLang,

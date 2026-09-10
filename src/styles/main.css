@@ -2630,6 +2630,20 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.rw-word-ellipsis {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.rw-word-chip[data-index] {
+  cursor: context-menu;
+}
+
+.rw-word-chip.selected {
+  border-width: 0.5px;
+  border-color: var(--primary);
+}
+
 .reader-translate-actions {
   display: flex;
   justify-content: flex-end;
