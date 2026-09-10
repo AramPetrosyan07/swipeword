@@ -748,4 +748,8 @@ __appMixinYoutube['_resetReadPage'] = function() {
   document.getElementById('readTextViewPdf').innerHTML = '';
   document.getElementById('readTextViewPdf').style.display = 'none';
   document.getElementById('pdfLibrary').style.display = '';
+
+  document.getElementById('textInputArea').style.display = '';
+  document.getElementById('textReaderContainer').style.display = 'none';
+  document.getElementById('textMainInput').value = '';
 };

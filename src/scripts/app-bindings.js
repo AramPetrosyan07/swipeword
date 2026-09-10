@@ -465,6 +465,22 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     document.getElementById('readerTranslatePopup').style.display = 'none';
   });
 
+  document.getElementById('btnTextLoad').addEventListener('click', () => {
+    this._loadTextContent();
+  });
+  document.getElementById('btnTextClear').addEventListener('click', () => {
+    document.getElementById('textMainInput').value = '';
+  });
+  document.getElementById('btnTextBack').addEventListener('click', () => {
+    this._showTextEditor();
+  });
+  document.getElementById('textMainInput').addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+      e.preventDefault();
+      this._loadTextContent();
+    }
+  });
+
   document.addEventListener('click', (e) => {
     const popup = document.getElementById('readerTranslatePopup');
     if (popup.style.display !== 'none' && !popup.contains(e.target) && !e.target.closest('.rw-word') && !popup.dataset.justOpened) {

@@ -6405,3 +6405,92 @@ body.theme-dark .pdf-scroll-canvas {
   font-size: 16px;
   margin-top: 40px;
 }
+
+/* Text Input Page */
+.text-input-page {
+  flex: 1;
+  overflow-y: auto;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 22px 48px;
+}
+
+.text-input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.text-input-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.text-input-textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.15);
+}
+
+.text-input-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.text-reader-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.text-reader-title {
+  font-size: 14px;
+  color: var(--text-muted, #888);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-reader-content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 26px;
+  font-size: 17px;
+  line-height: 1.9;
+  user-select: text;
+}
+
+.text-reader-content p {
+  margin: 0 0 14px;
+}
+
+.text-reader-content .rw-word {
+  position: relative;
+  display: inline;
+  border-radius: 3px;
+  padding: 1px 2px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.text-reader-content .rw-word:hover {
+  background: rgba(108, 99, 255, 0.12);
+}
+
+.text-reader-content .rw-word.selected {
+  background: rgba(108, 99, 255, 0.25);
+}

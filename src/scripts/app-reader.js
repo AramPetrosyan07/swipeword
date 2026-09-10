@@ -33,6 +33,10 @@ __appMixinReader['_openReadPage'] = function(mode) {
   if (mode === 'textpractice' && typeof textPractice !== 'undefined') {
     textPractice.open();
   }
+
+  if (mode === 'text') {
+    this._showTextEditor();
+  }
 };
 
 __appMixinReader['_setPdfViewMode'] = function(view) {
@@ -985,4 +989,33 @@ __appMixinReader['_escapeHtml'] = function(str) {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
+};
+
+__appMixinReader['_loadTextContent'] = function() {
+  const textarea = document.getElementById('textMainInput');
+  const text = (textarea.value || '').trim();
+  if (!text) return;
+
+  const inputArea = document.getElementById('textInputArea');
+  const readerContainer = document.getElementById('textReaderContainer');
+  const contentEl = document.getElementById('textReaderContent');
+  const titleEl = document.getElementById('textReaderTitle');
+
+  inputArea.style.display = 'none';
+  readerContainer.style.display = '';
+  titleEl.textContent = text.slice(0, 60) + (text.length > 60 ? '...' : '');
+
+  contentEl.innerHTML = WordWrapper.wrap(text);
+
+  const sourceInfo = { type: 'text', title: 'Custom Text', id: Date.now().toString(36) };
+  this._readSourceInfo = sourceInfo;
+  this._applyReaderLangPrefs();
+  this.translationPopup.bindToContainer(contentEl, sourceInfo);
+};
+
+__appMixinReader['_showTextEditor'] = function() {
+  const inputArea = document.getElementById('textInputArea');
+  const readerContainer = document.getElementById('textReaderContainer');
+  inputArea.style.display = '';
+  readerContainer.style.display = 'none';
 };
