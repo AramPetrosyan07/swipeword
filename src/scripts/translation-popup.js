@@ -359,7 +359,33 @@ class TranslationPopup {
     } catch (e) {
       console.warn('TTS fallback failed:', e);
     }
+    if (window.speechSynthesis) {
+      try {
+        await this._speechSynthesis(text, lang);
+        return;
+      } catch (e) {
+        console.warn('Web Speech TTS failed:', e);
+      }
+    }
     this._showTtsNotice(`TTS unavailable for ${this._langNames[lang] || lang}`, 'error');
+  }
+
+  _speechSynthesis(text, lang) {
+    return new Promise((resolve, reject) => {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang || 'en-US';
+      const short = (lang || '').split('-')[0].toLowerCase();
+      const voices = window.speechSynthesis.getVoices();
+      const matched = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(short));
+      if (matched) utterance.voice = matched;
+      utterance.rate = 1;
+      utterance.pitch = 1;
+      utterance.onend = resolve;
+      utterance.onerror = reject;
+      window.speechSynthesis.speak(utterance);
+      setTimeout(resolve, 4000);
+    });
   }
 
   _showTtsNotice(msg, type) {

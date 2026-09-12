@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain, dialog, Menu, shell, nativeImage } = requir
 const path = require("path");
 const fs = require("fs");
 const http = require("http");
+const crypto = require("crypto");
 
 const MIME_TYPES = {
   ".html": "text/html",
@@ -505,14 +506,16 @@ ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) =>
   }
 });
 
-// --- TTS (Microsoft Edge TTS via edge-tts Python CLI) ---
+// --- TTS (edge-tts CLI, then pure-JS Edge TTS via WebSocket, then Google TTS) ---
 const { spawn, execSync } = require("child_process");
 
 let _edgeTTSPath = "edge-tts";
+let _edgeTTSAvailable = false;
 try {
   _edgeTTSPath = execSync("where edge-tts", { encoding: "utf-8" }).trim().split("\n")[0].trim();
+  _edgeTTSAvailable = true;
 } catch (_) {
-  // fallback: keep "edge-tts" and hope it's in PATH
+  // edge-tts not installed; the app falls back to the pure-JS Edge TTS and Google TTS engines
 }
 
 // 4 voice personas per language: [Male1, Male2, Female1, Female2].
@@ -579,6 +582,7 @@ const _ttsCache = new Map();
 const _ttsPending = new Map();
 
 async function _edgeTTS(text, lang, voiceIndex) {
+  if (!_edgeTTSAvailable) throw new Error("edge-tts is not installed");
   const voice = _ttsVoiceFor(lang, voiceIndex);
   const cacheKey = `${text}|${voice}`;
   if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
@@ -637,13 +641,139 @@ async function _edgeTTS(text, lang, voiceIndex) {
   }
   throw lastErr;
 }
+// --- Pure-JS Edge TTS (Microsoft online service via WebSocket, no Python) ---
+const _msTtsToken = "6A5AA1D4EAFF4E9FB37E23D68491D6F4";
+const _msTtsGecVersion = "1-143.0.3650.96";
+
+function _msTtsSecMsGec() {
+  const ticks = Math.floor(Date.now() / 1000) + 11644473600;
+  const rounded = ticks - (ticks % 300);
+  const windowsTicks = rounded * 10000000;
+  return crypto.createHash("sha256").update(`${windowsTicks}${_msTtsToken}`).digest("hex").toUpperCase();
+}
+
+function _ttsEscapeXml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function _edgeTTSJS(text, lang, voiceIndex) {
+  const voice = _ttsVoiceFor(lang, voiceIndex);
+  const trimmed = (text || "").trim();
+  if (!trimmed) return Promise.reject(new Error("TTS called with empty text"));
+
+  return new Promise((resolve, reject) => {
+    const connId = crypto.randomUUID();
+    const url =
+      "wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?" +
+      `TrustedClientToken=${_msTtsToken}&Sec-MS-GEC=${_msTtsSecMsGec()}` +
+      `&Sec-MS-GEC-Version=${_msTtsGecVersion}&ConnectionId=${connId}`;
+
+    let ws;
+    try {
+      ws = new WebSocket(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0",
+          "Origin": "chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold",
+        },
+      });
+    } catch (e) {
+      reject(new Error(`Edge TTS WebSocket init failed: ${e.message}`));
+      return;
+    }
+    ws.binaryType = "arraybuffer";
+
+    const audioChunks = [];
+    const reqId = crypto.randomUUID();
+    let settled = false;
+    let timer = null;
+
+    const finish = (err, buf) => {
+      if (settled) return;
+      settled = true;
+      if (timer) clearTimeout(timer);
+      try { ws.close(); } catch {}
+      if (err) reject(err);
+      else resolve(buf.toString("base64"));
+    };
+    timer = setTimeout(() => {
+      finish(new Error("Edge TTS (JS) timeout"));
+    }, 15000);
+
+    ws.addEventListener("open", () => {
+      const ts = new Date().toUTCString();
+      ws.send(
+        `X-Timestamp:${ts}\r\n` +
+          "Content-Type:application/json; charset=utf-8\r\n" +
+          "Path:speech.config\r\n\r\n" +
+          '{"context":{"synthesis":{"audio":{"metadataoptions":{"sentenceBoundaryEnabled":false,"wordBoundaryEnabled":true},"outputFormat":"audio-24khz-48kbitrate-mono-mp3"}}}}',
+      );
+      const ssml =
+        `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>` +
+        `<voice name='${voice}'><prosody pitch='+0Hz' rate='+0%' volume='+0%'>${_ttsEscapeXml(trimmed)}</prosody></voice></speak>`;
+      ws.send(
+        `X-RequestId:${reqId}\r\n` +
+          "Content-Type:application/ssml+xml\r\n" +
+          `X-Timestamp:${ts}\r\n` +
+          "Path:ssml\r\n\r\n" +
+          ssml,
+      );
+    });
+
+    ws.addEventListener("message", (event) => {
+      const data = Buffer.from(event.data);
+      const str = data.toString("utf8");
+      if (str.includes("Path:audio")) {
+        const needle = Buffer.from("Path:audio\r\n");
+        const idx = data.indexOf(needle);
+        if (idx !== -1) audioChunks.push(data.subarray(idx + needle.length));
+      } else if (str.includes("Path:turn.end")) {
+        const mp3 = Buffer.concat(audioChunks);
+        if (mp3.length > 0) finish(null, mp3);
+        else finish(new Error("No audio data received from Edge TTS (JS)"));
+      }
+    });
+
+    ws.addEventListener("error", () => {
+      finish(new Error("Edge TTS (JS) WebSocket error"));
+    });
+  });
+}
+
+// Final fallback: Google Translate TTS (pure JS, no installs).
+async function _googleTTS(text, lang) {
+  const trimmed = (text || "").trim();
+  if (!trimmed) throw new Error("TTS called with empty text");
+  const fallbackLang = (lang || "en").split("-")[0];
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${encodeURIComponent(fallbackLang)}&q=${encodeURIComponent(trimmed)}`;
+  const resp = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" },
+  });
+  if (!resp.ok) throw new Error(`Google TTS HTTP ${resp.status}`);
+  const buffer = Buffer.from(await resp.arrayBuffer());
+  if (buffer.length < 100) throw new Error("No audio data received from Google TTS");
+  return buffer.toString("base64");
+}
+
 ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
-  try {
-    const audio = await _edgeTTS(text, lang, voice);
-    return { success: true, audio };
-  } catch (e) {
-    return { success: false, error: e.message };
+  const attempts = [];
+  if (_edgeTTSAvailable) attempts.push(() => _edgeTTS(text, lang, voice));
+  attempts.push(() => _edgeTTSJS(text, lang, voice));
+  attempts.push(() => _googleTTS(text, lang));
+  let lastError = "TTS unavailable";
+  for (const attempt of attempts) {
+    try {
+      return { success: true, audio: await attempt() };
+    } catch (e) {
+      lastError = e.message;
+    }
   }
+  return { success: false, error: lastError };
 });
 
 // --- YouTube Captions ---
