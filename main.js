@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, dialog, Menu, shell, nativeImage } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu, shell, nativeImage, clipboard } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const http = require("http");
@@ -982,6 +982,10 @@ function saveDictionaryFile(data) {
 
 ipcMain.handle("dictionary:load", async () => {
   return loadDictionaryFile();
+});
+
+ipcMain.handle("clipboard:read", async () => {
+  return clipboard.readText();
 });
 
 ipcMain.handle("dictionary:add", async (_event, entry) => {
