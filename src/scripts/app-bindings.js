@@ -25,7 +25,8 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
 
   document.getElementById('btnReaderSettings').addEventListener('click', () => {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
-    document.getElementById('screen-settings').classList.add('active');
+    const target = this._readCurrentPage === 'pdf' ? 'screen-settings' : 'screen-settings-home';
+    document.getElementById(target).classList.add('active');
   });
 
   document.getElementById('btnSettingsBack').addEventListener('click', () => {
@@ -33,9 +34,21 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     document.getElementById('screen-reader').classList.add('active');
   });
 
+  document.getElementById('btnSettingsHomeBack').addEventListener('click', () => {
+    document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+    document.getElementById('screen-reader').classList.add('active');
+  });
+
   const createRunFileBtn = document.getElementById('btnCreateRunFile');
   if (createRunFileBtn) {
     createRunFileBtn.addEventListener('click', () => {
+      this._createRunFile();
+    });
+  }
+
+  const createRunFileHomeBtn = document.getElementById('btnCreateRunFileHome');
+  if (createRunFileHomeBtn) {
+    createRunFileHomeBtn.addEventListener('click', () => {
       this._createRunFile();
     });
   }
