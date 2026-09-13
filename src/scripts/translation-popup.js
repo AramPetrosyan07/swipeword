@@ -6,6 +6,7 @@ class TranslationPopup {
     this._bodyEl = this._popup.querySelector('.reader-translate-body');
     this._saveBtn = document.getElementById('btnReaderAddWord');
     this._closeBtn = document.getElementById('btnReaderTranslateClose');
+    this._speakBtn = document.getElementById('btnReaderSpeakWord');
     this._currentWord = null;
     this._currentContext = '';
     this._currentSource = null;
@@ -40,6 +41,12 @@ class TranslationPopup {
 
     this._closeBtn.addEventListener('click', () => this.hide());
     this._saveBtn.addEventListener('click', () => this._save());
+    this._speakBtn.addEventListener('click', () => {
+      if (this._currentWord) {
+        const lang = this._langSpeechMap[this._languages.from] || 'en-US';
+        this._speakWord(this._currentWord, lang);
+      }
+    });
     this._wordEl.addEventListener('click', () => {
       if (this._wordEl.textContent) this._copyWord(this._wordEl.textContent);
     });

@@ -563,7 +563,10 @@
         <!-- Translation Popup (shared across all reader modes) -->
         <div class="reader-translate-popup" id="readerTranslatePopup" style="display:none;">
           <div class="reader-translate-header">
-            <span class="reader-translate-word" id="readerTranslateWord"></span>
+            <span class="reader-translate-word-row">
+              <button class="reader-translate-speak-btn" id="btnReaderSpeakWord" title="Pronounce this word">&#128266;</button>
+              <span class="reader-translate-word" id="readerTranslateWord"></span>
+            </span>
             <button class="icon-btn reader-translate-close" id="btnReaderTranslateClose">&times;</button>
           </div>
           <div class="reader-translate-body">
