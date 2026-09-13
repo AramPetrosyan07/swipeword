@@ -59,8 +59,9 @@ class App {
     this.translationPopup.onSave = () => {
       if (this._readSourceInfo && this._readSourceInfo.type === 'youtube') {
         this._renderYoutubeSavedWords();
-      }
-      if (this._readCurrentPage === 'pdf') {
+      } else if (this._readSourceInfo && this._readSourceInfo.type === 'text') {
+        this._loadPdfTextSidebarWords();
+      } else if (this._readCurrentPage === 'pdf') {
         this._loadPdfSidebarWords();
       }
     };
