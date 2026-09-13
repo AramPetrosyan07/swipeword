@@ -1054,7 +1054,7 @@ __appMixinReader['_loadTextContent'] = function() {
   const editor = document.getElementById('pdfTextEditorSection');
   const view = document.getElementById('pdfTextView');
   editor.style.display = 'none';
-  view.style.display = 'block';
+  view.style.display = 'flex';
 
   const { sentences, html } = this._wrapTextInSentences(text);
   const body = document.getElementById('pdfTextViewBody');
@@ -1151,7 +1151,7 @@ __appMixinReader['_showTextPanel'] = function() {
   const view = document.getElementById('pdfTextView');
   if (this._pdfTextSourceText) {
     editor.style.display = 'none';
-    view.style.display = 'block';
+    view.style.display = 'flex';
   } else {
     editor.style.display = '';
     view.style.display = 'none';
