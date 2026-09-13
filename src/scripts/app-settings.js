@@ -251,6 +251,114 @@ __appMixinSettings['_applyReaderLangPrefs'] = function() {
   this.translationPopup.setLanguages(this._pdfSourceLang, [this._pdfTargetLang], this._pdfWordCount);
 };
 
+__appMixinSettings['_getMarkSavedPrefs'] = function() {
+  if (this._markSavedPrefs) return this._markSavedPrefs;
+  try {
+    const raw = localStorage.getItem('pdf-mark-saved-prefs');
+    if (raw) {
+      const p = JSON.parse(raw);
+      this._markSavedPrefs = {
+        enabled: !!p.enabled,
+        style: p.style === 'highlight' ? 'highlight' : 'underline',
+        color: p.color || '#64b5f6',
+      };
+      return this._markSavedPrefs;
+    }
+  } catch (e) {}
+  this._markSavedPrefs = { enabled: true, style: 'underline', color: '#64b5f6' };
+  return this._markSavedPrefs;
+};
+
+__appMixinSettings['_saveMarkSavedPrefs'] = function(prefs) {
+  this._markSavedPrefs = prefs;
+  try {
+    localStorage.setItem('pdf-mark-saved-prefs', JSON.stringify(prefs));
+  } catch (e) {}
+};
+
+__appMixinSettings['_applyMarkSavedPrefsToUI'] = function() {
+  const prefs = this._getMarkSavedPrefs();
+  const toggle = document.getElementById('pdfMarkSavedEnabled');
+  const color = document.getElementById('pdfMarkSavedColor');
+  const styleWrap = document.getElementById('pdfMarkSavedStyleWrap');
+  if (toggle) toggle.checked = prefs.enabled;
+  if (color) color.value = prefs.color;
+  const radios = document.querySelectorAll('input[name="pdfMarkSavedStyle"]');
+  radios.forEach((r) => { r.checked = r.value === prefs.style; });
+  if (styleWrap) styleWrap.classList.toggle('disabled', !prefs.enabled);
+};
+
+__appMixinSettings['_bindMarkSavedPrefsEvents'] = function() {
+  const toggle = document.getElementById('pdfMarkSavedEnabled');
+  const color = document.getElementById('pdfMarkSavedColor');
+  const styleWrap = document.getElementById('pdfMarkSavedStyleWrap');
+  const radios = document.querySelectorAll('input[name="pdfMarkSavedStyle"]');
+
+  if (toggle) {
+    toggle.addEventListener('change', () => {
+      const prefs = this._getMarkSavedPrefs();
+      prefs.enabled = toggle.checked;
+      this._saveMarkSavedPrefs(prefs);
+      if (styleWrap) styleWrap.classList.toggle('disabled', !prefs.enabled);
+    });
+  }
+  radios.forEach((r) => {
+    r.addEventListener('change', () => {
+      if (!r.checked) return;
+      const prefs = this._getMarkSavedPrefs();
+      prefs.style = r.value;
+      this._saveMarkSavedPrefs(prefs);
+    });
+  });
+  if (color) {
+    color.addEventListener('input', () => {
+      const prefs = this._getMarkSavedPrefs();
+      prefs.color = color.value;
+      this._saveMarkSavedPrefs(prefs);
+    });
+  }
+};
+
+__appMixinSettings['_markSavedWordsInPdf'] = function(words) {
+  const prefs = this._getMarkSavedPrefs();
+  if (!prefs.enabled) return;
+  if (!words || words.length === 0) return;
+
+  const docKey =
+    (this._readSourceInfo && this._readSourceInfo.title) ||
+    (this._pdfTabs && this._pdfTabs[this._pdfActiveTab] && (this._pdfTabs[this._pdfActiveTab].path || this._pdfTabs[this._pdfActiveTab].name)) ||
+    null;
+  if (!docKey) return;
+
+  const annots = appStore.getPdfAnnotations(docKey);
+  const color = prefs.color || '#64b5f6';
+
+  words.forEach((w) => {
+    const p = w.dataset && w.dataset.page;
+    const widx = w.dataset && w.dataset.widx;
+    if (p === undefined || widx === undefined) return;
+    const key = `${p}_${widx}`;
+    const existing = annots[key] || { page: parseInt(p, 10), widx: parseInt(widx, 10), word: w.dataset.word || w.textContent };
+    const updated = { ...existing };
+
+    if (prefs.style === 'highlight') {
+      updated.color = color;
+      updated.underline = null;
+      delete updated.underlineColor;
+    } else {
+      updated.underline = 'straight';
+      updated.underlineColor = color;
+      updated.color = null;
+    }
+
+    appStore.setPdfAnnotation(docKey, key, updated);
+  });
+
+  if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+    readerMode.refreshAllAnnotations();
+  }
+};
+
 __appMixinSettings['_createRunFile'] = async function() {
   if (!window.electronAPI || !window.electronAPI.createRunFile) return;
   const btn = document.getElementById('btnCreateRunFile');

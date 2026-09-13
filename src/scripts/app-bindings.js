@@ -46,6 +46,9 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     });
   }
 
+  this._applyMarkSavedPrefsToUI();
+  this._bindMarkSavedPrefsEvents();
+
   const createRunFileHomeBtn = document.getElementById('btnCreateRunFileHome');
   if (createRunFileHomeBtn) {
     createRunFileHomeBtn.addEventListener('click', () => {

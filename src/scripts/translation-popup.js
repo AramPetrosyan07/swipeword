@@ -753,6 +753,10 @@ class TranslationPopup {
     try {
       const result = await window.electronAPI.dictionaryAdd(entry);
       if (result && result.success) {
+        if (this._currentSource && this._currentSource.type === 'pdf' &&
+            typeof app !== 'undefined' && typeof app._markSavedWordsInPdf === 'function') {
+          app._markSavedWordsInPdf(this._targetWords);
+        }
         appStore.invalidateSavedWordsCache();
         if (this.onSave) this.onSave(entry);
         this.hide();

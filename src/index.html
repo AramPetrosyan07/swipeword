@@ -934,7 +934,29 @@
         <div></div>
       </div>
       <div class="settings-container">
-        <p class="settings-placeholder">PDF settings will appear here.</p>
+        <div class="settings-section">
+          <div class="settings-row">
+            <label class="settings-row-label" for="pdfMarkSavedEnabled">Mark saved words in PDF</label>
+            <label class="mark-switch">
+              <input type="checkbox" id="pdfMarkSavedEnabled" />
+              <span class="mark-switch-slider"></span>
+            </label>
+          </div>
+          <div class="settings-row-group" id="pdfMarkSavedStyleWrap">
+            <div class="settings-row">
+              <span class="settings-row-label">Style</span>
+              <div class="settings-seg">
+                <label class="settings-seg-opt"><input type="radio" name="pdfMarkSavedStyle" value="underline" checked /> Underline</label>
+                <label class="settings-seg-opt"><input type="radio" name="pdfMarkSavedStyle" value="highlight" /> Highlight</label>
+              </div>
+            </div>
+            <div class="settings-row">
+              <label class="settings-row-label" for="pdfMarkSavedColor">Color</label>
+              <input type="color" id="pdfMarkSavedColor" value="#64b5f6" />
+            </div>
+            <p class="settings-hint">When you save a translated word or sentence from this PDF, it will be marked automatically.</p>
+          </div>
+        </div>
         <div class="settings-launcher">
           <button class="btn btn-primary" id="btnCreateRunFile">Create Launcher File</button>
         </div>
