@@ -810,20 +810,15 @@ class ReaderMode {
     this.readAloudStop();
   }
 
-  async _extractAllSentences() {
+  async _extractPageSentences(num) {
     if (!this.pdfDoc) return [];
-    const sentences = [];
-    for (let i = 1; i <= this.pageCount; i++) {
-      const text = await this.getPageText(i);
-      if (!text) continue;
-      const pageStart = sentences.length;
-      const parts = text.split(/(?<=[.!?])\s+/);
-      for (const part of parts) {
-        const trimmed = part.trim();
-        if (trimmed) sentences.push({ text: trimmed, page: i, pageStart });
-      }
-    }
-    return sentences;
+    const text = await this.getPageText(num);
+    if (!text) return [];
+    return text
+      .split(/(?<=[.!?])\s+/)
+      .map((part) => part.trim())
+      .filter(Boolean)
+      .map((trimmed) => ({ text: trimmed, page: num }));
   }
 
   _findSentenceForWord(wordText, sentences, clickedPage, clickedEl) {
@@ -975,7 +970,23 @@ class ReaderMode {
       this._readAloudAudio.pause();
       this._readAloudAudio = null;
     }
-    this._readAloudSentences = await this._extractAllSentences();
+    this._readAloudSentences = [];
+    // Speak from the clicked page only: parse it, resolve the start sentence,
+    // and start playing right away instead of waiting for the whole book.
+    let start = clickedPage > 0 ? clickedPage : 1;
+    for (const s of await this._extractPageSentences(start)) {
+      s.pageStart = this._readAloudSentences.length;
+      this._readAloudSentences.push(s);
+    }
+    if (!this._readAloudSentences.length && clickedPage > 1) {
+      for (let i = 1; i < clickedPage; i++) {
+        for (const s of await this._extractPageSentences(i)) {
+          s.pageStart = this._readAloudSentences.length;
+          this._readAloudSentences.push(s);
+        }
+        if (this._readAloudSentences.length) break;
+      }
+    }
     if (!this._readAloudSentences.length) return;
     if (token !== this._readAloudToken) return;
     this._readAloudIdx = this._findSentenceForWord(wordText, this._readAloudSentences, this._readAloudClickedPage, clickedEl);
@@ -983,7 +994,21 @@ class ReaderMode {
     this._readAloudClickedEl = clickedEl;
     this._readAloudActive = true;
     this._readAloudPaused = false;
+    this._readAloudQueued = null;
+    this._readAloudStreamRemaining(start + 1, token);
     this._readAloudSpeakCurrent(token);
+  }
+
+  async _readAloudStreamRemaining(startPage, token) {
+    for (let i = startPage; i <= this.pageCount; i++) {
+      if (token !== this._readAloudToken) return;
+      const sents = await this._extractPageSentences(i);
+      if (token !== this._readAloudToken) return;
+      for (const s of sents) {
+        s.pageStart = this._readAloudSentences.length;
+        this._readAloudSentences.push(s);
+      }
+    }
   }
 
   async _readAloudSpeakCurrent(token) {
