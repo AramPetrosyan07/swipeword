@@ -501,6 +501,67 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     }
   });
 
+  const readerCtxMenu = document.getElementById('readerContextMenu');
+  const readerCtxPaste = document.getElementById('readerCtxPaste');
+  let readerCtxTargetEl = null;
+  const hideReaderCtxMenu = () => {
+    if (readerCtxMenu) readerCtxMenu.style.display = 'none';
+    readerCtxTargetEl = null;
+  };
+  document.getElementById('pdfTextMainInput').addEventListener('contextmenu', (e) => {
+    if (!readerCtxMenu) return;
+    e.preventDefault();
+    readerCtxTargetEl = e.target;
+    readerCtxMenu.style.display = 'block';
+    const mw = readerCtxMenu.offsetWidth;
+    const mh = readerCtxMenu.offsetHeight;
+    let left = e.clientX;
+    let top = e.clientY;
+    if (left + mw > window.innerWidth - 8) left = window.innerWidth - mw - 8;
+    if (top + mh > window.innerHeight - 8) top = window.innerHeight - mh - 8;
+    readerCtxMenu.style.left = left + 'px';
+    readerCtxMenu.style.top = top + 'px';
+  });
+  if (readerCtxPaste) {
+    readerCtxPaste.addEventListener('click', async () => {
+      const el = readerCtxTargetEl || document.getElementById('pdfTextMainInput');
+      hideReaderCtxMenu();
+      if (!el) return;
+      try {
+        el.focus();
+        const pasted = document.execCommand('paste');
+        if (pasted) return;
+      } catch (err) {}
+      let text = '';
+      try {
+        text = await (window.electronAPI && window.electronAPI.getClipboardText
+          ? window.electronAPI.getClipboardText()
+          : navigator.clipboard.readText());
+      } catch (err) {
+        text = '';
+      }
+      if (!text) return;
+      try {
+        if (typeof el.setRangeText === 'function') {
+          const selStart = el.selectionStart == null ? el.value.length : el.selectionStart;
+          const selEnd = el.selectionEnd == null ? el.value.length : el.selectionEnd;
+          el.setRangeText(text, selStart, selEnd, 'end');
+        } else {
+          el.value += text;
+        }
+      } catch (err2) {
+        try {
+          document.execCommand('insertText', false, text);
+        } catch (err3) {
+          el.value = (el.value || '') + text;
+        }
+      }
+      el.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+  }
+  document.addEventListener('click', hideReaderCtxMenu);
+  document.addEventListener('scroll', hideReaderCtxMenu, true);
+
   const pdfTextLangChange = () => {
     this._pdfSourceLang = document.getElementById('pdfTextSourceLang').value;
     this._pdfTargetLang = document.getElementById('pdfTextTargetLang').value;

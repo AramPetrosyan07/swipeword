@@ -24,6 +24,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   dictionaryAdd: (entry) => ipcRenderer.invoke('dictionary:add', entry),
   dictionaryRemove: (id) => ipcRenderer.invoke('dictionary:remove', id),
   dictionaryLoad: () => ipcRenderer.invoke('dictionary:load'),
+  getClipboardText: () => ipcRenderer.invoke('clipboard:read'),
   youtubeCaptions: (videoId) => ipcRenderer.invoke('youtube:captions', videoId),
   youtubeRelated: (videoId) => ipcRenderer.invoke('youtube:related', videoId),
   vocabLibLoadMeta: () => ipcRenderer.invoke('vocablib:loadMeta'),
