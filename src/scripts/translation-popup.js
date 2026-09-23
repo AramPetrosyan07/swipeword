@@ -83,12 +83,17 @@ class TranslationPopup {
 
     if (!this._annotToolbar) return;
 
-    // Color palette click
+    // Color palette click: left = apply color, right = remove color
     this._annotToolbar.querySelectorAll('.annot-color-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         const color = btn.dataset.color;
-        this._applyAnnotation({ color });
+        this._applyAnnotation({ color }, { toggle: true });
+      });
+      btn.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this._removeColor();
       });
     });
 
@@ -211,7 +216,7 @@ class TranslationPopup {
     return null;
   }
 
-  _applyAnnotation(changes) {
+  _applyAnnotation(changes, opts = {}) {
     if (!this._targetWords || this._targetWords.length === 0) return;
     const docKey = this._getDocKey();
     if (!docKey || typeof appStore === 'undefined') return;
@@ -227,8 +232,8 @@ class TranslationPopup {
       
       const updated = { ...existing };
       if (changes.color !== undefined) {
-        // toggle color if clicked same color
-        updated.color = (updated.color === changes.color) ? null : changes.color;
+        // toggle color if clicked same color (palette buttons only)
+        updated.color = (opts.toggle && updated.color === changes.color) ? null : changes.color;
       }
       if (changes.underline !== undefined) {
         updated.underline = changes.underline;
