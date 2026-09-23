@@ -189,6 +189,52 @@ __appMixinSettings['_setReaderSettingsMode'] = function(on) {
   if (on) this._applyReaderLangPrefs();
 };
 
+__appMixinSettings['_openReaderSettingsPopup'] = function() {
+  const popup = document.getElementById('readerSettingsPopup');
+  if (popup) popup.style.display = 'flex';
+  const sel = document.getElementById('pdfTranslateEngine');
+  if (sel && this.translationPopup) sel.value = this.translationPopup.engine;
+  this._updateDeeplKeyRowVisibility();
+  const keyInput = document.getElementById('pdfDeeplKey');
+  if (keyInput) {
+    try {
+      keyInput.value = localStorage.getItem('deepl-api-key') || '';
+    } catch (e) {}
+  }
+};
+
+__appMixinSettings['_closeReaderSettingsPopup'] = function() {
+  const popup = document.getElementById('readerSettingsPopup');
+  if (popup) popup.style.display = 'none';
+};
+
+__appMixinSettings['_updateDeeplKeyRowVisibility'] = function() {
+  const sel = document.getElementById('pdfTranslateEngine');
+  const row = document.getElementById('pdfDeeplKeyRow');
+  if (sel && row) row.style.display = sel.value === 'deepl' ? '' : 'none';
+};
+
+__appMixinSettings['_bindEnginePrefs'] = function() {
+  const sel = document.getElementById('pdfTranslateEngine');
+  if (!sel) return;
+  sel.value = this.translationPopup ? this.translationPopup.engine : 'auto';
+  sel.addEventListener('change', () => {
+    this.translationPopup.setEngine(sel.value);
+    this._updateDeeplKeyRowVisibility();
+  });
+  const keyInput = document.getElementById('pdfDeeplKey');
+  if (keyInput) {
+    try {
+      keyInput.value = localStorage.getItem('deepl-api-key') || '';
+    } catch (e) {}
+    keyInput.addEventListener('change', () => {
+      try {
+        localStorage.setItem('deepl-api-key', keyInput.value.trim());
+      } catch (e) {}
+    });
+  }
+};
+
 __appMixinSettings['_setReaderEditMode'] = function(on) {
   this._readerEditMode = on;
 };

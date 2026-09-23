@@ -617,5 +617,60 @@
           <button class="reader-context-item" id="readerCtxPaste" title="Paste text">Paste</button>
         </div>
 
+        <!-- PDF Settings Popup -->
+        <div id="readerSettingsPopup" class="reader-settings-popup" style="display:none;">
+          <div class="reader-settings-content">
+            <div class="reader-settings-header">
+              <span class="reader-settings-title">PDF Settings</span>
+              <button class="icon-btn" id="btnReaderSettingsClose" title="Close">&times;</button>
+            </div>
+            <div class="reader-settings-body">
+              <div class="settings-section">
+                <div class="settings-row">
+                  <label class="settings-row-label" for="pdfTranslateEngine">Translation system</label>
+                  <select id="pdfTranslateEngine" class="reader-lang-select">
+                    <option value="auto">Auto (mixed)</option>
+                    <option value="google">Google Translate</option>
+                    <option value="mymemory">MyMemory</option>
+                    <option value="libre">LibreTranslate</option>
+                    <option value="deepl">DeepL (API key)</option>
+                  </select>
+                </div>
+                <div class="settings-row" id="pdfDeeplKeyRow" style="display:none;">
+                  <label class="settings-row-label" for="pdfDeeplKey">DeepL API key</label>
+                  <input type="password" id="pdfDeeplKey" class="reader-deepl-key-input" placeholder="Free key from deepl.com" autocomplete="off" spellcheck="false" />
+                </div>
+                <p class="settings-hint">Choose which free translation service is used when you click a word. You can also switch it anytime in the word popup tabs. LibreTranslate supports only some languages and falls back to Google automatically.</p>
+              </div>
+              <div class="settings-section">
+                <div class="settings-row">
+                  <label class="settings-row-label" for="pdfMarkSavedEnabled">Mark saved words in PDF</label>
+                  <label class="mark-switch">
+                    <input type="checkbox" id="pdfMarkSavedEnabled" />
+                    <span class="mark-switch-slider"></span>
+                  </label>
+                </div>
+                <div class="settings-row-group" id="pdfMarkSavedStyleWrap">
+                  <div class="settings-row">
+                    <span class="settings-row-label">Style</span>
+                    <div class="settings-seg">
+                      <label class="settings-seg-opt"><input type="radio" name="pdfMarkSavedStyle" value="underline" checked /> Underline</label>
+                      <label class="settings-seg-opt"><input type="radio" name="pdfMarkSavedStyle" value="highlight" /> Highlight</label>
+                    </div>
+                  </div>
+                  <div class="settings-row">
+                    <label class="settings-row-label" for="pdfMarkSavedColor">Color</label>
+                    <input type="color" id="pdfMarkSavedColor" value="#64b5f6" />
+                  </div>
+                  <p class="settings-hint">When you save a translated word or sentence from this PDF, it will be marked automatically.</p>
+                </div>
+              </div>
+              <div class="settings-launcher">
+                <button class="btn btn-primary" id="btnCreateRunFile">Create Launcher File</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 

@@ -20,7 +20,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   readDir: (dirPath) => ipcRenderer.invoke('fs:readdir', dirPath),
   getHomeDir: () => ipcRenderer.invoke('fs:getHomeDir'),
   openAnyDialog: () => ipcRenderer.invoke('dialog:openAny'),
-  translateWord: (word, from, langs, count) => ipcRenderer.invoke('translate:word', { word, from, langs, count }),
+  translateWord: (word, from, langs, count, engine, deeplKey) => ipcRenderer.invoke('translate:word', { word, from, langs, count, engine, deeplKey }),
   dictionaryAdd: (entry) => ipcRenderer.invoke('dictionary:add', entry),
   dictionaryRemove: (id) => ipcRenderer.invoke('dictionary:remove', id),
   dictionaryLoad: () => ipcRenderer.invoke('dictionary:load'),

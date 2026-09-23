@@ -456,6 +456,11 @@ class App {
           this._closeNoteEditor();
           return;
         }
+        const settingsPopup = document.getElementById('readerSettingsPopup');
+        if (settingsPopup && settingsPopup.style.display === 'flex') {
+          this._closeReaderSettingsPopup();
+          return;
+        }
         if (this._listCardOverlayActive) {
           this._closeCardOnList();
           return;

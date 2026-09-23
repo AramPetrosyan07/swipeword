@@ -50,6 +50,8 @@ class TranslationPopup {
     this._wordEl.addEventListener('click', () => {
       if (this._wordEl.textContent) this._copyWord(this._wordEl.textContent);
     });
+    this._engine = this._loadEngine();
+    this._buildEngineTabs();
     this._initAnnotationControls();
     this._bodyEl.addEventListener('click', (e) => {
       const left = e.target.closest('.rw-word-copy');
@@ -427,6 +429,71 @@ class TranslationPopup {
     this._cache.clear();
   }
 
+  get engine() {
+    return this._engine || 'auto';
+  }
+
+  _loadEngine() {
+    try {
+      let saved = localStorage.getItem('translate-engine') || 'auto';
+      if (saved === 'lingva') {
+        saved = 'auto';
+        localStorage.setItem('translate-engine', saved);
+      }
+      return saved;
+    } catch (e) {
+      return 'auto';
+    }
+  }
+
+  _getDeeplKey() {
+    try {
+      return localStorage.getItem('deepl-api-key') || '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  setEngine(engine) {
+    const valid = ['auto', 'google', 'mymemory', 'libre', 'deepl'];
+    if (!valid.includes(engine)) return;
+    this._engine = engine;
+    try {
+      localStorage.setItem('translate-engine', engine);
+    } catch (e) {}
+    this._cache.clear();
+    if (this._engineTabsEl) {
+      this._engineTabsEl.querySelectorAll('.reader-engine-tab').forEach((t) => {
+        t.classList.toggle('active', t.dataset.engine === engine);
+      });
+    }
+    if (this._popup && this._popup.style.display !== 'none' && this._currentWord) {
+      this._fetchTranslation(this._currentWord);
+    }
+  }
+
+  _buildEngineTabs() {
+    if (!this._popup || !this._bodyEl) return;
+    this._engineTabsEl = document.createElement('div');
+    this._engineTabsEl.className = 'reader-engine-tabs';
+    const engines = [
+      ['auto', 'Auto'],
+      ['google', 'Google'],
+      ['mymemory', 'MyMemory'],
+      ['libre', 'Libre'],
+    ];
+    this._engineTabsEl.innerHTML = engines
+      .map(([v, label]) => `<button class="reader-engine-tab${v === this.engine ? ' active' : ''}" data-engine="${v}">${label}</button>`)
+      .join('');
+    this._popup.insertBefore(this._engineTabsEl, this._bodyEl);
+    this._engineTabsEl.addEventListener('click', (e) => {
+      const tab = e.target.closest('.reader-engine-tab');
+      if (!tab) return;
+      e.stopPropagation();
+      this.setEngine(tab.dataset.engine);
+    });
+  }
+
   _renderBody(translations) {
     this._bodyEl.innerHTML = this._targetLangs.map(lang => {
       const label = this._langNames[lang] || lang;
@@ -692,7 +759,7 @@ class TranslationPopup {
       const { from } = this._languages;
       const langs = this._targetLangs;
       const count = this._wordCount;
-      const result = await window.electronAPI.translateWord(lower, from, langs, count);
+      const result = await window.electronAPI.translateWord(lower, from, langs, count, this.engine, this._getDeeplKey());
       const data = result || {};
       this._cache.set(lower, data);
       this._renderBody(data);

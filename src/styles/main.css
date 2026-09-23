@@ -455,6 +455,107 @@ body.pdf-rail.pdf-rail-collapsed #app {
   font-size: 14px;
 }
 
+/* Reader Settings Popup */
+.reader-settings-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 220;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reader-settings-content {
+  background: var(--surface);
+  border-radius: var(--radius);
+  width: 90%;
+  max-width: 480px;
+  max-height: 82vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+.reader-settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  z-index: 1;
+}
+
+.reader-settings-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.reader-settings-body {
+  padding: 12px 16px 16px;
+}
+
+.reader-settings-body .settings-section {
+  margin-bottom: 14px;
+}
+
+.reader-deepl-key-input {
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  width: 220px;
+  outline: none;
+}
+
+.reader-deepl-key-input:focus {
+  border-color: var(--primary);
+}
+
+.reader-settings-body .reader-lang-select {
+  min-width: 180px;
+}
+
+/* Translation engine tabs */
+.reader-engine-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 8px 10px 0;
+  border-top: 1px solid var(--border);
+}
+
+.reader-engine-tab {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.reader-engine-tab:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.reader-engine-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
 /* Tags Screen */
 .tag-grid {
   flex: 1;

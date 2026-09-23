@@ -447,7 +447,7 @@ ipcMain.handle("store:loadFavoritesFile", async () => {
   return [];
 });
 
-// --- Translation API (MyMemory + Google Translate free endpoint) ---
+// --- Translation API (MyMemory + Google free endpoints + LibreTranslate + DeepL) ---
 const translateCache = new Map();
 
 async function _mymemoryTranslate(word, from, to) {
@@ -458,24 +458,95 @@ async function _mymemoryTranslate(word, from, to) {
 }
 
 async function _googleTranslate(word, from, to) {
-  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(word)}`;
-  const resp = await fetch(url);
-  const data = await resp.json();
-  return data[0]?.map(s => s[0]).join('') || "";
+  const q = encodeURIComponent(word);
+  const attempts = [
+    `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${from}&tl=${to}&q=${q}`,
+    `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${q}`,
+  ];
+  for (const url of attempts) {
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      if (Array.isArray(data)) {
+        if (typeof data[0] === "string") {
+          const text = data.filter((s) => typeof s === "string").join("");
+          if (text) return text;
+        } else if (Array.isArray(data[0]) && Array.isArray(data[0][0])) {
+          const text = data[0].map((s) => s[0]).join("");
+          if (text) return text;
+        }
+      }
+    } catch (e) {}
+  }
+  return "";
 }
 
-async function _fetchAlternatives(word, from, to, count) {
+const LIBRE_HOSTS = [
+  "https://translate.disroot.org",
+  "https://translate.argosopentech.com",
+];
+
+async function _libreTranslate(word, from, to) {
+  for (const host of LIBRE_HOSTS) {
+    try {
+      const resp = await fetch(`${host}/translate`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ q: word, source: from, target: to, format: "text" }),
+      });
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      if (data && data.translatedText) return data.translatedText;
+    } catch (e) {}
+  }
+  return "";
+}
+
+async function _deeplTranslate(word, from, to, apiKey) {
+  if (!apiKey) return "";
+  const resp = await fetch("https://api-free.deepl.com/v2/translate", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `DeepL-Auth-Key ${apiKey}`,
+    },
+    body: JSON.stringify({ text: [word], target_lang: String(to).toUpperCase().split("-")[0] }),
+  });
+  if (!resp.ok) return "";
+  const data = await resp.json();
+  return (data.translations && data.translations[0] && data.translations[0].text) || "";
+}
+
+async function _fetchAlternatives(word, from, to, count, engine = "auto", deeplKey = "") {
   const alts = [];
   const lower = word.toLowerCase();
+  const mk = (fn, w) => () => fn(w, from, to).catch(() => "");
+  const mkDeepl = (w) => () => _deeplTranslate(w, from, to, deeplKey).catch(() => "");
 
-  const promises = [];
+  let variants = [];
+  if (engine === "google") {
+    variants = [mk(_googleTranslate, lower), mk(_googleTranslate, "to " + lower), mk(_googleTranslate, "the " + lower)];
+  } else if (engine === "mymemory") {
+    variants = [mk(_mymemoryTranslate, lower), mk(_mymemoryTranslate, "the " + lower), mk(_mymemoryTranslate, "to " + lower)];
+  } else if (engine === "libre") {
+    variants = [mk(_libreTranslate, lower), mk(_libreTranslate, "to " + lower)];
+  } else if (engine === "deepl") {
+    if (deeplKey) {
+      variants = [mkDeepl(lower), mkDeepl("to " + lower)];
+    } else {
+      variants = [mk(_googleTranslate, lower), mk(_googleTranslate, "to " + lower)];
+    }
+  } else {
+    variants = [
+      mk(_mymemoryTranslate, lower),
+      mk(_googleTranslate, lower),
+      mk(_mymemoryTranslate, "the " + lower),
+      mk(_googleTranslate, "to " + lower),
+    ];
+  }
 
-  if (count >= 1) promises.push(_mymemoryTranslate(lower, from, to).catch(() => ""));
-  if (count >= 2) promises.push(_googleTranslate(lower, from, to).catch(() => ""));
-  if (count >= 3) promises.push(_mymemoryTranslate("the " + lower, from, to).catch(() => ""));
-  if (count >= 4) promises.push(_googleTranslate("to " + lower, from, to).catch(() => ""));
-
-  const results = await Promise.all(promises);
+  const results = await Promise.all(variants.slice(0, Math.max(count, 1)).map((p) => p()));
 
   for (const r of results) {
     const trimmed = (r || "").trim();
@@ -484,21 +555,36 @@ async function _fetchAlternatives(word, from, to, count) {
     }
   }
 
+  if (alts.length < count && engine !== "auto") {
+    const fallback = await Promise.all([
+      mk(_googleTranslate, lower)(),
+      mk(_googleTranslate, "to " + lower)(),
+    ]);
+    for (const r of fallback) {
+      if (alts.length >= count) break;
+      const trimmed = (r || "").trim();
+      if (trimmed && trimmed.toLowerCase() !== lower && !alts.includes(trimmed)) {
+        alts.push(trimmed);
+      }
+    }
+  }
+
   while (alts.length < count) alts.push("—");
   return alts.slice(0, count);
 }
 
-ipcMain.handle("translate:word", async (_event, { word, from, langs, count }) => {
+ipcMain.handle("translate:word", async (_event, { word, from, langs, count, engine, deeplKey }) => {
   const langList = Array.isArray(langs) ? langs : [langs].filter(Boolean);
   const wordCount = Math.min(Math.max(parseInt(count) || 1, 1), 4);
-  const cacheKey = `${word}|${from}|${langList.join(",")}|w${wordCount}`;
+  const eng = ["auto", "google", "mymemory", "libre", "deepl"].includes(engine) ? engine : "auto";
+  const cacheKey = `${word}|${from}|${langList.join(",")}|w${wordCount}|${eng}${eng === "deepl" ? "|" + (deeplKey || "") : ""}`;
   if (translateCache.has(cacheKey)) return translateCache.get(cacheKey);
 
   try {
     const results = {};
     const tasks = langList.map(async (lang) => {
       if (!lang) return;
-      results[lang] = await _fetchAlternatives(word, from, lang, wordCount);
+      results[lang] = await _fetchAlternatives(word, from, lang, wordCount, eng, deeplKey);
     });
     await Promise.all(tasks);
 
