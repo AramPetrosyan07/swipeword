@@ -686,6 +686,10 @@ class TranslationPopup {
     }
 
     this._fetchTranslation(word);
+
+    window.electronAPI
+      .ttsSpeak(word, this._languages.from || 'en', this._voiceId)
+      .catch(() => {});
   }
 
   _autoPauseOn() {

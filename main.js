@@ -850,20 +850,43 @@ async function _googleTTS(text, lang) {
   return buffer.toString("base64");
 }
 
+const TTS_CACHE_MAX = 300;
+
 ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
-  const attempts = [];
-  if (_edgeTTSAvailable) attempts.push(() => _edgeTTS(text, lang, voice));
-  attempts.push(() => _edgeTTSJS(text, lang, voice));
-  attempts.push(() => _googleTTS(text, lang));
-  let lastError = "TTS unavailable";
-  for (const attempt of attempts) {
-    try {
-      return { success: true, audio: await attempt() };
-    } catch (e) {
-      lastError = e.message;
-    }
+  const trimmed = (text || "").trim();
+  if (!trimmed) return { success: false, error: "TTS called with empty text" };
+  const cacheKey = `${trimmed}|${_ttsVoiceFor(lang, voice)}`;
+
+  if (_ttsCache.has(cacheKey)) {
+    return { success: true, audio: _ttsCache.get(cacheKey) };
   }
-  return { success: false, error: lastError };
+
+  let pending = _ttsPending.get(cacheKey);
+  if (!pending) {
+    pending = (async () => {
+      const attempts = [];
+      attempts.push(() => _edgeTTSJS(trimmed, lang, voice));
+      if (_edgeTTSAvailable) attempts.push(() => _edgeTTS(trimmed, lang, voice));
+      attempts.push(() => _googleTTS(trimmed, lang));
+      let lastError = "TTS unavailable";
+      for (const attempt of attempts) {
+        try {
+          const audio = await attempt();
+          if (_ttsCache.size >= TTS_CACHE_MAX) _ttsCache.clear();
+          _ttsCache.set(cacheKey, audio);
+          return { success: true, audio };
+        } catch (e) {
+          lastError = e.message;
+        }
+      }
+      return { success: false, error: lastError };
+    })().finally(() => {
+      _ttsPending.delete(cacheKey);
+    });
+    _ttsPending.set(cacheKey, pending);
+  }
+
+  return pending;
 });
 
 // --- YouTube Captions ---
