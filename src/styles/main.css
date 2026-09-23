@@ -3530,6 +3530,7 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   margin-bottom: 2px;
   word-break: break-word;
   padding-right: 28px;
+  cursor: copy;
 }
 
 .translation-sidebar-trans {
@@ -3537,6 +3538,13 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   color: var(--text-secondary);
   word-break: break-word;
   padding-right: 28px;
+  cursor: copy;
+}
+
+.translation-sidebar-word:hover,
+.translation-sidebar-trans:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 .translation-sidebar-delete {

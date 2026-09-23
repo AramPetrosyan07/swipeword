@@ -480,9 +480,9 @@ __appMixinReader['_sidebarItemHtml'] = function(w, withPage) {
   const pageHtml = withPage && w.sourceType === 'pdf' && w.page
     ? '<span class="translation-sidebar-page" title="Saved on page ' + this._escapeHtml(w.page) + '">p. ' + this._escapeHtml(w.page) + '</span>'
     : '';
-  return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '">' +
-    '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
-    (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
+  return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '" data-tlang="' + this._escapeHtml(w.translationLang || 'hy') + '">' +
+    '<div class="translation-sidebar-word" data-copy="word" title="Left click: copy | Right click: pronounce">' + this._escapeHtml(w.word) + '</div>' +
+    (trans ? '<div class="translation-sidebar-trans" data-copy="trans" title="Left click: copy | Right click: pronounce">' + this._escapeHtml(trans) + '</div>' : '') +
     '<button class="translation-sidebar-delete" title="Remove">&#10007;</button>' +
     pageHtml +
     '</div>';
@@ -553,13 +553,58 @@ __appMixinReader['_translationSidebarRender'] = function() {
         return;
       }
       const btn = e.target.closest('.translation-sidebar-delete');
-      if (!btn) return;
+      if (btn) {
+        e.stopPropagation();
+        const item = btn.closest('.translation-sidebar-item');
+        if (!item) return;
+        await this._removeSidebarWord(item.dataset.id);
+        return;
+      }
+      const copyTarget = e.target.closest('.translation-sidebar-word, .translation-sidebar-trans');
+      if (copyTarget) {
+        const item = copyTarget.closest('.translation-sidebar-item');
+        if (!item || !item.dataset.id) return;
+        const w = (this._pdfSidebarWords || []).find(x => x.id === item.dataset.id);
+        if (!w) return;
+        const text = copyTarget.classList.contains('translation-sidebar-trans')
+          ? (w.translation || '')
+          : (w.word || '');
+        if (!text) return;
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('copyToast');
+          const textEl = document.getElementById('copyToastText');
+          if (toast && textEl) {
+            textEl.innerHTML = '<span style="color:#4caf50;font-weight:700;">&#10003;</span> Copied';
+            toast.classList.add('visible');
+            clearTimeout(toast._hideTimer);
+            toast._hideTimer = setTimeout(() => toast.classList.remove('visible'), 1500);
+          }
+        }).catch(() => {});
+      }
+    });
+    listEl.addEventListener('contextmenu', (e) => {
+      const target = e.target.closest('.translation-sidebar-word, .translation-sidebar-trans');
+      if (!target) return;
+      e.preventDefault();
       e.stopPropagation();
-      const item = btn.closest('.translation-sidebar-item');
-      if (!item) return;
-      await this._removeSidebarWord(item.dataset.id);
+      const item = target.closest('.translation-sidebar-item');
+      if (!item || !item.dataset.id) return;
+      const w = (this._pdfSidebarWords || []).find(x => x.id === item.dataset.id);
+      if (!w) return;
+      const isTrans = target.classList.contains('translation-sidebar-trans');
+      const text = isTrans ? (w.translation || '') : (w.word || '');
+      if (!text) return;
+      const lang = isTrans ? (item.dataset.tlang || 'hy') : (w.wordLang || 'en');
+      this._speakSidebarWord(text, lang);
     });
   }
+};
+
+__appMixinReader['_speakSidebarWord'] = function(text, lang) {
+  if (!this.translationPopup || typeof this.translationPopup._speakWord !== 'function') return;
+  const map = this.translationPopup._langSpeechMap || {};
+  const speechLang = map[lang] || (lang === 'hy' ? 'hy-AM' : 'en-US');
+  this.translationPopup._speakWord(text, speechLang);
 };
 
 __appMixinReader['_onPdfPageChanged'] = function(page) {
