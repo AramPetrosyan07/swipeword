@@ -278,6 +278,33 @@ class TranslationPopup {
     this._applyAnnotation({ underline: next, underlineColor: uColor });
   }
 
+  _removeColor() {
+    if (!this._targetWords || this._targetWords.length === 0) return;
+    const docKey = this._getDocKey();
+    if (!docKey || typeof appStore === 'undefined') return;
+
+    const annots = appStore.getPdfAnnotations(docKey);
+    this._targetWords.forEach(w => {
+      const p = w.dataset.page;
+      const widx = w.dataset.widx;
+      if (p === undefined || widx === undefined) return;
+      const key = `${p}_${widx}`;
+      const a = annots[key];
+      if (!a || !a.color) return;
+      const updated = { ...a, color: null };
+      if (!updated.color && !updated.underline && !updated.note) {
+        appStore.removePdfAnnotation(docKey, key);
+      } else {
+        appStore.setPdfAnnotation(docKey, key, updated);
+      }
+    });
+
+    if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+      readerMode.refreshAllAnnotations();
+    }
+    this._syncAnnotationUI();
+  }
+
   _clearAnnotation() {
     if (!this._targetWords || this._targetWords.length === 0) return;
     const docKey = this._getDocKey();
