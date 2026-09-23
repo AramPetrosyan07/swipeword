@@ -9,6 +9,7 @@ __appMixinReader['_setReadSidebarCompact'] = function(compact) {
 
 __appMixinReader['_openReadPage'] = function(mode) {
   this._readCurrentPage = mode;
+  this._rememberScreen('screen-reader');
   this._setReadSidebarCompact(false);
   document.getElementById('readHome').style.display = 'none';
   document.querySelectorAll('.read-page').forEach((p) => p.classList.remove('active'));
@@ -63,6 +64,7 @@ __appMixinReader['_backToReadHome'] = function() {
   document.getElementById('btnReaderBack').style.display = 'none';
   document.getElementById('btnReaderMenu').style.display = '';
   this._readCurrentPage = null;
+  this._rememberScreen('screen-reader');
   this._updateTranslationSidebarBtnVisibility();
 };
 
@@ -457,6 +459,7 @@ __appMixinReader['_loadPdfSidebarWords'] = async function() {
   } catch (e) {
     this._pdfSidebarWords = [];
   }
+  this._sidebarOpenPages = new Set();
   this._translationSidebarRender();
 };
 
@@ -470,6 +473,19 @@ __appMixinReader['_loadPdfTextSidebarWords'] = async function() {
     this._pdfSidebarWords = [];
   }
   this._translationSidebarRender();
+};
+
+__appMixinReader['_sidebarItemHtml'] = function(w, withPage) {
+  const trans = w.translation || '';
+  const pageHtml = withPage && w.sourceType === 'pdf' && w.page
+    ? '<span class="translation-sidebar-page" title="Saved on page ' + this._escapeHtml(w.page) + '">p. ' + this._escapeHtml(w.page) + '</span>'
+    : '';
+  return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '">' +
+    '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
+    (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
+    '<button class="translation-sidebar-delete" title="Remove">&#10007;</button>' +
+    pageHtml +
+    '</div>';
 };
 
 __appMixinReader['_translationSidebarRender'] = function() {
@@ -489,22 +505,53 @@ __appMixinReader['_translationSidebarRender'] = function() {
     listEl.innerHTML = '<div class="translation-sidebar-empty">No saved words yet.<br>Select a word and save it to see it here.</div>';
     return;
   }
-  listEl.innerHTML = words.map((w) => {
-    const trans = w.translation || '';
-    const pageHtml = w.sourceType === 'pdf' && w.page
-      ? '<span class="translation-sidebar-page" title="Saved on page ' + this._escapeHtml(w.page) + '">p. ' + this._escapeHtml(w.page) + '</span>'
-      : '';
-    return '<div class="translation-sidebar-item" data-id="' + this._escapeHtml(w.id) + '">' +
-      '<div class="translation-sidebar-word">' + this._escapeHtml(w.word) + '</div>' +
-      (trans ? '<div class="translation-sidebar-trans">' + this._escapeHtml(trans) + '</div>' : '') +
-      '<button class="translation-sidebar-delete" title="Remove">&#10007;</button>' +
-      pageHtml +
-      '</div>';
-  }).join('');
+
+  const hasPages = words.some((w) => w.sourceType === 'pdf' && w.page);
+  if (!hasPages) {
+    listEl.innerHTML = words.map((w) => this._sidebarItemHtml(w, true)).join('');
+  } else {
+    if (!this._sidebarOpenPages) this._sidebarOpenPages = new Set();
+    const groups = new Map();
+    words.forEach((w) => {
+      const key = String(w.page);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(w);
+    });
+    const keys = [...groups.keys()].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+    if (
+      this._sidebarOpenPages.size === 0 &&
+      this._pdfVisiblePage != null &&
+      groups.has(String(this._pdfVisiblePage))
+    ) {
+      this._sidebarOpenPages.add(String(this._pdfVisiblePage));
+    }
+    listEl.innerHTML = keys.map((key) => {
+      const list = groups.get(key);
+      const open = this._sidebarOpenPages.has(key);
+      const current = this._pdfVisiblePage != null && String(this._pdfVisiblePage) === key;
+      return '<div class="tsb-page-group' + (open ? ' open' : '') + (current ? ' current' : '') + '" data-page="' + this._escapeHtml(key) + '">' +
+        '<div class="tsb-page-header"><span class="tsb-page-title">Page ' + this._escapeHtml(key) + '</span>' +
+        '<span class="tsb-page-count">' + list.length + '</span>' +
+        '<span class="tsb-page-arrow">&#9662;</span></div>' +
+        '<div class="tsb-page-body">' + list.map((w) => this._sidebarItemHtml(w, false)).join('') + '</div>' +
+        '</div>';
+    }).join('');
+  }
 
   if (!this._translationSidebarDelegated) {
     this._translationSidebarDelegated = true;
     listEl.addEventListener('click', async (e) => {
+      const header = e.target.closest('.tsb-page-header');
+      if (header) {
+        const group = header.closest('.tsb-page-group');
+        if (!group) return;
+        const key = group.dataset.page;
+        if (!this._sidebarOpenPages) this._sidebarOpenPages = new Set();
+        if (this._sidebarOpenPages.has(key)) this._sidebarOpenPages.delete(key);
+        else this._sidebarOpenPages.add(key);
+        group.classList.toggle('open');
+        return;
+      }
       const btn = e.target.closest('.translation-sidebar-delete');
       if (!btn) return;
       e.stopPropagation();
@@ -513,6 +560,28 @@ __appMixinReader['_translationSidebarRender'] = function() {
       await this._removeSidebarWord(item.dataset.id);
     });
   }
+};
+
+__appMixinReader['_onPdfPageChanged'] = function(page) {
+  this._pdfVisiblePage = page;
+  if (!this._translationSidebarVisible) return;
+  if (this._readCurrentPage !== 'pdf') return;
+  const listEl = document.getElementById('translationSidebarList');
+  if (!listEl) return;
+  const groups = listEl.querySelectorAll('.tsb-page-group');
+  if (groups.length === 0) return;
+  let target = null;
+  groups.forEach((g) => {
+    const match = g.dataset.page === String(page);
+    g.classList.toggle('open', match);
+    g.classList.toggle('current', match);
+    if (match) target = g;
+  });
+  if (this._sidebarOpenPages) {
+    this._sidebarOpenPages.clear();
+    if (target) this._sidebarOpenPages.add(String(page));
+  }
+  if (target) target.scrollIntoView({ block: 'nearest' });
 };
 
 __appMixinReader['_removeSidebarWord'] = async function(id) {

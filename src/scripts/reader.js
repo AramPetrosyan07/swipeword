@@ -50,6 +50,7 @@ class ReaderMode {
     const scrollContainer = document.getElementById('pdfViewerScroll');
     if (scrollContainer) scrollContainer.scrollTop = 0;
     this.onScroll(true);
+    this._notifyPageChange(1);
   }
 
   async _buildScrollSlots() {
@@ -619,8 +620,7 @@ class ReaderMode {
       }
     }
     if (topPage !== this.pageNum) {
-      this.pageNum = topPage;
-      document.getElementById('pdfPageNum').textContent = topPage;
+      this._notifyPageChange(topPage);
     }
     document.getElementById('pdfPageCount').textContent = this.pageCount;
     document.getElementById('pdfZoomInfo').textContent = Math.round(this.scale * 100) + '%';
@@ -674,9 +674,19 @@ class ReaderMode {
     const container = document.getElementById('pdfViewerScroll');
     if (!container || this._pageOffsets[num - 1] === undefined) return;
     container.scrollTop = this._pageOffsets[num - 1];
+    this._notifyPageChange(num);
+  }
+
+  _notifyPageChange(num) {
     this.pageNum = num;
-    document.getElementById('pdfPageNum').textContent = num;
+    const el = document.getElementById('pdfPageNum');
+    if (el) el.textContent = num;
     this._syncPageSlider();
+    if (typeof app !== 'undefined' && app && typeof app._onPdfPageChanged === 'function') {
+      try {
+        app._onPdfPageChanged(num);
+      } catch (e) {}
+    }
   }
 
   _syncPageSlider() {

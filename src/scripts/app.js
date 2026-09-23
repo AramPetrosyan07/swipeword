@@ -140,6 +140,7 @@ class App {
     this.translationPopup.setVoice(appStore.data.ttsVoice != null ? appStore.data.ttsVoice : 0);
     this._updateVoiceUi();
 
+    const savedLastScreen = appStore.data.lastScreen || null;
     const savedWords = appStore.getAllWords();
     if (savedWords.length > 0) {
       this.words = savedWords;
@@ -166,6 +167,7 @@ class App {
     this._renderLetterStrip();
 
     await this._restorePdfTabs();
+    this._restoreLastScreen(savedLastScreen);
   }
 
   _bindEvents() {
@@ -410,7 +412,12 @@ class App {
       this._toggleSidebar();
     });
 
-    const screenObserver = new MutationObserver(() => this._updateSidebarVisibility());
+    const screenObserver = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        if (m.target.classList.contains('active')) this._rememberScreen(m.target.id);
+      }
+      this._updateSidebarVisibility();
+    });
     document.querySelectorAll('.screen').forEach((s) => {
       screenObserver.observe(s, { attributes: true, attributeFilter: ['class'] });
     });
@@ -579,6 +586,39 @@ class App {
         }
       }
     });
+  }
+
+  _rememberScreen(id) {
+    if (!appStore.data) return;
+    const info = { id };
+    if (id === 'screen-reader') info.readPage = this._readCurrentPage || null;
+    if (id === 'screen-vocablib' && typeof vocabLibrary !== 'undefined') {
+      info.vocabMode = vocabLibrary._mode || 'youtube';
+    }
+    appStore.data.lastScreen = info;
+    Promise.resolve(appStore.save()).catch(() => {});
+  }
+
+  _restoreLastScreen(saved) {
+    if (!saved || !saved.id) return;
+    if (saved.id === 'screen-reader') {
+      if (saved.readPage && document.getElementById('read-page-' + saved.readPage)) {
+        this._openReadPage(saved.readPage);
+      }
+      return;
+    }
+    if (saved.id === 'screen-learn' && this.words.length > 0) {
+      this._showLearnScreen();
+      return;
+    }
+    if (saved.id === 'screen-words') {
+      this._showWordsPage();
+      return;
+    }
+    if (saved.id === 'screen-vocablib') {
+      this._showVocabLib(saved.vocabMode);
+      return;
+    }
   }
 
   _showReadHome() {

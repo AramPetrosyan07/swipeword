@@ -20,6 +20,7 @@ class VocabularyLibrary {
     this._editMode = false;
     this._editSelection = new Set();
     this._editWordMap = new Map();
+    this._spacing = { group: 10, item: 6, ...this._loadSpacing() };
     this._mode = 'youtube';
     this._allLangs = new Set();
     this._langNames = {
@@ -76,9 +77,14 @@ class VocabularyLibrary {
 
     if (!this._bound) {
       this._bindEvents();
+      this._bindSpacingSettings();
       this._bound = true;
     }
 
+    this._applySpacing();
+    document.getElementById('vocabLibSpacingDropdown').style.display = 'none';
+    const spacingBtn = document.getElementById('btnVocabLibSpacing');
+    if (spacingBtn) spacingBtn.style.display = this._mode === 'pdf' ? '' : 'none';
     this._render();
   }
 
@@ -151,6 +157,71 @@ class VocabularyLibrary {
       localStorage.setItem('vocablib-filters', JSON.stringify(this._filters));
     } catch (e) {
       // ignore storage errors
+    }
+  }
+
+  _loadSpacing() {
+    try {
+      const saved = localStorage.getItem('vocablib-spacing');
+      return saved ? JSON.parse(saved) : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  _saveSpacing() {
+    try {
+      localStorage.setItem('vocablib-spacing', JSON.stringify(this._spacing));
+    } catch (e) {
+      // ignore storage errors
+    }
+  }
+
+  _applySpacing() {
+    const listEl = document.getElementById('vocabLibDictList');
+    if (!listEl) return;
+    listEl.style.setProperty('--vl-group-gap', this._spacing.group + 'px');
+    listEl.style.setProperty('--vl-item-gap', this._spacing.item + 'px');
+    const groupVal = document.getElementById('vlGroupGapVal');
+    const itemVal = document.getElementById('vlItemGapVal');
+    if (groupVal) groupVal.textContent = this._spacing.group;
+    if (itemVal) itemVal.textContent = this._spacing.item;
+  }
+
+  _bindSpacingSettings() {
+    const btn = document.getElementById('btnVocabLibSpacing');
+    const dropdown = document.getElementById('vocabLibSpacingDropdown');
+    if (!btn || !dropdown) return;
+
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown.style.display === 'flex';
+      dropdown.style.display = isOpen ? 'none' : 'flex';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (dropdown.style.display === 'flex' && !dropdown.contains(e.target) && e.target !== btn) {
+        dropdown.style.display = 'none';
+      }
+    });
+
+    const groupSlider = document.getElementById('vlGroupGap');
+    const itemSlider = document.getElementById('vlItemGap');
+    if (groupSlider) {
+      groupSlider.value = this._spacing.group;
+      groupSlider.addEventListener('input', (e) => {
+        this._spacing.group = parseInt(e.target.value, 10) || 0;
+        this._saveSpacing();
+        this._applySpacing();
+      });
+    }
+    if (itemSlider) {
+      itemSlider.value = this._spacing.item;
+      itemSlider.addEventListener('input', (e) => {
+        this._spacing.item = parseInt(e.target.value, 10) || 0;
+        this._saveSpacing();
+        this._applySpacing();
+      });
     }
   }
 
@@ -512,6 +583,7 @@ class VocabularyLibrary {
     this._setEditMode(false);
     this._view = 'dict';
     this._currentVideoUrl = youtubeUrl;
+    this._openPageGroups = new Set();
     this._dictSearchQuery = '';
     this._dictSort = 'newest';
     document.getElementById('vocabLibDictSearch').value = '';
@@ -570,6 +642,97 @@ class VocabularyLibrary {
     }
   }
 
+  _wordCardHtml(w, i) {
+    const f = this._filters;
+
+    const date = f.date ? `<span class="vocablib-word-date">${new Date(w.timestamp).toLocaleDateString()}</span>` : '';
+    const time = f.timestamp && w.videoTimestamp ? `<span class="vocablib-word-timestamp" title="Video timestamp">${this._fmtTime(w.videoTimestamp)}</span>` : '';
+    const context = f.context && w.context
+      ? `<div class="vocablib-word-context">&ldquo;${this._highlightWord(this._esc(w.context), this._esc(w.word))}&rdquo;</div>`
+      : '';
+
+    const engTtsBtn = `<button class="vocablib-tts-btn" data-tts-text="${this._esc(w.word)}" data-tts-lang="en" title="Listen">&#9654;</button>`;
+
+    let armenian = '';
+    if (f.armenian && w.translation) {
+      const safeText = this._esc(w.translation);
+      const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.translationLang || 'hy')}" title="Listen">&#9654;</button>`;
+      armenian = `<span class="vocablib-word-armenian">${ttsBtn} ${safeText}</span>`;
+    }
+
+    let russian = '';
+    if (f.russian && w.russian) {
+      const safeText = this._esc(w.russian);
+      const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.russianLang || 'ru')}" title="Listen">&#9654;</button>`;
+      russian = `<span class="vocablib-word-russian">${ttsBtn} ${safeText}</span>`;
+    }
+
+    const hasTranslations = armenian || russian;
+    const isCompact = !context && !time && !date;
+
+    const hasPage = w.sourceType === 'pdf';
+    const pageBtn = hasPage && w.page
+      ? `<button class="vocablib-word-page" data-page="${w.page}" data-book="${this._esc(w.sourceTitle || '')}" title="Go to page ${w.page}" aria-label="Go to page ${w.page}">p. ${w.page}</button>`
+      : '';
+
+    const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word" aria-label="Delete word">&times;</button>`;
+
+    return `
+      <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
+        <div class="vocablib-word-corner">
+          <span class="vocablib-word-number">${i + 1}</span>
+          ${pageBtn}
+        </div>
+        ${deleteBtn}
+        <div class="vocablib-word-main">
+          <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
+          ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
+        </div>
+        ${context}
+        ${(time || date) ? `
+        <div class="vocablib-word-footer">
+          ${time}
+          ${date}
+        </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  _renderGroupedByPage(words) {
+    if (!this._openPageGroups) this._openPageGroups = new Set();
+    const groups = new Map();
+    words.forEach((w) => {
+      const key = w.page != null && w.page !== '' ? String(w.page) : 'none';
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(w);
+    });
+    const keys = [...groups.keys()].sort((a, b) => {
+      if (a === 'none') return 1;
+      if (b === 'none') return -1;
+      return parseInt(a, 10) - parseInt(b, 10);
+    });
+    let idx = 0;
+    return keys
+      .map((key) => {
+        const list = groups.get(key);
+        const label = key === 'none' ? 'No page' : 'Page ' + key;
+        const open = this._openPageGroups.has(key);
+        const body = list.map((w) => this._wordCardHtml(w, idx++)).join('');
+        return `
+          <div class="vocablib-page-group${open ? ' open' : ''}" data-page="${this._esc(key)}">
+            <div class="vocablib-page-header">
+              <span class="vocablib-page-title">${this._esc(label)}</span>
+              <span class="vocablib-page-count">${list.length}</span>
+              <span class="vocablib-page-arrow">&#9662;</span>
+            </div>
+            <div class="vocablib-page-body">${body}</div>
+          </div>
+        `;
+      })
+      .join('');
+  }
+
   _renderDictList() {
     const listEl = document.getElementById('vocabLibDictList');
     const words = this._getWordsForVideo(this._currentVideoUrl);
@@ -585,68 +748,24 @@ class VocabularyLibrary {
       return;
     }
 
-    const f = this._filters;
+    if (this._mode === 'pdf' && !this._editMode) {
+      listEl.innerHTML = this._renderGroupedByPage(words);
+    } else {
+      listEl.innerHTML = words.map((w, i) => (this._editMode ? this._renderEditWord(w) : this._wordCardHtml(w, i))).join('');
+    }
 
-    listEl.innerHTML = words
-      .map((w, i) => {
-        if (this._editMode) {
-          return this._renderEditWord(w);
-        }
-
-        const date = f.date ? `<span class="vocablib-word-date">${new Date(w.timestamp).toLocaleDateString()}</span>` : '';
-        const time = f.timestamp && w.videoTimestamp ? `<span class="vocablib-word-timestamp" title="Video timestamp">${this._fmtTime(w.videoTimestamp)}</span>` : '';
-        const context = f.context && w.context
-          ? `<div class="vocablib-word-context">&ldquo;${this._highlightWord(this._esc(w.context), this._esc(w.word))}&rdquo;</div>`
-          : '';
-
-        const engTtsBtn = `<button class="vocablib-tts-btn" data-tts-text="${this._esc(w.word)}" data-tts-lang="en" title="Listen">&#9654;</button>`;
-
-        let armenian = '';
-        if (f.armenian && w.translation) {
-          const safeText = this._esc(w.translation);
-          const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.translationLang || 'hy')}" title="Listen">&#9654;</button>`;
-          armenian = `<span class="vocablib-word-armenian">${ttsBtn} ${safeText}</span>`;
-        }
-
-        let russian = '';
-        if (f.russian && w.russian) {
-          const safeText = this._esc(w.russian);
-          const ttsBtn = `<button class="vocablib-tts-btn" data-tts-text="${safeText}" data-tts-lang="${this._esc(w.russianLang || 'ru')}" title="Listen">&#9654;</button>`;
-          russian = `<span class="vocablib-word-russian">${ttsBtn} ${safeText}</span>`;
-        }
-
-        const hasTranslations = armenian || russian;
-        const isCompact = !context && !time && !date;
-
-        const hasPage = w.sourceType === 'pdf';
-        const pageBtn = hasPage && w.page
-          ? `<button class="vocablib-word-page" data-page="${w.page}" data-book="${this._esc(w.sourceTitle || '')}" title="Go to page ${w.page}" aria-label="Go to page ${w.page}">p. ${w.page}</button>`
-          : '';
-
-        const deleteBtn = `<button class="vocablib-word-delete" data-id="${w.id}" title="Delete word" aria-label="Delete word">&times;</button>`;
-
-        return `
-          <div class="vocablib-word${isCompact ? ' vocablib-word-compact' : ''}" data-id="${w.id}">
-            <div class="vocablib-word-corner">
-              <span class="vocablib-word-number">${i + 1}</span>
-              ${pageBtn}
-            </div>
-            ${deleteBtn}
-            <div class="vocablib-word-main">
-              <div class="vocablib-word-en">${engTtsBtn} ${this._esc(w.word)}</div>
-              ${hasTranslations ? `<div class="vocablib-word-translations">${armenian}${russian}</div>` : ''}
-            </div>
-            ${context}
-            ${(time || date) ? `
-            <div class="vocablib-word-footer">
-              ${time}
-              ${date}
-            </div>
-            ` : ''}
-          </div>
-        `;
-      })
-      .join('');
+    listEl.querySelectorAll('.vocablib-page-header').forEach((header) => {
+      header.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const group = header.closest('.vocablib-page-group');
+        if (!group) return;
+        const key = group.dataset.page;
+        if (!this._openPageGroups) this._openPageGroups = new Set();
+        if (this._openPageGroups.has(key)) this._openPageGroups.delete(key);
+        else this._openPageGroups.add(key);
+        group.classList.toggle('open');
+      });
+    });
 
     listEl.querySelectorAll('.vocablib-word-delete').forEach((btn) => {
       btn.addEventListener('click', async (e) => {

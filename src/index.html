@@ -105,7 +105,7 @@
     <div id="sidebarOverlay" class="sidebar-overlay"></div>
 
     <!-- Import Screen -->
-    <div id="screen-import" class="screen active">
+    <div id="screen-import" class="screen">
       <div class="top-bar">
         <button class="icon-btn" id="btnImportBack" title="Back" style="visibility:hidden;">&#8592;</button>
         <span class="progress-text">Import Words</span>
@@ -874,6 +874,25 @@
                   <span class="vocablib-filter-check"></span>
                   <span>&#128197; Date saved</span>
                 </label>
+              </div>
+            </div>
+            <div class="vocablib-search-group">
+              <button class="icon-btn vocablib-filter-btn" id="btnVocabLibSpacing" title="List spacing settings">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <line x1="4" y1="8" x2="20" y2="8"/><circle cx="9" cy="8" r="2.4" fill="currentColor" stroke="none"/>
+                  <line x1="4" y1="16" x2="20" y2="16"/><circle cx="15" cy="16" r="2.4" fill="currentColor" stroke="none"/>
+                </svg>
+              </button>
+              <div class="vocablib-filter-dropdown vocablib-spacing-dropdown" id="vocabLibSpacingDropdown" style="display:none;">
+                <div class="vocablib-filter-title">List spacing</div>
+                <div class="vocablib-spacing-row">
+                  <label for="vlGroupGap">Gap between pages: <span id="vlGroupGapVal">10</span>px</label>
+                  <input type="range" id="vlGroupGap" min="0" max="30" step="1" value="10" />
+                </div>
+                <div class="vocablib-spacing-row">
+                  <label for="vlItemGap">Gap between words: <span id="vlItemGapVal">6</span>px</label>
+                  <input type="range" id="vlItemGap" min="0" max="24" step="1" value="6" />
+                </div>
               </div>
             </div>
             <input type="text" id="vocabLibDictSearch" class="vocablib-dict-search" placeholder="Search words..." autocomplete="off" spellcheck="false" />

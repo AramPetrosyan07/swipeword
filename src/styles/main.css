@@ -3496,6 +3496,160 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   border-color: rgba(108, 99, 255, 0.4);
 }
 
+.tsb-page-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bg);
+  margin-bottom: 6px;
+}
+
+.tsb-page-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  background: var(--surface);
+  transition: color 0.15s, background 0.15s;
+}
+
+.tsb-page-header:hover {
+  color: var(--primary);
+}
+
+.tsb-page-group.current .tsb-page-header {
+  color: var(--primary);
+  background: rgba(108, 99, 255, 0.08);
+}
+
+.tsb-page-count {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(108, 99, 255, 0.12);
+  border-radius: 10px;
+  padding: 0 7px;
+}
+
+.tsb-page-arrow {
+  margin-left: auto;
+  font-size: 10px;
+  transition: transform 0.15s;
+}
+
+.tsb-page-group.open .tsb-page-arrow {
+  transform: rotate(180deg);
+}
+
+.tsb-page-body {
+  display: none;
+  padding: 6px 6px 2px;
+}
+
+.tsb-page-group.open .tsb-page-body {
+  display: block;
+}
+
+.tsb-page-group.open .tsb-page-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.vocablib-page-group {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg);
+  margin-bottom: var(--vl-group-gap, 10px);
+}
+
+.vocablib-page-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  background: var(--surface);
+  transition: color 0.15s, background 0.15s;
+}
+
+.vocablib-page-header:hover {
+  color: var(--primary);
+}
+
+.vocablib-page-count {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(108, 99, 255, 0.12);
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+
+.vocablib-page-arrow {
+  margin-left: auto;
+  font-size: 11px;
+  transition: transform 0.15s;
+}
+
+.vocablib-page-group.open .vocablib-page-arrow {
+  transform: rotate(180deg);
+}
+
+.vocablib-page-body {
+  display: none;
+  flex-direction: column;
+  gap: var(--vl-item-gap, 6px);
+  padding: calc(var(--vl-item-gap, 6px) + 2px);
+}
+
+.vocablib-page-group.open .vocablib-page-body {
+  display: flex;
+}
+
+.vocablib-page-group.open .vocablib-page-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.vocablib-spacing-dropdown {
+  min-width: 250px;
+  padding: 6px 0;
+}
+
+.vocablib-spacing-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 16px;
+}
+
+.vocablib-spacing-row label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.vocablib-spacing-row label span {
+  font-weight: 700;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.vocablib-spacing-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
 #btnTranslationSidebar.active {
   color: var(--primary);
   background: rgba(108, 99, 255, 0.12);

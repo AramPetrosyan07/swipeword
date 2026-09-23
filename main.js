@@ -126,25 +126,29 @@ async function createWindow() {
   mainWindow.loadURL("http://127.0.0.1:" + port + "/");
 }
 
-// Live Reload: Watch the src directory and reload the window automatically when changes occur
-let devWatchTimeout;
-fs.watch(
-  path.join(__dirname, "src"),
-  { recursive: true },
-  (eventType, filename) => {
-    if (mainWindow) {
-      clearTimeout(devWatchTimeout);
-      devWatchTimeout = setTimeout(() => {
-        try {
-          mainWindow.webContents.reloadIgnoringCache();
-          console.log(`Live Reload: Reloaded due to change in ${filename}`);
-        } catch (e) {
-          // App window might have been closed
-        }
-      }, 150);
-    }
-  },
-);
+// Live Reload: Watch the src directory and reload the window automatically when changes occur.
+// Only enabled in dev mode (`npm run start -- --dev` or SWIPEWORD_DEV=1) so the app
+// never switches pages on its own during normal use.
+if (process.argv.includes("--dev") || process.env.SWIPEWORD_DEV === "1") {
+  let devWatchTimeout;
+  fs.watch(
+    path.join(__dirname, "src"),
+    { recursive: true },
+    (eventType, filename) => {
+      if (mainWindow) {
+        clearTimeout(devWatchTimeout);
+        devWatchTimeout = setTimeout(() => {
+          try {
+            mainWindow.webContents.reloadIgnoringCache();
+            console.log(`Live Reload: Reloaded due to change in ${filename}`);
+          } catch (e) {
+            // App window might have been closed
+          }
+        }, 150);
+      }
+    },
+  );
+}
 
 app.whenReady().then(() => {
   Menu.setApplicationMenu(null);
