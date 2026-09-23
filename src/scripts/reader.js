@@ -79,6 +79,10 @@ class ReaderMode {
       canvas.className = 'pdf-scroll-canvas';
       slot.appendChild(canvas);
 
+      const annotLayer = document.createElement('div');
+      annotLayer.className = 'pdf-annot-layer';
+      slot.appendChild(annotLayer);
+
       const layer = document.createElement('div');
       layer.className = 'pdf-scroll-layer';
       slot.appendChild(layer);
@@ -349,48 +353,145 @@ class ReaderMode {
     if (!docKey) return;
     const annots = appStore.getPdfAnnotations(docKey);
     const p = String(pageNum);
+    const slot = layerEl.closest('.pdf-scroll-page');
+    let annotLayer = slot ? slot.querySelector('.pdf-annot-layer') : null;
+    if (slot && !annotLayer) {
+      annotLayer = document.createElement('div');
+      annotLayer.className = 'pdf-annot-layer';
+      slot.insertBefore(annotLayer, layerEl);
+    }
+
     const words = layerEl.querySelectorAll('.rw-word');
+    const byWidx = new Map();
     words.forEach(w => {
-      const widx = w.dataset.widx;
-      const key = `${p}_${widx}`;
-      const a = annots[key];
-      // clear existing annotation classes and inline styles
+      const widx = parseInt(w.dataset.widx, 10);
+      const a = annots[`${p}_${w.dataset.widx}`];
       w.classList.remove(
         'annot-highlight-yellow', 'annot-highlight-green', 'annot-highlight-blue', 'annot-highlight-pink',
         'annot-highlight-purple', 'annot-highlight-orange',
         'annot-underline', 'annot-underline-wavy', 'annot-has-note'
       );
       w.style.backgroundColor = '';
+      w.style.borderRadius = '';
+      w.removeAttribute('data-annot-note');
       w.style.textDecoration = '';
       w.style.textDecorationColor = '';
       w.style.textDecorationStyle = '';
       w.style.textDecorationThickness = '';
       w.style.textUnderlineOffset = '';
-      w.removeAttribute('data-annot-note');
-
-      if (a) {
-        if (a.color) {
-          if (a.color.startsWith('#') || a.color.startsWith('rgb')) {
-            w.style.backgroundColor = this._colorWithAlpha(a.color, 0.45);
-            w.style.borderRadius = '2px';
-          } else {
-            w.classList.add(`annot-highlight-${a.color}`);
-          }
-        }
-        if (a.underline) {
-          const uColor = a.underlineColor || '#2196f3';
-          w.style.textDecoration = 'underline';
-          w.style.textDecorationColor = uColor;
-          w.style.textDecorationStyle = a.underline === 'wavy' ? 'wavy' : 'solid';
-          w.style.textDecorationThickness = '2px';
-          w.style.textUnderlineOffset = '3px';
-        }
-        if (a.note && a.note.trim()) {
-          w.classList.add('annot-has-note');
-          w.setAttribute('data-annot-note', a.note.trim());
-        }
+      if (!a) return;
+      if (a.note && a.note.trim()) {
+        w.classList.add('annot-has-note');
+        w.setAttribute('data-annot-note', a.note.trim());
       }
+      if (!a.color && !a.underline) return;
+      byWidx.set(widx, { el: w, a });
     });
+
+    if (annotLayer) annotLayer.innerHTML = '';
+    if (byWidx.size === 0) return;
+    const layerRect = layerEl.getBoundingClientRect();
+
+    // group contiguous words with same annotation visuals
+    const groups = [];
+    const byKey = new Map();
+    let prevKey = null;
+    for (const widx of [...byWidx.keys()].sort((x, y) => x - y)) {
+      const { el, a } = byWidx.get(widx);
+      const key = `${a.color || ''}|${a.underline || ''}|${a.underlineColor || ''}`;
+      if (key !== prevKey) {
+        byKey.clear();
+        const g = { color: a.color || '', underline: a.underline || '', underlineColor: a.underlineColor || '', items: [] };
+        byKey.set(key, g);
+        groups.push(g);
+        prevKey = key;
+      }
+      const r = el.getBoundingClientRect();
+      const top = r.top - layerRect.top;
+      const left = r.left - layerRect.left;
+      byKey.get(key).items.push({ el, r: { top, left, width: r.width, height: r.height }, a });
+    }
+
+    for (const g of groups) {
+      if (g.color) {
+        // split into line runs (same line) and merge each into one rect
+        let run = [];
+        const flush = () => {
+          if (run.length) {
+            this._drawHighlightRect(annotLayer, run, g.color);
+            run = [];
+          }
+        };
+        for (const it of g.items) {
+          if (run.length && Math.abs(it.r.top - run[0].r.top) > Math.max(it.r.height, run[0].r.height) * 0.5) flush();
+          run.push(it);
+        }
+        flush();
+      }
+      if (g.underline === 'wavy') {
+        g.items.forEach(it => it.el.classList.add('annot-underline-wavy'));
+      } else if (g.underline) {
+        let run = [];
+        const flush = () => {
+          if (run.length) {
+            this._drawUnderlineLine(annotLayer, run, g.underlineColor || '#2196f3');
+            run = [];
+          }
+        };
+        for (const it of g.items) {
+          if (run.length && Math.abs(it.r.top - run[0].r.top) > Math.max(it.r.height, run[0].r.height) * 0.5) flush();
+          run.push(it);
+        }
+        flush();
+      }
+    }
+  }
+
+  _namedHighlightColor(name) {
+    const map = {
+      yellow: '#ffd54f', green: '#81c784', blue: '#64b5f6',
+      pink: '#f06292', purple: '#ba68c8', orange: '#ffb74d'
+    };
+    return map[name] || name || '#ffd54f';
+  }
+
+  _drawHighlightRect(annotLayer, run, color) {
+    if (!annotLayer) return;
+    let minL = Infinity, maxR = -Infinity, minT = Infinity, maxB = -Infinity;
+    for (const it of run) {
+      minL = Math.min(minL, it.r.left);
+      maxR = Math.max(maxR, it.r.left + it.r.width);
+      minT = Math.min(minT, it.r.top);
+      maxB = Math.max(maxB, it.r.top + it.r.height);
+    }
+    if (minL === Infinity) return;
+    const pad = 1;
+    const div = document.createElement('div');
+    div.className = 'annot-hl-rect';
+    div.style.left = Math.max(0, minL - pad) + 'px';
+    div.style.top = Math.max(0, minT - pad) + 'px';
+    div.style.width = (maxR - minL + pad * 2) + 'px';
+    div.style.height = (maxB - minT + pad * 2) + 'px';
+    div.style.background = this._namedHighlightColor(color);
+    annotLayer.appendChild(div);
+  }
+
+  _drawUnderlineLine(annotLayer, run, uColor) {
+    if (!annotLayer) return;
+    let minL = Infinity, maxR = -Infinity, maxB = -Infinity;
+    for (const it of run) {
+      minL = Math.min(minL, it.r.left);
+      maxR = Math.max(maxR, it.r.left + it.r.width);
+      maxB = Math.max(maxB, it.r.top + it.r.height);
+    }
+    if (minL === Infinity) return;
+    const line = document.createElement('div');
+    line.className = 'annot-underline-line';
+    line.style.left = minL + 'px';
+    line.style.top = (maxB + 1) + 'px';
+    line.style.width = (maxR - minL) + 'px';
+    line.style.background = uColor || '#2196f3';
+    annotLayer.appendChild(line);
   }
 
   _colorWithAlpha(color, alpha) {
@@ -473,29 +574,57 @@ class ReaderMode {
 
       if (!layer) continue;
       const wordEls = layer.querySelectorAll('.rw-word');
-      
+
       const layerRect = layer.getBoundingClientRect();
 
+      // collect annotated words, then merge contiguous same-style runs
+      const items = [];
       wordEls.forEach(w => {
-        const widx = w.dataset.widx;
-        const a = annots[`${pNum}_${widx}`];
+        const a = annots[`${pNum}_${w.dataset.widx}`];
         if (!a) return;
-
         const wRect = w.getBoundingClientRect();
         const widthPx = wRect.width || parseFloat(w.style.width) || 0;
         const heightPx = wRect.height || parseFloat(w.style.height) || 0;
         if (widthPx <= 0 || heightPx <= 0) return;
-
         const totalLeftPx = wRect.left - layerRect.left;
         const totalTopPx = wRect.top - layerRect.top;
+        items.push({ a, totalLeftPx, totalTopPx, widthPx, heightPx });
+      });
+      if (!items.length) {
+        if (tempLayer && tempLayer.parentNode) tempLayer.parentNode.removeChild(tempLayer);
+        continue;
+      }
+      items.sort((x, y) => x.totalTopPx - y.totalTopPx || x.totalLeftPx - y.totalLeftPx);
 
-        const pdfX = totalLeftPx * scaleX;
-        const pdfY = pHeight - ((totalTopPx + heightPx) * scaleY);
-        const pdfW = widthPx * scaleX;
-        const pdfH = heightPx * scaleY;
+      const runs = [];
+      for (const it of items) {
+        const key = `${it.a.color || ''}|${it.a.underline || ''}|${it.a.underlineColor || ''}`;
+        const prev = runs[runs.length - 1];
+        const lineGap = prev ? Math.abs(it.totalTopPx - prev.last.totalTopPx) : 0;
+        if (prev && prev.key === key && lineGap < prev.last.heightPx * 1.5) {
+          prev.items.push(it);
+          prev.last = it;
+        } else {
+          runs.push({ key, items: [it], last: it });
+        }
+      }
+
+      for (const run of runs) {
+        let minL = Infinity, maxR = -Infinity, minT = Infinity, maxB = -Infinity;
+        for (const it of run.items) {
+          minL = Math.min(minL, it.totalLeftPx);
+          maxR = Math.max(maxR, it.totalLeftPx + it.widthPx);
+          minT = Math.min(minT, it.totalTopPx);
+          maxB = Math.max(maxB, it.totalTopPx + it.heightPx);
+        }
+        const a = run.items[0].a;
+        const pdfX = minL * scaleX;
+        const pdfY = pHeight - (maxB * scaleY);
+        const pdfW = (maxR - minL) * scaleX;
+        const pdfH = (maxB - minT) * scaleY;
 
         if (a.color) {
-          const c = this._parseRgb01(a.color);
+          const c = this._parseRgb01(this._namedHighlightColor(a.color));
           try {
             page.drawRectangle({
               x: Math.max(0, pdfX),
@@ -510,7 +639,7 @@ class ReaderMode {
           }
         }
 
-        if (a.underline) {
+        if (a.underline && a.underline !== 'wavy') {
           const uc = this._parseRgb01(a.underlineColor || '#2196f3');
           const underlineY = Math.max(0, pdfY - 1.5);
           try {
@@ -525,7 +654,7 @@ class ReaderMode {
             console.warn('Could not draw line annotation:', err);
           }
         }
-      });
+      }
 
       if (tempLayer && tempLayer.parentNode) {
         tempLayer.parentNode.removeChild(tempLayer);

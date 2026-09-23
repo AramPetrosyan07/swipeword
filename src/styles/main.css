@@ -3982,6 +3982,26 @@ body.theme-dark .pdf-scroll-canvas {
   border-radius: 3px;
 }
 
+.pdf-annot-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+.annot-hl-rect {
+  position: absolute;
+  border-radius: 2px;
+  mix-blend-mode: multiply;
+}
+
+.annot-underline-line {
+  position: absolute;
+  height: 2px;
+  border-radius: 1px;
+}
+
 .pdf-viewer-controls {
   display: flex;
   align-items: center;
