@@ -2556,6 +2556,20 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   pointer-events: none;
 }
 
+.pdf-flash-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+.pdf-flash-line {
+  position: absolute;
+  border-radius: 2px;
+  transition: left 0.4s ease, top 0.4s ease, width 0.4s ease, height 0.4s ease, opacity 0.3s ease;
+}
+
 /* Read Aloud mode: red hover on words to indicate right-click-to-start */
 .pdf-pages.read-aloud-mode .pdf-scroll-layer .rw-word:hover {
   background: rgba(220, 38, 38, 0.45) !important;

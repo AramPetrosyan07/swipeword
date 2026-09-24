@@ -496,6 +496,74 @@ class ReaderMode {
     annotLayer.appendChild(line);
   }
 
+  flashSavedWord(spans, color) {
+    const first = spans && spans[0];
+    if (!first) return;
+    const slot = first.closest('.pdf-scroll-page');
+    const layerEl = first.closest('.pdf-scroll-layer');
+    if (!slot || !layerEl) return;
+    (this._flashTimers || []).forEach(clearTimeout);
+    this._flashTimers = [];
+    document.querySelectorAll('.pdf-flash-line').forEach(d => d.remove());
+    let fl = slot.querySelector('.pdf-flash-layer');
+    if (!fl) {
+      fl = document.createElement('div');
+      fl.className = 'pdf-flash-layer';
+      slot.insertBefore(fl, layerEl);
+    }
+    fl.innerHTML = '';
+    const layerRect = layerEl.getBoundingClientRect();
+    const rows = [];
+    const targetSet = new Set(spans);
+    for (const el of layerEl.querySelectorAll('.rw-word')) {
+      const r = el.getBoundingClientRect();
+      const top = r.top - layerRect.top;
+      const left = r.left - layerRect.left;
+      let row = rows.find(R => Math.abs(top - R.top) <= Math.max(r.height, R.height) * 0.5);
+      if (!row) {
+        row = { top, minL: Infinity, maxR: -Infinity, minT: Infinity, maxB: -Infinity, tMinL: Infinity, tMaxR: -Infinity, tMinT: Infinity, tMaxB: -Infinity };
+        rows.push(row);
+      }
+      row.minL = Math.min(row.minL, left);
+      row.maxR = Math.max(row.maxR, left + r.width);
+      row.minT = Math.min(row.minT, top);
+      row.maxB = Math.max(row.maxB, top + r.height);
+      if (targetSet.has(el)) {
+        row.tMinL = Math.min(row.tMinL, left);
+        row.tMaxR = Math.max(row.tMaxR, left + r.width);
+        row.tMinT = Math.min(row.tMinT, top);
+        row.tMaxB = Math.max(row.tMaxB, top + r.height);
+      }
+    }
+    const divs = [];
+    for (const row of rows) {
+      if (row.tMinL === Infinity) continue;
+      const div = document.createElement('div');
+      div.className = 'pdf-flash-line';
+      div.style.left = '0px';
+      div.style.top = Math.max(0, row.minT) + 'px';
+      div.style.width = layerRect.width + 'px';
+      div.style.height = (row.maxB - row.minT) + 'px';
+      div.style.background = color || '#64b5f6';
+      div._target = { left: row.tMinL, top: row.tMinT, width: row.tMaxR - row.tMinL, height: row.tMaxB - row.tMinT };
+      fl.appendChild(div);
+      divs.push(div);
+    }
+    if (!divs.length) return;
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      divs.forEach(d => {
+        d.style.left = d._target.left + 'px';
+        d.style.top = d._target.top + 'px';
+        d.style.width = d._target.width + 'px';
+        d.style.height = d._target.height + 'px';
+      });
+    }));
+    this._flashTimers.push(setTimeout(() => {
+      divs.forEach(d => { d.style.opacity = '0'; });
+      this._flashTimers.push(setTimeout(() => divs.forEach(d => d.remove()), 350));
+    }, 400 + 2000));
+  }
+
   _colorWithAlpha(color, alpha) {
     if (color.startsWith('#')) {
       let hex = color.slice(1);

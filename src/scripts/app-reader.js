@@ -581,6 +581,12 @@ __appMixinReader['_translationSidebarRender'] = function() {
           }
         }).catch(() => {});
       }
+      const itemOnly = e.target.closest('.translation-sidebar-item');
+      if (itemOnly && itemOnly.dataset.id &&
+          !e.target.closest('.translation-sidebar-word, .translation-sidebar-trans, .translation-sidebar-delete, .tsb-page-header')) {
+        const w = (this._pdfSidebarWords || []).find(x => x.id === itemOnly.dataset.id);
+        if (w) this._flashSavedWordInPdf(w);
+      }
     });
     listEl.addEventListener('contextmenu', (e) => {
       const target = e.target.closest('.translation-sidebar-word, .translation-sidebar-trans');
@@ -605,6 +611,59 @@ __appMixinReader['_speakSidebarWord'] = function(text, lang) {
   const map = this.translationPopup._langSpeechMap || {};
   const speechLang = map[lang] || (lang === 'hy' ? 'hy-AM' : 'en-US');
   this.translationPopup._speakWord(text, speechLang);
+};
+
+__appMixinReader['_findSavedWordSpans'] = function(layer, page, phrase) {
+  const norm = (s) => (s || '').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
+  const target = norm(phrase);
+  if (!target) return [];
+  const spans = Array.from(layer.querySelectorAll('.rw-word'));
+  if (!spans.length) return [];
+  let annots = null;
+  try { annots = appStore.getPdfAnnotations(readerMode._getActiveDocKey()); } catch (err) {}
+  const hasAnnot = (sp) => {
+    const k = page + '_' + (sp.dataset.widx || '');
+    return !!(annots && annots[k]);
+  };
+  const matches = [];
+  for (let i = 0; i < spans.length; i++) {
+    let acc = '';
+    for (let j = i; j < spans.length && j < i + 30; j++) {
+      acc += norm(spans[j].dataset.word || spans[j].textContent);
+      if (acc === target) { matches.push(spans.slice(i, j + 1)); break; }
+      if (acc.length > target.length) break;
+    }
+  }
+  if (!matches.length) return [];
+  return matches.find(run => run.some(hasAnnot)) || matches[0];
+};
+
+__appMixinReader['_flashSavedWordInPdf'] = async function(w) {
+  if (!w || w.sourceType !== 'pdf' || !w.page) return;
+  if (typeof readerMode === 'undefined' || !readerMode.pdfDoc) return;
+  const page = parseInt(w.page, 10);
+  if (!page || page < 1 || page > readerMode.pageCount) return;
+  readerMode.gotoPage(page);
+  try { await readerMode.renderScrollPage(page); } catch (err) {}
+  const slot = readerMode.slots[page - 1];
+  const layer = slot && slot.querySelector('.pdf-scroll-layer');
+  if (!layer) return;
+  const target = this._findSavedWordSpans(layer, page, (w.word || '').toLowerCase());
+  if (!target.length) return;
+  const container = document.getElementById('pdfViewerScroll');
+  if (container) {
+    const elTop = target[0].getBoundingClientRect().top + container.scrollTop;
+    const viewH = container.clientHeight;
+    if (elTop < container.scrollTop + 60 || elTop > container.scrollTop + viewH - 60) {
+      container.scrollTo({ top: Math.max(0, elTop - viewH / 2), behavior: 'smooth' });
+    }
+  }
+  let color = '#64b5f6';
+  if (typeof this._getMarkSavedPrefs === 'function') {
+    const prefs = this._getMarkSavedPrefs();
+    if (prefs && prefs.color) color = prefs.color;
+  }
+  readerMode.flashSavedWord(target, color);
 };
 
 __appMixinReader['_onPdfPageChanged'] = function(page) {
