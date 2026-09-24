@@ -3532,7 +3532,8 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   color: var(--text);
   margin-bottom: 2px;
   word-break: break-word;
-  padding-right: 28px;
+  width: fit-content;
+  margin-right: 28px;
   cursor: copy;
 }
 
@@ -3540,7 +3541,8 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   font-size: 12px;
   color: var(--text-secondary);
   word-break: break-word;
-  padding-right: 28px;
+  width: fit-content;
+  margin-right: 28px;
   cursor: copy;
 }
 
