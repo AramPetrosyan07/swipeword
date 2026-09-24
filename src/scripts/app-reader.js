@@ -643,8 +643,11 @@ __appMixinReader['_flashSavedWordInPdf'] = async function(w) {
   if (typeof readerMode === 'undefined' || !readerMode.pdfDoc) return;
   const page = parseInt(w.page, 10);
   if (!page || page < 1 || page > readerMode.pageCount) return;
-  readerMode.gotoPage(page);
-  try { await readerMode.renderScrollPage(page); } catch (err) {}
+  const isCurrentPage = readerMode.pageNum === page;
+  if (!isCurrentPage) {
+    readerMode.gotoPage(page);
+    try { await readerMode.renderScrollPage(page); } catch (err) {}
+  }
   const slot = readerMode.slots[page - 1];
   const layer = slot && slot.querySelector('.pdf-scroll-layer');
   if (!layer) return;
@@ -654,8 +657,11 @@ __appMixinReader['_flashSavedWordInPdf'] = async function(w) {
   if (container) {
     const elTop = target[0].getBoundingClientRect().top + container.scrollTop;
     const viewH = container.clientHeight;
+    const pageTop = (readerMode._pageOffsets && readerMode._pageOffsets[page - 1] !== undefined)
+      ? readerMode._pageOffsets[page - 1] : 0;
     if (elTop < container.scrollTop + 60 || elTop > container.scrollTop + viewH - 60) {
-      container.scrollTo({ top: Math.max(0, elTop - viewH / 2), behavior: 'smooth' });
+      const desired = Math.max(pageTop, elTop - viewH / 2);
+      container.scrollTo({ top: desired, behavior: 'smooth' });
     }
   }
   let color = '#64b5f6';
