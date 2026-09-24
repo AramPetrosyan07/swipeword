@@ -396,20 +396,22 @@ class ReaderMode {
     const groups = [];
     const byKey = new Map();
     let prevKey = null;
+    let prevWidx = null;
     for (const widx of [...byWidx.keys()].sort((x, y) => x - y)) {
       const { el, a } = byWidx.get(widx);
       const key = `${a.color || ''}|${a.underline || ''}|${a.underlineColor || ''}`;
-      if (key !== prevKey) {
+      if (key !== prevKey || (prevWidx !== null && widx - prevWidx > 1)) {
         byKey.clear();
         const g = { color: a.color || '', underline: a.underline || '', underlineColor: a.underlineColor || '', items: [] };
         byKey.set(key, g);
         groups.push(g);
         prevKey = key;
       }
+      prevWidx = widx;
       const r = el.getBoundingClientRect();
       const top = r.top - layerRect.top;
       const left = r.left - layerRect.left;
-      byKey.get(key).items.push({ el, r: { top, left, width: r.width, height: r.height }, a });
+      byKey.get(key).items.push({ el, widx, r: { top, left, width: r.width, height: r.height }, a });
     }
 
     for (const g of groups) {
@@ -601,7 +603,9 @@ class ReaderMode {
         const key = `${it.a.color || ''}|${it.a.underline || ''}|${it.a.underlineColor || ''}`;
         const prev = runs[runs.length - 1];
         const lineGap = prev ? Math.abs(it.totalTopPx - prev.last.totalTopPx) : 0;
-        if (prev && prev.key === key && lineGap < prev.last.heightPx * 1.5) {
+        const prevWidx = prev && prev.last.a ? prev.last.a.widx : null;
+        const idxGap = prev && prevWidx !== null ? (it.a.widx - prevWidx > 1) : false;
+        if (prev && prev.key === key && lineGap < prev.last.heightPx * 1.5 && !idxGap) {
           prev.items.push(it);
           prev.last = it;
         } else {
