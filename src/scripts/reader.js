@@ -518,10 +518,14 @@ class ReaderMode {
     for (const el of layerEl.querySelectorAll('.rw-word')) {
       const r = el.getBoundingClientRect();
       const top = r.top - layerRect.top;
+      const bottom = top + r.height;
       const left = r.left - layerRect.left;
-      let row = rows.find(R => Math.abs(top - R.top) <= Math.max(r.height, R.height) * 0.5);
+      let row = rows.find(R => {
+        const overlap = Math.min(bottom, R.maxB) - Math.max(top, R.minT);
+        return overlap > Math.min(r.height, R.maxB - R.minT) * 0.4;
+      });
       if (!row) {
-        row = { top, minL: Infinity, maxR: -Infinity, minT: Infinity, maxB: -Infinity, tMinL: Infinity, tMaxR: -Infinity, tMinT: Infinity, tMaxB: -Infinity };
+        row = { minL: Infinity, maxR: -Infinity, minT: Infinity, maxB: -Infinity, tMinL: Infinity, tMaxR: -Infinity, tMinT: Infinity, tMaxB: -Infinity };
         rows.push(row);
       }
       row.minL = Math.min(row.minL, left);
