@@ -1019,8 +1019,51 @@ class ReaderMode {
     return lastMatch >= 0 ? lastMatch : 0;
   }
 
+  _clearReadAloudLines(root) {
+    (root || document).querySelectorAll('.ra-underline-line').forEach(d => d.remove());
+  }
+
+  _drawReadAloudUnderlines(slot, wordEls) {
+    const layerEl = slot.querySelector('.pdf-scroll-layer');
+    if (!layerEl) return;
+    let raLayer = slot.querySelector('.pdf-ra-layer');
+    if (!raLayer) {
+      raLayer = document.createElement('div');
+      raLayer.className = 'pdf-ra-layer';
+      slot.insertBefore(raLayer, layerEl);
+    }
+    raLayer.innerHTML = '';
+    const layerRect = layerEl.getBoundingClientRect();
+    let run = [];
+    const flush = () => {
+      if (!run.length) { run = []; return; }
+      let minL = Infinity, maxR = -Infinity, maxB = -Infinity;
+      for (const r of run) {
+        minL = Math.min(minL, r.left);
+        maxR = Math.max(maxR, r.left + r.width);
+        maxB = Math.max(maxB, r.top + r.height);
+      }
+      const line = document.createElement('div');
+      line.className = 'annot-underline-line ra-underline-line';
+      line.style.left = minL + 'px';
+      line.style.top = (maxB + 1) + 'px';
+      line.style.width = (maxR - minL) + 'px';
+      line.style.background = '#dc2626';
+      raLayer.appendChild(line);
+      run = [];
+    };
+    for (const el of wordEls) {
+      const r = el.getBoundingClientRect();
+      const rr = { top: r.top - layerRect.top, left: r.left - layerRect.left, width: r.width, height: r.height };
+      if (run.length && Math.abs(rr.top - run[0].top) > Math.max(rr.height, run[0].height) * 0.5) flush();
+      run.push(rr);
+    }
+    flush();
+  }
+
   _highlightReadAloudSentence(idx) {
     document.querySelectorAll('.pdf-read-aloud-active').forEach(el => el.classList.remove('pdf-read-aloud-active'));
+    this._clearReadAloudLines();
     if (idx < 0 || !this.slots.length) return;
     const sent = this._readAloudSentences[idx];
     if (!sent) return;
@@ -1042,10 +1085,13 @@ class ReaderMode {
     const highlightStart = startIdx;
     const wordCount = sentWords.length;
     let matchCount = 0;
+    const marked = [];
     for (let i = highlightStart; i < words.length && matchCount < wordCount; i++) {
       words[i].classList.add('pdf-read-aloud-active');
+      marked.push(words[i]);
       matchCount++;
     }
+    this._drawReadAloudUnderlines(slot, marked);
     const activeEl = words[highlightStart];
     if (activeEl) {
       const container = document.getElementById('pdfViewerScroll');
@@ -1218,6 +1264,7 @@ class ReaderMode {
       this._readAloudAudio = null;
     }
     document.querySelectorAll('.pdf-read-aloud-active').forEach(el => el.classList.remove('pdf-read-aloud-active'));
+    this._clearReadAloudLines();
     if (this._readAloudHighlightCb) {
       this._readAloudHighlightCb(-1);
       this._readAloudHighlightCb = null;

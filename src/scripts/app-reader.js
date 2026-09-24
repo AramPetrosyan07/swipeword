@@ -1193,9 +1193,36 @@ __appMixinReader['_pdfTextHighlight'] = function(idx) {
   const body = document.getElementById('pdfTextViewBody');
   if (!body) return;
   body.querySelectorAll('.rw-word.pdf-read-aloud-active').forEach((w) => w.classList.remove('pdf-read-aloud-active'));
+  body.querySelectorAll('.ra-underline-line').forEach((d) => d.remove());
   if (idx < 0) return;
   const words = body.querySelectorAll('.rw-word[data-sent="' + idx + '"]');
   words.forEach((w) => w.classList.add('pdf-read-aloud-active'));
+  const bodyRect = body.getBoundingClientRect();
+  let run = [];
+  const flush = () => {
+    if (!run.length) { run = []; return; }
+    let minL = Infinity, maxR = -Infinity, maxB = -Infinity;
+    for (const r of run) {
+      minL = Math.min(minL, r.left);
+      maxR = Math.max(maxR, r.left + r.width);
+      maxB = Math.max(maxB, r.top + r.height);
+    }
+    const line = document.createElement('div');
+    line.className = 'annot-underline-line ra-underline-line';
+    line.style.left = (minL - bodyRect.left + body.scrollLeft) + 'px';
+    line.style.top = (maxB - bodyRect.top + body.scrollTop + 1) + 'px';
+    line.style.width = (maxR - minL) + 'px';
+    line.style.background = '#dc2626';
+    body.appendChild(line);
+    run = [];
+  };
+  words.forEach((w) => {
+    const r = w.getBoundingClientRect();
+    const rr = { top: r.top - bodyRect.top, left: r.left - bodyRect.left, width: r.width, height: r.height };
+    if (run.length && Math.abs(rr.top - run[0].top) > Math.max(rr.height, run[0].height) * 0.5) flush();
+    run.push(rr);
+  });
+  flush();
   const activeEl = words[0];
   if (activeEl) {
     const elTop = activeEl.getBoundingClientRect().top + body.scrollTop;

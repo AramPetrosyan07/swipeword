@@ -2547,10 +2547,13 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 .pdf-read-aloud-active {
   background: transparent;
   border-radius: 0;
-  text-decoration: underline;
-  text-decoration-color: #dc2626;
-  text-decoration-thickness: 2.5px;
-  text-underline-offset: 3px;
+}
+
+.pdf-ra-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 /* Read Aloud mode: red hover on words to indicate right-click-to-start */
@@ -7041,6 +7044,7 @@ body.theme-dark .pdf-scroll-canvas {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  position: relative;
   padding: 18px 22px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -7073,10 +7077,6 @@ body.theme-dark .pdf-scroll-canvas {
 .pdf-text-view-body .pdf-read-aloud-active {
   background: transparent;
   border-radius: 0;
-  text-decoration: underline;
-  text-decoration-color: #dc2626;
-  text-decoration-thickness: 2.5px;
-  text-underline-offset: 3px;
 }
 
 .pdf-text-view-body .rw-word.pdf-read-aloud-active:hover {
