@@ -85,6 +85,8 @@ class VocabularyLibrary {
     document.getElementById('vocabLibSpacingDropdown').style.display = 'none';
     const spacingBtn = document.getElementById('btnVocabLibSpacing');
     if (spacingBtn) spacingBtn.style.display = this._mode === 'pdf' ? '' : 'none';
+    const collapseBtn = document.getElementById('btnVocabLibCollapseAll');
+    if (collapseBtn) collapseBtn.style.display = this._mode === 'pdf' ? '' : 'none';
     this._render();
   }
 
@@ -96,11 +98,13 @@ class VocabularyLibrary {
     document.getElementById('vocabLibDictSort').addEventListener('change', (e) => {
       this._dictSort = e.target.value;
       this._renderDictList();
+      document.getElementById('vocabLibDict').scrollTop = 0;
     });
 
     document.getElementById('vocabLibDictSearch').addEventListener('input', (e) => {
       this._dictSearchQuery = e.target.value.trim().toLowerCase();
       this._renderDictList();
+      document.getElementById('vocabLibDict').scrollTop = 0;
     });
 
     document.getElementById('btnVocabLibDeleteAll').addEventListener('click', () => {
@@ -141,6 +145,59 @@ class VocabularyLibrary {
         this._renderDictList();
       });
     }
+
+    document.getElementById('btnVocabLibCollapseAll').addEventListener('click', () => {
+      this._collapseAllPageGroups();
+    });
+
+    this._bindDictScroll();
+  }
+
+  _collapseAllPageGroups() {
+    this._openPageGroups = new Set();
+    document.querySelectorAll('#vocabLibDictList .vocablib-page-group.open').forEach((group) => {
+      group.classList.remove('open');
+    });
+  }
+
+  _bindDictScroll() {
+    const dict = document.getElementById('vocabLibDict');
+    const topBtn = document.getElementById('btnVocabLibScrollTop');
+
+    dict.addEventListener('scroll', () => {
+      if (this._scrollRaf) return;
+      this._scrollRaf = requestAnimationFrame(() => {
+        this._scrollRaf = null;
+        topBtn.classList.toggle('visible', dict.scrollTop > 300);
+      });
+    }, { passive: true });
+
+    topBtn.addEventListener('click', () => {
+      this._scrollDictToTop();
+    });
+  }
+
+  _scrollDictToTop() {
+    const dict = document.getElementById('vocabLibDict');
+    const topBtn = document.getElementById('btnVocabLibScrollTop');
+    if (this._scrollTopAnim) cancelAnimationFrame(this._scrollTopAnim);
+    topBtn.classList.remove('visible');
+    const start = dict.scrollTop;
+    if (start <= 0) return;
+    const duration = 350;
+    const t0 = performance.now();
+    const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+    const step = (now) => {
+      const p = Math.min((now - t0) / duration, 1);
+      dict.scrollTop = start * (1 - easeOut(p));
+      if (p < 1) {
+        this._scrollTopAnim = requestAnimationFrame(step);
+      } else {
+        dict.scrollTop = 0;
+        this._scrollTopAnim = null;
+      }
+    };
+    this._scrollTopAnim = requestAnimationFrame(step);
   }
 
   _loadFilters() {
@@ -589,6 +646,13 @@ class VocabularyLibrary {
     document.getElementById('vocabLibDictSearch').value = '';
     document.getElementById('vocabLibDictSort').value = 'newest';
     this._render();
+    const dict = document.getElementById('vocabLibDict');
+    if (this._scrollTopAnim) {
+      cancelAnimationFrame(this._scrollTopAnim);
+      this._scrollTopAnim = null;
+    }
+    dict.scrollTop = 0;
+    document.getElementById('btnVocabLibScrollTop').classList.remove('visible');
   }
 
   _renderDict() {
@@ -745,6 +809,7 @@ class VocabularyLibrary {
           <p>${this._dictSearchQuery ? 'No words match your search.' : 'No saved words from this video.'}</p>
         </div>
       `;
+      document.getElementById('btnVocabLibScrollTop').classList.remove('visible');
       return;
     }
 

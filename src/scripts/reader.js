@@ -940,14 +940,9 @@ class ReaderMode {
     await this.zoomBy(0.8);
   }
 
-  async zoomIn5() {
-    this.scale = Math.min(Math.max(Math.round((this.scale + 0.05) * 100) / 100, 0.1), 10);
+  async _applyZoom(scale, anchorPage, anchorOffset) {
+    this.scale = scale;
     const container = document.getElementById('pdfViewerScroll');
-    let anchorPage = this.pageNum;
-    let anchorOffset = 0;
-    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
-      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
-    }
     await this._resizeScrollSlots();
     this._buildPageOffsets();
     if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
@@ -956,20 +951,40 @@ class ReaderMode {
     this.onScroll(true);
   }
 
+  async _animateZoom(targetScale) {
+    const target = Math.min(Math.max(Math.round(targetScale * 100) / 100, 0.1), 10);
+    if (target === Math.round(this.scale * 100) / 100) return;
+    if (this._zoomAnimating) return;
+    this._zoomAnimating = true;
+    try {
+      const container = document.getElementById('pdfViewerScroll');
+      const anchorPage = this.pageNum;
+      let anchorOffset = 0;
+      if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
+        anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
+      }
+      const start = this.scale;
+      const steps = 6;
+      for (let i = 1; i <= steps; i++) {
+        const p = i / steps;
+        const eased = 1 - Math.pow(1 - p, 3);
+        const s = Math.round((start + (target - start) * eased) * 100) / 100;
+        await this._applyZoom(s, anchorPage, anchorOffset);
+        if (i < steps) {
+          await new Promise((r) => requestAnimationFrame(r));
+        }
+      }
+    } finally {
+      this._zoomAnimating = false;
+    }
+  }
+
+  async zoomIn5() {
+    await this._animateZoom(this.scale + 0.1);
+  }
+
   async zoomOut5() {
-    this.scale = Math.min(Math.max(Math.round((this.scale - 0.05) * 100) / 100, 0.1), 10);
-    const container = document.getElementById('pdfViewerScroll');
-    let anchorPage = this.pageNum;
-    let anchorOffset = 0;
-    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
-      anchorOffset = container.scrollTop - this._pageOffsets[anchorPage - 1];
-    }
-    await this._resizeScrollSlots();
-    this._buildPageOffsets();
-    if (container && this._pageOffsets[anchorPage - 1] !== undefined) {
-      container.scrollTop = this._pageOffsets[anchorPage - 1] + anchorOffset;
-    }
-    this.onScroll(true);
+    await this._animateZoom(this.scale - 0.1);
   }
 
   async _fitWidth() {

@@ -162,12 +162,10 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     readerMode.gotoPage(num);
   });
   document.getElementById('pdfZoomIn5').addEventListener('click', () => {
-    readerMode.zoomIn5();
-    this._pdfSaveZoom();
+    readerMode.zoomIn5().then(() => this._pdfSaveZoom());
   });
   document.getElementById('pdfZoomOut5').addEventListener('click', () => {
-    readerMode.zoomOut5();
-    this._pdfSaveZoom();
+    readerMode.zoomOut5().then(() => this._pdfSaveZoom());
   });
   const readAloudBtn = document.getElementById('btnReadAloud');
   if (readAloudBtn) {

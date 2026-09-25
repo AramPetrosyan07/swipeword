@@ -5409,7 +5409,10 @@ body.theme-dark .pdf-scroll-canvas {
   flex: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: auto;
 }
 
 .vocablib-dict-header {
@@ -5419,7 +5422,6 @@ body.theme-dark .pdf-scroll-canvas {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   align-items: center;
-  flex-shrink: 0;
 }
 
 .vocablib-dict-thumb-wrap {
@@ -5507,7 +5509,6 @@ body.theme-dark .pdf-scroll-canvas {
   padding: 12px 20px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
-  flex-shrink: 0;
   flex-wrap: wrap;
 }
 
@@ -5602,7 +5603,6 @@ body.theme-dark .pdf-scroll-canvas {
   padding: 10px 20px;
   background: rgba(108, 99, 255, 0.08);
   border-bottom: 1px solid var(--border);
-  flex-shrink: 0;
   flex-wrap: wrap;
 }
 
@@ -5715,12 +5715,47 @@ body.theme-dark .pdf-scroll-canvas {
 }
 
 .vocablib-dict-list {
-  flex: 1;
-  overflow-y: auto;
   padding: 10px 14px;
   display: flex;
   flex-direction: column;
   gap: 3px;
+}
+
+.vocablib-scroll-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s, filter 0.15s;
+  z-index: 20;
+  user-select: none;
+}
+
+.vocablib-scroll-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.vocablib-scroll-top:hover {
+  filter: brightness(1.15);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .vocablib-dict-empty {
