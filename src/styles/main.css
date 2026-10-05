@@ -4534,6 +4534,11 @@ body.theme-dark .pdf-scroll-canvas {
   border: none;
 }
 
+#ytPlayerMount {
+  width: 100%;
+  height: 100%;
+}
+
 .yt-drag-overlay {
   display: none;
   position: absolute;

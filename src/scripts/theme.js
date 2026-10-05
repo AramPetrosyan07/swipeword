@@ -9,7 +9,7 @@ class ThemeManager {
     if (appStore.data) {
       if (appStore.data.darkMode) {
         this.darkMode = true;
-        document.body.className = 'theme-dark';
+        this._applyThemeClass();
       }
       if (appStore.data.themeColors) {
         this.lightColors = appStore.data.themeColors.light;
@@ -19,9 +19,14 @@ class ThemeManager {
     }
   }
 
+  _applyThemeClass() {
+    document.body.classList.toggle('theme-dark', this.darkMode);
+    document.body.classList.toggle('theme-light', !this.darkMode);
+  }
+
   toggle() {
     this.darkMode = !this.darkMode;
-    document.body.className = this.darkMode ? 'theme-dark' : 'theme-light';
+    this._applyThemeClass();
     appStore.data.darkMode = this.darkMode;
     appStore.save();
     this._applyCustomColors();

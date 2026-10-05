@@ -333,14 +333,14 @@ __appMixinYoutube['_showReadContent'] = function(sourceType, title, text, videoI
       try { this._ytPlayer.destroy(); } catch (e) {}
       this._ytPlayer = null;
     }
-    ytPlayerEl.innerHTML = '';
+    ytPlayerEl.innerHTML = '<div id="ytPlayerMount"></div>';
     document.getElementById('readYoutubeSubtitles').innerHTML =
       '<p style="color:var(--text-secondary);">Loading captions...</p>';
     this._renderYoutubeSavedWords();
     this._fetchYoutubeCaptions(videoId);
     window._ensureYouTubeApi().then(() => {
       try {
-        this._ytPlayer = new YT.Player('readYoutubePlayer', {
+        this._ytPlayer = new YT.Player('ytPlayerMount', {
           height: '100%',
           width: '100%',
           videoId: videoId,
