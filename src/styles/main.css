@@ -33,6 +33,10 @@
   --shadow: 0 4px 24px rgba(42, 33, 24, 0.08);
   --radius: 16px;
   --radius-sm: 10px;
+  --bg-secondary: #efe9dd;
+  --border-color: #e8e0d2;
+  --accent: #a06b34;
+  --primary-bg: rgba(160, 107, 52, 0.12);
   --pdf-bg: #fffdf9;
   --pdf-text: transparent;
   --pdf-select: rgba(160, 107, 52, 0.22);
@@ -47,6 +51,10 @@ body.theme-dark {
   --primary: #d5b577;
   --primary-hover: #e3c68d;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --bg-secondary: #10141a;
+  --border-color: #2a313c;
+  --accent: #d5b577;
+  --primary-bg: rgba(213, 181, 119, 0.16);
   --pdf-bg: #151a21;
   --pdf-text: #fff;
   --pdf-select: rgba(213, 181, 119, 0.42);
@@ -4508,18 +4516,30 @@ body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
 .read-url-input {
   flex: 1;
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 10px 12px;
+  border-radius: 12px;
+  padding: 12px 16px;
   font-size: 14px;
   font-family: inherit;
   color: var(--text);
   background: var(--bg);
   outline: none;
-  transition: border-color 0.2s;
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.read-url-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.75;
 }
 
 .read-url-input:focus {
   border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(160, 107, 52, 0.12);
+}
+
+body.theme-dark .read-url-input:focus {
+  box-shadow: 0 0 0 3px rgba(213, 181, 119, 0.14);
 }
 
 .read-action-btn {
@@ -4529,47 +4549,64 @@ body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
 
 /* --- YouTube Recommendations (shown before a URL is pasted) --- */
 .yt-recommendations {
-  padding: 12px 20px 16px;
+  padding: 18px 22px 20px;
   flex: 1 1 0;
   overflow-y: auto;
   min-height: 0;
 }
 
 .yt-recommendations-header {
-  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text-secondary);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.18em;
+}
+
+.yt-recommendations-header::before {
+  content: "";
+  width: 3px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--primary);
+  opacity: 0.85;
 }
 
 .yt-recommendations-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
 }
 
 .yt-recent-grid {
   grid-template-columns: none;
   grid-auto-flow: column;
-  grid-auto-columns: 180px;
+  grid-auto-columns: 190px;
   overflow-x: auto;
-  margin-bottom: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 24px;
+  padding-bottom: 6px;
 }
 
 .yt-recommendation-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  border-radius: 14px;
   overflow: hidden;
   cursor: pointer;
-  transition: border-color 0.2s, transform 0.1s;
+  transition:
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .yt-recommendation-card:hover {
   border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .yt-recommendation-thumb {
@@ -4598,9 +4635,9 @@ body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
 }
 
 .yt-recommendation-title {
-  padding: 8px 10px 10px;
+  padding: 9px 12px 11px;
   font-size: 12.5px;
-  line-height: 1.35;
+  line-height: 1.4;
   color: var(--text);
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -5061,14 +5098,23 @@ body.theme-dark .yt-sub-line.yt-sub-active .rw-word {
   cursor: pointer;
   font-size: 13px;
   font-family: inherit;
-  font-style: italic;
   line-height: 1;
   transition: background 0.15s, border-color 0.15s;
 }
 
 .yt-shadow-gear-btn:hover {
-  background: var(--primary-bg, rgba(100, 120, 255, 0.15));
+  background: rgba(160, 107, 52, 0.09);
   border-color: var(--primary);
+}
+
+body.theme-dark .yt-shadow-gear-btn:hover {
+  background: rgba(213, 181, 119, 0.1);
+}
+
+.yt-shadow-gear-btn svg {
+  width: 14px;
+  height: 14px;
+  display: block;
 }
 
 .yt-shadow-action-btn {

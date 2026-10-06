@@ -13,6 +13,7 @@ class ThemeManager {
         this.darkMode = true;
         this._applyThemeClass();
       }
+      this._migrateYtPalette();
       if (appStore.data.themeColors) {
         const tc = appStore.data.themeColors;
         if (!appStore.data.pdfColors) {
@@ -42,6 +43,21 @@ class ThemeManager {
     }
   }
 
+  _migrateYtPalette() {
+    const yt = appStore.data && appStore.data.pageColors && appStore.data.pageColors.youtube;
+    if (!yt) return;
+    const keys = ['pageBg', 'panelBg', 'text', 'subText', 'subActive', 'select', 'saved', 'accent'];
+    const flat = !yt.light && !yt.dark;
+    const sameInBoth = !!(yt.light && yt.dark) &&
+      keys.every((k) => (yt.light[k] || null) === (yt.dark[k] || null));
+    if (!flat && !sameInBoth) return;
+    const colors = flat ? yt : yt.light;
+    const bucket = this.darkMode ? 'dark' : 'light';
+    appStore.data.pageColors.youtube = { light: {}, dark: {} };
+    appStore.data.pageColors.youtube[bucket] = Object.assign({}, colors);
+    appStore.save();
+  }
+
   _applyThemeClass() {
     document.body.classList.toggle('theme-dark', this.darkMode);
     document.body.classList.toggle('theme-light', !this.darkMode);
@@ -53,7 +69,7 @@ class ThemeManager {
     appStore.data.darkMode = this.darkMode;
     appStore.save();
     this._applyCustomColors();
-    this._applyPdfColors();
+    this.applyStoredPagePalettes();
   }
 
   setPdfColors(light, dark) {
@@ -126,14 +142,16 @@ class ThemeManager {
     const colors = this.getPagePalette(page);
     if (page === 'youtube') {
       if (colors) {
-        if (colors.pageBg) pageEl.style.setProperty('--yt-page-bg', colors.pageBg);
-        if (colors.panelBg) pageEl.style.setProperty('--yt-panel-bg', colors.panelBg);
-        if (colors.text) pageEl.style.setProperty('--yt-text', colors.text);
-        if (colors.subText) pageEl.style.setProperty('--yt-sub-text', colors.subText);
-        if (colors.subActive) pageEl.style.setProperty('--yt-sub-active', colors.subActive);
-        if (colors.accent) pageEl.style.setProperty('--yt-accent', colors.accent);
-        if (colors.select) pageEl.style.setProperty('--yt-select', this._hexToRgba(colors.select, 0.3));
-        if (colors.saved) pageEl.style.setProperty('--yt-saved', colors.saved);
+        const perMode = !!(colors.light && colors.dark);
+        const c = perMode ? (this.darkMode ? colors.dark : colors.light) : colors;
+        if (c.pageBg) pageEl.style.setProperty('--yt-page-bg', c.pageBg);
+        if (c.panelBg) pageEl.style.setProperty('--yt-panel-bg', c.panelBg);
+        if (c.text) pageEl.style.setProperty('--yt-text', c.text);
+        if (c.subText) pageEl.style.setProperty('--yt-sub-text', c.subText);
+        if (c.subActive) pageEl.style.setProperty('--yt-sub-active', c.subActive);
+        if (c.accent) pageEl.style.setProperty('--yt-accent', c.accent);
+        if (c.select) pageEl.style.setProperty('--yt-select', this._hexToRgba(c.select, 0.3));
+        if (c.saved) pageEl.style.setProperty('--yt-saved', c.saved);
       } else {
         ['--yt-page-bg', '--yt-panel-bg', '--yt-text', '--yt-sub-text', '--yt-sub-active', '--yt-accent', '--yt-select', '--yt-saved']
           .forEach((v) => pageEl.style.removeProperty(v));

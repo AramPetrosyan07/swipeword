@@ -299,7 +299,12 @@ __appMixinSettings['_resetThemeColors'] = function() {
 };
 
 __appMixinSettings['_loadYtPageColors'] = function() {
-  const p = themeManager.getPagePalette('youtube') || {};
+  const stored = themeManager.getPagePalette('youtube') || {};
+  const perMode = !!(stored.light && stored.dark);
+  const p = perMode ? (themeManager.darkMode ? stored.dark : stored.light) : stored;
+  if (!p || Object.keys(p).length === 0) {
+    themeManager.applyPagePalette('youtube');
+  }
   const cs = getComputedStyle(document.body);
   const def = (name, fallback) => {
     const v = cs.getPropertyValue(name);
@@ -317,7 +322,13 @@ __appMixinSettings['_loadYtPageColors'] = function() {
 };
 
 __appMixinSettings['_applyYtPageColors'] = function() {
-  themeManager.setPagePalette('youtube', {
+  const stored = themeManager.getPagePalette('youtube') || {};
+  const perMode = !!(stored.light && stored.dark);
+  const base = perMode
+    ? { light: Object.assign({}, stored.light), dark: Object.assign({}, stored.dark) }
+    : { light: {}, dark: {} };
+  const bucket = themeManager.darkMode ? 'dark' : 'light';
+  base[bucket] = {
     pageBg: document.getElementById('ytColorPageBg').value,
     panelBg: document.getElementById('ytColorPanelBg').value,
     text: document.getElementById('ytColorText').value,
@@ -326,7 +337,8 @@ __appMixinSettings['_applyYtPageColors'] = function() {
     select: document.getElementById('ytColorSelect').value,
     saved: document.getElementById('ytColorSaved').value,
     accent: document.getElementById('ytColorAccent').value,
-  });
+  };
+  themeManager.setPagePalette('youtube', base);
 };
 
 __appMixinSettings['_resetYtPageColors'] = function() {
