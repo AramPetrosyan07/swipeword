@@ -9,7 +9,7 @@ class ThemeManager {
 
   init() {
     if (appStore.data) {
-      if (appStore.data.darkMode) {
+      if (appStore.data.darkMode !== false) {
         this.darkMode = true;
         this._applyThemeClass();
       }
@@ -179,7 +179,7 @@ class ThemeManager {
     const colors = this.darkMode ? this.pdfColorsDark : this.pdfColorsLight;
     const props = ['--pdf-bg', '--pdf-text', '--pdf-select'];
     if (colors && (colors.pdfBg || colors.pdfText || colors.pdfSelect)) {
-      const pdfBg = colors.pdfBg || (this.darkMode ? '#16213e' : '#ffffff');
+      const pdfBg = colors.pdfBg || (this.darkMode ? '#151a21' : '#fffdf9');
       let pdfText = colors.pdfText;
       const hasPdfText = !!pdfText && pdfText !== 'transparent';
       if (!hasPdfText && this._luminance(pdfBg) < 0.5) {
@@ -191,7 +191,7 @@ class ThemeManager {
         '--pdf-select',
         colors.pdfSelect
           ? this._hexToRgba(colors.pdfSelect, this.darkMode ? 0.42 : 0.22)
-          : 'rgba(108, 99, 255, ' + (this.darkMode ? '0.42' : '0.22') + ')'
+          : 'rgba(160, 107, 52, ' + (this.darkMode ? '0.42' : '0.22') + ')'
       );
       body.classList.add('pdf-custom-colors');
       body.classList.toggle('theme-pdf-textlayer', hasPdfText || this._luminance(pdfBg) < 0.5);
@@ -206,7 +206,7 @@ class ThemeManager {
       const nums = color.match(/\d+/g) || [];
       return 'rgba(' + (nums[0] || 108) + ', ' + (nums[1] || 99) + ', ' + (nums[2] || 255) + ', ' + alpha + ')';
     }
-    let h = (color || '#6c63ff').replace('#', '').slice(0, 6);
+    let h = (color || '#a06b34').replace('#', '').slice(0, 6);
     while (h.length < 6) h += '0';
     const r = parseInt(h.slice(0, 2), 16);
     const g = parseInt(h.slice(2, 4), 16);

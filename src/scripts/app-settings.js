@@ -267,14 +267,14 @@ __appMixinSettings['_openPageColorsBar'] = function() {
 __appMixinSettings['_loadThemeColors'] = function() {
   const light = themeManager.lightColors || {};
   const dark = themeManager.darkColors || {};
-  document.getElementById('themeLightBg').value = light.bg || '#f5f5f5';
-  document.getElementById('themeLightText').value = light.text || '#1a1a2e';
-  document.getElementById('themeLightSecondary').value = light.textSecondary || '#666666';
-  document.getElementById('themeLightSelect').value = light.select || '#6c63ff';
-  document.getElementById('themeDarkBg').value = dark.bg || '#1a1a2e';
-  document.getElementById('themeDarkText').value = dark.text || '#e0e0e0';
-  document.getElementById('themeDarkSecondary').value = dark.textSecondary || '#aaaaaa';
-  document.getElementById('themeDarkSelect').value = dark.select || '#6c63ff';
+  document.getElementById('themeLightBg').value = light.bg || '#f7f3ec';
+  document.getElementById('themeLightText').value = light.text || '#2a2118';
+  document.getElementById('themeLightSecondary').value = light.textSecondary || '#8b7e6d';
+  document.getElementById('themeLightSelect').value = light.select || '#a06b34';
+  document.getElementById('themeDarkBg').value = dark.bg || '#0d1015';
+  document.getElementById('themeDarkText').value = dark.text || '#f0ead9';
+  document.getElementById('themeDarkSecondary').value = dark.textSecondary || '#9a917f';
+  document.getElementById('themeDarkSelect').value = dark.select || '#a06b34';
 };
 
 __appMixinSettings['_applyThemeColors'] = function() {
@@ -306,14 +306,14 @@ __appMixinSettings['_loadYtPageColors'] = function() {
     return (v && v.trim() && v.trim().startsWith('#')) ? v.trim() : fallback;
   };
   const dark = themeManager.darkMode;
-  document.getElementById('ytColorPageBg').value = p.pageBg || def('--bg', dark ? '#1a1a2e' : '#f5f5f5');
-  document.getElementById('ytColorPanelBg').value = p.panelBg || def('--surface', dark ? '#16213e' : '#ffffff');
-  document.getElementById('ytColorText').value = p.text || def('--text', dark ? '#e0e0e0' : '#1a1a2e');
-  document.getElementById('ytColorSubText').value = p.subText || def('--text', dark ? '#e0e0e0' : '#1a1a2e');
+  document.getElementById('ytColorPageBg').value = p.pageBg || def('--bg', dark ? '#0d1015' : '#f7f3ec');
+  document.getElementById('ytColorPanelBg').value = p.panelBg || def('--surface', dark ? '#151a21' : '#fffdf9');
+  document.getElementById('ytColorText').value = p.text || def('--text', dark ? '#f0ead9' : '#2a2118');
+  document.getElementById('ytColorSubText').value = p.subText || def('--text', dark ? '#f0ead9' : '#2a2118');
   document.getElementById('ytColorSubActive').value = p.subActive || (dark ? '#7fd87f' : '#1a6b1a');
-  document.getElementById('ytColorSelect').value = p.select || def('--primary', '#6c63ff');
+  document.getElementById('ytColorSelect').value = p.select || def('--primary', '#a06b34');
   document.getElementById('ytColorSaved').value = p.saved || '#f59e0b';
-  document.getElementById('ytColorAccent').value = p.accent || def('--primary', '#6c63ff');
+  document.getElementById('ytColorAccent').value = p.accent || def('--primary', '#a06b34');
 };
 
 __appMixinSettings['_applyYtPageColors'] = function() {
@@ -337,12 +337,12 @@ __appMixinSettings['_resetYtPageColors'] = function() {
 __appMixinSettings['_loadPdfPageColors'] = function() {
   const light = themeManager.pdfColorsLight || {};
   const dark = themeManager.pdfColorsDark || {};
-  document.getElementById('pdfColorLightBg').value = light.pdfBg || '#ffffff';
+  document.getElementById('pdfColorLightBg').value = light.pdfBg || '#fffdf9';
   document.getElementById('pdfColorLightText').value = light.pdfText || '#000000';
-  document.getElementById('pdfColorLightSelect').value = light.pdfSelect || '#6c63ff';
-  document.getElementById('pdfColorDarkBg').value = dark.pdfBg || '#16213e';
-  document.getElementById('pdfColorDarkText').value = dark.pdfText || '#ffffff';
-  document.getElementById('pdfColorDarkSelect').value = dark.pdfSelect || '#6c63ff';
+  document.getElementById('pdfColorLightSelect').value = light.pdfSelect || '#a06b34';
+  document.getElementById('pdfColorDarkBg').value = dark.pdfBg || '#151a21';
+  document.getElementById('pdfColorDarkText').value = dark.pdfText || '#fffdf9';
+  document.getElementById('pdfColorDarkSelect').value = dark.pdfSelect || '#a06b34';
 };
 
 __appMixinSettings['_applyPdfPageColors'] = function() {

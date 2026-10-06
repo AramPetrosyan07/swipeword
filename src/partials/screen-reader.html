@@ -1,8 +1,8 @@
     <div id="screen-reader" class="screen active">
       <div class="reader-toolbar" id="readerToolbar">
         <div class="reader-toolbar-left">
-          <button class="icon-btn" id="btnReaderMenu" title="Menu">&#9776;</button>
-          <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back">&#8592;</button>
+          <button class="icon-btn" id="btnReaderMenu" title="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg></button>
+          <button class="icon-btn reader-back-btn" id="btnReaderBack" style="display:none;" title="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg></button>
         </div>
         <div class="reader-lang-bar" id="readerLangBar" style="display:none;">
           <select id="readerSourceLang" class="reader-lang-select" title="Source language (the language of the book)"></select>
@@ -14,7 +14,7 @@
             <option value="4">4</option>
           </select>
           <div class="yt-voice-dropdown" id="readerVoiceDropdown">
-            <button class="yt-voice-btn" id="btnReaderVoice" title="Choose who pronounces the translated word">&#128266; <span id="readerVoiceLabel">Andrew</span> &#9662;</button>
+            <button class="yt-voice-btn" id="btnReaderVoice" title="Choose who pronounces the translated word"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg> <span id="readerVoiceLabel">Andrew</span> &#9662;</button>
           </div>
           <div class="yt-voice-menu" id="readerVoiceMenu" style="display:none;">
             <div class="yt-voice-title">Who speaks the word?</div>
@@ -26,14 +26,14 @@
           <button class="icon-btn reader-lang-close" id="btnReaderLangClose" title="Close language settings">&times;</button>
         </div>
         <div class="reader-toolbar-right">
-          <button class="btn btn-primary btn-sm" id="btnSavePdfFile" style="display:none;" title="Save annotations to PDF (Ctrl+S)">&#128190; Save PDF</button>
-          <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;">&#8592; New</button>
-          <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar">&#9650;</button>
-          <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar">&#128142;</button>
-          <button class="icon-btn" id="btnReadAloud" title="Read Aloud (right-click to start)">&#128266;</button>
+          <button class="btn btn-primary btn-sm" id="btnSavePdfFile" style="display:none;" title="Save annotations to PDF (Ctrl+S)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8"/><path d="M7 3v5h8"/></svg> Save PDF</button>
+          <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg> New</button>
+          <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg></button>
+          <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg></button>
+          <button class="icon-btn" id="btnReadAloud" title="Read Aloud (right-click to start)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
           <span class="read-aloud-inline" id="readAloudInline" style="display:none;">
-            <button class="read-aloud-inline-btn" id="btnReadAloudPlay" title="Play / Pause">&#9654;</button>
-            <button class="read-aloud-inline-btn read-aloud-inline-stop" id="btnReadAloudStop" title="Stop">&#9632;</button>
+            <button class="read-aloud-inline-btn" id="btnReadAloudPlay" title="Play / Pause"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+            <button class="read-aloud-inline-btn read-aloud-inline-stop" id="btnReadAloudStop" title="Stop"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg></button>
             <select id="readAloudLang" class="reader-lang-select read-aloud-inline-select" title="Reading language"></select>
             <select id="readAloudVoice" class="reader-lang-select read-aloud-inline-select" title="Reading voice">
               <option value="0">Andrew</option>
@@ -50,38 +50,38 @@
               <option value="2">2x</option>
             </select>
           </span>
-          <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#127912;</button>
-          <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
-          <button class="icon-btn" id="btnUpdateRestart" title="Update &amp; restart">&#8635;</button>
-          <button class="icon-btn" id="btnReaderSettings" title="Settings">&#9881;</button>
-          <button class="icon-btn" id="btnReaderTheme" title="Toggle theme">&#9790;</button>
+          <button class="icon-btn" id="btnThemeColors" title="Customize colors"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1" fill="currentColor" stroke="none"/><circle cx="17.5" cy="10.5" r="1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="7.5" r="1" fill="currentColor" stroke="none"/><circle cx="6.5" cy="12.5" r="1" fill="currentColor" stroke="none"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.65-.75 1.65-1.69 0-.44-.18-.84-.44-1.12-.29-.29-.44-.6-.44-.95 0-1.05 1-1.56 2.69-1.56h2.77c2.69 0 4.77-2.03 4.77-4.68C22 6.5 17.5 2 12 2z"/></svg></button>
+          <button class="icon-btn" id="btnReaderLangBtn" title="Language settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 0 18"/><path d="M12 3a13.5 13.5 0 0 0 0 18"/></svg></button>
+          <button class="icon-btn" id="btnUpdateRestart" title="Update &amp; restart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg></button>
+          <button class="icon-btn" id="btnReaderSettings" title="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
+          <button class="icon-btn" id="btnReaderTheme" title="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
         </div>
         <div class="theme-colors-bar" id="themeColorsBar" style="display:none;">
           <div class="theme-colors-header">
-            <span class="theme-colors-title">&#127912; App Colors</span>
+            <span class="theme-colors-title">App Colors</span>
             <button class="icon-btn" id="btnThemeColorsClose" title="Close">&#10007;</button>
           </div>
           <div class="theme-colors-grid">
             <fieldset class="theme-color-group">
               <legend>Light Mode</legend>
               <div class="theme-color-row">
-                <label><span>BG</span><input type="color" id="themeLightBg" value="#f5f5f5" /></label>
-                <label><span>Text</span><input type="color" id="themeLightText" value="#1a1a2e" /></label>
+                <label><span>BG</span><input type="color" id="themeLightBg" value="#f7f3ec" /></label>
+                <label><span>Text</span><input type="color" id="themeLightText" value="#2a2118" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>Secondary</span><input type="color" id="themeLightSecondary" value="#666666" /></label>
-                <label><span>Primary</span><input type="color" id="themeLightSelect" value="#6c63ff" /></label>
+                <label><span>Secondary</span><input type="color" id="themeLightSecondary" value="#8b7e6d" /></label>
+                <label><span>Primary</span><input type="color" id="themeLightSelect" value="#a06b34" /></label>
               </div>
             </fieldset>
             <fieldset class="theme-color-group">
               <legend>Dark Mode</legend>
               <div class="theme-color-row">
-                <label><span>BG</span><input type="color" id="themeDarkBg" value="#1a1a2e" /></label>
-                <label><span>Text</span><input type="color" id="themeDarkText" value="#e0e0e0" /></label>
+                <label><span>BG</span><input type="color" id="themeDarkBg" value="#0d1015" /></label>
+                <label><span>Text</span><input type="color" id="themeDarkText" value="#f0ead9" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>Secondary</span><input type="color" id="themeDarkSecondary" value="#aaaaaa" /></label>
-                <label><span>Primary</span><input type="color" id="themeDarkSelect" value="#6c63ff" /></label>
+                <label><span>Secondary</span><input type="color" id="themeDarkSecondary" value="#9a917f" /></label>
+                <label><span>Primary</span><input type="color" id="themeDarkSelect" value="#d5b577" /></label>
               </div>
             </fieldset>
           </div>
@@ -93,32 +93,69 @@
 
       <!-- Home: main learning tools -->
       <div class="read-home" id="readHome">
-        <div class="read-home-cards">
-          <button class="read-home-card" data-mode="pdf" id="readCardPdf">
-            <span class="read-home-icon">&#128196;</span>
-            <span class="read-home-label">PDF</span>
-            <span class="read-home-desc">Drop a PDF to extract and read its text</span>
-          </button>
-          <button class="read-home-card" data-mode="youtube" id="readCardYoutube">
-            <span class="read-home-icon">&#9654;</span>
-            <span class="read-home-label">YouTube</span>
-            <span class="read-home-desc">Watch videos with interactive subtitles</span>
-          </button>
-          <button class="read-home-card" data-mode="words" id="readCardWords">
-            <span class="read-home-icon">&#128214;</span>
-            <span class="read-home-label">Words</span>
-            <span class="read-home-desc">Learn and practice vocabulary with flashcards</span>
-          </button>
-          <button class="read-home-card" data-mode="alphabet" id="readCardAlphabet">
-            <span class="read-home-icon">&#1329;</span>
-            <span class="read-home-label">Alphabet</span>
-            <span class="read-home-desc">Learn the Armenian letters step by step</span>
-          </button>
-          <button class="read-home-card" data-mode="textpractice" id="readCardTextPractice">
-            <span class="read-home-icon">&#9998;</span>
-            <span class="read-home-label">Text Practice</span>
-            <span class="read-home-desc">Fill in the missing words in a short text</span>
-          </button>
+        <div class="read-home-inner">
+          <div class="read-home-hero">
+            <div class="read-home-brand">
+              <span class="read-home-brand-text">SwipeWord</span>
+              <span class="read-home-brand-sub">Learn beautifully, every day</span>
+            </div>
+            <div class="read-home-toolbar-hint">
+              <span class="read-home-hint-dot"></span>
+              <span id="readHomeHint">Choose where your words come from</span>
+            </div>
+          </div>
+          <div class="read-home-cards">
+            <button class="read-home-card" data-mode="pdf" id="readCardPdf">
+              <span class="read-home-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 18h4"/></svg>
+              </span>
+              <span class="read-home-card-body">
+                <span class="read-home-label">PDF</span>
+                <span class="read-home-desc">Drop a PDF to extract and read its text</span>
+              </span>
+              <span class="read-home-open">&#8594;</span>
+            </button>
+            <button class="read-home-card" data-mode="youtube" id="readCardYoutube">
+              <span class="read-home-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/></svg>
+              </span>
+              <span class="read-home-card-body">
+                <span class="read-home-label">YouTube</span>
+                <span class="read-home-desc">Watch videos with interactive subtitles</span>
+              </span>
+              <span class="read-home-open">&#8594;</span>
+            </button>
+            <button class="read-home-card" data-mode="words" id="readCardWords">
+              <span class="read-home-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6.5A2.5 2.5 0 0 1 4.5 4H11v14H4.5A2.5 2.5 0 0 0 2 20.5z"/><path d="M22 6.5A2.5 2.5 0 0 0 19.5 4H13v14h6.5a2.5 2.5 0 0 1 2.5 2.5z"/></svg>
+              </span>
+              <span class="read-home-card-body">
+                <span class="read-home-label">Words</span>
+                <span class="read-home-desc">Learn and practice vocabulary with flashcards</span>
+              </span>
+              <span class="read-home-open">&#8594;</span>
+            </button>
+            <button class="read-home-card" data-mode="alphabet" id="readCardAlphabet">
+              <span class="read-home-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 8.5 12 16l4-7.5"/><path d="M9.5 12.5h5"/></svg>
+              </span>
+              <span class="read-home-card-body">
+                <span class="read-home-label">Alphabet</span>
+                <span class="read-home-desc">Learn the Armenian letters step by step</span>
+              </span>
+              <span class="read-home-open">&#8594;</span>
+            </button>
+            <button class="read-home-card" data-mode="textpractice" id="readCardTextPractice">
+              <span class="read-home-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+              </span>
+              <span class="read-home-card-body">
+                <span class="read-home-label">Text Practice</span>
+                <span class="read-home-desc">Fill in the missing words in a short text</span>
+              </span>
+              <span class="read-home-open">&#8594;</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -239,21 +276,21 @@
             <fieldset class="theme-color-group">
               <legend>Light Mode</legend>
               <div class="theme-color-row">
-                <label><span>PDF BG</span><input type="color" id="pdfColorLightBg" value="#ffffff" /></label>
+                <label><span>PDF BG</span><input type="color" id="pdfColorLightBg" value="#fffdf9" /></label>
                 <label><span>PDF Text</span><input type="color" id="pdfColorLightText" value="#000000" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>PDF Select</span><input type="color" id="pdfColorLightSelect" value="#6c63ff" /></label>
+                <label><span>PDF Select</span><input type="color" id="pdfColorLightSelect" value="#a06b34" /></label>
               </div>
             </fieldset>
             <fieldset class="theme-color-group">
               <legend>Dark Mode</legend>
               <div class="theme-color-row">
-                <label><span>PDF BG</span><input type="color" id="pdfColorDarkBg" value="#16213e" /></label>
-                <label><span>PDF Text</span><input type="color" id="pdfColorDarkText" value="#ffffff" /></label>
+                <label><span>PDF BG</span><input type="color" id="pdfColorDarkBg" value="#151a21" /></label>
+                <label><span>PDF Text</span><input type="color" id="pdfColorDarkText" value="#fffdf9" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>PDF Select</span><input type="color" id="pdfColorDarkSelect" value="#6c63ff" /></label>
+                <label><span>PDF Select</span><input type="color" id="pdfColorDarkSelect" value="#d5b577" /></label>
               </div>
             </fieldset>
           </div>
@@ -371,20 +408,20 @@
             <fieldset class="theme-color-group">
               <legend>YouTube Elements</legend>
               <div class="theme-color-row">
-                <label><span>Page BG</span><input type="color" id="ytColorPageBg" value="#f5f5f5" /></label>
-                <label><span>Panels</span><input type="color" id="ytColorPanelBg" value="#ffffff" /></label>
+                <label><span>Page BG</span><input type="color" id="ytColorPageBg" value="#f7f3ec" /></label>
+                <label><span>Panels</span><input type="color" id="ytColorPanelBg" value="#fffdf9" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>Text</span><input type="color" id="ytColorText" value="#1a1a2e" /></label>
-                <label><span>Subtitles</span><input type="color" id="ytColorSubText" value="#1a1a2e" /></label>
+                <label><span>Text</span><input type="color" id="ytColorText" value="#2a2118" /></label>
+                <label><span>Subtitles</span><input type="color" id="ytColorSubText" value="#2a2118" /></label>
               </div>
               <div class="theme-color-row">
                 <label><span>Active sub</span><input type="color" id="ytColorSubActive" value="#1a6b1a" /></label>
-                <label><span>Selected</span><input type="color" id="ytColorSelect" value="#6c63ff" /></label>
+                <label><span>Selected</span><input type="color" id="ytColorSelect" value="#a06b34" /></label>
               </div>
               <div class="theme-color-row">
                 <label><span>Saved word</span><input type="color" id="ytColorSaved" value="#f59e0b" /></label>
-                <label><span>Accent</span><input type="color" id="ytColorAccent" value="#6c63ff" /></label>
+                <label><span>Accent</span><input type="color" id="ytColorAccent" value="#a06b34" /></label>
               </div>
             </fieldset>
           </div>

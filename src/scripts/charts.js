@@ -17,11 +17,11 @@ class ChartsManager {
     const dark = this._isDark();
     return {
       text: dark ? '#aaa' : '#666',
-      grid: dark ? '#2a2a4a' : '#e0e0e0',
-      surface: dark ? '#16213e' : '#ffffff',
+      grid: dark ? '#2a313c' : '#f0ead9',
+      surface: dark ? '#151a21' : '#fffdf9',
       remembered: '#4caf50',
       forgotten: '#f44336',
-      primary: '#6c63ff',
+      primary: '#a06b34',
     };
   }
 
