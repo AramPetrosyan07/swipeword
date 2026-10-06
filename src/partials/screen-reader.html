@@ -252,10 +252,10 @@
           <div class="pdf-library" id="pdfLibrary">
             <div class="pdf-library-header">
               <span class="pdf-library-title">
-                <span class="pdf-library-icon">&#128218;</span>
+                <span class="pdf-library-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-2.5"/></svg></span>
                 <span id="pdfLibraryTitleText">PDF Library</span>
               </span>
-              <button class="btn btn-secondary btn-sm" id="btnPdfChooseFolder" title="Choose a folder to browse">&#128193; Choose Folder</button>
+              <button class="btn btn-secondary btn-sm" id="btnPdfChooseFolder" title="Choose a folder to browse"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> Choose Folder</button>
             </div>
             <div class="pdf-library-breadcrumb" id="pdfBreadcrumb" style="display:none;"></div>
             <div class="pdf-library-list" id="pdfLibraryList"></div>
@@ -269,7 +269,7 @@
           </div>
         <div class="theme-colors-bar" id="pdfColorsBar" style="display:none;">
           <div class="theme-colors-header">
-            <span class="theme-colors-title">&#127912; PDF Page Colors</span>
+            <span class="theme-colors-title">PDF Page Colors</span>
             <button class="icon-btn" id="btnPdfColorsClose" title="Close">&#10007;</button>
           </div>
           <div class="theme-colors-grid">
@@ -300,11 +300,11 @@
         </div>
         <div class="read-page-input">
           <div class="read-dropzone" id="readPdfDropzone">
-            <span class="read-dropzone-icon">&#128228;</span>
+            <span class="read-dropzone-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg></span>
             <span class="read-dropzone-text">Drop PDF here or click to browse</span>
             <input type="file" id="readPdfFileInput" accept=".pdf" hidden />
           </div>
-          <button class="btn btn-primary read-action-btn" id="btnReadPdf" disabled>Load &#9654;</button>
+          <button class="btn btn-primary read-action-btn" id="btnReadPdf" disabled>Load<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg></button>
         </div>
 
         <div class="pdf-tabs" id="pdfTabsBar" style="display:none;">
@@ -327,7 +327,7 @@
               <option value="4">4</option>
             </select>
             <div class="yt-voice-dropdown" id="pdfTextVoiceDropdown">
-              <button class="yt-voice-btn" id="btnPdfTextVoice" title="Choose who pronounces the translated word">&#128266; <span id="pdfTextVoiceLabel">Andrew</span> &#9662;</button>
+              <button class="yt-voice-btn" id="btnPdfTextVoice" title="Choose who pronounces the translated word"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg> <span id="pdfTextVoiceLabel">Andrew</span> &#9662;</button>
               <div class="yt-voice-menu" id="pdfTextVoiceMenu" style="display:none;">
                 <div class="yt-voice-title">Who speaks the word?</div>
                 <button class="yt-voice-option" data-voice="0">Andrew</button>
@@ -337,9 +337,9 @@
               </div>
             </div>
             <span class="pdf-text-langbar-sep"></span>
-            <button class="pdf-text-read-btn" id="btnPdfTextReadAloud" title="Read the text aloud">&#9654; Read</button>
-            <button class="pdf-text-read-btn" id="btnPdfTextPause" title="Pause / Resume" style="display:none;">&#8214; Pause</button>
-            <button class="pdf-text-read-btn pdf-text-read-stop" id="btnPdfTextStop" title="Stop" style="display:none;">&#9632; Stop</button>
+            <button class="pdf-text-read-btn" id="btnPdfTextReadAloud" title="Read the text aloud"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg> Read</button>
+            <button class="pdf-text-read-btn" id="btnPdfTextPause" title="Pause / Resume" style="display:none;"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="5" width="3.5" height="14" rx="1"/><rect x="13.5" y="5" width="3.5" height="14" rx="1"/></svg> Pause</button>
+            <button class="pdf-text-read-btn pdf-text-read-stop" id="btnPdfTextStop" title="Stop" style="display:none;"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="7" width="10" height="10" rx="1.5"/></svg> Stop</button>
             <select id="pdfTextSpeed" class="pdf-text-speed-select" title="Playback speed">
               <option value="0.5">0.5x</option>
               <option value="0.75">0.75x</option>

@@ -1313,14 +1313,14 @@ __appMixinReader['_updatePdfTextReadAloudButtons'] = function() {
   const pauseBtn = document.getElementById('btnPdfTextPause');
   const stopBtn = document.getElementById('btnPdfTextStop');
   if (!readerMode._readAloudActive) {
-    if (playBtn) { playBtn.style.display = ''; playBtn.innerHTML = '&#9654; Read'; }
+    if (playBtn) { playBtn.style.display = ''; playBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg>' + ' Read'; }
     if (pauseBtn) { pauseBtn.style.display = 'none'; }
     if (stopBtn) { stopBtn.style.display = 'none'; }
   } else {
     if (playBtn) { playBtn.style.display = 'none'; }
     if (pauseBtn) {
       pauseBtn.style.display = '';
-      pauseBtn.innerHTML = readerMode._readAloudPaused ? '&#9654; Resume' : '&#9646;&#9646; Pause';
+      pauseBtn.innerHTML = readerMode._readAloudPaused ? '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg>' + ' Resume' : '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="7" y="5" width="3.5" height="14" rx="1"/><rect x="13.5" y="5" width="3.5" height="14" rx="1"/></svg>' + ' Pause';
     }
     if (stopBtn) { stopBtn.style.display = ''; }
   }
