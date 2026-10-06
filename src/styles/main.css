@@ -3142,6 +3142,70 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   display: flex;
 }
 
+/* Per-page color palettes (page-local vars, defaulting to global theme) */
+#read-page-youtube {
+  --yt-page-bg: var(--bg);
+  --yt-panel-bg: var(--surface);
+  --yt-text: var(--text);
+  --yt-sub-text: var(--text);
+  --yt-sub-active: #1a6b1a;
+  --yt-accent: var(--primary);
+}
+
+body.theme-dark #read-page-youtube:not([style*='--yt-page-bg']) {
+  --yt-page-bg: var(--bg);
+}
+
+#read-page-youtube {
+  background: var(--yt-page-bg);
+}
+
+#read-page-youtube .read-page-input,
+#read-page-youtube .yt-lang-bar-inner,
+#read-page-youtube .yt-subtitle-panel,
+#read-page-youtube .read-youtube-area,
+#read-page-youtube .yt-recommendations,
+#read-page-youtube .read-collapsed-bar {
+  background: var(--yt-panel-bg);
+}
+
+#read-page-youtube .read-url-input {
+  color: var(--yt-text);
+}
+
+#read-page-youtube .yt-sub-line {
+  color: var(--yt-sub-text);
+}
+
+#read-page-youtube .yt-sub-line.yt-sub-active {
+  color: var(--yt-sub-active);
+}
+
+#read-page-youtube .btn-primary,
+#read-page-youtube .yt-shadow-action-btn {
+  background: var(--yt-accent);
+}
+
+#read-page-youtube .yt-sub-line .rw-word.selected {
+  background: var(--yt-select, rgba(108, 99, 255, 0.5));
+}
+
+#read-page-youtube .rw-word.yt-word-saved {
+  color: var(--yt-saved, inherit);
+}
+
+#read-page-youtube .rw-word.yt-word-saved::after {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-left: 2px;
+  background: var(--yt-saved, var(--primary, #6c63ff));
+  vertical-align: middle;
+  opacity: 0.75;
+}
+
 .read-page-input {
   display: flex;
   flex-direction: row;
@@ -3898,6 +3962,25 @@ body.theme-dark .pdf-scroll-canvas {
   filter: invert(1) hue-rotate(180deg);
 }
 
+/* Custom PDF colors: recolor the PDF page canvas (its white background is baked into the image) */
+body.pdf-custom-colors .pdf-scroll-page {
+  background: var(--pdf-bg, #fff);
+}
+
+body.pdf-custom-colors .pdf-scroll-canvas {
+  filter: none;
+  mix-blend-mode: multiply;
+}
+
+/* Text colorize mode: page is light-text-on-dark, show positioned text layer instead of canvas image */
+body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-canvas {
+  visibility: hidden;
+}
+
+body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
+  color: var(--pdf-text, #fff);
+}
+
 .pdf-scroll-layer {
   position: absolute;
   inset: 0;
@@ -3999,13 +4082,13 @@ body.theme-dark .pdf-scroll-canvas {
 }
 
 .pdf-scroll-layer .rw-word:hover {
-  background: rgba(108, 99, 255, 0.22);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.22));
   border-radius: 3px;
   text-decoration: none;
 }
 
 .pdf-scroll-layer .rw-word.selected {
-  background: rgba(108, 99, 255, 0.42);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.42));
   border-radius: 3px;
 }
 
@@ -7139,11 +7222,11 @@ body.theme-dark .yt-sub-line.yt-sub-active .rw-word {
 }
 
 .pdf-text-view-body .rw-word:hover {
-  background: rgba(108, 99, 255, 0.12);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.12));
 }
 
 .pdf-text-view-body .rw-word.selected {
-  background: rgba(108, 99, 255, 0.25);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.25));
 }
 
 .pdf-text-view-body .pdf-read-aloud-active {
@@ -7169,9 +7252,9 @@ body.theme-dark .yt-sub-line.yt-sub-active .rw-word {
 }
 
 #readTextViewPdf .rw-word:hover {
-  background: rgba(108, 99, 255, 0.12);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.12));
 }
 
 #readTextViewPdf .rw-word.selected {
-  background: rgba(108, 99, 255, 0.25);
+  background: var(--pdf-select, rgba(108, 99, 255, 0.25));
 }

@@ -16,6 +16,16 @@ __appMixinReader['_openReadPage'] = function(mode) {
   const pageEl = document.getElementById('read-page-' + mode);
   if (pageEl) pageEl.classList.add('active');
 
+  themeManager.applyPagePalette(mode);
+  const globalColorsBar = document.getElementById('themeColorsBar');
+  if (globalColorsBar && document.getElementById('screen-reader').classList.contains('theme-colors-mode')) {
+    document.getElementById('screen-reader').classList.remove('theme-colors-mode');
+  }
+  ['ytColorsBar', 'pdfColorsBar'].forEach((id) => {
+    const bar = document.getElementById(id);
+    if (bar) bar.style.display = 'none';
+  });
+
   document.getElementById('btnReaderBack').style.display = '';
   document.getElementById('btnReaderMenu').style.display = '';
   this._updateTranslationSidebarBtnVisibility();

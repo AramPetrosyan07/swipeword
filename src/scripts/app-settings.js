@@ -245,38 +245,50 @@ __appMixinSettings['_setThemeColorsMode'] = function(on) {
   if (on) this._loadThemeColors();
 };
 
+__appMixinSettings['_openPageColorsBar'] = function() {
+  const page = this._readCurrentPage;
+  if (page === 'youtube') {
+    const bar = document.getElementById('ytColorsBar');
+    if (!bar) return;
+    const show = bar.style.display === 'none' || !bar.style.display;
+    bar.style.display = show ? 'flex' : 'none';
+    if (show) this._loadYtPageColors();
+  } else if (page === 'pdf') {
+    const bar = document.getElementById('pdfColorsBar');
+    if (!bar) return;
+    const show = bar.style.display === 'none' || !bar.style.display;
+    bar.style.display = show ? 'flex' : 'none';
+    if (show) this._loadPdfPageColors();
+  } else {
+    this._setThemeColorsMode(!document.getElementById('screen-reader').classList.contains('theme-colors-mode'));
+  }
+};
+
 __appMixinSettings['_loadThemeColors'] = function() {
   const light = themeManager.lightColors || {};
   const dark = themeManager.darkColors || {};
   document.getElementById('themeLightBg').value = light.bg || '#f5f5f5';
   document.getElementById('themeLightText').value = light.text || '#1a1a2e';
-  document.getElementById('themeLightPdfBg').value = light.pdfBg || '#ffffff';
-  document.getElementById('themeLightPdfText').value = light.pdfText || '#000000';
-  document.getElementById('themeLightPdfSelect').value = light.pdfSelect || '#6c63ff';
+  document.getElementById('themeLightSecondary').value = light.textSecondary || '#666666';
+  document.getElementById('themeLightSelect').value = light.select || '#6c63ff';
   document.getElementById('themeDarkBg').value = dark.bg || '#1a1a2e';
   document.getElementById('themeDarkText').value = dark.text || '#e0e0e0';
-  document.getElementById('themeDarkPdfBg').value = dark.pdfBg || '#16213e';
-  document.getElementById('themeDarkPdfText').value = dark.pdfText || '#ffffff';
+  document.getElementById('themeDarkSecondary').value = dark.textSecondary || '#aaaaaa';
   document.getElementById('themeDarkSelect').value = dark.select || '#6c63ff';
-  document.getElementById('themeDarkPdfSelect').value = dark.pdfSelect || '#6c63ff';
 };
 
 __appMixinSettings['_applyThemeColors'] = function() {
   const light = {
     bg: document.getElementById('themeLightBg').value,
     text: document.getElementById('themeLightText').value,
-    pdfBg: document.getElementById('themeLightPdfBg').value,
-    pdfText: document.getElementById('themeLightPdfText').value,
+    textSecondary: document.getElementById('themeLightSecondary').value,
     select: document.getElementById('themeLightSelect').value,
-    pdfSelect: document.getElementById('themeLightPdfSelect').value,
   };
   const dark = {
     bg: document.getElementById('themeDarkBg').value,
     text: document.getElementById('themeDarkText').value,
-    pdfBg: document.getElementById('themeDarkPdfBg').value,
-    pdfText: document.getElementById('themeDarkPdfText').value,
+    textSecondary: document.getElementById('themeDarkSecondary').value,
     select: document.getElementById('themeDarkSelect').value,
-    pdfSelect: document.getElementById('themeDarkPdfSelect').value,
   };
   themeManager.setCustomColors(light, dark);
 };
@@ -284,6 +296,73 @@ __appMixinSettings['_applyThemeColors'] = function() {
 __appMixinSettings['_resetThemeColors'] = function() {
   themeManager.resetCustomColors();
   this._loadThemeColors();
+};
+
+__appMixinSettings['_loadYtPageColors'] = function() {
+  const p = themeManager.getPagePalette('youtube') || {};
+  const cs = getComputedStyle(document.body);
+  const def = (name, fallback) => {
+    const v = cs.getPropertyValue(name);
+    return (v && v.trim() && v.trim().startsWith('#')) ? v.trim() : fallback;
+  };
+  const dark = themeManager.darkMode;
+  document.getElementById('ytColorPageBg').value = p.pageBg || def('--bg', dark ? '#1a1a2e' : '#f5f5f5');
+  document.getElementById('ytColorPanelBg').value = p.panelBg || def('--surface', dark ? '#16213e' : '#ffffff');
+  document.getElementById('ytColorText').value = p.text || def('--text', dark ? '#e0e0e0' : '#1a1a2e');
+  document.getElementById('ytColorSubText').value = p.subText || def('--text', dark ? '#e0e0e0' : '#1a1a2e');
+  document.getElementById('ytColorSubActive').value = p.subActive || (dark ? '#7fd87f' : '#1a6b1a');
+  document.getElementById('ytColorSelect').value = p.select || def('--primary', '#6c63ff');
+  document.getElementById('ytColorSaved').value = p.saved || '#f59e0b';
+  document.getElementById('ytColorAccent').value = p.accent || def('--primary', '#6c63ff');
+};
+
+__appMixinSettings['_applyYtPageColors'] = function() {
+  themeManager.setPagePalette('youtube', {
+    pageBg: document.getElementById('ytColorPageBg').value,
+    panelBg: document.getElementById('ytColorPanelBg').value,
+    text: document.getElementById('ytColorText').value,
+    subText: document.getElementById('ytColorSubText').value,
+    subActive: document.getElementById('ytColorSubActive').value,
+    select: document.getElementById('ytColorSelect').value,
+    saved: document.getElementById('ytColorSaved').value,
+    accent: document.getElementById('ytColorAccent').value,
+  });
+};
+
+__appMixinSettings['_resetYtPageColors'] = function() {
+  themeManager.resetPagePalette('youtube');
+  this._loadYtPageColors();
+};
+
+__appMixinSettings['_loadPdfPageColors'] = function() {
+  const light = themeManager.pdfColorsLight || {};
+  const dark = themeManager.pdfColorsDark || {};
+  document.getElementById('pdfColorLightBg').value = light.pdfBg || '#ffffff';
+  document.getElementById('pdfColorLightText').value = light.pdfText || '#000000';
+  document.getElementById('pdfColorLightSelect').value = light.pdfSelect || '#6c63ff';
+  document.getElementById('pdfColorDarkBg').value = dark.pdfBg || '#16213e';
+  document.getElementById('pdfColorDarkText').value = dark.pdfText || '#ffffff';
+  document.getElementById('pdfColorDarkSelect').value = dark.pdfSelect || '#6c63ff';
+};
+
+__appMixinSettings['_applyPdfPageColors'] = function() {
+  themeManager.setPdfColors(
+    {
+      pdfBg: document.getElementById('pdfColorLightBg').value,
+      pdfText: document.getElementById('pdfColorLightText').value,
+      pdfSelect: document.getElementById('pdfColorLightSelect').value,
+    },
+    {
+      pdfBg: document.getElementById('pdfColorDarkBg').value,
+      pdfText: document.getElementById('pdfColorDarkText').value,
+      pdfSelect: document.getElementById('pdfColorDarkSelect').value,
+    }
+  );
+};
+
+__appMixinSettings['_resetPdfPageColors'] = function() {
+  themeManager.resetPdfColors();
+  this._loadPdfPageColors();
 };
 
 __appMixinSettings['_applyReaderLangPrefs'] = function() {

@@ -50,7 +50,7 @@
               <option value="2">2x</option>
             </select>
           </span>
-          <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#128249;</button>
+          <button class="icon-btn" id="btnThemeColors" title="Customize colors">&#127912;</button>
           <button class="icon-btn" id="btnReaderLangBtn" title="Language settings">&#127760;</button>
           <button class="icon-btn" id="btnUpdateRestart" title="Update &amp; restart">&#8635;</button>
           <button class="icon-btn" id="btnReaderSettings" title="Settings">&#9881;</button>
@@ -58,7 +58,7 @@
         </div>
         <div class="theme-colors-bar" id="themeColorsBar" style="display:none;">
           <div class="theme-colors-header">
-            <span class="theme-colors-title">&#128249; Customize Colors</span>
+            <span class="theme-colors-title">&#127912; App Colors</span>
             <button class="icon-btn" id="btnThemeColorsClose" title="Close">&#10007;</button>
           </div>
           <div class="theme-colors-grid">
@@ -69,12 +69,8 @@
                 <label><span>Text</span><input type="color" id="themeLightText" value="#1a1a2e" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>PDF BG</span><input type="color" id="themeLightPdfBg" value="#ffffff" /></label>
-                <label><span>PDF Text</span><input type="color" id="themeLightPdfText" value="#000000" /></label>
-              </div>
-              <div class="theme-color-row">
-                <label><span>Select</span><input type="color" id="themeLightSelect" value="#6c63ff" /></label>
-                <label><span>PDF Select</span><input type="color" id="themeLightPdfSelect" value="#6c63ff" /></label>
+                <label><span>Secondary</span><input type="color" id="themeLightSecondary" value="#666666" /></label>
+                <label><span>Primary</span><input type="color" id="themeLightSelect" value="#6c63ff" /></label>
               </div>
             </fieldset>
             <fieldset class="theme-color-group">
@@ -84,12 +80,8 @@
                 <label><span>Text</span><input type="color" id="themeDarkText" value="#e0e0e0" /></label>
               </div>
               <div class="theme-color-row">
-                <label><span>PDF BG</span><input type="color" id="themeDarkPdfBg" value="#16213e" /></label>
-                <label><span>PDF Text</span><input type="color" id="themeDarkPdfText" value="#ffffff" /></label>
-              </div>
-              <div class="theme-color-row">
-                <label><span>Select</span><input type="color" id="themeDarkSelect" value="#6c63ff" /></label>
-                <label><span>PDF Select</span><input type="color" id="themeDarkPdfSelect" value="#6c63ff" /></label>
+                <label><span>Secondary</span><input type="color" id="themeDarkSecondary" value="#aaaaaa" /></label>
+                <label><span>Primary</span><input type="color" id="themeDarkSelect" value="#6c63ff" /></label>
               </div>
             </fieldset>
           </div>
@@ -238,6 +230,37 @@
             </div>
             <div class="pdf-library-loading" id="pdfLibraryLoading">Scanning...</div>
           </div>
+        <div class="theme-colors-bar" id="pdfColorsBar" style="display:none;">
+          <div class="theme-colors-header">
+            <span class="theme-colors-title">&#127912; PDF Page Colors</span>
+            <button class="icon-btn" id="btnPdfColorsClose" title="Close">&#10007;</button>
+          </div>
+          <div class="theme-colors-grid">
+            <fieldset class="theme-color-group">
+              <legend>Light Mode</legend>
+              <div class="theme-color-row">
+                <label><span>PDF BG</span><input type="color" id="pdfColorLightBg" value="#ffffff" /></label>
+                <label><span>PDF Text</span><input type="color" id="pdfColorLightText" value="#000000" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>PDF Select</span><input type="color" id="pdfColorLightSelect" value="#6c63ff" /></label>
+              </div>
+            </fieldset>
+            <fieldset class="theme-color-group">
+              <legend>Dark Mode</legend>
+              <div class="theme-color-row">
+                <label><span>PDF BG</span><input type="color" id="pdfColorDarkBg" value="#16213e" /></label>
+                <label><span>PDF Text</span><input type="color" id="pdfColorDarkText" value="#ffffff" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>PDF Select</span><input type="color" id="pdfColorDarkSelect" value="#6c63ff" /></label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="theme-colors-actions">
+            <button class="btn btn-secondary btn-sm" id="btnPdfColorsReset">&#8634; Reset Page Colors</button>
+          </div>
+        </div>
         <div class="read-page-input">
           <div class="read-dropzone" id="readPdfDropzone">
             <span class="read-dropzone-icon">&#128228;</span>
@@ -339,6 +362,36 @@
 
       <!-- Sub-page: YouTube -->
       <div class="read-page" id="read-page-youtube">
+        <div class="theme-colors-bar" id="ytColorsBar" style="display:none;">
+          <div class="theme-colors-header">
+            <span class="theme-colors-title">&#127912; YouTube Page Colors</span>
+            <button class="icon-btn" id="btnYtColorsClose" title="Close">&#10007;</button>
+          </div>
+          <div class="theme-colors-grid">
+            <fieldset class="theme-color-group">
+              <legend>YouTube Elements</legend>
+              <div class="theme-color-row">
+                <label><span>Page BG</span><input type="color" id="ytColorPageBg" value="#f5f5f5" /></label>
+                <label><span>Panels</span><input type="color" id="ytColorPanelBg" value="#ffffff" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>Text</span><input type="color" id="ytColorText" value="#1a1a2e" /></label>
+                <label><span>Subtitles</span><input type="color" id="ytColorSubText" value="#1a1a2e" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>Active sub</span><input type="color" id="ytColorSubActive" value="#1a6b1a" /></label>
+                <label><span>Selected</span><input type="color" id="ytColorSelect" value="#6c63ff" /></label>
+              </div>
+              <div class="theme-color-row">
+                <label><span>Saved word</span><input type="color" id="ytColorSaved" value="#f59e0b" /></label>
+                <label><span>Accent</span><input type="color" id="ytColorAccent" value="#6c63ff" /></label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="theme-colors-actions">
+            <button class="btn btn-secondary btn-sm" id="btnYtColorsReset">&#8634; Reset Page Colors</button>
+          </div>
+        </div>
         <div class="read-page-input">
           <input type="text" class="read-url-input" id="readYoutubeInput" placeholder="Paste YouTube URL..." />
           <button class="btn btn-primary read-action-btn" id="btnReadYoutube">Watch &#9654;</button>

@@ -96,7 +96,7 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   const themeColorsBtn = document.getElementById('btnThemeColors');
   if (themeColorsBtn) {
     themeColorsBtn.addEventListener('click', () => {
-      this._setThemeColorsMode(true);
+      this._openPageColorsBar();
     });
   }
 
@@ -116,6 +116,36 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
 
   document.querySelectorAll('#themeColorsBar input[type="color"]').forEach((input) => {
     input.addEventListener('change', () => this._applyThemeColors());
+  });
+
+  const ytColorsCloseBtn = document.getElementById('btnYtColorsClose');
+  if (ytColorsCloseBtn) {
+    ytColorsCloseBtn.addEventListener('click', () => {
+      const bar = document.getElementById('ytColorsBar');
+      if (bar) bar.style.display = 'none';
+    });
+  }
+  const ytColorsResetBtn = document.getElementById('btnYtColorsReset');
+  if (ytColorsResetBtn) {
+    ytColorsResetBtn.addEventListener('click', () => this._resetYtPageColors());
+  }
+  document.querySelectorAll('#ytColorsBar input[type="color"]').forEach((input) => {
+    input.addEventListener('change', () => this._applyYtPageColors());
+  });
+
+  const pdfColorsCloseBtn = document.getElementById('btnPdfColorsClose');
+  if (pdfColorsCloseBtn) {
+    pdfColorsCloseBtn.addEventListener('click', () => {
+      const bar = document.getElementById('pdfColorsBar');
+      if (bar) bar.style.display = 'none';
+    });
+  }
+  const pdfColorsResetBtn = document.getElementById('btnPdfColorsReset');
+  if (pdfColorsResetBtn) {
+    pdfColorsResetBtn.addEventListener('click', () => this._resetPdfPageColors());
+  }
+  document.querySelectorAll('#pdfColorsBar input[type="color"]').forEach((input) => {
+    input.addEventListener('change', () => this._applyPdfPageColors());
   });
 
   this._initSidebarResizer();

@@ -133,6 +133,7 @@ class App {
     }
 
     themeManager.init();
+    themeManager.applyStoredPagePalettes();
     studyModeManager.init();
 
     this._bindEvents();
