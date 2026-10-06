@@ -4609,6 +4609,22 @@ body.theme-dark .pdf-scroll-canvas {
   gap: 10px;
 }
 
+body.theme-dark .yt-sub-line {
+  color: var(--text, #e0e0e0);
+}
+
+body.theme-dark .yt-sub-line .rw-word {
+  color: var(--text, #e0e0e0);
+}
+
+body.theme-dark .yt-sub-line.yt-sub-active {
+  color: #7fd87f;
+}
+
+body.theme-dark .yt-sub-line.yt-sub-active .rw-word {
+  color: #7fd87f;
+}
+
 .yt-sub-time {
   font-size: 12px;
   color: var(--text-secondary, #888);
