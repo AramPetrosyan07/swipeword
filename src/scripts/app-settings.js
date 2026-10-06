@@ -251,15 +251,14 @@ __appMixinSettings['_loadThemeColors'] = function() {
   document.getElementById('themeLightBg').value = light.bg || '#f5f5f5';
   document.getElementById('themeLightText').value = light.text || '#1a1a2e';
   document.getElementById('themeLightPdfBg').value = light.pdfBg || '#ffffff';
-  document.getElementById('themeLightPdfText').value = light.pdfText || '#00000000';
-  document.getElementById('themeLightSelect').value = light.select || '#6c63ff';
-  document.getElementById('themeLightPdfSelect').value = light.pdfSelect || '#6c63ff38';
+  document.getElementById('themeLightPdfText').value = light.pdfText || '#000000';
+  document.getElementById('themeLightPdfSelect').value = light.pdfSelect || '#6c63ff';
   document.getElementById('themeDarkBg').value = dark.bg || '#1a1a2e';
   document.getElementById('themeDarkText').value = dark.text || '#e0e0e0';
   document.getElementById('themeDarkPdfBg').value = dark.pdfBg || '#16213e';
   document.getElementById('themeDarkPdfText').value = dark.pdfText || '#ffffff';
   document.getElementById('themeDarkSelect').value = dark.select || '#6c63ff';
-  document.getElementById('themeDarkPdfSelect').value = dark.pdfSelect || '#6c63ff6b';
+  document.getElementById('themeDarkPdfSelect').value = dark.pdfSelect || '#6c63ff';
 };
 
 __appMixinSettings['_applyThemeColors'] = function() {
