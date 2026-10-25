@@ -4261,6 +4261,13 @@ body.theme-dark .pdf-scroll-canvas {
   filter: invert(1) hue-rotate(180deg);
 }
 
+/* On dark page background, "multiply" makes light annotation colors (underlines,
+   highlights) blend to near-black and disappear — use "screen" so they stay visible */
+body.theme-dark .pdf-annot-layer,
+body.theme-dark .annot-hl-rect {
+  mix-blend-mode: screen;
+}
+
 /* Custom PDF colors: recolor the PDF page canvas (its white background is baked into the image) */
 body.pdf-custom-colors .pdf-scroll-page {
   background: var(--pdf-bg, #fff);
