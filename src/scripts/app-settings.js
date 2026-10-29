@@ -370,6 +370,10 @@ __appMixinSettings['_applyPdfPageColors'] = function() {
       pdfSelect: document.getElementById('pdfColorDarkSelect').value,
     }
   );
+  if (this._getPdfRenderMode && this._getPdfRenderMode() === 'original') {
+    themeManager.setPdfRenderMode('colored');
+    this._syncPdfRenderToggle();
+  }
 };
 
 __appMixinSettings['_resetPdfPageColors'] = function() {

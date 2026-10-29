@@ -4287,6 +4287,22 @@ body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
   color: var(--pdf-text, #fff);
 }
 
+/* Original mode: show the exact printed PDF page (images, colors), text layer stays
+   invisible on top just for word selection/translation */
+body.pdf-original .pdf-scroll-canvas {
+  filter: none;
+  visibility: visible;
+  mix-blend-mode: normal;
+}
+
+body.pdf-original .pdf-scroll-page {
+  background: #ffffff;
+}
+
+body.pdf-original .pdf-scroll-layer .rw-word {
+  color: transparent;
+}
+
 .pdf-scroll-layer {
   position: absolute;
   inset: 0;
@@ -4446,6 +4462,17 @@ body.pdf-custom-colors.theme-pdf-textlayer .pdf-scroll-layer .rw-word {
 
 .pdf-nav-btn:active {
   background: var(--bg-active);
+}
+
+.pdf-render-toggle {
+  min-width: 74px;
+  font-weight: 600;
+}
+
+.pdf-render-toggle.active {
+  background: var(--accent, #6c63ff);
+  border-color: var(--accent, #6c63ff);
+  color: #fff;
 }
 
 .pdf-page-info {

@@ -38,8 +38,8 @@ class ThemeManager {
       if (appStore.data.pdfColors) {
         this.pdfColorsLight = appStore.data.pdfColors.light;
         this.pdfColorsDark = appStore.data.pdfColors.dark;
-        this._applyPdfColors();
       }
+      this._applyPdfColors();
     }
   }
 
@@ -194,6 +194,13 @@ class ThemeManager {
 
   _applyPdfColors() {
     const body = document.body;
+    const renderMode = (appStore.data && appStore.data.pdfRenderMode) || 'original';
+    body.classList.toggle('pdf-original', renderMode === 'original');
+    if (renderMode === 'original') {
+      ['--pdf-bg', '--pdf-text', '--pdf-select'].forEach((p) => body.style.removeProperty(p));
+      body.classList.remove('pdf-custom-colors', 'theme-pdf-textlayer');
+      return;
+    }
     const colors = this.darkMode ? this.pdfColorsDark : this.pdfColorsLight;
     const props = ['--pdf-bg', '--pdf-text', '--pdf-select'];
     if (colors && (colors.pdfBg || colors.pdfText || colors.pdfSelect)) {
@@ -217,6 +224,14 @@ class ThemeManager {
       props.forEach((p) => body.style.removeProperty(p));
       body.classList.remove('pdf-custom-colors', 'theme-pdf-textlayer');
     }
+  }
+
+  setPdfRenderMode(mode) {
+    if (appStore.data) {
+      appStore.data.pdfRenderMode = mode;
+      appStore.save();
+    }
+    this._applyPdfColors();
   }
 
   _hexToRgba(color, alpha) {

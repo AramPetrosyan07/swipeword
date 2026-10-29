@@ -1376,3 +1376,24 @@ __appMixinReader['_showTextPanel'] = function() {
     document.getElementById('pdfTextMainInput').focus();
   }
 };
+
+__appMixinReader['_getPdfRenderMode'] = function() {
+  return (appStore.data && appStore.data.pdfRenderMode) || 'original';
+};
+
+__appMixinReader['_togglePdfRenderMode'] = function() {
+  const next = this._getPdfRenderMode() === 'original' ? 'colored' : 'original';
+  themeManager.setPdfRenderMode(next);
+  this._syncPdfRenderToggle();
+};
+
+__appMixinReader['_syncPdfRenderToggle'] = function() {
+  const btn = document.getElementById('btnPdfRenderMode');
+  if (!btn) return;
+  const original = this._getPdfRenderMode() === 'original';
+  btn.classList.toggle('active', original);
+  btn.textContent = original ? 'Original' : 'Styled';
+  btn.title = original
+    ? 'Showing the original PDF page exactly as printed. Click to switch to custom-colored text mode.'
+    : 'Showing custom-colored mode. Click to show the original PDF page with images and colors.';
+};

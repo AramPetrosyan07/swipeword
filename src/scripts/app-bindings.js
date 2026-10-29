@@ -197,6 +197,11 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
   document.getElementById('pdfZoomOut5').addEventListener('click', () => {
     readerMode.zoomOut5().then(() => this._pdfSaveZoom());
   });
+  const renderModeBtn = document.getElementById('btnPdfRenderMode');
+  if (renderModeBtn) {
+    renderModeBtn.addEventListener('click', () => this._togglePdfRenderMode());
+    this._syncPdfRenderToggle();
+  }
   const readAloudBtn = document.getElementById('btnReadAloud');
   if (readAloudBtn) {
     readAloudBtn.addEventListener('click', () => {
