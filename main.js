@@ -894,22 +894,29 @@ const captionCache = new Map();
 const { YoutubeTranscript } = require("youtube-transcript");
 
 ipcMain.handle("youtube:captions", async (_event, videoId) => {
-  if (captionCache.has(videoId)) return captionCache.get(videoId);
+  const cacheKey = `${videoId}|en`;
+  if (captionCache.has(cacheKey)) return captionCache.get(cacheKey);
 
   try {
     console.log("Fetching transcript via youtube-transcript for:", videoId);
-    const transcript = await YoutubeTranscript.fetchTranscript(videoId);
+    let transcript;
+    try {
+      transcript = await YoutubeTranscript.fetchTranscript(videoId, { lang: "en" });
+    } catch (e) {
+      console.warn("English transcript failed, falling back:", e.message);
+      transcript = await YoutubeTranscript.fetchTranscript(videoId);
+    }
     const lines = transcript.map((t) => ({
       start: t.offset / 1000,
       duration: t.duration / 1000,
       text: t.text,
     }));
     console.log("youtube-transcript lines:", lines.length);
-    captionCache.set(videoId, lines);
+    captionCache.set(cacheKey, lines);
     return lines;
   } catch (e) {
     console.error("youtube-transcript failed:", e.message);
-    captionCache.set(videoId, []);
+    captionCache.set(cacheKey, []);
     return [];
   }
 });
