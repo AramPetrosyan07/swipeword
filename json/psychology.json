@@ -1,0 +1,2577 @@
+{
+  "category": {
+    "id": "psychology",
+    "name_rus": "Психология",
+    "type": "topic",
+    "word_count": 87
+  },
+  "words": [
+    {
+      "id": 2294,
+      "word": "ability",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈbɪləti]",
+        "br": "[əˈbɪləti]",
+        "gb": "[əˈbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "способность, возможность",
+        "spa": "la habilidad, la capacidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have many abilities.",
+            "ru": "У меня много способностей."
+          },
+          {
+            "en": "He overestimated his ability.",
+            "ru": "Он переоценил свои возможности."
+          },
+          {
+            "en": "I believe in my abilities.",
+            "ru": "Я верю в свои способности."
+          },
+          {
+            "en": "We all have different abilities.",
+            "ru": "Способности у всех разные."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Man has the ability to talk.",
+            "es": "El hombre tiene la habilidad de hablar."
+          },
+          {
+            "en": "I believe in my abilities.",
+            "es": "Yo creo en mis capacidades."
+          },
+          {
+            "en": "He has the ability to make a good plan.",
+            "es": "Él tiene la habilidad de hacer buenos planes."
+          },
+          {
+            "en": "I really trust his ability.",
+            "es": "Realmente confió en su habilidad."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9766,
+      "word": "abnormal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[æbˈnɔːrml]",
+        "br": "[æbˈnɔːml]",
+        "gb": "[æbˈnɔːməl]"
+      },
+      "translations": {
+        "rus": "ненормальный, аномальный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9767,
+      "word": "abnormal personality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æbˈnɔːrml] [ˌpɜːrsəˈnæləti]",
+        "br": "[æbˈnɔːml] [ˌpɜːsəˈnæləti]",
+        "gb": "[æbˈnɔːməl] [pɜːsəˈnælɪtɪ]"
+      },
+      "translations": {
+        "rus": "психопатия, расстройство личности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 8415,
+      "word": "adaptation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌædæpˈteɪʃn]",
+        "br": "[ˌædæpˈteɪʃn]",
+        "gb": "[ædæpˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "адаптация, привыкание, приспособление",
+        "spa": "la adaptación, la modificación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Adaptation is the secret of survival.",
+            "ru": "Адаптация - секрет выживания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9768,
+      "word": "adaptive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈdæptɪv]",
+        "br": "[əˈdæptɪv]",
+        "gb": "[əˈdæptɪv]"
+      },
+      "translations": {
+        "rus": "адаптивное поведение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 8417,
+      "word": "adjustment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdʒʌstmənt]",
+        "br": "[əˈdʒʌstmənt]",
+        "gb": "[əˈʤʌstmənt]"
+      },
+      "translations": {
+        "rus": "регулировка, настройка, установка, приспособление",
+        "spa": "el ajuste"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My TV needs an adjustment.",
+            "ru": "Мой телевизор нуждается в настройке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9769,
+      "word": "affect",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈfekt]",
+        "br": "[əˈfekt]",
+        "gb": "[ˈæfɛkt]"
+      },
+      "translations": {
+        "rus": "аффект, чувство, эмоция",
+        "spa": "el afecto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9770,
+      "word": "affective disorder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈfektɪv] [dɪsˈɔːrdər]",
+        "br": "[əˈfektɪv] [dɪsˈɔːdə(r)]",
+        "gb": "[əˈfektɪv] [dɪsˈɔːdə]"
+      },
+      "translations": {
+        "rus": "аффективное расстройство",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9771,
+      "word": "alertness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈlɜːrtnəs]",
+        "br": "[əˈlɜːtnəs]",
+        "gb": "[əˈlɜːtnəs]"
+      },
+      "translations": {
+        "rus": "настороженность, бдительность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 4897,
+      "word": "alienation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeɪliəˈneɪʃn]",
+        "br": "[ˌeɪliəˈneɪʃn]",
+        "gb": "[eɪljəˈneɪʃn]"
+      },
+      "translations": {
+        "rus": "отчуждение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "legal_english",
+        "psychology"
+      ]
+    },
+    {
+      "id": 3462,
+      "word": "amnesia",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æmˈniːʒə]",
+        "br": "[æmˈniːziə]",
+        "gb": "[æmˈniːzjə]"
+      },
+      "translations": {
+        "rus": "амнезия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "health",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9772,
+      "word": "analgesia",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌænəlˈdʒiːʒə]",
+        "br": "[ˌænəlˈdʒiːziə]",
+        "gb": "[ænælˈʤiːzɪə]"
+      },
+      "translations": {
+        "rus": "анальгезия, нечувствительность к боли",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 7326,
+      "word": "anger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæŋɡər]",
+        "br": "[ˈæŋɡə(r)]",
+        "gb": "[ˈæŋgə]"
+      },
+      "translations": {
+        "rus": "гнев",
+        "spa": "la ira, enojar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her anger is understandable.",
+            "ru": "Её гнев понятен."
+          },
+          {
+            "en": "He is burning with anger.",
+            "ru": "Его переполняет гнев."
+          },
+          {
+            "en": "I can understand your anger.",
+            "ru": "Я могу понять ваш гнев."
+          },
+          {
+            "en": "Anger showed on his face.",
+            "ru": "На его лице читался гнев."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Anger showed on his face.",
+            "es": "La ira se dibujó en su cara."
+          },
+          {
+            "en": "Jim was able to hold back his anger.",
+            "es": "Jim fue capaz de contener su enojo."
+          },
+          {
+            "en": "Anger is hard to control.",
+            "es": "La ira es difícil de controlar."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9773,
+      "word": "anguish",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæŋɡwɪʃ]",
+        "br": "[ˈæŋɡwɪʃ]",
+        "gb": "[ˈæŋgwɪʃ]"
+      },
+      "translations": {
+        "rus": "мука, страдание, тоска",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 7867,
+      "word": "anxiety",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æŋˈzaɪəti]",
+        "br": "[æŋˈzaɪəti]",
+        "gb": "[æŋˈzaɪətɪ]"
+      },
+      "translations": {
+        "rus": "тревога, тревожность, страх, беспокойство",
+        "spa": "la ansiedad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He waited for his son with anxiety.",
+            "ru": "Он с тревогой ждал сына."
+          },
+          {
+            "en": "Frank laughed to cover his anxiety.",
+            "ru": "Фрэнк засмеялся, чтобы скрыть тревогу."
+          },
+          {
+            "en": "There is real anxiety about the effects of radiation.",
+            "ru": "Существует реальное беспокойство из-за последствий радиации."
+          },
+          {
+            "en": "She was ridden by anxiety.",
+            "ru": "Её охватило беспокойство."
+          },
+          {
+            "en": "We try not to communicate our anxieties to the children.",
+            "ru": "Мы стараемся не сообщать о наших опасениях детям."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She could not cope with anxiety.",
+            "es": "Ella no pudo hacer frente a la ansiedad."
+          },
+          {
+            "en": "I am full of anxiety about the future.",
+            "es": "Estoy lleno de ansiedad por el futuro."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7329,
+      "word": "anxious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæŋkʃəs]",
+        "br": "[ˈæŋkʃəs]",
+        "gb": "[ˈæŋkʃəs]"
+      },
+      "translations": {
+        "rus": "тревожный, тревожащий, озабоченный",
+        "spa": "ansioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why are you so anxious?",
+            "ru": "Почему ты так встревожен?"
+          },
+          {
+            "en": "I am anxious to see him.",
+            "ru": "Мне очень хочется повидать его."
+          },
+          {
+            "en": "People are anxious about the future.",
+            "ru": "Люди беспокоятся о своем будущем."
+          },
+          {
+            "en": "We were all anxious for news.",
+            "ru": "Мы все с нетерпением ждали новостей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm anxious to see you.",
+            "es": "Estoy ansioso de verte."
+          },
+          {
+            "en": "She is anxious to visit Europe.",
+            "es": "Ella está ansiosa por visitar Europa."
+          },
+          {
+            "en": "He is anxious to know the result.",
+            "es": "Está ansioso por conocer el resultado."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7344,
+      "word": "association",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˌsəʊsiˈeɪʃn]",
+        "br": "[əˌsəʊsiˈeɪʃn]",
+        "gb": "[əsəʊsɪˈeɪʃn]"
+      },
+      "translations": {
+        "rus": "ассоциация",
+        "spa": "la asociación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The association has thirty members.",
+            "ru": "В ассоциации тридцать участников."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9774,
+      "word": "associative thinking",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əˈsəʊʃjətɪv] [ˈθɪŋkɪŋ]"
+      },
+      "translations": {
+        "rus": "ассоциативное мышление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 5369,
+      "word": "attention",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈtenʃn]",
+        "br": "[əˈtenʃn]",
+        "gb": "[əˈtenʃn]"
+      },
+      "translations": {
+        "rus": "внимание",
+        "spa": "la atención"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please give me your attention.",
+            "ru": "Прошу внимания."
+          },
+          {
+            "en": "Thank you for your attention!",
+            "ru": "Спасибо за внимание!"
+          },
+          {
+            "en": "They don't pay me attention.",
+            "ru": "Они не уделяют мне внимание."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Shut up and pay attention.",
+            "es": "Callate y prestá atención."
+          },
+          {
+            "en": "Pay attention to his advice.",
+            "es": "Presta atención a su consejo."
+          },
+          {
+            "en": "Thank you for your attention.",
+            "es": "Gracias por vuestra atención."
+          },
+          {
+            "en": "Have you been paying attention?",
+            "es": "¿Estás poniendo atención?"
+          },
+          {
+            "en": "Pay more attention to your work.",
+            "es": "Presta más atención a tu trabajo."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9775,
+      "word": "autism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːtɪzəm]",
+        "br": "[ˈɔːtɪzəm]",
+        "gb": "[ˈɔːtɪzəm]"
+      },
+      "translations": {
+        "rus": "аутизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9776,
+      "word": "autistic thinking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔːˈtɪstɪk] [ˈθɪŋkɪŋ]",
+        "br": "[ɔːˈtɪstɪk] [ˈθɪŋkɪŋ]",
+        "gb": "[ɔːˈtɪstɪk] [ˈθɪŋkɪŋ]"
+      },
+      "translations": {
+        "rus": "аутистическое мышление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9777,
+      "word": "aversion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈvɜːrʒn]",
+        "br": "[əˈvɜːʃn]",
+        "gb": "[əˈvɜːʃn]"
+      },
+      "translations": {
+        "rus": "отвращение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9778,
+      "word": "avoidance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈvɔɪdəns]",
+        "br": "[əˈvɔɪdəns]",
+        "gb": "[əˈvɔɪdəns]"
+      },
+      "translations": {
+        "rus": "избегание, уклонение, избежание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 1882,
+      "word": "behavior",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behavior annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behavior was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behavior of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behavior strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behavior was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behavior.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behavior toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behavior was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behavior.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behavior was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behavior.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behavior.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behavior.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1883,
+      "word": "behaviour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behaviour annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behaviour was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behaviour of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behaviour strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behaviour was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behaviour.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behaviour toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behaviour was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behaviour.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behaviour was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behaviour.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behaviour.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behaviour.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9779,
+      "word": "comprehension",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːmprɪˈhenʃn]",
+        "br": "[ˌkɒmprɪˈhenʃn]",
+        "gb": "[kɔmprɪˈhenʃn]"
+      },
+      "translations": {
+        "rus": "понимание, разумение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9780,
+      "word": "conditional reflex",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈdɪʃənl] [ˈriːfleks]",
+        "br": "[kənˈdɪʃənl] [ˈriːfleks]",
+        "gb": "[kənˈdɪʃənl] [ˈriːfleks]"
+      },
+      "translations": {
+        "rus": "условный рефлекс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 8613,
+      "word": "conscience",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnʃəns]",
+        "br": "[ˈkɒnʃəns]",
+        "gb": "[ˈkɔnʃəns]"
+      },
+      "translations": {
+        "rus": "совесть",
+        "spa": "la conciencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm your conscience.",
+            "ru": "Я - твоя совесть."
+          },
+          {
+            "en": "My conscience is clear.",
+            "ru": "Моя совесть чиста."
+          },
+          {
+            "en": "Is your conscience bothering you?",
+            "ru": "Вас мучает совесть?"
+          },
+          {
+            "en": "She had a clear conscience.",
+            "ru": "У нее была чистая совесть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 8614,
+      "word": "consciousness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnʃəsnəs]",
+        "br": "[ˈkɒnʃəsnəs]",
+        "gb": "[ˈkɔnʃəsnɪs]"
+      },
+      "translations": {
+        "rus": "сознательность, сознание",
+        "spa": "la conciencia, la consciencia, el conocimiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He experienced a momentary loss of consciousness.",
+            "ru": "Он пережил кратковременную потерю сознания."
+          },
+          {
+            "en": "It was some hours before she recovered consciousness.",
+            "ru": "Прошло несколько часов, прежде чем она пришла в сознание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9781,
+      "word": "covert",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkəʊvɜːrt]",
+        "br": "[ˈkəʊvɜːt], [ˈkʌvət]",
+        "gb": "[ˈkʌvət]"
+      },
+      "translations": {
+        "rus": "скрытый, тайный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 7947,
+      "word": "creativity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkriːeɪˈtɪvəti]",
+        "br": "[ˌkriːeɪˈtɪvəti]",
+        "gb": "[kriːeɪˈtɪvɪtɪ]"
+      },
+      "translations": {
+        "rus": "творческая способность, изобретательность",
+        "spa": "la creatividad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9782,
+      "word": "delusion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈluːʒn]",
+        "br": "[dɪˈluːʒn]",
+        "gb": "[dɪˈluːʒən]"
+      },
+      "translations": {
+        "rus": "бред, заблуждение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 8696,
+      "word": "denial",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈnaɪəl]",
+        "br": "[dɪˈnaɪəl]",
+        "gb": "[dɪˈnaɪəl]"
+      },
+      "translations": {
+        "rus": "отрицание, отказ, отклонение, отречение",
+        "spa": "la negación, el desmentido, la denegación, el rechazo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9783,
+      "word": "dependency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpendənsi]",
+        "br": "[dɪˈpendənsi]",
+        "gb": "[dɪˈpendənsɪ]"
+      },
+      "translations": {
+        "rus": "зависимость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 1438,
+      "word": "depression",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpreʃn]",
+        "br": "[dɪˈpreʃn]",
+        "gb": "[dɪˈpreʃn]"
+      },
+      "translations": {
+        "rus": "депрессия, спад, застой",
+        "spa": "la depresión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's in a depression.",
+            "ru": "Она в депрессии."
+          },
+          {
+            "en": "After her death, he sunk into depression.",
+            "ru": "После её смерти он погрузился в депрессию."
+          },
+          {
+            "en": "The economy is in a slight depression.",
+            "ru": "Экономика находится в небольшой депрессии."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "health",
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8709,
+      "word": "destructive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪˈstrʌktɪv]",
+        "br": "[dɪˈstrʌktɪv]",
+        "gb": "[dɪsˈtrʌktɪv]"
+      },
+      "translations": {
+        "rus": "разрушительный, деструктивный",
+        "spa": "destructivo, destructor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 7976,
+      "word": "disorder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪsˈɔːrdər]",
+        "br": "[dɪsˈɔːdə(r)]",
+        "gb": "[dɪsˈɔːdə]"
+      },
+      "translations": {
+        "rus": "расстройство, беспорядок",
+        "spa": "el desorden"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My father has a personality disorder.",
+            "ru": "У моего отца расстройство личности."
+          },
+          {
+            "en": "Disorder prevails in the street.",
+            "ru": "На улице царит беспорядок."
+          },
+          {
+            "en": "I have post-traumatic stress disorder.",
+            "ru": "У меня посттравматическое стрессовое расстройство."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9784,
+      "word": "distraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈstrækʃn]",
+        "br": "[dɪˈstrækʃn]",
+        "gb": "[dɪsˈtrækʃn]"
+      },
+      "translations": {
+        "rus": "отвлечение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9785,
+      "word": "empathy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈempəθi]",
+        "br": "[ˈempəθi]",
+        "gb": "[ˈempəθɪ]"
+      },
+      "translations": {
+        "rus": "эмпатия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 6966,
+      "word": "excitement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈsaɪtmənt]",
+        "br": "[ɪkˈsaɪtmənt]",
+        "gb": "[ɪkˈsaɪtmənt]"
+      },
+      "translations": {
+        "rus": "возбуждение, волнение",
+        "spa": "la emoción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Their excitement was intense.",
+            "ru": "Их волнение было предельно сильным."
+          },
+          {
+            "en": "His hands shook with excitement.",
+            "ru": "Его руки дрожали от волнения."
+          },
+          {
+            "en": "Her eyes sparkled with excitement.",
+            "ru": "Её глаза сверкали от возбуждения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 562,
+      "word": "experience",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspɪriəns]",
+        "br": "[ɪkˈspɪəriəns]",
+        "gb": "[ɪksˈpɪərɪəns]"
+      },
+      "translations": {
+        "rus": "опыт, переживание",
+        "spa": "la experiencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That was a valuable experience.",
+            "ru": "Это был ценный опыт."
+          },
+          {
+            "en": "Experience is the best teacher.",
+            "ru": "Опыт - лучший учитель."
+          },
+          {
+            "en": "This experience has changed me.",
+            "ru": "Этот опыт меня изменил."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is lacking in experience.",
+            "es": "Le falta experiencia."
+          },
+          {
+            "en": "He is an experienced teacher.",
+            "es": "Es un profesor experimentado."
+          },
+          {
+            "en": "We learn a lot from experience.",
+            "es": "Aprendemos mucho con la experiencia."
+          },
+          {
+            "en": "Experience counts in this job.",
+            "es": "En este trabajo, experiencia cuenta."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 569,
+      "word": "facial expression",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfeɪʃl] [ɪkˈspreʃn]",
+        "br": "[ˈfeɪʃl] [ɪkˈspreʃn]",
+        "gb": "[ˈfeɪʃəl] [ɪksˈpreʃn]"
+      },
+      "translations": {
+        "rus": "выражение лица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9786,
+      "word": "family therapy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfæməli] [ˈθerəpi]",
+        "br": "[ˈfæməli] [ˈθerəpi]",
+        "gb": "[ˈfæmɪlɪ] [ˈθerəpɪ]"
+      },
+      "translations": {
+        "rus": "семейная терапия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 5238,
+      "word": "fantasy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfæntəsi]",
+        "br": "[ˈfæntəsi]",
+        "gb": "[ˈfæntəsɪ]"
+      },
+      "translations": {
+        "rus": "фантазия, фантастика",
+        "spa": "la fantasía, el sueño, la literatura fantástica"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Children often live in a world of fantasy.",
+            "ru": "Дети часто живут в мире фантазий."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 3570,
+      "word": "fatigue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈtiːɡ]",
+        "br": "[fəˈtiːɡ]",
+        "gb": "[fəˈtiːg]"
+      },
+      "translations": {
+        "rus": "усталость, утомление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "health",
+        "psychology"
+      ]
+    },
+    {
+      "id": 6495,
+      "word": "fear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪr]",
+        "br": "[fɪə(r)]",
+        "gb": "[fɪə]"
+      },
+      "translations": {
+        "rus": "страх, боязнь",
+        "spa": "el miedo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was seized with fear.",
+            "ru": "Им овладел страх."
+          },
+          {
+            "en": "You must conquer your fear of the dark.",
+            "ru": "Ты должен победить свою боязнь темноты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I see fear in your eyes.",
+            "es": "Veo el miedo en tus ojos."
+          },
+          {
+            "en": "He was seized with fear.",
+            "es": "El miedo lo poseyó."
+          },
+          {
+            "en": "I don't know what fear is.",
+            "es": "Yo no sé lo que es el miedo."
+          },
+          {
+            "en": "I'm trembling out of fear.",
+            "es": "Estoy temblando de miedo."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6009,
+      "word": "feeling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfiːlɪŋ]",
+        "br": "[ˈfiːlɪŋ]",
+        "gb": "[ˈfiːlɪŋ]"
+      },
+      "translations": {
+        "rus": "чувство, ощущение",
+        "spa": "el sentimiento, la sensación, la sensibilidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know the feeling!",
+            "ru": "Мне знакомо это чувство!"
+          },
+          {
+            "en": "I am feeling quite off today.",
+            "ru": "Мне сегодня нездоровится."
+          },
+          {
+            "en": "A feeling of isolation swept over me.",
+            "ru": "Меня охватило чувство одиночества."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 8043,
+      "word": "formation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrˈmeɪʃn]",
+        "br": "[fɔːˈmeɪʃn]",
+        "gb": "[fɔːˈmeɪʃn]"
+      },
+      "translations": {
+        "rus": "формирование, образование, формация",
+        "spa": "la formación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9787,
+      "word": "group mind",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡruːp] [maɪnd]",
+        "br": "[ɡruːp] [maɪnd]",
+        "gb": "[gruːp] [maɪnd]"
+      },
+      "translations": {
+        "rus": "групповое сознание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9788,
+      "word": "group psychology",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡruːp] [saɪˈkɑːlədʒi]",
+        "br": "[ɡruːp] [saɪˈkɒlədʒi]",
+        "gb": "[gruːp] [saɪˈkɔləʤɪ]"
+      },
+      "translations": {
+        "rus": "групповая психология",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9789,
+      "word": "hypnosis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪpˈnəʊsɪs]",
+        "br": "[hɪpˈnəʊsɪs]",
+        "gb": "[hɪpˈnəʊsɪs]"
+      },
+      "translations": {
+        "rus": "гипноз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9790,
+      "word": "hysteria",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪˈstɪriə]",
+        "br": "[hɪˈstɪəriə]",
+        "gb": "[hɪsˈtɪərɪə]"
+      },
+      "translations": {
+        "rus": "истерия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 8920,
+      "word": "identification",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪˌdentɪfɪˈkeɪʃn]",
+        "br": "[aɪˌdentɪfɪˈkeɪʃn]",
+        "gb": "[aɪdentɪfɪˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "идентификация, определение, опознание",
+        "spa": "la identificación, el documento de identidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 5325,
+      "word": "identity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪˈdentəti]",
+        "br": "[aɪˈdentəti]",
+        "gb": "[aɪˈdentɪtɪ]"
+      },
+      "translations": {
+        "rus": "идентичность, личность",
+        "spa": "la identidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His identity must be kept secret.",
+            "ru": "Его личность должна оставаться тайной."
+          },
+          {
+            "en": "The killer's identity is still unknown.",
+            "ru": "Личность убийцы до сих пор неизвестна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I've discovered the victim's identity.",
+            "es": "Descubrí la identidad de la víctima."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8092,
+      "word": "illusion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈluːʒn]",
+        "br": "[ɪˈluːʒn]",
+        "gb": "[ɪˈluːʒən]"
+      },
+      "translations": {
+        "rus": "иллюзия",
+        "spa": "la ilusión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is an optical illusion.",
+            "ru": "Это оптическая иллюзия."
+          },
+          {
+            "en": "In any case, that's an illusion.",
+            "ru": "В любом случае, это иллюзия."
+          },
+          {
+            "en": "Your enemies are just an illusion.",
+            "ru": "Ваши враги - всего лишь иллюзия."
+          },
+          {
+            "en": "Does love exist or is it only an illusion?",
+            "ru": "Любовь существует или это только иллюзия?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9791,
+      "word": "imitation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪmɪˈteɪʃn]",
+        "br": "[ˌɪmɪˈteɪʃn]",
+        "gb": "[ɪmɪˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "имитация, подражание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9792,
+      "word": "lapse of memory",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læps] [əv] [ˈmeməri]",
+        "br": "[læps] [əv] [ˈmeməri]",
+        "gb": "[læps] [ɔv] [ˈmemərɪ]"
+      },
+      "translations": {
+        "rus": "провал в памяти",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9793,
+      "word": "maturation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmætʃuˈreɪʃn]",
+        "br": "[ˌmætʃuˈreɪʃn]",
+        "gb": "[mætjʊəˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "созревание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9794,
+      "word": "maturity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈtʃʊrəti]",
+        "br": "[məˈtʃʊərəti]",
+        "gb": "[məˈtjʊərɪtɪ]"
+      },
+      "translations": {
+        "rus": "зрелость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 7081,
+      "word": "mental",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmentl]",
+        "br": "[ˈmentl]",
+        "gb": "[mentl]"
+      },
+      "translations": {
+        "rus": "умственный, психический, душевный",
+        "spa": "mental"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was mentally and physically tired.",
+            "ru": "Я умственно и физически устала."
+          },
+          {
+            "en": "He is mentally handicapped.",
+            "ru": "Он психически больной."
+          },
+          {
+            "en": "Some mental illnesses already have a cure.",
+            "ru": "Некоторые психические заболевания уже излечимы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9795,
+      "word": "mental abilities",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mentl] [əˈbɪlɪtiz]"
+      },
+      "translations": {
+        "rus": "умственные способности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9796,
+      "word": "mental retardation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmentl] [ˌriːtɑːrˈdeɪʃn]",
+        "br": "[ˈmentl] [ˌriːtɑːˈdeɪʃn]",
+        "gb": "[mentl] [riːtɑːˈdeɪʃn]"
+      },
+      "translations": {
+        "rus": "умственная отсталость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 5335,
+      "word": "motivation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌməʊtɪˈveɪʃn]",
+        "br": "[ˌməʊtɪˈveɪʃn]",
+        "gb": "[məʊtɪˈveɪʃn]"
+      },
+      "translations": {
+        "rus": "мотивация",
+        "spa": "la motivación, el motivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I lost my motivation.",
+            "ru": "Я потерял мотивацию."
+          },
+          {
+            "en": "He lacks motivation.",
+            "ru": "Ему не хватает мотивации."
+          },
+          {
+            "en": "Motivation is the key to success.",
+            "ru": "Мотивация - ключ к успеху."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9797,
+      "word": "neurosis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nʊˈrəʊsɪs]",
+        "br": "[njʊəˈrəʊsɪs]",
+        "gb": "[njʊəˈrəʊsɪs]"
+      },
+      "translations": {
+        "rus": "невроз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9798,
+      "word": "obedience",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈbiːdiəns]",
+        "br": "[əˈbiːdiəns]",
+        "gb": "[əˈbiːdjəns]"
+      },
+      "translations": {
+        "rus": "послушание, послушность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 3671,
+      "word": "pain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[peɪn]",
+        "br": "[peɪn]",
+        "gb": "[peɪn]"
+      },
+      "translations": {
+        "rus": "боль, страдание",
+        "spa": "el dolor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It gave me much pain.",
+            "ru": "Это причинило мне большую боль."
+          },
+          {
+            "en": "No pain, no gain.",
+            "ru": "Без боли нет результата."
+          },
+          {
+            "en": "She cannot stand any pain.",
+            "ru": "Она не может переносить боль."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I felt a deep pain.",
+            "es": "Sentí un dolor intenso."
+          },
+          {
+            "en": "He cried out in pain.",
+            "es": "Lloraba de dolor."
+          },
+          {
+            "en": "I can't stand this pain.",
+            "es": "No puedo aguantar el dolor."
+          },
+          {
+            "en": "Today I have neck pain.",
+            "es": "Hoy estoy con dolor de cuello."
+          }
+        ]
+      },
+      "categories": [
+        "health",
+        "oxford3000_a2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2010,
+      "word": "personality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɜːrsəˈnæləti]",
+        "br": "[ˌpɜːsəˈnæləti]",
+        "gb": "[pɜːsəˈnælɪtɪ]"
+      },
+      "translations": {
+        "rus": "личность",
+        "spa": "la personalidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a strong personality.",
+            "ru": "Она - сильная личность."
+          },
+          {
+            "en": "My father has a personality disorder.",
+            "ru": "У моего отца расстройство личности."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9799,
+      "word": "proneness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprəʊnnəs]",
+        "br": "[ˈprəʊnnəs]",
+        "gb": "[prəˈnɪnəs]"
+      },
+      "translations": {
+        "rus": "склонность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 7680,
+      "word": "psychologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪˈkɑːlədʒɪst]",
+        "br": "[saɪˈkɒlədʒɪst]",
+        "gb": "[saɪˈkɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "психолог",
+        "spa": "el psicólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 7681,
+      "word": "psychology",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪˈkɑːlədʒi]",
+        "br": "[saɪˈkɒlədʒi]",
+        "gb": "[saɪˈkɔləʤɪ]"
+      },
+      "translations": {
+        "rus": "психология",
+        "spa": "la psicología"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My mother is a psychology teacher.",
+            "ru": "Моя мать — преподаватель психологии."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9800,
+      "word": "reminiscence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌremɪˈnɪsns]",
+        "br": "[ˌremɪˈnɪsns]",
+        "gb": "[remɪˈnɪsns]"
+      },
+      "translations": {
+        "rus": "воспоминание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9801,
+      "word": "self-acceptance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[self] [əkˈseptəns]",
+        "br": "[self] [əkˈseptəns]",
+        "gb": "[self] [əkˈseptəns]"
+      },
+      "translations": {
+        "rus": "самопринятие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9802,
+      "word": "self-analysis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[self] [əˈnæləsɪs]",
+        "br": "[self] [əˈnæləsɪs]",
+        "gb": "[self] [əˈnæləsɪs]"
+      },
+      "translations": {
+        "rus": "самоанализ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9803,
+      "word": "self-appraisal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[self] [əˈpreɪzl]",
+        "br": "[self] [əˈpreɪzl]",
+        "gb": "[self] [əˈpreɪzəl]"
+      },
+      "translations": {
+        "rus": "самооценка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9804,
+      "word": "self-control",
+      "pos": "noun",
+      "transcription": {
+        "us": "[self] [kənˈtrəʊl]",
+        "br": "[self] [kənˈtrəʊl]",
+        "gb": "[self] [kənˈtrəʊl]"
+      },
+      "translations": {
+        "rus": "самообладание, самоконтроль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9805,
+      "word": "self-expression",
+      "pos": "noun",
+      "transcription": {
+        "us": "[self] [ɪkˈspreʃn]",
+        "br": "[self] [ɪkˈspreʃn]",
+        "gb": "[self] [ɪksˈpreʃn]"
+      },
+      "translations": {
+        "rus": "самовыражение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9330,
+      "word": "sensitivity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsensəˈtɪvəti]",
+        "br": "[ˌsensəˈtɪvəti]",
+        "gb": "[sensɪˈtɪvɪtɪ]"
+      },
+      "translations": {
+        "rus": "чувствительность",
+        "spa": "la sensibilidad, la susceptibilidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 6734,
+      "word": "social",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsəʊʃl]",
+        "br": "[ˈsəʊʃl]",
+        "gb": "[ˈsəʊʃəl]"
+      },
+      "translations": {
+        "rus": "общественный, социальный",
+        "spa": "social"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a social worker.",
+            "ru": "Я социальный работник."
+          },
+          {
+            "en": "Man is a social being.",
+            "ru": "Человек - существо социальное."
+          },
+          {
+            "en": "Rabbits are extremely social animals.",
+            "ru": "Кролики чрезвычайно социальны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Man is a social being.",
+            "es": "El hombre es un ser social."
+          },
+          {
+            "en": "He enjoys a good social life.",
+            "es": "Él disfruta de una buena vida social."
+          },
+          {
+            "en": "I like social networking web sites.",
+            "es": "Me gustan las páginas web de redes sociales."
+          },
+          {
+            "en": "There is an urgent need for social change.",
+            "es": "Se requiere con urgencia un cambio social."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3729,
+      "word": "stress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stres]",
+        "br": "[stres]",
+        "gb": "[stres]"
+      },
+      "translations": {
+        "rus": "стресс, напряжение",
+        "spa": "el estrés"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't handle stress well.",
+            "ru": "Я не справляюсь со стрессом."
+          },
+          {
+            "en": "I'm always under stress.",
+            "ru": "Я всегда в состоянии стресса."
+          },
+          {
+            "en": "How do you handle stress?",
+            "ru": "Как ты справляешься со стрессом?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is unable to cope with stress.",
+            "es": "Ella no puede manejar el estrés."
+          },
+          {
+            "en": "Stress is a very serious problem in today's society.",
+            "es": "El estrés es un problema muy serio en la sociedad actual."
+          },
+          {
+            "en": "Stress can have an enormous negative impact on your health.",
+            "es": "El estrés puede tener un gran impacto negativo en tu salud."
+          }
+        ]
+      },
+      "categories": [
+        "health",
+        "oxford3000_a2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2065,
+      "word": "temperament",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtemprəmənt]",
+        "br": "[ˈtemprəmənt]",
+        "gb": "[ˈtempərəmənt]"
+      },
+      "translations": {
+        "rus": "темперамент",
+        "spa": "el temperamento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "psychology"
+      ]
+    },
+    {
+      "id": 6772,
+      "word": "thinking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθɪŋkɪŋ]",
+        "br": "[ˈθɪŋkɪŋ]",
+        "gb": "[ˈθɪŋkɪŋ]"
+      },
+      "translations": {
+        "rus": "мышление, размышление",
+        "spa": "el pensamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is critical thinking?",
+            "ru": "Что такое критическое мышление?"
+          },
+          {
+            "en": "His way of thinking is very childish.",
+            "ru": "Его образ мышления весьма инфантилен."
+          },
+          {
+            "en": "Your way of thinking is quite distinct from mine.",
+            "ru": "Твоя манера мышления очень отличается от моей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 461,
+      "word": "to affect",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈfekt]",
+        "br": "[tu] [əˈfekt]",
+        "gb": "[tuː] [əˈfekt]"
+      },
+      "translations": {
+        "rus": "воздействовать, волновать, влиять",
+        "spa": "afectar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How does that affect you?",
+            "ru": "Как это влияет на вас?"
+          },
+          {
+            "en": "That affected us a lot.",
+            "ru": "Это сильно на нас повлияло."
+          },
+          {
+            "en": "How can it affect them?",
+            "ru": "Как это может на них повлиять?"
+          },
+          {
+            "en": "Smoking affects our health.",
+            "ru": "Курение влияет на наше здоровье."
+          },
+          {
+            "en": "This bad weather will affect the crops.",
+            "ru": "Плохая погода повлияет на урожай."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How will this affect you?",
+            "es": "¿Cómo te afectará?"
+          },
+          {
+            "en": "It really didn't affect us.",
+            "es": "Eso realmente no nos afectó."
+          },
+          {
+            "en": "This problem affects us all.",
+            "es": "Este problema nos afecta a todos."
+          },
+          {
+            "en": "The event affected his future.",
+            "es": "Ese accidente afectó a su futuro."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 563,
+      "word": "to experience",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪkˈspɪriəns]",
+        "br": "[tu] [ɪkˈspɪəriəns]",
+        "gb": "[tuː] [ɪksˈpɪərɪəns]"
+      },
+      "translations": {
+        "rus": "испытывать, переживать что-либо, получать опыт",
+        "spa": "experimentar, sentir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Many countries are experiencing similar problems.",
+            "ru": "Многие страны испытывают схожие проблемы."
+          },
+          {
+            "en": "He was experiencing hellish pain.",
+            "ru": "Он испытывал адскую боль."
+          },
+          {
+            "en": "Words cannot describe the horror I experienced.",
+            "ru": "Словами не описать тот ужас, который я испытала."
+          },
+          {
+            "en": "At last, they experienced the joy of victory.",
+            "ru": "В конце концов, они испытали радость победы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "oxford3000_b1",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 961,
+      "word": "to fear",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɪr]",
+        "br": "[tə] [fɪə(r)]",
+        "gb": "[tuː] [fɪə]"
+      },
+      "translations": {
+        "rus": "бояться",
+        "spa": "temer, tener miedo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is nothing to fear.",
+            "ru": "Бояться нечего."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_b1",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9515,
+      "word": "verbal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvɜːrbl]",
+        "br": "[ˈvɜːbl]",
+        "gb": "[ˈvɜːbəl]"
+      },
+      "translations": {
+        "rus": "словесный, устный, вербальный",
+        "spa": "verbal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "psychology"
+      ]
+    },
+    {
+      "id": 9806,
+      "word": "visualization",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌvɪʒuələˈzeɪʃn]",
+        "br": "[ˌvɪʒuəlaɪˈzeɪʃn]",
+        "gb": "[vɪzjʊəlaɪˈzeɪʃn]"
+      },
+      "translations": {
+        "rus": "визуализация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    },
+    {
+      "id": 9807,
+      "word": "withdrawal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɪðˈdrɔːəl]",
+        "br": "[wɪðˈdrɔːəl]",
+        "gb": "[wɪðˈdrɔːəl]"
+      },
+      "translations": {
+        "rus": "уход в себя, замыкание в себе",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "psychology"
+      ]
+    }
+  ]
+}

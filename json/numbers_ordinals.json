@@ -1,0 +1,879 @@
+{
+  "category": {
+    "id": "numbers_ordinals",
+    "name_rus": "Числительные (порядк.)",
+    "type": "topic",
+    "word_count": 29
+  },
+  "words": [
+    {
+      "id": 5850,
+      "word": "eighteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌeɪˈtiːnθ]",
+        "br": "[ˌeɪˈtiːnθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "восемнадцатый",
+        "spa": "decimoctavo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5840,
+      "word": "eighth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[eɪtθ]",
+        "br": "[eɪtθ]",
+        "gb": "[eɪtθ]"
+      },
+      "translations": {
+        "rus": "восьмой",
+        "spa": "octavo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's on the eighth floor.",
+            "ru": "Он на восьмом этаже."
+          },
+          {
+            "en": "She was in the eighth grade.",
+            "ru": "Она была в восьмом классе."
+          },
+          {
+            "en": "Neptune is the eighth planet from the Sun.",
+            "ru": "Нептун - восьмая планета от Солнца."
+          },
+          {
+            "en": "School begins on the eighth of April.",
+            "ru": "Занятия начинаются восьмого апреля."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's on the eighth floor.",
+            "es": "Está en el octavo piso."
+          },
+          {
+            "en": "His office is on the eighth floor.",
+            "es": "Su oficina está en el octavo piso."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5859,
+      "word": "eightieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈeɪtiəθ]",
+        "br": "[ˈeɪtiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "восьмидесятый",
+        "spa": "octogésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5843,
+      "word": "eleventh",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ɪˈlevnθ]",
+        "br": "[ɪˈlevnθ]",
+        "gb": "[ɪˈlevnθ]"
+      },
+      "translations": {
+        "rus": "одиннадцатый",
+        "spa": "undécimo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm in the eleventh grade.",
+            "ru": "Я учусь в одиннадцатом классе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5847,
+      "word": "fifteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌfɪfˈtiːnθ]",
+        "br": "[ˌfɪfˈtiːnθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "пятнадцатый",
+        "spa": "decimoquinto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5837,
+      "word": "fifth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[fɪfθ]",
+        "br": "[fɪfθ]",
+        "gb": "[fɪfθ]"
+      },
+      "translations": {
+        "rus": "пятый",
+        "spa": "quinto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bill is due on the fifth of each month.",
+            "ru": "Счёт нужно оплачивать пятого числа каждого месяца."
+          },
+          {
+            "en": "He was fifth out of several hundred runners.",
+            "ru": "Он занял пятое место из нескольких сот бегунов."
+          },
+          {
+            "en": "She donated a fifth of her income to charity.",
+            "ru": "Она пожертвовала на благотворительность пятую часть своего дохода."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live on the fifth floor.",
+            "es": "Vivo en el quinto piso."
+          },
+          {
+            "en": "He's the fifth man in line.",
+            "es": "Es el quinto de la fila."
+          },
+          {
+            "en": "This was Rodica's fifth book.",
+            "es": "Éste era el quinto libro de Rodica."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5856,
+      "word": "fiftieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈfɪftiəθ]",
+        "br": "[ˈfɪftiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "пятидесятый",
+        "spa": "quincuagésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5833,
+      "word": "first",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[fɜːrst]",
+        "br": "[fɜːst]",
+        "gb": "[fɜːst]"
+      },
+      "translations": {
+        "rus": "первый, сначала",
+        "spa": "primero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where are we going first?",
+            "ru": "Куда идём сначала?"
+          },
+          {
+            "en": "Do you want to go first?",
+            "ru": "Хочешь идти первым?"
+          },
+          {
+            "en": "It was hard at first.",
+            "ru": "Сначала было трудно."
+          },
+          {
+            "en": "You'll be the first to know.",
+            "ru": "Ты узнаешь первым."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm first.",
+            "es": "Soy el primero."
+          },
+          {
+            "en": "Let's eat first.",
+            "es": "Primero comamos."
+          },
+          {
+            "en": "You're first.",
+            "es": "Tú eres el primero."
+          },
+          {
+            "en": "I won first place.",
+            "es": "Gané el primer premio."
+          },
+          {
+            "en": "I'll go first.",
+            "es": "Yo iré primero."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals",
+        "oxford3000_a1",
+        "top100"
+      ]
+    },
+    {
+      "id": 5855,
+      "word": "fortieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈfɔːrtiəθ]",
+        "br": "[ˈfɔːtiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "сороковой",
+        "spa": "cuadragésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5846,
+      "word": "fourteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌfɔːrˈtiːnθ]",
+        "br": "[ˌfɔːˈtiːnθ]",
+        "gb": "[ˈfɔːˈtiːnθ]"
+      },
+      "translations": {
+        "rus": "четырнадцатый",
+        "spa": "decimocuarto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It happened on the fourteenth of October.",
+            "ru": "Это случилось четырнадцатого октября."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5836,
+      "word": "fourth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[fɔːrθ]",
+        "br": "[fɔːθ]",
+        "gb": "[fɔːθ]"
+      },
+      "translations": {
+        "rus": "четвертый",
+        "spa": "cuarto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was a fourth dan.",
+            "ru": "У него был четвёртый дан."
+          },
+          {
+            "en": "She drank a fourth of the bottle.",
+            "ru": "Она выпила четверть бутылки."
+          },
+          {
+            "en": "I was going well and was lying fourth.",
+            "ru": "Я неплохо шёл и был на четвёртом месте."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's rehearse the fourth scene.",
+            "es": "Vamos a ensayar la cuarta escena."
+          },
+          {
+            "en": "My room is on the fourth floor.",
+            "es": "Mi habitación está en el cuarto piso."
+          },
+          {
+            "en": "The fourth month is called April.",
+            "es": "El cuarto mes se llama abril."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5861,
+      "word": "hundredth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈhʌndrədθ]",
+        "br": "[ˈhʌndrədθ]",
+        "gb": "[ˈhʌndrədθ]"
+      },
+      "translations": {
+        "rus": "сотый",
+        "spa": "centésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5851,
+      "word": "nineteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌnaɪnˈtiːnθ]",
+        "br": "[ˌnaɪnˈtiːnθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "девятнадцатый",
+        "spa": "decimonoveno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5860,
+      "word": "ninetieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈnaɪntiəθ]",
+        "br": "[ˈnaɪntiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "девяностый",
+        "spa": "nonagésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5841,
+      "word": "ninth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[naɪnθ]",
+        "br": "[naɪnθ]",
+        "gb": "[naɪnθ]"
+      },
+      "translations": {
+        "rus": "девятый",
+        "spa": "noveno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tell me the name of the ninth month.",
+            "ru": "Скажи мне, как называется девятый месяц."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Tell me the name of the ninth month.",
+            "es": "Dime el nombre del noveno mes."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5834,
+      "word": "second",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsekənd]",
+        "br": "[ˈsekənd]",
+        "gb": "[ˈsekənd]"
+      },
+      "translations": {
+        "rus": "второй, во-вторых",
+        "spa": "segundo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll get a second job.",
+            "ru": "Я получу вторую работу."
+          },
+          {
+            "en": "London is their second home.",
+            "ru": "Лондон — их второй дом."
+          },
+          {
+            "en": "Who was in second place?",
+            "ru": "Кто был на втором месте?"
+          },
+          {
+            "en": "Lying is second nature to him.",
+            "ru": "Враньё - его вторая натура."
+          },
+          {
+            "en": "He's not first but second.",
+            "ru": "Он не первый, а второй."
+          },
+          {
+            "en": "I'll get a second job.",
+            "ru": "Я получу вторую работу."
+          },
+          {
+            "en": "Give me a second chance.",
+            "ru": "Дайте мне второй шанс."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The library is on the second floor.",
+            "es": "La biblioteca está en el segundo piso."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5849,
+      "word": "seventeenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌsevnˈtiːnθ]",
+        "br": "[ˌsevnˈtiːnθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "семнадцатый",
+        "spa": "decimoséptimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5839,
+      "word": "seventh",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsevnθ]",
+        "br": "[ˈsevnθ]",
+        "gb": "[sevnθ]"
+      },
+      "translations": {
+        "rus": "седьмой",
+        "spa": "séptimo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You were seventh.",
+            "ru": "Ты был седьмым."
+          },
+          {
+            "en": "I'm in seventh heaven.",
+            "ru": "Я на седьмом небе от счастья."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The seventh day of the week is Saturday.",
+            "es": "El séptimo día de la semana es el sábado."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5858,
+      "word": "seventieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsevntiəθ]",
+        "br": "[ˈsevntiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "семидесятый",
+        "spa": "septuagésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5848,
+      "word": "sixteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌsɪksˈtiːnθ]",
+        "br": "[ˌsɪksˈtiːnθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "шестнадцатый",
+        "spa": "decimosexto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5838,
+      "word": "sixth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[sɪksθ]",
+        "br": "[sɪksθ]",
+        "gb": "[sɪksθ]"
+      },
+      "translations": {
+        "rus": "шестой",
+        "spa": "sexto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is his sixth accident.",
+            "ru": "Это его шестая авария."
+          },
+          {
+            "en": "Saturn is the sixth planet from the Sun.",
+            "ru": "Сатурн - шестая планета от Солнца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We live on the sixth floor.",
+            "es": "Vivimos en el sexto piso."
+          },
+          {
+            "en": "This is his sixth accident.",
+            "es": "Este es su sexto accidente."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5857,
+      "word": "sixtieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsɪkstiəθ]",
+        "br": "[ˈsɪkstiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "шестидесятый",
+        "spa": "sexagésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5842,
+      "word": "tenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[tenθ]",
+        "br": "[tenθ]",
+        "gb": "[tenθ]"
+      },
+      "translations": {
+        "rus": "десятый",
+        "spa": "décimo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is in the tenth grade.",
+            "ru": "Он в десятом классе."
+          },
+          {
+            "en": "We celebrated our tenth wedding anniversary yesterday.",
+            "ru": "Вчера мы отпраздновали десятую годовщину нашей свадьбы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is in the tenth grade.",
+            "es": "Él está en el décimo grado."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5835,
+      "word": "third",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[θɜːrd]",
+        "br": "[θɜːd]",
+        "gb": "[θɜːd]"
+      },
+      "translations": {
+        "rus": "третий",
+        "spa": "tercero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We sat in the third row.",
+            "ru": "Мы сидели в третьем ряду."
+          },
+          {
+            "en": "Do you have a third choice?",
+            "ru": "Кроме этих двух, ещё варианты есть?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was third in line.",
+            "es": "Era el tercero de la cola."
+          },
+          {
+            "en": "I want a third choice.",
+            "es": "Quiero una tercera opción."
+          },
+          {
+            "en": "She tried a third time.",
+            "es": "Ella lo intentó una tercera vez."
+          }
+        ]
+      },
+      "categories": [
+        "numbers_ordinals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5845,
+      "word": "thirteenth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌθɜːrˈtiːnθ]",
+        "br": "[ˌθɜːˈtiːnθ]",
+        "gb": "[ˈθɜːˈtiːnθ]"
+      },
+      "translations": {
+        "rus": "тринадцатый",
+        "spa": "decimotercero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The next meeting will be on the thirteenth of June.",
+            "ru": "Следующее собрание состоится тринадцатого июня."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5854,
+      "word": "thirtieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈθɜːrtiəθ]",
+        "br": "[ˈθɜːtiəθ]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "тридцатый",
+        "spa": "trigésimo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5844,
+      "word": "twelfth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[twelfθ]",
+        "br": "[twelfθ]",
+        "gb": "[twelfθ]"
+      },
+      "translations": {
+        "rus": "двенадцатый",
+        "spa": "duodécimo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the twelfth month?",
+            "ru": "Какой месяц является двенадцатым?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5852,
+      "word": "twentieth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈtwentiəθ]",
+        "br": "[ˈtwentiəθ]",
+        "gb": "[ˈtwentɪɪθ]"
+      },
+      "translations": {
+        "rus": "двадцатый",
+        "spa": "vigésimo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My birthday is on the twentieth of July.",
+            "ru": "У меня день рождения двадцатого июля."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    },
+    {
+      "id": 5853,
+      "word": "twenty first",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈtwenti] [fɜːrst]",
+        "br": "[ˈtwenti] [fɜːst]",
+        "gb": "[ˈtwenti] [fɜːst]"
+      },
+      "translations": {
+        "rus": "двадцать первый",
+        "spa": "vigésimo primero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers_ordinals"
+      ]
+    }
+  ]
+}

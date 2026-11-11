@@ -1,0 +1,7177 @@
+{
+  "category": {
+    "id": "town",
+    "name_rus": "Город",
+    "type": "topic",
+    "word_count": 188
+  },
+  "words": [
+    {
+      "id": 5878,
+      "word": "airport",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈerpɔːrt]",
+        "br": "[ˈeəpɔːt]",
+        "gb": "[ˈɛəpɔːt]"
+      },
+      "translations": {
+        "rus": "аэропорт",
+        "spa": "el aeropuerto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was chauffeured to the airport.",
+            "ru": "Её отвезли в аэропорт."
+          },
+          {
+            "en": "The airport was fogged in.",
+            "ru": "Аэропорт был окутан туманом."
+          },
+          {
+            "en": "Barney took us to the airport.",
+            "ru": "Барни отвёз нас в аэропорт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm at the airport now.",
+            "es": "Estoy ahora en el aeropuerto."
+          },
+          {
+            "en": "The airport is over there.",
+            "es": "El aeropuerto está ahí."
+          },
+          {
+            "en": "How far is it to the airport?",
+            "es": "¿A qué distancia está el aeropuerto?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 5611,
+      "word": "ATM (automated teller machine)",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeɪ tiː ˈem]",
+        "br": "[ˌeɪ tiː ˈem]",
+        "gb": "[ˌeɪ tiː ˈem]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where can I find an ATM?",
+            "ru": "Где я могу найти банкомат?"
+          },
+          {
+            "en": "Is there an ATM nearby?",
+            "ru": "Здесь поблизости есть банкомат?"
+          },
+          {
+            "en": "My grandfather doesn't know how to take money out of an ATM.",
+            "ru": "Мой дед не умеет снимать деньги в банкомате."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 10087,
+      "word": "avenue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈævənuː]",
+        "br": "[ˈævənjuː]",
+        "gb": "[ˈævɪnjuː]"
+      },
+      "translations": {
+        "rus": "проспект, авеню",
+        "spa": "la avenida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They live on Third Avenue.",
+            "ru": "Они живут на Третьей авеню."
+          },
+          {
+            "en": "I met her by accident on Third Avenue.",
+            "ru": "Я случайно встретил их на Третьей авеню."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They live on Third Avenue.",
+            "es": "Viven en la Tercera Avenida."
+          },
+          {
+            "en": "Fifth Avenue is an elegant street.",
+            "es": "La Quinta Avenida es una calle elegante."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10088,
+      "word": "bakery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeɪkəri]",
+        "br": "[ˈbeɪkəri]",
+        "gb": "[ˈbeɪkərɪ]"
+      },
+      "translations": {
+        "rus": "булочная",
+        "spa": "la panadería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the nearest bakery?",
+            "ru": "Где ближайшая булочная?"
+          },
+          {
+            "en": "This used to be a bakery.",
+            "ru": "Здесь раньше была булочная."
+          },
+          {
+            "en": "The girl who works at the bakery is cute.",
+            "ru": "Девочка, которая работает в булочной, симпатичная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I went to the bakery.",
+            "es": "Fui a la panadería."
+          },
+          {
+            "en": "Where is the nearest bakery?",
+            "es": "¿Dónde está la panadería más cercana?"
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6858,
+      "word": "bank",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[bæŋk]",
+        "br": "[bæŋk]",
+        "gb": "[bæŋk]"
+      },
+      "translations": {
+        "rus": "берег",
+        "spa": "la orilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is this place far from the bank?",
+            "ru": "Это далеко от берега?"
+          },
+          {
+            "en": "The river flowed over its banks.",
+            "ru": "Река вышла из берегов."
+          },
+          {
+            "en": "My house is on the south bank of the Thames.",
+            "ru": "Мой дом находится на южном берегу Темзы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We walked on the banks of the Thames.",
+            "es": "Nosotros caminamos por la orilla del Támesis."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1338,
+      "word": "bank",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[bæŋk]",
+        "br": "[bæŋk]",
+        "gb": "[bæŋk]"
+      },
+      "translations": {
+        "rus": "банк, банковский",
+        "spa": "el banco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you from the bank?",
+            "ru": "Вы из банка?"
+          },
+          {
+            "en": "He is a bank clerk.",
+            "ru": "Он банковский служащий."
+          },
+          {
+            "en": "The bank is on the left.",
+            "ru": "Банк слева."
+          },
+          {
+            "en": "I'll open a bank account.",
+            "ru": "Я открою банковский счёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I work in a bank.",
+            "es": "Yo trabajo para un banco."
+          },
+          {
+            "en": "He works for a bank.",
+            "es": "Él trabaja en un banco."
+          },
+          {
+            "en": "She sat on the bank.",
+            "es": "Se sentó en el banco."
+          },
+          {
+            "en": "Please go to the bank.",
+            "es": "Por favor, ve al banco."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6385,
+      "word": "bar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːr]",
+        "br": "[bɑː(r)]",
+        "gb": "[bɑː]"
+      },
+      "translations": {
+        "rus": "бар",
+        "spa": "el bar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They went to a bar.",
+            "ru": "Они пошли в бар."
+          },
+          {
+            "en": "The bar is closing soon.",
+            "ru": "Бар скоро закрывается."
+          },
+          {
+            "en": "They stood at the bar.",
+            "ru": "Они стояли у барной стойки."
+          },
+          {
+            "en": "My friends and I often go to the bar.",
+            "ru": "Мы с друзьями часто ходим в бар."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My friends and I often go to the bar.",
+            "es": "Mis amigos y yo solemos ir al bar."
+          },
+          {
+            "en": "Was anyone in the bar?",
+            "es": "¿Había alguien en el bar?"
+          },
+          {
+            "en": "The bar is open until six in the morning.",
+            "es": "El bar está abierto hasta las seis de la mañana."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 5906,
+      "word": "behind",
+      "pos": "adverb, preposition",
+      "transcription": {
+        "us": "[bɪˈhaɪnd]",
+        "br": "[bɪˈhaɪnd]",
+        "gb": "[bɪˈhaɪnd]"
+      },
+      "translations": {
+        "rus": "позади, за",
+        "spa": "detrás de, atrás de"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was right behind them.",
+            "ru": "Я был прямо позади них."
+          },
+          {
+            "en": "He was just behind me.",
+            "ru": "Он был прямо за мной."
+          },
+          {
+            "en": "I'll be right behind you.",
+            "ru": "Я буду прямо за тобой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He was just behind me.",
+            "es": "Él estaba justo detrás de mí."
+          },
+          {
+            "en": "What did I leave behind?",
+            "es": "¿Qué dejé atrás?"
+          },
+          {
+            "en": "He hid behind the tree.",
+            "es": "Él se escondió detrás del árbol."
+          },
+          {
+            "en": "The bag has been left behind.",
+            "es": "La bolsa se quedó atrás."
+          },
+          {
+            "en": "I'll be right behind you.",
+            "es": "Estaré justo detrás de ti."
+          },
+          {
+            "en": "Our country is lagging behind.",
+            "es": "Nuestro país se está quedando atrás."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 8497,
+      "word": "bench",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bentʃ]",
+        "br": "[bentʃ]",
+        "gb": "[benʧ]"
+      },
+      "translations": {
+        "rus": "скамейка",
+        "spa": "el banco, el asiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We sat on a park bench.",
+            "ru": "Мы сидели на скамейке в парке."
+          },
+          {
+            "en": "Our team has a strong bench.",
+            "ru": "У нашей команды сильная скамейка запасных."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She sat on the bench.",
+            "es": "Se sentó en un banco."
+          },
+          {
+            "en": "Don't sit on that bench.",
+            "es": "No os sentéis en este banco."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_c1",
+        "town"
+      ]
+    },
+    {
+      "id": 10089,
+      "word": "blind alley",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blaɪnd] [ˈæli]",
+        "br": "[blaɪnd] [ˈæli]",
+        "gb": "[blaɪnd] [ˈælɪ]"
+      },
+      "translations": {
+        "rus": "тупик",
+        "spa": "el callejón sin salida"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 5220,
+      "word": "bookshop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkʃɑːp]",
+        "br": "[ˈbʊkʃɒp]",
+        "gb": "[ˈbʊkʃɔp]"
+      },
+      "translations": {
+        "rus": "книжный магазин",
+        "spa": "la librería"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I live close to an old bookshop.",
+            "es": "Yo vivo al lado de una vieja librería."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "town"
+      ]
+    },
+    {
+      "id": 10090,
+      "word": "bookstall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkstɔːl]",
+        "br": "[ˈbʊkstɔːl]",
+        "gb": "[ˈbʊkstɔːl]"
+      },
+      "translations": {
+        "rus": "газетный киоск",
+        "spa": "el quiosco de periódicos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10091,
+      "word": "booth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[buːθ]",
+        "br": "[buːð]",
+        "gb": "[buːð]"
+      },
+      "translations": {
+        "rus": "будка, кабина, киоск",
+        "spa": "la cabina, la barraca, el puesto, la caseta, el stand"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 2404,
+      "word": "bridge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪdʒ]",
+        "br": "[brɪdʒ]",
+        "gb": "[brɪʤ]"
+      },
+      "translations": {
+        "rus": "мост",
+        "spa": "el puente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He leaped off the bridge.",
+            "ru": "Он прыгнул с моста."
+          },
+          {
+            "en": "The bridge is 140 feet long.",
+            "ru": "Длина этого моста — сто сорок футов."
+          },
+          {
+            "en": "The enemy exploded the bridge.",
+            "ru": "Противник взорвал мост."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How long is this bridge?",
+            "es": "¿Cuál es la longitud de este puente?"
+          },
+          {
+            "en": "I like to build bridges.",
+            "es": "Me gusta construir puentes."
+          },
+          {
+            "en": "I am close to the bridge.",
+            "es": "Estoy cerca del puente."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 222,
+      "word": "broad",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[brɔːd]",
+        "br": "[brɔːd]",
+        "gb": "[brɔːd]"
+      },
+      "translations": {
+        "rus": "широкий, обширный",
+        "spa": "ancho, amplio, extenso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Jim has broad shoulders.",
+            "ru": "У Джима широкие плечи."
+          },
+          {
+            "en": "We're driving down a straight, broad road.",
+            "ru": "Мы ехали вниз по широкой прямой улице."
+          },
+          {
+            "en": "He has a narrow waist and broad shoulders.",
+            "ru": "У него узкая талия и широкие плечи."
+          },
+          {
+            "en": "He has a broad chest.",
+            "ru": "У него широкая грудная клетка."
+          },
+          {
+            "en": "The store has a broad selection of coats.",
+            "ru": "В магазине представлен широкий выбор пальто."
+          },
+          {
+            "en": "We're driving down a straight, broad road.",
+            "ru": "Мы ехали вниз по прямой широкой улице."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has broad shoulders.",
+            "es": "Él tiene hombros anchos."
+          },
+          {
+            "en": "You have broad shoulders.",
+            "es": "Tienes hombros amplios."
+          },
+          {
+            "en": "She has a broad view of things.",
+            "es": "Ella tiene una manera amplia de ver las cosas."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 2407,
+      "word": "building",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪldɪŋ]",
+        "br": "[ˈbɪldɪŋ]",
+        "gb": "[ˈbɪldɪŋ]"
+      },
+      "translations": {
+        "rus": "здание, строительство",
+        "spa": "el edificio, la construcción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How tall is that building?",
+            "ru": "Какой высоты это здание?"
+          },
+          {
+            "en": "The building dates from 1857.",
+            "ru": "Это здание было построено в 1857 г."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Look at that red building.",
+            "es": "Mirá ese edificio rojo."
+          },
+          {
+            "en": "Iron is used in building ships.",
+            "es": "El hierro se utiliza en la construcción de barcos."
+          },
+          {
+            "en": "Elvis has left the building.",
+            "es": "Elvis ha abandonado el edificio."
+          },
+          {
+            "en": "It's the biggest building in the city.",
+            "es": "Es la mayor construcción de la ciudad."
+          },
+          {
+            "en": "This building is very large.",
+            "es": "Este edificio es muy grande."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 5926,
+      "word": "bus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs]",
+        "br": "[bʌs]",
+        "gb": "[bʌs]"
+      },
+      "translations": {
+        "rus": "автобус",
+        "spa": "el autobús"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was on that bus.",
+            "ru": "Я был в том автобусе."
+          },
+          {
+            "en": "He got off the bus.",
+            "ru": "Он вышел из автобуса."
+          },
+          {
+            "en": "Are you waiting for the bus?",
+            "ru": "Ты ждёшь автобус?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm afraid of the bus.",
+            "es": "El autobús me da miedo."
+          },
+          {
+            "en": "I cannot drive a bus.",
+            "es": "No sé conducir un autobús."
+          },
+          {
+            "en": "Is there a bus service?",
+            "es": "¿Hay un autobús que va?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 1730,
+      "word": "bus driver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs] [ˈdraɪvər]",
+        "br": "[bʌs] [ˈdraɪvə(r)]",
+        "gb": "[bʌs] [ˈdraɪvə]"
+      },
+      "translations": {
+        "rus": "водитель автобуса",
+        "spa": "el conductor de autobús"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a bus driver.",
+            "ru": "Он водитель автобуса."
+          },
+          {
+            "en": "The bus driver suffered minor injuries.",
+            "ru": "Водитель автобуса получил лёгкие ранения."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a bus driver.",
+            "es": "Es conductor de autobús."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "town"
+      ]
+    },
+    {
+      "id": 10092,
+      "word": "bus station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs] [ˈsteɪʃn]",
+        "br": "[bʌs] [ˈsteɪʃn]",
+        "gb": "[bʌs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "автобусная станция",
+        "spa": "la estación de autobuses"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10093,
+      "word": "bus stop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs] [stɑːp]",
+        "br": "[bʌs] [stɒp]",
+        "gb": "[bʌs] [stɔp]"
+      },
+      "translations": {
+        "rus": "автобусная остановка",
+        "spa": "la parada de autobús"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is there a bus stop nearby?",
+            "ru": "Здесь поблизости есть автобусная остановка?"
+          },
+          {
+            "en": "There's a bus stop in front of our school.",
+            "ru": "Напротив нашей школы есть автобусная остановка."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 1366,
+      "word": "buyer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbaɪər]",
+        "br": "[ˈbaɪə(r)]",
+        "gb": "[ˈbaɪə]"
+      },
+      "translations": {
+        "rus": "покупатель",
+        "spa": "el comprador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I found a buyer for your house.",
+            "ru": "Я нашёл покупателя на ваш дом."
+          },
+          {
+            "en": "You'll find another buyer.",
+            "ru": "Вы найдёте другого покупателя."
+          },
+          {
+            "en": "I will sell it as soon as I find a buyer.",
+            "ru": "Я продам его, как только найду покупателя."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I will sell it as soon as I find a buyer.",
+            "es": "Lo venderé en cuanto encuentre a un comprador."
+          },
+          {
+            "en": "He has several buyers for the property.",
+            "es": "Tiene varios compradores para la finca."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10094,
+      "word": "cab",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæb]",
+        "br": "[kæb]",
+        "gb": "[kæb]"
+      },
+      "translations": {
+        "rus": "такси",
+        "spa": "el taxi"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Jim called me a cab.",
+            "es": "Jim me pidió un taxi."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 5932,
+      "word": "cafe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæˈfeɪ]",
+        "br": "[ˈkæfeɪ]",
+        "gb": "[ˈkæfeɪ]"
+      },
+      "translations": {
+        "rus": "кафе",
+        "spa": "el café"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cafe is under new management.",
+            "ru": "В этом кафе — новое руководство."
+          },
+          {
+            "en": "Shall we nip in to the cafe for a bite to eat?",
+            "ru": "Заскочим в кафе перекусить?"
+          },
+          {
+            "en": "It was pleasant to sit in a sidewalk cafe and watch people pass.",
+            "ru": "Было приятно сидеть в кафе и смотреть, как мимо проходят люди."
+          }
+        ],
+        "spa": [
+          {
+            "en": "One drinks coffee in a cafe.",
+            "es": "En el café se toma café."
+          },
+          {
+            "en": "We had a quick lunch at a cafe.",
+            "es": "Comimos un almuerzo simple en un café."
+          },
+          {
+            "en": "I had a cup of coffee at the cafe.",
+            "es": "Me tomé una taza de café en la cafetería."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 10095,
+      "word": "cafeteria",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkæfəˈtɪriə]",
+        "br": "[ˌkæfəˈtɪəriə]",
+        "gb": "[kæfɪˈtɪərɪə]"
+      },
+      "translations": {
+        "rus": "кофейня",
+        "spa": "la cafetería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They are talking over a cup of coffee in the cafeteria.",
+            "ru": "Они разговаривают в кофейне, попивая кофе."
+          },
+          {
+            "en": "We hung out in the coffee shop.",
+            "ru": "Мы посидели в кофейне."
+          },
+          {
+            "en": "If you turn left, you'll see a coffee shop.",
+            "ru": "Если повернуть налево, увидишь кофейню."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He eats lunch at a cafeteria.",
+            "es": "El come su almuerzo en una cafetería."
+          },
+          {
+            "en": "I'd like to work at the cafeteria.",
+            "es": "Quisiera trabajar en la cafetería."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10096,
+      "word": "car park",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːr] [pɑːrk]",
+        "br": "[kɑː(r)] [pɑːk]",
+        "gb": "[kɑː] [pɑːk]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 5614,
+      "word": "cash dispenser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ] [dɪˈspensər]",
+        "br": "[kæʃ] [dɪˈspensə(r)]",
+        "gb": "[kæʃ] [dɪsˈpensə]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cash machine has swallowed my debit card.",
+            "es": "El cajero automático se tragó mi tarjeta de débito."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 5615,
+      "word": "cash machine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ] [məˈʃiːn]",
+        "br": "[kæʃ] [məˈʃiːn]",
+        "gb": "[kæʃ] [məˈʃiːn]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got some money from a cash machine.",
+            "ru": "Я снял немного денег через банкомат."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cash machine has swallowed my debit card.",
+            "es": "El cajero automático se tragó mi tarjeta de débito."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 10097,
+      "word": "cathedral",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈθiːdrəl]",
+        "br": "[kəˈθiːdrəl]",
+        "gb": "[kəˈθiːdrəl]"
+      },
+      "translations": {
+        "rus": "собор",
+        "spa": "la catedral"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cathedral dates back to the Middle Ages.",
+            "ru": "Это средневековый собор."
+          },
+          {
+            "en": "This cathedral has a large organ.",
+            "ru": "В этом соборе есть большой орган."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where is the cathedral located?",
+            "es": "¿Dónde está situada la catedral?"
+          },
+          {
+            "en": "This cathedral has a large organ.",
+            "es": "Esta catedral tiene un gran órgano."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6420,
+      "word": "church",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[tʃɜːrtʃ]",
+        "br": "[tʃɜːtʃ]",
+        "gb": "[ʧɜːʧ]"
+      },
+      "translations": {
+        "rus": "церковь, церковный",
+        "spa": "la iglesia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't go to church.",
+            "ru": "Я не посещаю церковь."
+          },
+          {
+            "en": "I went to church with him.",
+            "ru": "Я пошёл с ним в церковь."
+          },
+          {
+            "en": "The church bells are ringing.",
+            "ru": "Звонят церковные колокола."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you go to church?",
+            "es": "¿Vas a la iglesia?"
+          },
+          {
+            "en": "How old is this church?",
+            "es": "¿Cuántos años tiene esta iglesia?"
+          },
+          {
+            "en": "He seldom goes to church.",
+            "es": "Raramente va él a la iglesia."
+          },
+          {
+            "en": "She sat beside me in church.",
+            "es": "Ella se sentó a mi lado en la iglesia."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 3789,
+      "word": "cinema",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪnəmə]",
+        "br": "[ˈsɪnəmə]",
+        "gb": "[ˈsɪnəmə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's on at the local cinema.",
+            "ru": "Этот фильм идёт в местном кинотеатре."
+          },
+          {
+            "en": "What do you say to going to a cinema tonight?",
+            "ru": "Что ты скажешь по поводу того, чтобы сходить вечером в кино?"
+          },
+          {
+            "en": "I hate lining up in the cold to go to a cinema.",
+            "ru": "Ненавижу стоять на морозе в очереди в кинотеатр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was at the cinema.",
+            "es": "Estaba en el cine."
+          },
+          {
+            "en": "Let's go to the cinema.",
+            "es": "Vamos al cine."
+          },
+          {
+            "en": "He lost his cinema ticket.",
+            "es": "Él perdió su entrada para el cine."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 3790,
+      "word": "circus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrkəs]",
+        "br": "[ˈsɜːkəs]",
+        "gb": "[ˈsɜːkəs]"
+      },
+      "translations": {
+        "rus": "цирк",
+        "spa": "el circo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The circus is in town.",
+            "ru": "Цирк в городе."
+          },
+          {
+            "en": "Early the next morning, the circus left for the next town.",
+            "ru": "Ранним утром следующего дня цирк отправился в следующий город."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's go to the circus tomorrow.",
+            "es": "Vayamos mañana al circo."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "town"
+      ]
+    },
+    {
+      "id": 3404,
+      "word": "city",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪti]",
+        "br": "[ˈsɪti]",
+        "gb": "[ˈsɪtɪ]"
+      },
+      "translations": {
+        "rus": "город, городской",
+        "spa": "la ciudad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I live in the city.",
+            "ru": "Я живу в городе."
+          },
+          {
+            "en": "Do you like the city?",
+            "ru": "Тебе нравится город?"
+          },
+          {
+            "en": "Paris is the city of love.",
+            "ru": "Париж – город любви."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live in the city.",
+            "es": "Vivo en la ciudad."
+          },
+          {
+            "en": "What city are you in?",
+            "es": "¿En qué ciudad estás?"
+          },
+          {
+            "en": "Do you like this city?",
+            "es": "¿Te gusta esta ciudad?"
+          },
+          {
+            "en": "How do I get to the city?",
+            "es": "¿Cómo llego a la ciudad?"
+          },
+          {
+            "en": "He knows the city well.",
+            "es": "Él conoce bien la ciudad."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 10098,
+      "word": "city hall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪti] [hɔːl]",
+        "br": "[ˈsɪti] [hɔːl]",
+        "gb": "[ˈsɪtɪ] [hɔːl]"
+      },
+      "translations": {
+        "rus": "здание муниципалитета, ратуша",
+        "spa": "el ayuntamiento, la alcaldía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The city hall is just around the corner.",
+            "ru": "Ратуша находится в двух шагах отсюда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That must be the city hall.",
+            "es": "Ese debe ser el ayuntamiento."
+          },
+          {
+            "en": "Which road goes to city hall?",
+            "es": "¿Cuál calle va al ayuntamiento?"
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10099,
+      "word": "coffee shop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɔːfi] [ʃɑːp]",
+        "br": "[ˈkɒfi] [ʃɒp]",
+        "gb": "[ˈkɔfɪ] [ʃɔp]"
+      },
+      "translations": {
+        "rus": "кофейня",
+        "spa": "la cafetería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They are talking over a cup of coffee in the cafeteria.",
+            "ru": "Они разговаривают в кофейне, попивая кофе."
+          },
+          {
+            "en": "We hung out in the coffee shop.",
+            "ru": "Мы посидели в кофейне."
+          },
+          {
+            "en": "If you turn left, you'll see a coffee shop.",
+            "ru": "Если повернуть налево, увидишь кофейню."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He eats lunch at a cafeteria.",
+            "es": "El come su almuerzo en una cafetería."
+          },
+          {
+            "en": "I'd like to work at the cafeteria.",
+            "es": "Quisiera trabajar en la cafetería."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6433,
+      "word": "corner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɔːrnər]",
+        "br": "[ˈkɔːnə(r)]",
+        "gb": "[ˈkɔːnə]"
+      },
+      "translations": {
+        "rus": "угол",
+        "spa": "la esquina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stand in the corner!",
+            "ru": "Встань в угол!"
+          },
+          {
+            "en": "She was cornered.",
+            "ru": "Её загнали в угол."
+          },
+          {
+            "en": "The man walked round the corner.",
+            "ru": "Мужчина свернул за угол."
+          },
+          {
+            "en": "That chair goes in the corner.",
+            "ru": "Этот стул пойдёт в тот угол."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Turn left at the corner.",
+            "es": "Gira a la izquierda en la esquina."
+          },
+          {
+            "en": "The man walked round the corner.",
+            "es": "El señor caminó doblando la esquina."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 5303,
+      "word": "cost",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːst]",
+        "br": "[kɒst]",
+        "gb": "[kɔst]"
+      },
+      "translations": {
+        "rus": "стоимость",
+        "spa": "el costo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you figured out the cost?",
+            "ru": "Ты подсчитал стоимость?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Cost hasn't been an issue.",
+            "es": "El costo no ha sido ningún problema."
+          },
+          {
+            "en": "The cost of living has gone up.",
+            "es": "El costo de vida ha aumentado."
+          },
+          {
+            "en": "We have to reduce the cost to a minimum.",
+            "es": "Tenemos que reducir el costo a un mínimo."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 7943,
+      "word": "counter",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[ˈkaʊntər]",
+        "br": "[ˈkaʊntə(r)]",
+        "gb": "[ˈkaʊntə]"
+      },
+      "translations": {
+        "rus": "встречный, вразрез, наперекор",
+        "spa": "en contra de"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3366,
+      "word": "counter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkaʊntər]",
+        "br": "[ˈkaʊntə(r)]",
+        "gb": "[ˈkaʊntə]"
+      },
+      "translations": {
+        "rus": "прилавок, стойка, кухонный рабочий стол",
+        "spa": "el mostrador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I sat at the counter.",
+            "ru": "Я сидел за стойкой."
+          },
+          {
+            "en": "Where is the information counter?",
+            "ru": "Где информационная стойка?"
+          },
+          {
+            "en": "A shopman was at the counter.",
+            "ru": "За прилавком стоял продавец."
+          },
+          {
+            "en": "Goods are sold and money paid over the counter.",
+            "ru": "Товары продаются и оплачиваются у прилавка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He leaned on the counter.",
+            "es": "Él se apoyó sobre el mostrador."
+          },
+          {
+            "en": "Please pay at this counter.",
+            "es": "Por favor, pague en el mostrador."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "oxford5000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10100,
+      "word": "courthouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɔːrthaʊs]",
+        "br": "[ˈkɔːthaʊs]",
+        "gb": "[ˈkɔːthaʊs]"
+      },
+      "translations": {
+        "rus": "здание суда",
+        "spa": "el juzgado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10102,
+      "word": "crossroads",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɔːsrəʊdz]",
+        "br": "[ˈkrɒsrəʊdz]",
+        "gb": "[ˈkrɔsˌroʊdz]"
+      },
+      "translations": {
+        "rus": "перекрёсток",
+        "spa": "el cruce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This crossroads is dangerous.",
+            "ru": "Этот перекрёсток опасен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10103,
+      "word": "crosswalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɔːswɔːk]",
+        "br": "[ˈkrɒswɔːk]",
+        "gb": "[ˈkrɒswɔːk]"
+      },
+      "translations": {
+        "rus": "переход",
+        "spa": "el paso de peatones"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 1420,
+      "word": "customer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌstəmər]",
+        "br": "[ˈkʌstəmə(r)]",
+        "gb": "[ˈkʌstəmə]"
+      },
+      "translations": {
+        "rus": "покупатель, клиент",
+        "spa": "el cliente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The customer isn't always right.",
+            "ru": "Покупатель не всегда прав."
+          },
+          {
+            "en": "There were no other customers.",
+            "ru": "Других покупателей не было."
+          },
+          {
+            "en": "She is one of our best customers.",
+            "ru": "Она является одним из наших лучших клиентов."
+          },
+          {
+            "en": "Poor customer service has ruined the company's reputation.",
+            "ru": "Плохое обслуживание клиентов погубило репутацию компании."
+          },
+          {
+            "en": "The customer has a perfect right to ask for the earth.",
+            "ru": "Покупатель имеет полное право требовать всё, что угодно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am only a customer.",
+            "es": "No soy más que un cliente."
+          },
+          {
+            "en": "The customer is always right.",
+            "es": "El cliente siempre tiene razón."
+          },
+          {
+            "en": "That shop has many customers.",
+            "es": "Esa tienda tiene muchos clientes."
+          },
+          {
+            "en": "There are few customers today.",
+            "es": "Hoy hay pocos clientes."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10104,
+      "word": "dead end",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ded] [end]",
+        "br": "[ded] [end]",
+        "gb": "[ded] [end]"
+      },
+      "translations": {
+        "rus": "тупик",
+        "spa": "el callejón sin salida"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "It's a dead end.",
+            "es": "Es un callejón sin salida."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 1436,
+      "word": "department store",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpɑːrtmənt] [stɔːr]",
+        "br": "[dɪˈpɑːtmənt] [stɔː(r)]",
+        "gb": "[dɪˈpɑːtmənt] [stɔː]"
+      },
+      "translations": {
+        "rus": "универмаг, универсальный магазин",
+        "spa": "la tienda por departamentos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the nearest department store?",
+            "ru": "Где ближайший универмаг?"
+          },
+          {
+            "en": "There's a sale today in that department store.",
+            "ru": "Сегодня день распродажи в том универмаге."
+          },
+          {
+            "en": "I like to shop at that department store.",
+            "ru": "Мне нравится делать покупки в этом универмаге."
+          },
+          {
+            "en": "My mother went to the department store to do some shopping.",
+            "ru": "Моя мама пошла в универмаг за покупками."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 3549,
+      "word": "drugstore",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdrʌɡstɔːr]",
+        "br": "[ˈdrʌɡstɔː(r)]",
+        "gb": "[ˈdrʌgstɔː]"
+      },
+      "translations": {
+        "rus": "аптека",
+        "spa": "la farmacia"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "health",
+        "town"
+      ]
+    },
+    {
+      "id": 5980,
+      "word": "east",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[iːst]",
+        "br": "[iːst]",
+        "gb": "[iːst]"
+      },
+      "translations": {
+        "rus": "восток, восточный",
+        "spa": "el este, del este"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Japan is in East Asia.",
+            "ru": "Япония находится в Восточной Азии."
+          },
+          {
+            "en": "The river flows from east to west.",
+            "ru": "Река течёт с востока на запад."
+          },
+          {
+            "en": "The wind is blowing east.",
+            "ru": "Ветер дует на восток."
+          },
+          {
+            "en": "I was raised on the east side of Boston.",
+            "ru": "Я вырос в восточной части Бостона."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Many ports are in the east.",
+            "es": "Muchos puertos están en el Este."
+          },
+          {
+            "en": "Japan is to the east of China.",
+            "es": "Japón está al este de China."
+          },
+          {
+            "en": "My uncle lives in the east of Spain.",
+            "es": "Mi tío vive en el este de España."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 6959,
+      "word": "entrance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈentrəns]",
+        "br": "[ˈentrəns]",
+        "gb": "[ˈentrəns]"
+      },
+      "translations": {
+        "rus": "вход, вступительный",
+        "spa": "la entrada, encantar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Entrance is free of charge.",
+            "ru": "Вход свободный."
+          },
+          {
+            "en": "Where's the entrance?",
+            "ru": "Где находится вход?"
+          },
+          {
+            "en": "Do you see the entrance of the park?",
+            "ru": "Видишь вход в парк?"
+          },
+          {
+            "en": "He passed the entrance examination.",
+            "ru": "Он прошёл вступительные экзамены."
+          },
+          {
+            "en": "This is not the entrance.",
+            "ru": "Это не вход."
+          },
+          {
+            "en": "I'm prepared for the entrance examination.",
+            "ru": "Я готов к вступительным экзаменам."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is not the entrance.",
+            "es": "Esta no es la entrada."
+          },
+          {
+            "en": "He stood by the entrance.",
+            "es": "Estuvo por la entrada."
+          },
+          {
+            "en": "How much is the entrance fee?",
+            "es": "¿Cuánto cuesta el billete de entrada?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10105,
+      "word": "escalator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeskəleɪtər]",
+        "br": "[ˈeskəleɪtə(r)]",
+        "gb": "[ˈeskəleɪtə]"
+      },
+      "translations": {
+        "rus": "эскалатор",
+        "spa": "la escalera mecánica"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The escalator suddenly stopped.",
+            "ru": "Эскалатор внезапно остановился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My shoelace got caught in the escalator.",
+            "es": "La escalera mecánica me agarró un cordón del zapato."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 8018,
+      "word": "exit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɡzɪt]",
+        "br": "[ˈeksɪt]",
+        "gb": "[ˈeksɪt]"
+      },
+      "translations": {
+        "rus": "выход",
+        "spa": "la salida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The exit will be on the left.",
+            "ru": "Выход будет слева."
+          },
+          {
+            "en": "Where is the emergency exit?",
+            "ru": "Где аварийный выход?"
+          },
+          {
+            "en": "Do you have a back exit?",
+            "ru": "У вас есть запасной выход?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where is the emergency exit?",
+            "es": "¿Dónde está la salida de emergencia?"
+          },
+          {
+            "en": "The building has no fire exit.",
+            "es": "El edificio no tiene salida de incendios."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 10106,
+      "word": "expressway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspresweɪ]",
+        "br": "[ɪkˈspresweɪ]",
+        "gb": "[ɪksˈpresweɪ]"
+      },
+      "translations": {
+        "rus": "автомагистраль, автострада",
+        "spa": "la autopista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got stuck in heavy traffic on the expressway.",
+            "ru": "Я попал в пробку на автостраде."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 8031,
+      "word": "fare",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fer]",
+        "br": "[feə(r)]",
+        "gb": "[fɛə]"
+      },
+      "translations": {
+        "rus": "плата за проезд",
+        "spa": "la tarifa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Taxi fares will go up next month.",
+            "es": "Las tarifas de los taxis subirán el próximo mes."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 10107,
+      "word": "fare card",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fer] [kɑːrd]",
+        "br": "[feə(r)] [kɑːd]",
+        "gb": "[fɛə] [kɑːd]"
+      },
+      "translations": {
+        "rus": "проездной билет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10108,
+      "word": "ferry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈferi]",
+        "br": "[ˈferi]",
+        "gb": "[ˈferɪ]"
+      },
+      "translations": {
+        "rus": "паром",
+        "spa": "el transbordador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll come by ferry.",
+            "ru": "Я приплыву на пароме."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10109,
+      "word": "fire hydrant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪər] [ˈhaɪdrənt]",
+        "br": "[ˈfaɪə(r)] [ˈhaɪdrənt]",
+        "gb": "[ˈfaɪə] [ˈhaɪdrənt]"
+      },
+      "translations": {
+        "rus": "пожарный гидрант",
+        "spa": "la boca de riego"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10110,
+      "word": "fire station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪər] [ˈsteɪʃn]",
+        "br": "[ˈfaɪə(r)] [ˈsteɪʃn]",
+        "gb": "[ˈfaɪə] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "пожарное депо",
+        "spa": "la estación de bomberos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 2454,
+      "word": "floor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flɔːr]",
+        "br": "[flɔː(r)]",
+        "gb": "[flɔː]"
+      },
+      "translations": {
+        "rus": "пол",
+        "spa": "el suelo, el piso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He fell to the floor.",
+            "ru": "Он упал на пол."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The floor was very cold.",
+            "es": "El piso estaba muy frío."
+          },
+          {
+            "en": "Be careful! The floor is wet.",
+            "es": "¡Ten cuidado! El piso está humedo."
+          },
+          {
+            "en": "You have only to sweep the floor.",
+            "es": "Solo tienes que barrer el piso."
+          },
+          {
+            "en": "Don't sit on the floor.",
+            "es": "No te sientes en el suelo."
+          },
+          {
+            "en": "I felt the floor shake.",
+            "es": "Yo sentí el suelo temblar."
+          },
+          {
+            "en": "The servant swept the floor.",
+            "es": "El sirviente limpió el suelo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2455,
+      "word": "floor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flɔːr]",
+        "br": "[flɔː(r)]",
+        "gb": "[flɔː]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They live on the floor beneath.",
+            "ru": "Они живут на этаж ниже."
+          },
+          {
+            "en": "The ground floor was flooded.",
+            "ru": "Первый этаж был затоплен."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live on the fifth floor.",
+            "es": "Vivo en el quinto piso."
+          },
+          {
+            "en": "I took the lift to the third floor.",
+            "es": "Tomé el ascensor al tercer piso."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10111,
+      "word": "flower bed",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflaʊər] [bed]",
+        "br": "[ˈflaʊə(r)] [bed]",
+        "gb": "[ˈflaʊə] [bed]"
+      },
+      "translations": {
+        "rus": "клумба",
+        "spa": "el arriate, el cantero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was a flower bed in the middle of the garden.",
+            "ru": "Посреди сада была клумба."
+          },
+          {
+            "en": "My sister used to take care of the flower bed.",
+            "ru": "Моя сестра раньше занималась этой цветочной клумбой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10112,
+      "word": "food court",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fuːd] [kɔːrt]",
+        "br": "[fuːd] [kɔːt]",
+        "gb": "[fuːd] [kɔːt]"
+      },
+      "translations": {
+        "rus": "центр общественного питания в торговом центре",
+        "spa": "el patio de comidas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10113,
+      "word": "fountain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaʊntn]",
+        "br": "[ˈfaʊntən]",
+        "gb": "[ˈfaʊntɪn]"
+      },
+      "translations": {
+        "rus": "фонтан",
+        "spa": "la fuente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The glory of the town is its fountain.",
+            "ru": "Гордостью города является его фонтан."
+          },
+          {
+            "en": "The fountain is lit up at night.",
+            "ru": "Ночью фонтан подсвечивается."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The fountain is over there.",
+            "es": "La fuente está allá."
+          },
+          {
+            "en": "The water in this fountain is very cold.",
+            "es": "El agua de esta fuente está muy fría."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 584,
+      "word": "gallery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡæləri]",
+        "br": "[ˈɡæləri]",
+        "gb": "[ˈgælərɪ]"
+      },
+      "translations": {
+        "rus": "галерея",
+        "spa": "la galería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "May I visit an art gallery?",
+            "ru": "Можно мне посетить картинную галерею?"
+          },
+          {
+            "en": "Where's the nearest art gallery?",
+            "ru": "Где ближайшая художественная галерея?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I visit an art gallery?",
+            "es": "¿Puedo visitar una galería de arte?"
+          },
+          {
+            "en": "Where's the nearest art gallery?",
+            "es": "¿Dónde está la galería de arte más cercana?"
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10114,
+      "word": "garbage truck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːrbɪdʒ] [trʌk]",
+        "br": "[ˈɡɑːbɪdʒ] [trʌk]",
+        "gb": "[ˈgɑːbɪʤ] [trʌk]"
+      },
+      "translations": {
+        "rus": "мусоровоз",
+        "spa": "el camión de basura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The garbage truck is here.",
+            "ru": "Мусоровоз здесь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10115,
+      "word": "gas station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs] [ˈsteɪʃn]",
+        "br": "[ɡæs] [ˈsteɪʃn]",
+        "gb": "[gæs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "автозаправочная станция, заправка, АЗС",
+        "spa": "la gasolinera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10116,
+      "word": "gates",
+      "pos": "noun",
+      "transcription": {
+        "us": "[geɪts]",
+        "br": "[geɪts]",
+        "gb": "[geɪts]"
+      },
+      "translations": {
+        "rus": "ворота",
+        "spa": "la puerta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The gates were closed.",
+            "ru": "Ворота были закрыты."
+          },
+          {
+            "en": "The walls of Rome have twelve gates.",
+            "ru": "Стена Рима имеет двенадцать ворот."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 8072,
+      "word": "grocery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrəʊsəri]",
+        "br": "[ˈɡrəʊsəri]",
+        "gb": "[ˈgrəʊsərɪ]"
+      },
+      "translations": {
+        "rus": "бакалея, продовольственный магазин",
+        "spa": "el supermercado, la tienda de comestibles"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 6034,
+      "word": "gym",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒɪm]",
+        "br": "[dʒɪm]",
+        "gb": "[ʤɪm]"
+      },
+      "translations": {
+        "rus": "спортзал",
+        "spa": "el gimnasio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm off to the gym.",
+            "ru": "Я в спортзал."
+          },
+          {
+            "en": "I started going to the gym.",
+            "ru": "Я начал ходить в спортзал."
+          },
+          {
+            "en": "Do you want to go to the gym with me?",
+            "ru": "Хочешь пойти со мной в спортзал?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are they in the gym?",
+            "es": "¿Están en el gimnasio?"
+          },
+          {
+            "en": "Are you going to the gym today?",
+            "es": "¿Vas al gimnasio hoy?"
+          },
+          {
+            "en": "We played basketball in the gym.",
+            "es": "Jugamos a baloncesto en el gimnasio."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "sport",
+        "town"
+      ]
+    },
+    {
+      "id": 10117,
+      "word": "high-rise building",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haɪ] [raɪz] [ˈbɪldɪŋ]",
+        "br": "[haɪ] [raɪz] [ˈbɪldɪŋ]",
+        "gb": "[haɪ] [raɪz] [ˈbɪldɪŋ]"
+      },
+      "translations": {
+        "rus": "высотное здание, небоскреб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6054,
+      "word": "hospital",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːspɪtl]",
+        "br": "[ˈhɒspɪtl]",
+        "gb": "[ˈhɔspɪtl]"
+      },
+      "translations": {
+        "rus": "больница",
+        "spa": "el hospital"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She works at the hospital.",
+            "ru": "Она работает в больнице."
+          },
+          {
+            "en": "Hurry them to the hospital!",
+            "ru": "Быстро отправьте их в больницу!"
+          },
+          {
+            "en": "She phoned the hospital daily.",
+            "ru": "Она звонила в больницу каждый день."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was in the hospital.",
+            "es": "Estaba en el hospital."
+          },
+          {
+            "en": "There is a hospital nearby.",
+            "es": "Cerca de aquí hay un hospital."
+          },
+          {
+            "en": "Mary arrived at the hospital.",
+            "es": "Mary llegó al hospital."
+          },
+          {
+            "en": "Where is the closest hospital?",
+            "es": "¿Dónde está el hospital más cercano?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6055,
+      "word": "hotel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[həʊˈtel]",
+        "br": "[həʊˈtel]",
+        "gb": "[həʊˈtel]"
+      },
+      "translations": {
+        "rus": "гостиница, отель",
+        "spa": "el hotel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We registered at a hotel.",
+            "ru": "Мы зарегистрировались в гостинице."
+          },
+          {
+            "en": "The hotel has a lovely view.",
+            "ru": "Из отеля открывается прекрасный вид."
+          },
+          {
+            "en": "I'm sorry, the hotel is booked out.",
+            "ru": "Мне очень жаль, но в гостинице нет мест."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live in this hotel.",
+            "es": "Vivo en este hotel."
+          },
+          {
+            "en": "My uncle runs a hotel.",
+            "es": "Mi tío maneja un hotel."
+          },
+          {
+            "en": "Do you know that hotel?",
+            "es": "¿Conoces ese hotel?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 10118,
+      "word": "ice cream stand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪs] [kriːm] [stænd]",
+        "br": "[aɪs] [kriːm] [stænd]",
+        "gb": "[aɪs] [kriːm] [stænd]"
+      },
+      "translations": {
+        "rus": "киоск \"мороженое\"",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10119,
+      "word": "in front of",
+      "pos": "preposition",
+      "transcription": {
+        "us": "[ɪn] [frʌnt] [əv]",
+        "br": "[ɪn] [frʌnt] [əv]",
+        "gb": "[ɪn] [frʌnt] [ɔv]"
+      },
+      "translations": {
+        "rus": "перед, напротив, спереди",
+        "spa": "delante de"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is that in front of us?",
+            "ru": "Что это напротив нас?"
+          },
+          {
+            "en": "We met in front of the school.",
+            "ru": "Мы встретились перед школой."
+          },
+          {
+            "en": "Life lies in front of you.",
+            "ru": "У тебя вся жизнь впереди."
+          },
+          {
+            "en": "He sat right in front of me.",
+            "ru": "Он сел прямо напротив меня."
+          },
+          {
+            "en": "There is a bank in front of the station.",
+            "ru": "Перед вокзалом есть банк."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I hope no one sits in front of us.",
+            "es": "Espero que nadie se siente delante de nosotros."
+          },
+          {
+            "en": "He's standing in front of the door.",
+            "es": "Él está delante de la puerta."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10120,
+      "word": "intersection",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪntərsekʃn]",
+        "br": "[ˈɪntəsekʃn]",
+        "gb": "[ɪntəˈsekʃn]"
+      },
+      "translations": {
+        "rus": "перекрёсток, пересечение",
+        "spa": "el cruce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What happened at that intersection?",
+            "ru": "Что произошло на этом перекрёстке?"
+          },
+          {
+            "en": "An accident took place at the intersection.",
+            "ru": "На перекрёстке произошла авария."
+          },
+          {
+            "en": "Turn right at the next intersection.",
+            "ru": "Поверни направо на следующем перекрёстке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Turn right at the next intersection.",
+            "es": "Gire a la derecha en el siguiente cruce."
+          },
+          {
+            "en": "He was nearly run over at an intersection.",
+            "es": "Él estuvo a punto de ser atropellado en el cruce."
+          },
+          {
+            "en": "There was an accident at the intersection.",
+            "es": "Hubo un accidente en el cruce."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 8987,
+      "word": "junction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒʌŋkʃn]",
+        "br": "[ˈdʒʌŋkʃn]",
+        "gb": "[ʤʌŋkʃn]"
+      },
+      "translations": {
+        "rus": "соединение, перекрёсток",
+        "spa": "el cruce, el empalme, el nudo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "town"
+      ]
+    },
+    {
+      "id": 10121,
+      "word": "kiosk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkiːɑːsk]",
+        "br": "[ˈkiːɒsk]",
+        "gb": "[ˈkɪɔsk]"
+      },
+      "translations": {
+        "rus": "киоск, ларёк",
+        "spa": "el quiosco, el kiosco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "In that kiosk they sell flowers.",
+            "ru": "В этом киоске продаются цветы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Newspapers are sold in the kiosk.",
+            "es": "Venden periódicos en el quiosco."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 4031,
+      "word": "laundry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɔːndri]",
+        "br": "[ˈlɔːndri]",
+        "gb": "[ˈlɔːndrɪ]"
+      },
+      "translations": {
+        "rus": "прачечная, бельё для стирки",
+        "spa": "la lavandería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the laundry?",
+            "ru": "Где прачечная?"
+          },
+          {
+            "en": "She took the tablecloths to the laundry.",
+            "ru": "Она отнесла скатерти в прачечную."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are there any detergents in the laundry?",
+            "es": "¿Hay algún detergente en la lavandería?"
+          },
+          {
+            "en": "She took the tablecloths to the laundry.",
+            "es": "Ella llevó los manteles a la lavandería."
+          }
+        ]
+      },
+      "categories": [
+        "home",
+        "town"
+      ]
+    },
+    {
+      "id": 5248,
+      "word": "library",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈlaɪbreri]",
+        "br": "[ˈlaɪbrəri]",
+        "gb": "[ˈlaɪbrərɪ]"
+      },
+      "translations": {
+        "rus": "библиотека, библиотечный",
+        "spa": "la biblioteca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are in a library.",
+            "ru": "Мы в библиотеке."
+          },
+          {
+            "en": "Don't write in library books.",
+            "ru": "Не пишите в библиотечных книгах."
+          },
+          {
+            "en": "He is in his library.",
+            "ru": "Он в своей библиотеке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He went to the library.",
+            "es": "Él ha ido a la biblioteca."
+          },
+          {
+            "en": "I study at the library.",
+            "es": "Estoy estudiando en la biblioteca."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10122,
+      "word": "lost property office",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːst] [ˈprɑːpərti] [ˈɑːfɪs]",
+        "br": "[lɒst] [ˈprɒpəti] [ˈɒfɪs]",
+        "gb": "[lɔst] [ˈprɔpətɪ] [ˈɔfɪs]"
+      },
+      "translations": {
+        "rus": "бюро находок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 3426,
+      "word": "map",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mæp]",
+        "br": "[mæp]",
+        "gb": "[mæp]"
+      },
+      "translations": {
+        "rus": "карта",
+        "spa": "el mapa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll draw a map of where we live.",
+            "ru": "Я нарисую карту места, где мы живем."
+          },
+          {
+            "en": "According to the map we should turn left.",
+            "ru": "Судя по карте, мы должны свернуть налево."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a map?",
+            "es": "¿Tiene un mapa?"
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 1546,
+      "word": "market",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈmɑːrkɪt]",
+        "br": "[ˈmɑːkɪt]",
+        "gb": "[ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "рынок, рыночный",
+        "spa": "el mercado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "John goes to the market.",
+            "ru": "Джон идёт на рынок."
+          },
+          {
+            "en": "I didn't go to the market.",
+            "ru": "Я не пошёл на рынок."
+          },
+          {
+            "en": "We have a 20% share of the market.",
+            "ru": "Мы держим 20% рынка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "John goes to the market.",
+            "es": "John va al mercado."
+          },
+          {
+            "en": "The market opens at 9:00 a.m.",
+            "es": "El mercado abre a las 9:00 a.m."
+          },
+          {
+            "en": "China is an emerging market.",
+            "es": "China es un mercado emergente."
+          },
+          {
+            "en": "She goes to market every day.",
+            "es": "Ella va al mercado cada día."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 9060,
+      "word": "memorial",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈmɔːriəl]",
+        "br": "[məˈmɔːriəl]",
+        "gb": "[mɪˈmɔːrɪəl]"
+      },
+      "translations": {
+        "rus": "памятник",
+        "spa": "el monumento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "town"
+      ]
+    },
+    {
+      "id": 6109,
+      "word": "meter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmiːtər]",
+        "br": "[ˈmiːtə(r)]",
+        "gb": "[ˈmiːtə]"
+      },
+      "translations": {
+        "rus": "метр",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A meter is 100 centimeters.",
+            "ru": "Метр - это 100 сантиметров."
+          },
+          {
+            "en": "How much does a meter of that red silk cost?",
+            "ru": "Сколько стоит метр того красного шёлка?"
+          },
+          {
+            "en": "The tower is three hundred and twenty-one meters high.",
+            "ru": "Башня составляет триста двадцать один метр в высоту."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 6110,
+      "word": "metre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmiːtər]",
+        "br": "[ˈmiːtə(r)]",
+        "gb": "[ˈmiːtə]"
+      },
+      "translations": {
+        "rus": "метр",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A metre is 100 centimetres.",
+            "ru": "Метр - это 100 сантиметров."
+          },
+          {
+            "en": "How much does a metre of that red silk cost?",
+            "ru": "Сколько стоит метр того красного шёлка?"
+          },
+          {
+            "en": "The tower is three hundred and twenty-one metres high.",
+            "ru": "Башня составляет триста двадцать один метр в высоту."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 6596,
+      "word": "metro",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmetrəʊ]",
+        "br": "[ˈmetrəʊ]",
+        "gb": "[ˈmetrəʊ]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the nearest metro station?",
+            "ru": "Где ближайшая станция метро?"
+          },
+          {
+            "en": "Is there a metro station here?",
+            "ru": "Здесь есть станция метро?"
+          },
+          {
+            "en": "How much does it cost to take the metro?",
+            "ru": "Сколько стоит проезд в метро?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 8164,
+      "word": "monument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːnjumənt]",
+        "br": "[ˈmɒnjumənt]",
+        "gb": "[ˈmɔnjʊmənt]"
+      },
+      "translations": {
+        "rus": "памятник",
+        "spa": "el monumento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This monument was erected in February, 1985.",
+            "ru": "Этот памятник был воздвигнут в феврале 1985 года."
+          },
+          {
+            "en": "A monument was erected in memory of the deceased.",
+            "ru": "В память об умершем был воздвигнут памятник."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It is in front of the monument.",
+            "es": "Está enfrente del monumento."
+          },
+          {
+            "en": "This monument is closed to visitors.",
+            "es": "El monumento está cerrado para los visitantes."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 8166,
+      "word": "mosque",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɑːsk]",
+        "br": "[mɒsk]",
+        "gb": "[mɔsk]"
+      },
+      "translations": {
+        "rus": "мечеть",
+        "spa": "la mezquita"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a house and that is a mosque.",
+            "ru": "Это дом, а это — мечеть."
+          },
+          {
+            "en": "Is it proper to enter a mosque wearing dirty socks?",
+            "ru": "Правильно ли входить в мечеть в грязных носках?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Christians don't go to mosques.",
+            "es": "Los cristianos no van a mezquitas."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 10123,
+      "word": "motel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊˈtel]",
+        "br": "[məʊˈtel]",
+        "gb": "[məʊˈtel]"
+      },
+      "translations": {
+        "rus": "мотель",
+        "spa": "el motel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I run a motel.",
+            "ru": "Я управляю мотелем."
+          },
+          {
+            "en": "Let's go back to the motel.",
+            "ru": "Вернёмся в мотель."
+          },
+          {
+            "en": "Do you know of a good motel in the area?",
+            "ru": "Вы знаете хороший мотель поблизости?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll be staying in a motel.",
+            "es": "Me voy a quedar en un motel."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10124,
+      "word": "motorway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtərweɪ]",
+        "br": "[ˈməʊtəweɪ]",
+        "gb": "[ˈməʊtəweɪ]"
+      },
+      "translations": {
+        "rus": "автомагистраль, автострада",
+        "spa": "la autopista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 3427,
+      "word": "mountain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntn]",
+        "br": "[ˈmaʊntən]",
+        "gb": "[ˈmaʊntɪn]"
+      },
+      "translations": {
+        "rus": "гора, горный",
+        "spa": "la montaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What a tall mountain!",
+            "ru": "Какая высокая гора!"
+          },
+          {
+            "en": "What's the name of this mountain range?",
+            "ru": "Как называется этот горный хребет?"
+          },
+          {
+            "en": "Snow caps the mountain.",
+            "ru": "Гора покрыта снеговой шапкой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was in the mountains.",
+            "es": "Yo estaba en las montañas."
+          },
+          {
+            "en": "How high is the mountain?",
+            "es": "¿Qué tal alta es la montaña?"
+          },
+          {
+            "en": "Look at that high mountain.",
+            "es": "Observen aquella montaña alta."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3837,
+      "word": "movie theater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmuːvi] [θiːətər]",
+        "br": "[ˈmuːvi] [θɪətə(r)]",
+        "gb": "[ˈmuːvɪ] [ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 352,
+      "word": "museum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mjuˈziːəm]",
+        "br": "[mjuˈziːəm]",
+        "gb": "[mjuːˈzɪəm]"
+      },
+      "translations": {
+        "rus": "музей",
+        "spa": "el museo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We went to the museum.",
+            "ru": "Мы пошли в музей."
+          },
+          {
+            "en": "I'll visit a museum today.",
+            "ru": "Я сегодня иду в музей."
+          },
+          {
+            "en": "Is the museum open today?",
+            "ru": "Музей сегодня работает?"
+          },
+          {
+            "en": "We saw a mummy at the museum.",
+            "ru": "В музее мы видели мумию."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We went to the museum.",
+            "es": "Fuimos al museo."
+          },
+          {
+            "en": "Is the museum open today?",
+            "es": "¿Está abierto el museo hoy?"
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 6608,
+      "word": "narrow",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnærəʊ]",
+        "br": "[ˈnærəʊ]",
+        "gb": "[ˈnærəʊ]"
+      },
+      "translations": {
+        "rus": "узкий",
+        "spa": "estrecho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's too narrow.",
+            "ru": "Он слишком узкий."
+          },
+          {
+            "en": "She has narrow hips.",
+            "ru": "У неё узкие бёдра."
+          },
+          {
+            "en": "The path was narrow.",
+            "ru": "Тропинка была узкой."
+          },
+          {
+            "en": "What narrow stairs!",
+            "ru": "Какие узкие ступени!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Enter by the narrow gate.",
+            "es": "Entre por la puerta estrecha."
+          },
+          {
+            "en": "The street is very narrow.",
+            "es": "La calle es muy estrecha."
+          },
+          {
+            "en": "We walked along a narrow path.",
+            "es": "Nosotros caminamos a través de un camino estrecho."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 7094,
+      "word": "neighborhood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneɪbərhʊd]",
+        "br": "[ˈneɪbəhʊd]",
+        "gb": "[ˈneɪbəhʊd]"
+      },
+      "translations": {
+        "rus": "окрестности, район, соседство, окружение, округа",
+        "spa": "el barrio, el vecindario, la vecindad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know that neighborhood.",
+            "ru": "Я знаю тот район."
+          },
+          {
+            "en": "He lives in this neighborhood.",
+            "ru": "Он живёт по соседству."
+          },
+          {
+            "en": "You're disturbing the whole neighborhood.",
+            "ru": "Ты беспокоишь всю округу."
+          },
+          {
+            "en": "This is a bad neighborhood.",
+            "ru": "Это плохой район."
+          },
+          {
+            "en": "We all live in the same neighborhood.",
+            "ru": "Мы все живём по соседству."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He moved into my neighborhood.",
+            "es": "Él se mudó al barrio."
+          },
+          {
+            "en": "He lives in this neighborhood.",
+            "es": "Él vive en este barrio."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 7095,
+      "word": "neighbourhood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneɪbərhʊd]",
+        "br": "[ˈneɪbəhʊd]",
+        "gb": "[ˈneɪbəhʊd]"
+      },
+      "translations": {
+        "rus": "окрестности, район, соседство, окружение, округа",
+        "spa": "el barrio, el vecindario, la vecindad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know that neighbourhood.",
+            "ru": "Я знаю тот район."
+          },
+          {
+            "en": "He lives in this neighbourhood.",
+            "ru": "Он живёт по соседству."
+          },
+          {
+            "en": "You're disturbing the whole neighbourhood.",
+            "ru": "Ты беспокоишь всю округу."
+          },
+          {
+            "en": "This is a bad neighbourhood.",
+            "ru": "Это плохой район."
+          },
+          {
+            "en": "We all live in the same neighbourhood.",
+            "ru": "Мы все живём по соседству."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He moved into my neighbourhood.",
+            "es": "Él se mudó al barrio."
+          },
+          {
+            "en": "He lives in this neighbourhood.",
+            "es": "Él vive en este barrio."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10125,
+      "word": "newsstand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nuːzstænd]",
+        "br": "[njuːzstænd]",
+        "gb": "[ˈnjuːzstænd]"
+      },
+      "translations": {
+        "rus": "газетный киоск",
+        "spa": "el quiosco de periódicos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10126,
+      "word": "nightclub",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪtklʌb]",
+        "br": "[ˈnaɪtklʌb]",
+        "gb": "[ˈnaɪtklʌb]"
+      },
+      "translations": {
+        "rus": "ночной клуб",
+        "spa": "el club nocturno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He went with a neighbor to a nightclub.",
+            "ru": "Он пошёл с соседом в ночной клуб."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6137,
+      "word": "north",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[nɔːrθ]",
+        "br": "[nɔːθ]",
+        "gb": "[nɔːθ]"
+      },
+      "translations": {
+        "rus": "север, северный",
+        "spa": "el norte, del norte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Layla lived north of Cairo.",
+            "ru": "Лейла жила на севере Каира."
+          },
+          {
+            "en": "I am from North Korea.",
+            "ru": "Я из Северной Кореи."
+          },
+          {
+            "en": "There is bad weather in the north.",
+            "ru": "На севере плохая погода."
+          },
+          {
+            "en": "A north wind is blowing.",
+            "ru": "Дует северный ветер."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm at the north gate.",
+            "es": "Estoy en la puerta norte."
+          },
+          {
+            "en": "A north wind is blowing.",
+            "es": "Está soplando viento del norte."
+          },
+          {
+            "en": "She comes from the north.",
+            "es": "Ella viene del norte."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10127,
+      "word": "office building",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːfɪs] [ˈbɪldɪŋ]",
+        "br": "[ˈɒfɪs] [ˈbɪldɪŋ]",
+        "gb": "[ˈɔfɪs] [ˈbɪldɪŋ]"
+      },
+      "translations": {
+        "rus": "административное здание",
+        "spa": "edificio de oficinas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10128,
+      "word": "on the left",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[ɑːn] [ðə] [left]",
+        "br": "[ɒn] [ðə] [left]",
+        "gb": "[ɔn] [ðiː] [left]"
+      },
+      "translations": {
+        "rus": "слева",
+        "spa": "a la izquierda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My room is upstairs on the left.",
+            "ru": "Моя комната находится слева наверху."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who's the guy on the left?",
+            "es": "¿Quién es el hombre de la izquierda?"
+          },
+          {
+            "en": "My room is upstairs on the left.",
+            "es": "Mi cuarto está subiendo las escaleras a la izquierda."
+          },
+          {
+            "en": "It's down that street, on the left.",
+            "es": "Está bajando esa calle, a la izquierda."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10129,
+      "word": "on the right",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[ɑːn] [ðə] [raɪt]",
+        "br": "[ɒn] [ðə] [raɪt]",
+        "gb": "[ɔn] [ðiː] [raɪt]"
+      },
+      "translations": {
+        "rus": "справа",
+        "spa": "a la derecha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His house is there on the right.",
+            "ru": "Его дом вон там справа."
+          },
+          {
+            "en": "Take the road on the right.",
+            "ru": "Поверните на дорогу справа."
+          },
+          {
+            "en": "The house was on the right side of the road.",
+            "ru": "Дом был справа от дороги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The metro is on the right!",
+            "es": "¡El metro está a la derecha!"
+          },
+          {
+            "en": "A ball hit her on the right leg.",
+            "es": "Una pelota le pegó en la pierna derecha."
+          },
+          {
+            "en": "He moved the desk to the right.",
+            "es": "Él movió el escritorio a la derecha."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6166,
+      "word": "park",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɑːrk]",
+        "br": "[pɑːk]",
+        "gb": "[pɑːk]"
+      },
+      "translations": {
+        "rus": "парк",
+        "spa": "el parque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's go to the park.",
+            "ru": "Пойдём в парк."
+          },
+          {
+            "en": "Is the park open today?",
+            "ru": "Парк сегодня открыт?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll go to the park.",
+            "es": "Voy al parque."
+          },
+          {
+            "en": "How big is this park?",
+            "es": "¿Qué tan grande es el parque?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6629,
+      "word": "parking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ]",
+        "br": "[ˈpɑːkɪŋ]",
+        "gb": "[ˈpɑːkɪŋ]"
+      },
+      "translations": {
+        "rus": "стоянка машин, парковка",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They allow parking here.",
+            "ru": "Они разрешают парковку здесь."
+          },
+          {
+            "en": "We easily found parking.",
+            "ru": "Мы легко нашли парковку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10130,
+      "word": "parking garage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [ɡəˈrɑːʒ]",
+        "br": "[ˈpɑːkɪŋ] [ˈɡærɑːʒ]",
+        "gb": "[ˈpɑːkɪŋ] [ˈgærɑːʒ]"
+      },
+      "translations": {
+        "rus": "гараж",
+        "spa": "el garaje"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10131,
+      "word": "parking lot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [lɑːt]",
+        "br": "[ˈpɑːkɪŋ] [lɒt]",
+        "gb": "[ˈpɑːkɪŋ] [lɔt]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10132,
+      "word": "parking space",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [speɪs]",
+        "br": "[ˈpɑːkɪŋ] [speɪs]",
+        "gb": "[ˈpɑːkɪŋ] [speɪs]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6631,
+      "word": "passenger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæsɪndʒər]",
+        "br": "[ˈpæsɪndʒə(r)]",
+        "gb": "[ˈpæsɪnʤə]"
+      },
+      "translations": {
+        "rus": "пассажир",
+        "spa": "el pasajero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are all passengers on board?",
+            "ru": "Все пассажиры на борту?"
+          },
+          {
+            "en": "The taxi picked up two passengers.",
+            "ru": "Таксист взял двух пассажиров."
+          },
+          {
+            "en": "Three more passengers got on the bus.",
+            "ru": "Еще три пассажира вошли в автобус."
+          },
+          {
+            "en": "A number of passengers were injured.",
+            "ru": "Несколько пассажиров пострадало."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are all the passengers on board?",
+            "es": "¿Subió el pasaje?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 2525,
+      "word": "pavement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪvmənt]",
+        "br": "[ˈpeɪvmənt]",
+        "gb": "[ˈpeɪvmənt]"
+      },
+      "translations": {
+        "rus": "мостовая, тротуар, дорожное покрытие",
+        "spa": "el pavimento, la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I stumbled on the uneven pavement.",
+            "ru": "Я споткнулся на неровной мостовой."
+          },
+          {
+            "en": "The surface of the pavement soon became very uneven.",
+            "ru": "Поверхность тротуара вскоре стала очень неровной."
+          },
+          {
+            "en": "I fell and banged my head on the pavement.",
+            "ru": "Я упал и ударился головой о тротуар."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A bed of leaves covers the pavement.",
+            "es": "Hay una capa de hojas en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "town"
+      ]
+    },
+    {
+      "id": 10133,
+      "word": "pedestrian",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈdestriən]",
+        "br": "[pəˈdestriən]",
+        "gb": "[pɪˈdestrɪən]"
+      },
+      "translations": {
+        "rus": "пешеход",
+        "spa": "el peatón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Several pedestrians were slightly wounded.",
+            "ru": "Несколько пешеходов были легко ранены."
+          },
+          {
+            "en": "A policeman was gazing at a suspicious pedestrian.",
+            "ru": "Полицейский глядел на подозрительного пешехода."
+          },
+          {
+            "en": "Look out for pedestrians when you drive a car.",
+            "ru": "Обращайте внимание на пешеходов, когда вы едете на машине."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bus driver didn't see the pedestrian.",
+            "es": "El chofer de bus no vio al peatón."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10134,
+      "word": "pedestrian crossing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈdestriən] [ˈkrɔːsɪŋ]",
+        "br": "[pəˈdestriən] [ˈkrɒsɪŋ]",
+        "gb": "[pɪˈdestrɪən] [ˈkrɔsɪŋ]"
+      },
+      "translations": {
+        "rus": "пешеходный переход",
+        "spa": "el paso de peatones"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10135,
+      "word": "petrol station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpetrəl] [ˈsteɪʃn]",
+        "br": "[ˈpetrəl] [ˈsteɪʃn]",
+        "gb": "[ˈpetrəl] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "автозаправочная станция, заправка, АЗС",
+        "spa": "la gasolinera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 3680,
+      "word": "pharmacy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːrməsi]",
+        "br": "[ˈfɑːməsi]",
+        "gb": "[ˈfɑːməsɪ]"
+      },
+      "translations": {
+        "rus": "аптека",
+        "spa": "la farmacia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's a pharmacy in our grocery store now.",
+            "ru": "Теперь в нашем продуктовом магазине есть аптека."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I work in a pharmacy.",
+            "es": "Trabajo en la farmacia."
+          },
+          {
+            "en": "Excuse me. Is this the pharmacy?",
+            "es": "Disculpe. ¿Es esta la farmacia?"
+          }
+        ]
+      },
+      "categories": [
+        "health",
+        "town"
+      ]
+    },
+    {
+      "id": 6645,
+      "word": "platform",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplætfɔːrm]",
+        "br": "[ˈplætfɔːm]",
+        "gb": "[ˈplætfɔːm]"
+      },
+      "translations": {
+        "rus": "платформа",
+        "spa": "la plataforma, el andén"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which platform is it on?",
+            "ru": "На какой он платформе?"
+          },
+          {
+            "en": "I met him at the end of the platform.",
+            "ru": "Я встретил его в конце платформы."
+          },
+          {
+            "en": "What platform does the train leave from?",
+            "ru": "От какой платформы отходит поезд?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I met him at the end of the platform.",
+            "es": "Lo conocí al final del andén."
+          },
+          {
+            "en": "John is waiting for Mary on the platform.",
+            "es": "John está esperando a Mary en la plataforma."
+          },
+          {
+            "en": "Your train leaves from Platform 10.",
+            "es": "Su tren sale del andén 10."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10136,
+      "word": "police station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈliːs] [ˈsteɪʃn]",
+        "br": "[pəˈliːs] [ˈsteɪʃn]",
+        "gb": "[pəˈliːs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "полицейский участок",
+        "spa": "la comisaría de policía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have to go to the police station.",
+            "ru": "Я должен идти в полицейский участок."
+          },
+          {
+            "en": "Where is the nearest police station?",
+            "ru": "Где ближайший полицейский участок?"
+          },
+          {
+            "en": "I'm looking for the police station. Can you help me?",
+            "ru": "Я ищу полицейский участок. Вы можете мне помочь?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you know where the police station is?",
+            "es": "¿Sabes dónde está la comisaría de policía?"
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6649,
+      "word": "population",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɑːpjuˈleɪʃn]",
+        "br": "[ˌpɒpjuˈleɪʃn]",
+        "gb": "[pɔpjʊˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "население, жители, заселение",
+        "spa": "la población"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the population of Australia?",
+            "ru": "Каково население Австралии?"
+          },
+          {
+            "en": "The city has a large population.",
+            "ru": "В городе много жителей."
+          },
+          {
+            "en": "The Japanese population is shrinking.",
+            "ru": "Население Японии сокращается."
+          },
+          {
+            "en": "Earth's population will soon double.",
+            "ru": "Население Земли скоро удвоится."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What is the population of Japan?",
+            "es": "¿Cuál es la población de Japón?"
+          },
+          {
+            "en": "World population has rapidly increased.",
+            "es": "La población mundial ha aumentado rápidamente."
+          },
+          {
+            "en": "We must prevent rapid population growth.",
+            "es": "Debemos prevenir el crecimiento explosivo de la población."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10137,
+      "word": "post office",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəʊst] [ˈɑːfɪs]",
+        "br": "[pəʊst] [ˈɒfɪs]",
+        "gb": "[pəʊst] [ˈɔfɪs]"
+      },
+      "translations": {
+        "rus": "почтовое отделение",
+        "spa": "la oficina de correos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The post office shuts at 5 o'clock.",
+            "ru": "Почтовое отделение закрывается в 5 часов."
+          },
+          {
+            "en": "She stopped outside the post office.",
+            "ru": "Она остановилась у дверей почтового отделения."
+          },
+          {
+            "en": "The post office is next door to the bank.",
+            "ru": "Почта находится рядом с банком."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where is the post office?",
+            "es": "¿Dónde está la oficina de correos?"
+          },
+          {
+            "en": "There is a post office close by.",
+            "es": "Hay una oficina de correos por acá cerca."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 5635,
+      "word": "price",
+      "pos": "noun",
+      "transcription": {
+        "us": "[praɪs]",
+        "br": "[praɪs]",
+        "gb": "[praɪs]"
+      },
+      "translations": {
+        "rus": "цена",
+        "spa": "el precio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The price of meat dropped.",
+            "ru": "Цена мяса упала."
+          },
+          {
+            "en": "The price is not reasonable.",
+            "ru": "Цена неразумна."
+          },
+          {
+            "en": "Does that price include breakfast?",
+            "ru": "Цена включает в себя завтрак?"
+          },
+          {
+            "en": "The price includes postage charges.",
+            "ru": "Цена включает почтовые расходы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you ask the price?",
+            "es": "¿Preguntaste el precio?"
+          },
+          {
+            "en": "The price is too high.",
+            "es": "El precio es demasiado alto."
+          },
+          {
+            "en": "We need to raise prices.",
+            "es": "Tenemos que aumentar los precios."
+          },
+          {
+            "en": "Every man has his price.",
+            "es": "Todo el mundo tiene un precio."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 5142,
+      "word": "prison",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈprɪzn]",
+        "br": "[ˈprɪzn]",
+        "gb": "[prɪzn]"
+      },
+      "translations": {
+        "rus": "тюрьма, тюремный",
+        "spa": "la prisión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's done two terms in prison.",
+            "ru": "Он дважды сидел в тюрьме."
+          },
+          {
+            "en": "He was in prison at the time.",
+            "ru": "В то время он находился в тюрьме."
+          },
+          {
+            "en": "The judge gave her two years in prison.",
+            "ru": "Судья дал ей два года тюрьмы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He was put in prison.",
+            "es": "Lo metieron en prisión."
+          },
+          {
+            "en": "You can go to prison for that.",
+            "es": "Puedes ir a la prisión por eso."
+          }
+        ]
+      },
+      "categories": [
+        "legal_english",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 9215,
+      "word": "province",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːvɪns]",
+        "br": "[ˈprɒvɪns]",
+        "gb": "[ˈprɔvɪns]"
+      },
+      "translations": {
+        "rus": "провинция, область, губерния",
+        "spa": "la provincia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's my province.",
+            "ru": "Это моя провинция."
+          },
+          {
+            "en": "How many provinces does Canada have?",
+            "ru": "Сколько провинций в Канаде?"
+          },
+          {
+            "en": "Kosovo was a province of Serbia.",
+            "ru": "Косово было провинцией Сербии."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Kosovo was a province of Serbia.",
+            "es": "Kosovo era provincia de Serbia."
+          },
+          {
+            "en": "How many provinces does Canada have?",
+            "es": "¿Cuántas provincias tiene Canadá?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_c1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 6660,
+      "word": "pub",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pʌb]",
+        "br": "[pʌb]",
+        "gb": "[pʌb]"
+      },
+      "translations": {
+        "rus": "паб, пивная",
+        "spa": "el pub"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm going to the pub.",
+            "ru": "Я собираюсь в паб."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Have you been to this pub before?",
+            "es": "¿Has venido a este pub antes?"
+          },
+          {
+            "en": "There's a pub just around the corner.",
+            "es": "Hay un pub al torcer la esquina."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10138,
+      "word": "public telephone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpʌblɪk] [ˈtelɪfəʊn]",
+        "br": "[ˈpʌblɪk] [ˈtelɪfəʊn]",
+        "gb": "[ˈpʌblɪk] [ˈtelɪfəʊn]"
+      },
+      "translations": {
+        "rus": "общественный телефон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10139,
+      "word": "purchaser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɜːrtʃəsər]",
+        "br": "[ˈpɜːtʃəsə(r)]",
+        "gb": "[ˈpɜːʧəsə]"
+      },
+      "translations": {
+        "rus": "покупатель",
+        "spa": "el comprador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10140,
+      "word": "railway station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪlweɪ] [ˈsteɪʃn]",
+        "br": "[ˈreɪlweɪ] [ˈsteɪʃn]",
+        "gb": "[ˈreɪlweɪ] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "железнодорожная станция, вокзал",
+        "spa": "la estación de tren"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm sitting in the railway station.",
+            "ru": "Я сижу на вокзале."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where is the railway station?",
+            "es": "¿Dónde está la estación de tren?"
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 6209,
+      "word": "restaurant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrestrɑːnt]",
+        "br": "[ˈrestrɒnt]",
+        "gb": "[ˈrestrɒnt]"
+      },
+      "translations": {
+        "rus": "ресторан",
+        "spa": "el restaurante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That restaurant was a real find!",
+            "ru": "Тот ресторан был настоящей находкой!"
+          },
+          {
+            "en": "We went to the restaurant by taxi.",
+            "ru": "Мы отправились в ресторан на такси."
+          },
+          {
+            "en": "We had dinner at a local restaurant.",
+            "ru": "Мы поужинали в местном ресторане."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We went to a restaurant.",
+            "es": "Hemos ido a un restaurante."
+          },
+          {
+            "en": "My father runs a restaurant.",
+            "es": "Mi padre maneja un restaurante."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6213,
+      "word": "road",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[rəʊd]",
+        "br": "[rəʊd]",
+        "gb": "[rəʊd]"
+      },
+      "translations": {
+        "rus": "дорога, дорожный",
+        "spa": "el camino, la calle, la carretera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Am I on the right road?",
+            "ru": "Я на правильной дороге?"
+          },
+          {
+            "en": "This is a road map.",
+            "ru": "Это - дорожная карта."
+          },
+          {
+            "en": "The road is under repair.",
+            "ru": "Дорога ремонтируется."
+          },
+          {
+            "en": "May I have a road map, please?",
+            "ru": "Можно мне дорожную карту, пожалуйста?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "All roads lead to Rome.",
+            "es": "Todos los caminos llevan a Roma."
+          },
+          {
+            "en": "This is a road map.",
+            "es": "Esto es un mapa de carreteras."
+          },
+          {
+            "en": "Which road goes to city hall?",
+            "es": "¿Cuál calle va al ayuntamiento?"
+          },
+          {
+            "en": "We walked along the road.",
+            "es": "Caminamos por la carretera."
+          },
+          {
+            "en": "She went down that road.",
+            "es": "Ella se fue por ese camino."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10141,
+      "word": "road sign",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rəʊd] [saɪn]",
+        "br": "[rəʊd] [saɪn]",
+        "gb": "[rəʊd] [saɪn]"
+      },
+      "translations": {
+        "rus": "дорожный знак",
+        "spa": "la señal de tráfico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10142,
+      "word": "roadside",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrəʊdsaɪd]",
+        "br": "[ˈrəʊdsaɪd]",
+        "gb": "[ˈrəʊdsaɪd]"
+      },
+      "translations": {
+        "rus": "обочина",
+        "spa": "el bordillo de la acera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6692,
+      "word": "route",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ruːt], [raʊt]",
+        "br": "[ruːt]",
+        "gb": "[ruːt]"
+      },
+      "translations": {
+        "rus": "маршрут, путь",
+        "spa": "la ruta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've planned our route.",
+            "ru": "Я спланировал наш маршрут."
+          },
+          {
+            "en": "I know a shorter route.",
+            "ru": "Я знаю более короткий путь."
+          },
+          {
+            "en": "We took the quickest route.",
+            "ru": "Мы выбрали самый быстрый маршрут."
+          },
+          {
+            "en": "It's the shortest route to Paris.",
+            "ru": "Это самый короткий путь в Париж."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I know a shorter route.",
+            "es": "Conozco una ruta más corta."
+          },
+          {
+            "en": "Which is the route to Paris?",
+            "es": "¿Cuál es la ruta a París?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 2558,
+      "word": "schedule",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskedʒuːl]",
+        "br": "[ˈʃedjuːl]",
+        "gb": "[ˈʃedjuːl]"
+      },
+      "translations": {
+        "rus": "расписание",
+        "spa": "el horario, el programa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I lost my class schedule.",
+            "ru": "Я потерял расписание моих занятий."
+          },
+          {
+            "en": "My schedule is very flexible.",
+            "ru": "У меня очень гибкий график работы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have a tight schedule.",
+            "es": "Tenemos un horario apretado."
+          },
+          {
+            "en": "Please show me the schedule.",
+            "es": "Por favor, muéstreme el horario."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 6218,
+      "word": "school",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[skuːl]",
+        "br": "[skuːl]",
+        "gb": "[skuːl]"
+      },
+      "translations": {
+        "rus": "школа, школьный",
+        "spa": "la escuela, escolar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The kids are at school.",
+            "ru": "Дети в школе."
+          },
+          {
+            "en": "The school gate is closed.",
+            "ru": "Школьные ворота закрыты."
+          },
+          {
+            "en": "I missed the school bus!",
+            "ru": "Я опоздал на школьный автобус!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am going to school.",
+            "es": "Voy a la escuela."
+          },
+          {
+            "en": "We learn English at school.",
+            "es": "Aprendemos inglés en la escuela."
+          },
+          {
+            "en": "We live close to the school.",
+            "es": "Vivimos cerca de la escuela."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2747,
+      "word": "sea",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[siː]",
+        "br": "[siː]",
+        "gb": "[siː]"
+      },
+      "translations": {
+        "rus": "море, морской",
+        "spa": "el mar, marino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We lived close by the sea.",
+            "ru": "Мы жили у моря."
+          },
+          {
+            "en": "Fish live in the sea.",
+            "ru": "Рыбы живут в море."
+          },
+          {
+            "en": "There is no sea in Armenia.",
+            "ru": "В Армении нет моря."
+          },
+          {
+            "en": "I looked down at the sea.",
+            "ru": "Я смотрел вниз на море."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fish live in the sea.",
+            "es": "Los peces viven en el mar."
+          },
+          {
+            "en": "Sea turtles have a long lifespan.",
+            "es": "Las tortugas marinas son longevas."
+          },
+          {
+            "en": "He wanted to go to sea.",
+            "es": "Él quería viajar al mar."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6225,
+      "word": "shop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɑːp]",
+        "br": "[ʃɒp]",
+        "gb": "[ʃɔp]"
+      },
+      "translations": {
+        "rus": "магазин, мастерская",
+        "spa": "la tienda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was in the shop.",
+            "ru": "Я был в магазине."
+          },
+          {
+            "en": "I am looking for a shop.",
+            "ru": "Я ищу магазин."
+          },
+          {
+            "en": "He runs a shoe shop.",
+            "ru": "У него обувной магазин."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He went to the shop.",
+            "es": "Fue a la tienda."
+          },
+          {
+            "en": "This shop shuts at nine.",
+            "es": "A las 9, esta tienda está cerrada."
+          },
+          {
+            "en": "This shop belongs to me.",
+            "es": "Esta tienda me pertenece."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10143,
+      "word": "shop window",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɑːp] [ˈwɪndəʊ]",
+        "br": "[ʃɒp] [ˈwɪndəʊ]",
+        "gb": "[ʃɔp] [ˈwɪndəʊ]"
+      },
+      "translations": {
+        "rus": "витрина",
+        "spa": "el escaparate"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He pressed his face against the shop window.",
+            "ru": "Он прижался лицом к витрине."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 1640,
+      "word": "shopping centre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːpɪŋ] [ˈsentər]",
+        "br": "[ˈʃɒpɪŋ] [ˈsentə(r)]",
+        "gb": "[ˈʃɔpɪŋ] [ˈsentə]"
+      },
+      "translations": {
+        "rus": "торговый центр",
+        "spa": "el centro comercial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 1641,
+      "word": "shopping mall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːpɪŋ] [mɔːl]",
+        "br": "[ˈʃɒpɪŋ] [mɔːl]",
+        "gb": "[ˈʃɔpɪŋ] [mɔːl]"
+      },
+      "translations": {
+        "rus": "торговый центр",
+        "spa": "el centro comercial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 440,
+      "word": "sidewalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪdwɔːk]",
+        "br": "[ˈsaɪdwɔːk]",
+        "gb": "[ˈsaɪdwɔːk]"
+      },
+      "translations": {
+        "rus": "тротуар",
+        "spa": "la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A casual encounter on the sidewalk.",
+            "ru": "Случайная встреча на тротуаре."
+          },
+          {
+            "en": "She slipped and hit her head on the sidewalk.",
+            "ru": "Она поскользнулась и ударилась головой о тротуар."
+          },
+          {
+            "en": "He sat on the sidewalk asking for a handout.",
+            "ru": "Он сидел на тротуаре и просил подаяния."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I found a coin on the sidewalk.",
+            "es": "Encontré una moneda en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6718,
+      "word": "sign",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪn]",
+        "br": "[saɪn]",
+        "gb": "[saɪn]"
+      },
+      "translations": {
+        "rus": "знак, признак",
+        "spa": "el letrero, la señal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wait until I give the sign.",
+            "ru": "Ждите, пока я не подам знак."
+          },
+          {
+            "en": "That's a rare good sign.",
+            "ru": "Это на редкость хороший знак."
+          },
+          {
+            "en": "Movement is a sign of life.",
+            "ru": "Движение — признак жизни."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Most signs are written in English.",
+            "es": "La mayoría de los letreros están escritos en inglés."
+          },
+          {
+            "en": "This is a bad sign.",
+            "es": "Esto no es buena señal."
+          },
+          {
+            "en": "What does this sign say?",
+            "es": "¿Qué dice ese letrero?"
+          },
+          {
+            "en": "I did not see the sign.",
+            "es": "No vi la señal."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6242,
+      "word": "south",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[saʊθ]",
+        "br": "[saʊθ]",
+        "gb": "[saʊθ]"
+      },
+      "translations": {
+        "rus": "юг, южный",
+        "spa": "el sur, del sur"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The birds flew to the south.",
+            "ru": "Птицы улетели на юг."
+          },
+          {
+            "en": "There's a south wind blowing.",
+            "ru": "Дует южный ветер."
+          },
+          {
+            "en": "They were forced to return to the South.",
+            "ru": "Они были вынуждены вернуться на юг."
+          },
+          {
+            "en": "South Africa is far away.",
+            "ru": "Южная Африка далеко."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He came from the south.",
+            "es": "Él vino del sur."
+          },
+          {
+            "en": "Where is the south terminal?",
+            "es": "¿Dónde está la terminal sur?"
+          },
+          {
+            "en": "There's a south wind blowing.",
+            "es": "Sopla el viento del sur."
+          },
+          {
+            "en": "Birds fly south in the winter.",
+            "es": "Los pájaros vuelan al sur en el invierno."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 9996,
+      "word": "square",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skwer]",
+        "br": "[skweə(r)]",
+        "gb": "[skwɛə]"
+      },
+      "translations": {
+        "rus": "площадь",
+        "spa": "la plaza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's past the square.",
+            "ru": "Это за площадью."
+          },
+          {
+            "en": "How far are we from Red Square?",
+            "ru": "Как далеко мы от Красной площади?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm going to the square.",
+            "es": "Voy a la plaza."
+          }
+        ]
+      },
+      "categories": [
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 7227,
+      "word": "stadium",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsteɪdiəm]",
+        "br": "[ˈsteɪdiəm]",
+        "gb": "[ˈsteɪdjəm]"
+      },
+      "translations": {
+        "rus": "стадион",
+        "spa": "el estadio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you go to the stadium?",
+            "ru": "Ты пошёл на стадион?"
+          },
+          {
+            "en": "The stadium is being evacuated.",
+            "ru": "Стадион эвакуируют."
+          },
+          {
+            "en": "The stadium was overflowing with people.",
+            "ru": "Стадион был переполнен людьми."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He's gone to the stadium.",
+            "es": "Fue al estadio."
+          },
+          {
+            "en": "How did you get to the stadium?",
+            "es": "¿Cómo llegasteis al estadio?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport",
+        "town"
+      ]
+    },
+    {
+      "id": 8305,
+      "word": "stall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɔːl]",
+        "br": "[stɔːl]",
+        "gb": "[stɔːl]"
+      },
+      "translations": {
+        "rus": "киоск, прилавок",
+        "spa": "el puesto, el tenderete, la caseta, la casilla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "town"
+      ]
+    },
+    {
+      "id": 370,
+      "word": "statue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstætʃuː]",
+        "br": "[ˈstætʃuː]",
+        "gb": "[ˈstætjuː]"
+      },
+      "translations": {
+        "rus": "статуя",
+        "spa": "la estatua"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sat still as a statue.",
+            "ru": "Он сидел неподвижно, как статуя."
+          },
+          {
+            "en": "Please do not touch the statue.",
+            "ru": "Пожалуйста, не трогайте статую."
+          },
+          {
+            "en": "A statue of a horse in brass.",
+            "ru": "Медная статуя лошади."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The statue has no head.",
+            "es": "La estatua no tiene cabeza."
+          },
+          {
+            "en": "We made statues out of wood.",
+            "es": "Nosotros tallamos estatuas de madera."
+          },
+          {
+            "en": "This is a life-sized statue.",
+            "es": "Ésta es una estatua a tamaño real."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "town"
+      ]
+    },
+    {
+      "id": 2584,
+      "word": "storey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːri]",
+        "br": "[ˈstɔːri]",
+        "gb": "[ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I live on the fifth storey.",
+            "es": "Vivo en el quinto piso."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "town"
+      ]
+    },
+    {
+      "id": 2585,
+      "word": "story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːri]",
+        "br": "[ˈstɔːri]",
+        "gb": "[ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "town"
+      ]
+    },
+    {
+      "id": 6251,
+      "word": "street",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[striːt]",
+        "br": "[striːt]",
+        "gb": "[striːt]"
+      },
+      "translations": {
+        "rus": "улица, уличный",
+        "spa": "la calle"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I walked across the street.",
+            "ru": "Я перешёл улицу."
+          },
+          {
+            "en": "The street lights went on.",
+            "ru": "Зажглись уличные огни."
+          },
+          {
+            "en": "The street is empty again.",
+            "ru": "Улица снова пуста."
+          },
+          {
+            "en": "Crime in the streets is increasing.",
+            "ru": "Уличная преступность растёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He lives on this street.",
+            "es": "Él vive en esta calle."
+          },
+          {
+            "en": "I want to see the streets.",
+            "es": "Quiero ver las calles."
+          },
+          {
+            "en": "That street is very noisy.",
+            "es": "Esta calle es muy ruidosa."
+          },
+          {
+            "en": "I crossed the dark street.",
+            "es": "Yo atravesé la oscura calle."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10144,
+      "word": "street map",
+      "pos": "noun",
+      "transcription": {
+        "us": "[striːt] [mæp]",
+        "br": "[striːt] [mæp]",
+        "gb": "[striːt] [mæp]"
+      },
+      "translations": {
+        "rus": "карта улиц",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10145,
+      "word": "streetlight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstriːtlaɪt]",
+        "br": "[ˈstriːtlaɪt]",
+        "gb": "[ˈstritlaɪt]"
+      },
+      "translations": {
+        "rus": "уличный фонарь",
+        "spa": "la farola"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6754,
+      "word": "subway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbweɪ]",
+        "br": "[ˈsʌbweɪ]",
+        "gb": "[ˈsʌbweɪ]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a subway map?",
+            "ru": "У вас есть карта метро?"
+          },
+          {
+            "en": "There is now a subway in Rio.",
+            "ru": "Теперь в Рио есть метро."
+          },
+          {
+            "en": "It'll be faster to go by subway.",
+            "ru": "Быстрее будет на метро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6258,
+      "word": "supermarket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsuːpərmɑːrkɪt]",
+        "br": "[ˈsuːpəmɑːkɪt]",
+        "gb": "[ˈsjuːpəmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "супермаркет, универсам",
+        "spa": "el supermercado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I went to the supermarket.",
+            "ru": "Я ходил в супермаркет."
+          },
+          {
+            "en": "He was at the supermarket.",
+            "ru": "Он был в супермаркете."
+          },
+          {
+            "en": "Is the supermarket still open?",
+            "ru": "Супермаркет ещё открыт?"
+          },
+          {
+            "en": "Tell me where the supermarket is.",
+            "ru": "Скажи мне, где супермаркет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have a big supermarket.",
+            "es": "Hay un gran supermercado."
+          },
+          {
+            "en": "I went to the supermarket.",
+            "es": "Fui al supermercado."
+          },
+          {
+            "en": "He was at the supermarket.",
+            "es": "Estaba en el supermercado."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 10146,
+      "word": "swimming pool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɪmɪŋ] [puːl]",
+        "br": "[ˈswɪmɪŋ] [puːl]",
+        "gb": "[ˈswɪmɪŋ] [puːl]"
+      },
+      "translations": {
+        "rus": "бассейн",
+        "spa": "la piscina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the swimming pool?",
+            "ru": "Где бассейн?"
+          },
+          {
+            "en": "She dived into the swimming pool.",
+            "ru": "Она нырнула в бассейн."
+          }
+        ],
+        "spa": [
+          {
+            "en": "No one was in the swimming pool.",
+            "es": "No había nadie en la piscina."
+          },
+          {
+            "en": "You can use the hotel's swimming pool.",
+            "es": "Puedes usar la piscina del hotel."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 10147,
+      "word": "synagogue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪnəɡɑːɡ]",
+        "br": "[ˈsɪnəɡɒɡ]",
+        "gb": "[ˈsɪnəgɔg]"
+      },
+      "translations": {
+        "rus": "синагога",
+        "spa": "la sinagoga"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6261,
+      "word": "taxi",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæksi]",
+        "br": "[ˈtæksi]",
+        "gb": "[ˈtæksɪ]"
+      },
+      "translations": {
+        "rus": "такси",
+        "spa": "el taxi"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was waiting for a taxi.",
+            "ru": "Я ждал такси."
+          },
+          {
+            "en": "Shall we take a taxi?",
+            "ru": "Возьмём такси?"
+          },
+          {
+            "en": "She got in the taxi.",
+            "ru": "Она села в такси."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He found me a taxi.",
+            "es": "Él me consiguió un taxi."
+          },
+          {
+            "en": "She got in the taxi.",
+            "es": "Montó en el taxi."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 1847,
+      "word": "taxi driver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæksi] [ˈdraɪvər]",
+        "br": "[ˈtæksi] [ˈdraɪvə(r)]",
+        "gb": "[ˈtæksɪ] [ˈdraɪvə]"
+      },
+      "translations": {
+        "rus": "таксист, водитель такси",
+        "spa": "el taxista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is a taxi driver.",
+            "ru": "Она водитель такси."
+          },
+          {
+            "en": "I never thought I'd be a taxi driver.",
+            "ru": "Никогда не думал, что буду таксистом."
+          },
+          {
+            "en": "The policeman blamed the taxi driver for the accident.",
+            "ru": "Полицейский обвинил таксиста в аварии."
+          },
+          {
+            "en": "The taxi driver refused to take us to that part of town.",
+            "ru": "Таксист отказался везти нас в эту часть города."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is a taxi driver.",
+            "es": "Ella es taxista."
+          },
+          {
+            "en": "Tell the taxi driver to drive faster.",
+            "es": "Decile al taxista que maneje más rápido."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "town"
+      ]
+    },
+    {
+      "id": 3873,
+      "word": "theater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθiːətər]",
+        "br": "[ˈθɪətə(r)]",
+        "gb": "[ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "театр",
+        "spa": "el teatro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Yesterday my wife and I went to the theater.",
+            "ru": "Мы с женой вчера ходили в театр."
+          },
+          {
+            "en": "Where are we going now? To the theater or the cinema?",
+            "ru": "Куда теперь? В театр или в кино?"
+          },
+          {
+            "en": "I was at the theater.",
+            "ru": "Я был в театре."
+          },
+          {
+            "en": "Who'll buy the theater tickets?",
+            "ru": "Кто купит билеты в театр?"
+          },
+          {
+            "en": "He loves going to the theater.",
+            "ru": "Он обожает ходить в театр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am a theater lover.",
+            "es": "Soy aficionado al teatro."
+          },
+          {
+            "en": "Who did you see at the theater?",
+            "es": "¿A quién viste en el teatro?"
+          },
+          {
+            "en": "Let's meet in front of the theater.",
+            "es": "Nos encontramos frente al teatro."
+          },
+          {
+            "en": "I was at the theater.",
+            "es": "Estaba en el teatro."
+          },
+          {
+            "en": "Were you at the theater last Saturday?",
+            "es": "¿Estuviste en el teatro el sábado pasado?"
+          },
+          {
+            "en": "At the theater, Kathy changed seats with her mother.",
+            "es": "En el teatro, Kathy intercambió asientos con su madre."
+          },
+          {
+            "en": "The play was so popular that the theater was almost full.",
+            "es": "La obra era tan popular que el teatro estaba casi lleno."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3874,
+      "word": "theatre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθiːətər]",
+        "br": "[ˈθɪətə(r)]",
+        "gb": "[ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "театр",
+        "spa": "el teatro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Yesterday my wife and I went to the theatre.",
+            "ru": "Мы с женой вчера ходили в театр."
+          },
+          {
+            "en": "Where are we going now? To the theatre or the cinema?",
+            "ru": "Куда теперь? В театр или в кино?"
+          },
+          {
+            "en": "I was at the theatre.",
+            "ru": "Я был в театре."
+          },
+          {
+            "en": "Who'll buy the theatre tickets?",
+            "ru": "Кто купит билеты в театр?"
+          },
+          {
+            "en": "He loves going to the theatre.",
+            "ru": "Он обожает ходить в театр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am a theatre lover.",
+            "es": "Soy aficionado al teatro."
+          },
+          {
+            "en": "Who did you see at the theatre?",
+            "es": "¿A quién viste en el teatro?"
+          },
+          {
+            "en": "Let's meet in front of the theatre.",
+            "es": "Nos encontramos frente al teatro."
+          },
+          {
+            "en": "I was at the theatre.",
+            "es": "Estaba en el teatro."
+          },
+          {
+            "en": "Were you at the theatre last Saturday?",
+            "es": "¿Estuviste en el teatro el sábado pasado?"
+          },
+          {
+            "en": "At the theatre, Kathy changed seats with her mother.",
+            "es": "En el teatro, Kathy intercambió asientos con su madre."
+          },
+          {
+            "en": "The play was so popular that the theatre was almost full.",
+            "es": "La obra era tan popular que el teatro estaba casi lleno."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 5706,
+      "word": "ticket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɪkɪt]",
+        "br": "[ˈtɪkɪt]",
+        "gb": "[ˈtɪkɪt]"
+      },
+      "translations": {
+        "rus": "билет",
+        "spa": "el boleto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much is the ticket?",
+            "ru": "Почём билет?"
+          },
+          {
+            "en": "Get a ticket for me.",
+            "ru": "Возьми мне билет."
+          },
+          {
+            "en": "You have an entry ticket.",
+            "ru": "У тебя есть билет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a ticket?",
+            "es": "¿Tienes un boleto?"
+          },
+          {
+            "en": "Here is my air ticket.",
+            "es": "Aquí está mi boleto."
+          },
+          {
+            "en": "How much is the ticket?",
+            "es": "¿Cuánto cuesta el boleto?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 875,
+      "word": "to cost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kɔːst]",
+        "br": "[tə] [kɒst]",
+        "gb": "[tuː] [kɔst]"
+      },
+      "translations": {
+        "rus": "стоить",
+        "spa": "costar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tea costs two euros.",
+            "ru": "Чай стоит два евро."
+          },
+          {
+            "en": "That cost him his job.",
+            "ru": "Это стоило ему работы."
+          },
+          {
+            "en": "How much will it cost?",
+            "ru": "Сколько это будет стоить?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This hat cost me $10.",
+            "es": "Este sombrero costó diez dólares."
+          },
+          {
+            "en": "It cost me a fortune.",
+            "es": "Me costó un dineral."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10101,
+      "word": "to cross the street",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [krɔːs] [ðə] [striːt]",
+        "br": "[tə] [krɒs] [ðə] [striːt]",
+        "gb": "[tuː] [krɔs] [ðiː] [striːt]"
+      },
+      "translations": {
+        "rus": "переходить дорогу",
+        "spa": "cruzar la calle"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "It is dangerous to cross the street here.",
+            "es": "Es peligroso cruzar la calle aquí."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 4360,
+      "word": "to get lost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [lɔːst]",
+        "br": "[tə] [ɡet] [lɒst]",
+        "gb": "[tuː] [get] [lɔst]"
+      },
+      "translations": {
+        "rus": "заблудиться, потеряться, уйти, исчезнуть",
+        "spa": "perderse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you get lost?",
+            "ru": "Ты заблудился?"
+          },
+          {
+            "en": "Try not to get lost.",
+            "ru": "Постарайся не заблудиться."
+          },
+          {
+            "en": "Mary is afraid she'll get lost.",
+            "ru": "Мэри боится, что заблудится."
+          },
+          {
+            "en": "Don't let go of my hand or you'll get lost.",
+            "ru": "Не выпускайте моей руки, а то заблудитесь."
+          },
+          {
+            "en": "I said get lost.",
+            "ru": "Проваливай, говорю."
+          },
+          {
+            "en": "Now get lost.",
+            "ru": "А теперь исчезни."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's better to walk back than to get lost.",
+            "es": "Es mejor retroceder que perderse."
+          }
+        ]
+      },
+      "categories": [
+        "idioms",
+        "town"
+      ]
+    },
+    {
+      "id": 1061,
+      "word": "to lift",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lɪft]",
+        "br": "[tə] [lɪft]",
+        "gb": "[tuː] [lɪft]"
+      },
+      "translations": {
+        "rus": "поднимать, подниматься, подвезти",
+        "spa": "levantar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I cannot lift this box.",
+            "ru": "Я не могу поднять эту коробку."
+          },
+          {
+            "en": "It's too heavy to lift.",
+            "ru": "Это слишком тяжело, чтобы поднять."
+          },
+          {
+            "en": "Lift up your hands in the air.",
+            "ru": "Поднимите руки вверх."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you lift this stone?",
+            "es": "¿Puedes levantar esta piedra?"
+          },
+          {
+            "en": "I can't lift my right arm.",
+            "es": "No puedo levantar mi brazo derecho."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "home",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 4462,
+      "word": "to look for",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [fɔːr]",
+        "br": "[tə] [lʊk] [fɔː(r)]",
+        "gb": "[tuː] [lʊk] [fɔː]"
+      },
+      "translations": {
+        "rus": "искать",
+        "spa": "buscar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What should I look for?",
+            "ru": "Что мне искать?"
+          },
+          {
+            "en": "Let's not look for problems.",
+            "ru": "Давай не будем искать проблем."
+          },
+          {
+            "en": "I'll look for work as soon as I hit town.",
+            "ru": "Я буду искать работу, как только приеду в город."
+          },
+          {
+            "en": "Could you help me look for my contact lens?",
+            "ru": "Не могли бы вы помочь мне отыскать мою контактную линзу?"
+          },
+          {
+            "en": "The house was too small so they decided to look for something else.",
+            "ru": "Дом был слишком мал, поэтому они решили поискать что-то ещё."
+          },
+          {
+            "en": "What should I look for?",
+            "ru": "Что мне искать?"
+          },
+          {
+            "en": "We don't have time to look for that right now.",
+            "ru": "У нас сейчас нет времени это искать."
+          },
+          {
+            "en": "I'm here not to look for happiness but to find it.",
+            "ru": "Я здесь не для того, чтобы искать своё счастье, а чтобы его найти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs",
+        "town"
+      ]
+    },
+    {
+      "id": 4468,
+      "word": "to lose one's way",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [luːz] [wʌnz] [weɪ]",
+        "br": "[tə] [luːz] [wʌnz] [weɪ]",
+        "gb": "[tuː] [luːz] [wʌnz] [weɪ]"
+      },
+      "translations": {
+        "rus": "заблудиться, потерять дорогу, сбиться с пути",
+        "spa": "perderse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How could he lose his way?",
+            "ru": "Как он мог сбиться с пути?"
+          },
+          {
+            "en": "He must have lost his way in the woods.",
+            "ru": "Наверное, он заблудился в лесу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "town"
+      ]
+    },
+    {
+      "id": 6167,
+      "word": "to park",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɑːrk]",
+        "br": "[tə] [pɑːk]",
+        "gb": "[tuː] [pɑːk]"
+      },
+      "translations": {
+        "rus": "парковаться",
+        "spa": "estacionar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where did I park my car?",
+            "ru": "Где я припарковался?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why did you park here?",
+            "es": "¿Por qué estacionaste aquí?"
+          },
+          {
+            "en": "Where can we park the car?",
+            "es": "¿Dónde podemos estacionar el coche?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 9995,
+      "word": "to route",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ruːt], [tə] [raʊt]",
+        "br": "[tə] [ruːt]",
+        "gb": "[tuː] [ruːt]"
+      },
+      "translations": {
+        "rus": "направлять, посылать, маршрутизировать",
+        "spa": "desviar, pasar, enviar, encaminar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 2559,
+      "word": "to schedule",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈskedʒuːl]",
+        "br": "[tə] [ˈʃedjuːl]",
+        "gb": "[tuː] [ˈʃedjuːl]"
+      },
+      "translations": {
+        "rus": "планировать, вносить в расписание",
+        "spa": "programar, fijar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've scheduled a concert next week.",
+            "ru": "На следующей неделе я запланировала сходить на концерт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 1198,
+      "word": "to search",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɜːrtʃ]",
+        "br": "[tə] [sɜːtʃ]",
+        "gb": "[tuː] [sɜːʧ]"
+      },
+      "translations": {
+        "rus": "искать",
+        "spa": "buscar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was searching for food.",
+            "ru": "Я искал еду."
+          },
+          {
+            "en": "I've been searching for you.",
+            "ru": "Я искала тебя."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I knew where to search.",
+            "es": "Supe dónde buscar."
+          },
+          {
+            "en": "He searched for the key.",
+            "es": "Él buscó la llave."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1200,
+      "word": "to seek",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [siːk]",
+        "br": "[tə] [siːk]",
+        "gb": "[tuː] [siːk]"
+      },
+      "translations": {
+        "rus": "искать, стремиться, добиваться",
+        "spa": "buscar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He decided to seek information elsewhere.",
+            "ru": "Он решил искать информацию в другом месте."
+          },
+          {
+            "en": "She sought consolation.",
+            "ru": "Она искала утешения."
+          },
+          {
+            "en": "How can we seek out a really good person for the job?",
+            "ru": "Как нам разыскать по-настоящему толкового работника на эту должность?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I seek my own truth.",
+            "es": "Busco mi propia verdad."
+          },
+          {
+            "en": "He is seeking a job.",
+            "es": "Él está buscando empleo."
+          },
+          {
+            "en": "I knew where to seek.",
+            "es": "Supe dónde buscar."
+          },
+          {
+            "en": "Seek, and you will find.",
+            "es": "Si buscas, encuentras."
+          },
+          {
+            "en": "They are seeking a solution.",
+            "es": "Están buscando una solución."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_b2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 6226,
+      "word": "to shop",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃɑːp]",
+        "br": "[tə] [ʃɒp]",
+        "gb": "[tuː] [ʃɔp]"
+      },
+      "translations": {
+        "rus": "делать покупки",
+        "spa": "comprar, hacer compras"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She loves to go shopping.",
+            "ru": "Она любит делать покупки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10148,
+      "word": "to the left",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[tə] [ðə] [left]",
+        "br": "[tə] [ðə] [left]",
+        "gb": "[tuː] [ðiː] [left]"
+      },
+      "translations": {
+        "rus": "налево",
+        "spa": "a la izquierda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The car made a turn to the left.",
+            "ru": "Машина повернула налево."
+          },
+          {
+            "en": "Please turn to the left.",
+            "ru": "Поверните, пожалуйста, налево."
+          },
+          {
+            "en": "If you turn to the left, you'll see a white building.",
+            "ru": "Если Вы повернете налево, то увидите белое здание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10149,
+      "word": "to the right",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[tə] [ðə] [raɪt]",
+        "br": "[tə] [ðə] [raɪt]",
+        "gb": "[tuː] [ðiː] [raɪt]"
+      },
+      "translations": {
+        "rus": "направо",
+        "spa": "a la derecha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please turn to the right.",
+            "ru": "Поверните направо, пожалуйста."
+          },
+          {
+            "en": "He made a sharp turn to the right.",
+            "ru": "Он сделал резкий поворот направо."
+          },
+          {
+            "en": "I saw his car make a turn to the right.",
+            "ru": "Я видел, как его машина повернула направо."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 1264,
+      "word": "to transfer",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [trænsˈfɜːr]",
+        "br": "[tə] [trænsˈfɜː(r)]",
+        "gb": "[tuː] [trænsˈfɜːr]"
+      },
+      "translations": {
+        "rus": "передавать, переводить, переносить",
+        "spa": "transferir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do I need to transfer?",
+            "ru": "Мне нужно перевестись?"
+          },
+          {
+            "en": "He transferred his office to Osaka.",
+            "ru": "Он перенёс свой офис в Осаку."
+          },
+          {
+            "en": "Please transfer 450 dollars to my account.",
+            "ru": "Пожалуйста, переведите на мой счёт 450 долларов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I will transfer the money.",
+            "es": "Transferiré el dinero."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3441,
+      "word": "town",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taʊn]",
+        "br": "[taʊn]",
+        "gb": "[taʊn]"
+      },
+      "translations": {
+        "rus": "город",
+        "spa": "el pueblo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The circus is in town.",
+            "ru": "Цирк в городе."
+          },
+          {
+            "en": "Is it far to town?",
+            "ru": "До города далеко?"
+          },
+          {
+            "en": "Will you come to town?",
+            "ru": "Приедешь в город?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's a nice seaside town.",
+            "es": "Es un pueblo costero bonito."
+          },
+          {
+            "en": "It is long way to the town.",
+            "es": "El pueblo está lejos."
+          },
+          {
+            "en": "I heard you were back in town.",
+            "es": "Oí que estabas de regreso en el pueblo."
+          },
+          {
+            "en": "The town was full of activity.",
+            "es": "El pueblo estaba lleno de actividad."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 10150,
+      "word": "town plan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taʊn] [plæn]",
+        "br": "[taʊn] [plæn]",
+        "gb": "[taʊn] [plæn]"
+      },
+      "translations": {
+        "rus": "план города",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6782,
+      "word": "track",
+      "pos": "noun",
+      "transcription": {
+        "us": "[træk]",
+        "br": "[træk]",
+        "gb": "[træk]"
+      },
+      "translations": {
+        "rus": "след, дорожка, трасса, железнодорожные пути, рельсы",
+        "spa": "la pista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The train ran off the tracks.",
+            "ru": "Поезд сошёл с рельсов."
+          },
+          {
+            "en": "We cross the railroad tracks every morning.",
+            "ru": "Мы пересекаем железнодорожные пути каждое утро."
+          },
+          {
+            "en": "The train was derailed by a piece of iron on the track.",
+            "ru": "Поезд сошёл с рельс из-за куска железа, лежащего на пути."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Take any train on track 5.",
+            "es": "Toma cualquier tren de la pista 5."
+          },
+          {
+            "en": "We followed the deer's tracks.",
+            "es": "Seguimos las pistas dejadas por el venado."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6289,
+      "word": "traffic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtræfɪk]",
+        "br": "[ˈtræfɪk]",
+        "gb": "[ˈtræfɪk]"
+      },
+      "translations": {
+        "rus": "(дорожное) движение, трафик, пробка",
+        "spa": "el tráfico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was caught in traffic.",
+            "ru": "Я застрял в пробке."
+          },
+          {
+            "en": "The traffic noise kept me awake.",
+            "ru": "Шум уличного движения не давал мне уснуть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was caught in traffic.",
+            "es": "Quedé atascado en el tráfico."
+          },
+          {
+            "en": "Was there a lot of traffic?",
+            "es": "¿Hubo mucho tráfico?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10151,
+      "word": "traffic jam",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtræfɪk] [dʒæm]",
+        "br": "[ˈtræfɪk] [dʒæm]",
+        "gb": "[ˈtræfɪk] [ʤæm]"
+      },
+      "translations": {
+        "rus": "пробка",
+        "spa": "el atasco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a traffic jam on the highway.",
+            "ru": "На шоссе пробка."
+          },
+          {
+            "en": "I was delayed by a traffic jam.",
+            "ru": "Я задержался в пробке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm stuck in a traffic jam.",
+            "es": "Estoy atrapado en un atasco."
+          },
+          {
+            "en": "The traffic jam was caused by an accident.",
+            "es": "Un accidente de coche causó el atasco."
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10152,
+      "word": "traffic lights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtræfɪk] [laɪts]",
+        "br": "[ˈtræfɪk] [laɪts]",
+        "gb": "[ˈtræfɪk] [laɪts]"
+      },
+      "translations": {
+        "rus": "светофор",
+        "spa": "el semáforo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The traffic lights were all red.",
+            "ru": "Все светофоры были красные."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The traffic lights were all red.",
+            "es": "Los semáforos estaban todos en rojo."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6290,
+      "word": "train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪn]",
+        "br": "[treɪn]",
+        "gb": "[treɪn]"
+      },
+      "translations": {
+        "rus": "поезд",
+        "spa": "el tren"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Will you go by train?",
+            "ru": "Вы поездом?"
+          },
+          {
+            "en": "We got off the train.",
+            "ru": "Мы вышли из поезда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Will you go by train?",
+            "es": "¿Irás en tren?"
+          },
+          {
+            "en": "We got off the train.",
+            "es": "Nos bajamos del tren."
+          },
+          {
+            "en": "I like to ride on trains.",
+            "es": "Me gusta ir en tren."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10153,
+      "word": "train station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪn] [ˈsteɪʃn]",
+        "br": "[treɪn] [ˈsteɪʃn]",
+        "gb": "[treɪn] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "железнодорожная станция, вокзал",
+        "spa": "la estación de tren"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the train station?",
+            "ru": "Где железнодорожная станция?"
+          },
+          {
+            "en": "In this town, there is only one train station.",
+            "ru": "В этом городе только один вокзал."
+          },
+          {
+            "en": "Could you give me a lift to the train station?",
+            "ru": "Вы не подвезёте меня до станции?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I took a taxi to the train station.",
+            "es": "Cogí un taxi hacia la estación de trenes."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 7802,
+      "word": "transfer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrænsfɜːr]",
+        "br": "[ˈtrænsfɜː(r)]",
+        "gb": "[ˈtrænsfɜːr]"
+      },
+      "translations": {
+        "rus": "перевод, передача, пересадка",
+        "spa": "la transferencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We will make the payment by bank transfer.",
+            "ru": "Мы осуществим оплату банковским переводом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 10154,
+      "word": "travel agency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrævl] [ˈeɪdʒənsi]",
+        "br": "[ˈtrævl] [ˈeɪdʒənsi]",
+        "gb": "[trævl] [ˈeɪʤənsɪ]"
+      },
+      "translations": {
+        "rus": "туристическое агентство",
+        "spa": "la agencia de viajes"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Anyone knows this travel agency?",
+            "es": "¿Alguien conoce esa agencia de viajes?"
+          },
+          {
+            "en": "Where's the nearest travel agency?",
+            "es": "¿Dónde está la agencia de viajes más cercana?"
+          }
+        ]
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6791,
+      "word": "tube",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːb]",
+        "br": "[tjuːb]",
+        "gb": "[tjuːb]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the nearest tube station?",
+            "ru": "Где находится ближайшая станция метро?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6793,
+      "word": "underground",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərɡraʊnd]",
+        "br": "[ˈʌndəɡraʊnd]",
+        "gb": "[ˈʌndəgraʊnd]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's no underground in my city.",
+            "ru": "В моем городе нет метро."
+          },
+          {
+            "en": "It takes twenty minutes on the underground to get to the city centre.",
+            "ru": "До центра города двадцать минут езды на метро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10155,
+      "word": "underpass",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərpæs]",
+        "br": "[ˈʌndəpɑːs]",
+        "gb": "[ˈʌndəpɑːs]"
+      },
+      "translations": {
+        "rus": "подземный переход",
+        "spa": "el paso subterráneo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10156,
+      "word": "way in",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪ] [ɪn]",
+        "br": "[weɪ] [ɪn]",
+        "gb": "[weɪ] [ɪn]"
+      },
+      "translations": {
+        "rus": "вход",
+        "spa": "la entrada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is the only way in.",
+            "ru": "Это единственный вход."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10157,
+      "word": "way out",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪ] [aʊt]",
+        "br": "[weɪ] [aʊt]",
+        "gb": "[weɪ] [aʊt]"
+      },
+      "translations": {
+        "rus": "выход",
+        "spa": "la salida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was no way out.",
+            "ru": "Выхода не было."
+          },
+          {
+            "en": "There's only one way out.",
+            "ru": "Есть только один выход."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 6322,
+      "word": "west",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[west]",
+        "br": "[west]",
+        "gb": "[west]"
+      },
+      "translations": {
+        "rus": "запад, западный, на западе",
+        "spa": "el oeste, del oeste"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her son is stationed in West Germany.",
+            "ru": "Её сын служит в Западной Германии."
+          },
+          {
+            "en": "You should head west.",
+            "ru": "Ты должен идти на запад."
+          },
+          {
+            "en": "The train was hurrying west.",
+            "ru": "Поезд мчался на запад."
+          },
+          {
+            "en": "The wind is blowing from the west.",
+            "ru": "Ветер дует с запада."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The sun sets in the west.",
+            "es": "El sol se pone en el oeste."
+          },
+          {
+            "en": "Welcome to the Wild West.",
+            "es": "Bienvenido al Salvaje Oeste."
+          },
+          {
+            "en": "He traveled west by train.",
+            "es": "Él viajó al oeste en tren."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 6815,
+      "word": "wide",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[waɪd]",
+        "br": "[waɪd]",
+        "gb": "[waɪd]"
+      },
+      "translations": {
+        "rus": "широкий, просторный",
+        "spa": "ancho, amplio, vasto, extenso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Open your mouth wide.",
+            "ru": "Откройте рот пошире."
+          },
+          {
+            "en": "He has wide shoulders.",
+            "ru": "У него широкие плечи."
+          },
+          {
+            "en": "How wide is this river?",
+            "ru": "Насколько широка эта река?"
+          },
+          {
+            "en": "The streets in Hokkaido are wide.",
+            "ru": "Улицы на Хоккайдо широкие."
+          },
+          {
+            "en": "We have a wide choice of books.",
+            "ru": "У нас широкий выбор книг."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How wide is this river?",
+            "es": "¿Qué tan ancho es este río?"
+          },
+          {
+            "en": "We discussed a wide range of topics.",
+            "es": "Discutimos una amplia gama de temas."
+          },
+          {
+            "en": "Life is not long, it is wide!",
+            "es": "¡La vida no es larga sino ancha!"
+          },
+          {
+            "en": "The main streets are very wide.",
+            "es": "Las avenidas principales son muy anchas."
+          },
+          {
+            "en": "The river is wide.",
+            "es": "El río es amplio."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 10158,
+      "word": "zebra crossing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈziːbrə] [ˈkrɔːsɪŋ]",
+        "br": "[ˈziːbrə] [ˈkrɒsɪŋ]",
+        "gb": "[ˈziːbrə] [ˈkrɔsɪŋ]"
+      },
+      "translations": {
+        "rus": "пешеходный переход, зебра",
+        "spa": "el paso de peatones"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town"
+      ]
+    },
+    {
+      "id": 10159,
+      "word": "zoo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[zuː]",
+        "br": "[zuː]",
+        "gb": "[zuː]"
+      },
+      "translations": {
+        "rus": "зоопарк",
+        "spa": "el zoológico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I went to the zoo.",
+            "ru": "Я пошёл в зоопарк."
+          },
+          {
+            "en": "The zoo isn't far from here.",
+            "ru": "Зоопарк недалеко отсюда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I work at a zoo.",
+            "es": "Trabajo en el zoológico."
+          },
+          {
+            "en": "I went to the zoo.",
+            "es": "Fui al zoológico."
+          },
+          {
+            "en": "How old is this zoo?",
+            "es": "¿Cuántos años tiene este zoológico?"
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "travel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2928 @@
+{
+  "category": {
+    "id": "family",
+    "name_rus": "Семья",
+    "type": "topic",
+    "word_count": 98
+  },
+  "words": [
+    {
+      "id": 2897,
+      "word": "adopted child",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdɑːptɪd] [tʃaɪld]",
+        "br": "[əˈdɒptɪd] [tʃaɪld]",
+        "gb": "[əˈdɒptɪd] [ʧaɪld]"
+      },
+      "translations": {
+        "rus": "приемный ребенок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2898,
+      "word": "adopted daughter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdɑːptɪd] [ˈdɔːtər]",
+        "br": "[əˈdɒptɪd] [ˈdɔːtə(r)]",
+        "gb": "[əˈdɒptɪd] [ˈdɔːtə]"
+      },
+      "translations": {
+        "rus": "приемная дочь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2899,
+      "word": "adopted son",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdɑːptɪd] [sʌn]",
+        "br": "[əˈdɒptɪd] [sʌn]",
+        "gb": "[əˈdɒptɪd] [sʌn]"
+      },
+      "translations": {
+        "rus": "приемный сын",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2900,
+      "word": "aunt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ænt]",
+        "br": "[ɑːnt]",
+        "gb": "[ɑːnt]"
+      },
+      "translations": {
+        "rus": "тётя",
+        "spa": "la tía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Aunt Mary sends her love.",
+            "ru": "Тетя Мэри передает привет."
+          },
+          {
+            "en": "He has three aunts and two uncles.",
+            "ru": "У него три тёти и два дяди."
+          },
+          {
+            "en": "This is my aunt Mary.",
+            "ru": "Это моя тётя Мэри."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2901,
+      "word": "boyfriend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɔɪfrend]",
+        "br": "[ˈbɔɪfrend]",
+        "gb": "[ˈbɔɪfrend]"
+      },
+      "translations": {
+        "rus": "парень, возлюбленный",
+        "spa": "el novio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a new boyfriend?",
+            "ru": "У тебя новый парень?"
+          },
+          {
+            "en": "My boyfriend plans to save up and buy a sports car.",
+            "ru": "Мой парень собирается накопить денег и купить спортивную машину."
+          },
+          {
+            "en": "What's your boyfriend's name?",
+            "ru": "Как зовут твоего парня?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2902,
+      "word": "bride",
+      "pos": "noun",
+      "transcription": {
+        "us": "[braɪd]",
+        "br": "[braɪd]",
+        "gb": "[braɪd]"
+      },
+      "translations": {
+        "rus": "невеста",
+        "spa": "la novia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here comes the bride!",
+            "ru": "А вот и невеста!"
+          },
+          {
+            "en": "I don't know the bride.",
+            "ru": "Я не знаю невесту."
+          },
+          {
+            "en": "He's the father of the bride.",
+            "ru": "Он отец невесты."
+          },
+          {
+            "en": "She is dressed like a bride.",
+            "ru": "Она одета как невеста."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2903,
+      "word": "brother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrʌðər]",
+        "br": "[ˈbrʌðə(r)]",
+        "gb": "[ˈbrʌðə]"
+      },
+      "translations": {
+        "rus": "брат",
+        "spa": "el hermano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You'll like my brother.",
+            "ru": "Мой брат тебе понравится."
+          },
+          {
+            "en": "She took her brother along.",
+            "ru": "Она взяла с собой брата."
+          },
+          {
+            "en": "I owe my brother $50.",
+            "ru": "Я задолжал своему брату пятьдесят долларов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Her brother looked at her.",
+            "es": "El hermano de ella la miró."
+          },
+          {
+            "en": "Big Brother is watching you.",
+            "es": "El Gran Hermano te está vigilando."
+          },
+          {
+            "en": "My oldest brother is single.",
+            "es": "Mi hermano el mayor es soltero."
+          },
+          {
+            "en": "I am washing my brother's car.",
+            "es": "Estoy lavando el auto de mi hermano."
+          },
+          {
+            "en": "My brother is coming on Monday.",
+            "es": "Mi hermano viene el lunes."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2904,
+      "word": "brother-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrʌðər] [ɪn] [lɔː]",
+        "br": "[ˈbrʌðə(r)] [ɪn] [lɔː]",
+        "gb": "[ˈbrʌðə] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "шурин",
+        "spa": "el cuñado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2905,
+      "word": "child",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃaɪld]",
+        "br": "[tʃaɪld]",
+        "gb": "[ʧaɪld]"
+      },
+      "translations": {
+        "rus": "ребенок",
+        "spa": "el hijo, el niño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is but a child.",
+            "ru": "Он всего лишь ребёнок."
+          },
+          {
+            "en": "He is our only child.",
+            "ru": "Он — наш единственный ребёнок."
+          },
+          {
+            "en": "Do you have a child?",
+            "ru": "У вас есть ребёнок?"
+          },
+          {
+            "en": "I was a healthy child.",
+            "ru": "Я был здоровым ребёнком."
+          },
+          {
+            "en": "The child was asleep in bed.",
+            "ru": "Ребенок спал в кровати."
+          },
+          {
+            "en": "The child will be six.",
+            "ru": "Ребёнку исполнится шесть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is but a child.",
+            "es": "Es sólo un niño."
+          },
+          {
+            "en": "I am an only child.",
+            "es": "Soy hijo único."
+          },
+          {
+            "en": "The child will be six.",
+            "es": "El niño cumplirá seis."
+          },
+          {
+            "en": "They had only one child.",
+            "es": "Solo tenían un hijo."
+          },
+          {
+            "en": "Any child can do that.",
+            "es": "Cualquier niño puede hacer eso."
+          },
+          {
+            "en": "Jimmy is my foster child.",
+            "es": "Jimmy es mi hijo adoptivo."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2906,
+      "word": "cousin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌzn]",
+        "br": "[ˈkʌzn]",
+        "gb": "[kʌzn]"
+      },
+      "translations": {
+        "rus": "двоюродный брат, двоюродная сестра, кузен",
+        "spa": "el primo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My cousin is a journalist.",
+            "ru": "Мой двоюродный брат - журналист."
+          },
+          {
+            "en": "Luke, I am your cousin.",
+            "ru": "Люк, я твоя двоюродная сестра."
+          },
+          {
+            "en": "Him and me are cousins.",
+            "ru": "Он и я - кузены."
+          },
+          {
+            "en": "Her cousin lives in Europe.",
+            "ru": "Её двоюродный брат живет в Европе."
+          },
+          {
+            "en": "To tell the truth, she is my cousin.",
+            "ru": "По правде говоря, она моя двоюродная сестра."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2907,
+      "word": "dad",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dæd]",
+        "br": "[dæd]",
+        "gb": "[dæd]"
+      },
+      "translations": {
+        "rus": "папа",
+        "spa": "el papá, el papi"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is dad in the kitchen?",
+            "ru": "Папа на кухне?"
+          },
+          {
+            "en": "Dad, a UFO! It's a UFO!",
+            "ru": "Папа, НЛО! Это НЛО!"
+          },
+          {
+            "en": "My dad was an actor.",
+            "ru": "Мой папа был актёром."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2908,
+      "word": "daddy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdædi]",
+        "br": "[ˈdædi]",
+        "gb": "[ʌˈdædɪ]"
+      },
+      "translations": {
+        "rus": "папочка, папа",
+        "spa": "el papá, el papi"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2909,
+      "word": "daughter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɔːtər]",
+        "br": "[ˈdɔːtə(r)]",
+        "gb": "[ˈdɔːtə]"
+      },
+      "translations": {
+        "rus": "дочь",
+        "spa": "la hija"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They had one daughter.",
+            "ru": "У них была одна дочь."
+          },
+          {
+            "en": "I worry about my daughter.",
+            "ru": "Меня беспокоит моя дочь."
+          },
+          {
+            "en": "Stay away from my daughter!",
+            "ru": "Держись подальше от моей дочери!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "His daughter is a nurse.",
+            "es": "Su hija es enfermera."
+          },
+          {
+            "en": "How old is your daughter?",
+            "es": "¿Cuál es la edad de tu hija?"
+          },
+          {
+            "en": "My daughter wants a piano.",
+            "es": "Mi hija quiere un piano."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2910,
+      "word": "daughter-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɔːtər] [ɪn] [lɔː]",
+        "br": "[ˈdɔːtə(r)] [ɪn] [lɔː]",
+        "gb": "[ˈdɔːtə] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "невестка, сноха",
+        "spa": "la nuera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2911,
+      "word": "divorce",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈvɔːrs]",
+        "br": "[dɪˈvɔːs]",
+        "gb": "[dɪˈvɔːs]"
+      },
+      "translations": {
+        "rus": "развод",
+        "spa": "el divorcio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't want a divorce.",
+            "ru": "Я не хочу развода."
+          },
+          {
+            "en": "I've asked for a divorce.",
+            "ru": "Я подала на развод."
+          },
+          {
+            "en": "She wanted to get a divorce.",
+            "ru": "Она хотела получить развод."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "legal_english",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2913,
+      "word": "divorced",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪˈvɔːrst]",
+        "br": "[dɪˈvɔːst]",
+        "gb": "[dɪˈvɔːst]"
+      },
+      "translations": {
+        "rus": "разведенный",
+        "spa": "divorciado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you married, single, or divorced?",
+            "ru": "Вы замужем, одиноки или разведены?"
+          },
+          {
+            "en": "A friend of mine divorced her husband.",
+            "ru": "Одна моя подруга развелась со своим мужем."
+          },
+          {
+            "en": "The couple divorced after only 6 months.",
+            "ru": "Пара развелась спустя всего лишь 6 месяцев."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2914,
+      "word": "engaged",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈɡeɪdʒd]",
+        "br": "[ɪnˈɡeɪdʒd]",
+        "gb": "[ɪnˈgeɪʤd]"
+      },
+      "translations": {
+        "rus": "помолвленный, обрученный",
+        "spa": "comprometido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am engaged to her.",
+            "ru": "Я помолвлен с ней."
+          },
+          {
+            "en": "She got engaged to him.",
+            "ru": "Она с ним обручилась."
+          },
+          {
+            "en": "We're not engaged yet.",
+            "ru": "Мы ещё не помолвлены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2915,
+      "word": "engagement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈɡeɪdʒmənt]",
+        "br": "[ɪnˈɡeɪdʒmənt]",
+        "gb": "[ɪnˈgeɪʤmənt]"
+      },
+      "translations": {
+        "rus": "помолвка",
+        "spa": "el compromiso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I broke off the engagement.",
+            "ru": "Я расторгнул помолвку."
+          },
+          {
+            "en": "They called off their engagement.",
+            "ru": "Они отменили свою помолвку."
+          },
+          {
+            "en": "I congratulate you on your engagement.",
+            "ru": "Поздравляю вас с помолвкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2916,
+      "word": "ex-husband",
+      "pos": "noun",
+      "transcription": {
+        "us": "[eks] [ˈhʌzbənd]",
+        "br": "[eks] [ˈhʌzbənd]",
+        "gb": "[eks] [ˈhʌzbənd]"
+      },
+      "translations": {
+        "rus": "бывший муж",
+        "spa": "el ex marido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2917,
+      "word": "ex-wife",
+      "pos": "noun",
+      "transcription": {
+        "us": "[eks] [waɪf]",
+        "br": "[eks] [waɪf]",
+        "gb": "[eks] [waɪf]"
+      },
+      "translations": {
+        "rus": "бывшая жена",
+        "spa": "la ex esposa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2918,
+      "word": "family",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈfæməli]",
+        "br": "[ˈfæməli]",
+        "gb": "[ˈfæmɪlɪ]"
+      },
+      "translations": {
+        "rus": "семья, семейный",
+        "spa": "la familia, familiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's great to have a family.",
+            "ru": "Иметь семью - здорово."
+          },
+          {
+            "en": "The family ate supper together.",
+            "ru": "Семья ужинала вместе."
+          },
+          {
+            "en": "This is a family tradition.",
+            "ru": "Это семейная традиция."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a family?",
+            "es": "¿Tienes familia?"
+          },
+          {
+            "en": "How is the family doing?",
+            "es": "¿Cómo está la familia?"
+          },
+          {
+            "en": "His family is very large.",
+            "es": "Su familia es muy grande."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2919,
+      "word": "father",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːðər]",
+        "br": "[ˈfɑːðə(r)]",
+        "gb": "[ˈfɑːðə]"
+      },
+      "translations": {
+        "rus": "отец, папа",
+        "spa": "el padre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My father is at home.",
+            "ru": "Мой отец дома."
+          },
+          {
+            "en": "She often drives her father's car.",
+            "ru": "Она часто водит отцовскую машину."
+          },
+          {
+            "en": "I'm not allowed to drive my father's car.",
+            "ru": "Мне не разрешают водить отцовскую машину."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My father's in the garden.",
+            "es": "Mi padre está en el jardín."
+          },
+          {
+            "en": "My father gave up smoking.",
+            "es": "Mi padre dejó el tabaco."
+          },
+          {
+            "en": "He is similar to his father.",
+            "es": "Él es como el padre."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2920,
+      "word": "father-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːðər] [ɪn] [lɔː]",
+        "br": "[ˈfɑːðə(r)] [ɪn] [lɔː]",
+        "gb": "[ˈfɑːðə] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "свёкор, тесть",
+        "spa": "el suegro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2921,
+      "word": "fiance",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fɪˈɑːnseɪ]"
+      },
+      "translations": {
+        "rus": "ухажер, жених, подружка, невеста, обрученный",
+        "spa": "el prometido, el novio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2922,
+      "word": "first cousin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɜːrst] [ˈkʌzn]",
+        "br": "[fɜːst] [ˈkʌzn]",
+        "gb": "[fɜːst] [kʌzn]"
+      },
+      "translations": {
+        "rus": "двоюродный брат (сестра), кузен (кузина)",
+        "spa": "el primo hermano"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2923,
+      "word": "foster child",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [tʃaɪld]",
+        "br": "[ˈfɒstə(r)] [tʃaɪld]",
+        "gb": "[ˈfɔstə] [ʧaɪld]"
+      },
+      "translations": {
+        "rus": "приемный ребенок",
+        "spa": "el niño en acogimiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2924,
+      "word": "foster daughter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [ˈdɔːtər]",
+        "br": "[ˈfɒstə(r)] [ˈdɔːtə(r)]",
+        "gb": "[ˈfɔstə] [ˈdɔːtə]"
+      },
+      "translations": {
+        "rus": "приемная дочь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2925,
+      "word": "foster family",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [ˈfæməli]",
+        "br": "[ˈfɒstə(r)] [ˈfæməli]",
+        "gb": "[ˈfɔstə] [ˈfæmɪlɪ]"
+      },
+      "translations": {
+        "rus": "приемная семья",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2926,
+      "word": "foster father",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [ˈfɑːðər]",
+        "br": "[ˈfɒstə(r)] [ˈfɑːðə(r)]",
+        "gb": "[ˈfɔstə] [ˈfɑːðə]"
+      },
+      "translations": {
+        "rus": "приемный отец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2927,
+      "word": "foster mother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [ˈmʌðər]",
+        "br": "[ˈfɒstə(r)] [ˈmʌðə(r)]",
+        "gb": "[ˈfɔstə] [ˈmʌðə]"
+      },
+      "translations": {
+        "rus": "приемная мать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2928,
+      "word": "foster parent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [ˈperənt]",
+        "br": "[ˈfɒstə(r)] [ˈpeərənt]",
+        "gb": "[ˈfɔstə] [ˈpɛərənt]"
+      },
+      "translations": {
+        "rus": "приемный родитель",
+        "spa": "padre de acogida"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2929,
+      "word": "foster son",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːstər] [sʌn]",
+        "br": "[ˈfɒstə(r)] [sʌn]",
+        "gb": "[ˈfɔstə] [sʌn]"
+      },
+      "translations": {
+        "rus": "приемный сын",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2930,
+      "word": "girlfriend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɜːrlfrend]",
+        "br": "[ˈɡɜːlfrend]",
+        "gb": "[ˈgɜːlfrend]"
+      },
+      "translations": {
+        "rus": "подружка, девушка, возлюбленная",
+        "spa": "la novia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary loves going out with her girlfriends.",
+            "ru": "Мэри любит гулять с подружками."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2931,
+      "word": "godfather",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːdfɑːðər]",
+        "br": "[ˈɡɒdfɑːðə(r)]",
+        "gb": "[ˈgɒdfɑːðər]"
+      },
+      "translations": {
+        "rus": "крестный отец",
+        "spa": "el padrino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2932,
+      "word": "godmother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːdmʌðər]",
+        "br": "[ˈɡɒdmʌðə(r)]",
+        "gb": "[ˈgɔdmʌðə]"
+      },
+      "translations": {
+        "rus": "крестная мать",
+        "spa": "la madrina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2933,
+      "word": "grandchild",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡræntʃaɪld]",
+        "br": "[ˈɡræntʃaɪld]",
+        "gb": "[ˈgrænʧaɪld]"
+      },
+      "translations": {
+        "rus": "внук, внучка",
+        "spa": "el nieto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2934,
+      "word": "granddad",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrændæd]",
+        "br": "[ˈɡrændæd]",
+        "gb": "[ˈgrændæd]"
+      },
+      "translations": {
+        "rus": "дедушка",
+        "spa": "el abuelo, el abuelito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2935,
+      "word": "granddaughter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrændɔːtər]",
+        "br": "[ˈɡrændɔːtə(r)]",
+        "gb": "[ˈgrændɔːtə]"
+      },
+      "translations": {
+        "rus": "внучка",
+        "spa": "la nieta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2936,
+      "word": "grandfather",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænfɑːðər]",
+        "br": "[ˈɡrænfɑːðə(r)]",
+        "gb": "[ˈgrændfɑːðə]"
+      },
+      "translations": {
+        "rus": "дед, дедушка",
+        "spa": "el abuelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My grandfather gets up early.",
+            "ru": "Дедушка рано встаёт."
+          },
+          {
+            "en": "My grandfather is a carpenter.",
+            "ru": "Мой дедушка - плотник."
+          },
+          {
+            "en": "They are my grandfather's books.",
+            "ru": "Это книги моего дедушки."
+          },
+          {
+            "en": "I take care of my grandfather.",
+            "ru": "Я забочусь о своём дедушке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2937,
+      "word": "grandma",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænmɑː]",
+        "br": "[ˈɡrænmɑː]",
+        "gb": "[ˈgrænmɑː]"
+      },
+      "translations": {
+        "rus": "бабушка",
+        "spa": "la abuela, la abuelita"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2938,
+      "word": "grandmother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænmʌðər]",
+        "br": "[ˈɡrænmʌðə(r)]",
+        "gb": "[ˈgrænmʌðə]"
+      },
+      "translations": {
+        "rus": "бабушка",
+        "spa": "la abuela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm going to my grandmother's.",
+            "ru": "Я иду к бабушке."
+          },
+          {
+            "en": "My grandmother has got old.",
+            "ru": "Моя бабушка постарела."
+          },
+          {
+            "en": "My grandmother lived with us.",
+            "ru": "Моя бабушка жила с нами."
+          },
+          {
+            "en": "My grandmother lives by herself.",
+            "ru": "Моя бабушка живёт одна."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2939,
+      "word": "grandpa",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænpɑː]",
+        "br": "[ˈɡrænpɑː]",
+        "gb": "[ˈgrænpɑː]"
+      },
+      "translations": {
+        "rus": "дедушка",
+        "spa": "el abuelo, el abuelito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2940,
+      "word": "grandparents",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænperənts]",
+        "br": "[ˈɡrænpeərənts]",
+        "gb": "[ˈgrænpɛərənts]"
+      },
+      "translations": {
+        "rus": "бабушка и дедушка",
+        "spa": "los abuelos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2941,
+      "word": "grandson",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrænsʌn]",
+        "br": "[ˈɡrænsʌn]",
+        "gb": "[ˈgrænsʌn]"
+      },
+      "translations": {
+        "rus": "внук",
+        "spa": "el nieto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2942,
+      "word": "granny",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡræni]",
+        "br": "[ˈɡræni]",
+        "gb": "[ˈgrænɪ]"
+      },
+      "translations": {
+        "rus": "бабушка",
+        "spa": "la abuela, la abuelita"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2943,
+      "word": "great-grandchildren",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[greɪt] [ˈgrænʧɪldrən]"
+      },
+      "translations": {
+        "rus": "правнуки",
+        "spa": "el bisnieto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2944,
+      "word": "great-grandfather",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡreɪt] [ˈɡrænfɑːðər]",
+        "br": "[ɡreɪt] [ˈɡrænfɑːðə(r)]",
+        "gb": "[greɪt] [ˈgrændfɑːðə]"
+      },
+      "translations": {
+        "rus": "прадедушка",
+        "spa": "el bisabuelo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2945,
+      "word": "great-grandmother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡreɪt] [ˈɡrænmʌðər]",
+        "br": "[ɡreɪt] [ˈɡrænmʌðə(r)]",
+        "gb": "[greɪt] [ˈgrænmʌðə]"
+      },
+      "translations": {
+        "rus": "прабабушка",
+        "spa": "la bisabuela"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2946,
+      "word": "great-grandparents",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[greɪt] [ˈgrænpɛərənts]"
+      },
+      "translations": {
+        "rus": "прабабушка и прадедушка",
+        "spa": "los bisabuelos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2947,
+      "word": "groom",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡruːm]",
+        "br": "[ɡruːm]",
+        "gb": "[grʊm]"
+      },
+      "translations": {
+        "rus": "жених",
+        "spa": "el novio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2948,
+      "word": "half-brother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hæf] [ˈbrʌðər]",
+        "br": "[hɑːf] [ˈbrʌðə(r)]",
+        "gb": "[hɑːf] [ˈbrʌðə]"
+      },
+      "translations": {
+        "rus": "единокровный брат, единоутробный брат",
+        "spa": "el medio hermano"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2949,
+      "word": "half-sister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hæf] [ˈsɪstər]",
+        "br": "[hɑːf] [ˈsɪstə(r)]",
+        "gb": "[hɑːf] [ˈsɪstə]"
+      },
+      "translations": {
+        "rus": "единокровная сестра, единоутробная сестра",
+        "spa": "la media hermana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2950,
+      "word": "honeymoon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhʌnimuːn]",
+        "br": "[ˈhʌnimuːn]",
+        "gb": "[ˈhʌnɪmuːn]"
+      },
+      "translations": {
+        "rus": "медовый месяц",
+        "spa": "la luna de miel"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2951,
+      "word": "husband",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhʌzbənd]",
+        "br": "[ˈhʌzbənd]",
+        "gb": "[ˈhʌzbənd]"
+      },
+      "translations": {
+        "rus": "муж",
+        "spa": "el esposo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My husband lied to me.",
+            "ru": "Мой муж врал мне."
+          },
+          {
+            "en": "My husband is a doctor.",
+            "ru": "Мой муж - врач."
+          },
+          {
+            "en": "We are husband and wife.",
+            "ru": "Мы муж и жена."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My husband is at work.",
+            "es": "Mi esposo está en el trabajo."
+          },
+          {
+            "en": "My husband likes to sleep.",
+            "es": "A mi esposo le gusta dormir."
+          },
+          {
+            "en": "The husband wakes up his wife.",
+            "es": "El esposo despierta a su esposa."
+          },
+          {
+            "en": "He is my husband's best friend.",
+            "es": "Él es el mejor amigo de mi esposo."
+          },
+          {
+            "en": "She'll love her husband forever.",
+            "es": "Ella amará a su esposo para siempre."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2952,
+      "word": "identical twins",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[aɪˈdentɪkəl] [twɪnz]"
+      },
+      "translations": {
+        "rus": "однояйцевые близнецы",
+        "spa": "las gemelas idénticas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2953,
+      "word": "in-laws",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ɪn] [lɔz]"
+      },
+      "translations": {
+        "rus": "родня со стороны мужа или жены",
+        "spa": "la familia política, los parientes políticos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2954,
+      "word": "kin, folks",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɪn], [foʊks]",
+        "br": "[kɪn], [foʊks]",
+        "gb": "[kɪn] [foʊks]"
+      },
+      "translations": {
+        "rus": "родня",
+        "spa": "familiares"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2955,
+      "word": "lover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlʌvər]",
+        "br": "[ˈlʌvə(r)]",
+        "gb": "[ˈlʌvə]"
+      },
+      "translations": {
+        "rus": "любовник, любитель",
+        "spa": "el amante, la amante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a lover?",
+            "ru": "У тебя есть любовник?"
+          },
+          {
+            "en": "We're friends, not lovers.",
+            "ru": "Мы друзья, а не любовники."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2956,
+      "word": "marital status",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": "[ˈmærɪtl] [ˈsteɪtəs]",
+        "gb": "[ˈmærɪtl] [ˈsteɪtəs]"
+      },
+      "translations": {
+        "rus": "семейное положение",
+        "spa": "el estado civil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is her marital status?",
+            "ru": "Какое у неё семейное положение?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2957,
+      "word": "marriage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmærɪdʒ]",
+        "br": "[ˈmærɪdʒ]",
+        "gb": "[ˈmærɪʤ]"
+      },
+      "translations": {
+        "rus": "брак, женитьба",
+        "spa": "el matrimonio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is my third marriage.",
+            "ru": "Это мой третий брак."
+          },
+          {
+            "en": "Marriage is a serious matter.",
+            "ru": "Женитьба - дело серьёзное."
+          },
+          {
+            "en": "Their marriage was a happy one.",
+            "ru": "Их брак был счастливым."
+          },
+          {
+            "en": "My parents are against my marriage.",
+            "ru": "Родители против моей женитьбы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You call that a marriage?",
+            "es": "¿Eso lo llamas un matrimonio?"
+          },
+          {
+            "en": "Gay marriage is legal here.",
+            "es": "El matrimonio gay es legal acá."
+          },
+          {
+            "en": "We're working on our marriage.",
+            "es": "Estamos trabajando en nuestro matrimonio."
+          },
+          {
+            "en": "Our marriage has come to an end.",
+            "es": "Nuestro matrimonio se acabó."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2958,
+      "word": "married",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmærid]",
+        "br": "[ˈmærid]",
+        "gb": "[ˈmærɪd]"
+      },
+      "translations": {
+        "rus": "женатый, замужняя",
+        "spa": "casado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was married to my job.",
+            "ru": "Я был женат на своей работе."
+          },
+          {
+            "en": "He's married with three kids.",
+            "ru": "Он женат, у него трое детей."
+          },
+          {
+            "en": "You're too young to get married.",
+            "ru": "Тебе ещё слишком рано жениться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2959,
+      "word": "mom",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɑːm]",
+        "br": "[mɒm]",
+        "gb": "[mɑːm]"
+      },
+      "translations": {
+        "rus": "мама",
+        "spa": "la mamá"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is your mom at home?",
+            "ru": "Твоя мама дома?"
+          },
+          {
+            "en": "My mom will kill me.",
+            "ru": "Мама убьёт меня."
+          },
+          {
+            "en": "I think my mom knows.",
+            "ru": "Думаю, моя мама знает."
+          },
+          {
+            "en": "Mom is making a cake.",
+            "ru": "Мама печёт пирог."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2960,
+      "word": "mother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌðər]",
+        "br": "[ˈmʌðə(r)]",
+        "gb": "[ˈmʌðə]"
+      },
+      "translations": {
+        "rus": "мать, мама",
+        "spa": "la madre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He misses his mother.",
+            "ru": "Он скучает по своей матери."
+          },
+          {
+            "en": "Mary pictures her mother.",
+            "ru": "Мэри очень похожа на мать."
+          },
+          {
+            "en": "Her mother is American.",
+            "ru": "Её мать — американка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My mother set the table.",
+            "es": "Mi madre puso la mesa."
+          },
+          {
+            "en": "Her mother knocked on the door.",
+            "es": "La madre golpeó la puerta."
+          },
+          {
+            "en": "My mother is busy cooking supper.",
+            "es": "Mi madre está ocupada preparando la cena."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2961,
+      "word": "mother-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌðər] [ɪn] [lɔː]",
+        "br": "[ˈmʌðə(r)] [ɪn] [lɔː]",
+        "gb": "[ˈmʌðə] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "свекровь, тёща",
+        "spa": "la suegra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her mother-in-law is a bitter old witch.",
+            "ru": "Её свекровь - злая старая ведьма."
+          },
+          {
+            "en": "Does he get along with his mother-in-law?",
+            "ru": "Он находит общий язык со своей тещей?"
+          },
+          {
+            "en": "She behaved beastly toward her mother-in-law.",
+            "ru": "Она вела себя ужасно по отношению к своей свекрови."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2962,
+      "word": "mum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mʌm]",
+        "br": "[mʌm]",
+        "gb": "[mʌm]"
+      },
+      "translations": {
+        "rus": "мама",
+        "spa": "la mamá"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is your mum at home?",
+            "ru": "Твоя мама дома?"
+          },
+          {
+            "en": "My mum will kill me.",
+            "ru": "Мама убьёт меня."
+          },
+          {
+            "en": "I think my mum knows.",
+            "ru": "Думаю, моя мама знает."
+          },
+          {
+            "en": "Mum is making a cake.",
+            "ru": "Мама печёт пирог."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2963,
+      "word": "nephew",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnefjuː]",
+        "br": "[ˈnefjuː]",
+        "gb": "[ˈnefjuː]"
+      },
+      "translations": {
+        "rus": "племянник",
+        "spa": "el sobrino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My nephew colored a picture for me.",
+            "ru": "Племянник раскрасил для меня картинку."
+          },
+          {
+            "en": "My nephew is a complete video game addict.",
+            "ru": "Мой племянник абсолютно зависим от видеоигр."
+          },
+          {
+            "en": "Stanley, come and say hello to your nephew.",
+            "ru": "Стэнли, подойди и поздоровайся со своим племянником."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2964,
+      "word": "niece",
+      "pos": "noun",
+      "transcription": {
+        "us": "[niːs]",
+        "br": "[niːs]",
+        "gb": "[niːs]"
+      },
+      "translations": {
+        "rus": "племянница",
+        "spa": "la sobrina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She reduced her niece to a servant.",
+            "ru": "Она превратила свою племянницу в служанку."
+          },
+          {
+            "en": "I'm pretty sure they're the groom's niece and nephew.",
+            "ru": "Я практически уверен, что они являются племянницей и племянником жениха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2965,
+      "word": "only child",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊnli] [tʃaɪld]",
+        "br": "[ˈəʊnli] [tʃaɪld]",
+        "gb": "[ˈəʊnlɪ] [ʧaɪld]"
+      },
+      "translations": {
+        "rus": "единственный ребенок",
+        "spa": "el hijo único"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2966,
+      "word": "parent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈperənt]",
+        "br": "[ˈpeərənt]",
+        "gb": "[ˈpɛərənt]"
+      },
+      "translations": {
+        "rus": "родитель, родительский",
+        "spa": "el padre, la madre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My parents remained in England.",
+            "ru": "Мои родители остались в Англии."
+          },
+          {
+            "en": "How often do you see your parents?",
+            "ru": "Как часто вы видитесь с родителями?"
+          },
+          {
+            "en": "Mind your parents.",
+            "ru": "Слушай своих родителей."
+          },
+          {
+            "en": "Are your parents at home?",
+            "ru": "Родители дома?"
+          },
+          {
+            "en": "Mary drives her parents' car.",
+            "ru": "Мэри ездит на родительской машине."
+          },
+          {
+            "en": "He will soon leave his parents' home.",
+            "ru": "Он скоро покинет родительский дом."
+          },
+          {
+            "en": "Who are the girl's parents?",
+            "ru": "Кто родители этой девочки?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live with my parents.",
+            "es": "Yo vivo con mis padres."
+          },
+          {
+            "en": "His parents ran a hotel.",
+            "es": "Los padres de él llevan un hotel."
+          },
+          {
+            "en": "My parents have gone out.",
+            "es": "Mis padres se fueron."
+          },
+          {
+            "en": "Both his parents are dead.",
+            "es": "Sus padres están muertos."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2967,
+      "word": "relation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈleɪʃn]",
+        "br": "[rɪˈleɪʃn]",
+        "gb": "[rɪˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "отношение, связь, соотношение, зависимость, родственник",
+        "spa": "la relación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's your relation with him?",
+            "ru": "Какие у вас с ним отношения?"
+          },
+          {
+            "en": "He is a distant relation of hers.",
+            "ru": "Он её дальний родственник."
+          },
+          {
+            "en": "We have broken off relations with them.",
+            "ru": "Мы разорвали с ними отношения."
+          },
+          {
+            "en": "Japan has diplomatic relations with China.",
+            "ru": "Япония имеет дипломатические отношения с Китаем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What's your relation with him?",
+            "es": "¿Qué relación tienes con él?"
+          },
+          {
+            "en": "We have broken off relations with them.",
+            "es": "Hemos roto relaciones con ellos."
+          },
+          {
+            "en": "She has some relation to that group.",
+            "es": "Ella tiene alguna relación con ese grupo."
+          },
+          {
+            "en": "Japan has diplomatic relations with China.",
+            "es": "Japón tiene relaciones diplomáticas con China."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2968,
+      "word": "relative",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrelətɪv]",
+        "br": "[ˈrelətɪv]",
+        "gb": "[ˈrelətɪv]"
+      },
+      "translations": {
+        "rus": "родственник",
+        "spa": "el pariente, la pariente, el familiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You are no relative of mine.",
+            "ru": "Ты мне не родственник."
+          },
+          {
+            "en": "Are they your relatives?",
+            "ru": "Они твои родственники?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2969,
+      "word": "remarried",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[riːˈmærid]"
+      },
+      "translations": {
+        "rus": "вторично женатый (вышедшая замуж)",
+        "spa": "casado por segunda vez"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2970,
+      "word": "second cousin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsekənd] [ˈkʌzn]",
+        "br": "[ˈsekənd] [ˈkʌzn]",
+        "gb": "[ˈsekənd] [kʌzn]"
+      },
+      "translations": {
+        "rus": "троюродный брат (сестра)",
+        "spa": "el primo segundo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2971,
+      "word": "separated",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsepəreɪtɪd]",
+        "br": "[ˈsepəreɪtɪd]",
+        "gb": "[ˈsepəreɪtɪd]"
+      },
+      "translations": {
+        "rus": "расставшиеся, не разведенные, но не проживающие одной семьей",
+        "spa": "separado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2972,
+      "word": "single",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪŋɡl]",
+        "br": "[ˈsɪŋɡl]",
+        "gb": "[sɪŋgl]"
+      },
+      "translations": {
+        "rus": "единственный, одинокий, одиночный, холостой, неженатый, незамужняя",
+        "spa": "solo, único, soltero, individual, sencillo, para uno solo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am single.",
+            "ru": "Я холост."
+          },
+          {
+            "en": "Not a single person arrived late.",
+            "ru": "Ни один человек не опоздал."
+          },
+          {
+            "en": "Are you married or are you single?",
+            "ru": "Ты женат или холост?"
+          },
+          {
+            "en": "I didn't answer a single question.",
+            "ru": "Я не ответил ни на один вопрос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't have a single enemy.",
+            "es": "No tengo ni un solo enemigo."
+          },
+          {
+            "en": "He was killed by a single bullet.",
+            "es": "Lo mataron con una sola bala."
+          },
+          {
+            "en": "Mary is a single mom.",
+            "es": "María es una madre soltera."
+          },
+          {
+            "en": "Is he married or single?",
+            "es": "¿Es casado o soltero?"
+          },
+          {
+            "en": "She's a single mother of two.",
+            "es": "Ella es madre soltera de dos hijos."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2973,
+      "word": "single father",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋɡl] [ˈfɑːðər]",
+        "br": "[ˈsɪŋɡl] [ˈfɑːðə(r)]",
+        "gb": "[sɪŋgl] [ˈfɑːðə]"
+      },
+      "translations": {
+        "rus": "отец-одиночка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2974,
+      "word": "single mother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋɡl] [ˈmʌðər]",
+        "br": "[ˈsɪŋɡl] [ˈmʌðə(r)]",
+        "gb": "[sɪŋgl] [ˈmʌðə]"
+      },
+      "translations": {
+        "rus": "мать-одиночка",
+        "spa": "la madre soltera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2975,
+      "word": "single-parent family",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋɡl] [ˈperənt] [ˈfæməli]",
+        "br": "[ˈsɪŋɡl] [ˈpeərənt] [ˈfæməli]",
+        "gb": "[sɪŋgl] [ˈpɛərənt] [ˈfæmɪlɪ]"
+      },
+      "translations": {
+        "rus": "неполная семья (с одним родителем)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2976,
+      "word": "sister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪstər]",
+        "br": "[ˈsɪstə(r)]",
+        "gb": "[ˈsɪstə]"
+      },
+      "translations": {
+        "rus": "сестра",
+        "spa": "la hermana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are brother and sister.",
+            "ru": "Мы брат и сестра."
+          },
+          {
+            "en": "My sister lied to me.",
+            "ru": "Сестра соврала мне."
+          },
+          {
+            "en": "Do you have any sisters?",
+            "ru": "У тебя есть сёстры?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "How pretty your sister is!",
+            "es": "¡Qué guapa es tu hermana!"
+          },
+          {
+            "en": "My sister is fond of music.",
+            "es": "Mi hermana ama la música."
+          },
+          {
+            "en": "We are brother and sister.",
+            "es": "Somos hermano y hermana."
+          },
+          {
+            "en": "I like her sister very much.",
+            "es": "Me gusta mucho la hermana de ella."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2977,
+      "word": "sister-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪstər] [ɪn] [lɔː]",
+        "br": "[ˈsɪstə(r)] [ɪn] [lɔː]",
+        "gb": "[ˈsɪstə] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "свояченица, золовка, невестка",
+        "spa": "la cuñada"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2978,
+      "word": "son",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌn]",
+        "br": "[sʌn]",
+        "gb": "[sʌn]"
+      },
+      "translations": {
+        "rus": "сын, потомок, выходец",
+        "spa": "el hijo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My son lied to me.",
+            "ru": "Мой сын врал мне."
+          },
+          {
+            "en": "His son is a genius.",
+            "ru": "Его сын - гений."
+          },
+          {
+            "en": "The couple had a son.",
+            "ru": "У пары был сын."
+          },
+          {
+            "en": "Does he have a son?",
+            "ru": "Есть ли у него сын?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I play with my son.",
+            "es": "Juego con mi hijo."
+          },
+          {
+            "en": "Her son is a genius.",
+            "es": "Su hijo es un genio."
+          },
+          {
+            "en": "What does your son do?",
+            "es": "¿Qué hace el hijo de usted?"
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2979,
+      "word": "son-in-law",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌn] [ɪn] [lɔː]",
+        "br": "[sʌn] [ɪn] [lɔː]",
+        "gb": "[sʌn] [ɪn] [lɔː]"
+      },
+      "translations": {
+        "rus": "зять",
+        "spa": "el yerno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2980,
+      "word": "spouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spaʊs], [spaʊz]",
+        "br": "[spaʊs], [spaʊz]",
+        "gb": "[spaʊz]"
+      },
+      "translations": {
+        "rus": "супруг(а)",
+        "spa": "el cónyuge, la cónyuge"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A husband and a wife are spouses.",
+            "ru": "Муж и жена - супруги."
+          },
+          {
+            "en": "His spouse is a Japanese woman.",
+            "ru": "Его супруга - японка."
+          },
+          {
+            "en": "How much time do you spend with your spouse?",
+            "ru": "Сколько времени Вы проводите со своим супругом?"
+          },
+          {
+            "en": "Many of the soldiers kissed their spouses goodbye.",
+            "ru": "Многие солдаты целовали своих супруг на прощание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2981,
+      "word": "stepbrother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstepbrʌðər]",
+        "br": "[ˈstepbrʌðə(r)]",
+        "gb": "[ˈstepbrʌðə]"
+      },
+      "translations": {
+        "rus": "сводный брат",
+        "spa": "el hermanastro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2982,
+      "word": "stepfather",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstepfɑːðər]",
+        "br": "[ˈstepfɑːðə(r)]",
+        "gb": "[ˈstepfɑːðə]"
+      },
+      "translations": {
+        "rus": "отчим, приемный отец",
+        "spa": "el padrastro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2983,
+      "word": "stepmother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstepmʌðər]",
+        "br": "[ˈstepmʌðə(r)]",
+        "gb": "[ˈstepmʌðə]"
+      },
+      "translations": {
+        "rus": "мачеха, приемная мать",
+        "spa": "la madrastra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2984,
+      "word": "stepsister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstepsɪstər]",
+        "br": "[ˈstepsɪstə(r)]",
+        "gb": "[ˈstepsɪstə]"
+      },
+      "translations": {
+        "rus": "сводная сестра",
+        "spa": "la hermanastra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2985,
+      "word": "third cousin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θɜːrd] [ˈkʌzn]",
+        "br": "[θɜːd] [ˈkʌzn]",
+        "gb": "[θɜːd] [kʌzn]"
+      },
+      "translations": {
+        "rus": "четвероюродный брат (сестра)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2912,
+      "word": "to divorce",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈvɔːrs]",
+        "br": "[tə] [dɪˈvɔːs]",
+        "gb": "[tuː] [dɪˈvɔːs]"
+      },
+      "translations": {
+        "rus": "разводиться",
+        "spa": "divorciarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "legal_english",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2986,
+      "word": "triplets",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈtrɪpləts]"
+      },
+      "translations": {
+        "rus": "тройняшки",
+        "spa": "los trillizos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2987,
+      "word": "twin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[twɪn]",
+        "br": "[twɪn]",
+        "gb": "[twɪn]"
+      },
+      "translations": {
+        "rus": "близнец",
+        "spa": "el gemelo, el mellizo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a twin.",
+            "ru": "Я близнец."
+          },
+          {
+            "en": "My children are twins.",
+            "ru": "Мои дети - близнецы."
+          },
+          {
+            "en": "She gave birth to twins.",
+            "ru": "Она родила близнецов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2988,
+      "word": "twin brother",
+      "pos": "noun",
+      "transcription": {
+        "us": "[twɪn] [ˈbrʌðər]",
+        "br": "[twɪn] [ˈbrʌðə(r)]",
+        "gb": "[twɪn] [ˈbrʌðə]"
+      },
+      "translations": {
+        "rus": "брат-близнец",
+        "spa": "el gemelo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2989,
+      "word": "twin sister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[twɪn] [ˈsɪstər]",
+        "br": "[twɪn] [ˈsɪstə(r)]",
+        "gb": "[twɪn] [ˈsɪstə]"
+      },
+      "translations": {
+        "rus": "сестра-близнец",
+        "spa": "la gemela"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2990,
+      "word": "uncle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌŋkl]",
+        "br": "[ˈʌŋkl]",
+        "gb": "[ʌŋkl]"
+      },
+      "translations": {
+        "rus": "дядя",
+        "spa": "el tío"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her uncle is an alcoholic.",
+            "ru": "Её дядя - алкоголик."
+          },
+          {
+            "en": "I have three uncles and two aunts.",
+            "ru": "У меня три дяди и две тёти."
+          },
+          {
+            "en": "I went to stay with my uncle and aunt for a few days.",
+            "ru": "Я поехал, чтобы погостить у дяди и тети несколько дней."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2991,
+      "word": "wedding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwedɪŋ]",
+        "br": "[ˈwedɪŋ]",
+        "gb": "[ˈwedɪŋ]"
+      },
+      "translations": {
+        "rus": "свадьба, свадебный",
+        "spa": "la boda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The wedding's off.",
+            "ru": "Свадьбы не будет."
+          },
+          {
+            "en": "It's a video of our wedding.",
+            "ru": "Это видео нашей свадьбы."
+          },
+          {
+            "en": "She made her own wedding dress.",
+            "ru": "Она сама сшила себе свадебное платье."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2992,
+      "word": "widow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪdəʊ]",
+        "br": "[ˈwɪdəʊ]",
+        "gb": "[ˈwɪdəʊ]"
+      },
+      "translations": {
+        "rus": "вдова",
+        "spa": "la viuda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His widow was dressed in mourning.",
+            "ru": "Его вдова была одета в траур."
+          },
+          {
+            "en": "The war widowed many women.",
+            "ru": "Война оставила вдовами многих женщин."
+          },
+          {
+            "en": "He tried to hook a well-off widow.",
+            "ru": "Он пытался подцепить какую-нибудь состоятельную вдову."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "family",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2993,
+      "word": "widower",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪdəʊər]",
+        "br": "[ˈwɪdəʊə(r)]",
+        "gb": "[ˈwɪdəʊə]"
+      },
+      "translations": {
+        "rus": "вдовец",
+        "spa": "el viudo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "family"
+      ]
+    },
+    {
+      "id": 2994,
+      "word": "wife",
+      "pos": "noun",
+      "transcription": {
+        "us": "[waɪf]",
+        "br": "[waɪf]",
+        "gb": "[waɪf]"
+      },
+      "translations": {
+        "rus": "жена",
+        "spa": "la esposa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your wife is on the phone.",
+            "ru": "Твоя жена на проводе."
+          },
+          {
+            "en": "I am not your wife.",
+            "ru": "Я тебе не жена."
+          },
+          {
+            "en": "My wife is a doctor.",
+            "ru": "Моя жена - врач."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a wife?",
+            "es": "¿Tienes esposa?"
+          },
+          {
+            "en": "He chose a good wife.",
+            "es": "Él eligió a una buena esposa."
+          }
+        ]
+      },
+      "categories": [
+        "family",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4014 @@
+{
+  "category": {
+    "id": "computer",
+    "name_rus": "Компьютер",
+    "type": "topic",
+    "word_count": 108
+  },
+  "words": [
+    {
+      "id": 2294,
+      "word": "ability",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈbɪləti]",
+        "br": "[əˈbɪləti]",
+        "gb": "[əˈbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "способность, возможность",
+        "spa": "la habilidad, la capacidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have many abilities.",
+            "ru": "У меня много способностей."
+          },
+          {
+            "en": "He overestimated his ability.",
+            "ru": "Он переоценил свои возможности."
+          },
+          {
+            "en": "I believe in my abilities.",
+            "ru": "Я верю в свои способности."
+          },
+          {
+            "en": "We all have different abilities.",
+            "ru": "Способности у всех разные."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Man has the ability to talk.",
+            "es": "El hombre tiene la habilidad de hablar."
+          },
+          {
+            "en": "I believe in my abilities.",
+            "es": "Yo creo en mis capacidades."
+          },
+          {
+            "en": "He has the ability to make a good plan.",
+            "es": "Él tiene la habilidad de hacer buenos planes."
+          },
+          {
+            "en": "I really trust his ability.",
+            "es": "Realmente confió en su habilidad."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1306,
+      "word": "account",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkaʊnt]",
+        "br": "[əˈkaʊnt]",
+        "gb": "[əˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "учетная запись, аккаунт, счёт (в банке)",
+        "spa": "la cuenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll open a bank account.",
+            "ru": "Я открою банковский счёт."
+          },
+          {
+            "en": "She activated the account.",
+            "ru": "Она активировала учётную запись."
+          },
+          {
+            "en": "I do not have an account in these forums.",
+            "ru": "У меня нет учетной записи на этих форумах."
+          },
+          {
+            "en": "Can you delete my account?",
+            "ru": "Вы можете удалить мой аккаунт?"
+          },
+          {
+            "en": "Do you have a Twitter account?",
+            "ru": "У тебя есть аккаунт в Твиттере?"
+          },
+          {
+            "en": "I can't log in to my account.",
+            "ru": "Я не могу залогиниться в свой аккаунт."
+          },
+          {
+            "en": "She deleted her Facebook account.",
+            "ru": "Она удалила свой аккаунт на Фейсбуке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll open a bank account.",
+            "es": "Voy a abrir una cuenta bancaria."
+          },
+          {
+            "en": "Put it on my father's account.",
+            "es": "Ponelo en la cuenta de mi padre."
+          },
+          {
+            "en": "I have a Twitter account.",
+            "es": "Tengo una cuenta Twitter."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "computer",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2295,
+      "word": "accurate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈækjərət]",
+        "br": "[ˈækjərət]",
+        "gb": "[ˈækjʊrɪt]"
+      },
+      "translations": {
+        "rus": "точный, меткий",
+        "spa": "preciso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The translation is accurate.",
+            "ru": "Перевод точный."
+          },
+          {
+            "en": "My watch is very accurate.",
+            "ru": "У меня очень точные часы."
+          },
+          {
+            "en": "The shots were extremely accurate.",
+            "ru": "Выстрелы были исключительно меткими."
+          },
+          {
+            "en": "My predictions were accurate.",
+            "ru": "Мои прогнозы были точны."
+          },
+          {
+            "en": "We need accurate information.",
+            "ru": "Нам нужна точная информация."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2296,
+      "word": "amount",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈmaʊnt]",
+        "br": "[əˈmaʊnt]",
+        "gb": "[əˈmaʊnt]"
+      },
+      "translations": {
+        "rus": "количество, сумма, объем",
+        "spa": "la cantidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He drinks a moderate amount of coffee.",
+            "ru": "Он пьёт умеренное количество кофе."
+          },
+          {
+            "en": "This amount includes tax.",
+            "ru": "В эту сумму включены налоги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Any amount of money will do.",
+            "es": "Cualquier cantidad de dinero servirá."
+          },
+          {
+            "en": "We have a huge amount of food.",
+            "es": "Tenemos una inmensa cantidad de comida."
+          },
+          {
+            "en": "I'm charging this amount to your bill.",
+            "es": "Cargo esta cantidad a su cuenta."
+          },
+          {
+            "en": "The boy has the greatest amount of fruit.",
+            "es": "El niño tiene la mayor cantidad de fruta."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2297,
+      "word": "app (application)",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æp] [ˌæplɪˈkeɪʃn]",
+        "br": "[æp] [ˌæplɪˈkeɪʃn]",
+        "gb": "[æp] [æplɪˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "приложение (мобильное)",
+        "spa": "la app (la aplicación)"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's your favorite iPhone app?",
+            "ru": "Какое твое любимое приложение для айфона?"
+          },
+          {
+            "en": "Did you download the apps that I told you about?",
+            "ru": "Ты скачал приложения, о которых я тебе говорил?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2298,
+      "word": "approximately",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[əˈprɑːksɪmətli]",
+        "br": "[əˈprɒksɪmətli]",
+        "gb": "[əˈprɔksɪmɪtlɪ]"
+      },
+      "translations": {
+        "rus": "приблизительно, примерно",
+        "spa": "aproximadamente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Approximately two weeks.",
+            "ru": "Приблизительно две недели."
+          },
+          {
+            "en": "We're approximately the same age.",
+            "ru": "Мы примерно одного возраста."
+          },
+          {
+            "en": "It'll take approximately three hours.",
+            "ru": "Это займёт примерно три часа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The total is approximately ten thousand dollars.",
+            "es": "En total son aproximadamente diez mil dólares."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2299,
+      "word": "available",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈveɪləbl]",
+        "br": "[əˈveɪləbl]",
+        "gb": "[əˈveɪləbl]"
+      },
+      "translations": {
+        "rus": "доступный, имеющийся в наличии, свободный",
+        "spa": "disponible, libre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is not available.",
+            "ru": "Он недоступен."
+          },
+          {
+            "en": "The book is now available.",
+            "ru": "Книга теперь доступна."
+          },
+          {
+            "en": "The car is not available today.",
+            "ru": "Машина сегодня не доступна."
+          },
+          {
+            "en": "I'm sorry, but I'll not be available.",
+            "ru": "Сожалею, но я буду недоступен."
+          },
+          {
+            "en": "Netflix is now available in Europe.",
+            "ru": "Netflix теперь доступен в Европе."
+          },
+          {
+            "en": "The book is also available in Portuguese.",
+            "ru": "Эта книга также доступна на португальском."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are any seats still available?",
+            "es": "¿Queda aún algún asiento disponible?"
+          },
+          {
+            "en": "This book is available at one shop only.",
+            "es": "Este libro solo está en una tienda."
+          },
+          {
+            "en": "The doctor is not available now.",
+            "es": "El médico no está disponible."
+          },
+          {
+            "en": "Is there a tour guide available?",
+            "es": "¿Hay algún guía turístico disponible?"
+          },
+          {
+            "en": "The only room available is a double.",
+            "es": "La única habitación disponible es una doble."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2300,
+      "word": "broadband connection",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrɔːdbænd] [kəˈnekʃn]",
+        "br": "[ˈbrɔːdbænd] [kəˈnekʃn]",
+        "gb": "[ˈbrɔːdbænd] [kəˈnekʃn]"
+      },
+      "translations": {
+        "rus": "широкополосное соединение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2302,
+      "word": "browser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbraʊzər]",
+        "br": "[ˈbraʊzə(r)]",
+        "gb": "[ˈbraʊzər]"
+      },
+      "translations": {
+        "rus": "браузер",
+        "spa": "el navegador, el explorador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which browser is your favorite?",
+            "ru": "Какой твой любимый браузер?"
+          },
+          {
+            "en": "Which browser do you use?",
+            "ru": "Каким браузером ты пользуешься?"
+          },
+          {
+            "en": "Try using a different browser.",
+            "ru": "Попробуйте использовать другой браузер."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2303,
+      "word": "cable",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkeɪbl]",
+        "br": "[ˈkeɪbl]",
+        "gb": "[keɪbl]"
+      },
+      "translations": {
+        "rus": "кабель, шнур, кабельный",
+        "spa": "el cable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cables were custom-made.",
+            "ru": "Кабели были сделаны на заказ."
+          },
+          {
+            "en": "Attach the two cables together.",
+            "ru": "Соедините вместе два кабеля."
+          },
+          {
+            "en": "One in 10 homes now has cable TV.",
+            "ru": "Теперь в каждом десятом доме есть кабельное телевидение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2305,
+      "word": "computer",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpjuːtər]",
+        "br": "[kəmˈpjuːtə(r)]",
+        "gb": "[kəmˈpjuːtə]"
+      },
+      "translations": {
+        "rus": "компьютер, компьютерный",
+        "spa": "la computadora"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you own a computer?",
+            "ru": "У Вас есть компьютер?"
+          },
+          {
+            "en": "I don't play computer games.",
+            "ru": "Я не играю в компьютерные игры."
+          },
+          {
+            "en": "My computer is hung up.",
+            "ru": "Мой компьютер завис."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you use a computer?",
+            "es": "Puedes usar una computadora?"
+          },
+          {
+            "en": "Do they have a computer?",
+            "es": "¿Tienen computadora?"
+          },
+          {
+            "en": "I turned off the computer.",
+            "es": "Apagué la computadora."
+          },
+          {
+            "en": "She is buying the computer.",
+            "es": "Ella está comprando la computadora."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2306,
+      "word": "computer desk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpjuːtər] [desk]",
+        "br": "[kəmˈpjuːtə(r)] [desk]",
+        "gb": "[kəmˈpjuːtə] [desk]"
+      },
+      "translations": {
+        "rus": "компьютерный стол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2307,
+      "word": "copier, photocopier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːpiər], [ˈfəʊtəʊkɑːpiər]",
+        "br": "[ˈkɒpiə(r)], [ˈfəʊtəʊkɒpiə(r)]",
+        "gb": "[ˈkɒpɪər] [ˈfəʊtəʊkɒpɪər]"
+      },
+      "translations": {
+        "rus": "ксерокс, копир",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2308,
+      "word": "CPU, central processing unit",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsentrəl] [ˈprəʊsesɪŋ] [ˈjuːnɪt]"
+      },
+      "translations": {
+        "rus": "ЦПУ, центральный процессор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2310,
+      "word": "dangerous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdeɪndʒərəs]",
+        "br": "[ˈdeɪndʒərəs]",
+        "gb": "[ˈdeɪnʤrəs]"
+      },
+      "translations": {
+        "rus": "опасный",
+        "spa": "peligroso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He often drives at dangerous speeds.",
+            "ru": "Он часто ездит на опасной скорости."
+          },
+          {
+            "en": "Don't hang out of the window, it's dangerous.",
+            "ru": "Не высовывайся из окна, это опасно."
+          },
+          {
+            "en": "Delays are dangerous.",
+            "ru": "Промедления опасны."
+          },
+          {
+            "en": "The feelings are dangerous guides.",
+            "ru": "Чувства - опасные советчики."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a dangerous road.",
+            "es": "Esta es una calle peligrosa."
+          },
+          {
+            "en": "I don't think it's dangerous.",
+            "es": "No creo que sea peligroso."
+          },
+          {
+            "en": "He is a very dangerous man.",
+            "es": "Él es una persona muy peligrosa."
+          },
+          {
+            "en": "That doesn't sound too dangerous.",
+            "es": "Eso no suena tan peligroso."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2311,
+      "word": "data",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdeɪtə]",
+        "br": "[ˈdeɪtə]",
+        "gb": "[ˈdeɪtə]"
+      },
+      "translations": {
+        "rus": "данные",
+        "spa": "los datos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This data is incorrect.",
+            "ru": "Это неверные данные."
+          },
+          {
+            "en": "We need more data.",
+            "ru": "Нам нужно больше данных."
+          },
+          {
+            "en": "I rechecked the data.",
+            "ru": "Я перепроверил данные."
+          },
+          {
+            "en": "I don't trust this data.",
+            "ru": "Я не доверяю этим данным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This data is for my thesis.",
+            "es": "Estos datos son para mi tesis."
+          },
+          {
+            "en": "We're still analyzing the remaining data.",
+            "es": "Aún estamos analizando los datos restantes."
+          },
+          {
+            "en": "The data is insufficient to show anything.",
+            "es": "Los datos son insuficientes para mostrar algo."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2313,
+      "word": "device",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈvaɪs]",
+        "br": "[dɪˈvaɪs]",
+        "gb": "[dɪˈvaɪs]"
+      },
+      "translations": {
+        "rus": "устройство, прибор, аппарат, приспособление",
+        "spa": "el aparato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What does this device do?",
+            "ru": "Что делает это устройство?"
+          },
+          {
+            "en": "I would like batteries for this device.",
+            "ru": "Мне нужны батарейки для этого прибора."
+          },
+          {
+            "en": "My GPS device was stolen.",
+            "ru": "Мое GPS устройство украдено."
+          },
+          {
+            "en": "Please turn off your electronic devices.",
+            "ru": "Пожалуйста, выключите ваши электронные приборы."
+          },
+          {
+            "en": "The telephone is one wonderful device.",
+            "ru": "Телефон — это просто чудесное устройство."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2314,
+      "word": "dial up",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaɪəl] [ʌp]",
+        "br": "[ˈdaɪəl] [ʌp]",
+        "gb": "[ˈdaɪəl] [ʌp]"
+      },
+      "translations": {
+        "rus": "доступ к сети через модемное подключение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2315,
+      "word": "digital",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdɪdʒɪtl]",
+        "br": "[ˈdɪdʒɪtl]",
+        "gb": "[ˈdɪʤɪtl]"
+      },
+      "translations": {
+        "rus": "цифровой",
+        "spa": "digital"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to learn how to use my new digital camera right away.",
+            "ru": "Хочу поскорее освоить новый цифровой фотоаппарат."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2316,
+      "word": "disk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪsk]",
+        "br": "[dɪsk]",
+        "gb": "[dɪsk]"
+      },
+      "translations": {
+        "rus": "диск, дисковый",
+        "spa": "el disco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Give them the disk.",
+            "ru": "Дай им диск."
+          },
+          {
+            "en": "Put the disk in the computer.",
+            "ru": "Вставьте диск в компьютер."
+          },
+          {
+            "en": "Did you give a copy of the disk to anyone?",
+            "ru": "Ты давал кому-нибудь копию диска?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Put the disk in the computer.",
+            "es": "Coloque el disco en la computadora."
+          },
+          {
+            "en": "The hard disk was completely destroyed.",
+            "es": "El disco duro fue completamente inutilizado."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2317,
+      "word": "disk drive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪsk] [draɪv]",
+        "br": "[dɪsk] [draɪv]",
+        "gb": "[dɪsk] [draɪv]"
+      },
+      "translations": {
+        "rus": "дисковод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 541,
+      "word": "display",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈspleɪ]",
+        "br": "[dɪˈspleɪ]",
+        "gb": "[dɪsˈpleɪ]"
+      },
+      "translations": {
+        "rus": "показ, дисплей, дисплейный",
+        "spa": "el visualizador, la exposición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2319,
+      "word": "drive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[draɪv]",
+        "br": "[draɪv]",
+        "gb": "[draɪv]"
+      },
+      "translations": {
+        "rus": "драйв, дисковод, привод",
+        "spa": "el viaje en coche"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2320,
+      "word": "electronic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪˌlekˈtrɑːnɪk]",
+        "br": "[ɪˌlekˈtrɒnɪk]",
+        "gb": "[ɪlekˈtrɔnɪk]"
+      },
+      "translations": {
+        "rus": "электронный",
+        "spa": "electrónico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please turn off your electronic devices.",
+            "ru": "Пожалуйста, выключите ваши электронные приборы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2321,
+      "word": "email",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːmeɪl]",
+        "br": "[ˈiːmeɪl]",
+        "gb": "[ɪˈmeɪl]"
+      },
+      "translations": {
+        "rus": "электронная почта, электронное письмо",
+        "spa": "el correo electrónico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I sent you an email.",
+            "ru": "Я отправил тебе электронное письмо."
+          },
+          {
+            "en": "I forgot my email address.",
+            "ru": "Я забыл свой адрес электронной почты."
+          },
+          {
+            "en": "Invalid email address.",
+            "ru": "Недопустимый адрес электронной почты."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2322,
+      "word": "essential",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪˈsenʃl]",
+        "br": "[ɪˈsenʃl]",
+        "gb": "[ɪˈsenʃəl]"
+      },
+      "translations": {
+        "rus": "существенный, главный, необходимый, важный",
+        "spa": "esencial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That is essential.",
+            "ru": "Это главное."
+          },
+          {
+            "en": "Fear is essential for survival.",
+            "ru": "Страх необходим для выживания."
+          },
+          {
+            "en": "Health is essential to happiness.",
+            "ru": "Здоровье необходимо для счастья."
+          },
+          {
+            "en": "Patience is essential for a teacher.",
+            "ru": "Терпение – важнейшая вещь для учителя."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That is essential.",
+            "es": "Eso es esencial."
+          },
+          {
+            "en": "Food is essential to life.",
+            "es": "La comida es esencial para la vida."
+          },
+          {
+            "en": "Good eating habits are essential.",
+            "es": "Los buenos hábitos en el comer son esenciales."
+          },
+          {
+            "en": "Memory is an essential function of our brain.",
+            "es": "La memoria es una función esencial de nuestro cerebro."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2323,
+      "word": "flash card",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flæʃ] [kɑːrd]",
+        "br": "[flæʃ] [kɑːd]",
+        "gb": "[flæʃ] [kɑːd]"
+      },
+      "translations": {
+        "rus": "флеш-карта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2324,
+      "word": "floppy disk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflɑːpi] [dɪsk]",
+        "br": "[ˈflɒpi] [dɪsk]",
+        "gb": "[ˈflɔpɪ] [dɪsk]"
+      },
+      "translations": {
+        "rus": "дискета",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2325,
+      "word": "hard drive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɑːrd] [draɪv]",
+        "br": "[hɑːd] [draɪv]",
+        "gb": "[hɑːd] [draɪv]"
+      },
+      "translations": {
+        "rus": "жесткий диск",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2326,
+      "word": "information",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnfərˈmeɪʃn]",
+        "br": "[ˌɪnfəˈmeɪʃn]",
+        "gb": "[ɪnfəˈmeɪʃn]"
+      },
+      "translations": {
+        "rus": "информация, сведения, информационный",
+        "spa": "la información"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for the information.",
+            "ru": "Спасибо за информацию."
+          },
+          {
+            "en": "I need information about her.",
+            "ru": "Мне нужны сведения о ней."
+          },
+          {
+            "en": "Where is the information counter?",
+            "ru": "Где информационная стойка?"
+          },
+          {
+            "en": "Who gave you this information?",
+            "ru": "Кто дал вам эту информацию?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where can I get information?",
+            "es": "¿Dónde puedo obtener información?"
+          },
+          {
+            "en": "I just need some information.",
+            "es": "Solo necesito algo de información."
+          },
+          {
+            "en": "Thank you for the information.",
+            "es": "Gracias por la información."
+          },
+          {
+            "en": "Please send us more information.",
+            "es": "Por favor, mándenos más información."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2327,
+      "word": "infrared",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪnfrəˈred]",
+        "br": "[ˌɪnfrəˈred]",
+        "gb": "[ɪnfrəˈrɛd]"
+      },
+      "translations": {
+        "rus": "инфракрасный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2328,
+      "word": "instruction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈstrʌkʃn]",
+        "br": "[ɪnˈstrʌkʃn]",
+        "gb": "[ɪnˈstrʌkʃn]"
+      },
+      "translations": {
+        "rus": "инструкция, команда",
+        "spa": "la instrucción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you read the instructions?",
+            "ru": "Ты читал инструкцию?"
+          },
+          {
+            "en": "I don't always follow instructions.",
+            "ru": "Я не всегда следую инструкциям."
+          },
+          {
+            "en": "Your instructions are being carried out.",
+            "ru": "Ваши инструкции выполняются."
+          },
+          {
+            "en": "I tried to follow the instructions.",
+            "ru": "Я пытался следовать инструкциям."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2330,
+      "word": "interface",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪntərfeɪs]",
+        "br": "[ˈɪntəfeɪs]",
+        "gb": "[ˈɪntəfeɪs]"
+      },
+      "translations": {
+        "rus": "интерфейс",
+        "spa": "el (la) interfaz, el (la) interface"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The interface is very intuitive.",
+            "ru": "Интерфейс очень интуитивно понятен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2331,
+      "word": "joystick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɔɪstɪk]",
+        "br": "[ˈdʒɔɪstɪk]",
+        "gb": "[ˈʤɔɪstɪk]"
+      },
+      "translations": {
+        "rus": "джойстик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2332,
+      "word": "keyboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkiːbɔːrd]",
+        "br": "[ˈkiːbɔːd]",
+        "gb": "[ˈkiːbɔːd]"
+      },
+      "translations": {
+        "rus": "клавиатура",
+        "spa": "el teclado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He switched from keyboard to voice mode.",
+            "ru": "Он переключился с режима ввода с клавиатуры на голосовой."
+          },
+          {
+            "en": "If you boot up your system without the keyboard being plugged in, you will see an error message.",
+            "ru": "Если при начальной загрузке не подключена клавиатура, вы увидите сообщение об ошибке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "music",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2333,
+      "word": "laptop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlæptɑːp]",
+        "br": "[ˈlæptɒp]",
+        "gb": "[ˈlæptɒp]"
+      },
+      "translations": {
+        "rus": "ноутбук",
+        "spa": "el portátil, la computadora portátil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to upgrade the hard drive on my laptop.",
+            "ru": "Я хочу обновить жесткий диск на своем ноутбуке."
+          },
+          {
+            "en": "He uses a laptop for business when he travels.",
+            "ru": "Когда он путешествует, он использует ноутбук в деловых целях."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2335,
+      "word": "link",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɪŋk]",
+        "br": "[lɪŋk]",
+        "gb": "[lɪŋk]"
+      },
+      "translations": {
+        "rus": "ссылка, связь",
+        "spa": "el enlace"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for the link.",
+            "ru": "Спасибо за ссылку."
+          },
+          {
+            "en": "There is no link between these two.",
+            "ru": "Между этими двумя нет связи."
+          },
+          {
+            "en": "Click on the link below.",
+            "ru": "Кликните по ссылке ниже."
+          },
+          {
+            "en": "Your link isn't working.",
+            "ru": "Твоя ссылка не работает."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Click on the link.",
+            "es": "Haz click en el enlace."
+          },
+          {
+            "en": "I'll send you the link.",
+            "es": "Le voy a enviar el enlace."
+          },
+          {
+            "en": "I'll give you the link to the website.",
+            "es": "Te voy a dar el enlace a la página web."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2338,
+      "word": "memory",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmeməri]",
+        "br": "[ˈmeməri]",
+        "gb": "[ˈmemərɪ]"
+      },
+      "translations": {
+        "rus": "память, воспоминания",
+        "spa": "la memoria"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a long memory.",
+            "ru": "У него хорошая память."
+          },
+          {
+            "en": "Alice's memory will live on.",
+            "ru": "Память об Алисе будет жить."
+          },
+          {
+            "en": "The lessons remain fresh in her memory.",
+            "ru": "Эти уроки по-прежнему свежи в её памяти."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You have a good memory.",
+            "es": "Tienes buena memoria."
+          },
+          {
+            "en": "I wish I had a better memory.",
+            "es": "Me gustaría tener mejor memoria."
+          },
+          {
+            "en": "He has a remarkable memory.",
+            "es": "Él tiene una memoria notable."
+          },
+          {
+            "en": "It is still fresh in my memory.",
+            "es": "Aún lo tengo fresco en mi memoria."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 631,
+      "word": "message",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmesɪdʒ]",
+        "br": "[ˈmesɪdʒ]",
+        "gb": "[ˈmesɪʤ]"
+      },
+      "translations": {
+        "rus": "сообщение, послание, донесение, извещение, письмо, идейное содержание",
+        "spa": "el mensaje, el recado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sent her a message.",
+            "ru": "Он послал ей сообщение."
+          },
+          {
+            "en": "I couldn't get across the message.",
+            "ru": "Я не мог понятно изложить свою позицию."
+          },
+          {
+            "en": "Did you get the message?",
+            "ru": "Ты получила сообщение?"
+          },
+          {
+            "en": "This message is for him.",
+            "ru": "Это сообщение для него."
+          },
+          {
+            "en": "I got a message from them.",
+            "ru": "Я получил от них сообщение."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He sent her a message.",
+            "es": "Él le envió un mensaje."
+          },
+          {
+            "en": "Give him the message when he comes back.",
+            "es": "Dale el recado cuando él vuelva."
+          },
+          {
+            "en": "Did you get the message?",
+            "es": "¿Recibiste el mensaje?"
+          },
+          {
+            "en": "Why didn't he message me?",
+            "es": "¿Por qué él no me mandó un mensaje?"
+          },
+          {
+            "en": "I just got your message.",
+            "es": "Acabo de recibir tu mensaje."
+          },
+          {
+            "en": "He hasn't left any message.",
+            "es": "Él no ha dejado ningún mensaje."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "computer",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2339,
+      "word": "modem",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": "[ˈməʊdem]",
+        "gb": "[ˈməʊdəm]"
+      },
+      "translations": {
+        "rus": "модем",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2340,
+      "word": "monitor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːnɪtər]",
+        "br": "[ˈmɒnɪtə(r)]",
+        "gb": "[ˈmɔnɪtə]"
+      },
+      "translations": {
+        "rus": "монитор",
+        "spa": "el monitor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That monitor is expensive.",
+            "ru": "Этот монитор дорогой."
+          },
+          {
+            "en": "Have you calibrated your monitor?",
+            "ru": "Ты откалибровал свой монитор?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2342,
+      "word": "motherboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌðərbɔːrd]",
+        "br": "[ˈmʌðəbɔːd]",
+        "gb": "[ˈmʌðəbɔːd]"
+      },
+      "translations": {
+        "rus": "материнская плата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 178,
+      "word": "mouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maʊs]",
+        "br": "[maʊs]",
+        "gb": "[maʊs]"
+      },
+      "translations": {
+        "rus": "мышь",
+        "spa": "el ratón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mouse is under the floor.",
+            "ru": "Мышь под полом."
+          },
+          {
+            "en": "The hawk caught a mouse.",
+            "ru": "Сокол поймал мышь."
+          },
+          {
+            "en": "A mouse is a timid creature.",
+            "ru": "Мышь — робкое существо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The mouse ran underneath the bed.",
+            "es": "El ratón corrió debajo de la cama."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "computer",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2343,
+      "word": "net",
+      "pos": "noun",
+      "transcription": {
+        "us": "[net]",
+        "br": "[net]",
+        "gb": "[net]"
+      },
+      "translations": {
+        "rus": "сеть, сетка",
+        "spa": "la red"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He fixed the net.",
+            "ru": "Он починил сеть."
+          },
+          {
+            "en": "The nets were loaded with fish.",
+            "ru": "Сети были полны рыбы."
+          },
+          {
+            "en": "The fishermen are using nets.",
+            "ru": "Рыбаки пользуются сетями."
+          },
+          {
+            "en": "Google+ is a social net.",
+            "ru": "Google+ - это социальная сеть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He fixed the net.",
+            "es": "Él reparó la red."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2344,
+      "word": "network",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnetwɜːrk]",
+        "br": "[ˈnetwɜːk]",
+        "gb": "[ˈnetwɜːk]"
+      },
+      "translations": {
+        "rus": "сеть",
+        "spa": "la red"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He owned a network of shops.",
+            "ru": "Он владел сетью магазинов."
+          },
+          {
+            "en": "He hooked up his computer to the network.",
+            "ru": "Он подключил свой компьютер к сети."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like social networking web sites.",
+            "es": "Me gustan las páginas web de redes sociales."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2345,
+      "word": "obsolete",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɑːbsəˈliːt]",
+        "br": "[ˈɒbsəliːt]",
+        "gb": "[ˈɔbsəliːt]"
+      },
+      "translations": {
+        "rus": "устаревший",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2346,
+      "word": "operating system",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈɔpəreɪtɪŋ] [ˈsɪstɪm]"
+      },
+      "translations": {
+        "rus": "операционная система",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 1571,
+      "word": "overload",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvərləʊd]",
+        "br": "[ˈəʊvələʊd]",
+        "gb": "[ˈəʊvələʊd]"
+      },
+      "translations": {
+        "rus": "перегрузка, перегруженность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "computer"
+      ]
+    },
+    {
+      "id": 2347,
+      "word": "player",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpleɪər]",
+        "br": "[ˈpleɪə(r)]",
+        "gb": "[ˈpleɪə]"
+      },
+      "translations": {
+        "rus": "проигрыватель, игрок",
+        "spa": "el jugador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a tennis player.",
+            "ru": "Я игрок в теннис."
+          },
+          {
+            "en": "He's not a team player.",
+            "ru": "Он не командный игрок."
+          },
+          {
+            "en": "He was a rugby player.",
+            "ru": "Он был игроком в регби."
+          },
+          {
+            "en": "How many players are there?",
+            "ru": "Сколько всего игроков?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He looks like a player.",
+            "es": "Él parece un jugador."
+          },
+          {
+            "en": "Each player did his best.",
+            "es": "Cada jugador dio lo mejor de si mismo."
+          },
+          {
+            "en": "Bill is a baseball player.",
+            "es": "Bill es un jugador de béisbol."
+          },
+          {
+            "en": "The player faked an injury.",
+            "es": "El jugador fingió una lesión."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2348,
+      "word": "power switch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaʊər] [swɪtʃ]",
+        "br": "[ˈpaʊə(r)] [swɪtʃ]",
+        "gb": "[ˈpaʊə] [swɪʧ]"
+      },
+      "translations": {
+        "rus": "выключатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 1819,
+      "word": "printer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɪntər]",
+        "br": "[ˈprɪntə(r)]",
+        "gb": "[ˈprɪntə]"
+      },
+      "translations": {
+        "rus": "принтер, устройство для печати",
+        "spa": "la impresora"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't have a printer.",
+            "ru": "У меня нет принтера."
+          },
+          {
+            "en": "I bought this printer yesterday.",
+            "ru": "Я вчера купил этот принтер."
+          },
+          {
+            "en": "I need paper for the printer.",
+            "ru": "Мне нужна бумага для принтера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2349,
+      "word": "processing unit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːsesɪŋ] [ˈjuːnɪt]",
+        "br": "[ˈprəʊsesɪŋ] [ˈjuːnɪt]",
+        "gb": "[ˈprəʊsesɪŋ] [ˈjuːnɪt]"
+      },
+      "translations": {
+        "rus": "вычислительная единица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2350,
+      "word": "program",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprəʊɡræm]",
+        "br": "[ˈprəʊɡræm]",
+        "gb": "[ˈprəʊgræm]"
+      },
+      "translations": {
+        "rus": "программа (компьютерная)",
+        "spa": "el programa (informático)"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The program could not be compiled due to a syntax error.",
+            "ru": "Программа не могла скомпилироваться из-за синтаксической ошибки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2351,
+      "word": "provider",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈvaɪdər]",
+        "br": "[prəˈvaɪdə(r)]",
+        "gb": "[prəˈvaɪdə]"
+      },
+      "translations": {
+        "rus": "поставщик, провайдер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction"
+      ]
+    },
+    {
+      "id": 2352,
+      "word": "query",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkwɪri]",
+        "br": "[ˈkwɪəri]",
+        "gb": "[ˈkwɪərɪ]"
+      },
+      "translations": {
+        "rus": "запрос, вопрос",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2353,
+      "word": "reality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[riˈæləti]",
+        "br": "[riˈæləti]",
+        "gb": "[riːˈælɪtɪ]"
+      },
+      "translations": {
+        "rus": "реальность, действительность",
+        "spa": "la realidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You can't escape from reality.",
+            "ru": "От реальности не сбежать."
+          },
+          {
+            "en": "They can't handle reality.",
+            "ru": "Действительность им не по зубам."
+          },
+          {
+            "en": "I made you aware of reality.",
+            "ru": "Я вернул тебя к реальности."
+          },
+          {
+            "en": "His dream has become a reality.",
+            "ru": "Его мечта стала реальностью."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The only truth is reality.",
+            "es": "La única verdad es la realidad."
+          },
+          {
+            "en": "You should face the reality.",
+            "es": "Deberías afrontar la realidad."
+          },
+          {
+            "en": "His dream has become a reality.",
+            "es": "Su sueño se ha hecho realidad."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2026,
+      "word": "reliable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈlaɪəbl]",
+        "br": "[rɪˈlaɪəbl]",
+        "gb": "[rɪˈlaɪəbl]"
+      },
+      "translations": {
+        "rus": "надежный, верный",
+        "spa": "fiable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is a reliable person.",
+            "ru": "Она надёжный человек."
+          },
+          {
+            "en": "I think you're reliable.",
+            "ru": "Я думаю, ты надёжный человек."
+          },
+          {
+            "en": "You're the most reliable friend I have.",
+            "ru": "Ты мой самый надёжный друг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2354,
+      "word": "scale",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skeɪl]",
+        "br": "[skeɪl]",
+        "gb": "[skeɪl]"
+      },
+      "translations": {
+        "rus": "масштаб, весы, шкала, масштабный",
+        "spa": "la escala"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the scale of this map?",
+            "ru": "Каков масштаб этой карты?"
+          },
+          {
+            "en": "Step on the scale.",
+            "ru": "Встань на весы."
+          },
+          {
+            "en": "Put the meat on the scales.",
+            "ru": "Положите мясо на весы."
+          },
+          {
+            "en": "Please put your baggage on this scale.",
+            "ru": "Поставьте, пожалуйста, багаж на эти весы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What's the scale of this map?",
+            "es": "¿A qué escala está este mapa?"
+          },
+          {
+            "en": "I am doing business on a large scale.",
+            "es": "Estoy haciendo negocios a gran escala."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2357,
+      "word": "scanner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskænər]",
+        "br": "[ˈskænə(r)]",
+        "gb": "[ˈskænə]"
+      },
+      "translations": {
+        "rus": "сканер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2358,
+      "word": "search",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɜːrtʃ]",
+        "br": "[sɜːtʃ]",
+        "gb": "[sɜːʧ]"
+      },
+      "translations": {
+        "rus": "поиск",
+        "spa": "la búsqueda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How is your job search going?",
+            "ru": "Как идут поиски работы?"
+          },
+          {
+            "en": "Life is a constant search.",
+            "ru": "Жизнь — это постоянный поиск."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Life is a constant search.",
+            "es": "La vida es una búsqueda constante."
+          },
+          {
+            "en": "We've made a thorough search.",
+            "es": "Realizamos una búsqueda a fondo."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1631,
+      "word": "security",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɪˈkjʊrəti]",
+        "br": "[sɪˈkjʊərəti]",
+        "gb": "[sɪˈkjʊərɪtɪ]"
+      },
+      "translations": {
+        "rus": "безопасность, охрана",
+        "spa": "la seguridad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm in charge of security.",
+            "ru": "Я отвечаю за безопасность."
+          },
+          {
+            "en": "Security before everything else.",
+            "ru": "Безопасность прежде всего."
+          },
+          {
+            "en": "Security will be tightened.",
+            "ru": "Будут усилены меры безопасности."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have a security breach.",
+            "es": "Tenemos una brecha de seguridad."
+          },
+          {
+            "en": "Are there any security updates?",
+            "es": "¿Hay alguna actualización de la seguridad?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "computer",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2359,
+      "word": "server",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrvər]",
+        "br": "[ˈsɜːvə(r)]",
+        "gb": "[ˈsɜːvər]"
+      },
+      "translations": {
+        "rus": "сервер",
+        "spa": "el camarero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The server is down again.",
+            "ru": "Сервер снова упал."
+          },
+          {
+            "en": "We moved the project to a new server.",
+            "ru": "Мы перенесли проект на новый сервер."
+          },
+          {
+            "en": "I can't check my mail. The server is down.",
+            "ru": "Я не могу проверить почту. Сервер лежит."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2360,
+      "word": "set",
+      "pos": "noun",
+      "transcription": {
+        "us": "[set]",
+        "br": "[set]",
+        "gb": "[set]"
+      },
+      "translations": {
+        "rus": "набор, комплект, конфигурация",
+        "spa": "el juego, el conjunto, la serie, la colección"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I bought a set of table linen.",
+            "ru": "Я купил комплект столового белья."
+          },
+          {
+            "en": "I've finally got the whole set!",
+            "ru": "Наконец-то я получил весь набор!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2361,
+      "word": "significant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[sɪɡˈnɪfɪkənt]",
+        "br": "[sɪɡˈnɪfɪkənt]",
+        "gb": "[sɪgˈnɪfɪkənt]"
+      },
+      "translations": {
+        "rus": "значительный, важный, существенный",
+        "spa": "importante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was significantly older than her.",
+            "ru": "Я был значительно старше её."
+          },
+          {
+            "en": "He has made a significant decision.",
+            "ru": "Он принял важное решение."
+          },
+          {
+            "en": "Why is that significant?",
+            "ru": "Почему это существенно?"
+          },
+          {
+            "en": "There is one significant difference.",
+            "ru": "Есть одно значительное различие."
+          },
+          {
+            "en": "This is a very significant discovery.",
+            "ru": "Это очень важное открытие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you think that's significant?",
+            "es": "¿Crees que es importante?"
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2362,
+      "word": "site",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪt]",
+        "br": "[saɪt]",
+        "gb": "[saɪt]"
+      },
+      "translations": {
+        "rus": "сайт, место, участок",
+        "spa": "el sitio, el lugar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're updating the site.",
+            "ru": "Мы обновляем сайт."
+          },
+          {
+            "en": "This site is ideal for our house.",
+            "ru": "Это идеальное место для нашего дома."
+          },
+          {
+            "en": "Bookmark this site.",
+            "ru": "Добавь этот сайт в закладки."
+          },
+          {
+            "en": "I have to create a new site.",
+            "ru": "Мне надо создать новый сайт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This site is quite useful.",
+            "es": "Este sitio es muy útil."
+          },
+          {
+            "en": "This site is ideal for our house.",
+            "es": "Este es el sitio ideal para nuestra casa."
+          },
+          {
+            "en": "Our web site attracts a lot of users.",
+            "es": "Nuestro sitio web atrae muchos usuarios."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2363,
+      "word": "source",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[sɔːrs]",
+        "br": "[sɔːs]",
+        "gb": "[sɔːs]"
+      },
+      "translations": {
+        "rus": "источник, исходный",
+        "spa": "la fuente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Beans are a very good source of protein.",
+            "ru": "Бобы — очень хороший источник белка."
+          },
+          {
+            "en": "Sources dry up.",
+            "ru": "Источники пересыхают."
+          },
+          {
+            "en": "He refused to disclose the source of his information.",
+            "ru": "Он отказался раскрыть источник своей информации."
+          },
+          {
+            "en": "Information from various intelligence sources.",
+            "ru": "Информация из различных разведывательных источников."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I can't reveal my source.",
+            "es": "No puedo revelar mis fuentes."
+          },
+          {
+            "en": "Is it a good source of protein?",
+            "es": "¿Es una buena fuente de proteína?"
+          },
+          {
+            "en": "What are the sources of happiness?",
+            "es": "¿Cuáles son las fuentes de la felicidad?"
+          },
+          {
+            "en": "That was the source of his troubles.",
+            "es": "Esa era la fuente de sus problemas."
+          },
+          {
+            "en": "I got the news from a reliable source.",
+            "es": "Obtuve la noticia de una fuente confiable."
+          },
+          {
+            "en": "They had no alternative energy sources.",
+            "es": "No tenían fuentes de energía alternativa."
+          },
+          {
+            "en": "Sunshine is the main source of vitamin D.",
+            "es": "La luz solar es la principal fuente de vitamina D."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "ecology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2364,
+      "word": "speakers",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈspikərz]"
+      },
+      "translations": {
+        "rus": "аудио-колонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2365,
+      "word": "storage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːrɪdʒ]",
+        "br": "[ˈstɔːrɪdʒ]",
+        "gb": "[ˈstɔːrɪʤ]"
+      },
+      "translations": {
+        "rus": "хранение, хранилище",
+        "spa": "el almacenamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We only use our basement for storage.",
+            "ru": "Мы используем наш подвал для хранения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2367,
+      "word": "surge protector",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɜːrdʒ] [prəˈtektər]",
+        "br": "[sɜːdʒ] [prəˈtektə(r)]",
+        "gb": "[sɜːʤ] [prəˈtektə]"
+      },
+      "translations": {
+        "rus": "сетевой фильтр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2368,
+      "word": "system unit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪstəm] [ˈjuːnɪt]",
+        "br": "[ˈsɪstəm] [ˈjuːnɪt]",
+        "gb": "[ˈsɪstɪm] [ˈjuːnɪt]"
+      },
+      "translations": {
+        "rus": "системный блок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2301,
+      "word": "to browse",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [braʊz]",
+        "br": "[tə] [braʊz]",
+        "gb": "[tuː] [braʊz]"
+      },
+      "translations": {
+        "rus": "просматривать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2304,
+      "word": "to carry out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈkæri] [aʊt]",
+        "br": "[tə] [ˈkæri] [aʊt]",
+        "gb": "[tuː] [ˈkærɪ] [aʊt]"
+      },
+      "translations": {
+        "rus": "выполнять, реализовывать, осуществлять (план, приказ, обещание и т.п.)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We all have certain duties and jobs to carry out.",
+            "ru": "У всех нас есть обязанности и дела, которые мы должны исполнять."
+          },
+          {
+            "en": "Although in poor health, she continued to carry out her duties.",
+            "ru": "Несмотря на слабое здоровье, она продолжала выполнять свои обязанности."
+          },
+          {
+            "en": "The gunmen carried out their threat and shot the man.",
+            "ru": "Бандиты привели угрозу в исполнение и застрелили его."
+          },
+          {
+            "en": "You should carry out your promises.",
+            "ru": "Ты должен выполнять свои обещания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 876,
+      "word": "to count",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kaʊnt]",
+        "br": "[tə] [kaʊnt]",
+        "gb": "[tuː] [kaʊnt]"
+      },
+      "translations": {
+        "rus": "считать",
+        "spa": "contar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can your daughter count yet?",
+            "ru": "Ваша дочь уже умеет считать?"
+          },
+          {
+            "en": "Count the plates on the table.",
+            "ru": "Посчитайте тарелки на столе."
+          },
+          {
+            "en": "You can count on me.",
+            "ru": "Вы можете рассчитывать на меня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I counted up to 200.",
+            "es": "Conté hasta 200."
+          },
+          {
+            "en": "You can count on him.",
+            "es": "Se puede contar con él."
+          },
+          {
+            "en": "I know how to count to 100.",
+            "es": "Sé contar hasta cien."
+          },
+          {
+            "en": "We're counting on you to help.",
+            "es": "Contamos con tu ayuda."
+          },
+          {
+            "en": "You can count on me.",
+            "es": "Puedes contar conmigo."
+          },
+          {
+            "en": "I count on your help.",
+            "es": "Cuento con tu ayuda."
+          },
+          {
+            "en": "The boy can count to ten.",
+            "es": "El muchacho puede contar hasta diez."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2309,
+      "word": "to crack",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kræk]",
+        "br": "[tə] [kræk]",
+        "gb": "[tuː] [kræk]"
+      },
+      "translations": {
+        "rus": "взломать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2312,
+      "word": "to deploy",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈplɔɪ]",
+        "br": "[tə] [dɪˈplɔɪ]",
+        "gb": "[tuː] [dɪˈplɔɪ]"
+      },
+      "translations": {
+        "rus": "развертывать, дислоцировать, применять",
+        "spa": "desplegar, desplegarse, utilizar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 534,
+      "word": "to design",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈzaɪn]",
+        "br": "[tə] [dɪˈzaɪn]",
+        "gb": "[tuː] [dɪˈzaɪn]"
+      },
+      "translations": {
+        "rus": "проектировать, разрабатывать, конструировать",
+        "spa": "diseñar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He designed the perfect crime.",
+            "ru": "Он спланировал идеальное преступление."
+          },
+          {
+            "en": "Mayuko designed her own clothes.",
+            "ru": "Маюко сама разработала дизайн своей одежды."
+          },
+          {
+            "en": "Who designed the White House?",
+            "ru": "Кто спроектировал Белый дом?"
+          },
+          {
+            "en": "A vexillographer is someone who designs flags.",
+            "ru": "Вексиллограф — это тот, кто разрабатывает флаги."
+          },
+          {
+            "en": "He designed the car.",
+            "ru": "Он сконструировал автомобиль."
+          },
+          {
+            "en": "The architect designed that building.",
+            "ru": "Архитектор спроектировал это здание."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who designed the White House?",
+            "es": "¿Quién diseñó la Casa Blanca?"
+          },
+          {
+            "en": "Mayuko designed her own clothes.",
+            "es": "Mayuko diseñó su propia ropa."
+          },
+          {
+            "en": "This desk is designed for children.",
+            "es": "Este pupitre está diseñado para niños."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "computer",
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 903,
+      "word": "to determine",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈtɜːrmɪn]",
+        "br": "[tə] [dɪˈtɜːmɪn]",
+        "gb": "[tuː] [dɪˈtɜːmɪn]"
+      },
+      "translations": {
+        "rus": "определять, решать, устанавливать",
+        "spa": "determinar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Determine your goals.",
+            "ru": "Определи свои цели."
+          },
+          {
+            "en": "Being determines consciousness.",
+            "ru": "Бытие определяет сознание."
+          },
+          {
+            "en": "They determined the date for the trip.",
+            "ru": "Они определили дату поездки."
+          },
+          {
+            "en": "It is hard to determine the distance.",
+            "ru": "Трудно определить расстояние."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Our attitude determines our life.",
+            "es": "Tu actitud determina tu vida."
+          },
+          {
+            "en": "The blood pressure can't be determined.",
+            "es": "La presión de la sangre no se puede determinar."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 542,
+      "word": "to display",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈspleɪ]",
+        "br": "[tə] [dɪˈspleɪ]",
+        "gb": "[tuː] [dɪsˈpleɪ]"
+      },
+      "translations": {
+        "rus": "отображать, показывать, выставлять",
+        "spa": "exponer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He liked to display his erudition.",
+            "ru": "Он любил похвастаться своей эрудицией."
+          },
+          {
+            "en": "Toys were displayed in the store window.",
+            "ru": "Игрушки были выставлены в витрине магазина."
+          },
+          {
+            "en": "She proudly displayed her jewels.",
+            "ru": "Она с гордостью продемонстрировала свои драгоценности."
+          },
+          {
+            "en": "That boy displayed no fear.",
+            "ru": "Этот парень не показывал страха."
+          },
+          {
+            "en": "The author doesn't display much talent in his book.",
+            "ru": "Автор не демонстрирует большого таланта в своей книге."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2318,
+      "word": "to download",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˌdaʊnˈləʊd]",
+        "br": "[tə] [ˌdaʊnˈləʊd]",
+        "gb": "[tuː] [ˈdaʊnləʊd]"
+      },
+      "translations": {
+        "rus": "загружать, скачать",
+        "spa": "descargar, bajar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm downloading a game.",
+            "ru": "Я скачиваю игру."
+          },
+          {
+            "en": "I have downloaded a videogame.",
+            "ru": "Я скачал видеоигру."
+          },
+          {
+            "en": "I haven't downloaded the files yet.",
+            "ru": "Я ещё не скачал файлы."
+          },
+          {
+            "en": "Did you download the apps that I told you about?",
+            "ru": "Ты скачал приложения, о которых я тебе говорил?"
+          },
+          {
+            "en": "It's just a picture I downloaded from the Internet.",
+            "ru": "Это просто картинка, которую я скачал в Интернете."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 928,
+      "word": "to enable",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪˈneɪbl]",
+        "br": "[tu] [ɪˈneɪbl]",
+        "gb": "[tuː] [ɪˈneɪbl]"
+      },
+      "translations": {
+        "rus": "включать, позволять, разрешать",
+        "spa": "permitir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Hard work enabled him to succeed.",
+            "ru": "Трудолюбие позволило ему добиться успеха."
+          },
+          {
+            "en": "Money enables you to buy anything.",
+            "ru": "Деньги дают вам возможность купить что угодно."
+          },
+          {
+            "en": "His help enabled me to finish the work.",
+            "ru": "Его помощь позволила мне закончить эту работу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "His position enabled him to do so.",
+            "es": "Su posición le permitía hacer eso."
+          },
+          {
+            "en": "Money enables you to buy anything.",
+            "es": "El dinero te permite comprar cualquier cosa."
+          },
+          {
+            "en": "Hard work enabled him to get good marks.",
+            "es": "El trabajo duro le permitió sacar buenas notas."
+          },
+          {
+            "en": "His salary enables him to live in comfort.",
+            "es": "Su salario le permite llevar una vida confortable."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 933,
+      "word": "to enhance",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪnˈhæns]",
+        "br": "[tu] [ɪnˈhɑːns]",
+        "gb": "[tuː] [ɪnˈhɑːns]"
+      },
+      "translations": {
+        "rus": "улучшать, усиливать, повышать, увеличивать",
+        "spa": "mejorar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can we enhance the image?",
+            "ru": "Можем ли мы улучшить изображение?"
+          },
+          {
+            "en": "Garlic enhances the flavor of meals.",
+            "ru": "Чеснок усиливает вкус еды."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 967,
+      "word": "to find",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [faɪnd]",
+        "br": "[tə] [faɪnd]",
+        "gb": "[tuː] [faɪnd]"
+      },
+      "translations": {
+        "rus": "найти, обнаружить",
+        "spa": "encontrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have to find it.",
+            "ru": "Я должен найти это."
+          },
+          {
+            "en": "Can you find the mistake?",
+            "ru": "Можешь найти ошибку?"
+          },
+          {
+            "en": "Please find me my overcoat.",
+            "ru": "Найдите моё пальто."
+          },
+          {
+            "en": "You're not an easy person to find.",
+            "ru": "Тебя нелегко найти."
+          },
+          {
+            "en": "One can always find time.",
+            "ru": "Время всегда можно найти."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Try to find it.",
+            "es": "Trata de encontrarlo."
+          },
+          {
+            "en": "I must find it.",
+            "es": "Tengo que encontrarlo."
+          },
+          {
+            "en": "I can find them.",
+            "es": "Puedo encontrarlos."
+          },
+          {
+            "en": "Did you find Tom?",
+            "es": "¿Encontraste a Tom?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a1",
+        "top100"
+      ]
+    },
+    {
+      "id": 995,
+      "word": "to handle",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈhændl]",
+        "br": "[tə] [ˈhændl]",
+        "gb": "[tuː] [hændl]"
+      },
+      "translations": {
+        "rus": "обрабатывать, обходиться, справляться, держать в руках, обращаться",
+        "spa": "manejar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Parcels are handled at the next window.",
+            "ru": "Посылки обрабатываются в соседнем окошке."
+          },
+          {
+            "en": "I don't handle stress well.",
+            "ru": "Я не справляюсь со стрессом."
+          },
+          {
+            "en": "How do you handle stress?",
+            "ru": "Как ты справляешься со стрессом?"
+          },
+          {
+            "en": "You handled the situation well.",
+            "ru": "Вы хорошо справились с ситуацией."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let me handle this.",
+            "es": "Déjame manejar esto."
+          },
+          {
+            "en": "I think I can handle it.",
+            "es": "Creo que puedo manejarlo."
+          },
+          {
+            "en": "This machine is easy to handle.",
+            "es": "Esta máquina es fácil de manejar."
+          },
+          {
+            "en": "This car is easy to handle.",
+            "es": "Este auto es fácil de manejar."
+          },
+          {
+            "en": "She's good at handling children.",
+            "es": "Tiene buena mano con los niños."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2329,
+      "word": "to intercept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˌɪntərˈsept]",
+        "br": "[tu] [ˌɪntəˈsept]",
+        "gb": "[tuː] [ˈɪntəsept]"
+      },
+      "translations": {
+        "rus": "перехватывать (сигнал и т. д.)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2334,
+      "word": "to last",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [læst]",
+        "br": "[tə] [lɑːst]",
+        "gb": "[tuː] [lɑːst]"
+      },
+      "translations": {
+        "rus": "длиться",
+        "spa": "durar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rain lasted four days.",
+            "ru": "Дождь длился четыре дня."
+          },
+          {
+            "en": "The meeting lasted two hours.",
+            "ru": "Встреча продлилась два часа."
+          },
+          {
+            "en": "Our love will last forever.",
+            "ru": "Наша любовь будет длиться вечно."
+          },
+          {
+            "en": "Our friendship did not last.",
+            "ru": "Наша дружба долго не продлилась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2336,
+      "word": "to link",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lɪŋk]",
+        "br": "[tə] [lɪŋk]",
+        "gb": "[tuː] [lɪŋk]"
+      },
+      "translations": {
+        "rus": "связывать",
+        "spa": "conectar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The events were closely linked.",
+            "ru": "События были тесно связаны друг с другом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The events were closely linked.",
+            "es": "Los acontecimientos estaban estrechamente conectados."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2337,
+      "word": "to log in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lɔːɡ] [ɪn]",
+        "br": "[tə] [lɒɡ] [ɪn]",
+        "gb": "[tuː] [lɔg] [ɪn]"
+      },
+      "translations": {
+        "rus": "входить, подключаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 1075,
+      "word": "to match",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [mætʃ]",
+        "br": "[tə] [mætʃ]",
+        "gb": "[tuː] [mæʧ]"
+      },
+      "translations": {
+        "rus": "соответствовать, подходить",
+        "spa": "caber, encajar, igualar, emparejar, hacer juego con"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your words don't match your actions.",
+            "ru": "Ваши слова не соответствуют вашим действиям."
+          },
+          {
+            "en": "I am no match for him.",
+            "ru": "Я ему не подхожу."
+          },
+          {
+            "en": "She changed her schedule to match his.",
+            "ru": "Она изменила свой график, чтобы соответствовать его графику."
+          },
+          {
+            "en": "We are a perfect match.",
+            "ru": "Мы идеально подходим друг другу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2341,
+      "word": "to monitor",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈmɑːnɪtər]",
+        "br": "[tə] [ˈmɒnɪtə(r)]",
+        "gb": "[tuː] [ˈmɔnɪtə]"
+      },
+      "translations": {
+        "rus": "контролировать, следить",
+        "spa": "controlar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll monitor your progress from my computer.",
+            "ru": "Я буду следить за твоим прогрессом с моего компьютера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1109,
+      "word": "to perform",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pərˈfɔːrm]",
+        "br": "[tə] [pəˈfɔːm]",
+        "gb": "[tuː] [pəˈfɔːm]"
+      },
+      "translations": {
+        "rus": "исполнять, выполнять, выступать, играть",
+        "spa": "realizar, representar, rendir, obtener resultados, funcionar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She performed her duties.",
+            "ru": "Она выполнила свой долг."
+          },
+          {
+            "en": "The doctor performed the operation.",
+            "ru": "Врач выполнил операцию."
+          },
+          {
+            "en": "Most of the work is performed by robots.",
+            "ru": "Большая часть работы выполняется роботами."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The doctor performed the operation.",
+            "es": "El doctor realizó la operación."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1136,
+      "word": "to provide",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [prəˈvaɪd]",
+        "br": "[tə] [prəˈvaɪd]",
+        "gb": "[tuː] [prəˈvaɪd]"
+      },
+      "translations": {
+        "rus": "предоставлять, обеспечивать, снабжать",
+        "spa": "proveer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Free snacks will be provided.",
+            "ru": "Будут предоставлены бесплатные закуски."
+          },
+          {
+            "en": "Bees provide honey for us.",
+            "ru": "Пчёлы обеспечивают нас мёдом."
+          },
+          {
+            "en": "The company provides them with uniforms.",
+            "ru": "Эта компания предоставляет им униформу."
+          },
+          {
+            "en": "He provided us with everything we needed.",
+            "ru": "Он обеспечил нас всем необходимым."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Cows provide us with milk.",
+            "es": "Las vacas nos proveen de leche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1149,
+      "word": "to receive",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈsiːv]",
+        "br": "[tə] [rɪˈsiːv]",
+        "gb": "[tuː] [rɪˈsiːv]"
+      },
+      "translations": {
+        "rus": "получать, принимать",
+        "spa": "recibir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you received the cheque?",
+            "ru": "Ты получил чек?"
+          },
+          {
+            "en": "Did you receive the letter?",
+            "ru": "Вы получили письмо?"
+          },
+          {
+            "en": "Ask and you shall receive.",
+            "ru": "Спросите, и вы получите."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you receive my letter?",
+            "es": "¿Recibiste mi carta?"
+          },
+          {
+            "en": "I received a warm welcome.",
+            "es": "Recibí una calurosa bienvenida."
+          },
+          {
+            "en": "He receives a high salary.",
+            "es": "Él recibe un gran salario."
+          },
+          {
+            "en": "I received a good job offer.",
+            "es": "He recibido una buena oferta de trabajo."
+          },
+          {
+            "en": "We received a large parcel.",
+            "es": "Recibimos un gran paquete."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1181,
+      "word": "to respond",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈspɑːnd]",
+        "br": "[tə] [rɪˈspɒnd]",
+        "gb": "[tuː] [rɪsˈpɔnd]"
+      },
+      "translations": {
+        "rus": "отвечать, реагировать",
+        "spa": "responder"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have they responded?",
+            "ru": "Они ответили?"
+          },
+          {
+            "en": "How should I respond?",
+            "ru": "Как я должен ответить?"
+          },
+          {
+            "en": "They're not responding.",
+            "ru": "Они не отвечают."
+          },
+          {
+            "en": "We should respond.",
+            "ru": "Мы должны ответить."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You don't have to respond.",
+            "es": "No hace falta que responda."
+          },
+          {
+            "en": "He responded to his parents.",
+            "es": "Respondió a sus padres."
+          },
+          {
+            "en": "I can respond to his question.",
+            "es": "Puedo responder a su pregunta."
+          },
+          {
+            "en": "He's not responding to my texts.",
+            "es": "Él no responde a mis mensajes de texto."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2355,
+      "word": "to scale",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [skeɪl]",
+        "br": "[tə] [skeɪl]",
+        "gb": "[tuː] [skeɪl]"
+      },
+      "translations": {
+        "rus": "масштабировать",
+        "spa": "escalar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2356,
+      "word": "to scan",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [skæn]",
+        "br": "[tə] [skæn]",
+        "gb": "[tuː] [skæn]"
+      },
+      "translations": {
+        "rus": "сканировать, просматривать",
+        "spa": "escanear, escudriñar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My father quickly scanned the newspaper.",
+            "ru": "Мой отец быстро просмотрел газету."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1204,
+      "word": "to send",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [send]",
+        "br": "[tə] [send]",
+        "gb": "[tuː] [send]"
+      },
+      "translations": {
+        "rus": "отправлять, посылать",
+        "spa": "enviar, mandar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Send the kids to bed.",
+            "ru": "Отправь детей спать."
+          },
+          {
+            "en": "I'm sending her to California.",
+            "ru": "Я посылаю её в Калифорнию."
+          },
+          {
+            "en": "Where did you send him?",
+            "ru": "Куда вы его отправили?"
+          },
+          {
+            "en": "I am sending the invoice by fax.",
+            "ru": "Я посылаю инвойс по факсу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll send it to you.",
+            "es": "Os lo mandaré."
+          },
+          {
+            "en": "Send the kids to bed.",
+            "es": "Manda a los niños a la cama."
+          },
+          {
+            "en": "Will you send it by mail?",
+            "es": "¿Lo enviará por correo?"
+          },
+          {
+            "en": "I'm sending you a book.",
+            "es": "Te mando un libro."
+          },
+          {
+            "en": "I want to send a telegram.",
+            "es": "Quiero enviar un telegrama."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1221,
+      "word": "to solve",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɑːlv]",
+        "br": "[tə] [sɒlv]",
+        "gb": "[tuː] [sɔlv]"
+      },
+      "translations": {
+        "rus": "решать (проблему)",
+        "spa": "resolver"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mystery has been solved.",
+            "ru": "Тайна была раскрыта."
+          },
+          {
+            "en": "They should act to solve the problem.",
+            "ru": "Им следует действовать, чтобы решить проблему."
+          },
+          {
+            "en": "It was amazing how quickly he solved the problem.",
+            "ru": "Поразительно, как быстро он решил эту задачу."
+          },
+          {
+            "en": "We have to find a way to solve this problem.",
+            "ru": "Мы должны найти способ решить эту проблему."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I solved the puzzle.",
+            "es": "Resolví el puzzle."
+          },
+          {
+            "en": "Try solving the problem.",
+            "es": "Intenta resolver el problema."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2366,
+      "word": "to surf",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɜːrf]",
+        "br": "[tə] [sɜːf]",
+        "gb": "[tuː] [sɜːf]"
+      },
+      "translations": {
+        "rus": "просматривать различные сайты в сети",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2370,
+      "word": "to type",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [taɪp]",
+        "br": "[tə] [taɪp]",
+        "gb": "[tuː] [taɪp]"
+      },
+      "translations": {
+        "rus": "печатать (текст)",
+        "spa": "teclear, escribir a máquina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I made a typing error.",
+            "ru": "Я опечатался."
+          },
+          {
+            "en": "She types well.",
+            "ru": "Она печатает хорошо."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1273,
+      "word": "to update",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˌʌpˈdeɪt]",
+        "br": "[tu] [ˌʌpˈdeɪt]",
+        "gb": "[tuː] [ˌʌpˈdeɪt]"
+      },
+      "translations": {
+        "rus": "обновлять",
+        "spa": "actualizar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The system is updating.",
+            "ru": "Система обновляется."
+          },
+          {
+            "en": "We're updating the site.",
+            "ru": "Мы обновляем сайт."
+          },
+          {
+            "en": "How can I update this software?",
+            "ru": "Как мне обновить эту программу?"
+          },
+          {
+            "en": "Why don't you update your website?",
+            "ru": "Почему вы не обновляете свой сайт?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll update it soon.",
+            "es": "Lo actualizaré pronto."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2369,
+      "word": "tool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːl]",
+        "br": "[tuːl]",
+        "gb": "[tuːl]"
+      },
+      "translations": {
+        "rus": "инструмент, орудие, средство",
+        "spa": "la herramienta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Money is a pure tool - nothing more.",
+            "ru": "Деньги - это просто средство, и больше ничего."
+          },
+          {
+            "en": "I can't use this tool.",
+            "ru": "Я не могу использовать этот инструмент."
+          },
+          {
+            "en": "This tool is handy for various jobs.",
+            "ru": "Этот инструмент удобен для выполнения различных работ."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2371,
+      "word": "update",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌpdeɪt]",
+        "br": "[ˈʌpdeɪt]",
+        "gb": "[ˈʌpdeɪt]"
+      },
+      "translations": {
+        "rus": "обновление, актуализация",
+        "spa": "la actualización, la puesta al día"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thanks for the update.",
+            "ru": "Спасибо за обновление."
+          },
+          {
+            "en": "A new update is available.",
+            "ru": "Доступно новое обновление."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2372,
+      "word": "user",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjuːzər]",
+        "br": "[ˈjuːzə(r)]",
+        "gb": "[ˈjuːzə]"
+      },
+      "translations": {
+        "rus": "пользователь, потребитель",
+        "spa": "el usuario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Our web site attracts a lot of users.",
+            "ru": "Наш веб-сайт привлекает много пользователей."
+          },
+          {
+            "en": "Simplicity in design attracts users.",
+            "ru": "Простота дизайна привлекает пользователей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2373,
+      "word": "virtual",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvɜːrtʃuəl]",
+        "br": "[ˈvɜːtʃuəl]",
+        "gb": "[ˈvɜːtjʊəl]"
+      },
+      "translations": {
+        "rus": "виртуальный",
+        "spa": "virtual"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 2374,
+      "word": "voice message",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vɔɪs] [ˈmesɪdʒ]",
+        "br": "[vɔɪs] [ˈmesɪdʒ]",
+        "gb": "[vɔɪs] [ˈmesɪʤ]"
+      },
+      "translations": {
+        "rus": "голосовое сообщение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2375,
+      "word": "voltage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvəʊltɪdʒ]",
+        "br": "[ˈvəʊltɪdʒ]",
+        "gb": "[ˈvəʊltɪʤ]"
+      },
+      "translations": {
+        "rus": "напряжение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    },
+    {
+      "id": 2376,
+      "word": "window",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndəʊ]",
+        "br": "[ˈwɪndəʊ]",
+        "gb": "[ˈwɪndəʊ]"
+      },
+      "translations": {
+        "rus": "окно",
+        "spa": "la ventana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The window won't shut.",
+            "ru": "Окно не закрывается."
+          },
+          {
+            "en": "She opened a window to let in some air.",
+            "ru": "Она открыла окно, чтобы проветрить помещение."
+          },
+          {
+            "en": "The window banged shut.",
+            "ru": "Окно с грохотом закрылось."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who left the window open?",
+            "es": "¿Quién dejó la ventana abierta?"
+          },
+          {
+            "en": "The room has two windows.",
+            "es": "El cuarto tiene dos ventanas."
+          },
+          {
+            "en": "He looked out of the window.",
+            "es": "Miró por la ventana."
+          },
+          {
+            "en": "Please keep the windows open.",
+            "es": "Por favor, dejá las ventanas abiertas."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2377,
+      "word": "www, worldwide web",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdʌbljuː dʌbljuː ˈdʌbljuː], [ˌwɜːrldˈwaɪd] [web]",
+        "br": "[ˌdʌbljuː dʌbljuː ˈdʌbljuː], [ˌwɜːldˈwaɪd] [web]",
+        "gb": "[ˌdʌbljuːˌdʌbljuːˈdʌbljuː] [ˈwɜːldwaɪd] [web]"
+      },
+      "translations": {
+        "rus": "всемирная сеть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer"
+      ]
+    }
+  ]
+}

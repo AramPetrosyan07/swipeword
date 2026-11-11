@@ -1,0 +1,5231 @@
+{
+  "category": {
+    "id": "transport",
+    "name_rus": "Транспорт",
+    "type": "topic",
+    "word_count": 186
+  },
+  "words": [
+    {
+      "id": 10160,
+      "word": "accelerator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əkˈseləreɪtər]",
+        "br": "[əkˈseləreɪtə(r)]",
+        "gb": "[əkˈseləreɪtə]"
+      },
+      "translations": {
+        "rus": "акселератор",
+        "spa": "el acelerador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10161,
+      "word": "accumulator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkjuːmjəleɪtər]",
+        "br": "[əˈkjuːmjəleɪtə(r)]",
+        "gb": "[əˈkjuːmjʊleɪtə]"
+      },
+      "translations": {
+        "rus": "аккумулятор",
+        "spa": "el acumulador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10162,
+      "word": "aeroplane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈerəpleɪn]",
+        "br": "[ˈeərəpleɪn]",
+        "gb": "[ˈɛərəpleɪn]"
+      },
+      "translations": {
+        "rus": "самолёт",
+        "spa": "el avión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The aeroplane must carry some spare fuel.",
+            "es": "El avión debe llevar un poco de combustible de reserva."
+          }
+        ]
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 7322,
+      "word": "aircraft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈerkræft]",
+        "br": "[ˈeəkrɑːft]",
+        "gb": "[ˈɛəkrɑːft]"
+      },
+      "translations": {
+        "rus": "воздушное судно, самолёт",
+        "spa": "el avión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One of the aircraft's engines cut out.",
+            "ru": "Один из двигателей самолета остановился."
+          },
+          {
+            "en": "How many missiles can this aircraft carry?",
+            "ru": "Сколько ракет может нести этот самолёт?"
+          },
+          {
+            "en": "I am going to shoot down enemy aircraft.",
+            "ru": "Я собираюсь сбивать вражеские самолеты."
+          },
+          {
+            "en": "We shot down enemy aircraft.",
+            "ru": "Мы сбивали вражеские самолёты."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "top3000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10163,
+      "word": "airplane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈerpleɪn]",
+        "br": "[ˈeəpleɪn]",
+        "gb": "[ˈɛəpleɪn]"
+      },
+      "translations": {
+        "rus": "самолёт",
+        "spa": "el avión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The airplane took off on time.",
+            "ru": "Самолёт взлетел вовремя."
+          },
+          {
+            "en": "How old is this airplane?",
+            "ru": "Сколько лет этому самолёту?"
+          },
+          {
+            "en": "Can you fly an airplane?",
+            "ru": "Вы можете пилотировать самолёт?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 8450,
+      "word": "anchor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæŋkər]",
+        "br": "[ˈæŋkə(r)]",
+        "gb": "[ˈæŋkə]"
+      },
+      "translations": {
+        "rus": "якорь",
+        "spa": "el ancla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Drop the anchor!",
+            "ru": "Брось якорь!"
+          },
+          {
+            "en": "The ship dropped anchor.",
+            "ru": "Корабль бросил якорь."
+          },
+          {
+            "en": "Let's drop anchor here.",
+            "ru": "Давай бросим якорь здесь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 10164,
+      "word": "armrest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmrest]",
+        "br": "[ˈɑːmrest]",
+        "gb": "[ˈɑːmrɛst]"
+      },
+      "translations": {
+        "rus": "подлокотник",
+        "spa": "el apoyabrazos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10165,
+      "word": "automobile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːtəməbiːl]",
+        "br": "[ˈɔːtəməbiːl]",
+        "gb": "[ˈɔːtəməʊbiːl]"
+      },
+      "translations": {
+        "rus": "автомобиль, машина",
+        "spa": "el automóvil, el coche"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The street is too narrow for the passage of automobiles.",
+            "ru": "Улица слишком узкая для проезда машин."
+          },
+          {
+            "en": "An automobile ran over him.",
+            "ru": "Его переехал автомобиль."
+          },
+          {
+            "en": "I want to buy an automobile.",
+            "ru": "Я хочу купить автомобиль."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to buy an automobile.",
+            "es": "Me dan ganas de comprar un automóvil."
+          },
+          {
+            "en": "An automobile has four wheels.",
+            "es": "Un coche tiene cuatro ruedas."
+          },
+          {
+            "en": "Automobiles are made in factories.",
+            "es": "Los automóviles se hacen en fabricas."
+          }
+        ]
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10166,
+      "word": "back door, rear door",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæk] [dɔːr], [rɪr] [dɔːr]",
+        "br": "[bæk] [dɔː(r)], [rɪə(r)] [dɔː(r)]",
+        "gb": "[bæk] [dɔː] [rɪə] [dɔː]"
+      },
+      "translations": {
+        "rus": "задняя дверь",
+        "spa": "la puerta trasera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 2395,
+      "word": "barrier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæriər]",
+        "br": "[ˈbæriə(r)]",
+        "gb": "[ˈbærɪə]"
+      },
+      "translations": {
+        "rus": "барьер, преграда, ограждение, шлагбаум",
+        "spa": "la barrera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "As a citizen of the world, I know ways of overcoming cultural barriers.",
+            "ru": "Как гражданин мира, я знаю способы преодоления культурных барьеров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6862,
+      "word": "battery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbætəri]",
+        "br": "[ˈbætəri]",
+        "gb": "[ˈbætərɪ]"
+      },
+      "translations": {
+        "rus": "батарея, аккумулятор",
+        "spa": "la batería, la pila"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your battery is running low.",
+            "ru": "У тебя батарея на исходе."
+          },
+          {
+            "en": "The battery's dead.",
+            "ru": "Аккумулятор разряжен."
+          },
+          {
+            "en": "The battery has to be charged.",
+            "ru": "Надо зарядить батарею."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "transport"
+      ]
+    },
+    {
+      "id": 5918,
+      "word": "boat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊt]",
+        "br": "[bəʊt]",
+        "gb": "[bəʊt]"
+      },
+      "translations": {
+        "rus": "лодка, судно",
+        "spa": "el barco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The boat runs on steam.",
+            "ru": "Это судно движется под действием пара."
+          },
+          {
+            "en": "Their boat was overweighted.",
+            "ru": "Их лодка была перегружена."
+          },
+          {
+            "en": "We boated to Antwerp.",
+            "ru": "Мы отправились в Антверпен на корабле."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I slept on the boat.",
+            "es": "Dormí en el barco."
+          },
+          {
+            "en": "You can go there in a boat.",
+            "es": "Puedes ir allí en barco."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 5919,
+      "word": "body",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːdi]",
+        "br": "[ˈbɒdi]",
+        "gb": "[ˈbɔdɪ]"
+      },
+      "translations": {
+        "rus": "кузов, корпус",
+        "spa": "la carrocería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The body of a plane is called the fuselage.",
+            "ru": "Корпус самолета называется фюзеляжем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10167,
+      "word": "bonnet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːnɪt]",
+        "br": "[ˈbɒnɪt]",
+        "gb": "[ˈbɔnɪt]"
+      },
+      "translations": {
+        "rus": "капот",
+        "spa": "el capó, el cofre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10034,
+      "word": "boot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[buːt]",
+        "br": "[buːt]",
+        "gb": "[buːt]"
+      },
+      "translations": {
+        "rus": "багажник",
+        "spa": "el maletero, el baúl, la maletera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's in your boot?",
+            "ru": "Что у тебя в багажнике?"
+          },
+          {
+            "en": "Put your bag in the boot.",
+            "ru": "Положи свою сумку в багажник."
+          },
+          {
+            "en": "He opened the boot.",
+            "ru": "Он открыл багажник."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10168,
+      "word": "brake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪk]",
+        "br": "[breɪk]",
+        "gb": "[breɪk]"
+      },
+      "translations": {
+        "rus": "тормоз",
+        "spa": "el freno, frenar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10169,
+      "word": "brake fluid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪk] [ˈfluːɪd]",
+        "br": "[breɪk] [ˈfluːɪd]",
+        "gb": "[breɪk] [ˈfluːɪd]"
+      },
+      "translations": {
+        "rus": "тормозная жидкость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10170,
+      "word": "brake light",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪk] [laɪt]",
+        "br": "[breɪk] [laɪt]",
+        "gb": "[breɪk] [laɪt]"
+      },
+      "translations": {
+        "rus": "стоп-сигнал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 8520,
+      "word": "breakdown",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbreɪkdaʊn]",
+        "br": "[ˈbreɪkdaʊn]",
+        "gb": "[ˈbreɪkdaʊn]"
+      },
+      "translations": {
+        "rus": "поломка, авария",
+        "spa": "la avería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you having a breakdown?",
+            "ru": "У вас поломка?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 2408,
+      "word": "bulldozer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊldəʊzər]",
+        "br": "[ˈbʊldəʊzə(r)]",
+        "gb": "[ˈbʊldəʊzə]"
+      },
+      "translations": {
+        "rus": "бульдозер",
+        "spa": "el bulldozer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "transport"
+      ]
+    },
+    {
+      "id": 10171,
+      "word": "bumper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌmpər]",
+        "br": "[ˈbʌmpə(r)]",
+        "gb": "[ˈbʌmpə]"
+      },
+      "translations": {
+        "rus": "бампер",
+        "spa": "el parachoques"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10172,
+      "word": "buoy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɔɪ], [ˈbuːi]",
+        "br": "[bɔɪ]",
+        "gb": "[bɔɪ]"
+      },
+      "translations": {
+        "rus": "буй",
+        "spa": "la boya"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 5926,
+      "word": "bus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs]",
+        "br": "[bʌs]",
+        "gb": "[bʌs]"
+      },
+      "translations": {
+        "rus": "автобус",
+        "spa": "el autobús"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was on that bus.",
+            "ru": "Я был в том автобусе."
+          },
+          {
+            "en": "He got off the bus.",
+            "ru": "Он вышел из автобуса."
+          },
+          {
+            "en": "Are you waiting for the bus?",
+            "ru": "Ты ждёшь автобус?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm afraid of the bus.",
+            "es": "El autobús me da miedo."
+          },
+          {
+            "en": "I cannot drive a bus.",
+            "es": "No sé conducir un autobús."
+          },
+          {
+            "en": "Is there a bus service?",
+            "es": "¿Hay un autobús que va?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10094,
+      "word": "cab",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæb]",
+        "br": "[kæb]",
+        "gb": "[kæb]"
+      },
+      "translations": {
+        "rus": "такси",
+        "spa": "el taxi"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Jim called me a cab.",
+            "es": "Jim me pidió un taxi."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10173,
+      "word": "cabriolet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæbriəʊleɪ]",
+        "br": "[ˈkæbriəʊleɪ]",
+        "gb": "[kæbrɪəʊˈleɪ]"
+      },
+      "translations": {
+        "rus": "кабриолет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 5936,
+      "word": "car",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kɑːr]",
+        "br": "[kɑː(r)]",
+        "gb": "[kɑː]"
+      },
+      "translations": {
+        "rus": "автомобиль, машина, автомобильный, вагон",
+        "spa": "el coche, el automóvil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I will buy a car.",
+            "ru": "Я куплю автомобиль."
+          },
+          {
+            "en": "I'm in the rear car.",
+            "ru": "Я в последнем вагоне."
+          },
+          {
+            "en": "Bob's father works in a car factory.",
+            "ru": "Отец Боба работает на автомобильном заводе."
+          },
+          {
+            "en": "I have bought a car.",
+            "ru": "Я купил машину."
+          },
+          {
+            "en": "This is a new type of car.",
+            "ru": "Это новый тип автомобиля."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I will buy a car.",
+            "es": "Compraré el coche."
+          },
+          {
+            "en": "Did the car look old?",
+            "es": "¿El coche parecía viejo?"
+          },
+          {
+            "en": "She gave him the car.",
+            "es": "Ella le dio el coche."
+          },
+          {
+            "en": "He is washing the car.",
+            "es": "Está lavando el coche."
+          },
+          {
+            "en": "At last, he got the car.",
+            "es": "Por fin consiguió el coche."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10174,
+      "word": "car alarm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːr] [əˈlɑːrm]",
+        "br": "[kɑː(r)] [əˈlɑːm]",
+        "gb": "[kɑː] [əˈlɑːm]"
+      },
+      "translations": {
+        "rus": "автосигнализация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10096,
+      "word": "car park",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːr] [pɑːrk]",
+        "br": "[kɑː(r)] [pɑːk]",
+        "gb": "[kɑː] [pɑːk]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10175,
+      "word": "carburetor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrbəreɪtər]",
+        "br": "[ˌkɑːbəˈretə(r)]",
+        "gb": "[ˈkɑːbjʊretə]"
+      },
+      "translations": {
+        "rus": "карбюратор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10176,
+      "word": "carburettor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrbəreɪtər]",
+        "br": "[ˌkɑːbəˈretə(r)]",
+        "gb": "[ˈkɑːbjʊretə]"
+      },
+      "translations": {
+        "rus": "карбюратор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10177,
+      "word": "clutch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klʌtʃ]",
+        "br": "[klʌtʃ]",
+        "gb": "[klʌʧ]"
+      },
+      "translations": {
+        "rus": "сцепление",
+        "spa": "el embrague"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She popped the clutch and the car moved.",
+            "ru": "Она отпустила педаль сцепления, и машина тронулась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10178,
+      "word": "compartment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpɑːrtmənt]",
+        "br": "[kəmˈpɑːtmənt]",
+        "gb": "[kəmˈpɑːtmənt]"
+      },
+      "translations": {
+        "rus": "купе, отсек",
+        "spa": "el compartimiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10179,
+      "word": "convertible",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈvɜːrtəbl]",
+        "br": "[kənˈvɜːtəbl]",
+        "gb": "[kənˈvɜːtəbl]"
+      },
+      "translations": {
+        "rus": "кабриолет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10180,
+      "word": "cooling system",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈkuːlɪŋ] [ˈsɪstɪm]"
+      },
+      "translations": {
+        "rus": "система охлаждения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10181,
+      "word": "crankshaft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkræŋkʃæft]",
+        "br": "[ˈkræŋkʃɑːft]",
+        "gb": "[ˈkræŋkʃɑːft]"
+      },
+      "translations": {
+        "rus": "коленчатый вал",
+        "spa": "el cigüeñal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 5415,
+      "word": "cylinder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪlɪndər]",
+        "br": "[ˈsɪlɪndə(r)]",
+        "gb": "[ˈsɪlɪndə]"
+      },
+      "translations": {
+        "rus": "цилиндр",
+        "spa": "el cilindro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "transport"
+      ]
+    },
+    {
+      "id": 10182,
+      "word": "dashboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdæʃbɔːrd]",
+        "br": "[ˈdæʃbɔːd]",
+        "gb": "[ˈdæʃbɔːd]"
+      },
+      "translations": {
+        "rus": "приборная панель",
+        "spa": "el tablero de mandos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 7959,
+      "word": "deck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dek]",
+        "br": "[dek]",
+        "gb": "[dek]"
+      },
+      "translations": {
+        "rus": "палуба, настил",
+        "spa": "la cubierta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ship had three decks.",
+            "ru": "На корабле было три палубы."
+          },
+          {
+            "en": "We were walking on the deck.",
+            "ru": "Мы прогуливались по палубе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "transport"
+      ]
+    },
+    {
+      "id": 10183,
+      "word": "diesel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdiːzl]",
+        "br": "[ˈdiːzl]",
+        "gb": "[ˈdiːzəl]"
+      },
+      "translations": {
+        "rus": "дизельное топливо",
+        "spa": "el gasóleo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10184,
+      "word": "diesel locomotive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdiːzl] [ˌləʊkəˈməʊtɪv]",
+        "br": "[ˈdiːzl] [ˌləʊkəˈməʊtɪv]",
+        "gb": "[ˈdiːzəl] [ˈləʊkəməʊtɪv]"
+      },
+      "translations": {
+        "rus": "тепловоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10185,
+      "word": "dinghy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪŋɡi]",
+        "br": "[ˈdɪŋɡi]",
+        "gb": "[ˈdɪŋgɪ]"
+      },
+      "translations": {
+        "rus": "моторная лодка",
+        "spa": "el bote"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10186,
+      "word": "driver's license",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdraɪvərz] [laɪsns]",
+        "br": "[ˈdraɪvəz] [laɪsns]",
+        "gb": "[ˈdraɪvərz] [ˈlaɪsəns]"
+      },
+      "translations": {
+        "rus": "водительское удостоверение",
+        "spa": "la licencia de conducir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10187,
+      "word": "driving licence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdraɪvɪŋ] [ˈlaɪsns]",
+        "br": "[ˈdraɪvɪŋ] [ˈlaɪsns]",
+        "gb": "[ˈdraɪvɪŋ] [ˈlaɪsns]"
+      },
+      "translations": {
+        "rus": "водительское удостоверение",
+        "spa": "la licencia de conducir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10188,
+      "word": "electric locomotive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlektrɪk] [ˌləʊkəˈməʊtɪv]",
+        "br": "[ɪˈlektrɪk] [ˌləʊkəˈməʊtɪv]",
+        "gb": "[ɪˈlektrɪk] [ˈləʊkəməʊtɪv]"
+      },
+      "translations": {
+        "rus": "электровоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10189,
+      "word": "electric train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlektrɪk] [treɪn]",
+        "br": "[ɪˈlektrɪk] [treɪn]",
+        "gb": "[ɪˈlektrɪk] [treɪn]"
+      },
+      "translations": {
+        "rus": "электропоезд",
+        "spa": "el tren eléctrico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6470,
+      "word": "engine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈendʒɪn]",
+        "br": "[ˈendʒɪn]",
+        "gb": "[ˈenʤɪn]"
+      },
+      "translations": {
+        "rus": "двигатель",
+        "spa": "el motor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I took apart the engine.",
+            "ru": "Я разобрал двигатель."
+          },
+          {
+            "en": "Have you checked the engine?",
+            "ru": "Ты проверил двигатель?"
+          },
+          {
+            "en": "The car has a new engine.",
+            "ru": "У машины новый двигатель."
+          },
+          {
+            "en": "We are assembling the engine.",
+            "ru": "Мы собираем двигатель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You've stalled the engine.",
+            "es": "Tú has parado el motor."
+          },
+          {
+            "en": "How can I start the engine?",
+            "es": "¿Cómo puedo encender el motor?"
+          },
+          {
+            "en": "The engine doesn't function properly.",
+            "es": "El motor no funciona bien."
+          },
+          {
+            "en": "He stalled the engine three times.",
+            "es": "Él caló el motor en tres ocasiones."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2445,
+      "word": "excavator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈekskəveɪtər]",
+        "br": "[ˈekskəveɪtə(r)]",
+        "gb": "[ˈekskəveɪtə]"
+      },
+      "translations": {
+        "rus": "экскаватор",
+        "spa": "la excavadora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "transport"
+      ]
+    },
+    {
+      "id": 10190,
+      "word": "exhaust pipe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪɡˈzɔːst] [paɪp]",
+        "br": "[ɪɡˈzɔːst] [paɪp]",
+        "gb": "[ɪgˈzɔːst] [paɪp]"
+      },
+      "translations": {
+        "rus": "выхлопная труба",
+        "spa": "el tubo de escape"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10191,
+      "word": "express train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspres] [treɪn]",
+        "br": "[ɪkˈspres] [treɪn]",
+        "gb": "[ɪksˈpres] [treɪn]"
+      },
+      "translations": {
+        "rus": "поезд-экспресс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 1468,
+      "word": "failure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfeɪljər]",
+        "br": "[ˈfeɪljə(r)]",
+        "gb": "[ˈfeɪljə]"
+      },
+      "translations": {
+        "rus": "неудача, провал, отказ, недостаточность, сбой, неспособность, поломка, авария",
+        "spa": "el fracaso, la avería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a complete failure.",
+            "ru": "Это был полный провал."
+          },
+          {
+            "en": "I suffered from kidney failure.",
+            "ru": "Я страдал от почечной недостаточности."
+          },
+          {
+            "en": "We're going to have failures.",
+            "ru": "У нас будут неудачи."
+          },
+          {
+            "en": "This failure occurred because of you.",
+            "ru": "Этот сбой произошёл из-за тебя."
+          },
+          {
+            "en": "Don't laugh at my failure.",
+            "ru": "Не смейся над моей неудачей."
+          },
+          {
+            "en": "I am responsible for this failure.",
+            "ru": "Я в ответе за этот провал."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She did not let failure discourage her.",
+            "es": "Ella no dejaba que el fracaso la desalentara."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10192,
+      "word": "fan belt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fæn] [belt]",
+        "br": "[fæn] [belt]",
+        "gb": "[fæn] [belt]"
+      },
+      "translations": {
+        "rus": "ремень вентилятора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10108,
+      "word": "ferry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈferi]",
+        "br": "[ˈferi]",
+        "gb": "[ˈferɪ]"
+      },
+      "translations": {
+        "rus": "паром",
+        "spa": "el transbordador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll come by ferry.",
+            "ru": "Я приплыву на пароме."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10193,
+      "word": "fog lights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɑːɡ] [laɪts]",
+        "br": "[fɒɡ] [laɪts]",
+        "gb": "[fɔg] [laɪts]"
+      },
+      "translations": {
+        "rus": "противотуманные фары",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10194,
+      "word": "front door",
+      "pos": "noun",
+      "transcription": {
+        "us": "[frʌnt] [dɔːr]",
+        "br": "[frʌnt] [dɔː(r)]",
+        "gb": "[frʌnt] [dɔː]"
+      },
+      "translations": {
+        "rus": "передняя дверь",
+        "spa": "la puerta delantera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10195,
+      "word": "fuel gauge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfjuːəl] [ɡeɪdʒ]",
+        "br": "[ˈfjuːəl] [ɡeɪdʒ]",
+        "gb": "[fjʊəl] [geɪʤ]"
+      },
+      "translations": {
+        "rus": "указатель уровня топлива",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 3996,
+      "word": "garage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəˈrɑːʒ]",
+        "br": "[ˈɡærɑːʒ]",
+        "gb": "[ˈgærɑːʒ]"
+      },
+      "translations": {
+        "rus": "гараж",
+        "spa": "el garaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a garage?",
+            "ru": "У тебя есть гараж?"
+          },
+          {
+            "en": "I need you in the garage.",
+            "ru": "Ты нужен мне в гараже."
+          },
+          {
+            "en": "The freezer's in the garage.",
+            "ru": "Морозильник в гараже."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "oxford3000_b1",
+        "transport"
+      ]
+    },
+    {
+      "id": 10114,
+      "word": "garbage truck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːrbɪdʒ] [trʌk]",
+        "br": "[ˈɡɑːbɪdʒ] [trʌk]",
+        "gb": "[ˈgɑːbɪʤ] [trʌk]"
+      },
+      "translations": {
+        "rus": "мусоровоз",
+        "spa": "el camión de basura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The garbage truck is here.",
+            "ru": "Мусоровоз здесь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6514,
+      "word": "gas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs]",
+        "br": "[ɡæs]",
+        "gb": "[gæs]"
+      },
+      "translations": {
+        "rus": "бензин",
+        "spa": "la gasolina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are gas prices going down?",
+            "ru": "Цены на бензин падают?"
+          },
+          {
+            "en": "We're running out of gas.",
+            "ru": "У нас кончается бензин."
+          },
+          {
+            "en": "Who's paying for the gas?",
+            "ru": "Кто заплатит за бензин?"
+          },
+          {
+            "en": "We're running out of gas.",
+            "ru": "У нас кончается бензин."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We ran out of gas.",
+            "es": "Nos quedamos sin gasolina."
+          },
+          {
+            "en": "Oh, no! We're out of gas!",
+            "es": "¡Oh, no! ¡Se nos agotó la gasolina!"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10115,
+      "word": "gas station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs] [ˈsteɪʃn]",
+        "br": "[ɡæs] [ˈsteɪʃn]",
+        "gb": "[gæs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "автозаправочная станция, заправка, АЗС",
+        "spa": "la gasolinera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10196,
+      "word": "gas tank",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs] [tæŋk]",
+        "br": "[ɡæs] [tæŋk]",
+        "gb": "[gæs] [tæŋk]"
+      },
+      "translations": {
+        "rus": "бак для горючего",
+        "spa": "el depósito de gasolina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6516,
+      "word": "gasoline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡæsəliːn]",
+        "br": "[ˈɡæsəliːn]",
+        "gb": "[ˈɡæsəliːn]"
+      },
+      "translations": {
+        "rus": "бензин",
+        "spa": "la gasolina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Gasoline is scarce around here.",
+            "ru": "Бензин тут в дефиците."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 8869,
+      "word": "gear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɪr]",
+        "br": "[ɡɪə(r)]",
+        "gb": "[gɪə]"
+      },
+      "translations": {
+        "rus": "механизм, шестерня, передача, устройство, снаряжение",
+        "spa": "el engranaje, el mecanismo, el equipo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10197,
+      "word": "gear stick, gear lever",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɪr] [stɪk], [ɡɪr] [ˈlevər]",
+        "br": "[ɡɪə(r)] [stɪk], [ɡɪə(r)] [ˈliːvə(r)]",
+        "gb": "[gɪə] [stɪk] [gɪə] [ˈliːvə]"
+      },
+      "translations": {
+        "rus": "рычаг переключения передач",
+        "spa": "la palanca de cambios"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10198,
+      "word": "gearshift, shifter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɪrʃɪft], [ˈʃɪftər]",
+        "br": "[ˈɡɪəʃɪft], [ˈʃɪftə(r)]",
+        "gb": "[ˈgɪəʃɪft] [ˈʃɪftər]"
+      },
+      "translations": {
+        "rus": "рычаг переключения передач",
+        "spa": "la palanca de cambios"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10199,
+      "word": "handbrake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhændbreɪk]",
+        "br": "[ˈhændbreɪk]",
+        "gb": "[ˈhændbreɪk]"
+      },
+      "translations": {
+        "rus": "ручной тормоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10200,
+      "word": "hang-glider",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hæŋ] [ˈɡlaɪdər]",
+        "br": "[hæŋ] [ˈɡlaɪdə(r)]",
+        "gb": "[hæŋ] [ˈglaɪdə]"
+      },
+      "translations": {
+        "rus": "дельтаплан",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 8074,
+      "word": "harbor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːrbər]",
+        "br": "[ˈhɑːbə(r)]",
+        "gb": "[ˈhɑːbər]"
+      },
+      "translations": {
+        "rus": "гавань, порт",
+        "spa": "el puerto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are many ships in the harbor.",
+            "ru": "В гавани много кораблей."
+          },
+          {
+            "en": "The island has a fine harbor.",
+            "ru": "На острове есть хорошая гавань."
+          },
+          {
+            "en": "Our ship was approaching the harbor.",
+            "ru": "Наш корабль приближался к гавани."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "top3000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 8075,
+      "word": "harbour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːrbər]",
+        "br": "[ˈhɑːbə(r)]",
+        "gb": "[ˈhɑːbər]"
+      },
+      "translations": {
+        "rus": "гавань, порт",
+        "spa": "el puerto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are many ships in the harbour.",
+            "ru": "В гавани много кораблей."
+          },
+          {
+            "en": "The island has a fine harbour.",
+            "ru": "На острове есть хорошая гавань."
+          },
+          {
+            "en": "Our ship was approaching the harbour.",
+            "ru": "Наш корабль приближался к гавани."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "top3000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10201,
+      "word": "hatchback",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhætʃbæk]",
+        "br": "[ˈhætʃbæk]",
+        "gb": "[ˈhæʧbæk]"
+      },
+      "translations": {
+        "rus": "хетчбек",
+        "spa": "el coche con puerta trasera, el hatchback"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10202,
+      "word": "headlights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhedlaɪts]",
+        "br": "[ˈhedlaɪts]",
+        "gb": "[ˈhɛˌdlaɪts]"
+      },
+      "translations": {
+        "rus": "(передние) фары",
+        "spa": "el faro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10203,
+      "word": "headrest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhedrest]",
+        "br": "[ˈhedrest]",
+        "gb": "[ˈhedrest]"
+      },
+      "translations": {
+        "rus": "подголовник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 7015,
+      "word": "helicopter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhelɪkɑːptər]",
+        "br": "[ˈhelɪkɒptə(r)]",
+        "gb": "[ˈhelɪkɔptə]"
+      },
+      "translations": {
+        "rus": "вертолет",
+        "spa": "el helicóptero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is it your helicopter?",
+            "ru": "Это ваш вертолёт?"
+          },
+          {
+            "en": "How do helicopters fly?",
+            "ru": "Как летают вертолеты?"
+          },
+          {
+            "en": "We will fly in a helicopter.",
+            "ru": "Мы полетим на вертолёте."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "transport"
+      ]
+    },
+    {
+      "id": 2480,
+      "word": "helmet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhelmɪt]",
+        "br": "[ˈhelmɪt]",
+        "gb": "[ˈhelmɪt]"
+      },
+      "translations": {
+        "rus": "каска, шлем",
+        "spa": "el casco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wearing a helmet reduces the risk of head injury.",
+            "ru": "Ношение шлема снижает риск травмы головы."
+          },
+          {
+            "en": "The helmet law should reduce injuries in motorcycle accidents.",
+            "ru": "Закон об обязательном ношении шлема должен снизить травматизм при авариях с участием мотоциклов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "military_weapons",
+        "oxford5000_b2",
+        "transport"
+      ]
+    },
+    {
+      "id": 8081,
+      "word": "highway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhaɪweɪ]",
+        "br": "[ˈhaɪweɪ]",
+        "gb": "[ˈhaɪweɪ]"
+      },
+      "translations": {
+        "rus": "шоссе, автострада",
+        "spa": "la carretera, la autovía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The highway was empty.",
+            "ru": "Шоссе было пустым."
+          },
+          {
+            "en": "There's a bear crossing the highway.",
+            "ru": "Шоссе переходит медведь."
+          },
+          {
+            "en": "The highway runs parallel to the river.",
+            "ru": "Шоссе идёт параллельно реке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "transport"
+      ]
+    },
+    {
+      "id": 10204,
+      "word": "hood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hʊd]",
+        "br": "[hʊd]",
+        "gb": "[hʊd]"
+      },
+      "translations": {
+        "rus": "капот",
+        "spa": "el capó, el cofre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 8912,
+      "word": "horn",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɔːrn]",
+        "br": "[hɔːn]",
+        "gb": "[hɔːn]"
+      },
+      "translations": {
+        "rus": "рог, рожок, сигнал, гудок",
+        "spa": "el claxon"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Sound your horn to warn other drivers.",
+            "ru": "Подайте звуковой сигнал, чтобы предупредить других водителей."
+          },
+          {
+            "en": "Why did you beep your horn at her?",
+            "ru": "Зачем ты ей посигналил?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 10205,
+      "word": "icebreaker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪsbreɪkər]",
+        "br": "[ˈaɪsbreɪkə(r)]",
+        "gb": "[ˈaɪsbreɪkər]"
+      },
+      "translations": {
+        "rus": "ледокол",
+        "spa": "el rompehielos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10206,
+      "word": "ignition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪɡˈnɪʃn]",
+        "br": "[ɪɡˈnɪʃn]",
+        "gb": "[ɪgˈnɪʃn]"
+      },
+      "translations": {
+        "rus": "зажигание, воспламенение",
+        "spa": "la ignición, el arranque"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10207,
+      "word": "jeep",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒiːp]",
+        "br": "[dʒiːp]",
+        "gb": "[ʤiːp]"
+      },
+      "translations": {
+        "rus": "джип",
+        "spa": "el jeep"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10208,
+      "word": "jetty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒeti]",
+        "br": "[ˈdʒeti]",
+        "gb": "[ˈʤetɪ]"
+      },
+      "translations": {
+        "rus": "пристань",
+        "spa": "el embarcadero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10209,
+      "word": "kick scooter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɪk] [ˈskuːtər]",
+        "br": "[kɪk] [ˈskuːtə(r)]",
+        "gb": "[kɪk] [ˈskuːtə]"
+      },
+      "translations": {
+        "rus": "самокат, велосипед",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10210,
+      "word": "land rover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlænd] [rəʊvər]",
+        "br": "[ˈlænd] [rəʊvə(r)]",
+        "gb": "[ˈlænd] [rəʊvər]"
+      },
+      "translations": {
+        "rus": "вездеход",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10211,
+      "word": "license plate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪsns] [pleɪt]",
+        "br": "[ˈlaɪsns] [pleɪt]",
+        "gb": "[ˈlaɪsəns] [pleɪt]"
+      },
+      "translations": {
+        "rus": "номерной знак",
+        "spa": "la matrícula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10212,
+      "word": "limousine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪməziːn]",
+        "br": "[ˈlɪməziːn]",
+        "gb": "[ˈlɪmuːziːn]"
+      },
+      "translations": {
+        "rus": "лимузин",
+        "spa": "la limusina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10213,
+      "word": "local train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈləʊkl] [treɪn]",
+        "br": "[ˈləʊkl] [treɪn]",
+        "gb": "[ˈləʊkəl] [treɪn]"
+      },
+      "translations": {
+        "rus": "пригородный поезд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10214,
+      "word": "locomotive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌləʊkəˈməʊtɪv]",
+        "br": "[ˌləʊkəˈməʊtɪv]",
+        "gb": "[ˈləʊkəməʊtɪv]"
+      },
+      "translations": {
+        "rus": "локомотив",
+        "spa": "la locomotora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 1539,
+      "word": "lorry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɔːri]",
+        "br": "[ˈlɒri]",
+        "gb": "[ˈlɔrɪ]"
+      },
+      "translations": {
+        "rus": "грузовик",
+        "spa": "el camión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What colour is your lorry?",
+            "ru": "Какого цвета твой грузовик?"
+          },
+          {
+            "en": "The lorry tipped over.",
+            "ru": "Грузовик перевернулся."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6098,
+      "word": "main",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[meɪn]",
+        "br": "[meɪn]",
+        "gb": "[meɪn]"
+      },
+      "translations": {
+        "rus": "основной, главный",
+        "spa": "principal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Japanese live mainly on rice.",
+            "ru": "Японцы в основном едят рис."
+          },
+          {
+            "en": "That's the main gate.",
+            "ru": "Это главная дверь."
+          },
+          {
+            "en": "The main crop of Japan is rice.",
+            "ru": "Основная культура Японии - рис."
+          },
+          {
+            "en": "A taxi drew up at the main gate.",
+            "ru": "Такси подъехало к главным воротам."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is our main goal.",
+            "es": "Éste es nuestro principal objetivo."
+          },
+          {
+            "en": "Our main office is in Osaka.",
+            "es": "Nuestra oficina principal está en Osaka."
+          },
+          {
+            "en": "Who's giving the main speech?",
+            "es": "¿Quién pronunciará el principal discurso?"
+          },
+          {
+            "en": "The main streets are very wide.",
+            "es": "Las avenidas principales son muy anchas."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "transport"
+      ]
+    },
+    {
+      "id": 9047,
+      "word": "marine",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[məˈriːn]",
+        "br": "[məˈriːn]",
+        "gb": "[məˈriːn]"
+      },
+      "translations": {
+        "rus": "флот, морской",
+        "spa": "marino, la marina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Dolphins and whales are not fish, but rather marine mammals.",
+            "ru": "Дельфины и киты — не рыбы, а морские млекопитающие."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 10215,
+      "word": "mast",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mæst]",
+        "br": "[mɑːst]",
+        "gb": "[mɑːst]"
+      },
+      "translations": {
+        "rus": "мачта",
+        "spa": "el mástil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6596,
+      "word": "metro",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmetrəʊ]",
+        "br": "[ˈmetrəʊ]",
+        "gb": "[ˈmetrəʊ]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the nearest metro station?",
+            "ru": "Где ближайшая станция метро?"
+          },
+          {
+            "en": "Is there a metro station here?",
+            "ru": "Здесь есть станция метро?"
+          },
+          {
+            "en": "How much does it cost to take the metro?",
+            "ru": "Сколько стоит проезд в метро?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10216,
+      "word": "moorage",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmʊərɪʤ]"
+      },
+      "translations": {
+        "rus": "швартовка, причаливание, постановка на якорь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 7617,
+      "word": "motor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtər]",
+        "br": "[ˈməʊtə(r)]",
+        "gb": "[ˈməʊtə]"
+      },
+      "translations": {
+        "rus": "мотор, двигатель",
+        "spa": "el motor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The motor suddenly stalled.",
+            "ru": "Двигатель неожиданно заглох."
+          },
+          {
+            "en": "The motor works.",
+            "ru": "Мотор работает."
+          },
+          {
+            "en": "The motor needs a tune-up.",
+            "ru": "Мотор нуждается в регулировке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10217,
+      "word": "motor bike",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtər] [baɪk]",
+        "br": "[ˈməʊtə(r)] [baɪk]",
+        "gb": "[ˈməʊtə] [baɪk]"
+      },
+      "translations": {
+        "rus": "мопед",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6604,
+      "word": "motorbike",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtərbaɪk]",
+        "br": "[ˈməʊtəbaɪk]",
+        "gb": "[ˈməʊtəbaɪk]"
+      },
+      "translations": {
+        "rus": "мотоцикл",
+        "spa": "la motocicleta, la moto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His mother didn't allow him to ride a motorbike.",
+            "ru": "Его мать не позволяла ему ездить на мотоцикле."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I really want a motorbike.",
+            "es": "Realmente quiero una motocicleta."
+          },
+          {
+            "en": "Father bought me a motorbike.",
+            "es": "Mi padre me ha comprado una moto."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 6605,
+      "word": "motorcycle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtərsaɪkl]",
+        "br": "[ˈməʊtəsaɪkl]",
+        "gb": "[ˈməʊtəˈsaɪkl]"
+      },
+      "translations": {
+        "rus": "мотоцикл",
+        "spa": "la motocicleta, la moto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "When did you get a motorcycle?",
+            "ru": "Где ты достал мотоцикл?"
+          },
+          {
+            "en": "Do you like my motorcycle?",
+            "ru": "Тебе нравится мой мотоцикл?"
+          },
+          {
+            "en": "I wish I could buy a motorcycle.",
+            "ru": "Хотел бы я купить мотоцикл."
+          },
+          {
+            "en": "She rides a motorcycle well.",
+            "ru": "Она хорошо ездит на мотоцикле."
+          },
+          {
+            "en": "I also have a motorcycle.",
+            "ru": "У меня также есть мотоцикл."
+          },
+          {
+            "en": "Father bought me a motorcycle.",
+            "ru": "Отец купил мне мотоцикл."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I really want a motorcycle.",
+            "es": "Realmente quiero una motocicleta."
+          },
+          {
+            "en": "Father bought me a motorcycle.",
+            "es": "Mi padre me ha comprado una moto."
+          },
+          {
+            "en": "The motorcycles are very cheap.",
+            "es": "Las motos son muy baratas."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10218,
+      "word": "number plate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnʌmbər] [pleɪt]",
+        "br": "[ˈnʌmbə(r)] [pleɪt]",
+        "gb": "[ˈnʌmbə] [pleɪt]"
+      },
+      "translations": {
+        "rus": "номерной знак",
+        "spa": "la matrícula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6622,
+      "word": "oil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔɪl]",
+        "br": "[ɔɪl]",
+        "gb": "[ɔɪl]"
+      },
+      "translations": {
+        "rus": "нефть",
+        "spa": "el petróleo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The oil price is falling.",
+            "ru": "Цена нефти падает."
+          },
+          {
+            "en": "The price of oil is going up.",
+            "ru": "Цена на нефть растёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He made a fortune in oil.",
+            "es": "Hizo una fortuna en petróleo."
+          },
+          {
+            "en": "Japan has to import oil.",
+            "es": "Japón debe importar petróleo."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "transport"
+      ]
+    },
+    {
+      "id": 3199,
+      "word": "oil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔɪl]",
+        "br": "[ɔɪl]",
+        "gb": "[ɔɪl]"
+      },
+      "translations": {
+        "rus": "масло",
+        "spa": "el aceite"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please bring me vinegar and oil.",
+            "ru": "Принеси мне, пожалуйста, уксус и растительное масло."
+          },
+          {
+            "en": "Is there any salad oil in the bottle?",
+            "ru": "В бутылке осталось растительное масло для салата?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Oil and water don't mix.",
+            "es": "El aceite no se mezcla con el agua."
+          },
+          {
+            "en": "That was cooked in oil.",
+            "es": "Eso fue cocinado en aceite."
+          },
+          {
+            "en": "She fried fish in salad oil.",
+            "es": "Ella frio pescado en aceite para ensalada."
+          }
+        ]
+      },
+      "categories": [
+        "food",
+        "oxford3000_a2",
+        "top1000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10219,
+      "word": "oil pump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔɪl] [pʌmp]",
+        "br": "[ɔɪl] [pʌmp]",
+        "gb": "[ɔɪl] [pʌmp]"
+      },
+      "translations": {
+        "rus": "масляный насос",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6629,
+      "word": "parking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ]",
+        "br": "[ˈpɑːkɪŋ]",
+        "gb": "[ˈpɑːkɪŋ]"
+      },
+      "translations": {
+        "rus": "стоянка машин, парковка",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They allow parking here.",
+            "ru": "Они разрешают парковку здесь."
+          },
+          {
+            "en": "We easily found parking.",
+            "ru": "Мы легко нашли парковку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10220,
+      "word": "parking light",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [laɪt]",
+        "br": "[ˈpɑːkɪŋ] [laɪt]",
+        "gb": "[ˈpɑːkɪŋ] [laɪt]"
+      },
+      "translations": {
+        "rus": "габаритные огни",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10131,
+      "word": "parking lot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [lɑːt]",
+        "br": "[ˈpɑːkɪŋ] [lɒt]",
+        "gb": "[ˈpɑːkɪŋ] [lɔt]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10132,
+      "word": "parking space",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkɪŋ] [speɪs]",
+        "br": "[ˈpɑːkɪŋ] [speɪs]",
+        "gb": "[ˈpɑːkɪŋ] [speɪs]"
+      },
+      "translations": {
+        "rus": "стоянка машин",
+        "spa": "el estacionamiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10221,
+      "word": "passenger compartment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæsɪndʒər] [kəmˈpɑːrtmənt]",
+        "br": "[ˈpæsɪndʒə(r)] [kəmˈpɑːtmənt]",
+        "gb": "[ˈpæsɪnʤə] [kəmˈpɑːtmənt]"
+      },
+      "translations": {
+        "rus": "салон авто",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10222,
+      "word": "pedal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpedl]",
+        "br": "[ˈpedl]",
+        "gb": "[pedl]"
+      },
+      "translations": {
+        "rus": "педаль",
+        "spa": "el pedal, pedalear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10133,
+      "word": "pedestrian",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈdestriən]",
+        "br": "[pəˈdestriən]",
+        "gb": "[pɪˈdestrɪən]"
+      },
+      "translations": {
+        "rus": "пешеход",
+        "spa": "el peatón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Several pedestrians were slightly wounded.",
+            "ru": "Несколько пешеходов были легко ранены."
+          },
+          {
+            "en": "A policeman was gazing at a suspicious pedestrian.",
+            "ru": "Полицейский глядел на подозрительного пешехода."
+          },
+          {
+            "en": "Look out for pedestrians when you drive a car.",
+            "ru": "Обращайте внимание на пешеходов, когда вы едете на машине."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bus driver didn't see the pedestrian.",
+            "es": "El chofer de bus no vio al peatón."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6640,
+      "word": "petrol",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpetrəl]",
+        "br": "[ˈpetrəl]",
+        "gb": "[ˈpetrəl]"
+      },
+      "translations": {
+        "rus": "бензин",
+        "spa": "la gasolina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cost of petrol keeps on going up.",
+            "ru": "Цена на бензин продолжает расти."
+          },
+          {
+            "en": "How many litres of petrol does it take to fill your car?",
+            "ru": "Сколько литров бензина нужно, чтобы полностью заправить твою машину?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport"
+      ]
+    },
+    {
+      "id": 10135,
+      "word": "petrol station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpetrəl] [ˈsteɪʃn]",
+        "br": "[ˈpetrəl] [ˈsteɪʃn]",
+        "gb": "[ˈpetrəl] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "автозаправочная станция, заправка, АЗС",
+        "spa": "la gasolinera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10223,
+      "word": "petrol tanker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpetrəl] [ˈtæŋkər]",
+        "br": "[ˈpetrəl] [ˈtæŋkə(r)]",
+        "gb": "[ˈpetrəl] [ˈtæŋkə]"
+      },
+      "translations": {
+        "rus": "бензовоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10224,
+      "word": "piston",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪstən]",
+        "br": "[ˈpɪstən]",
+        "gb": "[ˈpɪstən]"
+      },
+      "translations": {
+        "rus": "поршень",
+        "spa": "el pistón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6181,
+      "word": "plane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pleɪn]",
+        "br": "[pleɪn]",
+        "gb": "[pleɪn]"
+      },
+      "translations": {
+        "rus": "самолёт",
+        "spa": "el avión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What time is your plane?",
+            "ru": "Во сколько ваш самолет?"
+          },
+          {
+            "en": "I will go there by plane.",
+            "ru": "Я полечу туда на самолёте."
+          },
+          {
+            "en": "The plane arrived on time.",
+            "ru": "Самолёт прибыл вовремя."
+          },
+          {
+            "en": "He bought a plane ticket.",
+            "ru": "Он купил билет на самолёт."
+          },
+          {
+            "en": "I got off the plane.",
+            "ru": "Я сошёл с самолёта."
+          },
+          {
+            "en": "See you on the plane.",
+            "ru": "Увидимся в самолёте."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The plane arrived on time.",
+            "es": "El avión llegó puntual."
+          },
+          {
+            "en": "Is this plane on schedule?",
+            "es": "¿El avión va a salir a tiempo?"
+          },
+          {
+            "en": "The plane took off at seven.",
+            "es": "El avión despegó a las siete."
+          },
+          {
+            "en": "He may have missed the plane.",
+            "es": "Él puede haber perdido el avión."
+          },
+          {
+            "en": "I don't want to miss the plane.",
+            "es": "No quiero perder el avión."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 6645,
+      "word": "platform",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplætfɔːrm]",
+        "br": "[ˈplætfɔːm]",
+        "gb": "[ˈplætfɔːm]"
+      },
+      "translations": {
+        "rus": "платформа",
+        "spa": "la plataforma, el andén"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which platform is it on?",
+            "ru": "На какой он платформе?"
+          },
+          {
+            "en": "I met him at the end of the platform.",
+            "ru": "Я встретил его в конце платформы."
+          },
+          {
+            "en": "What platform does the train leave from?",
+            "ru": "От какой платформы отходит поезд?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I met him at the end of the platform.",
+            "es": "Lo conocí al final del andén."
+          },
+          {
+            "en": "John is waiting for Mary on the platform.",
+            "es": "John está esperando a Mary en la plataforma."
+          },
+          {
+            "en": "Your train leaves from Platform 10.",
+            "es": "Su tren sale del andén 10."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 2540,
+      "word": "pump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pʌmp]",
+        "br": "[pʌmp]",
+        "gb": "[pʌmp]"
+      },
+      "translations": {
+        "rus": "насос, помпа",
+        "spa": "la bomba"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need a bike pump.",
+            "ru": "Мне нужен велосипедный насос."
+          },
+          {
+            "en": "The pump didn't work properly.",
+            "ru": "Насос толком не работал."
+          },
+          {
+            "en": "The human heart is analogous to a pump.",
+            "ru": "Человеческое сердце подобно насосу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10225,
+      "word": "push-cycle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pʊʃ] [ˈsaɪkl]",
+        "br": "[pʊʃ] [ˈsaɪkl]",
+        "gb": "[pʊʃ] [saɪkl]"
+      },
+      "translations": {
+        "rus": "самокат, велосипед",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 2543,
+      "word": "radiator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪdieɪtər]",
+        "br": "[ˈreɪdieɪtə(r)]",
+        "gb": "[ˈreɪdɪeɪtə]"
+      },
+      "translations": {
+        "rus": "батарея отопления, радиатор",
+        "spa": "el radiador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "transport"
+      ]
+    },
+    {
+      "id": 10226,
+      "word": "raft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ræft]",
+        "br": "[rɑːft]",
+        "gb": "[rɑːft]"
+      },
+      "translations": {
+        "rus": "плот, рафт",
+        "spa": "la balsa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wasn't sure if the raft would float.",
+            "ru": "Я не был уверен, поплывёт ли плот."
+          },
+          {
+            "en": "The raft floated downstream on the current.",
+            "ru": "Плот поплыл вниз по течению."
+          },
+          {
+            "en": "The raft is too small to use on this part of the river.",
+            "ru": "Плот слишком мал для использования на этом участке реки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6667,
+      "word": "railroad",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪlrəʊd]",
+        "br": "[ˈreɪlrəʊd]",
+        "gb": "[ˈreɪlrəʊd]"
+      },
+      "translations": {
+        "rus": "железная дорога",
+        "spa": "el ferrocarril"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The railroad is parallel to the road.",
+            "ru": "Железная дорога идёт параллельно шоссе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 6668,
+      "word": "railway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪlweɪ]",
+        "br": "[ˈreɪlweɪ]",
+        "gb": "[ˈreɪlweɪ]"
+      },
+      "translations": {
+        "rus": "железная дорога",
+        "spa": "el ferrocarril"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His father worked on the railway.",
+            "ru": "Его отец работал на железной дороге."
+          },
+          {
+            "en": "The new railway is not completed yet.",
+            "ru": "Строительство новой железной дороги еще не завершено."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10228,
+      "word": "rear wheel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪr] [wiːl]",
+        "br": "[rɪə(r)] [wiːl]",
+        "gb": "[rɪə] [wiːl]"
+      },
+      "translations": {
+        "rus": "заднее колесо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10229,
+      "word": "rear-view mirror",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪr] [vjuː] [ˈmɪrər]",
+        "br": "[rɪə(r)] [vjuː] [ˈmɪrə(r)]",
+        "gb": "[rɪə] [vjuː] [ˈmɪrə]"
+      },
+      "translations": {
+        "rus": "зеркало заднего вида",
+        "spa": "el retrovisor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10230,
+      "word": "ring road",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪŋ] [rəʊd]",
+        "br": "[rɪŋ] [rəʊd]",
+        "gb": "[rɪŋ] [rəʊd]"
+      },
+      "translations": {
+        "rus": "кольцевая дорога",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6213,
+      "word": "road",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[rəʊd]",
+        "br": "[rəʊd]",
+        "gb": "[rəʊd]"
+      },
+      "translations": {
+        "rus": "дорога, дорожный",
+        "spa": "el camino, la calle, la carretera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Am I on the right road?",
+            "ru": "Я на правильной дороге?"
+          },
+          {
+            "en": "This is a road map.",
+            "ru": "Это - дорожная карта."
+          },
+          {
+            "en": "The road is under repair.",
+            "ru": "Дорога ремонтируется."
+          },
+          {
+            "en": "May I have a road map, please?",
+            "ru": "Можно мне дорожную карту, пожалуйста?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "All roads lead to Rome.",
+            "es": "Todos los caminos llevan a Roma."
+          },
+          {
+            "en": "This is a road map.",
+            "es": "Esto es un mapa de carreteras."
+          },
+          {
+            "en": "Which road goes to city hall?",
+            "es": "¿Cuál calle va al ayuntamiento?"
+          },
+          {
+            "en": "We walked along the road.",
+            "es": "Caminamos por la carretera."
+          },
+          {
+            "en": "She went down that road.",
+            "es": "Ella se fue por ese camino."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10231,
+      "word": "sailer",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈseɪlə]"
+      },
+      "translations": {
+        "rus": "парусник, парусное судно",
+        "spa": "el velero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10232,
+      "word": "seat belt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[siːt] [belt]",
+        "br": "[siːt] [belt]",
+        "gb": "[siːt] [belt]"
+      },
+      "translations": {
+        "rus": "ремень безопасности",
+        "spa": "el cinturón de seguridad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fasten your seat belt.",
+            "ru": "Пристегните ремень безопасности."
+          },
+          {
+            "en": "Mary fastened her seat belt.",
+            "ru": "Мэри пристегнула ремень безопасности."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Please fasten your seat belt.",
+            "es": "Por favor, pónganse el cinturón de seguridad."
+          },
+          {
+            "en": "She advised him to fasten his seat belt.",
+            "es": "Le aconsejó que abrochara su cinturón de seguridad."
+          }
+        ]
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10233,
+      "word": "sedan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɪˈdæn]",
+        "br": "[sɪˈdæn]",
+        "gb": "[sɪˈdæn]"
+      },
+      "translations": {
+        "rus": "седан",
+        "spa": "el sedán"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10234,
+      "word": "semaphore",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseməfɔːr]",
+        "br": "[ˈseməfɔː(r)]",
+        "gb": "[ˈseməfɔː]"
+      },
+      "translations": {
+        "rus": "семафор",
+        "spa": "el semáforo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10235,
+      "word": "service station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrvɪs] [ˈsteɪʃn]",
+        "br": "[ˈsɜːvɪs] [ˈsteɪʃn]",
+        "gb": "[ˈsɜːvɪs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "станция технического обслуживания",
+        "spa": "la estación de servicio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10236,
+      "word": "shock absorber, damper",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʃɔk] [əbˈsɔːbə] [ˈdæmpə]"
+      },
+      "translations": {
+        "rus": "амортизатор",
+        "spa": "el amortiguador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 440,
+      "word": "sidewalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪdwɔːk]",
+        "br": "[ˈsaɪdwɔːk]",
+        "gb": "[ˈsaɪdwɔːk]"
+      },
+      "translations": {
+        "rus": "тротуар",
+        "spa": "la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A casual encounter on the sidewalk.",
+            "ru": "Случайная встреча на тротуаре."
+          },
+          {
+            "en": "She slipped and hit her head on the sidewalk.",
+            "ru": "Она поскользнулась и ударилась головой о тротуар."
+          },
+          {
+            "en": "He sat on the sidewalk asking for a handout.",
+            "ru": "Он сидел на тротуаре и просил подаяния."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I found a coin on the sidewalk.",
+            "es": "Encontré una moneda en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 7209,
+      "word": "signal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪɡnəl]",
+        "br": "[ˈsɪɡnəl]",
+        "gb": "[sɪgnl]"
+      },
+      "translations": {
+        "rus": "сигнал, указатель поворота",
+        "spa": "la señal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't move until I give the signal.",
+            "ru": "Не двигайся, пока я не дам сигнал."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Mary crashed into a traffic signal.",
+            "es": "Mary chocó con una señal de tráfico."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10237,
+      "word": "sluice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sluːs]",
+        "br": "[sluːs]",
+        "gb": "[sluːs]"
+      },
+      "translations": {
+        "rus": "шлюз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 4131,
+      "word": "spanner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspænər]",
+        "br": "[ˈspænə(r)]",
+        "gb": "[ˈspænə]"
+      },
+      "translations": {
+        "rus": "гаечный ключ",
+        "spa": "la llave inglesa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "transport"
+      ]
+    },
+    {
+      "id": 10238,
+      "word": "spare parts",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spɛə] [pɑrts]"
+      },
+      "translations": {
+        "rus": "запчасти",
+        "spa": "pieza de repuesto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10239,
+      "word": "spark plug",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spɑːrk] [plʌɡ]",
+        "br": "[spɑːk] [plʌɡ]",
+        "gb": "[spɑːk] [plʌg]"
+      },
+      "translations": {
+        "rus": "свеча зажигания",
+        "spa": "la bujía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10240,
+      "word": "speedometer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spiːˈdɑːmɪtər]",
+        "br": "[spiːˈdɒmɪtə(r)]",
+        "gb": "[spɪˈdɔmɪtə]"
+      },
+      "translations": {
+        "rus": "спидометр",
+        "spa": "el velocímetro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10241,
+      "word": "starter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɑːrtər]",
+        "br": "[ˈstɑːtə(r)]",
+        "gb": "[ˈstɑːtə]"
+      },
+      "translations": {
+        "rus": "стартер",
+        "spa": "el motor de arranque"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6247,
+      "word": "station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsteɪʃn]",
+        "br": "[ˈsteɪʃn]",
+        "gb": "[steɪʃn]"
+      },
+      "translations": {
+        "rus": "станция, вокзал",
+        "spa": "la estación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Make a left turn at the station.",
+            "ru": "Возле станции поверните налево."
+          },
+          {
+            "en": "The train drew out of the station.",
+            "ru": "Поезд отошёл от станции."
+          },
+          {
+            "en": "Can you meet me at the train station?",
+            "ru": "Можешь встретить меня на вокзале?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I met him at the station.",
+            "es": "Le conocí en la estación."
+          },
+          {
+            "en": "The station is pretty far.",
+            "es": "La estación está un poco lejos."
+          },
+          {
+            "en": "He arrived at the station.",
+            "es": "Llegó a la estación."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10242,
+      "word": "steam locomotive",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stiːm] [ˌləʊkəˈməʊtɪv]",
+        "br": "[stiːm] [ˌləʊkəˈməʊtɪv]",
+        "gb": "[stiːm] [ˈləʊkəməʊtɪv]"
+      },
+      "translations": {
+        "rus": "паровоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10243,
+      "word": "steam ship",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stiːm] [ʃɪp]",
+        "br": "[stiːm] [ʃɪp]",
+        "gb": "[stiːm] [ʃɪp]"
+      },
+      "translations": {
+        "rus": "теплоход, пароход",
+        "spa": "el barco de vapor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10244,
+      "word": "steering wheel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɪrɪŋ] [wiːl]",
+        "br": "[ˈstɪərɪŋ] [wiːl]",
+        "gb": "[ˈstɪərɪŋ] [wiːl]"
+      },
+      "translations": {
+        "rus": "рулевое колесо, руль, штурвал",
+        "spa": "el volante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He gripped the steering wheel.",
+            "ru": "Он ухватился за руль."
+          },
+          {
+            "en": "Turn the steering wheel all the way to the left.",
+            "ru": "Поверните рулевое колесо до упора влево."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10245,
+      "word": "stowaway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstəʊəweɪ]",
+        "br": "[ˈstəʊəweɪ]",
+        "gb": "[ˈstəʊəweɪ]"
+      },
+      "translations": {
+        "rus": "пассажир без билета",
+        "spa": "el polizón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10246,
+      "word": "streetcar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstriːtkɑːr]",
+        "br": "[ˈstriːtkɑː(r)]",
+        "gb": "[ˈstriːtˈkɑː]"
+      },
+      "translations": {
+        "rus": "трамвай",
+        "spa": "el tranvía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10247,
+      "word": "suburban train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈbɜːrbən] [treɪn]",
+        "br": "[səˈbɜːbən] [treɪn]",
+        "gb": "[səˈbɜːbən] [treɪn]"
+      },
+      "translations": {
+        "rus": "электричка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6754,
+      "word": "subway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbweɪ]",
+        "br": "[ˈsʌbweɪ]",
+        "gb": "[ˈsʌbweɪ]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a subway map?",
+            "ru": "У вас есть карта метро?"
+          },
+          {
+            "en": "There is now a subway in Rio.",
+            "ru": "Теперь в Рио есть метро."
+          },
+          {
+            "en": "It'll be faster to go by subway.",
+            "ru": "Быстрее будет на метро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 9431,
+      "word": "suspension",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈspenʃn]",
+        "br": "[səˈspenʃn]",
+        "gb": "[səsˈpenʃn]"
+      },
+      "translations": {
+        "rus": "подвеска, приостановка",
+        "spa": "la suspensión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 4145,
+      "word": "switch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[swɪtʃ]",
+        "br": "[swɪtʃ]",
+        "gb": "[swɪʧ]"
+      },
+      "translations": {
+        "rus": "выключатель, переключатель, коммутатор",
+        "spa": "el interruptor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the light switch?",
+            "ru": "Где выключатель света?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10248,
+      "word": "tail-light",
+      "pos": "noun",
+      "transcription": {
+        "us": "[teɪl] [laɪt]",
+        "br": "[teɪl] [laɪt]",
+        "gb": "[teɪl] [laɪt]"
+      },
+      "translations": {
+        "rus": "задний габаритный фонарь",
+        "spa": "la luz trasera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 5605,
+      "word": "tank",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæŋk]",
+        "br": "[tæŋk]",
+        "gb": "[tæŋk]"
+      },
+      "translations": {
+        "rus": "танк",
+        "spa": "el carro de combate"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They loaded the tank on the flatcar.",
+            "ru": "Они погрузили танк на вагон-платформу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10249,
+      "word": "tanker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæŋkər]",
+        "br": "[ˈtæŋkə(r)]",
+        "gb": "[ˈtæŋkə]"
+      },
+      "translations": {
+        "rus": "танкер",
+        "spa": "el buque cisterna"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6261,
+      "word": "taxi",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæksi]",
+        "br": "[ˈtæksi]",
+        "gb": "[ˈtæksɪ]"
+      },
+      "translations": {
+        "rus": "такси",
+        "spa": "el taxi"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was waiting for a taxi.",
+            "ru": "Я ждал такси."
+          },
+          {
+            "en": "Shall we take a taxi?",
+            "ru": "Возьмём такси?"
+          },
+          {
+            "en": "She got in the taxi.",
+            "ru": "Она села в такси."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He found me a taxi.",
+            "es": "Él me consiguió un taxi."
+          },
+          {
+            "en": "She got in the taxi.",
+            "es": "Montó en el taxi."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10250,
+      "word": "temperature gauge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtemprətʃər] [ɡeɪdʒ]",
+        "br": "[ˈtemprətʃə(r)] [ɡeɪdʒ]",
+        "gb": "[ˈtemprɪʧə] [geɪʤ]"
+      },
+      "translations": {
+        "rus": "датчик температуры",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 7260,
+      "word": "tire",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtaɪər]",
+        "br": "[ˈtaɪə(r)]",
+        "gb": "[ˈtaɪə]"
+      },
+      "translations": {
+        "rus": "шина",
+        "spa": "la llanta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My bicycle has a flat tire.",
+            "ru": "У моего велосипеда сдулась шина."
+          },
+          {
+            "en": "I punctured the tire within one mile of the start.",
+            "ru": "Я проколол шину на расстоянии одной мили после старта."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6167,
+      "word": "to park",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɑːrk]",
+        "br": "[tə] [pɑːk]",
+        "gb": "[tuː] [pɑːk]"
+      },
+      "translations": {
+        "rus": "парковаться",
+        "spa": "estacionar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where did I park my car?",
+            "ru": "Где я припарковался?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why did you park here?",
+            "es": "¿Por qué estacionaste aquí?"
+          },
+          {
+            "en": "Where can we park the car?",
+            "es": "¿Dónde podemos estacionar el coche?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 2541,
+      "word": "to pump",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʌmp]",
+        "br": "[tə] [pʌmp]",
+        "gb": "[tuː] [pʌmp]"
+      },
+      "translations": {
+        "rus": "качать, нагнетать",
+        "spa": "bombear"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I pumped up the tire.",
+            "ru": "Я накачал шину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10227,
+      "word": "to raft",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ræft]",
+        "br": "[tə] [rɑːft]",
+        "gb": "[tuː] [rɑːft]"
+      },
+      "translations": {
+        "rus": "сплавляться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 7210,
+      "word": "to signal",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsɪɡnəl]",
+        "br": "[tə] [ˈsɪɡnəl]",
+        "gb": "[tuː] [sɪgnl]"
+      },
+      "translations": {
+        "rus": "сигнализировать",
+        "spa": "señalar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He signalled for coffee.",
+            "ru": "Он подал сигнал, чтобы принесли кофе."
+          },
+          {
+            "en": "Signal before you pull out.",
+            "ru": "Прежде чем тронуться с места, посигнальте поворотником."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He signaled them to stop.",
+            "es": "Les hizo señas de que se detuvieran."
+          },
+          {
+            "en": "I signaled the car to go slow.",
+            "es": "Le hice una señal al auto para que fuera más lento."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 1251,
+      "word": "to switch",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [swɪtʃ]",
+        "br": "[tə] [swɪtʃ]",
+        "gb": "[tuː] [swɪʧ]"
+      },
+      "translations": {
+        "rus": "переключать, переключаться",
+        "spa": "cambiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did you switch jobs?",
+            "ru": "Почему вы сменили работу?"
+          },
+          {
+            "en": "I switched to a new doctor.",
+            "ru": "Я сменил доктора."
+          },
+          {
+            "en": "He switched to a more urgent task.",
+            "ru": "Он переключился на более срочную задачу."
+          },
+          {
+            "en": "I switched on the TV.",
+            "ru": "Я включил телевизор."
+          },
+          {
+            "en": "She switched off the computer.",
+            "ru": "Она выключила компьютер."
+          },
+          {
+            "en": "Switch on the light. I can't see anything.",
+            "ru": "Включи свет. Я ничего не вижу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "home",
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 7266,
+      "word": "to transport",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [trænˈspɔːrt]",
+        "br": "[tə] [trænˈspɔːt]",
+        "gb": "[tuː] [trænˈspɔːt]"
+      },
+      "translations": {
+        "rus": "перевозить, транспортировать",
+        "spa": "transportar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Two trips were required to transport the goods.",
+            "ru": "Понадобилось два рейса, чтобы перевезти товары."
+          },
+          {
+            "en": "A single drop of blood can transport the virus.",
+            "ru": "Вирус может переноситься одной каплей крови."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2369,
+      "word": "tool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːl]",
+        "br": "[tuːl]",
+        "gb": "[tuːl]"
+      },
+      "translations": {
+        "rus": "инструмент, орудие, средство",
+        "spa": "la herramienta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Money is a pure tool - nothing more.",
+            "ru": "Деньги - это просто средство, и больше ничего."
+          },
+          {
+            "en": "I can't use this tool.",
+            "ru": "Я не могу использовать этот инструмент."
+          },
+          {
+            "en": "This tool is handy for various jobs.",
+            "ru": "Этот инструмент удобен для выполнения различных работ."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6782,
+      "word": "track",
+      "pos": "noun",
+      "transcription": {
+        "us": "[træk]",
+        "br": "[træk]",
+        "gb": "[træk]"
+      },
+      "translations": {
+        "rus": "след, дорожка, трасса, железнодорожные пути, рельсы",
+        "spa": "la pista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The train ran off the tracks.",
+            "ru": "Поезд сошёл с рельсов."
+          },
+          {
+            "en": "We cross the railroad tracks every morning.",
+            "ru": "Мы пересекаем железнодорожные пути каждое утро."
+          },
+          {
+            "en": "The train was derailed by a piece of iron on the track.",
+            "ru": "Поезд сошёл с рельс из-за куска железа, лежащего на пути."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Take any train on track 5.",
+            "es": "Toma cualquier tren de la pista 5."
+          },
+          {
+            "en": "We followed the deer's tracks.",
+            "es": "Seguimos las pistas dejadas por el venado."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top1000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 10251,
+      "word": "trackless trolley",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌtrækləs] [ˈtrɑːli]",
+        "br": "[ˌtrækləs] [ˈtrɒli]",
+        "gb": "[ˈtræklɪs] [ˈtrɒlɪ]"
+      },
+      "translations": {
+        "rus": "троллейбус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10152,
+      "word": "traffic lights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtræfɪk] [laɪts]",
+        "br": "[ˈtræfɪk] [laɪts]",
+        "gb": "[ˈtræfɪk] [laɪts]"
+      },
+      "translations": {
+        "rus": "светофор",
+        "spa": "el semáforo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The traffic lights were all red.",
+            "ru": "Все светофоры были красные."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The traffic lights were all red.",
+            "es": "Los semáforos estaban todos en rojo."
+          }
+        ]
+      },
+      "categories": [
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 9475,
+      "word": "trailer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtreɪlər]",
+        "br": "[ˈtreɪlə(r)]",
+        "gb": "[ˈtreɪlə]"
+      },
+      "translations": {
+        "rus": "трейлер, прицеп",
+        "spa": "el tráiler, el remolque"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 6290,
+      "word": "train",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪn]",
+        "br": "[treɪn]",
+        "gb": "[treɪn]"
+      },
+      "translations": {
+        "rus": "поезд",
+        "spa": "el tren"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Will you go by train?",
+            "ru": "Вы поездом?"
+          },
+          {
+            "en": "We got off the train.",
+            "ru": "Мы вышли из поезда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Will you go by train?",
+            "es": "¿Irás en tren?"
+          },
+          {
+            "en": "We got off the train.",
+            "es": "Nos bajamos del tren."
+          },
+          {
+            "en": "I like to ride on trains.",
+            "es": "Me gusta ir en tren."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 10252,
+      "word": "tram",
+      "pos": "noun",
+      "transcription": {
+        "us": "[træm]",
+        "br": "[træm]",
+        "gb": "[træm]"
+      },
+      "translations": {
+        "rus": "трамвай",
+        "spa": "el tranvía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport",
+        "travel"
+      ]
+    },
+    {
+      "id": 9478,
+      "word": "transit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrænzɪt]",
+        "br": "[ˈtrænzɪt]",
+        "gb": "[ˈtrænsɪt]"
+      },
+      "translations": {
+        "rus": "транзит",
+        "spa": "el tránsito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "transport"
+      ]
+    },
+    {
+      "id": 10253,
+      "word": "transmission, gear box",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trænzˈmɪʃn], [ɡɪr] [bɑːks]",
+        "br": "[trænzˈmɪʃn], [ɡɪə(r)] [bɒks]",
+        "gb": "[trænzˈmɪʃn] [gɪə] [bɔks]"
+      },
+      "translations": {
+        "rus": "коробка передач",
+        "spa": "la caja de cambios"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6787,
+      "word": "transport",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrænspɔːrt]",
+        "br": "[ˈtrænspɔːt]",
+        "gb": "[ˈtrænspɔːt]"
+      },
+      "translations": {
+        "rus": "транспорт",
+        "spa": "el transporte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He swapped his car for public transport.",
+            "ru": "Он пересел на общественный транспорт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10254,
+      "word": "trolleybus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrɑːlibʌs]",
+        "br": "[ˈtrɒlibʌs]",
+        "gb": "[ˈtrɒlɪbʌs]"
+      },
+      "translations": {
+        "rus": "троллейбус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 1674,
+      "word": "truck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trʌk]",
+        "br": "[trʌk]",
+        "gb": "[trʌk]"
+      },
+      "translations": {
+        "rus": "грузовик",
+        "spa": "el camión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My new truck drives well.",
+            "ru": "Мой новый грузовик легко управляется."
+          },
+          {
+            "en": "The dog rode in the back of the truck.",
+            "ru": "Собака ехала в кузове грузовика."
+          },
+          {
+            "en": "The truck laboured up the hill.",
+            "ru": "Грузовик с трудом взбирался вверх по склону."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10035,
+      "word": "trunk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trʌŋk]",
+        "br": "[trʌŋk]",
+        "gb": "[trʌŋk]"
+      },
+      "translations": {
+        "rus": "багажник",
+        "spa": "el maletero, el baúl, la maletera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's in your trunk?",
+            "ru": "Что у тебя в багажнике?"
+          },
+          {
+            "en": "Put your bag in the trunk.",
+            "ru": "Положи свою сумку в багажник."
+          },
+          {
+            "en": "He opened the trunk.",
+            "ru": "Он открыл багажник."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6791,
+      "word": "tube",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːb]",
+        "br": "[tjuːb]",
+        "gb": "[tjuːb]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the nearest tube station?",
+            "ru": "Где находится ближайшая станция метро?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 7273,
+      "word": "tyre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtaɪər]",
+        "br": "[ˈtaɪə(r)]",
+        "gb": "[ˈtaɪə]"
+      },
+      "translations": {
+        "rus": "шина",
+        "spa": "la llanta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My bicycle has a flat tyre.",
+            "ru": "У моего велосипеда сдулась шина."
+          },
+          {
+            "en": "I punctured the tyre within one mile of the start.",
+            "ru": "Я проколол шину на расстоянии одной мили после старта."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10255,
+      "word": "undercarriage, chassis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərkærɪdʒ], [ˈʃæsi]",
+        "br": "[ˈʌndəkærɪdʒ], [ˈʃæsi]",
+        "gb": "[ˈʌndəkærɪʤ] [ˈʃæsɪ]"
+      },
+      "translations": {
+        "rus": "шасси",
+        "spa": "el tren de aterrizaje, el chasis"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6793,
+      "word": "underground",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərɡraʊnd]",
+        "br": "[ˈʌndəɡraʊnd]",
+        "gb": "[ˈʌndəgraʊnd]"
+      },
+      "translations": {
+        "rus": "метро",
+        "spa": "el metro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's no underground in my city.",
+            "ru": "В моем городе нет метро."
+          },
+          {
+            "en": "It takes twenty minutes on the underground to get to the city centre.",
+            "ru": "До центра города двадцать минут езды на метро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 6802,
+      "word": "van",
+      "pos": "noun",
+      "transcription": {
+        "us": "[væn]",
+        "br": "[væn]",
+        "gb": "[væn]"
+      },
+      "translations": {
+        "rus": "фургон, вагон",
+        "spa": "la camioneta, el monovolumen"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The van was painted green.",
+            "ru": "Фургон был выкрашен в зелёный цвет."
+          },
+          {
+            "en": "My van doesn't have a back seat.",
+            "ru": "Мой фургон не имеет заднего сиденья."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 6804,
+      "word": "vehicle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈviːəkl]",
+        "br": "[ˈviːəkl]",
+        "gb": "[ˈviːɪkl]"
+      },
+      "translations": {
+        "rus": "автомобиль, средство передвижения",
+        "spa": "el vehículo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's a self-driving vehicle.",
+            "ru": "Это беспилотное транспортное средство."
+          },
+          {
+            "en": "My parents have only one vehicle.",
+            "ru": "У моих родителей только один автомобиль."
+          },
+          {
+            "en": "Don't leave valuables in your vehicle.",
+            "ru": "Не оставляйте ценных вещей в своём транспортном средстве."
+          },
+          {
+            "en": "Cars, buses, and trucks are all vehicles.",
+            "ru": "Автомобили, автобусы и грузовики - это всё средства передвижения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10256,
+      "word": "water craft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːtər] [kræft]",
+        "br": "[ˈwɔːtə(r)] [krɑːft]",
+        "gb": "[ˈwɔːtə] [krɑːft]"
+      },
+      "translations": {
+        "rus": "судно, лодка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 6812,
+      "word": "wheel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wiːl]",
+        "br": "[wiːl]",
+        "gb": "[wiːl]"
+      },
+      "translations": {
+        "rus": "колесо",
+        "spa": "la rueda, el volante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The wheel turns round.",
+            "ru": "Колесо вращается."
+          },
+          {
+            "en": "The wheel began to revolve.",
+            "ru": "Колесо начало вращаться."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The wheel doesn't turn.",
+            "es": "La rueda no gira."
+          },
+          {
+            "en": "We don't have to try to reinvent the wheel.",
+            "es": "No tenemos que tratar de reinventar la rueda."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 10257,
+      "word": "window roller",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndəʊ] [ˈrəʊlər]",
+        "br": "[ˈwɪndəʊ] [ˈrəʊlə(r)]",
+        "gb": "[ˈwɪndəʊ] [ˈrəʊlə]"
+      },
+      "translations": {
+        "rus": "стеклоподъёмник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10258,
+      "word": "windscreen",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndskriːn]",
+        "br": "[ˈwɪndskriːn]",
+        "gb": "[ˈwɪndskriːn]"
+      },
+      "translations": {
+        "rus": "ветровое стекло",
+        "spa": "el parabrisas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10259,
+      "word": "windscreen wiper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndskriːn] [ˈwaɪpər]",
+        "br": "[ˈwɪndskriːn] [ˈwaɪpə(r)]",
+        "gb": "[ˈwɪndskriːn] [ˈwaɪpə]"
+      },
+      "translations": {
+        "rus": "дворники",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10260,
+      "word": "windshield",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndʃiːld]",
+        "br": "[ˈwɪndʃiːld]",
+        "gb": "[ˈwɪndʃiːld]"
+      },
+      "translations": {
+        "rus": "ветровое стекло",
+        "spa": "el parabrisas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10261,
+      "word": "windshield wiper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndʃiːld] [ˈwaɪpər]",
+        "br": "[ˈwɪndʃiːld] [ˈwaɪpə(r)]",
+        "gb": "[ˈwɪndʃiːld] [ˈwaɪpə]"
+      },
+      "translations": {
+        "rus": "дворники",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    },
+    {
+      "id": 10262,
+      "word": "yacht",
+      "pos": "noun",
+      "transcription": {
+        "us": "[jɑːt]",
+        "br": "[jɒt]",
+        "gb": "[jɔt]"
+      },
+      "translations": {
+        "rus": "яхта",
+        "spa": "el yate"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "transport"
+      ]
+    }
+  ]
+}

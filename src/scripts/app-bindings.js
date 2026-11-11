@@ -42,6 +42,15 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     document.getElementById('screen-reader').classList.add('active');
   });
 
+  const openLastDeckToggle = document.getElementById('settingOpenLastDeck');
+  if (openLastDeckToggle) {
+    openLastDeckToggle.checked = appStore.data.openLastDeck !== false;
+    openLastDeckToggle.addEventListener('change', () => {
+      appStore.data.openLastDeck = openLastDeckToggle.checked;
+      appStore.save();
+    });
+  }
+
   const createRunFileBtn = document.getElementById('btnCreateRunFile');
   if (createRunFileBtn) {
     createRunFileBtn.addEventListener('click', () => {

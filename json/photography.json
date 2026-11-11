@@ -1,0 +1,646 @@
+{
+  "category": {
+    "id": "photography",
+    "name_rus": "Фотография",
+    "type": "topic",
+    "word_count": 26
+  },
+  "words": [
+    {
+      "id": 9554,
+      "word": "aerial photography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeriəl] [fəˈtɑːɡrəfi]",
+        "br": "[ˈeəriəl] [fəˈtɒɡrəfi]",
+        "gb": "[ˈɛərɪəl] [fəˈtɔgrəfɪ]"
+      },
+      "translations": {
+        "rus": "аэрофотосъемка, съемка с воздуха",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9555,
+      "word": "aperture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæpərtʃʊr]",
+        "br": "[ˈæpətʃə(r)]",
+        "gb": "[ˈæpətjʊə]"
+      },
+      "translations": {
+        "rus": "апертура",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 5653,
+      "word": "black-and-white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[blæk] [ənd] [waɪt]",
+        "br": "[blæk] [ənd] [waɪt]",
+        "gb": "[blæk] [ænd] [waɪt]"
+      },
+      "translations": {
+        "rus": "чёрно-белый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "photography"
+      ]
+    },
+    {
+      "id": 9556,
+      "word": "blurry",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈblɜːri]",
+        "br": "[ˈblɜːri]",
+        "gb": "[ˈblʌrɪ]"
+      },
+      "translations": {
+        "rus": "расплывчатый, смазанный, неясный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 5658,
+      "word": "close-up",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kləʊs] [ʌp]"
+      },
+      "translations": {
+        "rus": "крупный план",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "photography"
+      ]
+    },
+    {
+      "id": 9557,
+      "word": "cover shoot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌvər] [ʃuːt]",
+        "br": "[ˈkʌvə(r)] [ʃuːt]",
+        "gb": "[ˈkʌvə] [ʃuːt]"
+      },
+      "translations": {
+        "rus": "фотография с обложки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 2315,
+      "word": "digital",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdɪdʒɪtl]",
+        "br": "[ˈdɪdʒɪtl]",
+        "gb": "[ˈdɪʤɪtl]"
+      },
+      "translations": {
+        "rus": "цифровой",
+        "spa": "digital"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to learn how to use my new digital camera right away.",
+            "ru": "Хочу поскорее освоить новый цифровой фотоаппарат."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "oxford3000_a2",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8022,
+      "word": "exposure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspəʊʒər]",
+        "br": "[ɪkˈspəʊʒə(r)]",
+        "gb": "[ɪksˈpəʊʒə]"
+      },
+      "translations": {
+        "rus": "экспозиция",
+        "spa": "la exposición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8834,
+      "word": "filter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪltər]",
+        "br": "[ˈfɪltə(r)]",
+        "gb": "[ˈfɪltə]"
+      },
+      "translations": {
+        "rus": "фильтр",
+        "spa": "el filtro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you change the filter?",
+            "ru": "Ты менял фильтр?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 415,
+      "word": "landscape",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlændskeɪp]",
+        "br": "[ˈlændskeɪp]",
+        "gb": "[ˈlænskeɪp]"
+      },
+      "translations": {
+        "rus": "пейзаж, ландшафт, горизонтальный",
+        "spa": "el paisaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was seduced by the beauty of the landscape.",
+            "ru": "Я был покорён красотой пейзажа."
+          },
+          {
+            "en": "A sense of calm breathed from the landscape.",
+            "ru": "Пейзаж излучал спокойствие."
+          },
+          {
+            "en": "He received a commission to design the landscape.",
+            "ru": "Он получил заказ на проектирование ландшафта."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Those trees hide the landscape.",
+            "es": "Estos árboles esconden el paisaje."
+          },
+          {
+            "en": "The landscape was flat and monotonous.",
+            "es": "El paisaje era plano y monótono."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "art",
+        "oxford3000_b2",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9560,
+      "word": "macro photography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmækrəʊ] [fəˈtɑːɡrəfi]",
+        "br": "[ˈmækrəʊ] [fəˈtɒɡrəfi]",
+        "gb": "[ˈmækrəʊ] [fəˈtɔgrəfɪ]"
+      },
+      "translations": {
+        "rus": "макросъемка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 3845,
+      "word": "photo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfəʊtəʊ]",
+        "br": "[ˈfəʊtəʊ]",
+        "gb": "[ˈfəʊtəʊ]"
+      },
+      "translations": {
+        "rus": "фото, фотография",
+        "spa": "la foto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here's a photo of her.",
+            "ru": "Вот её фотография."
+          },
+          {
+            "en": "Is this a new photo?",
+            "ru": "Это новая фотография?"
+          },
+          {
+            "en": "I have a lot of photos.",
+            "ru": "У меня много фотографий."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The photo was a hoax.",
+            "es": "La foto fue un engaño."
+          },
+          {
+            "en": "The photo is the first thing you notice.",
+            "es": "La foto es lo primero que se nota."
+          },
+          {
+            "en": "She refreshed her memory with the photo.",
+            "es": "Ella refrescó su memoria al ver la foto."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9561,
+      "word": "photo shoot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfəʊtəʊ] [ʃuːt]",
+        "br": "[ˈfəʊtəʊ] [ʃuːt]",
+        "gb": "[ˈfəʊtəʊ] [ʃuːt]"
+      },
+      "translations": {
+        "rus": "фотосъемка, фотосессия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9562,
+      "word": "point-and-shoot camera",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɔɪnt] [ənd] [ʃuːt] [ˈkæmrə]",
+        "br": "[pɔɪnt] [ənd] [ʃuːt] [ˈkæmrə]",
+        "gb": "[pɔɪnt] [ənd] [ʃuːt] [ˈkæmrə]"
+      },
+      "translations": {
+        "rus": "мыльница, небольшой фотоаппарат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 678,
+      "word": "portraiture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɔːrtrətʃər]",
+        "br": "[ˈpɔːtrətʃə(r)]",
+        "gb": "[ˈpɔːtrɪʧə]"
+      },
+      "translations": {
+        "rus": "портретная живопись",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "photography"
+      ]
+    },
+    {
+      "id": 9202,
+      "word": "processing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːsesɪŋ]",
+        "br": "[ˈprəʊsesɪŋ]",
+        "gb": "[ˈprəʊsesɪŋ]"
+      },
+      "translations": {
+        "rus": "обработка, оформление",
+        "spa": "el procesamiento, el tratamiento, la tramitación, el revelado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "photography"
+      ]
+    },
+    {
+      "id": 9563,
+      "word": "shutter speed",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃʌtər] [spiːd]",
+        "br": "[ˈʃʌtə(r)] [spiːd]",
+        "gb": "[ˈʃʌtə] [spiːd]"
+      },
+      "translations": {
+        "rus": "скорость срабатывания фотографического затвора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9564,
+      "word": "SLR camera",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌes] [el] [ˈɑːr] [ˈkæmrə]",
+        "br": "[ˌes] [el] [ˈɑː(r)] [ˈkæmrə]",
+        "gb": "[ˈkæmərə]"
+      },
+      "translations": {
+        "rus": "зеркальная камера",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9566,
+      "word": "time-lapse photography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taɪm] [læps] [fəˈtɑːɡrəfi]",
+        "br": "[taɪm] [læps] [fəˈtɒɡrəfi]",
+        "gb": "[taɪm] [læps] [fəˈtɔgrəfɪ]"
+      },
+      "translations": {
+        "rus": "замедленная съемка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9558,
+      "word": "to crop",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [krɑːp]",
+        "br": "[tə] [krɒp]",
+        "gb": "[tuː] [krɔp]"
+      },
+      "translations": {
+        "rus": "обрезать, подстригать",
+        "spa": "cortar, rapar, recortar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9559,
+      "word": "to develop a photo",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈveləp] [ə] [ˈfəʊtəʊ]",
+        "br": "[tə] [dɪˈveləp] [ə] [ˈfəʊtəʊ]",
+        "gb": "[tuː] [dɪˈveləp] [ə] [ˈfəʊtəʊ]"
+      },
+      "translations": {
+        "rus": "проявлять фото",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 580,
+      "word": "to frame",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [freɪm]",
+        "br": "[tə] [freɪm]",
+        "gb": "[tuː] [freɪm]"
+      },
+      "translations": {
+        "rus": "обрамлять, вставлять в раму",
+        "spa": "enmarcar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tom framed the photograph and hung it over the bed.",
+            "ru": "Том вставил фотографию в рамку и повесил над кроватью."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was framed.",
+            "es": "Fui enmarcado."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "oxford3000_b1",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9565,
+      "word": "to take a photo",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ə] [ˈfəʊtəʊ]",
+        "br": "[tə] [teɪk] [ə] [ˈfəʊtəʊ]",
+        "gb": "[tuː] [teɪk] [ə] [ˈfəʊtəʊ]"
+      },
+      "translations": {
+        "rus": "фотографировать(ся), сделать снимок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9567,
+      "word": "to trim",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [trɪm]",
+        "br": "[tə] [trɪm]",
+        "gb": "[tuː] [trɪm]"
+      },
+      "translations": {
+        "rus": "обрезать, подрезать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9568,
+      "word": "tripod",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtraɪpɑːd]",
+        "br": "[ˈtraɪpɒd]",
+        "gb": "[ˈtraɪpɔd]"
+      },
+      "translations": {
+        "rus": "штатив, тренога",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    },
+    {
+      "id": 9569,
+      "word": "viewfinder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvjuːfaɪndər]",
+        "br": "[ˈvjuːfaɪndə(r)]",
+        "gb": "[ˈvjuːfaɪndər]"
+      },
+      "translations": {
+        "rus": "видоискатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "photography"
+      ]
+    }
+  ]
+}

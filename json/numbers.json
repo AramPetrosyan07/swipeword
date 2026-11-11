@@ -1,0 +1,1865 @@
+{
+  "category": {
+    "id": "numbers",
+    "name_rus": "Числительные (колич.)",
+    "type": "topic",
+    "word_count": 44
+  },
+  "words": [
+    {
+      "id": 5826,
+      "word": "billion",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈbɪljən]",
+        "br": "[ˈbɪljən]",
+        "gb": "[ˈbɪljən]"
+      },
+      "translations": {
+        "rus": "миллиард",
+        "spa": "millardo, mil millones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One billion people speak English.",
+            "ru": "Миллиард человек говорит по-английски."
+          },
+          {
+            "en": "There are one billion nanometers in a meter.",
+            "ru": "В метре миллиард нанометров."
+          },
+          {
+            "en": "One billion people speak English.",
+            "ru": "Миллиард человек говорит на английском языке."
+          },
+          {
+            "en": "Rice is a grain that feeds billions of people.",
+            "ru": "Рис — это зерно, которое кормит миллиарды людей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "One billion people speak English.",
+            "es": "Mil millones de personas hablan inglés."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 5797,
+      "word": "eight",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[eɪt]",
+        "br": "[eɪt]",
+        "gb": "[eɪt]"
+      },
+      "translations": {
+        "rus": "восемь",
+        "spa": "ocho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's only eight days till Christmas.",
+            "ru": "До Рождества — всего восемь дней."
+          },
+          {
+            "en": "They woke up at eight.",
+            "ru": "Они проснулись в восемь часов."
+          },
+          {
+            "en": "My parents died when I was eight.",
+            "ru": "Мои родители умерли, когда мне было восемь лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Get me up at eight.",
+            "es": "Levántame a las ocho."
+          },
+          {
+            "en": "Eight plus two is ten.",
+            "es": "Ocho más dos son diez."
+          },
+          {
+            "en": "Ten minus two is eight.",
+            "es": "Diez menos dos son ocho."
+          },
+          {
+            "en": "Eight divided by two is four.",
+            "es": "Ocho entre dos es cuatro."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5807,
+      "word": "eighteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌeɪˈtiːn]",
+        "br": "[ˌeɪˈtiːn]",
+        "gb": "[eɪˈtiːn]"
+      },
+      "translations": {
+        "rus": "восемнадцать",
+        "spa": "dieciocho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Jim was eighteen.",
+            "ru": "Джиму было восемнадцать лет."
+          },
+          {
+            "en": "He went to sea when he was eighteen.",
+            "ru": "Он стал моряком, когда ему было восемнадцать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am eighteen years old.",
+            "es": "Tengo dieciocho años."
+          },
+          {
+            "en": "He is eighteen months old.",
+            "es": "Él tiene dieciocho meses."
+          },
+          {
+            "en": "We were eighteen at that time.",
+            "es": "Teníamos dieciocho en aquel entonces."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5817,
+      "word": "eighty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈeɪti]",
+        "br": "[ˈeɪti]",
+        "gb": "[ˈeɪtɪ]"
+      },
+      "translations": {
+        "rus": "восемьдесят",
+        "spa": "ochenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is over eighty.",
+            "ru": "Ему за восемьдесят."
+          },
+          {
+            "en": "A good shearer shears seventy or eighty sheep in a day.",
+            "ru": "Хороший стригаль обрабатывает от семидесяти до восьмидесяти овец в день."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The lady is over eighty.",
+            "es": "La mujer tiene más de ochenta años."
+          },
+          {
+            "en": "It was eighty meters long.",
+            "es": "Medía ochenta metros de longitud."
+          },
+          {
+            "en": "The library is eighty years old.",
+            "es": "La biblioteca tiene ochenta años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5800,
+      "word": "eleven",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ɪˈlevn]",
+        "br": "[ɪˈlevn]",
+        "gb": "[ɪˈlevn]"
+      },
+      "translations": {
+        "rus": "одиннадцать",
+        "spa": "once"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got home last night at eleven.",
+            "ru": "Я вчера вернулась домой в одиннадцать."
+          },
+          {
+            "en": "I was about ten or eleven at the time.",
+            "ru": "В то время мне было примерно десять или одиннадцать лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I go to bed at eleven.",
+            "es": "Me voy a la cama a las once."
+          },
+          {
+            "en": "Eleven students received the award.",
+            "es": "Once estudiantes recibieron el premio."
+          },
+          {
+            "en": "We are eleven in all.",
+            "es": "En total somos once."
+          },
+          {
+            "en": "Eleven is a prime number.",
+            "es": "El once es un número primo."
+          },
+          {
+            "en": "The store closes at eleven.",
+            "es": "La tienda cierra a las once."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5804,
+      "word": "fifteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌfɪfˈtiːn]",
+        "br": "[ˌfɪfˈtiːn]",
+        "gb": "[ˈfɪfˈtiːn]"
+      },
+      "translations": {
+        "rus": "пятнадцать",
+        "spa": "quince"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Subtract three from fifteen.",
+            "ru": "Вычти три из пятнадцати."
+          },
+          {
+            "en": "My watch is fifteen minutes slow.",
+            "ru": "Мои часы отстают на пятнадцать минут."
+          },
+          {
+            "en": "They met when she was fifteen.",
+            "ru": "Они встретились, когда ей было пятнадцать лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have less than fifteen.",
+            "es": "Tengo menos de quince."
+          },
+          {
+            "en": "Three times five is fifteen.",
+            "es": "Tres por cinco son quince."
+          },
+          {
+            "en": "It's fifteen minutes on foot.",
+            "es": "Caminando son quince minutos."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5814,
+      "word": "fifty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈfɪfti]",
+        "br": "[ˈfɪfti]",
+        "gb": "[ˈfɪftɪ]"
+      },
+      "translations": {
+        "rus": "пятьдесят",
+        "spa": "cincuenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is over fifty.",
+            "ru": "Ему за пятьдесят."
+          },
+          {
+            "en": "The coat was below fifty dollars!",
+            "ru": "Пальто стоило меньше пятидесяти долларов!"
+          },
+          {
+            "en": "She is pushing fifty.",
+            "ru": "Ей скоро стукнет пятьдесят."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He must be over fifty.",
+            "es": "Debe de tener más de cincuenta años."
+          },
+          {
+            "en": "The bus takes fifty people.",
+            "es": "El bus tiene cincuenta asientos."
+          },
+          {
+            "en": "That hat cost fifty dollars.",
+            "es": "Ese sombrero costaba cincuenta dólares."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5794,
+      "word": "five",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[faɪv]",
+        "br": "[faɪv]",
+        "gb": "[faɪv]"
+      },
+      "translations": {
+        "rus": "пять",
+        "spa": "cinco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The store is open until five.",
+            "ru": "Магазин работает до пяти."
+          },
+          {
+            "en": "I get off work at five.",
+            "ru": "Я заканчиваю работу в пять."
+          },
+          {
+            "en": "Do you have two fives for a ten?",
+            "ru": "Можете обменять десятку на две пятёрки?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I got up about five.",
+            "es": "Me levanté hacia las cinco."
+          },
+          {
+            "en": "They are five in all.",
+            "es": "Son cinco en total."
+          },
+          {
+            "en": "Five plus three is eight.",
+            "es": "Cinco más tres es ocho."
+          },
+          {
+            "en": "He is five feet tall.",
+            "es": "Él mide cinco pies."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5813,
+      "word": "forty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈfɔːrti]",
+        "br": "[ˈfɔːti]",
+        "gb": "[ˈfɔːtɪ]"
+      },
+      "translations": {
+        "rus": "сорок",
+        "spa": "cuarenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The well was forty feet deep.",
+            "ru": "Глубина колодца составляла сорок футов."
+          },
+          {
+            "en": "He looked nearer fifty than forty.",
+            "ru": "На вид ему было скорее пятьдесят, чем сорок."
+          },
+          {
+            "en": "She's now forty and still in her prime.",
+            "ru": "Сейчас ей сорок, и она всё ещё в самом расцвете сил."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is forty years old.",
+            "es": "Ella tiene cuarenta años."
+          },
+          {
+            "en": "There were forty people present.",
+            "es": "Cuarenta personas estaban presentes."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5793,
+      "word": "four",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[fɔːr]",
+        "br": "[fɔː(r)]",
+        "gb": "[fɔː]"
+      },
+      "translations": {
+        "rus": "четыре",
+        "spa": "cuatro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I leave each day at four.",
+            "ru": "Каждый день я ухожу в четыре."
+          },
+          {
+            "en": "Luke will soon be four.",
+            "ru": "Люку скоро будет четыре года."
+          },
+          {
+            "en": "She is married with four children.",
+            "ru": "Она замужем, имеет четверых детей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A dog has four legs.",
+            "es": "Un perro tiene cuatro patas."
+          },
+          {
+            "en": "I am leaving at four.",
+            "es": "Me voy a las cuatro."
+          },
+          {
+            "en": "Four plus three is seven.",
+            "es": "Cuatro más tres son siete."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5803,
+      "word": "fourteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌfɔːrˈtiːn]",
+        "br": "[ˌfɔːˈtiːn]",
+        "gb": "[ˈfɔːˈtiːn]"
+      },
+      "translations": {
+        "rus": "четырнадцать",
+        "spa": "catorce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let them stand to digest twelve or fourteen days.",
+            "ru": "Оставьте их настаиваться на двенадцать-четырнадцать дней."
+          },
+          {
+            "en": "He used to work fourteen hours a day.",
+            "ru": "Раньше он работал по четырнадцать часов в день."
+          },
+          {
+            "en": "Michael got into radio when he was only fourteen.",
+            "ru": "Майкл заинтересовался радио, когда ему было всего четырнадцать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am going to be fourteen.",
+            "es": "Voy a cumplir catorce años."
+          },
+          {
+            "en": "I will be fourteen years old tomorrow.",
+            "es": "Mañana cumplo catorce años."
+          },
+          {
+            "en": "My brother Jacques is fourteen years old.",
+            "es": "Mi hermano Jacques tiene catorce años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5819,
+      "word": "hundred",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈhʌndrəd]",
+        "br": "[ˈhʌndrəd]",
+        "gb": "[ˈhʌndrəd]"
+      },
+      "translations": {
+        "rus": "сто",
+        "spa": "cien"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A century is one hundred years.",
+            "ru": "Век — это сто лет."
+          },
+          {
+            "en": "I only need one hundred dollars.",
+            "ru": "Мне нужно всего сто долларов."
+          },
+          {
+            "en": "I'm one hundred percent sure of that.",
+            "ru": "Я на сто процентов в этом уверен."
+          },
+          {
+            "en": "We walked another hundred yards.",
+            "ru": "Мы прошли ещё сто ярдов."
+          },
+          {
+            "en": "A hundred years is called a century.",
+            "ru": "Сто лет называют веком."
+          },
+          {
+            "en": "She saved a hundred dollars.",
+            "ru": "Она сэкономила сто долларов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A century is one hundred years.",
+            "es": "Un siglo es cien años."
+          },
+          {
+            "en": "One hundred cents makes one dollar.",
+            "es": "Cien centavos hacen un dólar."
+          },
+          {
+            "en": "I only need one hundred dollars.",
+            "es": "Solo necesito cien dólares."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5825,
+      "word": "million",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈmɪljən]",
+        "br": "[ˈmɪljən]",
+        "gb": "[ˈmɪljən]"
+      },
+      "translations": {
+        "rus": "миллион",
+        "spa": "millón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One million is a seven digit number.",
+            "ru": "Миллион - семизначное число."
+          },
+          {
+            "en": "The bank loaned the company one million dollars.",
+            "ru": "Банк предоставил компании заём в один миллион долларов."
+          },
+          {
+            "en": "I've seen it a million times.",
+            "ru": "Я видел это миллион раз."
+          },
+          {
+            "en": "I wish I had a million dollars.",
+            "ru": "Вот бы у меня был миллион долларов."
+          },
+          {
+            "en": "Millions of men lost their jobs.",
+            "ru": "Миллионы мужчин потеряли работу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is worth one million yen.",
+            "es": "Esto vale un millón de yenes."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5798,
+      "word": "nine",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[naɪn]",
+        "br": "[naɪn]",
+        "gb": "[naɪn]"
+      },
+      "translations": {
+        "rus": "девять",
+        "spa": "nueve"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He woke up at nine this morning.",
+            "ru": "Он сегодня проснулся в девять утра."
+          },
+          {
+            "en": "We open at nine.",
+            "ru": "Мы открываемся в девять часов."
+          },
+          {
+            "en": "The next card was the nine of diamonds.",
+            "ru": "Следующей картой была девятка бубей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you come at nine?",
+            "es": "¿Puedes venir a las nueve?"
+          },
+          {
+            "en": "A cat has nine lives.",
+            "es": "Un gato tiene nueve vidas."
+          },
+          {
+            "en": "I will be back by nine.",
+            "es": "Volveré antes de la nueve."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5808,
+      "word": "nineteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌnaɪnˈtiːn]",
+        "br": "[ˌnaɪnˈtiːn]",
+        "gb": "[ˈnaɪnˈtiːn]"
+      },
+      "translations": {
+        "rus": "девятнадцать",
+        "spa": "diecinueve"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was only nineteen.",
+            "ru": "Мне было только девятнадцать лет."
+          },
+          {
+            "en": "He entered the army at nineteen.",
+            "ru": "Он пошел в армию в девятнадцать лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am nineteen years old.",
+            "es": "Tengo diecinueve años."
+          },
+          {
+            "en": "I got married when I was nineteen.",
+            "es": "Me casé cuando tenía diecinueve años."
+          },
+          {
+            "en": "I have been smoking since I was nineteen.",
+            "es": "Fumo desde los diecinueve años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5818,
+      "word": "ninety",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈnaɪnti]",
+        "br": "[ˈnaɪnti]",
+        "gb": "[ˈnaɪntɪ]"
+      },
+      "translations": {
+        "rus": "девяносто",
+        "spa": "noventa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was driving at ninety kilometres per hour.",
+            "ru": "Я ехал со скоростью девяносто километров в час."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A hundred minus ninety is ten.",
+            "es": "Cien menos noventa es diez."
+          },
+          {
+            "en": "A right angle has ninety degrees.",
+            "es": "Un ángulo recto tiene noventa grados."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5790,
+      "word": "one",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn]",
+        "br": "[wʌn]",
+        "gb": "[wʌn]"
+      },
+      "translations": {
+        "rus": "один",
+        "spa": "un, uno, una"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You are number one!",
+            "ru": "Ты - номер один!"
+          },
+          {
+            "en": "I have one brother.",
+            "ru": "У меня один брат."
+          },
+          {
+            "en": "Take one of these.",
+            "ru": "Возьми один из этих."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have one brother.",
+            "es": "Tengo un hermano."
+          },
+          {
+            "en": "Do I need one?",
+            "es": "¿Necesito uno?"
+          },
+          {
+            "en": "One of them is lying.",
+            "es": "Uno de ellos miente."
+          },
+          {
+            "en": "I can buy one.",
+            "es": "Yo puedo comprar uno."
+          },
+          {
+            "en": "It happened one night.",
+            "es": "Sucedió una noche."
+          },
+          {
+            "en": "One thing remains doubtful.",
+            "es": "Una cosa sigue siendo incierta."
+          },
+          {
+            "en": "I have one too.",
+            "es": "Yo también tengo uno."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1",
+        "top100"
+      ]
+    },
+    {
+      "id": 5820,
+      "word": "one hundred one",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [ˈhʌndrəd] [wʌn]",
+        "br": "[wʌn] [ˈhʌndrəd] [wʌn]",
+        "gb": "[wʌn] [ˈhʌndrəd] [wʌn]"
+      },
+      "translations": {
+        "rus": "сто один",
+        "spa": "ciento uno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5824,
+      "word": "one hundred thousand",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [ˈhʌndrəd] [ˈθaʊznd]",
+        "br": "[wʌn] [ˈhʌndrəd] [ˈθaʊznd]",
+        "gb": "[wʌn] [ˈhʌndrəd] [ˈθaʊzənd]"
+      },
+      "translations": {
+        "rus": "сто тысяч",
+        "spa": "cien mil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5822,
+      "word": "one thousand one",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [ˈθaʊznd] [wʌn]",
+        "br": "[wʌn] [ˈθaʊznd] [wʌn]",
+        "gb": "[wʌn] [ˈθaʊzənd] [wʌn]"
+      },
+      "translations": {
+        "rus": "тысяча один",
+        "spa": "mil uno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5830,
+      "word": "one-eighth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [eɪtθ]",
+        "br": "[wʌn] [eɪtθ]",
+        "gb": "[wʌn] [eɪtθ]"
+      },
+      "translations": {
+        "rus": "одна восьмая",
+        "spa": "el octavo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5829,
+      "word": "one-fourth",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [fɔːrθ]",
+        "br": "[wʌn] [fɔːθ]",
+        "gb": "[wʌn] [fɔːθ]"
+      },
+      "translations": {
+        "rus": "одна четвертая",
+        "spa": "el cuarto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5827,
+      "word": "one-half",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [hæf]",
+        "br": "[wʌn] [hɑːf]",
+        "gb": "[wʌn] [hɑːf]"
+      },
+      "translations": {
+        "rus": "одна вторая",
+        "spa": "la mitad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5828,
+      "word": "one-third",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[wʌn] [θɜːrd]",
+        "br": "[wʌn] [θɜːd]",
+        "gb": "[wʌn] [θɜːd]"
+      },
+      "translations": {
+        "rus": "одна третья",
+        "spa": "el tercio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5796,
+      "word": "seven",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsevn]",
+        "br": "[ˈsevn]",
+        "gb": "[sevn]"
+      },
+      "translations": {
+        "rus": "семь",
+        "spa": "siete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I leave each day at seven.",
+            "ru": "Каждый день я ухожу в семь."
+          },
+          {
+            "en": "We close the store at seven.",
+            "ru": "Мы закрываем магазин в семь часов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I got up at seven.",
+            "es": "Me levanté a las siete."
+          },
+          {
+            "en": "Wake me up at seven.",
+            "es": "Despiértame a las siete."
+          },
+          {
+            "en": "I got home at seven.",
+            "es": "Llegué a casa a las siete."
+          },
+          {
+            "en": "The couple have seven children.",
+            "es": "La pareja tiene siete hijos."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5806,
+      "word": "seventeen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌsevnˈtiːn]",
+        "br": "[ˌsevnˈtiːn]",
+        "gb": "[ˈsevnˈtiːn]"
+      },
+      "translations": {
+        "rus": "семнадцать",
+        "spa": "diecisiete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Seventeen couples participated in the survey.",
+            "ru": "Семнадцать пар приняли участие в опросе."
+          },
+          {
+            "en": "I left home when I was seventeen.",
+            "ru": "Я ушла из дома, когда мне было семнадцать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll be seventeen next year.",
+            "es": "Cumpliré diecisiete el año próximo."
+          },
+          {
+            "en": "Helen is seventeen years old.",
+            "es": "Helen tiene diecisiete años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5816,
+      "word": "seventy",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsevnti]",
+        "br": "[ˈsevnti]",
+        "gb": "[ˈsevntɪ]"
+      },
+      "translations": {
+        "rus": "семьдесят",
+        "spa": "setenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is past seventy.",
+            "ru": "Ему за семьдесят."
+          },
+          {
+            "en": "He was doing seventy.",
+            "ru": "Он ехал со скоростью семьдесят миль в час."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He really is over seventy.",
+            "es": "Es verdad que tiene más de setenta."
+          },
+          {
+            "en": "He died at the age of seventy.",
+            "es": "Él murió a la edad de setenta años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5795,
+      "word": "six",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[sɪks]",
+        "br": "[sɪks]",
+        "gb": "[sɪks]"
+      },
+      "translations": {
+        "rus": "шесть",
+        "spa": "seis"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I leave each day at six.",
+            "ru": "Каждый день я ухожу в шесть."
+          },
+          {
+            "en": "He learnt to play the violin when he was six.",
+            "ru": "Он научился играть на скрипке, когда ему было шесть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I got up at six.",
+            "es": "Yo me levanté a las seis."
+          },
+          {
+            "en": "Six and four are ten.",
+            "es": "Seis y cuatro son diez."
+          },
+          {
+            "en": "I'll be back by six.",
+            "es": "Volveré antes de las seis."
+          },
+          {
+            "en": "Six divided by two is three.",
+            "es": "Seis dividido dos es tres."
+          },
+          {
+            "en": "He got home at six.",
+            "es": "Volvió a las seis."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5805,
+      "word": "sixteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌsɪksˈtiːn]",
+        "br": "[ˌsɪksˈtiːn]",
+        "gb": "[ˈsɪksˈtiːn]"
+      },
+      "translations": {
+        "rus": "шестнадцать",
+        "spa": "dieciséis"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am sixteen years old.",
+            "ru": "Мне шестнадцать лет."
+          },
+          {
+            "en": "I will be sixteen in May.",
+            "ru": "В мае мне будет шестнадцать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am sixteen years old.",
+            "es": "Tengo dieciséis años."
+          },
+          {
+            "en": "I will be sixteen in May.",
+            "es": "Tendré dieciséis años en mayo."
+          },
+          {
+            "en": "I'll be sixteen in September.",
+            "es": "Voy a cumplir dieciséis en septiembre."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5815,
+      "word": "sixty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈsɪksti]",
+        "br": "[ˈsɪksti]",
+        "gb": "[ˈsɪkstɪ]"
+      },
+      "translations": {
+        "rus": "шестьдесят",
+        "spa": "sesenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is over sixty.",
+            "ru": "Ей за шестьдесят."
+          },
+          {
+            "en": "They were doing sixty.",
+            "ru": "Они ехали со скоростью шестьдесят миль в час."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is close to sixty.",
+            "es": "Él tiene cerca de sesenta años."
+          },
+          {
+            "en": "An hour has sixty minutes.",
+            "es": "Una hora tiene sesenta minutos."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5799,
+      "word": "ten",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ten]",
+        "br": "[ten]",
+        "gb": "[ten]"
+      },
+      "translations": {
+        "rus": "десять",
+        "spa": "diez"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Snow had been falling steadily for ten days.",
+            "ru": "Снег валил десять дней без перерыва."
+          },
+          {
+            "en": "We made him a captain of our ten.",
+            "ru": "Мы сделали его капитаном нашей десятки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll be back at ten.",
+            "es": "Volveré a las diez."
+          },
+          {
+            "en": "Ten minus two is eight.",
+            "es": "Diez menos dos son ocho."
+          },
+          {
+            "en": "Ten years is a long time.",
+            "es": "Diez años es mucho tiempo."
+          },
+          {
+            "en": "Six and four are ten.",
+            "es": "Seis y cuatro son diez."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5823,
+      "word": "ten thousand",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ten] [ˈθaʊznd]",
+        "br": "[ten] [ˈθaʊznd]",
+        "gb": "[ten] [ˈθaʊzənd]"
+      },
+      "translations": {
+        "rus": "десять тысяч",
+        "spa": "diez mil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The total is approximately ten thousand dollars.",
+            "ru": "В итоге приблизительно десять тысяч долларов."
+          },
+          {
+            "en": "What would you do if you had ten thousand dollars?",
+            "ru": "Что бы ты сделал, если бы у тебя были десять тысяч долларов?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This watch cost me ten thousand yen.",
+            "es": "Este reloj me costó diez mil yenes."
+          }
+        ]
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5802,
+      "word": "thirteen",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˌθɜːrˈtiːn]",
+        "br": "[ˌθɜːˈtiːn]",
+        "gb": "[ˈθɜːˈtiːn]"
+      },
+      "translations": {
+        "rus": "тринадцать",
+        "spa": "trece"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She'll be thirteen this month.",
+            "ru": "В этом месяце ей будет тринадцать."
+          },
+          {
+            "en": "I'm planning to leave on the thirteenth.",
+            "ru": "Я планирую уехать тринадцатого числа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She left home at age thirteen.",
+            "es": "Ella se fue de casa cuando tenía trece años."
+          },
+          {
+            "en": "I've played soccer since I was thirteen.",
+            "es": "Juego fútbol desde que tenía trece."
+          },
+          {
+            "en": "I haven't seen Tom since he was thirteen.",
+            "es": "No he visto a Tom desde que tenía trece años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5812,
+      "word": "thirty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈθɜːrti]",
+        "br": "[ˈθɜːti]",
+        "gb": "[ˈθɜːtɪ]"
+      },
+      "translations": {
+        "rus": "тридцать",
+        "spa": "treinta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The court will retire for thirty minutes.",
+            "ru": "Суд удаляется на получасовое совещание."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am thirty years old.",
+            "es": "Tengo treinta años."
+          },
+          {
+            "en": "I think Tom is thirty.",
+            "es": "Creo que Tomás tiene treinta años."
+          },
+          {
+            "en": "The wall is thirty yards long.",
+            "es": "Esa pared mide treinta yardas de largo."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5821,
+      "word": "thousand",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈθaʊznd]",
+        "br": "[ˈθaʊznd]",
+        "gb": "[ˈθaʊzənd]"
+      },
+      "translations": {
+        "rus": "тысяча",
+        "spa": "mil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There were about one thousand people.",
+            "ru": "Там было около тысячи человек."
+          },
+          {
+            "en": "This antique clock is worth one thousand dollars.",
+            "ru": "Эти антикварные часы стоят тысячу долларов."
+          },
+          {
+            "en": "Thousands of people gathered there.",
+            "ru": "Тысячи людей собрались там."
+          },
+          {
+            "en": "There are about a thousand students in all.",
+            "ru": "Всего порядка тысячи студентов."
+          },
+          {
+            "en": "Thousands of people wanted to know the answer.",
+            "ru": "Тысячи людей хотели знать ответ."
+          },
+          {
+            "en": "Two thousand people fit into this hall.",
+            "ru": "Этот зал вмещает две тысячи человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is one thousand yen enough?",
+            "es": "¿Mil yenes son suficiente?"
+          },
+          {
+            "en": "He has at least one thousand books.",
+            "es": "Él tiene cuando menos mil libros."
+          },
+          {
+            "en": "There were about one thousand people.",
+            "es": "Había alrededor de mil personas."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5792,
+      "word": "three",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[θriː]",
+        "br": "[θriː]",
+        "gb": "[θriː]"
+      },
+      "translations": {
+        "rus": "три",
+        "spa": "tres"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I leave each day at three.",
+            "ru": "Каждый день я ухожу в три."
+          },
+          {
+            "en": "My little sister's only three.",
+            "ru": "Моей младшей сестре всего лишь три года."
+          },
+          {
+            "en": "They've won their last three games.",
+            "ru": "Они победили в последних трёх играх."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I ate three hot dogs.",
+            "es": "Comí tres panchos."
+          },
+          {
+            "en": "On the count of three!",
+            "es": "¡A las tres!"
+          },
+          {
+            "en": "I'd like three of these.",
+            "es": "Quisiera tres de éstos."
+          },
+          {
+            "en": "He died three years ago.",
+            "es": "Murió hace tres años."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5831,
+      "word": "three-fourths",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[θriː] [fɔːrθs]",
+        "br": "[θriː] [fɔːθs]",
+        "gb": "[θriː] [fɔːθs]"
+      },
+      "translations": {
+        "rus": "три четвертых",
+        "spa": "tres cuartos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5801,
+      "word": "twelve",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[twelv]",
+        "br": "[twelv]",
+        "gb": "[twelv]"
+      },
+      "translations": {
+        "rus": "двенадцать",
+        "spa": "doce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have lunch at twelve.",
+            "ru": "У меня обед в двенадцать часов."
+          },
+          {
+            "en": "At twelve he was a quiet boy.",
+            "ru": "В двенадцать лет он был тихим мальчиком."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am twelve years old.",
+            "es": "Tengo doce años."
+          },
+          {
+            "en": "Twelve is an even number.",
+            "es": "Doce es un número par."
+          },
+          {
+            "en": "A year has twelve months.",
+            "es": "Un año tiene doce meses."
+          },
+          {
+            "en": "My kid brother is twelve.",
+            "es": "Mi hermano pequeño tiene doce."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5809,
+      "word": "twenty",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈtwenti]",
+        "br": "[ˈtwenti]",
+        "gb": "[ˈtwentɪ]"
+      },
+      "translations": {
+        "rus": "двадцать",
+        "spa": "veinte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is over twenty.",
+            "ru": "Ей больше двадцати лет."
+          },
+          {
+            "en": "I've known her for twenty years.",
+            "ru": "Я знаю ее двадцать лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is twenty years old.",
+            "es": "Ella tiene veinte años."
+          },
+          {
+            "en": "Twenty years is a long time.",
+            "es": "Veinte años es mucho tiempo."
+          },
+          {
+            "en": "I walk twenty miles a day.",
+            "es": "Camino veinte millas al día."
+          },
+          {
+            "en": "Twenty people died in a fire.",
+            "es": "Veinte personas murieron en un incendio."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5810,
+      "word": "twenty-one",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈtwenti] [wʌn]",
+        "br": "[ˈtwenti] [wʌn]",
+        "gb": "[ˈtwentɪ] [wʌn]"
+      },
+      "translations": {
+        "rus": "двадцать один",
+        "spa": "veintiuno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My brother is twenty one years old and is married.",
+            "ru": "Моему брату двадцать один год, и он женат."
+          },
+          {
+            "en": "My sister is twenty-one and she studies at the university.",
+            "ru": "Моей сестре двадцать один год, и она учится в университете."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My sister is twenty-one years old and a college student.",
+            "es": "Mi hermana pequeña tiene veintiún años, es universitaria."
+          }
+        ]
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5811,
+      "word": "twenty-two",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈtwenti] [tuː]",
+        "br": "[ˈtwenti] [tuː]",
+        "gb": "[ˈtwentɪ] [tuː]"
+      },
+      "translations": {
+        "rus": "двадцать два",
+        "spa": "veintidós"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Four plus eighteen is twenty-two.",
+            "ru": "Четыре плюс восемнадцать будет двадцать два."
+          },
+          {
+            "en": "He got married when he was twenty-two years old.",
+            "ru": "Он женился, когда ему было двадцать два года."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Four plus eighteen is twenty-two.",
+            "es": "Cuatro más dieciocho son veintidós."
+          }
+        ]
+      },
+      "categories": [
+        "numbers"
+      ]
+    },
+    {
+      "id": 5791,
+      "word": "two",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[tuː]",
+        "br": "[tuː]",
+        "gb": "[tuː]"
+      },
+      "translations": {
+        "rus": "два",
+        "spa": "dos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have to be there by two.",
+            "ru": "Мы должны там быть к двум."
+          },
+          {
+            "en": "I'll be away for almost two weeks.",
+            "ru": "Я буду отсутствовать почти две недели."
+          },
+          {
+            "en": "His family moved to Australia when he was two.",
+            "ru": "Его семья переехала в Австралию, когда ему было два года."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have two older sisters.",
+            "es": "Tengo dos hermanas mayores."
+          },
+          {
+            "en": "We have two television sets.",
+            "es": "Tenemos dos televisiones."
+          },
+          {
+            "en": "You have two younger brothers.",
+            "es": "Tienes dos hermanos pequeños."
+          },
+          {
+            "en": "I would like to ask two questions.",
+            "es": "Quisiera hacer dos preguntas."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5832,
+      "word": "whole",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[həʊl]",
+        "br": "[həʊl]",
+        "gb": "[həʊl]"
+      },
+      "translations": {
+        "rus": "целое, целый",
+        "spa": "todo, entero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Two halves make a whole.",
+            "ru": "Две половинки составляют целое."
+          },
+          {
+            "en": "We cooked a whole chicken.",
+            "ru": "Мы приготовили курицу целиком."
+          },
+          {
+            "en": "There is a whole range of therapies that may be suitable.",
+            "ru": "Существует целый ряд лечебных курсов, которые могут подойти."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My whole body is sore.",
+            "es": "Me duele todo el cuerpo."
+          },
+          {
+            "en": "He ate the whole apple.",
+            "es": "Él se comió la manzana entera."
+          },
+          {
+            "en": "Tell me the whole story.",
+            "es": "Cuéntamelo todo."
+          },
+          {
+            "en": "The whole town knows of it.",
+            "es": "Todo el pueblo sabe de él."
+          },
+          {
+            "en": "He made up the whole story.",
+            "es": "Él inventó la historia entera."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5789,
+      "word": "zero",
+      "pos": "numeral",
+      "transcription": {
+        "us": "[ˈzɪrəʊ]",
+        "br": "[ˈzɪrəʊ]",
+        "gb": "[ˈzɪərəʊ]"
+      },
+      "translations": {
+        "rus": "ноль",
+        "spa": "cero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Two minus two equals zero.",
+            "ru": "Два минус два равняется нулю."
+          },
+          {
+            "en": "It was five degrees below zero last night.",
+            "ru": "Прошлой ночью было 5 градусов ниже нуля."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Zero is a special number.",
+            "es": "El cero es un número especial."
+          },
+          {
+            "en": "The default value is zero.",
+            "es": "El valor predeterminado es cero."
+          },
+          {
+            "en": "It's six degrees below zero.",
+            "es": "Hace seis grados bajo cero."
+          }
+        ]
+      },
+      "categories": [
+        "numbers",
+        "oxford3000_a2"
+      ]
+    }
+  ]
+}

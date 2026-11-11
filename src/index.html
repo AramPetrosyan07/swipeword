@@ -146,12 +146,6 @@
           <button class="icon-btn" id="btnSort" title="Sort A-Z">A-Z</button>
           <button class="icon-btn" id="btnModes" title="Learning Modes">&#127918;</button>
           <button class="icon-btn" id="btnLearnMode" title="Toggle learning/checking mode">&#128214;</button>
-          <div class="vocab-switch" id="btnVocabSwitch" title="Switch vocabulary" data-vocab="b2">
-            <span class="vocab-switch-label b2">B2</span>
-            <span class="vocab-switch-label c1">C1</span>
-            <span class="vocab-switch-label verb">Verb</span>
-            <div class="vocab-switch-knob"></div>
-          </div>
           <button class="icon-btn" id="btnFavFilter" title="Show favorites only">&#9734;</button>
           <button class="icon-btn" id="btnListView" title="List view">&#9776;</button>
           <button class="icon-btn" id="btnTheme" title="Toggle theme">&#9790;</button>
@@ -552,6 +546,18 @@
       </div>
     </div>
 
+    <!-- Deck Picker Screen -->
+    <div id="screen-decks" class="screen">
+      <div class="top-bar">
+        <button class="icon-btn" id="btnDecksBack" title="Back">&#8592;</button>
+        <span class="progress-text">Word Groups</span>
+        <div></div>
+      </div>
+      <div class="decks-content">
+        <div class="decks-grid" id="decksGridItems"></div>
+      </div>
+    </div>
+
     <!-- Note Editor Popup -->
     <div id="noteEditorPopup" class="note-editor-popup" style="display:none;">
       <div class="note-editor-content">
@@ -944,6 +950,13 @@
         <div></div>
       </div>
       <div class="settings-container">
+        <div class="settings-section">
+          <div class="settings-row">
+            <span class="settings-row-label">Open last word group on startup</span>
+            <input type="checkbox" id="settingOpenLastDeck" />
+          </div>
+          <p class="settings-hint">When off, the word groups picker is shown on startup instead.</p>
+        </div>
         <p class="settings-placeholder">Settings will appear here.</p>
         <div class="settings-launcher">
           <button class="btn btn-primary" id="btnCreateRunFileHome">Create Launcher File</button>
@@ -1014,6 +1027,7 @@
   <script src="scripts/charts.js"></script>
   <script src="scripts/word-collector.js"></script>
   <script src="scripts/words-page.js"></script>
+  <script src="scripts/deck-picker.js"></script>
   <script src="scripts/vocabulary-library.js"></script>
   <script src="scripts/alphabet-page.js"></script>
   <script src="scripts/text-practice.js"></script>

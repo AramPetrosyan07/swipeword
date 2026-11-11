@@ -1,0 +1,2381 @@
+{
+  "category": {
+    "id": "archaeology",
+    "name_rus": "Археология",
+    "type": "topic",
+    "word_count": 75
+  },
+  "words": [
+    {
+      "id": 306,
+      "word": "advanced",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ədˈvænst]",
+        "br": "[ədˈvɑːnst]",
+        "gb": "[ədˈvɑːnst]"
+      },
+      "translations": {
+        "rus": "продвинутый, передовой",
+        "spa": "avanzado, adelantado, superior"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This semester, I'll be taking a course in advanced Arabic.",
+            "ru": "В этом семестре у меня будет курс арабского продвинутого уровня."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 309,
+      "word": "ancient",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈeɪnʃənt]",
+        "br": "[ˈeɪnʃənt]",
+        "gb": "[ˈeɪnʃənt]"
+      },
+      "translations": {
+        "rus": "древний, старинный",
+        "spa": "antiguo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is an ancient law.",
+            "ru": "Это древний закон."
+          },
+          {
+            "en": "I bought an ancient lamp.",
+            "ru": "Я купил старинную лампу."
+          },
+          {
+            "en": "Rome has a lot of ancient buildings.",
+            "ru": "В Риме много древних зданий."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Rome is an ancient city.",
+            "es": "Roma es una ciudad antigua."
+          },
+          {
+            "en": "Rome has a lot of ancient buildings.",
+            "es": "Roma tiene muchos edificios antiguos."
+          },
+          {
+            "en": "That ancient ruin was once a shrine.",
+            "es": "Esas antiguas ruinas fueron alguna vez un templo."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "architecture",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 310,
+      "word": "archaeologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒɪst]",
+        "br": "[ˌɑːkiˈɒlədʒɪst]",
+        "gb": "[ɑːkɪˈɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "археолог",
+        "spa": "el arqueólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "career"
+      ]
+    },
+    {
+      "id": 311,
+      "word": "archaeology",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒi]",
+        "br": "[ˌɑːkiˈɒlədʒi]",
+        "gb": "[ɑːkɪˈɔləʤɪ]"
+      },
+      "translations": {
+        "rus": "археология",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 312,
+      "word": "archeologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒɪst]",
+        "br": "[ˌɑːkiˈɒlədʒɪst]",
+        "gb": "[ɑːkɪˈɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "археолог",
+        "spa": "el arqueólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "career"
+      ]
+    },
+    {
+      "id": 313,
+      "word": "archeology",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒi]",
+        "br": "[ˌɑːkiˈɒlədʒi]",
+        "gb": "[ɑːkɪˈɔləʤɪ]"
+      },
+      "translations": {
+        "rus": "археология",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 314,
+      "word": "armorer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmərər]",
+        "br": "[ˈɑːmərə(r)]",
+        "gb": "[ɑːˈmɔːrər]"
+      },
+      "translations": {
+        "rus": "оружейник",
+        "spa": "el armero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 315,
+      "word": "armourer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmərər]",
+        "br": "[ˈɑːmərə(r)]",
+        "gb": "[ɑːˈmɔːrər]"
+      },
+      "translations": {
+        "rus": "оружейник",
+        "spa": "el armero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 316,
+      "word": "arrowhead",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈærəʊhed]",
+        "br": "[ˈærəʊhed]",
+        "gb": "[ˈærəʊhed]"
+      },
+      "translations": {
+        "rus": "наконечник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 317,
+      "word": "artisan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtəzn]",
+        "br": "[ˌɑːtɪˈzæn]",
+        "gb": "[ɑːtɪˈzæn]"
+      },
+      "translations": {
+        "rus": "ремесленник",
+        "spa": "el artesano"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 318,
+      "word": "BC",
+      "pos": null,
+      "transcription": {
+        "us": "[ˌbiː ˈsiː]",
+        "br": "[ˌbiː ˈsiː]",
+        "gb": "[ˌbiː ˈsiː]"
+      },
+      "translations": {
+        "rus": "до н. э.",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 319,
+      "word": "bronze",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[brɑːnz]",
+        "br": "[brɒnz]",
+        "gb": "[brɔnz]"
+      },
+      "translations": {
+        "rus": "бронза, бронзовый",
+        "spa": "bronce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stone tools precede bronze tools.",
+            "ru": "Каменные орудия предшествовали бронзовым."
+          },
+          {
+            "en": "A bronze plaque marked the city's oldest building.",
+            "ru": "Старейшее здание города было отмечено бронзовой мемориальной табличкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "colors"
+      ]
+    },
+    {
+      "id": 320,
+      "word": "burial",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈberiəl]",
+        "br": "[ˈberiəl]",
+        "gb": "[ˈberɪəl]"
+      },
+      "translations": {
+        "rus": "захоронение",
+        "spa": "el entierro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 321,
+      "word": "caliper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkælɪpər]",
+        "br": "[ˈkælɪpə(r)]",
+        "gb": "[ˈkælɪpər]"
+      },
+      "translations": {
+        "rus": "каверномер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 322,
+      "word": "celestial body",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈlestʃl] [ˈbɑːdi]",
+        "br": "[səˈlestiəl] [ˈbɒdi]",
+        "gb": "[sɪˈlestjəl] [ˈbɔdɪ]"
+      },
+      "translations": {
+        "rus": "небесное тело",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "space"
+      ]
+    },
+    {
+      "id": 323,
+      "word": "century",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsentʃəri]",
+        "br": "[ˈsentʃəri]",
+        "gb": "[ˈsenʧʊrɪ]"
+      },
+      "translations": {
+        "rus": "век, столетие",
+        "spa": "el siglo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A century is one hundred years.",
+            "ru": "Век — это сто лет."
+          },
+          {
+            "en": "How many years are there in a century?",
+            "ru": "Сколько лет в столетии?"
+          },
+          {
+            "en": "Eighteenth century, unless it's a forgery.",
+            "ru": "18-й век, в случае если это не подделка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A century is one hundred years.",
+            "es": "Un siglo es cien años."
+          },
+          {
+            "en": "He was born in the 19th century.",
+            "es": "Nació en el siglo XIX."
+          },
+          {
+            "en": "This is a letter from the 15th century.",
+            "es": "Esta es una carta del siglo XV."
+          },
+          {
+            "en": "We've made the discovery of the century.",
+            "es": "Hemos hecho el descubrimiento del siglo."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 324,
+      "word": "chemical composition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkemɪkl] [ˌkɑːmpəˈzɪʃn]",
+        "br": "[ˈkemɪkl] [ˌkɒmpəˈzɪʃn]",
+        "gb": "[ˈkemɪkəl] [kɔmpəˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "химический состав",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 325,
+      "word": "chisel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃɪzl]",
+        "br": "[ˈtʃɪzl]",
+        "gb": "[ʧɪzl]"
+      },
+      "translations": {
+        "rus": "долото",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 326,
+      "word": "clay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kleɪ]",
+        "br": "[kleɪ]",
+        "gb": "[kleɪ]"
+      },
+      "translations": {
+        "rus": "глина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "architecture",
+        "ecology"
+      ]
+    },
+    {
+      "id": 327,
+      "word": "clue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kluː]",
+        "br": "[kluː]",
+        "gb": "[kluː]"
+      },
+      "translations": {
+        "rus": "ключ (к разгадке), понятие, представление",
+        "spa": "la pista, la idea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Police have found a vital clue.",
+            "ru": "Полиция нашла жизненно важную улику."
+          },
+          {
+            "en": "I haven't a clue how to talk to girls.",
+            "ru": "Я понятия не имею, как разговаривать с девушками."
+          },
+          {
+            "en": "It gives a clue as to how to proceed.",
+            "ru": "Это дает представление о том, как действовать далее."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 328,
+      "word": "creation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kriˈeɪʃn]",
+        "br": "[kriˈeɪʃn]",
+        "gb": "[kriːˈeɪʃn]"
+      },
+      "translations": {
+        "rus": "создание (как процесс), творчество",
+        "spa": "la creación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That has allowed the creation of 4.000 new jobs.",
+            "ru": "Это позволило создать четыре тысячи рабочих мест."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 329,
+      "word": "crossbow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɔːsbəʊ]",
+        "br": "[ˈkrɒsbəʊ]",
+        "gb": "[ˈkrɒsbəʊ]"
+      },
+      "translations": {
+        "rus": "арбалет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 330,
+      "word": "death",
+      "pos": "noun",
+      "transcription": {
+        "us": "[deθ]",
+        "br": "[deθ]",
+        "gb": "[deθ]"
+      },
+      "translations": {
+        "rus": "гибель, смерть, смертельный",
+        "spa": "la muerte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He bores me to death.",
+            "ru": "Он мне до смерти надоел."
+          },
+          {
+            "en": "He died a violent death.",
+            "ru": "Он умер насильственной смертью."
+          },
+          {
+            "en": "Death to tyrants!",
+            "ru": "Смерть тиранам!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I do not fear death.",
+            "es": "No le temo a la muerte."
+          },
+          {
+            "en": "He died a quick death.",
+            "es": "Tuvo una muerte rápida."
+          },
+          {
+            "en": "I will fight to the death.",
+            "es": "Pelearé hasta la muerte."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 335,
+      "word": "exhibit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪɡˈzɪbɪt]",
+        "br": "[ɪɡˈzɪbɪt]",
+        "gb": "[ɪgˈzɪbɪt]"
+      },
+      "translations": {
+        "rus": "экспонат",
+        "spa": "la exposición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do not touch the exhibits.",
+            "ru": "Не трогайте экспонаты."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "art",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 337,
+      "word": "exploration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌekspləˈreɪʃn]",
+        "br": "[ˌekspləˈreɪʃn]",
+        "gb": "[eksplɔːˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "исследование",
+        "spa": "la exploración"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 338,
+      "word": "halberd",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhælbərd]",
+        "br": "[ˈhælbɜːd]",
+        "gb": "[ˈhælbɜːd]"
+      },
+      "translations": {
+        "rus": "алебарда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 339,
+      "word": "historian",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪˈstɔːriən]",
+        "br": "[hɪˈstɔːriən]",
+        "gb": "[hɪsˈtɔːrɪən]"
+      },
+      "translations": {
+        "rus": "историк",
+        "spa": "el historiador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's a historian.",
+            "ru": "Он историк."
+          },
+          {
+            "en": "What's the historian's duty?",
+            "ru": "В чём заключается обязанность историка?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 341,
+      "word": "initial sample",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈnɪʃl] [ˈsæmpl]",
+        "br": "[ɪˈnɪʃl] [ˈsɑːmpl]",
+        "gb": "[ɪˈnɪʃəl] [sɑːmpl]"
+      },
+      "translations": {
+        "rus": "исходный образец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 342,
+      "word": "inscription",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈskrɪpʃn]",
+        "br": "[ɪnˈskrɪpʃn]",
+        "gb": "[ɪnˈskrɪpʃn]"
+      },
+      "translations": {
+        "rus": "надпись",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 343,
+      "word": "lance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læns]",
+        "br": "[lɑːns]",
+        "gb": "[lɑːns]"
+      },
+      "translations": {
+        "rus": "копье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 344,
+      "word": "life-size figure",
+      "pos": null,
+      "transcription": {
+        "us": "[laɪf] [saɪz] [ˈfɪɡjər]",
+        "br": "[laɪf] [saɪz] [ˈfɪɡə(r)]",
+        "gb": "[laɪf] [saɪz] [ˈfɪgə]"
+      },
+      "translations": {
+        "rus": "фигура в натуральную величину",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 345,
+      "word": "mausoleum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmɔːzəˈliːəm]",
+        "br": "[ˌmɔːzəˈliːəm]",
+        "gb": "[mɔːsəˈlɪəm]"
+      },
+      "translations": {
+        "rus": "мавзолей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 346,
+      "word": "measurement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmeʒərmənt]",
+        "br": "[ˈmeʒəmənt]",
+        "gb": "[ˈmeʒəmənt]"
+      },
+      "translations": {
+        "rus": "измерение",
+        "spa": "la medida, la medición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's an exact measurement.",
+            "ru": "Это точное измерение."
+          },
+          {
+            "en": "The measurements must be precise.",
+            "ru": "Измерения должны быть точными."
+          },
+          {
+            "en": "Precise measurements are required.",
+            "ru": "Необходимы точные измерения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 347,
+      "word": "member",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmembər]",
+        "br": "[ˈmembə(r)]",
+        "gb": "[ˈmembə]"
+      },
+      "translations": {
+        "rus": "участник, член, элемент",
+        "spa": "el miembro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you a member of this crew?",
+            "ru": "Вы член экипажа?"
+          },
+          {
+            "en": "Each member has to pay a membership fee.",
+            "ru": "Каждый участник должен внести членский взнос."
+          },
+          {
+            "en": "He is a member of the committee.",
+            "ru": "Он — член комитета."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who are the voting members?",
+            "es": "¿Quiénes son los miembros votantes?"
+          },
+          {
+            "en": "The club has thirty members.",
+            "es": "El club cuenta con treinta miembros."
+          },
+          {
+            "en": "All the members were present.",
+            "es": "Todos los miembros estaban presentes."
+          },
+          {
+            "en": "Our yacht club has ten members.",
+            "es": "Nuestro club náutico tiene diez miembros."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 348,
+      "word": "metal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmetl]",
+        "br": "[ˈmetl]",
+        "gb": "[metl]"
+      },
+      "translations": {
+        "rus": "металл",
+        "spa": "el metal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Metal solidifies.",
+            "ru": "Металл застывает."
+          },
+          {
+            "en": "The saw easily cuts through metal.",
+            "ru": "Эта пила легко режет металл."
+          },
+          {
+            "en": "The gate is made of metal.",
+            "ru": "Эти ворота сделаны из металла."
+          },
+          {
+            "en": "The metal rusts.",
+            "ru": "Металл ржавеет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 350,
+      "word": "method",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmeθəd]",
+        "br": "[ˈmeθəd]",
+        "gb": "[ˈmeθəd]"
+      },
+      "translations": {
+        "rus": "метод",
+        "spa": "el método"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His methods are not scientific.",
+            "ru": "Его методы ненаучны."
+          },
+          {
+            "en": "Do you think your method is better?",
+            "ru": "Вы думаете, ваш метод лучше?"
+          },
+          {
+            "en": "I don't always approve of his methods.",
+            "ru": "Я не всегда одобряю его методы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is the very best method.",
+            "es": "Este es el mejor método."
+          },
+          {
+            "en": "His methods are not scientific.",
+            "es": "Sus métodos no son científicos."
+          },
+          {
+            "en": "He tried many different methods.",
+            "es": "Intentó muchos métodos distintos."
+          },
+          {
+            "en": "Your method is different from mine.",
+            "es": "Tu método es diferente del mío."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 351,
+      "word": "mound",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maʊnd]",
+        "br": "[maʊnd]",
+        "gb": "[maʊnd]"
+      },
+      "translations": {
+        "rus": "насыпь, бугор, могильный холм",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The waiter appeared with a huge mound of spaghetti.",
+            "ru": "Официант появился с огромной горой из спагетти."
+          },
+          {
+            "en": "Her bed was a mound of soft pine needles.",
+            "ru": "Ложем ей служила куча мягких сосновых иголок."
+          },
+          {
+            "en": "The burial mounds of an ancient people.",
+            "ru": "Могильные курганы древних людей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 352,
+      "word": "museum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mjuˈziːəm]",
+        "br": "[mjuˈziːəm]",
+        "gb": "[mjuːˈzɪəm]"
+      },
+      "translations": {
+        "rus": "музей",
+        "spa": "el museo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We went to the museum.",
+            "ru": "Мы пошли в музей."
+          },
+          {
+            "en": "I'll visit a museum today.",
+            "ru": "Я сегодня иду в музей."
+          },
+          {
+            "en": "Is the museum open today?",
+            "ru": "Музей сегодня работает?"
+          },
+          {
+            "en": "We saw a mummy at the museum.",
+            "ru": "В музее мы видели мумию."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We went to the museum.",
+            "es": "Fuimos al museo."
+          },
+          {
+            "en": "Is the museum open today?",
+            "es": "¿Está abierto el museo hoy?"
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 353,
+      "word": "necropolis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nəˈkrɑːpəlɪs]",
+        "br": "[nəˈkrɒpəlɪs]",
+        "gb": "[neˈkrɔpəlɪs]"
+      },
+      "translations": {
+        "rus": "некрополь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 354,
+      "word": "photograph",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfəʊtəɡræf]",
+        "br": "[ˈfəʊtəɡrɑːf]",
+        "gb": "[ˈfəʊtəgrɑːf]"
+      },
+      "translations": {
+        "rus": "фотография",
+        "spa": "la fotografía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One of the enclosures was a photograph.",
+            "ru": "Одним из вложений (к письму, документу) была фотография."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That's my younger sister's photograph.",
+            "es": "Esa es la fotografía de mi hermana menor."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 356,
+      "word": "pick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɪk]",
+        "br": "[pɪk]",
+        "gb": "[pɪk]"
+      },
+      "translations": {
+        "rus": "кирка",
+        "spa": "el pico, la piqueta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 357,
+      "word": "pit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɪt]",
+        "br": "[pɪt]",
+        "gb": "[pɪt]"
+      },
+      "translations": {
+        "rus": "яма, шахта, впадина",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Many politicians have fallen into the pit of corruption.",
+            "ru": "Многие политики опустились на самое дно коррупции."
+          },
+          {
+            "en": "The female digs a pit in which to lay the eggs.",
+            "ru": "Самка выкапывает ямку, в которую отложит яйца."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 359,
+      "word": "preliminary finding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prɪˈlɪmɪneri] [ˈfaɪndɪŋ]",
+        "br": "[prɪˈlɪmɪnəri] [ˈfaɪndɪŋ]",
+        "gb": "[prɪˈlɪmɪnərɪ] [ˈfaɪndɪŋ]"
+      },
+      "translations": {
+        "rus": "предварительное открытие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 360,
+      "word": "project",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːdʒekt]",
+        "br": "[ˈprɒdʒekt]",
+        "gb": "[ˈprɒdʒɛkt]"
+      },
+      "translations": {
+        "rus": "проект, план, программа, стройка",
+        "spa": "el proyecto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This project looks fishy.",
+            "ru": "Этот план выглядит сомнительно."
+          },
+          {
+            "en": "We teamed up for this new project.",
+            "ru": "Мы объединились для работы над новым проектом."
+          },
+          {
+            "en": "The project was a brilliant success.",
+            "ru": "План блестяще удался."
+          },
+          {
+            "en": "The chief engineer on the project.",
+            "ru": "Главный инженер на проекте."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a project to do.",
+            "es": "Tengo un proyecto que hacer."
+          },
+          {
+            "en": "We began on a new project.",
+            "es": "Empezamos en un nuevo proyecto."
+          },
+          {
+            "en": "I am against this project.",
+            "es": "Estoy en contra de este proyecto."
+          },
+          {
+            "en": "The project is taking shape.",
+            "es": "El proyecto va tomando cuerpo."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 362,
+      "word": "quiver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkwɪvər]",
+        "br": "[ˈkwɪvə(r)]",
+        "gb": "[ˈkwɪvə]"
+      },
+      "translations": {
+        "rus": "колчан",
+        "spa": "la aljaba, el carcaj"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 363,
+      "word": "reconstruction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌriːkənˈstrʌkʃn]",
+        "br": "[ˌriːkənˈstrʌkʃn]",
+        "gb": "[ˈriːkənsˈtrʌkʃn]"
+      },
+      "translations": {
+        "rus": "реконструкция",
+        "spa": "la reconstrucción"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 366,
+      "word": "research",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːsɜːrtʃ]",
+        "br": "[ˈriːsɜːtʃ]",
+        "gb": "[rɪˈsɜːʧ]"
+      },
+      "translations": {
+        "rus": "исследование",
+        "spa": "la investigación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know about that research.",
+            "ru": "Я знаю об этом исследовании."
+          },
+          {
+            "en": "He is absorbed in his research.",
+            "ru": "Он поглощён своим исследованием."
+          },
+          {
+            "en": "How's your research going?",
+            "ru": "Как продвигается твоё исследование?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He dedicates himself to research.",
+            "es": "Él se dedica a la investigación."
+          },
+          {
+            "en": "This is the outcome of our research.",
+            "es": "Esto es el resultado de nuestra investigación."
+          },
+          {
+            "en": "The theory is based on thorough research.",
+            "es": "La teoría se basa en investigación exhaustiva."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "business",
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 367,
+      "word": "result",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈzʌlt]",
+        "br": "[rɪˈzʌlt]",
+        "gb": "[rɪˈzʌlt]"
+      },
+      "translations": {
+        "rus": "результат, следствие",
+        "spa": "el resultado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a good result.",
+            "ru": "Это хороший результат."
+          },
+          {
+            "en": "This decision had important results.",
+            "ru": "У этого решения были важные последствия."
+          },
+          {
+            "en": "I want to see results.",
+            "ru": "Я хочу видеть результаты."
+          },
+          {
+            "en": "I was amazed at the results.",
+            "ru": "Я был поражен результатом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "As a result, prices rose.",
+            "es": "Los precios se alzaron como resultado."
+          },
+          {
+            "en": "This time, he got results.",
+            "es": "Esta vez, él consiguió resultados."
+          },
+          {
+            "en": "Let's hope for good results.",
+            "es": "Esperemos buenos resultados."
+          },
+          {
+            "en": "I didn't expect that result.",
+            "es": "No me esperaba ese resultado."
+          },
+          {
+            "en": "Don't worry about the results.",
+            "es": "No te preocupes por los resultados."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 369,
+      "word": "statistical analysis",
+      "pos": null,
+      "transcription": {
+        "us": "[stəˈtɪstɪkl] [əˈnæləsɪs]",
+        "br": "[stəˈtɪstɪkl] [əˈnæləsɪs]",
+        "gb": "[stəˈtɪstɪkəl] [əˈnæləsɪs]"
+      },
+      "translations": {
+        "rus": "статистический анализ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 370,
+      "word": "statue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstætʃuː]",
+        "br": "[ˈstætʃuː]",
+        "gb": "[ˈstætjuː]"
+      },
+      "translations": {
+        "rus": "статуя",
+        "spa": "la estatua"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sat still as a statue.",
+            "ru": "Он сидел неподвижно, как статуя."
+          },
+          {
+            "en": "Please do not touch the statue.",
+            "ru": "Пожалуйста, не трогайте статую."
+          },
+          {
+            "en": "A statue of a horse in brass.",
+            "ru": "Медная статуя лошади."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The statue has no head.",
+            "es": "La estatua no tiene cabeza."
+          },
+          {
+            "en": "We made statues out of wood.",
+            "es": "Nosotros tallamos estatuas de madera."
+          },
+          {
+            "en": "This is a life-sized statue.",
+            "es": "Ésta es una estatua a tamaño real."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "town"
+      ]
+    },
+    {
+      "id": 371,
+      "word": "surface",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈsɜːrfɪs]",
+        "br": "[ˈsɜːfɪs]",
+        "gb": "[ˈsɜːfɪs]"
+      },
+      "translations": {
+        "rus": "поверхность, поверхностный",
+        "spa": "la superficie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The surface of the moon is irregular.",
+            "ru": "Поверхность луны неровная."
+          },
+          {
+            "en": "This table has a smooth surface.",
+            "ru": "У этого стола гладкая поверхность."
+          },
+          {
+            "en": "The ocean covers 70% of Earth's surface.",
+            "ru": "Океан покрывает 70% земной поверхности."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Its surface was as flat as a mirror.",
+            "es": "Su superficie era lisa como un espejo."
+          },
+          {
+            "en": "The surface of the moon is irregular.",
+            "es": "La superficie de la luna es irregular."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 372,
+      "word": "sword",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔːrd]",
+        "br": "[sɔːd]",
+        "gb": "[sɔːd]"
+      },
+      "translations": {
+        "rus": "меч, сабля, шпага",
+        "spa": "la espada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sword dropped out of his hand.",
+            "ru": "Меч выпал из его руки."
+          },
+          {
+            "en": "My sword was already out.",
+            "ru": "Я уже вытащил свой меч."
+          },
+          {
+            "en": "He passed his sword through the enemy's body.",
+            "ru": "Он пронзил врага мечом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_c1",
+        "sport"
+      ]
+    },
+    {
+      "id": 373,
+      "word": "technology",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tekˈnɑːlədʒi]",
+        "br": "[tekˈnɒlədʒi]",
+        "gb": "[tekˈnɔləʤɪ]"
+      },
+      "translations": {
+        "rus": "технология, техника",
+        "spa": "la tecnología"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are living in the age of technology.",
+            "ru": "Мы живём в век техники."
+          },
+          {
+            "en": "Advances in science and technology.",
+            "ru": "Достижения в области науки и техники."
+          },
+          {
+            "en": "We plan to commercialize this new technology by 2020.",
+            "ru": "К 2020 году мы планируем наладить коммерческое использование этой новой технологии."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am thankful for technology.",
+            "es": "Estoy agradecido por la tecnología."
+          },
+          {
+            "en": "Do you use current technology?",
+            "es": "¿Usas tecnología moderna?"
+          },
+          {
+            "en": "Technology has given us immense power.",
+            "es": "La tecnología nos ha otorgado un inmenso poder."
+          },
+          {
+            "en": "Technology solved many of the problems.",
+            "es": "La tecnología resolvió muchos de los problemas."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 374,
+      "word": "terra-cotta",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈterə] [ˈkɒtə]"
+      },
+      "translations": {
+        "rus": "терракота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 375,
+      "word": "three-dimensional",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌθriː] [dɪˈmenʃənl]",
+        "br": "[ˌθriː] [dɪˈmenʃənl]",
+        "gb": "[θriː] [dɪˈmenʃənl]"
+      },
+      "translations": {
+        "rus": "трёхмерный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 308,
+      "word": "to analyse",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈænəlaɪz]",
+        "br": "[tu] [ˈænəlaɪz]",
+        "gb": "[tuː] [ˈænəlaɪz]"
+      },
+      "translations": {
+        "rus": "анализировать",
+        "spa": "analizar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I analysed the results.",
+            "ru": "Я проанализировал результаты."
+          },
+          {
+            "en": "We have to analyse that.",
+            "ru": "Нам надо это проанализировать."
+          },
+          {
+            "en": "I want you to analyse this.",
+            "ru": "Я хочу, чтобы ты это проанализировал."
+          },
+          {
+            "en": "The scientists analysed the data.",
+            "ru": "Учёные проанализировали данные."
+          },
+          {
+            "en": "How would you analyse the situation?",
+            "ru": "Как бы вы проанализировали эту ситуацию?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I've analysed the data.",
+            "es": "He analizado los datos."
+          },
+          {
+            "en": "We have to analyse that.",
+            "es": "Tenemos que analizar eso."
+          },
+          {
+            "en": "The aviation expert analysed the statistics in detail.",
+            "es": "El experto en aviación analizó las estadísticas en detalle."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 307,
+      "word": "to analyze",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈænəlaɪz]",
+        "br": "[tu] [ˈænəlaɪz]",
+        "gb": "[tuː] [ˈænəlaɪz]"
+      },
+      "translations": {
+        "rus": "анализировать",
+        "spa": "analizar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I analyzed the results.",
+            "ru": "Я проанализировал результаты."
+          },
+          {
+            "en": "We have to analyze that.",
+            "ru": "Нам надо это проанализировать."
+          },
+          {
+            "en": "I want you to analyze this.",
+            "ru": "Я хочу, чтобы ты это проанализировал."
+          },
+          {
+            "en": "The scientists analyzed the data.",
+            "ru": "Учёные проанализировали данные."
+          },
+          {
+            "en": "How would you analyze the situation?",
+            "ru": "Как бы вы проанализировали эту ситуацию?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I've analyzed the data.",
+            "es": "He analizado los datos."
+          },
+          {
+            "en": "We have to analyze that.",
+            "es": "Tenemos que analizar eso."
+          },
+          {
+            "en": "The aviation expert analyzed the statistics in detail.",
+            "es": "El experto en aviación analizó las estadísticas en detalle."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 331,
+      "word": "to deduce",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈduːs]",
+        "br": "[tə] [dɪˈdjuːs]",
+        "gb": "[tuː] [dɪˈdjuːs]"
+      },
+      "translations": {
+        "rus": "делать вывод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 332,
+      "word": "to dig",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪɡ]",
+        "br": "[tə] [dɪɡ]",
+        "gb": "[tuː] [dɪg]"
+      },
+      "translations": {
+        "rus": "копать, рыть, докапываться",
+        "spa": "cavar, excavar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I kept digging.",
+            "ru": "Я продолжал копать."
+          },
+          {
+            "en": "Dig a deep hole.",
+            "ru": "Выкопай глубокую яму."
+          },
+          {
+            "en": "Where did you dig that up?",
+            "ru": "Где ты это откопал?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 333,
+      "word": "to discover",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈskʌvər]",
+        "br": "[tə] [dɪˈskʌvə(r)]",
+        "gb": "[tuː] [dɪsˈkʌvə]"
+      },
+      "translations": {
+        "rus": "открывать, раскрывать, обнаруживать",
+        "spa": "descubrir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The island was discovered by Captain Cook in 1775.",
+            "ru": "Остров был открыт капитаном Куком в 1775 г."
+          },
+          {
+            "en": "I discovered I was out of gas.",
+            "ru": "Я обнаружил, что у меня кончился бензин."
+          },
+          {
+            "en": "He was alarmed to discover that his car was gone.",
+            "ru": "Он был встревожен обнаружив, что его машина исчезла."
+          },
+          {
+            "en": "I have discovered the benefits of low fat eating.",
+            "ru": "Я открыл для себя преимущества маложирной диеты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He discovered a new star.",
+            "es": "Descubrió una nueva estrella."
+          },
+          {
+            "en": "How did you discover that?",
+            "es": "¿Cómo descubrió eso?"
+          },
+          {
+            "en": "There's a lot more to discover.",
+            "es": "Hay mucho más por descubrir."
+          },
+          {
+            "en": "By whom was the island discovered?",
+            "es": "¿Quién descubrió la isla?"
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "basic_verbs",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 334,
+      "word": "to excavate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈekskəveɪt]",
+        "br": "[tu] [ˈekskəveɪt]",
+        "gb": "[tuː] [ˈekskəveɪt]"
+      },
+      "translations": {
+        "rus": "копать, выкапывать, раскапывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 336,
+      "word": "to exhibit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪɡˈzɪbɪt]",
+        "br": "[tu] [ɪɡˈzɪbɪt]",
+        "gb": "[tuː] [ɪgˈzɪbɪt]"
+      },
+      "translations": {
+        "rus": "выставлять, экспонировать",
+        "spa": "exponer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "art",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 340,
+      "word": "to hypothesize",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [haɪˈpɑːθəsaɪz]",
+        "br": "[tə] [haɪˈpɒθəsaɪz]",
+        "gb": "[tuː] [haɪˈpɔθɪsaɪz]"
+      },
+      "translations": {
+        "rus": "строить гипотезу",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 349,
+      "word": "to mete out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [miːt] [aʊt]",
+        "br": "[tə] [miːt] [aʊt]",
+        "gb": "[tuː] [miːt] [aʊt]"
+      },
+      "translations": {
+        "rus": "отмерять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 355,
+      "word": "to photograph",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfəʊtəɡræf]",
+        "br": "[tə] [ˈfəʊtəɡrɑːf]",
+        "gb": "[tuː] [ˈfəʊtəgrɑːf]"
+      },
+      "translations": {
+        "rus": "фотографировать",
+        "spa": "fotografiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I photograph badly.",
+            "ru": "Я плохо выхожу на фотографиях."
+          },
+          {
+            "en": "I photographed the scene of the accident.",
+            "ru": "Я сфотографировал место происшествия."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "basic_verbs",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 358,
+      "word": "to portray",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɔːrˈtreɪ]",
+        "br": "[tə] [pɔːˈtreɪ]",
+        "gb": "[tuː] [pɔːˈtreɪ]"
+      },
+      "translations": {
+        "rus": "изображать, преподносить, описывать",
+        "spa": "retratar, pintar, representar, describir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "art",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 361,
+      "word": "to project",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [prəˈdʒekt]",
+        "br": "[tə] [prəˈdʒekt]",
+        "gb": "[tuː] [prəˈdʒɛkt]"
+      },
+      "translations": {
+        "rus": "проектировать, проецировать, выступать",
+        "spa": "proyectar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 364,
+      "word": "to rediscover",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˌriːdɪˈskʌvər]",
+        "br": "[tə] [ˌriːdɪˈskʌvə(r)]",
+        "gb": "[tuː] [riːdɪˈskʌvər]"
+      },
+      "translations": {
+        "rus": "открыть заново",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 365,
+      "word": "to represent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˌreprɪˈzent]",
+        "br": "[tə] [ˌreprɪˈzent]",
+        "gb": "[tuː] [reprɪˈzent]"
+      },
+      "translations": {
+        "rus": "представлять (собой), изображать, отражать, означать",
+        "spa": "representar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What does this painting represent?",
+            "ru": "Что изображает эта картина?"
+          },
+          {
+            "en": "I represented my country.",
+            "ru": "Я представлял свою страну."
+          },
+          {
+            "en": "What do these dots represent on the map?",
+            "ru": "Что обозначают эти точки на карте?"
+          },
+          {
+            "en": "What company do you represent?",
+            "ru": "Какую фирму вы представляете?"
+          },
+          {
+            "en": "Who represents the defendant?",
+            "ru": "Кто представляет интересы подсудимого?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Whose firm do you represent?",
+            "es": "¿A cuál empresa representa usted?"
+          },
+          {
+            "en": "What do these dots represent on the map?",
+            "es": "¿Qué representan estos puntos en el mapa?"
+          },
+          {
+            "en": "Who represent the executive management?",
+            "es": "¿Quiénes representan la gerencia ejecutiva?"
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "art",
+        "basic_verbs",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 368,
+      "word": "to result (in)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈzʌlt] [ɪn]",
+        "br": "[tə] [rɪˈzʌlt] [ɪn]",
+        "gb": "[tuː] [rɪˈzʌlt] [ɪn]"
+      },
+      "translations": {
+        "rus": "иметь результатом, следовать, проистекать, кончаться (чем-то)",
+        "spa": "resultar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 379,
+      "word": "to trigger",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈtrɪɡər]",
+        "br": "[tə] [ˈtrɪɡə(r)]",
+        "gb": "[tuː] [ˈtrɪgə]"
+      },
+      "translations": {
+        "rus": "вызывать, инициировать, активировать",
+        "spa": "provocar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Smoke triggered the fire alarm.",
+            "ru": "Дым привёл в действие пожарную сигнализацию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 376,
+      "word": "tomb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːm]",
+        "br": "[tuːm]",
+        "gb": "[tuːm]"
+      },
+      "translations": {
+        "rus": "гробница, могила",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tomb of Alexander the Great.",
+            "ru": "Гробница Александра Македонского."
+          },
+          {
+            "en": "Raiders had emptied the tomb of treasure.",
+            "ru": "Грабители уже опустошили гробницу с сокровищами."
+          },
+          {
+            "en": "The tomb was inscribed with a short poem.",
+            "ru": "На надгробии было начертано короткое стихотворение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology"
+      ]
+    },
+    {
+      "id": 377,
+      "word": "treasure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtreʒər]",
+        "br": "[ˈtreʒə(r)]",
+        "gb": "[ˈtreʒə]"
+      },
+      "translations": {
+        "rus": "сокровище",
+        "spa": "el tesoro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My treasure!",
+            "ru": "Мое сокровище!"
+          },
+          {
+            "en": "He searched for treasure on the ocean bed.",
+            "ru": "Он искал сокровища на дне океана."
+          },
+          {
+            "en": "Our housekeeper is a real treasure.",
+            "ru": "Наша домработница — настоящее сокровище."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 378,
+      "word": "trigger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrɪɡər]",
+        "br": "[ˈtrɪɡə(r)]",
+        "gb": "[ˈtrɪgə]"
+      },
+      "translations": {
+        "rus": "спусковой крючок",
+        "spa": "el gatillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pull the trigger.",
+            "ru": "Нажми на спусковой крючок."
+          },
+          {
+            "en": "I didn't pull the trigger.",
+            "ru": "Я не нажимал на спусковой крючок."
+          },
+          {
+            "en": "Don't make me pull the trigger.",
+            "ru": "Не заставляй меня нажимать на спусковой крючок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 380,
+      "word": "weapon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwepən]",
+        "br": "[ˈwepən]",
+        "gb": "[ˈwepən]"
+      },
+      "translations": {
+        "rus": "оружие",
+        "spa": "el arma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you carry a weapon?",
+            "ru": "Ты носишь оружие?"
+          },
+          {
+            "en": "Why do we need weapons?",
+            "ru": "Зачем нам оружие?"
+          },
+          {
+            "en": "No one has a weapon.",
+            "ru": "Оружия ни у кого нет."
+          },
+          {
+            "en": "We didn't find a weapon.",
+            "ru": "Мы не нашли оружие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Tears are a child's weapon.",
+            "es": "Las lágrimas son el arma de los niños."
+          },
+          {
+            "en": "That weapon is not a toy, boy!",
+            "es": "¡El arma no es un juguete, chico!"
+          },
+          {
+            "en": "The murder weapon wasn't found.",
+            "es": "El arma homicida no fue hallada."
+          },
+          {
+            "en": "He was killed by a blunt weapon.",
+            "es": "Él fue asesinado con un arma contundente."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    }
+  ]
+}

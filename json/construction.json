@@ -1,0 +1,7833 @@
+{
+  "category": {
+    "id": "construction",
+    "name_rus": "Строительство",
+    "type": "topic",
+    "word_count": 280
+  },
+  "words": [
+    {
+      "id": 2378,
+      "word": "acetone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæsɪtəʊn]",
+        "br": "[ˈæsɪtəʊn]",
+        "gb": "[ˈæsɪtəʊn]"
+      },
+      "translations": {
+        "rus": "ацетон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1315,
+      "word": "agreement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈɡriːmənt]",
+        "br": "[əˈɡriːmənt]",
+        "gb": "[əˈgriːmənt]"
+      },
+      "translations": {
+        "rus": "соглашение, согласие, договор",
+        "spa": "el acuerdo, el contrato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They came to an agreement.",
+            "ru": "Они пришли к соглашению."
+          },
+          {
+            "en": "We had an agreement. You broke it.",
+            "ru": "У нас был договор. Ты его нарушил."
+          },
+          {
+            "en": "We have a signed agreement.",
+            "ru": "У нас подписано соглашение."
+          },
+          {
+            "en": "A nod is a sign of agreement.",
+            "ru": "Кивок — это знак согласия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We are all in agreement.",
+            "es": "Estamos todos de acuerdo."
+          },
+          {
+            "en": "Did you make a formal agreement with him?",
+            "es": "¿Hizo usted un contrato en forma con él?"
+          },
+          {
+            "en": "They came to an agreement.",
+            "es": "Llegaron a un acuerdo."
+          },
+          {
+            "en": "This agreement becomes valid at midnight.",
+            "es": "Este contrato entra en vigor a medianoche."
+          },
+          {
+            "en": "A nod is a sign of agreement.",
+            "es": "Un asentimiento con la cabeza es un gesto de acuerdo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "legal_english",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2379,
+      "word": "air conditioner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[er] [kənˈdɪʃənər]",
+        "br": "[eə(r)] [kənˈdɪʃənə(r)]",
+        "gb": "[ɛə] [kənˈdɪʃənər]"
+      },
+      "translations": {
+        "rus": "кондиционер",
+        "spa": "el acondicionador de aire"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Turn on the air conditioner.",
+            "ru": "Включи кондиционер."
+          },
+          {
+            "en": "Don't you have an air conditioner?",
+            "ru": "У тебя нет кондиционера?"
+          },
+          {
+            "en": "The air conditioner is out of order.",
+            "ru": "Кондиционер не работает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2380,
+      "word": "antechamber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæntitʃeɪmbər]",
+        "br": "[ˈæntitʃeɪmbə(r)]",
+        "gb": "[ˈæntɪʧeɪmbə]"
+      },
+      "translations": {
+        "rus": "прихожая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2381,
+      "word": "anteroom",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæntiruːm]",
+        "br": "[ˈæntiruːm]",
+        "gb": "[ˈæntɪrʊm]"
+      },
+      "translations": {
+        "rus": "прихожая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2382,
+      "word": "antifungal agent, fungicide, antimycotic agent",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[æntɪˈfʌŋgəl] [ˈeɪʤənt] [ˈfʌnʤɪsaɪd] [æntɪmaɪˈkɒtɪk] [ˈeɪʤənt]"
+      },
+      "translations": {
+        "rus": "фунгициды",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2383,
+      "word": "apartment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈpɑːrtmənt]",
+        "br": "[əˈpɑːtmənt]",
+        "gb": "[əˈpɑːtmənt]"
+      },
+      "translations": {
+        "rus": "квартира",
+        "spa": "el apartamento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They busted the apartment.",
+            "ru": "Они совершили налёт на квартиру."
+          },
+          {
+            "en": "It was a huge apartment with rosewood panelling.",
+            "ru": "Это была огромная квартира, обшитая розовым деревом."
+          },
+          {
+            "en": "They have a small apartment in town.",
+            "ru": "У них есть небольшая квартирка в городе."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I can't afford an expensive apartment.",
+            "es": "No me puedo permitir un apartamento caro."
+          },
+          {
+            "en": "I moved to a city where the apartments were cheaper.",
+            "es": "Me mudé a una ciudad donde los apartamentos eran más baratos."
+          },
+          {
+            "en": "Everyone in the apartment shares the kitchen.",
+            "es": "Todos en el apartamento compartimos la cocina."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2384,
+      "word": "arc",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrk]",
+        "br": "[ɑːk]",
+        "gb": "[ɑːk]"
+      },
+      "translations": {
+        "rus": "дуга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2385,
+      "word": "arcade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrˈkeɪd]",
+        "br": "[ɑːˈkeɪd]",
+        "gb": "[ɑːˈkeɪd]"
+      },
+      "translations": {
+        "rus": "пассаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2386,
+      "word": "arch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrtʃ]",
+        "br": "[ɑːtʃ]",
+        "gb": "[ɑːʧ]"
+      },
+      "translations": {
+        "rus": "арка, свод",
+        "spa": "el arco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The four pillars bear the arch.",
+            "ru": "Четыре колонны поддерживают арку."
+          },
+          {
+            "en": "Her back arches.",
+            "ru": "Она горбит спину."
+          },
+          {
+            "en": "The cat arched its back.",
+            "ru": "Кошка выгнула спину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 385,
+      "word": "architecture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrkɪtektʃər]",
+        "br": "[ˈɑːkɪtektʃə(r)]",
+        "gb": "[ˈɑːkɪtekʧə]"
+      },
+      "translations": {
+        "rus": "архитектура",
+        "spa": "la arquitectura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Rome is famous for its ancient architecture.",
+            "ru": "Рим знаменит своей древней архитектурой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2387,
+      "word": "assembly",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈsembli]",
+        "br": "[əˈsembli]",
+        "gb": "[əˈsemblɪ]"
+      },
+      "translations": {
+        "rus": "сборка, монтаж",
+        "spa": "el ensamblaje, el montaje"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2388,
+      "word": "attic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈætɪk]",
+        "br": "[ˈætɪk]",
+        "gb": "[ˈætɪk]"
+      },
+      "translations": {
+        "rus": "чердак",
+        "spa": "el ático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We stored the boxes up in the attic.",
+            "ru": "Мы храним коробки на чердаке."
+          },
+          {
+            "en": "The attic has poor air circulation.",
+            "ru": "На этом чердаке плохая циркуляция воздуха."
+          },
+          {
+            "en": "They hid me from the police in their attic.",
+            "ru": "Они спрятали меня от полиции на чердаке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2389,
+      "word": "awning",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːnɪŋ]",
+        "br": "[ˈɔːnɪŋ]",
+        "gb": "[ˈɔːnɪŋ]"
+      },
+      "translations": {
+        "rus": "навес, тент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2390,
+      "word": "bag",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæɡ]",
+        "br": "[bæɡ]",
+        "gb": "[bæg]"
+      },
+      "translations": {
+        "rus": "сумка, мешок",
+        "spa": "la bolsa, la cartera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you need a bag?",
+            "ru": "Тебе нужна сумка?"
+          },
+          {
+            "en": "Give me back my bag.",
+            "ru": "Верни мою сумку."
+          },
+          {
+            "en": "I need to buy a bag of cement.",
+            "ru": "Мне нужно купить мешок цемента."
+          },
+          {
+            "en": "Don't leave your bag in the car.",
+            "ru": "Не оставляйте сумку в машине."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a bag?",
+            "es": "¿Tienes una bolsa?"
+          },
+          {
+            "en": "Where can I put my bag?",
+            "es": "¿Dónde puedo poner mi cartera?"
+          },
+          {
+            "en": "I bought a new bag.",
+            "es": "Compré una nueva bolsa."
+          },
+          {
+            "en": "What do you have in your bag?",
+            "es": "¿Qué tiene en la cartera?"
+          },
+          {
+            "en": "Why is my bag empty?",
+            "es": "¿Por qué mi bolsa está vacía?"
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2391,
+      "word": "balustrade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæləstreɪd]",
+        "br": "[ˌbæləˈstreɪd]",
+        "gb": "[bæləsˈtreɪd]"
+      },
+      "translations": {
+        "rus": "балюстрада",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2392,
+      "word": "banister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbænɪstər]",
+        "br": "[ˈbænɪstə(r)]",
+        "gb": "[ˈbænɪstər]"
+      },
+      "translations": {
+        "rus": "перила, поручни",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2393,
+      "word": "bannister",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbænɪstər]",
+        "br": "[ˈbænɪstə(r)]",
+        "gb": "[ˈbænɪstər]"
+      },
+      "translations": {
+        "rus": "перила, поручни",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2394,
+      "word": "bar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːr]",
+        "br": "[bɑː(r)]",
+        "gb": "[bɑː]"
+      },
+      "translations": {
+        "rus": "перекладина, стержень, стойка, полоса, брусок",
+        "spa": "la barra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ball hit the bar.",
+            "ru": "Мяч попал в перекладину ворот."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a solid gold bar.",
+            "es": "Era una barra de oro macizo."
+          },
+          {
+            "en": "Wash your hands with a bar of soap.",
+            "es": "Lava tus manos con una barra de jabón."
+          },
+          {
+            "en": "Convenience stores sell candy bars.",
+            "es": "Las tiendas de abarrotes venden barras de caramelo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2395,
+      "word": "barrier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæriər]",
+        "br": "[ˈbæriə(r)]",
+        "gb": "[ˈbærɪə]"
+      },
+      "translations": {
+        "rus": "барьер, преграда, ограждение, шлагбаум",
+        "spa": "la barrera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "As a citizen of the world, I know ways of overcoming cultural barriers.",
+            "ru": "Как гражданин мира, я знаю способы преодоления культурных барьеров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2396,
+      "word": "beam",
+      "pos": "noun",
+      "transcription": {
+        "us": "[biːm]",
+        "br": "[biːm]",
+        "gb": "[biːm]"
+      },
+      "translations": {
+        "rus": "балка, брус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2397,
+      "word": "bearer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈberər]",
+        "br": "[ˈbeərə(r)]",
+        "gb": "[ˈbɛərə]"
+      },
+      "translations": {
+        "rus": "носильщик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2398,
+      "word": "bend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bend]",
+        "br": "[bend]",
+        "gb": "[bend]"
+      },
+      "translations": {
+        "rus": "изгиб, поворот",
+        "spa": "la curva"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2399,
+      "word": "blend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blend]",
+        "br": "[blend]",
+        "gb": "[blend]"
+      },
+      "translations": {
+        "rus": "смесь",
+        "spa": "la mezcla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "food",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2400,
+      "word": "board",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɔːrd]",
+        "br": "[bɔːd]",
+        "gb": "[bɔːd]"
+      },
+      "translations": {
+        "rus": "доска",
+        "spa": "la tabla, el tablón, la pizarra, el pizarrón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't erase the board.",
+            "ru": "Не вытирай доску."
+          },
+          {
+            "en": "How thick is the board?",
+            "ru": "Какова толщина доски?"
+          },
+          {
+            "en": "He drove a nail into the board.",
+            "ru": "Он забил в доску гвоздь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He drove a nail into the board.",
+            "es": "Él le puso un clavo a la tabla."
+          },
+          {
+            "en": "I need a hammer to nail the boards.",
+            "es": "Necesito un martillo para clavar las tablas."
+          },
+          {
+            "en": "The board is about two meters long.",
+            "es": "La tabla es de alrededor de dos metros de largo."
+          },
+          {
+            "en": "These boards haven't been planed right.",
+            "es": "Estas tablas no están bien cepilladas."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2401,
+      "word": "boilersuit",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbɔɪləsjuːt]"
+      },
+      "translations": {
+        "rus": "спецовка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2402,
+      "word": "bolt, screw-bolt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊlt], [skruː] [bəʊlt]",
+        "br": "[bəʊlt], [skruː] [bəʊlt]",
+        "gb": "[bəʊlt] [skruː] [bəʊlt]"
+      },
+      "translations": {
+        "rus": "болт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2403,
+      "word": "bore bit, borer, rock drill, stone drill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɔːr] [bɪt], [ˈbɔːrə], [rɑːk] [drɪl], [stəʊn] [drɪl]",
+        "br": "[bɔː(r)] [bɪt], [ˈbɔːrə], [rɒk] [drɪl], [stəʊn] [drɪl]",
+        "gb": "[bɔː] [bɪt] [ˈbɔːrə] [rɔk] [drɪl] [stəʊn] [drɪl]"
+      },
+      "translations": {
+        "rus": "сверло",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 388,
+      "word": "brick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪk]",
+        "br": "[brɪk]",
+        "gb": "[brɪk]"
+      },
+      "translations": {
+        "rus": "кирпич, брусок, кирпичный",
+        "spa": "el ladrillo, de ladrillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live in a brick house.",
+            "ru": "Мы живем в кирпичном доме."
+          },
+          {
+            "en": "The large brick house with a turret at top.",
+            "ru": "Большой кирпичный дом с башенкой на крыше."
+          },
+          {
+            "en": "Protesters attacked the police with stones and bricks.",
+            "ru": "Митингующие напали на полицейских с камнями и кирпичами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1726,
+      "word": "bricklayer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrɪkleɪər]",
+        "br": "[ˈbrɪkleɪə(r)]",
+        "gb": "[ˈbrɪkleɪə]"
+      },
+      "translations": {
+        "rus": "каменщик",
+        "spa": "el albañil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 2404,
+      "word": "bridge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪdʒ]",
+        "br": "[brɪdʒ]",
+        "gb": "[brɪʤ]"
+      },
+      "translations": {
+        "rus": "мост",
+        "spa": "el puente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He leaped off the bridge.",
+            "ru": "Он прыгнул с моста."
+          },
+          {
+            "en": "The bridge is 140 feet long.",
+            "ru": "Длина этого моста — сто сорок футов."
+          },
+          {
+            "en": "The enemy exploded the bridge.",
+            "ru": "Противник взорвал мост."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How long is this bridge?",
+            "es": "¿Cuál es la longitud de este puente?"
+          },
+          {
+            "en": "I like to build bridges.",
+            "es": "Me gusta construir puentes."
+          },
+          {
+            "en": "I am close to the bridge.",
+            "es": "Estoy cerca del puente."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 2405,
+      "word": "bubble",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌbl]",
+        "br": "[ˈbʌbl]",
+        "gb": "[bʌbl]"
+      },
+      "translations": {
+        "rus": "пузырь, пузырьковый",
+        "spa": "la burbuja, la pompa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bubble burst.",
+            "ru": "Пузырь лопнул."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2406,
+      "word": "bucket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌkɪt]",
+        "br": "[ˈbʌkɪt]",
+        "gb": "[ˈbʌkɪt]"
+      },
+      "translations": {
+        "rus": "ведро",
+        "spa": "el cubo, el balde"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sank the bucket into the well.",
+            "ru": "Он опустил ведро в колодец."
+          },
+          {
+            "en": "There's a hole in the bucket and the water is leaking out.",
+            "ru": "В ведре дыра, и вода просачивается."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2407,
+      "word": "building",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪldɪŋ]",
+        "br": "[ˈbɪldɪŋ]",
+        "gb": "[ˈbɪldɪŋ]"
+      },
+      "translations": {
+        "rus": "здание, строительство",
+        "spa": "el edificio, la construcción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How tall is that building?",
+            "ru": "Какой высоты это здание?"
+          },
+          {
+            "en": "The building dates from 1857.",
+            "ru": "Это здание было построено в 1857 г."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Look at that red building.",
+            "es": "Mirá ese edificio rojo."
+          },
+          {
+            "en": "Iron is used in building ships.",
+            "es": "El hierro se utiliza en la construcción de barcos."
+          },
+          {
+            "en": "Elvis has left the building.",
+            "es": "Elvis ha abandonado el edificio."
+          },
+          {
+            "en": "It's the biggest building in the city.",
+            "es": "Es la mayor construcción de la ciudad."
+          },
+          {
+            "en": "This building is very large.",
+            "es": "Este edificio es muy grande."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 2408,
+      "word": "bulldozer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊldəʊzər]",
+        "br": "[ˈbʊldəʊzə(r)]",
+        "gb": "[ˈbʊldəʊzə]"
+      },
+      "translations": {
+        "rus": "бульдозер",
+        "spa": "el bulldozer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "transport"
+      ]
+    },
+    {
+      "id": 2409,
+      "word": "burst",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɜːrst]",
+        "br": "[bɜːst]",
+        "gb": "[bɜːst]"
+      },
+      "translations": {
+        "rus": "взрыв, разрыв",
+        "spa": "el estallido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2303,
+      "word": "cable",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkeɪbl]",
+        "br": "[ˈkeɪbl]",
+        "gb": "[keɪbl]"
+      },
+      "translations": {
+        "rus": "кабель, шнур, кабельный",
+        "spa": "el cable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cables were custom-made.",
+            "ru": "Кабели были сделаны на заказ."
+          },
+          {
+            "en": "Attach the two cables together.",
+            "ru": "Соедините вместе два кабеля."
+          },
+          {
+            "en": "One in 10 homes now has cable TV.",
+            "ru": "Теперь в каждом десятом доме есть кабельное телевидение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2410,
+      "word": "calcium hydroxide, lime hydrate, slaked lime",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "гашёная известь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2411,
+      "word": "carpet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrpɪt]",
+        "br": "[ˈkɑːpɪt]",
+        "gb": "[ˈkɑːpɪt]"
+      },
+      "translations": {
+        "rus": "ковёр",
+        "spa": "la alfombra, el tapete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My bedroom carpet is green.",
+            "ru": "Ковер в моей спальне зеленого цвета."
+          },
+          {
+            "en": "We bought a new carpet for the bedroom.",
+            "ru": "Мы купили новый ковер для спальни."
+          },
+          {
+            "en": "The carpet needs to be cleaned.",
+            "ru": "Этот ковёр нужно почистить."
+          },
+          {
+            "en": "I like the new carpet.",
+            "ru": "Мне нравится новый ковёр."
+          },
+          {
+            "en": "How much for this carpet?",
+            "ru": "Сколько стоит этот ковёр?"
+          },
+          {
+            "en": "This carpet feels nice.",
+            "ru": "Этот ковёр приятен на ощупь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2412,
+      "word": "carpeting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrpɪtɪŋ]",
+        "br": "[ˈkɑːpɪtɪŋ]",
+        "gb": "[ˈkɑrpətɪŋ]"
+      },
+      "translations": {
+        "rus": "ковровое покрытие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1374,
+      "word": "carrier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæriər]",
+        "br": "[ˈkæriə(r)]",
+        "gb": "[ˈkærɪə]"
+      },
+      "translations": {
+        "rus": "носильщик, перевозчик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction"
+      ]
+    },
+    {
+      "id": 2413,
+      "word": "ceiling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsiːlɪŋ]",
+        "br": "[ˈsiːlɪŋ]",
+        "gb": "[ˈsiːlɪŋ]"
+      },
+      "translations": {
+        "rus": "потолок",
+        "spa": "el techo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The house has low ceilings.",
+            "ru": "В доме низкие потолки."
+          },
+          {
+            "en": "The ceiling needs painting.",
+            "ru": "Потолок нужно покрасить."
+          },
+          {
+            "en": "Mind your head - the ceiling's a bit low.",
+            "ru": "Берегите голову - потолок здесь низковат."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2414,
+      "word": "cement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɪˈment]",
+        "br": "[sɪˈment]",
+        "gb": "[sɪˈment]"
+      },
+      "translations": {
+        "rus": "цемент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2415,
+      "word": "chandelier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌʃændəˈlɪr]",
+        "br": "[ˌʃændəˈlɪə(r)]",
+        "gb": "[ʃændɪˈlɪə]"
+      },
+      "translations": {
+        "rus": "люстра",
+        "spa": "la araña, el lustre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 391,
+      "word": "chimney",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃɪmni]",
+        "br": "[ˈtʃɪmni]",
+        "gb": "[ˈʧɪmnɪ]"
+      },
+      "translations": {
+        "rus": "дымовая труба, дымоход",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Smoke goes up a chimney.",
+            "ru": "Дым поднимается вверх по трубе."
+          },
+          {
+            "en": "The chimney draws well.",
+            "ru": "В трубе хорошая тяга."
+          },
+          {
+            "en": "The chimney is choked up with soot.",
+            "ru": "Труба забита сажей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 500,
+      "word": "coat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊt]",
+        "br": "[kəʊt]",
+        "gb": "[kəʊt]"
+      },
+      "translations": {
+        "rus": "слой (краски)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2416,
+      "word": "coating",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkəʊtɪŋ]",
+        "br": "[ˈkəʊtɪŋ]",
+        "gb": "[ˈkəʊtɪŋ]"
+      },
+      "translations": {
+        "rus": "покрытие, слой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2417,
+      "word": "cobble, cobblestone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːbl], [ˈkɑːblstəʊn]",
+        "br": "[ˈkɒbl], [ˈkɒblstəʊn]",
+        "gb": "[kɔbl] [ˈkɔblstəʊn]"
+      },
+      "translations": {
+        "rus": "булыжник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2418,
+      "word": "column",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːləm]",
+        "br": "[ˈkɒləm]",
+        "gb": "[ˈkɔləm]"
+      },
+      "translations": {
+        "rus": "столбец, колонка, графа, колонна",
+        "spa": "la columna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Times leader column.",
+            "ru": "Главная колонка газеты \"Таймс\"."
+          },
+          {
+            "en": "The column was attacked from the rear.",
+            "ru": "На колонну напали с тыла."
+          },
+          {
+            "en": "Enemy aircraft were strafing the column.",
+            "ru": "Колонну обстреливали самолёты врага."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2419,
+      "word": "compressor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpresər]",
+        "br": "[kəmˈpresə(r)]",
+        "gb": "[kəmˈpresə]"
+      },
+      "translations": {
+        "rus": "компрессор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2420,
+      "word": "concrete",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnkriːt]",
+        "br": "[ˈkɒŋkriːt]",
+        "gb": "[ˈkɔnkriːt]"
+      },
+      "translations": {
+        "rus": "бетон",
+        "spa": "el hormigón, el concreto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Concrete doesn't burn.",
+            "ru": "Бетон не горит."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2421,
+      "word": "concrete mixer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnkriːt] [ˈmɪksər]",
+        "br": "[ˈkɒŋkriːt] [ˈmɪksə(r)]",
+        "gb": "[ˈkɔnkriːt] [ˈmɪksə]"
+      },
+      "translations": {
+        "rus": "бетономешалка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2422,
+      "word": "conduction, conductivity, conductance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈdʌkʃn], [ˌkɑːndʌkˈtɪvəti], [kənˈdʌktəns]",
+        "br": "[kənˈdʌkʃn], [ˌkɒndʌkˈtɪvəti], [kənˈdʌktəns]",
+        "gb": "[kənˈdʌkʃn] [kɔndʌkˈtɪvɪtɪ] [kənˈdʌktəns]"
+      },
+      "translations": {
+        "rus": "проводимость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2423,
+      "word": "conductor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈdʌktər]",
+        "br": "[kənˈdʌktə(r)]",
+        "gb": "[kənˈdʌktə]"
+      },
+      "translations": {
+        "rus": "проводник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2424,
+      "word": "construction site",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈstrʌkʃn] [saɪt]",
+        "br": "[kənˈstrʌkʃn] [saɪt]",
+        "gb": "[kənˈstrʌkʃn] [saɪt]"
+      },
+      "translations": {
+        "rus": "стройка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2425,
+      "word": "construction worker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈstrʌkʃn] [ˈwɜːrkər]",
+        "br": "[kənˈstrʌkʃn] [ˈwɜːkə(r)]",
+        "gb": "[kənˈstrʌkʃn] [ˈwɜːkə]"
+      },
+      "translations": {
+        "rus": "строитель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1411,
+      "word": "container",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈteɪnər]",
+        "br": "[kənˈteɪnə(r)]",
+        "gb": "[kənˈteɪnə]"
+      },
+      "translations": {
+        "rus": "контейнер, тара, ёмкость",
+        "spa": "el envase, el recipiente, el contenedor, el contáiner"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The container is full.",
+            "ru": "Контейнер полон."
+          },
+          {
+            "en": "These containers are airtight.",
+            "ru": "Эти контейнеры герметичны."
+          },
+          {
+            "en": "Do you know what's in those containers?",
+            "ru": "Ты знаешь, что в тех контейнерах?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1412,
+      "word": "contract",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntrækt]",
+        "br": "[ˈkɒntrækt]",
+        "gb": "[ˈkɔntrækt]"
+      },
+      "translations": {
+        "rus": "контракт, договор",
+        "spa": "el contrato, contratar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you sign the contract?",
+            "ru": "Ты подписал контракт?"
+          },
+          {
+            "en": "We need to have a contract.",
+            "ru": "Нам нужен договор."
+          },
+          {
+            "en": "It's not in my contract.",
+            "ru": "Этого нет в моём контракте."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's not in my contract.",
+            "es": "No está en mi contrato."
+          },
+          {
+            "en": "It contracts with the cold.",
+            "es": "Se contrae con el frío."
+          },
+          {
+            "en": "I am signing my contract.",
+            "es": "Estoy firmando mi contrato."
+          },
+          {
+            "en": "We need to have a contract.",
+            "es": "Necesitamos tener un contrato."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2426,
+      "word": "contractor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntræktər]",
+        "br": "[ˈkɒntræktə(r)], [kənˈtræktə(r)]",
+        "gb": "[kənˈtræktə]"
+      },
+      "translations": {
+        "rus": "подрядчик, контрактор",
+        "spa": "el (la) contratista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2427,
+      "word": "control panel, control board",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈtrəʊl] [ˈpænl], [kənˈtrəʊl] [bɔːrd]",
+        "br": "[kənˈtrəʊl] [ˈpænl], [kənˈtrəʊl] [bɔːd]",
+        "gb": "[kənˈtrəʊl] [pænl] [kənˈtrəʊl] [bɔːd]"
+      },
+      "translations": {
+        "rus": "панель управления",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2428,
+      "word": "crane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kreɪn]",
+        "br": "[kreɪn]",
+        "gb": "[kreɪn]"
+      },
+      "translations": {
+        "rus": "подъемный кран",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2429,
+      "word": "crook",
+      "pos": "noun",
+      "transcription": {
+        "us": "[krʊk]",
+        "br": "[krʊk]",
+        "gb": "[krʊk]"
+      },
+      "translations": {
+        "rus": "поворот",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2430,
+      "word": "crossbeam",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈkrɒsbiːm]"
+      },
+      "translations": {
+        "rus": "поперечина, балка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 522,
+      "word": "cuboid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkjuːbɔɪd]",
+        "br": "[ˈkjuːbɔɪd]",
+        "gb": "[ˈkjuːbɔɪd]"
+      },
+      "translations": {
+        "rus": "кубический",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2431,
+      "word": "damp",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dæmp]",
+        "br": "[dæmp]",
+        "gb": "[dæmp]"
+      },
+      "translations": {
+        "rus": "влажность, сырость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1426,
+      "word": "deadline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdedlaɪn]",
+        "br": "[ˈdedlaɪn]",
+        "gb": "[ˈdedlaɪn]"
+      },
+      "translations": {
+        "rus": "крайний срок",
+        "spa": "la fecha límite, el plazo, la fecha tope, la fecha de entrega"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The deadline grows closer.",
+            "ru": "Крайний срок приближается."
+          },
+          {
+            "en": "The deadline is not far off.",
+            "ru": "Крайний срок — не за горами."
+          },
+          {
+            "en": "We had to hurry to meet the deadline.",
+            "ru": "Нам пришлось поторопиться, чтобы успеть в срок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2432,
+      "word": "demolition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdeməˈlɪʃn]",
+        "br": "[ˌdeməˈlɪʃn]",
+        "gb": "[deməˈlɪʃn]"
+      },
+      "translations": {
+        "rus": "снос",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 530,
+      "word": "density",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdensəti]",
+        "br": "[ˈdensəti]",
+        "gb": "[ˈdensɪtɪ]"
+      },
+      "translations": {
+        "rus": "плотность, густота",
+        "spa": "la densidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Norway has a very low population density.",
+            "ru": "В Норвегии очень низкая плотность населения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 533,
+      "word": "design",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈzaɪn]",
+        "br": "[dɪˈzaɪn]",
+        "gb": "[dɪˈzaɪn]"
+      },
+      "translations": {
+        "rus": "дизайн, проект",
+        "spa": "el diseño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What a beautiful design!",
+            "ru": "Какой красивый дизайн!"
+          },
+          {
+            "en": "Do you like this design?",
+            "ru": "Тебе нравится этот дизайн?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you like this design?",
+            "es": "¿Te gusta este diseño?"
+          },
+          {
+            "en": "His designs are highly original.",
+            "es": "Sus diseños son muy originales."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2313,
+      "word": "device",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈvaɪs]",
+        "br": "[dɪˈvaɪs]",
+        "gb": "[dɪˈvaɪs]"
+      },
+      "translations": {
+        "rus": "устройство, прибор, аппарат, приспособление",
+        "spa": "el aparato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What does this device do?",
+            "ru": "Что делает это устройство?"
+          },
+          {
+            "en": "I would like batteries for this device.",
+            "ru": "Мне нужны батарейки для этого прибора."
+          },
+          {
+            "en": "My GPS device was stolen.",
+            "ru": "Мое GPS устройство украдено."
+          },
+          {
+            "en": "Please turn off your electronic devices.",
+            "ru": "Пожалуйста, выключите ваши электронные приборы."
+          },
+          {
+            "en": "The telephone is one wonderful device.",
+            "ru": "Телефон — это просто чудесное устройство."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2433,
+      "word": "dismantling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪsˈmæntlɪŋ]",
+        "br": "[dɪsˈmæntlɪŋ]",
+        "gb": "[dɪsˈmæntlɪŋ]"
+      },
+      "translations": {
+        "rus": "демонтаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2434,
+      "word": "ditch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪtʃ]",
+        "br": "[dɪtʃ]",
+        "gb": "[dɪʧ]"
+      },
+      "translations": {
+        "rus": "канава, ров, котлован",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology"
+      ]
+    },
+    {
+      "id": 2435,
+      "word": "door",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɔːr]",
+        "br": "[dɔː(r)]",
+        "gb": "[dɔː]"
+      },
+      "translations": {
+        "rus": "дверь, вход, дверной",
+        "spa": "la puerta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The door opened.",
+            "ru": "Дверь открылась."
+          },
+          {
+            "en": "Back from the door!",
+            "ru": "Отойдите от двери!"
+          },
+          {
+            "en": "He barred the door.",
+            "ru": "Он запер дверь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The door is open now.",
+            "es": "La puerta está abierta ahora."
+          },
+          {
+            "en": "I heard the door close.",
+            "es": "Oí cerrarse la puerta."
+          },
+          {
+            "en": "He painted the door blue.",
+            "es": "Pintó la puerta de azul."
+          },
+          {
+            "en": "Close the door when you leave.",
+            "es": "Cierra la puerta al salir."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2436,
+      "word": "doorstep",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɔːrstep]",
+        "br": "[ˈdɔːstep]",
+        "gb": "[ˈdɔːstep]"
+      },
+      "translations": {
+        "rus": "порог",
+        "spa": "el escalón de entrada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This was on the doorstep.",
+            "ru": "Это было на пороге."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2437,
+      "word": "dowel, dowel pin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaʊəl], [ˈdaʊəl] [pɪn]",
+        "br": "[ˈdaʊəl], [ˈdaʊəl] [pɪn]",
+        "gb": "[ˈdaʊəl] [ˈdaʊəl] [pɪn]"
+      },
+      "translations": {
+        "rus": "дюбель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2438,
+      "word": "drain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dreɪn]",
+        "br": "[dreɪn]",
+        "gb": "[dreɪn]"
+      },
+      "translations": {
+        "rus": "дренаж, слив, отток",
+        "spa": "el desagüe"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I hate it when hair clogs the drain.",
+            "ru": "Ненавижу, когда волосы забивают слив."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2439,
+      "word": "drainage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdreɪnɪdʒ]",
+        "br": "[ˈdreɪnɪdʒ]",
+        "gb": "[ˈdreɪnɪʤ]"
+      },
+      "translations": {
+        "rus": "дренаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2440,
+      "word": "drill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[drɪl]",
+        "br": "[drɪl]",
+        "gb": "[drɪl]"
+      },
+      "translations": {
+        "rus": "дрель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2441,
+      "word": "eaves",
+      "pos": "noun",
+      "transcription": {
+        "us": "[iːvz]",
+        "br": "[iːvz]",
+        "gb": "[iːvz]"
+      },
+      "translations": {
+        "rus": "карниз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2442,
+      "word": "electric switch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlektrɪk] [swɪtʃ]",
+        "br": "[ɪˈlektrɪk] [swɪtʃ]",
+        "gb": "[ɪˈlektrɪk] [swɪʧ]"
+      },
+      "translations": {
+        "rus": "переключатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1762,
+      "word": "electrician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˌlekˈtrɪʃn]",
+        "br": "[ɪˌlekˈtrɪʃn]",
+        "gb": "[ɪlekˈtrɪʃn]"
+      },
+      "translations": {
+        "rus": "электрик",
+        "spa": "el electricista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 2443,
+      "word": "elevator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈelɪveɪtər]",
+        "br": "[ˈelɪveɪtə(r)]",
+        "gb": "[ˈelɪveɪtə]"
+      },
+      "translations": {
+        "rus": "лифт",
+        "spa": "el ascensor, el elevador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The elevator was not working.",
+            "ru": "Лифт не работал."
+          },
+          {
+            "en": "Do you have an elevator?",
+            "ru": "У вас есть лифт?"
+          },
+          {
+            "en": "Which way is the elevator?",
+            "ru": "В какой стороне лифт?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 554,
+      "word": "enamel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈnæml]",
+        "br": "[ɪˈnæml]",
+        "gb": "[ɪˈnæməl]"
+      },
+      "translations": {
+        "rus": "эмаль, финифть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2444,
+      "word": "energy-saving",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈenərdʒi] [ˈseɪvɪŋ]",
+        "br": "[ˈenədʒi] [ˈseɪvɪŋ]",
+        "gb": "[ˈenəʤɪ] [ˈseɪvɪŋ]"
+      },
+      "translations": {
+        "rus": "энергосберегающий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1763,
+      "word": "engineer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌendʒɪˈnɪr]",
+        "br": "[ˌendʒɪˈnɪə(r)]",
+        "gb": "[enʤɪˈnɪə]"
+      },
+      "translations": {
+        "rus": "инженер",
+        "spa": "el ingeniero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm the chief engineer.",
+            "ru": "Я главный инженер."
+          },
+          {
+            "en": "My brother is an engineer.",
+            "ru": "Мой брат - инженер."
+          },
+          {
+            "en": "Bob became an engineer.",
+            "ru": "Боб стал инженером."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2445,
+      "word": "excavator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈekskəveɪtər]",
+        "br": "[ˈekskəveɪtə(r)]",
+        "gb": "[ˈekskəveɪtə]"
+      },
+      "translations": {
+        "rus": "экскаватор",
+        "spa": "la excavadora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "transport"
+      ]
+    },
+    {
+      "id": 2446,
+      "word": "explosion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspləʊʒn]",
+        "br": "[ɪkˈspləʊʒn]",
+        "gb": "[ɪksˈpləʊʒən]"
+      },
+      "translations": {
+        "rus": "взрыв",
+        "spa": "el estallido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That sounded like an explosion.",
+            "ru": "Прозвучало будто взрыв."
+          },
+          {
+            "en": "There was an explosion in the lab.",
+            "ru": "В лаборатории был взрыв."
+          },
+          {
+            "en": "What was the cause of the explosion?",
+            "ru": "Что было причиной взрыва?"
+          },
+          {
+            "en": "These are the people who saw the explosion.",
+            "ru": "Это люди, которые видели взрыв."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 404,
+      "word": "facade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈsɑːd]",
+        "br": "[fəˈsɑːd]",
+        "gb": "[fəˈsɑːd]"
+      },
+      "translations": {
+        "rus": "фасад",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 2447,
+      "word": "fence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fens]",
+        "br": "[fens]",
+        "gb": "[fens]"
+      },
+      "translations": {
+        "rus": "забор, ограждение",
+        "spa": "la cerca, la valla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Paint the fence.",
+            "ru": "Покрась забор."
+          },
+          {
+            "en": "The fence was painted by my father.",
+            "ru": "Ограду покрасил мой отец."
+          },
+          {
+            "en": "Our fence is made of iron.",
+            "ru": "Наш забор железный."
+          },
+          {
+            "en": "I had to climb over the fence.",
+            "ru": "Мне пришлось перелезть через ограду."
+          },
+          {
+            "en": "A fence runs around the house.",
+            "ru": "Дом окружен забором."
+          },
+          {
+            "en": "He climbed over the fence.",
+            "ru": "Он перелез через забор."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2448,
+      "word": "fencing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfensɪŋ]",
+        "br": "[ˈfensɪŋ]",
+        "gb": "[ˈfensɪŋ]"
+      },
+      "translations": {
+        "rus": "забор, ограда, изгородь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2449,
+      "word": "filler",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪlər]",
+        "br": "[ˈfɪlə(r)]",
+        "gb": "[ˈfɪlə]"
+      },
+      "translations": {
+        "rus": "шпатлевка, замазка, заполнитель, набивка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2450,
+      "word": "fireplace",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪərpleɪs]",
+        "br": "[ˈfaɪəpleɪs]",
+        "gb": "[ˈfaɪəpleɪs]"
+      },
+      "translations": {
+        "rus": "камин, очаг, кузнечный горн",
+        "spa": "la chimenea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I had to dry my clothes by the fireplace.",
+            "ru": "Мне пришлось сушить свою одежду у камина."
+          },
+          {
+            "en": "The picture hangs right above the fireplace.",
+            "ru": "Картина висит прямо над камином."
+          },
+          {
+            "en": "She built a fire in the fireplace.",
+            "ru": "Она развела в камине огонь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2451,
+      "word": "fireproof",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfaɪərpruːf]",
+        "br": "[ˈfaɪəpruːf]",
+        "gb": "[ˈfaɪəpruːf]"
+      },
+      "translations": {
+        "rus": "огнеупорный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2452,
+      "word": "flat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flæt]",
+        "br": "[flæt]",
+        "gb": "[flæt]"
+      },
+      "translations": {
+        "rus": "квартира",
+        "spa": "el apartamento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How is your new flat?",
+            "ru": "Как твоя новая квартира?"
+          },
+          {
+            "en": "Do you have a flat or a house?",
+            "ru": "У вас квартира или дом?"
+          },
+          {
+            "en": "They have a small flat in town.",
+            "ru": "У них есть небольшая квартирка в городе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2453,
+      "word": "flexible joint",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfleksəbl] [dʒɔɪnt]",
+        "br": "[ˈfleksəbl] [dʒɔɪnt]",
+        "gb": "[ˈfleksəbl] [ʤɔɪnt]"
+      },
+      "translations": {
+        "rus": "подвижное соединение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2454,
+      "word": "floor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flɔːr]",
+        "br": "[flɔː(r)]",
+        "gb": "[flɔː]"
+      },
+      "translations": {
+        "rus": "пол",
+        "spa": "el suelo, el piso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He fell to the floor.",
+            "ru": "Он упал на пол."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The floor was very cold.",
+            "es": "El piso estaba muy frío."
+          },
+          {
+            "en": "Be careful! The floor is wet.",
+            "es": "¡Ten cuidado! El piso está humedo."
+          },
+          {
+            "en": "You have only to sweep the floor.",
+            "es": "Solo tienes que barrer el piso."
+          },
+          {
+            "en": "Don't sit on the floor.",
+            "es": "No te sientes en el suelo."
+          },
+          {
+            "en": "I felt the floor shake.",
+            "es": "Yo sentí el suelo temblar."
+          },
+          {
+            "en": "The servant swept the floor.",
+            "es": "El sirviente limpió el suelo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2455,
+      "word": "floor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flɔːr]",
+        "br": "[flɔː(r)]",
+        "gb": "[flɔː]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They live on the floor beneath.",
+            "ru": "Они живут на этаж ниже."
+          },
+          {
+            "en": "The ground floor was flooded.",
+            "ru": "Первый этаж был затоплен."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live on the fifth floor.",
+            "es": "Vivo en el quinto piso."
+          },
+          {
+            "en": "I took the lift to the third floor.",
+            "es": "Tomé el ascensor al tercer piso."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2456,
+      "word": "flooring",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflɔːrɪŋ]",
+        "br": "[ˈflɔːrɪŋ]",
+        "gb": "[ˈflɔːrɪŋ]"
+      },
+      "translations": {
+        "rus": "настил, (напольное) покрытие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2457,
+      "word": "foreman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrmən]",
+        "br": "[ˈfɔːmən]",
+        "gb": "[ˈfɔːmən]"
+      },
+      "translations": {
+        "rus": "прораб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2458,
+      "word": "foundation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[faʊnˈdeɪʃn]",
+        "br": "[faʊnˈdeɪʃn]",
+        "gb": "[faʊnˈdeɪʃn]"
+      },
+      "translations": {
+        "rus": "фонд, основа, фундамент",
+        "spa": "la fundación, la base"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Columns provide a solid foundation.",
+            "ru": "Колонны дают прочную основу."
+          },
+          {
+            "en": "This house has a solid foundation.",
+            "ru": "У этого дома прочный фундамент."
+          },
+          {
+            "en": "These claims lack a scientific foundation.",
+            "ru": "У этих утверждений нет научной основы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2459,
+      "word": "foyer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔɪər]",
+        "br": "[ˈfɔɪeɪ]",
+        "gb": "[ˈfɔɪeɪ]"
+      },
+      "translations": {
+        "rus": "прихожая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2460,
+      "word": "front",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[frʌnt]",
+        "br": "[frʌnt]",
+        "gb": "[frʌnt]"
+      },
+      "translations": {
+        "rus": "фронт, фасад, передний",
+        "spa": "la parte de delante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The soldiers left for the front.",
+            "ru": "Солдаты ушли на фронт."
+          },
+          {
+            "en": "He walked in front of me.",
+            "ru": "Он шёл впереди меня."
+          },
+          {
+            "en": "I locked the front door.",
+            "ru": "Я запер переднюю дверь."
+          },
+          {
+            "en": "I was in the front seat.",
+            "ru": "Я был на переднем сиденье."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2461,
+      "word": "frontage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfrʌntɪdʒ]",
+        "br": "[ˈfrʌntɪdʒ]",
+        "gb": "[ˈfrʌntɪʤ]"
+      },
+      "translations": {
+        "rus": "передний фасад",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2462,
+      "word": "frontal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfrʌntl]",
+        "br": "[ˈfrʌntl]",
+        "gb": "[frʌntl]"
+      },
+      "translations": {
+        "rus": "фронтальный, лобовой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 584,
+      "word": "gallery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡæləri]",
+        "br": "[ˈɡæləri]",
+        "gb": "[ˈgælərɪ]"
+      },
+      "translations": {
+        "rus": "галерея",
+        "spa": "la galería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "May I visit an art gallery?",
+            "ru": "Можно мне посетить картинную галерею?"
+          },
+          {
+            "en": "Where's the nearest art gallery?",
+            "ru": "Где ближайшая художественная галерея?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I visit an art gallery?",
+            "es": "¿Puedo visitar una galería de arte?"
+          },
+          {
+            "en": "Where's the nearest art gallery?",
+            "es": "¿Dónde está la galería de arte más cercana?"
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 2463,
+      "word": "garret",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡærət]",
+        "br": "[ˈɡærət]",
+        "gb": "[ˈgærət]"
+      },
+      "translations": {
+        "rus": "чердак, мансарда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2464,
+      "word": "gas welding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs] [ˈweldɪŋ]",
+        "br": "[ɡæs] [ˈweldɪŋ]",
+        "gb": "[gæs] [ˈweldɪŋ]"
+      },
+      "translations": {
+        "rus": "газосварка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2465,
+      "word": "gasket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡæskɪt]",
+        "br": "[ˈɡæskɪt]",
+        "gb": "[ˈgæskɪt]"
+      },
+      "translations": {
+        "rus": "сальник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2466,
+      "word": "gate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡeɪt]",
+        "br": "[ɡeɪt]",
+        "gb": "[geɪt]"
+      },
+      "translations": {
+        "rus": "ворота, калитка, шлюз, шлагбаум, выход на посадку",
+        "spa": "la puerta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We left by the back gate.",
+            "ru": "Мы вышли через задние ворота."
+          },
+          {
+            "en": "The gate is made of metal.",
+            "ru": "Эти ворота сделаны из металла."
+          },
+          {
+            "en": "I forgot to close the gate.",
+            "ru": "Я забыл закрыть ворота."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm at the north gate.",
+            "es": "Estoy en la puerta norte."
+          },
+          {
+            "en": "How do I get to Gate 5?",
+            "es": "¿Cómo llego a la puerta 5?"
+          },
+          {
+            "en": "Enter by the narrow gate.",
+            "es": "Entre por la puerta estrecha."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2467,
+      "word": "girder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɜːrdər]",
+        "br": "[ˈɡɜːdə(r)]",
+        "gb": "[ˈgɜːdə]"
+      },
+      "translations": {
+        "rus": "(металлическая) балка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2468,
+      "word": "glass",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡlæs]",
+        "br": "[ɡlɑːs]",
+        "gb": "[glɑːs]"
+      },
+      "translations": {
+        "rus": "стекло, стакан, стеклянный",
+        "spa": "el vaso, el vidrio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a crack in the glass.",
+            "ru": "На стекле трещина."
+          },
+          {
+            "en": "The glass is full of milk.",
+            "ru": "Стакан полон молока."
+          },
+          {
+            "en": "Glass is made from sand.",
+            "ru": "Стекло делают из песка."
+          },
+          {
+            "en": "Do you want a glass of water?",
+            "ru": "Хотите стакан воды?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Get me a glass of milk.",
+            "es": "Tráeme un vaso de leche."
+          },
+          {
+            "en": "I have a glass eye.",
+            "es": "Tengo un ojo de vidrio."
+          },
+          {
+            "en": "Glass is made from sand.",
+            "es": "El vidrio se hace a partir de arena."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "food",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2469,
+      "word": "glue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡluː]",
+        "br": "[ɡluː]",
+        "gb": "[gluː]"
+      },
+      "translations": {
+        "rus": "клей",
+        "spa": "el pegamento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The glue didn't hold.",
+            "ru": "Клей не держал."
+          },
+          {
+            "en": "Join two blocks of wood with glue.",
+            "ru": "Соедините два куска дерева с помощью клея."
+          },
+          {
+            "en": "It will take about 24 hours for the glue to harden.",
+            "ru": "Потребуется около 24 часов, чтобы клей затвердел."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2470,
+      "word": "grid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrɪd]",
+        "br": "[ɡrɪd]",
+        "gb": "[grɪd]"
+      },
+      "translations": {
+        "rus": "сетка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2471,
+      "word": "ground",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡraʊnd]",
+        "br": "[ɡraʊnd]",
+        "gb": "[graʊnd]"
+      },
+      "translations": {
+        "rus": "земля (на чем стоят)",
+        "spa": "el suelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He spat on the ground.",
+            "ru": "Он плюнул на землю."
+          },
+          {
+            "en": "The ground is too soft.",
+            "ru": "Земля слишком рыхлая."
+          },
+          {
+            "en": "It was foggy near the ground.",
+            "ru": "По земле стлался туман."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The ground is still wet.",
+            "es": "El suelo todavía está mojado."
+          },
+          {
+            "en": "The dog sniffed the ground.",
+            "es": "El perro olisqueó el suelo."
+          },
+          {
+            "en": "An apple fell to the ground.",
+            "es": "Una manzana cayó al suelo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2472,
+      "word": "gutter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡʌtər]",
+        "br": "[ˈɡʌtə(r)]",
+        "gb": "[ˈgʌtə]"
+      },
+      "translations": {
+        "rus": "сточная канава",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2473,
+      "word": "gypsum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɪpsəm]",
+        "br": "[ˈdʒɪpsəm]",
+        "gb": "[ˈʤɪpsəm]"
+      },
+      "translations": {
+        "rus": "гипс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "health"
+      ]
+    },
+    {
+      "id": 2474,
+      "word": "gypsum plasterboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɪpsəm] [ˈplæstərbɔːrd]",
+        "br": "[ˈdʒɪpsəm] [ˈplɑːstəbɔːd]",
+        "gb": "[ˈʤɪpsəm] [ˈplɑːstəbɔːd]"
+      },
+      "translations": {
+        "rus": "гипсокартон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2475,
+      "word": "hall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɔːl]",
+        "br": "[hɔːl]",
+        "gb": "[hɔːl]"
+      },
+      "translations": {
+        "rus": "коридор, прихожая",
+        "spa": "el vestíbulo, el pasillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I live across the hall.",
+            "ru": "Я живу через коридор отсюда."
+          },
+          {
+            "en": "Everybody ran out into the hall.",
+            "ru": "Все выбежали в коридор."
+          },
+          {
+            "en": "The room is at the end of the hall.",
+            "ru": "Комната в конце коридора."
+          },
+          {
+            "en": "Leave your umbrella in the hall.",
+            "ru": "Оставьте ваш зонтик в прихожей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2476,
+      "word": "halogen bulb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhælədʒən] [bʌlb]",
+        "br": "[ˈhælədʒən] [bʌlb]",
+        "gb": "[ˈhæləʤen] [bʌlb]"
+      },
+      "translations": {
+        "rus": "галогеновая лампа",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2477,
+      "word": "hammer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhæmər]",
+        "br": "[ˈhæmə(r)]",
+        "gb": "[ˈhæmə]"
+      },
+      "translations": {
+        "rus": "молоток, молот",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He smashed the vase with a hammer.",
+            "ru": "Он разбил вазу молотком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 2479,
+      "word": "handrail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhændreɪl]",
+        "br": "[ˈhændreɪl]",
+        "gb": "[ˈhændreɪl]"
+      },
+      "translations": {
+        "rus": "перила, поручни",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2480,
+      "word": "helmet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhelmɪt]",
+        "br": "[ˈhelmɪt]",
+        "gb": "[ˈhelmɪt]"
+      },
+      "translations": {
+        "rus": "каска, шлем",
+        "spa": "el casco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wearing a helmet reduces the risk of head injury.",
+            "ru": "Ношение шлема снижает риск травмы головы."
+          },
+          {
+            "en": "The helmet law should reduce injuries in motorcycle accidents.",
+            "ru": "Закон об обязательном ношении шлема должен снизить травматизм при авариях с участием мотоциклов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "military_weapons",
+        "oxford5000_b2",
+        "transport"
+      ]
+    },
+    {
+      "id": 2481,
+      "word": "hinge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪndʒ]",
+        "br": "[hɪndʒ]",
+        "gb": "[hɪnʤ]"
+      },
+      "translations": {
+        "rus": "шарнир",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2482,
+      "word": "hole",
+      "pos": "noun",
+      "transcription": {
+        "us": "[həʊl]",
+        "br": "[həʊl]",
+        "gb": "[həʊl]"
+      },
+      "translations": {
+        "rus": "дыра, отверстие, нора, лунка",
+        "spa": "el agujero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It is a black hole.",
+            "ru": "Это чёрная дыра."
+          },
+          {
+            "en": "I don't see any bullet holes.",
+            "ru": "Я не вижу никаких пулевых отверстий."
+          },
+          {
+            "en": "There's a hole in the ceiling.",
+            "ru": "В потолке дыра."
+          },
+          {
+            "en": "How deep is the hole?",
+            "ru": "Какой глубины дыра?"
+          },
+          {
+            "en": "There was a bullet hole in the windshield.",
+            "ru": "В ветровом стекле было пулевое отверстие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The hole is big enough.",
+            "es": "El agujero es bastante grande."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2483,
+      "word": "hose, hosepipe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[həʊz], [ˈhəʊzpaɪp]",
+        "br": "[həʊz], [ˈhəʊzpaɪp]",
+        "gb": "[həʊz] [ˈhəʊzpaɪp]"
+      },
+      "translations": {
+        "rus": "шланг",
+        "spa": "la manguera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We need a garden hose.",
+            "ru": "Нам нужен садовый шланг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2484,
+      "word": "house",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haʊs]",
+        "br": "[haʊs]",
+        "gb": "[haʊs]"
+      },
+      "translations": {
+        "rus": "дом (здание)",
+        "spa": "la casa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is their house.",
+            "ru": "Это их дом."
+          },
+          {
+            "en": "He has two houses.",
+            "ru": "У него два дома."
+          },
+          {
+            "en": "Those houses are big.",
+            "ru": "Те дома большие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The house is on fire!",
+            "es": "¡La casa está ardiendo!"
+          },
+          {
+            "en": "Is it near your house?",
+            "es": "¿Está cerca de tu casa?"
+          },
+          {
+            "en": "We felt the house shake.",
+            "es": "Nosotros sentimos a la casa sacudirse."
+          },
+          {
+            "en": "The house was in flames.",
+            "es": "La casa estaba en llamas."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 602,
+      "word": "hue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hjuː]",
+        "br": "[hjuː]",
+        "gb": "[hjuː]"
+      },
+      "translations": {
+        "rus": "оттенок, тон, цвет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2485,
+      "word": "humidity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hjuːˈmɪdəti]",
+        "br": "[hjuːˈmɪdəti]",
+        "gb": "[hjuːˈmɪdɪtɪ]"
+      },
+      "translations": {
+        "rus": "влажность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology"
+      ]
+    },
+    {
+      "id": 2486,
+      "word": "illumination",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˌluːmɪˈneɪʃn]",
+        "br": "[ɪˌluːmɪˈneɪʃn]",
+        "gb": "[ɪljuːmɪˈneɪʃn]"
+      },
+      "translations": {
+        "rus": "освещение",
+        "spa": "la iluminación, el encendido, el alumbrado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2487,
+      "word": "implement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪmplɪmənt]",
+        "br": "[ˈɪmplɪmənt]",
+        "gb": "[ˈɪmplɪmənt]"
+      },
+      "translations": {
+        "rus": "орудие, инструмент, утварь",
+        "spa": "el instrumento, el utensilio, la herramienta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "These implements are in common use.",
+            "ru": "Эти инструменты широко используются."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2489,
+      "word": "incline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnklaɪn]",
+        "br": "[ˈɪnklaɪn]",
+        "gb": "[ɪnˈklaɪn]"
+      },
+      "translations": {
+        "rus": "наклон, скат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2490,
+      "word": "incombustible",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnkəmˈbʌstəbl]",
+        "br": "[ɪnkəmˈbʌstəbl]",
+        "gb": "[ɪnkəmˈbʌstəbl]"
+      },
+      "translations": {
+        "rus": "негорючий, несгораемый, огнестойкий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2491,
+      "word": "installation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnstəˈleɪʃn]",
+        "br": "[ˌɪnstəˈleɪʃn]",
+        "gb": "[ɪnstəˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "установка",
+        "spa": "la instalación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The installation is now complete.",
+            "ru": "Установка завершена."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2492,
+      "word": "insulation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnsəˈleɪʃn]",
+        "br": "[ˌɪnsjuˈleɪʃn]",
+        "gb": "[ɪnsjʊˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "изоляция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2493,
+      "word": "joint",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒɔɪnt]",
+        "br": "[dʒɔɪnt]",
+        "gb": "[ʤɔɪnt]"
+      },
+      "translations": {
+        "rus": "стык, сустав",
+        "spa": "la articulación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which joint did you dislocate?",
+            "ru": "Какой сустав вы вывихнули?"
+          },
+          {
+            "en": "My joints ache when it gets cold.",
+            "ru": "Когда холодает, у меня болят суставы."
+          },
+          {
+            "en": "Arthritis is a painful condition that affects the joints.",
+            "ru": "Артрит - болезненное заболевание, поражающее суставы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The joint in my left elbow hurts.",
+            "es": "Me duele la articulación del hombro izquierdo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 618,
+      "word": "lacquer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlækər]",
+        "br": "[ˈlækə(r)]",
+        "gb": "[ˈlækə]"
+      },
+      "translations": {
+        "rus": "лак, глазурь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2494,
+      "word": "ladder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlædər]",
+        "br": "[ˈlædə(r)]",
+        "gb": "[ˈlædə]"
+      },
+      "translations": {
+        "rus": "лестница, стремянка, трап",
+        "spa": "la escalera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He climbed up the ladder.",
+            "ru": "Он взобрался наверх по лестнице."
+          },
+          {
+            "en": "I can't get at the top branches, can you bring the ladder?",
+            "ru": "Я не достаю до верхних веток, можешь принести мне лестницу?"
+          },
+          {
+            "en": "Give me a hand with this ladder.",
+            "ru": "Помоги мне с этой лестницей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2495,
+      "word": "laminate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlæmɪnət]",
+        "br": "[ˈlæmɪnət]",
+        "gb": "[ˈlæmɪneɪt]"
+      },
+      "translations": {
+        "rus": "ламинат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2496,
+      "word": "lantern",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlæntərn]",
+        "br": "[ˈlæntən]",
+        "gb": "[ˈlæntən]"
+      },
+      "translations": {
+        "rus": "фонарь",
+        "spa": "el farol, la linterna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He walked along in front of me, holding the lantern.",
+            "ru": "Он шёл передо мной, с фонарём в руках."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2497,
+      "word": "latch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lætʃ]",
+        "br": "[lætʃ]",
+        "gb": "[læʧ]"
+      },
+      "translations": {
+        "rus": "щеколда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2498,
+      "word": "lath",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læθ]",
+        "br": "[lɑːθ]",
+        "gb": "[lɑːθ]"
+      },
+      "translations": {
+        "rus": "рейка, планка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2499,
+      "word": "layout",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɪaʊt]",
+        "br": "[ˈleɪaʊt]",
+        "gb": "[ˈleɪaʊt]"
+      },
+      "translations": {
+        "rus": "компоновка, планировка, расстановка, расположение",
+        "spa": "el diseño, la composición, la distribución, el trazado, el plan, la disposición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2500,
+      "word": "lean",
+      "pos": "noun",
+      "transcription": {
+        "us": "[liːn]",
+        "br": "[liːn]",
+        "gb": "[liːn]"
+      },
+      "translations": {
+        "rus": "наклон, уклон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2501,
+      "word": "LED",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌel iː ˈdiː]",
+        "br": "[ˌel iː ˈdiː]",
+        "gb": "[ˌel iː ˈdiː]"
+      },
+      "translations": {
+        "rus": "светодиод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2502,
+      "word": "level",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlevl]",
+        "br": "[ˈlevl]",
+        "gb": "[levl]"
+      },
+      "translations": {
+        "rus": "уровень, этаж",
+        "spa": "el nivel, el piso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are on the same level.",
+            "ru": "Мы на одном и том же уровне."
+          },
+          {
+            "en": "The sea level is rising.",
+            "ru": "Уровень моря поднимается."
+          },
+          {
+            "en": "He reached the last level.",
+            "ru": "Он достиг последнего уровня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I won't stoop to his level.",
+            "es": "No me rebajaré a su nivel."
+          },
+          {
+            "en": "The sea level is rising.",
+            "es": "El nivel del mar está subiendo."
+          },
+          {
+            "en": "The water level rises very quickly.",
+            "es": "El nivel del agua sube muy rápido."
+          },
+          {
+            "en": "My cholesterol levels are high.",
+            "es": "Mis niveles de colesterol están altos."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2503,
+      "word": "lift",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɪft]",
+        "br": "[lɪft]",
+        "gb": "[lɪft]"
+      },
+      "translations": {
+        "rus": "лифт",
+        "spa": "el ascensor, el elevador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That lift makes a lot of noise.",
+            "ru": "Тот лифт очень шумный."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2504,
+      "word": "lighting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪtɪŋ]",
+        "br": "[ˈlaɪtɪŋ]",
+        "gb": "[ˈlaɪtɪŋ]"
+      },
+      "translations": {
+        "rus": "освещение",
+        "spa": "la iluminación, el encendido, el alumbrado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2505,
+      "word": "linoleum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɪˈnəʊliəm]",
+        "br": "[lɪˈnəʊliəm]",
+        "gb": "[lɪˈnəʊljəm]"
+      },
+      "translations": {
+        "rus": "линолеум",
+        "spa": "el linóleo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 1538,
+      "word": "loan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ləʊn]",
+        "br": "[ləʊn]",
+        "gb": "[ləʊn]"
+      },
+      "translations": {
+        "rus": "ссуда, заем",
+        "spa": "el préstamo, prestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll need a loan.",
+            "ru": "Мне понадобится ссуда."
+          },
+          {
+            "en": "I no longer need a loan.",
+            "ru": "Мне больше не нужна ссуда."
+          },
+          {
+            "en": "The bank loaned her 500 dollars.",
+            "ru": "Банк ссудил ей 500 долларов."
+          },
+          {
+            "en": "You can get a loan from a bank.",
+            "ru": "Ты можешь получить ссуду в банке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you still need a loan?",
+            "es": "¿Todavía necesitas un préstamo?"
+          },
+          {
+            "en": "A friend loaned this book to me.",
+            "es": "Este libro me lo prestó un amigo."
+          },
+          {
+            "en": "He got a loan from the bank.",
+            "es": "Él obtuvo un préstamo del banco."
+          },
+          {
+            "en": "The bank loaned him 500 dollars.",
+            "es": "El banco le prestó 500 dólares."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2506,
+      "word": "lobby",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɑːbi]",
+        "br": "[ˈlɒbi]",
+        "gb": "[ˈlɔbɪ]"
+      },
+      "translations": {
+        "rus": "вестибюль, лобби, прихожая",
+        "spa": "el vestíbulo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We'll wait in the lobby.",
+            "ru": "Мы подождем в вестибюле."
+          },
+          {
+            "en": "I'll wait for you in the lobby.",
+            "ru": "Я подожду тебя в вестибюле."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2507,
+      "word": "loft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːft]",
+        "br": "[lɒft]",
+        "gb": "[lɔft]"
+      },
+      "translations": {
+        "rus": "чердак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1539,
+      "word": "lorry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɔːri]",
+        "br": "[ˈlɒri]",
+        "gb": "[ˈlɔrɪ]"
+      },
+      "translations": {
+        "rus": "грузовик",
+        "spa": "el camión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What colour is your lorry?",
+            "ru": "Какого цвета твой грузовик?"
+          },
+          {
+            "en": "The lorry tipped over.",
+            "ru": "Грузовик перевернулся."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2508,
+      "word": "lumber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlʌmbər]",
+        "br": "[ˈlʌmbə(r)]",
+        "gb": "[ˈlʌmbə]"
+      },
+      "translations": {
+        "rus": "древесина, пиломатериалы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2509,
+      "word": "maintenance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmeɪntənəns]",
+        "br": "[ˈmeɪntənəns]",
+        "gb": "[ˈmeɪntənəns]"
+      },
+      "translations": {
+        "rus": "поддержание, обслуживание, содержание, ремонтный",
+        "spa": "el mantenimiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2510,
+      "word": "mallet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmælɪt]",
+        "br": "[ˈmælɪt]",
+        "gb": "[ˈmælɪt]"
+      },
+      "translations": {
+        "rus": "киянка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2511,
+      "word": "marchioness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmɑːrʃəˈnes]",
+        "br": "[ˌmɑːʃəˈnes]",
+        "gb": "[ˈmɑːʃənɪs]"
+      },
+      "translations": {
+        "rus": "маркиза",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2512,
+      "word": "mat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mæt]",
+        "br": "[mæt]",
+        "gb": "[mæt]"
+      },
+      "translations": {
+        "rus": "коврик",
+        "spa": "la alfombrilla, la estera, el tapete"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2158,
+      "word": "material",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[məˈtɪriəl]",
+        "br": "[məˈtɪəriəl]",
+        "gb": "[məˈtɪərɪəl]"
+      },
+      "translations": {
+        "rus": "материал, вещество, данные, факты, материальный",
+        "spa": "el material, la tela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This material crushes easily.",
+            "ru": "Этот материал легко мнётся."
+          },
+          {
+            "en": "He tackled his material problems.",
+            "ru": "Он взялся за решение своих материальных проблем."
+          },
+          {
+            "en": "This material clings to the skin.",
+            "ru": "Этот материал хорошо облегает тело."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is it a good material?",
+            "es": "¿Es un buen material?"
+          },
+          {
+            "en": "When it was stretched, the material tore.",
+            "es": "Al estirar la tela se rompió."
+          },
+          {
+            "en": "We've already seen this material.",
+            "es": "Ya vimos ese material."
+          },
+          {
+            "en": "This material has a rough texture.",
+            "es": "Este material tiene una textura rugosa."
+          },
+          {
+            "en": "I want a suit made of this material.",
+            "es": "Quiero un traje hecho de este material."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "construction",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2513,
+      "word": "mildew",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪlduː]",
+        "br": "[ˈmɪldjuː]",
+        "gb": "[ˈmɪldjuː]"
+      },
+      "translations": {
+        "rus": "плесень",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2514,
+      "word": "mix",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɪks]",
+        "br": "[mɪks]",
+        "gb": "[mɪks]"
+      },
+      "translations": {
+        "rus": "смесь",
+        "spa": "la mezcla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "food",
+        "oxford3000_b1",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2515,
+      "word": "mixture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪkstʃər]",
+        "br": "[ˈmɪkstʃə(r)]",
+        "gb": "[ˈmɪksʧə]"
+      },
+      "translations": {
+        "rus": "смесь, микстура",
+        "spa": "la mezcla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's an explosive mixture.",
+            "ru": "Это взрывоопасная смесь."
+          },
+          {
+            "en": "The mixture of these substances is dangerous.",
+            "ru": "Смесь этих веществ опасна."
+          },
+          {
+            "en": "Air is a mixture of gases that we cannot see.",
+            "ru": "Воздух - это смесь невидимых газов."
+          },
+          {
+            "en": "It's a mixture of culture, language, and religion.",
+            "ru": "Это смесь культуры, языка и религии."
+          },
+          {
+            "en": "She was feeling a mixture of anxiety and happiness.",
+            "ru": "Она ощущала смесь тревоги и счастья."
+          },
+          {
+            "en": "Stir the mixture until it foams.",
+            "ru": "Взбалтывайте смесь, пока не она не вспенится."
+          },
+          {
+            "en": "Air is a mixture of gases.",
+            "ru": "Воздух — это смесь газов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "food",
+        "oxford3000_b1",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2516,
+      "word": "moisture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɔɪstʃər]",
+        "br": "[ˈmɔɪstʃə(r)]",
+        "gb": "[ˈmɔɪsʧə]"
+      },
+      "translations": {
+        "rus": "влага, влажность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2517,
+      "word": "mold",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊld]",
+        "br": "[məʊld]",
+        "gb": "[məʊld]"
+      },
+      "translations": {
+        "rus": "плесень",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2518,
+      "word": "mold",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊld]",
+        "br": "[məʊld]",
+        "gb": "[məʊld]"
+      },
+      "translations": {
+        "rus": "форма для отливки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2519,
+      "word": "mortar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɔːrtər]",
+        "br": "[ˈmɔːtə(r)]",
+        "gb": "[ˈmɔːtə]"
+      },
+      "translations": {
+        "rus": "строительный раствор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1555,
+      "word": "mortgage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɔːrɡɪdʒ]",
+        "br": "[ˈmɔːɡɪdʒ]",
+        "gb": "[ˈmɔːgɪʤ]"
+      },
+      "translations": {
+        "rus": "ипотека, ссуда, заём при покупке дома",
+        "spa": "la hipoteca"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "home",
+        "legal_english",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 638,
+      "word": "mosaic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊˈzeɪɪk]",
+        "br": "[məʊˈzeɪɪk]",
+        "gb": "[məʊˈzeɪɪk]"
+      },
+      "translations": {
+        "rus": "мозаика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction"
+      ]
+    },
+    {
+      "id": 2520,
+      "word": "mould",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊld]",
+        "br": "[məʊld]",
+        "gb": "[məʊld]"
+      },
+      "translations": {
+        "rus": "форма для отливки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2521,
+      "word": "mould",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊld]",
+        "br": "[məʊld]",
+        "gb": "[məʊld]"
+      },
+      "translations": {
+        "rus": "плесень",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2522,
+      "word": "mounting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntɪŋ]",
+        "br": "[ˈmaʊntɪŋ]",
+        "gb": "[ˈmaʊntɪŋ]"
+      },
+      "translations": {
+        "rus": "монтаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2523,
+      "word": "nut, screw-nut",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nʌt], [skruː] [nʌt]",
+        "br": "[nʌt], [skruː] [nʌt]",
+        "gb": "[nʌt] [skruː] [nʌt]"
+      },
+      "translations": {
+        "rus": "гайка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2524,
+      "word": "pail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[peɪl]",
+        "br": "[peɪl]",
+        "gb": "[peɪl]"
+      },
+      "translations": {
+        "rus": "ведро",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 650,
+      "word": "paint",
+      "pos": "noun",
+      "transcription": {
+        "us": "[peɪnt]",
+        "br": "[peɪnt]",
+        "gb": "[peɪnt]"
+      },
+      "translations": {
+        "rus": "краска",
+        "spa": "la pintura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need some blue paint.",
+            "ru": "Мне нужна синяя краска."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 654,
+      "word": "painter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪntər]",
+        "br": "[ˈpeɪntə(r)]",
+        "gb": "[ˈpeɪntə]"
+      },
+      "translations": {
+        "rus": "живописец, художник, маляр",
+        "spa": "el pintor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Carlos Morel was the first Argentine painter.",
+            "ru": "Карлос Морель был первым аргентинским живописцем."
+          },
+          {
+            "en": "You're a good painter.",
+            "ru": "Ты хороший художник."
+          },
+          {
+            "en": "Who's your favorite painter?",
+            "ru": "Кто твой любимый художник?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "career",
+        "construction",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2525,
+      "word": "pavement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪvmənt]",
+        "br": "[ˈpeɪvmənt]",
+        "gb": "[ˈpeɪvmənt]"
+      },
+      "translations": {
+        "rus": "мостовая, тротуар, дорожное покрытие",
+        "spa": "el pavimento, la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I stumbled on the uneven pavement.",
+            "ru": "Я споткнулся на неровной мостовой."
+          },
+          {
+            "en": "The surface of the pavement soon became very uneven.",
+            "ru": "Поверхность тротуара вскоре стала очень неровной."
+          },
+          {
+            "en": "I fell and banged my head on the pavement.",
+            "ru": "Я упал и ударился головой о тротуар."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A bed of leaves covers the pavement.",
+            "es": "Hay una capa de hojas en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "town"
+      ]
+    },
+    {
+      "id": 2526,
+      "word": "pile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[paɪl]",
+        "br": "[paɪl]",
+        "gb": "[paɪl]"
+      },
+      "translations": {
+        "rus": "куча, кипа, груда, свая",
+        "spa": "el montón, amontonar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Whose pile of junk is this?",
+            "ru": "Чья это груда хлама?"
+          },
+          {
+            "en": "The pile of leaves helped cushion his fall.",
+            "ru": "Куча листьев помогла смягчить его падение."
+          },
+          {
+            "en": "The pile of newspapers was bound with string.",
+            "ru": "Стопка газет была обвязана бечёвкой."
+          },
+          {
+            "en": "A pile of sandbags held the bridge.",
+            "ru": "Груда мешков с песком поддерживала мост."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2527,
+      "word": "pillar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪlər]",
+        "br": "[ˈpɪlə(r)]",
+        "gb": "[ˈpɪlə]"
+      },
+      "translations": {
+        "rus": "столб, колонна",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2528,
+      "word": "pipe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[paɪp]",
+        "br": "[paɪp]",
+        "gb": "[paɪp]"
+      },
+      "translations": {
+        "rus": "труба, трубка",
+        "spa": "la tubería, el tubo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Water was leaking from the pipe.",
+            "ru": "Из трубы подтекала вода."
+          },
+          {
+            "en": "He blew a whiff from his pipe.",
+            "ru": "Он выпустил дымок из трубки."
+          },
+          {
+            "en": "These pipes contain either hot water or steam.",
+            "ru": "В этих трубах содержится горячая вода или пар."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2529,
+      "word": "pipeline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaɪplaɪn]",
+        "br": "[ˈpaɪplaɪn]",
+        "gb": "[ˈpaɪplaɪn]"
+      },
+      "translations": {
+        "rus": "трубопровод",
+        "spa": "la tubería, el conducto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 429,
+      "word": "plan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plæn]",
+        "br": "[plæn]",
+        "gb": "[plæn]"
+      },
+      "translations": {
+        "rus": "план",
+        "spa": "el plan"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The plan was a success.",
+            "ru": "План удался."
+          },
+          {
+            "en": "Do you have a plan?",
+            "ru": "У тебя есть план?"
+          },
+          {
+            "en": "I approve of your plan.",
+            "ru": "Я одобряю твой план."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a plan?",
+            "es": "¿Tienes un plan?"
+          },
+          {
+            "en": "We gave up the plan.",
+            "es": "Abandonamos el plan."
+          },
+          {
+            "en": "We just need a plan.",
+            "es": "Solo necesitamos un plan."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2530,
+      "word": "plank",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plæŋk]",
+        "br": "[plæŋk]",
+        "gb": "[plæŋk]"
+      },
+      "translations": {
+        "rus": "планка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2531,
+      "word": "plaster",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplæstər]",
+        "br": "[ˈplɑːstə(r)]",
+        "gb": "[ˈplɑːstə]"
+      },
+      "translations": {
+        "rus": "штукатурка, гипс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2532,
+      "word": "plastic panel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplæstɪk] [ˈpænl]",
+        "br": "[ˈplæstɪk] [ˈpænl]",
+        "gb": "[ˈplæstɪk] [pænl]"
+      },
+      "translations": {
+        "rus": "пластиковая панель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2533,
+      "word": "plate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pleɪt]",
+        "br": "[pleɪt]",
+        "gb": "[pleɪt]"
+      },
+      "translations": {
+        "rus": "лист металла",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2534,
+      "word": "plywood",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈplaɪwʊd]"
+      },
+      "translations": {
+        "rus": "фанера",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2535,
+      "word": "porch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɔːrtʃ]",
+        "br": "[pɔːtʃ]",
+        "gb": "[pɔːʧ]"
+      },
+      "translations": {
+        "rus": "крыльцо, веранда, подъезд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1815,
+      "word": "porter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɔːrtər]",
+        "br": "[ˈpɔːtə(r)]",
+        "gb": "[ˈpɔːtə]"
+      },
+      "translations": {
+        "rus": "носильщик, портье, швейцар",
+        "spa": "el maletero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 2536,
+      "word": "post",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəʊst]",
+        "br": "[pəʊst]",
+        "gb": "[pəʊst]"
+      },
+      "translations": {
+        "rus": "столб, стойка",
+        "spa": "el poste"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2537,
+      "word": "powder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaʊdər]",
+        "br": "[ˈpaʊdə(r)]",
+        "gb": "[ˈpaʊdə]"
+      },
+      "translations": {
+        "rus": "порошок, пудра, порох, порошковый",
+        "spa": "el polvo, la pólvora"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The powder is mixed with cold water to form a paste.",
+            "ru": "Этот порошок перемешивается в холодной воде до образования пасты."
+          },
+          {
+            "en": "This machine will pound the rocks into powder.",
+            "ru": "Эта машина перемалывает камень в порошок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "food",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2538,
+      "word": "power shovel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaʊər] [ˈʃʌvl]",
+        "br": "[ˈpaʊə(r)] [ˈʃʌvl]",
+        "gb": "[ˈpaʊə] [ʃʌvl]"
+      },
+      "translations": {
+        "rus": "механическая лопата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2539,
+      "word": "primer",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpraɪmə]"
+      },
+      "translations": {
+        "rus": "грунтовка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2351,
+      "word": "provider",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈvaɪdər]",
+        "br": "[prəˈvaɪdə(r)]",
+        "gb": "[prəˈvaɪdə]"
+      },
+      "translations": {
+        "rus": "поставщик, провайдер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction"
+      ]
+    },
+    {
+      "id": 2540,
+      "word": "pump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pʌmp]",
+        "br": "[pʌmp]",
+        "gb": "[pʌmp]"
+      },
+      "translations": {
+        "rus": "насос, помпа",
+        "spa": "la bomba"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need a bike pump.",
+            "ru": "Мне нужен велосипедный насос."
+          },
+          {
+            "en": "The pump didn't work properly.",
+            "ru": "Насос толком не работал."
+          },
+          {
+            "en": "The human heart is analogous to a pump.",
+            "ru": "Человеческое сердце подобно насосу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2542,
+      "word": "putty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpʌti]",
+        "br": "[ˈpʌti]",
+        "gb": "[ˈpʌtɪ]"
+      },
+      "translations": {
+        "rus": "шпатлевка, замазка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2543,
+      "word": "radiator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪdieɪtər]",
+        "br": "[ˈreɪdieɪtə(r)]",
+        "gb": "[ˈreɪdɪeɪtə]"
+      },
+      "translations": {
+        "rus": "батарея отопления, радиатор",
+        "spa": "el radiador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "transport"
+      ]
+    },
+    {
+      "id": 2544,
+      "word": "rafter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈræftər]",
+        "br": "[ˈrɑːftə(r)]",
+        "gb": "[ˈrɑːftə]"
+      },
+      "translations": {
+        "rus": "стропило",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2545,
+      "word": "rail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[reɪl]",
+        "br": "[reɪl]",
+        "gb": "[reɪl]"
+      },
+      "translations": {
+        "rus": "рельс, поручень, рейка, рельсовый",
+        "spa": "el riel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The train went off the rails.",
+            "ru": "Поезд сошёл с рельс."
+          },
+          {
+            "en": "I railed my car to Scotland.",
+            "ru": "Я переправил свою машину в Шотландию по железной дороге."
+          },
+          {
+            "en": "The yard was railed.",
+            "ru": "Двор был огражден."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2546,
+      "word": "railing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪlɪŋ]",
+        "br": "[ˈreɪlɪŋ]",
+        "gb": "[ˈreɪlɪŋ]"
+      },
+      "translations": {
+        "rus": "металлическое ограждение, металлическая рейка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2547,
+      "word": "ramp",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ræmp]",
+        "br": "[ræmp]",
+        "gb": "[ræmp]"
+      },
+      "translations": {
+        "rus": "скат, уклон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2548,
+      "word": "reinforced concrete",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[riːɪnˈfɔːst] [ˈkɔnkriːt]"
+      },
+      "translations": {
+        "rus": "железобетон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2549,
+      "word": "resin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrezn]",
+        "br": "[ˈrezɪn]",
+        "gb": "[ˈrezɪn]"
+      },
+      "translations": {
+        "rus": "смола",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2550,
+      "word": "rip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪp]",
+        "br": "[rɪp]",
+        "gb": "[rɪp]"
+      },
+      "translations": {
+        "rus": "разрыв, разрез",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2551,
+      "word": "rivet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɪvɪt]",
+        "br": "[ˈrɪvɪt]",
+        "gb": "[ˈrɪvɪt]"
+      },
+      "translations": {
+        "rus": "заклепка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2552,
+      "word": "roof",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ruːf]",
+        "br": "[ruːf]",
+        "gb": "[ruːf]"
+      },
+      "translations": {
+        "rus": "крыша, крыть",
+        "spa": "el techo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's snow on the roof.",
+            "ru": "На крыше снег."
+          },
+          {
+            "en": "The roof is very low.",
+            "ru": "Крыша очень низкая."
+          },
+          {
+            "en": "He jumped off the roof.",
+            "ru": "Он спрыгнул с крыши."
+          },
+          {
+            "en": "The roof leaks.",
+            "ru": "Крыша течёт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2553,
+      "word": "rosin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɑːzn]",
+        "br": "[ˈrɒzɪn]",
+        "gb": "[ˈrɔzɪn]"
+      },
+      "translations": {
+        "rus": "канифоль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2554,
+      "word": "rotunda",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rəʊˈtʌndə]",
+        "br": "[rəʊˈtʌndə]",
+        "gb": "[rəʊˈtʌndə]"
+      },
+      "translations": {
+        "rus": "ротонда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2555,
+      "word": "rug",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rʌɡ]",
+        "br": "[rʌɡ]",
+        "gb": "[rʌg]"
+      },
+      "translations": {
+        "rus": "ковёр, коврик",
+        "spa": "la alfombra, el tapete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rug was covered with cat hair.",
+            "ru": "Ковёр был покрыт шестью кота."
+          },
+          {
+            "en": "During the day I went to Ikea to return the rug.",
+            "ru": "Днём я съездил в Икею, чтобы сдать ковёр."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 2556,
+      "word": "sack",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sæk]",
+        "br": "[sæk]",
+        "gb": "[sæk]"
+      },
+      "translations": {
+        "rus": "мешок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2557,
+      "word": "scaffolding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskæfəldɪŋ]",
+        "br": "[ˈskæfəldɪŋ]",
+        "gb": "[ˈskæfəldɪŋ]"
+      },
+      "translations": {
+        "rus": "строительные леса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2558,
+      "word": "schedule",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskedʒuːl]",
+        "br": "[ˈʃedjuːl]",
+        "gb": "[ˈʃedjuːl]"
+      },
+      "translations": {
+        "rus": "расписание",
+        "spa": "el horario, el programa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I lost my class schedule.",
+            "ru": "Я потерял расписание моих занятий."
+          },
+          {
+            "en": "My schedule is very flexible.",
+            "ru": "У меня очень гибкий график работы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have a tight schedule.",
+            "es": "Tenemos un horario apretado."
+          },
+          {
+            "en": "Please show me the schedule.",
+            "es": "Por favor, muéstreme el horario."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 2560,
+      "word": "sheet",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ʃiːt]",
+        "br": "[ʃiːt]",
+        "gb": "[ʃiːt]"
+      },
+      "translations": {
+        "rus": "лист, простыня, листовой",
+        "spa": "la sábana, la hoja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Give me a sheet of paper.",
+            "ru": "Дай мне лист бумаги."
+          },
+          {
+            "en": "The roof is covered with sheet metal.",
+            "ru": "Крыша покрыта листовым металлом."
+          },
+          {
+            "en": "The sheets are clean.",
+            "ru": "Простыни чистые."
+          },
+          {
+            "en": "Leave this sheet blank.",
+            "ru": "Оставьте этот лист пустым."
+          },
+          {
+            "en": "You're white as a sheet.",
+            "ru": "Ты белый как простыня."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2561,
+      "word": "shovel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃʌvl]",
+        "br": "[ˈʃʌvl]",
+        "gb": "[ʃʌvl]"
+      },
+      "translations": {
+        "rus": "лопата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2562,
+      "word": "shutter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃʌtər]",
+        "br": "[ˈʃʌtə(r)]",
+        "gb": "[ˈʃʌtə]"
+      },
+      "translations": {
+        "rus": "ставень, затвор",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That shutter flaps every time there's a wind.",
+            "ru": "Ставни качаются и скрипят при каждом порыве ветра."
+          },
+          {
+            "en": "The camera shutter clicked.",
+            "ru": "Затвор фотоаппарата щёлкнул."
+          },
+          {
+            "en": "The doors were closed, the windows shuttered.",
+            "ru": "Двери были закрыты, окна прикрыты ставнями."
+          },
+          {
+            "en": "We shuttered the window to keep the house cool.",
+            "ru": "Мы закрыли окна ставнями, чтобы сохранить в доме прохладу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 440,
+      "word": "sidewalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪdwɔːk]",
+        "br": "[ˈsaɪdwɔːk]",
+        "gb": "[ˈsaɪdwɔːk]"
+      },
+      "translations": {
+        "rus": "тротуар",
+        "spa": "la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A casual encounter on the sidewalk.",
+            "ru": "Случайная встреча на тротуаре."
+          },
+          {
+            "en": "She slipped and hit her head on the sidewalk.",
+            "ru": "Она поскользнулась и ударилась головой о тротуар."
+          },
+          {
+            "en": "He sat on the sidewalk asking for a handout.",
+            "ru": "Он сидел на тротуаре и просил подаяния."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I found a coin on the sidewalk.",
+            "es": "Encontré una moneda en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 2563,
+      "word": "sieve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɪv]",
+        "br": "[sɪv]",
+        "gb": "[sɪv]"
+      },
+      "translations": {
+        "rus": "сито, решето",
+        "spa": "el tamiz"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2564,
+      "word": "silicone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪlɪkəʊn]",
+        "br": "[ˈsɪlɪkəʊn]",
+        "gb": "[ˈsɪlɪkəʊn]"
+      },
+      "translations": {
+        "rus": "силикон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2565,
+      "word": "siphon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪfn]",
+        "br": "[ˈsaɪfn]",
+        "gb": "[ˈsaɪfən]"
+      },
+      "translations": {
+        "rus": "сифон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2566,
+      "word": "skylight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskaɪlaɪt]",
+        "br": "[ˈskaɪlaɪt]",
+        "gb": "[ˈskaɪlaɪt]"
+      },
+      "translations": {
+        "rus": "верхний свет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2567,
+      "word": "sledgehammer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsledʒhæmər]",
+        "br": "[ˈsledʒhæmə(r)]",
+        "gb": "[ˈsleʤhæmər]"
+      },
+      "translations": {
+        "rus": "кувалда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2568,
+      "word": "slope",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sləʊp]",
+        "br": "[sləʊp]",
+        "gb": "[sləʊp]"
+      },
+      "translations": {
+        "rus": "склон, уклон, наклон, скат",
+        "spa": "la cuesta, la pendiente, la falda, la ladera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We skied down the slope.",
+            "ru": "Мы скатились на лыжах вниз по склону."
+          },
+          {
+            "en": "He stared at the steep slope.",
+            "ru": "Он пристально посмотрел на крутой склон."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2569,
+      "word": "smokestack",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsməʊkstæk]",
+        "br": "[ˈsməʊkstæk]",
+        "gb": "[ˈsməʊkstæk]"
+      },
+      "translations": {
+        "rus": "дымоход, дымовая труба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2570,
+      "word": "snag",
+      "pos": "noun",
+      "transcription": {
+        "us": "[snæɡ]",
+        "br": "[snæɡ]",
+        "gb": "[snæg]"
+      },
+      "translations": {
+        "rus": "разрыв",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2571,
+      "word": "socket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɑːkɪt]",
+        "br": "[ˈsɒkɪt]",
+        "gb": "[ˈsɔkɪt]"
+      },
+      "translations": {
+        "rus": "разъем, паз, розетка",
+        "spa": "el enchufe, la toma de corriente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He pulled the plug out of the socket.",
+            "ru": "Он выдернул вилку из розетки."
+          },
+          {
+            "en": "When the plug is inserted in the socket, the lamp can be lighted.",
+            "ru": "После того как вилка вставлена в розетку, можно включать лампу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2572,
+      "word": "soil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔɪl]",
+        "br": "[sɔɪl]",
+        "gb": "[sɔɪl]"
+      },
+      "translations": {
+        "rus": "почва",
+        "spa": "la tierra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The soil here is very poor.",
+            "ru": "Почва здесь неплодородна."
+          },
+          {
+            "en": "Flowers will not do in this soil.",
+            "ru": "Цветы не будут расти на этой почве."
+          },
+          {
+            "en": "In the summer months the soil dries out quickly.",
+            "ru": "В летние месяцы почва высыхает быстро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2573,
+      "word": "solder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɑːdər]",
+        "br": null,
+        "gb": "[ˈsɔldə]"
+      },
+      "translations": {
+        "rus": "припой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2575,
+      "word": "soldering-iron",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsɑdərɪŋ] [ˈaɪən]"
+      },
+      "translations": {
+        "rus": "паяльник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2576,
+      "word": "spade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪd]",
+        "br": "[speɪd]",
+        "gb": "[speɪd]"
+      },
+      "translations": {
+        "rus": "лопата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2577,
+      "word": "spatula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspætʃələ]",
+        "br": "[ˈspætʃələ]",
+        "gb": "[ˈspætjʊlə]"
+      },
+      "translations": {
+        "rus": "шпатель, лопатка",
+        "spa": "la espátula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2578,
+      "word": "split",
+      "pos": "noun",
+      "transcription": {
+        "us": "[splɪt]",
+        "br": "[splɪt]",
+        "gb": "[splɪt]"
+      },
+      "translations": {
+        "rus": "трещина, разделение, разделенный",
+        "spa": "la división, la ruptura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was a split between us.",
+            "ru": "Между нами произошёл раскол."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2579,
+      "word": "staging",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsteɪdʒɪŋ]",
+        "br": "[ˈsteɪdʒɪŋ]",
+        "gb": "[ˈsteɪʤɪŋ]"
+      },
+      "translations": {
+        "rus": "подмостки, строительные леса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2580,
+      "word": "staircase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsterkeɪs]",
+        "br": "[ˈsteəkeɪs]",
+        "gb": "[ˈstɛəkeɪs]"
+      },
+      "translations": {
+        "rus": "лестница",
+        "spa": "la escalera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How many steps does this staircase have?",
+            "ru": "Сколько ступенек у этой лестницы?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2581,
+      "word": "stairway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsterweɪ]",
+        "br": "[ˈsteəweɪ]",
+        "gb": "[ˈstɛəweɪ]"
+      },
+      "translations": {
+        "rus": "лестница",
+        "spa": "la escalera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2582,
+      "word": "steel",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[stiːl]",
+        "br": "[stiːl]",
+        "gb": "[stiːl]"
+      },
+      "translations": {
+        "rus": "сталь, стальной",
+        "spa": "el acero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Taste cold steel!",
+            "ru": "Отведай холодной стали!"
+          },
+          {
+            "en": "He has a will of steel.",
+            "ru": "У него стальная сила воли."
+          },
+          {
+            "en": "This steel is stainless.",
+            "ru": "Эта сталь - нержавеющая."
+          },
+          {
+            "en": "I have a steel bladder.",
+            "ru": "У меня стальной мочевой пузырь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2583,
+      "word": "stopcock, turncock",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈstɔpkɔk] [ˈtɜːnkɒk]"
+      },
+      "translations": {
+        "rus": "запорный кран",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2584,
+      "word": "storey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːri]",
+        "br": "[ˈstɔːri]",
+        "gb": "[ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I live on the fifth storey.",
+            "es": "Vivo en el quinto piso."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "town"
+      ]
+    },
+    {
+      "id": 2585,
+      "word": "story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːri]",
+        "br": "[ˈstɔːri]",
+        "gb": "[ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "этаж",
+        "spa": "el piso, la planta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "town"
+      ]
+    },
+    {
+      "id": 2586,
+      "word": "stucco",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstʌkəʊ]",
+        "br": "[ˈstʌkəʊ]",
+        "gb": "[ˈstʌkəʊ]"
+      },
+      "translations": {
+        "rus": "штукатурка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2587,
+      "word": "subcontractor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌbˈkɑːntræktər]",
+        "br": "[ˈsʌbkəntræktə(r)]",
+        "gb": "[sʌbkənˈtræktər]"
+      },
+      "translations": {
+        "rus": "субподрядчик, субконтрактор",
+        "spa": "el subcontratista (la subcontratista)"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 2588,
+      "word": "subsoil, undersoil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbsɔɪl], [ˈʌndərsɔɪl]",
+        "br": "[ˈsʌbsɔɪl], [ˈʌndəˌsɔɪl]",
+        "gb": "[ˈsʌbsɔɪl] [ˈʌndəsɔɪl]"
+      },
+      "translations": {
+        "rus": "подпочва",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2589,
+      "word": "sunblind",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnblaɪnd]",
+        "br": "[ˈsʌnblaɪnd]",
+        "gb": "[ˈsʌnblaɪnd]"
+      },
+      "translations": {
+        "rus": "солнцезащитная штора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2590,
+      "word": "sunshade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnʃeɪd]",
+        "br": "[ˈsʌnʃeɪd]",
+        "gb": "[ˈsʌnʃeɪd]"
+      },
+      "translations": {
+        "rus": "навес, тент, зонтик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2591,
+      "word": "supervision",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsuːpərˈvɪʒn]",
+        "br": "[ˌsuːpəˈvɪʒn]",
+        "gb": "[sjuːpəˈvɪʒən]"
+      },
+      "translations": {
+        "rus": "надзор, наблюдение, контроль",
+        "spa": "la supervisión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2592,
+      "word": "supplier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈplaɪər]",
+        "br": "[səˈplaɪə(r)]",
+        "gb": "[səˈplaɪər]"
+      },
+      "translations": {
+        "rus": "поставщик",
+        "spa": "el proveedor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have suppliers.",
+            "ru": "У нас есть поставщики."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "marketing",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2593,
+      "word": "support",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈpɔːrt]",
+        "br": "[səˈpɔːt]",
+        "gb": "[səˈpɔːt]"
+      },
+      "translations": {
+        "rus": "поддержка, опора, подставка",
+        "spa": "el apoyo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for your support.",
+            "ru": "Спасибо тебе за поддержку."
+          },
+          {
+            "en": "That candidate deserves our support.",
+            "ru": "Этот кандидат заслуживает нашей поддержки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She gave me moral support.",
+            "es": "Ella me dio apoyo moral."
+          },
+          {
+            "en": "Thank you for your support.",
+            "es": "Gracias por tu apoyo."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2594,
+      "word": "surveillance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɜːrˈveɪləns]",
+        "br": "[sɜːˈveɪləns]",
+        "gb": "[sɜːˈveɪləns]"
+      },
+      "translations": {
+        "rus": "наблюдение",
+        "spa": "la vigilancia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is under constant surveillance.",
+            "ru": "Он находится под постоянным наблюдением."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2595,
+      "word": "suspended ceiling",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[səsˈpendɪd] [ˈsiːlɪŋ]"
+      },
+      "translations": {
+        "rus": "натяжной потолок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2596,
+      "word": "syphon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪfn]",
+        "br": "[ˈsaɪfn]",
+        "gb": "[ˈsaɪfən]"
+      },
+      "translations": {
+        "rus": "сифон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2597,
+      "word": "table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪbl]",
+        "br": "[ˈteɪbl]",
+        "gb": "[teɪbl]"
+      },
+      "translations": {
+        "rus": "стол",
+        "spa": "la mesa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a table?",
+            "ru": "У тебя есть стол?"
+          },
+          {
+            "en": "Lay it on the table.",
+            "ru": "Положи его на стол."
+          },
+          {
+            "en": "This is a wooden table.",
+            "ru": "Это деревянный стол."
+          },
+          {
+            "en": "May I set the table?",
+            "ru": "Я могу накрывать на стол?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I set the table?",
+            "es": "¿Pongo la mesa?"
+          },
+          {
+            "en": "Lay it on the table.",
+            "es": "Déjalo encima de la mesa."
+          },
+          {
+            "en": "I have a metal table.",
+            "es": "Tengo una mesa de metal."
+          },
+          {
+            "en": "A table has four legs.",
+            "es": "Una mesa tiene cuatro patas."
+          },
+          {
+            "en": "Get that off my table.",
+            "es": "Quita eso de mi mesa."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2598,
+      "word": "table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪbl]",
+        "br": "[ˈteɪbl]",
+        "gb": "[teɪbl]"
+      },
+      "translations": {
+        "rus": "таблица",
+        "spa": "la tabla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you give me a hand with this table?",
+            "ru": "Можешь помочь мне с этой таблицей?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "math",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2599,
+      "word": "tape-measure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[teɪp] [ˈmeʒər]",
+        "br": "[teɪp] [ˈmeʒə(r)]",
+        "gb": "[teɪp] [ˈmeʒə]"
+      },
+      "translations": {
+        "rus": "рулетка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2600,
+      "word": "tear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ter]",
+        "br": "[teə(r)]",
+        "gb": "[ter]"
+      },
+      "translations": {
+        "rus": "разрыв, дыра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2601,
+      "word": "thickness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθɪknəs]",
+        "br": "[ˈθɪknəs]",
+        "gb": "[ˈθɪknɪs]"
+      },
+      "translations": {
+        "rus": "толщина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2602,
+      "word": "threshold",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθreʃhəʊld]",
+        "br": "[ˈθreʃhəʊld]",
+        "gb": "[ˈθreʃhəʊld]"
+      },
+      "translations": {
+        "rus": "порог",
+        "spa": "el umbral, las puertas, el escalón de entrada"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2603,
+      "word": "tile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taɪl]",
+        "br": "[taɪl]",
+        "gb": "[taɪl]"
+      },
+      "translations": {
+        "rus": "кафельная плитка, черепица, кафель",
+        "spa": "el azulejo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This house has a clay tile roof.",
+            "ru": "У этого дома крыша из керамической черепицы."
+          },
+          {
+            "en": "The tiling was cold under her bare feet.",
+            "ru": "Кафель под её босыми ногами был холодным."
+          },
+          {
+            "en": "The tiles that fell from the roof broke into pieces.",
+            "ru": "Черепица, упавшая с крыши, разбилась вдребезги."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2604,
+      "word": "tilt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɪlt]",
+        "br": "[tɪlt]",
+        "gb": "[tɪlt]"
+      },
+      "translations": {
+        "rus": "наклон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2605,
+      "word": "timber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɪmbər]",
+        "br": "[ˈtɪmbə(r)]",
+        "gb": "[ˈtɪmbə]"
+      },
+      "translations": {
+        "rus": "лесоматериалы",
+        "spa": "la madera, la viga, el madero, la cuaderna"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 534,
+      "word": "to design",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈzaɪn]",
+        "br": "[tə] [dɪˈzaɪn]",
+        "gb": "[tuː] [dɪˈzaɪn]"
+      },
+      "translations": {
+        "rus": "проектировать, разрабатывать, конструировать",
+        "spa": "diseñar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He designed the perfect crime.",
+            "ru": "Он спланировал идеальное преступление."
+          },
+          {
+            "en": "Mayuko designed her own clothes.",
+            "ru": "Маюко сама разработала дизайн своей одежды."
+          },
+          {
+            "en": "Who designed the White House?",
+            "ru": "Кто спроектировал Белый дом?"
+          },
+          {
+            "en": "A vexillographer is someone who designs flags.",
+            "ru": "Вексиллограф — это тот, кто разрабатывает флаги."
+          },
+          {
+            "en": "He designed the car.",
+            "ru": "Он сконструировал автомобиль."
+          },
+          {
+            "en": "The architect designed that building.",
+            "ru": "Архитектор спроектировал это здание."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who designed the White House?",
+            "es": "¿Quién diseñó la Casa Blanca?"
+          },
+          {
+            "en": "Mayuko designed her own clothes.",
+            "es": "Mayuko diseñó su propia ropa."
+          },
+          {
+            "en": "This desk is designed for children.",
+            "es": "Este pupitre está diseñado para niños."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "computer",
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2478,
+      "word": "to hammer",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈhæmər]",
+        "br": "[tə] [ˈhæmə(r)]",
+        "gb": "[tuː] [ˈhæmə]"
+      },
+      "translations": {
+        "rus": "стучать, вбивать молотком",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was hammering at the door.",
+            "ru": "Он громко стучал в дверь."
+          },
+          {
+            "en": "The rain was hammering against the window.",
+            "ru": "Дождь стучал по оконному стеклу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2488,
+      "word": "to implement",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪmplɪment]",
+        "br": "[tu] [ˈɪmplɪment]",
+        "gb": "[tuː] [ˈɪmplɪmənt]"
+      },
+      "translations": {
+        "rus": "осуществлять, выполнять, реализовывать, внедрять",
+        "spa": "implementar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We implemented our models in C++.",
+            "ru": "Мы реализовали наши модели на языке C++."
+          },
+          {
+            "en": "He implemented a new economic plan.",
+            "ru": "Он реализовал новый экономический план."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2541,
+      "word": "to pump",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʌmp]",
+        "br": "[tə] [pʌmp]",
+        "gb": "[tuː] [pʌmp]"
+      },
+      "translations": {
+        "rus": "качать, нагнетать",
+        "spa": "bombear"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I pumped up the tire.",
+            "ru": "Я накачал шину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2559,
+      "word": "to schedule",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈskedʒuːl]",
+        "br": "[tə] [ˈʃedjuːl]",
+        "gb": "[tuː] [ˈʃedjuːl]"
+      },
+      "translations": {
+        "rus": "планировать, вносить в расписание",
+        "spa": "programar, fijar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've scheduled a concert next week.",
+            "ru": "На следующей неделе я запланировала сходить на концерт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 2574,
+      "word": "to solder",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsɑːdər]",
+        "br": null,
+        "gb": "[tuː] [ˈsɔldə]"
+      },
+      "translations": {
+        "rus": "паять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 1243,
+      "word": "to support",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [səˈpɔːrt]",
+        "br": "[tə] [səˈpɔːt]",
+        "gb": "[tuː] [səˈpɔːt]"
+      },
+      "translations": {
+        "rus": "поддерживать, способствовать, болеть за",
+        "spa": "apoyar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did he support her idea?",
+            "ru": "Он поддержал её идею?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did he support her idea?",
+            "es": "¿Acaso él apoyaba su idea?"
+          },
+          {
+            "en": "No one supported his motion.",
+            "es": "Nadie apoyó su proposición."
+          },
+          {
+            "en": "We expected him to support us.",
+            "es": "Esperábamos que él nos apoyara."
+          },
+          {
+            "en": "I support the proposal.",
+            "es": "Apoyo la propuesta."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "construction",
+        "home",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2369,
+      "word": "tool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːl]",
+        "br": "[tuːl]",
+        "gb": "[tuːl]"
+      },
+      "translations": {
+        "rus": "инструмент, орудие, средство",
+        "spa": "la herramienta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Money is a pure tool - nothing more.",
+            "ru": "Деньги - это просто средство, и больше ничего."
+          },
+          {
+            "en": "I can't use this tool.",
+            "ru": "Я не могу использовать этот инструмент."
+          },
+          {
+            "en": "This tool is handy for various jobs.",
+            "ru": "Этот инструмент удобен для выполнения различных работ."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2606,
+      "word": "transmission line",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trænzˈmɪʃn] [laɪn]",
+        "br": "[trænzˈmɪʃn] [laɪn]",
+        "gb": "[trænzˈmɪʃn] [laɪn]"
+      },
+      "translations": {
+        "rus": "линия передачи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2607,
+      "word": "trench",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trentʃ]",
+        "br": "[trentʃ]",
+        "gb": "[trenʧ]"
+      },
+      "translations": {
+        "rus": "траншея, канава, котлован",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2608,
+      "word": "trowel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtraʊəl]",
+        "br": "[ˈtraʊəl]",
+        "gb": "[ˈtraʊəl]"
+      },
+      "translations": {
+        "rus": "мастерок, кельма",
+        "spa": "la pala de jardinería"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 1674,
+      "word": "truck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trʌk]",
+        "br": "[trʌk]",
+        "gb": "[trʌk]"
+      },
+      "translations": {
+        "rus": "грузовик",
+        "spa": "el camión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My new truck drives well.",
+            "ru": "Мой новый грузовик легко управляется."
+          },
+          {
+            "en": "The dog rode in the back of the truck.",
+            "ru": "Собака ехала в кузове грузовика."
+          },
+          {
+            "en": "The truck laboured up the hill.",
+            "ru": "Грузовик с трудом взбирался вверх по склону."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "oxford3000_a2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 2609,
+      "word": "tunnel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʌnl]",
+        "br": "[ˈtʌnl]",
+        "gb": "[tʌnl]"
+      },
+      "translations": {
+        "rus": "туннель, туннельный",
+        "spa": "el túnel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tunnel led deep under the mountains.",
+            "ru": "Туннель шёл глубоко под горами."
+          },
+          {
+            "en": "The stairs descended into the tunnel.",
+            "ru": "Лестница спускалась в туннель."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 2610,
+      "word": "turn",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɜːrn]",
+        "br": "[tɜːn]",
+        "gb": "[tɜːn]"
+      },
+      "translations": {
+        "rus": "поворот, очередь, черёд",
+        "spa": "la vuelta, la vez, el turno, el giro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Whose turn is it next?",
+            "ru": "Чья очередь дальше?"
+          },
+          {
+            "en": "I made a wrong turn.",
+            "ru": "Я сделал неправильный поворот."
+          },
+          {
+            "en": "I'll do that when my turn comes.",
+            "ru": "Я сделаю это, когда придёт мой черёд."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2611,
+      "word": "twist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[twɪst]",
+        "br": "[twɪst]",
+        "gb": "[twɪst]"
+      },
+      "translations": {
+        "rus": "поворот, скручивание, вращение",
+        "spa": "el giro, la torsión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2612,
+      "word": "valve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vælv]",
+        "br": "[vælv]",
+        "gb": "[vælv]"
+      },
+      "translations": {
+        "rus": "клапан",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 450,
+      "word": "veranda",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈrændə]",
+        "br": "[vəˈrændə]",
+        "gb": "[vəˈrændə]"
+      },
+      "translations": {
+        "rus": "веранда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 2613,
+      "word": "vertical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvɜːrtɪkl]",
+        "br": "[ˈvɜːtɪkl]",
+        "gb": "[ˈvɜːtɪkəl]"
+      },
+      "translations": {
+        "rus": "вертикальный",
+        "spa": "vertical"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a vertical line.",
+            "ru": "Это вертикальная линия."
+          },
+          {
+            "en": "He drew some vertical lines on the paper.",
+            "ru": "Он нарисовал на бумаге несколько вертикальных линий."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2614,
+      "word": "vestibule",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvestɪbjuːl]",
+        "br": "[ˈvestɪbjuːl]",
+        "gb": "[ˈvestɪbjuːl]"
+      },
+      "translations": {
+        "rus": "прихожая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2615,
+      "word": "walkway",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːkweɪ]",
+        "br": "[ˈwɔːkweɪ]",
+        "gb": "[ˈwɔːkweɪ]"
+      },
+      "translations": {
+        "rus": "аллея, дорожка, тротуар",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2616,
+      "word": "wallpaper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːlpeɪpər]",
+        "br": "[ˈwɔːlpeɪpə(r)]",
+        "gb": "[ˈwɔːlpeɪpə]"
+      },
+      "translations": {
+        "rus": "обои",
+        "spa": "el papel pintado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "home"
+      ]
+    },
+    {
+      "id": 2617,
+      "word": "welding",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈweldɪŋ]"
+      },
+      "translations": {
+        "rus": "сварка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    },
+    {
+      "id": 2618,
+      "word": "wood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wʊd]",
+        "br": "[wʊd]",
+        "gb": "[wʊd]"
+      },
+      "translations": {
+        "rus": "древесина",
+        "spa": "la madera, el bosque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her house was made of wood.",
+            "ru": "Её дом был деревянным."
+          },
+          {
+            "en": "Pine is a soft wood.",
+            "ru": "У сосны мягкая древесина."
+          },
+          {
+            "en": "Wood makes good furniture.",
+            "ru": "Из древесины получается хорошая мебель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Wood is flammable.",
+            "es": "La madera es inflamable."
+          },
+          {
+            "en": "He lives alone in the woods.",
+            "es": "Él vive solo en el bosque."
+          },
+          {
+            "en": "Wood burns easily.",
+            "es": "La madera se quema fácilmente."
+          },
+          {
+            "en": "We lost our way in the woods.",
+            "es": "Nos perdimos en el bosque."
+          },
+          {
+            "en": "Wood floats, but iron sinks.",
+            "es": "La madera flota, pero el hierro se hunde."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2619,
+      "word": "workbench",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɜːrkbentʃ]",
+        "br": "[ˈwɜːkbentʃ]",
+        "gb": "[ˈwɜːkbenʧ]"
+      },
+      "translations": {
+        "rus": "верстак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction"
+      ]
+    }
+  ]
+}

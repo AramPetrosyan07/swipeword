@@ -1,0 +1,418 @@
+{
+  "total_words": 10366,
+  "categories": [
+    {
+      "id": "top100",
+      "name_rus": "NGSL 1-100",
+      "type": "level",
+      "word_count": 133,
+      "file": "top100.json"
+    },
+    {
+      "id": "top3000",
+      "name_rus": "NGSL 1001-3000",
+      "type": "level",
+      "word_count": 2171,
+      "file": "top3000.json"
+    },
+    {
+      "id": "top1000",
+      "name_rus": "NGSL 101-1000",
+      "type": "level",
+      "word_count": 1205,
+      "file": "top1000.json"
+    },
+    {
+      "id": "oxford3000_a1",
+      "name_rus": "Oxford 3000 - A1",
+      "type": "level",
+      "word_count": 983,
+      "file": "oxford3000_a1.json"
+    },
+    {
+      "id": "oxford3000_a2",
+      "name_rus": "Oxford 3000 - A2",
+      "type": "level",
+      "word_count": 921,
+      "file": "oxford3000_a2.json"
+    },
+    {
+      "id": "oxford3000_b1",
+      "name_rus": "Oxford 3000 - B1",
+      "type": "level",
+      "word_count": 874,
+      "file": "oxford3000_b1.json"
+    },
+    {
+      "id": "oxford3000_b2",
+      "name_rus": "Oxford 3000 - B2",
+      "type": "level",
+      "word_count": 823,
+      "file": "oxford3000_b2.json"
+    },
+    {
+      "id": "oxford5000_b2",
+      "name_rus": "Oxford 5000 - B2",
+      "type": "level",
+      "word_count": 743,
+      "file": "oxford5000_b2.json"
+    },
+    {
+      "id": "oxford5000_c1",
+      "name_rus": "Oxford 5000 - C1",
+      "type": "level",
+      "word_count": 1420,
+      "file": "oxford5000_c1.json"
+    },
+    {
+      "id": "anatomy",
+      "name_rus": "Анатомия",
+      "type": "topic",
+      "word_count": 131,
+      "file": "anatomy.json"
+    },
+    {
+      "id": "archaeology",
+      "name_rus": "Археология",
+      "type": "topic",
+      "word_count": 75,
+      "file": "archaeology.json"
+    },
+    {
+      "id": "architecture",
+      "name_rus": "Архитектура",
+      "type": "topic",
+      "word_count": 74,
+      "file": "architecture.json"
+    },
+    {
+      "id": "basic_verbs",
+      "name_rus": "Базовые глаголы",
+      "type": "topic",
+      "word_count": 564,
+      "file": "basic_verbs.json"
+    },
+    {
+      "id": "business",
+      "name_rus": "Бизнес",
+      "type": "topic",
+      "word_count": 424,
+      "file": "business.json"
+    },
+    {
+      "id": "appearance",
+      "name_rus": "Внешность",
+      "type": "topic",
+      "word_count": 123,
+      "file": "appearance.json"
+    },
+    {
+      "id": "military_weapons",
+      "name_rus": "Военное дело, оружие",
+      "type": "topic",
+      "word_count": 124,
+      "file": "military_weapons.json"
+    },
+    {
+      "id": "time_seasons",
+      "name_rus": "Времена года",
+      "type": "topic",
+      "word_count": 5,
+      "file": "time_seasons.json"
+    },
+    {
+      "id": "time",
+      "name_rus": "Время",
+      "type": "topic",
+      "word_count": 34,
+      "file": "time.json"
+    },
+    {
+      "id": "geography",
+      "name_rus": "География",
+      "type": "topic",
+      "word_count": 66,
+      "file": "geography.json"
+    },
+    {
+      "id": "town",
+      "name_rus": "Город",
+      "type": "topic",
+      "word_count": 188,
+      "file": "town.json"
+    },
+    {
+      "id": "money",
+      "name_rus": "Деньги",
+      "type": "topic",
+      "word_count": 77,
+      "file": "money.json"
+    },
+    {
+      "id": "time_days_of_week",
+      "name_rus": "Дни недели",
+      "type": "topic",
+      "word_count": 7,
+      "file": "time_days_of_week.json"
+    },
+    {
+      "id": "home",
+      "name_rus": "Дом, вещи",
+      "type": "topic",
+      "word_count": 453,
+      "file": "home.json"
+    },
+    {
+      "id": "food",
+      "name_rus": "Еда",
+      "type": "topic",
+      "word_count": 377,
+      "file": "food.json"
+    },
+    {
+      "id": "animals",
+      "name_rus": "Животные",
+      "type": "topic",
+      "word_count": 80,
+      "file": "animals.json"
+    },
+    {
+      "id": "health",
+      "name_rus": "Здоровье",
+      "type": "topic",
+      "word_count": 374,
+      "file": "health.json"
+    },
+    {
+      "id": "signs_of_zodiac",
+      "name_rus": "Знаки зодиака",
+      "type": "topic",
+      "word_count": 14,
+      "file": "signs_of_zodiac.json"
+    },
+    {
+      "id": "idioms",
+      "name_rus": "Идиомы",
+      "type": "topic",
+      "word_count": 428,
+      "file": "idioms.json"
+    },
+    {
+      "id": "art",
+      "name_rus": "Искусство",
+      "type": "topic",
+      "word_count": 316,
+      "file": "art.json"
+    },
+    {
+      "id": "career",
+      "name_rus": "Карьера",
+      "type": "topic",
+      "word_count": 195,
+      "file": "career.json"
+    },
+    {
+      "id": "movie",
+      "name_rus": "Кино",
+      "type": "topic",
+      "word_count": 86,
+      "file": "movie.json"
+    },
+    {
+      "id": "computer",
+      "name_rus": "Компьютер",
+      "type": "topic",
+      "word_count": 108,
+      "file": "computer.json"
+    },
+    {
+      "id": "space",
+      "name_rus": "Космос",
+      "type": "topic",
+      "word_count": 67,
+      "file": "space.json"
+    },
+    {
+      "id": "literature",
+      "name_rus": "Литература",
+      "type": "topic",
+      "word_count": 93,
+      "file": "literature.json"
+    },
+    {
+      "id": "marketing",
+      "name_rus": "Маркетинг",
+      "type": "topic",
+      "word_count": 135,
+      "file": "marketing.json"
+    },
+    {
+      "id": "math",
+      "name_rus": "Математика",
+      "type": "topic",
+      "word_count": 111,
+      "file": "math.json"
+    },
+    {
+      "id": "furniture",
+      "name_rus": "Мебель",
+      "type": "topic",
+      "word_count": 52,
+      "file": "furniture.json"
+    },
+    {
+      "id": "time_months",
+      "name_rus": "Месяцы",
+      "type": "topic",
+      "word_count": 12,
+      "file": "time_months.json"
+    },
+    {
+      "id": "music",
+      "name_rus": "Музыка",
+      "type": "topic",
+      "word_count": 87,
+      "file": "music.json"
+    },
+    {
+      "id": "irregular_verbs",
+      "name_rus": "Неправильные глаголы",
+      "type": "topic",
+      "word_count": 265,
+      "file": "irregular_verbs.json"
+    },
+    {
+      "id": "clothing",
+      "name_rus": "Одежда",
+      "type": "topic",
+      "word_count": 183,
+      "file": "clothing.json"
+    },
+    {
+      "id": "politics",
+      "name_rus": "Политика",
+      "type": "topic",
+      "word_count": 55,
+      "file": "politics.json"
+    },
+    {
+      "id": "psychology",
+      "name_rus": "Психология",
+      "type": "topic",
+      "word_count": 87,
+      "file": "psychology.json"
+    },
+    {
+      "id": "travel",
+      "name_rus": "Путешествия",
+      "type": "topic",
+      "word_count": 236,
+      "file": "travel.json"
+    },
+    {
+      "id": "family",
+      "name_rus": "Семья",
+      "type": "topic",
+      "word_count": 98,
+      "file": "family.json"
+    },
+    {
+      "id": "mass_media",
+      "name_rus": "СМИ",
+      "type": "topic",
+      "word_count": 60,
+      "file": "mass_media.json"
+    },
+    {
+      "id": "sport",
+      "name_rus": "Спорт",
+      "type": "topic",
+      "word_count": 116,
+      "file": "sport.json"
+    },
+    {
+      "id": "construction",
+      "name_rus": "Строительство",
+      "type": "topic",
+      "word_count": 280,
+      "file": "construction.json"
+    },
+    {
+      "id": "transport",
+      "name_rus": "Транспорт",
+      "type": "topic",
+      "word_count": 186,
+      "file": "transport.json"
+    },
+    {
+      "id": "photography",
+      "name_rus": "Фотография",
+      "type": "topic",
+      "word_count": 26,
+      "file": "photography.json"
+    },
+    {
+      "id": "phrasal_verbs",
+      "name_rus": "Фразовые глаголы",
+      "type": "topic",
+      "word_count": 216,
+      "file": "phrasal_verbs.json"
+    },
+    {
+      "id": "character",
+      "name_rus": "Характер",
+      "type": "topic",
+      "word_count": 222,
+      "file": "character.json"
+    },
+    {
+      "id": "hobby",
+      "name_rus": "Хобби",
+      "type": "topic",
+      "word_count": 120,
+      "file": "hobby.json"
+    },
+    {
+      "id": "colors",
+      "name_rus": "Цвета",
+      "type": "topic",
+      "word_count": 45,
+      "file": "colors.json"
+    },
+    {
+      "id": "numbers",
+      "name_rus": "Числительные (колич.)",
+      "type": "topic",
+      "word_count": 44,
+      "file": "numbers.json"
+    },
+    {
+      "id": "numbers_ordinals",
+      "name_rus": "Числительные (порядк.)",
+      "type": "topic",
+      "word_count": 29,
+      "file": "numbers_ordinals.json"
+    },
+    {
+      "id": "ecology",
+      "name_rus": "Экология",
+      "type": "topic",
+      "word_count": 172,
+      "file": "ecology.json"
+    },
+    {
+      "id": "economy",
+      "name_rus": "Экономика",
+      "type": "topic",
+      "word_count": 194,
+      "file": "economy.json"
+    },
+    {
+      "id": "legal_english",
+      "name_rus": "Юриспруденция",
+      "type": "topic",
+      "word_count": 382,
+      "file": "legal_english.json"
+    }
+  ]
+}

@@ -1,0 +1,4586 @@
+{
+  "category": {
+    "id": "marketing",
+    "name_rus": "Маркетинг",
+    "type": "topic",
+    "word_count": 135
+  },
+  "words": [
+    {
+      "id": 5289,
+      "word": "ad",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æd]",
+        "br": "[æd]",
+        "gb": "[æd]"
+      },
+      "translations": {
+        "rus": "реклама, объявление",
+        "spa": "el anuncio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's an interesting ad.",
+            "ru": "Это интересная реклама."
+          },
+          {
+            "en": "Your ad could be here.",
+            "ru": "Здесь могла бы быть ваша реклама."
+          },
+          {
+            "en": "Click here to skip this ad.",
+            "ru": "Нажми сюда, чтобы пропустить эту рекламу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5290,
+      "word": "advertisement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌædvərˈtaɪzmənt]",
+        "br": "[ədˈvɜːtɪsmənt]",
+        "gb": "[ədˈvɜːtɪsmənt]"
+      },
+      "translations": {
+        "rus": "реклама, объявление",
+        "spa": "el anuncio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The street was full of advertisements.",
+            "ru": "Улица была полна рекламы."
+          },
+          {
+            "en": "Advertisements urge us to buy luxuries.",
+            "ru": "Реклама побуждает нас покупать излишества."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5291,
+      "word": "advertising",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈædvərtaɪzɪŋ]",
+        "br": "[ˈædvətaɪzɪŋ]",
+        "gb": "[ˈædvətaɪzɪŋ]"
+      },
+      "translations": {
+        "rus": "реклама (деятельность)",
+        "spa": "la publicidad, la propaganda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is in advertising.",
+            "ru": "Он работает в рекламном бизнесе."
+          },
+          {
+            "en": "Advertising that tries to be different.",
+            "ru": "Реклама, которая пытается быть непохожей на другие."
+          },
+          {
+            "en": "The whole idea of advertising is to make people buy things.",
+            "ru": "Основное назначение рекламы - заставить людей покупать вещи."
+          },
+          {
+            "en": "Advertising aimed at 18-25 year olds.",
+            "ru": "Реклама, нацеленная на 18-25-летних."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1312,
+      "word": "after-sales service",
+      "pos": "preposition",
+      "transcription": {
+        "us": "[ˈæftər] [seɪlz] [ˈsɜːrvɪs]",
+        "br": "[ˈɑːftə(r)] [seɪlz] [ˈsɜːvɪs]",
+        "gb": "[ˈɑːftə] [seɪlz] [ˈsɜːvɪs]"
+      },
+      "translations": {
+        "rus": "послепродажное обслуживание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5292,
+      "word": "analysis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈnæləsɪs]",
+        "br": "[əˈnæləsɪs]",
+        "gb": "[əˈnæləsɪs]"
+      },
+      "translations": {
+        "rus": "анализ, исследование, разбор, проба",
+        "spa": "el análisis"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Blood samples were sent for analysis.",
+            "ru": "Образцы крови были направлены на анализ."
+          },
+          {
+            "en": "A scientific analysis of the data.",
+            "ru": "Научный анализ данных."
+          },
+          {
+            "en": "He has been in analysis for many years.",
+            "ru": "Он занимается анализом много лет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Your analysis is correct.",
+            "es": "Tu análisis es correcto."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1705,
+      "word": "analyst",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈænəlɪst]",
+        "br": "[ˈænəlɪst]",
+        "gb": "[ˈænəlɪst]"
+      },
+      "translations": {
+        "rus": "аналитик",
+        "spa": "el analista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tom is a financial analyst.",
+            "ru": "Том - финансовый аналитик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2783,
+      "word": "audit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːdɪt]",
+        "br": "[ˈɔːdɪt]",
+        "gb": "[ˈɔːdɪt]"
+      },
+      "translations": {
+        "rus": "аудит, ревизия, проверка",
+        "spa": "la auditoría, la inspección"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5293,
+      "word": "awareness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈwernəs]",
+        "br": "[əˈweənəs]",
+        "gb": "[əˈweənəs]"
+      },
+      "translations": {
+        "rus": "осведомленность, осознание",
+        "spa": "la conciencia"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1882,
+      "word": "behavior",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behavior annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behavior was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behavior of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behavior strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behavior was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behavior.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behavior toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behavior was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behavior.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behavior was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behavior.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behavior.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behavior.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1883,
+      "word": "behaviour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behaviour annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behaviour was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behaviour of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behaviour strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behaviour was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behaviour.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behaviour toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behaviour was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behaviour.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behaviour was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behaviour.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behaviour.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behaviour.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5295,
+      "word": "blind product test",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blaɪnd] [ˈprɑːdʌkt] [test]",
+        "br": "[blaɪnd] [ˈprɒdʌkt] [test]",
+        "gb": "[blaɪnd] [ˈprɔdʌkt] [test]"
+      },
+      "translations": {
+        "rus": "слепой тест",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5296,
+      "word": "brand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brænd]",
+        "br": "[brænd]",
+        "gb": "[brænd]"
+      },
+      "translations": {
+        "rus": "торговая марка, бренд",
+        "spa": "la marca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That is my favorite brand.",
+            "ru": "Это мой любимый бренд."
+          },
+          {
+            "en": "Which brand do you prefer?",
+            "ru": "Какой бренд вы предпочитаете?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I love that brand.",
+            "es": "Adoro esa marca."
+          },
+          {
+            "en": "Which brand do you prefer?",
+            "es": "¿Qué marca prefieres?"
+          },
+          {
+            "en": "That is my favorite brand.",
+            "es": "Esa es mi marca favorita."
+          },
+          {
+            "en": "What brand of cigarettes do you smoke?",
+            "es": "¿Qué marca de cigarrillos fuma usted?"
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5297,
+      "word": "cartel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːrˈtel]",
+        "br": "[kɑːˈtel]",
+        "gb": "[kɑːˈtel]"
+      },
+      "translations": {
+        "rus": "картель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1377,
+      "word": "certificate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sərˈtɪfɪkət]",
+        "br": "[səˈtɪfɪkət]",
+        "gb": "[səˈtɪfɪkɪt]"
+      },
+      "translations": {
+        "rus": "сертификат",
+        "spa": "el certificado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "legal_english",
+        "marketing",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2105,
+      "word": "chain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃeɪn]",
+        "br": "[tʃeɪn]",
+        "gb": "[ʧeɪn]"
+      },
+      "translations": {
+        "rus": "цепь, цепной",
+        "spa": "la cadena"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A chain is made up of many links.",
+            "ru": "Цепь состоит из множества звеньев."
+          },
+          {
+            "en": "It started a chain reaction.",
+            "ru": "Это вызвало цепную реакцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5298,
+      "word": "cluster analysis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklʌstər] [əˈnæləsɪs]",
+        "br": "[ˈklʌstə(r)] [əˈnæləsɪs]",
+        "gb": "[ˈklʌstə] [əˈnæləsɪs]"
+      },
+      "translations": {
+        "rus": "кластерный анализ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5299,
+      "word": "company",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌmpəni]",
+        "br": "[ˈkʌmpəni]",
+        "gb": "[ˈkʌmpənɪ]"
+      },
+      "translations": {
+        "rus": "компания, фирма",
+        "spa": "la compañía, la empresa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I work at this company.",
+            "ru": "Я работаю в этой компании."
+          },
+          {
+            "en": "Two's company, but three's a crowd.",
+            "ru": "Двое — компания, трое — толпа."
+          },
+          {
+            "en": "It's a disgrace to our company.",
+            "ru": "Это позор для нашей фирмы."
+          },
+          {
+            "en": "Our company needs people like you.",
+            "ru": "Нашей фирме нужны такие люди, как вы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I work at this company.",
+            "es": "Yo trabajo en esta empresa."
+          },
+          {
+            "en": "I need a little company.",
+            "es": "Necesito una pequeña compañía."
+          },
+          {
+            "en": "Charge this to my company.",
+            "es": "Esto va a cuenta de la empresa."
+          },
+          {
+            "en": "Come and keep me company.",
+            "es": "Ven a hacerme compañía."
+          },
+          {
+            "en": "He set up a company recently.",
+            "es": "Él ha fundado una empresa recientemente."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2798,
+      "word": "competition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːmpəˈtɪʃn]",
+        "br": "[ˌkɒmpəˈtɪʃn]",
+        "gb": "[kɔmpɪˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "конкуренция, соревнование, конкурс",
+        "spa": "el concurso, la competencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a competition.",
+            "ru": "Это было состязание."
+          },
+          {
+            "en": "I missed the competition.",
+            "ru": "Я пропустил соревнования."
+          },
+          {
+            "en": "We're not afraid of competition.",
+            "ru": "Мы не боимся конкуренции."
+          },
+          {
+            "en": "Competition drives down prices.",
+            "ru": "Конкуренция снижает цены."
+          },
+          {
+            "en": "He won many competitions.",
+            "ru": "Он выиграл много соревнований."
+          },
+          {
+            "en": "He was disqualified from the competition.",
+            "ru": "Он был дисквалифицирован во время соревнования."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The competition is fierce.",
+            "es": "La competencia es ardua."
+          },
+          {
+            "en": "You won many competitions.",
+            "es": "Has ganado muchas competencias."
+          },
+          {
+            "en": "There's a lot of competition in business.",
+            "es": "Hay mucha competencia en el comercio."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2799,
+      "word": "competitive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpetətɪv]",
+        "br": "[kəmˈpetətɪv]",
+        "gb": "[kəmˈpetɪtɪv]"
+      },
+      "translations": {
+        "rus": "конкурентоспособный, конкурентный, соперничающий",
+        "spa": "competitivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "With this price, your product would not be competitive in the Japanese market.",
+            "ru": "С такой ценой ваш продукт не будет конкурентоспособным на японском рынке."
+          },
+          {
+            "en": "She is overly competitive.",
+            "ru": "Она слишком склонна к соперничеству."
+          },
+          {
+            "en": "What is the company's competitive advantage?",
+            "ru": "В чем конкурентные преимущества компании?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "If your prices are competitive, we will place a large order.",
+            "es": "Si sus precios son competitivos, haremos un pedido mayor."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5300,
+      "word": "competitive advantage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpetətɪv] [ədˈvæntɪdʒ]",
+        "br": "[kəmˈpetətɪv] [ədˈvɑːntɪdʒ]",
+        "gb": "[kəmˈpetɪtɪv] [ədˈvɑːntɪʤ]"
+      },
+      "translations": {
+        "rus": "конкурентное преимущество",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5301,
+      "word": "competitiveness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpetətɪvnəs]",
+        "br": "[kəmˈpetətɪvnəs]",
+        "gb": "[kəmˈpetətɪvnɪs]"
+      },
+      "translations": {
+        "rus": "конкурентоспособность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 2800,
+      "word": "competitor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpetɪtər]",
+        "br": "[kəmˈpetɪtə(r)]",
+        "gb": "[kəmˈpetɪtə]"
+      },
+      "translations": {
+        "rus": "конкурент, соперник",
+        "spa": "el competidor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're competitors, not partners.",
+            "ru": "Мы конкуренты, а не партнёры."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1409,
+      "word": "consumer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈsuːmər]",
+        "br": "[kənˈsjuːmə(r)]",
+        "gb": "[kənˈsjuːmə]"
+      },
+      "translations": {
+        "rus": "потребитель",
+        "spa": "el consumidor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Try to be a more rational consumer.",
+            "ru": "Попытайся быть более рациональным потребителем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5302,
+      "word": "convenience goods",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈviːniəns] [ɡʊdz]",
+        "br": "[kənˈviːniəns] [ɡʊdz]",
+        "gb": "[kənˈviːnjəns] [gʊdz]"
+      },
+      "translations": {
+        "rus": "товары повседневного спроса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1413,
+      "word": "convenience store",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈviːniəns] [stɔːr]",
+        "br": "[kənˈviːniəns] [stɔː(r)]",
+        "gb": "[kənˈviːnjəns] [stɔː]"
+      },
+      "translations": {
+        "rus": "небольшой магазин (повседневного спроса), минимаркет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5303,
+      "word": "cost",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːst]",
+        "br": "[kɒst]",
+        "gb": "[kɔst]"
+      },
+      "translations": {
+        "rus": "стоимость",
+        "spa": "el costo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you figured out the cost?",
+            "ru": "Ты подсчитал стоимость?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Cost hasn't been an issue.",
+            "es": "El costo no ha sido ningún problema."
+          },
+          {
+            "en": "The cost of living has gone up.",
+            "es": "El costo de vida ha aumentado."
+          },
+          {
+            "en": "We have to reduce the cost to a minimum.",
+            "es": "Tenemos que reducir el costo a un mínimo."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 5304,
+      "word": "coverage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌvərɪdʒ]",
+        "br": "[ˈkʌvərɪdʒ]",
+        "gb": "[ˈkʌvərɪʤ]"
+      },
+      "translations": {
+        "rus": "охват",
+        "spa": "la cobertura"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "mass_media",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1420,
+      "word": "customer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌstəmər]",
+        "br": "[ˈkʌstəmə(r)]",
+        "gb": "[ˈkʌstəmə]"
+      },
+      "translations": {
+        "rus": "покупатель, клиент",
+        "spa": "el cliente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The customer isn't always right.",
+            "ru": "Покупатель не всегда прав."
+          },
+          {
+            "en": "There were no other customers.",
+            "ru": "Других покупателей не было."
+          },
+          {
+            "en": "She is one of our best customers.",
+            "ru": "Она является одним из наших лучших клиентов."
+          },
+          {
+            "en": "Poor customer service has ruined the company's reputation.",
+            "ru": "Плохое обслуживание клиентов погубило репутацию компании."
+          },
+          {
+            "en": "The customer has a perfect right to ask for the earth.",
+            "ru": "Покупатель имеет полное право требовать всё, что угодно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am only a customer.",
+            "es": "No soy más que un cliente."
+          },
+          {
+            "en": "The customer is always right.",
+            "es": "El cliente siempre tiene razón."
+          },
+          {
+            "en": "That shop has many customers.",
+            "es": "Esa tienda tiene muchos clientes."
+          },
+          {
+            "en": "There are few customers today.",
+            "es": "Hoy hay pocos clientes."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1433,
+      "word": "delivery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈlɪvəri]",
+        "br": "[dɪˈlɪvəri]",
+        "gb": "[dɪˈlɪvərɪ]"
+      },
+      "translations": {
+        "rus": "доставка, поставка",
+        "spa": "la entrega"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you charge for delivery?",
+            "ru": "У вас доставка платная?"
+          },
+          {
+            "en": "Who made the delivery?",
+            "ru": "Кто осуществил доставку?"
+          },
+          {
+            "en": "The last delivery was damaged.",
+            "ru": "Последняя партия была повреждена."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1434,
+      "word": "demand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈmænd]",
+        "br": "[dɪˈmɑːnd]",
+        "gb": "[dɪˈmɑːnd]"
+      },
+      "translations": {
+        "rus": "спрос, требование",
+        "spa": "la demanda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His books are in high demand.",
+            "ru": "Его книги пользуются большим спросом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1436,
+      "word": "department store",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpɑːrtmənt] [stɔːr]",
+        "br": "[dɪˈpɑːtmənt] [stɔː(r)]",
+        "gb": "[dɪˈpɑːtmənt] [stɔː]"
+      },
+      "translations": {
+        "rus": "универмаг, универсальный магазин",
+        "spa": "la tienda por departamentos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the nearest department store?",
+            "ru": "Где ближайший универмаг?"
+          },
+          {
+            "en": "There's a sale today in that department store.",
+            "ru": "Сегодня день распродажи в том универмаге."
+          },
+          {
+            "en": "I like to shop at that department store.",
+            "ru": "Мне нравится делать покупки в этом универмаге."
+          },
+          {
+            "en": "My mother went to the department store to do some shopping.",
+            "ru": "Моя мама пошла в универмаг за покупками."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 1440,
+      "word": "development",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈveləpmənt]",
+        "br": "[dɪˈveləpmənt]",
+        "gb": "[dɪˈveləpmənt]"
+      },
+      "translations": {
+        "rus": "разработка, развитие, создание",
+        "spa": "el desarrollo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What are the latest developments?",
+            "ru": "Каковы последние разработки?"
+          },
+          {
+            "en": "The design and development of new products.",
+            "ru": "Проектирование и разработка новой продукции."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Economic development proceeded slowly.",
+            "es": "El desarrollo económico avanzó lentamente."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5305,
+      "word": "direct",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[daɪˈrekt], [dəˈrekt]",
+        "br": "[daɪˈrekt], [dəˈrekt]",
+        "gb": "[dɪˈrekt]"
+      },
+      "translations": {
+        "rus": "прямой, непосредственный",
+        "spa": "directo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That way is more direct.",
+            "ru": "Этот путь более прямой."
+          },
+          {
+            "en": "I'm not in direct contact with them.",
+            "ru": "Я не контактирую с ними напрямую."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll be direct.",
+            "es": "Seré directo."
+          },
+          {
+            "en": "Is it a direct flight?",
+            "es": "¿Es un vuelo directo?"
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1444,
+      "word": "discount",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪskaʊnt]",
+        "br": "[ˈdɪskaʊnt]",
+        "gb": "[ˈdɪskaʊnt]"
+      },
+      "translations": {
+        "rus": "скидка",
+        "spa": "el descuento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wanted a bigger discount.",
+            "ru": "Я хотел скидку побольше."
+          },
+          {
+            "en": "Is there a student discount?",
+            "ru": "Для студентов есть скидка?"
+          },
+          {
+            "en": "I bought this book at a discount.",
+            "ru": "Я купил эту книгу со скидкой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you give me a discount?",
+            "es": "¿Me puede hacer un descuento?"
+          },
+          {
+            "en": "Is there a student discount?",
+            "es": "¿Hay descuento por ser estudiante?"
+          },
+          {
+            "en": "I bought the car at a 10% discount.",
+            "es": "Compré el coche con una rebaja del 10%."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5306,
+      "word": "distribution",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdɪstrɪˈbjuːʃn]",
+        "br": "[ˌdɪstrɪˈbjuːʃn]",
+        "gb": "[dɪstrɪˈbjuːʃn]"
+      },
+      "translations": {
+        "rus": "распределение, дистрибуция, сбыт, распространение",
+        "spa": "la distribución"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was responsible for product distribution.",
+            "ru": "Она отвечала за распространение продукции."
+          },
+          {
+            "en": "He was taken in at the distribution of the profits.",
+            "ru": "При распределении прибыли ему выделили долю."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 5307,
+      "word": "distributor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈstrɪbjətər]",
+        "br": "[dɪˈstrɪbjətə(r)]",
+        "gb": "[dɪsˈtrɪbjʊtə]"
+      },
+      "translations": {
+        "rus": "дистрибьютор, агент по продаже",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 2815,
+      "word": "domestic market",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dəˈmestɪk] [ˈmɑːrkɪt]",
+        "br": "[dəˈmestɪk] [ˈmɑːkɪt]",
+        "gb": "[dəʊˈmestɪk] [ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "внутренний рынок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5308,
+      "word": "domestic sales",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dəˈmestɪk] [seɪlz]",
+        "br": "[dəˈmestɪk] [seɪlz]",
+        "gb": "[dəʊˈmestɪk] [seɪlz]"
+      },
+      "translations": {
+        "rus": "продажи на внутреннем рынке",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1451,
+      "word": "dumping",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌmpɪŋ]",
+        "br": "[ˈdʌmpɪŋ]",
+        "gb": "[ˈdʌmpɪŋ]"
+      },
+      "translations": {
+        "rus": "демпинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "ecology",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5309,
+      "word": "economy brand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈkɑːnəmi] [brænd]",
+        "br": "[ɪˈkɒnəmi] [brænd]",
+        "gb": "[iːˈkɔnəmɪ] [brænd]"
+      },
+      "translations": {
+        "rus": "экономичный бренд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5310,
+      "word": "elastic demand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlæstɪk] [dɪˈmænd]",
+        "br": "[ɪˈlæstɪk] [dɪˈmɑːnd]",
+        "gb": "[ɪˈlæstɪk] [dɪˈmɑːnd]"
+      },
+      "translations": {
+        "rus": "эластичный спрос",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5311,
+      "word": "elasticity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌiːlæˈstɪsəti]",
+        "br": "[ˌiːlæˈstɪsəti]",
+        "gb": "[elæsˈtɪsɪtɪ]"
+      },
+      "translations": {
+        "rus": "эластичность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5312,
+      "word": "empirical research",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈpɪrɪkl] [ˈriːsɜːrtʃ]",
+        "br": "[ɪmˈpɪrɪkl] [ˈriːsɜːtʃ]",
+        "gb": "[emˈpɪrɪkəl] [rɪˈsɜːʧ]"
+      },
+      "translations": {
+        "rus": "эмпирические исследования",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5313,
+      "word": "end-user",
+      "pos": "noun",
+      "transcription": {
+        "us": "[end] [ˈjuːzər]",
+        "br": "[end] [ˈjuːzə(r)]",
+        "gb": "[end] [ˈjuːzə]"
+      },
+      "translations": {
+        "rus": "конечный пользователь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1459,
+      "word": "evaluation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˌvæljuˈeɪʃn]",
+        "br": "[ɪˌvæljuˈeɪʃn]",
+        "gb": "[ɪvæljʊˈeɪʃn]"
+      },
+      "translations": {
+        "rus": "оценивание, проведение оценки",
+        "spa": "la evaluación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5314,
+      "word": "excess",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈses]",
+        "br": "[ɪkˈses]",
+        "gb": "[ɪkˈses]"
+      },
+      "translations": {
+        "rus": "избыток, излишек, превышение",
+        "spa": "el exceso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 400,
+      "word": "exhibition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeksɪˈbɪʃn]",
+        "br": "[ˌeksɪˈbɪʃn]",
+        "gb": "[eksɪˈbɪʃn]"
+      },
+      "translations": {
+        "rus": "выставка, показ",
+        "spa": "la exposición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The exhibition is now open.",
+            "ru": "Выставка уже открыта."
+          },
+          {
+            "en": "Did you enjoy the exhibition?",
+            "ru": "Тебе понравилась выставка?"
+          },
+          {
+            "en": "We hold an exhibition every year.",
+            "ru": "Мы организуем выставку каждый год."
+          },
+          {
+            "en": "The exhibition was very impressive.",
+            "ru": "Выставка была очень впечатляющей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you enjoy the exhibition?",
+            "es": "¿Te ha gustado la exposición?"
+          },
+          {
+            "en": "The exhibition is already open.",
+            "es": "La exposición ya está abierta."
+          },
+          {
+            "en": "You ought to have seen the exhibition.",
+            "es": "Deberías haber visto la exposición."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "art",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5315,
+      "word": "exhibition stand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeksɪˈbɪʃn] [stænd]",
+        "br": "[ˌeksɪˈbɪʃn] [stænd]",
+        "gb": "[eksɪˈbɪʃn] [stænd]"
+      },
+      "translations": {
+        "rus": "выставочный стенд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 401,
+      "word": "expansion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspænʃn]",
+        "br": "[ɪkˈspænʃn]",
+        "gb": "[ɪksˈpænʃn]"
+      },
+      "translations": {
+        "rus": "расширение",
+        "spa": "la expansión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5316,
+      "word": "flagship brand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflæɡʃɪp] [brænd]",
+        "br": "[ˈflæɡʃɪp] [brænd]",
+        "gb": "[ˈflægʃɪp] [brænd]"
+      },
+      "translations": {
+        "rus": "ведущий бренд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5317,
+      "word": "forecast",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrkæst]",
+        "br": "[ˈfɔːkɑːst]",
+        "gb": "[ˈfɔːkɑːst]"
+      },
+      "translations": {
+        "rus": "прогноз, предсказание",
+        "spa": "el pronóstico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the forecast for tomorrow?",
+            "ru": "Какой прогноз на завтра?"
+          },
+          {
+            "en": "Now it's time for the weather forecast.",
+            "ru": "Настало время прогноза погоды."
+          },
+          {
+            "en": "Weather forecasts are rarely accurate.",
+            "ru": "Прогнозы погоды редко бывают точными."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1475,
+      "word": "franchise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfræntʃaɪz]",
+        "br": "[ˈfræntʃaɪz]",
+        "gb": "[ˈfrænʧaɪz]"
+      },
+      "translations": {
+        "rus": "франшиза",
+        "spa": "la franquicia, la licencia"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5318,
+      "word": "franchisee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌfræntʃaɪˈziː]",
+        "br": "[ˌfræntʃaɪˈziː]",
+        "gb": "[ˈfrænʧaɪzɪ]"
+      },
+      "translations": {
+        "rus": "франчайзи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5319,
+      "word": "franchiser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfræntʃaɪzər]",
+        "br": "[ˈfræntʃaɪzə(r)]",
+        "gb": "[ˈfrænʧaɪzər]"
+      },
+      "translations": {
+        "rus": "франчайзер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5320,
+      "word": "franchising",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfræntʃaɪzɪŋ]",
+        "br": "[ˈfræntʃaɪzɪŋ]",
+        "gb": "[ˈfrænʧaɪzɪn]"
+      },
+      "translations": {
+        "rus": "франчайзинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5321,
+      "word": "free sample",
+      "pos": "noun",
+      "transcription": {
+        "us": "[friː] [ˈsæmpl]",
+        "br": "[friː] [ˈsɑːmpl]",
+        "gb": "[friː] [sɑːmpl]"
+      },
+      "translations": {
+        "rus": "бесплатный образец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5322,
+      "word": "frequency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfriːkwənsi]",
+        "br": "[ˈfriːkwənsi]",
+        "gb": "[ˈfriːkwənsɪ]"
+      },
+      "translations": {
+        "rus": "частота",
+        "spa": "la frecuencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Dogs can hear sounds at much higher frequencies than humans.",
+            "ru": "Собаки могут слышать звуки на гораздо более высоких частотах, чем люди."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5323,
+      "word": "goal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəʊl]",
+        "br": "[ɡəʊl]",
+        "gb": "[gəʊl]"
+      },
+      "translations": {
+        "rus": "цель, гол, ворота",
+        "spa": "el gol, la meta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She finally realized her goal.",
+            "ru": "Она наконец осуществила свою цель."
+          },
+          {
+            "en": "Their goal is out of reach.",
+            "ru": "Их цель находится вне досягаемости."
+          },
+          {
+            "en": "We all share a common goal.",
+            "ru": "У всех нас — общая цель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My goal is to be happy.",
+            "es": "Mi meta es ser feliz."
+          },
+          {
+            "en": "The match ended with no goal.",
+            "es": "El partido terminó sin goles."
+          },
+          {
+            "en": "We need a goal in life.",
+            "es": "En nuestra vida necesitamos una meta."
+          },
+          {
+            "en": "The crowd yelled when he scored a goal.",
+            "es": "La multitud chilló cuando él marcó un gol."
+          },
+          {
+            "en": "Jack has no goals in life.",
+            "es": "Jack no tiene ninguna meta en la vida."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1493,
+      "word": "guarantee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɡærənˈtiː]",
+        "br": "[ˌɡærənˈtiː]",
+        "gb": "[gærənˈtiː]"
+      },
+      "translations": {
+        "rus": "гарантия",
+        "spa": "la garantía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here is our guarantee.",
+            "ru": "Вот наша гарантия."
+          },
+          {
+            "en": "There are no guarantees in life.",
+            "ru": "В этой жизни нет гарантий."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There are no guarantees in life.",
+            "es": "No hay garantías en esta vida."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5324,
+      "word": "habit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhæbɪt]",
+        "br": "[ˈhæbɪt]",
+        "gb": "[ˈhæbɪt]"
+      },
+      "translations": {
+        "rus": "привычка",
+        "spa": "la costumbre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Great is the power of habit.",
+            "ru": "Велика сила привычки."
+          },
+          {
+            "en": "Smoking is a bad habit.",
+            "ru": "Курить - плохая привычка."
+          },
+          {
+            "en": "Don't make it a habit.",
+            "ru": "Не превращай это в привычку."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He acquired the habit of snacking.",
+            "es": "Él tomó la costumbre de comer poco."
+          },
+          {
+            "en": "He is in the habit of eating only two meals a day.",
+            "es": "Él tiene la costumbre de comer sólo dos veces al día."
+          },
+          {
+            "en": "He has a habit of scratching his back and biting his nails.",
+            "es": "Él tiene la costumbre de rascarse la espalda y comerse las uñas."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5325,
+      "word": "identity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪˈdentəti]",
+        "br": "[aɪˈdentəti]",
+        "gb": "[aɪˈdentɪtɪ]"
+      },
+      "translations": {
+        "rus": "идентичность, личность",
+        "spa": "la identidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His identity must be kept secret.",
+            "ru": "Его личность должна оставаться тайной."
+          },
+          {
+            "en": "The killer's identity is still unknown.",
+            "ru": "Личность убийцы до сих пор неизвестна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I've discovered the victim's identity.",
+            "es": "Descubrí la identidad de la víctima."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5326,
+      "word": "image",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪmɪdʒ]",
+        "br": "[ˈɪmɪdʒ]",
+        "gb": "[ˈɪmɪʤ]"
+      },
+      "translations": {
+        "rus": "образ, изображение, имидж, рисунок",
+        "spa": "la imagen"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Look at this image.",
+            "ru": "Посмотрите на это изображение."
+          },
+          {
+            "en": "I'd like to change my image.",
+            "ru": "Я хочу сменить имидж."
+          },
+          {
+            "en": "Can we enhance the image?",
+            "ru": "Можем ли мы улучшить изображение?"
+          },
+          {
+            "en": "Try to enlarge the image.",
+            "ru": "Попробуй увеличить изображение."
+          },
+          {
+            "en": "Rotate your screen to see other images.",
+            "ru": "Поверни экран, чтобы увидеть другие рисунки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can we enhance the image?",
+            "es": "¿Podemos aumentar la imagen?"
+          },
+          {
+            "en": "The image does not match reality.",
+            "es": "La imagen no se asemeja a la realidad."
+          },
+          {
+            "en": "An image is worth a thousand words.",
+            "es": "Una imagen vale más que mil palabras."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2831,
+      "word": "incentive",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈsentɪv]",
+        "br": "[ɪnˈsentɪv]",
+        "gb": "[ɪnˈsentɪv]"
+      },
+      "translations": {
+        "rus": "стимул, побуждение, побудительный",
+        "spa": "el incentivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Incentives must be introduced.",
+            "ru": "Надо создать стимулы."
+          },
+          {
+            "en": "Incentives always help.",
+            "ru": "Стимулы всегда помогают."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2832,
+      "word": "intermediary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪntərˈmiːdieri]",
+        "br": "[ˌɪntəˈmiːdiəri]",
+        "gb": "[ɪntəˈmiːdjərɪ]"
+      },
+      "translations": {
+        "rus": "посредник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5327,
+      "word": "introductory offer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪntrəˈdʌktəri] [ˈɔːfər]",
+        "br": "[ˌɪntrəˈdʌktəri] [ˈɒfə(r)]",
+        "gb": "[ɪntrəˈdʌktərɪ] [ˈɔfə]"
+      },
+      "translations": {
+        "rus": "вводное предложение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5328,
+      "word": "label",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɪbl]",
+        "br": "[ˈleɪbl]",
+        "gb": "[leɪbl]"
+      },
+      "translations": {
+        "rus": "ярлык, бирка, этикетка",
+        "spa": "la etiqueta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What does the label say?",
+            "ru": "Что написано на этикетке?"
+          },
+          {
+            "en": "I usually read labels carefully.",
+            "ru": "Я обычно внимательно читаю этикетки."
+          },
+          {
+            "en": "Please stick this label to your baggage.",
+            "ru": "Пожалуйста, наклейте эту этикетку на ваш багаж."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Read what's on the label.",
+            "es": "Lea usted lo que dice la etiqueta."
+          },
+          {
+            "en": "I usually read labels carefully.",
+            "es": "Normalmente leo las etiquetas con cuidado."
+          },
+          {
+            "en": "The label is stuck on the box.",
+            "es": "La etiqueta está pegada en la caja."
+          },
+          {
+            "en": "The contents of the box are listed on the label.",
+            "es": "El contenido de la caja está indicado en la etiqueta."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5331,
+      "word": "life cycle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪf] [ˈsaɪkl]",
+        "br": "[laɪf] [ˈsaɪkl]",
+        "gb": "[laɪf] [saɪkl]"
+      },
+      "translations": {
+        "rus": "жизненный цикл",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1540,
+      "word": "loss",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːs]",
+        "br": "[lɒs]",
+        "gb": "[lɔs]"
+      },
+      "translations": {
+        "rus": "убыток, потеря, утрата",
+        "spa": "la pérdida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The loss amounted to 100 dollars.",
+            "ru": "Убыток составил сто долларов."
+          },
+          {
+            "en": "I was at a loss for words.",
+            "ru": "Я потерял дар речи."
+          },
+          {
+            "en": "I'm selling my car at a loss.",
+            "ru": "Я продаю свой автомобиль себе в убыток."
+          },
+          {
+            "en": "This is a huge loss.",
+            "ru": "Это огромная потеря."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a great loss.",
+            "es": "Fue una gran pérdida."
+          },
+          {
+            "en": "Their loss is our gain.",
+            "es": "Su pérdida supone nuestra ganancia."
+          },
+          {
+            "en": "I'm sorry about your loss.",
+            "es": "Siento tu pérdida."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5332,
+      "word": "loyalty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɔɪəlti]",
+        "br": "[ˈlɔɪəlti]",
+        "gb": "[ˈlɔɪəltɪ]"
+      },
+      "translations": {
+        "rus": "верность, лояльность, преданность",
+        "spa": "la lealtad, la fidelidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You can't buy that kind of loyalty.",
+            "ru": "Такую преданность не купишь."
+          },
+          {
+            "en": "I question your loyalty.",
+            "ru": "Я сомневаюсь в твоей преданности."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1546,
+      "word": "market",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈmɑːrkɪt]",
+        "br": "[ˈmɑːkɪt]",
+        "gb": "[ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "рынок, рыночный",
+        "spa": "el mercado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "John goes to the market.",
+            "ru": "Джон идёт на рынок."
+          },
+          {
+            "en": "I didn't go to the market.",
+            "ru": "Я не пошёл на рынок."
+          },
+          {
+            "en": "We have a 20% share of the market.",
+            "ru": "Мы держим 20% рынка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "John goes to the market.",
+            "es": "John va al mercado."
+          },
+          {
+            "en": "The market opens at 9:00 a.m.",
+            "es": "El mercado abre a las 9:00 a.m."
+          },
+          {
+            "en": "China is an emerging market.",
+            "es": "China es un mercado emergente."
+          },
+          {
+            "en": "She goes to market every day.",
+            "es": "Ella va al mercado cada día."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1547,
+      "word": "marketing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːrkɪtɪŋ]",
+        "br": "[ˈmɑːkɪtɪŋ]",
+        "gb": "[ˈmɑːkɪtɪŋ]"
+      },
+      "translations": {
+        "rus": "маркетинг, сбыт",
+        "spa": "el marketing, el mercadeo, la mercadotecnia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't know anything about marketing.",
+            "ru": "Я ничего не знаю о маркетинге."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5333,
+      "word": "mass-market product",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mæs] [ˈmɑːrkɪt] [ˈprɑːdʌkt]",
+        "br": "[mæs] [ˈmɑːkɪt] [ˈprɒdʌkt]",
+        "gb": "[mæs] [ˈmɑːkɪt] [ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "товар массового спроса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5334,
+      "word": "mission",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪʃn]",
+        "br": "[ˈmɪʃn]",
+        "gb": "[mɪʃn]"
+      },
+      "translations": {
+        "rus": "миссия, задача",
+        "spa": "la misión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's my mission.",
+            "ru": "Такова моя миссия."
+          },
+          {
+            "en": "I led that mission.",
+            "ru": "Я возглавил эту миссию."
+          },
+          {
+            "en": "The mission was simple.",
+            "ru": "Миссия была простой."
+          },
+          {
+            "en": "This is a dangerous mission.",
+            "ru": "Это опасная миссия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I can't talk, I'm on a mission.",
+            "es": "No puedo hablar, estoy en una misión."
+          },
+          {
+            "en": "This mission entails huge risks.",
+            "es": "Esta misión lleva consigo grandes riesgos."
+          },
+          {
+            "en": "He was given an important mission.",
+            "es": "Le confiaron una misión importante."
+          },
+          {
+            "en": "He explained her he was on a mission.",
+            "es": "Le explicó que estaba en una misión."
+          },
+          {
+            "en": "We are entrusting you with a mission.",
+            "es": "Te estamos confiando una misión."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5335,
+      "word": "motivation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌməʊtɪˈveɪʃn]",
+        "br": "[ˌməʊtɪˈveɪʃn]",
+        "gb": "[məʊtɪˈveɪʃn]"
+      },
+      "translations": {
+        "rus": "мотивация",
+        "spa": "la motivación, el motivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I lost my motivation.",
+            "ru": "Я потерял мотивацию."
+          },
+          {
+            "en": "He lacks motivation.",
+            "ru": "Ему не хватает мотивации."
+          },
+          {
+            "en": "Motivation is the key to success.",
+            "ru": "Мотивация - ключ к успеху."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5336,
+      "word": "niche",
+      "pos": "noun",
+      "transcription": {
+        "us": "[niːʃ], [nɪtʃ]",
+        "br": "[niːʃ], [nɪtʃ]",
+        "gb": "[nɪʧ]"
+      },
+      "translations": {
+        "rus": "ниша",
+        "spa": "el nicho, la hornacina, el hueco"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5337,
+      "word": "parallel import",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpærəlel] [ˈɪmpɔːrt]",
+        "br": "[ˈpærəlel] [ˈɪmpɔːt]",
+        "gb": "[ˈpærəlel] [ˈɪmpɔːt]"
+      },
+      "translations": {
+        "rus": "параллельный импорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5338,
+      "word": "perception",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pərˈsepʃn]",
+        "br": "[pəˈsepʃn]",
+        "gb": "[pəˈsepʃn]"
+      },
+      "translations": {
+        "rus": "восприятие, ощущение, понимание, осознание",
+        "spa": "la percepción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Maybe it's a question of perception.",
+            "ru": "Возможно, это вопрос восприятия."
+          },
+          {
+            "en": "Do you believe in extrasensory perception?",
+            "ru": "Вы верите в существование экстрасенсорного восприятия?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 429,
+      "word": "plan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plæn]",
+        "br": "[plæn]",
+        "gb": "[plæn]"
+      },
+      "translations": {
+        "rus": "план",
+        "spa": "el plan"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The plan was a success.",
+            "ru": "План удался."
+          },
+          {
+            "en": "Do you have a plan?",
+            "ru": "У тебя есть план?"
+          },
+          {
+            "en": "I approve of your plan.",
+            "ru": "Я одобряю твой план."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a plan?",
+            "es": "¿Tienes un plan?"
+          },
+          {
+            "en": "We gave up the plan.",
+            "es": "Abandonamos el plan."
+          },
+          {
+            "en": "We just need a plan.",
+            "es": "Solo necesitamos un plan."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5339,
+      "word": "planning",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplænɪŋ]",
+        "br": "[ˈplænɪŋ]",
+        "gb": "[ˈplænɪŋ]"
+      },
+      "translations": {
+        "rus": "планирование",
+        "spa": "la planificación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He works in the planning section.",
+            "ru": "Он работает в отделе планирования."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1588,
+      "word": "policy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːləsi]",
+        "br": "[ˈpɒləsi]",
+        "gb": "[ˈpɔlɪsɪ]"
+      },
+      "translations": {
+        "rus": "политика, страховой полис",
+        "spa": "la política, la póliza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's our policy.",
+            "ru": "Такова наша политика."
+          },
+          {
+            "en": "Honesty is the best policy.",
+            "ru": "Честность - лучшая политика."
+          },
+          {
+            "en": "It's a questionable policy.",
+            "ru": "Это сомнительная политика."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The policies are quite clear.",
+            "es": "Las políticas están bastante claras."
+          },
+          {
+            "en": "His policies were too progressive.",
+            "es": "Sus políticas fueron demasiado agresivas."
+          },
+          {
+            "en": "The employment policy is a failure.",
+            "es": "La política laboral es un fracaso."
+          },
+          {
+            "en": "Has there been any change in policy?",
+            "es": "¿Ha habido algún cambio de política?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5340,
+      "word": "position",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈzɪʃn]",
+        "br": "[pəˈzɪʃn]",
+        "gb": "[pəˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "позиция, должность",
+        "spa": "la posición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take your positions.",
+            "ru": "Займите свою позицию."
+          },
+          {
+            "en": "What position do you hold?",
+            "ru": "Какая у тебя должность?"
+          },
+          {
+            "en": "Put yourself in my position.",
+            "ru": "Поставьте себя на моё место."
+          },
+          {
+            "en": "He explained his position to me.",
+            "ru": "Он объяснил мне свою позицию."
+          },
+          {
+            "en": "He holds a high position at the company.",
+            "ru": "Он занимает в компании высокую должность."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I share his political position.",
+            "es": "Comparto su posición política."
+          },
+          {
+            "en": "All the players were in position.",
+            "es": "Todos los jugadores estaban en su posición."
+          },
+          {
+            "en": "His position enabled him to do so.",
+            "es": "Su posición le permitía hacer eso."
+          },
+          {
+            "en": "He did not make his position clear.",
+            "es": "No dejó clara su posición."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5341,
+      "word": "positioning",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈzɪʃənɪŋ]",
+        "br": "[pəˈzɪʃənɪŋ]",
+        "gb": "[pəˈzɪʃnɪŋ]"
+      },
+      "translations": {
+        "rus": "позиционирование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5342,
+      "word": "potential",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[pəˈtenʃl]",
+        "br": "[pəˈtenʃl]",
+        "gb": "[pəˈtɛnʃl]"
+      },
+      "translations": {
+        "rus": "потенциал, возможность, потенциальный, возможный",
+        "spa": "potencial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The potential is obvious.",
+            "ru": "Потенциал очевиден."
+          },
+          {
+            "en": "He is full of potential.",
+            "ru": "У него большой потенциал."
+          },
+          {
+            "en": "All children are potential geniuses.",
+            "ru": "Все дети — потенциальные гении."
+          }
+        ],
+        "spa": [
+          {
+            "en": "All children are potential geniuses.",
+            "es": "Todos los niños son genios en potencia."
+          },
+          {
+            "en": "You have so much potential.",
+            "es": "Tienes tanto potencial."
+          },
+          {
+            "en": "Everyone believes in their own potential.",
+            "es": "Todos creen en su propio potencial."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5343,
+      "word": "preference",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprefrəns]",
+        "br": "[ˈprefrəns]",
+        "gb": "[ˈprefərəns]"
+      },
+      "translations": {
+        "rus": "предпочтение",
+        "spa": "la preferencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's a matter of personal preference.",
+            "ru": "Это вопрос личных предпочтений."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5344,
+      "word": "price-sensitive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[praɪs] [ˈsensətɪv]",
+        "br": "[praɪs] [ˈsensətɪv]",
+        "gb": "[praɪs] [ˈsensɪtɪv]"
+      },
+      "translations": {
+        "rus": "чувствительный к цене",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 2861,
+      "word": "producer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈduːsər]",
+        "br": "[prəˈdjuːsə(r)]",
+        "gb": "[prəˈdjuːsə]"
+      },
+      "translations": {
+        "rus": "производитель, продюсер",
+        "spa": "el productor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Japan's largest producer of microchips.",
+            "ru": "Крупнейший в Японии производитель микрочипов."
+          },
+          {
+            "en": "I'm a music producer.",
+            "ru": "Я музыкальный продюсер."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1597,
+      "word": "product",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːdʌkt]",
+        "br": "[ˈprɒdʌkt]",
+        "gb": "[ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "продукт, изделие, произведение, результат, плоды",
+        "spa": "el producto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How did you hear about our product?",
+            "ru": "Как вы узнали о нашем продукте?"
+          },
+          {
+            "en": "The product of six and three is eighteen.",
+            "ru": "Произведение шести на три равно восемнадцати."
+          },
+          {
+            "en": "Our product will stand the test of time.",
+            "ru": "Наш продукт выдержит испытание временем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It is a brand new product.",
+            "es": "Es un flamante nuevo producto."
+          },
+          {
+            "en": "I really hate dairy products.",
+            "es": "Yo realmente odio los productos lácteos."
+          },
+          {
+            "en": "This product is made in Italy.",
+            "es": "Este producto es fabricado en Italia."
+          },
+          {
+            "en": "Did you register your product?",
+            "es": "¿Registraste tu producto?"
+          },
+          {
+            "en": "They no longer sell the product.",
+            "es": "Ellas ya no venden el producto."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 687,
+      "word": "profile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprəʊfaɪl]",
+        "br": "[ˈprəʊfaɪl]",
+        "gb": "[ˈprəʊfaɪl]"
+      },
+      "translations": {
+        "rus": "профиль, очертание, контур, рисовать в профиль",
+        "spa": "el perfil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I changed my profile picture.",
+            "ru": "Я поменял фотографию в моём профиле."
+          },
+          {
+            "en": "How often do you edit your profile?",
+            "ru": "Как часто вы редактируете свой профиль?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2863,
+      "word": "profit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːfɪt]",
+        "br": "[ˈprɒfɪt]",
+        "gb": "[ˈprɔfɪt]"
+      },
+      "translations": {
+        "rus": "прибыль, выгода",
+        "spa": "la ganancia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's split the profits.",
+            "ru": "Давайте разделим прибыль."
+          },
+          {
+            "en": "He claimed his share of the profits.",
+            "ru": "Он требовал себе часть дохода."
+          },
+          {
+            "en": "You made a profit.",
+            "ru": "Ты получил выгоду."
+          },
+          {
+            "en": "They netted a good profit.",
+            "ru": "Они получили хорошую прибыль."
+          },
+          {
+            "en": "My profits were just on paper.",
+            "ru": "Мои доходы существовали только на бумаге."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Profit is better than fame.",
+            "es": "Las ganancias son mejores que la fama."
+          },
+          {
+            "en": "The profits were very high.",
+            "es": "Las ganancias fueron muy altas."
+          },
+          {
+            "en": "We shared the profit among us all.",
+            "es": "Compartimos la ganancia entre todos nosotros."
+          },
+          {
+            "en": "We'll divide the profits among all of us.",
+            "es": "Repartiremos las ganancias entre todos."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5345,
+      "word": "proposition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌprɑːpəˈzɪʃn]",
+        "br": "[ˌprɒpəˈzɪʃn]",
+        "gb": "[prɔpəˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "предложение, утверждение, заявление",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am in favor of the proposition.",
+            "ru": "Я за это предложение."
+          },
+          {
+            "en": "It's an indecent proposition.",
+            "ru": "Это неприличное предложение."
+          },
+          {
+            "en": "I have a business proposition for you.",
+            "ru": "У меня к вам деловое предложение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5346,
+      "word": "quality",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈkwɑːləti]",
+        "br": "[ˈkwɒləti]",
+        "gb": "[ˈkwɔlɪtɪ]"
+      },
+      "translations": {
+        "rus": "качество, качественный",
+        "spa": "la calidad, la cualidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Quality is our watchword.",
+            "ru": "Наш девиз — качество."
+          },
+          {
+            "en": "He had a quality education.",
+            "ru": "У него было хорошее образование."
+          },
+          {
+            "en": "That was a quality job you did.",
+            "ru": "Вы выполнили работу качественно."
+          },
+          {
+            "en": "The house has many fine qualities.",
+            "ru": "У этого дома много прекрасных качеств."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This article is high quality.",
+            "es": "Este artículo es de una calidad superior."
+          },
+          {
+            "en": "The two qualities are mutually exclusive.",
+            "es": "Las dos cualidades son mutuamente exclusivas."
+          },
+          {
+            "en": "I prefer quality to quantity.",
+            "es": "Prefiero calidad a cantidad."
+          },
+          {
+            "en": "If you want quality, pay for it.",
+            "es": "Si quieres calidad, paga por ella."
+          },
+          {
+            "en": "These things are good quality.",
+            "es": "Estos artículos son de buena calidad."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5347,
+      "word": "random sample",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrændəm] [ˈsæmpl]",
+        "br": "[ˈrændəm] [ˈsɑːmpl]",
+        "gb": "[ˈrændəm] [sɑːmpl]"
+      },
+      "translations": {
+        "rus": "случайный образец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5348,
+      "word": "reference price",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrefrəns] [praɪs]",
+        "br": "[ˈrefrəns] [praɪs]",
+        "gb": "[ˈrefrəns] [praɪs]"
+      },
+      "translations": {
+        "rus": "номинальная цена",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5349,
+      "word": "reference value",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrefrəns] [ˈvæljuː]",
+        "br": "[ˈrefrəns] [ˈvæljuː]",
+        "gb": "[ˈrefrəns] [ˈvæljuː]"
+      },
+      "translations": {
+        "rus": "номинальное значение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5163,
+      "word": "registered",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌredʒɪstərd]",
+        "br": "[ˌredʒɪstəd]",
+        "gb": "[ˈreʤɪstəd]"
+      },
+      "translations": {
+        "rus": "зарегистрированный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "legal_english",
+        "marketing"
+      ]
+    },
+    {
+      "id": 5350,
+      "word": "reputation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌrepjuˈteɪʃn]",
+        "br": "[ˌrepjuˈteɪʃn]",
+        "gb": "[repjuːˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "репутация",
+        "spa": "la reputación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have a good reputation.",
+            "ru": "У вас хорошая репутация."
+          },
+          {
+            "en": "My reputation is at stake.",
+            "ru": "Моя репутация под угрозой."
+          },
+          {
+            "en": "He got a bad reputation.",
+            "ru": "Он снискал дурную репутацию."
+          },
+          {
+            "en": "The gossip hurt his reputation.",
+            "ru": "Слухи навредили его репутации."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Many scientists have the reputation of being eccentric.",
+            "es": "Muchos científicos tienen la reputación de ser excéntricos."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 366,
+      "word": "research",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːsɜːrtʃ]",
+        "br": "[ˈriːsɜːtʃ]",
+        "gb": "[rɪˈsɜːʧ]"
+      },
+      "translations": {
+        "rus": "исследование",
+        "spa": "la investigación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know about that research.",
+            "ru": "Я знаю об этом исследовании."
+          },
+          {
+            "en": "He is absorbed in his research.",
+            "ru": "Он поглощён своим исследованием."
+          },
+          {
+            "en": "How's your research going?",
+            "ru": "Как продвигается твоё исследование?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He dedicates himself to research.",
+            "es": "Él se dedica a la investigación."
+          },
+          {
+            "en": "This is the outcome of our research.",
+            "es": "Esto es el resultado de nuestra investigación."
+          },
+          {
+            "en": "The theory is based on thorough research.",
+            "es": "La teoría se basa en investigación exhaustiva."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "business",
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1619,
+      "word": "retail",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈriːteɪl]",
+        "br": "[ˈriːteɪl]",
+        "gb": "[ˈriːteɪl]"
+      },
+      "translations": {
+        "rus": "розничный, розничная продажа",
+        "spa": "la venta al por menor, vender al por menor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the retail price of eggs?",
+            "ru": "Какова розничная цена яиц?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5351,
+      "word": "retail margin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːteɪl] [ˈmɑːrdʒɪn]",
+        "br": "[ˈriːteɪl] [ˈmɑːdʒɪn]",
+        "gb": "[ˈriːteɪl] [ˈmɑːʤɪn]"
+      },
+      "translations": {
+        "rus": "розничная наценка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5352,
+      "word": "retailer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːteɪlər]",
+        "br": "[ˈriːteɪlə(r)]",
+        "gb": "[riːˈteɪlə]"
+      },
+      "translations": {
+        "rus": "ретейлер, розничный торговец",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The retailer will take off his selling price.",
+            "ru": "Розничный продавец снизит цену."
+          },
+          {
+            "en": "The retailer resells the goods at a higher price.",
+            "ru": "Розничный торговец перепродаёт товары по более высокой цене."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1627,
+      "word": "sales",
+      "pos": "noun",
+      "transcription": {
+        "us": "[seɪlz]",
+        "br": "[seɪlz]",
+        "gb": "[seɪlz]"
+      },
+      "translations": {
+        "rus": "продажи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 1629,
+      "word": "satisfaction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsætɪsˈfækʃn]",
+        "br": "[ˌsætɪsˈfækʃn]",
+        "gb": "[sætɪsˈfækʃn]"
+      },
+      "translations": {
+        "rus": "удовлетворение",
+        "spa": "la satisfacción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It gave me a feeling of satisfaction.",
+            "ru": "Это принесло мне чувство удовлетворения."
+          },
+          {
+            "en": "The satisfaction of a job well done.",
+            "ru": "Удовлетворение от хорошо проделанной работы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5353,
+      "word": "segmentation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌseɡmenˈteɪʃn]",
+        "br": "[ˌseɡmenˈteɪʃn]",
+        "gb": "[segmənˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "сегментация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1633,
+      "word": "service",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈsɜːrvɪs]",
+        "br": "[ˈsɜːvɪs]",
+        "gb": "[ˈsɜːvɪs]"
+      },
+      "translations": {
+        "rus": "обслуживание, услуги, служба, служебный",
+        "spa": "el servicio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The service was very bad.",
+            "ru": "Обслуживание было очень плохим."
+          },
+          {
+            "en": "I had my military service in Ankara.",
+            "ru": "Я проходил военную службу в Анкаре."
+          },
+          {
+            "en": "Room service. May I help you?",
+            "ru": "Обслуживание в номерах. Чем могу помочь?"
+          },
+          {
+            "en": "This service is temporarily out of order.",
+            "ru": "Эта услуга временно недоступна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm at your service, sir.",
+            "es": "A su servicio, señor."
+          },
+          {
+            "en": "The service was very bad.",
+            "es": "El servicio fue muy malo."
+          },
+          {
+            "en": "Room service. May I help you?",
+            "es": "Servicio de habitaciones. ¿Puedo ayudarle?"
+          },
+          {
+            "en": "You're doing us a great service.",
+            "es": "Nos prestas un gran servicio."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1637,
+      "word": "share",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃer]",
+        "br": "[ʃeə(r)]",
+        "gb": "[ʃɛə]"
+      },
+      "translations": {
+        "rus": "доля, часть, акция",
+        "spa": "la cuota, la acción, la participación, la parte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He gypped me out of my share.",
+            "ru": "Он украл у меня мою долю."
+          },
+          {
+            "en": "They offered 40 cents a share.",
+            "ru": "Они предложили 40 центов за акцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1640,
+      "word": "shopping centre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːpɪŋ] [ˈsentər]",
+        "br": "[ˈʃɒpɪŋ] [ˈsentə(r)]",
+        "gb": "[ˈʃɔpɪŋ] [ˈsentə]"
+      },
+      "translations": {
+        "rus": "торговый центр",
+        "spa": "el centro comercial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 1641,
+      "word": "shopping mall",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːpɪŋ] [mɔːl]",
+        "br": "[ˈʃɒpɪŋ] [mɔːl]",
+        "gb": "[ˈʃɔpɪŋ] [mɔːl]"
+      },
+      "translations": {
+        "rus": "торговый центр",
+        "spa": "el centro comercial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "town"
+      ]
+    },
+    {
+      "id": 2205,
+      "word": "size",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪz]",
+        "br": "[saɪz]",
+        "gb": "[saɪz]"
+      },
+      "translations": {
+        "rus": "размер",
+        "spa": "el tamaño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you know your size?",
+            "ru": "Вы знаете Ваш размер?"
+          },
+          {
+            "en": "They're all the same size.",
+            "ru": "Они все одного размера."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They're all the same size.",
+            "es": "Todas tienen el mismo tamaño."
+          },
+          {
+            "en": "These hats are the same size.",
+            "es": "Estos sombreros son del mismo tamaño."
+          },
+          {
+            "en": "The price depends on the size.",
+            "es": "El precio depende del tamaño."
+          },
+          {
+            "en": "Look at the size of that thing!",
+            "es": "¡Mirá el tamaño de esa cosa!"
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5354,
+      "word": "specialist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspeʃəlɪst]",
+        "br": "[ˈspeʃəlɪst]",
+        "gb": "[ˈspeʃəlɪst]"
+      },
+      "translations": {
+        "rus": "специалист",
+        "spa": "el especialista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What did the specialist say?",
+            "ru": "Что сказал специалист?"
+          },
+          {
+            "en": "However, I am not a specialist.",
+            "ru": "Впрочем, я не специалист."
+          },
+          {
+            "en": "Two specialists are quite enough.",
+            "ru": "Двух специалистов вполне достаточно."
+          },
+          {
+            "en": "You should talk to a specialist.",
+            "ru": "Тебе следует поговорить со специалистом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5355,
+      "word": "sponsor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspɑːnsər]",
+        "br": "[ˈspɒnsə(r)]",
+        "gb": "[ˈspɔnsə]"
+      },
+      "translations": {
+        "rus": "спонсор",
+        "spa": "el patrocinador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "And now a word from our sponsor.",
+            "ru": "А теперь слово от нашего спонсора."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5357,
+      "word": "strategy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstrætədʒi]",
+        "br": "[ˈstrætədʒi]",
+        "gb": "[ˈstrætɪʤɪ]"
+      },
+      "translations": {
+        "rus": "стратегия",
+        "spa": "la estrategia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's their strategy.",
+            "ru": "Такова их стратегия."
+          },
+          {
+            "en": "That was my strategy.",
+            "ru": "Это была моя стратегия."
+          },
+          {
+            "en": "Hope is not a strategy.",
+            "ru": "Надежда - это не стратегия."
+          },
+          {
+            "en": "We need a new strategy.",
+            "ru": "Нам нужна новая стратегия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Hope is not a strategy.",
+            "es": "La esperanza no es una estrategia."
+          },
+          {
+            "en": "We need a new strategy.",
+            "es": "Necesitamos una nueva estrategia."
+          },
+          {
+            "en": "That strategy obviously didn't work.",
+            "es": "La estrategia obviamente no funcionó."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5358,
+      "word": "substitute product",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbstɪtuːt] [ˈprɑːdʌkt]",
+        "br": "[ˈsʌbstɪtjuːt] [ˈprɒdʌkt]",
+        "gb": "[ˈsʌbstɪtjuːt] [ˈprɒdʌkt]"
+      },
+      "translations": {
+        "rus": "товар-заменитель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 2592,
+      "word": "supplier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈplaɪər]",
+        "br": "[səˈplaɪə(r)]",
+        "gb": "[səˈplaɪər]"
+      },
+      "translations": {
+        "rus": "поставщик",
+        "spa": "el proveedor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have suppliers.",
+            "ru": "У нас есть поставщики."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "marketing",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1655,
+      "word": "supply",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈplaɪ]",
+        "br": "[səˈplaɪ]",
+        "gb": "[səˈplaɪ]"
+      },
+      "translations": {
+        "rus": "поставка, снабжение, предложение",
+        "spa": "el suministro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The government is planning to improve the supply of drinkable water.",
+            "ru": "Правительство планирует улучшить снабжение питьевой водой."
+          },
+          {
+            "en": "Supplies cannot keep up with the demand.",
+            "ru": "Поставки не могут идти в ногу со спросом."
+          },
+          {
+            "en": "They monopolized the supply of raw materials and set sky-high prices.",
+            "ru": "Они монополизировали поставки сырья и установили заоблачные цены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5281,
+      "word": "survey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrveɪ]",
+        "br": "[ˈsɜːveɪ]",
+        "gb": "[ˈsɜːveɪ]"
+      },
+      "translations": {
+        "rus": "опрос, обзор, исследование",
+        "spa": "la encuesta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He participated in an online survey.",
+            "ru": "Он принял участие в онлайн-опросе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5359,
+      "word": "test",
+      "pos": "noun",
+      "transcription": {
+        "us": "[test]",
+        "br": "[test]",
+        "gb": "[test]"
+      },
+      "translations": {
+        "rus": "тест, испытание",
+        "spa": "el examen, la prueba"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did I fail the test?",
+            "ru": "Я провалила тест?"
+          },
+          {
+            "en": "How difficult was the test?",
+            "ru": "Насколько сложным был тест?"
+          },
+          {
+            "en": "He was put to test.",
+            "ru": "Его подвергли испытанию."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a test today, too.",
+            "es": "Yo también tengo prueba hoy."
+          },
+          {
+            "en": "What kind of test is that?",
+            "es": "¿Qué clase de prueba es ésa?"
+          },
+          {
+            "en": "We have a test tomorrow.",
+            "es": "Mañana tenemos un examen."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5294,
+      "word": "to be out of stock",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bi] [aʊt] [əv] [stɑːk]",
+        "br": "[tə] [bi] [aʊt] [əv] [stɒk]",
+        "gb": "[tuː] [biː] [aʊt] [ɔv] [stɔk]"
+      },
+      "translations": {
+        "rus": "не быть в наличии",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 875,
+      "word": "to cost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kɔːst]",
+        "br": "[tə] [kɒst]",
+        "gb": "[tuː] [kɔst]"
+      },
+      "translations": {
+        "rus": "стоить",
+        "spa": "costar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tea costs two euros.",
+            "ru": "Чай стоит два евро."
+          },
+          {
+            "en": "That cost him his job.",
+            "ru": "Это стоило ему работы."
+          },
+          {
+            "en": "How much will it cost?",
+            "ru": "Сколько это будет стоить?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This hat cost me $10.",
+            "es": "Este sombrero costó diez dólares."
+          },
+          {
+            "en": "It cost me a fortune.",
+            "es": "Me costó un dineral."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1445,
+      "word": "to discount",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈdɪskaʊnt]",
+        "br": "[tə] [ˈdɪskaʊnt]",
+        "gb": "[tuː] [dɪsˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "делать скидку",
+        "spa": "rebajar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Can the price be discounted?",
+            "es": "¿Admite el precio rebaja?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5329,
+      "word": "to label",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈleɪbl]",
+        "br": "[tə] [ˈleɪbl]",
+        "gb": "[tuː] [leɪbl]"
+      },
+      "translations": {
+        "rus": "метить, помечать",
+        "spa": "etiquetar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5330,
+      "word": "to launch a product",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lɔːntʃ] [ə] [ˈprɑːdʌkt]",
+        "br": "[tə] [lɔːntʃ] [ə] [ˈprɒdʌkt]",
+        "gb": "[tuː] [lɔːnʧ] [ə] [ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "начинать выпуск продукции",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 1108,
+      "word": "to perceive",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pərˈsiːv]",
+        "br": "[tə] [pəˈsiːv]",
+        "gb": "[tuː] [pəˈsiːv]"
+      },
+      "translations": {
+        "rus": "воспринимать, видеть, чувствовать, ощущать",
+        "spa": "percibir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Cats are not able to perceive colour.",
+            "ru": "Кошки не способны различать цвета."
+          },
+          {
+            "en": "I thought I perceived a problem, but I wasn't sure.",
+            "ru": "Я думал, что осознал проблему, но не был в этом уверен."
+          },
+          {
+            "en": "I perceived that it was going to be a nice day.",
+            "ru": "Я понял, что это будет хороший день."
+          },
+          {
+            "en": "Often what is perceived to be aggression is simply fear.",
+            "ru": "Часто то, что воспринимается как агрессия — это просто страх."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5356,
+      "word": "to sponsor",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈspɑːnsər]",
+        "br": "[tə] [ˈspɒnsə(r)]",
+        "gb": "[tuː] [ˈspɔnsə]"
+      },
+      "translations": {
+        "rus": "спонсировать, финансировать",
+        "spa": "patrocinar, financiar, promover"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5360,
+      "word": "trade fair",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪd] [fer]",
+        "br": "[treɪd] [feə(r)]",
+        "gb": "[treɪd] [fɛə]"
+      },
+      "translations": {
+        "rus": "торговая ярмарка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5361,
+      "word": "trademark",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtreɪdmɑːrk]",
+        "br": "[ˈtreɪdmɑːk]",
+        "gb": "[ˈtreɪdmɑːk]"
+      },
+      "translations": {
+        "rus": "торговая марка, товарный знак",
+        "spa": "la marca comercial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5362,
+      "word": "trend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trend]",
+        "br": "[trend]",
+        "gb": "[trend]"
+      },
+      "translations": {
+        "rus": "тенденция, тренд, мода",
+        "spa": "la tendencia, tender a"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I gave up keeping up with trends.",
+            "ru": "Я перестал гнаться за модой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5363,
+      "word": "turnover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɜːrnəʊvər]",
+        "br": "[ˈtɜːnəʊvə(r)]",
+        "gb": "[ˈtɜːnəʊvə]"
+      },
+      "translations": {
+        "rus": "оборот, объем продаж, товарооборот",
+        "spa": "la facturación, el volumen de negocios"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The company's annual sales turnover is around $300 million.",
+            "ru": "Годовой товарооборот компании составляет около $300 млн."
+          },
+          {
+            "en": "The company has a high turnover rate.",
+            "ru": "В данной компании большая текучка кадров."
+          },
+          {
+            "en": "The company had an increase in turnover this quarter.",
+            "ru": "В этом квартале компания увеличила свой товарооборот."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1678,
+      "word": "unfair",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnˈfer]",
+        "br": "[ˌʌnˈfeə(r)]",
+        "gb": "[ˈʌnˈfɛə]"
+      },
+      "translations": {
+        "rus": "несправедливый, нечестный",
+        "spa": "injusto, desleal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was unfair.",
+            "ru": "Я был несправедлив."
+          },
+          {
+            "en": "I think it was unfair.",
+            "ru": "По-моему, это было нечестно."
+          },
+          {
+            "en": "You're being unfair.",
+            "ru": "Вы несправедливы."
+          },
+          {
+            "en": "The world is unfair.",
+            "ru": "Мир несправедлив."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5364,
+      "word": "unique",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[juˈniːk]",
+        "br": "[juˈniːk]",
+        "gb": "[juːˈniːk]"
+      },
+      "translations": {
+        "rus": "уникальный",
+        "spa": "único"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're all unique.",
+            "ru": "Мы все уникальны."
+          },
+          {
+            "en": "Every person is unique.",
+            "ru": "Каждый человек уникален."
+          },
+          {
+            "en": "This is a unique situation.",
+            "ru": "Это уникальная ситуация."
+          },
+          {
+            "en": "This book is unique in many ways.",
+            "ru": "Эта книга во многих отношениях уникальна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Every person is unique.",
+            "es": "Toda persona es única."
+          },
+          {
+            "en": "These flowers have a unique smell.",
+            "es": "Estas flores tienen un olor único."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2372,
+      "word": "user",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjuːzər]",
+        "br": "[ˈjuːzə(r)]",
+        "gb": "[ˈjuːzə]"
+      },
+      "translations": {
+        "rus": "пользователь, потребитель",
+        "spa": "el usuario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Our web site attracts a lot of users.",
+            "ru": "Наш веб-сайт привлекает много пользователей."
+          },
+          {
+            "en": "Simplicity in design attracts users.",
+            "ru": "Простота дизайна привлекает пользователей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1682,
+      "word": "value",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvæljuː]",
+        "br": "[ˈvæljuː]",
+        "gb": "[ˈvæljuː]"
+      },
+      "translations": {
+        "rus": "стоимость, значение, величина, цена, ценность",
+        "spa": "el valor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They paid him the value of his lost property.",
+            "ru": "Они возместили ему стоимость его пропавшего имущества."
+          },
+          {
+            "en": "It's a beautiful carpet — it should hold its value.",
+            "ru": "Это красивый ковёр — он не должен падать в цене."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It is of great value.",
+            "es": "Es de gran valor."
+          },
+          {
+            "en": "The default value is zero.",
+            "es": "El valor predeterminado es cero."
+          },
+          {
+            "en": "This article is of no value.",
+            "es": "Este artículo no tiene ningún valor."
+          },
+          {
+            "en": "We don't share the same values.",
+            "es": "No compartimos los mismos valores."
+          },
+          {
+            "en": "The sculptures are of great value.",
+            "es": "Las esculturas son de gran valor."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5365,
+      "word": "variety shop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈraɪəti] [ʃɑːp]",
+        "br": "[vəˈraɪəti] [ʃɒp]",
+        "gb": "[vəˈraɪətɪ] [ʃɔp]"
+      },
+      "translations": {
+        "rus": "универсальный магазин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5366,
+      "word": "variety store",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈraɪəti] [stɔːr]",
+        "br": "[vəˈraɪəti] [stɔː(r)]",
+        "gb": "[vəˈraɪətɪ] [stɔː]"
+      },
+      "translations": {
+        "rus": "универсальный магазин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing"
+      ]
+    },
+    {
+      "id": 5367,
+      "word": "vision",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɪʒn]",
+        "br": "[ˈvɪʒn]",
+        "gb": "[ˈvɪʒən]"
+      },
+      "translations": {
+        "rus": "зрение, вид",
+        "spa": "la visión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Birds have sharp vision.",
+            "ru": "У птиц острое зрение."
+          },
+          {
+            "en": "My vision's getting worse.",
+            "ru": "Моё зрение ухудшается."
+          },
+          {
+            "en": "Please check my vision.",
+            "ru": "Проверьте моё зрение, пожалуйста."
+          },
+          {
+            "en": "My sister has perfect vision.",
+            "ru": "У моей сестры идеальное зрение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1691,
+      "word": "wholesale",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈhəʊlseɪl]",
+        "br": "[ˈhəʊlseɪl]",
+        "gb": "[ˈhəʊlseɪl]"
+      },
+      "translations": {
+        "rus": "оптовая продажа, оптовый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing"
+      ]
+    }
+  ]
+}

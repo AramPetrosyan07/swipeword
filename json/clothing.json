@@ -1,0 +1,5386 @@
+{
+  "category": {
+    "id": "clothing",
+    "name_rus": "Одежда",
+    "type": "topic",
+    "word_count": 183
+  },
+  "words": [
+    {
+      "id": 2084,
+      "word": "ample",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæmpl]",
+        "br": "[ˈæmpl]",
+        "gb": "[æmpl]"
+      },
+      "translations": {
+        "rus": "просторный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2085,
+      "word": "athletic shoes",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[æθˈletɪk] [ʃuz]"
+      },
+      "translations": {
+        "rus": "кроссовки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2086,
+      "word": "backpack",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbækpæk]",
+        "br": "[ˈbækpæk]",
+        "gb": "[bækˈpæk]"
+      },
+      "translations": {
+        "rus": "рюкзак",
+        "spa": "la mochila"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She carried a backpack on one shoulder.",
+            "ru": "Она несла рюкзак на одном плече."
+          },
+          {
+            "en": "I carried my provisions in one large backpack.",
+            "ru": "Я нес все свои припасы в одном большем рюкзаке."
+          },
+          {
+            "en": "After college, she backpacked through Europe.",
+            "ru": "После окончания колледжа, она прошагала с рюкзаком через всю Европу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What is in the backpack?",
+            "es": "¿Qué hay adentro de la mochila?"
+          },
+          {
+            "en": "This blue backpack is heavy.",
+            "es": "Esta mochila azul está pesada."
+          },
+          {
+            "en": "Put your stuff in your backpack.",
+            "es": "Pon tus cosas en tu mochila."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "travel"
+      ]
+    },
+    {
+      "id": 2087,
+      "word": "bathrobe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæθrəʊb]",
+        "br": "[ˈbɑːθrəʊb]",
+        "gb": "[ˈbɑːθrəʊb]"
+      },
+      "translations": {
+        "rus": "халат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2088,
+      "word": "beads",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[biːdz]"
+      },
+      "translations": {
+        "rus": "бисер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2089,
+      "word": "belt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[belt]",
+        "br": "[belt]",
+        "gb": "[belt]"
+      },
+      "translations": {
+        "rus": "пояс, ремень, лента, ленточный",
+        "spa": "el cinturón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's looking for a leather belt.",
+            "ru": "Он ищет кожаный пояс."
+          },
+          {
+            "en": "That is a leather belt.",
+            "ru": "Это кожаный ремень."
+          },
+          {
+            "en": "I'm a black belt in karate.",
+            "ru": "У меня чёрный пояс по карате."
+          },
+          {
+            "en": "He unbuckled his belt.",
+            "ru": "Он расстегнул ремень."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "military_weapons",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2090,
+      "word": "belt buckle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[belt] [ˈbʌkl]",
+        "br": "[belt] [ˈbʌkl]",
+        "gb": "[belt] [bʌkl]"
+      },
+      "translations": {
+        "rus": "пряжка на ремне",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2091,
+      "word": "blanket sleeper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈblæŋkɪt] [ˈsliːpər]",
+        "br": "[ˈblæŋkɪt] [ˈsliːpə(r)]",
+        "gb": "[ˈblæŋkɪt] [ˈsliːpə]"
+      },
+      "translations": {
+        "rus": "конверт для младенца",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2092,
+      "word": "blouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blaʊs]",
+        "br": "[blaʊz]",
+        "gb": "[blaʊz]"
+      },
+      "translations": {
+        "rus": "блузка",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She wore a red blouse to work.",
+            "ru": "На ней была красная блузка для работы."
+          },
+          {
+            "en": "Two buttons of her blouse had come unfastened.",
+            "ru": "Две пуговицы на её блузке расстегнулись."
+          },
+          {
+            "en": "She undid (unfastened) the buttons of her blouse.",
+            "ru": "Она расстегнула пуговицы на блузке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2093,
+      "word": "blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[bluː]",
+        "br": "[bluː]",
+        "gb": "[bluː]"
+      },
+      "translations": {
+        "rus": "синий, голубой",
+        "spa": "azul"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why is the sky blue?",
+            "ru": "Почему небо голубое?"
+          },
+          {
+            "en": "I need more blue paint.",
+            "ru": "Мне нужно больше синей краски."
+          },
+          {
+            "en": "We painted the door blue.",
+            "ru": "Мы покрасили дверь в синий цвет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How blue the sky is!",
+            "es": "¡Qué cielo tan azul!"
+          },
+          {
+            "en": "My old dress is blue.",
+            "es": "Mi vestido viejo es azul."
+          },
+          {
+            "en": "Blue looks good on you.",
+            "es": "Te sienta bien el azul."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2094,
+      "word": "boot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[buːt]",
+        "br": "[buːt]",
+        "gb": "[buːt]"
+      },
+      "translations": {
+        "rus": "ботинок, сапог",
+        "spa": "la bota"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I bought a pair of boots.",
+            "ru": "Я купил пару ботинок."
+          },
+          {
+            "en": "Where are my boots?",
+            "ru": "Где мои сапоги?"
+          },
+          {
+            "en": "The dog chewed up my boot.",
+            "ru": "Собака сжевала мой ботинок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "military_weapons",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2095,
+      "word": "bow tie",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[baʊ] [taɪ]"
+      },
+      "translations": {
+        "rus": "галстук \"бабочка\"",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2096,
+      "word": "bra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɑː]",
+        "br": "[brɑː]",
+        "gb": "[brɑː]"
+      },
+      "translations": {
+        "rus": "лифчик, бюстгальтер",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I bought a red bra.",
+            "ru": "Я купила красный лифчик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2097,
+      "word": "bracelet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbreɪslət]",
+        "br": "[ˈbreɪslət]",
+        "gb": "[ˈbreɪslɪt]"
+      },
+      "translations": {
+        "rus": "браслет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2098,
+      "word": "briefcase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbriːfkeɪs]",
+        "br": "[ˈbriːfkeɪs]",
+        "gb": "[ˈbriːfkeɪs]"
+      },
+      "translations": {
+        "rus": "портфель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2099,
+      "word": "briefs",
+      "pos": "noun",
+      "transcription": {
+        "us": "[briːfs]",
+        "br": "[briːfs]",
+        "gb": "[briːfs]"
+      },
+      "translations": {
+        "rus": "мужские трусы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2100,
+      "word": "brown",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[braʊn]",
+        "br": "[braʊn]",
+        "gb": "[braʊn]"
+      },
+      "translations": {
+        "rus": "коричневый",
+        "spa": "marrón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The brown hat is old.",
+            "ru": "Коричневая шляпа старая."
+          },
+          {
+            "en": "I'd prefer a brown one.",
+            "ru": "Я бы предпочёл коричневый."
+          },
+          {
+            "en": "My favorite color is brown.",
+            "ru": "Мой любимый цвет - коричневый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cat is brown.",
+            "es": "El gato es marrón."
+          },
+          {
+            "en": "His shoes are brown.",
+            "es": "Sus zapatos son marrones."
+          },
+          {
+            "en": "The lettuce has turned brown.",
+            "es": "La ensalada se puso marrón."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2101,
+      "word": "button",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌtn]",
+        "br": "[ˈbʌtn]",
+        "gb": "[bʌtn]"
+      },
+      "translations": {
+        "rus": "кнопка, пуговица",
+        "spa": "el botón, abrochar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you push the button?",
+            "ru": "Ты нажал кнопку?"
+          },
+          {
+            "en": "She sewed a button on.",
+            "ru": "Она пришила пуговицу."
+          },
+          {
+            "en": "What does this button do?",
+            "ru": "Что делает эта кнопка?"
+          },
+          {
+            "en": "This button has come off.",
+            "ru": "Эта пуговица оторвалась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2102,
+      "word": "camisole",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæmɪsəʊl]",
+        "br": "[ˈkæmɪsəʊl]",
+        "gb": "[ˈkæmɪsəʊl]"
+      },
+      "translations": {
+        "rus": "камзол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2103,
+      "word": "cap",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæp]",
+        "br": "[kæp]",
+        "gb": "[kæp]"
+      },
+      "translations": {
+        "rus": "кепка, колпачок, шапка",
+        "spa": "la gorra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have lost my cap.",
+            "ru": "Я потерял кепку."
+          },
+          {
+            "en": "Where is your cap?",
+            "ru": "Где твоя шапка?"
+          },
+          {
+            "en": "The boy adjusted his cap.",
+            "ru": "Мальчик поправил кепку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2104,
+      "word": "cardigan sweater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrdɪɡən] [ˈswetər]",
+        "br": "[ˈkɑːdɪɡən] [ˈswetə(r)]",
+        "gb": "[ˈkɑːdɪgən] [ˈswetə]"
+      },
+      "translations": {
+        "rus": "кардиган",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2105,
+      "word": "chain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃeɪn]",
+        "br": "[tʃeɪn]",
+        "gb": "[ʧeɪn]"
+      },
+      "translations": {
+        "rus": "цепь, цепной",
+        "spa": "la cadena"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A chain is made up of many links.",
+            "ru": "Цепь состоит из множества звеньев."
+          },
+          {
+            "en": "It started a chain reaction.",
+            "ru": "Это вызвало цепную реакцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2107,
+      "word": "change purse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃeɪndʒ] [pɜːrs]",
+        "br": "[tʃeɪndʒ] [pɜːs]",
+        "gb": "[ʧeɪnʤ] [pɜːs]"
+      },
+      "translations": {
+        "rus": "кошелек",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2108,
+      "word": "clip-on earrings",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[klɪp] [ɔn] [ˈɪəˌrɪŋz]"
+      },
+      "translations": {
+        "rus": "клипсы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2109,
+      "word": "cloth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klɔːθ]",
+        "br": "[klɒθ]",
+        "gb": "[klɔθ]"
+      },
+      "translations": {
+        "rus": "ткань, материя, тряпка",
+        "spa": "la tela, el paño, el tejido, el trapo, la bayeta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Clean the window with a damp cloth.",
+            "ru": "Протри окно влажной тряпкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2110,
+      "word": "clothes",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kləʊðz]",
+        "br": "[kləʊðz]",
+        "gb": "[kləʊðz]"
+      },
+      "translations": {
+        "rus": "одежда",
+        "spa": "la ropa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He took off his clothes.",
+            "ru": "Он снял одежду."
+          },
+          {
+            "en": "My clothes are over there.",
+            "ru": "Моя одежда там."
+          },
+          {
+            "en": "I slept with my clothes on.",
+            "ru": "Я спал в одежде."
+          },
+          {
+            "en": "She has quite a lot of clothes.",
+            "ru": "У неё много одежды."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ken put on his clothes.",
+            "es": "Ken se puso su ropa."
+          },
+          {
+            "en": "I wash clothes by hand.",
+            "es": "Lavo la ropa a mano."
+          },
+          {
+            "en": "I like to buy clothes.",
+            "es": "Me gusta comprar ropa."
+          },
+          {
+            "en": "My clothes are over there.",
+            "es": "Mi ropa esta ahí."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2111,
+      "word": "clothing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkləʊðɪŋ]",
+        "br": "[ˈkləʊðɪŋ]",
+        "gb": "[ˈkləʊðɪŋ]"
+      },
+      "translations": {
+        "rus": "одежда",
+        "spa": "la ropa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They took food and clothing.",
+            "ru": "Они взяли еду и одежду."
+          },
+          {
+            "en": "A coat is an article of clothing.",
+            "ru": "Пальто — предмет одежды."
+          },
+          {
+            "en": "I sell clothing online.",
+            "ru": "Я продаю одежду в Интернете."
+          },
+          {
+            "en": "Mary ruined her clothing.",
+            "ru": "Мэри испортила свою одежду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2112,
+      "word": "coarse",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kɔːrs]",
+        "br": "[kɔːs]",
+        "gb": "[kɔːs]"
+      },
+      "translations": {
+        "rus": "грубый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2113,
+      "word": "coat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊt]",
+        "br": "[kəʊt]",
+        "gb": "[kəʊt]"
+      },
+      "translations": {
+        "rus": "пальто",
+        "spa": "el abrigo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The coat is not mine.",
+            "ru": "Пальто не моё."
+          },
+          {
+            "en": "He had no coat on.",
+            "ru": "Он был без пальто."
+          },
+          {
+            "en": "She put on a coat.",
+            "ru": "Она надела пальто."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He took off his coat.",
+            "es": "Él se quitó el abrigo."
+          },
+          {
+            "en": "Keep your coat on.",
+            "es": "Quédate con el abrigo puesto."
+          },
+          {
+            "en": "Put your coat on a hanger.",
+            "es": "Pon el abrigo en una percha."
+          },
+          {
+            "en": "Why not take your coat off?",
+            "es": "¿Por qué no te quitas el abrigo?"
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2114,
+      "word": "collar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːlər]",
+        "br": "[ˈkɒlə(r)]",
+        "gb": "[ˈkɔlə]"
+      },
+      "translations": {
+        "rus": "воротник, ошейник",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her upturned collar protected her neck from the cold.",
+            "ru": "Поднятый воротник защищал ее шею от холода."
+          },
+          {
+            "en": "The dog has slipped its collar.",
+            "ru": "Собака высвободилась из ошейника."
+          },
+          {
+            "en": "His collar disallowed him any independent rotation of the head.",
+            "ru": "Его воротник не давал ему свободно поворачивать голову."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 503,
+      "word": "color",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌlər]",
+        "br": "[ˈkʌlə(r)]",
+        "gb": "[ˈkʌlə]"
+      },
+      "translations": {
+        "rus": "цвет",
+        "spa": "el color"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like the color blue.",
+            "ru": "Я люблю синий цвет."
+          },
+          {
+            "en": "Do you like this color?",
+            "ru": "Тебе нравится этот цвет?"
+          },
+          {
+            "en": "The rainbow has seven colors.",
+            "ru": "У радуги семь цветов."
+          },
+          {
+            "en": "That color doesn't look good on me.",
+            "ru": "Этот цвет мне не идёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you like this color?",
+            "es": "¿Te gusta este color?"
+          },
+          {
+            "en": "My favorite color is red.",
+            "es": "El rojo es mi color favorito."
+          },
+          {
+            "en": "I prefer a lighter color.",
+            "es": "Prefiero un color más claro."
+          },
+          {
+            "en": "What color is his sweater?",
+            "es": "¿De qué color es su suéter?"
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 508,
+      "word": "colour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌlər]",
+        "br": "[ˈkʌlə(r)]",
+        "gb": "[ˈkʌlə]"
+      },
+      "translations": {
+        "rus": "цвет",
+        "spa": "el color"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like the colour blue.",
+            "ru": "Я люблю синий цвет."
+          },
+          {
+            "en": "Do you like this colour?",
+            "ru": "Тебе нравится этот цвет?"
+          },
+          {
+            "en": "The rainbow has seven colours.",
+            "ru": "У радуги семь цветов."
+          },
+          {
+            "en": "That colours doesn't look good on me.",
+            "ru": "Этот цвет мне не идёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you like this colour?",
+            "es": "¿Te gusta este color?"
+          },
+          {
+            "en": "My favorite colour is red.",
+            "es": "El rojo es mi color favorito."
+          },
+          {
+            "en": "I prefer a lighter colour.",
+            "es": "Prefiero un color más claro."
+          },
+          {
+            "en": "What colour is his sweater?",
+            "es": "¿De qué color es su suéter?"
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2115,
+      "word": "cotton",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːtn]",
+        "br": "[ˈkɒtn]",
+        "gb": "[kɔtn]"
+      },
+      "translations": {
+        "rus": "хлопок",
+        "spa": "el algodón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This blouse is cotton.",
+            "ru": "Эта блузка из хлопка."
+          },
+          {
+            "en": "Cotton is a natural fabric.",
+            "ru": "Хлопок — натуральная ткань."
+          },
+          {
+            "en": "That cloth is made from cotton.",
+            "ru": "Та ткань изготовлена из хлопка."
+          },
+          {
+            "en": "We wear shirts of cotton or silk.",
+            "ru": "Мы носим рубашки из хлопка или шёлка."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2116,
+      "word": "court shoes",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɔːt] [ʃuz]"
+      },
+      "translations": {
+        "rus": "туфли-лодочки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2118,
+      "word": "down jacket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[daʊn] [ˈdʒækɪt]",
+        "br": "[daʊn] [ˈdʒækɪt]",
+        "gb": "[daʊn] [ˈʤækɪt]"
+      },
+      "translations": {
+        "rus": "пуховик, пуховая куртка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2119,
+      "word": "dress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dres]",
+        "br": "[dres]",
+        "gb": "[dres]"
+      },
+      "translations": {
+        "rus": "платье",
+        "spa": "el vestido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I made her a dress.",
+            "ru": "Я сшила ей платье."
+          },
+          {
+            "en": "The dress is of silk.",
+            "ru": "Это платье из шёлка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The dress is of silk.",
+            "es": "El vestido es de seda."
+          },
+          {
+            "en": "We have to get dressed.",
+            "es": "Tenemos que vestirnos."
+          },
+          {
+            "en": "My new dress is red.",
+            "es": "Mi vestido nuevo es rojo."
+          },
+          {
+            "en": "I'll wear the blue dress.",
+            "es": "Usaré el vestido azul."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2122,
+      "word": "earmuffs",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪrmʌfs]",
+        "br": "[ˈɪəmʌfs]",
+        "gb": "[ˈɪəmʌfs]"
+      },
+      "translations": {
+        "rus": "меховые наушники",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2123,
+      "word": "earring",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪrɪŋ]",
+        "br": "[ˈɪərɪŋ]",
+        "gb": "[ˈɪərɪŋ]"
+      },
+      "translations": {
+        "rus": "серьга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 1932,
+      "word": "elegant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈelɪɡənt]",
+        "br": "[ˈelɪɡənt]",
+        "gb": "[ˈelɪgənt]"
+      },
+      "translations": {
+        "rus": "элегантный",
+        "spa": "elegante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is an elegant solution.",
+            "ru": "Есть элегантное решение."
+          },
+          {
+            "en": "She is elegant and refined.",
+            "ru": "Она элегантная и утончённая."
+          },
+          {
+            "en": "Mary is a very elegant woman.",
+            "ru": "Мэри очень элегантная женщина."
+          },
+          {
+            "en": "You look very elegant today.",
+            "ru": "Ты сегодня очень элегантно выглядишь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "clothing",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2124,
+      "word": "evening gown",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːvnɪŋ] [ɡaʊn]",
+        "br": "[ˈiːvnɪŋ] [ɡaʊn]",
+        "gb": "[ˈiːvnɪŋ] [gaʊn]"
+      },
+      "translations": {
+        "rus": "вечернее платье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2125,
+      "word": "fabric",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfæbrɪk]",
+        "br": "[ˈfæbrɪk]",
+        "gb": "[ˈfæbrɪk]"
+      },
+      "translations": {
+        "rus": "ткань, материал",
+        "spa": "la tela, el tejido, el género"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much fabric did you buy?",
+            "ru": "Сколько ткани вы купили?"
+          },
+          {
+            "en": "Cotton is a natural fabric.",
+            "ru": "Хлопок — натуральная ткань."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2126,
+      "word": "fashionable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfæʃnəbl]",
+        "br": "[ˈfæʃnəbl]",
+        "gb": "[ˈfæʃnəbl]"
+      },
+      "translations": {
+        "rus": "модный, стильный",
+        "spa": "de moda, actual, elegante, a la moda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her aunt's glasses are fashionable.",
+            "ru": "У её тёти модные очки."
+          },
+          {
+            "en": "I always try to wear fashionable clothes.",
+            "ru": "Я всегда стараюсь носить модную одежду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2129,
+      "word": "footwear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfʊtwer]",
+        "br": "[ˈfʊtweə(r)]",
+        "gb": "[ˈfʊtwɛə]"
+      },
+      "translations": {
+        "rus": "обувь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2130,
+      "word": "full slip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊl] [slɪp]",
+        "br": "[fʊl] [slɪp]",
+        "gb": "[fʊl] [slɪp]"
+      },
+      "translations": {
+        "rus": "ночнушка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2131,
+      "word": "fur",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[fɜːr]",
+        "br": "[fɜː(r)]",
+        "gb": "[fɜː]"
+      },
+      "translations": {
+        "rus": "мех, меховой",
+        "spa": "el pelo, el pelaje, la piel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rabbit's fur is soft.",
+            "ru": "Мех кролика мягкий."
+          },
+          {
+            "en": "A teddy bear with soft fur.",
+            "ru": "Плюшевый медведь с мягким мехом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2132,
+      "word": "fur coat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɜːr] [kəʊt]",
+        "br": "[fɜː(r)] [kəʊt]",
+        "gb": "[fɜː] [kəʊt]"
+      },
+      "translations": {
+        "rus": "шуба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2133,
+      "word": "glasses",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈglɑːsɪz]"
+      },
+      "translations": {
+        "rus": "очки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "health"
+      ]
+    },
+    {
+      "id": 2134,
+      "word": "glove",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡlʌv]",
+        "br": "[ɡlʌv]",
+        "gb": "[glʌv]"
+      },
+      "translations": {
+        "rus": "перчатка",
+        "spa": "el guante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I rarely lose a left-hand glove.",
+            "ru": "Я редко теряю перчатку с левой руки."
+          },
+          {
+            "en": "He had a glove on his left hand, but his right hand was bare.",
+            "ru": "На его левой руке была надета перчатка, но правая была голой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2135,
+      "word": "handkerchief",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈhæŋkəʧɪf]"
+      },
+      "translations": {
+        "rus": "носовой платок",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He mopped his brow with a handkerchief.",
+            "ru": "Он вытер пот со лба носовым платком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2136,
+      "word": "hat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hæt]",
+        "br": "[hæt]",
+        "gb": "[hæt]"
+      },
+      "translations": {
+        "rus": "шляпа",
+        "spa": "el sombrero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a hat on.",
+            "ru": "Он в шляпе."
+          },
+          {
+            "en": "He took off his hat.",
+            "ru": "Он снял шляпу."
+          },
+          {
+            "en": "I tried the hat on.",
+            "ru": "Я померил шляпу."
+          },
+          {
+            "en": "She is wearing a hat.",
+            "ru": "Она носит шляпу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Put your hat on.",
+            "es": "Ponte el sombrero."
+          },
+          {
+            "en": "He took off his hat.",
+            "es": "Él se quitó el sombrero."
+          },
+          {
+            "en": "Please take off your hat.",
+            "es": "Por favor, sacate el sombrero."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 62,
+      "word": "heel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hiːl]",
+        "br": "[hiːl]",
+        "gb": "[hiːl]"
+      },
+      "translations": {
+        "rus": "пятка, каблук",
+        "spa": "el talón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A shoe with a thick heel.",
+            "ru": "Туфля с толстым каблуком."
+          },
+          {
+            "en": "The back of my shoe is rubbing against my heel and giving me a blister.",
+            "ru": "Задник моего ботинка трётся о пятку и натирает мне волдырь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My left heel is inflamed.",
+            "es": "Mi talón izquierdo está inflamado."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "clothing",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 2137,
+      "word": "high heels",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[haɪ] [hiːlz]"
+      },
+      "translations": {
+        "rus": "высокие каблуки, шпильки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2138,
+      "word": "jacket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒækɪt]",
+        "br": "[ˈdʒækɪt]",
+        "gb": "[ˈʤækɪt]"
+      },
+      "translations": {
+        "rus": "куртка, жакет",
+        "spa": "la chaqueta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like your jacket.",
+            "ru": "Мне нравится твоя куртка."
+          },
+          {
+            "en": "The jacket has side pockets.",
+            "ru": "В этой куртке есть боковые карманы."
+          },
+          {
+            "en": "Where did you get that jacket?",
+            "ru": "Откуда у тебя эта куртка?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2139,
+      "word": "jeans",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒiːnz]",
+        "br": "[dʒiːnz]",
+        "gb": "[ʤiːnz]"
+      },
+      "translations": {
+        "rus": "джинсы",
+        "spa": "los vaqueros, los jeans, los tejanos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got these jeans for $100.",
+            "ru": "Я купил эти джинсы за сто долларов."
+          },
+          {
+            "en": "Are you going to wear jeans or a dress?",
+            "ru": "Ты собираешься надеть джинсы или платье?"
+          },
+          {
+            "en": "She wore a T-shirt and an old pair of jeans.",
+            "ru": "Она была в футболке и старых джинсах."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2140,
+      "word": "jewellery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒuːəlri]",
+        "br": "[ˈdʒuːəlri]",
+        "gb": "[ˈʤuːəlrɪ]"
+      },
+      "translations": {
+        "rus": "ювелирные изделия, украшения, драгоценности",
+        "spa": "joyas, alhajas"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She wears a lot of jewellery.",
+            "ru": "Она носит много украшений."
+          },
+          {
+            "en": "Someone broke into Mary's flat and stole her jewellery.",
+            "ru": "Кто-то вломился в квартиру Мэри и украл ее драгоценности."
+          },
+          {
+            "en": "Linda wore expensive jewellery.",
+            "ru": "Линда носила дорогое украшение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2141,
+      "word": "jewelry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒuːəlri]",
+        "br": "[ˈdʒuːəlri]",
+        "gb": "[ˈʤuːəlrɪ]"
+      },
+      "translations": {
+        "rus": "ювелирные изделия, украшения, драгоценности",
+        "spa": "joyas, alhajas"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She wears a lot of jewelry.",
+            "ru": "Она носит много украшений."
+          },
+          {
+            "en": "Someone broke into Mary's flat and stole her jewelry.",
+            "ru": "Кто-то вломился в квартиру Мэри и украл ее драгоценности."
+          },
+          {
+            "en": "Linda wore expensive jewelry.",
+            "ru": "Линда носила дорогое украшение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2142,
+      "word": "jumper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒʌmpər]",
+        "br": "[ˈdʒʌmpə(r)]",
+        "gb": "[ˈʤʌmpə]"
+      },
+      "translations": {
+        "rus": "джемпер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2143,
+      "word": "jumpsuit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒʌmpsuːt]",
+        "br": "[ˈdʒʌmpsuːt]",
+        "gb": "[ˈʤʌmpsuːt]"
+      },
+      "translations": {
+        "rus": "комбинезон, спортивный костюм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2144,
+      "word": "knee socks",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[niː] [sɒks]"
+      },
+      "translations": {
+        "rus": "длинные носки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2145,
+      "word": "knee-highs",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[niː] [haɪz]"
+      },
+      "translations": {
+        "rus": "гольфы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2146,
+      "word": "knickers",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnɪkərz]",
+        "br": "[ˈnɪkəz]",
+        "gb": "[ˈnɪkəz]"
+      },
+      "translations": {
+        "rus": "(женские) трусы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2147,
+      "word": "knit shirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nɪt] [ʃɜːrt]",
+        "br": "[nɪt] [ʃɜːt]",
+        "gb": "[nɪt] [ʃɜːt]"
+      },
+      "translations": {
+        "rus": "трикотажная рубашка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2148,
+      "word": "leather",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈleðər]",
+        "br": "[ˈleðə(r)]",
+        "gb": "[ˈleðə]"
+      },
+      "translations": {
+        "rus": "кожа, кожаный",
+        "spa": "el cuero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This leather handles soft.",
+            "ru": "Эта кожа мягка на ощупь."
+          },
+          {
+            "en": "He was wearing a battered leather jacket.",
+            "ru": "Он был одет в изношенную кожаную куртку."
+          },
+          {
+            "en": "The feel of old leather.",
+            "ru": "Ощущение старой кожи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2149,
+      "word": "leggings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɡɪŋz]",
+        "br": "[ˈleɡɪŋz]",
+        "gb": "[ˈlegɪŋz]"
+      },
+      "translations": {
+        "rus": "леггинсы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2150,
+      "word": "leotard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈliːətɑːrd]",
+        "br": "[ˈliːətɑːd]",
+        "gb": "[ˈliːəʊtɑːd]"
+      },
+      "translations": {
+        "rus": "трико",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2151,
+      "word": "lingerie, women's underwear",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈlænʒəriː] [ˈwɪmənz] [ˈʌndəwɛə]"
+      },
+      "translations": {
+        "rus": "дамское бельё",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2152,
+      "word": "lining",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪnɪŋ]",
+        "br": "[ˈlaɪnɪŋ]",
+        "gb": "[ˈlaɪnɪŋ]"
+      },
+      "translations": {
+        "rus": "подкладка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2153,
+      "word": "lipstick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪpstɪk]",
+        "br": "[ˈlɪpstɪk]",
+        "gb": "[ˈlɪpstɪk]"
+      },
+      "translations": {
+        "rus": "губная помада",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2154,
+      "word": "loafers",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈləʊfəz]"
+      },
+      "translations": {
+        "rus": "мокасины",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2155,
+      "word": "locket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɑːkɪt]",
+        "br": "[ˈlɒkɪt]",
+        "gb": "[ˈlɔkɪt]"
+      },
+      "translations": {
+        "rus": "медальон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2156,
+      "word": "long",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[lɔːŋ]",
+        "br": "[lɒŋ]",
+        "gb": "[lɔŋ]"
+      },
+      "translations": {
+        "rus": "длинный, долгий, долго",
+        "spa": "largo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How long have you waited?",
+            "ru": "Как долго ты ждал?"
+          },
+          {
+            "en": "That was a long day.",
+            "ru": "Это был длинный день."
+          },
+          {
+            "en": "He has a long nose.",
+            "ru": "У него длинный нос."
+          },
+          {
+            "en": "Why did it take so long?",
+            "ru": "Почему так долго?"
+          },
+          {
+            "en": "She has got long hair.",
+            "ru": "У неё длинные волосы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You had a long day.",
+            "es": "Tuviste un día largo."
+          },
+          {
+            "en": "It was a long letter.",
+            "es": "Era una larga carta."
+          },
+          {
+            "en": "She has got long hair.",
+            "es": "Ella tiene pelo largo."
+          },
+          {
+            "en": "She lived a long life.",
+            "es": "Ella vivió una vida larga."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2157,
+      "word": "loose",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[luːs]",
+        "br": "[luːs]",
+        "gb": "[luːs]"
+      },
+      "translations": {
+        "rus": "просторный, свободный",
+        "spa": "suelto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was wearing a loose dress.",
+            "ru": "На ней было свободное платье."
+          },
+          {
+            "en": "She gave a loose to her tears.",
+            "ru": "Она дала волю слезам."
+          },
+          {
+            "en": "Is that shirt loose enough?",
+            "ru": "Достаточно ли свободна эта рубашка?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2158,
+      "word": "material",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[məˈtɪriəl]",
+        "br": "[məˈtɪəriəl]",
+        "gb": "[məˈtɪərɪəl]"
+      },
+      "translations": {
+        "rus": "материал, вещество, данные, факты, материальный",
+        "spa": "el material, la tela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This material crushes easily.",
+            "ru": "Этот материал легко мнётся."
+          },
+          {
+            "en": "He tackled his material problems.",
+            "ru": "Он взялся за решение своих материальных проблем."
+          },
+          {
+            "en": "This material clings to the skin.",
+            "ru": "Этот материал хорошо облегает тело."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is it a good material?",
+            "es": "¿Es un buen material?"
+          },
+          {
+            "en": "When it was stretched, the material tore.",
+            "es": "Al estirar la tela se rompió."
+          },
+          {
+            "en": "We've already seen this material.",
+            "es": "Ya vimos ese material."
+          },
+          {
+            "en": "This material has a rough texture.",
+            "es": "Este material tiene una textura rugosa."
+          },
+          {
+            "en": "I want a suit made of this material.",
+            "es": "Quiero un traje hecho de este material."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "construction",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2159,
+      "word": "maternity dress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈtɜːrnəti] [dres]",
+        "br": "[məˈtɜːnəti] [dres]",
+        "gb": "[məˈtɜːnɪtɪ] [dres]"
+      },
+      "translations": {
+        "rus": "платье для беременной",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2160,
+      "word": "mitten",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪtn]",
+        "br": "[ˈmɪtn]",
+        "gb": "[ˈmɪtn]"
+      },
+      "translations": {
+        "rus": "варежка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2161,
+      "word": "naked",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈneɪkɪd]",
+        "br": "[ˈneɪkɪd]",
+        "gb": "[ˈneɪkɪd]"
+      },
+      "translations": {
+        "rus": "голый, обнаженный",
+        "spa": "desnudo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't come in. I'm naked.",
+            "ru": "Не входи! Я голый."
+          },
+          {
+            "en": "The baby was naked.",
+            "ru": "Ребёнок был голый."
+          },
+          {
+            "en": "Don't go for a walk naked!",
+            "ru": "Не ходи гулять голым!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2162,
+      "word": "necklace",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnekləs]",
+        "br": "[ˈnekləs]",
+        "gb": "[ˈneklɪs]"
+      },
+      "translations": {
+        "rus": "ожерелье, колье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2163,
+      "word": "nightdress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪtdres]",
+        "br": "[ˈnaɪtdres]",
+        "gb": "[ˈnaɪtdres]"
+      },
+      "translations": {
+        "rus": "ночная сорочка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2164,
+      "word": "nightgown",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪtɡaʊn]",
+        "br": "[ˈnaɪtɡaʊn]",
+        "gb": "[ˈnaɪtgaʊn]"
+      },
+      "translations": {
+        "rus": "ночная рубашка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2165,
+      "word": "nightshirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪtʃɜːrt]",
+        "br": "[ˈnaɪtʃɜːt]",
+        "gb": "[ˈnaɪʧɜːt]"
+      },
+      "translations": {
+        "rus": "ночная сорочка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2166,
+      "word": "nylon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪlɑːn]",
+        "br": "[ˈnaɪlɒn]",
+        "gb": "[ˈnaɪlən]"
+      },
+      "translations": {
+        "rus": "нейлон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2167,
+      "word": "orange",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɔːrɪndʒ]",
+        "br": "[ˈɒrɪndʒ]",
+        "gb": "[ˈɔrɪnʤ]"
+      },
+      "translations": {
+        "rus": "оранжевый",
+        "spa": "naranja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like the color orange.",
+            "ru": "Я люблю оранжевый цвет."
+          },
+          {
+            "en": "I'm wearing an orange T-shirt.",
+            "ru": "Я ношу оранжевую футболку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2168,
+      "word": "overcoat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvərkəʊt]",
+        "br": "[ˈəʊvəkəʊt]",
+        "gb": "[ˈəʊvəkəʊt]"
+      },
+      "translations": {
+        "rus": "пальто",
+        "spa": "el abrigo, el sobretodo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2169,
+      "word": "oxfords",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈɒksfədz]"
+      },
+      "translations": {
+        "rus": "полуботинки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2170,
+      "word": "pajamas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈdʒæməz]",
+        "br": "[pəˈdʒɑːməz]",
+        "gb": "[pəˈʤɑːməz]"
+      },
+      "translations": {
+        "rus": "пижама",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2171,
+      "word": "panties, bikini panties",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæntiz], [bɪˈkiːni] [ˈpæntiz]",
+        "br": "[ˈpæntiz], [bɪˈkiːni] [ˈpæntiz]",
+        "gb": "[ˈpæntɪz] [bɪˈkiːnɪ] [ˈpæntɪz]"
+      },
+      "translations": {
+        "rus": "женские трусы, бикини",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2172,
+      "word": "pants",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pænts]",
+        "br": "[pænts]",
+        "gb": "[pænts]"
+      },
+      "translations": {
+        "rus": "трусы",
+        "spa": "los calzoncillos, las trusas"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I ripped my pants.",
+            "ru": "Я порвал трусы."
+          },
+          {
+            "en": "Are these your orange pants?",
+            "ru": "Это твои оранжевые трусы?"
+          },
+          {
+            "en": "Keep your pants on.",
+            "ru": "Не снимай трусы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2173,
+      "word": "pants",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pænts]",
+        "br": "[pænts]",
+        "gb": "[pænts]"
+      },
+      "translations": {
+        "rus": "штаны, брюки",
+        "spa": "el pantalón, los pantalones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Put your pants on.",
+            "ru": "Надень штаны."
+          },
+          {
+            "en": "Those are my pants.",
+            "ru": "Это мои брюки."
+          },
+          {
+            "en": "These pants are too small for me.",
+            "ru": "Эти штаны мне малы."
+          },
+          {
+            "en": "He pressed his pants.",
+            "ru": "Он погладил себе брюки."
+          },
+          {
+            "en": "I spilled coffee on my pants.",
+            "ru": "Я пролил кофе на брюки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2174,
+      "word": "pantyhose",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæntihəʊz]",
+        "br": "[ˈpæntihəʊz]",
+        "gb": "[ˈpæntɪhəʊz]"
+      },
+      "translations": {
+        "rus": "колготки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2175,
+      "word": "parka",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːrkə]",
+        "br": "[ˈpɑːkə]",
+        "gb": "[ˈpɑːkə]"
+      },
+      "translations": {
+        "rus": "парка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2176,
+      "word": "perfume, scent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pərˈfjuːm], [sent]",
+        "br": "[ˈpɜːfjuːm], [sent]",
+        "gb": "[ˈpɜːfjuːm] [sent]"
+      },
+      "translations": {
+        "rus": "духи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2177,
+      "word": "pierced earrings",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpɪəst] [ˈɪəˌrɪŋz]"
+      },
+      "translations": {
+        "rus": "серьги",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2178,
+      "word": "pin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɪn]",
+        "br": "[pɪn]",
+        "gb": "[pɪn]"
+      },
+      "translations": {
+        "rus": "булавка, брошь, штырёк",
+        "spa": "el alfiler, el imperdible, el clavo, la horquilla, el broche, el pin"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tom pricked the balloon with a pin.",
+            "ru": "Том проколол шарик булавкой."
+          },
+          {
+            "en": "It was so still that you would have heard a pin drop.",
+            "ru": "Было так тихо, что можно было бы услышать падение булавки."
+          },
+          {
+            "en": "He pricked himself with a pin.",
+            "ru": "Он укололся булавкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2180,
+      "word": "pink",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pɪŋk]",
+        "br": "[pɪŋk]",
+        "gb": "[pɪŋk]"
+      },
+      "translations": {
+        "rus": "розовый",
+        "spa": "rosado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a pink car.",
+            "ru": "У меня розовая машина."
+          },
+          {
+            "en": "Pink's a girlie colour!",
+            "ru": "Розовый — девчачий цвет!"
+          },
+          {
+            "en": "I don't think pink and yellow really go.",
+            "ru": "Я не думаю, что розовый и жёлтый хорошо сочетаются."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2181,
+      "word": "pocket",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈpɑːkɪt]",
+        "br": "[ˈpɒkɪt]",
+        "gb": "[ˈpɔkɪt]"
+      },
+      "translations": {
+        "rus": "карман, карманный",
+        "spa": "el bolsillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What do you have in your pocket?",
+            "ru": "Что у тебя в кармане?"
+          },
+          {
+            "en": "This is a pocket dictionary.",
+            "ru": "Это карманный словарь."
+          },
+          {
+            "en": "Put this in your pocket.",
+            "ru": "Положи это себе в карман."
+          },
+          {
+            "en": "Pocket dictionaries are out of fashion.",
+            "ru": "Карманные словари уже не в моде."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What do you have in your pocket?",
+            "es": "¿Qué tenés en el bolsillo?"
+          },
+          {
+            "en": "I have no money in my pocket.",
+            "es": "No tengo dinero en el bolsillo."
+          },
+          {
+            "en": "Show me what's in your pocket.",
+            "es": "Muéstrame lo que tienes en el bolsillo."
+          },
+          {
+            "en": "He often walks with his hand in his pocket.",
+            "es": "Suele caminar con la mano en el bolsillo."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2182,
+      "word": "poncho",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːntʃəʊ]",
+        "br": "[ˈpɒntʃəʊ]",
+        "gb": "[ˈpɔnʧəʊ]"
+      },
+      "translations": {
+        "rus": "пончо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2183,
+      "word": "pullover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpʊləʊvər]",
+        "br": "[ˈpʊləʊvə(r)]",
+        "gb": "[ˈpʊləʊvər]"
+      },
+      "translations": {
+        "rus": "пуловер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2184,
+      "word": "pumps",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pʌmps]"
+      },
+      "translations": {
+        "rus": "туфли-лодочки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2185,
+      "word": "purse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɜːrs]",
+        "br": "[pɜːs]",
+        "gb": "[pɜːs]"
+      },
+      "translations": {
+        "rus": "кошелёк, дамская сумка",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I found a purse in the street.",
+            "ru": "Я нашёл на улице кошелёк."
+          },
+          {
+            "en": "I locked the door and dropped the keys in my purse.",
+            "ru": "Я заперла дверь и бросила ключи в сумочку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2187,
+      "word": "pyjamas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈdʒæməz]",
+        "br": "[pəˈdʒɑːməz]",
+        "gb": "[pəˈʤɑːməz]"
+      },
+      "translations": {
+        "rus": "пижама",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2188,
+      "word": "rain boots",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[reɪn] [buːts]"
+      },
+      "translations": {
+        "rus": "резиновые сапоги",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2189,
+      "word": "raincoat, waterproof coat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪnkəʊt], [ˈwɔːtərpruːf] [kəʊt]",
+        "br": "[ˈreɪnkəʊt], [ˈwɔːtəpruːf] [kəʊt]",
+        "gb": "[ˈreɪnkəʊt] [ˈwɔːtəpruːf] [kəʊt]"
+      },
+      "translations": {
+        "rus": "плащ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2190,
+      "word": "red",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[red]",
+        "br": "[red]",
+        "gb": "[red]"
+      },
+      "translations": {
+        "rus": "красный",
+        "spa": "rojo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is that a red pen?",
+            "ru": "Это красная ручка?"
+          },
+          {
+            "en": "I ate the red apples.",
+            "ru": "Я съел красные яблоки."
+          },
+          {
+            "en": "The roof of the house is red.",
+            "ru": "Крыша дома красная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My new dress is red.",
+            "es": "Mi vestido nuevo es rojo."
+          },
+          {
+            "en": "You ran a red light.",
+            "es": "Te pasaste un semáforo rojo."
+          },
+          {
+            "en": "Red is out of fashion.",
+            "es": "El rojo ya no está de moda."
+          },
+          {
+            "en": "I want the red balloon.",
+            "es": "Quiero el globo rojo."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2191,
+      "word": "ring",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪŋ]",
+        "br": "[rɪŋ]",
+        "gb": "[rɪŋ]"
+      },
+      "translations": {
+        "rus": "кольцо",
+        "spa": "el anillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much is this ring?",
+            "ru": "Почём это кольцо?"
+          },
+          {
+            "en": "Let me see your ring.",
+            "ru": "Покажи-ка мне своё кольцо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How much is this ring worth?",
+            "es": "¿Cuánto vale este anillo?"
+          },
+          {
+            "en": "This ring is too expensive.",
+            "es": "Este anillo es demasiado caro."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2192,
+      "word": "rough",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rʌf]",
+        "br": "[rʌf]",
+        "gb": "[rʌf]"
+      },
+      "translations": {
+        "rus": "грубый",
+        "spa": "áspero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This paper is rough.",
+            "ru": "Это грубая бумага."
+          },
+          {
+            "en": "He has rough manners.",
+            "ru": "У него грубые манеры."
+          },
+          {
+            "en": "That cloth is very rough.",
+            "ru": "Эта ткань очень грубая."
+          },
+          {
+            "en": "I made a rough calculation.",
+            "ru": "Я сделал грубый подсчёт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2193,
+      "word": "running shoes",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈrʌnɪŋ] [ʃuz]"
+      },
+      "translations": {
+        "rus": "кроссовки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2194,
+      "word": "sandals",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsændlz]"
+      },
+      "translations": {
+        "rus": "босоножки, сандалии",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2195,
+      "word": "satin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsætn]",
+        "br": "[ˈsætɪn]",
+        "gb": "[ˈsætɪn]"
+      },
+      "translations": {
+        "rus": "атлас",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2196,
+      "word": "scarf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skɑːrf]",
+        "br": "[skɑːf]",
+        "gb": "[skɑːf]"
+      },
+      "translations": {
+        "rus": "шарф",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Knit a scarf for me.",
+            "ru": "Свяжи мне шарф."
+          },
+          {
+            "en": "She wants to weave a scarf from this wool.",
+            "ru": "Она хочет связать шарф из этой шерсти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2198,
+      "word": "sewing machine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊɪŋ] [məˈʃiːn]",
+        "br": "[ˈsəʊɪŋ] [məˈʃiːn]",
+        "gb": "[ˈsəʊɪŋ] [məˈʃiːn]"
+      },
+      "translations": {
+        "rus": "швейная машина",
+        "spa": "la máquina de coser"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "home"
+      ]
+    },
+    {
+      "id": 2199,
+      "word": "shirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɜːrt]",
+        "br": "[ʃɜːt]",
+        "gb": "[ʃɜːt]"
+      },
+      "translations": {
+        "rus": "рубашка",
+        "spa": "la camisa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much is the shirt?",
+            "ru": "Почём рубашка?"
+          },
+          {
+            "en": "He took off his shirt.",
+            "ru": "Он снял рубашку."
+          },
+          {
+            "en": "Is that a new shirt?",
+            "ru": "Это новая рубашка?"
+          },
+          {
+            "en": "I tried the shirt on.",
+            "ru": "Я померил рубашку."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He took off his shirt.",
+            "es": "Él se quitó la camisa."
+          },
+          {
+            "en": "How much is the shirt?",
+            "es": "¿Cuánto cuesta la camisa?"
+          },
+          {
+            "en": "Your shirt is inside out.",
+            "es": "Llevas la camisa al revés."
+          },
+          {
+            "en": "I'm going to change my shirt.",
+            "es": "Me voy a cambiar la camisa."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2200,
+      "word": "shoe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃuː]",
+        "br": "[ʃuː]",
+        "gb": "[ʃuː]"
+      },
+      "translations": {
+        "rus": "обувь, туфля, ботинок, обувной",
+        "spa": "el zapato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This shoe is a size bigger.",
+            "ru": "Этот ботинок на размер больше."
+          },
+          {
+            "en": "My shoes are worn out.",
+            "ru": "Моя обувь изношена."
+          },
+          {
+            "en": "Some gum stuck to his shoes.",
+            "ru": "К его ботинку прилипла жвачка."
+          },
+          {
+            "en": "The shoes are made of leather.",
+            "ru": "Эта обувь сделана из кожи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a pebble in my shoe.",
+            "es": "Se me ha metido una china en el zapato."
+          },
+          {
+            "en": "The shoe doesn't fit me, it's too small.",
+            "es": "El zapato no me entra, es muy chico."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2201,
+      "word": "shoe department",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃuː] [dɪˈpɑːrtmənt]",
+        "br": "[ʃuː] [dɪˈpɑːtmənt]",
+        "gb": "[ʃuː] [dɪˈpɑːtmənt]"
+      },
+      "translations": {
+        "rus": "обувной отдел",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2202,
+      "word": "shoelace, lace",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃuːleɪs], [leɪs]",
+        "br": "[ˈʃuːleɪs], [leɪs]",
+        "gb": "[ˈʃuːleɪs] [leɪs]"
+      },
+      "translations": {
+        "rus": "шнурок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 283,
+      "word": "short",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʃɔːrt]",
+        "br": "[ʃɔːt]",
+        "gb": "[ʃɔːt]"
+      },
+      "translations": {
+        "rus": "низкий, короткий, песочный (о тесте)",
+        "spa": "corto, bajo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is short, but strong.",
+            "ru": "Он низкий, но сильный."
+          },
+          {
+            "en": "He will be back shortly.",
+            "ru": "Он скоро вернётся."
+          },
+          {
+            "en": "She seems short beside her sister.",
+            "ru": "Она кажется низкой рядом со своей сестрой."
+          },
+          {
+            "en": "The short answer is no.",
+            "ru": "Короткий ответ — нет."
+          },
+          {
+            "en": "They are short and thin.",
+            "ru": "Они короткие и узкие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I gave a short talk.",
+            "es": "Di un paseo corto."
+          },
+          {
+            "en": "He is short, but strong.",
+            "es": "Él es bajo, pero fuerte."
+          },
+          {
+            "en": "We ran short of money.",
+            "es": "Estamos cortos de dinero."
+          },
+          {
+            "en": "Her hair is very short.",
+            "es": "Ella tiene el pelo muy corto."
+          },
+          {
+            "en": "My pants are too short.",
+            "es": "Mis pantalones son demasiado cortos."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2203,
+      "word": "shorts",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɔːrts]",
+        "br": "[ʃɔːts]",
+        "gb": "[ʃɔːts]"
+      },
+      "translations": {
+        "rus": "шорты",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Shorts are in fashion now.",
+            "ru": "Шорты сейчас в моде."
+          },
+          {
+            "en": "All he had on was a pair of tattered shorts.",
+            "ru": "Все, что у него было, это пара драных шорт."
+          },
+          {
+            "en": "It is not the local practice to wear shorts to dinner.",
+            "ru": "Здесь не принято выходить к обеду в шортах."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2204,
+      "word": "silk",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[sɪlk]",
+        "br": "[sɪlk]",
+        "gb": "[sɪlk]"
+      },
+      "translations": {
+        "rus": "шелк, шелковый",
+        "spa": "la seda, de seda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Silk outfit is perfect for that special day.",
+            "ru": "Шелковый наряд отлично подойдет для такого особого дня."
+          },
+          {
+            "en": "This silk drapes beautifully.",
+            "ru": "Этот шёлк красиво драпируется."
+          },
+          {
+            "en": "She was wearing a black silk dress.",
+            "ru": "Она была одета в чёрное шёлковое платье."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 2205,
+      "word": "size",
+      "pos": "noun",
+      "transcription": {
+        "us": "[saɪz]",
+        "br": "[saɪz]",
+        "gb": "[saɪz]"
+      },
+      "translations": {
+        "rus": "размер",
+        "spa": "el tamaño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you know your size?",
+            "ru": "Вы знаете Ваш размер?"
+          },
+          {
+            "en": "They're all the same size.",
+            "ru": "Они все одного размера."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They're all the same size.",
+            "es": "Todas tienen el mismo tamaño."
+          },
+          {
+            "en": "These hats are the same size.",
+            "es": "Estos sombreros son del mismo tamaño."
+          },
+          {
+            "en": "The price depends on the size.",
+            "es": "El precio depende del tamaño."
+          },
+          {
+            "en": "Look at the size of that thing!",
+            "es": "¡Mirá el tamaño de esa cosa!"
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "marketing",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2206,
+      "word": "skirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skɜːrt]",
+        "br": "[skɜːt]",
+        "gb": "[skɜːt]"
+      },
+      "translations": {
+        "rus": "юбка",
+        "spa": "la falda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Does this skirt suit me?",
+            "ru": "Эта юбка мне идёт?"
+          },
+          {
+            "en": "The red skirt is new.",
+            "ru": "Красная юбка новая."
+          },
+          {
+            "en": "Which skirt do you like?",
+            "ru": "Какая юбка тебе нравится?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2207,
+      "word": "slacks",
+      "pos": "noun",
+      "transcription": {
+        "us": "[slæks]",
+        "br": "[slæks]",
+        "gb": "[slæks]"
+      },
+      "translations": {
+        "rus": "штаны, брюки",
+        "spa": "el pantalón, los pantalones"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2208,
+      "word": "sleeve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sliːv]",
+        "br": "[sliːv]",
+        "gb": "[sliːv]"
+      },
+      "translations": {
+        "rus": "рукав",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She twitched him by the sleeve.",
+            "ru": "Она дёрнула его за рукав."
+          },
+          {
+            "en": "My sleeve hitched on the nail.",
+            "ru": "Я зацепился рукавом за гвоздь."
+          },
+          {
+            "en": "He sewed a patch onto his sleeve.",
+            "ru": "Он пришил себе на рукав заплатку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2209,
+      "word": "slippers",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈslɪpəz]"
+      },
+      "translations": {
+        "rus": "тапочки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2210,
+      "word": "slit skirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[slɪt] [skɜːrt]",
+        "br": "[slɪt] [skɜːt]",
+        "gb": "[slɪt] [skɜːt]"
+      },
+      "translations": {
+        "rus": "юбка с разрезом",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2211,
+      "word": "sock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɑːk]",
+        "br": "[sɒk]",
+        "gb": "[sɔk]"
+      },
+      "translations": {
+        "rus": "носок",
+        "spa": "el calcetín, la media"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a hole in my sock.",
+            "ru": "У меня дырявый носок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2212,
+      "word": "soft",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[sɔːft]",
+        "br": "[sɒft]",
+        "gb": "[sɔft]"
+      },
+      "translations": {
+        "rus": "мягкий, нежный",
+        "spa": "suave"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Lead is a soft metal.",
+            "ru": "Свинец - мягкий металл."
+          },
+          {
+            "en": "She has a soft voice.",
+            "ru": "У неё нежный голос."
+          },
+          {
+            "en": "You're too soft on him.",
+            "ru": "Ты с ним слишком мягка."
+          },
+          {
+            "en": "Rose petals are very soft.",
+            "ru": "Лепестки роз очень нежны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My skin is soft.",
+            "es": "Mi piel está suave."
+          },
+          {
+            "en": "You have soft hands.",
+            "es": "Tienes las manos suaves."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2213,
+      "word": "spectacles",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspektəklz]",
+        "br": "[ˈspektəklz]",
+        "gb": "[ˈspektəklz]"
+      },
+      "translations": {
+        "rus": "очки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "health",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2214,
+      "word": "stockings",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈstɒkɪŋz]"
+      },
+      "translations": {
+        "rus": "чулки",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stockings are made from the best fingerings.",
+            "ru": "Чулки сделаны из лучших сортов специальной тонкой шерсти."
+          },
+          {
+            "en": "I've snagged my stockings.",
+            "ru": "Я зацепила чулки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2215,
+      "word": "straw hat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[strɔː] [hæt]",
+        "br": "[strɔː] [hæt]",
+        "gb": "[strɔː] [hæt]"
+      },
+      "translations": {
+        "rus": "соломенная шляпа",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2216,
+      "word": "string of pearls",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[strɪŋ] [ɔv] [pɜːlz]"
+      },
+      "translations": {
+        "rus": "нитка жемчуга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2217,
+      "word": "stylish",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstaɪlɪʃ]",
+        "br": "[ˈstaɪlɪʃ]",
+        "gb": "[ˈstaɪlɪʃ]"
+      },
+      "translations": {
+        "rus": "модный, стильный",
+        "spa": "elegante, moderno, de moda, a la moda"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2218,
+      "word": "suit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[suːt]",
+        "br": "[suːt]",
+        "gb": "[sjuːt]"
+      },
+      "translations": {
+        "rus": "костюм",
+        "spa": "el traje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He made me a suit.",
+            "ru": "Он сшил мне костюм."
+          },
+          {
+            "en": "I bought a new suit.",
+            "ru": "Я купил новый костюм."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The suit is custom-made.",
+            "es": "El traje está hecho a la medida."
+          },
+          {
+            "en": "That hat matches the suit.",
+            "es": "Ese sombrero hace juego con el traje."
+          },
+          {
+            "en": "Those shoes do not go with the suit.",
+            "es": "Esos zapatos no van con el traje."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2219,
+      "word": "sunglasses",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnɡlæsɪz]",
+        "br": "[ˈsʌnɡlɑːsɪz]",
+        "gb": "[ˈsʌnglæsɪz]"
+      },
+      "translations": {
+        "rus": "солнцезащитные очки",
+        "spa": "las gafas de sol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is wearing sunglasses.",
+            "ru": "На нём солнцезащитные очки."
+          },
+          {
+            "en": "I bought new sunglasses.",
+            "ru": "Я купил новые солнцезащитные очки."
+          },
+          {
+            "en": "Mary put her sunglasses on.",
+            "ru": "Мэри надела свои солнцезащитные очки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "travel"
+      ]
+    },
+    {
+      "id": 2220,
+      "word": "suspenders",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[səsˈpɛndəz]"
+      },
+      "translations": {
+        "rus": "подтяжки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2221,
+      "word": "swimming costume",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɪmɪŋ] [ˈkɑːstuːm]",
+        "br": "[ˈswɪmɪŋ] [ˈkɒstjuːm]",
+        "gb": "[ˈswɪmɪŋ] [ˈkɔstjuːm]"
+      },
+      "translations": {
+        "rus": "купальный костюм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2222,
+      "word": "swimming trunks",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈswɪmɪŋ] [trʌŋks]"
+      },
+      "translations": {
+        "rus": "плавки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2223,
+      "word": "swimsuit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɪmsuːt]",
+        "br": "[ˈswɪmsuːt]",
+        "gb": "[ˈswɪmsuːt]"
+      },
+      "translations": {
+        "rus": "купальник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2224,
+      "word": "T-shirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtiː ʃɜːrt]",
+        "br": "[ˈtiː ʃɜːt]",
+        "gb": "[ˈtiː ʃɜːt]"
+      },
+      "translations": {
+        "rus": "футболка",
+        "spa": "la camiseta, la remera, la polera, la playera, la franela, el polo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is my favorite T-shirt.",
+            "ru": "Это моя любимая футболка."
+          },
+          {
+            "en": "Your T-shirt is on backwards.",
+            "ru": "Твоя футболка надета задом наперед."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2226,
+      "word": "tank top",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæŋk] [tɑːp]",
+        "br": "[tæŋk] [tɒp]",
+        "gb": "[tæŋk] [tɔp]"
+      },
+      "translations": {
+        "rus": "майка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2227,
+      "word": "three-piece suit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θriː] [piːs] [suːt]",
+        "br": "[θriː] [piːs] [suːt]",
+        "gb": "[θriː] [piːs] [sjuːt]"
+      },
+      "translations": {
+        "rus": "костюм тройка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2228,
+      "word": "tie",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taɪ]",
+        "br": "[taɪ]",
+        "gb": "[taɪ]"
+      },
+      "translations": {
+        "rus": "галстук",
+        "spa": "la corbata, el lazo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do I need a tie?",
+            "ru": "Мне нужен галстук?"
+          },
+          {
+            "en": "Is that a new tie?",
+            "ru": "Это новый галстук?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Loosen your tie.",
+            "es": "Aflojate la corbata."
+          },
+          {
+            "en": "He found me a nice tie.",
+            "es": "Él me encontró una bonita corbata."
+          },
+          {
+            "en": "Your tie has come undone.",
+            "es": "Se te desató la corbata."
+          },
+          {
+            "en": "She helped him tie his tie.",
+            "es": "Ella le ayudó a atarse la corbata."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2230,
+      "word": "tight",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[taɪt]",
+        "br": "[taɪt]",
+        "gb": "[taɪt]"
+      },
+      "translations": {
+        "rus": "тесный, плотный, в обтяжку, крепко",
+        "spa": "apretado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ring is tight.",
+            "ru": "Кольцо тесное."
+          },
+          {
+            "en": "Hold on tight!",
+            "ru": "Держись крепче!"
+          },
+          {
+            "en": "The door was shut tight.",
+            "ru": "Дверь была плотно закрыта."
+          },
+          {
+            "en": "I kept my eyes tight shut.",
+            "ru": "Я держал глаза плотно закрытыми."
+          },
+          {
+            "en": "We have a tight schedule.",
+            "ru": "У нас плотный график."
+          },
+          {
+            "en": "This hat is too tight for me.",
+            "ru": "Эта шляпа слишком тесная."
+          },
+          {
+            "en": "She held her hands tightly over her ears.",
+            "ru": "Она плотно сжала уши руками."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2231,
+      "word": "tights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taɪts]",
+        "br": "[taɪts]",
+        "gb": "[taɪts]"
+      },
+      "translations": {
+        "rus": "колготки",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "These tights are all itchy.",
+            "ru": "Эти колготки вызывают зуд."
+          },
+          {
+            "en": "Yes, I know I've got a ladder in my tights.",
+            "ru": "Да, я знаю, что у меня колготки расползаются."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2106,
+      "word": "to change one's clothes, to get changed",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [ʧeɪnʤ] [wʌnz] [kləʊðz] [tuː] [get] [ʧeɪnʤd]"
+      },
+      "translations": {
+        "rus": "переодеваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2117,
+      "word": "to do up, to button up",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [duː] [ʌp] [tuː] [bʌtn] [ʌp]"
+      },
+      "translations": {
+        "rus": "застёгивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 918,
+      "word": "to dress",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dres]",
+        "br": "[tə] [dres]",
+        "gb": "[tuː] [dres]"
+      },
+      "translations": {
+        "rus": "одевать, одеваться",
+        "spa": "vestir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Kate is dressing her doll.",
+            "ru": "Кейт одевает свою куклу."
+          },
+          {
+            "en": "She dresses like an actress.",
+            "ru": "Она одевается как актриса."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2120,
+      "word": "to dress oneself",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dres] [wʌnˈself]",
+        "br": "[tə] [dres] [wʌnˈself]",
+        "gb": "[tuː] [dres] [wʌnˈself]"
+      },
+      "translations": {
+        "rus": "одеваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2121,
+      "word": "to dye",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [daɪ]",
+        "br": "[tə] [daɪ]",
+        "gb": "[tuː] [daɪ]"
+      },
+      "translations": {
+        "rus": "красить, покрасить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2127,
+      "word": "to fasten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfæsn]",
+        "br": "[tə] [ˈfɑːsn]",
+        "gb": "[tuː] [fɑːsn]"
+      },
+      "translations": {
+        "rus": "застёгивать, прикреплять, завязать, закреплять",
+        "spa": "sujetar, atar, pegar, amarrar, cerrar, abrocharse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She advised him to fasten his seat belt.",
+            "ru": "Она посоветовала ему пристегнуть ремень."
+          },
+          {
+            "en": "Please fasten your seat belt during takeoff and landing.",
+            "ru": "Пожалуйста, пристегивайте ремни во время взлёта и посадки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2128,
+      "word": "to fit well, to be a good fit",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [fɪt] [wel] [tuː] [biː] [ə] [gʊd] [fɪt]"
+      },
+      "translations": {
+        "rus": "хорошо сидеть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 985,
+      "word": "to get dressed",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [drest]",
+        "br": "[tə] [ɡet] [drest]",
+        "gb": "[tuː] [get] [drest]"
+      },
+      "translations": {
+        "rus": "одеваться",
+        "spa": "vestirse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Go and get dressed!",
+            "ru": "Иди и оденься!"
+          },
+          {
+            "en": "I'll leave you now and let you get dressed in peace.",
+            "ru": "Сейчас я уйду и дам тебе спокойно одеться."
+          },
+          {
+            "en": "I bathed, washed my hair, and got dressed.",
+            "ru": "Я принял ванну, вымыл волосы и оделся."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have to get dressed.",
+            "es": "Tenemos que vestirnos."
+          },
+          {
+            "en": "I am going to get dressed.",
+            "es": "Voy a vestirme."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "clothing"
+      ]
+    },
+    {
+      "id": 2179,
+      "word": "to pin",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɪn]",
+        "br": "[tə] [pɪn]",
+        "gb": "[tuː] [pɪn]"
+      },
+      "translations": {
+        "rus": "прикалывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She pinned up her hair.",
+            "ru": "Она заколола свои волосы."
+          },
+          {
+            "en": "Why are you trying to pin the blame on me?",
+            "ru": "Что ты пытаешься свалить вину на меня?"
+          },
+          {
+            "en": "He pinned a sign on the wall.",
+            "ru": "Он прикрепил к стене какой-то знак."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2186,
+      "word": "to put on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ɑːn]",
+        "br": "[tə] [pʊt] [ɒn]",
+        "gb": "[tuː] [pʊt] [ɔn]"
+      },
+      "translations": {
+        "rus": "надевать, включать, приводить в действие",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He put on his best suit for the wedding.",
+            "ru": "На свадьбу он надел свой самый лучший костюм."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 2197,
+      "word": "to sew",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [səʊ]",
+        "br": "[tə] [səʊ]",
+        "gb": "[tuː] [səʊ]"
+      },
+      "translations": {
+        "rus": "шить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2225,
+      "word": "to take off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ɔːf]",
+        "br": "[tə] [teɪk] [ɒf]",
+        "gb": "[tuː] [teɪk] [ɔf]"
+      },
+      "translations": {
+        "rus": "снимать, снимать (одежду), сбрасывать, удалять, убавлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take off your shirt - it's very hot in here.",
+            "ru": "Сними рубашку - здесь очень жарко."
+          },
+          {
+            "en": "He took the responsibility off me.",
+            "ru": "Он снял с меня ответственность."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 2229,
+      "word": "to tie",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [taɪ]",
+        "br": "[tə] [taɪ]",
+        "gb": "[tuː] [taɪ]"
+      },
+      "translations": {
+        "rus": "завязывать, привязывать",
+        "spa": "atar, amarrar, hacer, vincular"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tie him to a tree.",
+            "ru": "Привяжи его к дереву."
+          },
+          {
+            "en": "She tied him to the chair.",
+            "ru": "Она привязала его к стулу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2238,
+      "word": "to unbutton",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˌʌnˈbʌtn]",
+        "br": "[tu] [ˌʌnˈbʌtn]",
+        "gb": "[tuː] [ˈʌnˈbʌtn]"
+      },
+      "translations": {
+        "rus": "расстёгивать, расстегнуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2242,
+      "word": "to undo",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ʌnˈduː]",
+        "br": "[tu] [ʌnˈduː]",
+        "gb": "[tuː] [ˈʌnˈduː]"
+      },
+      "translations": {
+        "rus": "расстёгивать, развязывать",
+        "spa": "desatar, desabrochar, deshacer, reparar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2243,
+      "word": "to undress oneself, to get undressed",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ʌnˈdres] [wʌnˈself], [tə] [ɡet] [ʌnˈdrest]",
+        "br": "[tu] [ʌnˈdres] [wʌnˈself], [tə] [ɡet] [ʌnˈdrest]",
+        "gb": "[tuː] [ˈʌnˈdres] [wʌnˈself] [tuː] [get] [ˈʌnˈdrest]"
+      },
+      "translations": {
+        "rus": "раздеваться, раздеться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2244,
+      "word": "to unfasten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ʌnˈfæsn]",
+        "br": "[tu] [ʌnˈfɑːsn]",
+        "gb": "[tuː] [ˈʌnˈfɑːsn]"
+      },
+      "translations": {
+        "rus": "расстёгивать, расстегнуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2246,
+      "word": "to untie",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ʌnˈtaɪ]",
+        "br": "[tu] [ʌnˈtaɪ]",
+        "gb": "[tuː] [ˈʌnˈtaɪ]"
+      },
+      "translations": {
+        "rus": "развязывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2248,
+      "word": "to veil",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [veɪl]",
+        "br": "[tə] [veɪl]",
+        "gb": "[tuː] [veɪl]"
+      },
+      "translations": {
+        "rus": "вуалировать, скрывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A black kerchief modestly veiled her hair.",
+            "ru": "Её волосы были скромно прикрыты чёрной косынкой."
+          },
+          {
+            "en": "Her eyes were partially veiled by her long, dark hair.",
+            "ru": "Её глаза были частично прикрыты длинными, тёмными волосами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2254,
+      "word": "to wear out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wer] [aʊt]",
+        "br": "[tə] [weə(r)] [aʊt]",
+        "gb": "[tuː] [wɛə] [aʊt]"
+      },
+      "translations": {
+        "rus": "изнашивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2232,
+      "word": "trainers",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈtreɪnərz]"
+      },
+      "translations": {
+        "rus": "кроссовки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2233,
+      "word": "trench coat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trentʃ] [kəʊt]",
+        "br": "[trentʃ] [kəʊt]",
+        "gb": "[trenʧ] [kəʊt]"
+      },
+      "translations": {
+        "rus": "полупальто",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2234,
+      "word": "trousers",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtraʊzərz]",
+        "br": "[ˈtraʊzəz]",
+        "gb": "[ˈtraʊzəz]"
+      },
+      "translations": {
+        "rus": "штаны, брюки",
+        "spa": "el pantalón, los pantalones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "These trousers crease really easily.",
+            "ru": "Эти брюки действительно легко мнутся."
+          },
+          {
+            "en": "His trousers were slightly too short.",
+            "ru": "Его брюки были чуть-чуть коротки."
+          },
+          {
+            "en": "Try not to wrinkle your trousers.",
+            "ru": "Постарайтесь не помять брюки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2235,
+      "word": "tunic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtuːnɪk]",
+        "br": "[ˈtjuːnɪk]",
+        "gb": "[ˈtjuːnɪk]"
+      },
+      "translations": {
+        "rus": "туника",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2236,
+      "word": "tuxedo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʌkˈsiːdəʊ]",
+        "br": "[tʌkˈsiːdəʊ]",
+        "gb": "[tʌkˈsiːdəʊ]"
+      },
+      "translations": {
+        "rus": "смокинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2237,
+      "word": "umbrella",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʌmˈbrelə]",
+        "br": "[ʌmˈbrelə]",
+        "gb": "[ʌmˈbrelə]"
+      },
+      "translations": {
+        "rus": "зонтик",
+        "spa": "el paraguas, la sombrilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can I borrow your umbrella?",
+            "ru": "Могу я взять твой зонт?"
+          },
+          {
+            "en": "I took your umbrella by mistake.",
+            "ru": "Я по ошибке взял твой зонт."
+          },
+          {
+            "en": "This isn't my umbrella, it's somebody else's.",
+            "ru": "Это не мой зонт, а чей-то ещё."
+          },
+          {
+            "en": "I left your umbrella in the bus.",
+            "ru": "Я оставила твой зонтик в автобусе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a1",
+        "travel"
+      ]
+    },
+    {
+      "id": 2239,
+      "word": "underpants",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərpænts]",
+        "br": "[ˈʌndəpænts]",
+        "gb": "[ˈʌndəpænts]"
+      },
+      "translations": {
+        "rus": "(женские) трусы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2240,
+      "word": "undershirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərʃɜːrt]",
+        "br": "[ˈʌndəʃɜːt]",
+        "gb": "[ˈʌndəʃɜːt]"
+      },
+      "translations": {
+        "rus": "майка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2241,
+      "word": "underwear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʌndərwer]",
+        "br": "[ˈʌndəweə(r)]",
+        "gb": "[ˈʌndəwɛə]"
+      },
+      "translations": {
+        "rus": "нижнее бельё",
+        "spa": "la ropa interior"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He stripped down to his underwear.",
+            "ru": "Он разделся до нижнего белья."
+          },
+          {
+            "en": "You just need to take a change of underwear.",
+            "ru": "Нужно просто взять с собой смену белья."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2245,
+      "word": "uniform",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈjuːnɪfɔːrm]",
+        "br": "[ˈjuːnɪfɔːm]",
+        "gb": "[ˈjuːnɪfɔːm]"
+      },
+      "translations": {
+        "rus": "униформа, однородный, равномерный, единый",
+        "spa": "el uniforme"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a uniform?",
+            "ru": "У вас есть униформа?"
+          },
+          {
+            "en": "They were all dressed in uniforms.",
+            "ru": "Они все были одеты в униформу."
+          },
+          {
+            "en": "Employees are required to wear uniforms.",
+            "ru": "Работники должны носить униформу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2247,
+      "word": "veil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[veɪl]",
+        "br": "[veɪl]",
+        "gb": "[veɪl]"
+      },
+      "translations": {
+        "rus": "вуаль",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Women are forbidden from going out without a veil.",
+            "ru": "Женщинам запрещено выходить на улицу без вуали."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2249,
+      "word": "velvet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvelvɪt]",
+        "br": "[ˈvelvɪt]",
+        "gb": "[ˈvelvɪt]"
+      },
+      "translations": {
+        "rus": "бархат",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Velvet feels soft.",
+            "ru": "Бархат мягок на ощупь."
+          },
+          {
+            "en": "She was dressed in black velvet.",
+            "ru": "Она была одета в чёрный бархат."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2250,
+      "word": "vest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vest]",
+        "br": "[vest]",
+        "gb": "[vest]"
+      },
+      "translations": {
+        "rus": "безрукавка, жилет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2251,
+      "word": "violet",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvaɪələt]",
+        "br": "[ˈvaɪələt]",
+        "gb": "[ˈvaɪəlɪt]"
+      },
+      "translations": {
+        "rus": "фиолетовый, темно-лиловый",
+        "spa": "violeta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors"
+      ]
+    },
+    {
+      "id": 2252,
+      "word": "waistcoat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈweɪskəʊt]",
+        "br": "[ˈweɪskəʊt]",
+        "gb": "[ˈweɪskəʊt]"
+      },
+      "translations": {
+        "rus": "жилет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2253,
+      "word": "wallet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɑːlɪt]",
+        "br": "[ˈwɒlɪt]",
+        "gb": "[ˈwɔlɪt]"
+      },
+      "translations": {
+        "rus": "бумажник",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've lost my wallet!",
+            "ru": "Я потерял кошелек!"
+          },
+          {
+            "en": "Sir! You dropped your wallet.",
+            "ru": "Сэр! Вы уронили кошелёк."
+          },
+          {
+            "en": "Someone snitched my wallet!",
+            "ru": "Кто-то стащил мой кошелек!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2255,
+      "word": "white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[waɪt]",
+        "br": "[waɪt]",
+        "gb": "[waɪt]"
+      },
+      "translations": {
+        "rus": "белый",
+        "spa": "blanco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I prefer red wine to white.",
+            "ru": "Я больше люблю красное вино, чем белое."
+          },
+          {
+            "en": "He came out dressed in white.",
+            "ru": "Он вышел, одетый во всё белое."
+          },
+          {
+            "en": "He had a long, white beard.",
+            "ru": "У него была длинная белая борода."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a white cat.",
+            "es": "Tiene un gato blanco."
+          },
+          {
+            "en": "It is white as snow.",
+            "es": "Es blanco como la nieve."
+          },
+          {
+            "en": "Do you like white wine?",
+            "es": "¿Te gusta el vino blanco?"
+          },
+          {
+            "en": "She had white shoes on.",
+            "es": "Ella llevaba unos zapatos blancos."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2256,
+      "word": "windbreaker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndbreɪkər]",
+        "br": "[ˈwɪndbreɪkə(r)]",
+        "gb": "[ˈwɪndbreɪkər]"
+      },
+      "translations": {
+        "rus": "ветровка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2257,
+      "word": "wool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wʊl]",
+        "br": "[wʊl]",
+        "gb": "[wʊl]"
+      },
+      "translations": {
+        "rus": "шерсть",
+        "spa": "la lana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wool is warm.",
+            "ru": "Шерсть тёплая."
+          },
+          {
+            "en": "Sheep give us wool.",
+            "ru": "Овцы дают нам шерсть."
+          },
+          {
+            "en": "Wool prices are falling.",
+            "ru": "Цены на шерсть падают."
+          },
+          {
+            "en": "Mr Brown is a wool merchant.",
+            "ru": "Мистер Браун - торговец шерстью."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2258,
+      "word": "wrist watch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪst] [wɑːtʃ]",
+        "br": "[rɪst] [wɒtʃ]",
+        "gb": "[rɪst] [wɔʧ]"
+      },
+      "translations": {
+        "rus": "наручные часы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing"
+      ]
+    },
+    {
+      "id": 2259,
+      "word": "yellow",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈjeləʊ]",
+        "br": "[ˈjeləʊ]",
+        "gb": "[ˈjeləʊ]"
+      },
+      "translations": {
+        "rus": "жёлтый",
+        "spa": "amarillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Bananas are yellow.",
+            "ru": "Бананы жёлтые."
+          },
+          {
+            "en": "I love my yellow sweater.",
+            "ru": "Я люблю свой жёлтый свитер."
+          },
+          {
+            "en": "Yellow is my favorite color.",
+            "ru": "Жёлтый — мой любимый цвет."
+          },
+          {
+            "en": "My friend bought a yellow car.",
+            "ru": "Мой друг купил жёлтую машину."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There is a yellow rose.",
+            "es": "Hay una rosa amarilla ahí."
+          },
+          {
+            "en": "Don't you like my yellow scarf?",
+            "es": "¿No te gusta mi bufanda amarilla?"
+          },
+          {
+            "en": "He lives in that yellow house.",
+            "es": "Él vive en aquella casa amarilla."
+          },
+          {
+            "en": "The door of the office is yellow.",
+            "es": "La puerta de la oficina es amarilla."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    }
+  ]
+}

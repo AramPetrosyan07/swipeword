@@ -1,0 +1,7615 @@
+{
+  "category": {
+    "id": "phrasal_verbs",
+    "name_rus": "Фразовые глаголы",
+    "type": "topic",
+    "word_count": 216
+  },
+  "words": [
+    {
+      "id": 9570,
+      "word": "to back away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bæk] [əˈweɪ]",
+        "br": "[tə] [bæk] [əˈweɪ]",
+        "gb": "[tuː] [bæk] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "отступать, пятиться, уступать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't back away.",
+            "ru": "Не отступай."
+          },
+          {
+            "en": "Why did you back away?",
+            "ru": "Почему ты уступил?"
+          },
+          {
+            "en": "Back away from the computer.",
+            "ru": "Отойди от компьютера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9571,
+      "word": "to back off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bæk] [ɔːf]",
+        "br": "[tə] [bæk] [ɒf]",
+        "gb": "[tuː] [bæk] [ɔf]"
+      },
+      "translations": {
+        "rus": "отступить, притормозить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Back off! Let me run my own life!",
+            "ru": "Отвали! Позволь мне самому управлять своей жизнью!"
+          },
+          {
+            "en": "I think you should back off for a while.",
+            "ru": "Я думаю, вам лучше на время отступить."
+          },
+          {
+            "en": "You'd better not back off on your promise.",
+            "ru": "Лучше бы вам не отступать от своего обещания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9572,
+      "word": "to bail out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [beɪl] [aʊt]",
+        "br": "[tə] [beɪl] [aʊt]",
+        "gb": "[tuː] [beɪl] [aʊt]"
+      },
+      "translations": {
+        "rus": "выручать, помогать (финансово)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The government cannot bail out every unprofitable company.",
+            "ru": "Правительство не может помогать каждой нерентабельной компании."
+          },
+          {
+            "en": "Bail out workers, not the banks.",
+            "ru": "Спасти рабочих, а не банки."
+          },
+          {
+            "en": "Ma'am, you cannot bail out Charlie Baird's bank.",
+            "ru": "Мэм, нельзя спасать банк Чарли Бэрда."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9573,
+      "word": "to bail out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [beɪl] [aʊt]",
+        "br": "[tə] [beɪl] [aʊt]",
+        "gb": "[tuː] [beɪl] [aʊt]"
+      },
+      "translations": {
+        "rus": "прекращать (что-либо делать или быть вовлеченным)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9574,
+      "word": "to be back",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [bæk]"
+      },
+      "translations": {
+        "rus": "вернуться, возвращаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They won't be back.",
+            "ru": "Они не вернутся."
+          },
+          {
+            "en": "We'll be back by 2:30.",
+            "ru": "Мы вернёмся к 2:30."
+          },
+          {
+            "en": "I'm glad to be back.",
+            "ru": "Я рад, что вернулся."
+          },
+          {
+            "en": "He will be back soon.",
+            "ru": "Он скоро вернётся."
+          },
+          {
+            "en": "I'll be back within an hour.",
+            "ru": "Я вернусь в течение часа."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9575,
+      "word": "to be off",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ɔf]"
+      },
+      "translations": {
+        "rus": "уходить, уезжать, быть свободным, быть не работающим",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I must be off now.",
+            "ru": "А мне надо уходить."
+          },
+          {
+            "en": "You must be off soon.",
+            "ru": "Тебе вскоре пора уходить."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9576,
+      "word": "to be out",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить, отсутствовать, не быть дома (на месте)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He must be out.",
+            "ru": "Он, наверное, вышел."
+          },
+          {
+            "en": "Her new novel will be out next month.",
+            "ru": "Её новый роман выйдет в следующем месяце."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9577,
+      "word": "to be over",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "окончиться, завершиться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Winter will be over soon.",
+            "ru": "Зима скоро закончится."
+          },
+          {
+            "en": "I want this to be over.",
+            "ru": "Я хочу, чтобы это закончилось."
+          },
+          {
+            "en": "When is this crisis going to be over?",
+            "ru": "Когда закончится этот кризис?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9578,
+      "word": "to be up",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ʌp]"
+      },
+      "translations": {
+        "rus": "проснуться, быть бодрствующим, подниматься",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have to be up by 6:30.",
+            "ru": "Я должен проснуться к 6:30."
+          },
+          {
+            "en": "I'll be up all night working.",
+            "ru": "Я всю ночь буду работать. (букв. бодроствовать, работая)"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9579,
+      "word": "to be up to",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ʌp] [tuː]"
+      },
+      "translations": {
+        "rus": "собираться, намереваться что-либо сделать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is he up to?",
+            "ru": "Что он замышляет?"
+          },
+          {
+            "en": "I guess that'll be up to you.",
+            "ru": "Полагаю, это будет зависеть от вас."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9580,
+      "word": "to blow out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bləʊ] [aʊt]",
+        "br": "[tə] [bləʊ] [aʊt]",
+        "gb": "[tuː] [bləʊ] [aʊt]"
+      },
+      "translations": {
+        "rus": "задувать, гасить, взорвать, разбиться вдребезги",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Blow out all the candles.",
+            "ru": "Задуй все свечи."
+          },
+          {
+            "en": "The tyre blew out as I was driving to work.",
+            "ru": "Шина лопнула, когда я ехал на работу."
+          },
+          {
+            "en": "The storm blew out after three days.",
+            "ru": "Через три дня шторм утих."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9581,
+      "word": "to blow up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bləʊ] [ʌp]",
+        "br": "[tə] [bləʊ] [ʌp]",
+        "gb": "[tuː] [bləʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "взрывать, взрываться, раздувать, выйти из себя",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Rebels attempted to blow up the bridge.",
+            "ru": "Мятежники пытались взорвать мост."
+          },
+          {
+            "en": "The plan blew up in his face.",
+            "ru": "Его план рухнул на глазах."
+          },
+          {
+            "en": "Can you blow up this balloon?",
+            "ru": "Вы можете надуть этот шарик?"
+          },
+          {
+            "en": "Help me to blow up these tyres, will you?",
+            "ru": "Ты не поможешь мне накачать шины?"
+          },
+          {
+            "en": "Trouble is blowing up again.",
+            "ru": "Конфликт назревает снова."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9582,
+      "word": "to break down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [daʊn]",
+        "br": "[tə] [breɪk] [daʊn]",
+        "gb": "[tuː] [breɪk] [daʊn]"
+      },
+      "translations": {
+        "rus": "сломаться, сломать, разрушить, выйти из строя",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her car broke down.",
+            "ru": "Ее машина сломалась."
+          },
+          {
+            "en": "My health broke down.",
+            "ru": "Моё здоровье пошатнулось."
+          },
+          {
+            "en": "She suddenly broke down and cried.",
+            "ru": "Она вдруг не выдержала и расплакалась."
+          },
+          {
+            "en": "Both plans broke down.",
+            "ru": "Оба плана провалились."
+          },
+          {
+            "en": "The negotiations broke down.",
+            "ru": "Переговоры сорвались."
+          },
+          {
+            "en": "Police had to break down the door to get into the flat.",
+            "ru": "Чтобы попасть в квартиру, полиции пришлось взломать дверь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9583,
+      "word": "to break in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [ɪn]",
+        "br": "[tə] [breɪk] [ɪn]",
+        "gb": "[tuː] [breɪk] [ɪn]"
+      },
+      "translations": {
+        "rus": "вламываться, врываться, вмешиваться (в разговор)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I didn't break in.",
+            "ru": "Я не вмешивался."
+          },
+          {
+            "en": "Someone tried to break in.",
+            "ru": "Кто-то пытался проникнуть внутрь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9584,
+      "word": "to break into",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [breɪk] [ˈɪntʊ]"
+      },
+      "translations": {
+        "rus": "вламываться, врываться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You did break into the house.",
+            "ru": "Ты ворвался в дом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9585,
+      "word": "to break off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [ɔːf]",
+        "br": "[tə] [breɪk] [ɒf]",
+        "gb": "[tuː] [breɪk] [ɔf]"
+      },
+      "translations": {
+        "rus": "разорвать, прервать(ся), отделить(ся), отломить(ся)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We want to break off this negotiation.",
+            "ru": "Мы хотим прервать эти переговоры."
+          },
+          {
+            "en": "Why did he break off his speech?",
+            "ru": "Почему он прервал свою речь?"
+          },
+          {
+            "en": "Why don't we break off for a while?",
+            "ru": "Почему бы нам не прерваться ненадолго?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9586,
+      "word": "to break out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [aʊt]",
+        "br": "[tə] [breɪk] [aʊt]",
+        "gb": "[tuː] [breɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "вырваться, сбежать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Three men broke out of prison yesterday.",
+            "ru": "Три человека сбежали вчера из тюрьмы."
+          },
+          {
+            "en": "Nobody can break out — this prison is high security.",
+            "ru": "Никому отсюда не вырваться: это тюрьма строгого режима."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9587,
+      "word": "to break out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [aʊt]",
+        "br": "[tə] [breɪk] [aʊt]",
+        "gb": "[tuː] [breɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "вспыхивать, разразиться, внезапно начаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Inevitably, fights break out between the members of contending groups.",
+            "ru": "Неизбежно, между членами соперничающих групп, возникают стычки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9588,
+      "word": "to break up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [ʌp]",
+        "br": "[tə] [breɪk] [ʌp]",
+        "gb": "[tuː] [breɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "расставаться, расходиться, разбивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you two break up?",
+            "ru": "Вы расстались?"
+          },
+          {
+            "en": "I plan to break up with her.",
+            "ru": "Я планирую порвать с ней."
+          },
+          {
+            "en": "Your mother is trying to break up our marriage.",
+            "ru": "Твоя мать пытается разбить наш брак."
+          },
+          {
+            "en": "I think we should break up.",
+            "ru": "Я думаю, нам надо расстаться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9589,
+      "word": "to burst out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bɜːrst] [aʊt]",
+        "br": "[tə] [bɜːst] [aʊt]",
+        "gb": "[tuː] [bɜːst] [aʊt]"
+      },
+      "translations": {
+        "rus": "разразиться, вспыхивать, вырываться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She burst out crying.",
+            "ru": "Она расплакалась."
+          },
+          {
+            "en": "They all burst out laughing.",
+            "ru": "Они все рассмеялись."
+          },
+          {
+            "en": "He burst out of the house.",
+            "ru": "Он выскочил из дома."
+          },
+          {
+            "en": "Three men burst out of prison yesterday.",
+            "ru": "Вчера из тюрьмы сбежали трое заключённых."
+          },
+          {
+            "en": "Upon hearing the news, she burst out crying.",
+            "ru": "Услышав новости, она расплакалась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9590,
+      "word": "to call back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kɔːl] [bæk]",
+        "br": "[tə] [kɔːl] [bæk]",
+        "gb": "[tuː] [kɔːl] [bæk]"
+      },
+      "translations": {
+        "rus": "перезвонить, звать обратно",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please call back.",
+            "ru": "Пожалуйста, перезвони."
+          },
+          {
+            "en": "Do you want me to call back?",
+            "ru": "Хочешь, я перезвоню?"
+          },
+          {
+            "en": "Can you call back later?",
+            "ru": "Ты можешь перезвонить потом?"
+          },
+          {
+            "en": "I'll call back as soon as I can.",
+            "ru": "Я перезвоню сразу, как смогу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9591,
+      "word": "to calm down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kɑːm] [daʊn]",
+        "br": "[tə] [kɑːm] [daʊn]",
+        "gb": "[tuː] [kɑːm] [daʊn]"
+      },
+      "translations": {
+        "rus": "успокаивать(ся)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Calm down, son.",
+            "ru": "Успокойся, сынок."
+          },
+          {
+            "en": "Calm down! Don't get nervous!",
+            "ru": "Спокойно! Без нервов!"
+          },
+          {
+            "en": "Calm down and be cool.",
+            "ru": "Успокойся и не нервничай."
+          },
+          {
+            "en": "You guys need to calm down.",
+            "ru": "Парни, вам надо успокоиться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9592,
+      "word": "to carry on (doing smth)",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [ˈkærɪ] [ɔn]"
+      },
+      "translations": {
+        "rus": "продолжать заниматься чем-л.",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I can't carry on like this.",
+            "ru": "Я так больше не могу."
+          },
+          {
+            "en": "Carry on with your work.",
+            "ru": "Продолжай работать."
+          },
+          {
+            "en": "We have no choice but to carry on.",
+            "ru": "У нас нет другого выбора, кроме как продолжать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 2304,
+      "word": "to carry out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈkæri] [aʊt]",
+        "br": "[tə] [ˈkæri] [aʊt]",
+        "gb": "[tuː] [ˈkærɪ] [aʊt]"
+      },
+      "translations": {
+        "rus": "выполнять, реализовывать, осуществлять (план, приказ, обещание и т.п.)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We all have certain duties and jobs to carry out.",
+            "ru": "У всех нас есть обязанности и дела, которые мы должны исполнять."
+          },
+          {
+            "en": "Although in poor health, she continued to carry out her duties.",
+            "ru": "Несмотря на слабое здоровье, она продолжала выполнять свои обязанности."
+          },
+          {
+            "en": "The gunmen carried out their threat and shot the man.",
+            "ru": "Бандиты привели угрозу в исполнение и застрелили его."
+          },
+          {
+            "en": "You should carry out your promises.",
+            "ru": "Ты должен выполнять свои обещания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9593,
+      "word": "to cash in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kæʃ] [ɪn]",
+        "br": "[tə] [kæʃ] [ɪn]",
+        "gb": "[tuː] [kæʃ] [ɪn]"
+      },
+      "translations": {
+        "rus": "наживаться, зарабатывать деньги, выгодно пользоваться, обналичивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wouldn't like to cash in on other people's misfortunes.",
+            "ru": "Я не хотел бы наживаться на чужих бедах."
+          },
+          {
+            "en": "I'm going to cash in my cheque soon.",
+            "ru": "Я собираюсь в скором времени обналичить свой чек."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4291,
+      "word": "to catch up",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": "[tə] [kætʃ] [ʌp]",
+        "gb": "[tuː] [kæʧ] [ʌp]"
+      },
+      "translations": {
+        "rus": "догнать, настичь, наверстать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll catch up with you.",
+            "ru": "Я тебя догоню."
+          },
+          {
+            "en": "We'll catch up.",
+            "ru": "Мы наверстаем упущенное."
+          },
+          {
+            "en": "He'll catch up with us in an hour.",
+            "ru": "Он догонит нас через час."
+          },
+          {
+            "en": "I need to catch up on some sleep.",
+            "ru": "Мне надо немного поспать. (букв. наверстать, что недоспал)"
+          },
+          {
+            "en": "Go on ahead. I'll catch up with you soon.",
+            "ru": "Иди вперед, я скоро догоню тебя."
+          },
+          {
+            "en": "Your lack of sleep will catch up with you someday.",
+            "ru": "Недосыпание когда-нибудь тебе аукнется."
+          },
+          {
+            "en": "I quickened my steps to catch up with her.",
+            "ru": "Я ускорил свой шаг, чтобы догнать её."
+          },
+          {
+            "en": "I ran as fast as possible to catch up with her.",
+            "ru": "Я бежал как можно быстрее, чтобы догнать её."
+          },
+          {
+            "en": "No matter how fast you run, you won't catch up with him.",
+            "ru": "Как бы быстро ты ни бежал, тебе его не догнать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4292,
+      "word": "to catch up",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": "[tə] [kætʃ] [ʌp]",
+        "gb": "[tuː] [kæʧ] [ʌp]"
+      },
+      "translations": {
+        "rus": "встретиться, пообщаться, обсудить, поболтать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Catch up with you later?",
+            "ru": "Поболтаем позже?"
+          },
+          {
+            "en": "We should catch up sometime.",
+            "ru": "Мы должны пообщаться как-нибудь."
+          },
+          {
+            "en": "You can catch up with Rose.",
+            "ru": "Ты можешь поболтать с Розой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9594,
+      "word": "to check in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tʃek] [ɪn]",
+        "br": "[tə] [tʃek] [ɪn]",
+        "gb": "[tuː] [ʧek] [ɪn]"
+      },
+      "translations": {
+        "rus": "(за)регистрироваться (в отеле, аэропорту и т.п.), заселяться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'd like to check in.",
+            "ru": "Я бы хотел зарегистрироваться."
+          },
+          {
+            "en": "Can I check in now?",
+            "ru": "Я могу зарегистрироваться сейчас?"
+          },
+          {
+            "en": "Provided you have a reservation, you can check in anytime.",
+            "ru": "При условии, что у вас есть бронь, вы можете заселиться в любое время."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9595,
+      "word": "to check out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tʃek] [aʊt]",
+        "br": "[tə] [tʃek] [aʊt]",
+        "gb": "[tuː] [ʧek] [aʊt]"
+      },
+      "translations": {
+        "rus": "проверять, выяснять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'd like to check out.",
+            "ru": "Я бы хотел проверить."
+          },
+          {
+            "en": "What time is check out?",
+            "ru": "Во сколько выселение?"
+          },
+          {
+            "en": "Check out this necklace.",
+            "ru": "Зацени это ожерелье."
+          },
+          {
+            "en": "When should we check out?",
+            "ru": "Когда нам нужно выселиться?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9596,
+      "word": "to check out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tʃek] [aʊt]",
+        "br": "[tə] [tʃek] [aʊt]",
+        "gb": "[tuː] [ʧek] [aʊt]"
+      },
+      "translations": {
+        "rus": "выписываться, выселяться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'd like to check out.",
+            "ru": "Я бы хотел проверить."
+          },
+          {
+            "en": "What time is check out?",
+            "ru": "Во сколько выселение?"
+          },
+          {
+            "en": "Check out this necklace.",
+            "ru": "Зацени это ожерелье."
+          },
+          {
+            "en": "When should we check out?",
+            "ru": "Когда нам нужно выселиться?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9597,
+      "word": "to clean up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kliːn] [ʌp]",
+        "br": "[tə] [kliːn] [ʌp]",
+        "gb": "[tuː] [kliːn] [ʌp]"
+      },
+      "translations": {
+        "rus": "чистить(ся), убирать(ся), приводить в порядок",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Clean up the room.",
+            "ru": "Уберись в комнате."
+          },
+          {
+            "en": "Let's clean up this mess.",
+            "ru": "Давай уберём этот беспорядок."
+          },
+          {
+            "en": "We must clean up the kitchen.",
+            "ru": "Мы должны вычистить кухню."
+          },
+          {
+            "en": "We need to clean up after ourselves.",
+            "ru": "Нам нужно убрать за собой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9598,
+      "word": "to close down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kləʊz] [daʊn]",
+        "br": "[tə] [kləʊz] [daʊn]",
+        "gb": "[tuː] [kləʊs] [daʊn]"
+      },
+      "translations": {
+        "rus": "закрывать(ся), прекращать деятельность",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The company is losing money and may have to close down.",
+            "ru": "Компания теряет деньги, и возможно, что придётся её закрыть."
+          },
+          {
+            "en": "They can't close down the school without an order from the governor's office.",
+            "ru": "Они не могут закрыть эту школу без распоряжения губернатора."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4297,
+      "word": "to come across",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [əˈkrɔːs]",
+        "br": "[tə] [kʌm] [əˈkrɒs]",
+        "gb": "[tuː] [kʌm] [əˈkrɔs]"
+      },
+      "translations": {
+        "rus": "натолкнуться на, случайно встретить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "If you come across my book, will you send it to me?",
+            "ru": "Если ты наткнёшься на мою книгу, отправишь мне её?"
+          },
+          {
+            "en": "I have never come across such a stubborn person.",
+            "ru": "Я никогда не встречал такого упёртого человека."
+          },
+          {
+            "en": "We often come across Japanese tourists in this area.",
+            "ru": "Мы часто встречаем японских туристов в этом районе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9599,
+      "word": "to come along",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [əˈlɔːŋ]",
+        "br": "[tə] [kʌm] [əˈlɒŋ]",
+        "gb": "[tuː] [kʌm] [əˈlɔŋ]"
+      },
+      "translations": {
+        "rus": "идти вместе, сопровождать, приходить, появляться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come along with me.",
+            "ru": "Пойдём со мной."
+          },
+          {
+            "en": "Come along, children.",
+            "ru": "Пойдёмте вместе, дети."
+          },
+          {
+            "en": "I'd like to come along.",
+            "ru": "Я хотел бы присоединиться."
+          },
+          {
+            "en": "Do you want to come along?",
+            "ru": "Ты не хочешь поехать со мной?"
+          },
+          {
+            "en": "Come along with us if you like.",
+            "ru": "Пойдём с нами, если хочешь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9600,
+      "word": "to come back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [bæk]",
+        "br": "[tə] [kʌm] [bæk]",
+        "gb": "[tuː] [kʌm] [bæk]"
+      },
+      "translations": {
+        "rus": "возвращаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We want to come back.",
+            "ru": "Мы хотим вернуться."
+          },
+          {
+            "en": "Come back tomorrow.",
+            "ru": "Возвращайтесь завтра."
+          },
+          {
+            "en": "I'll never come back.",
+            "ru": "Я никогда не вернусь."
+          },
+          {
+            "en": "He will come back at four.",
+            "ru": "Он вернётся в четыре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9601,
+      "word": "to come by",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [baɪ]",
+        "br": "[tə] [kʌm] [baɪ]",
+        "gb": "[tuː] [kʌm] [baɪ]"
+      },
+      "translations": {
+        "rus": "заходить, заглядывать, навещать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come by tomorrow.",
+            "ru": "Заходи завтра."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9602,
+      "word": "to come by (something)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [baɪ] [ˈsʌmθɪŋ]",
+        "br": "[tə] [kʌm] [baɪ] [ˈsʌmθɪŋ]",
+        "gb": "[tuː] [kʌm] [baɪ]"
+      },
+      "translations": {
+        "rus": "доставать, получать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How did you come by it?",
+            "ru": "Как вы его получили?"
+          },
+          {
+            "en": "Hard to come by and it was on coupons.",
+            "ru": "Трудно достать, и это было по купонам."
+          },
+          {
+            "en": "Where did you come by it?",
+            "ru": "А где ты его нашел?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9603,
+      "word": "to come down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [daʊn]",
+        "br": "[tə] [kʌm] [daʊn]",
+        "gb": "[tuː] [kʌm] [daʊn]"
+      },
+      "translations": {
+        "rus": "разбиться (о самолёте), разрушиться (о здании или конструкции)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The building is about to come down.",
+            "ru": "Здание вот-вот рухнет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9604,
+      "word": "to come down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [daʊn]",
+        "br": "[tə] [kʌm] [daʊn]",
+        "gb": "[tuː] [kʌm] [daʊn]"
+      },
+      "translations": {
+        "rus": "спускаться, опускаться, уменьшаться, снижаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come down here.",
+            "ru": "Спускайся сюда."
+          },
+          {
+            "en": "The prices will come down.",
+            "ru": "Цены снизятся."
+          },
+          {
+            "en": "The price of coffee has come down.",
+            "ru": "Цена на кофе упала."
+          },
+          {
+            "en": "He waited for the elevator to come down.",
+            "ru": "Он ждал, пока спустится лифт."
+          },
+          {
+            "en": "We all want prices to come down.",
+            "ru": "Мы все хотим, чтобы цены снизились."
+          },
+          {
+            "en": "We heard him come down the stairs.",
+            "ru": "Мы слышали, как он спускается по лестнице."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9605,
+      "word": "to come forward (forth)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ˈfɔːrwərd] [fɔːrθ]",
+        "br": "[tə] [kʌm] [ˈfɔːwəd] [fɔːθ]",
+        "gb": "[tuː] [kʌm] [ˈfɔːwəd]"
+      },
+      "translations": {
+        "rus": "выходить вперед, выдвигаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Many people came forward to help.",
+            "ru": "Многие люди предложили свою помощь. (букв. вышли вперёд, чтобы помочь)"
+          },
+          {
+            "en": "So far, only one candidate has come forward.",
+            "ru": "К настоящему времени, откликнулся только один кандидат."
+          },
+          {
+            "en": "The police have asked for witnesses of the accident to come forward.",
+            "ru": "Полиция попросила откликнуться свидетелей данного несчастного случая."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9606,
+      "word": "to come from",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [kʌm] [frɔm]"
+      },
+      "translations": {
+        "rus": "происходить из, от (по причине), взяться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where do you come from?",
+            "ru": "Откуда вы?"
+          },
+          {
+            "en": "I come from the future.",
+            "ru": "Я из будущего."
+          },
+          {
+            "en": "Where did this money come from?",
+            "ru": "Откуда эти деньги?"
+          },
+          {
+            "en": "He has come from Boston.",
+            "ru": "Он приехал из Бостона."
+          },
+          {
+            "en": "Where does all that noise come from?",
+            "ru": "Откуда идёт весь этот шум?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9607,
+      "word": "to come in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ɪn]",
+        "br": "[tə] [kʌm] [ɪn]",
+        "gb": "[tuː] [kʌm] [ɪn]"
+      },
+      "translations": {
+        "rus": "входить, прибывать, приходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do come in!",
+            "ru": "Входи же!"
+          },
+          {
+            "en": "Come in and sit down.",
+            "ru": "Проходи и садись."
+          },
+          {
+            "en": "Come in for a minute.",
+            "ru": "Зайди на минутку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9608,
+      "word": "to come off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ɔːf]",
+        "br": "[tə] [kʌm] [ɒf]",
+        "gb": "[tuː] [kʌm] [ɔf]"
+      },
+      "translations": {
+        "rus": "отделяться, отрываться, покидать, сходить, слезать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The lid doesn't want to come off.",
+            "ru": "Крышка не хочет сниматься."
+          },
+          {
+            "en": "One of your buttons has come off.",
+            "ru": "Одна из твоих пуговиц оторвалась."
+          },
+          {
+            "en": "A button has come off my raincoat.",
+            "ru": "От моего плаща оторвалась пуговица."
+          },
+          {
+            "en": "I don't think these ink stains will come off.",
+            "ru": "Я не думаю, что эти пятна от чернил сойдут."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5371,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить (в т.ч. о фильме, журнале, газете)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come out of there.",
+            "ru": "Выходи оттуда."
+          },
+          {
+            "en": "The moon has come out.",
+            "ru": "Луна появилась."
+          },
+          {
+            "en": "You can come out now.",
+            "ru": "Теперь можешь выходить."
+          },
+          {
+            "en": "This cork will not come out.",
+            "ru": "Эта пробка не вылезет."
+          },
+          {
+            "en": "This stain won't come out.",
+            "ru": "Это пятно не хочет исчезать."
+          },
+          {
+            "en": "Come out peacefully.",
+            "ru": "Выходите без резких движений."
+          },
+          {
+            "en": "One of the screws has come out.",
+            "ru": "Один из винтов выкрутился."
+          },
+          {
+            "en": "Come out with your hands up.",
+            "ru": "Выходите с поднятыми руками."
+          },
+          {
+            "en": "When will the new magazine come out?",
+            "ru": "Когда выйдет новый журнал?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5372,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выясняться, становиться известным",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5373,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "публично выступать, публично заявлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9609,
+      "word": "to come over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ˈəʊvər]",
+        "br": "[tə] [kʌm] [ˈəʊvə(r)]",
+        "gb": "[tuː] [kʌm] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "присоединяться, приходить, подходить, приезжать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll come over.",
+            "ru": "Я зайду."
+          },
+          {
+            "en": "Come over any time.",
+            "ru": "Заходи в любое время."
+          },
+          {
+            "en": "Won't you come over to my place?",
+            "ru": "Не зайдёшь ко мне?"
+          },
+          {
+            "en": "Would you come over here?",
+            "ru": "Ты не подойдешь сюда?"
+          },
+          {
+            "en": "I'll come over this evening.",
+            "ru": "Я сегодня вечером заеду."
+          },
+          {
+            "en": "I can't come over tonight.",
+            "ru": "Я не могу прийти сегодня вечером."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9610,
+      "word": "to come up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ʌp]",
+        "br": "[tə] [kʌm] [ʌp]",
+        "gb": "[tuː] [kʌm] [ʌp]"
+      },
+      "translations": {
+        "rus": "подойти, подниматься, приближаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come up here.",
+            "ru": "Подойди сюда."
+          },
+          {
+            "en": "The sun will come up soon.",
+            "ru": "Солнце скоро взойдёт."
+          },
+          {
+            "en": "Could you come up here?",
+            "ru": "Ты не мог бы сюда подойти?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4301,
+      "word": "to come up with",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [ʌp] [wɪð]",
+        "br": "[tə] [kʌm] [ʌp] [wɪð]",
+        "gb": "[tuː] [kʌm] [ʌp] [wɪð]"
+      },
+      "translations": {
+        "rus": "придумать, предложить, появиться, возникнуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What have you come up with?",
+            "ru": "Что вы придумали?"
+          },
+          {
+            "en": "I'll come up with something.",
+            "ru": "Я что-нибудь придумаю."
+          },
+          {
+            "en": "Let's come up with a new plan.",
+            "ru": "Давайте придумаем новый план."
+          },
+          {
+            "en": "How did you come up with that idea?",
+            "ru": "Как тебе пришла в голову эта идея?"
+          },
+          {
+            "en": "We hope to come up with a solution soon.",
+            "ru": "Мы надеемся быстро найти решение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4305,
+      "word": "to count on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kaʊnt] [ɑːn]",
+        "br": "[tə] [kaʊnt] [ɒn]",
+        "gb": "[tuː] [kaʊnt] [ɔn]"
+      },
+      "translations": {
+        "rus": "рассчитывать на (что-либо или кого-либо)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wouldn't count on it.",
+            "ru": "Я бы на это не рассчитывал."
+          },
+          {
+            "en": "You can count on him.",
+            "ru": "Ты можешь на него рассчитывать."
+          },
+          {
+            "en": "What do we count on now?",
+            "ru": "На что мы теперь рассчитываем?"
+          },
+          {
+            "en": "Don't count on his assistance.",
+            "ru": "Не рассчитывай на его поддержку."
+          },
+          {
+            "en": "You can count on my support.",
+            "ru": "Вы можете рассчитывать на мою поддержку."
+          },
+          {
+            "en": "They knew they could count on Mary.",
+            "ru": "Они знали, что могут рассчитывать на Мэри."
+          },
+          {
+            "en": "You shouldn't count on others for help.",
+            "ru": "Ты не должен рассчитывать на чужую помощь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9611,
+      "word": "to cut off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌt] [ɔːf]",
+        "br": "[tə] [kʌt] [ɒf]",
+        "gb": "[tuː] [kʌt] [ɔf]"
+      },
+      "translations": {
+        "rus": "отрезать, отсекать, прерывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We cut off the rope.",
+            "ru": "Мы обрезали веревку."
+          },
+          {
+            "en": "He cut off a piece of meat.",
+            "ru": "Он отрезал кусок мяса."
+          },
+          {
+            "en": "The water was cut off yesterday.",
+            "ru": "Вчера отключили воду."
+          },
+          {
+            "en": "He cut off two meters of the rope.",
+            "ru": "Он отрезал от верёвки два метра."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9612,
+      "word": "to cut out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌt] [aʊt]",
+        "br": "[tə] [kʌt] [aʊt]",
+        "gb": "[tuː] [kʌt] [aʊt]"
+      },
+      "translations": {
+        "rus": "вырезать, исключать, останавливать (работу чего-либо)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "May I cut out the article about my performance?",
+            "ru": "Можно я вырежу статью о своём выступлении?"
+          },
+          {
+            "en": "The engine abruptly cut out.",
+            "ru": "Двигатель внезапно заглох."
+          },
+          {
+            "en": "The bicyclist was cut out by the van.",
+            "ru": "Грузовик отрезал путь велосипедисту."
+          },
+          {
+            "en": "The pump suddenly cut out.",
+            "ru": "Насос внезапно перестал работать."
+          },
+          {
+            "en": "You'd better cut out that last sentence.",
+            "ru": "Последнее предложение лучше убрать."
+          },
+          {
+            "en": "The doctor told my husband to cut out meat from his food.",
+            "ru": "Доктор велел моему мужу исключить мясо из рациона."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4318,
+      "word": "to dress up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dres] [ʌp]",
+        "br": "[tə] [dres] [ʌp]",
+        "gb": "[tuː] [dres] [ʌp]"
+      },
+      "translations": {
+        "rus": "нарядиться, приодеться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The prisoners escaped by dressing up as guards.",
+            "ru": "Заключённые сбежали, переодевшись охранниками."
+          },
+          {
+            "en": "Mary dressed up for the party.",
+            "ru": "Для вечеринки Мэри принарядилась."
+          },
+          {
+            "en": "The children enjoy dressing up in Mother's old clothes.",
+            "ru": "Дети обожают переодеваться в мамину старую одежду."
+          },
+          {
+            "en": "Don't try to dress up the unpleasant truth.",
+            "ru": "Не пытайтесь приукрасить неприятную правду."
+          },
+          {
+            "en": "The researcher tried to dress up the uninteresting data.",
+            "ru": "Исследователь попытался приукрасить неинтересные данные."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9613,
+      "word": "to drum up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [drʌm] [ʌp]",
+        "br": "[tə] [drʌm] [ʌp]",
+        "gb": "[tuː] [drʌm] [ʌp]"
+      },
+      "translations": {
+        "rus": "привлекать (интерес, внимание, инвестиции), зазывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He regularly travels abroad to drum up investment.",
+            "ru": "Он регулярно выезжает за границу, чтобы привлечь инвестиции."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9614,
+      "word": "to eat out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [iːt] [aʊt]",
+        "br": "[tu] [iːt] [aʊt]",
+        "gb": "[tuː] [iːt] [aʊt]"
+      },
+      "translations": {
+        "rus": "есть вне дома",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We like to eat out.",
+            "ru": "Нам нравится есть вне дома."
+          },
+          {
+            "en": "Do you eat out often?",
+            "ru": "Ты часто ешь вне дома?"
+          },
+          {
+            "en": "Let's eat out this evening.",
+            "ru": "Давай поужинаем вне дома этим вечером."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9615,
+      "word": "to end up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [end] [ʌp]",
+        "br": "[tu] [end] [ʌp]",
+        "gb": "[tuː] [end] [ʌp]"
+      },
+      "translations": {
+        "rus": "закончить, попасть, оказаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I never imagined we'd end up like this.",
+            "ru": "Никогда не думал, что мы вот так закончим."
+          },
+          {
+            "en": "I don't want to end up in court.",
+            "ru": "Я не хочу попасть под суд."
+          },
+          {
+            "en": "You'll end up in the hospital.",
+            "ru": "Ты так в больницу попадёшь."
+          },
+          {
+            "en": "She'll end up being fed up with it.",
+            "ru": "Она закончит тем, что ей это надоест."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9616,
+      "word": "to fall down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɔːl] [daʊn]",
+        "br": "[tə] [fɔːl] [daʊn]",
+        "gb": "[tuː] [fɔːl] [daʊn]"
+      },
+      "translations": {
+        "rus": "падать, упасть, рухнуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tree was ready to fall down.",
+            "ru": "Дерево было готово упасть."
+          },
+          {
+            "en": "Babies often fall down.",
+            "ru": "Малыши часто падают."
+          },
+          {
+            "en": "Why doesn't the moon fall down?",
+            "ru": "Почему Луна не падает?"
+          },
+          {
+            "en": "My pants fall down without a belt.",
+            "ru": "Без ремня мои брюки спадают."
+          },
+          {
+            "en": "In the winter, many older people slip on ice and fall down.",
+            "ru": "Зимой много людей старшего возраста поскальзываются на льду и падают."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9617,
+      "word": "to fall off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɔːl] [ɔːf]",
+        "br": "[tə] [fɔːl] [ɒf]",
+        "gb": "[tuː] [fɔːl] [ɔf]"
+      },
+      "translations": {
+        "rus": "падать, отпадать, отваливаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did she fall off the cliff by accident, or was she pushed off?",
+            "ru": "Она случайно упала со скалы, или ее столкнули?"
+          },
+          {
+            "en": "Student numbers have been falling off recently.",
+            "ru": "Наплыв студентов упал в последнее время."
+          },
+          {
+            "en": "The quality of performance has fallen off since last year.",
+            "ru": "Качество исполнения по сравнению с прошлым годом ухудшилось."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9618,
+      "word": "to fall through",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɔːl] [θruː]",
+        "br": "[tə] [fɔːl] [θruː]",
+        "gb": "[tuː] [fɔːl] [θruː]"
+      },
+      "translations": {
+        "rus": "провалиться, терпеть неудачу",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9619,
+      "word": "to figure out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfɪɡjər] [aʊt]",
+        "br": "[tə] [ˈfɪɡə(r)] [aʊt]",
+        "gb": "[tuː] [ˈfɪɡjər] [aʊt]"
+      },
+      "translations": {
+        "rus": "сообразить, выяснить, понять, разобраться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm trying to figure out something.",
+            "ru": "Я пытаюсь кое-что понять."
+          },
+          {
+            "en": "Can you figure out this problem?",
+            "ru": "Вы можете решить эту задачу?"
+          },
+          {
+            "en": "We've got to figure out what's wrong.",
+            "ru": "Нам надо выяснить, что не так."
+          },
+          {
+            "en": "I couldn't figure out how to do it.",
+            "ru": "Я не понимал, как это делается."
+          },
+          {
+            "en": "The passwords were easy to figure out.",
+            "ru": "Пароли было легко отгадать."
+          },
+          {
+            "en": "I'm trying to figure out where I should go.",
+            "ru": "Я пытаюсь сообразить, куда идти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4340,
+      "word": "to find out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [faɪnd] [aʊt]",
+        "br": "[tə] [faɪnd] [aʊt]",
+        "gb": "[tuː] [faɪnd] [aʊt]"
+      },
+      "translations": {
+        "rus": "узнать, обнаружить, выяснить, найти",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let me find out.",
+            "ru": "Дай мне выяснить."
+          },
+          {
+            "en": "When did you find out?",
+            "ru": "Когда ты узнал?"
+          },
+          {
+            "en": "No one will find out.",
+            "ru": "Никто не узнает."
+          },
+          {
+            "en": "We have to find out.",
+            "ru": "Мы должны выяснить."
+          },
+          {
+            "en": "Find out who they are.",
+            "ru": "Выясните, кто они такие."
+          },
+          {
+            "en": "Did someone find out about us?",
+            "ru": "Про нас кто-то узнал?"
+          },
+          {
+            "en": "How do we find out?",
+            "ru": "Как мы узнаем?"
+          },
+          {
+            "en": "Find out who they are.",
+            "ru": "Узнай, кто они."
+          },
+          {
+            "en": "When did you find out?",
+            "ru": "Когда ты узнал?"
+          },
+          {
+            "en": "How did the police find out?",
+            "ru": "Откуда полиция узнала?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9620,
+      "word": "to freak out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [friːk] [aʊt]",
+        "br": "[tə] [friːk] [aʊt]",
+        "gb": "[tuː] [friːk] [aʊt]"
+      },
+      "translations": {
+        "rus": "сводить с ума, пугать, злить, бесить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do not freak out.",
+            "ru": "Не сходи с ума."
+          },
+          {
+            "en": "My mother would freak out if she knew about it.",
+            "ru": "Моя мать была бы в ужасе, если бы узнала об этом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9621,
+      "word": "to get ahead",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [əˈhed]",
+        "br": "[tə] [ɡet] [əˈhed]",
+        "gb": "[tuː] [get] [əˈhed]"
+      },
+      "translations": {
+        "rus": "быть впереди, выигрывать, преуспевать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is always stepping on others to get ahead.",
+            "ru": "Она идёт по головам, чтобы достичь своей цели."
+          },
+          {
+            "en": "He used his wits to get ahead.",
+            "ru": "Он использовал свой ум, чтобы преуспеть."
+          },
+          {
+            "en": "She soon found that it wasn't easy to get ahead in the movie business.",
+            "ru": "Вскоре она убедилась, что в кинобизнесе не так-то просто добиться успеха."
+          },
+          {
+            "en": "He sacrificed his personal life in order to get ahead in his career.",
+            "ru": "Он пожертвовал личной жизнью, чтобы преуспеть в своей карьере."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4354,
+      "word": "to get along (with)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [əˈlɔːŋ]",
+        "br": "[tə] [ɡet] [əˈlɒŋ]",
+        "gb": "[tuː] [get] [əˈlɔŋ]"
+      },
+      "translations": {
+        "rus": "уживаться, ладить, быть в хороших отношениях",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We get along great.",
+            "ru": "Мы отлично ладим."
+          },
+          {
+            "en": "I get along well with her.",
+            "ru": "Я хорошо с ней лажу."
+          },
+          {
+            "en": "They don't get along together.",
+            "ru": "Они не ладят друг с другом."
+          },
+          {
+            "en": "My cat and dog get along.",
+            "ru": "Моя кошка ладит с моей собакой."
+          },
+          {
+            "en": "I didn't get along with her.",
+            "ru": "Я с ней не ладил."
+          },
+          {
+            "en": "He is hard to get along with.",
+            "ru": "С ним трудно поладить."
+          },
+          {
+            "en": "Do you get along with your neighbors?",
+            "ru": "Ты ладишь с соседями?"
+          },
+          {
+            "en": "I found it difficult to get along with him.",
+            "ru": "Мне было трудно ладить с ним."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9622,
+      "word": "to get around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [əˈraʊnd]",
+        "br": "[tə] [ɡet] [əˈraʊnd]",
+        "gb": "[tuː] [get] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "обойти, преодолеть, справиться, перехитрить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can I somehow get around this restriction?",
+            "ru": "Могу ли я как-то обойти это ограничение?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9623,
+      "word": "to get away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [əˈweɪ]",
+        "br": "[tə] [ɡet] [əˈweɪ]",
+        "gb": "[tuː] [get] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "удрать, ускользнуть, уходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's get away from here.",
+            "ru": "Уходим отсюда."
+          },
+          {
+            "en": "I need to get away.",
+            "ru": "Мне нужно улизнуть."
+          },
+          {
+            "en": "Don't let them get away.",
+            "ru": "Не давайте им сбежать."
+          },
+          {
+            "en": "You won't get away with this.",
+            "ru": "Это не сойдёт тебе с рук."
+          },
+          {
+            "en": "Grab him! Don't let him get away.",
+            "ru": "Хватайте его! Не дайте ему уйти."
+          },
+          {
+            "en": "I've got to get away for a while.",
+            "ru": "Мне надо ненадолго отлучиться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9624,
+      "word": "to get back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [bæk]",
+        "br": "[tə] [ɡet] [bæk]",
+        "gb": "[tuː] [get] [bæk]"
+      },
+      "translations": {
+        "rus": "возвращать(ся)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He will get back soon.",
+            "ru": "Он скоро вернётся."
+          },
+          {
+            "en": "When did you get back?",
+            "ru": "Когда ты вернулся?"
+          },
+          {
+            "en": "How do I get back?",
+            "ru": "Как мне вернуться обратно?"
+          },
+          {
+            "en": "Get back in your car.",
+            "ru": "Возвращайся в свою машину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9625,
+      "word": "to get down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [daʊn]",
+        "br": "[tə] [ɡet] [daʊn]",
+        "gb": "[tuː] [get] [daʊn]"
+      },
+      "translations": {
+        "rus": "опустить(ся), слезать, приступать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Get down on the floor!",
+            "ru": "Ляг на пол!"
+          },
+          {
+            "en": "Get down from your horse.",
+            "ru": "Слезай со своей лошади."
+          },
+          {
+            "en": "Let's get down to work.",
+            "ru": "Давайте приступим к работе."
+          },
+          {
+            "en": "We need to get down to business.",
+            "ru": "Нам нужно взяться за дело."
+          },
+          {
+            "en": "The kitten couldn't get down from the tree.",
+            "ru": "Котёнок не мог спуститься с дерева."
+          },
+          {
+            "en": "I've never seen him really get down to work.",
+            "ru": "Я никогда не видел, чтобы он действительно брался за работу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9626,
+      "word": "to get in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ɪn]",
+        "br": "[tə] [ɡet] [ɪn]",
+        "gb": "[tuː] [get] [ɪn]"
+      },
+      "translations": {
+        "rus": "войти, прибыть, забраться, проникнуть, попасть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll get in first.",
+            "ru": "Я зайду первым."
+          },
+          {
+            "en": "Did you get in trouble?",
+            "ru": "Ты попал в беду?"
+          },
+          {
+            "en": "I managed to get in.",
+            "ru": "Мне удалось войти."
+          },
+          {
+            "en": "Please get in.",
+            "ru": "Входите, пожалуйста."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4363,
+      "word": "to get off (the bus, the train, the plane)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ɔːf]",
+        "br": "[tə] [ɡet] [ɒf]",
+        "gb": "[tuː] [get] [ɔf]"
+      },
+      "translations": {
+        "rus": "выходить, покидать, сходить (с поезда и т.п.)",
+        "spa": "quitar, bajarse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have to get off here.",
+            "ru": "Вам нужно выйти здесь."
+          },
+          {
+            "en": "Get off me.",
+            "ru": "Отвали от меня."
+          },
+          {
+            "en": "Get off your horse.",
+            "ru": "Слезай с коня."
+          },
+          {
+            "en": "Get off of my roof.",
+            "ru": "Слазь с моей крыши."
+          },
+          {
+            "en": "Where do I get off?",
+            "ru": "Где мне выходить?"
+          },
+          {
+            "en": "I get off at the next station.",
+            "ru": "Я выхожу на следующей станции."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have to get off at the next station.",
+            "es": "Tenemos que bajarnos en la siguiente estación."
+          },
+          {
+            "en": "Would you please tell me when to get off?",
+            "es": "¿Me podría avisar cuándo me tengo que bajar?"
+          }
+        ]
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs",
+        "travel"
+      ]
+    },
+    {
+      "id": 9627,
+      "word": "to get on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ɑːn]",
+        "br": "[tə] [ɡet] [ɒn]",
+        "gb": "[tuː] [get] [ɔn]"
+      },
+      "translations": {
+        "rus": "приступить, продолжить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can we please get on, because there are a lot of things still to discuss.",
+            "ru": "Давайте, пожалуйста, продолжим, потому что ещё многое нужно обсудить."
+          },
+          {
+            "en": "Let's get on.",
+            "ru": "Давайте начнём."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9628,
+      "word": "to get on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ɑːn]",
+        "br": "[tə] [ɡet] [ɒn]",
+        "gb": "[tuː] [get] [ɔn]"
+      },
+      "translations": {
+        "rus": "преуспевать, делать успехи",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's why I can't get on.",
+            "ru": "Вот почему я не преуспеваю."
+          },
+          {
+            "en": "I wonder how Edith's getting on.",
+            "ru": "Удивительно, как Эдит преуспевает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4365,
+      "word": "to get on (the bus, train, plane)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ɑːn]",
+        "br": "[tə] [ɡet] [ɒn]",
+        "gb": "[tuː] [get] [ɔn]"
+      },
+      "translations": {
+        "rus": "садиться (на самолёт и т.п.)",
+        "spa": "subirse, embarcarse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Get on a horse.",
+            "ru": "Садись на лошадь."
+          },
+          {
+            "en": "Let's get on the bus.",
+            "ru": "Давай сядем в автобус."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs",
+        "travel"
+      ]
+    },
+    {
+      "id": 9629,
+      "word": "to get on (with somebody)",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [get] [ɔn]"
+      },
+      "translations": {
+        "rus": "ладить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I get on with him well.",
+            "ru": "Мы хорошо с ним ладим."
+          },
+          {
+            "en": "We get on well together.",
+            "ru": "Мы хорошо ладим друг с другом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9630,
+      "word": "to get on nerves",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [get] [ɔn] [nɜrvz]"
+      },
+      "translations": {
+        "rus": "действовать на нервы",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You get on my nerves!",
+            "ru": "Ты мне на нервы действуешь!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9631,
+      "word": "to get out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [aʊt]",
+        "br": "[tə] [ɡet] [aʊt]",
+        "gb": "[tuː] [get] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить, уходить, вылезать, высаживаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't get out much.",
+            "ru": "Я нечасто выхожу."
+          },
+          {
+            "en": "Now get out.",
+            "ru": "Теперь уходи."
+          },
+          {
+            "en": "Get out while you can.",
+            "ru": "Убирайся, пока можешь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4368,
+      "word": "to get over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ˈəʊvər]",
+        "br": "[tə] [ɡet] [ˈəʊvə(r)]",
+        "gb": "[tuː] [get] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "справиться, преодолеть, перейти, перелезть, пережить, забывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you get over the cold?",
+            "ru": "У тебя прошла простуда? (букв. ты преодолел простуду?)"
+          },
+          {
+            "en": "I'll never get over that.",
+            "ru": "Я никогда от этого не оправлюсь."
+          },
+          {
+            "en": "She will get over the shock soon.",
+            "ru": "Она скоро оправится от шока."
+          },
+          {
+            "en": "We ought to get over there.",
+            "ru": "Мы просто обязаны добраться туда."
+          },
+          {
+            "en": "I hope you'll get over your cold soon.",
+            "ru": "Надеюсь, твоя простуда скоро пройдёт."
+          },
+          {
+            "en": "He helped me to get over the difficulties.",
+            "ru": "Он помог мне преодолеть трудности."
+          },
+          {
+            "en": "What's the best way to get over a hangover?",
+            "ru": "Какой лучший способ борьбы с похмельем?"
+          },
+          {
+            "en": "It takes time to get over a divorce.",
+            "ru": "Чтобы оправиться после развода, нужно время."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9632,
+      "word": "to get through",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [θruː]",
+        "br": "[tə] [ɡet] [θruː]",
+        "gb": "[tuː] [get] [θruː]"
+      },
+      "translations": {
+        "rus": "проходить, проникать через, выдержать, справиться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Excuse me. May I get through?",
+            "ru": "Извините. Можно я пройду?"
+          },
+          {
+            "en": "We'll get through this together.",
+            "ru": "Мы пройдём через это вместе."
+          },
+          {
+            "en": "When will you get through with work?",
+            "ru": "Когда ты разберёшься с работой?"
+          },
+          {
+            "en": "I will get through with my homework before he comes.",
+            "ru": "Я доделаю уроки до его прихода."
+          },
+          {
+            "en": "I don't think I can get through all this work by five.",
+            "ru": "Не думаю, что я смогу закончить всю эту работу к пяти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9633,
+      "word": "to get to somebody",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [tə] [ˈsʌmbədi]",
+        "br": "[tə] [ɡet] [tə] [ˈsʌmbədi]",
+        "gb": "[tuː] [get] [tuː] [ˈsʌmbədɪ]"
+      },
+      "translations": {
+        "rus": "выводить из себя, раздражать, злить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The heat was beginning to get to me so I went indoors.",
+            "ru": "Жара начала раздражать меня, поэтому я пошёл внутрь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 986,
+      "word": "to get up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡet] [ʌp]",
+        "br": "[tə] [ɡet] [ʌp]",
+        "gb": "[tuː] [get] [ʌp]"
+      },
+      "translations": {
+        "rus": "вставать, поднимать(ся), просыпаться",
+        "spa": "levantarse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Get me up at six.",
+            "ru": "Разбуди меня в шесть."
+          },
+          {
+            "en": "I hate getting up early.",
+            "ru": "Ненавижу рано вставать."
+          },
+          {
+            "en": "Get up out of bed.",
+            "ru": "Вставай с постели."
+          },
+          {
+            "en": "You need to get up.",
+            "ru": "Тебе надо вставать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's time to get up.",
+            "es": "Hora de levantarse."
+          },
+          {
+            "en": "When did you get up?",
+            "es": "¿A qué hora te levantaste?"
+          },
+          {
+            "en": "I don't want to get up.",
+            "es": "No quiero levantarme."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4378,
+      "word": "to give up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡɪv] [ʌp]",
+        "br": "[tə] [ɡɪv] [ʌp]",
+        "gb": "[tuː] [gɪv] [ʌp]"
+      },
+      "translations": {
+        "rus": "сдаваться, отказаться от чего-то, прекратить попытки, оставить, бросить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "All right, I give up.",
+            "ru": "Ладно, сдаюсь."
+          },
+          {
+            "en": "Don't give up now.",
+            "ru": "Не сдавайся сейчас."
+          },
+          {
+            "en": "You should give up smoking.",
+            "ru": "Тебе надо бы бросить курить."
+          },
+          {
+            "en": "Never give up.",
+            "ru": "Никогда не сдавайся."
+          },
+          {
+            "en": "Don't give up without a fight.",
+            "ru": "Не сдавайся без боя."
+          },
+          {
+            "en": "They did not give up hope.",
+            "ru": "Они не потеряли надежду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9634,
+      "word": "to go along",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [əˈlɔːŋ]",
+        "br": "[tə] [ɡəʊ] [əˈlɒŋ]",
+        "gb": "[tuː] [gəʊ] [əˈlɔŋ]"
+      },
+      "translations": {
+        "rus": "идти вместе, сопровождать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Go along with the crowd.",
+            "ru": "Иди вместе с толпой."
+          },
+          {
+            "en": "I will go along with your plan.",
+            "ru": "Я буду следовать твоему плану."
+          },
+          {
+            "en": "I will go along with you as far as the station.",
+            "ru": "Я пойду вместе с вами до станции."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9635,
+      "word": "to go around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [əˈraʊnd]",
+        "br": "[tə] [ɡəʊ] [əˈraʊnd]",
+        "gb": "[tuː] [gəʊ] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "вращаться, двигаться по кругу, обходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Go around it.",
+            "ru": "Обойди это."
+          },
+          {
+            "en": "Why do you go around breaking people's hearts?",
+            "ru": "Почему ты постоянно разбиваешь людям сердца?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9636,
+      "word": "to go around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [əˈraʊnd]",
+        "br": "[tə] [ɡəʊ] [əˈraʊnd]",
+        "gb": "[tuː] [gəʊ] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "хватать всем, быть достаточным на всех",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We don't have enough cake to go around.",
+            "ru": "У нас недостаточно пирога, чтобы хватило на всех."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9637,
+      "word": "to go away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [əˈweɪ]",
+        "br": "[tə] [ɡəʊ] [əˈweɪ]",
+        "gb": "[tuː] [gəʊ] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "уходить, уезжать, проходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The pain will go away.",
+            "ru": "Боль пройдёт."
+          },
+          {
+            "en": "Why did you go away?",
+            "ru": "Почему ты ушёл?"
+          },
+          {
+            "en": "Please go away.",
+            "ru": "Уходи, пожалуйста."
+          },
+          {
+            "en": "Go away right now!",
+            "ru": "Уходите немедленно!"
+          },
+          {
+            "en": "She told him to go away.",
+            "ru": "Она сказала ему уходить."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9638,
+      "word": "to go back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [bæk]",
+        "br": "[tə] [ɡəʊ] [bæk]",
+        "gb": "[tuː] [gəʊ] [bæk]"
+      },
+      "translations": {
+        "rus": "возвращаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You can't go back there.",
+            "ru": "Тебе нельзя туда возвращаться."
+          },
+          {
+            "en": "Go back inside.",
+            "ru": "Иди обратно внутрь."
+          },
+          {
+            "en": "Just go back home.",
+            "ru": "Просто иди назад домой."
+          },
+          {
+            "en": "Go back to your seat.",
+            "ru": "Вернитесь на своё место."
+          },
+          {
+            "en": "Can we go back now?",
+            "ru": "Мы можем вернуться сейчас?"
+          },
+          {
+            "en": "We want to go back and help.",
+            "ru": "Мы хотим вернуться и помочь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9639,
+      "word": "to go by",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [baɪ]",
+        "br": "[tə] [ɡəʊ] [baɪ]",
+        "gb": "[tuː] [gəʊ] [baɪ]"
+      },
+      "translations": {
+        "rus": "проходить мимо, проходить (о времени)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Didn't you see the fox go by?",
+            "ru": "Ты не видел, как лиса пробежала?"
+          },
+          {
+            "en": "Don't let such a good opportunity go by.",
+            "ru": "Не упускай такую хорошую возможность."
+          },
+          {
+            "en": "Years go by.",
+            "ru": "Проходят годы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9640,
+      "word": "to go down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [daʊn]",
+        "br": "[tə] [ɡəʊ] [daʊn]",
+        "gb": "[tuː] [gəʊ] [daʊn]"
+      },
+      "translations": {
+        "rus": "спускаться, снижаться, сходить, выходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did the prices go down?",
+            "ru": "Почему цены упали?"
+          },
+          {
+            "en": "Where should we go down?",
+            "ru": "Где нам выходить?"
+          },
+          {
+            "en": "The sun is starting to go down.",
+            "ru": "Солнце начинает садиться."
+          },
+          {
+            "en": "This day will go down in history.",
+            "ru": "Этот день войдёт в историю."
+          },
+          {
+            "en": "I heard him go down the stairs.",
+            "ru": "Я слышал, как он спустился по лестнице."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9641,
+      "word": "to go in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ɪn]",
+        "br": "[tə] [ɡəʊ] [ɪn]",
+        "gb": "[tuː] [gəʊ] [ɪn]"
+      },
+      "translations": {
+        "rus": "входить, участвовать, заниматься",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need to go in.",
+            "ru": "Мне надо войти."
+          },
+          {
+            "en": "Let's go in.",
+            "ru": "Давай зайдём внутрь."
+          },
+          {
+            "en": "Do you go in for sports?",
+            "ru": "Вы занимаетесь спортом?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9642,
+      "word": "to go off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ɔːf]",
+        "br": "[tə] [ɡəʊ] [ɒf]",
+        "gb": "[tuː] [gəʊ] [ɔf]"
+      },
+      "translations": {
+        "rus": "уходить, уезжать, убегать, улетать, раздаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Most off-road vehicles never go off road.",
+            "ru": "Большинство внедорожников никогда не сходят с дороги."
+          },
+          {
+            "en": "My alarm didn't go off.",
+            "ru": "Мой будильник не прозвонил."
+          },
+          {
+            "en": "I'm going to go off on a trip this evening.",
+            "ru": "Я собираюсь уехать в путешествие этим вечером."
+          },
+          {
+            "en": "Don't go off without saying good-by.",
+            "ru": "Не уходи, не попрощавшись."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9643,
+      "word": "to go on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ɑːn]",
+        "br": "[tə] [ɡəʊ] [ɒn]",
+        "gb": "[tuː] [gəʊ] [ɔn]"
+      },
+      "translations": {
+        "rus": "продолжать(ся)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have to go on.",
+            "ru": "Мы должны продолжать."
+          },
+          {
+            "en": "The show must go on.",
+            "ru": "Шоу должно продолжаться."
+          },
+          {
+            "en": "Go on, but in Finnish.",
+            "ru": "Продолжай, только по-фински."
+          },
+          {
+            "en": "Go on, sit down.",
+            "ru": "Давай, садись."
+          },
+          {
+            "en": "Go on and say it.",
+            "ru": "Давай, скажи это."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4383,
+      "word": "to go out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [aʊt]",
+        "br": "[tə] [ɡəʊ] [aʊt]",
+        "gb": "[tuː] [gəʊ] [aʊt]"
+      },
+      "translations": {
+        "rus": "гаснуть, тухнуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did the lights go out?",
+            "ru": "Почему потух свет?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4384,
+      "word": "to go out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [aʊt]",
+        "br": "[tə] [ɡəʊ] [aʊt]",
+        "gb": "[tuː] [gəʊ] [aʊt]"
+      },
+      "translations": {
+        "rus": "пойти развлекаться, выходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's go out.",
+            "ru": "Давай выйдем."
+          },
+          {
+            "en": "You are free to go out.",
+            "ru": "Ты можешь выйти."
+          },
+          {
+            "en": "I saw him go out.",
+            "ru": "Я видел, как он выходил."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9644,
+      "word": "to go over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ˈəʊvər]",
+        "br": "[tə] [ɡəʊ] [ˈəʊvə(r)]",
+        "gb": "[tuː] [gəʊ] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "переходить, преодолевать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9645,
+      "word": "to go over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ˈəʊvər]",
+        "br": "[tə] [ɡəʊ] [ˈəʊvə(r)]",
+        "gb": "[tuː] [gəʊ] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "повторять, перепроверять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's go over it one more time.",
+            "ru": "Давай перепроверим это ещё раз."
+          },
+          {
+            "en": "We'll go over it again tomorrow morning.",
+            "ru": "Мы повторим это ещё раз завтра утром."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9646,
+      "word": "to go through",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [θruː]",
+        "br": "[tə] [ɡəʊ] [θruː]",
+        "gb": "[tuː] [gəʊ] [θruː]"
+      },
+      "translations": {
+        "rus": "пройти через, довести до конца, повторять, тщательно изучать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't go through this tunnel.",
+            "ru": "Не ходи через этот тоннель."
+          },
+          {
+            "en": "Please, let me go through!",
+            "ru": "Пожалуйста, разрешите пройти!"
+          },
+          {
+            "en": "The piano won't go through that door.",
+            "ru": "Пианино не проходит в дверь."
+          },
+          {
+            "en": "You must go through with your plan.",
+            "ru": "Ты должен довести свой план до конца."
+          },
+          {
+            "en": "He had to go through a lot of hardships.",
+            "ru": "Ему пришлось преодолеть множество трудностей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9647,
+      "word": "to go up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡəʊ] [ʌp]",
+        "br": "[tə] [ɡəʊ] [ʌp]",
+        "gb": "[tuː] [gəʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "подниматься",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Go up the stairs.",
+            "ru": "Поднимайтесь по лестнице."
+          },
+          {
+            "en": "Prices will certainly go up.",
+            "ru": "Цены несомненно вырастут."
+          },
+          {
+            "en": "Please go up to the third floor.",
+            "ru": "Пожалуйста, поднимитесь на третий этаж."
+          },
+          {
+            "en": "As the demand increases, prices go up.",
+            "ru": "Как увеличивается спрос, цены повышаются."
+          },
+          {
+            "en": "As we go up higher, the air becomes cooler.",
+            "ru": "Чем выше мы поднимаемся, тем холоднее становится воздух."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9648,
+      "word": "to grow up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡrəʊ] [ʌp]",
+        "br": "[tə] [ɡrəʊ] [ʌp]",
+        "gb": "[tuː] [grəʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "вырастать, становиться взрослым",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where did you grow up?",
+            "ru": "Где ты вырос?"
+          },
+          {
+            "en": "Children grow up so quickly.",
+            "ru": "Дети так быстро растут."
+          },
+          {
+            "en": "Come on, grow up.",
+            "ru": "Ну же, перестаньте вести себя как дети."
+          },
+          {
+            "en": "Some people never grow up.",
+            "ru": "Некоторые никогда не взрослеют."
+          },
+          {
+            "en": "I think it's time for you to grow up.",
+            "ru": "По-моему, тебе пора повзрослеть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9649,
+      "word": "to hang around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hæŋ] [əˈraʊnd]",
+        "br": "[tə] [hæŋ] [əˈraʊnd]",
+        "gb": "[tuː] [hæŋ] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "слоняться, торчать, бездельничать, болтаться без дела",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We can't hang around here.",
+            "ru": "Мы не можем торчать здесь."
+          },
+          {
+            "en": "I will just hang around here for a while.",
+            "ru": "Я просто поброжу здесь какое-то время."
+          },
+          {
+            "en": "Can you hang around for a minute?",
+            "ru": "Можешь подождать минуту?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9650,
+      "word": "to hang on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hæŋ] [ɑːn]",
+        "br": "[tə] [hæŋ] [ɒn]",
+        "gb": "[tuː] [hæŋ] [ɔn]"
+      },
+      "translations": {
+        "rus": "держаться, цепляться, хвататься",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Hang on! We'll be right there.",
+            "ru": "Держись! Мы будем там."
+          },
+          {
+            "en": "Help! I can't hang on any longer!",
+            "ru": "Помогите! Я больше не могу держаться!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9651,
+      "word": "to hang on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hæŋ] [ɑːn]",
+        "br": "[tə] [hæŋ] [ɒn]",
+        "gb": "[tuː] [hæŋ] [ɔn]"
+      },
+      "translations": {
+        "rus": "ждать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Hang on there.",
+            "ru": "Жди там."
+          },
+          {
+            "en": "Hang on a minute.",
+            "ru": "Подожди минутку."
+          },
+          {
+            "en": "Can you hang on a second?",
+            "ru": "Можешь повисеть секунду?"
+          },
+          {
+            "en": "Hang on till I get to you.",
+            "ru": "Оставайся на месте, пока я не доберусь до тебя."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9652,
+      "word": "to hang out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hæŋ] [aʊt]",
+        "br": "[tə] [hæŋ] [aʊt]",
+        "gb": "[tuː] [hæŋ] [aʊt]"
+      },
+      "translations": {
+        "rus": "тусоваться, болтаться, развлекаться, проводить время с друзьями",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wanna hang out tonight?",
+            "ru": "Хочешь потусить сегодня вечером?"
+          },
+          {
+            "en": "Would you like to hang out with us?",
+            "ru": "Хочешь затусить с нами?"
+          },
+          {
+            "en": "We should hang out sometime.",
+            "ru": "Нам нужно как-нибудь затусить."
+          },
+          {
+            "en": "They hang out together all the time.",
+            "ru": "Они всё время тусят вместе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9653,
+      "word": "to hang up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hæŋ] [ʌp]",
+        "br": "[tə] [hæŋ] [ʌp]",
+        "gb": "[tuː] [hæŋ] [ʌp]"
+      },
+      "translations": {
+        "rus": "вешать трубку, вешать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't hang up!",
+            "ru": "Не клади трубку!"
+          },
+          {
+            "en": "Hang up your coat, please.",
+            "ru": "Повесьте Ваше пальто, пожалуйста."
+          },
+          {
+            "en": "Please wait a moment and don't hang up.",
+            "ru": "Пожалуйста, подождите минутку и не вешайте трубку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9654,
+      "word": "to help out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [help] [aʊt]",
+        "br": "[tə] [help] [aʊt]",
+        "gb": "[tuː] [help] [aʊt]"
+      },
+      "translations": {
+        "rus": "помогать, выручать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We'll try to help out.",
+            "ru": "Мы попытаемся помочь."
+          },
+          {
+            "en": "I've been asked to help out.",
+            "ru": "Меня попросили помочь."
+          },
+          {
+            "en": "The children help out on the farm.",
+            "ru": "Дети помогают на ферме."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9655,
+      "word": "to hold (something, someone) up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [həʊld] [ˈsʌmθɪŋ] [ˈsʌmwʌn] [ʌp]",
+        "br": "[tə] [həʊld] [ˈsʌmθɪŋ] [ˈsʌmwʌn] [ʌp]",
+        "gb": "[tuː] [həʊld] [ʌp]"
+      },
+      "translations": {
+        "rus": "задерживать, удерживать, поднимать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She realized that she can hold up the merger.",
+            "ru": "Она осознала, что может приостановить слияние."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9656,
+      "word": "to hold on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [həʊld] [ɑːn]",
+        "br": "[tə] [həʊld] [ɒn]",
+        "gb": "[tuː] [həʊld] [ɔn]"
+      },
+      "translations": {
+        "rus": "держаться, вцепиться, продолжать несмотря на трудности",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Hold on tight.",
+            "ru": "Держись крепко."
+          },
+          {
+            "en": "Hold on to the rope.",
+            "ru": "Держись за верёвку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9657,
+      "word": "to hold on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [həʊld] [ɑːn]",
+        "br": "[tə] [həʊld] [ɒn]",
+        "gb": "[tuː] [həʊld] [ɔn]"
+      },
+      "translations": {
+        "rus": "ждать, ожидать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Hold on. I'll check.",
+            "ru": "Не кладите трубку. Я проверю."
+          },
+          {
+            "en": "Could you hold on a second?",
+            "ru": "Ты можешь подождать немного?"
+          },
+          {
+            "en": "Hold on a moment, please.",
+            "ru": "Пожалуйста, подождите немного."
+          },
+          {
+            "en": "Hold on a minute. My shoelaces are untied.",
+            "ru": "Задержись на минуту. У меня шнурки развязаны."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9658,
+      "word": "to hold out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [həʊld] [aʊt]",
+        "br": "[tə] [həʊld] [aʊt]",
+        "gb": "[tuː] [həʊld] [aʊt]"
+      },
+      "translations": {
+        "rus": "держаться (до конца), выдерживать, не сдаваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How long will our supplies hold out?",
+            "ru": "Сколько продержатся наши запасы?"
+          },
+          {
+            "en": "They had enough grit to hold out in the face of real hardship.",
+            "ru": "У них хватило мужества выстоять перед лицом больших испытаний."
+          },
+          {
+            "en": "We decided to hold out for a better offer.",
+            "ru": "Мы решили дождаться более выгодного предложения."
+          },
+          {
+            "en": "They had to organize to hold out.",
+            "ru": "Они должны были объединиться, чтобы выстоять."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9659,
+      "word": "to hold up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [həʊld] [ʌp]",
+        "br": "[tə] [həʊld] [ʌp]",
+        "gb": "[tuː] [həʊld] [ʌp]"
+      },
+      "translations": {
+        "rus": "оставаться (сильным, успешным), держаться, сопротивляться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9660,
+      "word": "to keep on (doing smth)",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [kiːp] [ɔn]"
+      },
+      "translations": {
+        "rus": "продолжать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Keep on smiling.",
+            "ru": "Продолжайте улыбаться."
+          },
+          {
+            "en": "Just keep on walking.",
+            "ru": "Просто продолжай идти."
+          },
+          {
+            "en": "I keep on not understanding.",
+            "ru": "Я по-прежнему не понимаю."
+          },
+          {
+            "en": "Keep on working while I'm away.",
+            "ru": "Продолжайте работать, пока меня не будет."
+          },
+          {
+            "en": "She was too tired to keep on working.",
+            "ru": "Она была слишком уставшей, чтобы продолжать работу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9661,
+      "word": "to keep up (smth)",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [kiːp] [ʌp]"
+      },
+      "translations": {
+        "rus": "продолжать, поддерживать, не отставать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Keep up your courage.",
+            "ru": "Сохраняйте мужество."
+          },
+          {
+            "en": "Keep up the good work.",
+            "ru": "Продолжай в том же духе."
+          },
+          {
+            "en": "Try to keep up with him.",
+            "ru": "Попробуй не отставать от него."
+          },
+          {
+            "en": "Don't walk so quickly. I can't keep up.",
+            "ru": "Не иди так быстро, я не поспеваю."
+          },
+          {
+            "en": "It's not easy to keep up with the times.",
+            "ru": "Нелегко идти в ногу со временем."
+          },
+          {
+            "en": "It was difficult to keep up the conversation.",
+            "ru": "Поддерживать беседу было трудно."
+          },
+          {
+            "en": "We must keep up the family traditions.",
+            "ru": "Нам нужно поддерживать семейные традиции."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9662,
+      "word": "to knock (smth) off",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [nɔk] [ɔf]"
+      },
+      "translations": {
+        "rus": "сбивать, уничтожить, прекратить, уронить, сбросить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why don't we knock him off right here?",
+            "ru": "Почему бы нам не прикончить его прямо сейчас?"
+          },
+          {
+            "en": "That was my manager you knocked off.",
+            "ru": "Ты прикончил моего менеджера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9663,
+      "word": "to knock down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [nɑːk] [daʊn]",
+        "br": "[tə] [nɒk] [daʊn]",
+        "gb": "[tuː] [nɔk] [daʊn]"
+      },
+      "translations": {
+        "rus": "сбивать с ног, сносить, разрушать, понижать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9664,
+      "word": "to knock out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [nɑːk] [aʊt]",
+        "br": "[tə] [nɒk] [aʊt]",
+        "gb": "[tuː] [nɔk] [aʊt]"
+      },
+      "translations": {
+        "rus": "выбивать, оглушить, вырубить, поразить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Show me how to knock them out.",
+            "ru": "Покажи мне, как их выбивать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9665,
+      "word": "to let in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [let] [ɪn]",
+        "br": "[tə] [let] [ɪn]",
+        "gb": "[tuː] [let] [ɪn]"
+      },
+      "translations": {
+        "rus": "впускать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I let in the cat.",
+            "ru": "Я впустил кошку."
+          },
+          {
+            "en": "Let in some fresh air.",
+            "ru": "Впусти немного свежего воздуха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9666,
+      "word": "to let out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [let] [aʊt]",
+        "br": "[tə] [let] [aʊt]",
+        "gb": "[tuː] [let] [aʊt]"
+      },
+      "translations": {
+        "rus": "выпускать, освобождать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She let out a big heavy sigh.",
+            "ru": "Она испустила тяжёлый вздох."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9667,
+      "word": "to lie down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [laɪ] [daʊn]",
+        "br": "[tə] [laɪ] [daʊn]",
+        "gb": "[tuː] [laɪ] [daʊn]"
+      },
+      "translations": {
+        "rus": "лечь, прилечь",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need to lie down.",
+            "ru": "Мне нужно лечь."
+          },
+          {
+            "en": "Lie down on your left side.",
+            "ru": "Лягте на левый бок."
+          },
+          {
+            "en": "Lie down and rest for a while.",
+            "ru": "Ляг и отдохни немного."
+          },
+          {
+            "en": "I'm tired. I'm going to lie down.",
+            "ru": "Я устал. Надо пойти прилечь."
+          },
+          {
+            "en": "Lie down and make yourself comfortable.",
+            "ru": "Ложись и устраивайся поудобнее."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9668,
+      "word": "to line up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [laɪn] [ʌp]",
+        "br": "[tə] [laɪn] [ʌp]",
+        "gb": "[tuː] [laɪn] [ʌp]"
+      },
+      "translations": {
+        "rus": "выстраивать(ся), становиться в линию (ряд, очередь)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please line up in a row.",
+            "ru": "Пожалуйста, выстройтесь в ряд."
+          },
+          {
+            "en": "Please line up and wait like the others!",
+            "ru": "Пожалуйста, встаньте в очередь и подождите, как другие!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9669,
+      "word": "to look back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [bæk]",
+        "br": "[tə] [lʊk] [bæk]",
+        "gb": "[tuː] [lʊk] [bæk]"
+      },
+      "translations": {
+        "rus": "оглядываться, оборачиваться, вспоминать прошлое",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I didn't look back.",
+            "ru": "Я не обернулся."
+          },
+          {
+            "en": "Run away, and don't look back.",
+            "ru": "Убегай и не оглядывайся."
+          },
+          {
+            "en": "I sometimes look back on my childhood.",
+            "ru": "Я иногда вспоминаю своё детство."
+          },
+          {
+            "en": "I called his name loudly, but he didn't even look back.",
+            "ru": "Я громко крикнул его имя, но он даже не обернулся."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9670,
+      "word": "to look down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [daʊn]",
+        "br": "[tə] [lʊk] [daʊn]",
+        "gb": "[tuː] [lʊk] [daʊn]"
+      },
+      "translations": {
+        "rus": "смотреть, смотреть вниз",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Look down at the floor.",
+            "ru": "Посмотрите на пол."
+          },
+          {
+            "en": "When you cross the bridge, don't look down.",
+            "ru": "Когда будете проходить по мосту, не смотрите вниз."
+          },
+          {
+            "en": "Don't look down on others.",
+            "ru": "Не смотри на других свысока."
+          },
+          {
+            "en": "The rich are apt to look down on people.",
+            "ru": "Богачи склонны смотреть на людей свысока."
+          },
+          {
+            "en": "We shouldn't look down on other people.",
+            "ru": "Мы не должны смотреть свысока на других людей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4462,
+      "word": "to look for",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [fɔːr]",
+        "br": "[tə] [lʊk] [fɔː(r)]",
+        "gb": "[tuː] [lʊk] [fɔː]"
+      },
+      "translations": {
+        "rus": "искать",
+        "spa": "buscar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What should I look for?",
+            "ru": "Что мне искать?"
+          },
+          {
+            "en": "Let's not look for problems.",
+            "ru": "Давай не будем искать проблем."
+          },
+          {
+            "en": "I'll look for work as soon as I hit town.",
+            "ru": "Я буду искать работу, как только приеду в город."
+          },
+          {
+            "en": "Could you help me look for my contact lens?",
+            "ru": "Не могли бы вы помочь мне отыскать мою контактную линзу?"
+          },
+          {
+            "en": "The house was too small so they decided to look for something else.",
+            "ru": "Дом был слишком мал, поэтому они решили поискать что-то ещё."
+          },
+          {
+            "en": "What should I look for?",
+            "ru": "Что мне искать?"
+          },
+          {
+            "en": "We don't have time to look for that right now.",
+            "ru": "У нас сейчас нет времени это искать."
+          },
+          {
+            "en": "I'm here not to look for happiness but to find it.",
+            "ru": "Я здесь не для того, чтобы искать своё счастье, а чтобы его найти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs",
+        "town"
+      ]
+    },
+    {
+      "id": 4463,
+      "word": "to look forward to",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [lʊk] [ˈfɔːwəd] [tuː]"
+      },
+      "translations": {
+        "rus": "ждать с нетерпением",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I look forward to it.",
+            "ru": "Я жду этого с нетерпением."
+          },
+          {
+            "en": "I look forward to the summer vacation.",
+            "ru": "Жду не дождусь летних каникул."
+          },
+          {
+            "en": "We look forward to your feedback.",
+            "ru": "Мы с нетерпением ждём ваших отзывов."
+          },
+          {
+            "en": "I look forward to hearing your thoughts on this matter.",
+            "ru": "Я с нетерпением жду, чтобы услышать твои мысли по этому вопросу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4465,
+      "word": "to look out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [aʊt]",
+        "br": "[tə] [lʊk] [aʊt]",
+        "gb": "[tuː] [lʊk] [aʊt]"
+      },
+      "translations": {
+        "rus": "остерегаться, выглядывать, высматривать, быть осторожным",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Look out for bees.",
+            "ru": "Берегись пчёл."
+          },
+          {
+            "en": "Look out of the window.",
+            "ru": "Выгляни в окно."
+          },
+          {
+            "en": "Look out, there's a shark!",
+            "ru": "Осторожно, там акула!"
+          },
+          {
+            "en": "Look out for the wild dog!",
+            "ru": "Берегись дикой собаки!"
+          },
+          {
+            "en": "Look out for pedestrians when you drive a car.",
+            "ru": "Обращайте внимание на пешеходов, когда вы едете на машине."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9671,
+      "word": "to look over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lʊk] [ˈəʊvər]",
+        "br": "[tə] [lʊk] [ˈəʊvə(r)]",
+        "gb": "[tuː] [lʊk] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "смотреть, просматривать, осматривать, оглядываться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Look over the papers, please.",
+            "ru": "Просмотри документы, пожалуйста."
+          },
+          {
+            "en": "He didn't even look over the papers.",
+            "ru": "Он даже не взглянул на документы."
+          },
+          {
+            "en": "Will you look over my report?",
+            "ru": "Вы не могли бы просмотреть мой доклад?"
+          },
+          {
+            "en": "Look over the contract well, before you sign it.",
+            "ru": "Внимательно просмотрите контракт, прежде чем его подписать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9672,
+      "word": "to make out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [meɪk] [aʊt]",
+        "br": "[tə] [meɪk] [aʊt]",
+        "gb": "[tuː] [meɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "целоваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's annoying when people make out at work.",
+            "ru": "Это раздражает, когда люди целуются на работе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9673,
+      "word": "to make out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [meɪk] [aʊt]",
+        "br": "[tə] [meɪk] [aʊt]",
+        "gb": "[tuː] [meɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "разглядеть, понять, различить, справиться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I can't make out what he says.",
+            "ru": "Не могу понять, что он говорит."
+          },
+          {
+            "en": "It was difficult for me to make out what he was saying.",
+            "ru": "Было сложно понять, о чем он говорит."
+          },
+          {
+            "en": "I can not make out at all what you say.",
+            "ru": "Я совершенно не могу разобрать, что Вы говорите."
+          },
+          {
+            "en": "I listened but couldn't make out what they were saying.",
+            "ru": "Я слушал, но не мог взять в толк, о чём они говорят."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4481,
+      "word": "to make up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [meɪk] [ʌp]",
+        "br": "[tə] [meɪk] [ʌp]",
+        "gb": "[tuː] [meɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "помириться, составлять, сочинять, компенсировать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The book is made up of 20 chapters.",
+            "ru": "Книга состоит из двадцати глав."
+          },
+          {
+            "en": "I must make up for lost time.",
+            "ru": "Я должен наверстать упущенное время."
+          },
+          {
+            "en": "I will make up for the damage I did to your car.",
+            "ru": "Я восполню ущерб, который я нанес Вашему автомобилю."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4052,
+      "word": "to move in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [muːv] [ɪn]",
+        "br": "[tə] [muːv] [ɪn]",
+        "gb": "[tuː] [muːv] [ɪn]"
+      },
+      "translations": {
+        "rus": "въезжать, поселяться, входить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We've bought our new house, but we can't move in till the end of the month.",
+            "ru": "Мы купили новый дом, но не можем въехать в него до конца месяца."
+          },
+          {
+            "en": "It'll all be signed and sealed by Friday, and you can move in then.",
+            "ru": "К пятнице всё будет подписано и проштамповано, и тогда можно будет въезжать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9674,
+      "word": "to move on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [muːv] [ɑːn]",
+        "br": "[tə] [muːv] [ɒn]",
+        "gb": "[tuː] [muːv] [ɔn]"
+      },
+      "translations": {
+        "rus": "идти дальше, продолжать движение",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need to move on.",
+            "ru": "Мне нужно идти дальше."
+          },
+          {
+            "en": "Can we move on?",
+            "ru": "Мы можем двигаться дальше?"
+          },
+          {
+            "en": "Can we move on to the next item?",
+            "ru": "Мы можем перейти к следующему пункту?"
+          },
+          {
+            "en": "We'd better get a move on.",
+            "ru": "Нам лучше бы начинать двигаться дальше."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9675,
+      "word": "to move out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [muːv] [aʊt]",
+        "br": "[tə] [muːv] [aʊt]",
+        "gb": "[tuː] [muːv] [aʊt]"
+      },
+      "translations": {
+        "rus": "съезжать, выдвигаться, выходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Move out of the way!",
+            "ru": "Отойди с пути!"
+          },
+          {
+            "en": "I'm not going to move out.",
+            "ru": "Я не собираюсь съезжать."
+          },
+          {
+            "en": "You've got to move out.",
+            "ru": "Вам нужно съехать."
+          },
+          {
+            "en": "Could you please move out of my way?",
+            "ru": "Не могли бы вы отойти с моего пути?"
+          },
+          {
+            "en": "I want to move out of this cramped room as soon as I can.",
+            "ru": "Я хочу съехать с этой тесной комнаты как можно раньше."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9676,
+      "word": "to pass out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pæs] [aʊt]",
+        "br": "[tə] [pɑːs] [aʊt]",
+        "gb": "[tuː] [pɑːs] [aʊt]"
+      },
+      "translations": {
+        "rus": "терять сознание",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you pass out?",
+            "ru": "Вы упали в обморок?"
+          },
+          {
+            "en": "I don't want to pass out.",
+            "ru": "Я не хочу упасть в обморок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4526,
+      "word": "to pick up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɪk] [ʌp]",
+        "br": "[tə] [pɪk] [ʌp]",
+        "gb": "[tuː] [pɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "подобрать, взять, подхватить, поднять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pick up the knife.",
+            "ru": "Подними нож."
+          },
+          {
+            "en": "Don't pick up the phone.",
+            "ru": "Не бери телефон."
+          },
+          {
+            "en": "Where can I pick up my baggage?",
+            "ru": "Где я могу забрать багаж?"
+          },
+          {
+            "en": "Pick up your things and go away.",
+            "ru": "Собери свои вещи и уходи."
+          },
+          {
+            "en": "I bent over to pick up the pen.",
+            "ru": "Я наклонился, чтобы поднять ручку."
+          },
+          {
+            "en": "The bus stopped to pick up passengers.",
+            "ru": "Автобус остановился, чтоб подобрать пассажиров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 1587,
+      "word": "to point out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pɔɪnt] [aʊt]",
+        "br": "[tə] [pɔɪnt] [aʊt]",
+        "gb": "[tuː] [pɔɪnt] [aʊt]"
+      },
+      "translations": {
+        "rus": "выделить, отметить, указывать, подчеркивать, заметить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was quick to point out my errors.",
+            "ru": "Она быстро указала на мои ошибки."
+          },
+          {
+            "en": "The guide took us through the city, pointing interesting sights out.",
+            "ru": "Гид водил нас по городу, обращая внимание на достопримечательности."
+          },
+          {
+            "en": "She is at pains to point out how much work she has done.",
+            "ru": "Она очень старается обратить внимание на то, сколько она сделала."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9677,
+      "word": "to pull away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [əˈweɪ]",
+        "br": "[tə] [pʊl] [əˈweɪ]",
+        "gb": "[tuː] [pʊl] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "отъезжать, трогаться, отпрянуть, отстраниться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9678,
+      "word": "to pull off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [ɔːf]",
+        "br": "[tə] [pʊl] [ɒf]",
+        "gb": "[tuː] [pʊl] [ɔf]"
+      },
+      "translations": {
+        "rus": "снимать, стаскивать, справиться, выполнить, съехать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9679,
+      "word": "to pull on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [ɑːn]",
+        "br": "[tə] [pʊl] [ɒn]",
+        "gb": "[tuː] [pʊl] [ɔn]"
+      },
+      "translations": {
+        "rus": "натягивать, надевать, тянуть (на себя)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Uncle was pulling on a travel jacket.",
+            "ru": "Дядя натягивал дорожную куртку."
+          },
+          {
+            "en": "I was pulling on my trousers and I fell over.",
+            "ru": "Я надевал штаны и упал."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9680,
+      "word": "to pull out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [aʊt]",
+        "br": "[tə] [pʊl] [aʊt]",
+        "gb": "[tuː] [pʊl] [aʊt]"
+      },
+      "translations": {
+        "rus": "отъезжать, выезжать (обычно о полиции, чтобы обогнать и остановить другое авто)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9681,
+      "word": "to pull out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [aʊt]",
+        "br": "[tə] [pʊl] [aʊt]",
+        "gb": "[tuː] [pʊl] [aʊt]"
+      },
+      "translations": {
+        "rus": "вытаскивать, вынимать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9682,
+      "word": "to pull up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [ʌp]",
+        "br": "[tə] [pʊl] [ʌp]",
+        "gb": "[tuː] [pʊl] [ʌp]"
+      },
+      "translations": {
+        "rus": "подтягивать, задирать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You'll have to pull up your English.",
+            "ru": "Тебе надо будет подтянуть свой английский."
+          },
+          {
+            "en": "Once he gets his breath, he'll soon pull up to the leading runner.",
+            "ru": "Как только он восстановит дыхание, он подтянется к лидеру забега."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9683,
+      "word": "to pull up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊl] [ʌp]",
+        "br": "[tə] [pʊl] [ʌp]",
+        "gb": "[tuː] [pʊl] [ʌp]"
+      },
+      "translations": {
+        "rus": "подъезжать, останавливаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The driver pulled the bus up only just in time to avoid hitting the child.",
+            "ru": "Водитель остановил автобус как раз вовремя, чтобы не сбить ребёнка."
+          },
+          {
+            "en": "I noticed a vehicle pull up in front of the main entryway to the complex.",
+            "ru": "Я заметил, как у главного входа в комплекс остановился автомобиль."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9684,
+      "word": "to put away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [əˈweɪ]",
+        "br": "[tə] [pʊt] [əˈweɪ]",
+        "gb": "[tuː] [pʊt] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "убирать, отложить, прятать, оставлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She put away her clothes.",
+            "ru": "Она сняла свою одежду."
+          },
+          {
+            "en": "Put away your toys.",
+            "ru": "Убери свои игрушки."
+          },
+          {
+            "en": "Here it is warm. You could put away your coat.",
+            "ru": "Здесь тепло. Можешь снять пальто."
+          },
+          {
+            "en": "She told her children to put away their toys.",
+            "ru": "Она велела детям убрать игрушки."
+          },
+          {
+            "en": "I put away 10 dollars each month.",
+            "ru": "Я откладываю десять долларов каждый месяц."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9685,
+      "word": "to put down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [daʊn]",
+        "br": "[tə] [pʊt] [daʊn]",
+        "gb": "[tuː] [pʊt] [daʊn]"
+      },
+      "translations": {
+        "rus": "положить, опустить, записать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Put down your pencil.",
+            "ru": "Положи свой карандаш."
+          },
+          {
+            "en": "She put down her pen.",
+            "ru": "Она отложила свою ручку."
+          },
+          {
+            "en": "He put down the book on the table.",
+            "ru": "Он положил книгу на стол."
+          },
+          {
+            "en": "I put down his address on paper.",
+            "ru": "Я записал его адрес на бумажке."
+          },
+          {
+            "en": "Put down your name and address here.",
+            "ru": "Запишите Ваше имя и адрес здесь."
+          },
+          {
+            "en": "The troops easily put down the rebellion.",
+            "ru": "Войска легко подавили восстание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9686,
+      "word": "to put in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ɪn]",
+        "br": "[tə] [pʊt] [ɪn]",
+        "gb": "[tuː] [pʊt] [ɪn]"
+      },
+      "translations": {
+        "rus": "уделять время, выделять деньги, инвестировать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9687,
+      "word": "to put in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ɪn]",
+        "br": "[tə] [pʊt] [ɪn]",
+        "gb": "[tuː] [pʊt] [ɪn]"
+      },
+      "translations": {
+        "rus": "вставлять, ставить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9688,
+      "word": "to put in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ɪn]",
+        "br": "[tə] [pʊt] [ɪn]",
+        "gb": "[tuː] [pʊt] [ɪn]"
+      },
+      "translations": {
+        "rus": "выдвигать кандидатуру, избираться, официально предлагать, официально запрашивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you put yourself in?",
+            "ru": "Ты выдвинул свою кандидатуру?"
+          },
+          {
+            "en": "The new owners put a man in to look after the building at night.",
+            "ru": "Новые хозяева поставили человека сторожить здание ночью."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 2186,
+      "word": "to put on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ɑːn]",
+        "br": "[tə] [pʊt] [ɒn]",
+        "gb": "[tuː] [pʊt] [ɔn]"
+      },
+      "translations": {
+        "rus": "надевать, включать, приводить в действие",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He put on his best suit for the wedding.",
+            "ru": "На свадьбу он надел свой самый лучший костюм."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9689,
+      "word": "to put out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [aʊt]",
+        "br": "[tə] [pʊt] [aʊt]",
+        "gb": "[tuː] [pʊt] [aʊt]"
+      },
+      "translations": {
+        "rus": "тушить, выпускать, выставлять, причинять неудобство, выводить из себя, протягивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I put out the fire.",
+            "ru": "Я потушил огонь."
+          },
+          {
+            "en": "Put out your cigarettes.",
+            "ru": "Потушите сигареты."
+          },
+          {
+            "en": "Did our early arrival put you out?",
+            "ru": "Наше раннее прибытие причинило тебе неудобство?"
+          },
+          {
+            "en": "I was put out by his attention to the television set.",
+            "ru": "Его внимание к телевизору вывело меня из себя."
+          },
+          {
+            "en": "That trio has already put out five albums.",
+            "ru": "Это трио выпустило уже пять альбомов."
+          },
+          {
+            "en": "The young man put out his hand and I shook it.",
+            "ru": "Молодой человек протянул руку и мы обменялись рукопожатиями."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9690,
+      "word": "to put up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pʊt] [ʌp]",
+        "br": "[tə] [pʊt] [ʌp]",
+        "gb": "[tuː] [pʊt] [ʌp]"
+      },
+      "translations": {
+        "rus": "поднимать, мириться, выносить (морально), ставить, вкладывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I put up my umbrella.",
+            "ru": "Я раскрыл зонтик."
+          },
+          {
+            "en": "I don't have to put up with this.",
+            "ru": "Я не обязан с этим мириться."
+          },
+          {
+            "en": "Let's put up the Christmas tree there.",
+            "ru": "Давай поставим ёлку там."
+          },
+          {
+            "en": "If you put up your share, father will put up the rest.",
+            "ru": "Если ты вложишь свою долю, то папа вложит остальное."
+          },
+          {
+            "en": "How do they put up with you?",
+            "ru": "Как они тебя выносят?"
+          },
+          {
+            "en": "He put up his house for sale.",
+            "ru": "Он выставил свой дом на продажу."
+          },
+          {
+            "en": "Let's put up our tent here.",
+            "ru": "Давайте поставим нашу палатку здесь."
+          },
+          {
+            "en": "I cannot put up with the noise any longer.",
+            "ru": "Я больше не могу выносить этот шум."
+          },
+          {
+            "en": "She put up the new curtains today.",
+            "ru": "Сегодня она повесила новые занавески."
+          },
+          {
+            "en": "How do you put up with that kind of humiliation?",
+            "ru": "Как ты терпишь подобное унижение?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9691,
+      "word": "to run away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rʌn] [əˈweɪ]",
+        "br": "[tə] [rʌn] [əˈweɪ]",
+        "gb": "[tuː] [rʌn] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "убегать, удирать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't run away.",
+            "ru": "Не убегай."
+          },
+          {
+            "en": "You could've run away.",
+            "ru": "Ты мог убежать."
+          },
+          {
+            "en": "Why did he run away?",
+            "ru": "Почему он убежал?"
+          },
+          {
+            "en": "I should have run away then.",
+            "ru": "Мне надо было тогда убежать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9692,
+      "word": "to run into",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [rʌn] [ˈɪntʊ]"
+      },
+      "translations": {
+        "rus": "встретить, столкнуться, наскочить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I often run into her at the supermarket.",
+            "ru": "Я часто сталкиваюсь с ней в супермаркете."
+          },
+          {
+            "en": "What problems did they run into?",
+            "ru": "С какими проблемами они столкнулись?"
+          },
+          {
+            "en": "Drive carefully, or you'll run into trouble.",
+            "ru": "Езжай осторожней, иначе столкнёшься с проблемами."
+          },
+          {
+            "en": "I wouldn't want to run into him in a dark alley.",
+            "ru": "Я бы не хотел столкнуться с ним в тёмном переулке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9693,
+      "word": "to run off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rʌn] [ɔːf]",
+        "br": "[tə] [rʌn] [ɒf]",
+        "gb": "[tuː] [rʌn] [ɔf]"
+      },
+      "translations": {
+        "rus": "удирать, убегать, сбегать, отвлекаться от предмета, бойко декламировать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Jim and Mary threatened to run off to get married.",
+            "ru": "Джим и Мэри пригрозили, что сбегут, чтобы пожениться."
+          },
+          {
+            "en": "He ran off the poem like a machinegun.",
+            "ru": "Он отбарабанил стихотворение как пулемёт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9694,
+      "word": "to run out (of something)",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [rʌn] [aʊt]"
+      },
+      "translations": {
+        "rus": "кончаться, истощаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My film has run out.",
+            "ru": "Плёнка закончилась."
+          },
+          {
+            "en": "The money seems to have run out.",
+            "ru": "Похоже, деньги закончились."
+          },
+          {
+            "en": "When do you think his funds will run out?",
+            "ru": "Когда, ты думаешь, его запасы иссякнут?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9695,
+      "word": "to run over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rʌn] [ˈəʊvər]",
+        "br": "[tə] [rʌn] [ˈəʊvə(r)]",
+        "gb": "[tuː] [rʌn] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "переехать, задавить, перебегать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They were almost run over by a truck.",
+            "ru": "Их чуть не переехал грузовик."
+          },
+          {
+            "en": "He was run over by a car.",
+            "ru": "Он попал под машину."
+          },
+          {
+            "en": "He narrowly escaped being run over.",
+            "ru": "Его чуть не задавили."
+          },
+          {
+            "en": "He was run over and killed on the spot.",
+            "ru": "Он был сбит машиной и погиб на месте."
+          },
+          {
+            "en": "The cat came near being run over by a truck.",
+            "ru": "Кошку чуть не переехало грузовиком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9696,
+      "word": "to set down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [set] [daʊn]",
+        "br": "[tə] [set] [daʊn]",
+        "gb": "[tuː] [set] [daʊn]"
+      },
+      "translations": {
+        "rus": "поставить, положить, высаживать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Set down the gun on the desk.",
+            "ru": "Положите пистолет на стол."
+          },
+          {
+            "en": "Captain Black set down his glass.",
+            "ru": "Капитан Блэк поставил свой стакан."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9697,
+      "word": "to set off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [set] [ɔːf]",
+        "br": "[tə] [set] [ɒf]",
+        "gb": "[tuː] [set] [ɔf]"
+      },
+      "translations": {
+        "rus": "отправляться (в путь), вызывать (действие), начинать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He set off for work an hour ago.",
+            "ru": "Он уехал на работу час назад."
+          },
+          {
+            "en": "I set off to make the work by myself.",
+            "ru": "Я начал делать работу самостоятельно."
+          },
+          {
+            "en": "The politician's speech set off violence in the crowd.",
+            "ru": "Речь политика спровоцировала толпу на беспорядки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 1207,
+      "word": "to set up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [set] [ʌp]",
+        "br": "[tə] [set] [ʌp]",
+        "gb": "[tuː] [set] [ʌp]"
+      },
+      "translations": {
+        "rus": "устанавливать, учреждать, устраивать, организовывать, создавать",
+        "spa": "establecer, montar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you know how to set up a tent?",
+            "ru": "Ты умеешь ставить палатку?"
+          },
+          {
+            "en": "They set up a committee.",
+            "ru": "Они учредили комитет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9698,
+      "word": "to settle down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsetl] [daʊn]",
+        "br": "[tə] [ˈsetl] [daʊn]",
+        "gb": "[tuː] [setl] [daʊn]"
+      },
+      "translations": {
+        "rus": "успокаиваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Just settle down.",
+            "ru": "Просто успокойся."
+          },
+          {
+            "en": "Settle down you two.",
+            "ru": "Вы двое, успокойтесь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9699,
+      "word": "to settle down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsetl] [daʊn]",
+        "br": "[tə] [ˈsetl] [daʊn]",
+        "gb": "[tuː] [setl] [daʊn]"
+      },
+      "translations": {
+        "rus": "поселяться, обосновываться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am never going to settle down in one place.",
+            "ru": "Я никогда не осяду в одном месте."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9700,
+      "word": "to shoot out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃuːt] [aʊt]",
+        "br": "[tə] [ʃuːt] [aʊt]",
+        "gb": "[tuː] [ʃuːt] [aʊt]"
+      },
+      "translations": {
+        "rus": "выскочить, вылететь, разразиться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Its tongue shoots out at 15 metres per second.",
+            "ru": "Его язык вылетает со скоростью 15 метров в секунду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4557,
+      "word": "to show up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃəʊ] [ʌp]",
+        "br": "[tə] [ʃəʊ] [ʌp]",
+        "gb": "[tuː] [ʃəʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "появиться, появляться, приходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He'll show up soon.",
+            "ru": "Скоро он появится."
+          },
+          {
+            "en": "Why didn't they show up?",
+            "ru": "Почему они не появились?"
+          },
+          {
+            "en": "I've been expecting you to show up.",
+            "ru": "Я ожидал, что ты придёшь."
+          },
+          {
+            "en": "I don't know whether she will show up.",
+            "ru": "Я не знаю, появится ли она."
+          },
+          {
+            "en": "He'll show up soon.",
+            "ru": "Скоро он появится."
+          },
+          {
+            "en": "Why didn't they show up?",
+            "ru": "Почему они не появились?"
+          },
+          {
+            "en": "I don't know whether she will show up.",
+            "ru": "Я не знаю, появится ли она."
+          },
+          {
+            "en": "I knew you'd show up eventually.",
+            "ru": "Я знал, что ты в конце концов появишься."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9701,
+      "word": "to shut down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃʌt] [daʊn]",
+        "br": "[tə] [ʃʌt] [daʊn]",
+        "gb": "[tuː] [ʃʌt] [daʊn]"
+      },
+      "translations": {
+        "rus": "выключить, отключить, закрыть, прикрыть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The factory may shut down if supplies cease.",
+            "ru": "Завод может остановиться, если прекратятся поставки."
+          },
+          {
+            "en": "On Monday, the power supply will be shut down for the whole building.",
+            "ru": "В понедельник электричество будет отключено во всем здании."
+          },
+          {
+            "en": "Our local hardware shop has shut down.",
+            "ru": "Наш местный хозяйственный магазин закрылся."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9702,
+      "word": "to shut up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃʌt] [ʌp]",
+        "br": "[tə] [ʃʌt] [ʌp]",
+        "gb": "[tuː] [ʃʌt] [ʌp]"
+      },
+      "translations": {
+        "rus": "заставить замолчать, заткнуть, закрывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Just shut up and listen.",
+            "ru": "Просто заткнись и слушай."
+          },
+          {
+            "en": "For God's sake, shut up!",
+            "ru": "Ради Бога, заткнись!"
+          },
+          {
+            "en": "OK, wise guy, shut up and listen!",
+            "ru": "Ну ладно умник, заткнись и слушай!"
+          },
+          {
+            "en": "This room has been closely shut up.",
+            "ru": "Эта комната была наглухо закрыта."
+          },
+          {
+            "en": "Do us a favour, Mike, and shut up!",
+            "ru": "Сделай нам одолжение, Майк — заткнись!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9703,
+      "word": "to sit back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɪt] [bæk]",
+        "br": "[tə] [sɪt] [bæk]",
+        "gb": "[tuː] [sɪt] [bæk]"
+      },
+      "translations": {
+        "rus": "откинуться назад (на спинку сиденья), бездельничать, расслабляться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Just sit back and watch.",
+            "ru": "Просто сядь и смотри."
+          },
+          {
+            "en": "He's the sort of person who never helps, just sits back and lets others work.",
+            "ru": "Он из тех людей, которые никогда не помогают, а просто бездельничают, когда другие работают."
+          },
+          {
+            "en": "Sit back, there's no need to be nervous.",
+            "ru": "Расслабься, беспокоиться не о чем."
+          },
+          {
+            "en": "Sit back and relax — I'll open a bottle of wine.",
+            "ru": "Сядь и расслабься — я открою бутылку вина."
+          },
+          {
+            "en": "Sit back, relax, and enjoy the show!",
+            "ru": "Сядьте поудобнее, расслабьтесь и наслаждайтесь шоу!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9704,
+      "word": "to sit down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɪt] [daʊn]",
+        "br": "[tə] [sɪt] [daʊn]",
+        "gb": "[tuː] [sɪt] [daʊn]"
+      },
+      "translations": {
+        "rus": "садиться, усаживаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have to sit down.",
+            "ru": "Мне надо сесть."
+          },
+          {
+            "en": "Sit down with me.",
+            "ru": "Присядь со мной."
+          },
+          {
+            "en": "You can sit down now.",
+            "ru": "Теперь можешь сесть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9705,
+      "word": "to sit up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɪt] [ʌp]",
+        "br": "[tə] [sɪt] [ʌp]",
+        "gb": "[tuː] [sɪt] [ʌp]"
+      },
+      "translations": {
+        "rus": "приподняться, сесть из лежачего положения, засиживаться до поздней ночи, заинтересоваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Sit up straight.",
+            "ru": "Сядь прямо."
+          },
+          {
+            "en": "Can you sit up?",
+            "ru": "Ты можешь приподняться?"
+          },
+          {
+            "en": "You had better not sit up so late.",
+            "ru": "Ты бы не засиживался так поздно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9706,
+      "word": "to spread out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [spred] [aʊt]",
+        "br": "[tə] [spred] [aʊt]",
+        "gb": "[tuː] [spred] [aʊt]"
+      },
+      "translations": {
+        "rus": "растягивать(ся), распространять(ся), расширять(ся)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Flames went up the service elevator shaft and spread out on the fifth.",
+            "ru": "Пламя поднялось по шахте служебного лифта и распространилось на пятом этаже."
+          },
+          {
+            "en": "They used our network to spread out to the whole world.",
+            "ru": "Они воспользовались нашей сетью, чтобы распространиться по всему миру."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9707,
+      "word": "to stand by",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [stænd] [baɪ]",
+        "br": "[tə] [stænd] [baɪ]",
+        "gb": "[tuː] [stænd] [baɪ]"
+      },
+      "translations": {
+        "rus": "приготовиться, стоять в стороне, ждать, поддерживать, стоять за, защищать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stand by to receive the radio message.",
+            "ru": "Приготовьтесь принять радиограмму."
+          },
+          {
+            "en": "Cabin crew, please stand by for take-off.",
+            "ru": "Экипаж, пожалуйста, приготовьтесь ко взлету."
+          },
+          {
+            "en": "I couldn't just stand by and do nothing.",
+            "ru": "Я не мог просто стоять в стороне и ничего не делать."
+          },
+          {
+            "en": "I stand by what I said earlier.",
+            "ru": "Я настаиваю на том, что сказал раньше."
+          },
+          {
+            "en": "I'll stand by you through thick and thin.",
+            "ru": "Я буду поддерживать тебя во что бы то ни стало."
+          },
+          {
+            "en": "We can't stand by and let this happen.",
+            "ru": "Мы не можем стоять в стороне и позволить этому случиться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4565,
+      "word": "to stand out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [stænd] [aʊt]",
+        "br": "[tə] [stænd] [aʊt]",
+        "gb": "[tuː] [stænd] [aʊt]"
+      },
+      "translations": {
+        "rus": "выделяться, выступать, быть заметным",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A red dress made her stand out.",
+            "ru": "Красное платье сделало её заметной."
+          },
+          {
+            "en": "Her new hairstyle made her stand out in the crowd.",
+            "ru": "Она выделяется из толпы благодаря своей новой причёске."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9708,
+      "word": "to stand up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [stænd] [ʌp]",
+        "br": "[tə] [stænd] [ʌp]",
+        "gb": "[tuː] [stænd] [ʌp]"
+      },
+      "translations": {
+        "rus": "вставать, выпрямляться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Help me stand up.",
+            "ru": "Помоги мне встать."
+          },
+          {
+            "en": "Stand up, please.",
+            "ru": "Встаньте, пожалуйста."
+          },
+          {
+            "en": "He tried to stand up.",
+            "ru": "Он попытался встать."
+          },
+          {
+            "en": "The teacher told me to stand up.",
+            "ru": "Учитель сказал мне встать."
+          },
+          {
+            "en": "We must stand up for our rights.",
+            "ru": "Мы должны отстаивать наши права."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9709,
+      "word": "to stay behind",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [steɪ] [bɪˈhaɪnd]",
+        "br": "[tə] [steɪ] [bɪˈhaɪnd]",
+        "gb": "[tuː] [steɪ] [bɪˈhaɪnd]"
+      },
+      "translations": {
+        "rus": "оставаться (позади), держаться за",
+        "spa": "quedarse (atrás)"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stay behind me.",
+            "ru": "Держись за мной."
+          },
+          {
+            "en": "He bade me stay behind.",
+            "ru": "Он попросил меня остаться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9710,
+      "word": "to stick out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [stɪk] [aʊt]",
+        "br": "[tə] [stɪk] [aʊt]",
+        "gb": "[tuː] [stɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "быть очень заметным, выпирать, вытягивать, торчать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please stick out your tongue.",
+            "ru": "Пожалуйста, вытяните свой язык."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4146,
+      "word": "to switch off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [swɪtʃ] [ɔːf]",
+        "br": "[tə] [swɪtʃ] [ɒf]",
+        "gb": "[tuː] [swɪʧ] [ɔf]"
+      },
+      "translations": {
+        "rus": "выключать",
+        "spa": "apagar, cerrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please switch off the light.",
+            "ru": "Пожалуйста, выключи свет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4147,
+      "word": "to switch on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [swɪtʃ] [ɑːn]",
+        "br": "[tə] [swɪtʃ] [ɒn]",
+        "gb": "[tuː] [swɪʧ] [ɔn]"
+      },
+      "translations": {
+        "rus": "включать",
+        "spa": "encender, prender, poner"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Would you like me to switch on the light?",
+            "ru": "Ты хочешь, чтобы я включил свет?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9711,
+      "word": "to take (a period of time) off",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [teɪk] [ɔf]"
+      },
+      "translations": {
+        "rus": "брать отгул",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9712,
+      "word": "to take away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [əˈweɪ]",
+        "br": "[tə] [teɪk] [əˈweɪ]",
+        "gb": "[tuː] [teɪk] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "убирать, забирать, отбирать, отнимать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take away this box.",
+            "ru": "Уберите эту коробку."
+          },
+          {
+            "en": "One day, they're going to take away your driver's license.",
+            "ru": "Когда-нибудь у тебя заберут водительское удостоверение."
+          },
+          {
+            "en": "Don't take away what little remaining hope I've still got.",
+            "ru": "Не забирай ту небольшую надежду, которая у меня всё еще есть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9713,
+      "word": "to take back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [bæk]",
+        "br": "[tə] [teɪk] [bæk]",
+        "gb": "[tuː] [teɪk] [bæk]"
+      },
+      "translations": {
+        "rus": "отдать обратно, взять назад",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you take back the books?",
+            "ru": "Ты вернул книги?"
+          },
+          {
+            "en": "I take back what I said.",
+            "ru": "Беру свои слова назад."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9714,
+      "word": "to take in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ɪn]",
+        "br": "[tə] [teɪk] [ɪn]",
+        "gb": "[tuː] [teɪk] [ɪn]"
+      },
+      "translations": {
+        "rus": "принимать, брать, впустить, воспринимать, вбирать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We don't normally take in strangers.",
+            "ru": "Обычно мы не принимаем чужих."
+          },
+          {
+            "en": "I was willing to take in these two kids.",
+            "ru": "Я желала взять этих детей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 2225,
+      "word": "to take off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ɔːf]",
+        "br": "[tə] [teɪk] [ɒf]",
+        "gb": "[tuː] [teɪk] [ɔf]"
+      },
+      "translations": {
+        "rus": "снимать, снимать (одежду), сбрасывать, удалять, убавлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take off your shirt - it's very hot in here.",
+            "ru": "Сними рубашку - здесь очень жарко."
+          },
+          {
+            "en": "He took the responsibility off me.",
+            "ru": "Он снял с меня ответственность."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9715,
+      "word": "to take off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ɔːf]",
+        "br": "[tə] [teɪk] [ɒf]",
+        "gb": "[tuː] [teɪk] [ɔf]"
+      },
+      "translations": {
+        "rus": "взлетать",
+        "spa": "despegar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where did the plane take off?",
+            "ru": "Где взлетел самолёт?"
+          },
+          {
+            "en": "The plane is about to take off.",
+            "ru": "Самолёт вот-вот взлетит."
+          },
+          {
+            "en": "Your plane will take off right away.",
+            "ru": "Ваш самолёт сейчас взлетит."
+          },
+          {
+            "en": "We will take off in a few minutes.",
+            "ru": "Мы взлетим через несколько минут."
+          },
+          {
+            "en": "I like watching planes take off.",
+            "ru": "Я люблю наблюдать, как взлетают самолёты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The plane is about to take off.",
+            "es": "El avión está por despegar."
+          }
+        ]
+      },
+      "categories": [
+        "phrasal_verbs",
+        "travel"
+      ]
+    },
+    {
+      "id": 1659,
+      "word": "to take on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ɑːn]",
+        "br": "[tə] [teɪk] [ɒn]",
+        "gb": "[tuː] [teɪk] [ɔn]"
+      },
+      "translations": {
+        "rus": "приобретать, принимать, брать (на себя, на работу)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you take on the job?",
+            "ru": "Можете ли вы взять на себя эту работу?"
+          },
+          {
+            "en": "I don't want to take on another liability.",
+            "ru": "Я не хочу брать ещё одну обязанность."
+          },
+          {
+            "en": "The bus stopped to take on passengers.",
+            "ru": "Автобус остановился, чтобы подхватить пассажиров."
+          },
+          {
+            "en": "Are you prepared to take on the responsibility?",
+            "ru": "Ты готов взять на себя ответственность?"
+          },
+          {
+            "en": "It's impossible to take on more work at the moment.",
+            "ru": "Невозможно взять больше работы в настоящий момент."
+          },
+          {
+            "en": "I'm wondering whether to take on that job.",
+            "ru": "Мне интересно, стоит ли заниматься этой работой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9716,
+      "word": "to take out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [aʊt]",
+        "br": "[tə] [teɪk] [aʊt]",
+        "gb": "[tuː] [teɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "покупать еду (чтобы поесть в другом месте)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9717,
+      "word": "to take out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [aʊt]",
+        "br": "[tə] [teɪk] [aʊt]",
+        "gb": "[tuː] [teɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "вынимать, вытаскивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take out your pencils.",
+            "ru": "Выньте карандаши."
+          },
+          {
+            "en": "Take out the chicken after adding the vegetables.",
+            "ru": "Выньте курицу после добавления овощей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9718,
+      "word": "to take out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [aʊt]",
+        "br": "[tə] [teɪk] [aʊt]",
+        "gb": "[tuː] [teɪk] [aʊt]"
+      },
+      "translations": {
+        "rus": "приглашать (в кино и т.п.)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He never takes me out.",
+            "ru": "Он меня никогда никуда не приглашает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9719,
+      "word": "to take over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ˈəʊvər]",
+        "br": "[tə] [teɪk] [ˈəʊvə(r)]",
+        "gb": "[tuː] [teɪk] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "перенять, захватить, овладеть, взять на себя",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I will take over your job.",
+            "ru": "Я возьму на себя твою работу."
+          },
+          {
+            "en": "I'll take over your duties.",
+            "ru": "Я возьму на себя твои обязанности."
+          },
+          {
+            "en": "Can you take over driving for a while?",
+            "ru": "Можешь взять управление автомобилем ненадолго?"
+          },
+          {
+            "en": "I am to take over my father's business.",
+            "ru": "Я собираюсь перенять бизнес отца."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9720,
+      "word": "to take up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [teɪk] [ʌp]",
+        "br": "[tə] [teɪk] [ʌp]",
+        "gb": "[tuː] [teɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "занимать (место, время), заняться чем-л., подхватить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The table doesn't take up much room.",
+            "ru": "Стол не занимает много места."
+          },
+          {
+            "en": "I won't take up much of your time.",
+            "ru": "Я не займу много твоего времени."
+          },
+          {
+            "en": "You should take up golf.",
+            "ru": "Тебе следует заняться гольфом."
+          },
+          {
+            "en": "The bus stopped to take up passengers.",
+            "ru": "Автобус остановился, чтобы подхватить пассажиров."
+          },
+          {
+            "en": "We'd better take up this issue immediately.",
+            "ru": "Нам лучше заняться этим вопросом немедленно."
+          },
+          {
+            "en": "Let's take up this matter after lunch.",
+            "ru": "Давай займёмся этим делом после обеда."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9721,
+      "word": "to throw up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [θrəʊ] [ʌp]",
+        "br": "[tə] [θrəʊ] [ʌp]",
+        "gb": "[tuː] [θrəʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "тошнить, рвать, блевать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm going to throw up.",
+            "ru": "Меня сейчас вырвет."
+          },
+          {
+            "en": "You look like you're about to throw up.",
+            "ru": "Ты выглядишь так, будто тебя сейчас вырвет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9722,
+      "word": "to throw up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [θrəʊ] [ʌp]",
+        "br": "[tə] [θrəʊ] [ʌp]",
+        "gb": "[tuː] [θrəʊ] [ʌp]"
+      },
+      "translations": {
+        "rus": "подбросить, выкинуть, вскинуть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I just want to throw it up in the air victoriously.",
+            "ru": "Я просто хочу победно подбросить её в воздух."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9723,
+      "word": "to turn around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [əˈraʊnd]",
+        "br": "[tə] [tɜːn] [əˈraʊnd]",
+        "gb": "[tuː] [tɜːn] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "поворачиваться, оборачиваться, вращаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Now turn around.",
+            "ru": "Теперь повернись."
+          },
+          {
+            "en": "Turn around and close your eyes.",
+            "ru": "Повернись и закрой глаза."
+          },
+          {
+            "en": "You can turn around now.",
+            "ru": "Теперь можете поворачиваться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9724,
+      "word": "to turn away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [əˈweɪ]",
+        "br": "[tə] [tɜːn] [əˈweɪ]",
+        "gb": "[tuː] [tɜːn] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "отворачивать, отворачиваться, прогонять, не впускать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did you turn away when you met him?",
+            "ru": "Почему ты отвернулся, когда встретил его?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9725,
+      "word": "to turn back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [bæk]",
+        "br": "[tə] [tɜːn] [bæk]",
+        "gb": "[tuː] [tɜːn] [bæk]"
+      },
+      "translations": {
+        "rus": "вернуться, обернуться, повернуть назад, оглянуться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They turned back.",
+            "ru": "Они повернули назад."
+          },
+          {
+            "en": "It was too late to turn back.",
+            "ru": "Возвращаться назад было слишком поздно."
+          },
+          {
+            "en": "The refugees were turned back.",
+            "ru": "Беженцы были возвращены."
+          },
+          {
+            "en": "It's getting late — maybe we should turn back.",
+            "ru": "Становится поздно — может быть, нам следует повернуть обратно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9726,
+      "word": "to turn down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [daʊn]",
+        "br": "[tə] [tɜːn] [daʊn]",
+        "gb": "[tuː] [tɜːn] [daʊn]"
+      },
+      "translations": {
+        "rus": "убавлять, уменьшать, отключать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Turn down the volume, please.",
+            "ru": "Убавьте громкость, пожалуйста."
+          },
+          {
+            "en": "Could you turn down the radio?",
+            "ru": "Вы не могли бы сделать радио потише?"
+          },
+          {
+            "en": "How can I turn down the air conditioner?",
+            "ru": "Как я могу выключить кондиционер?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9727,
+      "word": "to turn down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [daʊn]",
+        "br": "[tə] [tɜːn] [daʊn]",
+        "gb": "[tuː] [tɜːn] [daʊn]"
+      },
+      "translations": {
+        "rus": "отвергать, отклонять",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did you turn down his offer?",
+            "ru": "Почему вы отклонили его просьбу?"
+          },
+          {
+            "en": "I'm afraid she will turn down my request.",
+            "ru": "Боюсь, она откажет мне в просьбе."
+          },
+          {
+            "en": "Why did you turn down his request for a pay raise?",
+            "ru": "Почему вы отклонили его просьбу о повышении зарплаты?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9728,
+      "word": "to turn into",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [tɜːn] [ˈɪntʊ]"
+      },
+      "translations": {
+        "rus": "превращать(ся) в кого-л. или во что-л.",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It saddened me to watch him turn into an alcoholic.",
+            "ru": "Мне было очень грустно видеть, как он превращается в алкоголика."
+          },
+          {
+            "en": "The water turned into ice.",
+            "ru": "Вода превратилась в лёд."
+          },
+          {
+            "en": "The trial turned into a melodrama.",
+            "ru": "Суд превратился в мелодраму."
+          },
+          {
+            "en": "The alchemists tried to turn lead into gold.",
+            "ru": "Алхимики пытались превратить свинец в золото."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4166,
+      "word": "to turn off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ɔːf]",
+        "br": "[tə] [tɜːn] [ɒf]",
+        "gb": "[tuː] [tɜːn] [ɔf]"
+      },
+      "translations": {
+        "rus": "выключать",
+        "spa": "apagar, cerrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't turn off the light.",
+            "ru": "Не выключай свет."
+          },
+          {
+            "en": "Remember to turn off the lights.",
+            "ru": "Не забудь выключить свет."
+          },
+          {
+            "en": "How do you turn off this light?",
+            "ru": "Как этот свет выключается?"
+          },
+          {
+            "en": "Turn off your cellphone.",
+            "ru": "Отключи свой мобильный."
+          },
+          {
+            "en": "Do you mind if I turn off the light?",
+            "ru": "Ты не против, если я выключу свет?"
+          },
+          {
+            "en": "I wish they would turn off the radio.",
+            "ru": "Я бы хотел, чтобы они выключили радио."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9729,
+      "word": "to turn off (a road)",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ɔːf] [ə] [rəʊd]",
+        "br": "[tə] [tɜːn] [ɒf] [ə] [rəʊd]",
+        "gb": "[tuː] [tɜːn] [ɔf]"
+      },
+      "translations": {
+        "rus": "сворачивать, поворачивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Turn off at the parking area.",
+            "ru": "Поверните возле автостоянки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4167,
+      "word": "to turn on",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ɑːn]",
+        "br": "[tə] [tɜːn] [ɒn]",
+        "gb": "[tuː] [tɜːn] [ɔn]"
+      },
+      "translations": {
+        "rus": "включать",
+        "spa": "abrir, encender, conectar, prender"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The TV won't turn on.",
+            "ru": "Телевизор не включается."
+          },
+          {
+            "en": "I think it's time for me to turn on the radio.",
+            "ru": "Я думаю, мне пора включить радио."
+          },
+          {
+            "en": "Did you remember to turn on the alarm?",
+            "ru": "Ты не забыл включить сигнализацию?"
+          },
+          {
+            "en": "May I turn on the TV?",
+            "ru": "Можно я включу телевизор?"
+          },
+          {
+            "en": "Turn on the light. I can't see anything.",
+            "ru": "Включи свет. Я ничего не вижу."
+          },
+          {
+            "en": "Do you mind if I turn on the radio?",
+            "ru": "Ты не против, если я включу радио?"
+          },
+          {
+            "en": "Can we turn on the air conditioning?",
+            "ru": "Мы можем включить кондиционер?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9730,
+      "word": "to turn out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [aʊt]",
+        "br": "[tə] [tɜːn] [aʊt]",
+        "gb": "[tuː] [tɜːn] [aʊt]"
+      },
+      "translations": {
+        "rus": "оказаться, получиться, выключать, обернуться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What did it turn out to be?",
+            "ru": "Чем это оказалось?"
+          },
+          {
+            "en": "Please turn out the lights.",
+            "ru": "Пожалуйста, выключите свет."
+          },
+          {
+            "en": "Things didn't turn out the way we expected.",
+            "ru": "Всё вышло не так, как мы ожидали."
+          },
+          {
+            "en": "I hope things will turn out well for you.",
+            "ru": "Надеюсь, у тебя всё будет в порядке."
+          },
+          {
+            "en": "I didn't think that it would turn out like this.",
+            "ru": "Я и не думал, что это вот так закончится."
+          },
+          {
+            "en": "Be sure to turn out the light when you go out.",
+            "ru": "Обязательно выключай свет, когда уходишь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9731,
+      "word": "to turn over",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ˈəʊvər]",
+        "br": "[tə] [tɜːn] [ˈəʊvə(r)]",
+        "gb": "[tuː] [tɜːn] [ˈəʊvə]"
+      },
+      "translations": {
+        "rus": "переворачивать(ся), передавать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Turn over on your left side.",
+            "ru": "Перевернитесь на левый бок."
+          },
+          {
+            "en": "Turn over and look at the next page.",
+            "ru": "Переверни и посмотри на следующей странице."
+          },
+          {
+            "en": "They turned the evidence over to the police.",
+            "ru": "Они передали эту улику полиции."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9732,
+      "word": "to turn up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ʌp]",
+        "br": "[tə] [tɜːn] [ʌp]",
+        "gb": "[tuː] [tɜːn] [ʌp]"
+      },
+      "translations": {
+        "rus": "появляться (на мероприятии, встрече)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She did not turn up.",
+            "ru": "Она так и не появилась."
+          },
+          {
+            "en": "He won't turn up tonight.",
+            "ru": "Он не появится этим вечером."
+          },
+          {
+            "en": "I'm sure she will turn up soon.",
+            "ru": "Я уверен, она скоро появится."
+          },
+          {
+            "en": "Why didn't you turn up on Saturday?",
+            "ru": "Почему ты не появился в субботу?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9733,
+      "word": "to turn up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ʌp]",
+        "br": "[tə] [tɜːn] [ʌp]",
+        "gb": "[tuː] [tɜːn] [ʌp]"
+      },
+      "translations": {
+        "rus": "найтись (случайно после пропажи)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9734,
+      "word": "to turn up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tɜːrn] [ʌp]",
+        "br": "[tə] [tɜːn] [ʌp]",
+        "gb": "[tuː] [tɜːn] [ʌp]"
+      },
+      "translations": {
+        "rus": "усиливать, увеличивать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Turn up the radio.",
+            "ru": "Сделай радио погромче."
+          },
+          {
+            "en": "Can you turn up the heat?",
+            "ru": "Ты можешь сделать потеплее?"
+          },
+          {
+            "en": "Please turn up the gas.",
+            "ru": "Сделай газ побольше, пожалуйста."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4178,
+      "word": "to wake up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [weɪk] [ʌp]",
+        "br": "[tə] [weɪk] [ʌp]",
+        "gb": "[tuː] [weɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "просыпаться, будить",
+        "spa": "despertarse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What time did you wake up this morning?",
+            "ru": "В котором часу ты встал сегодня утром?"
+          },
+          {
+            "en": "Go and wake up that idle brother of yours.",
+            "ru": "Иди разбуди своего ленивого братца."
+          },
+          {
+            "en": "My clock stopped and I didn't wake up in time.",
+            "ru": "Мои часы остановились, и я не встал вовремя."
+          },
+          {
+            "en": "Come on, wake up.",
+            "ru": "Давай, просыпайся."
+          },
+          {
+            "en": "Children, wake up!",
+            "ru": "Дети, просыпайтесь!"
+          },
+          {
+            "en": "You need to wake up.",
+            "ru": "Тебе надо просыпаться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "home",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9735,
+      "word": "to walk around",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [əˈraʊnd]",
+        "br": "[tə] [wɔːk] [əˈraʊnd]",
+        "gb": "[tuː] [wɔːk] [əˈraʊnd]"
+      },
+      "translations": {
+        "rus": "ходить, бродить повсюду",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You had better not walk around in such a place.",
+            "ru": "Ты бы лучше не ходил по такому месту."
+          },
+          {
+            "en": "I'll just walk around Boston.",
+            "ru": "Я просто поброжу по Бостону."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9736,
+      "word": "to walk away",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [əˈweɪ]",
+        "br": "[tə] [wɔːk] [əˈweɪ]",
+        "gb": "[tuː] [wɔːk] [əˈweɪ]"
+      },
+      "translations": {
+        "rus": "уходить, покидать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Just let me walk away.",
+            "ru": "Просто позволь мне уйти."
+          },
+          {
+            "en": "You need to walk away.",
+            "ru": "Тебе надо уйти."
+          },
+          {
+            "en": "Don't you walk away from me.",
+            "ru": "Не отходите от меня."
+          },
+          {
+            "en": "It's not too late to walk away.",
+            "ru": "Ещё не поздно уйти."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9737,
+      "word": "to walk back",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [bæk]",
+        "br": "[tə] [wɔːk] [bæk]",
+        "gb": "[tuː] [wɔːk] [bæk]"
+      },
+      "translations": {
+        "rus": "возвращаться, идти назад",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We can walk back.",
+            "ru": "Мы можем пойти назад."
+          },
+          {
+            "en": "I think I'll walk back.",
+            "ru": "Я думаю, что я вернусь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9738,
+      "word": "to walk in",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [ɪn]",
+        "br": "[tə] [wɔːk] [ɪn]",
+        "gb": "[tuː] [wɔːk] [ɪn]"
+      },
+      "translations": {
+        "rus": "входить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9739,
+      "word": "to walk off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [ɔːf]",
+        "br": "[tə] [wɔːk] [ɒf]",
+        "gb": "[tuː] [wɔːk] [ɔf]"
+      },
+      "translations": {
+        "rus": "уходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9740,
+      "word": "to walk out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [aʊt]",
+        "br": "[tə] [wɔːk] [aʊt]",
+        "gb": "[tuː] [wɔːk] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить, уходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His only answer was to walk out.",
+            "ru": "Его единственной реакцией было уйти."
+          },
+          {
+            "en": "I think I'll walk out for a little while.",
+            "ru": "Я думаю, я выйду ненадолго."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9741,
+      "word": "to walk up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɔːk] [ʌp]",
+        "br": "[tə] [wɔːk] [ʌp]",
+        "gb": "[tuː] [wɔːk] [ʌp]"
+      },
+      "translations": {
+        "rus": "подойти, подходить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why can't you just walk up and talk to her like a normal person?",
+            "ru": "Почему ты не можешь просто подойти и поговорить с ней как нормальный человек?"
+          },
+          {
+            "en": "I can't just walk up and ask him for it.",
+            "ru": "Я же не могу просто подойти и попросить его."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 4612,
+      "word": "to watch out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɑːtʃ] [aʊt]",
+        "br": "[tə] [wɒtʃ] [aʊt]",
+        "gb": "[tuː] [wɔʧ] [aʊt]"
+      },
+      "translations": {
+        "rus": "остерегаться, быть начеку",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Watch out! A car is coming!",
+            "ru": "Осторожно! Машина!"
+          },
+          {
+            "en": "Watch out for that man.",
+            "ru": "Остерегайся этого человека."
+          },
+          {
+            "en": "Watch out for cars when you cross the street.",
+            "ru": "Остерегайтесь машин, когда переходите улицу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "idioms",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9742,
+      "word": "to wind up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [waɪnd] [ʌp]",
+        "br": "[tu] [waɪnd] [ʌp]",
+        "gb": "[tuː] [waɪnd] [ʌp]"
+      },
+      "translations": {
+        "rus": "очутиться, оказаться, завершать, завершаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You know you're going to wind up in court over this.",
+            "ru": "Вы же знаете, что рано или поздно вы окажетесь за это в суде."
+          },
+          {
+            "en": "I think it's time to wind up this meeting.",
+            "ru": "Думаю, что пора закрывать заседание."
+          },
+          {
+            "en": "Can you think of a good joke I can use to wind up my speech?",
+            "ru": "Ты знаешь какой-нибудь хороший анекдот, чтобы закончить им мое выступление?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9743,
+      "word": "to work out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɜːrk] [aʊt]",
+        "br": "[tə] [wɜːk] [aʊt]",
+        "gb": "[tuː] [wɜːk] [aʊt]"
+      },
+      "translations": {
+        "rus": "разрабатывать, разобраться, спланировать, выработать, достичь, срабатывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A good plan has been worked out.",
+            "ru": "Был разработан хороший план."
+          },
+          {
+            "en": "It won't work out.",
+            "ru": "Это не сработает."
+          },
+          {
+            "en": "I'm trying to work out this problem.",
+            "ru": "Я пытаюсь решить эту проблему."
+          },
+          {
+            "en": "It's all going to work out, you'll see.",
+            "ru": "Оно всё сработает, вот увидите."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9744,
+      "word": "to work out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɜːrk] [aʊt]",
+        "br": "[tə] [wɜːk] [aʊt]",
+        "gb": "[tuː] [wɜːk] [aʊt]"
+      },
+      "translations": {
+        "rus": "тренироваться",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I work out.",
+            "ru": "Я тренируюсь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9745,
+      "word": "to work up",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɜːrk] [ʌp]",
+        "br": "[tə] [wɜːk] [ʌp]",
+        "gb": "[tuː] [wɜːk] [ʌp]"
+      },
+      "translations": {
+        "rus": "выработать, создать, разработать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I could work up some flyers.",
+            "ru": "Я мог бы разработать какие-нибудь флаеры."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9746,
+      "word": "to write down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [raɪt] [daʊn]",
+        "br": "[tə] [raɪt] [daʊn]",
+        "gb": "[tuː] [raɪt] [daʊn]"
+      },
+      "translations": {
+        "rus": "записывать, излагать письменно",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you write down the number?",
+            "ru": "Ты записал номер?"
+          },
+          {
+            "en": "Write down your name here.",
+            "ru": "Запишите своё имя здесь."
+          },
+          {
+            "en": "I will write down your name and address.",
+            "ru": "Я запишу твоё имя и адрес."
+          },
+          {
+            "en": "Please write down my address.",
+            "ru": "Запишите, пожалуйста, мой адрес."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 9747,
+      "word": "to write off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [raɪt] [ɔːf]",
+        "br": "[tə] [raɪt] [ɒf]",
+        "gb": "[tuː] [raɪt] [ɔf]"
+      },
+      "translations": {
+        "rus": "списывать со счета, вычеркивать, аннулировать",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We had to write off the debt.",
+            "ru": "Нам пришлось списать долги."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "phrasal_verbs"
+      ]
+    }
+  ]
+}

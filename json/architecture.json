@@ -1,0 +1,1952 @@
+{
+  "category": {
+    "id": "architecture",
+    "name_rus": "Архитектура",
+    "type": "topic",
+    "word_count": 74
+  },
+  "words": [
+    {
+      "id": 381,
+      "word": "adobe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdəʊbi]",
+        "br": "[əˈdəʊbi]",
+        "gb": "[əˈdəʊbɪ]"
+      },
+      "translations": {
+        "rus": "саман",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 382,
+      "word": "aesthetic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[esˈθetɪk]",
+        "br": "[iːsˈθetɪk], [esˈθetɪk]",
+        "gb": "[iːsˈθetɪk]"
+      },
+      "translations": {
+        "rus": "эстетический",
+        "spa": "estético"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 309,
+      "word": "ancient",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈeɪnʃənt]",
+        "br": "[ˈeɪnʃənt]",
+        "gb": "[ˈeɪnʃənt]"
+      },
+      "translations": {
+        "rus": "древний, старинный",
+        "spa": "antiguo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is an ancient law.",
+            "ru": "Это древний закон."
+          },
+          {
+            "en": "I bought an ancient lamp.",
+            "ru": "Я купил старинную лампу."
+          },
+          {
+            "en": "Rome has a lot of ancient buildings.",
+            "ru": "В Риме много древних зданий."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Rome is an ancient city.",
+            "es": "Roma es una ciudad antigua."
+          },
+          {
+            "en": "Rome has a lot of ancient buildings.",
+            "es": "Roma tiene muchos edificios antiguos."
+          },
+          {
+            "en": "That ancient ruin was once a shrine.",
+            "es": "Esas antiguas ruinas fueron alguna vez un templo."
+          }
+        ]
+      },
+      "categories": [
+        "archaeology",
+        "architecture",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 383,
+      "word": "apse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æps]",
+        "br": "[æps]",
+        "gb": "[æps]"
+      },
+      "translations": {
+        "rus": "апсида",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 212,
+      "word": "arched",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɑːrtʃt]",
+        "br": "[ɑːtʃt]",
+        "gb": "[ɑːʧt]"
+      },
+      "translations": {
+        "rus": "изогнутый, арочный, дугой",
+        "spa": "arqueado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cat arched its back.",
+            "es": "El gato arqueó el lomo."
+          },
+          {
+            "en": "He arched his eyebrows in surprise.",
+            "es": "Arqueó las cejas con sorpresa."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "architecture"
+      ]
+    },
+    {
+      "id": 384,
+      "word": "architect",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrkɪtekt]",
+        "br": "[ˈɑːkɪtekt]",
+        "gb": "[ˈɑːkɪtekt]"
+      },
+      "translations": {
+        "rus": "архитектор",
+        "spa": "el arquitecto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is the architect?",
+            "ru": "Кто архитектор?"
+          },
+          {
+            "en": "I hope to become an architect.",
+            "ru": "Я надеюсь стать архитектором."
+          },
+          {
+            "en": "I have a brother who's an architect.",
+            "ru": "У меня есть брат-архитектор."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 385,
+      "word": "architecture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrkɪtektʃər]",
+        "br": "[ˈɑːkɪtektʃə(r)]",
+        "gb": "[ˈɑːkɪtekʧə]"
+      },
+      "translations": {
+        "rus": "архитектура",
+        "spa": "la arquitectura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Rome is famous for its ancient architecture.",
+            "ru": "Рим знаменит своей древней архитектурой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 386,
+      "word": "asymmetric",
+      "pos": null,
+      "transcription": {
+        "us": "[ˌeɪsɪˈmetrɪk]",
+        "br": "[ˌeɪsɪˈmetrɪk]",
+        "gb": "[æsɪˈmetrɪk]"
+      },
+      "translations": {
+        "rus": "асимметричный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 387,
+      "word": "baptistry",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbæptɪstrɪ]"
+      },
+      "translations": {
+        "rus": "баптистерий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 388,
+      "word": "brick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪk]",
+        "br": "[brɪk]",
+        "gb": "[brɪk]"
+      },
+      "translations": {
+        "rus": "кирпич, брусок, кирпичный",
+        "spa": "el ladrillo, de ladrillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live in a brick house.",
+            "ru": "Мы живем в кирпичном доме."
+          },
+          {
+            "en": "The large brick house with a turret at top.",
+            "ru": "Большой кирпичный дом с башенкой на крыше."
+          },
+          {
+            "en": "Protesters attacked the police with stones and bricks.",
+            "ru": "Митингующие напали на полицейских с камнями и кирпичами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 389,
+      "word": "buttress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌtrəs]",
+        "br": "[ˈbʌtrəs]",
+        "gb": "[ˈbʌtrɪs]"
+      },
+      "translations": {
+        "rus": "контрфорс, подпора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 390,
+      "word": "carpentry shop",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈkɑːrpəntri] [ʃɑːp]",
+        "br": "[ˈkɑːpəntri] [ʃɒp]",
+        "gb": "[ˈkɑːpɪntrɪ] [ʃɔp]"
+      },
+      "translations": {
+        "rus": "столярная мастерская",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 391,
+      "word": "chimney",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃɪmni]",
+        "br": "[ˈtʃɪmni]",
+        "gb": "[ˈʧɪmnɪ]"
+      },
+      "translations": {
+        "rus": "дымовая труба, дымоход",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Smoke goes up a chimney.",
+            "ru": "Дым поднимается вверх по трубе."
+          },
+          {
+            "en": "The chimney draws well.",
+            "ru": "В трубе хорошая тяга."
+          },
+          {
+            "en": "The chimney is choked up with soot.",
+            "ru": "Труба забита сажей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 326,
+      "word": "clay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kleɪ]",
+        "br": "[kleɪ]",
+        "gb": "[kleɪ]"
+      },
+      "translations": {
+        "rus": "глина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "architecture",
+        "ecology"
+      ]
+    },
+    {
+      "id": 392,
+      "word": "colonnade",
+      "pos": null,
+      "transcription": {
+        "us": "[ˌkɑːləˈneɪd]",
+        "br": "[ˌkɒləˈneɪd]",
+        "gb": "[kɔləˈneɪd]"
+      },
+      "translations": {
+        "rus": "колоннада",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 393,
+      "word": "compositional",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɒmpəˈzɪʃnəl]"
+      },
+      "translations": {
+        "rus": "композиционный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 394,
+      "word": "construction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈstrʌkʃn]",
+        "br": "[kənˈstrʌkʃn]",
+        "gb": "[kənˈstrʌkʃn]"
+      },
+      "translations": {
+        "rus": "строительство, конструкция, сооружение, здание, стройка",
+        "spa": "la construcción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Construction began in 2013.",
+            "ru": "Строительство началось в 2013-м."
+          },
+          {
+            "en": "The bridge is under construction.",
+            "ru": "Мост находится в стадии постройки."
+          },
+          {
+            "en": "Construction will start in a few weeks.",
+            "ru": "Стройка начнётся через несколько недель."
+          },
+          {
+            "en": "A new road is under construction.",
+            "ru": "Новая дорога находится в процессе строительства."
+          },
+          {
+            "en": "Construction area: hard hats required.",
+            "ru": "Строительная площадка: ношение касок обязательно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Iron is used in ship construction.",
+            "es": "El hierro se utiliza en la construcción de barcos."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 395,
+      "word": "designer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈzaɪnər]",
+        "br": "[dɪˈzaɪnə(r)]",
+        "gb": "[dɪˈzaɪnə]"
+      },
+      "translations": {
+        "rus": "дизайнер",
+        "spa": "el diseñador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She wants to be a designer.",
+            "ru": "Она хочет быть дизайнером."
+          },
+          {
+            "en": "I'm a designer.",
+            "ru": "Я дизайнер."
+          },
+          {
+            "en": "Mary is an interior designer.",
+            "ru": "Мэри — дизайнер интерьеров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 396,
+      "word": "dome",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dəʊm]",
+        "br": "[dəʊm]",
+        "gb": "[dəʊm]"
+      },
+      "translations": {
+        "rus": "купол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 397,
+      "word": "eclecticism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈklektɪsɪzəm]",
+        "br": "[ɪˈklektɪsɪzəm]",
+        "gb": "[ekˈlektɪsɪzm]"
+      },
+      "translations": {
+        "rus": "эклектизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 398,
+      "word": "embellishment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈbelɪʃmənt]",
+        "br": "[ɪmˈbelɪʃmənt]",
+        "gb": "[ɪmˈbelɪʃmənt]"
+      },
+      "translations": {
+        "rus": "украшение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 400,
+      "word": "exhibition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeksɪˈbɪʃn]",
+        "br": "[ˌeksɪˈbɪʃn]",
+        "gb": "[eksɪˈbɪʃn]"
+      },
+      "translations": {
+        "rus": "выставка, показ",
+        "spa": "la exposición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The exhibition is now open.",
+            "ru": "Выставка уже открыта."
+          },
+          {
+            "en": "Did you enjoy the exhibition?",
+            "ru": "Тебе понравилась выставка?"
+          },
+          {
+            "en": "We hold an exhibition every year.",
+            "ru": "Мы организуем выставку каждый год."
+          },
+          {
+            "en": "The exhibition was very impressive.",
+            "ru": "Выставка была очень впечатляющей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you enjoy the exhibition?",
+            "es": "¿Te ha gustado la exposición?"
+          },
+          {
+            "en": "The exhibition is already open.",
+            "es": "La exposición ya está abierta."
+          },
+          {
+            "en": "You ought to have seen the exhibition.",
+            "es": "Deberías haber visto la exposición."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "art",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 401,
+      "word": "expansion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspænʃn]",
+        "br": "[ɪkˈspænʃn]",
+        "gb": "[ɪksˈpænʃn]"
+      },
+      "translations": {
+        "rus": "расширение",
+        "spa": "la expansión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 402,
+      "word": "exposition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌekspəˈzɪʃn]",
+        "br": "[ˌekspəˈzɪʃn]",
+        "gb": "[ekspəʊˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "выставка, экспозиция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "art"
+      ]
+    },
+    {
+      "id": 403,
+      "word": "exterior",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɪkˈstɪriər]",
+        "br": "[ɪkˈstɪəriə(r)]",
+        "gb": "[eksˈtɪərɪə]"
+      },
+      "translations": {
+        "rus": "внешняя часть",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 404,
+      "word": "facade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈsɑːd]",
+        "br": "[fəˈsɑːd]",
+        "gb": "[fəˈsɑːd]"
+      },
+      "translations": {
+        "rus": "фасад",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 405,
+      "word": "Florentine Renaissance",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈflɔrəntaɪn] [rəˈneɪsəns]"
+      },
+      "translations": {
+        "rus": "флорентийский ренессанс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 406,
+      "word": "forge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrdʒ]",
+        "br": "[fɔːdʒ]",
+        "gb": "[fɔːʤ]"
+      },
+      "translations": {
+        "rus": "кузница",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 407,
+      "word": "form",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrm]",
+        "br": "[fɔːm]",
+        "gb": "[fɔːm]"
+      },
+      "translations": {
+        "rus": "форма, анкета, бланк",
+        "spa": "la forma, el formulario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fill out the form.",
+            "ru": "Заполните эту анкету."
+          },
+          {
+            "en": "I have enclosed your order form.",
+            "ru": "Я приложил ваш бланк заказа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fill out the form below.",
+            "es": "Rellene el siguiente formulario."
+          },
+          {
+            "en": "What forms do we need to file?",
+            "es": "¿Qué formas necesitamos nosotros archivar?"
+          },
+          {
+            "en": "Please fill in this form.",
+            "es": "Por favor, complete el formulario."
+          },
+          {
+            "en": "Should I fill in this form now?",
+            "es": "¿Debo rellenar este formulario ahora?"
+          },
+          {
+            "en": "A snail's shell is spiral in form.",
+            "es": "La concha de un caracol tiene forma de espiral."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 408,
+      "word": "gabled",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɡeɪbld]",
+        "br": "[ˈɡeɪbld]",
+        "gb": "[geɪbld]"
+      },
+      "translations": {
+        "rus": "остроконечный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 409,
+      "word": "Gothic Revival",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈgɔθɪk] [rɪˈvaɪvəl]"
+      },
+      "translations": {
+        "rus": "Готическое возрождение, неоготический стиль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 410,
+      "word": "Greek Revival",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[griːk] [rɪˈvaɪvəl]"
+      },
+      "translations": {
+        "rus": "Греческое возрождение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 411,
+      "word": "Greek temples",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[griːk] [ˈtɛmpəlz]"
+      },
+      "translations": {
+        "rus": "греческие храмы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 412,
+      "word": "harmony",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːrməni]",
+        "br": "[ˈhɑːməni]",
+        "gb": "[ˈhɑːmənɪ]"
+      },
+      "translations": {
+        "rus": "гармония",
+        "spa": "la armonía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Japanese live in harmony with nature.",
+            "ru": "Японцы живут в гармонии с природой."
+          },
+          {
+            "en": "At that moment, I felt in complete harmony with the world.",
+            "ru": "В тот момент я ощутил совершенную гармонию с миром."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "art",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 413,
+      "word": "interior",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈtɪriər]",
+        "br": "[ɪnˈtɪəriə(r)]",
+        "gb": "[ɪnˈtɪərɪə]"
+      },
+      "translations": {
+        "rus": "интерьер, внутренний",
+        "spa": "el interior"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is an interior designer.",
+            "ru": "Мэри — дизайнер интерьеров."
+          },
+          {
+            "en": "Now we see the interior of the castle.",
+            "ru": "Сейчас мы видим убранство замка."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "home",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 414,
+      "word": "kiln for firing brick",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɪln] [fɔː] [ˈfaɪərɪŋ] [brɪk]"
+      },
+      "translations": {
+        "rus": "печь для обжигания кирпича",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 415,
+      "word": "landscape",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlændskeɪp]",
+        "br": "[ˈlændskeɪp]",
+        "gb": "[ˈlænskeɪp]"
+      },
+      "translations": {
+        "rus": "пейзаж, ландшафт, горизонтальный",
+        "spa": "el paisaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was seduced by the beauty of the landscape.",
+            "ru": "Я был покорён красотой пейзажа."
+          },
+          {
+            "en": "A sense of calm breathed from the landscape.",
+            "ru": "Пейзаж излучал спокойствие."
+          },
+          {
+            "en": "He received a commission to design the landscape.",
+            "ru": "Он получил заказ на проектирование ландшафта."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Those trees hide the landscape.",
+            "es": "Estos árboles esconden el paisaje."
+          },
+          {
+            "en": "The landscape was flat and monotonous.",
+            "es": "El paisaje era plano y monótono."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "art",
+        "oxford3000_b2",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 416,
+      "word": "lime",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪm]",
+        "br": "[laɪm]",
+        "gb": "[laɪm]"
+      },
+      "translations": {
+        "rus": "известь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 417,
+      "word": "mannerism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmænərɪzəm]",
+        "br": "[ˈmænərɪzəm]",
+        "gb": "[ˈmænərɪzm]"
+      },
+      "translations": {
+        "rus": "особенность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 418,
+      "word": "mansion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmænʃn]",
+        "br": "[ˈmænʃn]",
+        "gb": "[mænʃn]"
+      },
+      "translations": {
+        "rus": "особняк, большой дом",
+        "spa": "la mansión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A long driveway led to the mansion.",
+            "ru": "К особняку вела длинная подъездная дорога."
+          },
+          {
+            "en": "He paid a stiff price for the mansion.",
+            "ru": "Он заплатил непомерно высокую цену за этот особняк."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "home"
+      ]
+    },
+    {
+      "id": 419,
+      "word": "marble",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːrbl]",
+        "br": "[ˈmɑːbl]",
+        "gb": "[mɑːbl]"
+      },
+      "translations": {
+        "rus": "мрамор, мраморный",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Marble also occurs here.",
+            "ru": "Здесь также встречается мрамор."
+          },
+          {
+            "en": "The statue is made of marble.",
+            "ru": "Статуя сделана из мрамора."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 420,
+      "word": "medieval",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌmediˈiːvl]",
+        "br": "[ˌmediˈiːvl]",
+        "gb": "[medɪˈiːvəl]"
+      },
+      "translations": {
+        "rus": "средневековый",
+        "spa": "medieval"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are many medieval castles in Europe.",
+            "ru": "В Европе много средневековых замков."
+          },
+          {
+            "en": "Mary went to a medieval music festival.",
+            "ru": "Мэри пошла на фестиваль средневековой музыки."
+          },
+          {
+            "en": "My major is medieval European history.",
+            "ru": "Моя специальность - история средневековой Европы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 421,
+      "word": "neo-Renaissance model",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈniːəʊ] [rəˈneɪsəns] [mɔdl]"
+      },
+      "translations": {
+        "rus": "модель в стиле неоренессанса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 422,
+      "word": "neoclassical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌniːəʊˈklæsɪkl]",
+        "br": "[ˌniːəʊˈklæsɪkl]",
+        "gb": "[nɪəˈklæsɪkl]"
+      },
+      "translations": {
+        "rus": "неоклассический",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 423,
+      "word": "oversized",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈəʊvərsaɪzd]",
+        "br": "[ˈəʊvəsaɪzd]",
+        "gb": "[ˈəʊvəsaɪzd]"
+      },
+      "translations": {
+        "rus": "больше обычного размера, негабаритный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 424,
+      "word": "pediment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpedɪmənt]",
+        "br": "[ˈpedɪmənt]",
+        "gb": "[ˈpedɪmənt]"
+      },
+      "translations": {
+        "rus": "фронтон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 426,
+      "word": "piano nobile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpjɑːnəʊ] [ˈnəʊbɪlɪ]",
+        "br": "[ˈpjɑːnəʊ] [ˈnəʊbɪlɪ]",
+        "gb": "[pɪˈænəʊ] [nɒbl]"
+      },
+      "translations": {
+        "rus": "пиано нобиле, главный этаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 427,
+      "word": "picturesque",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌpɪktʃəˈresk]",
+        "br": "[ˌpɪktʃəˈresk]",
+        "gb": "[pɪkʧəˈresk]"
+      },
+      "translations": {
+        "rus": "живописный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "art"
+      ]
+    },
+    {
+      "id": 428,
+      "word": "pinnacle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪnəkl]",
+        "br": "[ˈpɪnəkl]",
+        "gb": "[ˈpɪnəkl]"
+      },
+      "translations": {
+        "rus": "башенка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 429,
+      "word": "plan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plæn]",
+        "br": "[plæn]",
+        "gb": "[plæn]"
+      },
+      "translations": {
+        "rus": "план",
+        "spa": "el plan"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The plan was a success.",
+            "ru": "План удался."
+          },
+          {
+            "en": "Do you have a plan?",
+            "ru": "У тебя есть план?"
+          },
+          {
+            "en": "I approve of your plan.",
+            "ru": "Я одобряю твой план."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a plan?",
+            "es": "¿Tienes un plan?"
+          },
+          {
+            "en": "We gave up the plan.",
+            "es": "Abandonamos el plan."
+          },
+          {
+            "en": "We just need a plan.",
+            "es": "Solo necesitamos un plan."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "marketing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 430,
+      "word": "pointed arch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɔɪntɪd] [ɑːrtʃ]",
+        "br": "[ˈpɔɪntɪd] [ɑːtʃ]",
+        "gb": "[ˈpɔɪntɪd] [ɑːʧ]"
+      },
+      "translations": {
+        "rus": "стрельчатая арка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 431,
+      "word": "portico",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɔːrtɪkəʊ]",
+        "br": "[ˈpɔːtɪkəʊ]",
+        "gb": "[ˈpɔːtɪkəʊ]"
+      },
+      "translations": {
+        "rus": "портик, галерея",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 432,
+      "word": "post-and-beam construction",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pəʊst] [ænd] [biːm] [kənˈstrʌkʃn]"
+      },
+      "translations": {
+        "rus": "стоечно-ригельная конструкция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 433,
+      "word": "postmodernism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpəʊstˈmɑːdərnɪzəm]",
+        "br": "[ˌpəʊstˈmɒdənɪzəm]",
+        "gb": "[ˈpəʊstmɒdənɪzəm]"
+      },
+      "translations": {
+        "rus": "постмодернизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 434,
+      "word": "primary building material",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈpraɪmeri] [ˈbɪldɪŋ] [məˈtɪriəl]",
+        "br": "[ˈpraɪməri] [ˈbɪldɪŋ] [məˈtɪəriəl]",
+        "gb": "[ˈpraɪmərɪ] [ˈbɪldɪŋ] [məˈtɪərɪəl]"
+      },
+      "translations": {
+        "rus": "основной строительный материал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 435,
+      "word": "red-tiled roof",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[red] [taɪld] [ruːf]"
+      },
+      "translations": {
+        "rus": "красная черепичная крыша",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 436,
+      "word": "remodeling",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[rɪˈmɑdəlɪŋ]"
+      },
+      "translations": {
+        "rus": "перепланировка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 437,
+      "word": "Renaissance architect",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[rəˈneɪsəns] [ˈɑːkɪtekt]"
+      },
+      "translations": {
+        "rus": "архитектор эпохи Возрождения (Ренессанса)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 438,
+      "word": "Romanesque church",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌrəʊməˈnesk] [tʃɜːrtʃ]",
+        "br": "[ˌrəʊməˈnesk] [tʃɜːtʃ]",
+        "gb": "[rəʊməˈnesk] [ʧɜːʧ]"
+      },
+      "translations": {
+        "rus": "романская церковь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 439,
+      "word": "sacristy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsækrɪsti]",
+        "br": "[ˈsækrɪsti]",
+        "gb": "[ˈsækrɪstɪ]"
+      },
+      "translations": {
+        "rus": "ризница",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 440,
+      "word": "sidewalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪdwɔːk]",
+        "br": "[ˈsaɪdwɔːk]",
+        "gb": "[ˈsaɪdwɔːk]"
+      },
+      "translations": {
+        "rus": "тротуар",
+        "spa": "la acera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A casual encounter on the sidewalk.",
+            "ru": "Случайная встреча на тротуаре."
+          },
+          {
+            "en": "She slipped and hit her head on the sidewalk.",
+            "ru": "Она поскользнулась и ударилась головой о тротуар."
+          },
+          {
+            "en": "He sat on the sidewalk asking for a handout.",
+            "ru": "Он сидел на тротуаре и просил подаяния."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I found a coin on the sidewalk.",
+            "es": "Encontré una moneda en la acera."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "construction",
+        "town",
+        "transport"
+      ]
+    },
+    {
+      "id": 441,
+      "word": "simplicity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɪmˈplɪsəti]",
+        "br": "[sɪmˈplɪsəti]",
+        "gb": "[sɪmˈplɪsɪtɪ]"
+      },
+      "translations": {
+        "rus": "простота",
+        "spa": "la sencillez, la simplicidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "art"
+      ]
+    },
+    {
+      "id": 442,
+      "word": "single-aisled",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[sɪŋgl] [aɪld]"
+      },
+      "translations": {
+        "rus": "с одним проходом между рядами (о церкви)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 443,
+      "word": "space",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪs]",
+        "br": "[speɪs]",
+        "gb": "[speɪs]"
+      },
+      "translations": {
+        "rus": "пространство, место, космос, космический, пробел",
+        "spa": "el espacio, espacial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Leave a space after each number.",
+            "ru": "Оставьте пробел после каждой цифры."
+          },
+          {
+            "en": "There's not much empty space.",
+            "ru": "Там не так много свободного места."
+          },
+          {
+            "en": "The Space Shuttle is now in orbit.",
+            "ru": "Космический шаттл сейчас находится на орбите."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Give us a little space.",
+            "es": "Danos un poco de espacio."
+          },
+          {
+            "en": "Space travel was thought to be impossible.",
+            "es": "Se pensaba que los viajes espaciales eran imposibles."
+          },
+          {
+            "en": "I just need my own space.",
+            "es": "Solo necesito mi espacio."
+          },
+          {
+            "en": "Space is full of mystery.",
+            "es": "El espacio está lleno de misterios."
+          },
+          {
+            "en": "I just needed some space.",
+            "es": "Solo necesitaba algo de espacio."
+          },
+          {
+            "en": "We have space for two beds.",
+            "es": "Tenemos espacio para dos camas."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 444,
+      "word": "Spanish Baroque",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈspænɪʃ] [bəˈrɔk]"
+      },
+      "translations": {
+        "rus": "испанское барокко",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 445,
+      "word": "superintendent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsuːpərɪnˈtendənt]",
+        "br": "[ˌsuːpərɪnˈtendənt]",
+        "gb": "[sjuːpərɪnˈtendənt]"
+      },
+      "translations": {
+        "rus": "прораб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 446,
+      "word": "tepidarium",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈtepɪdərɪəm]"
+      },
+      "translations": {
+        "rus": "тепидарий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 399,
+      "word": "to erect",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪˈrekt]",
+        "br": "[tu] [ɪˈrekt]",
+        "gb": "[tuː] [ɪˈrekt]"
+      },
+      "translations": {
+        "rus": "возводить, возвышать",
+        "spa": "erigir, montar, levantar, armar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 425,
+      "word": "to peg",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [peɡ]",
+        "br": "[tə] [peɡ]",
+        "gb": "[tuː] [peg]"
+      },
+      "translations": {
+        "rus": "прикреплять колышком",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 447,
+      "word": "Tudor Gothic style",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈtjuːdə] [ˈgɔθɪk] [staɪl]"
+      },
+      "translations": {
+        "rus": "стиль поздней английской готики",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 448,
+      "word": "undecorated stretches",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌnˈdɛkəˌreɪtəd] [ˈstrɛʧəz]"
+      },
+      "translations": {
+        "rus": "участки без отделки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 449,
+      "word": "unornamented",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌnˈɔrnəˌmɛntɪd]"
+      },
+      "translations": {
+        "rus": "неукрашенный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "id": 450,
+      "word": "veranda",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈrændə]",
+        "br": "[vəˈrændə]",
+        "gb": "[vəˈrændə]"
+      },
+      "translations": {
+        "rus": "веранда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "construction"
+      ]
+    },
+    {
+      "id": 451,
+      "word": "woodcut",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwʊdkʌt]",
+        "br": "[ˈwʊdkʌt]",
+        "gb": "[ˈwʊdkʌt]"
+      },
+      "translations": {
+        "rus": "гравюра на дереве, ксилография",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "architecture"
+      ]
+    }
+  ]
+}

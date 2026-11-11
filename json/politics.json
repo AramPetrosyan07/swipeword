@@ -1,0 +1,1887 @@
+{
+  "category": {
+    "id": "politics",
+    "name_rus": "Политика",
+    "type": "topic",
+    "word_count": 55
+  },
+  "words": [
+    {
+      "id": 9748,
+      "word": "absentee voting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌæbsənˈtiː] [ˈvəʊtɪŋ]",
+        "br": "[ˌæbsənˈtiː] [ˈvəʊtɪŋ]",
+        "gb": "[æbsənˈtiː] [ˈvəʊtɪŋ]"
+      },
+      "translations": {
+        "rus": "заочное голосование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 4894,
+      "word": "advocate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈædvəkət]",
+        "br": "[ˈædvəkət]",
+        "gb": "[ˈædvəkɪt]"
+      },
+      "translations": {
+        "rus": "адвокат, защитник",
+        "spa": "el defensor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The disabled considered her their best advocate.",
+            "ru": "Инвалиды считали её своим лучшим защитником."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "legal_english",
+        "oxford5000_c1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7316,
+      "word": "affair",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈfer]",
+        "br": "[əˈfeə(r)]",
+        "gb": "[əˈfɛə]"
+      },
+      "translations": {
+        "rus": "дело, событие, происшествие",
+        "spa": "el asunto, el caso, la ocasión, el acontecimiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That is my own affair.",
+            "ru": "Это моё дело."
+          },
+          {
+            "en": "It was a strange affair.",
+            "ru": "Это было странное дело."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have nothing to do with the affair.",
+            "es": "No tengo nada que ver con el asunto."
+          },
+          {
+            "en": "We expect an early settlement of the affair.",
+            "es": "Esperamos un temprano acuerdo sobre el asunto."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8447,
+      "word": "amendment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈmendmənt]",
+        "br": "[əˈmendmənt]",
+        "gb": "[əˈmendmənt]"
+      },
+      "translations": {
+        "rus": "поправка, изменение",
+        "spa": "la enmienda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The amendment was first proposed in 1789.",
+            "ru": "Поправка была впервые предложена в 1789 году."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9749,
+      "word": "anthem",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈænθəm]",
+        "br": "[ˈænθəm]",
+        "gb": "[ˈænθəm]"
+      },
+      "translations": {
+        "rus": "гимн",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 6853,
+      "word": "authority",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈθɔːrəti]",
+        "br": "[ɔːˈθɒrəti]",
+        "gb": "[ɔːˈθɔrɪtɪ]"
+      },
+      "translations": {
+        "rus": "власть, руководство, полномочие, источник",
+        "spa": "la autoridad, la autorización"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who was in authority?",
+            "ru": "Кто был главным?"
+          },
+          {
+            "en": "These employees are under my authority.",
+            "ru": "Эти сотрудники находятся у меня под руководством."
+          },
+          {
+            "en": "Several countries claim authority over the islands.",
+            "ru": "Несколько стран заявляют своё право на острова."
+          },
+          {
+            "en": "Could I speak to someone in authority please?",
+            "ru": "Могу ли я поговорить с кем-то из руководства?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics"
+      ]
+    },
+    {
+      "id": 1337,
+      "word": "ballot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbælət]",
+        "br": "[ˈbælət]",
+        "gb": "[ˈbælət]"
+      },
+      "translations": {
+        "rus": "(избирательный) бюллетень, голосование",
+        "spa": "la papeleta, la boleta, la votación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The counting of the ballots took half an hour.",
+            "ru": "Подсчёт бюллетеней занял полчаса."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "oxford5000_c1",
+        "politics"
+      ]
+    },
+    {
+      "id": 9750,
+      "word": "bicameral",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌbaɪˈkæmərəl]",
+        "br": "[ˌbaɪˈkæmərəl]",
+        "gb": "[ˈbaɪˈkæmərəl]"
+      },
+      "translations": {
+        "rus": "двухпалатный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 9751,
+      "word": "brinkmanship",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrɪŋkmənʃɪp]",
+        "br": "[ˈbrɪŋkmənʃɪp]",
+        "gb": "[ˈbrɪŋkmənʃɪp]"
+      },
+      "translations": {
+        "rus": "политика на грани войны, политика балансирования",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 6876,
+      "word": "campaign",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæmˈpeɪn]",
+        "br": "[kæmˈpeɪn]",
+        "gb": "[kæmˈpeɪn]"
+      },
+      "translations": {
+        "rus": "кампания",
+        "spa": "la campaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We started a campaign against smoking.",
+            "ru": "Мы начали кампанию против курения."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Many campaign songs were written.",
+            "es": "Muchas canciones para la campaña fueron escritas."
+          },
+          {
+            "en": "He refused to do much campaigning.",
+            "es": "Él rehusó hacer mucha campaña."
+          },
+          {
+            "en": "We have conceived a great campaign.",
+            "es": "Hemos concebido una gran campaña."
+          },
+          {
+            "en": "Truman campaigned until Election Day.",
+            "es": "Truman hizo campaña hasta el día de las elecciones."
+          },
+          {
+            "en": "We started a campaign against smoking.",
+            "es": "Hemos empezado una campaña contra el tabaco."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6878,
+      "word": "candidate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkændɪdeɪt]",
+        "br": "[ˈkændɪdeɪt]",
+        "gb": "[ˈkændɪdɪt]"
+      },
+      "translations": {
+        "rus": "кандидат, кандидатура",
+        "spa": "el candidato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We rank you as our best candidate.",
+            "ru": "Ты у нас лучший кандидат."
+          },
+          {
+            "en": "Your candidate has a slight lead.",
+            "ru": "Ваш кандидат немного впереди."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics"
+      ]
+    },
+    {
+      "id": 6408,
+      "word": "cause",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːz]",
+        "br": "[kɔːz]",
+        "gb": "[kɔːz]"
+      },
+      "translations": {
+        "rus": "причина, процесс, дело",
+        "spa": "la causa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He had no cause to complain.",
+            "ru": "У него не было причин жаловаться."
+          },
+          {
+            "en": "There is no cause for alarm.",
+            "ru": "Нет никаких причин для тревоги."
+          },
+          {
+            "en": "The root cause of the crime problem is poverty.",
+            "ru": "Коренная причина проблемы преступности — бедность."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't know the cause.",
+            "es": "No sé la causa."
+          },
+          {
+            "en": "He died of natural causes.",
+            "es": "Murió por causas naturales."
+          },
+          {
+            "en": "Investigate the cause of it.",
+            "es": "Investigue usted cuál es la causa."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 8566,
+      "word": "coalition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkəʊəˈlɪʃn]",
+        "br": "[ˌkəʊəˈlɪʃn]",
+        "gb": "[kəʊəˈlɪʃn]"
+      },
+      "translations": {
+        "rus": "коалиция",
+        "spa": "la coalición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics"
+      ]
+    },
+    {
+      "id": 9752,
+      "word": "coexistence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkəʊɪɡˈzɪstəns]",
+        "br": "[ˌkəʊɪɡˈzɪstəns]",
+        "gb": "[ˈkəʊɪgˈzɪstəns]"
+      },
+      "translations": {
+        "rus": "сосуществование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 7406,
+      "word": "conservative",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kənˈsɜːrvətɪv]",
+        "br": "[kənˈsɜːvətɪv]",
+        "gb": "[kənˈsɜːvətɪv]"
+      },
+      "translations": {
+        "rus": "консервативный, консерватор",
+        "spa": "conservativo, conservador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are conservative people.",
+            "ru": "Мы консервативные люди."
+          },
+          {
+            "en": "Are you conservative?",
+            "ru": "Ты консервативный?"
+          },
+          {
+            "en": "You're very conservative.",
+            "ru": "Ты очень консервативен."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We are conservative.",
+            "es": "Somos conservadores."
+          },
+          {
+            "en": "The English are said to be conservative.",
+            "es": "Se dice que los ingleses son conservadores."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7410,
+      "word": "contest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntest]",
+        "br": "[ˈkɒntest]",
+        "gb": "[ˈkɔntest]"
+      },
+      "translations": {
+        "rus": "конкурс, соревнование, оспаривание",
+        "spa": "el concurso, la competición, el combate"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's not a beauty contest.",
+            "ru": "Это не конкурс красоты."
+          },
+          {
+            "en": "He wants to participate in the contest.",
+            "ru": "Он хочет принять участие в соревновании."
+          },
+          {
+            "en": "We took part in the contest.",
+            "ru": "Мы приняли участие в конкурсе."
+          },
+          {
+            "en": "She won the beauty contest.",
+            "ru": "Она победила на конкурсе красоты."
+          },
+          {
+            "en": "Are you going to take part in the contest?",
+            "ru": "Ты будешь участвовать в конкурсе?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7413,
+      "word": "contribution",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːntrɪˈbjuːʃn]",
+        "br": "[ˌkɒntrɪˈbjuːʃn]",
+        "gb": "[kɔntrɪˈbjuːʃn]"
+      },
+      "translations": {
+        "rus": "пожертвование, вклад, взнос",
+        "spa": "la contribución"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Many thanks for your contribution.",
+            "ru": "Большое спасибо за ваш вклад."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3409,
+      "word": "country",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌntri]",
+        "br": "[ˈkʌntri]",
+        "gb": "[ˈkʌntrɪ]"
+      },
+      "translations": {
+        "rus": "страна, сельская местность",
+        "spa": "el país"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which country are you from?",
+            "ru": "Из какой ты страны?"
+          },
+          {
+            "en": "He came from another country.",
+            "ru": "Он приехал из другой страны."
+          },
+          {
+            "en": "Switzerland is a beautiful country.",
+            "ru": "Швейцария - красивая страна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live in the country.",
+            "es": "Vivo en el país."
+          },
+          {
+            "en": "That war hurt the country.",
+            "es": "La guerra fue perjudicial para el país."
+          },
+          {
+            "en": "Which country are you from?",
+            "es": "¿De qué país eres?"
+          },
+          {
+            "en": "Rice grows in warm countries.",
+            "es": "El arroz crece en países cálidos."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "politics",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 7436,
+      "word": "debate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈbeɪt]",
+        "br": "[dɪˈbeɪt]",
+        "gb": "[dɪˈbeɪt]"
+      },
+      "translations": {
+        "rus": "дебаты, дискуссия",
+        "spa": "el debate"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you watch the presidential debate?",
+            "ru": "Ты видел президентские дебаты?"
+          },
+          {
+            "en": "It was an interesting debate.",
+            "ru": "Это была интересная дискуссия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was an interesting debate.",
+            "es": "Fue un debate interesante."
+          },
+          {
+            "en": "We had a very vigorous debate.",
+            "es": "Tuvimos un debate muy vigoroso."
+          },
+          {
+            "en": "When will the debate take place?",
+            "es": "¿Cuándo será el debate?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7963,
+      "word": "democracy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈmɑːkrəsi]",
+        "br": "[dɪˈmɒkrəsi]",
+        "gb": "[dɪˈmɔkrəsɪ]"
+      },
+      "translations": {
+        "rus": "демократия",
+        "spa": "la democracia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We stand for democracy.",
+            "ru": "Мы защищаем демократию."
+          },
+          {
+            "en": "Canada is a model for democracy.",
+            "ru": "Канада — образец демократии."
+          },
+          {
+            "en": "Spain has been a democracy since 1975.",
+            "ru": "В Испании демократия с 1975 года."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We believe in democracy.",
+            "es": "Creemos en la democracia."
+          },
+          {
+            "en": "Democracy is one form of government.",
+            "es": "La democracia es una forma de gobierno."
+          },
+          {
+            "en": "Greek philosophers placed value on democracy.",
+            "es": "Los filósofos griegos valoraron la democracia."
+          }
+        ]
+      },
+      "categories": [
+        "oxford5000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8703,
+      "word": "deputy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdepjuti]",
+        "br": "[ˈdepjuti]",
+        "gb": "[ˈdepjʊtɪ]"
+      },
+      "translations": {
+        "rus": "депутат, представитель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics"
+      ]
+    },
+    {
+      "id": 9754,
+      "word": "disarmament",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪsˈɑːrməmənt]",
+        "br": "[dɪsˈɑːməmənt]",
+        "gb": "[dɪsˈɑːməmənt]"
+      },
+      "translations": {
+        "rus": "демилитаризация, разоружение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 9755,
+      "word": "divergence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[daɪˈvɜːrdʒəns]",
+        "br": "[daɪˈvɜːdʒəns]",
+        "gb": "[daɪˈvɜːʤəns]"
+      },
+      "translations": {
+        "rus": "дивергенция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 6950,
+      "word": "election",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlekʃn]",
+        "br": "[ɪˈlekʃn]",
+        "gb": "[ɪˈlekʃn]"
+      },
+      "translations": {
+        "rus": "выборы",
+        "spa": "las elecciones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The election was in November.",
+            "ru": "Выборы были в ноябре."
+          },
+          {
+            "en": "They say there will be elections soon.",
+            "ru": "Говорят, скоро выборы."
+          },
+          {
+            "en": "We're not afraid of new elections.",
+            "ru": "Мы не боимся новых выборов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Next year is an election year.",
+            "es": "El año que viene es año de elecciones."
+          },
+          {
+            "en": "I didn't vote in the last election.",
+            "es": "No voté en las últimas elecciones."
+          },
+          {
+            "en": "Every vote counts in an election.",
+            "es": "En elecciones, cada voto cuenta."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6522,
+      "word": "government",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡʌvərnmənt]",
+        "br": "[ˈɡʌvənmənt]",
+        "gb": "[ˈgʌvnmənt]"
+      },
+      "translations": {
+        "rus": "правительство, руководство, государственный, правительственный",
+        "spa": "el gobierno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a government project.",
+            "ru": "Это государственный проект."
+          },
+          {
+            "en": "We don't trust the government.",
+            "ru": "Мы не доверяем правительству."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The government makes us pay tax.",
+            "es": "El gobierno nos hace pagar impuestos."
+          },
+          {
+            "en": "Democracy is one form of government.",
+            "es": "La democracia es una forma de gobierno."
+          },
+          {
+            "en": "I have connections in the government.",
+            "es": "Tengo conexiones en el gobierno."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9756,
+      "word": "impeachment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈpiːtʃmənt]",
+        "br": "[ɪmˈpiːtʃmənt]",
+        "gb": "[ɪmˈpiːʧmənt]"
+      },
+      "translations": {
+        "rus": "импичмент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 9757,
+      "word": "inauguration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˌnɔːɡjəˈreɪʃn]",
+        "br": "[ɪˌnɔːɡjəˈreɪʃn]",
+        "gb": "[ɪnɔːgjʊˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "инаугурация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 1967,
+      "word": "independent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪndɪˈpendənt]",
+        "br": "[ˌɪndɪˈpendənt]",
+        "gb": "[ɪndɪˈpendənt]"
+      },
+      "translations": {
+        "rus": "независимый",
+        "spa": "independiente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're very independent.",
+            "ru": "Ты очень независима."
+          },
+          {
+            "en": "I want to be independent.",
+            "ru": "Я хочу быть независимым."
+          },
+          {
+            "en": "I'm a very independent person.",
+            "ru": "Я очень независимый человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to be more independent.",
+            "es": "Quiero ser más independiente."
+          },
+          {
+            "en": "The Vatican is an independent country.",
+            "es": "El Vaticano es un país independiente."
+          },
+          {
+            "en": "I am economically independent of my parents.",
+            "es": "Soy económicamente independiente de mis padres."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9758,
+      "word": "long-range policy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːŋ] [reɪndʒ] [ˈpɑːləsi]",
+        "br": "[lɒŋ] [reɪndʒ] [ˈpɒləsi]",
+        "gb": "[lɔŋ] [reɪnʤ] [ˈpɔlɪsɪ]"
+      },
+      "translations": {
+        "rus": "долгосрочная политика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 5389,
+      "word": "news",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nuːz]",
+        "br": "[njuːz]",
+        "gb": "[njuːz]"
+      },
+      "translations": {
+        "rus": "новость, новости, известие",
+        "spa": "las noticias"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "News travels fast.",
+            "ru": "Новости распространяются быстро."
+          },
+          {
+            "en": "She was elated at the news.",
+            "ru": "Она была в восторге от этой новости."
+          },
+          {
+            "en": "We heard that item on the late news.",
+            "ru": "Мы услышали об этом в последнем выпуске новостей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I just got the news.",
+            "es": "Acabo de recibir las noticias."
+          },
+          {
+            "en": "I have some bad news.",
+            "es": "Tengo malas noticias."
+          },
+          {
+            "en": "Did you hear the news?",
+            "es": "¿Escuchaste las noticias?"
+          },
+          {
+            "en": "He was eager for news.",
+            "es": "Estaba ávido de noticias."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9759,
+      "word": "non-intervention",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[nɔn] [ɪntəˈvenʃn]"
+      },
+      "translations": {
+        "rus": "невмешательство",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 9760,
+      "word": "nuclear war",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːkliər] [wɔːr]",
+        "br": "[ˈnjuːkliə(r)] [wɔː(r)]",
+        "gb": "[ˈnjuːklɪə] [wɔː]"
+      },
+      "translations": {
+        "rus": "ядерная война",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 9761,
+      "word": "peace policy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[piːs] [ˈpɑːləsi]",
+        "br": "[piːs] [ˈpɒləsi]",
+        "gb": "[piːs] [ˈpɔlɪsɪ]"
+      },
+      "translations": {
+        "rus": "политика мира",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 1588,
+      "word": "policy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːləsi]",
+        "br": "[ˈpɒləsi]",
+        "gb": "[ˈpɔlɪsɪ]"
+      },
+      "translations": {
+        "rus": "политика, страховой полис",
+        "spa": "la política, la póliza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's our policy.",
+            "ru": "Такова наша политика."
+          },
+          {
+            "en": "Honesty is the best policy.",
+            "ru": "Честность - лучшая политика."
+          },
+          {
+            "en": "It's a questionable policy.",
+            "ru": "Это сомнительная политика."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The policies are quite clear.",
+            "es": "Las políticas están bastante claras."
+          },
+          {
+            "en": "His policies were too progressive.",
+            "es": "Sus políticas fueron demasiado agresivas."
+          },
+          {
+            "en": "The employment policy is a failure.",
+            "es": "La política laboral es un fracaso."
+          },
+          {
+            "en": "Has there been any change in policy?",
+            "es": "¿Ha habido algún cambio de política?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "oxford3000_b1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9762,
+      "word": "policy of pressure",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpɔlɪsɪ] [ɔv] [ˈpreʃə]"
+      },
+      "translations": {
+        "rus": "политика давления",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 7126,
+      "word": "political",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pəˈlɪtɪkl]",
+        "br": "[pəˈlɪtɪkl]",
+        "gb": "[pəˈlɪtɪkəl]"
+      },
+      "translations": {
+        "rus": "политический",
+        "spa": "político"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need political asylum.",
+            "ru": "Мне нужно политическое убежище."
+          },
+          {
+            "en": "He has no political ambition.",
+            "ru": "У него нет политических амбиций."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has no political ambition.",
+            "es": "Él no tiene ninguna ambición política."
+          },
+          {
+            "en": "I share his political position.",
+            "es": "Comparto su posición política."
+          },
+          {
+            "en": "His political career has ended.",
+            "es": "Su carrera política ha terminado."
+          },
+          {
+            "en": "They formed a new political party.",
+            "es": "Formaron un nuevo partido político."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9763,
+      "word": "political system",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈlɪtɪkl] [ˈsɪstəm]",
+        "br": "[pəˈlɪtɪkl] [ˈsɪstəm]",
+        "gb": "[pəˈlɪtɪkəl] [ˈsɪstɪm]"
+      },
+      "translations": {
+        "rus": "политический строй",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 1814,
+      "word": "politician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɑːləˈtɪʃn]",
+        "br": "[ˌpɒləˈtɪʃn]",
+        "gb": "[pɔlɪˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "политик",
+        "spa": "el político"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am not cut out to be a politician.",
+            "ru": "Я не гожусь в политики."
+          },
+          {
+            "en": "He was an honest politician.",
+            "ru": "Он был честным политиком."
+          },
+          {
+            "en": "He is not a politician but a lawyer.",
+            "ru": "Он не политик, а адвокат."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The politician stirred up the workers.",
+            "es": "El político agitó a los trabajadores."
+          },
+          {
+            "en": "The politician tried to cover up the insider trading.",
+            "es": "El político trató de ocultar el abuso de información privilegiada."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 7127,
+      "word": "politics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːlətɪks]",
+        "br": "[ˈpɒlətɪks]",
+        "gb": "[ˈpɔlɪtɪks]"
+      },
+      "translations": {
+        "rus": "политика",
+        "spa": "la política"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Politics is a dirty business.",
+            "ru": "Политика — грязное дело."
+          },
+          {
+            "en": "Mary is interested in politics.",
+            "ru": "Мэри интересуется политикой."
+          },
+          {
+            "en": "I don't care about politics.",
+            "ru": "Политика меня не интересует."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you interested in politics?",
+            "es": "¿Le interesa la política?"
+          },
+          {
+            "en": "He has lost interest in politics.",
+            "es": "Ha perdido interés en la política."
+          },
+          {
+            "en": "I find politics very interesting.",
+            "es": "Estoy interesado en la política."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9170,
+      "word": "poll",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəʊl]",
+        "br": "[pəʊl]",
+        "gb": "[pəʊl]"
+      },
+      "translations": {
+        "rus": "голосование, опрос",
+        "spa": "la encuesta, sondear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 6208,
+      "word": "reason",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːzn]",
+        "br": "[ˈriːzn]",
+        "gb": "[riːzn]"
+      },
+      "translations": {
+        "rus": "причина",
+        "spa": "la razón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you know the reason?",
+            "ru": "Ты знаешь причину?"
+          },
+          {
+            "en": "There's no reason to get angry.",
+            "ru": "Нет причин злиться."
+          },
+          {
+            "en": "The reason is very simple.",
+            "ru": "Причина очень проста."
+          },
+          {
+            "en": "I have my own reasons.",
+            "ru": "У меня есть свои причины."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do I need a reason?",
+            "es": "¿Necesito una razón?"
+          },
+          {
+            "en": "I have my own reasons.",
+            "es": "Tengo mis propias razones."
+          },
+          {
+            "en": "Do you know the reason?",
+            "es": "¿Sabes la razón?"
+          },
+          {
+            "en": "No one knows the reason.",
+            "es": "Nadie sabe la razón."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5169,
+      "word": "right",
+      "pos": "noun",
+      "transcription": {
+        "us": "[raɪt]",
+        "br": "[raɪt]",
+        "gb": "[raɪt]"
+      },
+      "translations": {
+        "rus": "право",
+        "spa": "el derecho"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "No one has that right.",
+            "es": "Nadie tiene ese derecho."
+          }
+        ]
+      },
+      "categories": [
+        "legal_english",
+        "oxford3000_b1",
+        "politics",
+        "top100"
+      ]
+    },
+    {
+      "id": 9764,
+      "word": "separatism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseprətɪzəm]",
+        "br": "[ˈseprətɪzəm]",
+        "gb": "[ˈsepərətɪzm]"
+      },
+      "translations": {
+        "rus": "сепаратизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 6229,
+      "word": "situation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsɪtʃuˈeɪʃn]",
+        "br": "[ˌsɪtʃuˈeɪʃn]",
+        "gb": "[sɪtjʊˈeɪʃn]"
+      },
+      "translations": {
+        "rus": "ситуация",
+        "spa": "la situación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're aware of the situation.",
+            "ru": "Мы в курсе ситуации."
+          },
+          {
+            "en": "I'm prepared for any situation.",
+            "ru": "Я готов к любой ситуации."
+          },
+          {
+            "en": "Do you understand the situation?",
+            "ru": "Вы понимаете ситуацию?"
+          },
+          {
+            "en": "This is a stressful situation.",
+            "ru": "Это стрессовая ситуация."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm in a desperate situation.",
+            "es": "Me encuentro en una situación desesperada."
+          },
+          {
+            "en": "This is a difficult situation.",
+            "es": "Esta es una difícil situación."
+          },
+          {
+            "en": "We are all in the same situation.",
+            "es": "Todos estamos en la misma situación."
+          },
+          {
+            "en": "He was unaware of the situation.",
+            "es": "Él no era consciente de la situación."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7233,
+      "word": "strength",
+      "pos": "noun",
+      "transcription": {
+        "us": "[streŋkθ]",
+        "br": "[streŋkθ]",
+        "gb": "[streŋθ]"
+      },
+      "translations": {
+        "rus": "сила, прочность",
+        "spa": "la fuerza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My strength is draining away.",
+            "ru": "Мои силы уходят."
+          },
+          {
+            "en": "In unity there is strength.",
+            "ru": "В единстве сила."
+          },
+          {
+            "en": "I was impressed by his strength.",
+            "ru": "Я была поражена его силой."
+          },
+          {
+            "en": "Silence is strength.",
+            "ru": "Молчание - сила."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Strength is found in calmness.",
+            "es": "En la calma se encuentra la fuerza."
+          },
+          {
+            "en": "I don't have the strength to keep trying.",
+            "es": "No tengo la fuerza para seguir intentando."
+          },
+          {
+            "en": "Relying on strength alone cannot guarantee victory.",
+            "es": "La fuerza por sí sola no puede asegurar la victoria."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1844,
+      "word": "strike",
+      "pos": "noun",
+      "transcription": {
+        "us": "[straɪk]",
+        "br": "[straɪk]",
+        "gb": "[straɪk]"
+      },
+      "translations": {
+        "rus": "забастовка, стачка, удар",
+        "spa": "la huelga"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a strike.",
+            "ru": "Это забастовка."
+          },
+          {
+            "en": "The workers went on strike.",
+            "ru": "Рабочие вышли на забастовку."
+          },
+          {
+            "en": "Meteor strikes are a real threat.",
+            "ru": "Удары метеоритов - реальная угроза."
+          },
+          {
+            "en": "I am writing articles about strikes.",
+            "ru": "Я пишу статьи о забастовках."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There is a strike.",
+            "es": "Hay una huelga."
+          },
+          {
+            "en": "We were on strike.",
+            "es": "Estábamos de huelga."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7782,
+      "word": "struggle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstrʌɡl]",
+        "br": "[ˈstrʌɡl]",
+        "gb": "[strʌgl]"
+      },
+      "translations": {
+        "rus": "борьба, трудность",
+        "spa": "la lucha, la pelea, el esfuerzo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Nothing is achieved without struggle.",
+            "ru": "Ничего не достигается без борьбы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 8423,
+      "word": "to advocate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈædvəkeɪt]",
+        "br": "[tu] [ˈædvəkeɪt]",
+        "gb": "[tuː] [ˈædvəkɪt]"
+      },
+      "translations": {
+        "rus": "отстаивать, пропагандировать",
+        "spa": "abogar por, propugnar, recomendar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm not advocating that.",
+            "ru": "Я это не отстаиваю."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1719,
+      "word": "to be on strike",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ɔn] [straɪk]"
+      },
+      "translations": {
+        "rus": "бастовать",
+        "spa": "estar en huelga"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "politics"
+      ]
+    },
+    {
+      "id": 8620,
+      "word": "to consolidate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kənˈsɑːlɪdeɪt]",
+        "br": "[tə] [kənˈsɒlɪdeɪt]",
+        "gb": "[tuː] [kənˈsɔlɪdeɪt]"
+      },
+      "translations": {
+        "rus": "укреплять, объединять, консолидировать",
+        "spa": "consolidar, consolidarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "politics"
+      ]
+    },
+    {
+      "id": 9753,
+      "word": "to convene",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kənˈviːn]",
+        "br": "[tə] [kənˈviːn]",
+        "gb": "[tuː] [kənˈviːn]"
+      },
+      "translations": {
+        "rus": "созывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 7437,
+      "word": "to debate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[tə] [dɪˈbeɪt]",
+        "br": "[tə] [dɪˈbeɪt]",
+        "gb": "[tuː] [dɪˈbeɪt]"
+      },
+      "translations": {
+        "rus": "обсуждать",
+        "spa": "debatir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They will debate the question tomorrow.",
+            "ru": "Они обсудят этот вопрос завтра."
+          },
+          {
+            "en": "We'll debate this subject at the meeting.",
+            "ru": "Мы обсудим этот вопрос на совещании."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you artistic?",
+            "es": "У тебя есть творческие способности?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9765,
+      "word": "to stand for",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [stænd] [fɔːr]",
+        "br": "[tə] [stænd] [fɔː(r)]",
+        "gb": "[tuː] [stænd] [fɔː]"
+      },
+      "translations": {
+        "rus": "придерживаться точки зрения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "politics"
+      ]
+    },
+    {
+      "id": 1677,
+      "word": "unemployment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌʌnɪmˈplɔɪmənt]",
+        "br": "[ˌʌnɪmˈplɔɪmənt]",
+        "gb": "[ˈʌnɪmˈplɔɪmənt]"
+      },
+      "translations": {
+        "rus": "безработица",
+        "spa": "el desempleo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Unemployment is rising.",
+            "ru": "Безработица растёт."
+          },
+          {
+            "en": "The unemployment level is high.",
+            "ru": "Уровень безработицы высок."
+          },
+          {
+            "en": "Who is responsible for high unemployment?",
+            "ru": "Кто несет ответственность за высокий уровень безработицы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "The unemployment level is high.",
+            "es": "El desempleo está alto."
+          },
+          {
+            "en": "Besides that, unemployment is increasing.",
+            "es": "Y aparte, está creciendo el desempleo."
+          },
+          {
+            "en": "This year unemployment will reach record levels.",
+            "es": "Este año el desempleo alcanzará niveles récord."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 6808,
+      "word": "war",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[wɔːr]",
+        "br": "[wɔː(r)]",
+        "gb": "[wɔː]"
+      },
+      "translations": {
+        "rus": "война, военный",
+        "spa": "la guerra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have seen three wars.",
+            "ru": "Мы видели три войны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm ready for the war.",
+            "es": "Estoy preparado para la guerra."
+          },
+          {
+            "en": "He was killed in the war.",
+            "es": "Él murió en la guerra."
+          },
+          {
+            "en": "We have seen three wars.",
+            "es": "Hemos vivido tres guerras."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "politics",
+        "top1000"
+      ]
+    }
+  ]
+}

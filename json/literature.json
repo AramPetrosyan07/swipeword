@@ -1,0 +1,3121 @@
+{
+  "category": {
+    "id": "literature",
+    "name_rus": "Литература",
+    "type": "topic",
+    "word_count": 93
+  },
+  "words": [
+    {
+      "id": 5215,
+      "word": "adventure story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˈventʃər] [ˈstɔːri]",
+        "br": "[ədˈventʃə(r)] [ˈstɔːri]",
+        "gb": "[ədˈvenʧə] [ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "приключенческий рассказ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 1325,
+      "word": "article",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtɪkl]",
+        "br": "[ˈɑːtɪkl]",
+        "gb": "[ˈɑːtɪkl]"
+      },
+      "translations": {
+        "rus": "статья, артикль, товар",
+        "spa": "el artículo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for the article.",
+            "ru": "Спасибо за статью."
+          },
+          {
+            "en": "I read the whole article.",
+            "ru": "Я прочёл всю статью."
+          },
+          {
+            "en": "I am translating an article.",
+            "ru": "Я перевожу статью."
+          },
+          {
+            "en": "Have you read this article?",
+            "ru": "Ты читал эту статью?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This article is of no value.",
+            "es": "Este artículo no tiene ningún valor."
+          },
+          {
+            "en": "Have you read this article?",
+            "es": "¿Has leído este artículo?"
+          },
+          {
+            "en": "I am translating an article.",
+            "es": "Estoy traduciendo un artículo."
+          },
+          {
+            "en": "This article is high quality.",
+            "es": "Este artículo es de una calidad superior."
+          },
+          {
+            "en": "I have to correct this article.",
+            "es": "Tengo que corregir este artículo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1713,
+      "word": "author",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːθər]",
+        "br": "[ˈɔːθə(r)]",
+        "gb": "[ˈɔːθə]"
+      },
+      "translations": {
+        "rus": "автор, писатель",
+        "spa": "el autor, el escritor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The author doesn't display much talent in his book.",
+            "ru": "Автор не демонстрирует большого таланта в своей книге."
+          },
+          {
+            "en": "The author's name is familiar to us.",
+            "ru": "Имя автора нам знакомо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ogai is his favorite author.",
+            "es": "Ogai es su autor favorito."
+          },
+          {
+            "en": "I read a lot of modern authors.",
+            "es": "Leí muchos autores modernos."
+          },
+          {
+            "en": "He is the author of the article.",
+            "es": "Es el autor del artículo."
+          },
+          {
+            "en": "Are you the author of this book?",
+            "es": "¿Eres el autor de este libro?"
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "literature",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5216,
+      "word": "best seller",
+      "pos": "noun",
+      "transcription": {
+        "us": "[best] [ˈselər]",
+        "br": "[best] [ˈselə(r)]",
+        "gb": "[best] [ˈselə]"
+      },
+      "translations": {
+        "rus": "бестселлер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5217,
+      "word": "book",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʊk]",
+        "br": "[bʊk]",
+        "gb": "[bʊk]"
+      },
+      "translations": {
+        "rus": "книга",
+        "spa": "el libro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Those books are mine.",
+            "ru": "Это мои книги."
+          },
+          {
+            "en": "I love reading books.",
+            "ru": "Я люблю читать книги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have the book?",
+            "es": "¿El libro está contigo?"
+          },
+          {
+            "en": "Did you pay for the book?",
+            "es": "¿Pagaste el libro?"
+          },
+          {
+            "en": "He wanted to buy the book.",
+            "es": "Quería comprar el libro."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3358,
+      "word": "bookcase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkkeɪs]",
+        "br": "[ˈbʊkkeɪs]",
+        "gb": "[ˈbʊkkeɪs]"
+      },
+      "translations": {
+        "rus": "книжный шкаф",
+        "spa": "la estantería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I made a bookcase.",
+            "ru": "Я сделал книжный шкаф."
+          },
+          {
+            "en": "Put the books in the bookcase.",
+            "ru": "Поставь книги в книжный шкаф."
+          },
+          {
+            "en": "I can't move this bookcase without your help.",
+            "ru": "Я не могу передвинуть этот книжный шкаф без твоей помощи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "literature"
+      ]
+    },
+    {
+      "id": 5218,
+      "word": "bookish",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈbʊkɪʃ]",
+        "br": "[ˈbʊkɪʃ]",
+        "gb": "[ˈbʊkɪʃ]"
+      },
+      "translations": {
+        "rus": "книжный (язык, стиль)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5219,
+      "word": "booklet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊklət]",
+        "br": "[ˈbʊklət]",
+        "gb": "[ˈbʊklɪt]"
+      },
+      "translations": {
+        "rus": "брошюра, буклет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5220,
+      "word": "bookshop",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkʃɑːp]",
+        "br": "[ˈbʊkʃɒp]",
+        "gb": "[ˈbʊkʃɔp]"
+      },
+      "translations": {
+        "rus": "книжный магазин",
+        "spa": "la librería"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I live close to an old bookshop.",
+            "es": "Yo vivo al lado de una vieja librería."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "town"
+      ]
+    },
+    {
+      "id": 5221,
+      "word": "brochure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brəʊˈʃʊr]",
+        "br": "[ˈbrəʊʃə(r)]",
+        "gb": "[ˈbrəʊʃjʊə]"
+      },
+      "translations": {
+        "rus": "брошюра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5222,
+      "word": "caption",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpʃn]",
+        "br": "[ˈkæpʃn]",
+        "gb": "[kæpʃn]"
+      },
+      "translations": {
+        "rus": "заглавие, заголовок, титр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie"
+      ]
+    },
+    {
+      "id": 5223,
+      "word": "chapter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃæptər]",
+        "br": "[ˈtʃæptə(r)]",
+        "gb": "[ˈʧæptə]"
+      },
+      "translations": {
+        "rus": "глава (книги и т.п.)",
+        "spa": "el capítulo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Skip the dull chapters.",
+            "ru": "Пропусти скучные главы."
+          },
+          {
+            "en": "Let's begin with the first chapter.",
+            "ru": "Начнём с первой главы."
+          },
+          {
+            "en": "Read chapter 4 for Friday.",
+            "ru": "К пятнице прочитайте главу 4."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1893,
+      "word": "character",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkærəktər]",
+        "br": "[ˈkærəktə(r)]",
+        "gb": "[ˈkærɪktə]"
+      },
+      "translations": {
+        "rus": "персонаж, символ, характер, образ, герой",
+        "spa": "el carácter, el personaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is your favorite character?",
+            "ru": "Какой твой любимый персонаж?"
+          },
+          {
+            "en": "She has a strong character.",
+            "ru": "У нее сильный характер."
+          },
+          {
+            "en": "Her character is similar to yours.",
+            "ru": "Её характер похож на ваш."
+          },
+          {
+            "en": "Most anime characters have large eyes.",
+            "ru": "У большинства персонажей аниме большие глаза."
+          },
+          {
+            "en": "She has totally changed her character.",
+            "ru": "Её характер совершенно изменился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is quite a character.",
+            "es": "Él es todo un personaje."
+          },
+          {
+            "en": "She has a character defect.",
+            "es": "Ella tiene un defecto en su carácter."
+          },
+          {
+            "en": "Who's your favorite Disney character?",
+            "es": "¿Cuál es tu personaje favorito de Disney?"
+          },
+          {
+            "en": "Steve is a man of good character.",
+            "es": "Steve es un hombre de buen carácter."
+          },
+          {
+            "en": "I always liked mysterious characters more.",
+            "es": "Siempre me gustaron más los personajes misteriosos."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5224,
+      "word": "clipping",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklɪpɪŋ]",
+        "br": "[ˈklɪpɪŋ]",
+        "gb": "[ˈklɪpɪŋ]"
+      },
+      "translations": {
+        "rus": "газетная вырезка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 2418,
+      "word": "column",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːləm]",
+        "br": "[ˈkɒləm]",
+        "gb": "[ˈkɔləm]"
+      },
+      "translations": {
+        "rus": "столбец, колонка, графа, колонна",
+        "spa": "la columna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Times leader column.",
+            "ru": "Главная колонка газеты \"Таймс\"."
+          },
+          {
+            "en": "The column was attacked from the rear.",
+            "ru": "На колонну напали с тыла."
+          },
+          {
+            "en": "Enemy aircraft were strafing the column.",
+            "ru": "Колонну обстреливали самолёты врага."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5225,
+      "word": "comedy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmədi]",
+        "br": "[ˈkɒmədi]",
+        "gb": "[ˈkɔmɪdɪ]"
+      },
+      "translations": {
+        "rus": "комедия",
+        "spa": "la comedia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I love comedies.",
+            "ru": "Я люблю комедии."
+          },
+          {
+            "en": "I saw an amusing comedy last night.",
+            "ru": "Я вчера видел забавную комедию."
+          },
+          {
+            "en": "Mary likes romantic comedies.",
+            "ru": "Мэри любит романтические комедии."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5226,
+      "word": "commentary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmənteri]",
+        "br": "[ˈkɒməntri]",
+        "gb": "[ˈkɔməntərɪ]"
+      },
+      "translations": {
+        "rus": "комментарий (о событии или ситуации)",
+        "spa": "el comentario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Any further commentary is redundant.",
+            "ru": "Дальнейшие комментарии избыточны."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5227,
+      "word": "conclusion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈkluːʒn]",
+        "br": "[kənˈkluːʒn]",
+        "gb": "[kənˈkluːʒən]"
+      },
+      "translations": {
+        "rus": "заключение, вывод",
+        "spa": "la conclusión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What conclusions did they come to?",
+            "ru": "К какому заключению они пришли?"
+          },
+          {
+            "en": "The conclusion is crystal clear.",
+            "ru": "Вывод очень прост."
+          },
+          {
+            "en": "How do we draw this conclusion?",
+            "ru": "Как мы приходим к такому заключению?"
+          },
+          {
+            "en": "Do not draw hasty conclusions.",
+            "ru": "Не делай поспешных выводов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What conclusions did they come to?",
+            "es": "¿A qué conclusiones llegaron?"
+          },
+          {
+            "en": "What led you to this conclusion?",
+            "es": "¿Qué te llevó a esta conclusión?"
+          },
+          {
+            "en": "Has any conclusion been reached?",
+            "es": "¿Se ha llegado a alguna conclusión?"
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5228,
+      "word": "contents",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntents]",
+        "br": "[ˈkɒntents]",
+        "gb": "[ˈkɒntɛnts]"
+      },
+      "translations": {
+        "rus": "содержание, оглавление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5229,
+      "word": "cover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌvər]",
+        "br": "[ˈkʌvə(r)]",
+        "gb": "[ˈkʌvə]"
+      },
+      "translations": {
+        "rus": "покрытие, кожух, обложка, переплёт",
+        "spa": "la tapa, el refugio, la colcha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't judge a book by its cover.",
+            "ru": "Не судите о книге по обложке."
+          },
+          {
+            "en": "The cover of this book has been torn off.",
+            "ru": "Обложка этой книги была оторвана."
+          },
+          {
+            "en": "This cover doesn't fit.",
+            "ru": "Это покрытие не подходит."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cover doesn't fit well.",
+            "es": "La tapa no encaja bien."
+          },
+          {
+            "en": "Don't judge a book by its cover.",
+            "es": "No juzgues un libro por la tapa."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5230,
+      "word": "detective story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈtektɪv] [ˈstɔːri]",
+        "br": "[dɪˈtektɪv] [ˈstɔːri]",
+        "gb": "[dɪˈtektɪv] [ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "детектив",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5231,
+      "word": "discussion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈskʌʃn]",
+        "br": "[dɪˈskʌʃn]",
+        "gb": "[dɪsˈkʌʃn]"
+      },
+      "translations": {
+        "rus": "дискуссия, обсуждение",
+        "spa": "la discusión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This discussion is over.",
+            "ru": "Эта дискуссия окончена."
+          },
+          {
+            "en": "We've had this discussion already.",
+            "ru": "Мы это уже обсуждали."
+          },
+          {
+            "en": "They entered into a discussion.",
+            "ru": "Они вступили в дискуссию."
+          },
+          {
+            "en": "I participated in the discussion.",
+            "ru": "Я участвовал в обсуждении."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They had a heated discussion.",
+            "es": "Ellos tuvieron una discusión acalorada."
+          },
+          {
+            "en": "We took part in the discussion.",
+            "es": "Participamos en la discusión."
+          },
+          {
+            "en": "The problem was under discussion.",
+            "es": "El problema estaba en discusión."
+          },
+          {
+            "en": "That question is under discussion.",
+            "es": "Esa pregunta está en discusión."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2814,
+      "word": "dispute",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪspjuːt]",
+        "br": "[ˈdɪspjuːt]",
+        "gb": "[ˈdɪspjuːt]"
+      },
+      "translations": {
+        "rus": "спор, конфликт, диспут, полемика",
+        "spa": "el conflicto, la disputa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The dispute was finally settled.",
+            "ru": "Спор наконец-то закончился."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "legal_english",
+        "literature",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 545,
+      "word": "drama",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdrɑːmə]",
+        "br": "[ˈdrɑːmə]",
+        "gb": "[ˈdrɑːmə]"
+      },
+      "translations": {
+        "rus": "драма",
+        "spa": "el drama"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't like drama.",
+            "ru": "Я не люблю драмы."
+          },
+          {
+            "en": "His life was full of drama.",
+            "ru": "Его жизнь была полна драм."
+          },
+          {
+            "en": "How does this drama end?",
+            "ru": "Как заканчивается эта драма?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't like drama.",
+            "es": "No me gusta el drama."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5232,
+      "word": "edition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈdɪʃn]",
+        "br": "[ɪˈdɪʃn]",
+        "gb": "[ɪˈdɪʃn]"
+      },
+      "translations": {
+        "rus": "выпуск, издание, публикация",
+        "spa": "la edición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Haven't you got a cheaper edition?",
+            "ru": "Нет ли у вас издания подешевле?"
+          },
+          {
+            "en": "This dictionary is an abridged edition.",
+            "ru": "Этот словарь – сокращённое издание."
+          },
+          {
+            "en": "Is there a paperback edition of this book?",
+            "ru": "Есть ли издание этой книги в мягкой обложке?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1761,
+      "word": "editor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈedɪtər]",
+        "br": "[ˈedɪtə(r)]",
+        "gb": "[ˈedɪtə]"
+      },
+      "translations": {
+        "rus": "редактор",
+        "spa": "el editor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What text editor do you use?",
+            "ru": "Каким текстовым редактором вы пользуетесь?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5233,
+      "word": "editor-in-chief",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈedɪtər] [ɪn] [tʃiːf]",
+        "br": "[ˈedɪtə(r)] [ɪn] [tʃiːf]",
+        "gb": "[ˈedɪtə] [ɪn] [ʧiːf]"
+      },
+      "translations": {
+        "rus": "главный редактор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5234,
+      "word": "epilogue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈepɪlɔːɡ]",
+        "br": "[ˈepɪlɒɡ]",
+        "gb": "[ˈepɪlɔg]"
+      },
+      "translations": {
+        "rus": "эпилог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5235,
+      "word": "essay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeseɪ]",
+        "br": "[ˈeseɪ]",
+        "gb": "[ˈɛseɪ]"
+      },
+      "translations": {
+        "rus": "эссе, очерк, этюд, набросок",
+        "spa": "el ensayo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm trying to write an essay.",
+            "ru": "Я пытаюсь написать эссе."
+          },
+          {
+            "en": "I had to work on an essay.",
+            "ru": "Я должен был работать над эссе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5236,
+      "word": "fable",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfeɪbl]",
+        "br": "[ˈfeɪbl]",
+        "gb": "[feɪbl]"
+      },
+      "translations": {
+        "rus": "басня",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5237,
+      "word": "fairy-tale",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈferi] [teɪl]",
+        "br": "[ˈfeəri] [teɪl]",
+        "gb": "[ˈfɛərɪ] [teɪl]"
+      },
+      "translations": {
+        "rus": "волшебная сказка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5238,
+      "word": "fantasy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfæntəsi]",
+        "br": "[ˈfæntəsi]",
+        "gb": "[ˈfæntəsɪ]"
+      },
+      "translations": {
+        "rus": "фантазия, фантастика",
+        "spa": "la fantasía, el sueño, la literatura fantástica"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Children often live in a world of fantasy.",
+            "ru": "Дети часто живут в мире фантазий."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2",
+        "psychology"
+      ]
+    },
+    {
+      "id": 5239,
+      "word": "fiction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪkʃn]",
+        "br": "[ˈfɪkʃn]",
+        "gb": "[fɪkʃn]"
+      },
+      "translations": {
+        "rus": "беллетристика, художественная литература, вымысел",
+        "spa": "la ficción"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He can't tell fact from fiction.",
+            "ru": "Он не может отличить факт от вымысла."
+          },
+          {
+            "en": "I like science fiction better.",
+            "ru": "Мне больше нравится научная фантастика."
+          },
+          {
+            "en": "Do you like science fiction movies?",
+            "ru": "Ты любишь научно-фантастические фильмы?"
+          },
+          {
+            "en": "He really likes science fiction.",
+            "ru": "Он действительно любит научную фантастику."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5240,
+      "word": "fragment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfræɡmənt]",
+        "br": "[ˈfræɡmənt]",
+        "gb": "[ˈfrægmənt]"
+      },
+      "translations": {
+        "rus": "фрагмент, отрывок",
+        "spa": "el fragmento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's hard to splice the two fragments together.",
+            "ru": "Сложно склеить эти два фрагмента вместе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 587,
+      "word": "genre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʒɑːnrə]",
+        "br": "[ˈʒɒ̃rə]",
+        "gb": "[ʒɑːŋr]"
+      },
+      "translations": {
+        "rus": "жанр, стиль",
+        "spa": "el género"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "literature",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 5241,
+      "word": "headline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhedlaɪn]",
+        "br": "[ˈhedlaɪn]",
+        "gb": "[ˈhedlaɪn]"
+      },
+      "translations": {
+        "rus": "заголовок, рубрика",
+        "spa": "el titular, el encabezado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you seen the headlines?",
+            "ru": "Вы видели заголовки?"
+          },
+          {
+            "en": "Headlines are supposed to grab the reader's interest.",
+            "ru": "Заголовки строятся с расчётом на то, чтобы привлечь читательский интерес."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5242,
+      "word": "humorous story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhjuːmərəs] [ˈstɔːri]",
+        "br": "[ˈhjuːmərəs] [ˈstɔːri]",
+        "gb": "[ˈhjuːmərəs] [ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "юмористический рассказ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5243,
+      "word": "illustration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪləˈstreɪʃn]",
+        "br": "[ˌɪləˈstreɪʃn]",
+        "gb": "[ɪləsˈtreɪʃn]"
+      },
+      "translations": {
+        "rus": "иллюстрация, рисунок",
+        "spa": "la ilustración"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The book's illustrations are very good.",
+            "ru": "Иллюстрации в книге очень хорошие."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1522,
+      "word": "interview",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪntərvjuː]",
+        "br": "[ˈɪntəvjuː]",
+        "gb": "[ˈɪntəvjuː]"
+      },
+      "translations": {
+        "rus": "интервью, беседа, собеседование",
+        "spa": "la entrevista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I recorded the interview.",
+            "ru": "Я записал интервью."
+          },
+          {
+            "en": "How did it go at the job interview?",
+            "ru": "Как прошло собеседование?"
+          },
+          {
+            "en": "How did your interview go?",
+            "ru": "Как прошло твоё интервью?"
+          },
+          {
+            "en": "He was late for the job interview.",
+            "ru": "Он опоздал на собеседование."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How did your interview go?",
+            "es": "¿Cómo te fue en la entrevista?"
+          },
+          {
+            "en": "He refused to give an interview.",
+            "es": "Él se rehusó a dar una entrevista."
+          },
+          {
+            "en": "He had a job interview in English.",
+            "es": "Él fue entrevistado en inglés."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5244,
+      "word": "introduction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪntrəˈdʌkʃn]",
+        "br": "[ˌɪntrəˈdʌkʃn]",
+        "gb": "[ɪntrəˈdʌkʃn]"
+      },
+      "translations": {
+        "rus": "предисловие, введение, представление, знакомство",
+        "spa": "la introducción, la presentación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What did you write in the introduction?",
+            "ru": "Что ты написал в предисловии?"
+          },
+          {
+            "en": "I skipped the introduction.",
+            "ru": "Я пропустил введение."
+          },
+          {
+            "en": "The speaker was so well-known as to need no introduction.",
+            "ru": "Выступающий был столь известен, что в представлении не нуждался."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2836,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпуск, издание",
+        "spa": "la emisión, la expedición, el número, la edición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1527,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "проблема, вопрос",
+        "spa": "el asunto, el tema, la cuestión, el problema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The issue is not settled.",
+            "ru": "Проблема не решена."
+          },
+          {
+            "en": "This is a serious issue.",
+            "ru": "Это серьёзная проблема."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a serious issue.",
+            "es": "Esto es un asunto sumamente serio."
+          },
+          {
+            "en": "I agree with you on this issue.",
+            "es": "En este asunto estoy de acuerdo contigo."
+          },
+          {
+            "en": "This issue has nothing to do with you.",
+            "es": "Este asunto no tiene nada que ver contigo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5245,
+      "word": "journal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɜːrnl]",
+        "br": "[ˈdʒɜːnl]",
+        "gb": "[ʤɜːnl]"
+      },
+      "translations": {
+        "rus": "журнал (научный), дневник",
+        "spa": "el diario, la revista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am subscribed to a scientific journal.",
+            "ru": "Я подписан на научный журнал."
+          },
+          {
+            "en": "Are you keeping a journal?",
+            "ru": "Ты ведёшь дневник?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5246,
+      "word": "leaflet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈliːflət]",
+        "br": "[ˈliːflət]",
+        "gb": "[ˈliːflɪt]"
+      },
+      "translations": {
+        "rus": "листовка",
+        "spa": "el folleto, el panfleto, la octavilla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5247,
+      "word": "legend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈledʒənd]",
+        "br": "[ˈledʒənd]",
+        "gb": "[ˈleʤənd]"
+      },
+      "translations": {
+        "rus": "легенда",
+        "spa": "la leyenda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His music has made him a living legend.",
+            "ru": "Его музыка сделала его живой легендой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5248,
+      "word": "library",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈlaɪbreri]",
+        "br": "[ˈlaɪbrəri]",
+        "gb": "[ˈlaɪbrərɪ]"
+      },
+      "translations": {
+        "rus": "библиотека, библиотечный",
+        "spa": "la biblioteca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We are in a library.",
+            "ru": "Мы в библиотеке."
+          },
+          {
+            "en": "Don't write in library books.",
+            "ru": "Не пишите в библиотечных книгах."
+          },
+          {
+            "en": "He is in his library.",
+            "ru": "Он в своей библиотеке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He went to the library.",
+            "es": "Él ha ido a la biblioteca."
+          },
+          {
+            "en": "I study at the library.",
+            "es": "Estoy estudiando en la biblioteca."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 5249,
+      "word": "literary",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlɪtəreri]",
+        "br": "[ˈlɪtərəri]",
+        "gb": "[ˈlɪtərərɪ]"
+      },
+      "translations": {
+        "rus": "литературный",
+        "spa": "literario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "No one was aware of her literary talent.",
+            "ru": "Никто не знал о ее литературном таланте."
+          },
+          {
+            "en": "Can computers translate literary works?",
+            "ru": "Могут ли компьютеры переводить литературные произведения?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5250,
+      "word": "literary criticism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtəreri] [ˈkrɪtɪsɪzəm]",
+        "br": "[ˈlɪtərəri] [ˈkrɪtɪsɪzəm]",
+        "gb": "[ˈlɪtərərɪ] [ˈkrɪtɪsɪzm]"
+      },
+      "translations": {
+        "rus": "литературоведение, литературная критика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5251,
+      "word": "literature",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtrətʃər]",
+        "br": "[ˈlɪtrətʃə(r)]",
+        "gb": "[ˈlɪtərɪʧə]"
+      },
+      "translations": {
+        "rus": "литература",
+        "spa": "la literatura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is literature?",
+            "ru": "Что такое литература?"
+          },
+          {
+            "en": "You are good at literature.",
+            "ru": "Ты хорошо разбираешься в литературе."
+          },
+          {
+            "en": "We talked about poetry and literature.",
+            "ru": "Мы говорили о поэзии и литературе."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am interested in American literature.",
+            "es": "Me interesa la literatura estadounidense."
+          },
+          {
+            "en": "It's one of the best known books in Brazilian literature.",
+            "es": "Es uno de los libros más conocidos de la literatura brasilera."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5252,
+      "word": "magazine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmæɡəziːn]",
+        "br": "[ˌmæɡəˈziːn]",
+        "gb": "[mægəˈziːn]"
+      },
+      "translations": {
+        "rus": "журнал (широкой аудитории)",
+        "spa": "la revista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The magazine conducted a survey.",
+            "ru": "Журнал провёл опрос."
+          },
+          {
+            "en": "The magazine is published weekly.",
+            "ru": "Журнал выходит еженедельно."
+          },
+          {
+            "en": "A magazine with a readership of 60, 000.",
+            "ru": "Журнал с читательской аудиторией в 60 000 человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I saw it in a magazine.",
+            "es": "Lo vi en una revista."
+          },
+          {
+            "en": "I am reading a magazine.",
+            "es": "Estoy leyendo una revista."
+          },
+          {
+            "en": "Please give me a magazine.",
+            "es": "Dame una revista por favor."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5253,
+      "word": "manuscript",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmænjuskrɪpt]",
+        "br": "[ˈmænjuskrɪpt]",
+        "gb": "[ˈmænjʊskrɪpt]"
+      },
+      "translations": {
+        "rus": "рукопись",
+        "spa": "el manuscrito"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's an old manuscript.",
+            "ru": "Это старинная рукопись."
+          },
+          {
+            "en": "He proofread my manuscript.",
+            "ru": "Он вычитал мою рукопись."
+          },
+          {
+            "en": "Can you read this manuscript?",
+            "ru": "Ты можешь прочесть эту рукопись?"
+          },
+          {
+            "en": "I have been writing this manuscript for a year.",
+            "ru": "Я писал эту рукопись в течение года."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5254,
+      "word": "memoirs",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmemwɑːrz]",
+        "br": "[ˈmemwɑː(r)z]",
+        "gb": "[ˈmemwɑːrz]"
+      },
+      "translations": {
+        "rus": "мемуары",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5255,
+      "word": "myth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɪθ]",
+        "br": "[mɪθ]",
+        "gb": "[mɪθ]"
+      },
+      "translations": {
+        "rus": "миф",
+        "spa": "el mito"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A myth about the god of war.",
+            "ru": "Миф о Боге войны."
+          },
+          {
+            "en": "His book demolishes an old myth.",
+            "ru": "Его книга разрушает один старый миф."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5256,
+      "word": "newspaper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːzpeɪpər]",
+        "br": "[ˈnjuːzpeɪpə(r)]",
+        "gb": "[ˈnjuːspeɪpə]"
+      },
+      "translations": {
+        "rus": "газета, газетный",
+        "spa": "el periódico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was in some newspaper.",
+            "ru": "Это было в какой-то газете."
+          },
+          {
+            "en": "Did you see today's newspaper?",
+            "ru": "Ты видел сегодняшнюю газету?"
+          },
+          {
+            "en": "Hand me the newspaper, please.",
+            "ru": "Подай мне, пожалуйста, газету."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a free newspaper.",
+            "es": "Éste es un periódico gratuito."
+          },
+          {
+            "en": "I threw down the newspaper.",
+            "es": "Tiré el periódico."
+          },
+          {
+            "en": "He likes to read newspapers.",
+            "es": "A él le gusta leer periódicos."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5257,
+      "word": "novel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnɑːvl]",
+        "br": "[ˈnɒvl]",
+        "gb": "[ˈnɔvəl]"
+      },
+      "translations": {
+        "rus": "роман, новелла, маленький рассказ",
+        "spa": "la novela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is writing a novel.",
+            "ru": "Он пишет роман."
+          },
+          {
+            "en": "I was absorbed in reading a novel.",
+            "ru": "Я был поглощен чтением новеллы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who is the author of the novel?",
+            "es": "¿Quién es el autor de la novela?"
+          },
+          {
+            "en": "Have you finished reading the novel?",
+            "es": "¿Has terminado de leer la novela?"
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5258,
+      "word": "page",
+      "pos": "noun",
+      "transcription": {
+        "us": "[peɪdʒ]",
+        "br": "[peɪdʒ]",
+        "gb": "[peɪʤ]"
+      },
+      "translations": {
+        "rus": "страница, лист",
+        "spa": "la página"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "And this is my page.",
+            "ru": "А это моя страница."
+          },
+          {
+            "en": "What page are you on?",
+            "ru": "На какой ты странице?"
+          },
+          {
+            "en": "There is a page missing.",
+            "ru": "Не хватает страницы."
+          },
+          {
+            "en": "Did you refresh the page?",
+            "ru": "Вы обновили страницу?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's begin on page 30.",
+            "es": "Empecemos en la página 30."
+          },
+          {
+            "en": "Is this the last page?",
+            "es": "¿Es esta la última página?"
+          },
+          {
+            "en": "There is a page missing.",
+            "es": "Falta una página."
+          },
+          {
+            "en": "I've read the first page.",
+            "es": "He leído la primera página."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5259,
+      "word": "paperback",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪpərbæk]",
+        "br": "[ˈpeɪpəbæk]",
+        "gb": "[ˈpeɪpəbæk]"
+      },
+      "translations": {
+        "rus": "бумажная обложка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5260,
+      "word": "paragraph",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpærəɡræf]",
+        "br": "[ˈpærəɡrɑːf]",
+        "gb": "[ˈpærəgrɑːf]"
+      },
+      "translations": {
+        "rus": "параграф, пункт, газетная заметка",
+        "spa": "el párrafo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Start a new paragraph here.",
+            "ru": "Начни новый параграф здесь."
+          },
+          {
+            "en": "Strike out the last paragraph.",
+            "ru": "Зачеркните последний параграф."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5261,
+      "word": "passage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæsɪdʒ]",
+        "br": "[ˈpæsɪdʒ]",
+        "gb": "[ˈpæsɪʤ]"
+      },
+      "translations": {
+        "rus": "отрывок (текста)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5262,
+      "word": "plot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plɑːt]",
+        "br": "[plɒt]",
+        "gb": "[plɔt]"
+      },
+      "translations": {
+        "rus": "сюжет, фабула",
+        "spa": "el argumento, la trama"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The plot develops rapidly.",
+            "ru": "Сюжет развивается стремительно."
+          },
+          {
+            "en": "I didn't like the plot of the movie.",
+            "ru": "Мне не понравился сюжет фильма."
+          },
+          {
+            "en": "This movie has a predictable plot.",
+            "ru": "Сюжет этого фильма предсказуем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I didn't like the plot of the movie.",
+            "es": "No me gustó el argumento de la película."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5263,
+      "word": "poem",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊəm]",
+        "br": "[ˈpəʊɪm]",
+        "gb": "[ˈpəʊɪm]"
+      },
+      "translations": {
+        "rus": "поэма, стихотворение",
+        "spa": "el poema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She read the poem aloud.",
+            "ru": "Она прочла поэму вслух."
+          },
+          {
+            "en": "He was learning a poem.",
+            "ru": "Он учил стихотворение."
+          },
+          {
+            "en": "She wrote a lot of poems.",
+            "ru": "Она написала много поэм."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5264,
+      "word": "poet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊət]",
+        "br": "[ˈpəʊɪt]",
+        "gb": "[ˈpəʊɪt]"
+      },
+      "translations": {
+        "rus": "поэт",
+        "spa": "el poeta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is a scholar and poet.",
+            "ru": "Она учёный и поэт."
+          },
+          {
+            "en": "He is a born poet.",
+            "ru": "Он прирожденный поэт."
+          },
+          {
+            "en": "The poet wrote many poems.",
+            "ru": "Поэт написал много стихов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3851,
+      "word": "poetry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊətri]",
+        "br": "[ˈpəʊətri]",
+        "gb": "[ˈpəʊɪtrɪ]"
+      },
+      "translations": {
+        "rus": "поэзия, стихи",
+        "spa": "la poesía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I love poetry.",
+            "ru": "Я обожаю поэзию."
+          },
+          {
+            "en": "It's a book of poetry.",
+            "ru": "Это книга стихов."
+          },
+          {
+            "en": "Poetry is my passion.",
+            "ru": "Поэзия — моя страсть."
+          },
+          {
+            "en": "I don't write poetry anymore.",
+            "ru": "Я больше не пишу стихов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5265,
+      "word": "preamble",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpriːæmbl]",
+        "br": "[ˈpriːæmbl]",
+        "gb": "[priːˈæmbl]"
+      },
+      "translations": {
+        "rus": "преамбула, вводная часть, вступление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5266,
+      "word": "preface",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprefəs]",
+        "br": "[ˈprefəs]",
+        "gb": "[ˈprefɪs]"
+      },
+      "translations": {
+        "rus": "предисловие, пролог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5140,
+      "word": "press",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pres]",
+        "br": "[pres]",
+        "gb": "[pres]"
+      },
+      "translations": {
+        "rus": "пресса, печать, корреспондентский",
+        "spa": "la prensa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The press confirmed the rumors.",
+            "ru": "Пресса подтвердила слухи."
+          },
+          {
+            "en": "This book is ready to go to press.",
+            "ru": "Эта книга готова к печати."
+          },
+          {
+            "en": "The Prime Minister met with the press.",
+            "ru": "Премьер-министр встретился с прессой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The press confirmed the rumors.",
+            "es": "La prensa confirmó los rumores."
+          },
+          {
+            "en": "On Friday we will have a press conference.",
+            "es": "El viernes tenemos una conferencia de prensa."
+          }
+        ]
+      },
+      "categories": [
+        "legal_english",
+        "literature",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5267,
+      "word": "print",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prɪnt]",
+        "br": "[prɪnt]",
+        "gb": "[prɪnt]"
+      },
+      "translations": {
+        "rus": "отпечаток, распечатка, шрифт, печать",
+        "spa": "la letra, la huella, el estampado, el grabado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you read all the small print?",
+            "ru": "Ты мелкий шрифт весь прочитал?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5268,
+      "word": "prose",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəʊz]",
+        "br": "[prəʊz]",
+        "gb": "[prəʊz]"
+      },
+      "translations": {
+        "rus": "проза",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5269,
+      "word": "prototype",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprəʊtətaɪp]",
+        "br": "[ˈprəʊtətaɪp]",
+        "gb": "[ˈprəʊtəʊtaɪp]"
+      },
+      "translations": {
+        "rus": "прототип",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5270,
+      "word": "pseudonym",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsuːdənɪm]",
+        "br": "[ˈsjuːdənɪm]",
+        "gb": "[ˈsuːdənɪm]"
+      },
+      "translations": {
+        "rus": "псевдоним",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5271,
+      "word": "publication",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpʌblɪˈkeɪʃn]",
+        "br": "[ˌpʌblɪˈkeɪʃn]",
+        "gb": "[pʌblɪˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "опубликование, издание",
+        "spa": "la publicación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5272,
+      "word": "report",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈpɔːrt]",
+        "br": "[rɪˈpɔːt]",
+        "gb": "[rɪˈpɔːt]"
+      },
+      "translations": {
+        "rus": "доклад, отчёт, сообщение",
+        "spa": "el informe"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I dashed off the report.",
+            "ru": "Я набросал отчёт."
+          },
+          {
+            "en": "He looked over my report.",
+            "ru": "Он просмотрел мой доклад."
+          },
+          {
+            "en": "I'm looking through his report.",
+            "ru": "Я просматриваю его доклад."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I haven't read the report.",
+            "es": "No he leído el informe."
+          },
+          {
+            "en": "I need to rewrite my report.",
+            "es": "Tengo que reescribir mi informe."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5273,
+      "word": "rhyme",
+      "pos": "noun",
+      "transcription": {
+        "us": "[raɪm]",
+        "br": "[raɪm]",
+        "gb": "[raɪm]"
+      },
+      "translations": {
+        "rus": "рифма",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5274,
+      "word": "sensation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[senˈseɪʃn]",
+        "br": "[senˈseɪʃn]",
+        "gb": "[senˈseɪʃn]"
+      },
+      "translations": {
+        "rus": "ощущение, чувство, сенсация",
+        "spa": "la sensación, la sensibilidad, el furor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She felt a burning sensation in her throat.",
+            "ru": "Она почувствовала жжение в горле."
+          },
+          {
+            "en": "I couldn't quite shake the sensation that I'd been fooled.",
+            "ru": "Я не мог полностью отделаться от ощущения, что меня одурачили."
+          },
+          {
+            "en": "His striking good looks always created a sensation.",
+            "ru": "Его поразительная красота всегда производила сенсацию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5275,
+      "word": "short story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɔːrt] [ˈstɔːri]",
+        "br": "[ʃɔːt] [ˈstɔːri]",
+        "gb": "[ʃɔːt] [ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "короткий рассказ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 715,
+      "word": "sketch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sketʃ]",
+        "br": "[sketʃ]",
+        "gb": "[skeʧ]"
+      },
+      "translations": {
+        "rus": "эскиз, набросок",
+        "spa": "el boceto, el bosquejo, el esbozo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "literature",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5276,
+      "word": "stanza",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstænzə]",
+        "br": "[ˈstænzə]",
+        "gb": "[ˈstænzə]"
+      },
+      "translations": {
+        "rus": "строфа, станс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5277,
+      "word": "story",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːri]",
+        "br": "[ˈstɔːri]",
+        "gb": "[ˈstɔːrɪ]"
+      },
+      "translations": {
+        "rus": "повесть, рассказ, история",
+        "spa": "la historia, el cuento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am reading short stories.",
+            "ru": "Я читаю рассказы."
+          },
+          {
+            "en": "She is a short story writer.",
+            "ru": "Она пишет повести."
+          },
+          {
+            "en": "I have heard the story.",
+            "ru": "Я слышал эту историю."
+          },
+          {
+            "en": "Do you write short stories?",
+            "ru": "Вы пишете рассказы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can his story be true?",
+            "es": "¿Podrá ser cierta su historia?"
+          },
+          {
+            "en": "Who told you the story?",
+            "es": "¿Quién te contó la historia?"
+          },
+          {
+            "en": "She could not understand the whole story.",
+            "es": "Ella no pudo comprender el cuento entero."
+          },
+          {
+            "en": "How long is that story?",
+            "es": "¿Qué tan larga es esa historia?"
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5278,
+      "word": "subheading",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbhedɪŋ]",
+        "br": "[ˈsʌbhedɪŋ]",
+        "gb": "[ˈsʌbhedɪŋ]"
+      },
+      "translations": {
+        "rus": "подзаголовок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature"
+      ]
+    },
+    {
+      "id": 5279,
+      "word": "supplement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌplɪmənt]",
+        "br": "[ˈsʌplɪmənt]",
+        "gb": "[ˈsʌplɪmənt]"
+      },
+      "translations": {
+        "rus": "дополнение, приложение",
+        "spa": "el suplemento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5281,
+      "word": "survey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrveɪ]",
+        "br": "[ˈsɜːveɪ]",
+        "gb": "[ˈsɜːveɪ]"
+      },
+      "translations": {
+        "rus": "опрос, обзор, исследование",
+        "spa": "la encuesta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He participated in an online survey.",
+            "ru": "Он принял участие в онлайн-опросе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "marketing",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5283,
+      "word": "title",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtaɪtl]",
+        "br": "[ˈtaɪtl]",
+        "gb": "[taɪtl]"
+      },
+      "translations": {
+        "rus": "название, заглавие, титул, право",
+        "spa": "el título"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A book with an appealing title.",
+            "ru": "Книга с привлекательным названием."
+          },
+          {
+            "en": "He lost his title in the rematch.",
+            "ru": "Он потерял свой титул в матче-реванше."
+          },
+          {
+            "en": "What was the title of that book you were reading last week?",
+            "ru": "Как называлась та книга, которую вы читали на прошлой неделе?"
+          },
+          {
+            "en": "I can never remember movie titles.",
+            "ru": "Я никогда не могу запомнить названий фильмов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The title is misleading.",
+            "es": "El título es engañoso."
+          },
+          {
+            "en": "What is the title of the book?",
+            "es": "¿Cuál es el título del libro?"
+          },
+          {
+            "en": "After winning all the matches, he got the title of champion.",
+            "es": "Después de vencer en todos los encuentros, obtuvo el título de campeón."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1523,
+      "word": "to interview",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪntərvjuː]",
+        "br": "[tu] [ˈɪntəvjuː]",
+        "gb": "[tuː] [ˈɪntəvjuː]"
+      },
+      "translations": {
+        "rus": "проводить интервью, опрашивать",
+        "spa": "entrevistar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The police are interviewing witnesses.",
+            "ru": "Полиция опрашивает свидетелей."
+          },
+          {
+            "en": "Can we interview them?",
+            "ru": "Мы можем взять у них интервью?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was interviewed for a job.",
+            "es": "Me entrevistaron para un empleo."
+          },
+          {
+            "en": "Where did you interview them?",
+            "es": "¿Dónde los entrevistaste?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1039,
+      "word": "to issue",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪʃuː]",
+        "br": "[tu] [ˈɪʃuː]",
+        "gb": "[tuː] [ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпускать, издавать",
+        "spa": "emitir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The magazine is issued twice a month.",
+            "ru": "Этот журнал издаётся два раза в месяц."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "legal_english",
+        "literature",
+        "mass_media",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1127,
+      "word": "to print",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [prɪnt]",
+        "br": "[tə] [prɪnt]",
+        "gb": "[tuː] [prɪnt]"
+      },
+      "translations": {
+        "rus": "печатать, издавать",
+        "spa": "imprimir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The catalogue is being printed.",
+            "ru": "Каталог печатается."
+          },
+          {
+            "en": "Print a hard copy of the report.",
+            "ru": "Напечатайте бумажную копию отчета."
+          },
+          {
+            "en": "It is their job to print the truth.",
+            "ru": "Печатать правду — их обязанность."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have to print 100 pages.",
+            "es": "Tengo que imprimir 100 páginas."
+          },
+          {
+            "en": "Think before you print this.",
+            "es": "Piensa antes de imprimir esto."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "literature",
+        "mass_media",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5280,
+      "word": "to supplement",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsʌplɪment]",
+        "br": "[tə] [ˈsʌplɪment]",
+        "gb": "[tuː] [ˈsʌplɪmənt]"
+      },
+      "translations": {
+        "rus": "дополнять",
+        "spa": "complementar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You had better supplement your diet with vitamins.",
+            "ru": "Ты б лучше дополнил свою диету витаминами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5282,
+      "word": "to survey",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sərˈveɪ]",
+        "br": "[tə] [səˈveɪ]",
+        "gb": "[tuː] [səˈveɪ]"
+      },
+      "translations": {
+        "rus": "опрашивать, осматривать, обозревать",
+        "spa": "encuestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They will survey the desert island.",
+            "ru": "Они обследуют необитаемый остров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5284,
+      "word": "topic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɑːpɪk]",
+        "br": "[ˈtɒpɪk]",
+        "gb": "[ˈtɔpɪk]"
+      },
+      "translations": {
+        "rus": "тема, предмет обсуждения",
+        "spa": "el tema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a touchy topic.",
+            "ru": "Это болезненная тема."
+          },
+          {
+            "en": "That topic comes up often.",
+            "ru": "Эта тема часто всплывает."
+          },
+          {
+            "en": "That's a very interesting topic.",
+            "ru": "Это очень интересная тема."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You just touched on the topic I would like to discuss.",
+            "es": "Tocaste justamente el tema que yo quería discutir."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5285,
+      "word": "tragedy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrædʒədi]",
+        "br": "[ˈtrædʒədi]",
+        "gb": "[ˈtræʤɪdɪ]"
+      },
+      "translations": {
+        "rus": "трагедия",
+        "spa": "la tragedia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a tragedy.",
+            "ru": "Это была трагедия."
+          },
+          {
+            "en": "What an awful tragedy!",
+            "ru": "Какая ужасная трагедия!"
+          },
+          {
+            "en": "Where did the tragedy occur?",
+            "ru": "Где случилась трагедия?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5286,
+      "word": "verse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vɜːrs]",
+        "br": "[vɜːs]",
+        "gb": "[vɜːs]"
+      },
+      "translations": {
+        "rus": "строфа, стих",
+        "spa": "el verso, la estrofa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5287,
+      "word": "volume",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɑːljəm]",
+        "br": "[ˈvɒljuːm]",
+        "gb": "[ˈvɔljʊm]"
+      },
+      "translations": {
+        "rus": "том, книга",
+        "spa": "el tomo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was a similar passage in the second volume.",
+            "ru": "Во втором томе был похожий отрывок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5288,
+      "word": "work",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɜːrk]",
+        "br": "[wɜːk]",
+        "gb": "[wɜːk]"
+      },
+      "translations": {
+        "rus": "работа, произведение, труд",
+        "spa": "el trabajo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's time to get to work.",
+            "ru": "Пора приступить к работе."
+          },
+          {
+            "en": "It's a work of art.",
+            "ru": "Это произведение искусства."
+          },
+          {
+            "en": "Bringing up a baby is hard work.",
+            "ru": "Воспитание детей — тяжелый труд."
+          },
+          {
+            "en": "There is a lot of work to do.",
+            "ru": "Работы много."
+          },
+          {
+            "en": "His garden is a work of art.",
+            "ru": "Его сад - произведение искусства."
+          },
+          {
+            "en": "Good luck with your work!",
+            "ru": "Успехов в работе!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let us do the work.",
+            "es": "Dejá que hagamos el trabajo."
+          },
+          {
+            "en": "Keep up the good work!",
+            "es": "¡Prosigue con el buen trabajo!"
+          },
+          {
+            "en": "Carry on with your work.",
+            "es": "Sigue trabajando."
+          },
+          {
+            "en": "Are you looking for work?",
+            "es": "¿Buscas trabajo?"
+          },
+          {
+            "en": "Did you complete the work?",
+            "es": "¿Completaste el trabajo?"
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "oxford3000_a1",
+        "top100"
+      ]
+    },
+    {
+      "id": 1866,
+      "word": "writer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈraɪtər]",
+        "br": "[ˈraɪtə(r)]",
+        "gb": "[ˈraɪtə]"
+      },
+      "translations": {
+        "rus": "писатель, автор",
+        "spa": "el escritor, el autor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a good writer.",
+            "ru": "Он хороший писатель."
+          },
+          {
+            "en": "He was a poet and writer.",
+            "ru": "Он был поэтом и писателем."
+          },
+          {
+            "en": "You should be a writer.",
+            "ru": "Тебе нужно быть писателем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a good writer.",
+            "es": "Él es un buen escritor."
+          },
+          {
+            "en": "You should be a writer.",
+            "es": "Deberías ser escritor."
+          },
+          {
+            "en": "I'm not much of a writer.",
+            "es": "No soy muy buen escritor."
+          },
+          {
+            "en": "He was a poet and writer.",
+            "es": "Él era un poeta y un escritor."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "literature",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    }
+  ]
+}

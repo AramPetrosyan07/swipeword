@@ -124,9 +124,12 @@ class CardManager {
     this.innerEl.style.transform = '';
     this.wordEl.textContent = word.english;
     this.wordEl.dataset.copy = word.english;
+    const translations = [word.armenian, word.russian, word.spanish].filter((t) => t && t.trim());
+    const primaryTranslation = translations[0] || '';
+    const secondaryTranslation = translations.slice(1).join(' \u00b7 ');
     if (this.russianEl) {
-      this.russianEl.textContent = word.russian || '';
-      this.russianEl.dataset.copy = word.russian || '';
+      this.russianEl.textContent = secondaryTranslation;
+      this.russianEl.dataset.copy = secondaryTranslation;
     }
     if (this.russianExampleEl) {
       const russianEx = word.russian_example || [];
@@ -148,8 +151,8 @@ class CardManager {
     if (this.advWrapperEl) {
       this.advWrapperEl.style.display = word.adverb ? '' : 'none';
     }
-    this.translationEl.textContent = word.armenian;
-    this.translationEl.dataset.copy = word.armenian;
+    this.translationEl.textContent = primaryTranslation;
+    this.translationEl.dataset.copy = primaryTranslation;
     const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);
     this.exampleEl.innerHTML = examples.map((ex, i) =>
       `<span class="card-example-item" data-copy="${ex.replace(/"/g, '&quot;')}">${i + 1}. &ldquo;${ex}&rdquo;</span>`
@@ -173,8 +176,8 @@ class CardManager {
     }
 
     if (this.learnTranslationEl) {
-      this.learnTranslationEl.textContent = word.armenian;
-      this.learnTranslationEl.dataset.copy = word.armenian;
+      this.learnTranslationEl.textContent = primaryTranslation;
+      this.learnTranslationEl.dataset.copy = primaryTranslation;
     }
     if (this.learnExampleEl) {
       const examples = word.examples && word.examples.length > 0 ? word.examples : (word.example ? [word.example] : []);

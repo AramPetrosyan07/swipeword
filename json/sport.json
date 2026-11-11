@@ -1,0 +1,3146 @@
+{
+  "category": {
+    "id": "sport",
+    "name_rus": "Спорт",
+    "type": "topic",
+    "word_count": 116
+  },
+  "words": [
+    {
+      "id": 9869,
+      "word": "aerobics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[eˈrəʊbɪks]",
+        "br": "[eəˈrəʊbɪks]",
+        "gb": "[əˈrəʊbɪks]"
+      },
+      "translations": {
+        "rus": "аэробика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9870,
+      "word": "archery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtʃəri]",
+        "br": "[ˈɑːtʃəri]",
+        "gb": "[ˈɑːʧərɪ]"
+      },
+      "translations": {
+        "rus": "стрельба из лука",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 5505,
+      "word": "arrow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈærəʊ]",
+        "br": "[ˈærəʊ]",
+        "gb": "[ˈærəʊ]"
+      },
+      "translations": {
+        "rus": "стрела, стрелка",
+        "spa": "la flecha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The arrow pierced his back.",
+            "ru": "Его спину пронзила стрела."
+          },
+          {
+            "en": "The arrow missed the target.",
+            "ru": "Стрела пролетела мимо цели."
+          },
+          {
+            "en": "The arrow always points north.",
+            "ru": "Стрелка всегда указывает на север."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9871,
+      "word": "artistic gymnastics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrˈtɪstɪk] [dʒɪmˈnæstɪks]",
+        "br": "[ɑːˈtɪstɪk] [dʒɪmˈnæstɪks]",
+        "gb": "[ɑːˈtɪstɪk] [ʤɪmˈnæstɪks]"
+      },
+      "translations": {
+        "rus": "спортивная гимнастика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6378,
+      "word": "athlete",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæθliːt]",
+        "br": "[ˈæθliːt]",
+        "gb": "[ˈæθliːt]"
+      },
+      "translations": {
+        "rus": "атлет, спортсмен",
+        "spa": "el atleta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am not an athlete.",
+            "ru": "Я не атлет."
+          },
+          {
+            "en": "He is a good athlete.",
+            "ru": "Он хороший спортсмен."
+          },
+          {
+            "en": "It seems that he was a great athlete.",
+            "ru": "Похоже, что он был великим атлетом."
+          },
+          {
+            "en": "I've been an athlete my whole life.",
+            "ru": "Я всю жизнь был спортсменом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9872,
+      "word": "athletics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æθˈletɪks]",
+        "br": "[æθˈletɪks]",
+        "gb": "[æθˈletɪks]"
+      },
+      "translations": {
+        "rus": "атлетика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9873,
+      "word": "badminton",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbædmɪntən]",
+        "br": "[ˈbædmɪntən]",
+        "gb": "[ˈbædmɪntən]"
+      },
+      "translations": {
+        "rus": "бадминтон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9874,
+      "word": "barbell",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːrbel]",
+        "br": "[ˈbɑːbel]",
+        "gb": "[ˈbɑːbel]"
+      },
+      "translations": {
+        "rus": "штанга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6386,
+      "word": "baseball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeɪsbɔːl]",
+        "br": "[ˈbeɪsbɔːl]",
+        "gb": "[ˈbeɪsbɔːl]"
+      },
+      "translations": {
+        "rus": "бейсбол",
+        "spa": "el béisbol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you play baseball yesterday?",
+            "ru": "Вы играли вчера в бейсбол?"
+          },
+          {
+            "en": "Don't play baseball in the park.",
+            "ru": "Не играйте в бейсбол в парке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 3773,
+      "word": "basketball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæskɪtbɔːl]",
+        "br": "[ˈbɑːskɪtbɔːl]",
+        "gb": "[ˈbɑːskɪtbɔːl]"
+      },
+      "translations": {
+        "rus": "баскетбол",
+        "spa": "el básquetbol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you play basketball well?",
+            "ru": "Ты хорошо играешь в баскетбол?"
+          },
+          {
+            "en": "She used to play basketball.",
+            "ru": "Она когда-то играла в баскетбол."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9875,
+      "word": "biathlon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[baɪˈæθlən]",
+        "br": "[baɪˈæθlən]",
+        "gb": "[bɪˈæθlən]"
+      },
+      "translations": {
+        "rus": "биатлон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3776,
+      "word": "billiards",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪljərdz]",
+        "br": "[ˈbɪliədz]",
+        "gb": "[ˈbɪljədz]"
+      },
+      "translations": {
+        "rus": "бильярд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 5523,
+      "word": "bow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊ]",
+        "br": "[bəʊ]",
+        "gb": "[bəʊ]"
+      },
+      "translations": {
+        "rus": "лук",
+        "spa": "el arco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Give me your bow.",
+            "ru": "Дай мне свой лук."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1",
+        "sport"
+      ]
+    },
+    {
+      "id": 3778,
+      "word": "bowling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbəʊlɪŋ]",
+        "br": "[ˈbəʊlɪŋ]",
+        "gb": "[ˈbəʊlɪŋ]"
+      },
+      "translations": {
+        "rus": "боулинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 9876,
+      "word": "boxing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːksɪŋ]",
+        "br": "[ˈbɒksɪŋ]",
+        "gb": "[ˈbɔksɪŋ]"
+      },
+      "translations": {
+        "rus": "бокс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9878,
+      "word": "canoeing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈnuːɪŋ]",
+        "br": "[kəˈnuːɪŋ]",
+        "gb": "[kəˈnuːɪŋ]"
+      },
+      "translations": {
+        "rus": "гребля на каноэ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9879,
+      "word": "car racing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːr] [ˈreɪsɪŋ]",
+        "br": "[kɑː(r)] [ˈreɪsɪŋ]",
+        "gb": "[kɑː] [ˈreɪsɪŋ]"
+      },
+      "translations": {
+        "rus": "гонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 7905,
+      "word": "championship",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃæmpiənʃɪp]",
+        "br": "[ˈtʃæmpiənʃɪp]",
+        "gb": "[ˈʧæmpjənʃɪp]"
+      },
+      "translations": {
+        "rus": "чемпионат, первенство",
+        "spa": "el campeonato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We won the championship.",
+            "ru": "Мы выиграли чемпионат."
+          },
+          {
+            "en": "We hope to win the championship.",
+            "ru": "Мы надеемся выиграть чемпионат."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3787,
+      "word": "checkers",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃekərz]",
+        "br": "[ˈtʃekəz]",
+        "gb": "[ˈtʃekərz]"
+      },
+      "translations": {
+        "rus": "шашки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3788,
+      "word": "chess",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃes]",
+        "br": "[tʃes]",
+        "gb": "[ʧes]"
+      },
+      "translations": {
+        "rus": "шахматы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 9880,
+      "word": "climbing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklaɪmɪŋ]",
+        "br": "[ˈklaɪmɪŋ]",
+        "gb": "[ˈklaɪmɪŋ]"
+      },
+      "translations": {
+        "rus": "скалолазание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 5539,
+      "word": "club",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klʌb]",
+        "br": "[klʌb]",
+        "gb": "[klʌb]"
+      },
+      "translations": {
+        "rus": "клюшка, дубинка",
+        "spa": "el garrote, la porra, el palo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She beat him to death with a golf club.",
+            "ru": "Она забила его до смерти клюшкой для гольфа."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6425,
+      "word": "coach",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊtʃ]",
+        "br": "[kəʊtʃ]",
+        "gb": "[kəʊʧ]"
+      },
+      "translations": {
+        "rus": "тренер",
+        "spa": "el entrenador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm not the coach.",
+            "ru": "Я не тренер."
+          },
+          {
+            "en": "This is my coach.",
+            "ru": "Это мой тренер."
+          },
+          {
+            "en": "My dad was a coach.",
+            "ru": "Мой папа был тренером."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who is the team's coach?",
+            "es": "¿Quién es el entrenador del equipo?"
+          },
+          {
+            "en": "A good coach trains this team.",
+            "es": "Este equipo tiene un buen entrenador."
+          },
+          {
+            "en": "I used to be a basketball coach.",
+            "es": "Era entrenador de baloncesto."
+          },
+          {
+            "en": "That coach gave him good advice.",
+            "es": "El entrenador le dio algunos buenos consejos."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2798,
+      "word": "competition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːmpəˈtɪʃn]",
+        "br": "[ˌkɒmpəˈtɪʃn]",
+        "gb": "[kɔmpɪˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "конкуренция, соревнование, конкурс",
+        "spa": "el concurso, la competencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a competition.",
+            "ru": "Это было состязание."
+          },
+          {
+            "en": "I missed the competition.",
+            "ru": "Я пропустил соревнования."
+          },
+          {
+            "en": "We're not afraid of competition.",
+            "ru": "Мы не боимся конкуренции."
+          },
+          {
+            "en": "Competition drives down prices.",
+            "ru": "Конкуренция снижает цены."
+          },
+          {
+            "en": "He won many competitions.",
+            "ru": "Он выиграл много соревнований."
+          },
+          {
+            "en": "He was disqualified from the competition.",
+            "ru": "Он был дисквалифицирован во время соревнования."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The competition is fierce.",
+            "es": "La competencia es ardua."
+          },
+          {
+            "en": "You won many competitions.",
+            "es": "Has ganado muchas competencias."
+          },
+          {
+            "en": "There's a lot of competition in business.",
+            "es": "Hay mucha competencia en el comercio."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6919,
+      "word": "court",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːrt]",
+        "br": "[kɔːt]",
+        "gb": "[kɔːt]"
+      },
+      "translations": {
+        "rus": "корт",
+        "spa": "la cancha, la pista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you going to the tennis court?",
+            "ru": "Ты идёшь на теннисный корт?"
+          },
+          {
+            "en": "Is there a tennis court around here?",
+            "ru": "А здесь рядом есть теннисной корт?"
+          },
+          {
+            "en": "Do you have a tennis court in this hotel?",
+            "ru": "У вас есть теннисный корт в этом отеле?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport"
+      ]
+    },
+    {
+      "id": 5660,
+      "word": "crew",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kruː]",
+        "br": "[kruː]",
+        "gb": "[kruː]"
+      },
+      "translations": {
+        "rus": "команда, компания, экипаж, бригада, съемочная группа",
+        "spa": "el equipo (personas), el personal, la tripulación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How many go to a crew with you, captain?",
+            "ru": "Из скольких человек состоит ваша команда, капитан?"
+          },
+          {
+            "en": "The crew and passengers numbered 33.",
+            "ru": "Команда вместе с пассажирами насчитывала 33 человека."
+          },
+          {
+            "en": "Do you still hang out with the same crew?",
+            "ru": "Ты все еще тусуешься с той же компанией?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9881,
+      "word": "cricket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɪkɪt]",
+        "br": "[ˈkrɪkɪt]",
+        "gb": "[ˈkrɪkɪt]"
+      },
+      "translations": {
+        "rus": "крикет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9882,
+      "word": "cross-country skiing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[krɔːs] [ˈkʌntri] [ˈskiːɪŋ]",
+        "br": "[krɒs] [ˈkʌntri] [ˈskiːɪŋ]",
+        "gb": "[krɔs] [ˈkʌntrɪ] [ˈskiːɪŋ]"
+      },
+      "translations": {
+        "rus": "лыжные гонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 7952,
+      "word": "cue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kjuː]",
+        "br": "[kjuː]",
+        "gb": "[kjuː]"
+      },
+      "translations": {
+        "rus": "кий",
+        "spa": "el taco"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9883,
+      "word": "curling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɜːrlɪŋ]",
+        "br": "[ˈkɜːlɪŋ]",
+        "gb": "[ˈkɜːlɪŋ]"
+      },
+      "translations": {
+        "rus": "кёрлинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3806,
+      "word": "cycling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪklɪŋ]",
+        "br": "[ˈsaɪklɪŋ]",
+        "gb": "[ˈsaɪklɪŋ]"
+      },
+      "translations": {
+        "rus": "езда на велосипеде, велоспорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 9884,
+      "word": "darts",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dɑːts]"
+      },
+      "translations": {
+        "rus": "метание дротиков, дартс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3809,
+      "word": "diving",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaɪvɪŋ]",
+        "br": "[ˈdaɪvɪŋ]",
+        "gb": "[ˈdaɪvɪŋ]"
+      },
+      "translations": {
+        "rus": "дайвинг, прыжки в воду",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 9885,
+      "word": "downhill skiing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaʊnhɪl] [ˈskiːɪŋ]",
+        "br": "[ˈdaʊnhɪl] [ˈskiːɪŋ]",
+        "gb": "[ˈdaʊnˈhɪl] [ˈskiːɪŋ]"
+      },
+      "translations": {
+        "rus": "горнолыжный спорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9886,
+      "word": "draughts",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dræfts]",
+        "br": "[dræfts]",
+        "gb": "[dræfts]"
+      },
+      "translations": {
+        "rus": "шашки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9888,
+      "word": "fencing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfensɪŋ]",
+        "br": "[ˈfensɪŋ]",
+        "gb": "[ˈfensɪŋ]"
+      },
+      "translations": {
+        "rus": "фехтование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9889,
+      "word": "figure skating",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪɡjər] [ˈskeɪtɪŋ]",
+        "br": "[ˈfɪɡə(r)] [ˈskeɪtɪŋ]",
+        "gb": "[ˈfɪgə] [ˈskeɪtɪŋ]"
+      },
+      "translations": {
+        "rus": "фигурное катание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3815,
+      "word": "fishing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪʃɪŋ]",
+        "br": "[ˈfɪʃɪŋ]",
+        "gb": "[ˈfɪʃɪŋ]"
+      },
+      "translations": {
+        "rus": "рыбалка",
+        "spa": "la pesca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fishing just isn't my line.",
+            "ru": "Рыбалка — не моё."
+          },
+          {
+            "en": "I have a book about fishing.",
+            "ru": "У меня есть книга о рыбалке."
+          },
+          {
+            "en": "We go fishing once in a while.",
+            "ru": "Иногда мы ходим на рыбалку."
+          },
+          {
+            "en": "My father likes fishing, and so do I.",
+            "ru": "Мой отец любит рыбалку, как и я."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 3819,
+      "word": "football",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfʊtbɔːl]",
+        "br": "[ˈfʊtbɔːl]",
+        "gb": "[ˈfʊtbɔːl]"
+      },
+      "translations": {
+        "rus": "футбол",
+        "spa": "el fútbol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm watching the football game.",
+            "ru": "Я смотрю футбол."
+          },
+          {
+            "en": "I want to play football.",
+            "ru": "Я хочу играть в футбол."
+          },
+          {
+            "en": "I played football with my dad.",
+            "ru": "Я играл с отцом в футбол."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm really into football.",
+            "es": "Estoy muy interesado en el fútbol."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9890,
+      "word": "freestyle wrestling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfriːstaɪl] [ˈreslɪŋ]",
+        "br": "[ˈfriːstaɪl] [ˈreslɪŋ]",
+        "gb": "[ˈfriːstaɪl] [ˈreslɪŋ]"
+      },
+      "translations": {
+        "rus": "вольная борьба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9891,
+      "word": "gliding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡlaɪdɪŋ]",
+        "br": "[ˈɡlaɪdɪŋ]",
+        "gb": "[ˈglaɪdɪŋ]"
+      },
+      "translations": {
+        "rus": "планеризм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 5323,
+      "word": "goal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəʊl]",
+        "br": "[ɡəʊl]",
+        "gb": "[gəʊl]"
+      },
+      "translations": {
+        "rus": "цель, гол, ворота",
+        "spa": "el gol, la meta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She finally realized her goal.",
+            "ru": "Она наконец осуществила свою цель."
+          },
+          {
+            "en": "Their goal is out of reach.",
+            "ru": "Их цель находится вне досягаемости."
+          },
+          {
+            "en": "We all share a common goal.",
+            "ru": "У всех нас — общая цель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My goal is to be happy.",
+            "es": "Mi meta es ser feliz."
+          },
+          {
+            "en": "The match ended with no goal.",
+            "es": "El partido terminó sin goles."
+          },
+          {
+            "en": "We need a goal in life.",
+            "es": "En nuestra vida necesitamos una meta."
+          },
+          {
+            "en": "The crowd yelled when he scored a goal.",
+            "es": "La multitud chilló cuando él marcó un gol."
+          },
+          {
+            "en": "Jack has no goals in life.",
+            "es": "Jack no tiene ninguna meta en la vida."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6521,
+      "word": "golf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɑːlf]",
+        "br": "[ɡɒlf]",
+        "gb": "[gɔlf]"
+      },
+      "translations": {
+        "rus": "гольф",
+        "spa": "el golf"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you fond of golf?",
+            "ru": "Тебе нравится гольф?"
+          },
+          {
+            "en": "I like to play golf.",
+            "ru": "Я люблю играть в гольф."
+          },
+          {
+            "en": "I'm a big fan of golf.",
+            "ru": "Я большой фанат гольфа."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9892,
+      "word": "greco-roman wrestling",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈgrekəʊ] [ˈrəʊmən] [ˈreslɪŋ]"
+      },
+      "translations": {
+        "rus": "греко-римская борьба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6034,
+      "word": "gym",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒɪm]",
+        "br": "[dʒɪm]",
+        "gb": "[ʤɪm]"
+      },
+      "translations": {
+        "rus": "спортзал",
+        "spa": "el gimnasio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm off to the gym.",
+            "ru": "Я в спортзал."
+          },
+          {
+            "en": "I started going to the gym.",
+            "ru": "Я начал ходить в спортзал."
+          },
+          {
+            "en": "Do you want to go to the gym with me?",
+            "ru": "Хочешь пойти со мной в спортзал?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are they in the gym?",
+            "es": "¿Están en el gimnasio?"
+          },
+          {
+            "en": "Are you going to the gym today?",
+            "es": "¿Vas al gimnasio hoy?"
+          },
+          {
+            "en": "We played basketball in the gym.",
+            "es": "Jugamos a baloncesto en el gimnasio."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "sport",
+        "town"
+      ]
+    },
+    {
+      "id": 9893,
+      "word": "gymnastics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒɪmˈnæstɪks]",
+        "br": "[dʒɪmˈnæstɪks]",
+        "gb": "[ʤɪmˈnæstɪks]"
+      },
+      "translations": {
+        "rus": "гимнастика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9894,
+      "word": "handball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhændbɔːl]",
+        "br": "[ˈhændbɔːl]",
+        "gb": "[ˈhændbɔːl]"
+      },
+      "translations": {
+        "rus": "гандбол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9895,
+      "word": "hang gliding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hæŋ] [ˈɡlaɪdɪŋ]",
+        "br": "[hæŋ] [ˈɡlaɪdɪŋ]",
+        "gb": "[hæŋ] [ˈglaɪdɪŋ]"
+      },
+      "translations": {
+        "rus": "дельтапланеризм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9896,
+      "word": "high jump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haɪ] [dʒʌmp]",
+        "br": "[haɪ] [dʒʌmp]",
+        "gb": "[haɪ] [ʤʌmp]"
+      },
+      "translations": {
+        "rus": "прыжки в высоту",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3822,
+      "word": "hockey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːki]",
+        "br": "[ˈhɒki]",
+        "gb": "[ˈhɔkɪ]"
+      },
+      "translations": {
+        "rus": "хоккей",
+        "spa": "el hockey"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like hockey.",
+            "ru": "Я люблю хоккей."
+          },
+          {
+            "en": "I used to play hockey.",
+            "ru": "Я когда-то играл в хоккей."
+          },
+          {
+            "en": "Do you still play hockey?",
+            "ru": "Ты всё ещё играешь в хоккей?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9897,
+      "word": "hurdling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɜːrdlɪŋ]",
+        "br": "[ˈhɜːdlɪŋ]",
+        "gb": "[ˈhɜːdlɪŋ]"
+      },
+      "translations": {
+        "rus": "бег с барьерами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9898,
+      "word": "ice rink",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪs] [rɪŋk]",
+        "br": "[aɪs] [rɪŋk]",
+        "gb": "[aɪs] [rɪŋk]"
+      },
+      "translations": {
+        "rus": "каток",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6549,
+      "word": "instructor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈstrʌktər]",
+        "br": "[ɪnˈstrʌktə(r)]",
+        "gb": "[ɪnˈstrʌktə]"
+      },
+      "translations": {
+        "rus": "инструктор",
+        "spa": "el instructor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "At the present time, she is a yoga instructor.",
+            "ru": "В настоящее время она инструктор по йоге."
+          },
+          {
+            "en": "The instructor advised me to get exercise every day.",
+            "ru": "Инструктор посоветовал мне заниматься каждый день."
+          },
+          {
+            "en": "She worked as an aerobics instructor in her twenties.",
+            "ru": "В двадцать с чем-то лет она работала инструктором по аэробике."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9899,
+      "word": "javelin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒævlɪn]",
+        "br": "[ˈdʒævlɪn]",
+        "gb": "[ˈʤævlɪn]"
+      },
+      "translations": {
+        "rus": "копье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9900,
+      "word": "jogging",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɑːɡɪŋ]",
+        "br": "[ˈdʒɒɡɪŋ]",
+        "gb": "[ˈʤɑgɪŋ]"
+      },
+      "translations": {
+        "rus": "бег трусцой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9901,
+      "word": "judo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒuːdəʊ]",
+        "br": "[ˈdʒuːdəʊ]",
+        "gb": "[ˈʤuːdəʊ]"
+      },
+      "translations": {
+        "rus": "дзюдо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9902,
+      "word": "karate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈrɑːti]",
+        "br": "[kəˈrɑːti]",
+        "gb": "[kəˈrɑːtɪ]"
+      },
+      "translations": {
+        "rus": "карате",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9903,
+      "word": "long jump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːŋ] [dʒʌmp]",
+        "br": "[lɒŋ] [dʒʌmp]",
+        "gb": "[lɔŋ] [ʤʌmp]"
+      },
+      "translations": {
+        "rus": "прыжки в длину",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9904,
+      "word": "martial arts",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmɑːʃəl] [ɑːts]"
+      },
+      "translations": {
+        "rus": "боевые искусства",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9905,
+      "word": "motorbike sports",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈməʊtəbaɪk] [spɔːts]"
+      },
+      "translations": {
+        "rus": "мотоциклетный спорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9906,
+      "word": "mountain biking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntn] [ˈbaɪkɪŋ]",
+        "br": "[ˈmaʊntən] [ˈbaɪkɪŋ]",
+        "gb": "[ˈmaʊntɪn] [ˈbaɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "езда на горном велосипеде",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3836,
+      "word": "mountaineering",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmaʊntnˈɪrɪŋ]",
+        "br": "[ˌmaʊntəˈnɪərɪŋ]",
+        "gb": "[maʊntɪˈnɪərɪŋ]"
+      },
+      "translations": {
+        "rus": "альпинизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 2343,
+      "word": "net",
+      "pos": "noun",
+      "transcription": {
+        "us": "[net]",
+        "br": "[net]",
+        "gb": "[net]"
+      },
+      "translations": {
+        "rus": "сеть, сетка",
+        "spa": "la red"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He fixed the net.",
+            "ru": "Он починил сеть."
+          },
+          {
+            "en": "The nets were loaded with fish.",
+            "ru": "Сети были полны рыбы."
+          },
+          {
+            "en": "The fishermen are using nets.",
+            "ru": "Рыбаки пользуются сетями."
+          },
+          {
+            "en": "Google+ is a social net.",
+            "ru": "Google+ - это социальная сеть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He fixed the net.",
+            "es": "Él reparó la red."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "oxford3000_b1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9907,
+      "word": "orienteering",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɔːriənˈtɪrɪŋ]",
+        "br": "[ˌɔːriənˈtɪərɪŋ]",
+        "gb": "[ˈɔːrɪəntɪərɪŋ]"
+      },
+      "translations": {
+        "rus": "спортивное ориентирование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9908,
+      "word": "parachuting",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpærəʃuːtɪŋ]"
+      },
+      "translations": {
+        "rus": "парашютный спорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9909,
+      "word": "pole-vaulting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəʊl] [ˈvɔːltɪŋ]",
+        "br": "[pəʊl] [ˈvɔːltɪŋ]",
+        "gb": "[pəʊl] [ˈvɔːltɪŋ]"
+      },
+      "translations": {
+        "rus": "прыжки с шестом",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9910,
+      "word": "polo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊləʊ]",
+        "br": "[ˈpəʊləʊ]",
+        "gb": "[ˈpəʊləʊ]"
+      },
+      "translations": {
+        "rus": "поло",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9911,
+      "word": "puck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pʌk]",
+        "br": "[pʌk]",
+        "gb": "[pʌk]"
+      },
+      "translations": {
+        "rus": "шайба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9912,
+      "word": "racetrack",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪstræk]",
+        "br": "[ˈreɪstræk]",
+        "gb": "[ˈreɪstræk]"
+      },
+      "translations": {
+        "rus": "беговая дорожка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9913,
+      "word": "racket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrækɪt]",
+        "br": "[ˈrækɪt]",
+        "gb": "[ˈrækɪt]"
+      },
+      "translations": {
+        "rus": "ракетка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6675,
+      "word": "record",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrekərd]",
+        "br": "[ˈrekɔːd]",
+        "gb": "[ˈrɛkɔːd]"
+      },
+      "translations": {
+        "rus": "запись, рекорд, рекордный",
+        "spa": "el registro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "All medical records are kept confidential.",
+            "ru": "Все медицинские записи хранятся в секрете."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She gave me access to her records.",
+            "es": "Ella me autorizó a acceder a sus registros."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 8248,
+      "word": "referee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌrefəˈriː]",
+        "br": "[ˌrefəˈriː]",
+        "gb": "[refəˈriː]"
+      },
+      "translations": {
+        "rus": "судья, арбитр, рефери",
+        "spa": "el árbitro (la árbitra), el réferi (la réferi)"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The player attacked the referee.",
+            "ru": "Игрок напал на судью."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9914,
+      "word": "rhythmic gymnastics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɪðmɪk] [dʒɪmˈnæstɪks]",
+        "br": "[ˈrɪðmɪk] [dʒɪmˈnæstɪks]",
+        "gb": "[ˈrɪðmɪk] [ʤɪmˈnæstɪks]"
+      },
+      "translations": {
+        "rus": "художественная гимнастика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9915,
+      "word": "riding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈraɪdɪŋ]",
+        "br": "[ˈraɪdɪŋ]",
+        "gb": "[ˈraɪdɪŋ]"
+      },
+      "translations": {
+        "rus": "верховая езда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9916,
+      "word": "road cycling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rəʊd] [ˈsaɪklɪŋ]",
+        "br": "[rəʊd] [ˈsaɪklɪŋ]",
+        "gb": "[rəʊd] [ˈsaɪklɪŋ]"
+      },
+      "translations": {
+        "rus": "шоссейные велогонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9917,
+      "word": "rowing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrəʊɪŋ]",
+        "br": "[ˈrəʊɪŋ]",
+        "gb": "[ˈrəʊɪŋ]"
+      },
+      "translations": {
+        "rus": "академическая гребля",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 7191,
+      "word": "rugby",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrʌɡbi]",
+        "br": "[ˈrʌɡbi]",
+        "gb": "[ˈrʌgbɪ]"
+      },
+      "translations": {
+        "rus": "регби",
+        "spa": "el rugby"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Rugby is a sport which is never called off by rain.",
+            "ru": "Игру в регби не прекращают даже в случае дождя."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport"
+      ]
+    },
+    {
+      "id": 9918,
+      "word": "running race",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrʌnɪŋ] [reɪs]",
+        "br": "[ˈrʌnɪŋ] [reɪs]",
+        "gb": "[ˈrʌnɪŋ] [reɪs]"
+      },
+      "translations": {
+        "rus": "состязание в беге",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6698,
+      "word": "sailing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseɪlɪŋ]",
+        "br": "[ˈseɪlɪŋ]",
+        "gb": "[ˈseɪlɪŋ]"
+      },
+      "translations": {
+        "rus": "мореплавание, парусный спорт",
+        "spa": "la vela, la navegación a vela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He works as a sailing instructor.",
+            "ru": "Он работает инструктором по парусному спорту."
+          },
+          {
+            "en": "I'm very good at sailing.",
+            "ru": "Я очень хорошо умею управляться с парусами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 7749,
+      "word": "shooting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃuːtɪŋ]",
+        "br": "[ˈʃuːtɪŋ]",
+        "gb": "[ˈʃuːtɪŋ]"
+      },
+      "translations": {
+        "rus": "стрельба",
+        "spa": "el tiro, el tiroteo, la balacera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We heard shooting.",
+            "ru": "Мы услышали стрельбу."
+          },
+          {
+            "en": "We didn't start shooting.",
+            "ru": "Мы не начинали стрельбу."
+          },
+          {
+            "en": "The shooting has stopped.",
+            "ru": "Стрельба прекратилась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "sport"
+      ]
+    },
+    {
+      "id": 9919,
+      "word": "shuttlecock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃʌtlkɑːk]",
+        "br": "[ˈʃʌtlkɒk]",
+        "gb": "[ˈʃʌtlkɔk]"
+      },
+      "translations": {
+        "rus": "волан",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9920,
+      "word": "ski poles",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[skiː] [poʊlz]"
+      },
+      "translations": {
+        "rus": "лыжные палки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9921,
+      "word": "skis",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[skiz]"
+      },
+      "translations": {
+        "rus": "лыжи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9922,
+      "word": "snooker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsnuːkər]",
+        "br": "[ˈsnuːkə(r)]",
+        "gb": "[ˈsnuːkə]"
+      },
+      "translations": {
+        "rus": "снукер (игра на бильярде)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3868,
+      "word": "soccer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɑːkər]",
+        "br": "[ˈsɒkə(r)]",
+        "gb": "[ˈsɔkə]"
+      },
+      "translations": {
+        "rus": "футбол",
+        "spa": "el fútbol"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9923,
+      "word": "speed skating",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spiːd] [ˈskeɪtɪŋ]",
+        "br": "[spiːd] [ˈskeɪtɪŋ]",
+        "gb": "[spiːd] [ˈskeɪtɪŋ]"
+      },
+      "translations": {
+        "rus": "конькобежный спорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9924,
+      "word": "sports ground",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spɔːts] [graʊnd]"
+      },
+      "translations": {
+        "rus": "спортивная площадка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 7227,
+      "word": "stadium",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsteɪdiəm]",
+        "br": "[ˈsteɪdiəm]",
+        "gb": "[ˈsteɪdjəm]"
+      },
+      "translations": {
+        "rus": "стадион",
+        "spa": "el estadio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you go to the stadium?",
+            "ru": "Ты пошёл на стадион?"
+          },
+          {
+            "en": "The stadium is being evacuated.",
+            "ru": "Стадион эвакуируют."
+          },
+          {
+            "en": "The stadium was overflowing with people.",
+            "ru": "Стадион был переполнен людьми."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He's gone to the stadium.",
+            "es": "Fue al estadio."
+          },
+          {
+            "en": "How did you get to the stadium?",
+            "es": "¿Cómo llegasteis al estadio?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport",
+        "town"
+      ]
+    },
+    {
+      "id": 7230,
+      "word": "stick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɪk]",
+        "br": "[stɪk]",
+        "gb": "[stɪk]"
+      },
+      "translations": {
+        "rus": "палка, трость, клюшка",
+        "spa": "el palo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I killed the rat with a stick.",
+            "ru": "Я убил крысу палкой."
+          },
+          {
+            "en": "The dog was sniffing a stick.",
+            "ru": "Собака нюхала палку."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He beat the dog with a stick.",
+            "es": "Le pegó al perro con un palo."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3870,
+      "word": "swimming",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɪmɪŋ]",
+        "br": "[ˈswɪmɪŋ]",
+        "gb": "[ˈswɪmɪŋ]"
+      },
+      "translations": {
+        "rus": "плавание",
+        "spa": "la natación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like swimming very much.",
+            "ru": "Я очень люблю плавание."
+          },
+          {
+            "en": "Swimming in the pond is dangerous.",
+            "ru": "Плавать в пруду опасно."
+          },
+          {
+            "en": "I am interested in swimming.",
+            "ru": "Меня интересует плавание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport"
+      ]
+    },
+    {
+      "id": 372,
+      "word": "sword",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔːrd]",
+        "br": "[sɔːd]",
+        "gb": "[sɔːd]"
+      },
+      "translations": {
+        "rus": "меч, сабля, шпага",
+        "spa": "la espada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sword dropped out of his hand.",
+            "ru": "Меч выпал из его руки."
+          },
+          {
+            "en": "My sword was already out.",
+            "ru": "Я уже вытащил свой меч."
+          },
+          {
+            "en": "He passed his sword through the enemy's body.",
+            "ru": "Он пронзил врага мечом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_c1",
+        "sport"
+      ]
+    },
+    {
+      "id": 9925,
+      "word": "synchronized swimming",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsɪŋkrənaɪzd] [ˈswɪmɪŋ]",
+        "br": "[ˌsɪŋkrənaɪzd] [ˈswɪmɪŋ]",
+        "gb": "[ˈsɪŋkrənaɪzd] [ˈswɪmɪŋ]"
+      },
+      "translations": {
+        "rus": "синхронное плавание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9926,
+      "word": "table tennis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪbl] [ˈtenɪs]",
+        "br": "[ˈteɪbl] [ˈtenɪs]",
+        "gb": "[teɪbl] [ˈtenɪs]"
+      },
+      "translations": {
+        "rus": "настольный теннис",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9927,
+      "word": "taekwondo",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[taɪˈkwɒndəʊ]"
+      },
+      "translations": {
+        "rus": "тхэквондо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 1849,
+      "word": "team",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tiːm]",
+        "br": "[tiːm]",
+        "gb": "[tiːm]"
+      },
+      "translations": {
+        "rus": "команда, группа",
+        "spa": "el equipo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Our team are winning.",
+            "ru": "Наша команда побеждает."
+          },
+          {
+            "en": "The home team has won.",
+            "ru": "Команда хозяев одержала победу."
+          },
+          {
+            "en": "Which team do you support?",
+            "ru": "За какую команду вы болеете?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "How big is the team?",
+            "es": "¿Cuán grande es el equipo?"
+          },
+          {
+            "en": "We make a great team.",
+            "es": "Hacemos un gran equipo."
+          },
+          {
+            "en": "Our team won the game.",
+            "es": "Nuestro equipo ganó el juego."
+          },
+          {
+            "en": "Who is the team's coach?",
+            "es": "¿Quién es el entrenador del equipo?"
+          },
+          {
+            "en": "Our team did very well.",
+            "es": "Nuestro equipo lo hizo muy bien."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3872,
+      "word": "tennis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtenɪs]",
+        "br": "[ˈtenɪs]",
+        "gb": "[ˈtenɪs]"
+      },
+      "translations": {
+        "rus": "теннис",
+        "spa": "el tenis"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a tennis player.",
+            "ru": "Я игрок в теннис."
+          },
+          {
+            "en": "He does not like tennis.",
+            "ru": "Ему не нравится теннис."
+          },
+          {
+            "en": "Go play tennis with him.",
+            "ru": "Иди поиграй с ним в теннис."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is good at tennis.",
+            "es": "Se le da bien el tenis."
+          },
+          {
+            "en": "Playing tennis is fun.",
+            "es": "El tenis es divertido."
+          },
+          {
+            "en": "He does not like tennis.",
+            "es": "A él no le gusta el tenis."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9877,
+      "word": "to break a record",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [breɪk] [ə] [rɪˈkɔːrd]",
+        "br": "[tə] [breɪk] [ə] [rɪˈkɔːd]",
+        "gb": "[tuː] [breɪk] [ə] [ˈrekɔːd]"
+      },
+      "translations": {
+        "rus": "побить рекорд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 6898,
+      "word": "to coach",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kəʊtʃ]",
+        "br": "[tə] [kəʊtʃ]",
+        "gb": "[tuː] [kəʊʧ]"
+      },
+      "translations": {
+        "rus": "тренировать",
+        "spa": "entrenar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who coaches the team?",
+            "ru": "Кто тренирует команду?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 848,
+      "word": "to compete",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kəmˈpiːt]",
+        "br": "[tə] [kəmˈpiːt]",
+        "gb": "[tuː] [kəmˈpiːt]"
+      },
+      "translations": {
+        "rus": "конкурировать, соревноваться, состязаться",
+        "spa": "competir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Ten teams competed for the prize.",
+            "ru": "Десять команд соревновались за приз."
+          },
+          {
+            "en": "The two teams competed in the final game.",
+            "ru": "Эти две команды соревновались в финале."
+          },
+          {
+            "en": "Only four horses competed in the race.",
+            "ru": "В гонке соревновались только четыре лошади."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to compete.",
+            "es": "Quiero competir."
+          },
+          {
+            "en": "We both competed.",
+            "es": "Ambos competimos."
+          },
+          {
+            "en": "I competed with him for the first prize.",
+            "es": "Competí con él por el primer lugar."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_a2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9887,
+      "word": "to draw a game",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [drɔː] [ə] [ɡeɪm]",
+        "br": "[tə] [drɔː] [ə] [ɡeɪm]",
+        "gb": "[tuː] [drɔː] [ə] [geɪm]"
+      },
+      "translations": {
+        "rus": "свести игру вничью",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 1069,
+      "word": "to lose",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [luːz]",
+        "br": "[tə] [luːz]",
+        "gb": "[tuː] [luːz]"
+      },
+      "translations": {
+        "rus": "терять, проигрывать",
+        "spa": "perder"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was losing my mind.",
+            "ru": "Я терял голову."
+          },
+          {
+            "en": "Are we going to lose?",
+            "ru": "Мы проигрываем?"
+          },
+          {
+            "en": "What do we have to lose?",
+            "ru": "Что нам терять?"
+          },
+          {
+            "en": "There's nothing left to lose.",
+            "ru": "Нечего терять."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did I lose a lot?",
+            "es": "¿Perdí mucho?"
+          },
+          {
+            "en": "I want to lose weight.",
+            "es": "Quiero perder peso."
+          },
+          {
+            "en": "You risk losing my trust.",
+            "es": "Arriesgas perder mi confianza."
+          },
+          {
+            "en": "You have nothing to lose.",
+            "es": "No tenéis nada que perder."
+          },
+          {
+            "en": "Did you lose anything here?",
+            "es": "¿Perdiste algo aquí?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_a1",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6785,
+      "word": "to train",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [treɪn]",
+        "br": "[tə] [treɪn]",
+        "gb": "[tuː] [treɪn]"
+      },
+      "translations": {
+        "rus": "тренироваться, тренировать, обучать, готовить, дрессировать",
+        "spa": "entrenar, adiestrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was given training in that school.",
+            "ru": "Я обучался в этой школе."
+          },
+          {
+            "en": "It is not easy to train dogs.",
+            "ru": "Дрессировать собак не просто."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You must continue to train.",
+            "es": "Debes seguir entrenando."
+          },
+          {
+            "en": "Fortunately I was well trained.",
+            "es": "Afortunadamente yo estaba bien entrenado."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1293,
+      "word": "to win",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɪn]",
+        "br": "[tə] [wɪn]",
+        "gb": "[tuː] [wɪn]"
+      },
+      "translations": {
+        "rus": "выиграть, побеждать",
+        "spa": "ganar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I never win at cards.",
+            "ru": "Я никогда не выигрываю в карты."
+          },
+          {
+            "en": "The home team has won.",
+            "ru": "Команда хозяев одержала победу."
+          },
+          {
+            "en": "They played well, but they didn't win.",
+            "ru": "Они хорошо играли, но не победили."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you want to win?",
+            "es": "¿Quieres ganar?"
+          },
+          {
+            "en": "I wanted her to win.",
+            "es": "Yo quería que ella ganara."
+          },
+          {
+            "en": "How much did you win?",
+            "es": "¿Cuánto ganaste?"
+          },
+          {
+            "en": "We may not win tomorrow.",
+            "es": "Quizás no ganemos mañana."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "oxford3000_a1",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9936,
+      "word": "to win the cup",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɪn] [ðə] [kʌp]",
+        "br": "[tə] [wɪn] [ðə] [kʌp]",
+        "gb": "[tuː] [wɪn] [ðiː] [kʌp]"
+      },
+      "translations": {
+        "rus": "выиграть кубок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 8354,
+      "word": "tournament",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʊrnəmənt]",
+        "br": "[ˈtɔːnəmənt]",
+        "gb": "[ˈtʊənəmənt]"
+      },
+      "translations": {
+        "rus": "турнир",
+        "spa": "el torneo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have a football tournament in May.",
+            "ru": "В мае у нас турнир по футболу."
+          },
+          {
+            "en": "I feel I can win this tournament.",
+            "ru": "Я чувствую, что могу выиграть этот турнир."
+          },
+          {
+            "en": "Who do you think will win the tournament?",
+            "ru": "Как думаешь, кто выиграет турнир?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9928,
+      "word": "track cycling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[træk] [ˈsaɪklɪŋ]",
+        "br": "[træk] [ˈsaɪklɪŋ]",
+        "gb": "[træk] [ˈsaɪklɪŋ]"
+      },
+      "translations": {
+        "rus": "трековые велогонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9929,
+      "word": "track-and-field",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[træk] [ænd] [fiːld]"
+      },
+      "translations": {
+        "rus": "легкая атлетика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9930,
+      "word": "trampoline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌtræmpəˈliːn]",
+        "br": "[ˌtræmpəˈliːn]",
+        "gb": "[ˈtræmpəliːn]"
+      },
+      "translations": {
+        "rus": "батут",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9931,
+      "word": "triathlon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[traɪˈæθlən]",
+        "br": "[traɪˈæθlən]",
+        "gb": "[traɪˈæθlən]"
+      },
+      "translations": {
+        "rus": "триатлон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9932,
+      "word": "triple jump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrɪpl] [dʒʌmp]",
+        "br": "[ˈtrɪpl] [dʒʌmp]",
+        "gb": "[trɪpl] [ʤʌmp]"
+      },
+      "translations": {
+        "rus": "тройной прыжок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9933,
+      "word": "tug of war",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌtʌɡ] [əv] [ˈwɔːr]",
+        "br": "[ˌtʌɡ] [əv] [ˈwɔː(r)]",
+        "gb": "[tʌg] [ɔv] [wɔː]"
+      },
+      "translations": {
+        "rus": "перетягивание каната",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 3878,
+      "word": "volleyball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɑːlibɔːl]",
+        "br": "[ˈvɒlibɔːl]",
+        "gb": "[ˈvɒlɪbɔːl]"
+      },
+      "translations": {
+        "rus": "волейбол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 9934,
+      "word": "water polo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːtər] [ˈpəʊləʊ]",
+        "br": "[ˈwɔːtə(r)] [ˈpəʊləʊ]",
+        "gb": "[ˈwɔːtə] [ˈpəʊləʊ]"
+      },
+      "translations": {
+        "rus": "водное поло",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9935,
+      "word": "weight lifting",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[weɪt] [ˈlɪftɪŋ]"
+      },
+      "translations": {
+        "rus": "тяжелая атлетика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9937,
+      "word": "working out",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɜːrkɪŋ] [aʊt]",
+        "br": "[ˈwɜːkɪŋ] [aʊt]",
+        "gb": "[ˈwɜːkɪŋ] [aʊt]"
+      },
+      "translations": {
+        "rus": "занятия на снарядах",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    },
+    {
+      "id": 9938,
+      "word": "wrestling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreslɪŋ]",
+        "br": "[ˈreslɪŋ]",
+        "gb": "[ˈreslɪŋ]"
+      },
+      "translations": {
+        "rus": "борьба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "sport"
+      ]
+    }
+  ]
+}

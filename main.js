@@ -269,6 +269,41 @@ ipcMain.handle("store:loadVerbDictionary", async () => {
 
 const tagsPath = path.join(__dirname, "tags.json");
 
+const jsonDir = path.join(__dirname, "json");
+const jsonIndexPath = path.join(jsonDir, "_index.json");
+
+ipcMain.handle("json:listCategories", async () => {
+  try {
+    if (fs.existsSync(jsonIndexPath)) {
+      const index = JSON.parse(fs.readFileSync(jsonIndexPath, "utf-8"));
+      const cats = (index.categories || []).filter(
+        (c) => c && c.file && c.file !== "_index.json"
+      );
+      return { categories: cats };
+    }
+    const files = fs
+      .readdirSync(jsonDir)
+      .filter((f) => f.endsWith(".json") && f !== "_index.json");
+    return { categories: files.map((f) => ({ id: f.replace(/\.json$/, ""), file: f })) };
+  } catch (e) {
+    console.error("Failed to list json categories:", e);
+  }
+  return { categories: [] };
+});
+
+ipcMain.handle("json:loadCategory", async (_event, file) => {
+  try {
+    if (typeof file !== "string" || !/^[A-Za-z0-9_-]+\.json$/.test(file)) return null;
+    const p = path.join(jsonDir, file);
+    if (!fs.existsSync(p)) return null;
+    return JSON.parse(fs.readFileSync(p, "utf-8"));
+  } catch (e) {
+    console.error("Failed to load json category:", e);
+  }
+  return null;
+});
+
+
 ipcMain.handle("store:loadTags", async () => {
   try {
     if (fs.existsSync(tagsPath)) {

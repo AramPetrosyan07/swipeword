@@ -1,0 +1,6622 @@
+{
+  "category": {
+    "id": "character",
+    "name_rus": "Характер",
+    "type": "topic",
+    "word_count": 222
+  },
+  "words": [
+    {
+      "id": 1867,
+      "word": "absent-minded",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæbsənt] [ˈmaɪndɪd]",
+        "br": "[ˈæbsənt] [ˈmaɪndɪd]",
+        "gb": "[ˈæbsənt] [ˈmaɪndɪd]"
+      },
+      "translations": {
+        "rus": "рассеянный",
+        "spa": "distraído"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1868,
+      "word": "acrimonious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌækrɪˈməʊniəs]",
+        "br": "[ˌækrɪˈməʊniəs]",
+        "gb": "[ækrɪˈməʊnjəs]"
+      },
+      "translations": {
+        "rus": "желчный",
+        "spa": "reñido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1869,
+      "word": "active",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæktɪv]",
+        "br": "[ˈæktɪv]",
+        "gb": "[ˈæktɪv]"
+      },
+      "translations": {
+        "rus": "активный",
+        "spa": "activo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're still active.",
+            "ru": "Мы ещё активны."
+          },
+          {
+            "en": "My mother is active.",
+            "ru": "Моя мама — активная."
+          },
+          {
+            "en": "Owls are active at night.",
+            "ru": "Совы активны ночью."
+          },
+          {
+            "en": "You have to be active.",
+            "ru": "Ты должен быть активным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The investigation is still active.",
+            "es": "La investigación está aún activa."
+          },
+          {
+            "en": "There are many active volcanoes in Japan.",
+            "es": "Hay muchos volcanes activos en Japón."
+          },
+          {
+            "en": "He played an active part in the revolution.",
+            "es": "Él jugó un papel activo en la revolución."
+          },
+          {
+            "en": "Although he is over 70, he is still active.",
+            "es": "Aunque él supera los 70, él aún es muy activo."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1870,
+      "word": "affectionate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈfekʃənət]",
+        "br": "[əˈfekʃənət]",
+        "gb": "[əˈfekʃnɪt]"
+      },
+      "translations": {
+        "rus": "любящий, ласковый, нежный",
+        "spa": "cariñoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was by nature a very affectionate person.",
+            "ru": "По натуре она была очень ласковой."
+          },
+          {
+            "en": "Joe is very affectionate towards her.",
+            "ru": "Джо относится к ней с большой любовью."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1871,
+      "word": "aggressive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈɡresɪv]",
+        "br": "[əˈɡresɪv]",
+        "gb": "[əˈgresɪv]"
+      },
+      "translations": {
+        "rus": "агрессивный, решительный, напористый",
+        "spa": "agresivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're too aggressive.",
+            "ru": "Ты слишком агрессивен."
+          },
+          {
+            "en": "We need to be more aggressive.",
+            "ru": "Мы должны быть напористей."
+          },
+          {
+            "en": "She is aggressive.",
+            "ru": "Она агрессивная."
+          },
+          {
+            "en": "He is an aggressive person.",
+            "ru": "Он агрессивный человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is an aggressive person.",
+            "es": "Él es una persona agresiva."
+          },
+          {
+            "en": "You need to become more aggressive.",
+            "es": "Tienes que volverte más agresivo."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1872,
+      "word": "ambitious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[æmˈbɪʃəs]",
+        "br": "[æmˈbɪʃəs]",
+        "gb": "[æmˈbɪʃəs]"
+      },
+      "translations": {
+        "rus": "амбициозный, целеустремленный, честолюбивый",
+        "spa": "ambicioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're very ambitious.",
+            "ru": "Ты очень амбициозен."
+          },
+          {
+            "en": "Are you ambitious?",
+            "ru": "Вы честолюбивы?"
+          },
+          {
+            "en": "I was too ambitious.",
+            "ru": "Я был слишком амбициозен."
+          },
+          {
+            "en": "I was young and ambitious once.",
+            "ru": "Я был молод и амбициозен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1873,
+      "word": "amiable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈeɪmiəbl]",
+        "br": "[ˈeɪmiəbl]",
+        "gb": "[ˈeɪmjəbl]"
+      },
+      "translations": {
+        "rus": "любезный, дружелюбный",
+        "spa": "amable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was in an amiable mood.",
+            "ru": "Она была в добродушном настроении."
+          },
+          {
+            "en": "Everyone knew him as an amiable fellow.",
+            "ru": "Все считали его добродушным парнем."
+          },
+          {
+            "en": "The driver was an amiable young man.",
+            "ru": "Водитель оказался дружелюбным молодым человеком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1874,
+      "word": "angry",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæŋɡri]",
+        "br": "[ˈæŋɡri]",
+        "gb": "[ˈæŋgrɪ]"
+      },
+      "translations": {
+        "rus": "злой, сердитый",
+        "spa": "enojado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was drunk and angry.",
+            "ru": "Он был пьяный и злой."
+          },
+          {
+            "en": "That was an angry bunny.",
+            "ru": "Это был злой кролик."
+          },
+          {
+            "en": "He made an angry face.",
+            "ru": "Он сделал сердитое лицо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why are you so angry?",
+            "es": "¿Por qué estás enojado?"
+          },
+          {
+            "en": "I think he was angry.",
+            "es": "Creo que él estaba enojado."
+          },
+          {
+            "en": "That's why he got angry.",
+            "es": "Por eso se enojó."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1875,
+      "word": "appealing",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈpiːlɪŋ]",
+        "br": "[əˈpiːlɪŋ]",
+        "gb": "[əˈpiːlɪŋ]"
+      },
+      "translations": {
+        "rus": "обаятельный, привлекательный",
+        "spa": "atractivo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1876,
+      "word": "arrogant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈærəɡənt]",
+        "br": "[ˈærəɡənt]",
+        "gb": "[ˈærəʊgənt]"
+      },
+      "translations": {
+        "rus": "заносчивый, высокомерный",
+        "spa": "arrogante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "He tends to be arrogant.",
+            "es": "Él suele ser arrogante."
+          },
+          {
+            "en": "Why are you so arrogant?",
+            "es": "¿Por qué eres tan arrogante?"
+          },
+          {
+            "en": "I don't like arrogant people.",
+            "es": "Los arrogantes me caen mal."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1877,
+      "word": "artless",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɑːrtləs]",
+        "br": "[ˈɑːtləs]",
+        "gb": "[ˈɑːtlɪs]"
+      },
+      "translations": {
+        "rus": "простодушный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1878,
+      "word": "assertive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈsɜːrtɪv]",
+        "br": "[əˈsɜːtɪv]",
+        "gb": "[əˈsɜːtɪv]"
+      },
+      "translations": {
+        "rus": "напористый",
+        "spa": "asertivo, positivo, confiable, firme"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1879,
+      "word": "athletic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[æθˈletɪk]",
+        "br": "[æθˈletɪk]",
+        "gb": "[æθˈletɪk]"
+      },
+      "translations": {
+        "rus": "любящий спорт, спортивный",
+        "spa": "atlético"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 214,
+      "word": "attractive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈtræktɪv]",
+        "br": "[əˈtræktɪv]",
+        "gb": "[əˈtræktɪv]"
+      },
+      "translations": {
+        "rus": "привлекательный",
+        "spa": "atractivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Women seem to find him attractive.",
+            "ru": "Похоже, что женщины находят его привлекательным."
+          },
+          {
+            "en": "I must say, it's a very attractive offer.",
+            "ru": "Должен сказать, это очень привлекательное предложение."
+          },
+          {
+            "en": "An attractive woman greeted us at the door.",
+            "ru": "Привлекательная женщина встретила нас у двери."
+          },
+          {
+            "en": "Do you find him physically attractive?",
+            "ru": "Считаете ли вы его физически привлекательным?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is attractive in every way.",
+            "es": "Él es atractivo de cualquier manera."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1880,
+      "word": "audacious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɔːˈdeɪʃəs]",
+        "br": "[ɔːˈdeɪʃəs]",
+        "gb": "[ɔːˈdeɪʃəs]"
+      },
+      "translations": {
+        "rus": "нахальный, дерзкий",
+        "spa": "audaz"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1881,
+      "word": "awkward",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɔːkwərd]",
+        "br": "[ˈɔːkwəd]",
+        "gb": "[ˈɔːkwəd]"
+      },
+      "translations": {
+        "rus": "неуклюжий, неудобный",
+        "spa": "incómodo, aparatoso, torpe, poco elegante, inoportuno, embarazoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is awkward at dancing.",
+            "ru": "Она неуклюже танцует."
+          },
+          {
+            "en": "What an awkward position I'm now placed in!",
+            "ru": "В каком же глупом положении я сейчас оказался!"
+          },
+          {
+            "en": "Monday is awkward for me.",
+            "ru": "Мне неудобен понедельник."
+          },
+          {
+            "en": "She was afraid he was going to ask an awkward question.",
+            "ru": "Она боялась, что он задаст неудобный вопрос."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1882,
+      "word": "behavior",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behavior annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behavior was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behavior of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behavior strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behavior was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behavior.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behavior toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behavior was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behavior.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behavior was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behavior.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behavior.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behavior.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1883,
+      "word": "behaviour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪˈheɪvjər]",
+        "br": "[bɪˈheɪvjə(r)]",
+        "gb": "[bɪˈheɪvɪər]"
+      },
+      "translations": {
+        "rus": "поведение",
+        "spa": "el comportamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His behaviour annoys me.",
+            "ru": "Его поведение меня раздражает."
+          },
+          {
+            "en": "Your behaviour was shameful.",
+            "ru": "Твоё поведение было постыдным."
+          },
+          {
+            "en": "The behaviour of many people is questionable.",
+            "ru": "Поведение многих людей сомнительно."
+          },
+          {
+            "en": "Some people will find his behaviour strange.",
+            "ru": "Некоторым его поведение кажется странным."
+          },
+          {
+            "en": "Their behaviour was not moral.",
+            "ru": "Их поведение было безнравственным."
+          },
+          {
+            "en": "I don't mind your behaviour.",
+            "ru": "Я ничего не имею против вашего поведения."
+          },
+          {
+            "en": "I'm surprised by her bad behaviour toward her friends.",
+            "ru": "Я удивлен её плохим поведением по отношению к своим друзьям."
+          },
+          {
+            "en": "Such behaviour was atypical of him.",
+            "ru": "Такое поведение было для него нетипичным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was ashamed of my behaviour.",
+            "es": "Estaba avergonzado de mi comportamiento."
+          },
+          {
+            "en": "The man's behaviour was very odd.",
+            "es": "El comportamiento del hombre era muy extraño."
+          },
+          {
+            "en": "I'm surprised at your behaviour.",
+            "es": "Estoy sorprendido de tu comportamiento."
+          },
+          {
+            "en": "I'm not happy with your behaviour.",
+            "es": "No estoy feliz por tu comportamiento."
+          },
+          {
+            "en": "I cannot put up with her behaviour.",
+            "es": "No puedo soportar el comportamiento de ella."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "marketing",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1884,
+      "word": "blockhead",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈblɑːkhed]",
+        "br": "[ˈblɒkhed]",
+        "gb": "[ˈblɔkhed]"
+      },
+      "translations": {
+        "rus": "тупица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1885,
+      "word": "boastful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈbəʊstfl]",
+        "br": "[ˈbəʊstfl]",
+        "gb": "[ˈbəʊstfʊl]"
+      },
+      "translations": {
+        "rus": "хвастливый",
+        "spa": "jactancioso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1886,
+      "word": "bore",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɔːr]",
+        "br": "[bɔː(r)]",
+        "gb": "[bɔː]"
+      },
+      "translations": {
+        "rus": "зануда",
+        "spa": "el pesado, el pelmazo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1887,
+      "word": "brave",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[breɪv]",
+        "br": "[breɪv]",
+        "gb": "[breɪv]"
+      },
+      "translations": {
+        "rus": "храбрый, смелый",
+        "spa": "valiente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That was a very brave thing to do!",
+            "ru": "Это был очень смелый поступок!"
+          },
+          {
+            "en": "She gave us a brave smile.",
+            "ru": "Она храбро нам улыбнулась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1888,
+      "word": "bright",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[braɪt]",
+        "br": "[braɪt]",
+        "gb": "[braɪt]"
+      },
+      "translations": {
+        "rus": "яркий, светлый, блестящий",
+        "spa": "brillante, claro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I never wear bright colours.",
+            "ru": "Я никогда не ношу яркие цвета."
+          },
+          {
+            "en": "It was a bright, sunny day.",
+            "ru": "Это был яркий, солнечный день."
+          },
+          {
+            "en": "The lighting was too bright.",
+            "ru": "Освещение было слишком ярким."
+          },
+          {
+            "en": "It's too bright.",
+            "ru": "Слишком светло."
+          },
+          {
+            "en": "You have a bright future.",
+            "ru": "У тебя светлое будущее."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That's a bright idea.",
+            "es": "Ésa es una idea brillante."
+          },
+          {
+            "en": "The sun is bright today.",
+            "es": "El sol brilla hoy."
+          },
+          {
+            "en": "This is too bright.",
+            "es": "Esto es demasiado brillante."
+          },
+          {
+            "en": "I found him a bright boy.",
+            "es": "Me pareció un niño brillante."
+          },
+          {
+            "en": "I like the bright colors.",
+            "es": "Me gustan los colores claros."
+          },
+          {
+            "en": "You have a bright future.",
+            "es": "Tienes un futuro brillante."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1889,
+      "word": "calm",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kɑːm]",
+        "br": "[kɑːm]",
+        "gb": "[kɑːm]"
+      },
+      "translations": {
+        "rus": "тихий, спокойный, спокойствие",
+        "spa": "silencioso, calmo, tranquilo, la calma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I felt calm.",
+            "ru": "Я чувствовал себя спокойно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1890,
+      "word": "capricious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəˈprɪʃəs]",
+        "br": "[kəˈprɪʃəs]",
+        "gb": "[kəˈprɪʃəs]"
+      },
+      "translations": {
+        "rus": "капризный, своенравный",
+        "spa": "caprichoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1891,
+      "word": "carefree",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkerfriː]",
+        "br": "[ˈkeəfriː]",
+        "gb": "[ˈkɛəfriː]"
+      },
+      "translations": {
+        "rus": "легкомысленный, беспечный",
+        "spa": "despreocupado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1892,
+      "word": "caring",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkerɪŋ]",
+        "br": "[ˈkeərɪŋ]",
+        "gb": "[ˈkeərɪŋ]"
+      },
+      "translations": {
+        "rus": "внимательный, заботливый, любящий",
+        "spa": "bondadoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1893,
+      "word": "character",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkærəktər]",
+        "br": "[ˈkærəktə(r)]",
+        "gb": "[ˈkærɪktə]"
+      },
+      "translations": {
+        "rus": "персонаж, символ, характер, образ, герой",
+        "spa": "el carácter, el personaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is your favorite character?",
+            "ru": "Какой твой любимый персонаж?"
+          },
+          {
+            "en": "She has a strong character.",
+            "ru": "У нее сильный характер."
+          },
+          {
+            "en": "Her character is similar to yours.",
+            "ru": "Её характер похож на ваш."
+          },
+          {
+            "en": "Most anime characters have large eyes.",
+            "ru": "У большинства персонажей аниме большие глаза."
+          },
+          {
+            "en": "She has totally changed her character.",
+            "ru": "Её характер совершенно изменился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is quite a character.",
+            "es": "Él es todo un personaje."
+          },
+          {
+            "en": "She has a character defect.",
+            "es": "Ella tiene un defecto en su carácter."
+          },
+          {
+            "en": "Who's your favorite Disney character?",
+            "es": "¿Cuál es tu personaje favorito de Disney?"
+          },
+          {
+            "en": "Steve is a man of good character.",
+            "es": "Steve es un hombre de buen carácter."
+          },
+          {
+            "en": "I always liked mysterious characters more.",
+            "es": "Siempre me gustaron más los personajes misteriosos."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1894,
+      "word": "charitable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtʃærətəbl]",
+        "br": "[ˈtʃærətəbl]",
+        "gb": "[ˈʧærɪtəbl]"
+      },
+      "translations": {
+        "rus": "благотворительный",
+        "spa": "caritativo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1895,
+      "word": "charming",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtʃɑːrmɪŋ]",
+        "br": "[ˈtʃɑːmɪŋ]",
+        "gb": "[ˈʧɑːmɪŋ]"
+      },
+      "translations": {
+        "rus": "очаровательный",
+        "spa": "encantador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is charming.",
+            "ru": "Мэри очаровательна."
+          },
+          {
+            "en": "You were charming.",
+            "ru": "Ты была очаровательна."
+          },
+          {
+            "en": "You're charming today.",
+            "ru": "Вы сегодня очаровательны."
+          },
+          {
+            "en": "What a charming couple!",
+            "ru": "Какая очаровательная пара!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a charming face.",
+            "es": "Ella tiene un rostro encantador."
+          },
+          {
+            "en": "You look very charming today.",
+            "es": "Te ves muy encantador hoy."
+          },
+          {
+            "en": "His childlike laugh is charming.",
+            "es": "Su risa infantil es encantadora."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1896,
+      "word": "chatter-box",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃætər] [bɑːks]",
+        "br": "[ˈtʃætə(r)] [bɒks]",
+        "gb": "[ˈʧætə] [bɔks]"
+      },
+      "translations": {
+        "rus": "болтун",
+        "spa": "el parlanchín"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1897,
+      "word": "cheerful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtʃɪrfl]",
+        "br": "[ˈtʃɪəfl]",
+        "gb": "[ˈʧɪəfʊl]"
+      },
+      "translations": {
+        "rus": "весёлый, бодрый",
+        "spa": "alegre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The house has a cheerful atmosphere.",
+            "ru": "В доме царит радостная атмосфера."
+          },
+          {
+            "en": "Max is hardworking, cheerful, and above all honest.",
+            "ru": "Макс трудолюбивый, веселый, но прежде всего, честный."
+          },
+          {
+            "en": "It does me good to see a cheerful face.",
+            "ru": "У меня поднимается настроение, когда я вижу радостное лицо."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1898,
+      "word": "civil",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪvl]",
+        "br": "[ˈsɪvl]",
+        "gb": "[sɪvl]"
+      },
+      "translations": {
+        "rus": "гражданский, вежливый",
+        "spa": "civil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was deprived of his civil rights.",
+            "ru": "Его лишили гражданских прав."
+          },
+          {
+            "en": "At least the robber was civil to us.",
+            "ru": "По крайней мере, грабитель был вежлив с нами."
+          },
+          {
+            "en": "You're violating my civil rights.",
+            "ru": "Вы нарушаете мои гражданские права."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It prevented a civil war.",
+            "es": "Previno una guerra civil."
+          },
+          {
+            "en": "He was deprived of his civil rights.",
+            "es": "Él fue despojado de sus derechos civiles."
+          },
+          {
+            "en": "America's Civil War lasted four years.",
+            "es": "La guerra civil de Estados Unidos duró cuatro años."
+          },
+          {
+            "en": "He was the military hero of the Civil War.",
+            "es": "Él fue el héroe militar de la Guerra Civil."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 227,
+      "word": "clean",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kliːn]",
+        "br": "[kliːn]",
+        "gb": "[kliːn]"
+      },
+      "translations": {
+        "rus": "чистый",
+        "spa": "limpio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are no clean plates.",
+            "ru": "Чистых тарелок нет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There are no clean plates.",
+            "es": "No hay platos limpios."
+          },
+          {
+            "en": "I need a clean shirt.",
+            "es": "Necesito una camisa limpia."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1899,
+      "word": "clever",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈklevər]",
+        "br": "[ˈklevə(r)]",
+        "gb": "[ˈklevə]"
+      },
+      "translations": {
+        "rus": "умный",
+        "spa": "listo, inteligente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "However he did it, it was very clever.",
+            "ru": "Не знаю, как он это сделал, но это было очень умно."
+          },
+          {
+            "en": "Don't try to be clever — it doesn't become you.",
+            "ru": "Не пытайся умничать — это тебе не идёт."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1900,
+      "word": "clumsy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈklʌmzi]",
+        "br": "[ˈklʌmzi]",
+        "gb": "[ˈklʌmzɪ]"
+      },
+      "translations": {
+        "rus": "неуклюжий",
+        "spa": "torpe"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have very clumsy hands and tend to drop things.",
+            "ru": "Я очень неуклюжий, и постоянно всё роняю."
+          },
+          {
+            "en": "She made a clumsy attempt at a joke.",
+            "ru": "Она сделала неуклюжую попытку пошутить."
+          },
+          {
+            "en": "I felt clumsy at the party.",
+            "ru": "На вечеринке я чувствовал себя неловко."
+          },
+          {
+            "en": "Her clumsy attempt to cut the cake was the cause of much mirth.",
+            "ru": "Ее неуклюжая попытка разрезать торт вызвала много веселья."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1901,
+      "word": "commanding",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəˈmændɪŋ]",
+        "br": "[kəˈmɑːndɪŋ]",
+        "gb": "[kəˈmɑːndɪŋ]"
+      },
+      "translations": {
+        "rus": "властный",
+        "spa": "autoritario"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1902,
+      "word": "communicative",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəˈmjuːnɪkətɪv]",
+        "br": "[kəˈmjuːnɪkətɪv]",
+        "gb": "[kəˈmjuːnɪkətɪv]"
+      },
+      "translations": {
+        "rus": "общительный, разговорчивый",
+        "spa": "comunicativo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1903,
+      "word": "compelling",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpelɪŋ]",
+        "br": "[kəmˈpelɪŋ]",
+        "gb": "[kəmˈpelɪŋ]"
+      },
+      "translations": {
+        "rus": "неотразимый",
+        "spa": "convincente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1904,
+      "word": "complaisant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpleɪzənt]",
+        "br": "[kəmˈpleɪzənt]",
+        "gb": "[kəmˈpleɪzənt]"
+      },
+      "translations": {
+        "rus": "покладистый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1905,
+      "word": "composed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpəʊzd]",
+        "br": "[kəmˈpəʊzd]",
+        "gb": "[kəmˈpəʊzd]"
+      },
+      "translations": {
+        "rus": "сдержанный, хладнокровный",
+        "spa": "sereno, tranquilo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1906,
+      "word": "conceited",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kənˈsiːtɪd]",
+        "br": "[kənˈsiːtɪd]",
+        "gb": "[kənˈsiːtɪd]"
+      },
+      "translations": {
+        "rus": "тщеславный",
+        "spa": "engreído"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1907,
+      "word": "conscientious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌkɑːnʃiˈenʃəs]",
+        "br": "[ˌkɒnʃiˈenʃəs]",
+        "gb": "[kɔnʃɪˈenʃəs]"
+      },
+      "translations": {
+        "rus": "добросовестный",
+        "spa": "concienzudo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1908,
+      "word": "consistent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kənˈsɪstənt]",
+        "br": "[kənˈsɪstənt]",
+        "gb": "[kənˈsɪstənt]"
+      },
+      "translations": {
+        "rus": "последовательный",
+        "spa": "consistente, constante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You are not always consistent in your actions.",
+            "ru": "Ты не всегда последователен в своих действиях."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1909,
+      "word": "courageous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəˈreɪdʒəs]",
+        "br": "[kəˈreɪdʒəs]",
+        "gb": "[kəˈreɪʤəs]"
+      },
+      "translations": {
+        "rus": "отважный, мужественный",
+        "spa": "valiente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1910,
+      "word": "coward",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈkaʊərd]",
+        "br": "[ˈkaʊəd]",
+        "gb": "[ˈkaʊəd]"
+      },
+      "translations": {
+        "rus": "трус, трусливый",
+        "spa": "el cobarde"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Try it. Don't be such a coward.",
+            "ru": "Попробуй. Не будь такой трусихой."
+          },
+          {
+            "en": "The coward is determined to put the law in execution against me.",
+            "ru": "Этот трус собирается воспользоваться против меня законом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1911,
+      "word": "critical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkrɪtɪkl]",
+        "br": "[ˈkrɪtɪkl]",
+        "gb": "[ˈkrɪtɪkəl]"
+      },
+      "translations": {
+        "rus": "критический, любящий покритиковать",
+        "spa": "crítico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was in critical condition.",
+            "ru": "Он был в критическом состоянии."
+          },
+          {
+            "en": "The situation is extremely critical.",
+            "ru": "Ситуация просто критическая."
+          },
+          {
+            "en": "Our situation has become critical.",
+            "ru": "Наше положение стало критическим."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He was in critical condition.",
+            "es": "Él estaba en estado crítico."
+          },
+          {
+            "en": "The patient is in critical condition.",
+            "es": "El paciente está en un estado crítico."
+          },
+          {
+            "en": "The three gunshot victims are in critical condition.",
+            "es": "Las tres víctimas de disparo están en condición crítica."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1912,
+      "word": "cruel",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkruːəl]",
+        "br": "[ˈkruːəl]",
+        "gb": "[krʊəl]"
+      },
+      "translations": {
+        "rus": "жестокий, жестоко",
+        "spa": "cruel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was often cruel to her sister.",
+            "ru": "Она часто бывала жестока к своей сестре."
+          },
+          {
+            "en": "His cruel remarks cut her deeply.",
+            "ru": "Его жестокие замечания глубоко задели её."
+          },
+          {
+            "en": "It was a cruel act of him to do it.",
+            "ru": "С его стороны было жестоко так поступать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1913,
+      "word": "cultural",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkʌltʃərəl]",
+        "br": "[ˈkʌltʃərəl]",
+        "gb": "[ˈkʌlʧərəl]"
+      },
+      "translations": {
+        "rus": "культурный",
+        "spa": "cultural"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is cultural appropriation?",
+            "ru": "Что такое культурная апроприация?"
+          },
+          {
+            "en": "London is still the cultural capital of the country.",
+            "ru": "Лондон по-прежнему остаётся культурной столицей страны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What do you mean by cultural relativism?",
+            "es": "¿Qué quieres decir con relativismo cultural?"
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1914,
+      "word": "cunning",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈkʌnɪŋ]",
+        "br": "[ˈkʌnɪŋ]",
+        "gb": "[ˈkʌnɪŋ]"
+      },
+      "translations": {
+        "rus": "хитрый, хитрость",
+        "spa": "astuto, ingenioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a cunning trick of him to do it.",
+            "ru": "Это была хитрая уловка с его стороны."
+          },
+          {
+            "en": "She was cunning enough to fool me.",
+            "ru": "Она была достаточно хитра, чтобы меня одурачить."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1915,
+      "word": "curious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkjʊriəs]",
+        "br": "[ˈkjʊəriəs]",
+        "gb": "[ˈkjʊərɪəs]"
+      },
+      "translations": {
+        "rus": "любопытный, любознательный, любопытно",
+        "spa": "curioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm curious to know more about her.",
+            "ru": "Мне любопытно было бы узнать о ней больше."
+          },
+          {
+            "en": "He was curious about how she would react.",
+            "ru": "Ему было любопытно узнать, как она отреагирует."
+          },
+          {
+            "en": "She was curious to know what happened.",
+            "ru": "Ей было любопытно узнать, что случилось."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1916,
+      "word": "cynical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪnɪkl]",
+        "br": "[ˈsɪnɪkl]",
+        "gb": "[ˈsɪnɪkəl]"
+      },
+      "translations": {
+        "rus": "циничный",
+        "spa": "cínico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm not that cynical.",
+            "ru": "Я не настолько циничен."
+          },
+          {
+            "en": "How can you be so cynical?",
+            "ru": "Как ты можешь быть таким циничным?"
+          },
+          {
+            "en": "Why are people always so cynical?",
+            "ru": "Почему люди всегда такие циничные?"
+          },
+          {
+            "en": "Please keep your cynical remarks to yourself.",
+            "ru": "Оставь, пожалуйста, свои циничные замечания при себе."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How can you be so cynical?",
+            "es": "¿Cómo podés ser tan cínico?"
+          },
+          {
+            "en": "Why are people always so cynical?",
+            "es": "¿Por qué la gente es siempre tan cínica?"
+          },
+          {
+            "en": "People grow more cynical with age.",
+            "es": "Con la edad la gente se vuelve más cínica."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1917,
+      "word": "dawdler",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈdɔːdlə]"
+      },
+      "translations": {
+        "rus": "копуша",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1918,
+      "word": "decent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdiːsnt]",
+        "br": "[ˈdiːsnt]",
+        "gb": "[diːsnt]"
+      },
+      "translations": {
+        "rus": "достойный, приличный, порядочный, скромный",
+        "spa": "decente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's hard to find a decent job.",
+            "ru": "Приличную работу найти тяжело."
+          },
+          {
+            "en": "Are there any decent schools in that area?",
+            "ru": "Есть ли приличные школы в этом районе?"
+          },
+          {
+            "en": "She had a decent upbringing.",
+            "ru": "Она была хорошо воспитана."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 1919,
+      "word": "decisive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪˈsaɪsɪv]",
+        "br": "[dɪˈsaɪsɪv]",
+        "gb": "[dɪˈsaɪsɪv]"
+      },
+      "translations": {
+        "rus": "решительный",
+        "spa": "decisivo, decidido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1920,
+      "word": "demanding",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪˈmændɪŋ]",
+        "br": "[dɪˈmɑːndɪŋ]",
+        "gb": "[dɪˈmɑːndɪŋ]"
+      },
+      "translations": {
+        "rus": "требовательный",
+        "spa": "exigente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1921,
+      "word": "diligent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdɪlɪdʒənt]",
+        "br": "[ˈdɪlɪdʒənt]",
+        "gb": "[ˈdɪlɪʤənt]"
+      },
+      "translations": {
+        "rus": "прилежный",
+        "spa": "diligente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Some boys are diligent, others are idle.",
+            "es": "Algunos niños son diligentes, otros son flojos."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1922,
+      "word": "diplomatic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌdɪpləˈmætɪk]",
+        "br": "[ˌdɪpləˈmætɪk]",
+        "gb": "[dɪpləˈmætɪk]"
+      },
+      "translations": {
+        "rus": "дипломатический",
+        "spa": "diplomático"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1923,
+      "word": "disgusting",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪsˈɡʌstɪŋ]",
+        "br": "[dɪsˈɡʌstɪŋ]",
+        "gb": "[dɪsˈgʌstɪŋ]"
+      },
+      "translations": {
+        "rus": "мерзкий",
+        "spa": "asqueroso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1924,
+      "word": "docile",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdɑːsl]",
+        "br": "[ˈdəʊsaɪl]",
+        "gb": "[ˈdəʊsaɪl]"
+      },
+      "translations": {
+        "rus": "послушный",
+        "spa": "dócil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cows looked big and docile.",
+            "es": "Las vacas parecían grandes y dóciles."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1925,
+      "word": "double-faced",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dʌbl] [feɪst]"
+      },
+      "translations": {
+        "rus": "двуличный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1926,
+      "word": "down-to-earth",
+      "pos": null,
+      "transcription": {
+        "us": "[daʊn] [tu] [ɜːrθ]",
+        "br": "[daʊn] [tu] [ɜːθ]",
+        "gb": "[daʊn] [tuː] [ɜːθ]"
+      },
+      "translations": {
+        "rus": "практичный, приземленный",
+        "spa": "práctico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1927,
+      "word": "dreamy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdriːmi]",
+        "br": "[ˈdriːmi]",
+        "gb": "[ˈdriːmɪ]"
+      },
+      "translations": {
+        "rus": "мечтательный",
+        "spa": "soñador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1928,
+      "word": "earnest",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈɜːrnɪst]",
+        "br": "[ˈɜːnɪst]",
+        "gb": "[ˈɜːnɪst]"
+      },
+      "translations": {
+        "rus": "искренний, ревностный, серьезный, залог, задаток",
+        "spa": "sincero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll accept only an earnest apology from you.",
+            "ru": "Я приму только искреннее извинение от вас."
+          },
+          {
+            "en": "He was in earnest conversation with a girl.",
+            "ru": "У него был серьёзный разговор с девушкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1929,
+      "word": "easy-going",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈiːzi] [ˈɡəʊɪŋ]",
+        "br": "[ˈiːzi] [ˈɡəʊɪŋ]",
+        "gb": "[ˈiːzi] [ˈɡəʊɪŋ]"
+      },
+      "translations": {
+        "rus": "беспечный, с легким характером",
+        "spa": "alegre, desenfadado, de trato fácil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1930,
+      "word": "eccentric",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪkˈsentrɪk]",
+        "br": "[ɪkˈsentrɪk]",
+        "gb": "[ɪkˈsentrɪk]"
+      },
+      "translations": {
+        "rus": "необычный, эксцентричный, странный",
+        "spa": "extravagante, excéntrico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1931,
+      "word": "egoistic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌiːɡəʊˈɪstɪk]",
+        "br": "[ˌeɡəʊˈɪstɪk]",
+        "gb": "[egəʊˈɪstɪk]"
+      },
+      "translations": {
+        "rus": "эгоистичный",
+        "spa": "egoísta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1932,
+      "word": "elegant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈelɪɡənt]",
+        "br": "[ˈelɪɡənt]",
+        "gb": "[ˈelɪgənt]"
+      },
+      "translations": {
+        "rus": "элегантный",
+        "spa": "elegante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is an elegant solution.",
+            "ru": "Есть элегантное решение."
+          },
+          {
+            "en": "She is elegant and refined.",
+            "ru": "Она элегантная и утончённая."
+          },
+          {
+            "en": "Mary is a very elegant woman.",
+            "ru": "Мэри очень элегантная женщина."
+          },
+          {
+            "en": "You look very elegant today.",
+            "ru": "Ты сегодня очень элегантно выглядишь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "clothing",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1933,
+      "word": "eloquent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈeləkwənt]",
+        "br": "[ˈeləkwənt]",
+        "gb": "[ˈeləʊkwənt]"
+      },
+      "translations": {
+        "rus": "красноречивый, выразительный",
+        "spa": "elocuente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1934,
+      "word": "energetic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌenərˈdʒetɪk]",
+        "br": "[ˌenəˈdʒetɪk]",
+        "gb": "[enəˈʤetɪk]"
+      },
+      "translations": {
+        "rus": "энергичный, активный",
+        "spa": "enérgico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1935,
+      "word": "envious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈenviəs]",
+        "br": "[ˈenviəs]",
+        "gb": "[ˈenvɪəs]"
+      },
+      "translations": {
+        "rus": "завистливый",
+        "spa": "envidioso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1936,
+      "word": "even-tempered",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈiːvən] [ˈtempəd]"
+      },
+      "translations": {
+        "rus": "уравновешенный",
+        "spa": "ecuánime"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1937,
+      "word": "fair",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[fer]",
+        "br": "[feə(r)]",
+        "gb": "[fɛə]"
+      },
+      "translations": {
+        "rus": "справедливый, честный",
+        "spa": "justo, imparcial, equitativo, limpio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We want to be fair.",
+            "ru": "Мы хотим быть справедливыми."
+          },
+          {
+            "en": "That's not fair, is it?",
+            "ru": "Разве это честно?"
+          },
+          {
+            "en": "That seems fair to me.",
+            "ru": "Это кажется мне справедливым."
+          },
+          {
+            "en": "I know it's fair.",
+            "ru": "Я знаю, это честно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's not fair.",
+            "es": "No es justo."
+          },
+          {
+            "en": "That sounds fair.",
+            "es": "Suena justo."
+          },
+          {
+            "en": "I can be fair.",
+            "es": "Yo puedo ser justo."
+          },
+          {
+            "en": "I know it's not fair.",
+            "es": "Sé que no es justo."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1938,
+      "word": "faithful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfeɪθfl]",
+        "br": "[ˈfeɪθfl]",
+        "gb": "[ˈfeɪθfʊl]"
+      },
+      "translations": {
+        "rus": "верный",
+        "spa": "fiel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was faithful to his woman.",
+            "ru": "Он был верен своей женщине."
+          },
+          {
+            "en": "They would be faithful to him to the last drop.",
+            "ru": "Они будут верны ему до последней капли крови."
+          },
+          {
+            "en": "I have been a faithful reader of your magazine for many years.",
+            "ru": "Много лет я был неизменным читателем вашего журнала."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1939,
+      "word": "fearful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfɪrfl]",
+        "br": "[ˈfɪəfl]",
+        "gb": "[ˈfɪəfʊl]"
+      },
+      "translations": {
+        "rus": "пугающий, страшный, пугливый, боязливый",
+        "spa": "temeroso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The room was in a fearful mess.",
+            "ru": "В комнате был страшный беспорядок."
+          },
+          {
+            "en": "He complained of fearful thirst.",
+            "ru": "Он пожаловался, что ужасно хочет пить."
+          },
+          {
+            "en": "How can I put off these fearful doubts?",
+            "ru": "Как мне избавиться от этих ужасных сомнений?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1940,
+      "word": "frank",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[fræŋk]",
+        "br": "[fræŋk]",
+        "gb": "[fræŋk]"
+      },
+      "translations": {
+        "rus": "откровенный",
+        "spa": "franco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was frank with us about everything.",
+            "ru": "Она была откровенной с нами во всём."
+          },
+          {
+            "en": "He was completely frank with her about what happened.",
+            "ru": "Он был полностью откровенен с ней по поводу случившегося."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1941,
+      "word": "fretful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfretfl]",
+        "br": "[ˈfretfl]",
+        "gb": "[ˈfretfʊl]"
+      },
+      "translations": {
+        "rus": "капризный, нетерпеливый, раздражительный",
+        "spa": "caprichoso, inquieto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1942,
+      "word": "furious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfjʊriəs]",
+        "br": "[ˈfjʊəriəs]",
+        "gb": "[ˈfjʊərɪəs]"
+      },
+      "translations": {
+        "rus": "бешеный, яростный, неистовый",
+        "spa": "furioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was absolutely furious.",
+            "ru": "Она была просто в ярости."
+          },
+          {
+            "en": "We worked all night at a furious pace.",
+            "ru": "Мы всю ночь работали в бешеном темпе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1943,
+      "word": "generous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdʒenərəs]",
+        "br": "[ˈdʒenərəs]",
+        "gb": "[ˈʤenərəs]"
+      },
+      "translations": {
+        "rus": "великодушный, щедрый, обильный",
+        "spa": "generoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a generous heart.",
+            "ru": "У неё доброе сердце."
+          },
+          {
+            "en": "The gift is generous by any standards.",
+            "ru": "По всем меркам это щедрый подарок."
+          },
+          {
+            "en": "She's a very kind and generous person.",
+            "ru": "Она очень добрый и щедрый человек."
+          },
+          {
+            "en": "He was generous with both his time and his money.",
+            "ru": "Он не скупился ни на свои деньги, ни на время."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1944,
+      "word": "gentle",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdʒentl]",
+        "br": "[ˈdʒentl]",
+        "gb": "[ʤentl]"
+      },
+      "translations": {
+        "rus": "нежный, кроткий",
+        "spa": "tierno, dulce, suave, delicado, manso, gentil, amable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The nurse has very gentle hands.",
+            "ru": "У медсестры очень нежные руки."
+          },
+          {
+            "en": "He saluted his wife with a gentle kiss.",
+            "ru": "Он приветствовал свою жену нежным поцелуем."
+          },
+          {
+            "en": "Be gentle with the baby.",
+            "ru": "Будьте ласковы с ребенком."
+          },
+          {
+            "en": "She gave her lip a gentle bite.",
+            "ru": "Она нежно прикусила свою губу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1945,
+      "word": "good-natured",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɡʊd] [ˈneɪtʃərd]",
+        "br": "[ˌɡʊd] [ˈneɪtʃəd]",
+        "gb": "[gʊd] [ˈneɪʧəd]"
+      },
+      "translations": {
+        "rus": "добродушный",
+        "spa": "bueno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1946,
+      "word": "greedy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɡriːdi]",
+        "br": "[ˈɡriːdi]",
+        "gb": "[ˈgriːdɪ]"
+      },
+      "translations": {
+        "rus": "жадный",
+        "spa": "codicioso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1947,
+      "word": "grumbling",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɡrʌmblɪŋ]",
+        "br": "[ˈɡrʌmblɪŋ]",
+        "gb": "[ˈgrʌmblɪŋ]"
+      },
+      "translations": {
+        "rus": "ворчливый",
+        "spa": "quejoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1948,
+      "word": "hard-working",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[hɑːrd] [ˈwɜːrkɪŋ]",
+        "br": "[hɑːd] [ˈwɜːkɪŋ]",
+        "gb": "[hɑːd] [ˈwɜːkɪŋ]"
+      },
+      "translations": {
+        "rus": "трудолюбивый, прилежный",
+        "spa": "trabajador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was a hard-working, honest man.",
+            "ru": "Он был трудолюбивым, честным человеком."
+          },
+          {
+            "en": "As children we were taught to be frugal and hard-working.",
+            "ru": "В детстве нас учили быть скромными и трудолюбивыми."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1949,
+      "word": "harsh",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[hɑːrʃ]",
+        "br": "[hɑːʃ]",
+        "gb": "[hɑːʃ]"
+      },
+      "translations": {
+        "rus": "суровый, резкий, жесткий",
+        "spa": "duro, severo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's too harsh with the children.",
+            "ru": "Он слишком строг с детьми."
+          },
+          {
+            "en": "Maybe it seems harsh to say.",
+            "ru": "Может быть, это грубовато звучит."
+          },
+          {
+            "en": "The climate there is very harsh.",
+            "ru": "Климат там — очень суровый."
+          },
+          {
+            "en": "I was too harsh to him.",
+            "ru": "Я был чересчур резок с ним."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1950,
+      "word": "haughty",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhɔːti]",
+        "br": "[ˈhɔːti]",
+        "gb": "[ˈhɔːtɪ]"
+      },
+      "translations": {
+        "rus": "надменный",
+        "spa": "altivo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1951,
+      "word": "headstrong",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhedstrɔːŋ]",
+        "br": "[ˈhedstrɒŋ]",
+        "gb": "[ˈhedstrɔŋ]"
+      },
+      "translations": {
+        "rus": "своевольный, упрямый",
+        "spa": "testarudo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1952,
+      "word": "hesitant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhezɪtənt]",
+        "br": "[ˈhezɪtənt]",
+        "gb": "[ˈhezɪtənt]"
+      },
+      "translations": {
+        "rus": "нерешительный",
+        "spa": "vacilante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1953,
+      "word": "high-flying",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[haɪ] [ˈflaɪɪŋ]",
+        "br": "[haɪ] [ˈflaɪɪŋ]",
+        "gb": "[haɪ] [ˈflaɪɪŋ]"
+      },
+      "translations": {
+        "rus": "амбициозный, целеустремленный, честолюбивый",
+        "spa": "ambicioso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1954,
+      "word": "honest",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɑːnɪst]",
+        "br": "[ˈɒnɪst]",
+        "gb": "[ˈɔnɪst]"
+      },
+      "translations": {
+        "rus": "честный",
+        "spa": "honesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am an honest person.",
+            "ru": "Я честный человек."
+          },
+          {
+            "en": "He is poor, but honest.",
+            "ru": "Он беден, но честен."
+          },
+          {
+            "en": "I think that she's honest.",
+            "ru": "Думаю, она честная."
+          },
+          {
+            "en": "I have been honest with him.",
+            "ru": "Я был с ним честен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1955,
+      "word": "hot-tempered",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[hɔt] [ˈtempəd]"
+      },
+      "translations": {
+        "rus": "вспыльчивый",
+        "spa": "irascible"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1956,
+      "word": "humane",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[hjuːˈmeɪn]",
+        "br": "[hjuːˈmeɪn]",
+        "gb": "[hjuːˈmeɪn]"
+      },
+      "translations": {
+        "rus": "гуманный",
+        "spa": "humano"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1957,
+      "word": "ideal",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[aɪˈdiːəl]",
+        "br": "[aɪˈdiːəl]",
+        "gb": "[aɪˈdɪəl]"
+      },
+      "translations": {
+        "rus": "идеальный, идеал",
+        "spa": "ideal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That would be ideal.",
+            "ru": "Это было бы идеально."
+          },
+          {
+            "en": "The weather was ideal.",
+            "ru": "Погода была идеальная."
+          },
+          {
+            "en": "He is an ideal husband for me.",
+            "ru": "Он - идеальный муж для меня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Describe your ideal breakfast.",
+            "es": "Describí tu desayuno ideal."
+          },
+          {
+            "en": "A man without ideals is hollow.",
+            "es": "Un hombre sin ideales está vacío."
+          },
+          {
+            "en": "Parks are ideal for writing.",
+            "es": "Los parques son ideales para escribir."
+          },
+          {
+            "en": "This site is ideal for our house.",
+            "es": "Este es el sitio ideal para nuestra casa."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1958,
+      "word": "idealistic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌaɪdiəˈlɪstɪk]",
+        "br": "[ˌaɪdiəˈlɪstɪk]",
+        "gb": "[aɪdɪəˈlɪstɪk]"
+      },
+      "translations": {
+        "rus": "идеалистичный, т.е. стремящийся к идеалу",
+        "spa": "idealista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1959,
+      "word": "imaginative",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪˈmædʒɪnətɪv]",
+        "br": "[ɪˈmædʒɪnətɪv]",
+        "gb": "[ɪˈmæʤɪnətɪv]"
+      },
+      "translations": {
+        "rus": "одарённый богатым воображением",
+        "spa": "imaginativo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "He used to be an imaginative boy.",
+            "es": "Solía ser un chico imaginativo."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1960,
+      "word": "impartial",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpɑːrʃl]",
+        "br": "[ɪmˈpɑːʃl]",
+        "gb": "[ɪmˈpɑːʃəl]"
+      },
+      "translations": {
+        "rus": "справедливый, беспристрастный",
+        "spa": "imparcial, justo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1961,
+      "word": "impatient",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpeɪʃnt]",
+        "br": "[ɪmˈpeɪʃnt]",
+        "gb": "[ɪmˈpeɪʃənt]"
+      },
+      "translations": {
+        "rus": "нетерпеливый",
+        "spa": "impaciente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was impatient to leave.",
+            "ru": "Ей не терпелось уйти."
+          },
+          {
+            "en": "I am quite impatient for the weekend to begin.",
+            "ru": "Я с нетерпением жду выходных."
+          },
+          {
+            "en": "He is a bit impatient with slow learners.",
+            "ru": "Ему не хватает терпения работать со слабыми учениками."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 1962,
+      "word": "impertinent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpɜːrtnənt]",
+        "br": "[ɪmˈpɜːtɪnənt]",
+        "gb": "[ɪmˈpɜːtɪnənt]"
+      },
+      "translations": {
+        "rus": "наглый",
+        "spa": "impertinente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1963,
+      "word": "importunate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpɔːrtʃənət]",
+        "br": "[ɪmˈpɔːtʃənət]",
+        "gb": "[ɪmˈpɔːtjʊnɪt]"
+      },
+      "translations": {
+        "rus": "назойливый",
+        "spa": "importuno, pertinaz"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1964,
+      "word": "impudent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɪmpjədənt]",
+        "br": "[ˈɪmpjədənt]",
+        "gb": "[ˈɪmpjʊdənt]"
+      },
+      "translations": {
+        "rus": "нахальный",
+        "spa": "insolente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1965,
+      "word": "impulsive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpʌlsɪv]",
+        "br": "[ɪmˈpʌlsɪv]",
+        "gb": "[ɪmˈpʌlsɪv]"
+      },
+      "translations": {
+        "rus": "импульсивный",
+        "spa": "impulsivo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1966,
+      "word": "inconstant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈkɑːnstənt]",
+        "br": "[ɪnˈkɒnstənt]",
+        "gb": "[ɪnˈkɔnstənt]"
+      },
+      "translations": {
+        "rus": "непостоянный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1967,
+      "word": "independent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪndɪˈpendənt]",
+        "br": "[ˌɪndɪˈpendənt]",
+        "gb": "[ɪndɪˈpendənt]"
+      },
+      "translations": {
+        "rus": "независимый",
+        "spa": "independiente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're very independent.",
+            "ru": "Ты очень независима."
+          },
+          {
+            "en": "I want to be independent.",
+            "ru": "Я хочу быть независимым."
+          },
+          {
+            "en": "I'm a very independent person.",
+            "ru": "Я очень независимый человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to be more independent.",
+            "es": "Quiero ser más independiente."
+          },
+          {
+            "en": "The Vatican is an independent country.",
+            "es": "El Vaticano es un país independiente."
+          },
+          {
+            "en": "I am economically independent of my parents.",
+            "es": "Soy económicamente independiente de mis padres."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1968,
+      "word": "indifferent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈdɪfrənt]",
+        "br": "[ɪnˈdɪfrənt]",
+        "gb": "[ɪnˈdɪfrənt]"
+      },
+      "translations": {
+        "rus": "равнодушный, безразличный",
+        "spa": "indiferente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is rather indifferent about this problem.",
+            "ru": "Он довольно равнодушно относится к этой проблеме."
+          },
+          {
+            "en": "He was mute, distant, and indifferent.",
+            "ru": "Он стоял безмолвный, отстранённый и равнодушный."
+          },
+          {
+            "en": "Sarah was absolutely indifferent to him, and it hurt.",
+            "ru": "Сара была совершенно равнодушна к нему, и это было обидно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1969,
+      "word": "individualistic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪndɪˌvɪdʒuəˈlɪstɪk]",
+        "br": "[ˌɪndɪˌvɪdʒuəˈlɪstɪk]",
+        "gb": "[ɪndɪvɪdjʊəˈlɪstɪk]"
+      },
+      "translations": {
+        "rus": "индивидуалистический",
+        "spa": "individualista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1970,
+      "word": "industrious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈdʌstriəs]",
+        "br": "[ɪnˈdʌstriəs]",
+        "gb": "[ɪnˈdʌstrɪəs]"
+      },
+      "translations": {
+        "rus": "трудолюбивый, работоспособный",
+        "spa": "trabajador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 255,
+      "word": "intelligent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈtelɪdʒənt]",
+        "br": "[ɪnˈtelɪdʒənt]",
+        "gb": "[ɪnˈtelɪʤənt]"
+      },
+      "translations": {
+        "rus": "умный, разумный",
+        "spa": "inteligente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is beautiful and intelligent.",
+            "ru": "Мэри красива и умна."
+          },
+          {
+            "en": "Mary's dog is very intelligent.",
+            "ru": "Собака Мэри очень умная."
+          },
+          {
+            "en": "Adams was an intelligent man.",
+            "ru": "Адамс был умным человеком."
+          },
+          {
+            "en": "This girl is the most intelligent.",
+            "ru": "Эта девушка самая умная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is an intelligent boy.",
+            "es": "Él es un chico inteligente."
+          },
+          {
+            "en": "My sister is very intelligent.",
+            "es": "Mi hermana es muy inteligente."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1971,
+      "word": "intolerant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈtɑːlərənt]",
+        "br": "[ɪnˈtɒlərənt]",
+        "gb": "[ɪnˈtɔlərənt]"
+      },
+      "translations": {
+        "rus": "нетерпимый, нетолерантный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1972,
+      "word": "intuitive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈtuːɪtɪv]",
+        "br": "[ɪnˈtjuːɪtɪv]",
+        "gb": "[ɪnˈtjuːɪtɪv]"
+      },
+      "translations": {
+        "rus": "обладающий интуицией, интуитивный",
+        "spa": "intuitivo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1973,
+      "word": "ironic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[aɪˈrɑːnɪk]",
+        "br": "[aɪˈrɒnɪk]",
+        "gb": "[aɪˈrɔnɪk]"
+      },
+      "translations": {
+        "rus": "ироничный",
+        "spa": "irónico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1974,
+      "word": "irrepressible",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪrɪˈpresəbl]",
+        "br": "[ˌɪrɪˈpresəbl]",
+        "gb": "[ɪrɪˈpresəbl]"
+      },
+      "translations": {
+        "rus": "неугомонный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1975,
+      "word": "irresponsible",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɪrɪˈspɑːnsəbl]",
+        "br": "[ˌɪrɪˈspɒnsəbl]",
+        "gb": "[ɪrɪsˈpɔnsəbl]"
+      },
+      "translations": {
+        "rus": "безответственный",
+        "spa": "irresponsable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1976,
+      "word": "irritable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɪrɪtəbl]",
+        "br": "[ˈɪrɪtəbl]",
+        "gb": "[ˈɪrɪtəbl]"
+      },
+      "translations": {
+        "rus": "раздражительный",
+        "spa": "irritable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1977,
+      "word": "jealous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdʒeləs]",
+        "br": "[ˈdʒeləs]",
+        "gb": "[ˈʤeləs]"
+      },
+      "translations": {
+        "rus": "ревнивый",
+        "spa": "celoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "He is a jealous man.",
+            "es": "Él es un hombre celoso."
+          },
+          {
+            "en": "I was jealous of her.",
+            "es": "Yo estaba celoso de ella."
+          },
+          {
+            "en": "Why would I be jealous?",
+            "es": "¿Por qué debería estar celoso?"
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1978,
+      "word": "just",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dʒʌst]",
+        "br": "[dʒʌst]",
+        "gb": "[ʤʌst]"
+      },
+      "translations": {
+        "rus": "справедливый",
+        "spa": "justo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Not all laws are just.",
+            "ru": "Не все законы справедливы."
+          },
+          {
+            "en": "I believe that the decision is just.",
+            "ru": "Думаю, решение справедливое."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1979,
+      "word": "kind",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kaɪnd]",
+        "br": "[kaɪnd]",
+        "gb": "[kaɪnd]"
+      },
+      "translations": {
+        "rus": "добрый, любезный",
+        "spa": "amable, bueno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is kind to her.",
+            "ru": "Он к ней добр."
+          },
+          {
+            "en": "You're very kind.",
+            "ru": "Вы очень любезны."
+          },
+          {
+            "en": "You will be treated kindly.",
+            "ru": "С вами будут любезны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is he kind to you?",
+            "es": "¿Es amable contigo?"
+          },
+          {
+            "en": "Be kind to the old.",
+            "es": "Sea amable con los ancianos."
+          },
+          {
+            "en": "The old man is very kind.",
+            "es": "El viejo es muy amable."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1980,
+      "word": "languid",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlæŋɡwɪd]",
+        "br": "[ˈlæŋɡwɪd]",
+        "gb": "[ˈlæŋgwɪd]"
+      },
+      "translations": {
+        "rus": "вялый, медлительный",
+        "spa": "lánguido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1981,
+      "word": "lazy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈleɪzi]",
+        "br": "[ˈleɪzi]",
+        "gb": "[ˈleɪzɪ]"
+      },
+      "translations": {
+        "rus": "ленивый",
+        "spa": "perezoso, descansado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a very lazy boy.",
+            "ru": "Он очень ленивый мальчик."
+          },
+          {
+            "en": "He is greedy and lazy.",
+            "ru": "Он жадный и ленивый."
+          },
+          {
+            "en": "A lot of people are lazy.",
+            "ru": "Многие люди ленивы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is such a lazy fellow.",
+            "es": "Pero que tío más perezoso."
+          },
+          {
+            "en": "As far as I know, he isn't lazy.",
+            "es": "Hasta donde sé, él no es perezoso."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1982,
+      "word": "liar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪər]",
+        "br": "[ˈlaɪə(r)]",
+        "gb": "[ˈlaɪə]"
+      },
+      "translations": {
+        "rus": "лжец",
+        "spa": "el mentiroso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1983,
+      "word": "light-hearted",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌlaɪt] [ˈhɑːrtɪd]",
+        "br": "[ˌlaɪt] [ˈhɑːtɪd]",
+        "gb": "[laɪt] [ˈhɑːtɪd]"
+      },
+      "translations": {
+        "rus": "беспечный, беззаботный",
+        "spa": "alegre, desenfadado, de trato fácil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1984,
+      "word": "light-minded",
+      "pos": null,
+      "transcription": {
+        "us": "[laɪt] [ˈmaɪndɪd]",
+        "br": "[laɪt] [ˈmaɪndɪd]",
+        "gb": "[laɪt] [ˈmaɪndɪd]"
+      },
+      "translations": {
+        "rus": "легкомысленный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1985,
+      "word": "logical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlɑːdʒɪkl]",
+        "br": "[ˈlɒdʒɪkl]",
+        "gb": "[ˈlɔʤɪkəl]"
+      },
+      "translations": {
+        "rus": "логический, логичный",
+        "spa": "lógico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 1986,
+      "word": "loyal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlɔɪəl]",
+        "br": "[ˈlɔɪəl]",
+        "gb": "[ˈlɔɪəl]"
+      },
+      "translations": {
+        "rus": "верный, лояльный",
+        "spa": "leal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is loyal to her country.",
+            "ru": "Мэри верна своей стране."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1987,
+      "word": "lying",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlaɪɪŋ]",
+        "br": "[ˈlaɪɪŋ]",
+        "gb": "[ˈlaɪɪŋ]"
+      },
+      "translations": {
+        "rus": "лживый",
+        "spa": "mentiroso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1988,
+      "word": "melancholic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌmelənˈkɑːlɪk]",
+        "br": "[ˌmelənˈkɒlɪk]",
+        "gb": "[melənˈkɔlɪk]"
+      },
+      "translations": {
+        "rus": "меланхоличный",
+        "spa": "melancólico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1989,
+      "word": "mendacious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[menˈdeɪʃəs]",
+        "br": "[menˈdeɪʃəs]",
+        "gb": "[menˈdeɪʃəs]"
+      },
+      "translations": {
+        "rus": "лживый",
+        "spa": "mentiroso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1990,
+      "word": "mentality",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[menˈtælɪtɪ]"
+      },
+      "translations": {
+        "rus": "склад ума, менталитет",
+        "spa": "la mentalidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1991,
+      "word": "mischievous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmɪstʃɪvəs]",
+        "br": "[ˈmɪstʃɪvəs]",
+        "gb": "[ˈmɪsʧɪvəs]"
+      },
+      "translations": {
+        "rus": "озорной, шаловливый",
+        "spa": "travieso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1992,
+      "word": "modest",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmɑːdɪst]",
+        "br": "[ˈmɒdɪst]",
+        "gb": "[ˈmɔdɪst]"
+      },
+      "translations": {
+        "rus": "скромный, умеренный",
+        "spa": "modesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Oh, don't be so modest.",
+            "ru": "Ой, не будь таким скромным."
+          },
+          {
+            "en": "I'm very modest.",
+            "ru": "Я очень скромен."
+          },
+          {
+            "en": "You're so modest.",
+            "ru": "Ты такой скромный."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1993,
+      "word": "mood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[muːd]",
+        "br": "[muːd]",
+        "gb": "[muːd]"
+      },
+      "translations": {
+        "rus": "настроение",
+        "spa": "el humor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What kind of mood is she in today?",
+            "ru": "Как у неё сегодня настроение?"
+          },
+          {
+            "en": "Her mood changes every hour.",
+            "ru": "Её настроение меняется каждый час."
+          },
+          {
+            "en": "Why had her mood changed so dramatically?",
+            "ru": "Почему ее настроение изменилось так резко?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is in a bad mood.",
+            "es": "Ella está de mal humor."
+          },
+          {
+            "en": "I am in no mood for joking.",
+            "es": "Hoy no ando de humor para bromas."
+          },
+          {
+            "en": "I can see you're in a good mood.",
+            "es": "Ya veo que estás de buen humor."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1994,
+      "word": "mystical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmɪstɪkl]",
+        "br": "[ˈmɪstɪkl]",
+        "gb": "[ˈmɪstɪkl]"
+      },
+      "translations": {
+        "rus": "мистический, склонный к мистике",
+        "spa": "místico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1995,
+      "word": "naive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[naɪˈiːv]",
+        "br": "[naɪˈiːv]",
+        "gb": "[nɑːˈiːv]"
+      },
+      "translations": {
+        "rus": "наивный",
+        "spa": "ingenuo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1996,
+      "word": "naughty",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnɔːti]",
+        "br": "[ˈnɔːti]",
+        "gb": "[ˈnɔːtɪ]"
+      },
+      "translations": {
+        "rus": "озорной, непослушный, капризный",
+        "spa": "travieso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 1997,
+      "word": "nervous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnɜːrvəs]",
+        "br": "[ˈnɜːvəs]",
+        "gb": "[ˈnɜːvəs]"
+      },
+      "translations": {
+        "rus": "нервный",
+        "spa": "nervioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got nervous.",
+            "ru": "Я стал нервным."
+          },
+          {
+            "en": "I'm a little nervous.",
+            "ru": "Я немного нервный."
+          },
+          {
+            "en": "He seemed nervous.",
+            "ru": "Он выглядел нервным."
+          },
+          {
+            "en": "He laughed nervously.",
+            "ru": "Он нервно рассмеялся."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why are you so nervous?",
+            "es": "¿Por qué estás tan nervioso?"
+          },
+          {
+            "en": "I was a little nervous.",
+            "es": "Estaba un poco nerviosa."
+          },
+          {
+            "en": "I am nervous and scared.",
+            "es": "Estoy nervioso y tengo miedo."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1998,
+      "word": "noble",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnəʊbl]",
+        "br": "[ˈnəʊbl]",
+        "gb": "[nəʊbl]"
+      },
+      "translations": {
+        "rus": "благородный, знатный, величественный",
+        "spa": "noble, majestuoso, magnánimo, generoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was a man of noble character.",
+            "ru": "Он был человеком благородным."
+          },
+          {
+            "en": "We entered into a noble forest.",
+            "ru": "Мы вошли в величественный лес."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1999,
+      "word": "obedient",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈbiːdiənt]",
+        "br": "[əˈbiːdiənt]",
+        "gb": "[əˈbiːdjənt]"
+      },
+      "translations": {
+        "rus": "послушный",
+        "spa": "obediente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2000,
+      "word": "obstinate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɑːbstɪnət]",
+        "br": "[ˈɒbstɪnət]",
+        "gb": "[ˈɔbstɪnɪt]"
+      },
+      "translations": {
+        "rus": "упрямый",
+        "spa": "obstinado, persistente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2001,
+      "word": "open",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈəʊpən]",
+        "br": "[ˈəʊpən]",
+        "gb": "[ˈəʊpən]"
+      },
+      "translations": {
+        "rus": "открытый",
+        "spa": "abierto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Both of the doors are open.",
+            "ru": "Обе двери открыты."
+          },
+          {
+            "en": "Come in, the door's open.",
+            "ru": "Входи, дверь открыта."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is it open on Sunday?",
+            "es": "¿Está abierto los domingos?"
+          },
+          {
+            "en": "He left the door open.",
+            "es": "Él dejó la puerta abierta."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2002,
+      "word": "opinionated",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈpɪnjəneɪtɪd]",
+        "br": "[əˈpɪnjəneɪtɪd]",
+        "gb": "[əˈpɪnjəneɪtɪd]"
+      },
+      "translations": {
+        "rus": "самоуверенный, упрямый",
+        "spa": "dogmático"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2003,
+      "word": "optimist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːptɪmɪst]",
+        "br": "[ˈɒptɪmɪst]",
+        "gb": "[ˈɔptɪmɪst]"
+      },
+      "translations": {
+        "rus": "оптимист",
+        "spa": "el optimista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2004,
+      "word": "optimistic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɑːptɪˈmɪstɪk]",
+        "br": "[ˌɒptɪˈmɪstɪk]",
+        "gb": "[ɔptɪˈmɪstɪk]"
+      },
+      "translations": {
+        "rus": "оптимистичный",
+        "spa": "optimista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have to be optimistic.",
+            "ru": "Тебе надо быть оптимистичным."
+          },
+          {
+            "en": "Your view is too optimistic.",
+            "ru": "Ваш взгляд слишком оптимистичен."
+          },
+          {
+            "en": "I think you're overly optimistic.",
+            "ru": "Я думаю, вы чересчур оптимистичны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Your view is too optimistic.",
+            "es": "Tu punto de vista es demasiado optimista."
+          },
+          {
+            "en": "How can you be so optimistic?",
+            "es": "¿Cómo puedes ser tan optimista?"
+          },
+          {
+            "en": "You're an overly optimistic girl.",
+            "es": "Sos una chica demasiado optimista."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2005,
+      "word": "passionate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpæʃənət]",
+        "br": "[ˈpæʃənət]",
+        "gb": "[ˈpæʃənɪt]"
+      },
+      "translations": {
+        "rus": "страстный",
+        "spa": "apasionado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He kissed her passionately.",
+            "ru": "Он страстно её поцеловал."
+          },
+          {
+            "en": "She is passionate about art.",
+            "ru": "Она страстно увлечена искусством."
+          },
+          {
+            "en": "He had a passionate belief in justice.",
+            "ru": "Он горячо верил в справедливость."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2006,
+      "word": "passive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpæsɪv]",
+        "br": "[ˈpæsɪv]",
+        "gb": "[ˈpæsɪv]"
+      },
+      "translations": {
+        "rus": "пассивный",
+        "spa": "pasivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is passive-aggressive.",
+            "ru": "Мэри пассивно агрессивна."
+          },
+          {
+            "en": "Watching TV is a passive activity.",
+            "ru": "Просмотр телевизора - пассивное занятие."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2007,
+      "word": "patient",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpeɪʃnt]",
+        "br": "[ˈpeɪʃnt]",
+        "gb": "[ˈpeɪʃənt]"
+      },
+      "translations": {
+        "rus": "терпеливый",
+        "spa": "paciente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Louise was very patient with me.",
+            "ru": "Луиза была со мной очень терпелива."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have to be patient.",
+            "es": "Tenemos que ser pacientes."
+          },
+          {
+            "en": "I'm not a patient person.",
+            "es": "No soy una persona paciente."
+          },
+          {
+            "en": "You are a patient woman.",
+            "es": "Eres una mujer paciente."
+          },
+          {
+            "en": "You must be more patient.",
+            "es": "Necesitas ser más paciente."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2008,
+      "word": "perfect",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpɜːrfɪkt]",
+        "br": "[ˈpɜːfɪkt]",
+        "gb": "[ˈpɜːfɪkt]"
+      },
+      "translations": {
+        "rus": "идеально, идеальный, отличный",
+        "spa": "perfecto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a perfect body.",
+            "ru": "У неё идеальное тело."
+          },
+          {
+            "en": "The Earth is not a perfect sphere.",
+            "ru": "Земля - не идеальный шар."
+          },
+          {
+            "en": "You've done a perfect job.",
+            "ru": "Ты проделал отличную работу."
+          },
+          {
+            "en": "They make a perfect couple.",
+            "ru": "Они - идеальная пара."
+          }
+        ],
+        "spa": [
+          {
+            "en": "None of us is perfect.",
+            "es": "Nadie es perfecto."
+          },
+          {
+            "en": "Your life is so perfect.",
+            "es": "Tu vida es tan perfecta."
+          },
+          {
+            "en": "I think this is perfect.",
+            "es": "Creo que esto es perfecto."
+          },
+          {
+            "en": "It was a perfect morning.",
+            "es": "Fue una mañana perfecta."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2009,
+      "word": "persistent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pərˈsɪstənt]",
+        "br": "[pəˈsɪstənt]",
+        "gb": "[pəˈsɪstənt]"
+      },
+      "translations": {
+        "rus": "настойчивый, стойкий, постоянный",
+        "spa": "persistente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was very persistent.",
+            "ru": "Он был очень настойчив."
+          },
+          {
+            "en": "I'm not stubborn. I'm persistent.",
+            "ru": "Я не упрямый. Я настойчивый."
+          },
+          {
+            "en": "I can be very persistent.",
+            "ru": "Я могу быть очень настойчивым."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2010,
+      "word": "personality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɜːrsəˈnæləti]",
+        "br": "[ˌpɜːsəˈnæləti]",
+        "gb": "[pɜːsəˈnælɪtɪ]"
+      },
+      "translations": {
+        "rus": "личность",
+        "spa": "la personalidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a strong personality.",
+            "ru": "Она - сильная личность."
+          },
+          {
+            "en": "My father has a personality disorder.",
+            "ru": "У моего отца расстройство личности."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "psychology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2011,
+      "word": "pessimist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpesɪmɪst]",
+        "br": "[ˈpesɪmɪst]",
+        "gb": "[ˈpesɪmɪst]"
+      },
+      "translations": {
+        "rus": "пессимист",
+        "spa": "el pesimista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2012,
+      "word": "philosophical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌfɪləˈsɑːfɪkl]",
+        "br": "[ˌfɪləˈsɒfɪkl]",
+        "gb": "[fɪləˈsɔfɪkəl]"
+      },
+      "translations": {
+        "rus": "философский",
+        "spa": "filosófico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2013,
+      "word": "polite",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pəˈlaɪt]",
+        "br": "[pəˈlaɪt]",
+        "gb": "[pəˈlaɪt]"
+      },
+      "translations": {
+        "rus": "вежливый, любезный, учтивый",
+        "spa": "educado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's always very polite.",
+            "ru": "Она всегда очень вежлива."
+          },
+          {
+            "en": "Please be polite to the guests.",
+            "ru": "Пожалуйста, будь вежлив с гостями."
+          },
+          {
+            "en": "It's not polite to interrupt.",
+            "ru": "Не вежливо перебивать."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Tony is a polite boy.",
+            "es": "Tony es un chico educado."
+          },
+          {
+            "en": "You must be more polite.",
+            "es": "Tenés que ser más educado."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2014,
+      "word": "positive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpɑːzətɪv]",
+        "br": "[ˈpɒzətɪv]",
+        "gb": "[ˈpɔzətɪv]"
+      },
+      "translations": {
+        "rus": "положительный, позитивный",
+        "spa": "positivo, seguro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a positive experience.",
+            "ru": "Это был положительный опыт."
+          },
+          {
+            "en": "Learn to think positively!",
+            "ru": "Учитесь мыслить позитивно!"
+          },
+          {
+            "en": "What are the positive aspects?",
+            "ru": "Каковы положительные стороны?"
+          },
+          {
+            "en": "We need a positive result.",
+            "ru": "Нам нужен положительный результат."
+          },
+          {
+            "en": "We have to stay positive.",
+            "ru": "Мы должны оставаться позитивными."
+          },
+          {
+            "en": "Please think positively.",
+            "ru": "Пожалуйста, думай позитивно."
+          },
+          {
+            "en": "What are the positive sides?",
+            "ru": "Каковы положительные стороны?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "We have to stay positive.",
+            "es": "Tenemos que ser positivos."
+          },
+          {
+            "en": "My blood type is A positive.",
+            "es": "Mi tipo sanguíneo es A positivo."
+          },
+          {
+            "en": "Let's look on the positive side.",
+            "es": "Veamos el lado positivo."
+          },
+          {
+            "en": "What are the positive aspects?",
+            "es": "¿Cuáles son los aspectos positivos?"
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2015,
+      "word": "practical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpræktɪkl]",
+        "br": "[ˈpræktɪkl]",
+        "gb": "[ˈpræktɪkəl]"
+      },
+      "translations": {
+        "rus": "практичный, практический",
+        "spa": "práctico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His idea is practical.",
+            "ru": "Его идея практична."
+          },
+          {
+            "en": "He's a practical man.",
+            "ru": "Он практичный человек."
+          },
+          {
+            "en": "I'm practically an adult already.",
+            "ru": "Я уже практически взрослый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "His ideas are always practical.",
+            "es": "Sus ideas son siempre prácticas."
+          },
+          {
+            "en": "This car is spacious and practical.",
+            "es": "Este auto es espacioso y práctico."
+          },
+          {
+            "en": "Your suggestion is of no practical use.",
+            "es": "Tu sugerencia no tiene uso práctico."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2016,
+      "word": "proud",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[praʊd]",
+        "br": "[praʊd]",
+        "gb": "[praʊd]"
+      },
+      "translations": {
+        "rus": "гордый",
+        "spa": "orgulloso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's very proud of his daughter's achievements.",
+            "ru": "Он очень гордится успехами своей дочери."
+          },
+          {
+            "en": "I was proud that I never gave in.",
+            "ru": "Я был горд тем, что я никогда не сдавался."
+          },
+          {
+            "en": "She knows she's lost, but she is too proud to admit it.",
+            "ru": "Она знает, что проиграла, но она слишком гордая, чтобы признать это."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am proud of you.",
+            "es": "Estoy orgulloso de ti."
+          },
+          {
+            "en": "He is proud of his son.",
+            "es": "Él está orgulloso de su hijo."
+          },
+          {
+            "en": "I'm so proud of my boys.",
+            "es": "Estoy muy orgulloso de mis hijos."
+          },
+          {
+            "en": "My father is a proud man.",
+            "es": "Mi padre es un hombre orgulloso."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2017,
+      "word": "punctilious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pʌŋkˈtɪliəs]",
+        "br": "[pʌŋkˈtɪliəs]",
+        "gb": "[pʌŋkˈtɪlɪəs]"
+      },
+      "translations": {
+        "rus": "педантичный, скрупулезный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2018,
+      "word": "punctual",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpʌŋktʃuəl]",
+        "br": "[ˈpʌŋktʃuəl]",
+        "gb": "[ˈpʌŋktjʊəl]"
+      },
+      "translations": {
+        "rus": "пунктуальный",
+        "spa": "puntual"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2019,
+      "word": "quick-witted",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌkwɪk] [ˈwɪtɪd]",
+        "br": "[ˌkwɪk] [ˈwɪtɪd]",
+        "gb": "[kwɪk] [ˈwɪtɪd]"
+      },
+      "translations": {
+        "rus": "умный, сообразительный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2020,
+      "word": "quiet",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈkwaɪət]",
+        "br": "[ˈkwaɪət]",
+        "gb": "[ˈkwaɪət]"
+      },
+      "translations": {
+        "rus": "тихий, спокойный, тишина, покой",
+        "spa": "silencioso, el silencio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I won't be quiet.",
+            "ru": "Я не буду тихим."
+          },
+          {
+            "en": "I love peace and quiet.",
+            "ru": "Я люблю тишину и покой."
+          },
+          {
+            "en": "It was a quiet night.",
+            "ru": "Ночь была тихой."
+          },
+          {
+            "en": "This room is quiet.",
+            "ru": "Эта комната тихая."
+          }
+        ],
+        "spa": [
+          {
+            "en": "All is quiet.",
+            "es": "Todo está en silencio."
+          },
+          {
+            "en": "Please be quiet.",
+            "es": "Quédate en silencio, por favor."
+          },
+          {
+            "en": "We should remain quiet.",
+            "es": "Deberíamos hacer silencio."
+          },
+          {
+            "en": "The room was quiet.",
+            "es": "La habitación estaba silenciosa."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2021,
+      "word": "rancorous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈræŋkərəs]",
+        "br": "[ˈræŋkərəs]",
+        "gb": "[ˈræŋkərəs]"
+      },
+      "translations": {
+        "rus": "злопамятный, враждебный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2022,
+      "word": "realist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːəlɪst]",
+        "br": null,
+        "gb": "[ˈrɪəlɪst]"
+      },
+      "translations": {
+        "rus": "реалист",
+        "spa": "el realista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2023,
+      "word": "reasonable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈriːznəbl]",
+        "br": "[ˈriːznəbl]",
+        "gb": "[ˈriːznəbl]"
+      },
+      "translations": {
+        "rus": "благоразумный, разумный",
+        "spa": "razonable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've tried to be reasonable.",
+            "ru": "Я пытался быть благоразумным."
+          },
+          {
+            "en": "We're both reasonable people.",
+            "ru": "Мы оба разумные люди."
+          },
+          {
+            "en": "Is that reasonable behavior?",
+            "ru": "Это разумное поведение?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "It seems reasonable.",
+            "es": "Eso suena razonable."
+          },
+          {
+            "en": "This sounds reasonable.",
+            "es": "Parece razonable."
+          },
+          {
+            "en": "The price is not reasonable.",
+            "es": "El precio no es razonable."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2024,
+      "word": "reckless",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈrekləs]",
+        "br": "[ˈrekləs]",
+        "gb": "[ˈreklɪs]"
+      },
+      "translations": {
+        "rus": "безрассудный, неосторожный, безумный",
+        "spa": "imprudente"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2025,
+      "word": "relaxed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈlækst]",
+        "br": "[rɪˈlækst]",
+        "gb": "[rɪˈlækst]"
+      },
+      "translations": {
+        "rus": "расслабленный, раскованный",
+        "spa": "relajado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was pretty relaxed.",
+            "ru": "Я был довольно расслаблен."
+          },
+          {
+            "en": "The atmosphere is relaxed and informal.",
+            "ru": "Атмосфера расслабленная и непринуждённая."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2026,
+      "word": "reliable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈlaɪəbl]",
+        "br": "[rɪˈlaɪəbl]",
+        "gb": "[rɪˈlaɪəbl]"
+      },
+      "translations": {
+        "rus": "надежный, верный",
+        "spa": "fiable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is a reliable person.",
+            "ru": "Она надёжный человек."
+          },
+          {
+            "en": "I think you're reliable.",
+            "ru": "Я думаю, ты надёжный человек."
+          },
+          {
+            "en": "You're the most reliable friend I have.",
+            "ru": "Ты мой самый надёжный друг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "computer",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2027,
+      "word": "reserved",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈzɜːrvd]",
+        "br": "[rɪˈzɜːvd]",
+        "gb": "[rɪˈzɜːvd]"
+      },
+      "translations": {
+        "rus": "скрытный, сдержанный",
+        "spa": "reservado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2028,
+      "word": "resolute",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈrezəluːt]",
+        "br": "[ˈrezəluːt]",
+        "gb": "[ˈrezəluːt]"
+      },
+      "translations": {
+        "rus": "решительный",
+        "spa": "resuelto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2029,
+      "word": "respectful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈspektfl]",
+        "br": "[rɪˈspektfl]",
+        "gb": "[rɪsˈpektfʊl]"
+      },
+      "translations": {
+        "rus": "почтительный",
+        "spa": "respetuoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2030,
+      "word": "responsible",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈspɑːnsəbl]",
+        "br": "[rɪˈspɒnsəbl]",
+        "gb": "[rɪsˈpɔnsəbl]"
+      },
+      "translations": {
+        "rus": "ответственный",
+        "spa": "responsable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is responsible.",
+            "ru": "Она ответственная."
+          },
+          {
+            "en": "I'll be responsible.",
+            "ru": "Я буду ответственным."
+          },
+          {
+            "en": "I'm a responsible person.",
+            "ru": "Я ответственный человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You're not responsible.",
+            "es": "No sos responsable."
+          },
+          {
+            "en": "Am I responsible for this?",
+            "es": "¿Soy responsable de eso?"
+          },
+          {
+            "en": "I can't be held responsible.",
+            "es": "No puedo ser responsable."
+          },
+          {
+            "en": "Are you responsible for this mess?",
+            "es": "¿Eres tú el responsable de este desorden?"
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2031,
+      "word": "responsive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈspɑːnsɪv]",
+        "br": "[rɪˈspɒnsɪv]",
+        "gb": "[rɪsˈpɔnsɪv]"
+      },
+      "translations": {
+        "rus": "отзывчивый",
+        "spa": "sensible"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2032,
+      "word": "restrained",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪˈstreɪnd]",
+        "br": "[rɪˈstreɪnd]",
+        "gb": "[rɪsˈtreɪnd]"
+      },
+      "translations": {
+        "rus": "сдержанный",
+        "spa": "comedido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2033,
+      "word": "revengeful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[rɪˈvenʤfʊl]"
+      },
+      "translations": {
+        "rus": "мстительный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 700,
+      "word": "romantic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rəʊˈmæntɪk]",
+        "br": "[rəʊˈmæntɪk]",
+        "gb": "[reʊˈmæntɪk]"
+      },
+      "translations": {
+        "rus": "романтичный",
+        "spa": "romántico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is so romantic.",
+            "ru": "Это так романтично."
+          },
+          {
+            "en": "You're so romantic.",
+            "ru": "Ты такой романтичный."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am not romantic at all.",
+            "es": "No soy nada romántico."
+          },
+          {
+            "en": "I love this romantic music.",
+            "es": "Me encanta esta música romántica."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2034,
+      "word": "rude",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ruːd]",
+        "br": "[ruːd]",
+        "gb": "[ruːd]"
+      },
+      "translations": {
+        "rus": "грубый (по характеру, отношению)",
+        "spa": "maleducado, grosero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He answered me very rudely.",
+            "ru": "Он ответил мне очень грубо."
+          },
+          {
+            "en": "I don't want to appear rude.",
+            "ru": "Я не хочу показаться грубым."
+          },
+          {
+            "en": "It's rude to stare.",
+            "ru": "Пялиться - грубо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a rude person.",
+            "es": "Él es una persona grosera."
+          },
+          {
+            "en": "I didn't mean to be rude.",
+            "es": "No quise ser maleducado."
+          },
+          {
+            "en": "I'm sorry I was rude to you.",
+            "es": "Lo siento si fui grosero contigo."
+          },
+          {
+            "en": "Aren't you being very rude?",
+            "es": "¿No estás siendo muy maleducado?"
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2035,
+      "word": "sceptical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈskeptɪkl]",
+        "br": "[ˈskeptɪkl]",
+        "gb": "[ˈskeptɪkl]"
+      },
+      "translations": {
+        "rus": "скептический",
+        "spa": "escéptico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2036,
+      "word": "self-assured",
+      "pos": null,
+      "transcription": {
+        "us": "[self] [əˈʃʊrd]",
+        "br": null,
+        "gb": "[self] [əˈʃʊəd]"
+      },
+      "translations": {
+        "rus": "самоуверенный",
+        "spa": "seguro de sí mismo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2037,
+      "word": "self-centered",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[self] [ˈsentərd]",
+        "br": "[self] [ˈsentəd]",
+        "gb": "[self] [ˈsentəd]"
+      },
+      "translations": {
+        "rus": "эгоцентричный",
+        "spa": "egocéntrico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2038,
+      "word": "self-confident",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[self] [ˈkɑːnfɪdənt]",
+        "br": "[self] [ˈkɒnfɪdənt]",
+        "gb": "[self] [ˈkɔnfɪdənt]"
+      },
+      "translations": {
+        "rus": "уверенный в себе",
+        "spa": "seguro de sí mismo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2039,
+      "word": "self-critical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[self] [ˈkrɪtɪkl]",
+        "br": "[self] [ˈkrɪtɪkl]",
+        "gb": "[self] [ˈkrɪtɪkəl]"
+      },
+      "translations": {
+        "rus": "самокритичный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2040,
+      "word": "self-starter",
+      "pos": null,
+      "transcription": {
+        "us": "[self] [ˈstɑːrtər]",
+        "br": "[self] [ˈstɑːtə(r)]",
+        "gb": "[self] [ˈstɑːtə]"
+      },
+      "translations": {
+        "rus": "инициативный",
+        "spa": "la persona dinámica"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2041,
+      "word": "selfish",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈselfɪʃ]",
+        "br": "[ˈselfɪʃ]",
+        "gb": "[ˈselfɪʃ]"
+      },
+      "translations": {
+        "rus": "самолюбивый, эгоистичный",
+        "spa": "egoísta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2042,
+      "word": "sensitive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsensətɪv]",
+        "br": "[ˈsensətɪv]",
+        "gb": "[ˈsensɪtɪv]"
+      },
+      "translations": {
+        "rus": "чувствительный, нежный",
+        "spa": "sensible"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's very sensitive.",
+            "ru": "Оно очень чувствительно."
+          },
+          {
+            "en": "Don't be so sensitive.",
+            "ru": "Не будь таким нежным."
+          },
+          {
+            "en": "He is sensitive to criticism.",
+            "ru": "Он чувствителен к критике."
+          },
+          {
+            "en": "I am very sensitive to heat.",
+            "ru": "Я очень чувствителен к жаре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2043,
+      "word": "sentimental",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌsentɪˈmentl]",
+        "br": "[ˌsentɪˈmentl]",
+        "gb": "[sentɪˈmentl]"
+      },
+      "translations": {
+        "rus": "сентиментальный",
+        "spa": "sentimental"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2044,
+      "word": "serious",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪriəs]",
+        "br": "[ˈsɪəriəs]",
+        "gb": "[ˈsɪərɪəs]"
+      },
+      "translations": {
+        "rus": "серьезный",
+        "spa": "serio, grave"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It seems to be serious.",
+            "ru": "Кажется, это серьезно."
+          },
+          {
+            "en": "I thought you were serious.",
+            "ru": "Я думал, ты серьёзно."
+          },
+          {
+            "en": "We have a serious problem.",
+            "ru": "У нас серьёзная проблема."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It seems to be serious.",
+            "es": "Parece que es serio."
+          },
+          {
+            "en": "I made a serious mistake.",
+            "es": "Cometí un grave error."
+          },
+          {
+            "en": "He also was very serious.",
+            "es": "Él también era muy serio."
+          },
+          {
+            "en": "It's a very serious illness.",
+            "es": "Es una enfermedad muy grave."
+          },
+          {
+            "en": "She might be seriously ill.",
+            "es": "Ella podría estar seriamente enferma."
+          },
+          {
+            "en": "His car was seriously damaged.",
+            "es": "Su automóvil resultó con graves daños."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2045,
+      "word": "shy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʃaɪ]",
+        "br": "[ʃaɪ]",
+        "gb": "[ʃaɪ]"
+      },
+      "translations": {
+        "rus": "застенчивый, стеснительный",
+        "spa": "tímido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was a quiet, shy man.",
+            "ru": "Он был тихим, застенчивым человеком."
+          },
+          {
+            "en": "She was very shy with strangers.",
+            "ru": "Она была очень застенчива с незнакомыми людьми."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am a shy boy.",
+            "es": "Soy un hombre tímido."
+          },
+          {
+            "en": "He was shy at first.",
+            "es": "Al principio él era tímido."
+          },
+          {
+            "en": "That boy is really shy.",
+            "es": "Ese chico es realmente tímido."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2046,
+      "word": "skeptical",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈskeptɪkl]",
+        "br": "[ˈskeptɪkl]",
+        "gb": "[ˈskeptɪkl]"
+      },
+      "translations": {
+        "rus": "скептический",
+        "spa": "escéptico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2047,
+      "word": "slacker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈslækər]",
+        "br": "[ˈslækə(r)]",
+        "gb": "[ˈslækə]"
+      },
+      "translations": {
+        "rus": "лодырь",
+        "spa": "el vago"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2048,
+      "word": "slippery",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈslɪpəri]",
+        "br": "[ˈslɪpəri]",
+        "gb": "[ˈslɪpərɪ]"
+      },
+      "translations": {
+        "rus": "скользкий",
+        "spa": "resbaladizo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The roads are slippery.",
+            "ru": "Дороги скользкие."
+          },
+          {
+            "en": "It's too slippery.",
+            "ru": "Тут слишком скользко."
+          },
+          {
+            "en": "The floor is very slippery.",
+            "ru": "Пол очень скользкий."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "home"
+      ]
+    },
+    {
+      "id": 2049,
+      "word": "sluggish",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈslʌɡɪʃ]",
+        "br": "[ˈslʌɡɪʃ]",
+        "gb": "[ˈslʌgɪʃ]"
+      },
+      "translations": {
+        "rus": "медлительный",
+        "spa": "aletargado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2050,
+      "word": "sly",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[slaɪ]",
+        "br": "[slaɪ]",
+        "gb": "[slaɪ]"
+      },
+      "translations": {
+        "rus": "коварный, хитрый",
+        "spa": "astuto, pícaro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2051,
+      "word": "smart",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[smɑːrt]",
+        "br": "[smɑːt]",
+        "gb": "[smɑːt]"
+      },
+      "translations": {
+        "rus": "умный, разумный, сообразительный",
+        "spa": "inteligente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a smart boy.",
+            "ru": "Он умный мальчик."
+          },
+          {
+            "en": "Some squirrels are very smart.",
+            "ru": "Некоторые белки очень сообразительные."
+          },
+          {
+            "en": "Do you think you're smart?",
+            "ru": "Думаешь, ты умный?"
+          },
+          {
+            "en": "I'm not as smart as you.",
+            "ru": "Я не такой умный, как ты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a smart boy.",
+            "es": "Él es un chico inteligente."
+          },
+          {
+            "en": "My mom says I'm smart.",
+            "es": "Mi madre cree que soy inteligente."
+          },
+          {
+            "en": "My cat is really smart.",
+            "es": "Mi gato es verdaderamente inteligente."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2052,
+      "word": "sober-minded",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsəʊbər] [ˈmaɪndɪd]",
+        "br": "[ˈsəʊbə(r)] [ˈmaɪndɪd]",
+        "gb": "[ˈsəʊbə] [ˈmaɪndɪd]"
+      },
+      "translations": {
+        "rus": "рассудительный, здравомыслящий, трезвомыслящий",
+        "spa": "razonable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2053,
+      "word": "softhearted",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsɔftˈhɑːtɪd]"
+      },
+      "translations": {
+        "rus": "мягкосердечный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2054,
+      "word": "steadfast",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstedfæst]",
+        "br": "[ˈstedfɑːst]",
+        "gb": "[ˈstedfəst]"
+      },
+      "translations": {
+        "rus": "стойкий, выносливый",
+        "spa": "firme"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2055,
+      "word": "steady",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstedi]",
+        "br": "[ˈstedi]",
+        "gb": "[ˈstedɪ]"
+      },
+      "translations": {
+        "rus": "неуклонный, устойчивый, постоянный, равномерный, спокойный",
+        "spa": "firme, estabilizar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This table is steady.",
+            "ru": "Этот стол устойчив."
+          },
+          {
+            "en": "There was a steady increase in population.",
+            "ru": "Население постоянно росло."
+          },
+          {
+            "en": "Is this ladder steady enough?",
+            "ru": "Эта лестница достаточно устойчива?"
+          },
+          {
+            "en": "I've never had a steady job.",
+            "ru": "У меня никогда не было постоянной работы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2056,
+      "word": "stingy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstɪndʒi]",
+        "br": "[ˈstɪndʒi]",
+        "gb": "[ˈstɪnʤɪ]"
+      },
+      "translations": {
+        "rus": "скупой",
+        "spa": "tacaño"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2057,
+      "word": "strong-willed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌstrɔːŋ] [ˈwɪld]",
+        "br": "[ˌstrɒŋ] [ˈwɪld]",
+        "gb": "[strɔŋ] [wɪld]"
+      },
+      "translations": {
+        "rus": "волевой",
+        "spa": "tenaz"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2058,
+      "word": "stubborn",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstʌbərn]",
+        "br": "[ˈstʌbən]",
+        "gb": "[ˈstʌbən]"
+      },
+      "translations": {
+        "rus": "упертый, упрямый",
+        "spa": "terco"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "He is stubborn as a mule.",
+            "es": "Él es terco como una mula."
+          },
+          {
+            "en": "I don't like stubborn people.",
+            "es": "No me gusta la gente terca."
+          },
+          {
+            "en": "You've become old and stubborn.",
+            "es": "Estás viejo y terco."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2059,
+      "word": "stupid",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstuːpɪd]",
+        "br": "[ˈstjuːpɪd]",
+        "gb": "[ˈstjuːpɪd]"
+      },
+      "translations": {
+        "rus": "глупый, тупой",
+        "spa": "estúpido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was stupid to agree.",
+            "ru": "Я был глуп, чтобы согласиться."
+          },
+          {
+            "en": "He understands - he's not stupid.",
+            "ru": "Он понимает - он не глупый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a stupid idea.",
+            "es": "Esa fue una idea estúpida."
+          },
+          {
+            "en": "Do you think I'm stupid?",
+            "es": "¿Piensas que soy estúpido?"
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2060,
+      "word": "successful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[səkˈsesfl]",
+        "br": "[səkˈsesfl]",
+        "gb": "[səkˈsesfʊl]"
+      },
+      "translations": {
+        "rus": "успешный",
+        "spa": "exitoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is successful in everything.",
+            "ru": "Он успешен во всём."
+          },
+          {
+            "en": "He was a successful pianist in his day.",
+            "ru": "Он был успешным пианистом в свое время."
+          },
+          {
+            "en": "I was still striving to be successful.",
+            "ru": "Я по-прежнему стремился быть успешным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He became a successful lawyer.",
+            "es": "Él se convirtió en un exitoso abogado."
+          },
+          {
+            "en": "He is successful in everything.",
+            "es": "Él es exitoso en todo."
+          },
+          {
+            "en": "The probe launch was successful.",
+            "es": "El lanzamiento de la sonda fue exitoso."
+          },
+          {
+            "en": "His escape attempt was successful.",
+            "es": "Su intento de fuga fue exitoso."
+          },
+          {
+            "en": "The treatment is going successfully.",
+            "es": "El tratamiento está siendo exitoso."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2061,
+      "word": "tactful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtæktfl]",
+        "br": "[ˈtæktfl]",
+        "gb": "[ˈtæktfʊl]"
+      },
+      "translations": {
+        "rus": "тактичный",
+        "spa": "discreto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2062,
+      "word": "talented",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtæləntɪd]",
+        "br": "[ˈtæləntɪd]",
+        "gb": "[ˈtæləntɪd]"
+      },
+      "translations": {
+        "rus": "талантливый",
+        "spa": "talentoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're so talented.",
+            "ru": "Ты так талантлив."
+          },
+          {
+            "en": "They are both talented.",
+            "ru": "Они оба талантливы."
+          },
+          {
+            "en": "He's young and talented.",
+            "ru": "Он молодой и талантливый."
+          },
+          {
+            "en": "You're a talented writer.",
+            "ru": "Ты талантливый писатель."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2063,
+      "word": "talkative",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtɔːkətɪv]",
+        "br": "[ˈtɔːkətɪv]",
+        "gb": "[ˈtɔːkətɪv]"
+      },
+      "translations": {
+        "rus": "разговорчивый",
+        "spa": "hablador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I'm not as talkative as you.",
+            "es": "No soy tan hablador como tú."
+          },
+          {
+            "en": "My friend is a talkative person.",
+            "es": "Mi amigo habla mucho."
+          }
+        ]
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2064,
+      "word": "temper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtempər]",
+        "br": "[ˈtempə(r)]",
+        "gb": "[ˈtempə]"
+      },
+      "translations": {
+        "rus": "темперамент, характер, настроение",
+        "spa": "el humor, el temperamento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a vile temper.",
+            "ru": "Она имеет скверный нрав."
+          },
+          {
+            "en": "He has a fiery temper.",
+            "ru": "У него горячий характер."
+          },
+          {
+            "en": "Don't try my temper!",
+            "ru": "Не выводи меня из себя!"
+          },
+          {
+            "en": "I apologize for losing my temper.",
+            "ru": "Прощу прощения за то, что вышел из себя."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2065,
+      "word": "temperament",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtemprəmənt]",
+        "br": "[ˈtemprəmənt]",
+        "gb": "[ˈtempərəmənt]"
+      },
+      "translations": {
+        "rus": "темперамент",
+        "spa": "el temperamento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "psychology"
+      ]
+    },
+    {
+      "id": 2066,
+      "word": "temperate",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtempərət]",
+        "br": "[ˈtempərət]",
+        "gb": "[ˈtempərɪt]"
+      },
+      "translations": {
+        "rus": "умеренный, сдержанный",
+        "spa": "templado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2067,
+      "word": "tender",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtendər]",
+        "br": "[ˈtendə(r)]",
+        "gb": "[ˈtendə]"
+      },
+      "translations": {
+        "rus": "нежный, ласковый, заботливый",
+        "spa": "tierno, ofrecer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The meat is really tender.",
+            "ru": "Мясо действительно нежное."
+          },
+          {
+            "en": "The turkey was tender and juicy.",
+            "ru": "Индейка была нежная и сочная."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2068,
+      "word": "timid",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtɪmɪd]",
+        "br": "[ˈtɪmɪd]",
+        "gb": "[ˈtɪmɪd]"
+      },
+      "translations": {
+        "rus": "робкий, застенчивый",
+        "spa": "tímido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was a timid child.",
+            "ru": "Я был застенчивым ребенком."
+          },
+          {
+            "en": "He gave her a timid smile.",
+            "ru": "Он робко улыбнулся ей."
+          },
+          {
+            "en": "She's very timid and shy when meeting strangers.",
+            "ru": "Она очень робкая и застенчивая при встрече с незнакомцами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2069,
+      "word": "tolerant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtɑːlərənt]",
+        "br": "[ˈtɒlərənt]",
+        "gb": "[ˈtɔlərənt]"
+      },
+      "translations": {
+        "rus": "толерантный",
+        "spa": "tolerante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2070,
+      "word": "touchy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtʌtʃi]",
+        "br": "[ˈtʌtʃi]",
+        "gb": "[ˈtʌʧɪ]"
+      },
+      "translations": {
+        "rus": "обидчивый",
+        "spa": "susceptible, delicado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 745,
+      "word": "trait",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪt]",
+        "br": "[treɪt]",
+        "gb": "[treɪt]"
+      },
+      "translations": {
+        "rus": "черта, особенность",
+        "spa": "la característica"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "character",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2071,
+      "word": "trusting",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtrʌstɪŋ]",
+        "br": "[ˈtrʌstɪŋ]",
+        "gb": "[ˈtrʌstɪŋ]"
+      },
+      "translations": {
+        "rus": "доверчивый",
+        "spa": "confiado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2072,
+      "word": "uninhibited",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnɪnˈhɪbɪtɪd]",
+        "br": "[ˌʌnɪnˈhɪbɪtɪd]",
+        "gb": "[ˈʌnɪnˈhɪbɪtɪd]"
+      },
+      "translations": {
+        "rus": "раскованный",
+        "spa": "desinhibido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2073,
+      "word": "unobtrusive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnəbˈtruːsɪv]",
+        "br": "[ˌʌnəbˈtruːsɪv]",
+        "gb": "[ˈʌnəbˈtruːsɪv]"
+      },
+      "translations": {
+        "rus": "ненавязчивый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2074,
+      "word": "unsociable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʌnˈsəʊʃəbl]",
+        "br": "[ʌnˈsəʊʃəbl]",
+        "gb": "[ʌnˈsəʊʃəbl]"
+      },
+      "translations": {
+        "rus": "замкнутый",
+        "spa": "huraño"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2075,
+      "word": "venturesome",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈventʃərsəm]",
+        "br": "[ˈventʃəsəm]",
+        "gb": "[ˈvenʧəsəm]"
+      },
+      "translations": {
+        "rus": "азартный, склонный к риску",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2076,
+      "word": "versatile",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvɜːrsətl]",
+        "br": "[ˈvɜːsətaɪl]",
+        "gb": "[ˈvɜːsətaɪl]"
+      },
+      "translations": {
+        "rus": "разносторонний",
+        "spa": "versátil, polifacético"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2077,
+      "word": "vulnerable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvʌlnərəbl]",
+        "br": "[ˈvʌlnərəbl]",
+        "gb": "[ˈvʌlnərəbl]"
+      },
+      "translations": {
+        "rus": "ранимый, уязвимый",
+        "spa": "vulnerable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2078,
+      "word": "wasteful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈweɪstfl]",
+        "br": "[ˈweɪstfl]",
+        "gb": "[ˈweɪstfʊl]"
+      },
+      "translations": {
+        "rus": "расточительный",
+        "spa": "despilfarrador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2079,
+      "word": "weak-willed",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wiːk] [wɪld]"
+      },
+      "translations": {
+        "rus": "слабовольный",
+        "spa": "sin voluntad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2080,
+      "word": "well-bred",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[wel] [bred]",
+        "br": "[wel] [bred]",
+        "gb": "[wel] [bred]"
+      },
+      "translations": {
+        "rus": "благовоспитанный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2081,
+      "word": "well-wishing",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wel] [ˈwɪʃɪŋ]"
+      },
+      "translations": {
+        "rus": "доброжелательный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    },
+    {
+      "id": 2082,
+      "word": "wise",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[waɪz]",
+        "br": "[waɪz]",
+        "gb": "[waɪz]"
+      },
+      "translations": {
+        "rus": "мудрый, разумный",
+        "spa": "sabio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Not all men are wise.",
+            "ru": "Не все люди мудры."
+          },
+          {
+            "en": "It was wise of you to keep away from him.",
+            "ru": "Было разумно с вашей стороны держаться от него подальше."
+          },
+          {
+            "en": "He is wise beyond his years.",
+            "ru": "Он мудр не по годам."
+          },
+          {
+            "en": "You made a wise choice.",
+            "ru": "Ты принял мудрое решение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "character",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2083,
+      "word": "witty",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈwɪti]",
+        "br": "[ˈwɪti]",
+        "gb": "[ˈwɪtɪ]"
+      },
+      "translations": {
+        "rus": "находчивый, остроумный",
+        "spa": "agudo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "character"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1367 @@
+{
+  "category": {
+    "id": "colors",
+    "name_rus": "Цвета",
+    "type": "topic",
+    "word_count": 45
+  },
+  "words": [
+    {
+      "id": 2260,
+      "word": "amber",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæmbər]",
+        "br": "[ˈæmbə(r)]",
+        "gb": "[ˈæmbə]"
+      },
+      "translations": {
+        "rus": "янтарный",
+        "spa": "ámbar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2261,
+      "word": "aqua",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɑːkwə]",
+        "br": "[ˈækwə]",
+        "gb": "[ˈækwə]"
+      },
+      "translations": {
+        "rus": "морская волна",
+        "spa": "aguamarina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2262,
+      "word": "aquamarine",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɑːkwəməˈriːn]",
+        "br": "[ˌækwəməˈriːn]",
+        "gb": "[ækwəməˈriːn]"
+      },
+      "translations": {
+        "rus": "аквамарин",
+        "spa": "aguamarina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2263,
+      "word": "azure",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈæʒər]",
+        "br": "[ˈæʒə(r)]",
+        "gb": "[ˈæʒə]"
+      },
+      "translations": {
+        "rus": "лазурный",
+        "spa": "azur, celeste"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2264,
+      "word": "beige",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[beɪʒ]",
+        "br": "[beɪʒ]",
+        "gb": "[beɪʒ]"
+      },
+      "translations": {
+        "rus": "бежевый",
+        "spa": "beige"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2265,
+      "word": "black",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[blæk]",
+        "br": "[blæk]",
+        "gb": "[blæk]"
+      },
+      "translations": {
+        "rus": "чёрный",
+        "spa": "negro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It is a black hole.",
+            "ru": "Это чёрная дыра."
+          },
+          {
+            "en": "Black looks good on you.",
+            "ru": "Тебе идёт чёрный."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I drive a black car.",
+            "es": "Yo ando en un auto negro."
+          },
+          {
+            "en": "He has a black shirt.",
+            "es": "Tiene una camisa negra."
+          },
+          {
+            "en": "I have a big black dog.",
+            "es": "Tengo un perro negro grande."
+          },
+          {
+            "en": "Do you like black cats?",
+            "es": "¿Te gustan los gatos negros?"
+          }
+        ]
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2093,
+      "word": "blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[bluː]",
+        "br": "[bluː]",
+        "gb": "[bluː]"
+      },
+      "translations": {
+        "rus": "синий, голубой",
+        "spa": "azul"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why is the sky blue?",
+            "ru": "Почему небо голубое?"
+          },
+          {
+            "en": "I need more blue paint.",
+            "ru": "Мне нужно больше синей краски."
+          },
+          {
+            "en": "We painted the door blue.",
+            "ru": "Мы покрасили дверь в синий цвет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How blue the sky is!",
+            "es": "¡Qué cielo tan azul!"
+          },
+          {
+            "en": "My old dress is blue.",
+            "es": "Mi vestido viejo es azul."
+          },
+          {
+            "en": "Blue looks good on you.",
+            "es": "Te sienta bien el azul."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 319,
+      "word": "bronze",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[brɑːnz]",
+        "br": "[brɒnz]",
+        "gb": "[brɔnz]"
+      },
+      "translations": {
+        "rus": "бронза, бронзовый",
+        "spa": "bronce"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stone tools precede bronze tools.",
+            "ru": "Каменные орудия предшествовали бронзовым."
+          },
+          {
+            "en": "A bronze plaque marked the city's oldest building.",
+            "ru": "Старейшее здание города было отмечено бронзовой мемориальной табличкой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "colors"
+      ]
+    },
+    {
+      "id": 2100,
+      "word": "brown",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[braʊn]",
+        "br": "[braʊn]",
+        "gb": "[braʊn]"
+      },
+      "translations": {
+        "rus": "коричневый",
+        "spa": "marrón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The brown hat is old.",
+            "ru": "Коричневая шляпа старая."
+          },
+          {
+            "en": "I'd prefer a brown one.",
+            "ru": "Я бы предпочёл коричневый."
+          },
+          {
+            "en": "My favorite color is brown.",
+            "ru": "Мой любимый цвет - коричневый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cat is brown.",
+            "es": "El gato es marrón."
+          },
+          {
+            "en": "His shoes are brown.",
+            "es": "Sus zapatos son marrones."
+          },
+          {
+            "en": "The lettuce has turned brown.",
+            "es": "La ensalada se puso marrón."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2266,
+      "word": "copper",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkɑːpər]",
+        "br": "[ˈkɒpə(r)]",
+        "gb": "[ˈkɔpə]"
+      },
+      "translations": {
+        "rus": "медный",
+        "spa": "cobrizo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2267,
+      "word": "coral",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkɔːrəl]",
+        "br": "[ˈkɒrəl]",
+        "gb": "[ˈkɔrəl]"
+      },
+      "translations": {
+        "rus": "коралловый",
+        "spa": "coral"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2268,
+      "word": "cream",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kriːm]",
+        "br": "[kriːm]",
+        "gb": "[kriːm]"
+      },
+      "translations": {
+        "rus": "кремового цвета",
+        "spa": "color crema"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2269,
+      "word": "dark",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɑːrk]",
+        "br": "[dɑːk]",
+        "gb": "[dɑːk]"
+      },
+      "translations": {
+        "rus": "тёмный",
+        "spa": "oscuro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a dark night.",
+            "ru": "Была тёмная ночь."
+          },
+          {
+            "en": "He wore a dark sweater.",
+            "ru": "На нём был тёмный свитер."
+          },
+          {
+            "en": "This room is too dark.",
+            "ru": "Эта комната очень тёмная."
+          },
+          {
+            "en": "The Japanese have dark eyes.",
+            "ru": "У японцев тёмные глаза."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a dark night.",
+            "es": "Fue una noche oscura."
+          },
+          {
+            "en": "It is dark in that room.",
+            "es": "Esta habitación está oscura."
+          },
+          {
+            "en": "I like dark red better.",
+            "es": "Prefiero el rojo oscuro."
+          },
+          {
+            "en": "He had dark brown hair.",
+            "es": "Tenía el pelo castaño oscuro."
+          },
+          {
+            "en": "This cherry is dark red.",
+            "es": "Esta cereza es roja oscura."
+          }
+        ]
+      },
+      "categories": [
+        "colors",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2270,
+      "word": "dark-blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɑːrk] [bluː]",
+        "br": "[dɑːk] [bluː]",
+        "gb": "[dɑːk] [bluː]"
+      },
+      "translations": {
+        "rus": "темно-синий",
+        "spa": "azul oscuro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2271,
+      "word": "emerald",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈemərəld]",
+        "br": "[ˈemərəld]",
+        "gb": "[ˈemərəld]"
+      },
+      "translations": {
+        "rus": "изумрудный",
+        "spa": "esmeralda"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2272,
+      "word": "fuchsia",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfjuːʃə]",
+        "br": "[ˈfjuːʃə]",
+        "gb": "[ˈfjuːʃə]"
+      },
+      "translations": {
+        "rus": "фуксия",
+        "spa": "fucsia"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2273,
+      "word": "golden",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɡəʊldən]",
+        "br": "[ˈɡəʊldən]",
+        "gb": "[ˈgəʊldən]"
+      },
+      "translations": {
+        "rus": "золотой, золотистый",
+        "spa": "dorado, de oro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2274,
+      "word": "gray",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɡreɪ]",
+        "br": "[ɡreɪ]",
+        "gb": "[greɪ]"
+      },
+      "translations": {
+        "rus": "серый",
+        "spa": "gris"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a miserable gray day.",
+            "ru": "Это был печальный серый день."
+          },
+          {
+            "en": "Usually I wear black, gray, or brown.",
+            "ru": "Обычно я ношу чёрное, серое или коричневое."
+          },
+          {
+            "en": "Her socks are gray.",
+            "ru": "Её носки серые."
+          },
+          {
+            "en": "His sweater is gray.",
+            "ru": "Его свитер серый."
+          },
+          {
+            "en": "I picked out the gray hat.",
+            "ru": "Я выбрал серую шляпу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2275,
+      "word": "green",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɡriːn]",
+        "br": "[ɡriːn]",
+        "gb": "[griːn]"
+      },
+      "translations": {
+        "rus": "зелёный",
+        "spa": "verde"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want a green one.",
+            "ru": "Я хочу зелёную."
+          },
+          {
+            "en": "A green light is on.",
+            "ru": "Горит зелёный свет."
+          },
+          {
+            "en": "You look a little green.",
+            "ru": "Ты какой-то зелёный."
+          },
+          {
+            "en": "Do you drink green tea?",
+            "ru": "Ты пьёшь зелёный чай?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Give me the green book.",
+            "es": "Dame el libro verde."
+          },
+          {
+            "en": "I have one green shirt.",
+            "es": "Tengo una camisa verde."
+          },
+          {
+            "en": "Do you drink green tea?",
+            "es": "¿Tomas té verde?"
+          },
+          {
+            "en": "You look a little green.",
+            "es": "Estás un poco verde."
+          }
+        ]
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2276,
+      "word": "grey",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɡreɪ]",
+        "br": "[ɡreɪ]",
+        "gb": "[greɪ]"
+      },
+      "translations": {
+        "rus": "серый",
+        "spa": "gris"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a miserable grey day.",
+            "ru": "Это был печальный серый день."
+          },
+          {
+            "en": "Usually I wear black, grey, or brown.",
+            "ru": "Обычно я ношу чёрное, серое или коричневое."
+          },
+          {
+            "en": "Her socks are grey.",
+            "ru": "Её носки серые."
+          },
+          {
+            "en": "His sweater is grey.",
+            "ru": "Его свитер серый."
+          },
+          {
+            "en": "I picked out the grey hat.",
+            "ru": "Я выбрал серую шляпу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2277,
+      "word": "indigo",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɪndɪɡəʊ]",
+        "br": "[ˈɪndɪɡəʊ]",
+        "gb": "[ˈɪndɪgəʊ]"
+      },
+      "translations": {
+        "rus": "индиго",
+        "spa": "índigo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2278,
+      "word": "ivory",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈaɪvəri]",
+        "br": "[ˈaɪvəri]",
+        "gb": "[ˈaɪvərɪ]"
+      },
+      "translations": {
+        "rus": "слоновая кость",
+        "spa": "marfil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2279,
+      "word": "khaki, forest green",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkɑːki], [ˈfɔːrɪst] [ɡriːn]",
+        "br": "[ˈkɑːki], [ˈfɒrɪst] [ɡriːn]",
+        "gb": "[ˈkɑːkɪ] [ˈfɔrɪst] [griːn]"
+      },
+      "translations": {
+        "rus": "хаки",
+        "spa": "caqui"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2280,
+      "word": "light",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[laɪt]",
+        "br": "[laɪt]",
+        "gb": "[laɪt]"
+      },
+      "translations": {
+        "rus": "светлый",
+        "spa": "claro, brillante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like light colors.",
+            "ru": "Мне нравятся светлые цвета."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I prefer a lighter color.",
+            "es": "Prefiero un color más claro."
+          },
+          {
+            "en": "It is still light outside.",
+            "es": "Todavía está claro afuera."
+          }
+        ]
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2281,
+      "word": "light-blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[laɪt] [bluː]",
+        "br": "[laɪt] [bluː]",
+        "gb": "[laɪt] [bluː]"
+      },
+      "translations": {
+        "rus": "светло-голубой",
+        "spa": "azul claro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2282,
+      "word": "light-green",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[laɪt] [ɡriːn]",
+        "br": "[laɪt] [ɡriːn]",
+        "gb": "[laɪt] [griːn]"
+      },
+      "translations": {
+        "rus": "светло-зелёный",
+        "spa": "verde claro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2283,
+      "word": "lilac",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlaɪlək]",
+        "br": "[ˈlaɪlək]",
+        "gb": "[ˈlaɪlək]"
+      },
+      "translations": {
+        "rus": "сиреневый",
+        "spa": "lila"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2284,
+      "word": "lime green",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[laɪm] [ɡriːn]",
+        "br": "[laɪm] [ɡriːn]",
+        "gb": "[laɪm] [griːn]"
+      },
+      "translations": {
+        "rus": "лимонно-зеленый",
+        "spa": "verde lima"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2285,
+      "word": "magenta",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[məˈdʒentə]",
+        "br": "[məˈdʒentə]",
+        "gb": "[məˈʤentə]"
+      },
+      "translations": {
+        "rus": "пурпурный, маджента",
+        "spa": "magenta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2286,
+      "word": "maroon",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[məˈruːn]",
+        "br": "[məˈruːn]",
+        "gb": "[məˈruːn]"
+      },
+      "translations": {
+        "rus": "тёмно-бордовый",
+        "spa": "granate"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2287,
+      "word": "navy, navy blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈneɪvi], [ˈneɪvi] [bluː]",
+        "br": "[ˈneɪvi], [ˈneɪvi] [bluː]",
+        "gb": "[ˈneɪvɪ] [ˈneɪvɪ] [bluː]"
+      },
+      "translations": {
+        "rus": "тёмно-синий",
+        "spa": "marina, azul marino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2288,
+      "word": "olive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɑːlɪv]",
+        "br": "[ˈɒlɪv]",
+        "gb": "[ˈɔlɪv]"
+      },
+      "translations": {
+        "rus": "оливковый",
+        "spa": "verde olivo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2167,
+      "word": "orange",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈɔːrɪndʒ]",
+        "br": "[ˈɒrɪndʒ]",
+        "gb": "[ˈɔrɪnʤ]"
+      },
+      "translations": {
+        "rus": "оранжевый",
+        "spa": "naranja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like the color orange.",
+            "ru": "Я люблю оранжевый цвет."
+          },
+          {
+            "en": "I'm wearing an orange T-shirt.",
+            "ru": "Я ношу оранжевую футболку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 269,
+      "word": "pale",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[peɪl]",
+        "br": "[peɪl]",
+        "gb": "[peɪl]"
+      },
+      "translations": {
+        "rus": "бледный",
+        "spa": "claro, pálido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He looks kind of pale.",
+            "ru": "Он какой-то бледный."
+          },
+          {
+            "en": "Why are you so pale?",
+            "ru": "Ты чего такая бледная?"
+          },
+          {
+            "en": "He turned pale with fear.",
+            "ru": "Он побледнел от страха."
+          },
+          {
+            "en": "You look pale as a ghost.",
+            "ru": "Ты бледный как привидение."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He turned pale the instant he saw her.",
+            "es": "Palideció en cuanto le vio."
+          },
+          {
+            "en": "You look pale as a ghost.",
+            "es": "Te ves tan pálido como un fantasma."
+          },
+          {
+            "en": "When she heard the news, she turned pale.",
+            "es": "Cuando ella escuchó la noticia palideció."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "colors",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2289,
+      "word": "pearl color",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pɜːrl]",
+        "br": "[pɜːl]",
+        "gb": "[pɜːl]"
+      },
+      "translations": {
+        "rus": "жемчужный",
+        "spa": "perla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2180,
+      "word": "pink",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pɪŋk]",
+        "br": "[pɪŋk]",
+        "gb": "[pɪŋk]"
+      },
+      "translations": {
+        "rus": "розовый",
+        "spa": "rosado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a pink car.",
+            "ru": "У меня розовая машина."
+          },
+          {
+            "en": "Pink's a girlie colour!",
+            "ru": "Розовый — девчачий цвет!"
+          },
+          {
+            "en": "I don't think pink and yellow really go.",
+            "ru": "Я не думаю, что розовый и жёлтый хорошо сочетаются."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2290,
+      "word": "purple",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpɜːrpl]",
+        "br": "[ˈpɜːpl]",
+        "gb": "[pɜːpl]"
+      },
+      "translations": {
+        "rus": "пурпурный, лиловый, фиолетовый",
+        "spa": "morado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You can make purple by mixing red and blue.",
+            "ru": "Фиолетовый цвет можно получить путём смешивания красного и синего."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "colors",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 2190,
+      "word": "red",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[red]",
+        "br": "[red]",
+        "gb": "[red]"
+      },
+      "translations": {
+        "rus": "красный",
+        "spa": "rojo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is that a red pen?",
+            "ru": "Это красная ручка?"
+          },
+          {
+            "en": "I ate the red apples.",
+            "ru": "Я съел красные яблоки."
+          },
+          {
+            "en": "The roof of the house is red.",
+            "ru": "Крыша дома красная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My new dress is red.",
+            "es": "Mi vestido nuevo es rojo."
+          },
+          {
+            "en": "You ran a red light.",
+            "es": "Te pasaste un semáforo rojo."
+          },
+          {
+            "en": "Red is out of fashion.",
+            "es": "El rojo ya no está de moda."
+          },
+          {
+            "en": "I want the red balloon.",
+            "es": "Quiero el globo rojo."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2291,
+      "word": "silvery",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪlvəri]",
+        "br": "[ˈsɪlvəri]",
+        "gb": "[ˈsɪlvərɪ]"
+      },
+      "translations": {
+        "rus": "серебристый",
+        "spa": "plateado, argentino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2292,
+      "word": "sky blue",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[skaɪ] [bluː]",
+        "br": "[skaɪ] [bluː]",
+        "gb": "[skaɪ] [bluː]"
+      },
+      "translations": {
+        "rus": "небесно-голубой",
+        "spa": "azul celeste"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 285,
+      "word": "snow-white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[snəʊ] [waɪt]",
+        "br": "[snəʊ] [waɪt]",
+        "gb": "[snəʊ] [waɪt]"
+      },
+      "translations": {
+        "rus": "белоснежный",
+        "spa": "blanco como la nieve"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "colors"
+      ]
+    },
+    {
+      "id": 2293,
+      "word": "turquoise",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtɜːrkwɔɪz]",
+        "br": "[ˈtɜːkwɔɪz]",
+        "gb": "[ˈtɜːkwɑːz]"
+      },
+      "translations": {
+        "rus": "бирюзовый",
+        "spa": "turquesa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "colors"
+      ]
+    },
+    {
+      "id": 2251,
+      "word": "violet",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈvaɪələt]",
+        "br": "[ˈvaɪələt]",
+        "gb": "[ˈvaɪəlɪt]"
+      },
+      "translations": {
+        "rus": "фиолетовый, темно-лиловый",
+        "spa": "violeta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "colors"
+      ]
+    },
+    {
+      "id": 2255,
+      "word": "white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[waɪt]",
+        "br": "[waɪt]",
+        "gb": "[waɪt]"
+      },
+      "translations": {
+        "rus": "белый",
+        "spa": "blanco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I prefer red wine to white.",
+            "ru": "Я больше люблю красное вино, чем белое."
+          },
+          {
+            "en": "He came out dressed in white.",
+            "ru": "Он вышел, одетый во всё белое."
+          },
+          {
+            "en": "He had a long, white beard.",
+            "ru": "У него была длинная белая борода."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a white cat.",
+            "es": "Tiene un gato blanco."
+          },
+          {
+            "en": "It is white as snow.",
+            "es": "Es blanco como la nieve."
+          },
+          {
+            "en": "Do you like white wine?",
+            "es": "¿Te gusta el vino blanco?"
+          },
+          {
+            "en": "She had white shoes on.",
+            "es": "Ella llevaba unos zapatos blancos."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2259,
+      "word": "yellow",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈjeləʊ]",
+        "br": "[ˈjeləʊ]",
+        "gb": "[ˈjeləʊ]"
+      },
+      "translations": {
+        "rus": "жёлтый",
+        "spa": "amarillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Bananas are yellow.",
+            "ru": "Бананы жёлтые."
+          },
+          {
+            "en": "I love my yellow sweater.",
+            "ru": "Я люблю свой жёлтый свитер."
+          },
+          {
+            "en": "Yellow is my favorite color.",
+            "ru": "Жёлтый — мой любимый цвет."
+          },
+          {
+            "en": "My friend bought a yellow car.",
+            "ru": "Мой друг купил жёлтую машину."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There is a yellow rose.",
+            "es": "Hay una rosa amarilla ahí."
+          },
+          {
+            "en": "Don't you like my yellow scarf?",
+            "es": "¿No te gusta mi bufanda amarilla?"
+          },
+          {
+            "en": "He lives in that yellow house.",
+            "es": "Él vive en aquella casa amarilla."
+          },
+          {
+            "en": "The door of the office is yellow.",
+            "es": "La puerta de la oficina es amarilla."
+          }
+        ]
+      },
+      "categories": [
+        "clothing",
+        "colors",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    }
+  ]
+}

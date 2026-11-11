@@ -1,0 +1,2919 @@
+{
+  "category": {
+    "id": "military_weapons",
+    "name_rus": "Военное дело, оружие",
+    "type": "topic",
+    "word_count": 124
+  },
+  "words": [
+    {
+      "id": 5497,
+      "word": "aggression",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈɡreʃn]",
+        "br": "[əˈɡreʃn]",
+        "gb": "[əˈgreʃn]"
+      },
+      "translations": {
+        "rus": "агрессия",
+        "spa": "la agresión, la agresividad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fear causes aggression in dogs.",
+            "ru": "Страх вызывает у собак агрессию."
+          },
+          {
+            "en": "Is aggression natural, or is it learned?",
+            "ru": "Агрессия является естественной или приобретенной?"
+          },
+          {
+            "en": "There's a fine line between assertiveness and aggression.",
+            "ru": "Между самоутверждением и агрессией очень тонкая грань."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5498,
+      "word": "air fighter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[er] [ˈfaɪtər]",
+        "br": "[eə(r)] [ˈfaɪtə(r)]",
+        "gb": "[ɛə] [ˈfaɪtə]"
+      },
+      "translations": {
+        "rus": "воздушный истребитель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5499,
+      "word": "air gun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[er] [ɡʌn]",
+        "br": "[eə(r)] [ɡʌn]",
+        "gb": "[ɛə] [gʌn]"
+      },
+      "translations": {
+        "rus": "пневматическое оружие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5500,
+      "word": "ammunition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌæmjəˈnɪʃn]",
+        "br": "[ˌæmjəˈnɪʃn]",
+        "gb": "[æmjʊˈnɪʃn]"
+      },
+      "translations": {
+        "rus": "боеприпасы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5501,
+      "word": "amphibious aircraft",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æmˈfɪbiəs] [ˈerkræft]",
+        "br": "[æmˈfɪbiəs] [ˈeəkrɑːft]",
+        "gb": "[æmˈfɪbɪəs] [ˈɛəkrɑːft]"
+      },
+      "translations": {
+        "rus": "самолет-амфибия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5503,
+      "word": "armed vehicle",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": "[ɑːmd] [ˈviːəkl]",
+        "gb": "[ɑːmd] [ˈviːɪkl]"
+      },
+      "translations": {
+        "rus": "вооруженный автомобиль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5504,
+      "word": "armistice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmɪstɪs]",
+        "br": "[ˈɑːmɪstɪs]",
+        "gb": "[ˈɑːmɪstɪs]"
+      },
+      "translations": {
+        "rus": "перемирие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5505,
+      "word": "arrow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈærəʊ]",
+        "br": "[ˈærəʊ]",
+        "gb": "[ˈærəʊ]"
+      },
+      "translations": {
+        "rus": "стрела, стрелка",
+        "spa": "la flecha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The arrow pierced his back.",
+            "ru": "Его спину пронзила стрела."
+          },
+          {
+            "en": "The arrow missed the target.",
+            "ru": "Стрела пролетела мимо цели."
+          },
+          {
+            "en": "The arrow always points north.",
+            "ru": "Стрелка всегда указывает на север."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2",
+        "sport"
+      ]
+    },
+    {
+      "id": 5506,
+      "word": "arsenal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrsənl]",
+        "br": "[ˈɑːsənl]",
+        "gb": "[ˈɑːsɪnl]"
+      },
+      "translations": {
+        "rus": "арсенал, вооружение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5507,
+      "word": "artillery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrˈtɪləri]",
+        "br": "[ɑːˈtɪləri]",
+        "gb": "[ɑːˈtɪlərɪ]"
+      },
+      "translations": {
+        "rus": "артиллерия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5508,
+      "word": "assault rifle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈsɔːlt] [ˈraɪfl]",
+        "br": "[əˈsɔːlt] [ˈraɪfl]",
+        "gb": "[əˈsɔːlt] [raɪfl]"
+      },
+      "translations": {
+        "rus": "штурмовая винтовка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5509,
+      "word": "atomic bomb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈtɑːmɪk] [bɑːm]",
+        "br": "[əˈtɒmɪk] [bɒm]",
+        "gb": "[əˈtɔmɪk] [bɔm]"
+      },
+      "translations": {
+        "rus": "атомная бомба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5510,
+      "word": "axe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[æks]",
+        "br": "[æks]",
+        "gb": "[æks]"
+      },
+      "translations": {
+        "rus": "топор, секира",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5511,
+      "word": "ballistic missile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈlɪstɪk] [ˈmɪsl]",
+        "br": "[bəˈlɪstɪk] [ˈmɪsaɪl]",
+        "gb": "[bəˈlɪstɪk] [ˈmɪsaɪl]"
+      },
+      "translations": {
+        "rus": "баллистическая ракета",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5512,
+      "word": "bandolier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌbændəˈlɪr]",
+        "br": "[ˌbændəˈlɪə(r)]",
+        "gb": "[bændəʊˈlɪə]"
+      },
+      "translations": {
+        "rus": "патронташ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5513,
+      "word": "barrel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbærəl]",
+        "br": "[ˈbærəl]",
+        "gb": "[ˈbærəl]"
+      },
+      "translations": {
+        "rus": "ствол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5514,
+      "word": "bat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæt]",
+        "br": "[bæt]",
+        "gb": "[bæt]"
+      },
+      "translations": {
+        "rus": "бита, дубинка",
+        "spa": "el bate, la raqueta, la pala"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5515,
+      "word": "battalion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈtæliən]",
+        "br": "[bəˈtæliən]",
+        "gb": "[bəˈtæljən]"
+      },
+      "translations": {
+        "rus": "батальон, дивизион",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5516,
+      "word": "battledress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbætldres]",
+        "br": "[ˈbætldres]",
+        "gb": "[ˈbat(ə)ldrɛs]"
+      },
+      "translations": {
+        "rus": "походное обмундирование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5517,
+      "word": "bayonet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeɪənət]",
+        "br": "[ˈbeɪənət]",
+        "gb": "[ˈbeɪənɪt]"
+      },
+      "translations": {
+        "rus": "штык",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5518,
+      "word": "bazooka",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈzuːkə]",
+        "br": "[bəˈzuːkə]",
+        "gb": "[bɜːˈzuːkə]"
+      },
+      "translations": {
+        "rus": "базука, гранатомет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5519,
+      "word": "belligerent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈlɪdʒərənt]",
+        "br": "[bəˈlɪdʒərənt]",
+        "gb": "[bɪˈlɪʤərənt]"
+      },
+      "translations": {
+        "rus": "воюющая сторона",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 2089,
+      "word": "belt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[belt]",
+        "br": "[belt]",
+        "gb": "[belt]"
+      },
+      "translations": {
+        "rus": "пояс, ремень, лента, ленточный",
+        "spa": "el cinturón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's looking for a leather belt.",
+            "ru": "Он ищет кожаный пояс."
+          },
+          {
+            "en": "That is a leather belt.",
+            "ru": "Это кожаный ремень."
+          },
+          {
+            "en": "I'm a black belt in karate.",
+            "ru": "У меня чёрный пояс по карате."
+          },
+          {
+            "en": "He unbuckled his belt.",
+            "ru": "Он расстегнул ремень."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "military_weapons",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5521,
+      "word": "bivouac",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪvuæk]",
+        "br": "[ˈbɪvuæk]",
+        "gb": "[ˈbɪvʊæk]"
+      },
+      "translations": {
+        "rus": "ночевка, привал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5522,
+      "word": "bomb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːm]",
+        "br": "[bɒm]",
+        "gb": "[bɔm]"
+      },
+      "translations": {
+        "rus": "бомба, взрывное устройство, снаряд",
+        "spa": "la bomba"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a bomb in the plane!",
+            "ru": "В самолёте бомба!"
+          },
+          {
+            "en": "I said I had a bomb.",
+            "ru": "Я сказал, что у меня бомба."
+          },
+          {
+            "en": "The bomb missed its target.",
+            "ru": "Бомба не попала в цель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They didn't find the bomb.",
+            "es": "No encontraron la bomba."
+          },
+          {
+            "en": "We heard the bomb go off.",
+            "es": "Oímos a la bomba estallar."
+          },
+          {
+            "en": "The bomb destroyed three houses.",
+            "es": "La bomba destruyó tres casas."
+          },
+          {
+            "en": "The bomb exploded two days ago.",
+            "es": "La bomba explotó hace dos días atrás."
+          }
+        ]
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2094,
+      "word": "boot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[buːt]",
+        "br": "[buːt]",
+        "gb": "[buːt]"
+      },
+      "translations": {
+        "rus": "ботинок, сапог",
+        "spa": "la bota"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I bought a pair of boots.",
+            "ru": "Я купил пару ботинок."
+          },
+          {
+            "en": "Where are my boots?",
+            "ru": "Где мои сапоги?"
+          },
+          {
+            "en": "The dog chewed up my boot.",
+            "ru": "Собака сжевала мой ботинок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "clothing",
+        "military_weapons",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5523,
+      "word": "bow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊ]",
+        "br": "[bəʊ]",
+        "gb": "[bəʊ]"
+      },
+      "translations": {
+        "rus": "лук",
+        "spa": "el arco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Give me your bow.",
+            "ru": "Дай мне свой лук."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1",
+        "sport"
+      ]
+    },
+    {
+      "id": 5524,
+      "word": "brass knuckles",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[brɑːs] [ˈnʌklz]"
+      },
+      "translations": {
+        "rus": "кастет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5525,
+      "word": "breastplate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrestpleɪt]",
+        "br": "[ˈbrestpleɪt]",
+        "gb": "[ˈbrestpleɪt]"
+      },
+      "translations": {
+        "rus": "нагрудный знак, нагрудник (броня)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5526,
+      "word": "breech block",
+      "pos": "noun",
+      "transcription": {
+        "us": "[briːtʃ] [blɑːk]",
+        "br": "[briːtʃ] [blɒk]",
+        "gb": "[briːʧ] [blɒk]"
+      },
+      "translations": {
+        "rus": "затвор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5527,
+      "word": "buckshot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌkʃɑːt]",
+        "br": "[ˈbʌkʃɒt]",
+        "gb": "[ˈbʌkʃɒt]"
+      },
+      "translations": {
+        "rus": "крупная дробь, картечь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5528,
+      "word": "bullet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊlɪt]",
+        "br": "[ˈbʊlɪt]",
+        "gb": "[ˈbʊlɪt]"
+      },
+      "translations": {
+        "rus": "пуля, патрон, снаряд",
+        "spa": "la bala"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Every bullet has its billet.",
+            "ru": "Пуля виноватого найдет."
+          },
+          {
+            "en": "The bullet lodged in her shoulder.",
+            "ru": "Пуля попала ей в плечо."
+          },
+          {
+            "en": "The bullet went flying over my head.",
+            "ru": "Пуля пролетела у меня над головой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 5529,
+      "word": "bulletin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊlətɪn]",
+        "br": "[ˈbʊlətɪn]",
+        "gb": "[ˈbʊlɪtɪn]"
+      },
+      "translations": {
+        "rus": "отчет о военных действиях",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5530,
+      "word": "bulletproof vest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊlɪtpruːf] [vest]",
+        "br": "[ˈbʊlɪtpruːf] [vest]",
+        "gb": "[ˈbʊlɪtpruːf] [vest]"
+      },
+      "translations": {
+        "rus": "бронежилет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5531,
+      "word": "camouflage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæməflɑːʒ]",
+        "br": "[ˈkæməflɑːʒ]",
+        "gb": "[ˈkæmʊflɑːʒ]"
+      },
+      "translations": {
+        "rus": "камуфляж, маскировка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5532,
+      "word": "cannon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkænən]",
+        "br": "[ˈkænən]",
+        "gb": "[ˈkænən]"
+      },
+      "translations": {
+        "rus": "пушка, орудие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5533,
+      "word": "canteen",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kænˈtiːn]",
+        "br": "[kænˈtiːn]",
+        "gb": "[kænˈtiːn]"
+      },
+      "translations": {
+        "rus": "столовая, фляга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5535,
+      "word": "carbine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrbaɪn]",
+        "br": "[ˈkɑːbaɪn]",
+        "gb": "[ˈkɑːbaɪn]"
+      },
+      "translations": {
+        "rus": "карабин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 1376,
+      "word": "casualty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæʒuəlti]",
+        "br": "[ˈkæʒuəlti]",
+        "gb": "[ˈkæʒjʊəltɪ]"
+      },
+      "translations": {
+        "rus": "несчастный случай, жертва, потери (военные)",
+        "spa": "el accidente, la baja, la víctima, el herido (la herida)"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The number of casualties is still unknown.",
+            "ru": "Число жертв по-прежнему неизвестно."
+          },
+          {
+            "en": "The enemy suffered many casualties.",
+            "ru": "Противник понес большие потери."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5536,
+      "word": "catapult",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkætəpʌlt]",
+        "br": "[ˈkætəpʌlt]",
+        "gb": "[ˈkætəpʌlt]"
+      },
+      "translations": {
+        "rus": "катапульта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5537,
+      "word": "cavalry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkævlri]",
+        "br": "[ˈkævlri]",
+        "gb": "[ˈkævəlrɪ]"
+      },
+      "translations": {
+        "rus": "кавалерия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5538,
+      "word": "chevron",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʃevrən]"
+      },
+      "translations": {
+        "rus": "шеврон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5539,
+      "word": "club",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klʌb]",
+        "br": "[klʌb]",
+        "gb": "[klʌb]"
+      },
+      "translations": {
+        "rus": "клюшка, дубинка",
+        "spa": "el garrote, la porra, el palo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She beat him to death with a golf club.",
+            "ru": "Она забила его до смерти клюшкой для гольфа."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5540,
+      "word": "cluster munition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklʌstər] [mjuːˈnɪʃn]",
+        "br": "[ˈklʌstə(r)] [mjuːˈnɪʃn]",
+        "gb": "[ˈklʌstə] [mjuːˈnɪʃn]"
+      },
+      "translations": {
+        "rus": "кассетный боеприпас",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5542,
+      "word": "conscript",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnskrɪpt]",
+        "br": "[ˈkɒnskrɪpt]",
+        "gb": "[ˈkɔnskrɪpt]"
+      },
+      "translations": {
+        "rus": "призывник, новобранец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5543,
+      "word": "conscription",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈskrɪpʃn]",
+        "br": "[kənˈskrɪpʃn]",
+        "gb": "[kənˈskrɪpʃn]"
+      },
+      "translations": {
+        "rus": "призыв, воинская повинность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5544,
+      "word": "dagger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdæɡər]",
+        "br": "[ˈdæɡə(r)]",
+        "gb": "[ˈdægə]"
+      },
+      "translations": {
+        "rus": "кинжал, нож",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5546,
+      "word": "diplomacy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpləʊməsi]",
+        "br": "[dɪˈpləʊməsi]",
+        "gb": "[dɪˈpləʊməsɪ]"
+      },
+      "translations": {
+        "rus": "дипломатия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5547,
+      "word": "ejection port",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈdʒekʃn] [pɔːrt]",
+        "br": "[ɪˈdʒekʃn] [pɔːt]",
+        "gb": "[iːˈʤekʃn] [pɔːt]"
+      },
+      "translations": {
+        "rus": "выбрасыватель гильз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5548,
+      "word": "ejection rod",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈdʒekʃn] [rɑːd]",
+        "br": "[ɪˈdʒekʃn] [rɒd]",
+        "gb": "[iːˈʤekʃn] [rɔd]"
+      },
+      "translations": {
+        "rus": "стержень для выброса цилиндра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5549,
+      "word": "embargo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈbɑːrɡəʊ]",
+        "br": "[ɪmˈbɑːɡəʊ]",
+        "gb": "[emˈbɑːgəʊ]"
+      },
+      "translations": {
+        "rus": "блокада, запрет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5550,
+      "word": "enemy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈenəmi]",
+        "br": "[ˈenəmi]",
+        "gb": "[ˈenɪmɪ]"
+      },
+      "translations": {
+        "rus": "враг, неприятель, враждебный",
+        "spa": "el enemigo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am not your enemy.",
+            "ru": "Я не твой враг."
+          },
+          {
+            "en": "We took the enemy by surprise.",
+            "ru": "Мы застали неприятеля врасплох."
+          },
+          {
+            "en": "I know who my enemy is.",
+            "ru": "Я знаю, кто мой враг."
+          },
+          {
+            "en": "We can't get close to the enemy.",
+            "ru": "Мы не можем приблизиться к неприятелю."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The enemy attacked from behind.",
+            "es": "El enemigo atacó por detrás."
+          },
+          {
+            "en": "He's the enemy. Don't you understand?",
+            "es": "Él es el enemigo. ¿No entendés?"
+          },
+          {
+            "en": "Today's friends are tomorrow's enemies.",
+            "es": "El amigo de hoy es el enemigo de mañana."
+          }
+        ]
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5014,
+      "word": "espionage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈespiənɑːʒ]",
+        "br": "[ˈespiənɑːʒ]",
+        "gb": "[espɪəˈnɑːʒ]"
+      },
+      "translations": {
+        "rus": "шпионаж, слежка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "legal_english",
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5552,
+      "word": "flamethrower",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfleɪmθrəʊər]",
+        "br": "[ˈfleɪmθrəʊə(r)]",
+        "gb": "[ˈfleɪmθrəʊər]"
+      },
+      "translations": {
+        "rus": "огнемет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5553,
+      "word": "full dress uniform",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊl] [dres] [ˈjuːnɪfɔːrm]",
+        "br": "[fʊl] [dres] [ˈjuːnɪfɔːm]",
+        "gb": "[fʊl] [dres] [ˈjuːnɪfɔːm]"
+      },
+      "translations": {
+        "rus": "парадный мундир",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5554,
+      "word": "garrison",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡærɪsn]",
+        "br": "[ˈɡærɪsn]",
+        "gb": "[ˈgærɪsn]"
+      },
+      "translations": {
+        "rus": "гарнизон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5555,
+      "word": "grenade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəˈneɪd]",
+        "br": "[ɡrəˈneɪd]",
+        "gb": "[grɪˈneɪd]"
+      },
+      "translations": {
+        "rus": "граната",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5556,
+      "word": "grenade launcher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəˈneɪd] [ˈlɔːntʃər]",
+        "br": "[ɡrəˈneɪd] [ˈlɔːntʃə(r)]",
+        "gb": "[grɪˈneɪd] [ˈlɔːnʧə]"
+      },
+      "translations": {
+        "rus": "гранатомет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5557,
+      "word": "grip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrɪp]",
+        "br": "[ɡrɪp]",
+        "gb": "[grɪp]"
+      },
+      "translations": {
+        "rus": "рукоятка, ручка, зажим",
+        "spa": "la empuñadura, la horquilla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5558,
+      "word": "guerrilla war",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəˈrɪlə] [wɔːr]",
+        "br": "[ɡəˈrɪlə] [wɔː(r)]",
+        "gb": "[gəˈrɪlə] [wɔː]"
+      },
+      "translations": {
+        "rus": "партизанская война",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5559,
+      "word": "guided missile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡaɪdɪd] [ˈmɪsl]",
+        "br": "[ˈɡaɪdɪd] [ˈmɪsaɪl]",
+        "gb": "[ˈgaɪdɪd] [ˈmɪsaɪl]"
+      },
+      "translations": {
+        "rus": "управляемая ракета",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 2477,
+      "word": "hammer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhæmər]",
+        "br": "[ˈhæmə(r)]",
+        "gb": "[ˈhæmə]"
+      },
+      "translations": {
+        "rus": "молоток, молот",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He smashed the vase with a hammer.",
+            "ru": "Он разбил вазу молотком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5560,
+      "word": "handguard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhændɡɑːrd]",
+        "br": "[ˈhændɡɑːd]",
+        "gb": "[ˈhændgɑːd]"
+      },
+      "translations": {
+        "rus": "цевье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5561,
+      "word": "handgun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhændɡʌn]",
+        "br": "[ˈhændɡʌn]",
+        "gb": "[ˈhændgʌn]"
+      },
+      "translations": {
+        "rus": "короткоствольное оружие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5562,
+      "word": "hard hat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɑːrd] [hæt]",
+        "br": "[hɑːd] [hæt]",
+        "gb": "[hɑːd] [hæt]"
+      },
+      "translations": {
+        "rus": "каска",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 2480,
+      "word": "helmet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhelmɪt]",
+        "br": "[ˈhelmɪt]",
+        "gb": "[ˈhelmɪt]"
+      },
+      "translations": {
+        "rus": "каска, шлем",
+        "spa": "el casco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wearing a helmet reduces the risk of head injury.",
+            "ru": "Ношение шлема снижает риск травмы головы."
+          },
+          {
+            "en": "The helmet law should reduce injuries in motorcycle accidents.",
+            "ru": "Закон об обязательном ношении шлема должен снизить травматизм при авариях с участием мотоциклов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "military_weapons",
+        "oxford5000_b2",
+        "transport"
+      ]
+    },
+    {
+      "id": 5563,
+      "word": "howitzer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhaʊɪtsər]",
+        "br": "[ˈhaʊɪtsə(r)]",
+        "gb": "[ˈhaʊɪtsə]"
+      },
+      "translations": {
+        "rus": "гаубица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5564,
+      "word": "infantry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnfəntri]",
+        "br": "[ˈɪnfəntri]",
+        "gb": "[ˈɪnfəntrɪ]"
+      },
+      "translations": {
+        "rus": "пехота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5566,
+      "word": "iron sights",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪərn] [saɪts]",
+        "br": "[ˈaɪən] [saɪts]",
+        "gb": "[ˈaɪərn] [saɪts]"
+      },
+      "translations": {
+        "rus": "мушка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5567,
+      "word": "light machine gun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪt] [məˈʃiːn] [ɡʌn]",
+        "br": "[laɪt] [məˈʃiːn] [ɡʌn]",
+        "gb": "[laɪt] [məˈʃiːn] [gʌn]"
+      },
+      "translations": {
+        "rus": "легкий пулемет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5568,
+      "word": "machine gun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈʃiːn] [ɡʌn]",
+        "br": "[məˈʃiːn] [ɡʌn]",
+        "gb": "[məˈʃiːn] [gʌn]"
+      },
+      "translations": {
+        "rus": "пулемет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5569,
+      "word": "machine pistol",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈʃiːn] [ˈpɪstl]",
+        "br": "[məˈʃiːn] [ˈpɪstl]",
+        "gb": "[məˈʃiːn] [pɪstl]"
+      },
+      "translations": {
+        "rus": "автоматический пистолет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5570,
+      "word": "magazine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmæɡəziːn]",
+        "br": "[ˌmæɡəˈziːn]",
+        "gb": "[mægəˈziːn]"
+      },
+      "translations": {
+        "rus": "магазин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5571,
+      "word": "magazine release",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmæɡəziːn] [rɪˈliːs]",
+        "br": "[ˌmæɡəˈziːn] [rɪˈliːs]",
+        "gb": "[mægəˈziːn] [rɪˈliːs]"
+      },
+      "translations": {
+        "rus": "защелка магазина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5572,
+      "word": "manoeuvre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈnuːvər]",
+        "br": "[məˈnuːvə(r)]",
+        "gb": "[məˈnuːvə]"
+      },
+      "translations": {
+        "rus": "маневр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5573,
+      "word": "military tunic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪləteri] [ˈtuːnɪk]",
+        "br": "[ˈmɪlətri] [ˈtjuːnɪk]",
+        "gb": "[ˈmɪlɪtərɪ] [ˈtjuːnɪk]"
+      },
+      "translations": {
+        "rus": "китель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5574,
+      "word": "mine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maɪn]",
+        "br": "[maɪn]",
+        "gb": "[maɪn]"
+      },
+      "translations": {
+        "rus": "мина",
+        "spa": "la mina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He stepped on a mine.",
+            "ru": "Он наступил на мину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5575,
+      "word": "missile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪsl]",
+        "br": "[ˈmɪsaɪl]",
+        "gb": "[ˈmɪsaɪl]"
+      },
+      "translations": {
+        "rus": "ракета, (реактивный, метательный) снаряд",
+        "spa": "el misil, el proyectil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5577,
+      "word": "mortar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɔːrtər]",
+        "br": "[ˈmɔːtə(r)]",
+        "gb": "[ˈmɔːtə]"
+      },
+      "translations": {
+        "rus": "миномет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5578,
+      "word": "musket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌskɪt]",
+        "br": "[ˈmʌskɪt]",
+        "gb": "[ˈmʌskɪt]"
+      },
+      "translations": {
+        "rus": "мушкет, ружье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5579,
+      "word": "muzzle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌzl]",
+        "br": "[ˈmʌzl]",
+        "gb": "[mʌzl]"
+      },
+      "translations": {
+        "rus": "дуло",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5580,
+      "word": "nuclear bomb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːkliər] [bɑːm]",
+        "br": "[ˈnjuːkliə(r)] [bɒm]",
+        "gb": "[ˈnjuːklɪə] [bɔm]"
+      },
+      "translations": {
+        "rus": "ядерная бомба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5581,
+      "word": "ordnance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːrdnəns]",
+        "br": "[ˈɔːdnəns]",
+        "gb": "[ˈɔːdnəns]"
+      },
+      "translations": {
+        "rus": "тыловое обеспечение, снабжение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5582,
+      "word": "parachute",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpærəʃuːt]",
+        "br": "[ˈpærəʃuːt]",
+        "gb": "[ˈpærəʃuːt]"
+      },
+      "translations": {
+        "rus": "парашют",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5583,
+      "word": "pepper spray",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpepər] [spreɪ]",
+        "br": "[ˈpepə(r)] [spreɪ]",
+        "gb": "[ˈpepə] [spreɪ]"
+      },
+      "translations": {
+        "rus": "перцовый баллончик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5584,
+      "word": "pistol",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪstl]",
+        "br": "[ˈpɪstl]",
+        "gb": "[pɪstl]"
+      },
+      "translations": {
+        "rus": "пистолет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5585,
+      "word": "puttees",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpʌtɪz]",
+        "br": "[ˈpʌtɪz]",
+        "gb": "[ˈpʌtiz]"
+      },
+      "translations": {
+        "rus": "краги, обмотки для ног",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5586,
+      "word": "receiver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈsiːvər]",
+        "br": "[rɪˈsiːvə(r)]",
+        "gb": "[rɪˈsiːvə]"
+      },
+      "translations": {
+        "rus": "приемник, получатель",
+        "spa": "el destinatario (la destinataria), el auricular, el receptor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5588,
+      "word": "recruit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈkruːt]",
+        "br": "[rɪˈkruːt]",
+        "gb": "[rɪˈkruːt]"
+      },
+      "translations": {
+        "rus": "новобранец",
+        "spa": "el recluta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5589,
+      "word": "revolver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈvɑːlvər]",
+        "br": "[rɪˈvɒlvə(r)]",
+        "gb": "[rɪˈvɔlvə]"
+      },
+      "translations": {
+        "rus": "револьвер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5590,
+      "word": "rifle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈraɪfl]",
+        "br": "[ˈraɪfl]",
+        "gb": "[raɪfl]"
+      },
+      "translations": {
+        "rus": "винтовка, ружьё",
+        "spa": "el rifle, el fusil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rifle was extremely accurate.",
+            "ru": "Винтовка обладала исключительной точностью стрельбы."
+          },
+          {
+            "en": "The rifle has a telescopic sight.",
+            "ru": "У этой винтовки есть оптический прицел."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5591,
+      "word": "rocket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɑːkɪt]",
+        "br": "[ˈrɒkɪt]",
+        "gb": "[ˈrɔkɪt]"
+      },
+      "translations": {
+        "rus": "ракета, снаряд",
+        "spa": "el cohete, el misil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They launched a rocket.",
+            "ru": "Они запустили ракету."
+          },
+          {
+            "en": "I went to space on a rocket.",
+            "ru": "Я полетел в космос на ракете."
+          },
+          {
+            "en": "The rocket was launched into space.",
+            "ru": "Ракета была запущена в космос."
+          },
+          {
+            "en": "They're going to send up a rocket.",
+            "ru": "Они собираются запустить ракету."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 5592,
+      "word": "rocket launcher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɑːkɪt] [ˈlɔːntʃər]",
+        "br": "[ˈrɒkɪt] [ˈlɔːntʃə(r)]",
+        "gb": "[ˈrɔkɪt] [ˈlɔːnʧə]"
+      },
+      "translations": {
+        "rus": "гранатомет, ракетница",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5593,
+      "word": "saber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseɪbər]",
+        "br": "[ˈseɪbə(r)]",
+        "gb": "[ˈseɪbə]"
+      },
+      "translations": {
+        "rus": "сабля",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5594,
+      "word": "sabre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseɪbər]",
+        "br": "[ˈseɪbə(r)]",
+        "gb": "[ˈseɪbə]"
+      },
+      "translations": {
+        "rus": "сабля",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5595,
+      "word": "safety mechanism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseɪfti] [ˈmekənɪzəm]",
+        "br": "[ˈseɪfti] [ˈmekənɪzəm]",
+        "gb": "[ˈseɪftɪ] [ˈmekənɪzm]"
+      },
+      "translations": {
+        "rus": "механизм безопасности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5596,
+      "word": "salvo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsælvəʊ]",
+        "br": "[ˈsælvəʊ]",
+        "gb": "[ˈsælvəʊ]"
+      },
+      "translations": {
+        "rus": "залп",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5597,
+      "word": "shield",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃiːld]",
+        "br": "[ʃiːld]",
+        "gb": "[ʃiːld]"
+      },
+      "translations": {
+        "rus": "щит",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5598,
+      "word": "shotgun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːtɡʌn]",
+        "br": "[ˈʃɒtɡʌn]",
+        "gb": "[ˈʃɔtgʌn]"
+      },
+      "translations": {
+        "rus": "дробовик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5599,
+      "word": "shoulder mark",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃəʊldər] [mɑːrk]",
+        "br": "[ˈʃəʊldə(r)] [mɑːk]",
+        "gb": "[ˈʃəʊldə] [mɑːk]"
+      },
+      "translations": {
+        "rus": "погон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5600,
+      "word": "slingshot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈslɪŋʃɑːt]",
+        "br": "[ˈslɪŋʃɒt]",
+        "gb": "[ˈslɪŋʃɔt]"
+      },
+      "translations": {
+        "rus": "рогатка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5601,
+      "word": "spear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spɪr]",
+        "br": "[spɪə(r)]",
+        "gb": "[spɪə]"
+      },
+      "translations": {
+        "rus": "копье, дротик, гарпун",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The spear whistled harmlessly over his head.",
+            "ru": "Копьё просвистело у него над головой, не причинив никакого вреда."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5602,
+      "word": "stiletto",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɪˈletəʊ]",
+        "br": "[stɪˈletəʊ]",
+        "gb": "[stɪˈletəʊ]"
+      },
+      "translations": {
+        "rus": "стилет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5603,
+      "word": "stun grenade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stʌn] [ɡrəˈneɪd]",
+        "br": "[stʌn] [ɡrəˈneɪd]",
+        "gb": "[stʌn] [grɪˈneɪd]"
+      },
+      "translations": {
+        "rus": "светошумовая граната",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5604,
+      "word": "submachine gun",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[səbməˈʃiːn] [gʌn]"
+      },
+      "translations": {
+        "rus": "пистолет-пулемет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 372,
+      "word": "sword",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔːrd]",
+        "br": "[sɔːd]",
+        "gb": "[sɔːd]"
+      },
+      "translations": {
+        "rus": "меч, сабля, шпага",
+        "spa": "la espada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sword dropped out of his hand.",
+            "ru": "Меч выпал из его руки."
+          },
+          {
+            "en": "My sword was already out.",
+            "ru": "Я уже вытащил свой меч."
+          },
+          {
+            "en": "He passed his sword through the enemy's body.",
+            "ru": "Он пронзил врага мечом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_c1",
+        "sport"
+      ]
+    },
+    {
+      "id": 5605,
+      "word": "tank",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæŋk]",
+        "br": "[tæŋk]",
+        "gb": "[tæŋk]"
+      },
+      "translations": {
+        "rus": "танк",
+        "spa": "el carro de combate"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They loaded the tank on the flatcar.",
+            "ru": "Они погрузили танк на вагон-платформу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford3000_b2",
+        "top3000",
+        "transport"
+      ]
+    },
+    {
+      "id": 5606,
+      "word": "tear gas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɪr] [ɡæs]",
+        "br": "[tɪə(r)] [ɡæs]",
+        "gb": "[tɛə] [gæs]"
+      },
+      "translations": {
+        "rus": "слезоточивый газ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5607,
+      "word": "time bomb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taɪm] [bɑːm]",
+        "br": "[taɪm] [bɒm]",
+        "gb": "[taɪm] [bɔm]"
+      },
+      "translations": {
+        "rus": "часовая бомба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5502,
+      "word": "to annihilate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈnaɪəleɪt]",
+        "br": "[tu] [əˈnaɪəleɪt]",
+        "gb": "[tuː] [əˈnaɪəleɪt]"
+      },
+      "translations": {
+        "rus": "уничтожать, истреблять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5520,
+      "word": "to besiege",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bɪˈsiːdʒ]",
+        "br": "[tə] [bɪˈsiːdʒ]",
+        "gb": "[tuː] [bɪˈsiːʤ]"
+      },
+      "translations": {
+        "rus": "осадить, обложить",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5534,
+      "word": "to capitulate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kəˈpɪtʃuleɪt]",
+        "br": "[tə] [kəˈpɪtʃuleɪt]",
+        "gb": "[tuː] [kəˈpɪtjʊleɪt]"
+      },
+      "translations": {
+        "rus": "капитулировать, сдаться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5541,
+      "word": "to commandeer",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˌkɑːmənˈdɪr]",
+        "br": "[tə] [ˌkɒmənˈdɪə(r)]",
+        "gb": "[tuː] [kɔmənˈdɪə]"
+      },
+      "translations": {
+        "rus": "реквизировать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5545,
+      "word": "to demobilize",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [diːˈməʊbəlaɪz]",
+        "br": "[tə] [diːˈməʊbəlaɪz]",
+        "gb": "[tuː] [diːˈməʊbɪlaɪz]"
+      },
+      "translations": {
+        "rus": "демобилизовать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5551,
+      "word": "to evacuate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪˈvækjueɪt]",
+        "br": "[tu] [ɪˈvækjueɪt]",
+        "gb": "[tuː] [ɪˈvækjʊeɪt]"
+      },
+      "translations": {
+        "rus": "эвакуировать",
+        "spa": "evacuar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The hotel was evacuated.",
+            "ru": "Отель был эвакуирован."
+          },
+          {
+            "en": "The stadium is being evacuated.",
+            "ru": "Стадион эвакуируют."
+          },
+          {
+            "en": "The building has been evacuated.",
+            "ru": "Здание было эвакуировано."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 594,
+      "word": "to grip",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡrɪp]",
+        "br": "[tə] [ɡrɪp]",
+        "gb": "[tuː] [grɪp]"
+      },
+      "translations": {
+        "rus": "захватывать, крепко держать, сжимать",
+        "spa": "agarrar, sujetar, cautivar la atención de"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5565,
+      "word": "to invade",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪnˈveɪd]",
+        "br": "[tu] [ɪnˈveɪd]",
+        "gb": "[tuː] [ɪnˈveɪd]"
+      },
+      "translations": {
+        "rus": "вторгнуться, захватить",
+        "spa": "invadir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Some people think that Earth will be invaded by aliens.",
+            "ru": "Некоторые думают, что Землю захватят инопланетяне."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5576,
+      "word": "to mobilize",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈməʊbəlaɪz]",
+        "br": "[tə] [ˈməʊbəlaɪz]",
+        "gb": "[tuː] [ˈməʊbɪlaɪz]"
+      },
+      "translations": {
+        "rus": "мобилизовать, привлечь",
+        "spa": "movilizar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5587,
+      "word": "to reconnoitre",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˌrekəˈnɔɪtər]",
+        "br": "[tə] [ˌrekəˈnɔɪtə(r)]",
+        "gb": "[tuː] [rekəˈnɔɪtə]"
+      },
+      "translations": {
+        "rus": "разведывать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 379,
+      "word": "to trigger",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈtrɪɡər]",
+        "br": "[tə] [ˈtrɪɡə(r)]",
+        "gb": "[tuː] [ˈtrɪgə]"
+      },
+      "translations": {
+        "rus": "вызывать, инициировать, активировать",
+        "spa": "provocar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Smoke triggered the fire alarm.",
+            "ru": "Дым привёл в действие пожарную сигнализацию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5608,
+      "word": "torpedo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɔːrˈpiːdəʊ]",
+        "br": "[tɔːˈpiːdəʊ]",
+        "gb": "[tɔːˈpiːdəʊ]"
+      },
+      "translations": {
+        "rus": "торпеда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 378,
+      "word": "trigger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrɪɡər]",
+        "br": "[ˈtrɪɡə(r)]",
+        "gb": "[ˈtrɪgə]"
+      },
+      "translations": {
+        "rus": "спусковой крючок",
+        "spa": "el gatillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pull the trigger.",
+            "ru": "Нажми на спусковой крючок."
+          },
+          {
+            "en": "I didn't pull the trigger.",
+            "ru": "Я не нажимал на спусковой крючок."
+          },
+          {
+            "en": "Don't make me pull the trigger.",
+            "ru": "Не заставляй меня нажимать на спусковой крючок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "military_weapons",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5609,
+      "word": "trigger guard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrɪɡər] [ɡɑːrd]",
+        "br": "[ˈtrɪɡə(r)] [ɡɑːd]",
+        "gb": "[ˈtrɪgə] [gɑːd]"
+      },
+      "translations": {
+        "rus": "спусковая скоба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    },
+    {
+      "id": 5610,
+      "word": "volley",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɑːli]",
+        "br": "[ˈvɒli]",
+        "gb": "[ˈvɔlɪ]"
+      },
+      "translations": {
+        "rus": "залп, град",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "military_weapons"
+      ]
+    }
+  ]
+}

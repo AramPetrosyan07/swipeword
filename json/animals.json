@@ -1,0 +1,2119 @@
+{
+  "category": {
+    "id": "animals",
+    "name_rus": "Животные",
+    "type": "topic",
+    "word_count": 80
+  },
+  "words": [
+    {
+      "id": 132,
+      "word": "antelope",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæntɪləʊp]",
+        "br": "[ˈæntɪləʊp]",
+        "gb": "[ˈæntɪləʊp]"
+      },
+      "translations": {
+        "rus": "антилопа",
+        "spa": "el antílope"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 133,
+      "word": "badger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbædʒər]",
+        "br": "[ˈbædʒə(r)]",
+        "gb": "[ˈbæʤə]"
+      },
+      "translations": {
+        "rus": "барсук",
+        "spa": "el tejón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 134,
+      "word": "bat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæt]",
+        "br": "[bæt]",
+        "gb": "[bæt]"
+      },
+      "translations": {
+        "rus": "летучая мышь",
+        "spa": "el murciélago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is that a bat?",
+            "ru": "Это летучая мышь?"
+          },
+          {
+            "en": "The bat flees the light.",
+            "ru": "Летучая мышь сторонится света."
+          },
+          {
+            "en": "A bat flying in the sky looks like a butterfly.",
+            "ru": "Летящая по небу летучая мышь похожа на бабочку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 135,
+      "word": "bear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ber]",
+        "br": "[beə(r)]",
+        "gb": "[bɛə]"
+      },
+      "translations": {
+        "rus": "медведь",
+        "spa": "el oso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am afraid of bears.",
+            "ru": "Я боюсь медведей."
+          },
+          {
+            "en": "A teddy bear with soft fur.",
+            "ru": "Плюшевый медведь с мягким мехом."
+          },
+          {
+            "en": "Great Bear.",
+            "ru": "Большая Медведица (созвездие)."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bear ran after me.",
+            "es": "El oso me persiguió."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 136,
+      "word": "beaver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbiːvər]",
+        "br": "[ˈbiːvə(r)]",
+        "gb": "[ˈbiːvə]"
+      },
+      "translations": {
+        "rus": "бобр",
+        "spa": "el castor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 137,
+      "word": "bird",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɜːrd]",
+        "br": "[bɜːd]",
+        "gb": "[bɜːd]"
+      },
+      "translations": {
+        "rus": "птица",
+        "spa": "el pájaro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Not all birds can fly.",
+            "ru": "Не все птицы летают."
+          },
+          {
+            "en": "The birds are flying south.",
+            "ru": "Птицы летят на юг."
+          },
+          {
+            "en": "Birds were singing in the sky.",
+            "ru": "В небе пели птицы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bird went far away.",
+            "es": "El pájaro se fue muy lejos."
+          },
+          {
+            "en": "The bird is in its nest.",
+            "es": "El pájaro está en su nido."
+          },
+          {
+            "en": "The bird has not returned.",
+            "es": "El pájaro no ha regresado."
+          },
+          {
+            "en": "The bird had a broken wing.",
+            "es": "El pájaro tenía un ala rota."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 138,
+      "word": "bull",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʊl]",
+        "br": "[bʊl]",
+        "gb": "[bʊl]"
+      },
+      "translations": {
+        "rus": "бык",
+        "spa": "el toro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 139,
+      "word": "calf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæf]",
+        "br": "[kɑːf]",
+        "gb": "[kɑːf]"
+      },
+      "translations": {
+        "rus": "теленок",
+        "spa": "el becerro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 140,
+      "word": "cat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæt]",
+        "br": "[kæt]",
+        "gb": "[kæt]"
+      },
+      "translations": {
+        "rus": "кот, кошка",
+        "spa": "el gato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a cat?",
+            "ru": "У вас есть кот?"
+          },
+          {
+            "en": "What does the cat want?",
+            "ru": "Чего хочет кошка?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cat is very cute.",
+            "es": "El gato es muy mono."
+          },
+          {
+            "en": "The cat caught a mouse.",
+            "es": "El gato atrapó a un ratón."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 141,
+      "word": "chicken",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃɪkɪn]",
+        "br": "[ˈtʃɪkɪn]",
+        "gb": "[ˈʧɪkɪn]"
+      },
+      "translations": {
+        "rus": "цыпленок, курица",
+        "spa": "el pollo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We had chicken for dinner.",
+            "ru": "На ужин у нас была курица."
+          },
+          {
+            "en": "We cooked a whole chicken.",
+            "ru": "Мы приготовили курицу целиком."
+          },
+          {
+            "en": "I'm sorry, the lamb is off, may I suggest some chicken?",
+            "ru": "Простите, баранина уже кончилась, может быть, вы попробуете цыпленка?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't eat chicken skin.",
+            "es": "No me como el cuero del pollo."
+          },
+          {
+            "en": "We had some chicken soup.",
+            "es": "Comimos un poco de sopa de pollo."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "food",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 142,
+      "word": "cow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kaʊ]",
+        "br": "[kaʊ]",
+        "gb": "[kaʊ]"
+      },
+      "translations": {
+        "rus": "корова, коровий",
+        "spa": "la vaca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How do you milk a cow?",
+            "ru": "Как доить корову?"
+          },
+          {
+            "en": "A cow gives us milk.",
+            "ru": "Корова даёт нам молоко."
+          },
+          {
+            "en": "The cows are eating grass.",
+            "ru": "Коровы едят траву."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 143,
+      "word": "crocodile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɑːkədaɪl]",
+        "br": "[ˈkrɒkədaɪl]",
+        "gb": "[ˈkrɔkədaɪl]"
+      },
+      "translations": {
+        "rus": "крокодил",
+        "spa": "el cocodrilo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 144,
+      "word": "crow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[krəʊ]",
+        "br": "[krəʊ]",
+        "gb": "[krəʊ]"
+      },
+      "translations": {
+        "rus": "ворона",
+        "spa": "el cuervo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 145,
+      "word": "cuckoo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʊkuː]",
+        "br": "[ˈkʊkuː]",
+        "gb": "[ˈkʊkuː]"
+      },
+      "translations": {
+        "rus": "кукушка",
+        "spa": "el cuco"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 146,
+      "word": "deer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪr]",
+        "br": "[dɪə(r)]",
+        "gb": "[dɪə]"
+      },
+      "translations": {
+        "rus": "олень",
+        "spa": "el venado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 147,
+      "word": "dog",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɔːɡ]",
+        "br": "[dɒɡ]",
+        "gb": "[dɔg]"
+      },
+      "translations": {
+        "rus": "собака, собачий",
+        "spa": "el perro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Beware of the dog!",
+            "ru": "Берегись собаки!"
+          },
+          {
+            "en": "Dog food is expensive.",
+            "ru": "Собачий корм дорогой."
+          },
+          {
+            "en": "I loved that dog.",
+            "ru": "Я любил эту собаку."
+          },
+          {
+            "en": "He heard the dog barking.",
+            "ru": "Он услышал собачий лай."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have seen a dog.",
+            "es": "Yo vi el perro."
+          },
+          {
+            "en": "The dog's name is Ken.",
+            "es": "El perro se llama Ken."
+          },
+          {
+            "en": "The boy bought a dog.",
+            "es": "El chico compró un perro."
+          },
+          {
+            "en": "The dog wagged its tail.",
+            "es": "El perro sacudía la cola."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 148,
+      "word": "donkey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɑːŋki]",
+        "br": "[ˈdɒŋki]",
+        "gb": "[ˈdɔŋkɪ]"
+      },
+      "translations": {
+        "rus": "осел",
+        "spa": "el burro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 149,
+      "word": "dove",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʌv]",
+        "br": "[dʌv]",
+        "gb": "[dʌv]"
+      },
+      "translations": {
+        "rus": "голубь",
+        "spa": "la paloma"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 150,
+      "word": "duck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʌk]",
+        "br": "[dʌk]",
+        "gb": "[dʌk]"
+      },
+      "translations": {
+        "rus": "утка",
+        "spa": "el pato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A male duck is a drake.",
+            "ru": "Самец утки - это селезень."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It looks like a duck.",
+            "es": "Luce como un pato."
+          },
+          {
+            "en": "Do not feed the ducks.",
+            "es": "No alimentes a los patos."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "food"
+      ]
+    },
+    {
+      "id": 151,
+      "word": "duckling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌklɪŋ]",
+        "br": "[ˈdʌklɪŋ]",
+        "gb": "[ˈdʌklɪŋ]"
+      },
+      "translations": {
+        "rus": "утенок",
+        "spa": "el anadón, el patito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 152,
+      "word": "eagle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːɡl]",
+        "br": "[ˈiːɡl]",
+        "gb": "[iːgl]"
+      },
+      "translations": {
+        "rus": "орел",
+        "spa": "el águila"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "An eagle soared above us.",
+            "ru": "Орел парил над нами."
+          },
+          {
+            "en": "The eagle was carrying a mouse in its sharp claws.",
+            "ru": "Орел нес мышь в своих острых когтях."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 153,
+      "word": "elephant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈelɪfənt]",
+        "br": "[ˈelɪfənt]",
+        "gb": "[ˈelɪfənt]"
+      },
+      "translations": {
+        "rus": "слон",
+        "spa": "el elefante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They nearly equalled the elephant in size.",
+            "ru": "По размеру они почти сравнялись со слоном."
+          },
+          {
+            "en": "The passerby was trampled by an elephant.",
+            "ru": "Прохожий был растоптан слоном."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 154,
+      "word": "elk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[elk]",
+        "br": "[elk]",
+        "gb": "[elk]"
+      },
+      "translations": {
+        "rus": "лось",
+        "spa": "el uapití"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 155,
+      "word": "falcon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfælkən]",
+        "br": "[ˈfɔːlkən]",
+        "gb": "[ˈfɔːlkən]"
+      },
+      "translations": {
+        "rus": "сокол",
+        "spa": "el halcón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 156,
+      "word": "ferret",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈferɪt]",
+        "br": "[ˈferɪt]",
+        "gb": "[ˈferɪt]"
+      },
+      "translations": {
+        "rus": "хорёк",
+        "spa": "el hurón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 157,
+      "word": "fox",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɑːks]",
+        "br": "[fɒks]",
+        "gb": "[fɔks]"
+      },
+      "translations": {
+        "rus": "лиса, хитрец",
+        "spa": "el zorro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A fox yelps.",
+            "ru": "Лиса тявкает."
+          },
+          {
+            "en": "He was a sly old fox.",
+            "ru": "Он был старый хитрец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 158,
+      "word": "frog",
+      "pos": "noun",
+      "transcription": {
+        "us": "[frɑːɡ]",
+        "br": "[frɒɡ]",
+        "gb": "[frɔg]"
+      },
+      "translations": {
+        "rus": "лягушка",
+        "spa": "la rana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Frogs croak.",
+            "ru": "Лягушки квакают."
+          },
+          {
+            "en": "The frog plopped back into the pond.",
+            "ru": "Лягушка шлёпнулась обратно в пруд."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 159,
+      "word": "giraffe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒəˈræf]",
+        "br": "[dʒəˈrɑːf]",
+        "gb": "[ʤɪˈrɑːf]"
+      },
+      "translations": {
+        "rus": "жираф",
+        "spa": "la jirafa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The giraffe is the tallest animal.",
+            "ru": "Жираф является самым высоким животным."
+          },
+          {
+            "en": "What an ungainly creature a giraffe is.",
+            "ru": "Какое жираф неуклюжее существо."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 160,
+      "word": "gnat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[næt]",
+        "br": "[næt]",
+        "gb": "[næt]"
+      },
+      "translations": {
+        "rus": "комар, мошка, москит",
+        "spa": "el jején, el mosquito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 161,
+      "word": "goat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəʊt]",
+        "br": "[ɡəʊt]",
+        "gb": "[gəʊt]"
+      },
+      "translations": {
+        "rus": "козел, коза",
+        "spa": "la cabra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 162,
+      "word": "gorilla",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡəˈrɪlə]",
+        "br": "[ɡəˈrɪlə]",
+        "gb": "[gəˈrɪlə]"
+      },
+      "translations": {
+        "rus": "горилла",
+        "spa": "el gorila"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 163,
+      "word": "grasshopper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡræshɑːpər]",
+        "br": "[ˈɡrɑːshɒpə(r)]",
+        "gb": "[ˈgrɑːshɔpə]"
+      },
+      "translations": {
+        "rus": "кузнечик",
+        "spa": "el saltamontes"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 164,
+      "word": "guinea pig",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɪni] [pɪɡ]",
+        "br": "[ˈɡɪni] [pɪɡ]",
+        "gb": "[ˈgɪnɪ] [pɪg]"
+      },
+      "translations": {
+        "rus": "морская свинка",
+        "spa": "el conejillo de indias"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 165,
+      "word": "gull, seagull",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡʌl], [ˈsiːɡʌl]",
+        "br": "[ɡʌl], [ˈsiːɡʌl]",
+        "gb": "[gʌl] [ˈsiːgʌl]"
+      },
+      "translations": {
+        "rus": "чайка",
+        "spa": "la gaviota"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 166,
+      "word": "hare",
+      "pos": "noun",
+      "transcription": {
+        "us": "[her]",
+        "br": "[heə(r)]",
+        "gb": "[hɛə]"
+      },
+      "translations": {
+        "rus": "заяц",
+        "spa": "la liebre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 167,
+      "word": "hedgehog",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhedʒhɔːɡ]",
+        "br": "[ˈhedʒhɒɡ]",
+        "gb": "[ˈheʤhɔg]"
+      },
+      "translations": {
+        "rus": "ёж",
+        "spa": "el erizo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 168,
+      "word": "horse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɔːrs]",
+        "br": "[hɔːs]",
+        "gb": "[hɔːs]"
+      },
+      "translations": {
+        "rus": "лошадь",
+        "spa": "el caballo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got on the horse.",
+            "ru": "Я сел на лошадь."
+          },
+          {
+            "en": "He is as strong as a horse.",
+            "ru": "Он силён, как лошадь."
+          },
+          {
+            "en": "A fall from a horse.",
+            "ru": "Падение с лошади."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They have the horse.",
+            "es": "Ellos tienen el caballo."
+          },
+          {
+            "en": "He couldn't control the horse.",
+            "es": "No podía contener el caballo."
+          },
+          {
+            "en": "The horse is a domestic animal.",
+            "es": "El caballo es un animal doméstico."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 169,
+      "word": "kangaroo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkæŋɡəˈruː]",
+        "br": "[ˌkæŋɡəˈruː]",
+        "gb": "[kæŋgəˈruː]"
+      },
+      "translations": {
+        "rus": "кенгуру",
+        "spa": "el canguro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 170,
+      "word": "kid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɪd]",
+        "br": "[kɪd]",
+        "gb": "[kɪd]"
+      },
+      "translations": {
+        "rus": "козленок",
+        "spa": "el cabrito, el chivito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 171,
+      "word": "kitten",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɪtn]",
+        "br": "[ˈkɪtn]",
+        "gb": "[kɪtn]"
+      },
+      "translations": {
+        "rus": "котенок",
+        "spa": "el gatito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 172,
+      "word": "lamb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læm]",
+        "br": "[læm]",
+        "gb": "[læm]"
+      },
+      "translations": {
+        "rus": "ягненок, баранина",
+        "spa": "el cordero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A young sheep is a lamb.",
+            "ru": "Детёныш овцы называется ягнёнком."
+          },
+          {
+            "en": "I'm sorry, the lamb is off, may I suggest some chicken?",
+            "ru": "Простите, баранина уже кончилась, может быть, вы попробуете цыпленка?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "A rack of lamb makes a great meal.",
+            "es": "Una costilla de cordero hace una gran comida."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "food"
+      ]
+    },
+    {
+      "id": 173,
+      "word": "leech",
+      "pos": "noun",
+      "transcription": {
+        "us": "[liːtʃ]",
+        "br": "[liːtʃ]",
+        "gb": "[liːʧ]"
+      },
+      "translations": {
+        "rus": "пиявка",
+        "spa": "la sanguijuela"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 174,
+      "word": "lion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪən]",
+        "br": "[ˈlaɪən]",
+        "gb": "[ˈlaɪən]"
+      },
+      "translations": {
+        "rus": "лев",
+        "spa": "el león"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We've got to catch the lion alive.",
+            "ru": "Мы должны поймать льва живым."
+          },
+          {
+            "en": "The lion is often used as a symbol of courage.",
+            "ru": "Лев часто символизирует мужество."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 175,
+      "word": "lizard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪzərd]",
+        "br": "[ˈlɪzəd]",
+        "gb": "[ˈlɪzəd]"
+      },
+      "translations": {
+        "rus": "ящерица",
+        "spa": "el lagarto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 176,
+      "word": "lynx",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɪŋks]",
+        "br": "[lɪŋks]",
+        "gb": "[lɪŋks]"
+      },
+      "translations": {
+        "rus": "рысь",
+        "spa": "el lince"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 177,
+      "word": "monkey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌŋki]",
+        "br": "[ˈmʌŋki]",
+        "gb": "[ˈmʌŋkɪ]"
+      },
+      "translations": {
+        "rus": "обезьяна",
+        "spa": "el mono"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The monkey rattled the bars of his cage.",
+            "ru": "Обезьяна гремела прутьями своей клетки."
+          },
+          {
+            "en": "The monkey has a prehensile tail.",
+            "ru": "У этой обезьяны цепкий хвост."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 178,
+      "word": "mouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maʊs]",
+        "br": "[maʊs]",
+        "gb": "[maʊs]"
+      },
+      "translations": {
+        "rus": "мышь",
+        "spa": "el ratón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mouse is under the floor.",
+            "ru": "Мышь под полом."
+          },
+          {
+            "en": "The hawk caught a mouse.",
+            "ru": "Сокол поймал мышь."
+          },
+          {
+            "en": "A mouse is a timid creature.",
+            "ru": "Мышь — робкое существо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The mouse ran underneath the bed.",
+            "es": "El ratón corrió debajo de la cama."
+          }
+        ]
+      },
+      "categories": [
+        "animals",
+        "computer",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 179,
+      "word": "owl",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aʊl]",
+        "br": "[aʊl]",
+        "gb": "[aʊl]"
+      },
+      "translations": {
+        "rus": "сова",
+        "spa": "el búho"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 180,
+      "word": "ox",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːks]",
+        "br": "[ɒks]",
+        "gb": "[ɔks]"
+      },
+      "translations": {
+        "rus": "вол, бык",
+        "spa": "el buey"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 181,
+      "word": "parrot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpærət]",
+        "br": "[ˈpærət]",
+        "gb": "[ˈpærət]"
+      },
+      "translations": {
+        "rus": "попугай",
+        "spa": "el loro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 182,
+      "word": "penguin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeŋɡwɪn]",
+        "br": "[ˈpeŋɡwɪn]",
+        "gb": "[ˈpeŋgwɪn]"
+      },
+      "translations": {
+        "rus": "пингвин",
+        "spa": "el pingüino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 183,
+      "word": "pig",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɪɡ]",
+        "br": "[pɪɡ]",
+        "gb": "[pɪg]"
+      },
+      "translations": {
+        "rus": "свинья",
+        "spa": "el cerdo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He eats like a pig.",
+            "ru": "Он ест как свинья."
+          },
+          {
+            "en": "Let the pigs eat that.",
+            "ru": "Пусть это свиньи едят."
+          },
+          {
+            "en": "There were pigs in the forest.",
+            "ru": "В лесу были свиньи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 184,
+      "word": "pigeon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪdʒɪn]",
+        "br": "[ˈpɪdʒɪn]",
+        "gb": "[ˈpɪʤɪn]"
+      },
+      "translations": {
+        "rus": "голубь",
+        "spa": "la paloma"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 185,
+      "word": "polar bear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊlər] [ber]",
+        "br": "[ˈpəʊlə(r)] [beə(r)]",
+        "gb": "[ˈpəʊlə] [bɛə]"
+      },
+      "translations": {
+        "rus": "белый медведь",
+        "spa": "el oso polar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 186,
+      "word": "pony",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊni]",
+        "br": "[ˈpəʊni]",
+        "gb": "[ˈpəʊnɪ]"
+      },
+      "translations": {
+        "rus": "пони",
+        "spa": "el poni"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The pony ride was a big hit at the party.",
+            "ru": "Катание на пони пользовалось на вечеринке большим успехом."
+          },
+          {
+            "en": "They saddled a gentle pony for the child.",
+            "ru": "Для ребёнка они оседлали маленького пони."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 187,
+      "word": "puppy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpʌpi]",
+        "br": "[ˈpʌpi]",
+        "gb": "[ˈpʌpɪ]"
+      },
+      "translations": {
+        "rus": "щенок",
+        "spa": "el cachorro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 188,
+      "word": "rabbit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈræbɪt]",
+        "br": "[ˈræbɪt]",
+        "gb": "[ˈræbɪt]"
+      },
+      "translations": {
+        "rus": "кролик",
+        "spa": "el conejo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We keep rabbits as pets.",
+            "ru": "Мы держим кроликов в качестве домашних животных."
+          },
+          {
+            "en": "The dog scented a rabbit.",
+            "ru": "Собака взяла след кролика."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 189,
+      "word": "ram",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ræm]",
+        "br": "[ræm]",
+        "gb": "[ræm]"
+      },
+      "translations": {
+        "rus": "баран",
+        "spa": "el carnero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 190,
+      "word": "rat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ræt]",
+        "br": "[ræt]",
+        "gb": "[ræt]"
+      },
+      "translations": {
+        "rus": "крыса, крысиный",
+        "spa": "la rata"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you afraid of rats?",
+            "ru": "Ты боишься крыс?"
+          },
+          {
+            "en": "I think that's rat poison.",
+            "ru": "Кажется, это крысиный яд."
+          },
+          {
+            "en": "There are rats in the kitchen.",
+            "ru": "На кухне крысы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 191,
+      "word": "raven",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪvn]",
+        "br": "[ˈreɪvn]",
+        "gb": "[reɪvn]"
+      },
+      "translations": {
+        "rus": "ворон",
+        "spa": "el cuervo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 192,
+      "word": "rhino",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈraɪnəʊ]",
+        "br": "[ˈraɪnəʊ]",
+        "gb": "[ˈraɪnəʊ]"
+      },
+      "translations": {
+        "rus": "носорог",
+        "spa": "el rinoceronte"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 193,
+      "word": "rhinoceros",
+      "pos": "noun",
+      "transcription": {
+        "us": "[raɪˈnɑːsərəs]",
+        "br": "[raɪˈnɒsərəs]",
+        "gb": "[raɪˈnɔsərəs]"
+      },
+      "translations": {
+        "rus": "носорог",
+        "spa": "el rinoceronte"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 194,
+      "word": "seal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[siːl]",
+        "br": "[siːl]",
+        "gb": "[siːl]"
+      },
+      "translations": {
+        "rus": "тюлень",
+        "spa": "la foca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Seals eat fish.",
+            "ru": "Тюлени едят рыбу."
+          },
+          {
+            "en": "Polar bears hunt seals.",
+            "ru": "Белые медведи охотятся на тюленей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "top3000"
+      ]
+    },
+    {
+      "id": 195,
+      "word": "shark",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɑːrk]",
+        "br": "[ʃɑːk]",
+        "gb": "[ʃɑːk]"
+      },
+      "translations": {
+        "rus": "акула",
+        "spa": "el tiburón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 196,
+      "word": "sheep",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃiːp]",
+        "br": "[ʃiːp]",
+        "gb": "[ʃiːp]"
+      },
+      "translations": {
+        "rus": "овца",
+        "spa": "la oveja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sheep bleats.",
+            "ru": "Овца блеет."
+          },
+          {
+            "en": "One black sheep ruins the whole herd.",
+            "ru": "Паршивая овца всё стадо портит."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 197,
+      "word": "snail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sneɪl]",
+        "br": "[sneɪl]",
+        "gb": "[sneɪl]"
+      },
+      "translations": {
+        "rus": "улитка",
+        "spa": "el caracol"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The French like to eat snails.",
+            "es": "A los franceses les gusta comer caracoles."
+          }
+        ]
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 198,
+      "word": "snake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sneɪk]",
+        "br": "[sneɪk]",
+        "gb": "[sneɪk]"
+      },
+      "translations": {
+        "rus": "змея",
+        "spa": "la serpiente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was bitten by a snake.",
+            "ru": "Его укусила змея."
+          },
+          {
+            "en": "The cobra is a venomous snake.",
+            "ru": "Кобра — это ядовитая змея."
+          },
+          {
+            "en": "A snake curled around his leg.",
+            "ru": "Змея обвилась вокруг его ноги."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 199,
+      "word": "sparrow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspærəʊ]",
+        "br": "[ˈspærəʊ]",
+        "gb": "[ˈspærəʊ]"
+      },
+      "translations": {
+        "rus": "воробей",
+        "spa": "el gorrión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 200,
+      "word": "squirrel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskwɜːrəl]",
+        "br": "[ˈskwɪrəl]",
+        "gb": "[ˈskwɪrəl]"
+      },
+      "translations": {
+        "rus": "белка",
+        "spa": "la ardilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The squirrel was eating a nut.",
+            "ru": "Белка ела орех."
+          },
+          {
+            "en": "He made a sudden move that scared away the squirrel.",
+            "ru": "Он сделал резкое движение, которое спугнуло белку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 201,
+      "word": "starfish",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɑːrfɪʃ]",
+        "br": "[ˈstɑːfɪʃ]",
+        "gb": "[ˈstɑːfɪʃ]"
+      },
+      "translations": {
+        "rus": "морская звезда",
+        "spa": "la estrella de mar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 202,
+      "word": "swallow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɑːləʊ]",
+        "br": "[ˈswɒləʊ]",
+        "gb": "[ˈswɔləʊ]"
+      },
+      "translations": {
+        "rus": "ласточка",
+        "spa": "la golondrina"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 203,
+      "word": "swan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[swɑːn]",
+        "br": "[swɒn]",
+        "gb": "[swɔn]"
+      },
+      "translations": {
+        "rus": "лебедь",
+        "spa": "el cisne"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 204,
+      "word": "tiger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtaɪɡər]",
+        "br": "[ˈtaɪɡə(r)]",
+        "gb": "[ˈtaɪgə]"
+      },
+      "translations": {
+        "rus": "тигр",
+        "spa": "el tigre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 205,
+      "word": "tortoise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɔːrtəs]",
+        "br": "[ˈtɔːtəs]",
+        "gb": "[ˈtɔːtəs]"
+      },
+      "translations": {
+        "rus": "черепаха",
+        "spa": "la tortuga"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 206,
+      "word": "turtle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɜːrtl]",
+        "br": "[ˈtɜːtl]",
+        "gb": "[tɜːtl]"
+      },
+      "translations": {
+        "rus": "морская черепаха",
+        "spa": "la tortuga (marina)"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 207,
+      "word": "viper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvaɪpər]",
+        "br": "[ˈvaɪpə(r)]",
+        "gb": "[ˈvaɪpə]"
+      },
+      "translations": {
+        "rus": "гадюка",
+        "spa": "la víbora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 208,
+      "word": "wild boar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[waɪld] [bɔːr]",
+        "br": "[waɪld] [bɔː(r)]",
+        "gb": "[waɪld] [bɔː]"
+      },
+      "translations": {
+        "rus": "дикий кабан",
+        "spa": "el jabalí"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 209,
+      "word": "wolf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wʊlf]",
+        "br": "[wʊlf]",
+        "gb": "[wʊlf]"
+      },
+      "translations": {
+        "rus": "волк",
+        "spa": "el lobo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wolves hunt in packs.",
+            "ru": "Волки охотятся стаями."
+          },
+          {
+            "en": "The wolf is a predator.",
+            "ru": "Волк является хищником."
+          },
+          {
+            "en": "The wolf was hunting its prey.",
+            "ru": "Волк преследовал свою добычу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    },
+    {
+      "id": 210,
+      "word": "worm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɜːrm]",
+        "br": "[wɜːm]",
+        "gb": "[wɜːm]"
+      },
+      "translations": {
+        "rus": "червь",
+        "spa": "el gusano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I often see worms in the garden.",
+            "ru": "Я часто вижу червей в саду."
+          },
+          {
+            "en": "We always use worms as bait for fishing.",
+            "ru": "Мы всегда используем червей в качестве наживки для рыбалки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "animals",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 211,
+      "word": "zebra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈziːbrə]",
+        "br": "[ˈziːbrə], [ˈzebrə]",
+        "gb": "[ˈziːbrə]"
+      },
+      "translations": {
+        "rus": "зебра",
+        "spa": "la cebra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "animals"
+      ]
+    }
+  ]
+}

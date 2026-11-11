@@ -1,0 +1,2618 @@
+{
+  "category": {
+    "id": "movie",
+    "name_rus": "Кино",
+    "type": "topic",
+    "word_count": 86
+  },
+  "words": [
+    {
+      "id": 5645,
+      "word": "action movie",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈækʃn] [ˈmuːvi]",
+        "br": "[ˈækʃn] [ˈmuːvi]",
+        "gb": "[ækʃn] [ˈmuːvɪ]"
+      },
+      "translations": {
+        "rus": "боевик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5646,
+      "word": "action!",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈækʃn]",
+        "br": "[ˈækʃn]",
+        "gb": "[ækʃn]"
+      },
+      "translations": {
+        "rus": "мотор!",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 1698,
+      "word": "actor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæktər]",
+        "br": "[ˈæktə(r)]",
+        "gb": "[ˈæktə]"
+      },
+      "translations": {
+        "rus": "актер",
+        "spa": "el actor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to be an actor.",
+            "ru": "Я хочу быть актёром."
+          },
+          {
+            "en": "My dad was an actor.",
+            "ru": "Мой папа был актёром."
+          },
+          {
+            "en": "The actor is making up.",
+            "ru": "Актёр гримируется."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The actor is putting on makeup.",
+            "es": "El actor se está maquillando."
+          },
+          {
+            "en": "The actor played the part with feeling.",
+            "es": "El actor hizo su papel con emoción."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "movie",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1699,
+      "word": "actress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæktrəs]",
+        "br": "[ˈæktrəs]",
+        "gb": "[ˈæktrɪs]"
+      },
+      "translations": {
+        "rus": "актриса",
+        "spa": "la actriz"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She dressed like an actress.",
+            "ru": "Она одевалась как актриса."
+          },
+          {
+            "en": "You'll never be an actress.",
+            "ru": "Ты никогда не станешь актрисой."
+          },
+          {
+            "en": "That actress is as beautiful as ever.",
+            "ru": "Эта актриса как всегда красива."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The audience applauded the actress.",
+            "es": "El público aplaudió a la actriz."
+          },
+          {
+            "en": "Besides being an actress, she was a famous painter.",
+            "es": "Ella no solo era una actriz, además era una famosa pintora."
+          },
+          {
+            "en": "It's said that she's a well-known actress.",
+            "es": "Oí que ella es una actriz famosa."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "movie",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 5647,
+      "word": "adventure film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˈventʃər] [fɪlm]",
+        "br": "[ədˈventʃə(r)] [fɪlm]",
+        "gb": "[ədˈvenʧə] [fɪlm]"
+      },
+      "translations": {
+        "rus": "приключенческий фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5648,
+      "word": "alias",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɪliəs]",
+        "br": "[ˈeɪliəs]",
+        "gb": "[ˈeɪlɪæs]"
+      },
+      "translations": {
+        "rus": "псевдоним, вымышленное имя",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5649,
+      "word": "animator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈænɪmeɪtər]",
+        "br": "[ˈænɪmeɪtə(r)]",
+        "gb": "[ˈænɪmeɪtər]"
+      },
+      "translations": {
+        "rus": "аниматор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5650,
+      "word": "aspect ratio",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæspekt] [ˈreɪʃiəʊ]",
+        "br": "[ˈæspekt] [ˈreɪʃiəʊ]",
+        "gb": "[ˈæspekt] [ˈreɪʃɪəʊ]"
+      },
+      "translations": {
+        "rus": "соотношение сторон, формат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5651,
+      "word": "backstage",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[ˌbækˈsteɪdʒ]",
+        "br": "[ˌbækˈsteɪdʒ]",
+        "gb": "[ˈbækˈsteɪʤ]"
+      },
+      "translations": {
+        "rus": "закулисный, за кулисами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5652,
+      "word": "behind the scenes",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[bɪˈhaɪnd] [ðə] [siːnz]",
+        "br": "[bɪˈhaɪnd] [ðə] [siːnz]",
+        "gb": "[bɪˈhaɪnd] [ðiː] [sinz]"
+      },
+      "translations": {
+        "rus": "за кулисами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5653,
+      "word": "black-and-white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[blæk] [ənd] [waɪt]",
+        "br": "[blæk] [ənd] [waɪt]",
+        "gb": "[blæk] [ænd] [waɪt]"
+      },
+      "translations": {
+        "rus": "чёрно-белый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "photography"
+      ]
+    },
+    {
+      "id": 5654,
+      "word": "box office",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːks] [ˈɑːfɪs]",
+        "br": "[bɒks] [ˈɒfɪs]",
+        "gb": "[bɔks] [ˈɔfɪs]"
+      },
+      "translations": {
+        "rus": "касса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5655,
+      "word": "cameraman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæmrəmæn]",
+        "br": "[ˈkæmrəmæn]",
+        "gb": "[ˈkæmərəmæn]"
+      },
+      "translations": {
+        "rus": "оператор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5222,
+      "word": "caption",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpʃn]",
+        "br": "[ˈkæpʃn]",
+        "gb": "[kæpʃn]"
+      },
+      "translations": {
+        "rus": "заглавие, заголовок, титр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie"
+      ]
+    },
+    {
+      "id": 5656,
+      "word": "cartoon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɑːrˈtuːn]",
+        "br": "[kɑːˈtuːn]",
+        "gb": "[kɑːˈtuːn]"
+      },
+      "translations": {
+        "rus": "мультфильм, карикатура",
+        "spa": "los dibujos animados"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like cartoons.",
+            "ru": "Я люблю мультфильмы."
+          },
+          {
+            "en": "It's just a cartoon.",
+            "ru": "Это просто мультфильм."
+          },
+          {
+            "en": "What's your favorite cartoon?",
+            "ru": "Какой твой любимый мультфильм?"
+          },
+          {
+            "en": "Do you watch films or cartoons?",
+            "ru": "Ты смотришь фильмы или мультфильмы?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 5657,
+      "word": "cast",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæst]",
+        "br": "[kɑːst]",
+        "gb": "[kɑːst]"
+      },
+      "translations": {
+        "rus": "актерский состав",
+        "spa": "el reparto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The movie has a stellar cast.",
+            "ru": "У этого фильма звездный актерский состав."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1893,
+      "word": "character",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkærəktər]",
+        "br": "[ˈkærəktə(r)]",
+        "gb": "[ˈkærɪktə]"
+      },
+      "translations": {
+        "rus": "персонаж, символ, характер, образ, герой",
+        "spa": "el carácter, el personaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is your favorite character?",
+            "ru": "Какой твой любимый персонаж?"
+          },
+          {
+            "en": "She has a strong character.",
+            "ru": "У нее сильный характер."
+          },
+          {
+            "en": "Her character is similar to yours.",
+            "ru": "Её характер похож на ваш."
+          },
+          {
+            "en": "Most anime characters have large eyes.",
+            "ru": "У большинства персонажей аниме большие глаза."
+          },
+          {
+            "en": "She has totally changed her character.",
+            "ru": "Её характер совершенно изменился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is quite a character.",
+            "es": "Él es todo un personaje."
+          },
+          {
+            "en": "She has a character defect.",
+            "es": "Ella tiene un defecto en su carácter."
+          },
+          {
+            "en": "Who's your favorite Disney character?",
+            "es": "¿Cuál es tu personaje favorito de Disney?"
+          },
+          {
+            "en": "Steve is a man of good character.",
+            "es": "Steve es un hombre de buen carácter."
+          },
+          {
+            "en": "I always liked mysterious characters more.",
+            "es": "Siempre me gustaron más los personajes misteriosos."
+          }
+        ]
+      },
+      "categories": [
+        "character",
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3789,
+      "word": "cinema",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪnəmə]",
+        "br": "[ˈsɪnəmə]",
+        "gb": "[ˈsɪnəmə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's on at the local cinema.",
+            "ru": "Этот фильм идёт в местном кинотеатре."
+          },
+          {
+            "en": "What do you say to going to a cinema tonight?",
+            "ru": "Что ты скажешь по поводу того, чтобы сходить вечером в кино?"
+          },
+          {
+            "en": "I hate lining up in the cold to go to a cinema.",
+            "ru": "Ненавижу стоять на морозе в очереди в кинотеатр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was at the cinema.",
+            "es": "Estaba en el cine."
+          },
+          {
+            "en": "Let's go to the cinema.",
+            "es": "Vamos al cine."
+          },
+          {
+            "en": "He lost his cinema ticket.",
+            "es": "Él perdió su entrada para el cine."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 5658,
+      "word": "close-up",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kləʊs] [ʌp]"
+      },
+      "translations": {
+        "rus": "крупный план",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "photography"
+      ]
+    },
+    {
+      "id": 5225,
+      "word": "comedy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmədi]",
+        "br": "[ˈkɒmədi]",
+        "gb": "[ˈkɔmɪdɪ]"
+      },
+      "translations": {
+        "rus": "комедия",
+        "spa": "la comedia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I love comedies.",
+            "ru": "Я люблю комедии."
+          },
+          {
+            "en": "I saw an amusing comedy last night.",
+            "ru": "Я вчера видел забавную комедию."
+          },
+          {
+            "en": "Mary likes romantic comedies.",
+            "ru": "Мэри любит романтические комедии."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5659,
+      "word": "costume designer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːstuːm] [dɪˈzaɪnər]",
+        "br": "[ˈkɒstjuːm] [dɪˈzaɪnə(r)]",
+        "gb": "[ˈkɔstjuːm] [dɪˈzaɪnə]"
+      },
+      "translations": {
+        "rus": "дизайнер по костюмам",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5660,
+      "word": "crew",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kruː]",
+        "br": "[kruː]",
+        "gb": "[kruː]"
+      },
+      "translations": {
+        "rus": "команда, компания, экипаж, бригада, съемочная группа",
+        "spa": "el equipo (personas), el personal, la tripulación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How many go to a crew with you, captain?",
+            "ru": "Из скольких человек состоит ваша команда, капитан?"
+          },
+          {
+            "en": "The crew and passengers numbered 33.",
+            "ru": "Команда вместе с пассажирами насчитывала 33 человека."
+          },
+          {
+            "en": "Do you still hang out with the same crew?",
+            "ru": "Ты все еще тусуешься с той же компанией?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b2",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5661,
+      "word": "crime film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kraɪm] [fɪlm]",
+        "br": "[kraɪm] [fɪlm]",
+        "gb": "[kraɪm] [fɪlm]"
+      },
+      "translations": {
+        "rus": "детектив",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5662,
+      "word": "crowd",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kraʊd]",
+        "br": "[kraʊd]",
+        "gb": "[kraʊd]"
+      },
+      "translations": {
+        "rus": "толпа",
+        "spa": "la multitud"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He disappeared in the crowd.",
+            "ru": "Он исчез в толпе."
+          },
+          {
+            "en": "The crowd is going nuts.",
+            "ru": "Толпа сходит с ума."
+          },
+          {
+            "en": "I lost him among the crowd.",
+            "ru": "Я потерял его в толпе."
+          },
+          {
+            "en": "He was surrounded by the crowd.",
+            "ru": "Его окружила толпа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Go along with the crowd.",
+            "es": "Continua con la multitud."
+          },
+          {
+            "en": "He disappeared in the crowd.",
+            "es": "Él desapareció entre la multitud."
+          },
+          {
+            "en": "He made his way through the crowd.",
+            "es": "Él se dio paso a través de la multitud."
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5663,
+      "word": "cut!",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kʌt]",
+        "br": "[kʌt]",
+        "gb": "[kʌt]"
+      },
+      "translations": {
+        "rus": "снято!",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 1442,
+      "word": "director",
+      "pos": "noun",
+      "transcription": {
+        "us": "[daɪˈrektər], [dəˈrektər]",
+        "br": "[daɪˈrektə(r)], [dəˈrektə(r)]",
+        "gb": "[dɪˈrektə]"
+      },
+      "translations": {
+        "rus": "директор, режиссер",
+        "spa": "el director"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the director?",
+            "ru": "Где директор?"
+          },
+          {
+            "en": "Can I speak with the director?",
+            "ru": "Могу я поговорить с режиссёром?"
+          },
+          {
+            "en": "I became a director.",
+            "ru": "Я стал директором."
+          },
+          {
+            "en": "He's a talented young director.",
+            "ru": "Он молодой и талантливый режиссёр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can I speak with the director?",
+            "es": "¿Puedo hablar con el director?"
+          },
+          {
+            "en": "He's a talented young director.",
+            "es": "Es un talentoso y joven director."
+          },
+          {
+            "en": "They appointed him as a director.",
+            "es": "Le nombraron director."
+          },
+          {
+            "en": "I am the executive director of the museum.",
+            "es": "Yo soy el director ejecutivo del museo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5664,
+      "word": "documentary film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdɑːkjuˈmentri] [fɪlm]",
+        "br": "[ˌdɒkjuˈmentri] [fɪlm]",
+        "gb": "[dɔkjʊˈmentərɪ] [fɪlm]"
+      },
+      "translations": {
+        "rus": "документальный фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 545,
+      "word": "drama",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdrɑːmə]",
+        "br": "[ˈdrɑːmə]",
+        "gb": "[ˈdrɑːmə]"
+      },
+      "translations": {
+        "rus": "драма",
+        "spa": "el drama"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't like drama.",
+            "ru": "Я не люблю драмы."
+          },
+          {
+            "en": "His life was full of drama.",
+            "ru": "Его жизнь была полна драм."
+          },
+          {
+            "en": "How does this drama end?",
+            "ru": "Как заканчивается эта драма?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't like drama.",
+            "es": "No me gusta el drama."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "literature",
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5665,
+      "word": "dubbed film",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dʌbd] [fɪlm]"
+      },
+      "translations": {
+        "rus": "дублированный фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5666,
+      "word": "educational film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌedʒuˈkeɪʃənl] [fɪlm]",
+        "br": "[ˌedʒuˈkeɪʃənl] [fɪlm]",
+        "gb": "[edjuːˈkeɪʃənl] [fɪlm]"
+      },
+      "translations": {
+        "rus": "общеобразовательный фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 550,
+      "word": "effect",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈfekt]",
+        "br": "[ɪˈfekt]",
+        "gb": "[ɪˈfekt]"
+      },
+      "translations": {
+        "rus": "эффект, воздействие",
+        "spa": "el efecto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The effect was immediate.",
+            "ru": "Эффект был немедленным."
+          },
+          {
+            "en": "What are the possible side effects?",
+            "ru": "Какие есть возможные побочные эффекты?"
+          },
+          {
+            "en": "This medicine has no side effects.",
+            "ru": "У этого лекарства нет побочных эффектов."
+          },
+          {
+            "en": "His remarks had the opposite effect.",
+            "ru": "Его замечания имели противоположный эффект."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It has had no effect on him.",
+            "es": "No tuvo efecto en él."
+          },
+          {
+            "en": "Will there be permanent effects?",
+            "es": "¿Habrá efectos permanentes?"
+          },
+          {
+            "en": "This medicine has no side effects.",
+            "es": "Este remedio no tiene efectos secundarios."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5667,
+      "word": "episode",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈepɪsəʊd]",
+        "br": "[ˈepɪsəʊd]",
+        "gb": "[ˈepɪsəʊd]"
+      },
+      "translations": {
+        "rus": "эпизод, серия",
+        "spa": "el episodio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've just finished watching episode three.",
+            "ru": "Я только что закончил смотреть третий эпизод."
+          },
+          {
+            "en": "Did you see yesterday's episode?",
+            "ru": "Ты видел вчерашнюю серию?"
+          },
+          {
+            "en": "Are you going to record today's episode?",
+            "ru": "Ты собираешься записать сегодняшнюю серию?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5669,
+      "word": "feature film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfiːtʃər] [fɪlm]",
+        "br": "[ˈfiːtʃə(r)] [fɪlm]",
+        "gb": "[ˈfiːʧə] [fɪlm]"
+      },
+      "translations": {
+        "rus": "(полнометражный) фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5670,
+      "word": "film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪlm]",
+        "br": "[fɪlm]",
+        "gb": "[fɪlm]"
+      },
+      "translations": {
+        "rus": "фильм, плёнка",
+        "spa": "la película"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am watching a film.",
+            "ru": "Я смотрю фильм."
+          },
+          {
+            "en": "It was a bad film.",
+            "ru": "Это был плохой фильм."
+          },
+          {
+            "en": "This camera is not loaded with film.",
+            "ru": "В этом фотоаппарате нет плёнки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What film did ye see?",
+            "es": "¿Qué película viste?"
+          },
+          {
+            "en": "I am watching a film.",
+            "es": "Estoy viendo una película."
+          },
+          {
+            "en": "Did you enjoy the film?",
+            "es": "¿Fue divertida la película?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5672,
+      "word": "final scene",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪnl] [siːn]",
+        "br": "[ˈfaɪnl] [siːn]",
+        "gb": "[faɪnl] [siːn]"
+      },
+      "translations": {
+        "rus": "финальная сцена",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5673,
+      "word": "flash-back",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flæʃ] [bæk]",
+        "br": "[flæʃ] [bæk]",
+        "gb": "[flæʃ] [bæk]"
+      },
+      "translations": {
+        "rus": "воспоминание, возврат в прошлое",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5674,
+      "word": "full-length film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊl] [leŋkθ] [fɪlm]",
+        "br": "[fʊl] [leŋkθ] [fɪlm]",
+        "gb": "[fʊl] [leŋθ] [fɪlm]"
+      },
+      "translations": {
+        "rus": "полнометражный фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5675,
+      "word": "happy ending",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhæpi] [ˈendɪŋ]",
+        "br": "[ˈhæpi] [ˈendɪŋ]",
+        "gb": "[ˈhæpɪ] [ˈendɪŋ]"
+      },
+      "translations": {
+        "rus": "счастливый конец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5676,
+      "word": "historical film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪˈstɔːrɪkl] [fɪlm]",
+        "br": "[hɪˈstɒrɪkl] [fɪlm]",
+        "gb": "[hɪsˈtɔrɪkəl] [fɪlm]"
+      },
+      "translations": {
+        "rus": "исторический фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5677,
+      "word": "horror film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɔːrər] [fɪlm]",
+        "br": "[ˈhɒrə(r)] [fɪlm]",
+        "gb": "[ˈhɔrə] [fɪlm]"
+      },
+      "translations": {
+        "rus": "фильм ужасов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5678,
+      "word": "leading role",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈledɪŋ] [rəʊl]",
+        "br": "[ˈledɪŋ] [rəʊl]",
+        "gb": "[ˈledɪŋ] [rəʊl]"
+      },
+      "translations": {
+        "rus": "главная роль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5679,
+      "word": "location",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ləʊˈkeɪʃn]",
+        "br": "[ləʊˈkeɪʃn]",
+        "gb": "[ləʊˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "местонахождение, положение, расположение",
+        "spa": "la ubicación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is the perfect location.",
+            "ru": "Это идеальное расположение."
+          },
+          {
+            "en": "She asked about the location of the house.",
+            "ru": "Она спросила о местонахождении дома."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll look up the location of the town on my map.",
+            "es": "Buscaré la ubicación de la ciudad en mi mapa."
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 259,
+      "word": "make-up",
+      "pos": "noun",
+      "transcription": {
+        "us": "[meɪk] [ʌp]",
+        "br": "[meɪk] [ʌp]",
+        "gb": "[meɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "макияж, косметика, грим",
+        "spa": "el maquillaje"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "movie",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5680,
+      "word": "makeup artist",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmeɪkʌp] [ˈɑːtɪst]"
+      },
+      "translations": {
+        "rus": "художник по гриму, гример",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5681,
+      "word": "minor role",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaɪnər] [rəʊl]",
+        "br": "[ˈmaɪnə(r)] [rəʊl]",
+        "gb": "[ˈmaɪnə] [rəʊl]"
+      },
+      "translations": {
+        "rus": "роль второго плана",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5682,
+      "word": "motion picture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊʃn] [ˈpɪktʃər]",
+        "br": "[ˈməʊʃn] [ˈpɪktʃə(r)]",
+        "gb": "[məʊʃn] [ˈpɪkʧə]"
+      },
+      "translations": {
+        "rus": "фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5683,
+      "word": "movie",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmuːvi]",
+        "br": "[ˈmuːvi]",
+        "gb": "[ˈmuːvɪ]"
+      },
+      "translations": {
+        "rus": "кино, фильм",
+        "spa": "la película"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's go to a movie.",
+            "ru": "Пойдём в кино."
+          },
+          {
+            "en": "I like movies a lot.",
+            "ru": "Я обожаю кино."
+          },
+          {
+            "en": "What time is the movie?",
+            "ru": "Во сколько фильм?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like movies a lot.",
+            "es": "Me gustan mucho las películas."
+          },
+          {
+            "en": "The movie made me cry.",
+            "es": "La película me hizo llorar."
+          },
+          {
+            "en": "What a sad movie it was!",
+            "es": "¡Pero qué triste fue la película!"
+          },
+          {
+            "en": "Did you watch the movie?",
+            "es": "¿Viste la película?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3837,
+      "word": "movie theater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmuːvi] [θiːətər]",
+        "br": "[ˈmuːvi] [θɪətə(r)]",
+        "gb": "[ˈmuːvɪ] [ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 5684,
+      "word": "musical",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈmjuːzɪkl]",
+        "br": "[ˈmjuːzɪkl]",
+        "gb": "[ˈmjuːzɪkəl]"
+      },
+      "translations": {
+        "rus": "музыкальный, мелодичный, мюзикл",
+        "spa": "musical, el musical"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mozart was a musical prodigy.",
+            "ru": "Моцарт был музыкальным вундеркином."
+          },
+          {
+            "en": "She shot to stardom in a Broadway musical.",
+            "ru": "Она прославилась, выступая в Бродвейском мюзикле."
+          },
+          {
+            "en": "She is blessed with musical talent.",
+            "ru": "Она одарена музыкальными способностями."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This play is a musical.",
+            "es": "Esta obra es un musical."
+          },
+          {
+            "en": "The trumpet is a musical instrument.",
+            "es": "La trompeta es un instrumento musical."
+          },
+          {
+            "en": "Didn't you see the musical?",
+            "es": "¿No viste el musical?"
+          },
+          {
+            "en": "Can you play any musical instruments?",
+            "es": "¿Sabes tocar algún instrumento musical?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5685,
+      "word": "mute film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mjuːt] [fɪlm]",
+        "br": "[mjuːt] [fɪlm]",
+        "gb": "[mjuːt] [fɪlm]"
+      },
+      "translations": {
+        "rus": "немой фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5686,
+      "word": "newsreel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːzriːl]",
+        "br": "[ˈnjuːzriːl]",
+        "gb": "[ˈnjuːzriːl]"
+      },
+      "translations": {
+        "rus": "кинохроника",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5687,
+      "word": "off-screen narration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔːf] [skriːn] [nəˈreɪʃn]",
+        "br": "[ɒf] [skriːn] [nəˈreɪʃn]",
+        "gb": "[ɒf] [skriːn] [nəˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "повествование за кадром",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5688,
+      "word": "opening scene",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊpənɪŋ] [siːn]",
+        "br": "[ˈəʊpənɪŋ] [siːn]",
+        "gb": "[ˈəʊpnɪŋ] [siːn]"
+      },
+      "translations": {
+        "rus": "начальная сцена, вступительная сцена",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5262,
+      "word": "plot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plɑːt]",
+        "br": "[plɒt]",
+        "gb": "[plɔt]"
+      },
+      "translations": {
+        "rus": "сюжет, фабула",
+        "spa": "el argumento, la trama"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The plot develops rapidly.",
+            "ru": "Сюжет развивается стремительно."
+          },
+          {
+            "en": "I didn't like the plot of the movie.",
+            "ru": "Мне не понравился сюжет фильма."
+          },
+          {
+            "en": "This movie has a predictable plot.",
+            "ru": "Сюжет этого фильма предсказуем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I didn't like the plot of the movie.",
+            "es": "No me gustó el argumento de la película."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5689,
+      "word": "poster",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊstər]",
+        "br": "[ˈpəʊstə(r)]",
+        "gb": "[ˈpəʊstə]"
+      },
+      "translations": {
+        "rus": "постер, афиша",
+        "spa": "el póster"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She put posters all over the city.",
+            "ru": "Она расклеила постеры по всему городу."
+          },
+          {
+            "en": "She has posters of her favorite bands on her walls.",
+            "ru": "У неё на стене висят постеры её любимых групп."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2861,
+      "word": "producer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈduːsər]",
+        "br": "[prəˈdjuːsə(r)]",
+        "gb": "[prəˈdjuːsə]"
+      },
+      "translations": {
+        "rus": "производитель, продюсер",
+        "spa": "el productor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Japan's largest producer of microchips.",
+            "ru": "Крупнейший в Японии производитель микрочипов."
+          },
+          {
+            "en": "I'm a music producer.",
+            "ru": "Я музыкальный продюсер."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 702,
+      "word": "scene",
+      "pos": "noun",
+      "transcription": {
+        "us": "[siːn]",
+        "br": "[siːn]",
+        "gb": "[siːn]"
+      },
+      "translations": {
+        "rus": "сцена, место действия, картина, эпизод",
+        "spa": "la escena"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She made a scene.",
+            "ru": "Она устроила сцену."
+          },
+          {
+            "en": "It was a horrible scene.",
+            "ru": "Это была ужасная сцена."
+          },
+          {
+            "en": "Don't make a scene in public.",
+            "ru": "Не устраивай публичных сцен."
+          },
+          {
+            "en": "It's like a scene from a movie, isn't it?",
+            "ru": "Прямо как сцена из фильма, да?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a horrible scene.",
+            "es": "Fue una escena horrorosa."
+          },
+          {
+            "en": "Don't make a scene in public.",
+            "es": "No hagas una escena en público."
+          },
+          {
+            "en": "He described the scene in detail.",
+            "es": "Describió la escena en detalles."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "movie",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5690,
+      "word": "science fiction film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪəns] [ˈfɪkʃn] [fɪlm]",
+        "br": "[ˈsaɪəns] [ˈfɪkʃn] [fɪlm]",
+        "gb": "[ˈsaɪəns] [fɪkʃn] [fɪlm]"
+      },
+      "translations": {
+        "rus": "научно-фантастический фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 4118,
+      "word": "screen",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skriːn]",
+        "br": "[skriːn]",
+        "gb": "[skriːn]"
+      },
+      "translations": {
+        "rus": "экран, ширма, экранный",
+        "spa": "la pantalla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why did the screen go off?",
+            "ru": "Почему погас экран?"
+          },
+          {
+            "en": "A screen divides the room into two.",
+            "ru": "Ширма делит комнату на две части."
+          },
+          {
+            "en": "This phone has a multitouch screen.",
+            "ru": "У этого телефона мультисенсорный экран."
+          },
+          {
+            "en": "My phone's screen has a broken pixel.",
+            "ru": "На экране моего телефона есть битый пиксель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Click me to hide this screen.",
+            "es": "Haz click para esconder esta pantalla."
+          },
+          {
+            "en": "There's a good movie screening today.",
+            "es": "Hoy proyectan una buena película."
+          },
+          {
+            "en": "It's much better on a big screen.",
+            "es": "Es mucho mejor en una pantalla grande."
+          },
+          {
+            "en": "The screen is giving off green light.",
+            "es": "La pantalla solo emite luz verde."
+          }
+        ]
+      },
+      "categories": [
+        "home",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5691,
+      "word": "screen version",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skriːn] [ˈvɜːrʒn]",
+        "br": "[skriːn] [ˈvɜːʃn]",
+        "gb": "[skriːn] [vɜːʃn]"
+      },
+      "translations": {
+        "rus": "экранизация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5692,
+      "word": "screenplay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskriːnpleɪ]",
+        "br": "[ˈskriːnpleɪ]",
+        "gb": "[ˈskriːnpleɪ]"
+      },
+      "translations": {
+        "rus": "киносценарий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5693,
+      "word": "script",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skrɪpt]",
+        "br": "[skrɪpt]",
+        "gb": "[skrɪpt]"
+      },
+      "translations": {
+        "rus": "сценарий",
+        "spa": "el guion, el texto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He writes scripts for TV shows.",
+            "ru": "Он пишет сценарии для телесериалов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5694,
+      "word": "scriptwriter, screenwriter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskrɪptraɪtər], [ˈskriːnraɪtər]",
+        "br": "[ˈskrɪptraɪtə(r)], [ˈskriːnraɪtə(r)]",
+        "gb": "[ˈskrɪptraɪtə] [ˈskriːnraɪtə]"
+      },
+      "translations": {
+        "rus": "киносценарист, драматург",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5695,
+      "word": "short-length film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɔːrt] [leŋkθ] [fɪlm]",
+        "br": "[ʃɔːt] [leŋkθ] [fɪlm]",
+        "gb": "[ʃɔːt] [leŋθ] [fɪlm]"
+      },
+      "translations": {
+        "rus": "короткометражный фильм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5696,
+      "word": "showing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃəʊɪŋ]",
+        "br": "[ˈʃəʊɪŋ]",
+        "gb": "[ˈʃəʊɪŋ]"
+      },
+      "translations": {
+        "rus": "показ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5697,
+      "word": "sound",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[saʊnd]",
+        "br": "[saʊnd]",
+        "gb": "[saʊnd]"
+      },
+      "translations": {
+        "rus": "звук, звуковой",
+        "spa": "el sonido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was no sound.",
+            "ru": "Не было звука."
+          },
+          {
+            "en": "Some birds can break the sound barrier.",
+            "ru": "Некоторые птицы могут преодолевать звуковой барьер."
+          },
+          {
+            "en": "Turn the sound off.",
+            "ru": "Отключи звук."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you hear that sound?",
+            "es": "¿Oíste el sonido?"
+          },
+          {
+            "en": "The sound rises and falls.",
+            "es": "El sonido sube y baja."
+          },
+          {
+            "en": "What sound does a mouse make?",
+            "es": "¿Qué sonido hace el ratón?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5698,
+      "word": "soundtrack",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaʊndtræk]",
+        "br": "[ˈsaʊndtræk]",
+        "gb": "[ˈsaʊndtræk]"
+      },
+      "translations": {
+        "rus": "саундтрек",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5699,
+      "word": "star-studded film",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːr] [ˈstʌdɪd] [fɪlm]",
+        "br": "[stɑː(r)] [ˈstʌdɪd] [fɪlm]",
+        "gb": "[stɑː] [ˈstʌdɪd] [fɪlm]"
+      },
+      "translations": {
+        "rus": "фильм со звездами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5700,
+      "word": "stunt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stʌnt]",
+        "br": "[stʌnt]",
+        "gb": "[stʌnt]"
+      },
+      "translations": {
+        "rus": "трюк",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5701,
+      "word": "stunt man",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stʌnt] [mæn]",
+        "br": "[stʌnt] [mæn]",
+        "gb": "[stʌnt] [mæn]"
+      },
+      "translations": {
+        "rus": "каскадер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5702,
+      "word": "subtitle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbtaɪtl]",
+        "br": "[ˈsʌbtaɪtl]",
+        "gb": "[ˈsʌbtaɪtl]"
+      },
+      "translations": {
+        "rus": "субтитр, подзаголовок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5703,
+      "word": "supporting role",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈpɔːrtɪŋ] [rəʊl]",
+        "br": "[səˈpɔːtɪŋ] [rəʊl]",
+        "gb": "[səˈpɔːtɪŋ] [rəʊl]"
+      },
+      "translations": {
+        "rus": "роль второго плана",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5704,
+      "word": "take",
+      "pos": "noun",
+      "transcription": {
+        "us": "[teɪk]",
+        "br": "[teɪk]",
+        "gb": "[teɪk]"
+      },
+      "translations": {
+        "rus": "дубль (на съёмках)",
+        "spa": "la toma"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5705,
+      "word": "thriller",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθrɪlər]",
+        "br": "[ˈθrɪlə(r)]",
+        "gb": "[ˈθrɪlə]"
+      },
+      "translations": {
+        "rus": "триллер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5706,
+      "word": "ticket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɪkɪt]",
+        "br": "[ˈtɪkɪt]",
+        "gb": "[ˈtɪkɪt]"
+      },
+      "translations": {
+        "rus": "билет",
+        "spa": "el boleto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much is the ticket?",
+            "ru": "Почём билет?"
+          },
+          {
+            "en": "Get a ticket for me.",
+            "ru": "Возьми мне билет."
+          },
+          {
+            "en": "You have an entry ticket.",
+            "ru": "У тебя есть билет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a ticket?",
+            "es": "¿Tienes un boleto?"
+          },
+          {
+            "en": "Here is my air ticket.",
+            "es": "Aquí está mi boleto."
+          },
+          {
+            "en": "How much is the ticket?",
+            "es": "¿Cuánto cuesta el boleto?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 811,
+      "word": "to book",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bʊk]",
+        "br": "[tə] [bʊk]",
+        "gb": "[tuː] [bʊk]"
+      },
+      "translations": {
+        "rus": "бронировать, заказывать",
+        "spa": "reservar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I booked a seat.",
+            "ru": "Я забронировал место."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'd like to book three seats.",
+            "es": "Me gustaría reservar tres asientos."
+          },
+          {
+            "en": "Have you got a table booked?",
+            "es": "¿Tiene usted mesa reservada?"
+          },
+          {
+            "en": "We booked seats for the play.",
+            "es": "Reservamos el boleto para la obra."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5371,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить (в т.ч. о фильме, журнале, газете)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come out of there.",
+            "ru": "Выходи оттуда."
+          },
+          {
+            "en": "The moon has come out.",
+            "ru": "Луна появилась."
+          },
+          {
+            "en": "You can come out now.",
+            "ru": "Теперь можешь выходить."
+          },
+          {
+            "en": "This cork will not come out.",
+            "ru": "Эта пробка не вылезет."
+          },
+          {
+            "en": "This stain won't come out.",
+            "ru": "Это пятно не хочет исчезать."
+          },
+          {
+            "en": "Come out peacefully.",
+            "ru": "Выходите без резких движений."
+          },
+          {
+            "en": "One of the screws has come out.",
+            "ru": "Один из винтов выкрутился."
+          },
+          {
+            "en": "Come out with your hands up.",
+            "ru": "Выходите с поднятыми руками."
+          },
+          {
+            "en": "When will the new magazine come out?",
+            "ru": "Когда выйдет новый журнал?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5372,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выясняться, становиться известным",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5373,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "публично выступать, публично заявлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5668,
+      "word": "to fade out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [feɪd] [aʊt]",
+        "br": "[tə] [feɪd] [aʊt]",
+        "gb": "[tuː] [feɪd] [aʊt]"
+      },
+      "translations": {
+        "rus": "исчезать постепенно",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5671,
+      "word": "to film",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɪlm]",
+        "br": "[tə] [fɪlm]",
+        "gb": "[tuː] [fɪlm]"
+      },
+      "translations": {
+        "rus": "снимать (видео)",
+        "spa": "filmar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you filming?",
+            "ru": "Ты снимаешь?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was filmed in Australia.",
+            "es": "Fue filmada en Australia."
+          },
+          {
+            "en": "They filmed the entire ceremony.",
+            "es": "Filmaron toda la ceremonia."
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1116,
+      "word": "to play",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pleɪ]",
+        "br": "[tə] [pleɪ]",
+        "gb": "[tuː] [pleɪ]"
+      },
+      "translations": {
+        "rus": "играть",
+        "spa": "jugar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The band played a march.",
+            "ru": "Оркестр играл марш."
+          },
+          {
+            "en": "Let's play cards.",
+            "ru": "Давайте сыграем в карты."
+          },
+          {
+            "en": "Can you play poker?",
+            "ru": "Вы умеете играть в покер?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you want to play?",
+            "es": "¿Querés jugar?"
+          },
+          {
+            "en": "Would you play with me?",
+            "es": "¿Querrías jugar conmigo?"
+          },
+          {
+            "en": "We used to play together.",
+            "es": "Solíamos jugar juntos."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "movie",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1162,
+      "word": "to release",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈliːs]",
+        "br": "[tə] [rɪˈliːs]",
+        "gb": "[tuː] [rɪˈliːs]"
+      },
+      "translations": {
+        "rus": "выпускать, освобождать, отпускать",
+        "spa": "liberar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't release that dog.",
+            "ru": "Не выпускай эту собаку."
+          },
+          {
+            "en": "They released a new album.",
+            "ru": "Они выпустили новый альбом."
+          },
+          {
+            "en": "They've both been released from prison.",
+            "ru": "Их обоих выпустили из тюрьмы."
+          },
+          {
+            "en": "The girl released the birds from the cage.",
+            "ru": "Девочка выпустила птиц из клетки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm going to release you.",
+            "es": "Voy a liberarte."
+          },
+          {
+            "en": "The boy released a bird from the cage.",
+            "es": "El niño liberó al ave de la jaula."
+          },
+          {
+            "en": "The doctor released him from his pain.",
+            "es": "El doctor lo liberó de su sufrimiento."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "movie",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5285,
+      "word": "tragedy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrædʒədi]",
+        "br": "[ˈtrædʒədi]",
+        "gb": "[ˈtræʤɪdɪ]"
+      },
+      "translations": {
+        "rus": "трагедия",
+        "spa": "la tragedia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a tragedy.",
+            "ru": "Это была трагедия."
+          },
+          {
+            "en": "What an awful tragedy!",
+            "ru": "Какая ужасная трагедия!"
+          },
+          {
+            "en": "Where did the tragedy occur?",
+            "ru": "Где случилась трагедия?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "movie",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5707,
+      "word": "TV series",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌtiː ˈviː] [ˈsɪriːz]",
+        "br": "[ˌtiː ˈviː] [ˈsɪəriːz]",
+        "gb": "[ˌtiː ˈviː] [ˈsɪriːz]"
+      },
+      "translations": {
+        "rus": "телесериал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "movie"
+      ]
+    },
+    {
+      "id": 5708,
+      "word": "western",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈwestərn]",
+        "br": "[ˈwestən]",
+        "gb": "[ˈwestən]"
+      },
+      "translations": {
+        "rus": "вестерн, западный",
+        "spa": "oeste, occidental"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I love westerns.",
+            "ru": "Я люблю вестерны."
+          },
+          {
+            "en": "He likes Western culture.",
+            "ru": "Ему нравится западная культура."
+          },
+          {
+            "en": "He lives in the western part of town.",
+            "ru": "Он живёт в западной части города."
+          }
+        ],
+        "spa": [
+          {
+            "en": "France is in western Europe.",
+            "es": "Francia está en Europa Occidental."
+          },
+          {
+            "en": "He lives in the western part of town.",
+            "es": "Él vive en el distrito oeste de la ciudad."
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    }
+  ]
+}

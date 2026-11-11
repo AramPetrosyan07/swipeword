@@ -1,0 +1,2424 @@
+{
+  "category": {
+    "id": "geography",
+    "name_rus": "География",
+    "type": "topic",
+    "word_count": 66
+  },
+  "words": [
+    {
+      "id": 3397,
+      "word": "area",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeriə]",
+        "br": "[ˈeəriə]",
+        "gb": "[ˈɛərɪə]"
+      },
+      "translations": {
+        "rus": "область, сфера, район, площадь",
+        "spa": "el área"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live in a remote area.",
+            "ru": "Мы живём в удалённом районе."
+          },
+          {
+            "en": "This is not my area of expertise.",
+            "ru": "Это не моя область знаний."
+          },
+          {
+            "en": "Hunting is prohibited in this area.",
+            "ru": "В этом районе охота запрещена."
+          },
+          {
+            "en": "The river flooded a large area.",
+            "ru": "Река затопила большую область."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was in the area.",
+            "es": "Yo estaba en el área."
+          },
+          {
+            "en": "Don't go into that area.",
+            "es": "No entres en esa área."
+          },
+          {
+            "en": "Do you know the area well?",
+            "es": "¿Conoces bien el área?"
+          },
+          {
+            "en": "Water is scarce in this area.",
+            "es": "El agua escasea en este área."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3398,
+      "word": "atlas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈætləs]",
+        "br": "[ˈætləs]",
+        "gb": "[ˈætləs]"
+      },
+      "translations": {
+        "rus": "атлас",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3399,
+      "word": "bay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[beɪ]",
+        "br": "[beɪ]",
+        "gb": "[beɪ]"
+      },
+      "translations": {
+        "rus": "бухта, залив",
+        "spa": "la bahía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 3400,
+      "word": "beach",
+      "pos": "noun",
+      "transcription": {
+        "us": "[biːtʃ]",
+        "br": "[biːtʃ]",
+        "gb": "[biːʧ]"
+      },
+      "translations": {
+        "rus": "пляж, берег",
+        "spa": "la playa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We picnicked on the beach.",
+            "ru": "Мы устроили пикник на пляже."
+          },
+          {
+            "en": "We walked along the beach.",
+            "ru": "Мы прогуливались вдоль пляжа."
+          },
+          {
+            "en": "Is this beach safe for bathing?",
+            "ru": "На этом пляже безопасно купаться?"
+          },
+          {
+            "en": "She owns a cottage at the beach.",
+            "ru": "Она владеет летним домиком на пляже."
+          }
+        ],
+        "spa": [
+          {
+            "en": "And this is a beach.",
+            "es": "Y ésta es la playa."
+          },
+          {
+            "en": "I don't like the beach.",
+            "es": "No me gusta la playa."
+          },
+          {
+            "en": "Which way is the beach?",
+            "es": "¿Por dónde queda la playa?"
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 3401,
+      "word": "canal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈnæl]",
+        "br": "[kəˈnæl]",
+        "gb": "[kəˈnæl]"
+      },
+      "translations": {
+        "rus": "канал",
+        "spa": "el canal, el tubo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ship went through the Suez Canal.",
+            "ru": "Корабль прошёл через Суэцкий канал."
+          },
+          {
+            "en": "Amsterdam is famous for its canals.",
+            "ru": "Амстердам знаменит своими каналами."
+          },
+          {
+            "en": "The Panama Canal connects the Atlantic with the Pacific.",
+            "ru": "Панамский канал соединяет Атлантический океан с Тихим."
+          },
+          {
+            "en": "The completion of the Suez canal was a colossal achievement.",
+            "ru": "Окончание строительства Суэцкого канала было колоссальным достижением."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 3402,
+      "word": "cape",
+      "pos": "noun",
+      "transcription": {
+        "us": "[keɪp]",
+        "br": "[keɪp]",
+        "gb": "[keɪp]"
+      },
+      "translations": {
+        "rus": "мыс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3403,
+      "word": "capital",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpɪtl]",
+        "br": "[ˈkæpɪtl]",
+        "gb": "[ˈkæpɪtl]"
+      },
+      "translations": {
+        "rus": "столица",
+        "spa": "la capital"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They visited the capital.",
+            "ru": "Они посетили столицу."
+          },
+          {
+            "en": "They took a trip to the capital.",
+            "ru": "Они съездили в столицу."
+          },
+          {
+            "en": "Wherever you live, there's the capital.",
+            "ru": "Где живешь, там и столица."
+          },
+          {
+            "en": "Do you know the capital of Belgium?",
+            "ru": "Вы знаете столицу Бельгии?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Kyoto is Japan's former capital.",
+            "es": "Kioto fue la antigua capital de Japón."
+          },
+          {
+            "en": "Do you know the capital of Belgium?",
+            "es": "¿Conocen la capital de Bélgica?"
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 3404,
+      "word": "city",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈsɪti]",
+        "br": "[ˈsɪti]",
+        "gb": "[ˈsɪtɪ]"
+      },
+      "translations": {
+        "rus": "город, городской",
+        "spa": "la ciudad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I live in the city.",
+            "ru": "Я живу в городе."
+          },
+          {
+            "en": "Do you like the city?",
+            "ru": "Тебе нравится город?"
+          },
+          {
+            "en": "Paris is the city of love.",
+            "ru": "Париж – город любви."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live in the city.",
+            "es": "Vivo en la ciudad."
+          },
+          {
+            "en": "What city are you in?",
+            "es": "¿En qué ciudad estás?"
+          },
+          {
+            "en": "Do you like this city?",
+            "es": "¿Te gusta esta ciudad?"
+          },
+          {
+            "en": "How do I get to the city?",
+            "es": "¿Cómo llego a la ciudad?"
+          },
+          {
+            "en": "He knows the city well.",
+            "es": "Él conoce bien la ciudad."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 3405,
+      "word": "cliff",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klɪf]",
+        "br": "[klɪf]",
+        "gb": "[klɪf]"
+      },
+      "translations": {
+        "rus": "утёс, (отвесная) скала, крутой обрыв",
+        "spa": "el acantilado, el precipicio, el risco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stones grumbled down the cliff.",
+            "ru": "Камни с грохотом упали с утеса."
+          },
+          {
+            "en": "We went straight up the cliff.",
+            "ru": "Мы шли вверх по крутому склону."
+          },
+          {
+            "en": "The cliff was steep and it was difficult to find a hold.",
+            "ru": "Скала была крутой, и найти опору было трудно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 3406,
+      "word": "climate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklaɪmət]",
+        "br": "[ˈklaɪmət]",
+        "gb": "[ˈklaɪmɪt]"
+      },
+      "translations": {
+        "rus": "климат",
+        "spa": "el clima"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The climate here is mild.",
+            "ru": "Здесь мягкий климат."
+          },
+          {
+            "en": "Japan has a mild climate.",
+            "ru": "В Японии мягкий климат."
+          },
+          {
+            "en": "The climate is moist and warm.",
+            "ru": "Климат влажный и тёплый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The climate here is mild.",
+            "es": "El clima está templado."
+          },
+          {
+            "en": "The climate affected his health.",
+            "es": "El clima afectó su salud."
+          },
+          {
+            "en": "The climate is mild in this country.",
+            "es": "El clima es suave en este país."
+          },
+          {
+            "en": "Generally speaking, the climate of Japan is mild.",
+            "es": "Por lo general, el clima de Japón es suave."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2638,
+      "word": "coast",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kəʊst]",
+        "br": "[kəʊst]",
+        "gb": "[kəʊst]"
+      },
+      "translations": {
+        "rus": "берег, побережье, береговой",
+        "spa": "la costa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He lives on the coast.",
+            "ru": "Он живет на побережье."
+          },
+          {
+            "en": "We'll sail along the coast.",
+            "ru": "Мы проплывем вдоль побережья."
+          },
+          {
+            "en": "A village on the south coast.",
+            "ru": "Деревня на Южном побережье."
+          },
+          {
+            "en": "From here, it's about three kilometers to the coast.",
+            "ru": "Отсюда до побережья около трёх километров."
+          },
+          {
+            "en": "We went to the coast for our summer vacation.",
+            "ru": "На летние каникулы мы отправились на побережье."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She moved to the West Coast.",
+            "es": "Ella se mudó a la Costa Oeste."
+          },
+          {
+            "en": "I'm from the West Coast.",
+            "es": "Soy de la costa oeste."
+          },
+          {
+            "en": "We drove along the coast.",
+            "es": "Conducimos a lo largo de la costa."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 3407,
+      "word": "conflagration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːnfləˈɡreɪʃn]",
+        "br": "[ˌkɒnfləˈɡreɪʃn]",
+        "gb": "[kɔnfləˈgreɪʃn]"
+      },
+      "translations": {
+        "rus": "большой пожар",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3408,
+      "word": "continent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntɪnənt]",
+        "br": "[ˈkɒntɪnənt]",
+        "gb": "[ˈkɔntɪnənt]"
+      },
+      "translations": {
+        "rus": "континент",
+        "spa": "el continente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Australia is both a country and a continent.",
+            "ru": "Австралия - это и страна, и континент."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 3409,
+      "word": "country",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌntri]",
+        "br": "[ˈkʌntri]",
+        "gb": "[ˈkʌntrɪ]"
+      },
+      "translations": {
+        "rus": "страна, сельская местность",
+        "spa": "el país"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which country are you from?",
+            "ru": "Из какой ты страны?"
+          },
+          {
+            "en": "He came from another country.",
+            "ru": "Он приехал из другой страны."
+          },
+          {
+            "en": "Switzerland is a beautiful country.",
+            "ru": "Швейцария - красивая страна."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I live in the country.",
+            "es": "Vivo en el país."
+          },
+          {
+            "en": "That war hurt the country.",
+            "es": "La guerra fue perjudicial para el país."
+          },
+          {
+            "en": "Which country are you from?",
+            "es": "¿De qué país eres?"
+          },
+          {
+            "en": "Rice grows in warm countries.",
+            "es": "El arroz crece en países cálidos."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "politics",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 3410,
+      "word": "current",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɜːrənt]",
+        "br": "[ˈkʌrənt]",
+        "gb": "[ˈkʌrənt]"
+      },
+      "translations": {
+        "rus": "течение, ток",
+        "spa": "la corriente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He always swims with the current.",
+            "ru": "Он всегда плывёт по течению."
+          },
+          {
+            "en": "The boat is going against the current.",
+            "ru": "Лодка плывёт против течения."
+          },
+          {
+            "en": "Let us try to swim against the current.",
+            "ru": "Давайте попробуем плыть против течения."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He was dragged along by the current.",
+            "es": "Le arrastró la corriente."
+          },
+          {
+            "en": "Let's try and swim against the current.",
+            "es": "Tratemos de nadar contra la corriente."
+          },
+          {
+            "en": "He was rowing against a gentle current.",
+            "es": "Remaba contra una corriente suave."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3411,
+      "word": "desert",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈdezərt]",
+        "br": "[ˈdezət]",
+        "gb": "[ˈdezət]"
+      },
+      "translations": {
+        "rus": "пустыня, необитаемый",
+        "spa": "el desierto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Sahara is a vast desert.",
+            "ru": "Сахара - это большая пустыня."
+          },
+          {
+            "en": "They will survey the desert island.",
+            "ru": "Они обследуют необитаемый остров."
+          },
+          {
+            "en": "The street is deserted.",
+            "ru": "Улица пустынна."
+          },
+          {
+            "en": "Camels are the ships of the deserts.",
+            "ru": "Верблюды - корабли пустыни."
+          },
+          {
+            "en": "There's no water at all in this desert.",
+            "ru": "В этой пустыне нет ни капли воды."
+          },
+          {
+            "en": "Crossing that desert is dangerous.",
+            "ru": "Переход через ту пустыню опасен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3412,
+      "word": "district",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪstrɪkt]",
+        "br": "[ˈdɪstrɪkt]",
+        "gb": "[ˈdɪstrɪkt]"
+      },
+      "translations": {
+        "rus": "район, область, местность",
+        "spa": "el distrito"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know this district.",
+            "ru": "Я знаю эту область."
+          },
+          {
+            "en": "The Tohoku district is worth traveling to.",
+            "ru": "В округ Тохоку стоит заехать."
+          },
+          {
+            "en": "He lives in a poor district of London.",
+            "ru": "Он живёт в бедном районе Лондона."
+          },
+          {
+            "en": "The town is in a mountainous district.",
+            "ru": "Город расположен в гористой местности."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3413,
+      "word": "earthquake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɜːrθkweɪk]",
+        "br": "[ˈɜːθkweɪk]",
+        "gb": "[ˈɜːθkweɪk]"
+      },
+      "translations": {
+        "rus": "землетрясение",
+        "spa": "el terremoto, el temblor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The earthquake shook the houses.",
+            "ru": "От землетрясения затряслись дома."
+          },
+          {
+            "en": "We had an earthquake last night.",
+            "ru": "У нас было землетрясение вчера вечером."
+          },
+          {
+            "en": "A fire broke out after the earthquake.",
+            "ru": "После землетрясения разгорелся пожар."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 3414,
+      "word": "equator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈkweɪtər]",
+        "br": "[ɪˈkweɪtə(r)]",
+        "gb": "[ɪˈkweɪtər]"
+      },
+      "translations": {
+        "rus": "экватор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3415,
+      "word": "estuary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈestʃueri]",
+        "br": "[ˈestʃuəri]",
+        "gb": "[ˈestjʊərɪ]"
+      },
+      "translations": {
+        "rus": "эстуарий (устье реки)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3416,
+      "word": "fire",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪər]",
+        "br": "[ˈfaɪə(r)]",
+        "gb": "[ˈfaɪə]"
+      },
+      "translations": {
+        "rus": "огонь, пожар",
+        "spa": "el fuego"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The fire has gone out.",
+            "ru": "Огонь погас."
+          },
+          {
+            "en": "The house is on fire.",
+            "ru": "В доме пожар."
+          },
+          {
+            "en": "You should've seen the fire.",
+            "ru": "Видели бы вы огонь."
+          },
+          {
+            "en": "How did the fire start?",
+            "ru": "Как начался пожар?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Keep away from the fire.",
+            "es": "No te acerques al fuego."
+          },
+          {
+            "en": "Animals are afraid of fire.",
+            "es": "A los animales les da miedo el fuego."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2666,
+      "word": "flood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flʌd]",
+        "br": "[flʌd]",
+        "gb": "[flʌd]"
+      },
+      "translations": {
+        "rus": "наводнение, потоп",
+        "spa": "la inundación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bridge was washed away by the flood.",
+            "ru": "Мост смыло наводнением."
+          },
+          {
+            "en": "The flood ruined the crops.",
+            "ru": "Наводнение уничтожило посевы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2671,
+      "word": "forest",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈfɔːrɪst]",
+        "br": "[ˈfɒrɪst]",
+        "gb": "[ˈfɔrɪst]"
+      },
+      "translations": {
+        "rus": "лес, лесной",
+        "spa": "el bosque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The fox lit out for the forest.",
+            "ru": "Лиса быстро побежала к лесу."
+          },
+          {
+            "en": "The forest stretches for miles.",
+            "ru": "Лес тянется на много миль."
+          },
+          {
+            "en": "Fires destroyed acres of forest.",
+            "ru": "Пожары уничтожили несколько гектаров леса."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I got lost in the forest.",
+            "es": "Me perdí en el bosque."
+          },
+          {
+            "en": "Animals inhabit the forest.",
+            "es": "Los animales viven en el bosque."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3418,
+      "word": "glacier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡleɪʃər]",
+        "br": "[ˈɡlæsiə(r)]",
+        "gb": "[ˈglæsjə]"
+      },
+      "translations": {
+        "rus": "ледник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3419,
+      "word": "gulf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡʌlf]",
+        "br": "[ɡʌlf]",
+        "gb": "[gʌlf]"
+      },
+      "translations": {
+        "rus": "(морской) залив, бездна, пучина, пропасть",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a growing gulf between rich and poor.",
+            "ru": "Существует всё увеличивающаяся пропасть между богатыми и бедными."
+          },
+          {
+            "en": "Gulf of Siam.",
+            "ru": "Сиамский залив."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3420,
+      "word": "hemisphere",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhemɪsfɪr]",
+        "br": "[ˈhemɪsfɪə(r)]",
+        "gb": "[ˈhemɪsfɪə]"
+      },
+      "translations": {
+        "rus": "полушарие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3421,
+      "word": "highlands",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈhaɪləndz]"
+      },
+      "translations": {
+        "rus": "горная местность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 2686,
+      "word": "hill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪl]",
+        "br": "[hɪl]",
+        "gb": "[hɪl]"
+      },
+      "translations": {
+        "rus": "холм",
+        "spa": "la colina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I walked up the hill.",
+            "ru": "Я поднялся на холм."
+          },
+          {
+            "en": "The hill is always green.",
+            "ru": "Холм всегда зелёный."
+          },
+          {
+            "en": "You must go up the hill.",
+            "ru": "Вам надо подняться на холм."
+          },
+          {
+            "en": "The hill was all covered with snow.",
+            "ru": "Холм был весь в снегу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I walked up the hill.",
+            "es": "Subí la colina a pie."
+          },
+          {
+            "en": "He is standing on the hill.",
+            "es": "Él está parado en la colina."
+          },
+          {
+            "en": "They began to climb the hill.",
+            "es": "Ellos empezaron a escalar la colina."
+          },
+          {
+            "en": "Look at that tower standing on the hill.",
+            "es": "Mira esa torre sobre la colina."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2687,
+      "word": "hurricane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɜːrəkeɪn]",
+        "br": "[ˈhʌrɪkən]",
+        "gb": "[ˈhʌrɪkən]"
+      },
+      "translations": {
+        "rus": "ураган, тропический циклон",
+        "spa": "el huracán"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "After the hurricane, their house was a wreck.",
+            "ru": "После урагана их дом был разрушен."
+          },
+          {
+            "en": "In spite of the hurricane, the ship reached port.",
+            "ru": "Несмотря на ураган, судно достигло порта."
+          },
+          {
+            "en": "Florida is famous for its hurricanes and floods.",
+            "ru": "Флорида известна своими ураганами и наводнениями."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2692,
+      "word": "island",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪlənd]",
+        "br": "[ˈaɪlənd]",
+        "gb": "[ˈaɪlənd]"
+      },
+      "translations": {
+        "rus": "остров",
+        "spa": "la isla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you like my island?",
+            "ru": "Тебе нравится мой остров?"
+          },
+          {
+            "en": "This really isn't an island.",
+            "ru": "На самом деле это не остров."
+          },
+          {
+            "en": "There's no way off the island.",
+            "ru": "С острова никуда не деться."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Few people live on the island.",
+            "es": "Poca gente vive en la isla."
+          },
+          {
+            "en": "The island is warm all year.",
+            "es": "La isla es cálida todo el año."
+          },
+          {
+            "en": "There's no way off the island.",
+            "es": "No hay camino fuera de la isla."
+          },
+          {
+            "en": "The island is a paradise for children.",
+            "es": "La isla es un paraíso para los niños."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3422,
+      "word": "jungle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒʌŋɡl]",
+        "br": "[ˈdʒʌŋɡl]",
+        "gb": "[ʤʌŋgl]"
+      },
+      "translations": {
+        "rus": "джунгли",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 2693,
+      "word": "lake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[leɪk]",
+        "br": "[leɪk]",
+        "gb": "[leɪk]"
+      },
+      "translations": {
+        "rus": "озеро",
+        "spa": "el lago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's drive to the lake.",
+            "ru": "Поехали на озеро."
+          },
+          {
+            "en": "We swam in the lake.",
+            "ru": "Мы плавали в озере."
+          },
+          {
+            "en": "The lake is very deep.",
+            "ru": "Озеро очень глубокое."
+          },
+          {
+            "en": "She took him to the lake.",
+            "ru": "Она отвела его к озеру."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We swam in the lake.",
+            "es": "Nadamos en el lago."
+          },
+          {
+            "en": "The lake is deep here.",
+            "es": "El lago es profundo por aquí."
+          },
+          {
+            "en": "Some boats are on the lake.",
+            "es": "Algunos botes están en el lago."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3423,
+      "word": "latitude",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlætɪtuːd]",
+        "br": "[ˈlætɪtjuːd]",
+        "gb": "[ˈlætɪtjuːd]"
+      },
+      "translations": {
+        "rus": "широта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3424,
+      "word": "longitude",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɑːndʒɪtuːd]",
+        "br": null,
+        "gb": "[ˈlɔnʤɪtjuːd]"
+      },
+      "translations": {
+        "rus": "долгота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3425,
+      "word": "lowland",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈləʊlənd]",
+        "br": "[ˈləʊlənd]",
+        "gb": "[ˈləʊlənd]"
+      },
+      "translations": {
+        "rus": "низина, низменность, низовье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3426,
+      "word": "map",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mæp]",
+        "br": "[mæp]",
+        "gb": "[mæp]"
+      },
+      "translations": {
+        "rus": "карта",
+        "spa": "el mapa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll draw a map of where we live.",
+            "ru": "Я нарисую карту места, где мы живем."
+          },
+          {
+            "en": "According to the map we should turn left.",
+            "ru": "Судя по карте, мы должны свернуть налево."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a map?",
+            "es": "¿Tiene un mapa?"
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top3000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 3427,
+      "word": "mountain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntn]",
+        "br": "[ˈmaʊntən]",
+        "gb": "[ˈmaʊntɪn]"
+      },
+      "translations": {
+        "rus": "гора, горный",
+        "spa": "la montaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What a tall mountain!",
+            "ru": "Какая высокая гора!"
+          },
+          {
+            "en": "What's the name of this mountain range?",
+            "ru": "Как называется этот горный хребет?"
+          },
+          {
+            "en": "Snow caps the mountain.",
+            "ru": "Гора покрыта снеговой шапкой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was in the mountains.",
+            "es": "Yo estaba en las montañas."
+          },
+          {
+            "en": "How high is the mountain?",
+            "es": "¿Qué tal alta es la montaña?"
+          },
+          {
+            "en": "Look at that high mountain.",
+            "es": "Observen aquella montaña alta."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3428,
+      "word": "mountain range, mountain chain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntn] [reɪndʒ], [ˈmaʊntn] [tʃeɪn]",
+        "br": "[ˈmaʊntən] [reɪndʒ], [ˈmaʊntən] [tʃeɪn]",
+        "gb": "[ˈmaʊntɪn] [reɪnʤ] [ˈmaʊntɪn] [ʧeɪn]"
+      },
+      "translations": {
+        "rus": "горная цепь, горный хребет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3429,
+      "word": "oasis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əʊˈeɪsɪs]",
+        "br": "[əʊˈeɪsɪs]",
+        "gb": "[əʊˈeɪsɪs]"
+      },
+      "translations": {
+        "rus": "оазис",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3430,
+      "word": "ocean",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈəʊʃn]",
+        "br": "[ˈəʊʃn]",
+        "gb": "[əʊʃn]"
+      },
+      "translations": {
+        "rus": "океан, океанский",
+        "spa": "el océano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We planed our way across the ocean.",
+            "ru": "Мы пересекли океан на самолёте."
+          },
+          {
+            "en": "We've sailed across hundreds of miles of ocean.",
+            "ru": "Мы прошли сотни океанских миль."
+          },
+          {
+            "en": "We watched the ocean churn.",
+            "ru": "Мы смотрели, как бурлит океан."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3431,
+      "word": "pass",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pæs]",
+        "br": "[pɑːs]",
+        "gb": "[pɑːs]"
+      },
+      "translations": {
+        "rus": "проход, ущелье",
+        "spa": "el paso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3432,
+      "word": "peak",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[piːk]",
+        "br": "[piːk]",
+        "gb": "[piːk]"
+      },
+      "translations": {
+        "rus": "пик, вершина, максимальный",
+        "spa": "la cumbre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mountain peak was covered with snow.",
+            "ru": "Вершина горы была покрыта снегом."
+          },
+          {
+            "en": "Everest is the world's highest peak.",
+            "ru": "Эверест является высочайшим пиком в мире."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2714,
+      "word": "peninsula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈnɪnsələ]",
+        "br": "[pəˈnɪnsjələ]",
+        "gb": "[pɪˈnɪnsjʊlə]"
+      },
+      "translations": {
+        "rus": "полуостров",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography"
+      ]
+    },
+    {
+      "id": 2719,
+      "word": "plain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pleɪn]",
+        "br": "[pleɪn]",
+        "gb": "[pleɪn]"
+      },
+      "translations": {
+        "rus": "равнина",
+        "spa": "la llanura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mountain rises above the plain.",
+            "ru": "Гора возвышается над равниной."
+          },
+          {
+            "en": "Missouri has both mountains and plains.",
+            "ru": "В Миссури есть и горы, и равнины."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3433,
+      "word": "plateau",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plæˈtəʊ]",
+        "br": "[ˈplætəʊ]",
+        "gb": "[ˈplætəʊ]"
+      },
+      "translations": {
+        "rus": "плато, плоскогорье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3434,
+      "word": "pond",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɑːnd]",
+        "br": "[pɒnd]",
+        "gb": "[pɔnd]"
+      },
+      "translations": {
+        "rus": "пруд, водоем",
+        "spa": "el estanque, la balsa, el laguna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The pond is very deep.",
+            "ru": "Пруд очень глубокий."
+          },
+          {
+            "en": "The pond has frozen over.",
+            "ru": "Пруд покрылся льдом."
+          },
+          {
+            "en": "He threw a stone into the pond.",
+            "ru": "Он бросил в пруд камень."
+          },
+          {
+            "en": "I didn't know there was a pond here.",
+            "ru": "Я не знал, что здесь пруд."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 3435,
+      "word": "region",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːdʒən]",
+        "br": "[ˈriːdʒən]",
+        "gb": "[ˈriːʤən]"
+      },
+      "translations": {
+        "rus": "регион, область",
+        "spa": "la región"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The river cuts the whole region in two.",
+            "ru": "Река делит весь этот регион на две части."
+          },
+          {
+            "en": "A region famous for its cheese making.",
+            "ru": "Регион, который славится своим сыроварением."
+          },
+          {
+            "en": "Each region has its own customs.",
+            "ru": "В каждом регионе — свои обычаи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The river flooded the entire region.",
+            "es": "El río inundó toda la región."
+          },
+          {
+            "en": "This region has completely changed.",
+            "es": "Esta región ha cambiado completamente."
+          },
+          {
+            "en": "This region produces precious minerals.",
+            "es": "Esta región produce minerales preciosos."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2740,
+      "word": "river",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈrɪvər]",
+        "br": "[ˈrɪvə(r)]",
+        "gb": "[ˈrɪvə]"
+      },
+      "translations": {
+        "rus": "река, речной",
+        "spa": "el río"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The river floods.",
+            "ru": "Река поднимается."
+          },
+          {
+            "en": "They sailed down the river.",
+            "ru": "Они поплыли вниз по реке."
+          },
+          {
+            "en": "The river recedes.",
+            "ru": "Вода в реке спадает."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He swims in the river.",
+            "es": "Él nada en el río."
+          },
+          {
+            "en": "The river has dried up.",
+            "es": "El río se ha secado."
+          },
+          {
+            "en": "The river is deep here.",
+            "es": "El río es profundo aquí."
+          },
+          {
+            "en": "I was swimming in the river.",
+            "es": "Yo estaba nadando en el río."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2747,
+      "word": "sea",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[siː]",
+        "br": "[siː]",
+        "gb": "[siː]"
+      },
+      "translations": {
+        "rus": "море, морской",
+        "spa": "el mar, marino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We lived close by the sea.",
+            "ru": "Мы жили у моря."
+          },
+          {
+            "en": "Fish live in the sea.",
+            "ru": "Рыбы живут в море."
+          },
+          {
+            "en": "There is no sea in Armenia.",
+            "ru": "В Армении нет моря."
+          },
+          {
+            "en": "I looked down at the sea.",
+            "ru": "Я смотрел вниз на море."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fish live in the sea.",
+            "es": "Los peces viven en el mar."
+          },
+          {
+            "en": "Sea turtles have a long lifespan.",
+            "es": "Las tortugas marinas son longevas."
+          },
+          {
+            "en": "He wanted to go to sea.",
+            "es": "Él quería viajar al mar."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2757,
+      "word": "spring",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sprɪŋ]",
+        "br": "[sprɪŋ]",
+        "gb": "[sprɪŋ]"
+      },
+      "translations": {
+        "rus": "родник, источник, ключ",
+        "spa": "el manantial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He drank from the spring.",
+            "ru": "Он пил из источника."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They satisfied their thirst at the spring.",
+            "es": "Ellos apaciguaron su sed en el manantial."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3436,
+      "word": "state",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[steɪt]",
+        "br": "[steɪt]",
+        "gb": "[steɪt]"
+      },
+      "translations": {
+        "rus": "государство, штат, состояние, государственный",
+        "spa": "el estado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's in a bad state.",
+            "ru": "Он в плохом состоянии."
+          },
+          {
+            "en": "There are fifty states in the union.",
+            "ru": "В союзе пятьдесят государств."
+          },
+          {
+            "en": "Maintain a healthy state of mind.",
+            "ru": "Поддерживайте здоровое состояние психики."
+          },
+          {
+            "en": "Germany is a federal state.",
+            "ru": "Германия - федеративное государство."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Germany is a federal state.",
+            "es": "Alemania es un estado federal."
+          },
+          {
+            "en": "She was in a piteous state.",
+            "es": "Ella estaba en un estado lamentable."
+          },
+          {
+            "en": "Each state had just one vote.",
+            "es": "Cada estado tenía solo un voto."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2761,
+      "word": "stream",
+      "pos": "noun",
+      "transcription": {
+        "us": "[striːm]",
+        "br": "[striːm]",
+        "gb": "[striːm]"
+      },
+      "translations": {
+        "rus": "поток, ручей",
+        "spa": "el arroyo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A small stream runs by my house.",
+            "ru": "Небольшой ручей течёт у моего дома."
+          },
+          {
+            "en": "The boys leaped over the stream.",
+            "ru": "Мальчики перепрыгнули через ручей."
+          },
+          {
+            "en": "A small stream ran down among the rocks.",
+            "ru": "Маленький ручей стекал между скал."
+          },
+          {
+            "en": "Immigrants streamed into the land.",
+            "ru": "Иммигранты текли в страну."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3437,
+      "word": "summit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌmɪt]",
+        "br": "[ˈsʌmɪt]",
+        "gb": "[ˈsʌmɪt]"
+      },
+      "translations": {
+        "rus": "вершина, высший уровень",
+        "spa": "la cumbre, la cima"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We didn't reach the summit.",
+            "ru": "Мы не достигли вершины."
+          },
+          {
+            "en": "At last, we reached the summit.",
+            "ru": "Наконец мы добрались до вершины."
+          },
+          {
+            "en": "He climbed to the summit of the mountain.",
+            "ru": "Он забрался на вершину горы."
+          },
+          {
+            "en": "The view from the summit exceeded his expectations.",
+            "ru": "Вид с вершины превзошёл все его ожидания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 3438,
+      "word": "swamp",
+      "pos": "noun",
+      "transcription": {
+        "us": "[swɑːmp]",
+        "br": "[swɒmp]",
+        "gb": "[swɔmp]"
+      },
+      "translations": {
+        "rus": "болото, топь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3439,
+      "word": "temperature",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtemprətʃər]",
+        "br": "[ˈtemprətʃə(r)]",
+        "gb": "[ˈtemprɪʧə]"
+      },
+      "translations": {
+        "rus": "температура",
+        "spa": "la temperatura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Jane's temperature is up again.",
+            "ru": "У Джейн снова повышается температура."
+          },
+          {
+            "en": "The temperature is way below zero.",
+            "ru": "Температура значительно ниже нуля."
+          },
+          {
+            "en": "The drop in temperature was a relief.",
+            "ru": "Снижение температуры было облегчением."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The temperature fell.",
+            "es": "La temperatura bajó."
+          },
+          {
+            "en": "Have you taken your temperature?",
+            "es": "¿Te has tomado la temperatura?"
+          },
+          {
+            "en": "I want to take your temperature.",
+            "es": "Te quiero tomar la temperatura."
+          },
+          {
+            "en": "The temperature fell several degrees.",
+            "es": "La temperatura bajó en hartos grados."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3417,
+      "word": "to flood",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [flʌd]",
+        "br": "[tə] [flʌd]",
+        "gb": "[tuː] [flʌd]"
+      },
+      "translations": {
+        "rus": "затоплять",
+        "spa": "inundar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ground floor was flooded.",
+            "ru": "Первый этаж был затоплен."
+          },
+          {
+            "en": "The river flooded a large area.",
+            "ru": "Река затопила большую область."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1105,
+      "word": "to pass",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [pæs]",
+        "br": "[tə] [pɑːs]",
+        "gb": "[tuː] [pɑːs]"
+      },
+      "translations": {
+        "rus": "передавать, миновать, проходить",
+        "spa": "pasar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pass the ketchup.",
+            "ru": "Передай кетчуп."
+          },
+          {
+            "en": "The danger has passed.",
+            "ru": "Опасность миновала."
+          },
+          {
+            "en": "Time passes by quickly.",
+            "ru": "Время быстро проходит."
+          },
+          {
+            "en": "Would you pass the salad?",
+            "ru": "Не передашь мне салат?"
+          },
+          {
+            "en": "Pass me that notebook.",
+            "ru": "Передай мне тот блокнот."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did he pass the test?",
+            "es": "¿Pasó el examen?"
+          },
+          {
+            "en": "You may not pass, sir.",
+            "es": "No puede pasar, señor."
+          },
+          {
+            "en": "I was just passing by.",
+            "es": "Sólo estaba de pasada."
+          },
+          {
+            "en": "A month has already passed.",
+            "es": "Ya ha pasado un mes."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "geography",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3440,
+      "word": "tornado",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɔːrˈneɪdəʊ]",
+        "br": "[tɔːˈneɪdəʊ]",
+        "gb": "[tɔːˈneɪdəʊ]"
+      },
+      "translations": {
+        "rus": "торнадо, смерч",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3441,
+      "word": "town",
+      "pos": "noun",
+      "transcription": {
+        "us": "[taʊn]",
+        "br": "[taʊn]",
+        "gb": "[taʊn]"
+      },
+      "translations": {
+        "rus": "город",
+        "spa": "el pueblo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The circus is in town.",
+            "ru": "Цирк в городе."
+          },
+          {
+            "en": "Is it far to town?",
+            "ru": "До города далеко?"
+          },
+          {
+            "en": "Will you come to town?",
+            "ru": "Приедешь в город?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's a nice seaside town.",
+            "es": "Es un pueblo costero bonito."
+          },
+          {
+            "en": "It is long way to the town.",
+            "es": "El pueblo está lejos."
+          },
+          {
+            "en": "I heard you were back in town.",
+            "es": "Oí que estabas de regreso en el pueblo."
+          },
+          {
+            "en": "The town was full of activity.",
+            "es": "El pueblo estaba lleno de actividad."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town",
+        "travel"
+      ]
+    },
+    {
+      "id": 3442,
+      "word": "tropics",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈtrɒpɪks]"
+      },
+      "translations": {
+        "rus": "тропики",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3443,
+      "word": "tsunami",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tsuːˈnɑːmi]",
+        "br": "[tsuːˈnɑːmi]",
+        "gb": "[tsuːˈnɑːmɪ]"
+      },
+      "translations": {
+        "rus": "цунами",
+        "spa": "el tsunami"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't worry. Tsunamis are very rare.",
+            "ru": "Не волнуйтесь. Цунами очень редки."
+          },
+          {
+            "en": "The tsunami obliterates everything in its path.",
+            "ru": "Цунами уничтожает всё на своём пути."
+          },
+          {
+            "en": "The earthquake triggered a powerful tsunami.",
+            "ru": "Землетрясение вызвало мощное цунами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 3444,
+      "word": "tundra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʌndrə]",
+        "br": "[ˈtʌndrə]",
+        "gb": "[ˈtʌndrə]"
+      },
+      "translations": {
+        "rus": "тундра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3445,
+      "word": "valley",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvæli]",
+        "br": "[ˈvæli]",
+        "gb": "[ˈvælɪ]"
+      },
+      "translations": {
+        "rus": "долина",
+        "spa": "el valle"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The river runs through the valley.",
+            "ru": "Река течет по долине."
+          },
+          {
+            "en": "This valley is very fertile.",
+            "ru": "Эта долина очень плодородна."
+          },
+          {
+            "en": "A beautiful valley lies behind the hill.",
+            "ru": "За холмом лежит прекрасная долина."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3446,
+      "word": "village",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɪlɪdʒ]",
+        "br": "[ˈvɪlɪdʒ]",
+        "gb": "[ˈvɪlɪʤ]"
+      },
+      "translations": {
+        "rus": "деревня, поселок",
+        "spa": "el pueblo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I come from a village.",
+            "ru": "Я из деревни."
+          },
+          {
+            "en": "He is from our village.",
+            "ru": "Он из нашей деревни."
+          },
+          {
+            "en": "She lives in the village.",
+            "ru": "Она живёт в деревне."
+          },
+          {
+            "en": "This is a small village.",
+            "ru": "Это маленькая деревня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She lives in the village.",
+            "es": "Ella vive en el pueblo."
+          },
+          {
+            "en": "The village needs your help.",
+            "es": "El pueblo necesita tu ayuda."
+          },
+          {
+            "en": "I dreamed of my native village.",
+            "es": "Soñé con mi pueblo natal."
+          },
+          {
+            "en": "I'm going to the village tomorrow.",
+            "es": "Voy a ir al pueblo manaña."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3447,
+      "word": "volcanic eruption",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vɑːlˈkænɪk] [ɪˈrʌpʃn]",
+        "br": "[vɒlˈkænɪk] [ɪˈrʌpʃn]",
+        "gb": "[vɔlˈkænɪk] [ɪˈrʌpʃn]"
+      },
+      "translations": {
+        "rus": "извержение вулкана",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    },
+    {
+      "id": 3448,
+      "word": "volcano",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vɑːlˈkeɪnəʊ]",
+        "br": "[vɒlˈkeɪnəʊ]",
+        "gb": "[vɔlˈkeɪnəʊ]"
+      },
+      "translations": {
+        "rus": "вулкан",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "geography"
+      ]
+    }
+  ]
+}

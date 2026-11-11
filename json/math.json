@@ -1,0 +1,3061 @@
+{
+  "category": {
+    "id": "math",
+    "name_rus": "Математика",
+    "type": "topic",
+    "word_count": 111
+  },
+  "words": [
+    {
+      "id": 5399,
+      "word": "addition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdɪʃn]",
+        "br": "[əˈdɪʃn]",
+        "gb": "[əˈdɪʃn]"
+      },
+      "translations": {
+        "rus": "сложение, прибавление, дополнение",
+        "spa": "la suma, la adición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "In addition to English, he speaks German.",
+            "ru": "В дополнение к английскому, он говорит по-немецки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5400,
+      "word": "algebra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈældʒɪbrə]",
+        "br": "[ˈældʒɪbrə]",
+        "gb": "[ˈælʤɪbrə]"
+      },
+      "translations": {
+        "rus": "алгебра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5401,
+      "word": "angle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæŋɡl]",
+        "br": "[ˈæŋɡl]",
+        "gb": "[æŋgl]"
+      },
+      "translations": {
+        "rus": "угол",
+        "spa": "el ángulo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A right angle has ninety degrees.",
+            "ru": "Прямой угол составляет 90 градусов."
+          },
+          {
+            "en": "My head struck the angle of the shelf.",
+            "ru": "Я ударился головой об угол полки."
+          },
+          {
+            "en": "Measure each angle of the triangle.",
+            "ru": "Измерьте каждый угол треугольника."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2298,
+      "word": "approximately",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[əˈprɑːksɪmətli]",
+        "br": "[əˈprɒksɪmətli]",
+        "gb": "[əˈprɔksɪmɪtlɪ]"
+      },
+      "translations": {
+        "rus": "приблизительно, примерно",
+        "spa": "aproximadamente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Approximately two weeks.",
+            "ru": "Приблизительно две недели."
+          },
+          {
+            "en": "We're approximately the same age.",
+            "ru": "Мы примерно одного возраста."
+          },
+          {
+            "en": "It'll take approximately three hours.",
+            "ru": "Это займёт примерно три часа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The total is approximately ten thousand dollars.",
+            "es": "En total son aproximadamente diez mil dólares."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3397,
+      "word": "area",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeriə]",
+        "br": "[ˈeəriə]",
+        "gb": "[ˈɛərɪə]"
+      },
+      "translations": {
+        "rus": "область, сфера, район, площадь",
+        "spa": "el área"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live in a remote area.",
+            "ru": "Мы живём в удалённом районе."
+          },
+          {
+            "en": "This is not my area of expertise.",
+            "ru": "Это не моя область знаний."
+          },
+          {
+            "en": "Hunting is prohibited in this area.",
+            "ru": "В этом районе охота запрещена."
+          },
+          {
+            "en": "The river flooded a large area.",
+            "ru": "Река затопила большую область."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was in the area.",
+            "es": "Yo estaba en el área."
+          },
+          {
+            "en": "Don't go into that area.",
+            "es": "No entres en esa área."
+          },
+          {
+            "en": "Do you know the area well?",
+            "es": "¿Conoces bien el área?"
+          },
+          {
+            "en": "Water is scarce in this area.",
+            "es": "El agua escasea en este área."
+          }
+        ]
+      },
+      "categories": [
+        "geography",
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5402,
+      "word": "arithmetic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈrɪθmətɪk]",
+        "br": "[əˈrɪθmətɪk]",
+        "gb": "[əˈrɪθmətɪk]"
+      },
+      "translations": {
+        "rus": "арифметика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5403,
+      "word": "average",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈævərɪdʒ]",
+        "br": "[ˈævərɪdʒ]",
+        "gb": "[ˈævərɪʤ]"
+      },
+      "translations": {
+        "rus": "среднее арифметическое",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5404,
+      "word": "axis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæksɪs]",
+        "br": "[ˈæksɪs]",
+        "gb": "[ˈæksɪs]"
+      },
+      "translations": {
+        "rus": "ось",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5405,
+      "word": "braces",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbreɪsɪz]"
+      },
+      "translations": {
+        "rus": "фигурные скобки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5406,
+      "word": "brackets",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbrækɪts]"
+      },
+      "translations": {
+        "rus": "скобки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5407,
+      "word": "circle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrkl]",
+        "br": "[ˈsɜːkl]",
+        "gb": "[sɜːkl]"
+      },
+      "translations": {
+        "rus": "круг, окружность",
+        "spa": "el círculo, el grupo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Draw a circle.",
+            "ru": "Нарисуйте круг."
+          },
+          {
+            "en": "They sat in a circle.",
+            "ru": "Они сели в круг."
+          },
+          {
+            "en": "It's a vicious circle.",
+            "ru": "Это порочный круг."
+          },
+          {
+            "en": "The base of a cone is a circle.",
+            "ru": "Основание конуса — круг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5408,
+      "word": "circumference",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sərˈkʌmfərəns]",
+        "br": "[səˈkʌmfərəns]",
+        "gb": "[səˈkʌmfərəns]"
+      },
+      "translations": {
+        "rus": "окружность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5409,
+      "word": "common denominator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmən] [dɪˈnɑːmɪneɪtər]",
+        "br": "[ˈkɒmən] [dɪˈnɒmɪneɪtə(r)]",
+        "gb": "[ˈkɔmən] [dɪˈnɔmɪneɪtə]"
+      },
+      "translations": {
+        "rus": "общий знаменатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 514,
+      "word": "cone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊn]",
+        "br": "[kəʊn]",
+        "gb": "[kəʊn]"
+      },
+      "translations": {
+        "rus": "конус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "math"
+      ]
+    },
+    {
+      "id": 5410,
+      "word": "correlation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɔːrəˈleɪʃn]",
+        "br": "[ˌkɒrəˈleɪʃn]",
+        "gb": "[kɔrɪˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "корреляция",
+        "spa": "la correlación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5411,
+      "word": "cube",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kjuːb]",
+        "br": "[kjuːb]",
+        "gb": "[kjuːb]"
+      },
+      "translations": {
+        "rus": "куб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5412,
+      "word": "cube root",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kjuːb] [ruːt]",
+        "br": "[kjuːb] [ruːt]",
+        "gb": "[kjuːb] [ruːt]"
+      },
+      "translations": {
+        "rus": "корень кубический",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5413,
+      "word": "cubed",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kjuːbd]"
+      },
+      "translations": {
+        "rus": "в кубе",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5414,
+      "word": "curve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɜːrv]",
+        "br": "[kɜːv]",
+        "gb": "[kɜːv]"
+      },
+      "translations": {
+        "rus": "кривая",
+        "spa": "la curva"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The curve illustrates costs per capita.",
+            "ru": "Данная кривая иллюстрирует затраты в расчёте на душу населения."
+          },
+          {
+            "en": "A sharp curve in the road.",
+            "ru": "Резкий поворот дороги."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5415,
+      "word": "cylinder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪlɪndər]",
+        "br": "[ˈsɪlɪndə(r)]",
+        "gb": "[ˈsɪlɪndə]"
+      },
+      "translations": {
+        "rus": "цилиндр",
+        "spa": "el cilindro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "transport"
+      ]
+    },
+    {
+      "id": 5416,
+      "word": "decimal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdesɪml]",
+        "br": "[ˈdesɪml]",
+        "gb": "[ˈdesɪməl]"
+      },
+      "translations": {
+        "rus": "десятичный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5417,
+      "word": "decimal fraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdesɪml] [ˈfrækʃn]",
+        "br": "[ˈdesɪml] [ˈfrækʃn]",
+        "gb": "[ˈdesɪməl] [frækʃn]"
+      },
+      "translations": {
+        "rus": "десятичная дробь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5418,
+      "word": "decimal number",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdesɪml] [ˈnʌmbər]",
+        "br": "[ˈdesɪml] [ˈnʌmbə(r)]",
+        "gb": "[ˈdesɪməl] [ˈnʌmbə]"
+      },
+      "translations": {
+        "rus": "десятичное число",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5419,
+      "word": "decimal point",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdesɪml] [pɔɪnt]",
+        "br": "[ˈdesɪml] [pɔɪnt]",
+        "gb": "[ˈdesɪməl] [pɔɪnt]"
+      },
+      "translations": {
+        "rus": "точка в десятичных дробях",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5420,
+      "word": "denominator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈnɑːmɪneɪtər]",
+        "br": "[dɪˈnɒmɪneɪtə(r)]",
+        "gb": "[dɪˈnɔmɪneɪtə]"
+      },
+      "translations": {
+        "rus": "знаменатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5421,
+      "word": "diameter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[daɪˈæmɪtər]",
+        "br": "[daɪˈæmɪtə(r)]",
+        "gb": "[daɪˈæmɪtə]"
+      },
+      "translations": {
+        "rus": "диаметр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5422,
+      "word": "difference",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪfrəns]",
+        "br": "[ˈdɪfrəns]",
+        "gb": "[ˈdɪfrəns]"
+      },
+      "translations": {
+        "rus": "разница, отличие, различие, разность",
+        "spa": "la diferencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the difference?",
+            "ru": "В чем разница?"
+          },
+          {
+            "en": "I know the difference.",
+            "ru": "Я знаю, в чём отличие."
+          },
+          {
+            "en": "Find the differences.",
+            "ru": "Найди различия."
+          },
+          {
+            "en": "What are the differences?",
+            "ru": "В чём различия?"
+          },
+          {
+            "en": "There's no difference.",
+            "ru": "Нет никакой разницы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You will see the difference.",
+            "es": "Verás la diferencia."
+          },
+          {
+            "en": "I fail to see the difference.",
+            "es": "No logro ver la diferencia."
+          },
+          {
+            "en": "There is one big difference.",
+            "es": "Hay una diferencia grande."
+          },
+          {
+            "en": "What's the difference between these two?",
+            "es": "¿Cuál es la diferencia entre ambos?"
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5423,
+      "word": "dimension",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈmenʃn], [daɪˈmenʃn]",
+        "br": "[dɪˈmenʃn], [daɪˈmenʃn]",
+        "gb": "[dɪˈmenʃn]"
+      },
+      "translations": {
+        "rus": "измерение, размерность, размер",
+        "spa": "la dimensión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am trapped in another dimension.",
+            "ru": "Я застрял в другом измерении."
+          },
+          {
+            "en": "What are the dimensions of the room?",
+            "ru": "Каковы размеры комнаты?"
+          },
+          {
+            "en": "That adds a new dimension to our problem.",
+            "ru": "Это добавляет к нашей проблеме новое измерение."
+          },
+          {
+            "en": "Find the dimension of this subspace.",
+            "ru": "Найдите размерность этого подпространства."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5424,
+      "word": "divided by",
+      "pos": null,
+      "transcription": {
+        "us": "[dɪˈvaɪdɪd] [baɪ]",
+        "br": "[dɪˈvaɪdɪd] [baɪ]",
+        "gb": "[dɪˈvaɪdɪd] [baɪ]"
+      },
+      "translations": {
+        "rus": "деленное на",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5425,
+      "word": "division",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈvɪʒn]",
+        "br": "[dɪˈvɪʒn]",
+        "gb": "[dɪˈvɪʒən]"
+      },
+      "translations": {
+        "rus": "деление",
+        "spa": "la división"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The children haven't studied division yet.",
+            "ru": "Дети ещё не проходили деления."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5426,
+      "word": "equal or greater than",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈiːkwəl] [ɔː] [ˈgreɪtə] [ðæn]"
+      },
+      "translations": {
+        "rus": "больше чем или равно",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5427,
+      "word": "equal or less than",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈiːkwəl] [ɔː] [les] [ðæn]"
+      },
+      "translations": {
+        "rus": "равно или меньше чем",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5428,
+      "word": "equality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[iˈkwɑːləti]",
+        "br": "[iˈkwɒləti]",
+        "gb": "[iːˈkwɔlɪtɪ]"
+      },
+      "translations": {
+        "rus": "равенство",
+        "spa": "la igualdad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Equality is guaranteed by the Constitution.",
+            "ru": "Равенство гарантируется конституцией."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5429,
+      "word": "equation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈkweɪʒn]",
+        "br": "[ɪˈkweɪʒn]",
+        "gb": "[ɪˈkweɪʃn]"
+      },
+      "translations": {
+        "rus": "формула, уравнение, равенство",
+        "spa": "la ecuación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The chemical equation for water is H₂O.",
+            "ru": "Химическая формула воды - H₂O."
+          },
+          {
+            "en": "The equations are very complicated.",
+            "ru": "Уравнения очень сложные."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5430,
+      "word": "even number",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːvn] [ˈnʌmbər]",
+        "br": "[ˈiːvn] [ˈnʌmbə(r)]",
+        "gb": "[ˈiːvən] [ˈnʌmbə]"
+      },
+      "translations": {
+        "rus": "чётное число",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5431,
+      "word": "formula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrmjələ]",
+        "br": "[ˈfɔːmjələ]",
+        "gb": "[ˈfɔːmjʊlə]"
+      },
+      "translations": {
+        "rus": "формула",
+        "spa": "la fórmula"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is his formula.",
+            "ru": "Это его формула."
+          },
+          {
+            "en": "I don't find the formula.",
+            "ru": "Я не нахожу формулу."
+          },
+          {
+            "en": "He may not have known the formula.",
+            "ru": "Может быть, он не знал формулу."
+          },
+          {
+            "en": "The chemical formula for water is H₂O.",
+            "ru": "Химическая формула воды - H₂O."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5432,
+      "word": "fraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfrækʃn]",
+        "br": "[ˈfrækʃn]",
+        "gb": "[frækʃn]"
+      },
+      "translations": {
+        "rus": "дробь, доля, часть",
+        "spa": "la fracción, el quebrado, una pequeña parte"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5433,
+      "word": "geometry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒiˈɑːmətri]",
+        "br": "[dʒiˈɒmətri]",
+        "gb": "[ʤɪˈɔmɪtrɪ]"
+      },
+      "translations": {
+        "rus": "геометрия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5434,
+      "word": "graph",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡræf]",
+        "br": "[ɡrɑːf]",
+        "gb": "[græf]"
+      },
+      "translations": {
+        "rus": "график",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5435,
+      "word": "greater than",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈgreɪtə] [ðæn]"
+      },
+      "translations": {
+        "rus": "больше чем",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 252,
+      "word": "height",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haɪt]",
+        "br": "[haɪt]",
+        "gb": "[haɪt]"
+      },
+      "translations": {
+        "rus": "высота, рост",
+        "spa": "la estatura, la altura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am afraid of heights.",
+            "ru": "Я боюсь высоты."
+          },
+          {
+            "en": "What is your height in centimeters?",
+            "ru": "Каков Ваш рост в сантиметрах?"
+          },
+          {
+            "en": "What is the height of this mountain?",
+            "ru": "Какова высота этой горы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am afraid of heights.",
+            "es": "Le temo a las alturas."
+          },
+          {
+            "en": "They are of average height.",
+            "es": "Ellos son de estatura promedio."
+          },
+          {
+            "en": "She's about the same height as you.",
+            "es": "Ella tiene más o menos la misma altura que tú."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "math",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5436,
+      "word": "hexagon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈheksəɡɑːn]",
+        "br": "[ˈheksəɡən]",
+        "gb": "[ˈheksəgən]"
+      },
+      "translations": {
+        "rus": "шестиугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5437,
+      "word": "improper fraction",
+      "pos": null,
+      "transcription": {
+        "us": "[ɪmˈprɑːpər] [ˈfrækʃn]",
+        "br": "[ɪmˈprɒpə(r)] [ˈfrækʃn]",
+        "gb": "[ɪmˈprɔpə] [frækʃn]"
+      },
+      "translations": {
+        "rus": "неправильная дробь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5438,
+      "word": "inequality",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnɪˈkwɑːləti]",
+        "br": "[ˌɪnɪˈkwɒləti]",
+        "gb": "[ɪniːˈkwɔlɪtɪ]"
+      },
+      "translations": {
+        "rus": "неравенство",
+        "spa": "la desigualdad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5439,
+      "word": "infinity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈfɪnəti]",
+        "br": "[ɪnˈfɪnəti]",
+        "gb": "[ɪnˈfɪnɪtɪ]"
+      },
+      "translations": {
+        "rus": "бесконечность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5440,
+      "word": "integer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪntɪdʒər]",
+        "br": "[ˈɪntɪdʒə(r)]",
+        "gb": "[ˈɪntɪʤə]"
+      },
+      "translations": {
+        "rus": "целое число",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5441,
+      "word": "length",
+      "pos": "noun",
+      "transcription": {
+        "us": "[leŋkθ]",
+        "br": "[leŋkθ]",
+        "gb": "[leŋθ]"
+      },
+      "translations": {
+        "rus": "длина, продолжительность, отрезок",
+        "spa": "el largo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you measure the length?",
+            "ru": "Вы можете измерить длину?"
+          },
+          {
+            "en": "It is thirty meters in length.",
+            "ru": "Его длина - тридцать метров."
+          },
+          {
+            "en": "He measured the length of the bed.",
+            "ru": "Он измерил длину кровати."
+          },
+          {
+            "en": "A centimeter is a unit of length.",
+            "ru": "Сантиметр — это единица длины."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you measure the length?",
+            "es": "¿Puedes medir el largo?"
+          },
+          {
+            "en": "What is the length of this piece of cloth?",
+            "es": "¿Cuál es el largo de ese trozo de tela?"
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5442,
+      "word": "less than",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[les] [ðæn]"
+      },
+      "translations": {
+        "rus": "меньше чем",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 621,
+      "word": "line",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪn]",
+        "br": "[laɪn]",
+        "gb": "[laɪn]"
+      },
+      "translations": {
+        "rus": "линия, черта, штрих, строка, очередь",
+        "spa": "la línea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have crossed a line.",
+            "ru": "Ты пересёк черту."
+          },
+          {
+            "en": "He is on another line.",
+            "ru": "Он на другой линии."
+          },
+          {
+            "en": "Wow, that line is huge!",
+            "ru": "Вау, эта очередь огромная!"
+          },
+          {
+            "en": "Please read between the lines.",
+            "ru": "Пожалуйста, читайте между строк."
+          },
+          {
+            "en": "This is a vertical line.",
+            "ru": "Это вертикальная линия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The line is busy now.",
+            "es": "La línea está ocupada ahora."
+          },
+          {
+            "en": "Draw a line on your paper.",
+            "es": "Trazá una línea en el papel."
+          },
+          {
+            "en": "Can you quote a line of Hamlet?",
+            "es": "¿Eres capaz de citar una línea de Hamlet?"
+          },
+          {
+            "en": "Leave a space between the lines.",
+            "es": "Deja un espacio entre las líneas."
+          },
+          {
+            "en": "He drew a straight line on the wall.",
+            "es": "Trazó una línea recta en la pared."
+          },
+          {
+            "en": "Stay on this side of the yellow line.",
+            "es": "Permanezca a este lado de la línea amarilla."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5443,
+      "word": "linear difference equation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪniər] [ˈdɪfrəns] [ɪˈkweɪʒn]",
+        "br": "[ˈlɪniə(r)] [ˈdɪfrəns] [ɪˈkweɪʒn]",
+        "gb": "[ˈlɪnɪə] [ˈdɪfrəns] [ɪˈkweɪʃn]"
+      },
+      "translations": {
+        "rus": "линейное разностное уравнение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5444,
+      "word": "lowest common denominator",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈləʊɪst] [ˈkɔmən] [dɪˈnɔmɪneɪtə]"
+      },
+      "translations": {
+        "rus": "наименьший общий знаменатель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5445,
+      "word": "mathematical sign",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmæθəˈmætɪkl] [saɪn]",
+        "br": "[ˌmæθəˈmætɪkl] [saɪn]",
+        "gb": "[mæθɪˈmætɪkəl] [saɪn]"
+      },
+      "translations": {
+        "rus": "математический знак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5446,
+      "word": "minus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaɪnəs]",
+        "br": "[ˈmaɪnəs]",
+        "gb": "[ˈmaɪnəs]"
+      },
+      "translations": {
+        "rus": "минус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5447,
+      "word": "mixed fraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɪkst] [ˈfrækʃn]",
+        "br": "[mɪkst] [ˈfrækʃn]",
+        "gb": "[mɪkst] [frækʃn]"
+      },
+      "translations": {
+        "rus": "смешанная дробь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5448,
+      "word": "multiplication",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmʌltɪplɪˈkeɪʃn]",
+        "br": "[ˌmʌltɪplɪˈkeɪʃn]",
+        "gb": "[mʌltɪplɪˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "умножение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5449,
+      "word": "multiplication table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmʌltɪplɪˈkeɪʃn] [ˈteɪbl]",
+        "br": "[ˌmʌltɪplɪˈkeɪʃn] [ˈteɪbl]",
+        "gb": "[mʌltɪplɪˈkeɪʃn] [teɪbl]"
+      },
+      "translations": {
+        "rus": "таблица умножения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5450,
+      "word": "multiplied by",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmʌltɪplaɪd] [baɪ]"
+      },
+      "translations": {
+        "rus": "умноженное на",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5452,
+      "word": "negative sign",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneɡətɪv] [saɪn]",
+        "br": "[ˈneɡətɪv] [saɪn]",
+        "gb": "[ˈnegətɪv] [saɪn]"
+      },
+      "translations": {
+        "rus": "знак отрицания",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5453,
+      "word": "not equal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[nɑːt] [ˈiːkwəl]",
+        "br": "[nɒt] [ˈiːkwəl]",
+        "gb": "[nɔt] [ˈiːkwəl]"
+      },
+      "translations": {
+        "rus": "не равно",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5454,
+      "word": "nth root of",
+      "pos": "noun",
+      "transcription": {
+        "us": "[enθ] [ruːt] [əv]",
+        "br": "[enθ] [ruːt] [əv]",
+        "gb": "[enθ] [ruːt] [ɔv]"
+      },
+      "translations": {
+        "rus": "корень n-й степени из",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5455,
+      "word": "number",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnʌmbər]",
+        "br": "[ˈnʌmbə(r)]",
+        "gb": "[ˈnʌmbə]"
+      },
+      "translations": {
+        "rus": "число, количество, номер",
+        "spa": "el número"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My room number is 5.",
+            "ru": "Номер моей комнаты – 5."
+          },
+          {
+            "en": "Twelve is an even number.",
+            "ru": "Двенадцать - чётное число."
+          },
+          {
+            "en": "What is your favourite number?",
+            "ru": "Какое твоё любимое число?"
+          },
+          {
+            "en": "The number of students is dropping.",
+            "ru": "Количество студентов уменьшается."
+          },
+          {
+            "en": "Do you know his number?",
+            "ru": "Ты знаешь его номер?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Call me at this number.",
+            "es": "Llámame a este número."
+          },
+          {
+            "en": "Seven is a lucky number.",
+            "es": "El siete es un número de la suerte."
+          },
+          {
+            "en": "Twelve is an even number.",
+            "es": "Doce es un número par."
+          },
+          {
+            "en": "You have the wrong number.",
+            "es": "Tienes el número equivocado."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5456,
+      "word": "numerator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːməreɪtər]",
+        "br": "[ˈnjuːməreɪtə(r)]",
+        "gb": "[ˈnjuːməreɪtə]"
+      },
+      "translations": {
+        "rus": "числитель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5457,
+      "word": "octagon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːktəɡɑːn]",
+        "br": "[ˈɒktəɡən]",
+        "gb": "[ˈɔktəgən]"
+      },
+      "translations": {
+        "rus": "восьмиугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5458,
+      "word": "odd number",
+      "pos": null,
+      "transcription": {
+        "us": "[ɑːd] [ˈnʌmbər]",
+        "br": "[ɒd] [ˈnʌmbə(r)]",
+        "gb": "[ɔd] [ˈnʌmbə]"
+      },
+      "translations": {
+        "rus": "нечётное число",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 267,
+      "word": "oval",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈəʊvl]",
+        "br": "[ˈəʊvl]",
+        "gb": "[ˈəʊvəl]"
+      },
+      "translations": {
+        "rus": "овал, овальный",
+        "spa": "ovalado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "math"
+      ]
+    },
+    {
+      "id": 5459,
+      "word": "parallel",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈpærəlel]",
+        "br": "[ˈpærəlel]",
+        "gb": "[ˈpærəlel]"
+      },
+      "translations": {
+        "rus": "параллельный, параллель",
+        "spa": "paralelo, el paralelismo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The two streets run parallel to one another.",
+            "ru": "Две улицы идут параллельно друг другу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5460,
+      "word": "parentheses",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pəˈrɛnθɪsiːz]"
+      },
+      "translations": {
+        "rus": "круглые скобки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5461,
+      "word": "pentagon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpentəɡɑːn]",
+        "br": "[ˈpentəɡən]",
+        "gb": "[ˈpentəgən]"
+      },
+      "translations": {
+        "rus": "пятиугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5462,
+      "word": "percent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pərˈsent]",
+        "br": "[pəˈsent]",
+        "gb": "[pəˈsent]"
+      },
+      "translations": {
+        "rus": "процент",
+        "spa": "el por ciento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I agree one hundred percent.",
+            "ru": "Я на сто процентов согласен."
+          },
+          {
+            "en": "Thirteen percent were opposed.",
+            "ru": "Тринадцать процентов были против."
+          },
+          {
+            "en": "Ten is ten percent of one hundred.",
+            "ru": "Десять - это десять процентов от ста."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ten is ten percent of one hundred.",
+            "es": "Diez es el diez por ciento de cien."
+          },
+          {
+            "en": "Download failed at 99 percent.",
+            "es": "La descarga se cayó en el 99 por ciento."
+          },
+          {
+            "en": "His salary was increased by ten percent.",
+            "es": "Su apuesta ha aumentado en un diez por ciento."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5463,
+      "word": "percentage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pərˈsentɪdʒ]",
+        "br": "[pəˈsentɪdʒ]",
+        "gb": "[pəˈsentɪʤ]"
+      },
+      "translations": {
+        "rus": "процент, процентная доля",
+        "spa": "el porcentaje"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What percentage of our bodies is water?",
+            "ru": "На сколько процентов наше тело состоит из воды?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5464,
+      "word": "perimeter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈrɪmɪtər]",
+        "br": "[pəˈrɪmɪtə(r)]",
+        "gb": "[pəˈrɪmɪtə]"
+      },
+      "translations": {
+        "rus": "периметр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5465,
+      "word": "perpendicular",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˌpɜːrpənˈdɪkjələr]",
+        "br": "[ˌpɜːpənˈdɪkjələ(r)]",
+        "gb": "[pɜːpənˈdɪkjʊlə]"
+      },
+      "translations": {
+        "rus": "перпендикулярный, перпендикуляр",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5466,
+      "word": "plus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plʌs]",
+        "br": "[plʌs]",
+        "gb": "[plʌs]"
+      },
+      "translations": {
+        "rus": "плюс",
+        "spa": "el más"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One plus two equals three.",
+            "ru": "Один плюс два будет три."
+          },
+          {
+            "en": "Five plus three is eight.",
+            "ru": "Пять плюс три равно восемь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5467,
+      "word": "polygon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːliɡɑːn]",
+        "br": "[ˈpɒlɪɡən]",
+        "gb": "[ˈpɔlɪgən]"
+      },
+      "translations": {
+        "rus": "многоугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5468,
+      "word": "prime number",
+      "pos": "noun",
+      "transcription": {
+        "us": "[praɪm] [ˈnʌmbər]",
+        "br": "[praɪm] [ˈnʌmbə(r)]",
+        "gb": "[praɪm] [ˈnʌmbə]"
+      },
+      "translations": {
+        "rus": "простое число",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5469,
+      "word": "probability",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌprɑːbəˈbɪləti]",
+        "br": "[ˌprɒbəˈbɪləti]",
+        "gb": "[prɔbəˈbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "вероятность",
+        "spa": "la probabilidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The probability to win is 0.001%.",
+            "ru": "Вероятность выигрыша составляет 0.001%."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5470,
+      "word": "problem",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːbləm]",
+        "br": "[ˈprɒbləm]",
+        "gb": "[ˈprɔbləm]"
+      },
+      "translations": {
+        "rus": "проблема, задача, вопрос",
+        "spa": "el problema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "No problem at all!",
+            "ru": "Без проблем!"
+          },
+          {
+            "en": "Doctors have a difficult problem.",
+            "ru": "У врачей трудная задача."
+          },
+          {
+            "en": "Could you solve the problem?",
+            "ru": "Ты не мог бы решить этот вопрос?"
+          },
+          {
+            "en": "Where is the problem?",
+            "ru": "В чем проблема?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "The problem should be solved.",
+            "es": "El problema debería estar resuelto."
+          },
+          {
+            "en": "No one could solve the problem.",
+            "es": "Nadie pudo resolver el problema."
+          },
+          {
+            "en": "The problem was very difficult.",
+            "es": "El problema era muy difícil."
+          },
+          {
+            "en": "He solved the problem by himself.",
+            "es": "Él solucionó el problema solo."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5471,
+      "word": "proof",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pruːf]",
+        "br": "[pruːf]",
+        "gb": "[pruːf]"
+      },
+      "translations": {
+        "rus": "доказательство",
+        "spa": "la prueba, el comprobante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's no proof of that.",
+            "ru": "Этому нет доказательств."
+          },
+          {
+            "en": "Do you have any proof?",
+            "ru": "У вас есть доказательства?"
+          },
+          {
+            "en": "The proof is trivial.",
+            "ru": "Доказательство тривиально."
+          },
+          {
+            "en": "I need solid proof.",
+            "ru": "Мне нужны веские доказательства."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5472,
+      "word": "proper fraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːpər] [ˈfrækʃn]",
+        "br": "[ˈprɒpə(r)] [ˈfrækʃn]",
+        "gb": "[ˈprɔpə] [frækʃn]"
+      },
+      "translations": {
+        "rus": "правильная дробь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5473,
+      "word": "pyramid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪrəmɪd]",
+        "br": "[ˈpɪrəmɪd]",
+        "gb": "[ˈpɪrəmɪd]"
+      },
+      "translations": {
+        "rus": "пирамида",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5474,
+      "word": "quotient",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkwəʊʃnt]",
+        "br": "[ˈkwəʊʃnt]",
+        "gb": "[ˈkwəʊʃənt]"
+      },
+      "translations": {
+        "rus": "частное (при делении), коэффициент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5475,
+      "word": "radius",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪdiəs]",
+        "br": "[ˈreɪdiəs]",
+        "gb": "[ˈreɪdjəs]"
+      },
+      "translations": {
+        "rus": "радиус",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5476,
+      "word": "rectangle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrektæŋɡl]",
+        "br": "[ˈrektæŋɡl]",
+        "gb": "[ˈrektæŋgl]"
+      },
+      "translations": {
+        "rus": "прямоугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5477,
+      "word": "remainder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈmeɪndər]",
+        "br": "[rɪˈmeɪndə(r)]",
+        "gb": "[rɪˈmeɪndə]"
+      },
+      "translations": {
+        "rus": "остаток",
+        "spa": "el resto, los restantes"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5478,
+      "word": "right angle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[raɪt] [ˈæŋɡl]",
+        "br": "[raɪt] [ˈæŋɡl]",
+        "gb": "[raɪt] [æŋgl]"
+      },
+      "translations": {
+        "rus": "прямой угол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5479,
+      "word": "round brackets",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[raʊnd] [ˈbrækɪts]"
+      },
+      "translations": {
+        "rus": "круглые скобки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5480,
+      "word": "series of numbers",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsɪəriːz] [ɔv] [ˈnʌmbəz]"
+      },
+      "translations": {
+        "rus": "ряд чисел",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5481,
+      "word": "solution",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈluːʃn]",
+        "br": "[səˈluːʃn]",
+        "gb": "[səˈluːʃn]"
+      },
+      "translations": {
+        "rus": "решение, разгадка",
+        "spa": "la solución"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a solution?",
+            "ru": "У тебя есть решение?"
+          },
+          {
+            "en": "They are seeking a solution.",
+            "ru": "Они ищут решение."
+          },
+          {
+            "en": "It is not the best solution.",
+            "ru": "Это не лучшее решение."
+          },
+          {
+            "en": "There is a solution though.",
+            "ru": "Впрочем, решение есть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a solution?",
+            "es": "¿Tienes una solución?"
+          },
+          {
+            "en": "The solution was quite simple.",
+            "es": "La solución era muy simple."
+          },
+          {
+            "en": "They are seeking a solution.",
+            "es": "Están buscando una solución."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 721,
+      "word": "sphere",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sfɪr]",
+        "br": "[sfɪə(r)]",
+        "gb": "[sfɪə]"
+      },
+      "translations": {
+        "rus": "сфера",
+        "spa": "la esfera, el ámbito"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He wanted to enlarge his sphere of influence.",
+            "ru": "Он хотел расширить сферу своего влияния."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "math",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 288,
+      "word": "square",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[skwer]",
+        "br": "[skweə(r)]",
+        "gb": "[skwɛə]"
+      },
+      "translations": {
+        "rus": "квадрат, квадратный",
+        "spa": "el cuadrado, cuadrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has square shoulders.",
+            "ru": "У него квадратные плечи."
+          },
+          {
+            "en": "It's a square, not a cube.",
+            "ru": "Это квадрат, а не куб."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A square has four sides.",
+            "es": "Un cuadrado tiene cuatro lados."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "math",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5482,
+      "word": "square brackets",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[skwɛə] [ˈbrækɪts]"
+      },
+      "translations": {
+        "rus": "квадратные скобки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5483,
+      "word": "square root",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skwer] [ruːt]",
+        "br": "[skweə(r)] [ruːt]",
+        "gb": "[skwɛə] [ruːt]"
+      },
+      "translations": {
+        "rus": "квадратный корень",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5484,
+      "word": "squared",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[skwerd]",
+        "br": "[skweəd]",
+        "gb": "[skweəd]"
+      },
+      "translations": {
+        "rus": "в квадрате",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5485,
+      "word": "statistics",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[stəˈtɪstɪks]"
+      },
+      "translations": {
+        "rus": "статистика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5486,
+      "word": "straight line",
+      "pos": "noun",
+      "transcription": {
+        "us": "[streɪt] [laɪn]",
+        "br": "[streɪt] [laɪn]",
+        "gb": "[streɪt] [laɪn]"
+      },
+      "translations": {
+        "rus": "прямая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5488,
+      "word": "subtraction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səbˈtrækʃn]",
+        "br": "[səbˈtrækʃn]",
+        "gb": "[səbˈtrækʃn]"
+      },
+      "translations": {
+        "rus": "вычитание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5489,
+      "word": "sum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌm]",
+        "br": "[sʌm]",
+        "gb": "[sʌm]"
+      },
+      "translations": {
+        "rus": "суммирование, сумма, итог",
+        "spa": "la suma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He owes me a large sum of money.",
+            "ru": "Он должен мне большую сумму денег."
+          },
+          {
+            "en": "We should be happy to buy it for a modest sum.",
+            "ru": "Мы должны быть счастливы, что купили его за скромную сумму."
+          },
+          {
+            "en": "These ten books sum up this year's production.",
+            "ru": "Эти десять книг подводят итог издательской деятельности в этом году."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The sum of 5 and 3 is 8.",
+            "es": "La suma de 5 con 3 es 8."
+          },
+          {
+            "en": "The sum of two plus three plus four is nine.",
+            "es": "La suma de dos más tres más cuatro es nueve."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2598,
+      "word": "table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪbl]",
+        "br": "[ˈteɪbl]",
+        "gb": "[teɪbl]"
+      },
+      "translations": {
+        "rus": "таблица",
+        "spa": "la tabla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you give me a hand with this table?",
+            "ru": "Можешь помочь мне с этой таблицей?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "math",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5491,
+      "word": "tangent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtændʒənt]",
+        "br": "[ˈtændʒənt]",
+        "gb": "[ˈtænʤənt]"
+      },
+      "translations": {
+        "rus": "касательная",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5492,
+      "word": "theorem",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθiːərəm]",
+        "br": "[ˈθɪərəm]",
+        "gb": "[ˈθɪərəm]"
+      },
+      "translations": {
+        "rus": "теорема",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5493,
+      "word": "times",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[taɪmz]"
+      },
+      "translations": {
+        "rus": "умноженное на",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 765,
+      "word": "to add",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [æd]",
+        "br": "[tu] [æd]",
+        "gb": "[tuː] [æd]"
+      },
+      "translations": {
+        "rus": "добавлять, прибавлять, складывать",
+        "spa": "sumar, añadir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have nothing to add.",
+            "ru": "Мне нечего добавить."
+          },
+          {
+            "en": "Add salt to taste.",
+            "ru": "Добавьте соль по вкусу."
+          },
+          {
+            "en": "What else can I add?",
+            "ru": "Что ещё я могу добавить?"
+          },
+          {
+            "en": "Add a pinch of salt.",
+            "ru": "Добавьте щепотку соли."
+          },
+          {
+            "en": "Could you add me?",
+            "ru": "Не могли бы вы добавить меня?"
+          },
+          {
+            "en": "Do you have anything to add?",
+            "ru": "Тебе есть что добавить?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you add these numbers?",
+            "es": "¿Puedes sumar estos números?"
+          },
+          {
+            "en": "Tom had nothing to add.",
+            "es": "Tom no tenía nada que añadir."
+          },
+          {
+            "en": "I can't add anything else.",
+            "es": "No puedo añadir nada más."
+          },
+          {
+            "en": "Add more salt to the soup.",
+            "es": "Añade más sal a la sopa."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "math",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 821,
+      "word": "to calculate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈkælkjuleɪt]",
+        "br": "[tə] [ˈkælkjuleɪt]",
+        "gb": "[tuː] [ˈkælkjʊleɪt]"
+      },
+      "translations": {
+        "rus": "вычислять, рассчитывать, подсчитывать",
+        "spa": "calcular"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He calculated the expenses.",
+            "ru": "Он подсчитал расходы."
+          },
+          {
+            "en": "How do you calculate the volume of a cube?",
+            "ru": "Как вычислить объём куба?"
+          },
+          {
+            "en": "I am calculating my salary.",
+            "ru": "Я подсчитываю свою зарплату."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He calculated the speed of light.",
+            "es": "Él calculó la velocidad de la luz."
+          },
+          {
+            "en": "How do you calculate the volume of a cube?",
+            "es": "¿Cómo se calcula el volumen de un cubo?"
+          },
+          {
+            "en": "I calculated that it would cost 300 dollars.",
+            "es": "Calculé que costaría 300 dólares."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 914,
+      "word": "to divide",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈvaɪd]",
+        "br": "[tə] [dɪˈvaɪd]",
+        "gb": "[tuː] [dɪˈvaɪd]"
+      },
+      "translations": {
+        "rus": "делить",
+        "spa": "dividir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Divide this in half.",
+            "ru": "Разделите это пополам."
+          },
+          {
+            "en": "The thieves divided their booty.",
+            "ru": "Воры разделили добычу."
+          },
+          {
+            "en": "You forgot to divide by X here.",
+            "ru": "Ты забыл разделить здесь на X."
+          },
+          {
+            "en": "The money was divided among the three.",
+            "ru": "Деньги разделили на троих."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A river divides the town.",
+            "es": "Un río divide la ciudad."
+          },
+          {
+            "en": "Society is divided.",
+            "es": "La sociedad está dividida."
+          },
+          {
+            "en": "Six divided by two is three.",
+            "es": "Seis dividido dos es tres."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "math",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 939,
+      "word": "to equal",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈiːkwəl]",
+        "br": "[tu] [ˈiːkwəl]",
+        "gb": "[tuː] [ˈiːkwəl]"
+      },
+      "translations": {
+        "rus": "равняться",
+        "spa": "ser igual a, igualarse a"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Five times two equals ten.",
+            "ru": "Пятью два равняется десяти."
+          },
+          {
+            "en": "One plus two equals three.",
+            "ru": "Один плюс два равняется трём."
+          },
+          {
+            "en": "Nobody equals him in strength.",
+            "ru": "Ему нет равных в силе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "math",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5451,
+      "word": "to multiply",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈmʌltɪplaɪ]",
+        "br": "[tə] [ˈmʌltɪplaɪ]",
+        "gb": "[tuː] [ˈmʌltɪplaɪ]"
+      },
+      "translations": {
+        "rus": "умножить",
+        "spa": "multiplicar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Multiply three by five to get fifteen.",
+            "ru": "Умножь три на пять, чтобы получить пятнадцать."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 5487,
+      "word": "to subtract",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [səbˈtrækt]",
+        "br": "[tə] [səbˈtrækt]",
+        "gb": "[tuː] [səbˈtrækt]"
+      },
+      "translations": {
+        "rus": "вычитать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5490,
+      "word": "to sum",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sʌm]",
+        "br": "[tə] [sʌm]",
+        "gb": "[tuː] [sʌm]"
+      },
+      "translations": {
+        "rus": "суммировать",
+        "spa": "sumar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5494,
+      "word": "triangle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtraɪæŋɡl]",
+        "br": "[ˈtraɪæŋɡl]",
+        "gb": "[ˈtraɪæŋgl]"
+      },
+      "translations": {
+        "rus": "треугольник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "math"
+      ]
+    },
+    {
+      "id": 5495,
+      "word": "volume",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɑːljəm]",
+        "br": "[ˈvɒljuːm]",
+        "gb": "[ˈvɔljʊm]"
+      },
+      "translations": {
+        "rus": "объём, ёмкость, вместимость, количество",
+        "spa": "el volumen, la capacidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "After heavy rains, the volume of water was twentyfold as great.",
+            "ru": "После сильных дождей объем воды увеличился в двадцать раз."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bottle's volume is one litre.",
+            "es": "El volumen de la botella es de un litro."
+          }
+        ]
+      },
+      "categories": [
+        "math",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5496,
+      "word": "width",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɪdθ]",
+        "br": "[wɪdθ]",
+        "gb": "[wɪdθ]"
+      },
+      "translations": {
+        "rus": "ширина",
+        "spa": "el ancho, la anchura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the width of the desk?",
+            "ru": "Какова ширина этого стола?"
+          },
+          {
+            "en": "The river here spreads to a width of half a mile.",
+            "ru": "Ширина реки в этом месте достигает полумили."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "math",
+        "oxford5000_c1"
+      ]
+    }
+  ]
+}

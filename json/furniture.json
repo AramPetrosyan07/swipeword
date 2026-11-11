@@ -1,0 +1,1772 @@
+{
+  "category": {
+    "id": "furniture",
+    "name_rus": "Мебель",
+    "type": "topic",
+    "word_count": 52
+  },
+  "words": [
+    {
+      "id": 3351,
+      "word": "armchair",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmtʃer]",
+        "br": "[ˈɑːmtʃeə(r)]",
+        "gb": "[ˈɑːmˈʧɛə]"
+      },
+      "translations": {
+        "rus": "кресло",
+        "spa": "el sillón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She pointed me towards an armchair.",
+            "ru": "Она указала мне на кресло."
+          },
+          {
+            "en": "When I'm tired, I like to relax in a deep armchair.",
+            "ru": "Когда я устаю, я люблю отдохнуть в глубоком кресле."
+          },
+          {
+            "en": "The cat scraped at the armchair.",
+            "ru": "Кошка поскреблась о кресло."
+          },
+          {
+            "en": "I helped her into the room and sat her down in an armchair.",
+            "ru": "Я проводил её в комнату и посадил в кресло."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3352,
+      "word": "basket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæskɪt]",
+        "br": "[ˈbɑːskɪt]",
+        "gb": "[ˈbɑːskɪt]"
+      },
+      "translations": {
+        "rus": "корзина",
+        "spa": "la canasta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I set the basket against the door.",
+            "ru": "Я поставил корзину рядом с дверью."
+          },
+          {
+            "en": "She wove a basket for us.",
+            "ru": "Она сплела нам корзину."
+          },
+          {
+            "en": "He balled up the letter and threw it into the wastepaper basket.",
+            "ru": "Он смял письмо и бросил его в мусорную корзину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 3353,
+      "word": "bath",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæθ]",
+        "br": "[bɑːθ]",
+        "gb": "[bɑːθ]"
+      },
+      "translations": {
+        "rus": "ванна, баня",
+        "spa": "la bañera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was in the bath.",
+            "ru": "Я был в ванной."
+          },
+          {
+            "en": "The bath is open on Saturdays.",
+            "ru": "Баня открыта по субботам."
+          },
+          {
+            "en": "May I take a bath?",
+            "ru": "Могу я принять ванну?"
+          },
+          {
+            "en": "Have you taken a bath?",
+            "ru": "Вы принимали ванну?"
+          },
+          {
+            "en": "The bath water has gone cold.",
+            "ru": "Вода в ванне остыла."
+          },
+          {
+            "en": "She put water into the bath.",
+            "ru": "Она наполнила ванну."
+          },
+          {
+            "en": "A hot bath always relaxes me.",
+            "ru": "Горячая ванна всегда меня расслабляет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3354,
+      "word": "bathtub",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæθtʌb]",
+        "br": "[ˈbɑːθtʌb]",
+        "gb": "[ˈbɑːθtʌb]"
+      },
+      "translations": {
+        "rus": "ванна",
+        "spa": "la bañera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3355,
+      "word": "bed",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[bed]",
+        "br": "[bed]",
+        "gb": "[bed]"
+      },
+      "translations": {
+        "rus": "кровать, постель, постельный",
+        "spa": "la cama"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are they still in bed?",
+            "ru": "Они ещё в постели?"
+          },
+          {
+            "en": "He jumped out of bed.",
+            "ru": "Он вскочил с кровати."
+          },
+          {
+            "en": "Go back to your bed.",
+            "ru": "Возвращайся в постель."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He sat on the bed.",
+            "es": "Él se sentó en la cama."
+          },
+          {
+            "en": "Get the kid to bed.",
+            "es": "Lleva al niño a la cama."
+          },
+          {
+            "en": "Jane is sick in bed.",
+            "es": "Jane está en cama enferma."
+          },
+          {
+            "en": "Go back to your bed.",
+            "es": "Vuelve a tu cama."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3356,
+      "word": "bedside table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbedsaɪd] [ˈteɪbl]",
+        "br": "[ˈbedsaɪd] [ˈteɪbl]",
+        "gb": "[ˈbedsaɪd] [teɪbl]"
+      },
+      "translations": {
+        "rus": "прикроватный столик",
+        "spa": "la mesita de noche"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3357,
+      "word": "blanket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈblæŋkɪt]",
+        "br": "[ˈblæŋkɪt]",
+        "gb": "[ˈblæŋkɪt]"
+      },
+      "translations": {
+        "rus": "одеяло",
+        "spa": "la manta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The blanket will warm you.",
+            "ru": "Одеяло согреет вас."
+          },
+          {
+            "en": "Cover the child with a blanket.",
+            "ru": "Укрой ребенка одеялом."
+          },
+          {
+            "en": "Where is this blanket to go?",
+            "ru": "Куда положить это одеяло?"
+          },
+          {
+            "en": "The whole garden was blanketed in leaves.",
+            "ru": "Весь сад был засыпан листьями."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 3358,
+      "word": "bookcase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkkeɪs]",
+        "br": "[ˈbʊkkeɪs]",
+        "gb": "[ˈbʊkkeɪs]"
+      },
+      "translations": {
+        "rus": "книжный шкаф",
+        "spa": "la estantería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I made a bookcase.",
+            "ru": "Я сделал книжный шкаф."
+          },
+          {
+            "en": "Put the books in the bookcase.",
+            "ru": "Поставь книги в книжный шкаф."
+          },
+          {
+            "en": "I can't move this bookcase without your help.",
+            "ru": "Я не могу передвинуть этот книжный шкаф без твоей помощи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "literature"
+      ]
+    },
+    {
+      "id": 3359,
+      "word": "bookshelf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkʃelf]",
+        "br": "[ˈbʊkʃelf]",
+        "gb": "[ˈbʊkʃelf]"
+      },
+      "translations": {
+        "rus": "книжная полка",
+        "spa": "el estante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 2411,
+      "word": "carpet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrpɪt]",
+        "br": "[ˈkɑːpɪt]",
+        "gb": "[ˈkɑːpɪt]"
+      },
+      "translations": {
+        "rus": "ковёр",
+        "spa": "la alfombra, el tapete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My bedroom carpet is green.",
+            "ru": "Ковер в моей спальне зеленого цвета."
+          },
+          {
+            "en": "We bought a new carpet for the bedroom.",
+            "ru": "Мы купили новый ковер для спальни."
+          },
+          {
+            "en": "The carpet needs to be cleaned.",
+            "ru": "Этот ковёр нужно почистить."
+          },
+          {
+            "en": "I like the new carpet.",
+            "ru": "Мне нравится новый ковёр."
+          },
+          {
+            "en": "How much for this carpet?",
+            "ru": "Сколько стоит этот ковёр?"
+          },
+          {
+            "en": "This carpet feels nice.",
+            "ru": "Этот ковёр приятен на ощупь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3360,
+      "word": "chair",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃer]",
+        "br": "[tʃeə(r)]",
+        "gb": "[ʧɛə]"
+      },
+      "translations": {
+        "rus": "стул",
+        "spa": "la silla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She sat on a chair.",
+            "ru": "Она села на стул."
+          },
+          {
+            "en": "The chair is made of wood.",
+            "ru": "Стул деревянный."
+          },
+          {
+            "en": "This will do for a chair.",
+            "ru": "Это сойдёт за стул."
+          },
+          {
+            "en": "This is a comfortable chair.",
+            "ru": "Это удобный стул."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It is under the chair.",
+            "es": "Está bajo la silla."
+          },
+          {
+            "en": "Don't lean on my chair.",
+            "es": "No te apoyes en mi silla."
+          },
+          {
+            "en": "Get me a chair, please.",
+            "es": "Tráeme una silla, por favor."
+          },
+          {
+            "en": "He made his son a chair.",
+            "es": "Le hizo una silla a su hijo."
+          },
+          {
+            "en": "The chair can't be fixed.",
+            "es": "No se puede arreglar la silla."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3361,
+      "word": "chest of drawers",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃest] [əv] [drɔːrz]",
+        "br": "[tʃest] [əv] [drɔːz]",
+        "gb": "[ʧest] [ɔv] [drɔːz]"
+      },
+      "translations": {
+        "rus": "комод",
+        "spa": "la cómoda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A big spider lives behind the chest of drawers.",
+            "ru": "За комодом живёт большой паук."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3362,
+      "word": "closet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklɑːzɪt]",
+        "br": "[ˈklɒzɪt]",
+        "gb": "[ˈklɔzɪt]"
+      },
+      "translations": {
+        "rus": "стенной шкаф, чулан",
+        "spa": "el armario, el clóset"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I hid in the closet.",
+            "ru": "Я спрятался в чулане."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3363,
+      "word": "coat hanger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊt] [ˈhæŋər]",
+        "br": "[kəʊt] [ˈhæŋə(r)]",
+        "gb": "[kəʊt] [ˈhæŋə]"
+      },
+      "translations": {
+        "rus": "вешалка (плечики)",
+        "spa": "la percha"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3364,
+      "word": "coat stand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəʊt] [stænd]",
+        "br": "[kəʊt] [stænd]",
+        "gb": "[kəʊt] [stænd]"
+      },
+      "translations": {
+        "rus": "вешалка (для пальто)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3365,
+      "word": "coffee table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɔːfi] [ˈteɪbl]",
+        "br": "[ˈkɒfi] [ˈteɪbl]",
+        "gb": "[ˈkɔfɪ] [teɪbl]"
+      },
+      "translations": {
+        "rus": "кофейный столик, журнальный столик",
+        "spa": "la mesita para el café"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I banged my leg on the coffee table.",
+            "ru": "Я ударился ногой о кофейный столик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3366,
+      "word": "counter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkaʊntər]",
+        "br": "[ˈkaʊntə(r)]",
+        "gb": "[ˈkaʊntə]"
+      },
+      "translations": {
+        "rus": "прилавок, стойка, кухонный рабочий стол",
+        "spa": "el mostrador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I sat at the counter.",
+            "ru": "Я сидел за стойкой."
+          },
+          {
+            "en": "Where is the information counter?",
+            "ru": "Где информационная стойка?"
+          },
+          {
+            "en": "A shopman was at the counter.",
+            "ru": "За прилавком стоял продавец."
+          },
+          {
+            "en": "Goods are sold and money paid over the counter.",
+            "ru": "Товары продаются и оплачиваются у прилавка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He leaned on the counter.",
+            "es": "Él se apoyó sobre el mostrador."
+          },
+          {
+            "en": "Please pay at this counter.",
+            "es": "Por favor, pague en el mostrador."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "oxford5000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3367,
+      "word": "cupboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌbərd]",
+        "br": "[ˈkʌbəd]",
+        "gb": "[ˈkʌbəd]"
+      },
+      "translations": {
+        "rus": "стенной шкаф, кухонный шкаф, буфет, сервант",
+        "spa": "la alacena, el armario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's some sugar in the cupboard.",
+            "ru": "В шкафу есть немного сахара."
+          },
+          {
+            "en": "This cupboard's full of junk.",
+            "ru": "В этом шкафу полно хлама."
+          },
+          {
+            "en": "I found these apples mouldering in the cupboard.",
+            "ru": "Я нашёл эти яблоки гниющими в шкафу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 3368,
+      "word": "curtain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɜːrtn]",
+        "br": "[ˈkɜːtn]",
+        "gb": "[kɜːtn]"
+      },
+      "translations": {
+        "rus": "занавеска, штора",
+        "spa": "la cortina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Curtains separated the hospital beds.",
+            "ru": "Занавески отделяли больничные койки."
+          },
+          {
+            "en": "Ella drew the curtains and switched the light on.",
+            "ru": "Элла задернула шторы и включила свет."
+          },
+          {
+            "en": "Pull the curtain back.",
+            "ru": "Отодвиньте занавеску."
+          },
+          {
+            "en": "The curtain caught on fire.",
+            "ru": "Штора загорелась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3369,
+      "word": "cushion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʊʃn]",
+        "br": "[ˈkʊʃn]",
+        "gb": "[kʊʃn]"
+      },
+      "translations": {
+        "rus": "диванная подушка",
+        "spa": "el cojín"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3370,
+      "word": "desk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[desk]",
+        "br": "[desk]",
+        "gb": "[desk]"
+      },
+      "translations": {
+        "rus": "письменный стол, парта, настольный",
+        "spa": "el escritorio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The desk is covered with dust.",
+            "ru": "Письменный стол покрыт пылью."
+          },
+          {
+            "en": "This desk is mine.",
+            "ru": "Эта парта моя."
+          },
+          {
+            "en": "I don't like big desk lamps.",
+            "ru": "Мне не нравятся большие настольные лампы."
+          },
+          {
+            "en": "Put it on my desk.",
+            "ru": "Положи его на мой письменный стол."
+          },
+          {
+            "en": "There is a pen on the desk.",
+            "ru": "На парте ручка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What is on the desk?",
+            "es": "¿Qué hay en el escritorio?"
+          },
+          {
+            "en": "The desk is made of wood.",
+            "es": "El escritorio está hecho de madera."
+          },
+          {
+            "en": "Are there any pens on the desk?",
+            "es": "¿Hay bolígrafos sobre el escritorio?"
+          },
+          {
+            "en": "Dust had accumulated on the desk.",
+            "es": "El polvo se acumuló en el escritorio."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2435,
+      "word": "door",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɔːr]",
+        "br": "[dɔː(r)]",
+        "gb": "[dɔː]"
+      },
+      "translations": {
+        "rus": "дверь, вход, дверной",
+        "spa": "la puerta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The door opened.",
+            "ru": "Дверь открылась."
+          },
+          {
+            "en": "Back from the door!",
+            "ru": "Отойдите от двери!"
+          },
+          {
+            "en": "He barred the door.",
+            "ru": "Он запер дверь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The door is open now.",
+            "es": "La puerta está abierta ahora."
+          },
+          {
+            "en": "I heard the door close.",
+            "es": "Oí cerrarse la puerta."
+          },
+          {
+            "en": "He painted the door blue.",
+            "es": "Pintó la puerta de azul."
+          },
+          {
+            "en": "Close the door when you leave.",
+            "es": "Cierra la puerta al salir."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3371,
+      "word": "double bed",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌbl] [bed]",
+        "br": "[ˈdʌbl] [bed]",
+        "gb": "[dʌbl] [bed]"
+      },
+      "translations": {
+        "rus": "двуспальная кровать",
+        "spa": "la cama matrimonial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3372,
+      "word": "drawer",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈdrɔːə]"
+      },
+      "translations": {
+        "rus": "выдвижной ящик",
+        "spa": "el cajón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are some pens in my desk drawer.",
+            "ru": "В ящике моего письменного стола есть несколько ручек."
+          },
+          {
+            "en": "The towels are in the bottom drawer.",
+            "ru": "Полотенца лежат в нижнем ящике."
+          },
+          {
+            "en": "The spare car keys live in this drawer.",
+            "ru": "Запасные ключи от машины лежат в этом ящике."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3373,
+      "word": "dresser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdresər]",
+        "br": "[ˈdresə(r)]",
+        "gb": "[ˈdresə]"
+      },
+      "translations": {
+        "rus": "комод",
+        "spa": "el tocador, la cómoda"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3374,
+      "word": "drinks cabinet",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[drɪŋks] [ˈkæbɪnɪt]"
+      },
+      "translations": {
+        "rus": "бар (мебель)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3375,
+      "word": "dustbin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌstbɪn]",
+        "br": "[ˈdʌstbɪn]",
+        "gb": "[ˈdʌstbɪn]"
+      },
+      "translations": {
+        "rus": "мусорное ведро",
+        "spa": "el cubo de la basura"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3376,
+      "word": "duvet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈduːveɪ]",
+        "br": "[ˈduːveɪ]",
+        "gb": "[ˈdjuːveɪ]"
+      },
+      "translations": {
+        "rus": "пуховое одеяло с пододеяльником",
+        "spa": "el edredón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3377,
+      "word": "electric fire",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈlektrɪk] [ˈfaɪər]",
+        "br": "[ɪˈlektrɪk] [ˈfaɪə(r)]",
+        "gb": "[ɪˈlektrɪk] [ˈfaɪə]"
+      },
+      "translations": {
+        "rus": "электрокамин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3378,
+      "word": "fridge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[frɪdʒ]",
+        "br": "[frɪdʒ]",
+        "gb": "[frɪʤ]"
+      },
+      "translations": {
+        "rus": "холодильник",
+        "spa": "la nevera, el refrigerador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please put the milk in the fridge.",
+            "ru": "Пожалуйста, поставьте молоко в холодильник."
+          },
+          {
+            "en": "There is some cheese in the fridge.",
+            "ru": "В холодильнике есть немного сыра."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 3380,
+      "word": "furnishings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɜːrnɪʃɪŋz]",
+        "br": "[ˈfɜːnɪʃɪŋz]",
+        "gb": "[ˈfɜːnɪʃɪŋz]"
+      },
+      "translations": {
+        "rus": "обстановка, бытовые приборы",
+        "spa": "los muebles, el mobiliario"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3381,
+      "word": "furniture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɜːrnɪtʃər]",
+        "br": "[ˈfɜːnɪtʃə(r)]",
+        "gb": "[ˈfɜːnɪʧə]"
+      },
+      "translations": {
+        "rus": "мебель, обстановка",
+        "spa": "los muebles"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She helped to move the furniture.",
+            "ru": "Она помогала в перестановке мебели."
+          },
+          {
+            "en": "The office furniture is wearing out.",
+            "ru": "Офисная мебель изнашивается."
+          },
+          {
+            "en": "All the furniture in their house is brand-new.",
+            "ru": "Вся мебель в их доме, совсем новая."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3382,
+      "word": "houseplants",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhaʊsplænts]",
+        "br": "[ˈhaʊsplɑːnts]",
+        "gb": "[ˈhaʊsplɑːnts]"
+      },
+      "translations": {
+        "rus": "комнатные растения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3383,
+      "word": "lampshade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlæmpʃeɪd]",
+        "br": "[ˈlæmpʃeɪd]",
+        "gb": "[ˈlæmpʃeɪd]"
+      },
+      "translations": {
+        "rus": "абажур, плафон",
+        "spa": "la pantalla"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3384,
+      "word": "mirror",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪrər]",
+        "br": "[ˈmɪrə(r)]",
+        "gb": "[ˈmɪrə]"
+      },
+      "translations": {
+        "rus": "зеркало",
+        "spa": "el espejo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Take a glance at the mirror.",
+            "ru": "Взгляните в зеркало."
+          },
+          {
+            "en": "The mirror is very dirty.",
+            "ru": "Зеркало очень грязное."
+          },
+          {
+            "en": "Just look in the mirror.",
+            "ru": "Просто взгляни в зеркало."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 655,
+      "word": "painting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪntɪŋ]",
+        "br": "[ˈpeɪntɪŋ]",
+        "gb": "[ˈpeɪntɪŋ]"
+      },
+      "translations": {
+        "rus": "живопись, картина, занятие живописью, рисование",
+        "spa": "el cuadro, la pintura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What does this painting say?",
+            "ru": "О чём говорит эта картина?"
+          },
+          {
+            "en": "The painting was judged a fake.",
+            "ru": "Эта картина была признана подделкой."
+          },
+          {
+            "en": "The house needed painting.",
+            "ru": "Дом нуждался в покраске."
+          },
+          {
+            "en": "He hung the painting on the wall.",
+            "ru": "Он повесил картину на стену."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "furniture",
+        "home",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 3385,
+      "word": "piano",
+      "pos": "noun",
+      "transcription": {
+        "us": "[piˈænəʊ]",
+        "br": "[piˈænəʊ]",
+        "gb": "[pɪˈænəʊ]"
+      },
+      "translations": {
+        "rus": "фортепиано",
+        "spa": "el piano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was playing the piano.",
+            "ru": "Он играл на фортепиано."
+          },
+          {
+            "en": "My daughter wants a piano.",
+            "ru": "Моя дочь хочет фортепиано."
+          },
+          {
+            "en": "There is a piano in the room.",
+            "ru": "В комнате есть фортепиано."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3386,
+      "word": "pillow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪləʊ]",
+        "br": "[ˈpɪləʊ]",
+        "gb": "[ˈpɪləʊ]"
+      },
+      "translations": {
+        "rus": "подушка",
+        "spa": "la almohada"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Get me a pillow.",
+            "ru": "Принеси мне подушку."
+          },
+          {
+            "en": "He was blanketed and pillowed.",
+            "ru": "Он лежал на подушке, завернувшись в одеяло."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3387,
+      "word": "refrigerator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈfrɪdʒəreɪtər]",
+        "br": "[rɪˈfrɪdʒəreɪtə(r)]",
+        "gb": "[rɪˈfrɪʤəreɪtə]"
+      },
+      "translations": {
+        "rus": "холодильник",
+        "spa": "la nevera, el refrigerador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That refrigerator smells awful.",
+            "ru": "Из этого холодильника ужасно воняет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2555,
+      "word": "rug",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rʌɡ]",
+        "br": "[rʌɡ]",
+        "gb": "[rʌg]"
+      },
+      "translations": {
+        "rus": "ковёр, коврик",
+        "spa": "la alfombra, el tapete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rug was covered with cat hair.",
+            "ru": "Ковёр был покрыт шестью кота."
+          },
+          {
+            "en": "During the day I went to Ikea to return the rug.",
+            "ru": "Днём я съездил в Икею, чтобы сдать ковёр."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3388,
+      "word": "sideboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪdbɔːrd]",
+        "br": "[ˈsaɪdbɔːd]",
+        "gb": "[ˈsaɪdbɔːd]"
+      },
+      "translations": {
+        "rus": "сервант, буфет",
+        "spa": "el aparador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3389,
+      "word": "single bed",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋɡl] [bed]",
+        "br": "[ˈsɪŋɡl] [bed]",
+        "gb": "[sɪŋgl] [bed]"
+      },
+      "translations": {
+        "rus": "односпальная кровать",
+        "spa": "la cama individual"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3391,
+      "word": "sofa, couch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊfə], [kaʊtʃ]",
+        "br": "[ˈsəʊfə], [kaʊtʃ]",
+        "gb": "[ˈsəʊfə] [kaʊʧ]"
+      },
+      "translations": {
+        "rus": "диван, софа",
+        "spa": "el sofá"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The dog jumped onto the sofa.",
+            "ru": "Собака прыгнула на диван."
+          },
+          {
+            "en": "She was lounging on the sofa.",
+            "ru": "Она развалилась на диване."
+          },
+          {
+            "en": "We put a slipcover on the sofa.",
+            "ru": "Мы натянули на диван чехол."
+          },
+          {
+            "en": "This sofa is so uncomfortable.",
+            "ru": "Это диван такой неудобный."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3390,
+      "word": "sofa-bed",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊfə] [bed]",
+        "br": "[ˈsəʊfə] [bed]",
+        "gb": "[ˈsəʊfə] [bed]"
+      },
+      "translations": {
+        "rus": "диван-кровать",
+        "spa": "el sofá-cama"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture"
+      ]
+    },
+    {
+      "id": 3392,
+      "word": "stool",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stuːl]",
+        "br": "[stuːl]",
+        "gb": "[stuːl]"
+      },
+      "translations": {
+        "rus": "табуретка",
+        "spa": "el taburete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I upended the bucket to use as a stool.",
+            "ru": "Я перевернул ведро, чтобы усесться на него, как на табуретку."
+          },
+          {
+            "en": "He overbalanced and fell off the stool.",
+            "ru": "Он потерял равновесие и упал с табуретки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 2597,
+      "word": "table",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪbl]",
+        "br": "[ˈteɪbl]",
+        "gb": "[teɪbl]"
+      },
+      "translations": {
+        "rus": "стол",
+        "spa": "la mesa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a table?",
+            "ru": "У тебя есть стол?"
+          },
+          {
+            "en": "Lay it on the table.",
+            "ru": "Положи его на стол."
+          },
+          {
+            "en": "This is a wooden table.",
+            "ru": "Это деревянный стол."
+          },
+          {
+            "en": "May I set the table?",
+            "ru": "Я могу накрывать на стол?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I set the table?",
+            "es": "¿Pongo la mesa?"
+          },
+          {
+            "en": "Lay it on the table.",
+            "es": "Déjalo encima de la mesa."
+          },
+          {
+            "en": "I have a metal table.",
+            "es": "Tengo una mesa de metal."
+          },
+          {
+            "en": "A table has four legs.",
+            "es": "Una mesa tiene cuatro patas."
+          },
+          {
+            "en": "Get that off my table.",
+            "es": "Quita eso de mi mesa."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3393,
+      "word": "tablecloth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪblklɔːθ]",
+        "br": "[ˈteɪblklɒθ]",
+        "gb": "[ˈteɪblklɒθ]"
+      },
+      "translations": {
+        "rus": "скатерть",
+        "spa": "el mantel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tablecloth is in the cabinet.",
+            "ru": "Скатерть в шкафу."
+          },
+          {
+            "en": "I spilled coffee on your tablecloth.",
+            "ru": "Я пролил кофе на твою скатерть."
+          },
+          {
+            "en": "She took the tablecloths to the laundry.",
+            "ru": "Она отнесла скатерти в прачечную."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3394,
+      "word": "television, TV",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈtelɪvɪʒn], [ˌtiː ˈviː]",
+        "br": "[ˈtelɪvɪʒn], [ˌtiː ˈviː]",
+        "gb": "[ˈtelɪvɪʒən] [ˌtiː ˈviː]"
+      },
+      "translations": {
+        "rus": "телевидение, телевизионный, телевизор",
+        "spa": "la televisión, el televisor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't trust the television.",
+            "ru": "Я не доверяю телевидению."
+          },
+          {
+            "en": "Please adjust the television picture.",
+            "ru": "Пожалуйста, отрегулируй телевизионную картинку."
+          },
+          {
+            "en": "I saw her on television.",
+            "ru": "Я видел её по телевизору."
+          },
+          {
+            "en": "Jean works in television.",
+            "ru": "Джейн работает на телевидении."
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I turn on the television?",
+            "es": "¿Puedo prender el televisor?"
+          },
+          {
+            "en": "There is a television in the room.",
+            "es": "Hay un televisor en el cuarto."
+          },
+          {
+            "en": "Your wallet is on the television set.",
+            "es": "Tu billetera está sobre el televisor."
+          }
+        ]
+      },
+      "categories": [
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3379,
+      "word": "to furnish",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfɜːrnɪʃ]",
+        "br": "[tə] [ˈfɜːnɪʃ]",
+        "gb": "[tuː] [ˈfɜːnɪʃ]"
+      },
+      "translations": {
+        "rus": "обставлять мебелью",
+        "spa": "amueblar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3395,
+      "word": "vase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[veɪs]",
+        "br": "[vɑːz]",
+        "gb": "[vɑːz]"
+      },
+      "translations": {
+        "rus": "ваза",
+        "spa": "el florero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A vase fell off the shelf.",
+            "ru": "С полки упала ваза."
+          },
+          {
+            "en": "He handled the vase with care.",
+            "ru": "Он обращался с вазой осторожно."
+          },
+          {
+            "en": "Be careful not to bump the vase.",
+            "ru": "Осторожно, не стукни вазу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 3396,
+      "word": "wardrobe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːrdrəʊb]",
+        "br": "[ˈwɔːdrəʊb]",
+        "gb": "[ˈwɔːdrəʊb]"
+      },
+      "translations": {
+        "rus": "гардероб, платяной шкаф",
+        "spa": "el armario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The wardrobe was very deep.",
+            "ru": "Платяной шкаф был очень глубоким."
+          },
+          {
+            "en": "She wants to update her wardrobe.",
+            "ru": "Она хочет обновить свой гардероб."
+          },
+          {
+            "en": "The wardrobe was backed with plywood.",
+            "ru": "Задняя стенка шкафа была из фанеры."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "id": 2376,
+      "word": "window",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndəʊ]",
+        "br": "[ˈwɪndəʊ]",
+        "gb": "[ˈwɪndəʊ]"
+      },
+      "translations": {
+        "rus": "окно",
+        "spa": "la ventana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The window won't shut.",
+            "ru": "Окно не закрывается."
+          },
+          {
+            "en": "She opened a window to let in some air.",
+            "ru": "Она открыла окно, чтобы проветрить помещение."
+          },
+          {
+            "en": "The window banged shut.",
+            "ru": "Окно с грохотом закрылось."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who left the window open?",
+            "es": "¿Quién dejó la ventana abierta?"
+          },
+          {
+            "en": "The room has two windows.",
+            "es": "El cuarto tiene dos ventanas."
+          },
+          {
+            "en": "He looked out of the window.",
+            "es": "Miró por la ventana."
+          },
+          {
+            "en": "Please keep the windows open.",
+            "es": "Por favor, dejá las ventanas abiertas."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "furniture",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    }
+  ]
+}

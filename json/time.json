@@ -1,0 +1,1441 @@
+{
+  "category": {
+    "id": "time",
+    "name_rus": "Время",
+    "type": "topic",
+    "word_count": 34
+  },
+  "words": [
+    {
+      "id": 5874,
+      "word": "afternoon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌæftərˈnuːn]",
+        "br": "[ˌɑːftəˈnuːn]",
+        "gb": "[ˈɑːftəˈnuːn]"
+      },
+      "translations": {
+        "rus": "после полудня",
+        "spa": "la tarde"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Will it rain this afternoon?",
+            "ru": "Будет ли дождь после полудня?"
+          },
+          {
+            "en": "Are you busy tomorrow afternoon?",
+            "ru": "Вы заняты завтра после полудня?"
+          },
+          {
+            "en": "Where were you yesterday afternoon?",
+            "ru": "Где вы были вчера после полудня?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Will it rain this afternoon?",
+            "es": "¿Lloverá esta tarde?"
+          },
+          {
+            "en": "They study in the afternoon.",
+            "es": "Estudia por las tardes."
+          },
+          {
+            "en": "Are you free this afternoon?",
+            "es": "¿Estás libre esta tarde?"
+          },
+          {
+            "en": "It may snow in the afternoon.",
+            "es": "Podría nevar por la tarde."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7327,
+      "word": "anniversary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌænɪˈvɜːrsəri]",
+        "br": "[ˌænɪˈvɜːsəri]",
+        "gb": "[ænɪˈvɜːsərɪ]"
+      },
+      "translations": {
+        "rus": "годовщина",
+        "spa": "el aniversario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's their anniversary.",
+            "ru": "Это их годовщина."
+          },
+          {
+            "en": "I gave them a present for their anniversary.",
+            "ru": "Я сделал им подарок на годовщину."
+          },
+          {
+            "en": "They're celebrating their wedding anniversary.",
+            "ru": "Они празднуют годовщину своей свадьбы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "time"
+      ]
+    },
+    {
+      "id": 5915,
+      "word": "birthday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɜːrθdeɪ]",
+        "br": "[ˈbɜːθdeɪ]",
+        "gb": "[ˈbɜːθdeɪ]"
+      },
+      "translations": {
+        "rus": "день рождения",
+        "spa": "el cumpleaños"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Happy birthday!",
+            "ru": "С днём рождения!"
+          },
+          {
+            "en": "It's my birthday today.",
+            "ru": "Сегодня мой день рождения."
+          },
+          {
+            "en": "My birthday falls on Sunday.",
+            "ru": "Мой день рождения попадает на воскресенье."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time"
+      ]
+    },
+    {
+      "id": 5960,
+      "word": "date",
+      "pos": "noun",
+      "transcription": {
+        "us": "[deɪt]",
+        "br": "[deɪt]",
+        "gb": "[deɪt]"
+      },
+      "translations": {
+        "rus": "дата",
+        "spa": "la fecha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The date is unsure.",
+            "ru": "Дата точно не установлена."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What is the date today?",
+            "es": "¿Cuál es la fecha de hoy?"
+          },
+          {
+            "en": "Did I forget to write the date?",
+            "es": "¿Olvidé escribir la fecha?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5961,
+      "word": "day",
+      "pos": "noun",
+      "transcription": {
+        "us": "[deɪ]",
+        "br": "[deɪ]",
+        "gb": "[deɪ]"
+      },
+      "translations": {
+        "rus": "день, дневной",
+        "spa": "el día"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a terrible day.",
+            "ru": "Был ужасный день."
+          },
+          {
+            "en": "Today is a sunny day.",
+            "ru": "Сегодня солнечный день."
+          },
+          {
+            "en": "The day is almost over.",
+            "ru": "День почти закончился."
+          },
+          {
+            "en": "The day turned out to be fine.",
+            "ru": "День выдался хорошим."
+          },
+          {
+            "en": "I make €100 a day.",
+            "ru": "Я зарабатываю сто евро в день."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What a day!",
+            "es": "¡Pero qué día!"
+          },
+          {
+            "en": "I run every day.",
+            "es": "Corro todos los días."
+          },
+          {
+            "en": "A terrible day.",
+            "es": "Un día terrible."
+          },
+          {
+            "en": "I was out all day.",
+            "es": "Estuve afuera todo el día."
+          },
+          {
+            "en": "Have a nice day.",
+            "es": "Que tengas un buen día."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top100"
+      ]
+    },
+    {
+      "id": 9939,
+      "word": "day before yesterday",
+      "pos": null,
+      "transcription": {
+        "us": "[deɪ] [bɪˈfɔːr] [ˈjestərdeɪ]",
+        "br": "[deɪ] [bɪˈfɔː(r)] [ˈjestədeɪ]",
+        "gb": "[deɪ] [bɪˈfɔː] [ˈjestədɪ]"
+      },
+      "translations": {
+        "rus": "позавчера",
+        "spa": "antes de ayer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 5979,
+      "word": "early",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[ˈɜːrli]",
+        "br": "[ˈɜːli]",
+        "gb": "[ˈɜːlɪ]"
+      },
+      "translations": {
+        "rus": "рано, ранний",
+        "spa": "a primera hora, temprano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is an early riser.",
+            "ru": "Он рано встаёт."
+          },
+          {
+            "en": "I had an early lunch.",
+            "ru": "Я рано пообедал."
+          },
+          {
+            "en": "It is still too early.",
+            "ru": "Ещё слишком рано."
+          },
+          {
+            "en": "In winter it gets dark early.",
+            "ru": "Зимой рано темнеет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to leave early.",
+            "es": "Quiero irme temprano."
+          },
+          {
+            "en": "I don't like early morning meetings.",
+            "es": "No me gustan las reuniones a primera hora de la mañana."
+          },
+          {
+            "en": "We had an early lunch.",
+            "es": "Almorzamos temprano."
+          },
+          {
+            "en": "Why did you come early?",
+            "es": "¿Por qué llegaste temprano?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5987,
+      "word": "evening",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːvnɪŋ]",
+        "br": "[ˈiːvnɪŋ]",
+        "gb": "[ˈiːvnɪŋ]"
+      },
+      "translations": {
+        "rus": "вечер",
+        "spa": "la tarde, la noche"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am at home every evening.",
+            "ru": "Я каждый вечер дома."
+          },
+          {
+            "en": "It was a great evening.",
+            "ru": "Это был отличный вечер."
+          },
+          {
+            "en": "Read this in the evening!",
+            "ru": "Прочитай это вечером!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Read this in the evening.",
+            "es": "Lee esto en la noche."
+          },
+          {
+            "en": "We had a pleasant evening.",
+            "es": "Pasamos una tarde agradable."
+          },
+          {
+            "en": "Are you free this evening?",
+            "es": "¿Estás libre esta noche?"
+          },
+          {
+            "en": "I'm seeing her this evening.",
+            "es": "La veré esta tarde."
+          },
+          {
+            "en": "It might rain before evening.",
+            "es": "Podría llover antes de la noche."
+          },
+          {
+            "en": "Yes, it's such a nice evening.",
+            "es": "Sí, la tarde está tan linda."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9940,
+      "word": "every day",
+      "pos": "adverb",
+      "transcription": {
+        "us": "[ˈevri] [deɪ]",
+        "br": "[ˈevri] [deɪ]",
+        "gb": "[ˈevrɪ] [deɪ]"
+      },
+      "translations": {
+        "rus": "каждый день",
+        "spa": "todos los días"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6056,
+      "word": "hour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaʊər]",
+        "br": "[ˈaʊə(r)]",
+        "gb": "[ˈaʊə]"
+      },
+      "translations": {
+        "rus": "час",
+        "spa": "la hora"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He left an hour ago.",
+            "ru": "Он ушёл час назад."
+          },
+          {
+            "en": "I studied for one hour.",
+            "ru": "Я занимался один час."
+          },
+          {
+            "en": "Come back in an hour.",
+            "ru": "Возвращайся через час."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I leave in an hour.",
+            "es": "Me voy en una hora."
+          },
+          {
+            "en": "It took just an hour.",
+            "es": "Esto sólo tomó una hora."
+          },
+          {
+            "en": "I met her an hour ago.",
+            "es": "Me encontré con ella hace una hora."
+          },
+          {
+            "en": "Susan left an hour ago.",
+            "es": "Susan se fue hace una hora."
+          },
+          {
+            "en": "The film lasted 2 hours.",
+            "es": "La película duró 2 horas."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9941,
+      "word": "last week",
+      "pos": null,
+      "transcription": {
+        "us": "[læst] [wiːk]",
+        "br": "[lɑːst] [wiːk]",
+        "gb": "[lɑːst] [wiːk]"
+      },
+      "translations": {
+        "rus": "прошлая неделя",
+        "spa": "la semana pasada"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6082,
+      "word": "late",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[leɪt]",
+        "br": "[leɪt]",
+        "gb": "[leɪt]"
+      },
+      "translations": {
+        "rus": "поздно, поздний",
+        "spa": "tarde"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I will be back late.",
+            "ru": "Вернусь поздно."
+          },
+          {
+            "en": "I had a late lunch.",
+            "ru": "Я поздно пообедал."
+          },
+          {
+            "en": "I am afraid it's too late.",
+            "ru": "Боюсь, слишком поздно."
+          },
+          {
+            "en": "It was already very late.",
+            "ru": "Было уже очень поздно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Hurry up! We'll be late.",
+            "es": "¡Apresúrate! Llegaremos tarde."
+          },
+          {
+            "en": "I usually get up late.",
+            "es": "Suelo levantarme tarde."
+          },
+          {
+            "en": "I'm sorry for being late.",
+            "es": "Lamento llegar tarde."
+          },
+          {
+            "en": "Last night I arrived late.",
+            "es": "Anoche llegué tarde."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9942,
+      "word": "legal holiday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈliːɡl] [ˈhɑːlədeɪ]",
+        "br": "[ˈliːɡl] [ˈhɒlədeɪ]",
+        "gb": "[ˈliːgəl] [ˈhɒlɪdeɪ]"
+      },
+      "translations": {
+        "rus": "государственный праздник",
+        "spa": "la fiesta nacional"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6111,
+      "word": "midnight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪdnaɪt]",
+        "br": "[ˈmɪdnaɪt]",
+        "gb": "[ˈmɪdnaɪt]"
+      },
+      "translations": {
+        "rus": "полночь",
+        "spa": "la medianoche"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It is midnight.",
+            "ru": "Сейчас полночь."
+          },
+          {
+            "en": "The party broke up at midnight.",
+            "ru": "Вечеринка закончилась в полночь."
+          },
+          {
+            "en": "It was almost midnight.",
+            "ru": "Была уже почти полночь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time"
+      ]
+    },
+    {
+      "id": 6114,
+      "word": "minute",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪnɪt]",
+        "br": "[ˈmɪnɪt]",
+        "gb": "[ˈmɪnɪt]"
+      },
+      "translations": {
+        "rus": "минута",
+        "spa": "el minuto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's give them a minute.",
+            "ru": "Дадим им минуту."
+          },
+          {
+            "en": "The movie ran 85 minutes.",
+            "ru": "Фильм шёл 85 минут."
+          },
+          {
+            "en": "I only have a minute.",
+            "ru": "У меня всего минута."
+          },
+          {
+            "en": "Give me another minute, OK?",
+            "ru": "Дай мне ещё минуту, ладно?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a minute?",
+            "es": "¿Tienes un minuto?"
+          },
+          {
+            "en": "He left a minute ago.",
+            "es": "Él se fue hace un minuto."
+          },
+          {
+            "en": "We need a few minutes.",
+            "es": "Necesitamos unos minutos."
+          },
+          {
+            "en": "I just needed a minute.",
+            "es": "Solo necesitaba un minuto."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6118,
+      "word": "month",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mʌnθ]",
+        "br": "[mʌnθ]",
+        "gb": "[mʌnθ]"
+      },
+      "translations": {
+        "rus": "месяц",
+        "spa": "el mes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He left for a month.",
+            "ru": "Он уехал на месяц."
+          },
+          {
+            "en": "That was a month ago.",
+            "ru": "Это было месяц назад."
+          },
+          {
+            "en": "It's been more than a month.",
+            "ru": "Прошло больше месяца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That was a month ago.",
+            "es": "Fue hace un mes."
+          },
+          {
+            "en": "I am moving next month.",
+            "es": "Voy a mudar de casa el próximo mes."
+          },
+          {
+            "en": "I'll see you next month.",
+            "es": "Te veré el próximo mes."
+          },
+          {
+            "en": "Come back within a month.",
+            "es": "Vuelve dentro de un mes."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6120,
+      "word": "morning",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈmɔːrnɪŋ]",
+        "br": "[ˈmɔːnɪŋ]",
+        "gb": "[ˈmɔːnɪŋ]"
+      },
+      "translations": {
+        "rus": "утро, утренний",
+        "spa": "la mañana, matutino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Good morning. How are you?",
+            "ru": "Доброе утро. Как ты?"
+          },
+          {
+            "en": "Have you read this morning's paper?",
+            "ru": "Вы читали сегодняшнюю утреннюю газету?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I had a busy morning.",
+            "es": "Tuve una mañana ocupada."
+          },
+          {
+            "en": "I work in the morning.",
+            "es": "Trabajo por la mañana."
+          },
+          {
+            "en": "We had snow this morning.",
+            "es": "Estaba nevando esta mañana."
+          },
+          {
+            "en": "She was there all morning.",
+            "es": "Ella estuvo toda la mañana ahí."
+          },
+          {
+            "en": "I watched TV this morning.",
+            "es": "He mirado la tele esta mañana."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9943,
+      "word": "next week",
+      "pos": null,
+      "transcription": {
+        "us": "[nekst] [wiːk]",
+        "br": "[nekst] [wiːk]",
+        "gb": "[nekst] [wiːk]"
+      },
+      "translations": {
+        "rus": "следующая неделя",
+        "spa": "la semana que viene"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6133,
+      "word": "night",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[naɪt]",
+        "br": "[naɪt]",
+        "gb": "[naɪt]"
+      },
+      "translations": {
+        "rus": "ночь, ночной",
+        "spa": "la noche, nocturno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He works the night shift.",
+            "ru": "Он работает в ночную смену."
+          },
+          {
+            "en": "The night will be cold.",
+            "ru": "Ночь будет холодной."
+          },
+          {
+            "en": "I work nights as a paramedic.",
+            "ru": "Я работаю ночным санитаром."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a dark night.",
+            "es": "Fue una noche oscura."
+          },
+          {
+            "en": "I cried all night long.",
+            "es": "Lloré toda la noche."
+          },
+          {
+            "en": "The night is my accomplice.",
+            "es": "La noche es mi cómplice."
+          },
+          {
+            "en": "He looked up at the night sky.",
+            "es": "Él alzó la mirada hacia el cielo nocturno."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9108,
+      "word": "noon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nuːn]",
+        "br": "[nuːn]",
+        "gb": "[nuːn]"
+      },
+      "translations": {
+        "rus": "полдень",
+        "spa": "el mediodía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The clock says noon.",
+            "ru": "На часах — полдень."
+          },
+          {
+            "en": "We left home at noon.",
+            "ru": "Мы вышли из дома в полдень."
+          },
+          {
+            "en": "We arrived right at noon.",
+            "ru": "Мы приехали сразу после полудня."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "time"
+      ]
+    },
+    {
+      "id": 9944,
+      "word": "once a week",
+      "pos": null,
+      "transcription": {
+        "us": "[wʌns] [ə] [wiːk]",
+        "br": "[wʌns] [ə] [wiːk]",
+        "gb": "[wʌns] [ə] [wiːk]"
+      },
+      "translations": {
+        "rus": "раз в неделю",
+        "spa": "una vez a la semana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 9945,
+      "word": "religious holiday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈlɪdʒəs] [ˈhɑːlədeɪ]",
+        "br": "[rɪˈlɪdʒəs] [ˈhɒlədeɪ]",
+        "gb": "[rɪˈlɪʤəs] [ˈhɒlɪdeɪ]"
+      },
+      "translations": {
+        "rus": "религиозный праздник",
+        "spa": "la fiesta religiosa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6220,
+      "word": "second",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsekənd]",
+        "br": "[ˈsekənd]",
+        "gb": "[ˈsekənd]"
+      },
+      "translations": {
+        "rus": "секунда",
+        "spa": "el segundo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you have a second?",
+            "ru": "Есть секунда?"
+          },
+          {
+            "en": "Sit down for a second.",
+            "ru": "Присядь на секунду."
+          },
+          {
+            "en": "Just give us a second.",
+            "ru": "Просто дай нам секунду."
+          },
+          {
+            "en": "Can I talk to you for a second?",
+            "ru": "Можно тебя на секунду?"
+          },
+          {
+            "en": "Do you have a second?",
+            "ru": "Есть секунда?"
+          },
+          {
+            "en": "I'll be back in a second.",
+            "ru": "Я вернусь через секунду."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Hold it for a second.",
+            "es": "Dame un segundo."
+          },
+          {
+            "en": "Would you wait a second?",
+            "es": "¿Podrías esperar un segundo?"
+          },
+          {
+            "en": "He'll be here any second.",
+            "es": "Estará aquí en cualquier segundo."
+          },
+          {
+            "en": "A minute has sixty seconds.",
+            "es": "Un minuto contiene sesenta segundos."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9946,
+      "word": "this week",
+      "pos": null,
+      "transcription": {
+        "us": "[ðɪs] [wiːk]",
+        "br": "[ðɪs] [wiːk]",
+        "gb": "[ðɪs] [wiːk]"
+      },
+      "translations": {
+        "rus": "эта неделя",
+        "spa": "esta semana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 9947,
+      "word": "three times a week",
+      "pos": null,
+      "transcription": {
+        "us": "[θriː] [taɪmz] [ə] [wiːk]",
+        "br": "[θriː] [taɪmz] [ə] [wiːk]",
+        "gb": "[θriː] [taɪmz] [ə] [wiːk]"
+      },
+      "translations": {
+        "rus": "три раза в неделю",
+        "spa": "tres veces por semana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6283,
+      "word": "today",
+      "pos": "noun, adverb",
+      "transcription": {
+        "us": "[təˈdeɪ]",
+        "br": "[təˈdeɪ]",
+        "gb": "[təˈdeɪ]"
+      },
+      "translations": {
+        "rus": "сегодня",
+        "spa": "hoy"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is no wind today.",
+            "ru": "Сегодня нет ветра."
+          },
+          {
+            "en": "I'm in a hurry today.",
+            "ru": "Я сегодня тороплюсь."
+          },
+          {
+            "en": "What is the date today?",
+            "ru": "Какое сегодня число?"
+          },
+          {
+            "en": "Is he feeling better today?",
+            "ru": "Ему сегодня лучше?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did the mail come today?",
+            "es": "¿Hay correo hoy?"
+          },
+          {
+            "en": "Do you have school today?",
+            "es": "¿Tienes clases hoy?"
+          },
+          {
+            "en": "The sky is overcast today.",
+            "es": "Hoy está nublado."
+          },
+          {
+            "en": "I am going to see him today.",
+            "es": "Lo visitaré hoy."
+          },
+          {
+            "en": "What did you eat for lunch today?",
+            "es": "¿Qué almorzaste hoy?"
+          },
+          {
+            "en": "We expect that it will rain today.",
+            "es": "Prevemos lluvia hoy."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6285,
+      "word": "tomorrow",
+      "pos": "noun, adverb",
+      "transcription": {
+        "us": "[təˈmɑːrəʊ]",
+        "br": "[təˈmɒrəʊ]",
+        "gb": "[təˈmɔrəʊ]"
+      },
+      "translations": {
+        "rus": "завтра",
+        "spa": "mañana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll be home tomorrow.",
+            "ru": "Завтра я буду дома."
+          },
+          {
+            "en": "Night! See you tomorrow!",
+            "ru": "Доброй ночи! Увидимся завтра!"
+          },
+          {
+            "en": "He has an interview tomorrow.",
+            "ru": "Завтра у него собеседование."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Give me a ring tomorrow.",
+            "es": "Llámame mañana."
+          },
+          {
+            "en": "It is a holiday tomorrow.",
+            "es": "Mañana es feriado."
+          },
+          {
+            "en": "Will you go out tomorrow?",
+            "es": "¿Vas a salir mañana?"
+          },
+          {
+            "en": "Tomorrow is my day off.",
+            "es": "Mañana es mi día libre."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9948,
+      "word": "twice a week",
+      "pos": null,
+      "transcription": {
+        "us": "[twaɪs] [ə] [wiːk]",
+        "br": "[twaɪs] [ə] [wiːk]",
+        "gb": "[twaɪs] [ə] [wiːk]"
+      },
+      "translations": {
+        "rus": "два раза в неделю",
+        "spa": "dos veces por semana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 1857,
+      "word": "vacation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈkeɪʃn]",
+        "br": "[vəˈkeɪʃn]",
+        "gb": "[vəˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "отпуск, каникулы",
+        "spa": "las vacaciones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was away on vacation.",
+            "ru": "Она уехала в отпуск."
+          },
+          {
+            "en": "Did you have a good vacation?",
+            "ru": "Хорошо ли вы провели отпуск?"
+          },
+          {
+            "en": "We badly need a vacation.",
+            "ru": "Мы остро нуждаемся в отпуске."
+          },
+          {
+            "en": "She is now on vacation.",
+            "ru": "Она сейчас в отпуске."
+          },
+          {
+            "en": "Have a nice summer vacation!",
+            "ru": "Хороших летних каникул!"
+          },
+          {
+            "en": "I just want a vacation.",
+            "ru": "Я просто хочу в отпуск."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The vacation is over now.",
+            "es": "Terminaron las vacaciones."
+          },
+          {
+            "en": "When do you go on vacation?",
+            "es": "¿Cuándo te vas de vacaciones?"
+          },
+          {
+            "en": "They took a brief vacation.",
+            "es": "Ellos se dieron unas breves vacaciones."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "time",
+        "travel"
+      ]
+    },
+    {
+      "id": 6318,
+      "word": "week",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wiːk]",
+        "br": "[wiːk]",
+        "gb": "[wiːk]"
+      },
+      "translations": {
+        "rus": "неделя",
+        "spa": "la semana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was ill for a week.",
+            "ru": "Он болел неделю."
+          },
+          {
+            "en": "I will wait a week.",
+            "ru": "Я подожду неделю."
+          },
+          {
+            "en": "See you next week!",
+            "ru": "До следующей недели!"
+          },
+          {
+            "en": "It's been cloudy all week.",
+            "ru": "Всю неделю было облачно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I swim once a week.",
+            "es": "Yo nado una vez a la semana."
+          },
+          {
+            "en": "See you next week!",
+            "es": "¡Hasta la semana que viene!"
+          },
+          {
+            "en": "He took a week off.",
+            "es": "Se tomó la semana libre."
+          },
+          {
+            "en": "It rained for a week.",
+            "es": "Llovió por una semana."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9949,
+      "word": "weekday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwiːkdeɪ]",
+        "br": "[ˈwiːkdeɪ]",
+        "gb": "[ˈwiːkdeɪ]"
+      },
+      "translations": {
+        "rus": "будний день",
+        "spa": "el día de entre semana"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "time"
+      ]
+    },
+    {
+      "id": 6319,
+      "word": "weekend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwiːkend]",
+        "br": "[ˌwiːkˈend]",
+        "gb": "[ˈwiːkˈend]"
+      },
+      "translations": {
+        "rus": "выходные дни",
+        "spa": "el fin de semana"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What did you do on the weekend?",
+            "ru": "Что ты делал в выходные?"
+          },
+          {
+            "en": "I'll be home all weekend.",
+            "ru": "Я буду дома все выходные."
+          },
+          {
+            "en": "Have a good weekend, everyone.",
+            "ru": "Всем хороших выходных."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you free this weekend?",
+            "es": "¿Descansas el fin de semana?"
+          },
+          {
+            "en": "She got sick this weekend.",
+            "es": "Ella se enfermó este fin de semana."
+          },
+          {
+            "en": "We had a wonderful weekend.",
+            "es": "Pasamos un maravilloso fin de semana."
+          },
+          {
+            "en": "How was last weekend, Nancy?",
+            "es": "¿Cómo fue el fin de semana pasada, Nancy?"
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6342,
+      "word": "year",
+      "pos": "noun",
+      "transcription": {
+        "us": "[jɪr]",
+        "br": "[jɪə(r)]",
+        "gb": "[jɜː]"
+      },
+      "translations": {
+        "rus": "год",
+        "spa": "el año"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I go there every year.",
+            "ru": "Я езжу туда каждый год."
+          },
+          {
+            "en": "It's warm here all the year round.",
+            "ru": "Тут весь год тепло."
+          },
+          {
+            "en": "The school year is over.",
+            "ru": "Учебный год окончился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am 19 years old.",
+            "es": "Tengo 19 años."
+          },
+          {
+            "en": "I go there every year.",
+            "es": "Yo voy ahí cada año."
+          },
+          {
+            "en": "I bought that last year.",
+            "es": "Me compré esto el año pasado."
+          },
+          {
+            "en": "They moved a year ago.",
+            "es": "Hace un año que se mudaron."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top100"
+      ]
+    },
+    {
+      "id": 6344,
+      "word": "yesterday",
+      "pos": "noun, adverb",
+      "transcription": {
+        "us": "[ˈjestərdeɪ]",
+        "br": "[ˈjestədeɪ]",
+        "gb": "[ˈjestədeɪ]"
+      },
+      "translations": {
+        "rus": "вчера",
+        "spa": "ayer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was not born yesterday.",
+            "ru": "Я не вчера родился."
+          },
+          {
+            "en": "We went skiing yesterday.",
+            "ru": "Вчера мы катались на лыжах."
+          },
+          {
+            "en": "What did you do yesterday?",
+            "ru": "Что вы делали вчера?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Yesterday was a hot day.",
+            "es": "Ayer hizo calor."
+          },
+          {
+            "en": "I called him up yesterday.",
+            "es": "Le llamé ayer."
+          },
+          {
+            "en": "I didn't eat yesterday.",
+            "es": "Ayer no comí."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time",
+        "top1000"
+      ]
+    }
+  ]
+}

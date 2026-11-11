@@ -1,0 +1,3073 @@
+{
+  "category": {
+    "id": "hobby",
+    "name_rus": "Хобби",
+    "type": "topic",
+    "word_count": 120
+  },
+  "words": [
+    {
+      "id": 3766,
+      "word": "aerography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɛəˈrɑɡrəfi]",
+        "br": "[ɛəˈrɑɡrəfi]",
+        "gb": "[eərəˈgrəfɪ]"
+      },
+      "translations": {
+        "rus": "аэрография",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3767,
+      "word": "aircraft modeling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈerkræft] [ˈmɑːdəlɪŋ]",
+        "br": "[ˈeəkrɑːft] [ˈmɒdəlɪŋ]",
+        "gb": "[ˈɛəkrɑːft] [ˈmɔdlɪŋ]"
+      },
+      "translations": {
+        "rus": "авиамоделизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3768,
+      "word": "anime",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈænɪmeɪ]",
+        "br": "[ˈænɪmeɪ]",
+        "gb": "[ˈænɪmə]"
+      },
+      "translations": {
+        "rus": "аниме",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3769,
+      "word": "auto racing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːtəʊ] [ˈreɪsɪŋ]",
+        "br": "[ˈɔːtəʊ] [ˈreɪsɪŋ]",
+        "gb": "[ˈɔːtəʊ] [ˈreɪsɪŋ]"
+      },
+      "translations": {
+        "rus": "автогонки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3770,
+      "word": "backgammon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbækɡæmən]",
+        "br": "[ˈbækɡæmən]",
+        "gb": "[bækˈgæmən]"
+      },
+      "translations": {
+        "rus": "нарды",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3771,
+      "word": "ballroom dancing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɔːlruːm] [ˈdænsɪŋ]",
+        "br": "[ˈbɔːlruːm] [ˈdɑːnsɪŋ]",
+        "gb": "[ˈbɔːlruːm] [ˈdɑːnsɪŋ]"
+      },
+      "translations": {
+        "rus": "бальные танцы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3772,
+      "word": "base jumping",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeɪs] [dʒʌmpɪŋ]",
+        "br": "[ˈbeɪs] [dʒʌmpɪŋ]",
+        "gb": "[beɪs] [ˈʤʌmpɪŋ]"
+      },
+      "translations": {
+        "rus": "бейсджампинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3773,
+      "word": "basketball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæskɪtbɔːl]",
+        "br": "[ˈbɑːskɪtbɔːl]",
+        "gb": "[ˈbɑːskɪtbɔːl]"
+      },
+      "translations": {
+        "rus": "баскетбол",
+        "spa": "el básquetbol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you play basketball well?",
+            "ru": "Ты хорошо играешь в баскетбол?"
+          },
+          {
+            "en": "She used to play basketball.",
+            "ru": "Она когда-то играла в баскетбол."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 3774,
+      "word": "beading",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbiːdɪŋ]",
+        "br": "[ˈbiːdɪŋ]",
+        "gb": "[ˈbiːdɪŋ]"
+      },
+      "translations": {
+        "rus": "бисероплетение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3775,
+      "word": "beer brewing",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bɪə] [ˈbruːɪŋ]"
+      },
+      "translations": {
+        "rus": "пивоварение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3776,
+      "word": "billiards",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪljərdz]",
+        "br": "[ˈbɪliədz]",
+        "gb": "[ˈbɪljədz]"
+      },
+      "translations": {
+        "rus": "бильярд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3777,
+      "word": "board games",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɔːrd] [ˈɡeɪmz]",
+        "br": "[bɔːd] [ˈɡeɪmz]",
+        "gb": "[bɔːd] [geɪmz]"
+      },
+      "translations": {
+        "rus": "настольные игры",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3778,
+      "word": "bowling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbəʊlɪŋ]",
+        "br": "[ˈbəʊlɪŋ]",
+        "gb": "[ˈbəʊlɪŋ]"
+      },
+      "translations": {
+        "rus": "боулинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3779,
+      "word": "break dance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪk] [dæns]",
+        "br": "[breɪk] [dɑːns]",
+        "gb": "[breɪk] [dɑːns]"
+      },
+      "translations": {
+        "rus": "брейк данс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3780,
+      "word": "breeding animals",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbriːdɪŋ] [ˈænəməlz]"
+      },
+      "translations": {
+        "rus": "разведение животных",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3781,
+      "word": "calligraphy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈlɪɡrəfi]",
+        "br": "[kəˈlɪɡrəfi]",
+        "gb": "[kəˈlɪgrəfɪ]"
+      },
+      "translations": {
+        "rus": "каллиграфия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3782,
+      "word": "candle making",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkændl] [ˈmeɪkɪŋ]",
+        "br": "[ˈkændl] [ˈmeɪkɪŋ]",
+        "gb": "[kændl] [ˈmeɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "создание свечей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3783,
+      "word": "card games",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɑːd] [geɪmz]"
+      },
+      "translations": {
+        "rus": "карточные игры",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3784,
+      "word": "card tricks",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɑːd] [trɪks]"
+      },
+      "translations": {
+        "rus": "карточные фокусы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3785,
+      "word": "cards",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɑrdz]"
+      },
+      "translations": {
+        "rus": "карты",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3786,
+      "word": "carving",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrvɪŋ]",
+        "br": "[ˈkɑːvɪŋ]",
+        "gb": "[ˈkɑːvɪŋ]"
+      },
+      "translations": {
+        "rus": "резьба по дереву",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3787,
+      "word": "checkers",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃekərz]",
+        "br": "[ˈtʃekəz]",
+        "gb": "[ˈtʃekərz]"
+      },
+      "translations": {
+        "rus": "шашки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3788,
+      "word": "chess",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃes]",
+        "br": "[tʃes]",
+        "gb": "[ʧes]"
+      },
+      "translations": {
+        "rus": "шахматы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3789,
+      "word": "cinema",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪnəmə]",
+        "br": "[ˈsɪnəmə]",
+        "gb": "[ˈsɪnəmə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's on at the local cinema.",
+            "ru": "Этот фильм идёт в местном кинотеатре."
+          },
+          {
+            "en": "What do you say to going to a cinema tonight?",
+            "ru": "Что ты скажешь по поводу того, чтобы сходить вечером в кино?"
+          },
+          {
+            "en": "I hate lining up in the cold to go to a cinema.",
+            "ru": "Ненавижу стоять на морозе в очереди в кинотеатр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was at the cinema.",
+            "es": "Estaba en el cine."
+          },
+          {
+            "en": "Let's go to the cinema.",
+            "es": "Vamos al cine."
+          },
+          {
+            "en": "He lost his cinema ticket.",
+            "es": "Él perdió su entrada para el cine."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 3790,
+      "word": "circus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrkəs]",
+        "br": "[ˈsɜːkəs]",
+        "gb": "[ˈsɜːkəs]"
+      },
+      "translations": {
+        "rus": "цирк",
+        "spa": "el circo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The circus is in town.",
+            "ru": "Цирк в городе."
+          },
+          {
+            "en": "Early the next morning, the circus left for the next town.",
+            "ru": "Ранним утром следующего дня цирк отправился в следующий город."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's go to the circus tomorrow.",
+            "es": "Vayamos mañana al circo."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "town"
+      ]
+    },
+    {
+      "id": 3791,
+      "word": "coffee roasting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɔːfi] [ˈrəʊstɪŋ]",
+        "br": "[ˈkɒfi] [ˈrəʊstɪŋ]",
+        "gb": "[ˈkɔfɪ] [ˈrəʊstɪŋ]"
+      },
+      "translations": {
+        "rus": "обжарка, изготовление кофе",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3792,
+      "word": "collecting antique wine",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪŋ] [ænˈtiːk] [waɪn]"
+      },
+      "translations": {
+        "rus": "коллекционирование антикварного вина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3793,
+      "word": "collecting antiques",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪŋ] [ænˈtiks]"
+      },
+      "translations": {
+        "rus": "коллекционирование предметов старины",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3794,
+      "word": "collecting autographs",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "коллекционирование автографов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3795,
+      "word": "collecting coins",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪn] [ˈkɔɪnz]"
+      },
+      "translations": {
+        "rus": "нумизматика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3796,
+      "word": "collecting dolls",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "коллекционирование кукол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3797,
+      "word": "collecting fine art",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪn] [faɪn] [ɑːt]"
+      },
+      "translations": {
+        "rus": "коллекционирование работ изобразительного искусства",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3798,
+      "word": "collecting knives",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪŋ] [naɪvz]"
+      },
+      "translations": {
+        "rus": "коллекционирование ножей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3799,
+      "word": "collecting pens",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪŋ] [pɛnz]"
+      },
+      "translations": {
+        "rus": "коллекционирование ручек",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3800,
+      "word": "collecting stamps",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪn] [stæmps]"
+      },
+      "translations": {
+        "rus": "коллекционирование марок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3801,
+      "word": "collecting vintage cars",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈlektɪŋ] [ˈvɪntɪʤ] [kɑrz]"
+      },
+      "translations": {
+        "rus": "коллекционирование ретро автомобилей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3802,
+      "word": "collecting watches",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "коллекционирование часов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3803,
+      "word": "computer games",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpjuːtər] [geɪmz]",
+        "br": "[kəmˈpjuːtə(r)] [geɪmz]",
+        "gb": "[kəmˈpjuːtə] [geɪmz]"
+      },
+      "translations": {
+        "rus": "компьютерные игры",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3804,
+      "word": "cooking",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʊkɪŋ]",
+        "br": "[ˈkʊkɪŋ]",
+        "gb": "[ˈkʊkɪŋ]"
+      },
+      "translations": {
+        "rus": "готовка пищи, кулинария",
+        "spa": "la cocina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She knows everything about cooking.",
+            "ru": "Она знает всё о кулинарии."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 3805,
+      "word": "crosswords",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈkrɔˌswɜrdz]"
+      },
+      "translations": {
+        "rus": "кроссворды",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3806,
+      "word": "cycling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪklɪŋ]",
+        "br": "[ˈsaɪklɪŋ]",
+        "gb": "[ˈsaɪklɪŋ]"
+      },
+      "translations": {
+        "rus": "езда на велосипеде, велоспорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3807,
+      "word": "dancing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdænsɪŋ]",
+        "br": "[ˈdɑːnsɪŋ]",
+        "gb": "[ˈdɑːnsɪŋ]"
+      },
+      "translations": {
+        "rus": "танцы",
+        "spa": "el baile, la danza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've been taking dancing lessons.",
+            "ru": "Я беру уроки танцев."
+          },
+          {
+            "en": "There is a book on dancing on the desk.",
+            "ru": "На столе лежит книга о танце."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 3808,
+      "word": "decoupage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdeɪkuˈpɑːʒ]",
+        "br": "[ˌdeɪkuˈpɑːʒ]",
+        "gb": "[ˌdeɪkuːˈpɑːʒ]"
+      },
+      "translations": {
+        "rus": "декупаж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3809,
+      "word": "diving",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaɪvɪŋ]",
+        "br": "[ˈdaɪvɪŋ]",
+        "gb": "[ˈdaɪvɪŋ]"
+      },
+      "translations": {
+        "rus": "дайвинг, прыжки в воду",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3810,
+      "word": "domino",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɑːmɪnəʊ]",
+        "br": "[ˈdɒmɪnəʊ]",
+        "gb": "[ˈdɔmɪnəʊ]"
+      },
+      "translations": {
+        "rus": "домино",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3811,
+      "word": "dominoes",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈdɒmɪnəʊz]"
+      },
+      "translations": {
+        "rus": "домино",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3812,
+      "word": "embroidery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈbrɔɪdəri]",
+        "br": "[ɪmˈbrɔɪdəri]",
+        "gb": "[ɪmˈbrɔɪdərɪ]"
+      },
+      "translations": {
+        "rus": "вышивание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3813,
+      "word": "equestrian sport",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈkwestriən] [spɔːrt]",
+        "br": "[ɪˈkwestriən] [spɔːt]",
+        "gb": "[ɪˈkwestrɪən] [spɔːt]"
+      },
+      "translations": {
+        "rus": "конный спорт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3814,
+      "word": "feng shui",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌfeŋ] [ˈʃuːi]",
+        "br": "[ˌfeŋ] [ˈʃuːi]",
+        "gb": "[fɪn] [ˈʃuːɪ]"
+      },
+      "translations": {
+        "rus": "фэншуй",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3815,
+      "word": "fishing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪʃɪŋ]",
+        "br": "[ˈfɪʃɪŋ]",
+        "gb": "[ˈfɪʃɪŋ]"
+      },
+      "translations": {
+        "rus": "рыбалка",
+        "spa": "la pesca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fishing just isn't my line.",
+            "ru": "Рыбалка — не моё."
+          },
+          {
+            "en": "I have a book about fishing.",
+            "ru": "У меня есть книга о рыбалке."
+          },
+          {
+            "en": "We go fishing once in a while.",
+            "ru": "Иногда мы ходим на рыбалку."
+          },
+          {
+            "en": "My father likes fishing, and so do I.",
+            "ru": "Мой отец любит рыбалку, как и я."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 3816,
+      "word": "fishkeeping",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "аквариумистика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3817,
+      "word": "fitness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪtnəs]",
+        "br": "[ˈfɪtnəs]",
+        "gb": "[ˈfɪtnɪs]"
+      },
+      "translations": {
+        "rus": "фитнес",
+        "spa": "la forma física, la salud, la buena forma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is a fitness freak.",
+            "ru": "Мария помешана на фитнесе."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 3818,
+      "word": "floristry",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈflɒrɪstrɪ]"
+      },
+      "translations": {
+        "rus": "флористика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3819,
+      "word": "football",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfʊtbɔːl]",
+        "br": "[ˈfʊtbɔːl]",
+        "gb": "[ˈfʊtbɔːl]"
+      },
+      "translations": {
+        "rus": "футбол",
+        "spa": "el fútbol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm watching the football game.",
+            "ru": "Я смотрю футбол."
+          },
+          {
+            "en": "I want to play football.",
+            "ru": "Я хочу играть в футбол."
+          },
+          {
+            "en": "I played football with my dad.",
+            "ru": "Я играл с отцом в футбол."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm really into football.",
+            "es": "Estoy muy interesado en el fútbol."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3820,
+      "word": "gardening",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːrdnɪŋ]",
+        "br": "[ˈɡɑːdnɪŋ]",
+        "gb": "[ˈgɑːdnɪŋ]"
+      },
+      "translations": {
+        "rus": "садоводство",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3821,
+      "word": "graffiti",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəˈfiːti]",
+        "br": "[ɡrəˈfiːti]",
+        "gb": "[grəˈfiːtiː]"
+      },
+      "translations": {
+        "rus": "граффити",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3822,
+      "word": "hockey",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɑːki]",
+        "br": "[ˈhɒki]",
+        "gb": "[ˈhɔkɪ]"
+      },
+      "translations": {
+        "rus": "хоккей",
+        "spa": "el hockey"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like hockey.",
+            "ru": "Я люблю хоккей."
+          },
+          {
+            "en": "I used to play hockey.",
+            "ru": "Я когда-то играл в хоккей."
+          },
+          {
+            "en": "Do you still play hockey?",
+            "ru": "Ты всё ещё играешь в хоккей?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "sport"
+      ]
+    },
+    {
+      "id": 3823,
+      "word": "hunting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhʌntɪŋ]",
+        "br": "[ˈhʌntɪŋ]",
+        "gb": "[ˈhʌntɪŋ]"
+      },
+      "translations": {
+        "rus": "охота",
+        "spa": "la caza, la cacería"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His uncle likes hunting.",
+            "ru": "Его дядя любит охоту."
+          },
+          {
+            "en": "Hunting is forbidden now.",
+            "ru": "Охота сейчас запрещена."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 3824,
+      "word": "ikebana",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪkɪˈbɑːnə]",
+        "br": "[ˌɪkɪˈbɑːnə]",
+        "gb": "[ɪkəˈbænə]"
+      },
+      "translations": {
+        "rus": "икебана",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3825,
+      "word": "jewellery making",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʤuːəlrɪ] [ˈmeɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "создание украшений",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3826,
+      "word": "jewelry making",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʤuːəlrɪ] [ˈmeɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "создание украшений",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3827,
+      "word": "jigsaw puzzles",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʤɪgsɔː] [ˈpʌzlz]"
+      },
+      "translations": {
+        "rus": "пазлы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3828,
+      "word": "karting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrtɪŋ]",
+        "br": "[ˈkɑːtɪŋ]",
+        "gb": "[ˈkɑːtɪŋ]"
+      },
+      "translations": {
+        "rus": "картинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3829,
+      "word": "kite making",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kaɪt] [ˈmeɪkɪŋ]",
+        "br": "[kaɪt] [ˈmeɪkɪŋ]",
+        "gb": "[kaɪt] [ˈmeɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "изготовление воздушных змеев",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3830,
+      "word": "kitesurfing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkaɪtsɜːrfɪŋ]",
+        "br": "[ˈkaɪtsɜːfɪŋ]",
+        "gb": "[ˈkaɪtsɜːfɪŋ]"
+      },
+      "translations": {
+        "rus": "кайтсёрфинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3831,
+      "word": "knitting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnɪtɪŋ]",
+        "br": "[ˈnɪtɪŋ]",
+        "gb": "[ˈnɪtɪŋ]"
+      },
+      "translations": {
+        "rus": "вязание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3832,
+      "word": "Latin American dances",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈlætɪn] [əˈmerɪkən] [ˈdænsəz]"
+      },
+      "translations": {
+        "rus": "латиноамериканские танцы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3833,
+      "word": "learning foreign languages",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈlɜːnɪŋ] [ˈfɔrɪn] [ˈlæŋgwəʤəz]"
+      },
+      "translations": {
+        "rus": "изучение иностранных языков",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3834,
+      "word": "manga",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːŋɡə]",
+        "br": "[ˈmæŋɡə]",
+        "gb": "[ˈmæŋgə]"
+      },
+      "translations": {
+        "rus": "манга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3835,
+      "word": "motorcycle racing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈməʊtərsaɪkl] [ˈreɪsɪŋ]",
+        "br": "[ˈməʊtəsaɪkl] [ˈreɪsɪŋ]",
+        "gb": "[ˈməʊtəˈsaɪkl] [ˈreɪsɪŋ]"
+      },
+      "translations": {
+        "rus": "гонки на мотоцикле",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3836,
+      "word": "mountaineering",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌmaʊntnˈɪrɪŋ]",
+        "br": "[ˌmaʊntəˈnɪərɪŋ]",
+        "gb": "[maʊntɪˈnɪərɪŋ]"
+      },
+      "translations": {
+        "rus": "альпинизм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3837,
+      "word": "movie theater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmuːvi] [θiːətər]",
+        "br": "[ˈmuːvi] [θɪətə(r)]",
+        "gb": "[ˈmuːvɪ] [ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "кино, кинотеатр",
+        "spa": "el cine"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "movie",
+        "oxford3000_a1",
+        "town"
+      ]
+    },
+    {
+      "id": 3838,
+      "word": "mushrooming",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmʌˌʃrʊmɪŋ]"
+      },
+      "translations": {
+        "rus": "собирание грибов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3839,
+      "word": "music",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmjuːzɪk]",
+        "br": "[ˈmjuːzɪk]",
+        "gb": "[ˈmjuːzɪk]"
+      },
+      "translations": {
+        "rus": "музыка, ноты, музыкальный",
+        "spa": "la música"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This music really gets me.",
+            "ru": "Мне так нравится эта музыка."
+          },
+          {
+            "en": "The music faded away.",
+            "ru": "Музыка стихла."
+          },
+          {
+            "en": "I really dig their music.",
+            "ru": "Я просто тащусь от их музыки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you fond of music?",
+            "es": "¿Te gusta la música?"
+          },
+          {
+            "en": "She has a love of music.",
+            "es": "A ella le encanta la música."
+          },
+          {
+            "en": "I like English and music.",
+            "es": "Me gusta el inglés y la música."
+          },
+          {
+            "en": "My sister is fond of music.",
+            "es": "Mi hermana ama la música."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3840,
+      "word": "oriental dance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɔːriˈentl] [dæns]",
+        "br": "[ˌɔːriˈentl] [dɑːns]",
+        "gb": "[ɔːrɪˈentl] [dɑːns]"
+      },
+      "translations": {
+        "rus": "восточные танцы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3841,
+      "word": "origami",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɔːrɪˈɡɑːmi]",
+        "br": "[ˌɒrɪˈɡɑːmi]",
+        "gb": "[rɪˈgeɪmɪ]"
+      },
+      "translations": {
+        "rus": "оригами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3842,
+      "word": "painting and drawing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪntɪŋ] [ənd] [ˈdrɔːɪŋ]",
+        "br": "[ˈpeɪntɪŋ] [ənd] [ˈdrɔːɪŋ]",
+        "gb": "[ˈpeɪntɪŋ] [ænd] [ˈdrɔːɪŋ]"
+      },
+      "translations": {
+        "rus": "рисование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3843,
+      "word": "paragliding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpærəɡlaɪdɪŋ]",
+        "br": "[ˈpærəɡlaɪdɪŋ]",
+        "gb": "[pærəˈglaɪdɪŋ]"
+      },
+      "translations": {
+        "rus": "парапланеризм",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3844,
+      "word": "parkour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɑːrˈkɔːr]",
+        "br": "[pɑːˈkɔː(r)]",
+        "gb": "[ˈpɑːkər]"
+      },
+      "translations": {
+        "rus": "паркур",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3845,
+      "word": "photo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfəʊtəʊ]",
+        "br": "[ˈfəʊtəʊ]",
+        "gb": "[ˈfəʊtəʊ]"
+      },
+      "translations": {
+        "rus": "фото, фотография",
+        "spa": "la foto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here's a photo of her.",
+            "ru": "Вот её фотография."
+          },
+          {
+            "en": "Is this a new photo?",
+            "ru": "Это новая фотография?"
+          },
+          {
+            "en": "I have a lot of photos.",
+            "ru": "У меня много фотографий."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The photo was a hoax.",
+            "es": "La foto fue un engaño."
+          },
+          {
+            "en": "The photo is the first thing you notice.",
+            "es": "La foto es lo primero que se nota."
+          },
+          {
+            "en": "She refreshed her memory with the photo.",
+            "es": "Ella refrescó su memoria al ver la foto."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "photography",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3846,
+      "word": "photography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈtɑːɡrəfi]",
+        "br": "[fəˈtɒɡrəfi]",
+        "gb": "[fəˈtɔgrəfɪ]"
+      },
+      "translations": {
+        "rus": "фотография (как процесс или искусство)",
+        "spa": "la fotografía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Photography is an expensive hobby.",
+            "ru": "Фотография — дорогое хобби."
+          },
+          {
+            "en": "Photography and videotaping are forbidden.",
+            "ru": "Фото- и видеосъемка запрещены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 3847,
+      "word": "picking berries, berrying",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": null
+      },
+      "translations": {
+        "rus": "сбор ягод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3851,
+      "word": "poetry",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊətri]",
+        "br": "[ˈpəʊətri]",
+        "gb": "[ˈpəʊɪtrɪ]"
+      },
+      "translations": {
+        "rus": "поэзия, стихи",
+        "spa": "la poesía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I love poetry.",
+            "ru": "Я обожаю поэзию."
+          },
+          {
+            "en": "It's a book of poetry.",
+            "ru": "Это книга стихов."
+          },
+          {
+            "en": "Poetry is my passion.",
+            "ru": "Поэзия — моя страсть."
+          },
+          {
+            "en": "I don't write poetry anymore.",
+            "ru": "Я больше не пишу стихов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "literature",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3852,
+      "word": "poker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊkər]",
+        "br": "[ˈpəʊkə(r)]",
+        "gb": "[ˈpəʊkə]"
+      },
+      "translations": {
+        "rus": "покер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3853,
+      "word": "reading",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːdɪŋ]",
+        "br": "[ˈriːdɪŋ]",
+        "gb": "[ˈriːdɪŋ]"
+      },
+      "translations": {
+        "rus": "чтение",
+        "spa": "la lectura, el leer, el recital"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fall is a good season for reading.",
+            "ru": "Осень - хорошее время года для чтения."
+          },
+          {
+            "en": "We can always find time for reading.",
+            "ru": "Мы всегда можем найти время для чтения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 3854,
+      "word": "rock climbing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɑːk] [ˈklaɪmɪŋ]",
+        "br": "[rɒk] [ˈklaɪmɪŋ]",
+        "gb": "[rɔk] [ˈklaɪmɪŋ]"
+      },
+      "translations": {
+        "rus": "скалолазание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3855,
+      "word": "rollers",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈrəʊləz]"
+      },
+      "translations": {
+        "rus": "ролики",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3856,
+      "word": "running",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrʌnɪŋ]",
+        "br": "[ˈrʌnɪŋ]",
+        "gb": "[ˈrʌnɪŋ]"
+      },
+      "translations": {
+        "rus": "бег, работа, эксплуатация",
+        "spa": "correr, el jogging, la marcha"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Running is good for your health.",
+            "ru": "Бег полезен для вашего здоровья."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 3857,
+      "word": "Russian folk dance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrʌʃn] [fəʊk] [dænsəz]",
+        "br": "[ˈrʌʃn] [fəʊk] [dɑːnsəz]",
+        "gb": "[rʌʃn] [fəʊk] [ˈdænsəz]"
+      },
+      "translations": {
+        "rus": "русские народные танцы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3858,
+      "word": "scanwords",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[skanwəːdz]"
+      },
+      "translations": {
+        "rus": "сканворды",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3859,
+      "word": "sculpture",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskʌlptʃər]",
+        "br": "[ˈskʌlptʃə(r)]",
+        "gb": "[ˈskʌlpʧə]"
+      },
+      "translations": {
+        "rus": "скульптура, статуя",
+        "spa": "la escultura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Sculpture is a form of art.",
+            "ru": "Скульптура — это разновидность искусства."
+          },
+          {
+            "en": "We carved an ice sculpture.",
+            "ru": "Мы вырезали ледяную скульптуру."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 3860,
+      "word": "sewing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊɪŋ]",
+        "br": "[ˈsəʊɪŋ]",
+        "gb": "[ˈsəʊɪŋ]"
+      },
+      "translations": {
+        "rus": "шитьё",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3861,
+      "word": "shopping",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɑːpɪŋ]",
+        "br": "[ˈʃɒpɪŋ]",
+        "gb": "[ˈʃɔpɪŋ]"
+      },
+      "translations": {
+        "rus": "шоппинг, покупки",
+        "spa": "ir de compras, la compra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I go shopping every other day.",
+            "ru": "Я хожу за покупками через день."
+          },
+          {
+            "en": "I've got to go shopping.",
+            "ru": "Мне нужно сделать покупки."
+          },
+          {
+            "en": "Tom went shopping at a department store.",
+            "ru": "Том отправился в супермаркет за покупками."
+          },
+          {
+            "en": "The girls went shopping.",
+            "ru": "Девчонки отправились по магазинам."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 3862,
+      "word": "skateboarding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskeɪtbɔːrdɪŋ]",
+        "br": "[ˈskeɪtbɔːdɪŋ]",
+        "gb": "[ˈskeɪtbɔːdɪŋ]"
+      },
+      "translations": {
+        "rus": "катание на скейтборде",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3863,
+      "word": "skiing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskiːɪŋ]",
+        "br": "[ˈskiːɪŋ]",
+        "gb": "[ˈskiːɪŋ]"
+      },
+      "translations": {
+        "rus": "катание на лыжах",
+        "spa": "el esquí"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Skiing is my passion.",
+            "ru": "Катание на лыжах - моя страсть."
+          },
+          {
+            "en": "Mary likes skiing the best of all.",
+            "ru": "Больше всего Марии нравится катание на лыжах."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 3864,
+      "word": "skydiving",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskaɪdaɪvɪŋ]",
+        "br": "[ˈskaɪdaɪvɪŋ]",
+        "gb": "[ˈskaɪdaɪvɪŋ]"
+      },
+      "translations": {
+        "rus": "прыжки с парашютом",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3865,
+      "word": "sledge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sledʒ]",
+        "br": "[sledʒ]",
+        "gb": "[sleʤ]"
+      },
+      "translations": {
+        "rus": "санки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3866,
+      "word": "snowboarding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsnəʊbɔːrdɪŋ]",
+        "br": "[ˈsnəʊbɔːdɪŋ]",
+        "gb": "[ˈsnəʊbədɪŋ]"
+      },
+      "translations": {
+        "rus": "катание на сноуборде",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3867,
+      "word": "snowmobile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsnəʊməʊbiːl]",
+        "br": "[ˈsnəʊməbiːl]",
+        "gb": "[ˈsnəʊˈməʊbaɪl]"
+      },
+      "translations": {
+        "rus": "снегоход",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3868,
+      "word": "soccer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɑːkər]",
+        "br": "[ˈsɒkə(r)]",
+        "gb": "[ˈsɔkə]"
+      },
+      "translations": {
+        "rus": "футбол",
+        "spa": "el fútbol"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3869,
+      "word": "steam-bath",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stiːm] [bæθ]",
+        "br": "[stiːm] [bɑːθ]",
+        "gb": "[stiːm] [bɑːθ]"
+      },
+      "translations": {
+        "rus": "парная баня",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3870,
+      "word": "swimming",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈswɪmɪŋ]",
+        "br": "[ˈswɪmɪŋ]",
+        "gb": "[ˈswɪmɪŋ]"
+      },
+      "translations": {
+        "rus": "плавание",
+        "spa": "la natación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like swimming very much.",
+            "ru": "Я очень люблю плавание."
+          },
+          {
+            "en": "Swimming in the pond is dangerous.",
+            "ru": "Плавать в пруду опасно."
+          },
+          {
+            "en": "I am interested in swimming.",
+            "ru": "Меня интересует плавание."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport"
+      ]
+    },
+    {
+      "id": 3871,
+      "word": "tattoo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæˈtuː]",
+        "br": "[təˈtuː]",
+        "gb": "[təˈtuː]"
+      },
+      "translations": {
+        "rus": "татуировка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3872,
+      "word": "tennis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtenɪs]",
+        "br": "[ˈtenɪs]",
+        "gb": "[ˈtenɪs]"
+      },
+      "translations": {
+        "rus": "теннис",
+        "spa": "el tenis"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a tennis player.",
+            "ru": "Я игрок в теннис."
+          },
+          {
+            "en": "He does not like tennis.",
+            "ru": "Ему не нравится теннис."
+          },
+          {
+            "en": "Go play tennis with him.",
+            "ru": "Иди поиграй с ним в теннис."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is good at tennis.",
+            "es": "Se le da bien el tenis."
+          },
+          {
+            "en": "Playing tennis is fun.",
+            "es": "El tenis es divertido."
+          },
+          {
+            "en": "He does not like tennis.",
+            "es": "A él no le gusta el tenis."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "sport",
+        "top3000"
+      ]
+    },
+    {
+      "id": 3873,
+      "word": "theater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθiːətər]",
+        "br": "[ˈθɪətə(r)]",
+        "gb": "[ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "театр",
+        "spa": "el teatro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Yesterday my wife and I went to the theater.",
+            "ru": "Мы с женой вчера ходили в театр."
+          },
+          {
+            "en": "Where are we going now? To the theater or the cinema?",
+            "ru": "Куда теперь? В театр или в кино?"
+          },
+          {
+            "en": "I was at the theater.",
+            "ru": "Я был в театре."
+          },
+          {
+            "en": "Who'll buy the theater tickets?",
+            "ru": "Кто купит билеты в театр?"
+          },
+          {
+            "en": "He loves going to the theater.",
+            "ru": "Он обожает ходить в театр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am a theater lover.",
+            "es": "Soy aficionado al teatro."
+          },
+          {
+            "en": "Who did you see at the theater?",
+            "es": "¿A quién viste en el teatro?"
+          },
+          {
+            "en": "Let's meet in front of the theater.",
+            "es": "Nos encontramos frente al teatro."
+          },
+          {
+            "en": "I was at the theater.",
+            "es": "Estaba en el teatro."
+          },
+          {
+            "en": "Were you at the theater last Saturday?",
+            "es": "¿Estuviste en el teatro el sábado pasado?"
+          },
+          {
+            "en": "At the theater, Kathy changed seats with her mother.",
+            "es": "En el teatro, Kathy intercambió asientos con su madre."
+          },
+          {
+            "en": "The play was so popular that the theater was almost full.",
+            "es": "La obra era tan popular que el teatro estaba casi lleno."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 3874,
+      "word": "theatre",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθiːətər]",
+        "br": "[ˈθɪətə(r)]",
+        "gb": "[ˈθɪətə]"
+      },
+      "translations": {
+        "rus": "театр",
+        "spa": "el teatro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Yesterday my wife and I went to the theatre.",
+            "ru": "Мы с женой вчера ходили в театр."
+          },
+          {
+            "en": "Where are we going now? To the theatre or the cinema?",
+            "ru": "Куда теперь? В театр или в кино?"
+          },
+          {
+            "en": "I was at the theatre.",
+            "ru": "Я был в театре."
+          },
+          {
+            "en": "Who'll buy the theatre tickets?",
+            "ru": "Кто купит билеты в театр?"
+          },
+          {
+            "en": "He loves going to the theatre.",
+            "ru": "Он обожает ходить в театр."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am a theatre lover.",
+            "es": "Soy aficionado al teatro."
+          },
+          {
+            "en": "Who did you see at the theatre?",
+            "es": "¿A quién viste en el teatro?"
+          },
+          {
+            "en": "Let's meet in front of the theatre.",
+            "es": "Nos encontramos frente al teatro."
+          },
+          {
+            "en": "I was at the theatre.",
+            "es": "Estaba en el teatro."
+          },
+          {
+            "en": "Were you at the theatre last Saturday?",
+            "es": "¿Estuviste en el teatro el sábado pasado?"
+          },
+          {
+            "en": "At the theatre, Kathy changed seats with her mother.",
+            "es": "En el teatro, Kathy intercambió asientos con su madre."
+          },
+          {
+            "en": "The play was so popular that the theatre was almost full.",
+            "es": "La obra era tan popular que el teatro estaba casi lleno."
+          }
+        ]
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a1",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 547,
+      "word": "to draw",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [drɔː]",
+        "br": "[tə] [drɔː]",
+        "gb": "[tuː] [drɔː]"
+      },
+      "translations": {
+        "rus": "рисовать, чертить, тащить, тянуть",
+        "spa": "dibujar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Draw a circle.",
+            "ru": "Начертите круг."
+          },
+          {
+            "en": "I can't draw.",
+            "ru": "Я не умею рисовать."
+          },
+          {
+            "en": "Let's draw straws.",
+            "ru": "Давай тянуть жребий."
+          },
+          {
+            "en": "Draw a line on your paper.",
+            "ru": "Начерти линию на своей бумаге."
+          },
+          {
+            "en": "Do you like to draw?",
+            "ru": "Вам нравится рисовать?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I would like to draw.",
+            "es": "Me gustaría dibujar."
+          },
+          {
+            "en": "I am poor at drawing.",
+            "es": "No soy bueno dibujando."
+          },
+          {
+            "en": "I know that he can draw.",
+            "es": "Sé que él sabe dibujar."
+          },
+          {
+            "en": "I draw almost every day.",
+            "es": "Dibujo casi todos los días."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "hobby",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3848,
+      "word": "to play the accordion",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [pleɪ] [ðiː] [əˈkɔːdɪən]"
+      },
+      "translations": {
+        "rus": "играть на баяне",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3849,
+      "word": "to play the guitar",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [pleɪ] [ðiː] [gɪˈtɑː]"
+      },
+      "translations": {
+        "rus": "играть на гитаре",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3850,
+      "word": "to play the piano",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [pleɪ] [ðiː] [pɪˈænəʊ]"
+      },
+      "translations": {
+        "rus": "играть на пианино",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 1215,
+      "word": "to sing",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɪŋ]",
+        "br": "[tə] [sɪŋ]",
+        "gb": "[tuː] [sɪŋ]"
+      },
+      "translations": {
+        "rus": "петь",
+        "spa": "cantar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to sing a song.",
+            "ru": "Я хочу спеть песню."
+          },
+          {
+            "en": "I promise not to sing.",
+            "ru": "Я обещаю не петь."
+          },
+          {
+            "en": "Is it OK to sing here?",
+            "ru": "Здесь можно петь?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let us sing a song.",
+            "es": "Cantemos una canción."
+          },
+          {
+            "en": "Are you going to sing?",
+            "es": "¿Vas a cantar?"
+          },
+          {
+            "en": "He is good at singing.",
+            "es": "Él canta bien."
+          },
+          {
+            "en": "It's your turn to sing.",
+            "es": "Te toca cantar."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "hobby",
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 3879,
+      "word": "to watch TV",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wɔʧ]"
+      },
+      "translations": {
+        "rus": "смотреть телевизор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3875,
+      "word": "tourism",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʊrɪzəm]",
+        "br": "[ˈtʊərɪzəm], [ˈtɔːrɪzəm]",
+        "gb": "[ˈtʊərɪzəm]"
+      },
+      "translations": {
+        "rus": "туризм",
+        "spa": "el turismo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "For us tourism is very important.",
+            "ru": "Для нас туризм очень важен."
+          },
+          {
+            "en": "Tourism generated many new jobs.",
+            "ru": "Туризм создал много новых рабочих мест."
+          },
+          {
+            "en": "There is little tourism in North Dakota.",
+            "ru": "В Северной Дакоте туризм мало развит."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "oxford3000_a2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 3876,
+      "word": "video games",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈvɪdɪəʊ] [geɪmz]"
+      },
+      "translations": {
+        "rus": "видеоигры",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3877,
+      "word": "vinyl records",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈvaɪnɪl] [rəˈkɔrdz]"
+      },
+      "translations": {
+        "rus": "виниловые пластинки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3878,
+      "word": "volleyball",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɑːlibɔːl]",
+        "br": "[ˈvɒlibɔːl]",
+        "gb": "[ˈvɒlɪbɔːl]"
+      },
+      "translations": {
+        "rus": "волейбол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby",
+        "sport"
+      ]
+    },
+    {
+      "id": 3880,
+      "word": "windsurfing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndsɜːrfɪŋ]",
+        "br": "[ˈwɪndsɜːfɪŋ]",
+        "gb": "[ˈwɪndsɜːfɪŋ]"
+      },
+      "translations": {
+        "rus": "виндсёрфинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3881,
+      "word": "wine making",
+      "pos": "noun",
+      "transcription": {
+        "us": "[waɪn] [ˈmeɪkɪŋ]",
+        "br": "[waɪn] [ˈmeɪkɪŋ]",
+        "gb": "[waɪn] [ˈmeɪkɪŋ]"
+      },
+      "translations": {
+        "rus": "виноделие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3882,
+      "word": "woodworking",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈwʊdwɜːkɪŋ]"
+      },
+      "translations": {
+        "rus": "работа по дереву",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    },
+    {
+      "id": 3883,
+      "word": "yoga",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjəʊɡə]",
+        "br": "[ˈjəʊɡə]",
+        "gb": "[ˈjəʊgə]"
+      },
+      "translations": {
+        "rus": "йога",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "hobby"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2330 @@
+{
+  "category": {
+    "id": "mass_media",
+    "name_rus": "СМИ",
+    "type": "topic",
+    "word_count": 60
+  },
+  "words": [
+    {
+      "id": 5368,
+      "word": "announcement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈnaʊnsmənt]",
+        "br": "[əˈnaʊnsmənt]",
+        "gb": "[əˈnaʊnsmənt]"
+      },
+      "translations": {
+        "rus": "объявление, сообщение, извещение, уведомление",
+        "spa": "el anuncio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here's an important announcement.",
+            "ru": "Вот важное объявление."
+          },
+          {
+            "en": "I have an important announcement to make.",
+            "ru": "Мне надо сделать важное объявление."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 4902,
+      "word": "appeal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈpiːl]",
+        "br": "[əˈpiːl]",
+        "gb": "[əˈpiːl]"
+      },
+      "translations": {
+        "rus": "апелляция, призыв, обращение, воззвание, привлекательность",
+        "spa": "el llamamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The appeal was rejected.",
+            "ru": "Апелляцию отклонили."
+          },
+          {
+            "en": "The defendant was granted an appeal.",
+            "ru": "Обвиняемому разрешили подать апелляцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "legal_english",
+        "mass_media",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1325,
+      "word": "article",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtɪkl]",
+        "br": "[ˈɑːtɪkl]",
+        "gb": "[ˈɑːtɪkl]"
+      },
+      "translations": {
+        "rus": "статья, артикль, товар",
+        "spa": "el artículo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for the article.",
+            "ru": "Спасибо за статью."
+          },
+          {
+            "en": "I read the whole article.",
+            "ru": "Я прочёл всю статью."
+          },
+          {
+            "en": "I am translating an article.",
+            "ru": "Я перевожу статью."
+          },
+          {
+            "en": "Have you read this article?",
+            "ru": "Ты читал эту статью?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This article is of no value.",
+            "es": "Este artículo no tiene ningún valor."
+          },
+          {
+            "en": "Have you read this article?",
+            "es": "¿Has leído este artículo?"
+          },
+          {
+            "en": "I am translating an article.",
+            "es": "Estoy traduciendo un artículo."
+          },
+          {
+            "en": "This article is high quality.",
+            "es": "Este artículo es de una calidad superior."
+          },
+          {
+            "en": "I have to correct this article.",
+            "es": "Tengo que corregir este artículo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5369,
+      "word": "attention",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈtenʃn]",
+        "br": "[əˈtenʃn]",
+        "gb": "[əˈtenʃn]"
+      },
+      "translations": {
+        "rus": "внимание",
+        "spa": "la atención"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please give me your attention.",
+            "ru": "Прошу внимания."
+          },
+          {
+            "en": "Thank you for your attention!",
+            "ru": "Спасибо за внимание!"
+          },
+          {
+            "en": "They don't pay me attention.",
+            "ru": "Они не уделяют мне внимание."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Shut up and pay attention.",
+            "es": "Callate y prestá atención."
+          },
+          {
+            "en": "Pay attention to his advice.",
+            "es": "Presta atención a su consejo."
+          },
+          {
+            "en": "Thank you for your attention.",
+            "es": "Gracias por vuestra atención."
+          },
+          {
+            "en": "Have you been paying attention?",
+            "es": "¿Estás poniendo atención?"
+          },
+          {
+            "en": "Pay more attention to your work.",
+            "es": "Presta más atención a tu trabajo."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a2",
+        "psychology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5370,
+      "word": "circulation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsɜːrkjəˈleɪʃn]",
+        "br": "[ˌsɜːkjəˈleɪʃn]",
+        "gb": "[sɜːkjʊˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "тираж",
+        "spa": "la tirada"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5374,
+      "word": "comment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːment]",
+        "br": "[ˈkɒment]",
+        "gb": "[ˈkɔment]"
+      },
+      "translations": {
+        "rus": "комментарий",
+        "spa": "el comentario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I will delete my comment.",
+            "ru": "Я удалю свой комментарий."
+          },
+          {
+            "en": "Who is writing these comments?",
+            "ru": "Кто пишет эти комментарии?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have no comments.",
+            "es": "No tengo comentarios."
+          },
+          {
+            "en": "There are no comments yet.",
+            "es": "Aún no hay comentarios."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5226,
+      "word": "commentary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmənteri]",
+        "br": "[ˈkɒməntri]",
+        "gb": "[ˈkɔməntərɪ]"
+      },
+      "translations": {
+        "rus": "комментарий (о событии или ситуации)",
+        "spa": "el comentario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Any further commentary is redundant.",
+            "ru": "Дальнейшие комментарии избыточны."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5375,
+      "word": "communique",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kəˈmjuːnɪkeɪ]"
+      },
+      "translations": {
+        "rus": "официальное сообщение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5304,
+      "word": "coverage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌvərɪdʒ]",
+        "br": "[ˈkʌvərɪdʒ]",
+        "gb": "[ˈkʌvərɪʤ]"
+      },
+      "translations": {
+        "rus": "охват",
+        "spa": "la cobertura"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "marketing",
+        "mass_media",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5376,
+      "word": "declaration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdekləˈreɪʃn]",
+        "br": "[ˌdekləˈreɪʃn]",
+        "gb": "[dekləˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "декларация, объявление, заявление",
+        "spa": "la declaración"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5378,
+      "word": "disputable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dɪˈspjuːtəbl]",
+        "br": "[dɪˈspjuːtəbl]",
+        "gb": "[dɪsˈpjuːtəbl]"
+      },
+      "translations": {
+        "rus": "спорный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 1761,
+      "word": "editor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈedɪtər]",
+        "br": "[ˈedɪtə(r)]",
+        "gb": "[ˈedɪtə]"
+      },
+      "translations": {
+        "rus": "редактор",
+        "spa": "el editor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What text editor do you use?",
+            "ru": "Каким текстовым редактором вы пользуетесь?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5379,
+      "word": "editorial",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌedɪˈtɔːriəl]",
+        "br": "[ˌedɪˈtɔːriəl]",
+        "gb": "[edɪˈtɔːrɪəl]"
+      },
+      "translations": {
+        "rus": "передовица, передовая статья",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5380,
+      "word": "event",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈvent]",
+        "br": "[ɪˈvent]",
+        "gb": "[ɪˈvent]"
+      },
+      "translations": {
+        "rus": "событие, случай, мероприятие",
+        "spa": "el acontecimiento, el evento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is an important event.",
+            "ru": "Это важное событие."
+          },
+          {
+            "en": "How are these events connected?",
+            "ru": "Как связаны эти события?"
+          },
+          {
+            "en": "I think it's an important event.",
+            "ru": "Я думаю, это важное событие."
+          },
+          {
+            "en": "The event made him famous.",
+            "ru": "Это событие сделало его знаменитым."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The event is on Monday.",
+            "es": "El evento es el lunes."
+          },
+          {
+            "en": "The events were closely linked.",
+            "es": "Los acontecimientos estaban estrechamente conectados."
+          },
+          {
+            "en": "This is an important event.",
+            "es": "Este es un evento importante."
+          },
+          {
+            "en": "The events unfolded just as she predicted.",
+            "es": "Los acontecimientos se desenvolvieron tal como ella predijo."
+          },
+          {
+            "en": "They're going to a charity event.",
+            "es": "Ellos van a un evento de caridad."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5382,
+      "word": "head line",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hed] [laɪn]",
+        "br": "[hed] [laɪn]",
+        "gb": "[hed] [laɪn]"
+      },
+      "translations": {
+        "rus": "заголовок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5383,
+      "word": "heading",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhedɪŋ]",
+        "br": "[ˈhedɪŋ]",
+        "gb": "[ˈhedɪŋ]"
+      },
+      "translations": {
+        "rus": "заголовок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5384,
+      "word": "idea",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪˈdiːə]",
+        "br": "[aɪˈdɪə]",
+        "gb": "[aɪˈdɪə]"
+      },
+      "translations": {
+        "rus": "идея, представление, понятие",
+        "spa": "la idea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That is a good idea.",
+            "ru": "Хорошая идея."
+          },
+          {
+            "en": "I have absolutely no idea.",
+            "ru": "Не имею ни малейшего представления."
+          },
+          {
+            "en": "I have no idea what to do.",
+            "ru": "Без понятия, что делать."
+          },
+          {
+            "en": "This will give you a rough idea.",
+            "ru": "Это даст вам приблизительное представление."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you get the idea?",
+            "es": "¿Entiendes la idea?"
+          },
+          {
+            "en": "The idea is not bad.",
+            "es": "La idea no es mala."
+          },
+          {
+            "en": "She didn't like the idea.",
+            "es": "A ella no le gustaba la idea."
+          },
+          {
+            "en": "You and I have the same idea.",
+            "es": "Tú y yo tenemos la misma idea."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2326,
+      "word": "information",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnfərˈmeɪʃn]",
+        "br": "[ˌɪnfəˈmeɪʃn]",
+        "gb": "[ɪnfəˈmeɪʃn]"
+      },
+      "translations": {
+        "rus": "информация, сведения, информационный",
+        "spa": "la información"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for the information.",
+            "ru": "Спасибо за информацию."
+          },
+          {
+            "en": "I need information about her.",
+            "ru": "Мне нужны сведения о ней."
+          },
+          {
+            "en": "Where is the information counter?",
+            "ru": "Где информационная стойка?"
+          },
+          {
+            "en": "Who gave you this information?",
+            "ru": "Кто дал вам эту информацию?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where can I get information?",
+            "es": "¿Dónde puedo obtener información?"
+          },
+          {
+            "en": "I just need some information.",
+            "es": "Solo necesito algo de información."
+          },
+          {
+            "en": "Thank you for the information.",
+            "es": "Gracias por la información."
+          },
+          {
+            "en": "Please send us more information.",
+            "es": "Por favor, mándenos más información."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5385,
+      "word": "information leak",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnfərˈmeɪʃn] [liːk]",
+        "br": "[ˌɪnfəˈmeɪʃn] [liːk]",
+        "gb": "[ɪnfəˈmeɪʃn] [liːk]"
+      },
+      "translations": {
+        "rus": "утечка информации",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 2836,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпуск, издание",
+        "spa": "la emisión, la expedición, el número, la edición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1527,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "проблема, вопрос",
+        "spa": "el asunto, el tema, la cuestión, el problema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The issue is not settled.",
+            "ru": "Проблема не решена."
+          },
+          {
+            "en": "This is a serious issue.",
+            "ru": "Это серьёзная проблема."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a serious issue.",
+            "es": "Esto es un asunto sumamente serio."
+          },
+          {
+            "en": "I agree with you on this issue.",
+            "es": "En este asunto estoy de acuerdo contigo."
+          },
+          {
+            "en": "This issue has nothing to do with you.",
+            "es": "Este asunto no tiene nada que ver contigo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5386,
+      "word": "item",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪtəm]",
+        "br": "[ˈaɪtəm]",
+        "gb": "[ˈaɪtəm]"
+      },
+      "translations": {
+        "rus": "вещь, пункт, статья, вопрос, номер, параграф",
+        "spa": "el artículo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's move on to the next item.",
+            "ru": "Давайте перейдём к следующему пункту."
+          },
+          {
+            "en": "These items are rather hard to obtain.",
+            "ru": "Такие вещи сложно достать."
+          },
+          {
+            "en": "Now we come to the first agenda item.",
+            "ru": "Итак, перейдём к первому пункту повестки дня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a collector's item.",
+            "es": "Este es un artículo de coleccionista."
+          },
+          {
+            "en": "I only have personal items.",
+            "es": "Solo tengo artículos de uso personal."
+          },
+          {
+            "en": "Do you sell first aid items here?",
+            "es": "¿Venden artículos de primeros auxilios aquí?"
+          },
+          {
+            "en": "These items are rather hard to obtain.",
+            "es": "Estos artículos son bastante difíciles de conseguir."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5387,
+      "word": "keynote",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkiːnəʊt]",
+        "br": "[ˈkiːnəʊt]",
+        "gb": "[ˈkiːnəʊt]"
+      },
+      "translations": {
+        "rus": "главная идея, ключевой момент, основная мысль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5388,
+      "word": "leading article",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈledɪŋ] [ˈɑːrtɪkl]",
+        "br": "[ˈledɪŋ] [ˈɑːtɪkl]",
+        "gb": "[ˈliːdɪŋ] [ˈɑːtɪkl]"
+      },
+      "translations": {
+        "rus": "передовица, передовая статья",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5252,
+      "word": "magazine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmæɡəziːn]",
+        "br": "[ˌmæɡəˈziːn]",
+        "gb": "[mægəˈziːn]"
+      },
+      "translations": {
+        "rus": "журнал (широкой аудитории)",
+        "spa": "la revista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The magazine conducted a survey.",
+            "ru": "Журнал провёл опрос."
+          },
+          {
+            "en": "The magazine is published weekly.",
+            "ru": "Журнал выходит еженедельно."
+          },
+          {
+            "en": "A magazine with a readership of 60, 000.",
+            "ru": "Журнал с читательской аудиторией в 60 000 человек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I saw it in a magazine.",
+            "es": "Lo vi en una revista."
+          },
+          {
+            "en": "I am reading a magazine.",
+            "es": "Estoy leyendo una revista."
+          },
+          {
+            "en": "Please give me a magazine.",
+            "es": "Dame una revista por favor."
+          }
+        ]
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 631,
+      "word": "message",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmesɪdʒ]",
+        "br": "[ˈmesɪdʒ]",
+        "gb": "[ˈmesɪʤ]"
+      },
+      "translations": {
+        "rus": "сообщение, послание, донесение, извещение, письмо, идейное содержание",
+        "spa": "el mensaje, el recado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sent her a message.",
+            "ru": "Он послал ей сообщение."
+          },
+          {
+            "en": "I couldn't get across the message.",
+            "ru": "Я не мог понятно изложить свою позицию."
+          },
+          {
+            "en": "Did you get the message?",
+            "ru": "Ты получила сообщение?"
+          },
+          {
+            "en": "This message is for him.",
+            "ru": "Это сообщение для него."
+          },
+          {
+            "en": "I got a message from them.",
+            "ru": "Я получил от них сообщение."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He sent her a message.",
+            "es": "Él le envió un mensaje."
+          },
+          {
+            "en": "Give him the message when he comes back.",
+            "es": "Dale el recado cuando él vuelva."
+          },
+          {
+            "en": "Did you get the message?",
+            "es": "¿Recibiste el mensaje?"
+          },
+          {
+            "en": "Why didn't he message me?",
+            "es": "¿Por qué él no me mandó un mensaje?"
+          },
+          {
+            "en": "I just got your message.",
+            "es": "Acabo de recibir tu mensaje."
+          },
+          {
+            "en": "He hasn't left any message.",
+            "es": "Él no ha dejado ningún mensaje."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "computer",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5389,
+      "word": "news",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nuːz]",
+        "br": "[njuːz]",
+        "gb": "[njuːz]"
+      },
+      "translations": {
+        "rus": "новость, новости, известие",
+        "spa": "las noticias"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "News travels fast.",
+            "ru": "Новости распространяются быстро."
+          },
+          {
+            "en": "She was elated at the news.",
+            "ru": "Она была в восторге от этой новости."
+          },
+          {
+            "en": "We heard that item on the late news.",
+            "ru": "Мы услышали об этом в последнем выпуске новостей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I just got the news.",
+            "es": "Acabo de recibir las noticias."
+          },
+          {
+            "en": "I have some bad news.",
+            "es": "Tengo malas noticias."
+          },
+          {
+            "en": "Did you hear the news?",
+            "es": "¿Escuchaste las noticias?"
+          },
+          {
+            "en": "He was eager for news.",
+            "es": "Estaba ávido de noticias."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5390,
+      "word": "paper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪpər]",
+        "br": "[ˈpeɪpə(r)]",
+        "gb": "[ˈpeɪpə]"
+      },
+      "translations": {
+        "rus": "бумага, газета, статья, бумажный",
+        "spa": "el papel, el periódico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I tore up the paper.",
+            "ru": "Я разорвал бумагу."
+          },
+          {
+            "en": "Have you seen the paper?",
+            "ru": "Ты видел газету?"
+          },
+          {
+            "en": "Your paper contains too many mistakes.",
+            "ru": "В твоей статье слишком много ошибок."
+          },
+          {
+            "en": "Can I have a paper bag?",
+            "ru": "Можно мне бумажный пакет?"
+          },
+          {
+            "en": "This is a business paper.",
+            "ru": "Это деловая бумага."
+          },
+          {
+            "en": "What do the papers say?",
+            "ru": "Что пишут в газетах?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I made a paper plane.",
+            "es": "Hice un avión de papel."
+          },
+          {
+            "en": "What do the papers say?",
+            "es": "¿Qué dicen los periódicos?"
+          },
+          {
+            "en": "She ran out of paper.",
+            "es": "Se le acabó el papel."
+          },
+          {
+            "en": "Did you cut the paper?",
+            "es": "¿Cortaste el papel?"
+          },
+          {
+            "en": "He sat down and read the paper.",
+            "es": "Se sentó y leyó el periódico."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5391,
+      "word": "periodical",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˌpɪriˈɑːdɪkl]",
+        "br": "[ˌpɪəriˈɒdɪkl]",
+        "gb": "[pɪərɪˈɔdɪkəl]"
+      },
+      "translations": {
+        "rus": "периодическое издание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5392,
+      "word": "question",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkwestʃən]",
+        "br": "[ˈkwestʃən]",
+        "gb": "[ˈkwesʧən]"
+      },
+      "translations": {
+        "rus": "вопрос, проблема, сомнение",
+        "spa": "la pregunta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have got a question.",
+            "ru": "У меня вопрос."
+          },
+          {
+            "en": "Her honesty is beyond question.",
+            "ru": "Её честность не подлежит сомнению."
+          },
+          {
+            "en": "It is a good question.",
+            "ru": "Хороший вопрос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I ask a question?",
+            "es": "¿Puedo hacer una pregunta?"
+          },
+          {
+            "en": "He asked me a question.",
+            "es": "Él me hizo una pregunta."
+          },
+          {
+            "en": "Do you have any questions?",
+            "es": "¿Tienes una pregunta?"
+          },
+          {
+            "en": "Put the question in writing.",
+            "es": "Escribid la pregunta."
+          },
+          {
+            "en": "He annoys me with questions.",
+            "es": "Me molesta con preguntas."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5393,
+      "word": "review",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈvjuː]",
+        "br": "[rɪˈvjuː]",
+        "gb": "[rɪˈvjuː]"
+      },
+      "translations": {
+        "rus": "обзор, обозрение",
+        "spa": "la revisión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The movie received mixed reviews.",
+            "ru": "Фильм получил смешанные отзывы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5394,
+      "word": "round-up",
+      "pos": "noun",
+      "transcription": {
+        "us": "[raʊnd] [ʌp]",
+        "br": "[raʊnd] [ʌp]",
+        "gb": "[raʊnd] [ʌp]"
+      },
+      "translations": {
+        "rus": "сводка новостей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 1647,
+      "word": "statement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsteɪtmənt]",
+        "br": "[ˈsteɪtmənt]",
+        "gb": "[ˈsteɪtmənt]"
+      },
+      "translations": {
+        "rus": "заявление, утверждение, формулировка",
+        "spa": "la declaración"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His statement agrees with facts.",
+            "ru": "Его заявление соответствует фактам."
+          },
+          {
+            "en": "His statement had a double meaning.",
+            "ru": "Его формулировка была двусмысленной."
+          },
+          {
+            "en": "I'd like to qualify your statement.",
+            "ru": "Я хотел бы уточнить ваше заявление."
+          },
+          {
+            "en": "I could gather nothing from his statement.",
+            "ru": "Я ничего не мог понять из его утверждения."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I agree with that statement.",
+            "es": "Estoy de acuerdo con esa declaración."
+          },
+          {
+            "en": "That's a pretty strong statement.",
+            "es": "Esa es una declaración muy fuerte."
+          },
+          {
+            "en": "I believe your statement is incorrect.",
+            "es": "Creo que tu declaración es incorrecta."
+          },
+          {
+            "en": "Do you believe the witness's statement?",
+            "es": "¿Tú crees en la declaración del testigo?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5397,
+      "word": "subscription",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səbˈskrɪpʃn]",
+        "br": "[səbˈskrɪpʃn]",
+        "gb": "[səbˈskrɪpʃn]"
+      },
+      "translations": {
+        "rus": "подписка",
+        "spa": "la suscripción, el abono"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much does a newspaper subscription cost?",
+            "ru": "Сколько стоит подписка на газету?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5279,
+      "word": "supplement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌplɪmənt]",
+        "br": "[ˈsʌplɪmənt]",
+        "gb": "[ˈsʌplɪmənt]"
+      },
+      "translations": {
+        "rus": "дополнение, приложение",
+        "spa": "el suplemento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 766,
+      "word": "to address",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈdres]",
+        "br": "[tu] [əˈdres]",
+        "gb": "[tuː] [əˈdres]"
+      },
+      "translations": {
+        "rus": "адресовывать, обращаться",
+        "spa": "dirigirse a, abordar, poner la dirección en"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She turned to address the man on her left.",
+            "ru": "Она повернулась, чтобы обратиться к человеку слева от неё."
+          },
+          {
+            "en": "He always addresses me with \"Sir\".",
+            "ru": "Он всегда обращается ко мне на \"сэр\"."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This letter is addressed to you.",
+            "es": "Esta carta va dirigida a ti."
+          },
+          {
+            "en": "He sent a letter addressed to his uncle.",
+            "es": "Él envió una carta dirigida a su tío."
+          },
+          {
+            "en": "This letter is addressed to you.",
+            "es": "Esta carta va dirigida ti."
+          },
+          {
+            "en": "The Mayor addressed a large audience.",
+            "es": "El alcalde se dirigió una gran audiencia."
+          },
+          {
+            "en": "He sent a letter addressed to his uncle.",
+            "es": "Él envió una carta dirigida su tío."
+          },
+          {
+            "en": "He addressed the audience in a soft voice.",
+            "es": "Se dirigió su auditorio con una voz dulce."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 775,
+      "word": "to announce",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈnaʊns]",
+        "br": "[tu] [əˈnaʊns]",
+        "gb": "[tuː] [əˈnaʊns]"
+      },
+      "translations": {
+        "rus": "объявлять, сообщать, анонсировать, извещать, заявлять",
+        "spa": "anunciar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They have announced their engagement.",
+            "ru": "Они объявили об их помолвке."
+          },
+          {
+            "en": "They just announced that on the radio.",
+            "ru": "Это только что сообщили по радио."
+          },
+          {
+            "en": "The winner hasn't yet been announced.",
+            "ru": "Победитель ещё не был объявлен."
+          },
+          {
+            "en": "He announced the next singer.",
+            "ru": "Он объявил следующего исполнителя."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He announced the next singer.",
+            "es": "Él anunció el siguiente cantante."
+          },
+          {
+            "en": "The TV didn't announce anything.",
+            "es": "La televisión no anunció nada."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 468,
+      "word": "to appeal",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈpiːl]",
+        "br": "[tu] [əˈpiːl]",
+        "gb": "[tuː] [əˈpiːl]"
+      },
+      "translations": {
+        "rus": "привлекать, влечь, взывать, апеллировать, обращаться",
+        "spa": "apelar contra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He appealed to us for help.",
+            "ru": "Он обратился к нам за помощью."
+          },
+          {
+            "en": "Do these paintings appeal to you?",
+            "ru": "Вам нравятся эти картины?"
+          },
+          {
+            "en": "This topic is appealing to many.",
+            "ru": "Эта тема привлекает многих."
+          },
+          {
+            "en": "Rural life appeals to me very much.",
+            "ru": "Деревенская жизнь меня очень привлекает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "mass_media",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5372,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выясняться, становиться известным",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5371,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "выходить (в т.ч. о фильме, журнале, газете)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Come out of there.",
+            "ru": "Выходи оттуда."
+          },
+          {
+            "en": "The moon has come out.",
+            "ru": "Луна появилась."
+          },
+          {
+            "en": "You can come out now.",
+            "ru": "Теперь можешь выходить."
+          },
+          {
+            "en": "This cork will not come out.",
+            "ru": "Эта пробка не вылезет."
+          },
+          {
+            "en": "This stain won't come out.",
+            "ru": "Это пятно не хочет исчезать."
+          },
+          {
+            "en": "Come out peacefully.",
+            "ru": "Выходите без резких движений."
+          },
+          {
+            "en": "One of the screws has come out.",
+            "ru": "Один из винтов выкрутился."
+          },
+          {
+            "en": "Come out with your hands up.",
+            "ru": "Выходите с поднятыми руками."
+          },
+          {
+            "en": "When will the new magazine come out?",
+            "ru": "Когда выйдет новый журнал?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 5373,
+      "word": "to come out",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kʌm] [aʊt]",
+        "br": "[tə] [kʌm] [aʊt]",
+        "gb": "[tuː] [kʌm] [aʊt]"
+      },
+      "translations": {
+        "rus": "публично выступать, публично заявлять",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "movie",
+        "phrasal_verbs"
+      ]
+    },
+    {
+      "id": 886,
+      "word": "to declare",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈkler]",
+        "br": "[tə] [dɪˈkleə(r)]",
+        "gb": "[tuː] [dɪˈklɛə]"
+      },
+      "translations": {
+        "rus": "объявлять, заявлять, указывать",
+        "spa": "declarar, declararse"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tunnel was declared safe.",
+            "ru": "Тоннель был объявлен безопасным."
+          },
+          {
+            "en": "I declare you man and wife.",
+            "ru": "Я объявляю вас мужем и женой."
+          },
+          {
+            "en": "He was declared guilty.",
+            "ru": "Его признали виновным."
+          },
+          {
+            "en": "He openly declared his love for her.",
+            "ru": "Он открыто признался в своей любви к ней."
+          },
+          {
+            "en": "They declared that they were innocent.",
+            "ru": "Они заявили, что были невиновны."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have nothing to declare.",
+            "es": "No tengo nada que declarar."
+          },
+          {
+            "en": "Do you have anything to declare?",
+            "es": "¿Tiene usted algo que declarar?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 892,
+      "word": "to deliver",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈlɪvər]",
+        "br": "[tə] [dɪˈlɪvə(r)]",
+        "gb": "[tuː] [dɪˈlɪvə]"
+      },
+      "translations": {
+        "rus": "доставлять, снабжать",
+        "spa": "entregar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Deliver the package to my home.",
+            "ru": "Доставьте пакет мне домой."
+          },
+          {
+            "en": "We will deliver them up to the police.",
+            "ru": "Мы передадим их в руки полиции."
+          },
+          {
+            "en": "After two days, a bouquet was delivered to her mother.",
+            "ru": "Через два дня букет был доставлен её маме."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We can deliver it this evening.",
+            "es": "Podemos entregarlo esta tarde."
+          },
+          {
+            "en": "This package was delivered last night.",
+            "es": "Este paquete fue entregado anoche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5377,
+      "word": "to devote",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈvəʊt]",
+        "br": "[tə] [dɪˈvəʊt]",
+        "gb": "[tuː] [dɪˈvəʊt]"
+      },
+      "translations": {
+        "rus": "посвящать, уделять",
+        "spa": "dedicar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She devoted herself to him.",
+            "ru": "Она посвятила себя ему."
+          },
+          {
+            "en": "He devoted his life to education.",
+            "ru": "Он посвятил свою жизнь образованию."
+          },
+          {
+            "en": "She is devoted to her children.",
+            "ru": "Она посвятила себя своим детям."
+          },
+          {
+            "en": "He devoted himself to music in those days.",
+            "ru": "В то время он посвящал всего себя музыке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 925,
+      "word": "to edit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈedɪt]",
+        "br": "[tu] [ˈedɪt]",
+        "gb": "[tuː] [ˈedɪt]"
+      },
+      "translations": {
+        "rus": "редактировать",
+        "spa": "corregir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She edited the article.",
+            "ru": "Она отредактировала статью."
+          },
+          {
+            "en": "How often do you edit your profile?",
+            "ru": "Как часто вы редактируете свой профиль?"
+          },
+          {
+            "en": "Click here to edit the sentence.",
+            "ru": "Нажмите здесь, чтобы отредактировать предложение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5381,
+      "word": "to feature",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfiːtʃər]",
+        "br": "[tə] [ˈfiːtʃə(r)]",
+        "gb": "[tuː] [ˈfiːʧə]"
+      },
+      "translations": {
+        "rus": "описывать, показывать, представлять",
+        "spa": "publicar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His movies often feature strong female characters.",
+            "ru": "В его фильмах часто показывают сильных женских персонажей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 975,
+      "word": "to follow",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈfɑːləʊ]",
+        "br": "[tə] [ˈfɒləʊ]",
+        "gb": "[tuː] [ˈfɔləʊ]"
+      },
+      "translations": {
+        "rus": "следовать, следить",
+        "spa": "seguir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I just followed the recipe.",
+            "ru": "Я просто следовал рецепту."
+          },
+          {
+            "en": "We must follow the rules.",
+            "ru": "Мы должны следовать правилам."
+          },
+          {
+            "en": "I tried to follow the instructions.",
+            "ru": "Я пытался следовать инструкциям."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You need to follow me.",
+            "es": "Debes seguirme."
+          },
+          {
+            "en": "I will follow your advice.",
+            "es": "Seguiré su consejo."
+          },
+          {
+            "en": "You must follow school rules.",
+            "es": "Debes seguir las reglas de la escuela."
+          },
+          {
+            "en": "We should follow his example.",
+            "es": "Debemos seguir su ejemplo."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1024,
+      "word": "to inform",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪnˈfɔːrm]",
+        "br": "[tu] [ɪnˈfɔːm]",
+        "gb": "[tuː] [ɪnˈfɔːm]"
+      },
+      "translations": {
+        "rus": "сообщать, информировать",
+        "spa": "informar, avisar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He informed us about his arrival.",
+            "ru": "Он сообщил нам о своем прибытии."
+          },
+          {
+            "en": "It's your responsibility to inform us of any changes.",
+            "ru": "Это ваша обязанность - информировать нас о каких-либо изменениях."
+          },
+          {
+            "en": "We regret to inform you that your position has been eliminated.",
+            "ru": "Мы с сожалением сообщаем вам, что ваша должность упразднена."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Thank you for informing me.",
+            "es": "Gracias por avisarme."
+          },
+          {
+            "en": "Why didn't you inform me?",
+            "es": "¿Por qué no me informaste?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1523,
+      "word": "to interview",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪntərvjuː]",
+        "br": "[tu] [ˈɪntəvjuː]",
+        "gb": "[tuː] [ˈɪntəvjuː]"
+      },
+      "translations": {
+        "rus": "проводить интервью, опрашивать",
+        "spa": "entrevistar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The police are interviewing witnesses.",
+            "ru": "Полиция опрашивает свидетелей."
+          },
+          {
+            "en": "Can we interview them?",
+            "ru": "Мы можем взять у них интервью?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I was interviewed for a job.",
+            "es": "Me entrevistaron para un empleo."
+          },
+          {
+            "en": "Where did you interview them?",
+            "es": "¿Dónde los entrevistaste?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "literature",
+        "mass_media",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1039,
+      "word": "to issue",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪʃuː]",
+        "br": "[tu] [ˈɪʃuː]",
+        "gb": "[tuː] [ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпускать, издавать",
+        "spa": "emitir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The magazine is issued twice a month.",
+            "ru": "Этот журнал издаётся два раза в месяц."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "legal_english",
+        "literature",
+        "mass_media",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 667,
+      "word": "to picture",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈpɪktʃər]",
+        "br": "[tə] [ˈpɪktʃə(r)]",
+        "gb": "[tuː] [ˈpɪkʧə]"
+      },
+      "translations": {
+        "rus": "изображать, представлять себе, описывать",
+        "spa": "imaginarse, imaginar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have pictured her very vividly.",
+            "ru": "Вы очень живо изобразили её."
+          },
+          {
+            "en": "Mary pictures her mother.",
+            "ru": "Мэри очень похожа на мать."
+          },
+          {
+            "en": "Close your eyes and picture a log house.",
+            "ru": "Закрой глаза и представь себе бревенчатый дом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1127,
+      "word": "to print",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [prɪnt]",
+        "br": "[tə] [prɪnt]",
+        "gb": "[tuː] [prɪnt]"
+      },
+      "translations": {
+        "rus": "печатать, издавать",
+        "spa": "imprimir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The catalogue is being printed.",
+            "ru": "Каталог печатается."
+          },
+          {
+            "en": "Print a hard copy of the report.",
+            "ru": "Напечатайте бумажную копию отчета."
+          },
+          {
+            "en": "It is their job to print the truth.",
+            "ru": "Печатать правду — их обязанность."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have to print 100 pages.",
+            "es": "Tengo que imprimir 100 páginas."
+          },
+          {
+            "en": "Think before you print this.",
+            "es": "Piensa antes de imprimir esto."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "literature",
+        "mass_media",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1137,
+      "word": "to publish",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈpʌblɪʃ]",
+        "br": "[tə] [ˈpʌblɪʃ]",
+        "gb": "[tuː] [ˈpʌblɪʃ]"
+      },
+      "translations": {
+        "rus": "публиковать, издавать, выпускать",
+        "spa": "publicar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She hopes to publish her novel someday.",
+            "ru": "Она надеится когда-нибудь опубликовать свой роман."
+          },
+          {
+            "en": "The newspaper is published daily.",
+            "ru": "Эта газета выходит ежедневно."
+          },
+          {
+            "en": "The first edition was published in 1765.",
+            "ru": "Первое издание было опубликовано в 1765 году."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was published in 1969.",
+            "es": "Fue publicado en 1969."
+          },
+          {
+            "en": "We can't publish this story.",
+            "es": "No podemos publicar esta historia."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1162,
+      "word": "to release",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈliːs]",
+        "br": "[tə] [rɪˈliːs]",
+        "gb": "[tuː] [rɪˈliːs]"
+      },
+      "translations": {
+        "rus": "выпускать, освобождать, отпускать",
+        "spa": "liberar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't release that dog.",
+            "ru": "Не выпускай эту собаку."
+          },
+          {
+            "en": "They released a new album.",
+            "ru": "Они выпустили новый альбом."
+          },
+          {
+            "en": "They've both been released from prison.",
+            "ru": "Их обоих выпустили из тюрьмы."
+          },
+          {
+            "en": "The girl released the birds from the cage.",
+            "ru": "Девочка выпустила птиц из клетки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm going to release you.",
+            "es": "Voy a liberarte."
+          },
+          {
+            "en": "The boy released a bird from the cage.",
+            "es": "El niño liberó al ave de la jaula."
+          },
+          {
+            "en": "The doctor released him from his pain.",
+            "es": "El doctor lo liberó de su sufrimiento."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "movie",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1174,
+      "word": "to report",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈpɔːrt]",
+        "br": "[tə] [rɪˈpɔːt]",
+        "gb": "[tuː] [rɪˈpɔːt]"
+      },
+      "translations": {
+        "rus": "докладывать, объявлять, сообщать, отчитываться",
+        "spa": "informar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why didn't you report it?",
+            "ru": "Почему ты об этом не сообщил?"
+          },
+          {
+            "en": "Thanks for reporting the issue.",
+            "ru": "Спасибо за сообщение о проблеме."
+          },
+          {
+            "en": "I'm happy to report that we won.",
+            "ru": "Рад сообщить, что мы победили."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who do I report to?",
+            "es": "¿A quién informo?"
+          },
+          {
+            "en": "Will you report everything truthfully?",
+            "es": "¿Informarás de todo de manera sincera?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1186,
+      "word": "to review",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈvjuː]",
+        "br": "[tə] [rɪˈvjuː]",
+        "gb": "[tuː] [rɪˈvjuː]"
+      },
+      "translations": {
+        "rus": "проверять, рецензировать, повторять",
+        "spa": "revisar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I reviewed the file.",
+            "ru": "Я пересмотрел файл."
+          },
+          {
+            "en": "Let's review Lesson 5.",
+            "ru": "Давай повторим урок 5."
+          },
+          {
+            "en": "We need to review the case.",
+            "ru": "Мы должны просмотреть это дело."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "mass_media",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5395,
+      "word": "to state",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [steɪt]",
+        "br": "[tə] [steɪt]",
+        "gb": "[tuː] [steɪt]"
+      },
+      "translations": {
+        "rus": "утверждать, констатировать, заявлять",
+        "spa": "declarar, exponer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm simply stating the facts.",
+            "ru": "Я просто констатирую факты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He states that he is not guilty.",
+            "es": "Él declara que no es culpable."
+          }
+        ]
+      },
+      "categories": [
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5396,
+      "word": "to subscribe",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [səbˈskraɪb]",
+        "br": "[tə] [səbˈskraɪb]",
+        "gb": "[tuː] [səbˈskraɪb]"
+      },
+      "translations": {
+        "rus": "подписываться",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "mass_media"
+      ]
+    },
+    {
+      "id": 5280,
+      "word": "to supplement",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈsʌplɪment]",
+        "br": "[tə] [ˈsʌplɪment]",
+        "gb": "[tuː] [ˈsʌplɪmənt]"
+      },
+      "translations": {
+        "rus": "дополнять",
+        "spa": "complementar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You had better supplement your diet with vitamins.",
+            "ru": "Ты б лучше дополнил свою диету витаминами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "literature",
+        "mass_media",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5398,
+      "word": "weekly",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[ˈwiːkli]",
+        "br": "[ˈwiːkli]",
+        "gb": "[ˈwiːklɪ]"
+      },
+      "translations": {
+        "rus": "еженедельный, недельный, еженедельно",
+        "spa": "semanal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sat reading a weekly magazine.",
+            "ru": "Он читал еженедельный журнал сидя."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "mass_media",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    }
+  ]
+}

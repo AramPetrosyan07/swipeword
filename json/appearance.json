@@ -1,0 +1,4471 @@
+{
+  "category": {
+    "id": "appearance",
+    "name_rus": "Внешность",
+    "type": "topic",
+    "word_count": 123
+  },
+  "words": [
+    {
+      "id": 212,
+      "word": "arched",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɑːrtʃt]",
+        "br": "[ɑːtʃt]",
+        "gb": "[ɑːʧt]"
+      },
+      "translations": {
+        "rus": "изогнутый, арочный, дугой",
+        "spa": "arqueado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cat arched its back.",
+            "es": "El gato arqueó el lomo."
+          },
+          {
+            "en": "He arched his eyebrows in surprise.",
+            "es": "Arqueó las cejas con sorpresa."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "architecture"
+      ]
+    },
+    {
+      "id": 214,
+      "word": "attractive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[əˈtræktɪv]",
+        "br": "[əˈtræktɪv]",
+        "gb": "[əˈtræktɪv]"
+      },
+      "translations": {
+        "rus": "привлекательный",
+        "spa": "atractivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Women seem to find him attractive.",
+            "ru": "Похоже, что женщины находят его привлекательным."
+          },
+          {
+            "en": "I must say, it's a very attractive offer.",
+            "ru": "Должен сказать, это очень привлекательное предложение."
+          },
+          {
+            "en": "An attractive woman greeted us at the door.",
+            "ru": "Привлекательная женщина встретила нас у двери."
+          },
+          {
+            "en": "Do you find him physically attractive?",
+            "ru": "Считаете ли вы его физически привлекательным?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is attractive in every way.",
+            "es": "Él es atractivo de cualquier manera."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 215,
+      "word": "bald",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[bɔːld]",
+        "br": "[bɔːld]",
+        "gb": "[bɔːld]"
+      },
+      "translations": {
+        "rus": "лысый",
+        "spa": "calvo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "All of his uncles are completely bald.",
+            "ru": "Все его дяди - совершенно лысые."
+          },
+          {
+            "en": "He covered his bald head with a baseball cap.",
+            "ru": "Он прикрыл свою лысую голову бейсболкой."
+          },
+          {
+            "en": "There's a bald spot on the top of his head.",
+            "ru": "У него проплешина на макушке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My father is getting bald.",
+            "es": "Mi padre se está volviendo calvo."
+          },
+          {
+            "en": "Look for a bald and sweaty guy.",
+            "es": "Busca a un sujeto calvo y sudoroso."
+          },
+          {
+            "en": "Dad's bald like a billiard ball.",
+            "es": "La calva de papá es como la de una bola de billar."
+          },
+          {
+            "en": "I wonder why women don't go bald.",
+            "es": "Me pregunto por qué las mujeres no se quedan calvas."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 216,
+      "word": "bald patch",
+      "pos": null,
+      "transcription": {
+        "us": "[bɔːld] [pætʃ]",
+        "br": "[bɔːld] [pætʃ]",
+        "gb": "[bɔːld] [pæʧ]"
+      },
+      "translations": {
+        "rus": "залысина, проплешина",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He combed his hair and tried to hide his bald patch.",
+            "ru": "Он зачесал волосы и попытался скрыть свою залысину."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 217,
+      "word": "bangs",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæŋz]",
+        "br": "[bæŋz]",
+        "gb": "[bæŋz]"
+      },
+      "translations": {
+        "rus": "челка",
+        "spa": "el flequillo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 218,
+      "word": "beard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪrd]",
+        "br": "[bɪəd]",
+        "gb": "[bɪəd]"
+      },
+      "translations": {
+        "rus": "борода",
+        "spa": "la barba"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He had a long, white beard.",
+            "ru": "У него была длинная белая борода."
+          },
+          {
+            "en": "My beard needs a trim.",
+            "ru": "Мне нужно подстричь бороду."
+          },
+          {
+            "en": "He grew a beard and mustache.",
+            "ru": "Он отрастил бороду и усы."
+          },
+          {
+            "en": "Please don't shave off your beard, I like your face with it.",
+            "ru": "Пожалуйста, не сбривай бороду: с ней ты мне больше нравишься."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He's got a thick beard.",
+            "es": "Tiene la barba muy poblada."
+          },
+          {
+            "en": "I am shaving off my beard.",
+            "es": "Me estoy afeitando la barba."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 219,
+      "word": "beautiful",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈbjuːtɪfl]",
+        "br": "[ˈbjuːtɪfl]",
+        "gb": "[ˈbjuːtəfʊl]"
+      },
+      "translations": {
+        "rus": "красивый",
+        "spa": "guapo, hermoso, bello, bonito, lindo, precioso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's beautiful, isn't she?",
+            "ru": "Она красивая, правда?"
+          },
+          {
+            "en": "This rose is beautiful.",
+            "ru": "Эта роза красивая."
+          },
+          {
+            "en": "Vienna is a beautiful city.",
+            "ru": "Вена — красивый город."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a beautiful book.",
+            "es": "Es un hermoso libro."
+          },
+          {
+            "en": "Do you think I'm beautiful?",
+            "es": "¿Te parezco bonita?"
+          },
+          {
+            "en": "You're beautiful in every way.",
+            "es": "De cualquier forma sos linda."
+          },
+          {
+            "en": "How beautiful that flower is!",
+            "es": "¡Qué flor para hermosa!"
+          },
+          {
+            "en": "It's a beautiful sunset, isn't it?",
+            "es": "Hermoso atardecer, ¿no?"
+          },
+          {
+            "en": "I caught a beautiful butterfly.",
+            "es": "Atrapé una hermosa mariposa."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 220,
+      "word": "beauty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbjuːti]",
+        "br": "[ˈbjuːti]",
+        "gb": "[ˈbjuːtɪ]"
+      },
+      "translations": {
+        "rus": "красотка, красота, красавица",
+        "spa": "la belleza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was a beauty in her day.",
+            "ru": "В своё время она была красавицей."
+          },
+          {
+            "en": "Beauty inheres in art.",
+            "ru": "Искусству присуща красота."
+          },
+          {
+            "en": "She's a creature of rare beauty.",
+            "ru": "Она — создание редкой красоты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Such beauty as hers is rare.",
+            "es": "Una belleza como la de ella es rara."
+          },
+          {
+            "en": "I was captivated by her beauty.",
+            "es": "Quedé cautivado por la belleza de ella."
+          },
+          {
+            "en": "Words cannot describe the beauty.",
+            "es": "Las palabras no pueden describir la belleza."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 221,
+      "word": "blush",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blʌʃ]",
+        "br": "[blʌʃ]",
+        "gb": "[blʌʃ]"
+      },
+      "translations": {
+        "rus": "румянец, краска (от стыда, смущения)",
+        "spa": "el rubor, el sonrojo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "breast",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brest]",
+        "br": "[brest]",
+        "gb": "[brest]"
+      },
+      "translations": {
+        "rus": "(женская) грудь, грудной",
+        "spa": "el pecho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She put the baby to her breast.",
+            "ru": "Она приложила младенца к груди."
+          },
+          {
+            "en": "She crouched her head upon her breast.",
+            "ru": "Она склонила голову на грудь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Many men have larger breasts than women.",
+            "es": "Muchos hombres tienen pechos más grandes que las mujeres."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 222,
+      "word": "broad",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[brɔːd]",
+        "br": "[brɔːd]",
+        "gb": "[brɔːd]"
+      },
+      "translations": {
+        "rus": "широкий, обширный",
+        "spa": "ancho, amplio, extenso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Jim has broad shoulders.",
+            "ru": "У Джима широкие плечи."
+          },
+          {
+            "en": "We're driving down a straight, broad road.",
+            "ru": "Мы ехали вниз по широкой прямой улице."
+          },
+          {
+            "en": "He has a narrow waist and broad shoulders.",
+            "ru": "У него узкая талия и широкие плечи."
+          },
+          {
+            "en": "He has a broad chest.",
+            "ru": "У него широкая грудная клетка."
+          },
+          {
+            "en": "The store has a broad selection of coats.",
+            "ru": "В магазине представлен широкий выбор пальто."
+          },
+          {
+            "en": "We're driving down a straight, broad road.",
+            "ru": "Мы ехали вниз по прямой широкой улице."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has broad shoulders.",
+            "es": "Él tiene hombros anchos."
+          },
+          {
+            "en": "You have broad shoulders.",
+            "es": "Tienes hombros amplios."
+          },
+          {
+            "en": "She has a broad view of things.",
+            "es": "Ella tiene una manera amplia de ver las cosas."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b2",
+        "top3000",
+        "town"
+      ]
+    },
+    {
+      "id": 223,
+      "word": "brows",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[braʊz]"
+      },
+      "translations": {
+        "rus": "брови",
+        "spa": "las cejas"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A deep furrow appeared between his brows.",
+            "ru": "Глубокая складка появилась между его бровей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 224,
+      "word": "bushy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈbʊʃi]",
+        "br": "[ˈbʊʃi]",
+        "gb": "[ˈbʊʃɪ]"
+      },
+      "translations": {
+        "rus": "густые (о бровях)",
+        "spa": "espeso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "An animal with a bushy tail.",
+            "ru": "Животное с пушистым хвостом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 225,
+      "word": "casually dressed",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈkæʒuəli] [drest]",
+        "br": "[ˈkæʒuəli] [drest]",
+        "gb": "[ˈkæʒʊəlɪ] [drest]"
+      },
+      "translations": {
+        "rus": "неброско одетый",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A young man dressed in expensive casual clothes.",
+            "ru": "Молодой человек, одетый в дорогую повседневную одежду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "chin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃɪn]",
+        "br": "[tʃɪn]",
+        "gb": "[ʧɪn]"
+      },
+      "translations": {
+        "rus": "подбородок",
+        "spa": "el mentón, la barbilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He took a blow to the chin.",
+            "ru": "Он получил удар в подбородок."
+          },
+          {
+            "en": "He cut his chin while shaving.",
+            "ru": "Он порезал подбородок, когда брился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I hit him on the chin.",
+            "es": "Le pegué en el mentón."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 227,
+      "word": "clean",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kliːn]",
+        "br": "[kliːn]",
+        "gb": "[kliːn]"
+      },
+      "translations": {
+        "rus": "чистый",
+        "spa": "limpio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There are no clean plates.",
+            "ru": "Чистых тарелок нет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There are no clean plates.",
+            "es": "No hay platos limpios."
+          },
+          {
+            "en": "I need a clean shirt.",
+            "es": "Necesito una camisa limpia."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 228,
+      "word": "close-set eyes",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kləʊs] [set] [aɪz]"
+      },
+      "translations": {
+        "rus": "близко посаженные глаза",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "If you have close-set eyes, try this makeup.",
+            "ru": "Если у вас близко посаженные глаза, попробуйте этот макияж."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 229,
+      "word": "common",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkɑːmən]",
+        "br": "[ˈkɒmən]",
+        "gb": "[ˈkɔmən]"
+      },
+      "translations": {
+        "rus": "обычный, общий",
+        "spa": "común"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a common name.",
+            "ru": "У него обычное имя."
+          },
+          {
+            "en": "We don't have much in common.",
+            "ru": "У нас мало общего."
+          },
+          {
+            "en": "This is a common occurrence.",
+            "ru": "Это обычное явление."
+          },
+          {
+            "en": "They have nothing in common.",
+            "ru": "У них нет ничего общего."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They have nothing in common.",
+            "es": "No tienen nada en común."
+          },
+          {
+            "en": "That word isn't in common use.",
+            "es": "El empleo de esa palabra no es común."
+          },
+          {
+            "en": "He is lacking in common sense.",
+            "es": "Le falta sentido común."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 230,
+      "word": "complexion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈplekʃn]",
+        "br": "[kəmˈplekʃn]",
+        "gb": "[kəmˈplekʃn]"
+      },
+      "translations": {
+        "rus": "цвет лица",
+        "spa": "la tez"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a pale complexion.",
+            "ru": "У неё бледный цвет лица."
+          },
+          {
+            "en": "She has a dark complexion.",
+            "ru": "У неё тёмный цвет лица."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 231,
+      "word": "crop-headed",
+      "pos": null,
+      "transcription": {
+        "us": "[krɑːp] [ˈhedɪd]",
+        "br": "[krɒp] [ˈhedɪd]",
+        "gb": "[krɒp] [ˈhedɪd]"
+      },
+      "translations": {
+        "rus": "коротко стриженный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 232,
+      "word": "curls",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɜːrlz]",
+        "br": "[kɜːlz]",
+        "gb": "[kɜːlz]"
+      },
+      "translations": {
+        "rus": "кудри, локоны",
+        "spa": "los rizos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her daughter has cute blonde curls.",
+            "ru": "У её дочери милые светлые кудряшки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 233,
+      "word": "curly",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkɜːrli]",
+        "br": "[ˈkɜːli]",
+        "gb": "[ˈkɜːlɪ]"
+      },
+      "translations": {
+        "rus": "кудрявый, изогнутый",
+        "spa": "rizado, ensortijado, crespo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have curly hair.",
+            "ru": "У меня кудрявые волосы."
+          },
+          {
+            "en": "Mary has short, curly brown hair.",
+            "ru": "У Мэри короткие и кудрявые каштановые волосы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 234,
+      "word": "cute",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kjuːt]",
+        "br": "[kjuːt]",
+        "gb": "[kjuːt]"
+      },
+      "translations": {
+        "rus": "симпатичный, милый",
+        "spa": "lindo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The baby's so cute.",
+            "ru": "Ребенок такой милый."
+          },
+          {
+            "en": "She's ever so cute.",
+            "ru": "Она всегда так прелестна."
+          },
+          {
+            "en": "He's real cute.",
+            "ru": "Он — просто прелесть."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I thought it was cute.",
+            "es": "Pensé que era lindo."
+          },
+          {
+            "en": "They were both so cute!",
+            "es": "¡Los dos eran tan lindos!"
+          },
+          {
+            "en": "It's too cute to be true.",
+            "es": "Es demasiado lindo para ser verdad."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 235,
+      "word": "deep-set eyes",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[diːp] [set] [aɪz]"
+      },
+      "translations": {
+        "rus": "глубоко посаженные глаза",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A man with deep-set eyes.",
+            "ru": "Мужчина с глубоко посаженными глазами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "dimple",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪmpl]",
+        "br": "[ˈdɪmpl]",
+        "gb": "[dɪmpl]"
+      },
+      "translations": {
+        "rus": "ямочка на щеке",
+        "spa": "el hoyuelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wish I had dimples.",
+            "ru": "Я бы хотел иметь ямки на щеках."
+          },
+          {
+            "en": "She has cute dimples when she smiles.",
+            "ru": "Когда она улыбается, у неё появляются милые ямки на щеках."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 236,
+      "word": "dirty",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈdɜːrti]",
+        "br": "[ˈdɜːti]",
+        "gb": "[ˈdɜːtɪ]"
+      },
+      "translations": {
+        "rus": "грязный",
+        "spa": "sucio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a dirty face.",
+            "ru": "У неё грязное лицо."
+          },
+          {
+            "en": "That was a dirty trick.",
+            "ru": "Это был грязный трюк."
+          },
+          {
+            "en": "My hair is so dirty!",
+            "ru": "Мои волосы такие грязные!"
+          },
+          {
+            "en": "I don't like dirty jokes.",
+            "ru": "Я не люблю грязные шутки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My hair is so dirty!",
+            "es": "¡Mi cabello está muy sucio!"
+          },
+          {
+            "en": "She has a dirty face.",
+            "es": "Ella tiene la cara sucia."
+          },
+          {
+            "en": "Because he is dirty and wet.",
+            "es": "Porque está sucio y mojado."
+          },
+          {
+            "en": "Who wants to wash my dirty car?",
+            "es": "¿Quién quiere lavar mi coche sucio?"
+          },
+          {
+            "en": "Please clean the dirty floor.",
+            "es": "Por favor, limpie el suelo sucio."
+          },
+          {
+            "en": "I saw a dirty dog enter the garden.",
+            "es": "Vi a un perro sucio entrar al jardín."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "home",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 237,
+      "word": "dull glance",
+      "pos": null,
+      "transcription": {
+        "us": "[dʌl] [ɡlæns]",
+        "br": "[dʌl] [ɡlɑːns]",
+        "gb": "[dʌl] [glɑːns]"
+      },
+      "translations": {
+        "rus": "тусклый взгляд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 238,
+      "word": "dwarf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dwɔːrf]",
+        "br": "[dwɔːf]",
+        "gb": "[dwɔːf]"
+      },
+      "translations": {
+        "rus": "карлик",
+        "spa": "el enano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Snow White and the Seven Dwarfs.",
+            "ru": "Белоснежка и Семь Гномов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am not a dwarf. I am of short stature.",
+            "es": "No soy un enano. Tengo baja estatura."
+          },
+          {
+            "en": "I was a dwarf compared with my hostesses.",
+            "es": "Yo era un enano comparado con mis anfitrionas."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "ear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪr]",
+        "br": "[ɪə(r)]",
+        "gb": "[ɪə]"
+      },
+      "translations": {
+        "rus": "ухо",
+        "spa": "la oreja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do not yell into my ear.",
+            "ru": "Не ори мне в ухо."
+          },
+          {
+            "en": "I have an itch in my ear.",
+            "ru": "У меня чешется ухо."
+          },
+          {
+            "en": "She tucked her hair behind her ears.",
+            "ru": "Она заправила свои волосы за уши."
+          },
+          {
+            "en": "She's had her ears pierced.",
+            "ru": "Она проколола уши."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We hear with our ears.",
+            "es": "Oímos con nuestras orejas."
+          },
+          {
+            "en": "I got my ears pierced.",
+            "es": "Me perforé las orejas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "earlobe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪrləʊb]",
+        "br": "[ˈɪələʊb]",
+        "gb": "[ˈɜːləʊb]"
+      },
+      "translations": {
+        "rus": "мочка уха",
+        "spa": "el lóbulo de la oreja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He kissed her earlobe.",
+            "ru": "Он поцеловал её в мочку уха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "elbow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈelbəʊ]",
+        "br": "[ˈelbəʊ]",
+        "gb": "[ˈelbəʊ]"
+      },
+      "translations": {
+        "rus": "локоть",
+        "spa": "el codo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stop jabbing me with your elbow!",
+            "ru": "Перестань толкать меня своим локтем!"
+          },
+          {
+            "en": "The two bones connect at the elbow.",
+            "ru": "Эти две кости соединяются в локте."
+          },
+          {
+            "en": "That rude man elbowed me aside and got on the bus ahead of me!",
+            "ru": "Этот мужлан оттолкнул меня и пролез в автобус передо мной!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "My right elbow hurts a lot.",
+            "es": "Me duele mucho el codo derecho."
+          },
+          {
+            "en": "She hurt her elbow when she fell down.",
+            "es": "Se lastimó su codo cuando se cayó."
+          },
+          {
+            "en": "Stop resting your elbows on the table.",
+            "es": "Deja de poner los codos sobre la mesa."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "eyelash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪlæʃ]",
+        "br": "[ˈaɪlæʃ]",
+        "gb": "[ˈaɪlæʃ]"
+      },
+      "translations": {
+        "rus": "ресница",
+        "spa": "la pestaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She batted her eyelashes.",
+            "ru": "Она похлопала ресницами."
+          },
+          {
+            "en": "Mary wore false eyelashes.",
+            "ru": "Мэри носила накладные ресницы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "face",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[feɪs]",
+        "br": "[feɪs]",
+        "gb": "[feɪs]"
+      },
+      "translations": {
+        "rus": "лицо, лицевой",
+        "spa": "la cara"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We stood face to face.",
+            "ru": "Мы стояли лицом к лицу."
+          },
+          {
+            "en": "Her face beamed with joy.",
+            "ru": "Её лицо сияло от радости."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He lied to my face.",
+            "es": "Él me mintió en mi cara."
+          },
+          {
+            "en": "She has a funny face.",
+            "es": "Ella tiene una cara graciosa."
+          },
+          {
+            "en": "Did you see his face?",
+            "es": "¿Viste su cara?"
+          },
+          {
+            "en": "Anger showed on his face.",
+            "es": "La ira se dibujó en su cara."
+          },
+          {
+            "en": "You should wash your face.",
+            "es": "Deberías lavarte la cara."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 240,
+      "word": "fair hair",
+      "pos": null,
+      "transcription": {
+        "us": "[fer] [her]",
+        "br": "[feə(r)] [heə(r)]",
+        "gb": "[fɛə] [hɛə]"
+      },
+      "translations": {
+        "rus": "светлые волосы",
+        "spa": "pelo rubio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her long fair hair had been shorn.",
+            "ru": "Её длинные светлые волосы были острижены."
+          },
+          {
+            "en": "He had blue eyes and crinkly fair hair.",
+            "ru": "У него были голубые глаза и волнистые светлые волосы."
+          },
+          {
+            "en": "He ran a hand through his mop of fair hair.",
+            "ru": "Он запустил руку в копну своих светлых волос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has blue eyes and fair hair.",
+            "es": "Él tiene los ojos azules y el pelo rubio."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 241,
+      "word": "fat",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[fæt]",
+        "br": "[fæt]",
+        "gb": "[fæt]"
+      },
+      "translations": {
+        "rus": "толстый, жирный, жир",
+        "spa": "gordo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You are a bit fat.",
+            "ru": "Ты немного толстый."
+          },
+          {
+            "en": "He is fat as a bear.",
+            "ru": "Он жирный, как медведь."
+          },
+          {
+            "en": "Where is the fat located?",
+            "ru": "Где находится жир?"
+          },
+          {
+            "en": "I used to be fat.",
+            "ru": "Я раньше был толстым."
+          },
+          {
+            "en": "Did you call me fat?",
+            "ru": "Ты назвал меня жирным?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I used to be fat.",
+            "es": "Solía ser gordo."
+          },
+          {
+            "en": "You are a bit fat.",
+            "es": "Eres un poco gordo."
+          },
+          {
+            "en": "He is fat as a bear.",
+            "es": "Él es gordo como un oso."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 242,
+      "word": "figure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪɡjər]",
+        "br": "[ˈfɪɡə(r)]",
+        "gb": "[ˈfɪgə]"
+      },
+      "translations": {
+        "rus": "фигура, рисунок, цифра",
+        "spa": "la figura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a good figure.",
+            "ru": "У неё хорошая фигура."
+          },
+          {
+            "en": "She bought a scarf printed with a spiral figure.",
+            "ru": "Она купила шарф с рисунком в виде спиралек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Mary has a nice figure.",
+            "es": "Mary tiene una linda figura."
+          },
+          {
+            "en": "He was a tragic figure.",
+            "es": "Era una figura trágica."
+          },
+          {
+            "en": "I saw the figure of a man.",
+            "es": "Vi la figura de un hombre."
+          },
+          {
+            "en": "She has a very good figure.",
+            "es": "Ella tiene muy buena figura."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪŋɡər]",
+        "br": "[ˈfɪŋɡə(r)]",
+        "gb": "[ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "палец (руки)",
+        "spa": "el dedo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You haven't lifted a finger.",
+            "ru": "Ты и пальцем не пошевелил."
+          },
+          {
+            "en": "Pain shot through his finger.",
+            "ru": "Боль пронзила его палец."
+          },
+          {
+            "en": "I've got blisters on my fingers.",
+            "ru": "У меня мозоли на пальцах."
+          },
+          {
+            "en": "I just cut my finger.",
+            "ru": "Я только что порезал себе палец."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have cut my finger.",
+            "es": "Me corté el dedo."
+          },
+          {
+            "en": "A man has ten fingers.",
+            "es": "Un hombre tiene diez dedos."
+          },
+          {
+            "en": "The hand has five fingers.",
+            "es": "La mano tiene cinco dedos."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 243,
+      "word": "flush",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flʌʃ]",
+        "br": "[flʌʃ]",
+        "gb": "[flʌʃ]"
+      },
+      "translations": {
+        "rus": "румянец, краска (от злости, сильной эмоции)",
+        "spa": "el rubor, el sonrojo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "foot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊt]",
+        "br": "[fʊt]",
+        "gb": "[fʊt]"
+      },
+      "translations": {
+        "rus": "нога, стопа",
+        "spa": "el pie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My foot hurts.",
+            "ru": "Моя ступня болит."
+          },
+          {
+            "en": "Stop wiggling your foot.",
+            "ru": "Не качай ногой."
+          },
+          {
+            "en": "Ouch! My foot!",
+            "ru": "Ой! Моя нога!"
+          },
+          {
+            "en": "My right foot is sleeping.",
+            "ru": "Моя правая нога затекла."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are we going on foot?",
+            "es": "¿Vamos a pie?"
+          },
+          {
+            "en": "He went home on foot.",
+            "es": "Él se fue a casa a pie."
+          },
+          {
+            "en": "I have a pain in my foot.",
+            "es": "Me duele el pie."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 51,
+      "word": "forefinger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrfɪŋɡər]",
+        "br": "[ˈfɔːfɪŋɡə(r)]",
+        "gb": "[ˈfɔːfɪŋgə]"
+      },
+      "translations": {
+        "rus": "указательный палец",
+        "spa": "el dedo índice, el índice"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I stabbed at the menu with my forefinger.",
+            "ru": "Я ткнул в меню указательным пальцем."
+          },
+          {
+            "en": "She tapped the box with her forefinger.",
+            "ru": "Она постучала по коробке своим указательным пальцем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 53,
+      "word": "fourth finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrθ] [ˈfɪŋɡər]",
+        "br": "[fɔːθ] [ˈfɪŋɡə(r)]",
+        "gb": "[fɔːθ] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "безымянный палец",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The origin of the selection of the fourth finger as the ring finger is not definitely known.",
+            "ru": "Почему безымянный палец выбран для ношения кольца, доподлинно неизвестно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 245,
+      "word": "freckle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfrekl]",
+        "br": "[ˈfrekl]",
+        "gb": "[frekl]"
+      },
+      "translations": {
+        "rus": "веснушка",
+        "spa": "la peca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have freckles.",
+            "ru": "У меня есть веснушки."
+          },
+          {
+            "en": "His face is riddled with freckles.",
+            "ru": "Его лицо усеяно веснушками."
+          },
+          {
+            "en": "Mary has freckles and red hair.",
+            "ru": "У Мэри веснушки и рыжие волосы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You don't have any freckles.",
+            "es": "Tú no tienes ninguna peca."
+          },
+          {
+            "en": "She has red hair and freckles.",
+            "es": "Tiene el pelo rojo y pecas."
+          },
+          {
+            "en": "Red-haired people tend to have freckles.",
+            "es": "Los pelirrojos tienden a tener pecas."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 246,
+      "word": "fresh",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[freʃ]",
+        "br": "[freʃ]",
+        "gb": "[freʃ]"
+      },
+      "translations": {
+        "rus": "свежий",
+        "spa": "fresco, nuevo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bread is not fresh.",
+            "ru": "Этот хлеб не свежий."
+          },
+          {
+            "en": "The fish was very fresh.",
+            "ru": "Рыба была очень свежей."
+          },
+          {
+            "en": "The air is fresh in the morning.",
+            "ru": "Утром воздух свежий."
+          },
+          {
+            "en": "I eat only fresh vegetables.",
+            "ru": "Я ем только свежие овощи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let in some fresh air.",
+            "es": "Deja entrar algo de aire fresco."
+          },
+          {
+            "en": "Our new teacher is fresh out of college.",
+            "es": "Nuestro nuevo profesor viene recién salido de la universidad."
+          },
+          {
+            "en": "I want some fresh eggs.",
+            "es": "Quiero algunos huevos frescos."
+          },
+          {
+            "en": "He was a fresh face in American politics.",
+            "es": "Él era un rostro nuevo en la política estadounidense."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "food",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 247,
+      "word": "fringe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[frɪndʒ]",
+        "br": "[frɪndʒ]",
+        "gb": "[frɪnʤ]"
+      },
+      "translations": {
+        "rus": "челка",
+        "spa": "el flequillo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 248,
+      "word": "glassy eyes",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈglɑːsɪ] [aɪz]"
+      },
+      "translations": {
+        "rus": "стеклянные глаза",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 249,
+      "word": "good-looking",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌɡʊd] [ˈlʊkɪŋ]",
+        "br": "[ˌɡʊd] [ˈlʊkɪŋ]",
+        "gb": "[gʊd] [ˈlʊkɪŋ]"
+      },
+      "translations": {
+        "rus": "красивый",
+        "spa": "guapo, bien parecido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "He is tall and good-looking.",
+            "es": "Es alto y guapo."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 250,
+      "word": "haircut",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈherkʌt]",
+        "br": "[ˈheəkʌt]",
+        "gb": "[ˈhɛəkʌt]"
+      },
+      "translations": {
+        "rus": "стрижка",
+        "spa": "el corte de pelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need a haircut.",
+            "ru": "Мне нужна стрижка."
+          },
+          {
+            "en": "Do you like my new haircut?",
+            "ru": "Тебе нравится моя новая стрижка?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you like my new haircut?",
+            "es": "¿Te gusta mi nuevo corte de pelo?"
+          },
+          {
+            "en": "I could not help laughing at his haircut.",
+            "es": "No pude evitar reírme de su corte de pelo."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 251,
+      "word": "handsome",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhænsəm]",
+        "br": "[ˈhænsəm]",
+        "gb": "[ˈhænsəm]"
+      },
+      "translations": {
+        "rus": "красивый",
+        "spa": "guapo, bien parecido, apuesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My teacher is handsome, strictly!",
+            "ru": "Мой учитель красавчик, это уж точно!"
+          },
+          {
+            "en": "He looked very handsome in his uniform.",
+            "ru": "В мундире он выглядел очень красиво."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She said that he was handsome.",
+            "es": "Dijo que era guapo."
+          },
+          {
+            "en": "Your sons are quite handsome.",
+            "es": "Tus hijos son bastante guapos."
+          },
+          {
+            "en": "I wish I were as handsome as he.",
+            "es": "Ojalá fuera tan guapo como él."
+          },
+          {
+            "en": "He is neither handsome nor ugly.",
+            "es": "No es ni guapo ni feo."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 252,
+      "word": "height",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haɪt]",
+        "br": "[haɪt]",
+        "gb": "[haɪt]"
+      },
+      "translations": {
+        "rus": "высота, рост",
+        "spa": "la estatura, la altura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am afraid of heights.",
+            "ru": "Я боюсь высоты."
+          },
+          {
+            "en": "What is your height in centimeters?",
+            "ru": "Каков Ваш рост в сантиметрах?"
+          },
+          {
+            "en": "What is the height of this mountain?",
+            "ru": "Какова высота этой горы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am afraid of heights.",
+            "es": "Le temo a las alturas."
+          },
+          {
+            "en": "They are of average height.",
+            "es": "Ellos son de estatura promedio."
+          },
+          {
+            "en": "She's about the same height as you.",
+            "es": "Ella tiene más o menos la misma altura que tú."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "math",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 253,
+      "word": "hooked nose",
+      "pos": null,
+      "transcription": {
+        "us": "[hʊkt] [nəʊz]",
+        "br": "[hʊkt] [nəʊz]",
+        "gb": "[hʊkt] [nəʊz]"
+      },
+      "translations": {
+        "rus": "нос крючком",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 254,
+      "word": "imposing",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪmˈpəʊzɪŋ]",
+        "br": "[ɪmˈpəʊzɪŋ]",
+        "gb": "[ɪmˈpəʊzɪŋ]"
+      },
+      "translations": {
+        "rus": "внушительный, впечатляющий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 64,
+      "word": "index finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪndeks] [ˈfɪŋɡər]",
+        "br": "[ˈɪndeks] [ˈfɪŋɡə(r)]",
+        "gb": "[ˈɪndeks] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "указательный палец",
+        "spa": "el dedo índice, el índice"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He crooked his index finger.",
+            "ru": "Он изогнул указательный палец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 255,
+      "word": "intelligent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈtelɪdʒənt]",
+        "br": "[ɪnˈtelɪdʒənt]",
+        "gb": "[ɪnˈtelɪʤənt]"
+      },
+      "translations": {
+        "rus": "умный, разумный",
+        "spa": "inteligente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Mary is beautiful and intelligent.",
+            "ru": "Мэри красива и умна."
+          },
+          {
+            "en": "Mary's dog is very intelligent.",
+            "ru": "Собака Мэри очень умная."
+          },
+          {
+            "en": "Adams was an intelligent man.",
+            "ru": "Адамс был умным человеком."
+          },
+          {
+            "en": "This girl is the most intelligent.",
+            "ru": "Эта девушка самая умная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is an intelligent boy.",
+            "es": "Él es un chico inteligente."
+          },
+          {
+            "en": "My sister is very intelligent.",
+            "es": "Mi hermana es muy inteligente."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "character",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "knee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[niː]",
+        "br": "[niː]",
+        "gb": "[niː]"
+      },
+      "translations": {
+        "rus": "колено, коленный",
+        "spa": "la rodilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you hurt your knee?",
+            "ru": "Ты повредил колено?"
+          },
+          {
+            "en": "The snow was knee deep.",
+            "ru": "Снег был по колено."
+          },
+          {
+            "en": "He was knee deep in mud.",
+            "ru": "Он был по колено в грязи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He shot him in the knee.",
+            "es": "Le dio un disparo en la rodilla."
+          },
+          {
+            "en": "She felt her knees tremble.",
+            "es": "Ella sentía temblar sus rodillas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 73,
+      "word": "lash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læʃ]",
+        "br": "[læʃ]",
+        "gb": "[læʃ]"
+      },
+      "translations": {
+        "rus": "ресница",
+        "spa": "la pestaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tears rolled over the long lashes.",
+            "ru": "Слезы катились по длинным ресницам."
+          },
+          {
+            "en": "Her eyes were ringed with stiff black lashes.",
+            "ru": "Её глаза обрамляли густые чёрные ресницы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 74,
+      "word": "leg",
+      "pos": "noun",
+      "transcription": {
+        "us": "[leɡ]",
+        "br": "[leɡ]",
+        "gb": "[leg]"
+      },
+      "translations": {
+        "rus": "нога, ножка",
+        "spa": "la pierna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How's your leg?",
+            "ru": "Как твоя нога?"
+          },
+          {
+            "en": "My legs are hurting.",
+            "ru": "У меня болят ноги."
+          },
+          {
+            "en": "A table has four legs.",
+            "ru": "У стола четыре ножки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My legs hurt a lot.",
+            "es": "Me duelen mucho las piernas."
+          },
+          {
+            "en": "The dog bit her leg.",
+            "es": "El perro le mordió la pierna a ella."
+          },
+          {
+            "en": "I broke my right leg.",
+            "es": "Me rompí la pierna derecha."
+          },
+          {
+            "en": "Can you move your legs?",
+            "es": "¿Puede mover las piernas?"
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 76,
+      "word": "little finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtl] [ˈfɪŋɡər]",
+        "br": "[ˈlɪtl] [ˈfɪŋɡə(r)]",
+        "gb": "[lɪtl] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "мизинец руки",
+        "spa": "el dedillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Not a very manly injury, to hurt your little finger.",
+            "ru": "Не мужская это травма - повредить мизинец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 77,
+      "word": "little toe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtl] [təʊ]",
+        "br": "[ˈlɪtl] [təʊ]",
+        "gb": "[lɪtl] [təʊ]"
+      },
+      "translations": {
+        "rus": "мизинец ноги",
+        "spa": "dedo pequeño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a pain in my little toe.",
+            "ru": "У меня болит мизинец на ноге."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 257,
+      "word": "lovely",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlʌvli]",
+        "br": "[ˈlʌvli]",
+        "gb": "[ˈlʌvlɪ]"
+      },
+      "translations": {
+        "rus": "чудесный, восхитительный, очаровательный, красивый, прелестный, прекрасный, милый",
+        "spa": "bonito, precioso, hermoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That sounds lovely.",
+            "ru": "Звучит прекрасно."
+          },
+          {
+            "en": "You looked lovely.",
+            "ru": "Ты выглядел милым."
+          },
+          {
+            "en": "She was lovely.",
+            "ru": "Она была красивой."
+          },
+          {
+            "en": "That would be lovely.",
+            "ru": "Это было бы прекрасно."
+          },
+          {
+            "en": "What lovely puppies they are!",
+            "ru": "Какие милые щеночки!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Isn't it lovely?",
+            "es": "¿Acaso eso no es bonito?"
+          },
+          {
+            "en": "It's a lovely day today.",
+            "es": "Hoy es un bonito día."
+          },
+          {
+            "en": "What lovely flowers!",
+            "es": "¡Qué bonitas son estas flores!"
+          },
+          {
+            "en": "What lovely eyes she has!",
+            "es": "¡Qué ojos más bonitos tiene!"
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 258,
+      "word": "lower lip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈləʊər] [lɪp]",
+        "br": "[ˈləʊə(r)] [lɪp]",
+        "gb": "[ˈləʊə] [lɪp]"
+      },
+      "translations": {
+        "rus": "нижняя губа",
+        "spa": "el labio inferior"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She bit her lower lip.",
+            "ru": "Она прикусила нижнюю губу."
+          },
+          {
+            "en": "Nina chewed her lower lip anxiously.",
+            "ru": "Нина тревожно кусала свою нижнюю губу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 259,
+      "word": "make-up",
+      "pos": "noun",
+      "transcription": {
+        "us": "[meɪk] [ʌp]",
+        "br": "[meɪk] [ʌp]",
+        "gb": "[meɪk] [ʌp]"
+      },
+      "translations": {
+        "rus": "макияж, косметика, грим",
+        "spa": "el maquillaje"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "movie",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 260,
+      "word": "messy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmesi]",
+        "br": "[ˈmesi]",
+        "gb": "[ˈmesɪ]"
+      },
+      "translations": {
+        "rus": "неряшливый, беспорядочный, хаотичный",
+        "spa": "desordenado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Messy writing denotes a messy mind.",
+            "ru": "Неряшливый почерк - признак неряшливого ума."
+          },
+          {
+            "en": "His desk is always messy.",
+            "ru": "У него на письменном столе всегда беспорядок."
+          },
+          {
+            "en": "He is a messy eater.",
+            "ru": "Он не умеет аккуратно есть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "home"
+      ]
+    },
+    {
+      "id": 80,
+      "word": "middle finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪdl] [ˈfɪŋɡər]",
+        "br": "[ˈmɪdl] [ˈfɪŋɡə(r)]",
+        "gb": "[mɪdl] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "средний палец",
+        "spa": "el dedo medio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's like the universe is giving me the big middle finger.",
+            "ru": "Как будто вселенная показала мне огромный средний палец."
+          },
+          {
+            "en": "The middle finger is the longest.",
+            "ru": "Средний палец - самый длинный."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 261,
+      "word": "middle-sized",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mɪdl] [saɪzd]"
+      },
+      "translations": {
+        "rus": "средний",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 262,
+      "word": "moustache",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈstæʃ]",
+        "br": "[məˈstɑːʃ]",
+        "gb": "[məsˈtɑːʃ]"
+      },
+      "translations": {
+        "rus": "усы",
+        "spa": "el bigote"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's shaved off his moustache.",
+            "ru": "Он сбрил свои усы."
+          },
+          {
+            "en": "His teeth gleamed under his moustache.",
+            "ru": "Его зубы сверкнули под усами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 84,
+      "word": "mouth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maʊθ]",
+        "br": "[maʊθ]",
+        "gb": "[maʊθ]"
+      },
+      "translations": {
+        "rus": "рот",
+        "spa": "la boca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He opened his mouth wide.",
+            "ru": "Он разинул рот."
+          },
+          {
+            "en": "He has a big mouth.",
+            "ru": "У него большой рот."
+          },
+          {
+            "en": "We have one mouth only.",
+            "ru": "У нас только один рот."
+          },
+          {
+            "en": "Don't talk with your mouth full.",
+            "ru": "Не разговаривай с набитым ртом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has a big mouth.",
+            "es": "Él tiene una boca grande."
+          },
+          {
+            "en": "Her mouth hurt a lot.",
+            "es": "Le dolía mucho la boca."
+          },
+          {
+            "en": "I kept my mouth shut.",
+            "es": "Mantuve mi boca cerrada."
+          },
+          {
+            "en": "I need to rinse my mouth.",
+            "es": "Necesito enjuagarme la boca."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 263,
+      "word": "mustache",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈstæʃ]",
+        "br": "[məˈstɑːʃ]",
+        "gb": "[məsˈtɑːʃ]"
+      },
+      "translations": {
+        "rus": "усы",
+        "spa": "el bigote"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's shaved off his mustache.",
+            "ru": "Он сбрил свои усы."
+          },
+          {
+            "en": "His teeth gleamed under his mustache.",
+            "ru": "Его зубы сверкнули под усами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 86,
+      "word": "nail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[neɪl]",
+        "br": "[neɪl]",
+        "gb": "[neɪl]"
+      },
+      "translations": {
+        "rus": "ноготь",
+        "spa": "la uña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've broken my nail.",
+            "ru": "Я сломала ноготь."
+          },
+          {
+            "en": "Stop biting your nails!",
+            "ru": "Прекрати грызть ногти!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a broken nail.",
+            "es": "Tengo una uña rota."
+          },
+          {
+            "en": "My nails are too short.",
+            "es": "Tengo las uñas demasiado cortas."
+          },
+          {
+            "en": "Mary chewed on her nails.",
+            "es": "María se comía las uñas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 264,
+      "word": "neat",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[niːt]",
+        "br": "[niːt]",
+        "gb": "[niːt]"
+      },
+      "translations": {
+        "rus": "аккуратный, опрятный, чистый",
+        "spa": "ordenado, limpio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Ellen's room is always neat and tidy.",
+            "ru": "Комната Эллен всегда чистая и прибранная."
+          },
+          {
+            "en": "His hair was uncut but neat.",
+            "ru": "Его волосы были не подстрижены, но аккуратны."
+          },
+          {
+            "en": "Your writing is very neat.",
+            "ru": "У вас очень аккуратный почерк."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 89,
+      "word": "neck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nek]",
+        "br": "[nek]",
+        "gb": "[nek]"
+      },
+      "translations": {
+        "rus": "шея",
+        "spa": "el cuello"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a thick neck.",
+            "ru": "У него толстая шея."
+          },
+          {
+            "en": "My neck hurts a little.",
+            "ru": "Моя шея слегка болит."
+          },
+          {
+            "en": "Today I have neck pain.",
+            "ru": "Сегодня у меня болит шея."
+          },
+          {
+            "en": "My neck snapped when I did a headstand.",
+            "ru": "Моя шея щелкнула, когда я делал стойку на голове."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has a long neck.",
+            "es": "Tiene un cuello muy largo."
+          },
+          {
+            "en": "I have a pain in my neck.",
+            "es": "Tengo un dolor en mi cuello."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 265,
+      "word": "nice",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[naɪs]",
+        "br": "[naɪs]",
+        "gb": "[naɪs]"
+      },
+      "translations": {
+        "rus": "приятный, красивый, хороший",
+        "spa": "simpático, amable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was nice to see you again.",
+            "ru": "Приятно было снова с вами встретиться."
+          },
+          {
+            "en": "Have a nice day!",
+            "ru": "Хорошего дня!"
+          },
+          {
+            "en": "She's a really nice person.",
+            "ru": "Она очень хороший человек."
+          },
+          {
+            "en": "He's a nice guy.",
+            "ru": "Он хороший парень."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm not a nice person.",
+            "es": "No soy una persona simpática."
+          },
+          {
+            "en": "Are you nice to Maria?",
+            "es": "¿Eres amable con María?"
+          },
+          {
+            "en": "He's been so nice to me.",
+            "es": "Es muy simpático conmigo."
+          },
+          {
+            "en": "Mary is a very nice girl.",
+            "es": "Mary es una chica muy simpática."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 266,
+      "word": "nicely dressed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnaɪsli] [drest]",
+        "br": "[ˈnaɪsli] [drest]",
+        "gb": "[ˈnaɪslɪ] [drest]"
+      },
+      "translations": {
+        "rus": "приятно одетый",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was handsome and nicely dressed.",
+            "ru": "Он был красив и хорошо одет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 267,
+      "word": "oval",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈəʊvl]",
+        "br": "[ˈəʊvl]",
+        "gb": "[ˈəʊvəl]"
+      },
+      "translations": {
+        "rus": "овал, овальный",
+        "spa": "ovalado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "math"
+      ]
+    },
+    {
+      "id": 269,
+      "word": "pale",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[peɪl]",
+        "br": "[peɪl]",
+        "gb": "[peɪl]"
+      },
+      "translations": {
+        "rus": "бледный",
+        "spa": "claro, pálido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He looks kind of pale.",
+            "ru": "Он какой-то бледный."
+          },
+          {
+            "en": "Why are you so pale?",
+            "ru": "Ты чего такая бледная?"
+          },
+          {
+            "en": "He turned pale with fear.",
+            "ru": "Он побледнел от страха."
+          },
+          {
+            "en": "You look pale as a ghost.",
+            "ru": "Ты бледный как привидение."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He turned pale the instant he saw her.",
+            "es": "Palideció en cuanto le vio."
+          },
+          {
+            "en": "You look pale as a ghost.",
+            "es": "Te ves tan pálido como un fantasma."
+          },
+          {
+            "en": "When she heard the news, she turned pale.",
+            "es": "Cuando ella escuchó la noticia palideció."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "colors",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 97,
+      "word": "palm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɑːm]",
+        "br": "[pɑːm]",
+        "gb": "[pɑːm]"
+      },
+      "translations": {
+        "rus": "ладонь",
+        "spa": "la palma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She looked at the coins in her palm.",
+            "ru": "Она посмотрела на монеты на своей ладони."
+          },
+          {
+            "en": "She turned her hand over, palm uppermost.",
+            "ru": "Она повернула руку ладонью вверх."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 270,
+      "word": "penciled",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpɛnsəld]"
+      },
+      "translations": {
+        "rus": "нарисованный",
+        "spa": "a lápiz"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 271,
+      "word": "plain",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pleɪn]",
+        "br": "[pleɪn]",
+        "gb": "[pleɪn]"
+      },
+      "translations": {
+        "rus": "простой, однотонный, гладкий",
+        "spa": "sencillo, liso, llano, claro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm just a plain office worker.",
+            "ru": "Я всего лишь простой офисный работник."
+          },
+          {
+            "en": "We have a very small, plain house.",
+            "ru": "У нас простой маленький домик."
+          },
+          {
+            "en": "Mary wore a plain white dress.",
+            "ru": "На Мэри было простое белое платье."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'd prefer a plain frame on these glasses.",
+            "es": "Preferiría un armazón sencillo en estos anteojos."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "home",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 272,
+      "word": "plain-looking",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pleɪn] [ˈlʊkɪŋ]"
+      },
+      "translations": {
+        "rus": "невзрачный",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'd hardly call her plain-looking.",
+            "ru": "Ну, я бы не назвала её серенькой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 273,
+      "word": "plump",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[plʌmp]",
+        "br": "[plʌmp]",
+        "gb": "[plʌmp]"
+      },
+      "translations": {
+        "rus": "пухлый",
+        "spa": "rechoncho, llenito, regordete"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The baby's nice and plump.",
+            "ru": "Ребенок миленький и пухлый."
+          },
+          {
+            "en": "He is plump, not lean.",
+            "ru": "Он толстый, а не худой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I may be plump, but I'm vigorous.",
+            "es": "Podré ser regordete, pero soy vigoroso."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 274,
+      "word": "poorly dressed",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpʊəlɪ] [drest]"
+      },
+      "translations": {
+        "rus": "плохо одетый",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I may be poorly dressed, but I am rich in faith.",
+            "ru": "Может я плохо одета, но я богата верою."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 275,
+      "word": "pretty",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈprɪti]",
+        "br": "[ˈprɪti]",
+        "gb": "[ˈprɪtɪ]"
+      },
+      "translations": {
+        "rus": "красивый, симпатичный, прелестный",
+        "spa": "hermoso, bonito, lindo, guapo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a pretty face.",
+            "ru": "У неё симпатичное личико."
+          },
+          {
+            "en": "This flag is very pretty.",
+            "ru": "Этот флаг очень симпатичный."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a pretty dog.",
+            "es": "Tengo un perro bonito."
+          },
+          {
+            "en": "You are a pretty girl.",
+            "es": "Eres una linda chica."
+          },
+          {
+            "en": "Do you find me pretty?",
+            "es": "¿Me encuentras bonita?"
+          },
+          {
+            "en": "I want to look pretty!",
+            "es": "¡Quiero verme bonita!"
+          },
+          {
+            "en": "How pretty you look today!",
+            "es": "¡Qué bonita estás hoy!"
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 276,
+      "word": "pretty short",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈprɪti] [ʃɔːrt]",
+        "br": "[ˈprɪti] [ʃɔːt]",
+        "gb": "[ˈprɪtɪ] [ʃɔːt]"
+      },
+      "translations": {
+        "rus": "довольно низкий",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The baby who mugged me was pretty short.",
+            "ru": "Ребёнок, обворовавший меня, был довольно низким."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 277,
+      "word": "pretty tall",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈprɪti] [tɔːl]",
+        "br": "[ˈprɪti] [tɔːl]",
+        "gb": "[ˈprɪtɪ] [tɔːl]"
+      },
+      "translations": {
+        "rus": "довольно высокий",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He's a white guy, pretty tall, dark hair.",
+            "ru": "Белый мужчина, довольно высокий, темноволосый."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 278,
+      "word": "prominent ears",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈprɔmɪnənt] [ɪrz]"
+      },
+      "translations": {
+        "rus": "оттопыренные уши",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 103,
+      "word": "ring finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪŋ] [ˈfɪŋɡər]",
+        "br": "[rɪŋ] [ˈfɪŋɡə(r)]",
+        "gb": "[rɪŋ] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "безымянный палец (на котором носят кольцо)",
+        "spa": "el dedo anular"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The origin of the selection of the fourth finger as the ring finger is not definitely known.",
+            "ru": "Почему безымянный палец выбран для ношения кольца, доподлинно неизвестно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 280,
+      "word": "round",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[raʊnd]",
+        "br": "[raʊnd]",
+        "gb": "[raʊnd]"
+      },
+      "translations": {
+        "rus": "круглый, раунд, тур",
+        "spa": "redondo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a round face.",
+            "ru": "У неё круглое лицо."
+          },
+          {
+            "en": "We bought a round table.",
+            "ru": "Мы купили круглый стол."
+          },
+          {
+            "en": "The soccer ball is round.",
+            "ru": "Футбольный мяч круглый."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a round face.",
+            "es": "Ella tiene la cara redonda."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 282,
+      "word": "scruffy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈskrʌfi]",
+        "br": "[ˈskrʌfi]",
+        "gb": "[ˈskrʌfɪ]"
+      },
+      "translations": {
+        "rus": "неряшливый",
+        "spa": "desaliñado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Dressed in scruffy old clothes.",
+            "ru": "Одетый в старую потрёпанную одежду."
+          },
+          {
+            "en": "Then you won't look so scruffy and horrid.",
+            "ru": "Тогда вы не будете выглядеть таким неряшливым и страшным."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 283,
+      "word": "short",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʃɔːrt]",
+        "br": "[ʃɔːt]",
+        "gb": "[ʃɔːt]"
+      },
+      "translations": {
+        "rus": "низкий, короткий, песочный (о тесте)",
+        "spa": "corto, bajo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is short, but strong.",
+            "ru": "Он низкий, но сильный."
+          },
+          {
+            "en": "He will be back shortly.",
+            "ru": "Он скоро вернётся."
+          },
+          {
+            "en": "She seems short beside her sister.",
+            "ru": "Она кажется низкой рядом со своей сестрой."
+          },
+          {
+            "en": "The short answer is no.",
+            "ru": "Короткий ответ — нет."
+          },
+          {
+            "en": "They are short and thin.",
+            "ru": "Они короткие и узкие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I gave a short talk.",
+            "es": "Di un paseo corto."
+          },
+          {
+            "en": "He is short, but strong.",
+            "es": "Él es bajo, pero fuerte."
+          },
+          {
+            "en": "We ran short of money.",
+            "es": "Estamos cortos de dinero."
+          },
+          {
+            "en": "Her hair is very short.",
+            "es": "Ella tiene el pelo muy corto."
+          },
+          {
+            "en": "My pants are too short.",
+            "es": "Mis pantalones son demasiado cortos."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "clothing",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 284,
+      "word": "slim",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[slɪm]",
+        "br": "[slɪm]",
+        "gb": "[slɪm]"
+      },
+      "translations": {
+        "rus": "тонкий, стройный, худой, изящный",
+        "spa": "delgado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is slimming.",
+            "ru": "Она худеет."
+          },
+          {
+            "en": "He has a slim build.",
+            "ru": "У него худощавое телосложение."
+          },
+          {
+            "en": "How do you manage to stay so slim?",
+            "ru": "Как вам удается оставаться такой стройной?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 285,
+      "word": "snow-white",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[snəʊ] [waɪt]",
+        "br": "[snəʊ] [waɪt]",
+        "gb": "[snəʊ] [waɪt]"
+      },
+      "translations": {
+        "rus": "белоснежный",
+        "spa": "blanco como la nieve"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "colors"
+      ]
+    },
+    {
+      "id": 286,
+      "word": "sparse hair",
+      "pos": null,
+      "transcription": {
+        "us": "[spɑːrs] [her]",
+        "br": "[spɑːs] [heə(r)]",
+        "gb": "[spɑːs] [hɛə]"
+      },
+      "translations": {
+        "rus": "редкие волосы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 287,
+      "word": "splendid hair",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈsplendɪd] [her]",
+        "br": "[ˈsplendɪd] [heə(r)]",
+        "gb": "[ˈsplendɪd] [hɛə]"
+      },
+      "translations": {
+        "rus": "великолепные волосы",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Rapunzel had splendid long hair.",
+            "ru": "У Рапунцель были шикарные длинные волосы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 288,
+      "word": "square",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[skwer]",
+        "br": "[skweə(r)]",
+        "gb": "[skwɛə]"
+      },
+      "translations": {
+        "rus": "квадрат, квадратный",
+        "spa": "el cuadrado, cuadrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has square shoulders.",
+            "ru": "У него квадратные плечи."
+          },
+          {
+            "en": "It's a square, not a cube.",
+            "ru": "Это квадрат, а не куб."
+          }
+        ],
+        "spa": [
+          {
+            "en": "A square has four sides.",
+            "es": "Un cuadrado tiene cuatro lados."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "math",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 289,
+      "word": "stinky",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈstɪŋki]",
+        "br": "[ˈstɪŋki]",
+        "gb": "[ˈstɪŋkɪ]"
+      },
+      "translations": {
+        "rus": "вонючий",
+        "spa": "apestoso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stinky cigarette smoke.",
+            "ru": "Вонючий сигаретный дым."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's really stinky.",
+            "es": "Es realmente apestoso."
+          },
+          {
+            "en": "The cellar is ugly, dark, and stinky.",
+            "es": "El sótano es feo, oscuro y apestoso."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 290,
+      "word": "stooping",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈstuːpɪŋ]"
+      },
+      "translations": {
+        "rus": "согнутый, сутулый",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The old man was stooping but he could walk around without a cane.",
+            "ru": "Старик сутулился, но мог передвигаться без трости."
+          },
+          {
+            "en": "Stooping down to pick up the pen, Jim felt a sharp pain in his back.",
+            "ru": "Когда Джим наклонился, чтобы поднять ручку, он почувствовал острую боль в спине."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 291,
+      "word": "stout",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[staʊt]",
+        "br": "[staʊt]",
+        "gb": "[staʊt]"
+      },
+      "translations": {
+        "rus": "полный, крепкий, толстый, толстяк",
+        "spa": "robusto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stout middle-aged man.",
+            "ru": "Полный мужчина среднего возраста."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 292,
+      "word": "straight",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[streɪt]",
+        "br": "[streɪt]",
+        "gb": "[streɪt]"
+      },
+      "translations": {
+        "rus": "прямой, прямо, сразу",
+        "spa": "recto, derecho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was sitting up straight.",
+            "ru": "Он сидел прямо."
+          },
+          {
+            "en": "We went straight to bed.",
+            "ru": "Мы сразу пошли спать."
+          },
+          {
+            "en": "Guide us to the straight way.",
+            "ru": "Веди нас прямым путём."
+          },
+          {
+            "en": "We will eat, and then go straight to bed.",
+            "ru": "Мы поедим и сразу пойдём спать."
+          },
+          {
+            "en": "Show us the straight path.",
+            "ru": "Покажи нам прямую дорогу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Go straight on.",
+            "es": "Ve recto."
+          },
+          {
+            "en": "Sit up straight.",
+            "es": "Siéntate derecho."
+          },
+          {
+            "en": "He drew a straight line on the wall.",
+            "es": "Trazó una línea recta en la pared."
+          },
+          {
+            "en": "I went straight to bed.",
+            "es": "Fui derecho a la cama."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 293,
+      "word": "stubble",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstʌbl]",
+        "br": "[ˈstʌbl]",
+        "gb": "[stʌbl]"
+      },
+      "translations": {
+        "rus": "щетина",
+        "spa": "el rastrojo, la barba de varios días"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 294,
+      "word": "tall",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[tɔːl]",
+        "br": "[tɔːl]",
+        "gb": "[tɔːl]"
+      },
+      "translations": {
+        "rus": "высокий",
+        "spa": "alto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is not so tall.",
+            "ru": "Он не такой высокий."
+          },
+          {
+            "en": "What a tall tree it is!",
+            "ru": "Какое высокое дерево!"
+          },
+          {
+            "en": "He is as tall as her.",
+            "ru": "Он так же высок, как и она."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is tall and strong.",
+            "es": "Él es alto y fuerte."
+          },
+          {
+            "en": "Are you as tall as me?",
+            "es": "¿Es usted tan alto como yo?"
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 295,
+      "word": "thin",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[θɪn]",
+        "br": "[θɪn]",
+        "gb": "[θɪn]"
+      },
+      "translations": {
+        "rus": "худой, тонкий",
+        "spa": "delgado, fino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I used to be thin.",
+            "ru": "Я раньше был худым."
+          },
+          {
+            "en": "The walls are very thin.",
+            "ru": "Стены очень тонкие."
+          },
+          {
+            "en": "Why are you so thin?",
+            "ru": "Почему ты такой худой?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Mary is tall and thin.",
+            "es": "Mary es alta y delgada."
+          },
+          {
+            "en": "This thin book is mine.",
+            "es": "Este delgado libro es mío."
+          },
+          {
+            "en": "My uncle is thin, but my aunt is fat.",
+            "es": "Mi tío está delgado, pero mi tía está gorda."
+          },
+          {
+            "en": "He's so thin that he looks like a skeleton.",
+            "es": "Él está tan delgado que parece un saco de huesos."
+          },
+          {
+            "en": "Muscles are made of hundreds of thin fibers.",
+            "es": "Los músculos están conformados por cientos de delgadas fibras."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 117,
+      "word": "thumb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θʌm]",
+        "br": "[θʌm]",
+        "gb": "[θʌm]"
+      },
+      "translations": {
+        "rus": "большой палец (руки)",
+        "spa": "el dedo pulgar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Press your thumb on this spot.",
+            "ru": "Прижмите свой большой палец к этому месту."
+          },
+          {
+            "en": "I accidentally cut my thumb.",
+            "ru": "Я случайно порезал большой палец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 213,
+      "word": "to arrange hair",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈreɪndʒ] [her]",
+        "br": "[tu] [əˈreɪndʒ] [heə(r)]",
+        "gb": "[tuː] [əˈreɪnʤ] [hɛə]"
+      },
+      "translations": {
+        "rus": "делать прическу",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They dress me and arrange my hair.",
+            "ru": "Они меня одевают и причесывают."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 226,
+      "word": "to clean",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kliːn]",
+        "br": "[tə] [kliːn]",
+        "gb": "[tuː] [kliːn]"
+      },
+      "translations": {
+        "rus": "убирать, чистить, прибираться",
+        "spa": "limpiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have finished cleaning my room.",
+            "ru": "Я закончил прибирать свою комнату."
+          },
+          {
+            "en": "Did you clean your room?",
+            "ru": "Ты убрался у себя в комнате?"
+          },
+          {
+            "en": "Why do you never clean up after yourself?",
+            "ru": "Почему ты никогда не прибираешься за собой?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't like to clean.",
+            "es": "No me gusta limpiar."
+          },
+          {
+            "en": "I will clean this up later.",
+            "es": "Lo limpiaré más tarde."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "basic_verbs",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 239,
+      "word": "to dye hair",
+      "pos": null,
+      "transcription": {
+        "us": "[tə] [daɪ] [her]",
+        "br": "[tə] [daɪ] [heə(r)]",
+        "gb": "[tuː] [daɪ] [hɛə]"
+      },
+      "translations": {
+        "rus": "красить волосы",
+        "spa": "teñir el cabello"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's hard to guess his age because he dyes his hair.",
+            "ru": "Сложно предположить его возраст, потому что он красит свои волосы."
+          },
+          {
+            "en": "You can tell that she dyes her hair blonde because her dark roots are showing.",
+            "ru": "То, что она осветляет волосы краской, понятно по виднеющимся тёмным корням."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 244,
+      "word": "to flush",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [flʌʃ]",
+        "br": "[tə] [flʌʃ]",
+        "gb": "[tuː] [flʌʃ]"
+      },
+      "translations": {
+        "rus": "краснеть (от злости, сильной эмоции)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He flushed angrily.",
+            "ru": "Он покраснел от злости."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 256,
+      "word": "to keep fit",
+      "pos": null,
+      "transcription": {
+        "us": "[tə] [kiːp] [fɪt]",
+        "br": "[tə] [kiːp] [fɪt]",
+        "gb": "[tuː] [kiːp] [fɪt]"
+      },
+      "translations": {
+        "rus": "держать форму",
+        "spa": "mantenerse en forma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He cycles to work to keep fit.",
+            "ru": "Он ездит на работу на велосипеде, чтобы поддерживать себя в форме."
+          },
+          {
+            "en": "I swim twice a week to keep fit.",
+            "ru": "Я плаваю два раза в неделю, чтобы поддерживать себя в форме."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 268,
+      "word": "to paint cheeks, to rouge cheeks",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [peɪnt] [ʧiks] [tuː] [ruːʒ] [ʧiks]"
+      },
+      "translations": {
+        "rus": "красить щеки",
+        "spa": "maquillarse las mejillas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 279,
+      "word": "to put on lipstick",
+      "pos": null,
+      "transcription": {
+        "us": "[tə] [pʊt] [ɑːn] [ˈlɪpstɪk]",
+        "br": "[tə] [pʊt] [ɒn] [ˈlɪpstɪk]",
+        "gb": "[tuː] [pʊt] [ɔn] [ˈlɪpstɪk]"
+      },
+      "translations": {
+        "rus": "красить губы",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I put on some lipstick.",
+            "ru": "Я слегка накрасила губы помадой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 281,
+      "word": "to round",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [raʊnd]",
+        "br": "[tə] [raʊnd]",
+        "gb": "[tuː] [raʊnd]"
+      },
+      "translations": {
+        "rus": "округлять",
+        "spa": "redondear"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Round off the edges a little.",
+            "ru": "Закруглите слегка края."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "top1000"
+      ]
+    },
+    {
+      "id": 119,
+      "word": "toe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[təʊ]",
+        "br": "[təʊ]",
+        "gb": "[təʊ]"
+      },
+      "translations": {
+        "rus": "палец ноги",
+        "spa": "el dedo del pie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My sock has a hole in the toe.",
+            "ru": "У меня дырка на носке, где палец."
+          },
+          {
+            "en": "I accidentally stepped on her toe.",
+            "ru": "Я случайно наступил ей на палец ноги."
+          },
+          {
+            "en": "I stubbed my toe on the table's leg.",
+            "ru": "Я ударился пальцем о ножку стола."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My toe began to bleed.",
+            "es": "Mi dedo del pie empezó a sangrar."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 120,
+      "word": "tongue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʌŋ]",
+        "br": "[tʌŋ]",
+        "gb": "[tʌŋ]"
+      },
+      "translations": {
+        "rus": "язык",
+        "spa": "la lengua"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Ouch! I bit my tongue!",
+            "ru": "Ай! Я прикусил язык!"
+          },
+          {
+            "en": "She has a sharp tongue.",
+            "ru": "У неё острый язык."
+          },
+          {
+            "en": "Linda stuck her tongue out.",
+            "ru": "Линда высунула язык."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ouch! I bit my tongue.",
+            "es": "Ouch! Me mordí la lengua."
+          },
+          {
+            "en": "Let me see your tongue.",
+            "es": "Enséñame la lengua."
+          },
+          {
+            "en": "The chili burnt my tongue.",
+            "es": "El chile me quemó la lengua."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 296,
+      "word": "turned up",
+      "pos": null,
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tɜːnd] [ʌp]"
+      },
+      "translations": {
+        "rus": "вздернутый (нос)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Very tall and lean, with a dark complexion and a little turned-up nose.",
+            "ru": "Очень высокий, очень стройный со смуглой кожей небольшой вздёрнутый нос."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 297,
+      "word": "ugly",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈʌɡli]",
+        "br": "[ˈʌɡli]",
+        "gb": "[ˈʌglɪ]"
+      },
+      "translations": {
+        "rus": "уродливый, безобразный",
+        "spa": "feo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This statue is ugly.",
+            "ru": "Эта статуя уродлива."
+          },
+          {
+            "en": "You look ugly.",
+            "ru": "Ты безобразно выглядишь."
+          },
+          {
+            "en": "He has an ugly disposition.",
+            "ru": "У него безобразный характер."
+          },
+          {
+            "en": "Do you think I'm ugly?",
+            "ru": "Вы считаете меня безобразным?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is old and ugly.",
+            "es": "Él es viejo y feo."
+          },
+          {
+            "en": "Do you think I'm ugly?",
+            "es": "¿Crees que soy feo?"
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 298,
+      "word": "unattractive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnəˈtræktɪv]",
+        "br": "[ˌʌnəˈtræktɪv]",
+        "gb": "[ʌnəˈtræktɪv]"
+      },
+      "translations": {
+        "rus": "непривлекательный",
+        "spa": "poco atractivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Never thought it'd be so unattractive.",
+            "ru": "Никогда не думал, что оно будет столь непривлекательным."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Mary is unattractive.",
+            "es": "Mary es poco atractiva."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 299,
+      "word": "unpleasant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʌnˈpleznt]",
+        "br": "[ʌnˈpleznt]",
+        "gb": "[ʌnˈpleznt]"
+      },
+      "translations": {
+        "rus": "неприятный",
+        "spa": "desagradable, antipático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The smell was unpleasant.",
+            "ru": "Запах был неприятный."
+          },
+          {
+            "en": "I'm really unpleasant.",
+            "ru": "Я в самом деле неприятен."
+          },
+          {
+            "en": "That was unpleasant to me.",
+            "ru": "Мне это было неприятно."
+          },
+          {
+            "en": "I've got some unpleasant news.",
+            "ru": "У меня неприятные новости."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 300,
+      "word": "unprepossessing",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnˌpriːpəˈzesɪŋ]",
+        "br": "[ˌʌnˌpriːpəˈzesɪŋ]",
+        "gb": "[ʌnpriːpəˈzesɪŋ]"
+      },
+      "translations": {
+        "rus": "непривлекательный, не располагающий к себе, невзрачный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 301,
+      "word": "untidy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʌnˈtaɪdi]",
+        "br": "[ʌnˈtaɪdi]",
+        "gb": "[ʌnˈtaɪdɪ]"
+      },
+      "translations": {
+        "rus": "неопрятный",
+        "spa": "desordenado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her room was untidy, but that was quite normal.",
+            "ru": "В её комнате было неприбрано, но это было в порядке вещей."
+          },
+          {
+            "en": "Things were in an untidy state.",
+            "ru": "Все вещи были в беспорядке."
+          },
+          {
+            "en": "Your maid, that untidy little cripple?",
+            "ru": "Твоя горничная - эта неряшливая хромоножка?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 302,
+      "word": "upper lip",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈʌpər] [lɪp]",
+        "br": "[ˈʌpə(r)] [lɪp]",
+        "gb": "[ˈʌpə] [lɪp]"
+      },
+      "translations": {
+        "rus": "верхняя губа",
+        "spa": "el labio superior"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "A mustache grows on the upper lip.",
+            "es": "Un bigote crece en el labio superior."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 129,
+      "word": "waist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪst]",
+        "br": "[weɪst]",
+        "gb": "[weɪst]"
+      },
+      "translations": {
+        "rus": "талия, пояс",
+        "spa": "la cintura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He put his arm around her waist.",
+            "ru": "Он обнял ее за талию."
+          },
+          {
+            "en": "She wore a belt around her waist.",
+            "ru": "Она носила пояс вокруг талии."
+          },
+          {
+            "en": "He has a narrow waist and broad shoulders.",
+            "ru": "У него узкая талия и широкие плечи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a small waist.",
+            "es": "Tiene una cintura muy pequeña."
+          },
+          {
+            "en": "What is your waist size?",
+            "es": "¿Cuál es tu medida de cintura?"
+          },
+          {
+            "en": "He put his arm around my waist.",
+            "es": "Puso su brazo alrededor de mi cintura."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 303,
+      "word": "wavy hair",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈweɪvi] [her]",
+        "br": "[ˈweɪvi] [heə(r)]",
+        "gb": "[ˈweɪvɪ] [hɛə]"
+      },
+      "translations": {
+        "rus": "волнистые волосы",
+        "spa": "el pelo ondulado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her long wavy hair was tied back with a bow.",
+            "ru": "Её длинные волнистые волосы были перевязаны бантиком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 304,
+      "word": "weight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪt]",
+        "br": "[weɪt]",
+        "gb": "[weɪt]"
+      },
+      "translations": {
+        "rus": "вес",
+        "spa": "el peso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How do I gain weight?",
+            "ru": "Как мне набрать вес?"
+          },
+          {
+            "en": "I want to lose weight.",
+            "ru": "Я хочу сбросить вес."
+          },
+          {
+            "en": "What's the weight of your suitcase?",
+            "ru": "Каков вес твоего чемодана?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "How do I gain weight?",
+            "es": "¿Cómo hago para ganar peso?"
+          },
+          {
+            "en": "I want to lose weight.",
+            "es": "Quiero perder peso."
+          },
+          {
+            "en": "I've lost a little weight.",
+            "es": "Perdí un poco de peso."
+          }
+        ]
+      },
+      "categories": [
+        "appearance",
+        "business",
+        "health",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 305,
+      "word": "well-dressed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[wel] [drest]",
+        "br": "[wel] [drest]",
+        "gb": "[wel] [drest]"
+      },
+      "translations": {
+        "rus": "хорошо одетый",
+        "spa": "bien vestido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "At the party, everybody was well-dressed.",
+            "ru": "На вечеринке все были хорошо одеты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "At the party, everybody was well-dressed.",
+            "es": "Todos estaban bien vestidos en la fiesta."
+          }
+        ]
+      },
+      "categories": [
+        "appearance"
+      ]
+    },
+    {
+      "id": 131,
+      "word": "wrist",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[rɪst]",
+        "br": "[rɪst]",
+        "gb": "[rɪst]"
+      },
+      "translations": {
+        "rus": "запястье, наручный",
+        "spa": "la muñeca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She had a gold watch on her wrist.",
+            "ru": "У неё были золотые часы на запястье."
+          },
+          {
+            "en": "The ball hit him hard on the wrist.",
+            "ru": "Мяч сильно ударил его по запястью."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He seized me by the wrist.",
+            "es": "Él me agarró por la muñeca."
+          },
+          {
+            "en": "I fell down and hurt my wrist.",
+            "es": "Me caí y me hice daño en la muñeca."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford5000_b2"
+      ]
+    }
+  ]
+}

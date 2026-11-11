@@ -1,0 +1,5794 @@
+{
+  "category": {
+    "id": "career",
+    "name_rus": "Карьера",
+    "type": "topic",
+    "word_count": 195
+  },
+  "words": [
+    {
+      "id": 1697,
+      "word": "accountant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkaʊntənt]",
+        "br": "[əˈkaʊntənt]",
+        "gb": "[əˈkaʊntənt]"
+      },
+      "translations": {
+        "rus": "бухгалтер",
+        "spa": "el contador, el contable"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My brother's studying to be an accountant.",
+            "ru": "Мой брат учится на бухгалтера."
+          },
+          {
+            "en": "She currently acts as accountant.",
+            "ru": "В данный момент она исполняет функции бухгалтера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1698,
+      "word": "actor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæktər]",
+        "br": "[ˈæktə(r)]",
+        "gb": "[ˈæktə]"
+      },
+      "translations": {
+        "rus": "актер",
+        "spa": "el actor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to be an actor.",
+            "ru": "Я хочу быть актёром."
+          },
+          {
+            "en": "My dad was an actor.",
+            "ru": "Мой папа был актёром."
+          },
+          {
+            "en": "The actor is making up.",
+            "ru": "Актёр гримируется."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The actor is putting on makeup.",
+            "es": "El actor se está maquillando."
+          },
+          {
+            "en": "The actor played the part with feeling.",
+            "es": "El actor hizo su papel con emoción."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "movie",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1699,
+      "word": "actress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæktrəs]",
+        "br": "[ˈæktrəs]",
+        "gb": "[ˈæktrɪs]"
+      },
+      "translations": {
+        "rus": "актриса",
+        "spa": "la actriz"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She dressed like an actress.",
+            "ru": "Она одевалась как актриса."
+          },
+          {
+            "en": "You'll never be an actress.",
+            "ru": "Ты никогда не станешь актрисой."
+          },
+          {
+            "en": "That actress is as beautiful as ever.",
+            "ru": "Эта актриса как всегда красива."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The audience applauded the actress.",
+            "es": "El público aplaudió a la actriz."
+          },
+          {
+            "en": "Besides being an actress, she was a famous painter.",
+            "es": "Ella no solo era una actriz, además era una famosa pintora."
+          },
+          {
+            "en": "It's said that she's a well-known actress.",
+            "es": "Oí que ella es una actriz famosa."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "movie",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 1700,
+      "word": "additional payment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈdɪʃənl] [ˈpeɪmənt]",
+        "br": "[əˈdɪʃənl] [ˈpeɪmənt]",
+        "gb": "[əˈdɪʃənl] [ˈpeɪmənt]"
+      },
+      "translations": {
+        "rus": "доплата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1701,
+      "word": "administrative assistant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˈmɪnɪstreɪtɪv] [əˈsɪstənt]",
+        "br": "[ədˈmɪnɪstrətɪv] [əˈsɪstənt]",
+        "gb": "[ədˈmɪnɪstrətɪv] [əˈsɪstənt]"
+      },
+      "translations": {
+        "rus": "помощник менеджера",
+        "spa": "el asistente administrativo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1702,
+      "word": "administrator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˈmɪnɪstreɪtər]",
+        "br": "[ədˈmɪnɪstreɪtə(r)]",
+        "gb": "[ədˈmɪnɪstreɪtə]"
+      },
+      "translations": {
+        "rus": "администратор",
+        "spa": "el administrador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1703,
+      "word": "advance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˈvæns]",
+        "br": "[ədˈvɑːns]",
+        "gb": "[ədˈvɑːns]"
+      },
+      "translations": {
+        "rus": "продвижение, аванс",
+        "spa": "el avance, el progreso, el adelanto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He borrowed the money in advance.",
+            "ru": "Он взял аванс."
+          },
+          {
+            "en": "Get ready in advance.",
+            "ru": "Готовьтесь заранее."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1314,
+      "word": "agent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɪdʒənt]",
+        "br": "[ˈeɪdʒənt]",
+        "gb": "[ˈeɪʤənt]"
+      },
+      "translations": {
+        "rus": "агент",
+        "spa": "el agente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is an FBI agent.",
+            "ru": "Он - агент ФБР."
+          },
+          {
+            "en": "She's a real estate agent.",
+            "ru": "Она - агент по недвижимости."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's ask a travel agent.",
+            "es": "Preguntémosle a un agente de viajes."
+          },
+          {
+            "en": "Tom is Mary's real estate agent.",
+            "es": "Tom es el agente inmobiliario de Mary."
+          },
+          {
+            "en": "Under what name did you work as agent?",
+            "es": "¿Bajo qué nombre trabajaste como agente?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1704,
+      "word": "agronomist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈɡrɑːnəmɪst]",
+        "br": "[əˈɡrɒnəmɪst]",
+        "gb": "[əgˈrɔnəmɪst]"
+      },
+      "translations": {
+        "rus": "агроном",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1705,
+      "word": "analyst",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈænəlɪst]",
+        "br": "[ˈænəlɪst]",
+        "gb": "[ˈænəlɪst]"
+      },
+      "translations": {
+        "rus": "аналитик",
+        "spa": "el analista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tom is a financial analyst.",
+            "ru": "Том - финансовый аналитик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1706,
+      "word": "announcer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈnaʊnsər]",
+        "br": "[əˈnaʊnsə(r)]",
+        "gb": "[əˈnaʊnsə]"
+      },
+      "translations": {
+        "rus": "диктор",
+        "spa": "la locutora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1707,
+      "word": "anthropologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌænθrəˈpɑːlədʒɪst]",
+        "br": "[ˌænθrəˈpɒlədʒɪst]",
+        "gb": "[ænθrəˈpɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "антрополог",
+        "spa": "el antropólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1708,
+      "word": "application",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌæplɪˈkeɪʃn]",
+        "br": "[ˌæplɪˈkeɪʃn]",
+        "gb": "[æplɪˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "заявление, заявка",
+        "spa": "la solicitud"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He sent in his application to the office.",
+            "ru": "Он подал своё заявление в офис."
+          },
+          {
+            "en": "Please fax me the application form.",
+            "ru": "Отправьте мне по факсу бланк заявления."
+          },
+          {
+            "en": "The company accepted his application.",
+            "ru": "Компания приняла его заявление о приёме на работу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fill out the application.",
+            "es": "Llene usted el pliego de solicitud."
+          },
+          {
+            "en": "Applications are due by Monday.",
+            "es": "Las solicitudes vencen el lunes."
+          },
+          {
+            "en": "The company accepted his application.",
+            "es": "La compañía aceptó su solicitud."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1709,
+      "word": "appointment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈpɔɪntmənt]",
+        "br": "[əˈpɔɪntmənt]",
+        "gb": "[əˈpɔɪntmənt]"
+      },
+      "translations": {
+        "rus": "деловая встреча, назначение",
+        "spa": "la cita, la hora, el nombramiento, el puesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have an appointment at 3.",
+            "ru": "У меня назначена встреча на 3 часа."
+          },
+          {
+            "en": "Do you have an appointment?",
+            "ru": "Вам назначено?"
+          },
+          {
+            "en": "He accepted his appointment as chairman.",
+            "ru": "Он принял своё назначение на пост председателя."
+          },
+          {
+            "en": "My appointment is at 2:30.",
+            "ru": "Моя встреча назначена на 2:30."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He didn't keep his appointment.",
+            "es": "No acudió a la cita."
+          },
+          {
+            "en": "I took a bus so I wouldn't be late for my appointment.",
+            "es": "Me fui en bus para no llegar tarde a la cita."
+          },
+          {
+            "en": "I am sorry to cancel the appointment at the last minute.",
+            "es": "Lamento cancelar la cita a última hora."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 310,
+      "word": "archaeologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒɪst]",
+        "br": "[ˌɑːkiˈɒlədʒɪst]",
+        "gb": "[ɑːkɪˈɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "археолог",
+        "spa": "el arqueólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "career"
+      ]
+    },
+    {
+      "id": 312,
+      "word": "archeologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrkiˈɑːlədʒɪst]",
+        "br": "[ˌɑːkiˈɒlədʒɪst]",
+        "gb": "[ɑːkɪˈɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "археолог",
+        "spa": "el arqueólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "career"
+      ]
+    },
+    {
+      "id": 384,
+      "word": "architect",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrkɪtekt]",
+        "br": "[ˈɑːkɪtekt]",
+        "gb": "[ˈɑːkɪtekt]"
+      },
+      "translations": {
+        "rus": "архитектор",
+        "spa": "el arquitecto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is the architect?",
+            "ru": "Кто архитектор?"
+          },
+          {
+            "en": "I hope to become an architect.",
+            "ru": "Я надеюсь стать архитектором."
+          },
+          {
+            "en": "I have a brother who's an architect.",
+            "ru": "У меня есть брат-архитектор."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 473,
+      "word": "artist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtɪst]",
+        "br": "[ˈɑːtɪst]",
+        "gb": "[ˈɑːtɪst]"
+      },
+      "translations": {
+        "rus": "художник (в широком смысле)",
+        "spa": "el artista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has an artist's eye.",
+            "ru": "У него глаз художника."
+          },
+          {
+            "en": "He was made to be an artist.",
+            "ru": "Ему суждено было стать художником."
+          },
+          {
+            "en": "He is something of an artist.",
+            "ru": "Он в некотором роде художник."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a famous artist.",
+            "es": "Él es un artista famoso."
+          },
+          {
+            "en": "You are a very good artist.",
+            "es": "Eres un muy buen artista."
+          },
+          {
+            "en": "He is something of an artist.",
+            "es": "Él tiene algo de artista."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "career",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1710,
+      "word": "assembler",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈsemblər]",
+        "br": "[əˈsemblə(r)]",
+        "gb": "[əˈsemblər]"
+      },
+      "translations": {
+        "rus": "сборщик",
+        "spa": "el ensamblador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1711,
+      "word": "astronomer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈstrɑːnəmər]",
+        "br": "[əˈstrɒnəmə(r)]",
+        "gb": "[əsˈtrɔnəmə]"
+      },
+      "translations": {
+        "rus": "астроном",
+        "spa": "el astrónomo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1712,
+      "word": "attorney",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈtɜːrni]",
+        "br": "[əˈtɜːni]",
+        "gb": "[əˈtɜːnɪ]"
+      },
+      "translations": {
+        "rus": "адвокат, юрист",
+        "spa": "el abogado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "If you want to take it further, you should consult an attorney.",
+            "ru": "Если хотите большего, вы должны проконсультироваться с адвокатом."
+          },
+          {
+            "en": "I can give you the address of a good attorney.",
+            "ru": "Я могу дать вам адрес хорошего адвоката."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1713,
+      "word": "author",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːθər]",
+        "br": "[ˈɔːθə(r)]",
+        "gb": "[ˈɔːθə]"
+      },
+      "translations": {
+        "rus": "автор, писатель",
+        "spa": "el autor, el escritor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The author doesn't display much talent in his book.",
+            "ru": "Автор не демонстрирует большого таланта в своей книге."
+          },
+          {
+            "en": "The author's name is familiar to us.",
+            "ru": "Имя автора нам знакомо."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ogai is his favorite author.",
+            "es": "Ogai es su autor favorito."
+          },
+          {
+            "en": "I read a lot of modern authors.",
+            "es": "Leí muchos autores modernos."
+          },
+          {
+            "en": "He is the author of the article.",
+            "es": "Es el autor del artículo."
+          },
+          {
+            "en": "Are you the author of this book?",
+            "es": "¿Eres el autor de este libro?"
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "literature",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1714,
+      "word": "auto mechanic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːtəʊ] [məˈkænɪk]",
+        "br": "[ˈɔːtəʊ] [məˈkænɪk]",
+        "gb": "[ˈɔːtəʊ] [mɪˈkænɪk]"
+      },
+      "translations": {
+        "rus": "автомеханик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1715,
+      "word": "autobiography",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɔːtəbaɪˈɑːɡrəfi]",
+        "br": "[ˌɔːtəbaɪˈɒɡrəfi]",
+        "gb": "[ɔːtəʊbaɪˈɔgrəfɪ]"
+      },
+      "translations": {
+        "rus": "автобиография",
+        "spa": "la autobiografía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1716,
+      "word": "baker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeɪkər]",
+        "br": "[ˈbeɪkə(r)]",
+        "gb": "[ˈbeɪkə]"
+      },
+      "translations": {
+        "rus": "пекарь",
+        "spa": "el panadero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1717,
+      "word": "banker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæŋkər]",
+        "br": "[ˈbæŋkə(r)]",
+        "gb": "[ˈbæŋkə]"
+      },
+      "translations": {
+        "rus": "банкир",
+        "spa": "la banquera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1718,
+      "word": "bankrupt",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈbæŋkrʌpt]",
+        "br": "[ˈbæŋkrʌpt]",
+        "gb": "[ˈbæŋkrʌpt]"
+      },
+      "translations": {
+        "rus": "банкрот, несостоятельный",
+        "spa": "el quebrado, en quiebra, en bancarrota"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1720,
+      "word": "bookbinder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkbaɪndər]",
+        "br": "[ˈbʊkbaɪndə(r)]",
+        "gb": "[ˈbʊkbaɪndə]"
+      },
+      "translations": {
+        "rus": "переплетчик",
+        "spa": "el encuadernador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1721,
+      "word": "bookkeeper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊkkiːpər]",
+        "br": "[ˈbʊkkiːpə(r)]",
+        "gb": "[ˈbʊkkiːpə]"
+      },
+      "translations": {
+        "rus": "бухгалтер",
+        "spa": "el contador, el contable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1722,
+      "word": "boycott",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɔɪkɑːt]",
+        "br": "[ˈbɔɪkɒt]",
+        "gb": "[ˈbɔɪkət]"
+      },
+      "translations": {
+        "rus": "бойкот",
+        "spa": "el boicot"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1723,
+      "word": "bribe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[braɪb]",
+        "br": "[braɪb]",
+        "gb": "[braɪb]"
+      },
+      "translations": {
+        "rus": "взятка, подкуп",
+        "spa": "el soborno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 1725,
+      "word": "bribery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbraɪbəri]",
+        "br": "[ˈbraɪbəri]",
+        "gb": "[ˈbraɪbərɪ]"
+      },
+      "translations": {
+        "rus": "взяточничество, подкуп",
+        "spa": "el soborno"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 1726,
+      "word": "bricklayer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrɪkleɪər]",
+        "br": "[ˈbrɪkleɪə(r)]",
+        "gb": "[ˈbrɪkleɪə]"
+      },
+      "translations": {
+        "rus": "каменщик",
+        "spa": "el albañil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 1727,
+      "word": "brigade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪˈɡeɪd]",
+        "br": "[brɪˈɡeɪd]",
+        "gb": "[brɪˈgeɪd]"
+      },
+      "translations": {
+        "rus": "бригада",
+        "spa": "la brigada"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1728,
+      "word": "brigade-leader",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brɪˈɡeɪd] [ˈliːdər]",
+        "br": "[brɪˈɡeɪd] [ˈliːdə(r)]",
+        "gb": "[brɪˈgeɪd] [ˈliːdə]"
+      },
+      "translations": {
+        "rus": "бригадир",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1729,
+      "word": "builder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪldər]",
+        "br": "[ˈbɪldə(r)]",
+        "gb": "[ˈbɪldə]"
+      },
+      "translations": {
+        "rus": "строитель",
+        "spa": "el constructor, el albañil"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1730,
+      "word": "bus driver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bʌs] [ˈdraɪvər]",
+        "br": "[bʌs] [ˈdraɪvə(r)]",
+        "gb": "[bʌs] [ˈdraɪvə]"
+      },
+      "translations": {
+        "rus": "водитель автобуса",
+        "spa": "el conductor de autobús"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a bus driver.",
+            "ru": "Он водитель автобуса."
+          },
+          {
+            "en": "The bus driver suffered minor injuries.",
+            "ru": "Водитель автобуса получил лёгкие ранения."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a bus driver.",
+            "es": "Es conductor de autobús."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "town"
+      ]
+    },
+    {
+      "id": 1731,
+      "word": "businessman, businesswoman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪznəsmæn], [ˈbɪznəswʊmən]",
+        "br": "[ˈbɪznəsmæn], [ˈbɪznəswʊmən]",
+        "gb": "[ˈbɪznəsmæn] [ˈbɪznəswʊmən]"
+      },
+      "translations": {
+        "rus": "бизнесмен, деловая женщина",
+        "spa": "el hombre de negocios, la mujer de negocios"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm a businessman.",
+            "ru": "Я бизнесмен."
+          },
+          {
+            "en": "Mary is an outstanding businesswoman.",
+            "ru": "Мэри – выдающаяся бизнес-леди."
+          },
+          {
+            "en": "My father is a businessman.",
+            "ru": "Мой отец — бизнесмен."
+          },
+          {
+            "en": "I used to be a businessman.",
+            "ru": "Я раньше был бизнесменом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1732,
+      "word": "butcher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʊtʃər]",
+        "br": "[ˈbʊtʃə(r)]",
+        "gb": "[ˈbʊʧə]"
+      },
+      "translations": {
+        "rus": "мясник",
+        "spa": "el carnicero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1733,
+      "word": "careerist",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kəˈrɪrɪst]",
+        "br": "[kəˈrɪərɪst]",
+        "gb": "[kəˈrɪərɪst]"
+      },
+      "translations": {
+        "rus": "карьерист",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1734,
+      "word": "caregiver, baby-sitter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkerɡɪvər], [ˈbeɪbi] [ˈsɪtər]",
+        "br": "[ˈkeəɡɪvə(r)], [ˈbeɪbi] [ˈsɪtə(r)]",
+        "gb": "[ˈkægɪvər] [ˈbeɪbɪ] [ˈsɪtə]"
+      },
+      "translations": {
+        "rus": "няня",
+        "spa": "el cuidador, el niñero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1735,
+      "word": "carpenter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrpəntər]",
+        "br": "[ˈkɑːpəntə(r)]",
+        "gb": "[ˈkɑːpɪntə]"
+      },
+      "translations": {
+        "rus": "плотник",
+        "spa": "el carpintero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1736,
+      "word": "cash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ]",
+        "br": "[kæʃ]",
+        "gb": "[kæʃ]"
+      },
+      "translations": {
+        "rus": "наличные деньги",
+        "spa": "el dinero en efectivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This restaurant only accepts cash.",
+            "ru": "В этом ресторане принимают только наличные деньги."
+          },
+          {
+            "en": "We are short of cash.",
+            "ru": "У нас не хватает наличных."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't have any cash.",
+            "es": "No tengo dinero en efectivo."
+          },
+          {
+            "en": "I'd like to withdraw some cash.",
+            "es": "Me gustaría retirar algún dinero en efectivo."
+          },
+          {
+            "en": "I'm short of cash at the moment.",
+            "es": "Momentáneamente estoy corto de efectivo."
+          },
+          {
+            "en": "This restaurant only accepts cash.",
+            "es": "Este restaurante solo acepta efectivo."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1737,
+      "word": "cashier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæˈʃɪr]",
+        "br": "[kæˈʃɪə(r)]",
+        "gb": "[kæˈʃɪə]"
+      },
+      "translations": {
+        "rus": "кассир",
+        "spa": "el cajero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cashier was a very honest man.",
+            "es": "El cajero era un hombre muy honesto."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "money"
+      ]
+    },
+    {
+      "id": 1738,
+      "word": "charity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃærəti]",
+        "br": "[ˈtʃærəti]",
+        "gb": "[ˈʧærɪtɪ]"
+      },
+      "translations": {
+        "rus": "благотворительность",
+        "spa": "la caridad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't need your charity.",
+            "ru": "Я не нуждаюсь в твоей благотворительности."
+          },
+          {
+            "en": "He gave away all his money to charity.",
+            "ru": "Он отдал все свои деньги на благотворительность."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1739,
+      "word": "chef",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃef]",
+        "br": "[ʃef]",
+        "gb": "[ʃef]"
+      },
+      "translations": {
+        "rus": "шеф-повар, повар",
+        "spa": "el chef"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll pass along your compliments to the chef.",
+            "ru": "Я передам ваши комплименты шеф-повару."
+          },
+          {
+            "en": "He complained to the chef.",
+            "ru": "Он пожаловался повару."
+          },
+          {
+            "en": "Please tell the chef it was delicious.",
+            "ru": "Пожалуйста, скажи шеф-повару, что было вкусно."
+          },
+          {
+            "en": "That chef prepares different meals every day.",
+            "ru": "Этот повар готовит разную пищу каждый день."
+          },
+          {
+            "en": "Would you tell the chef that it was very delicious?",
+            "ru": "Вы можете передать шеф-повару, что это было очень вкусно?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1740,
+      "word": "chemist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkemɪst]",
+        "br": "[ˈkemɪst]",
+        "gb": "[ˈkemɪst]"
+      },
+      "translations": {
+        "rus": "химик, аптекарь",
+        "spa": "el químico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1741,
+      "word": "cleaner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkliːnər]",
+        "br": "[ˈkliːnə(r)]",
+        "gb": "[ˈkliːnə]"
+      },
+      "translations": {
+        "rus": "уборщик",
+        "spa": "la limpiadora"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1742,
+      "word": "clerk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klɜːrk]",
+        "br": "[klɑːk]",
+        "gb": "[klɑːk]"
+      },
+      "translations": {
+        "rus": "клерк, конторщик",
+        "spa": "el empleado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He plays the role of a timid and fearful clerk.",
+            "ru": "Он играет роль робкого и пугливого клерка."
+          },
+          {
+            "en": "He works as a clerk in a local pet store.",
+            "ru": "Он работает продавцом в местном зоомагазине."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1743,
+      "word": "commercial fisher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈmɜːrʃl] [ˈfɪʃər]",
+        "br": "[kəˈmɜːʃl] [ˈfɪʃə(r)]",
+        "gb": "[kəˈmɜːʃəl] [ˈfɪʃə]"
+      },
+      "translations": {
+        "rus": "рыбак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1744,
+      "word": "cook",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kʊk]",
+        "br": "[kʊk]",
+        "gb": "[kʊk]"
+      },
+      "translations": {
+        "rus": "повар, кук",
+        "spa": "el cocinero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's the cook?",
+            "ru": "Где повар?"
+          },
+          {
+            "en": "I saw the cook.",
+            "ru": "Я видел повара."
+          },
+          {
+            "en": "I'm a good cook.",
+            "ru": "Я хороший повар."
+          },
+          {
+            "en": "I'm not much of a cook.",
+            "ru": "Повар из меня не самый лучший."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1745,
+      "word": "courier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʊriər]",
+        "br": "[ˈkʊriə(r)]",
+        "gb": "[ˈkʊrɪə]"
+      },
+      "translations": {
+        "rus": "курьер, посыльный",
+        "spa": "el correo, el mensajero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1746,
+      "word": "custodian",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kʌˈstəʊdiən]",
+        "br": "[kʌˈstəʊdiən]",
+        "gb": "[kʌsˈtəʊdjən]"
+      },
+      "translations": {
+        "rus": "смотритель, хранитель, блюститель",
+        "spa": "el custodio, el guardián"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1747,
+      "word": "decree",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈkriː]",
+        "br": "[dɪˈkriː]",
+        "gb": "[dɪˈkriː]"
+      },
+      "translations": {
+        "rus": "указ, постановление, декрет",
+        "spa": "el decreto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1748,
+      "word": "delivery person",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈlɪvəri] [ˈpɜːrsn]",
+        "br": "[dɪˈlɪvəri] [ˈpɜːsn]",
+        "gb": "[dɪˈlɪvərɪ] [pɜːsn]"
+      },
+      "translations": {
+        "rus": "разносчик, доставщик",
+        "spa": "el repartidor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1749,
+      "word": "demotion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[diːˈməʊʃn]",
+        "br": "[diːˈməʊʃn]",
+        "gb": "[diːˈməʊʃn]"
+      },
+      "translations": {
+        "rus": "понижение по службе",
+        "spa": "el descenso de categoría"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1750,
+      "word": "dental assistant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdentl] [əˈsɪstənt]",
+        "br": "[ˈdentl] [əˈsɪstənt]",
+        "gb": "[dentl] [əˈsɪstənt]"
+      },
+      "translations": {
+        "rus": "ассистент дантиста",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1751,
+      "word": "dentist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdentɪst]",
+        "br": "[ˈdentɪst]",
+        "gb": "[ˈdentɪst]"
+      },
+      "translations": {
+        "rus": "стоматолог, дантист",
+        "spa": "el dentista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's married to a dentist.",
+            "ru": "Она замужем за дантистом."
+          },
+          {
+            "en": "The dentist worked on my teeth.",
+            "ru": "Дантист обработал мои зубы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1752,
+      "word": "depositor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpɑːzɪtər]",
+        "br": "[dɪˈpɒzɪtə(r)]",
+        "gb": "[dɪˈpɔzɪtə]"
+      },
+      "translations": {
+        "rus": "вкладчик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1753,
+      "word": "deputy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdepjuti]",
+        "br": "[ˈdepjuti]",
+        "gb": "[ˈdepjʊtɪ]"
+      },
+      "translations": {
+        "rus": "заместитель",
+        "spa": "el vicio, el sustituto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 395,
+      "word": "designer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈzaɪnər]",
+        "br": "[dɪˈzaɪnə(r)]",
+        "gb": "[dɪˈzaɪnə]"
+      },
+      "translations": {
+        "rus": "дизайнер",
+        "spa": "el diseñador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She wants to be a designer.",
+            "ru": "Она хочет быть дизайнером."
+          },
+          {
+            "en": "I'm a designer.",
+            "ru": "Я дизайнер."
+          },
+          {
+            "en": "Mary is an interior designer.",
+            "ru": "Мэри — дизайнер интерьеров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1754,
+      "word": "discharge",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dɪsˈʧɑːʤ]"
+      },
+      "translations": {
+        "rus": "увольнение",
+        "spa": "el despido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1756,
+      "word": "discharge pay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪstʃɑːrdʒ] [peɪ]",
+        "br": "[ˈdɪstʃɑːdʒ] [peɪ]",
+        "gb": "[dɪsˈʧɑːʤ] [peɪ]"
+      },
+      "translations": {
+        "rus": "выходное пособие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1757,
+      "word": "dockworker",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈdɒkwɜːkər]"
+      },
+      "translations": {
+        "rus": "портовый рабочий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1758,
+      "word": "doctor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɑːktər]",
+        "br": "[ˈdɒktə(r)]",
+        "gb": "[ˈdɔktə]"
+      },
+      "translations": {
+        "rus": "врач, доктор",
+        "spa": "el doctor, el médico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He went for the doctor.",
+            "ru": "Он пошёл к врачу."
+          },
+          {
+            "en": "Is his father a doctor?",
+            "ru": "Его отец доктор?"
+          },
+          {
+            "en": "What did the doctor say?",
+            "ru": "Что сказал доктор?"
+          },
+          {
+            "en": "He is famous as a doctor.",
+            "ru": "Он - известный врач."
+          },
+          {
+            "en": "We sent for a doctor.",
+            "ru": "Мы послали за врачом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you a doctor, sir?",
+            "es": "¿El señor es médico?"
+          },
+          {
+            "en": "He went for the doctor.",
+            "es": "Fue por el doctor."
+          },
+          {
+            "en": "Please call me a doctor.",
+            "es": "Llama al médico, por favor."
+          },
+          {
+            "en": "The young man is a doctor.",
+            "es": "El hombre joven es médico."
+          },
+          {
+            "en": "What is the doctor doing?",
+            "es": "¿Qué está haciendo el doctor?"
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1759,
+      "word": "dustman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌstmən]",
+        "br": "[ˈdʌstmən]",
+        "gb": "[ˈdʌstmən]"
+      },
+      "translations": {
+        "rus": "мусорщик",
+        "spa": "el basurero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1760,
+      "word": "earnings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɜːrnɪŋz]",
+        "br": "[ˈɜːnɪŋz]",
+        "gb": "[ˈɜːnɪŋz]"
+      },
+      "translations": {
+        "rus": "доход, заработок",
+        "spa": "los ingresos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1761,
+      "word": "editor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈedɪtər]",
+        "br": "[ˈedɪtə(r)]",
+        "gb": "[ˈedɪtə]"
+      },
+      "translations": {
+        "rus": "редактор",
+        "spa": "el editor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What text editor do you use?",
+            "ru": "Каким текстовым редактором вы пользуетесь?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1762,
+      "word": "electrician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˌlekˈtrɪʃn]",
+        "br": "[ɪˌlekˈtrɪʃn]",
+        "gb": "[ɪlekˈtrɪʃn]"
+      },
+      "translations": {
+        "rus": "электрик",
+        "spa": "el electricista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 1456,
+      "word": "employer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈplɔɪər]",
+        "br": "[ɪmˈplɔɪə(r)]",
+        "gb": "[ɪmˈplɔɪə]"
+      },
+      "translations": {
+        "rus": "работодатель, наниматель",
+        "spa": "el empleador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is your current employer?",
+            "ru": "Кто ваш нынешний работодатель?"
+          },
+          {
+            "en": "The employer wants to cut back health benefits.",
+            "ru": "Работодатель хочет сократить пособия по болезни."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1763,
+      "word": "engineer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌendʒɪˈnɪr]",
+        "br": "[ˌendʒɪˈnɪə(r)]",
+        "gb": "[enʤɪˈnɪə]"
+      },
+      "translations": {
+        "rus": "инженер",
+        "spa": "el ingeniero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm the chief engineer.",
+            "ru": "Я главный инженер."
+          },
+          {
+            "en": "My brother is an engineer.",
+            "ru": "Мой брат - инженер."
+          },
+          {
+            "en": "Bob became an engineer.",
+            "ru": "Боб стал инженером."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1764,
+      "word": "exchange",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪksˈtʃeɪndʒ]",
+        "br": "[ɪksˈtʃeɪndʒ]",
+        "gb": "[ɪksˈʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "обмен, замена, биржа, биржевой",
+        "spa": "el intercambio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What is the exchange rate?",
+            "ru": "Какой курс обмена?"
+          },
+          {
+            "en": "What do I get in exchange?",
+            "ru": "Что я получу взамен?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you an exchange student?",
+            "es": "¿Eres estudiante de intercambio?"
+          },
+          {
+            "en": "Our school accepted three Americans as exchange students.",
+            "es": "Nuestra escuela ha aceptado a tres americanos como estudiantes de intercambio."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1765,
+      "word": "factory worker",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈfæktərɪ] [ˈwɜːkə]"
+      },
+      "translations": {
+        "rus": "заводской рабочий",
+        "spa": "el operario, el obrero industrial"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1766,
+      "word": "farmer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːrmər]",
+        "br": "[ˈfɑːmə(r)]",
+        "gb": "[ˈfɑːmə]"
+      },
+      "translations": {
+        "rus": "фермер",
+        "spa": "el granjero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They work for a farmer.",
+            "ru": "Они работают у фермера."
+          },
+          {
+            "en": "A farmer who grows his own food.",
+            "ru": "Фермер, который питается тем, что вырастил сам."
+          },
+          {
+            "en": "A farmer's day begins at sunrise.",
+            "ru": "День фермера начинается с восходом солнца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The farmer sowed his field with wheat.",
+            "es": "El granjero sembró su campo con trigo."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1767,
+      "word": "ferryman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈferimən]",
+        "br": "[ˈferimən]",
+        "gb": "[ˈferɪmən]"
+      },
+      "translations": {
+        "rus": "паромщик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1768,
+      "word": "firefighter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪərfaɪtər]",
+        "br": "[ˈfaɪəfaɪtə(r)]",
+        "gb": "[ˈfaɪə(r)faɪtə(r)]"
+      },
+      "translations": {
+        "rus": "пожарный",
+        "spa": "el bombero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Firefighters wear helmets.",
+            "ru": "Пожарные носят каску."
+          },
+          {
+            "en": "My dream is to be a firefighter.",
+            "ru": "Я мечтаю стать пожарным."
+          },
+          {
+            "en": "She married a firefighter.",
+            "ru": "Она вышла замуж за пожарного."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1769,
+      "word": "fireman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪərmən]",
+        "br": "[ˈfaɪəmən]",
+        "gb": "[ˈfaɪəmən]"
+      },
+      "translations": {
+        "rus": "пожарный",
+        "spa": "el bombero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1770,
+      "word": "fisherman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪʃərmən]",
+        "br": "[ˈfɪʃəmən]",
+        "gb": "[ˈfɪʃəmən]"
+      },
+      "translations": {
+        "rus": "рыбак",
+        "spa": "el pescador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1771,
+      "word": "florist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflɔːrɪst]",
+        "br": "[ˈflɒrɪst]",
+        "gb": "[ˈflɔrɪst]"
+      },
+      "translations": {
+        "rus": "торговец цветами, цветочник, флорист",
+        "spa": "el florista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 407,
+      "word": "form",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrm]",
+        "br": "[fɔːm]",
+        "gb": "[fɔːm]"
+      },
+      "translations": {
+        "rus": "форма, анкета, бланк",
+        "spa": "la forma, el formulario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fill out the form.",
+            "ru": "Заполните эту анкету."
+          },
+          {
+            "en": "I have enclosed your order form.",
+            "ru": "Я приложил ваш бланк заказа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fill out the form below.",
+            "es": "Rellene el siguiente formulario."
+          },
+          {
+            "en": "What forms do we need to file?",
+            "es": "¿Qué formas necesitamos nosotros archivar?"
+          },
+          {
+            "en": "Please fill in this form.",
+            "es": "Por favor, complete el formulario."
+          },
+          {
+            "en": "Should I fill in this form now?",
+            "es": "¿Debo rellenar este formulario ahora?"
+          },
+          {
+            "en": "A snail's shell is spiral in form.",
+            "es": "La concha de un caracol tiene forma de espiral."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "career",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1773,
+      "word": "gardener",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːrdnər]",
+        "br": "[ˈɡɑːdnə(r)]",
+        "gb": "[ˈgɑːdnə]"
+      },
+      "translations": {
+        "rus": "садовник",
+        "spa": "la jardinera"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1774,
+      "word": "garment worker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡɑːrmənt] [ˈwɜːrkər]",
+        "br": "[ˈɡɑːmənt] [ˈwɜːkə(r)]",
+        "gb": "[ˈgɑːmənt] [ˈwɜːkə]"
+      },
+      "translations": {
+        "rus": "швея, швейник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1775,
+      "word": "gas station attendant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡæs] [ˈsteɪʃn] [əˈtendənt]",
+        "br": "[ɡæs] [ˈsteɪʃn] [əˈtendənt]",
+        "gb": "[gæs] [steɪʃn] [əˈtendənt]"
+      },
+      "translations": {
+        "rus": "работник заправочной станции",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1776,
+      "word": "gas-man, gas fitter",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[gæs] [mæn] [gæs] [ˈfɪtə]"
+      },
+      "translations": {
+        "rus": "газовщик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1777,
+      "word": "geologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒiˈɑːlədʒɪst]",
+        "br": "[dʒiˈɒlədʒɪst]",
+        "gb": "[ʤɪˈɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "геолог",
+        "spa": "el geólogo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1778,
+      "word": "graphic artist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡræfɪk] [ˈɑːrtɪst]",
+        "br": "[ˈɡræfɪk] [ˈɑːtɪst]",
+        "gb": "[ˈgræfɪk] [ˈɑːtɪst]"
+      },
+      "translations": {
+        "rus": "художник - график",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1779,
+      "word": "guard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɑːrd]",
+        "br": "[ɡɑːd]",
+        "gb": "[gɑːd]"
+      },
+      "translations": {
+        "rus": "охрана, сторож",
+        "spa": "el guardia, el vigilante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where are the guards?",
+            "ru": "Где охрана?"
+          },
+          {
+            "en": "The guards didn't see us.",
+            "ru": "Охрана нас не видела."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1780,
+      "word": "gynaecologist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɡaɪnəˈkɑːlədʒɪst]",
+        "br": "[ˌɡaɪnəˈkɒlədʒɪst]",
+        "gb": "[gaɪnɪˈkɔləʤɪst]"
+      },
+      "translations": {
+        "rus": "гинеколог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1781,
+      "word": "hairdresser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈherdresər]",
+        "br": "[ˈheədresə(r)]",
+        "gb": "[ˈhɛədresə]"
+      },
+      "translations": {
+        "rus": "парикмахер",
+        "spa": "el peluquero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1782,
+      "word": "head physician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hed] [fɪˈzɪʃn]",
+        "br": "[hed] [fɪˈzɪʃn]",
+        "gb": "[hed] [fɪˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "главный врач",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1783,
+      "word": "hired",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈhaɪəd]"
+      },
+      "translations": {
+        "rus": "наёмный, взятый напрокат",
+        "spa": "alquilado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1784,
+      "word": "home attendant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[həʊm] [əˈtendənt]",
+        "br": "[həʊm] [əˈtendənt]",
+        "gb": "[həʊm] [əˈtendənt]"
+      },
+      "translations": {
+        "rus": "горничная",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1785,
+      "word": "house worker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[haʊs] [ˈwɜːrkər]",
+        "br": "[haʊs] [ˈwɜːkə(r)]",
+        "gb": "[haʊs] [ˈwɜːkə]"
+      },
+      "translations": {
+        "rus": "домохозяйка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1786,
+      "word": "housekeeper",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhaʊskiːpər]",
+        "br": "[ˈhaʊskiːpə(r)]",
+        "gb": "[ˈhaʊskiːpə]"
+      },
+      "translations": {
+        "rus": "экономка, домработница",
+        "spa": "el ama de llaves, la sirvienta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1787,
+      "word": "interpreter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈtɜːrprətər]",
+        "br": "[ɪnˈtɜːprətə(r)]",
+        "gb": "[ɪnˈtɜːprɪtə]"
+      },
+      "translations": {
+        "rus": "(устный) переводчик",
+        "spa": "el intérprete"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1788,
+      "word": "inventor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈventər]",
+        "br": "[ɪnˈventə(r)]",
+        "gb": "[ɪnˈventə]"
+      },
+      "translations": {
+        "rus": "изобретатель",
+        "spa": "el inventor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1524,
+      "word": "investment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈvestmənt]",
+        "br": "[ɪnˈvestmənt]",
+        "gb": "[ɪnˈvestmənt]"
+      },
+      "translations": {
+        "rus": "инвестиция",
+        "spa": "la inversión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I think it's a good investment.",
+            "ru": "Думаю, это хорошая инвестиция."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Is it a good investment?",
+            "es": "¿Es una buena inversión?"
+          },
+          {
+            "en": "Education is an investment in the future.",
+            "es": "La educación es una inversión de futuro."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1525,
+      "word": "investor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈvestər]",
+        "br": "[ɪnˈvestə(r)]",
+        "gb": "[ɪnˈvestə]"
+      },
+      "translations": {
+        "rus": "инвестор, вкладчик",
+        "spa": "el inversor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They need investors.",
+            "ru": "Им нужны инвесторы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1789,
+      "word": "janitor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒænɪtər]",
+        "br": "[ˈdʒænɪtə(r)]",
+        "gb": "[ˈʤænɪtə]"
+      },
+      "translations": {
+        "rus": "уборщик, дворник, вахтёр",
+        "spa": "el conserje, el portero, el bedel"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1790,
+      "word": "journalist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒɜːrnəlɪst]",
+        "br": "[ˈdʒɜːnəlɪst]",
+        "gb": "[ˈʤɜːnəlɪst]"
+      },
+      "translations": {
+        "rus": "журналист",
+        "spa": "el periodista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My son is a journalist.",
+            "ru": "Мой сын - журналист."
+          },
+          {
+            "en": "I am a Polish journalist.",
+            "ru": "Я польский журналист."
+          },
+          {
+            "en": "You are a good journalist.",
+            "ru": "Ты хороший журналист."
+          },
+          {
+            "en": "I don't like journalists!",
+            "ru": "Я не люблю журналистов!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1791,
+      "word": "judge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒʌdʒ]",
+        "br": "[dʒʌdʒ]",
+        "gb": "[ʤʌʤ]"
+      },
+      "translations": {
+        "rus": "судья, эксперт",
+        "spa": "el juez"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm no judge of art.",
+            "ru": "Я в искусстве не судья."
+          },
+          {
+            "en": "The public is the best judge.",
+            "ru": "Публика - лучший судья."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They appointed a judge.",
+            "es": "Designaron a un juez."
+          },
+          {
+            "en": "I wouldn't like being a judge.",
+            "es": "No me gustaría ser juez."
+          },
+          {
+            "en": "The judge's decision is final.",
+            "es": "La decisión del juez es definitiva."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "legal_english",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1793,
+      "word": "lawyer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɔɪər]",
+        "br": "[ˈlɔɪə(r)]",
+        "gb": "[ˈlɔːjə]"
+      },
+      "translations": {
+        "rus": "адвокат, юрист",
+        "spa": "el abogado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My mother is a lawyer.",
+            "ru": "Моя мать - адвокат."
+          },
+          {
+            "en": "I am not a lawyer.",
+            "ru": "Я не юрист."
+          },
+          {
+            "en": "We're looking for a lawyer.",
+            "ru": "Мы ищем адвоката."
+          },
+          {
+            "en": "We've already hired a lawyer.",
+            "ru": "Мы уже наняли юриста."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I need a good lawyer.",
+            "es": "Necesito un buen abogado."
+          },
+          {
+            "en": "Let me call my lawyer.",
+            "es": "Déjame llamar a mi abogado."
+          },
+          {
+            "en": "He is a capable lawyer.",
+            "es": "Él es un abogado capaz."
+          },
+          {
+            "en": "They want to be lawyers.",
+            "es": "Ellos quieren ser abogados."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "legal_english",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1794,
+      "word": "leave",
+      "pos": "noun",
+      "transcription": {
+        "us": "[liːv]",
+        "br": "[liːv]",
+        "gb": "[liːv]"
+      },
+      "translations": {
+        "rus": "отпуск, каникулы, уход, отъезд",
+        "spa": "las vacaciones, la baja, el permiso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She took two weeks' leave and visited China.",
+            "ru": "Она взяла двухнедельный отпуск и посетила Китай."
+          },
+          {
+            "en": "I'm on leave.",
+            "ru": "Я в отпуске."
+          },
+          {
+            "en": "Mary is on maternity leave.",
+            "ru": "Мэри в декретном отпуске."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_b2",
+        "top1000",
+        "travel"
+      ]
+    },
+    {
+      "id": 1795,
+      "word": "lecturer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlektʃərər]",
+        "br": "[ˈlektʃərə(r)]",
+        "gb": "[ˈlekʧərə]"
+      },
+      "translations": {
+        "rus": "преподаватель",
+        "spa": "el conferenciante, el profesor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1796,
+      "word": "librarian",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪˈbreriən]",
+        "br": "[laɪˈbreəriən]",
+        "gb": "[laɪˈbrɛərɪən]"
+      },
+      "translations": {
+        "rus": "библиотекарь",
+        "spa": "el bibliotecario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The librarian will explain how to use the catalogue system.",
+            "ru": "Библиотекарь объяснит вам, как пользоваться системой каталогов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1797,
+      "word": "lifeguard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlaɪfɡɑːrd]",
+        "br": "[ˈlaɪfɡɑːd]",
+        "gb": "[ˈlaɪfgɑːd]"
+      },
+      "translations": {
+        "rus": "спасатель (на водах)",
+        "spa": "el salvavidas, el socorrista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1798,
+      "word": "machine operator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈʃiːn] [ˈɑːpəreɪtər]",
+        "br": "[məˈʃiːn] [ˈɒpəreɪtə(r)]",
+        "gb": "[məˈʃiːn] [ˈɔpəreɪtə]"
+      },
+      "translations": {
+        "rus": "рабочий-станочник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1548,
+      "word": "maternity leave",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈtɜːrnəti] [liːv]",
+        "br": "[məˈtɜːnəti] [liːv]",
+        "gb": "[məˈtɜːnɪtɪ] [liːv]"
+      },
+      "translations": {
+        "rus": "декретный отпуск",
+        "spa": "la licencia por maternidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career"
+      ]
+    },
+    {
+      "id": 1799,
+      "word": "mechanic",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məˈkænɪk]",
+        "br": "[məˈkænɪk]",
+        "gb": "[mɪˈkænɪk]"
+      },
+      "translations": {
+        "rus": "механик",
+        "spa": "el mecánico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm a mechanic.",
+            "ru": "Я механик."
+          },
+          {
+            "en": "Her ex was a mechanic.",
+            "ru": "Ее бывший был механиком."
+          },
+          {
+            "en": "I'm not much of a mechanic.",
+            "ru": "Я не ахти какой механик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1800,
+      "word": "messenger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmesɪndʒər]",
+        "br": "[ˈmesɪndʒə(r)]",
+        "gb": "[ˈmesɪnʤə]"
+      },
+      "translations": {
+        "rus": "посыльный, курьер",
+        "spa": "el mensajero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1801,
+      "word": "midwife",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪdwaɪf]",
+        "br": "[ˈmɪdwaɪf]",
+        "gb": "[ˈmɪdwaɪf]"
+      },
+      "translations": {
+        "rus": "акушерка, акушер",
+        "spa": "el comadrón"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "health"
+      ]
+    },
+    {
+      "id": 1802,
+      "word": "milkmaid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪlkmeɪd]",
+        "br": "[ˈmɪlkmeɪd]",
+        "gb": "[ˈmɪlkmeɪd]"
+      },
+      "translations": {
+        "rus": "доярка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 634,
+      "word": "model",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɑːdl]",
+        "br": "[ˈmɒdl]",
+        "gb": "[mɔdl]"
+      },
+      "translations": {
+        "rus": "модель, образец, шаблон, пример, макет, слепок, натурщик",
+        "spa": "el modelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The model pouted for the cameras.",
+            "ru": "Модель надула губки для фотокамер."
+          },
+          {
+            "en": "He was a model of polite restraint.",
+            "ru": "Он был образцом вежливой сдержанности."
+          },
+          {
+            "en": "Every child needs a role model.",
+            "ru": "Каждому ребёнку нужен пример для подражания."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a new model.",
+            "es": "Este es un modelo nuevo."
+          },
+          {
+            "en": "I'm an actress, not a model.",
+            "es": "Soy actriz, no modelo."
+          },
+          {
+            "en": "Jack's car is a recent model.",
+            "es": "El auto de Jack es un modelo nuevo."
+          },
+          {
+            "en": "We have just received a new model.",
+            "es": "Acabamos de recibir un nuevo modelo."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "career",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1803,
+      "word": "mover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmuːvər]",
+        "br": "[ˈmuːvə(r)]",
+        "gb": "[ˈmuːvə]"
+      },
+      "translations": {
+        "rus": "перевозчик",
+        "spa": "el agente de mudanzas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1804,
+      "word": "musician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mjuˈzɪʃn]",
+        "br": "[mjuˈzɪʃn]",
+        "gb": "[mjuːˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "музыкант",
+        "spa": "el músico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's a very talented musician.",
+            "ru": "Она очень талантливый музыкант."
+          },
+          {
+            "en": "To be a good musician, you have to practice a lot.",
+            "ru": "Чтобы быть хорошим музыкантом, нужно много упражняться."
+          },
+          {
+            "en": "She is more of a poet than a musician.",
+            "ru": "Она больше поэт, чем музыкант."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "music",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1805,
+      "word": "newsreader",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnuːzriːdər]",
+        "br": "[ˈnjuːzriːdə(r)]",
+        "gb": "[ˈnjuːzriːdər]"
+      },
+      "translations": {
+        "rus": "диктор",
+        "spa": "el locutor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1806,
+      "word": "nurse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nɜːrs]",
+        "br": "[nɜːs]",
+        "gb": "[nɜːs]"
+      },
+      "translations": {
+        "rus": "медсестра",
+        "spa": "la enfermera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to be a nurse.",
+            "ru": "Я хочу быть медсестрой."
+          },
+          {
+            "en": "The nurse gave me a shot.",
+            "ru": "Медсестра сделала мне укол."
+          },
+          {
+            "en": "The nurse has very gentle hands.",
+            "ru": "У медсестры очень нежные руки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The nurse is dressed in white.",
+            "es": "La enfermera va vestida de blanco."
+          },
+          {
+            "en": "The nurse took his temperature.",
+            "es": "La enfermera le tomó la temperatura."
+          },
+          {
+            "en": "The nurse will tell you how to do it.",
+            "es": "La enfermera te dirá cómo hacerlo."
+          },
+          {
+            "en": "The nurse has very gentle hands.",
+            "es": "La enfermera tiene manos muy cuidadosas."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1807,
+      "word": "optician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːpˈtɪʃn]",
+        "br": "[ɒpˈtɪʃn]",
+        "gb": "[ɔpˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "оптик, офтальмолог",
+        "spa": "el óptico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 654,
+      "word": "painter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪntər]",
+        "br": "[ˈpeɪntə(r)]",
+        "gb": "[ˈpeɪntə]"
+      },
+      "translations": {
+        "rus": "живописец, художник, маляр",
+        "spa": "el pintor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Carlos Morel was the first Argentine painter.",
+            "ru": "Карлос Морель был первым аргентинским живописцем."
+          },
+          {
+            "en": "You're a good painter.",
+            "ru": "Ты хороший художник."
+          },
+          {
+            "en": "Who's your favorite painter?",
+            "ru": "Кто твой любимый художник?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "art",
+        "career",
+        "construction",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 662,
+      "word": "permanent",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈpɜːrmənənt]",
+        "br": "[ˈpɜːmənənt]",
+        "gb": "[ˈpɜːmənənt]"
+      },
+      "translations": {
+        "rus": "постоянный, бессрочный",
+        "spa": "permanente, fijo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Is your job permanent?",
+            "ru": "У вас постоянная работа?"
+          },
+          {
+            "en": "Everybody wants permanent peace.",
+            "ru": "Все хотят постоянного мира."
+          },
+          {
+            "en": "It's not a permanent solution.",
+            "ru": "Это не окончательное решение."
+          },
+          {
+            "en": "Absolutely nothing is permanent in life.",
+            "ru": "В жизни нет абсолютно ничего постоянного."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It is difficult to find a well paid permanent job.",
+            "es": "Es difícil encontrar un laburo permanente bien remunerado."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "business",
+        "career",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1808,
+      "word": "pharmacist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːrməsɪst]",
+        "br": "[ˈfɑːməsɪst]",
+        "gb": "[ˈfɑːməsɪst]"
+      },
+      "translations": {
+        "rus": "фармацевт",
+        "spa": "el farmacéutico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "health"
+      ]
+    },
+    {
+      "id": 1809,
+      "word": "photographer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈtɑːɡrəfər]",
+        "br": "[fəˈtɒɡrəfə(r)]",
+        "gb": "[fəˈtɔgrəfə]"
+      },
+      "translations": {
+        "rus": "фотограф",
+        "spa": "el fotógrafo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm not a great photographer.",
+            "ru": "Я не великий фотограф."
+          },
+          {
+            "en": "Who's your favorite photographer?",
+            "ru": "Кто твой любимый фотограф?"
+          },
+          {
+            "en": "Alexey is a snowflake photographer.",
+            "ru": "Алексей - фотограф снежинок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1810,
+      "word": "pilot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaɪlət]",
+        "br": "[ˈpaɪlət]",
+        "gb": "[ˈpaɪlət]"
+      },
+      "translations": {
+        "rus": "пилот, лётчик",
+        "spa": "el piloto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Our pilot was taken prisoner.",
+            "ru": "Наш летчик был взят в плен."
+          },
+          {
+            "en": "The pilot got clearance to land.",
+            "ru": "Пилот получил разрешение на посадку."
+          },
+          {
+            "en": "The pilot was wearing a parachute.",
+            "ru": "На пилоте был надет парашют."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The pilot landed the plane safely.",
+            "es": "El piloto aterrizó el avión sin problemas."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 1811,
+      "word": "plumber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplʌmər]",
+        "br": "[ˈplʌmə(r)]",
+        "gb": "[ˈplʌmə]"
+      },
+      "translations": {
+        "rus": "сантехник, водопроводчик, слесарь",
+        "spa": "el fontanero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1812,
+      "word": "police officer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈliːs] [ˈɑːfɪsər]",
+        "br": "[pəˈliːs] [ˈɒfɪsə(r)]",
+        "gb": "[pəˈliːs] [ˈɔfɪsə]"
+      },
+      "translations": {
+        "rus": "полицейский",
+        "spa": "el policía"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1813,
+      "word": "policeman, policewoman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈliːsmən], [pəˈliːswʊmən]",
+        "br": "[pəˈliːsmən], [pəˈliːswʊmən]",
+        "gb": "[pəˈliːsmən] [pəˈliːswʊmən]"
+      },
+      "translations": {
+        "rus": "полицейский, полицейская",
+        "spa": "el policía, la policía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her father is a policeman.",
+            "ru": "Её отец — полицейский."
+          },
+          {
+            "en": "You look like a policeman.",
+            "ru": "Ты похож на полицейского."
+          },
+          {
+            "en": "He was taken away by a policeman.",
+            "ru": "Его забрал полицейский."
+          },
+          {
+            "en": "I disguised myself as a policeman.",
+            "ru": "Я переоделся полицейским."
+          },
+          {
+            "en": "A policeman came up to him.",
+            "ru": "Полицейский приблизился к нему."
+          },
+          {
+            "en": "The policeman didn't believe the thief.",
+            "ru": "Полицейский не поверил вору."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 1814,
+      "word": "politician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɑːləˈtɪʃn]",
+        "br": "[ˌpɒləˈtɪʃn]",
+        "gb": "[pɔlɪˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "политик",
+        "spa": "el político"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am not cut out to be a politician.",
+            "ru": "Я не гожусь в политики."
+          },
+          {
+            "en": "He was an honest politician.",
+            "ru": "Он был честным политиком."
+          },
+          {
+            "en": "He is not a politician but a lawyer.",
+            "ru": "Он не политик, а адвокат."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The politician stirred up the workers.",
+            "es": "El político agitó a los trabajadores."
+          },
+          {
+            "en": "The politician tried to cover up the insider trading.",
+            "es": "El político trató de ocultar el abuso de información privilegiada."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1815,
+      "word": "porter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɔːrtər]",
+        "br": "[ˈpɔːtə(r)]",
+        "gb": "[ˈpɔːtə]"
+      },
+      "translations": {
+        "rus": "носильщик, портье, швейцар",
+        "spa": "el maletero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "construction"
+      ]
+    },
+    {
+      "id": 1816,
+      "word": "postal worker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊstl] [ˈwɜːrkər]",
+        "br": "[ˈpəʊstl] [ˈwɜːkə(r)]",
+        "gb": "[ˈpəʊstəl] [ˈwɜːkə]"
+      },
+      "translations": {
+        "rus": "почтальон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1817,
+      "word": "postman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊstmən]",
+        "br": "[ˈpəʊstmən]",
+        "gb": "[ˈpəʊstmən]"
+      },
+      "translations": {
+        "rus": "почтальон",
+        "spa": "el cartero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1818,
+      "word": "potter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːtər]",
+        "br": "[ˈpɒtə(r)]",
+        "gb": "[ˈpɔtə]"
+      },
+      "translations": {
+        "rus": "гончар",
+        "spa": "el alfarero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They admired the potter's beautiful handiwork.",
+            "ru": "Они восхищались прекрасной авторской работой гончаров."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1819,
+      "word": "printer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɪntər]",
+        "br": "[ˈprɪntə(r)]",
+        "gb": "[ˈprɪntə]"
+      },
+      "translations": {
+        "rus": "принтер, устройство для печати",
+        "spa": "la impresora"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't have a printer.",
+            "ru": "У меня нет принтера."
+          },
+          {
+            "en": "I bought this printer yesterday.",
+            "ru": "Я вчера купил этот принтер."
+          },
+          {
+            "en": "I need paper for the printer.",
+            "ru": "Мне нужна бумага для принтера."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "computer",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1820,
+      "word": "programmer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprəʊɡræmər]",
+        "br": "[ˈprəʊɡræmə(r)]",
+        "gb": "[ˈprəʊgræmər]"
+      },
+      "translations": {
+        "rus": "программист",
+        "spa": "el informático"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1821,
+      "word": "real estate agent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːəl] [ɪˈsteɪt] [ˈeɪdʒənt]",
+        "br": null,
+        "gb": "[rɪəl] [ɪsˈteɪt] [ˈeɪʤənt]"
+      },
+      "translations": {
+        "rus": "агент по недвижимости",
+        "spa": "el agente inmobiliario"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1822,
+      "word": "receptionist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈsepʃənɪst]",
+        "br": "[rɪˈsepʃənɪst]",
+        "gb": "[rɪˈsepʃənɪst]"
+      },
+      "translations": {
+        "rus": "регистратор, портье, секретарь",
+        "spa": "la recepcionista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1823,
+      "word": "refuse collector",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrefjuːs] [kəˈlektər]",
+        "br": "[ˈrefjuːs] [kəˈlektə(r)]",
+        "gb": "[rɪˈfjuːz] [kəˈlektə]"
+      },
+      "translations": {
+        "rus": "мусорщик",
+        "spa": "el basurero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1824,
+      "word": "rent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rent]",
+        "br": "[rent]",
+        "gb": "[rent]"
+      },
+      "translations": {
+        "rus": "аренда",
+        "spa": "el alquiler"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you paid the rent?",
+            "ru": "Ты платил за аренду?"
+          },
+          {
+            "en": "I can't pay the rent.",
+            "ru": "Я не могу оплатить аренду."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Have you paid the rent?",
+            "es": "¿Has pagado el alquiler?"
+          },
+          {
+            "en": "I forgot to pay my rent this month.",
+            "es": "Me olvidé de pagar el alquiler este mes."
+          },
+          {
+            "en": "I don't have any rooms for rent.",
+            "es": "No tengo habitaciones para alquilar."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1825,
+      "word": "renter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrentər]",
+        "br": "[ˈrentə(r)]",
+        "gb": "[ˈrentə]"
+      },
+      "translations": {
+        "rus": "арендатор, съёмщик",
+        "spa": "el inquilino, el arrendatario"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1826,
+      "word": "repair person",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈper] [ˈpɜːrsn]",
+        "br": "[rɪˈpeə(r)] [ˈpɜːsn]",
+        "gb": "[rɪˈpɛə] [pɜːsn]"
+      },
+      "translations": {
+        "rus": "работник ремонтной мастерской",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1827,
+      "word": "reporter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈpɔːrtər]",
+        "br": "[rɪˈpɔːtə(r)]",
+        "gb": "[rɪˈpɔːtə]"
+      },
+      "translations": {
+        "rus": "репортер",
+        "spa": "el reportero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was a reporter.",
+            "ru": "Я был репортёром."
+          },
+          {
+            "en": "He is a reporter for Time magazine.",
+            "ru": "Он репортёр журнала \"Time\"."
+          },
+          {
+            "en": "That reporter has a nose for news.",
+            "ru": "У того репортёра нюх на новости."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The reporter refused to name his sources.",
+            "es": "El reportero se negó a revelar sus fuentes."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1828,
+      "word": "reprimand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreprɪmænd]",
+        "br": "[ˈreprɪmɑːnd]",
+        "gb": "[ˈreprɪmɑːnd]"
+      },
+      "translations": {
+        "rus": "выговор",
+        "spa": "la reprimenda, reprender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1829,
+      "word": "retirement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈtaɪərmənt]",
+        "br": "[rɪˈtaɪəmənt]",
+        "gb": "[rɪˈtaɪəmənt]"
+      },
+      "translations": {
+        "rus": "отставка, уход на пенсию, отступление, отход",
+        "spa": "la jubilación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1626,
+      "word": "salary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsæləri]",
+        "br": "[ˈsæləri]",
+        "gb": "[ˈsælərɪ]"
+      },
+      "translations": {
+        "rus": "жалование, зарплата",
+        "spa": "el salario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She complained about my low salary.",
+            "ru": "Она жаловалась на мою низкую зарплату."
+          },
+          {
+            "en": "Her salary is very high.",
+            "ru": "Её зарплата очень высокая."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who pays your salary?",
+            "es": "¿Quién te paga el salario?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1830,
+      "word": "sales clerk",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[seɪlz] [klɑːk]"
+      },
+      "translations": {
+        "rus": "продавец",
+        "spa": "el vendedor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1831,
+      "word": "sales person",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[seɪlz] [pɜːsn]"
+      },
+      "translations": {
+        "rus": "продавец",
+        "spa": "el vendedor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1832,
+      "word": "scientist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsaɪəntɪst]",
+        "br": "[ˈsaɪəntɪst]",
+        "gb": "[ˈsaɪəntɪst]"
+      },
+      "translations": {
+        "rus": "ученый",
+        "spa": "el científico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm not a scientist.",
+            "ru": "Я не учёный."
+          },
+          {
+            "en": "He is a great scientist.",
+            "ru": "Он великий ученый."
+          },
+          {
+            "en": "I am determined to be a scientist.",
+            "ru": "Я решил стать ученым."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a great scientist.",
+            "es": "Él es un gran científico."
+          },
+          {
+            "en": "I decided to become a scientist.",
+            "es": "Decidí ser científico."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1833,
+      "word": "secretary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsekrəteri]",
+        "br": "[ˈsekrətri]",
+        "gb": "[ˈsekrətrɪ]"
+      },
+      "translations": {
+        "rus": "секретарь",
+        "spa": "el secretario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you the new secretary?",
+            "ru": "Ты новый секретарь?"
+          },
+          {
+            "en": "He hired a new secretary.",
+            "ru": "Он нанял нового секретаря."
+          },
+          {
+            "en": "I made her my secretary.",
+            "ru": "Я сделал её моим секретарём."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The secretary was dismissed.",
+            "es": "El secretario fue cesado."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1834,
+      "word": "serviceman, servicewoman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrvɪsmən], [ˈsɜːrvɪswʊmən]",
+        "br": "[ˈsɜːvɪsmən], [ˈsɜːvɪswʊmən]",
+        "gb": null
+      },
+      "translations": {
+        "rus": "военнослужащий, военнослужащая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1638,
+      "word": "shareholder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃerhəʊldər]",
+        "br": "[ˈʃeəhəʊldə(r)]",
+        "gb": "[ˈʃɛəhəʊldə]"
+      },
+      "translations": {
+        "rus": "акционер, пайщик",
+        "spa": "el accionista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you a shareholder?",
+            "ru": "Вы акционер?"
+          },
+          {
+            "en": "The shareholder's meeting was held.",
+            "ru": "Встреча акционеров состоялась."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1835,
+      "word": "shepherd",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃepərd]",
+        "br": "[ˈʃepəd]",
+        "gb": "[ˈʃepəd]"
+      },
+      "translations": {
+        "rus": "пастух",
+        "spa": "el pastor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1836,
+      "word": "shoemaker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃuːmeɪkər]",
+        "br": "[ˈʃuːmeɪkə(r)]",
+        "gb": "[ˈʃuːmeɪkə]"
+      },
+      "translations": {
+        "rus": "сапожник",
+        "spa": "el zapatero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1837,
+      "word": "shop assistant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃɑːp] [əˈsɪstənt]",
+        "br": "[ʃɒp] [əˈsɪstənt]",
+        "gb": "[ʃɔp] [əˈsɪstənt]"
+      },
+      "translations": {
+        "rus": "продавец",
+        "spa": "el vendedor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The shop assistant was very obliging.",
+            "ru": "Продавец был очень любезен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1838,
+      "word": "short-term",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ʃɔːrt] [tɜːrm]",
+        "br": "[ʃɔːt] [tɜːm]",
+        "gb": "[ʃɔːt] [tɜːm]"
+      },
+      "translations": {
+        "rus": "краткосрочный",
+        "spa": "a corto plazo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 1839,
+      "word": "singer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋər]",
+        "br": "[ˈsɪŋə(r)]",
+        "gb": "[ˈsɪŋə]"
+      },
+      "translations": {
+        "rus": "певец",
+        "spa": "el cantante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a good singer.",
+            "ru": "Он хороший певец."
+          },
+          {
+            "en": "He is not a singer, but an actor.",
+            "ru": "Он не певец, а актёр."
+          },
+          {
+            "en": "I am an American singer.",
+            "ru": "Я американский певец."
+          },
+          {
+            "en": "I'm not much of a singer.",
+            "ru": "Я не очень хороший певец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1840,
+      "word": "soldier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊldʒər]",
+        "br": "[ˈsəʊldʒə(r)]",
+        "gb": "[ˈsəʊlʤə]"
+      },
+      "translations": {
+        "rus": "солдат, солдатский",
+        "spa": "el soldado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That man is a soldier.",
+            "ru": "Тот мужчина — солдат."
+          },
+          {
+            "en": "I'm not a soldier anymore.",
+            "ru": "Я больше не солдат."
+          },
+          {
+            "en": "Where are the soldier going?",
+            "ru": "Куда идут солдаты?"
+          },
+          {
+            "en": "The soldier gave me water.",
+            "ru": "Солдат дал мне воды."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That man is a soldier.",
+            "es": "Ese hombre es un soldado."
+          },
+          {
+            "en": "He was a brave soldier.",
+            "es": "Él fue un soldado valiente."
+          },
+          {
+            "en": "I'm not a soldier anymore.",
+            "es": "Ya no soy un soldado."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1841,
+      "word": "stock clerk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk] [klɜːrk]",
+        "br": "[stɒk] [klɑːk]",
+        "gb": "[stɔk] [klɑːk]"
+      },
+      "translations": {
+        "rus": "работник фондовой биржи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1842,
+      "word": "stock exchange",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk] [ɪksˈtʃeɪndʒ]",
+        "br": "[stɒk] [ɪksˈtʃeɪndʒ]",
+        "gb": "[stɔk] [ɪksˈʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "фондовая биржа",
+        "spa": "la bolsa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "economy"
+      ]
+    },
+    {
+      "id": 1843,
+      "word": "store owner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɔːr] [ˈəʊnər]",
+        "br": "[stɔː(r)] [ˈəʊnə(r)]",
+        "gb": "[stɔː] [ˈəʊnə]"
+      },
+      "translations": {
+        "rus": "владелец магазина",
+        "spa": "el dueño de una tienda"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1844,
+      "word": "strike",
+      "pos": "noun",
+      "transcription": {
+        "us": "[straɪk]",
+        "br": "[straɪk]",
+        "gb": "[straɪk]"
+      },
+      "translations": {
+        "rus": "забастовка, стачка, удар",
+        "spa": "la huelga"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There is a strike.",
+            "ru": "Это забастовка."
+          },
+          {
+            "en": "The workers went on strike.",
+            "ru": "Рабочие вышли на забастовку."
+          },
+          {
+            "en": "Meteor strikes are a real threat.",
+            "ru": "Удары метеоритов - реальная угроза."
+          },
+          {
+            "en": "I am writing articles about strikes.",
+            "ru": "Я пишу статьи о забастовках."
+          }
+        ],
+        "spa": [
+          {
+            "en": "There is a strike.",
+            "es": "Hay una huelga."
+          },
+          {
+            "en": "We were on strike.",
+            "es": "Estábamos de huelga."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b2",
+        "politics",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1845,
+      "word": "student",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈstuːdnt]",
+        "br": "[ˈstjuːdnt]",
+        "gb": "[ˈstjuːdənt]"
+      },
+      "translations": {
+        "rus": "студент, студенческий",
+        "spa": "el estudiante, el alumno, estudiantil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you a college student?",
+            "ru": "Ты студент?"
+          },
+          {
+            "en": "I have a student visa.",
+            "ru": "У меня студенческая виза."
+          },
+          {
+            "en": "Each student has a locker.",
+            "ru": "У каждого студента имеется шкафчик."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We are high school students.",
+            "es": "Somos alumnos del liceo."
+          },
+          {
+            "en": "John is a good student.",
+            "es": "John es un buen estudiante."
+          },
+          {
+            "en": "Almost all the students like English.",
+            "es": "A casi todos los alumnos les gusta el inglés."
+          },
+          {
+            "en": "That student is very active.",
+            "es": "Ese estudiante es muy activo."
+          },
+          {
+            "en": "The teacher is strict with his students.",
+            "es": "El maestro es estricto con sus alumnos."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1846,
+      "word": "tailor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈteɪlər]",
+        "br": "[ˈteɪlə(r)]",
+        "gb": "[ˈteɪlə]"
+      },
+      "translations": {
+        "rus": "портной",
+        "spa": "el sastre"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1847,
+      "word": "taxi driver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæksi] [ˈdraɪvər]",
+        "br": "[ˈtæksi] [ˈdraɪvə(r)]",
+        "gb": "[ˈtæksɪ] [ˈdraɪvə]"
+      },
+      "translations": {
+        "rus": "таксист, водитель такси",
+        "spa": "el taxista"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is a taxi driver.",
+            "ru": "Она водитель такси."
+          },
+          {
+            "en": "I never thought I'd be a taxi driver.",
+            "ru": "Никогда не думал, что буду таксистом."
+          },
+          {
+            "en": "The policeman blamed the taxi driver for the accident.",
+            "ru": "Полицейский обвинил таксиста в аварии."
+          },
+          {
+            "en": "The taxi driver refused to take us to that part of town.",
+            "ru": "Таксист отказался везти нас в эту часть города."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is a taxi driver.",
+            "es": "Ella es taxista."
+          },
+          {
+            "en": "Tell the taxi driver to drive faster.",
+            "es": "Decile al taxista que maneje más rápido."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "town"
+      ]
+    },
+    {
+      "id": 1848,
+      "word": "teacher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtiːtʃər]",
+        "br": "[ˈtiːtʃə(r)]",
+        "gb": "[ˈtiːʧə]"
+      },
+      "translations": {
+        "rus": "учитель",
+        "spa": "el profesor, el maestro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am not a teacher.",
+            "ru": "Я не учитель."
+          },
+          {
+            "en": "The teacher can see you.",
+            "ru": "Учитель тебя видит."
+          },
+          {
+            "en": "Our teacher is stern to us.",
+            "ru": "У нас строгий учитель."
+          },
+          {
+            "en": "A teacher's job isn't easy.",
+            "ru": "Работа учителя нелегка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am not a teacher.",
+            "es": "No soy maestro."
+          },
+          {
+            "en": "Mr Kato is a teacher.",
+            "es": "El señor Kato es profesor."
+          },
+          {
+            "en": "He and I are teachers.",
+            "es": "El y yo somos profesores."
+          },
+          {
+            "en": "Experience is the best teacher.",
+            "es": "La experiencia es el mejor maestro."
+          },
+          {
+            "en": "Our teacher lives close by.",
+            "es": "Nuestro profesor vive por acá cerca."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1849,
+      "word": "team",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tiːm]",
+        "br": "[tiːm]",
+        "gb": "[tiːm]"
+      },
+      "translations": {
+        "rus": "команда, группа",
+        "spa": "el equipo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Our team are winning.",
+            "ru": "Наша команда побеждает."
+          },
+          {
+            "en": "The home team has won.",
+            "ru": "Команда хозяев одержала победу."
+          },
+          {
+            "en": "Which team do you support?",
+            "ru": "За какую команду вы болеете?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "How big is the team?",
+            "es": "¿Cuán grande es el equipo?"
+          },
+          {
+            "en": "We make a great team.",
+            "es": "Hacemos un gran equipo."
+          },
+          {
+            "en": "Our team won the game.",
+            "es": "Nuestro equipo ganó el juego."
+          },
+          {
+            "en": "Who is the team's coach?",
+            "es": "¿Quién es el entrenador del equipo?"
+          },
+          {
+            "en": "Our team did very well.",
+            "es": "Nuestro equipo lo hizo muy bien."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1850,
+      "word": "tenant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtenənt]",
+        "br": "[ˈtenənt]",
+        "gb": "[ˈtenənt]"
+      },
+      "translations": {
+        "rus": "арендатор, жилец, наниматель, квартиросъемщик",
+        "spa": "el inquilino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 768,
+      "word": "to advance",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ədˈvæns]",
+        "br": "[tu] [ədˈvɑːns]",
+        "gb": "[tuː] [ədˈvɑːns]"
+      },
+      "translations": {
+        "rus": "продвигаться вперёд, развиваться",
+        "spa": "avanzar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We advanced to the finals.",
+            "ru": "Мы прошли в финал."
+          },
+          {
+            "en": "He advanced his departure by two days.",
+            "ru": "Он ускорил отъезд на два дня."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The army advanced up the hill.",
+            "es": "El ejército avanzó hacia lo alto de la colina."
+          },
+          {
+            "en": "Her method is far in advance of ours.",
+            "es": "Su método es mucho más avanzado que el nuestro."
+          },
+          {
+            "en": "Napoleon's army has advanced to Moscow.",
+            "es": "El ejército de Napoleón ha avanzado hasta Moscú."
+          },
+          {
+            "en": "Their equipment is extremely advanced.",
+            "es": "Su equipo es extremadamente avanzado."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "career",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1719,
+      "word": "to be on strike",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [biː] [ɔn] [straɪk]"
+      },
+      "translations": {
+        "rus": "бастовать",
+        "spa": "estar en huelga"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "politics"
+      ]
+    },
+    {
+      "id": 1724,
+      "word": "to bribe",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [braɪb]",
+        "br": "[tə] [braɪb]",
+        "gb": "[tuː] [braɪb]"
+      },
+      "translations": {
+        "rus": "подкупать",
+        "spa": "sobornar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 1755,
+      "word": "to discharge",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪsˈtʃɑːrdʒ]",
+        "br": "[tə] [dɪsˈtʃɑːdʒ]",
+        "gb": "[tuː] [dɪsˈʧɑːʤ]"
+      },
+      "translations": {
+        "rus": "увольнять",
+        "spa": "despedir, echar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 911,
+      "word": "to dismiss",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪsˈmɪs]",
+        "br": "[tə] [dɪsˈmɪs]",
+        "gb": "[tuː] [dɪsˈmɪs]"
+      },
+      "translations": {
+        "rus": "отклонять",
+        "spa": "descartar, desestimar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Both complaints were dismissed.",
+            "ru": "Обе жалобы были отклонены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "career",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 912,
+      "word": "to dismiss",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪsˈmɪs]",
+        "br": "[tə] [dɪsˈmɪs]",
+        "gb": "[tuː] [dɪsˈmɪs]"
+      },
+      "translations": {
+        "rus": "увольнять, распускать, освобождать",
+        "spa": "despedir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The worker was dismissed for laziness.",
+            "ru": "Этого работника уволили за лень."
+          },
+          {
+            "en": "He was dismissed as incompetent.",
+            "ru": "Его уволили за некомпетентность."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "career",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 923,
+      "word": "to earn",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɜːrn]",
+        "br": "[tu] [ɜːn]",
+        "gb": "[tuː] [ɜːn]"
+      },
+      "translations": {
+        "rus": "зарабатывать",
+        "spa": "ganar, obtener"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much do you earn?",
+            "ru": "Сколько вы зарабатываете?"
+          },
+          {
+            "en": "He earns a great deal.",
+            "ru": "Он прилично зарабатывает."
+          },
+          {
+            "en": "I don't earn all that much.",
+            "ru": "Я не так много зарабатываю."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How much do you earn?",
+            "es": "¿Cuánto ganas?"
+          },
+          {
+            "en": "You've earned a good rest.",
+            "es": "Te has ganado un buen descanso."
+          },
+          {
+            "en": "He earns double my salary.",
+            "es": "Él gana el doble que yo."
+          },
+          {
+            "en": "I wish I earned more money.",
+            "es": "Me gustaría ganar más dinero."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "career",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 944,
+      "word": "to exchange",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪksˈtʃeɪndʒ]",
+        "br": "[tu] [ɪksˈtʃeɪndʒ]",
+        "gb": "[tuː] [ɪksˈʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "обменивать, заменять, менять",
+        "spa": "intercambiar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I would like to exchange money.",
+            "ru": "Я бы хотел обменять деньги."
+          },
+          {
+            "en": "Can you exchange it for another one?",
+            "ru": "Можете заменить его на другой?"
+          },
+          {
+            "en": "Where can I get my money exchanged?",
+            "ru": "Где я могу обменять мои деньги?"
+          },
+          {
+            "en": "He exchanged his old car for a new one.",
+            "ru": "Он заменил свою старую машину на новую."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They exchanged gifts.",
+            "es": "Ellos intercambiaron regalos."
+          },
+          {
+            "en": "We exchanged phone numbers.",
+            "es": "Intercambiamos números de teléfono."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "career",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1772,
+      "word": "to form",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [fɔːrm]",
+        "br": "[tə] [fɔːm]",
+        "gb": "[tuː] [fɔːm]"
+      },
+      "translations": {
+        "rus": "формировать, образовывать, придавать форму",
+        "spa": "formar, moldear, fundar, construir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bones form a skeleton.",
+            "ru": "Кости формируют скелет."
+          },
+          {
+            "en": "How was the universe formed?",
+            "ru": "Как образовалась вселенная?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "They formed a human chain.",
+            "es": "Ellos formaron una cadena humana."
+          },
+          {
+            "en": "An ulcer forms in the stomach.",
+            "es": "Una úlcera se forma en el estómago."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "food",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1500,
+      "word": "to hire",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈhaɪər]",
+        "br": "[tə] [ˈhaɪə(r)]",
+        "gb": "[tuː] [ˈhaɪə]"
+      },
+      "translations": {
+        "rus": "нанимать, брать в аренду, давать в аренду",
+        "spa": "contratar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you hiring?",
+            "ru": "Вы нанимаете?"
+          },
+          {
+            "en": "I had to hire a car.",
+            "ru": "Я должен был взять напрокат машину."
+          },
+          {
+            "en": "I wasn't hired.",
+            "ru": "Меня не нанимали."
+          },
+          {
+            "en": "I didn't hire them.",
+            "ru": "Я их не нанимал."
+          },
+          {
+            "en": "Why should I hire you?",
+            "ru": "Зачем мне нанимать тебя?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I want to hire you.",
+            "es": "Te quiero contratar."
+          },
+          {
+            "en": "I'm hired to do a job.",
+            "es": "Me han contratado para un trabajo."
+          },
+          {
+            "en": "Why did you hire me?",
+            "es": "¿Por qué me contrataste?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "legal_english",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1792,
+      "word": "to judge",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dʒʌdʒ]",
+        "br": "[tə] [dʒʌdʒ]",
+        "gb": "[tuː] [ʤʌʤ]"
+      },
+      "translations": {
+        "rus": "судить",
+        "spa": "juzgar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who are you to judge?",
+            "ru": "Кто вы такие, чтобы судить?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "legal_english",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1169,
+      "word": "to rent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rent]",
+        "br": "[tə] [rent]",
+        "gb": "[tuː] [rent]"
+      },
+      "translations": {
+        "rus": "арендовать, нанимать",
+        "spa": "alquilar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can we rent a car?",
+            "ru": "Мы можем арендовать машину?"
+          },
+          {
+            "en": "I wanted to rent a bus.",
+            "ru": "Я хотел арендовать автобус."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where can I rent a car?",
+            "es": "¿Dónde puedo alquilar un coche?"
+          },
+          {
+            "en": "Did you rent an apartment?",
+            "es": "Quiero alquilar un apartamento?"
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "career",
+        "legal_english",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1865,
+      "word": "to work off",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɜːrk] [ɔːf]",
+        "br": "[tə] [wɜːk] [ɒf]",
+        "gb": "[tuː] [wɜːk] [ɔf]"
+      },
+      "translations": {
+        "rus": "отрабатывать",
+        "spa": "deshacerse de, quemar, bajar, trabajar para pagar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1851,
+      "word": "traffic warden",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtræfɪk] [ˈwɔːrdn]",
+        "br": "[ˈtræfɪk] [ˈwɔːdn]",
+        "gb": "[ˈtræfɪk] [wɔːdn]"
+      },
+      "translations": {
+        "rus": "инспектор дорожного движения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1852,
+      "word": "translator",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trænzˈleɪtər]",
+        "br": "[trænzˈleɪtə(r)]",
+        "gb": "[trænsˈleɪtə]"
+      },
+      "translations": {
+        "rus": "(письменный) переводчик",
+        "spa": "el traductor"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1853,
+      "word": "travel agent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrævl] [ˈeɪdʒənt]",
+        "br": "[ˈtrævl] [ˈeɪdʒənt]",
+        "gb": "[trævl] [ˈeɪʤənt]"
+      },
+      "translations": {
+        "rus": "турагент",
+        "spa": "el agente de viajes"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1854,
+      "word": "truck driver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trʌk] [ˈdraɪvər]",
+        "br": "[trʌk] [ˈdraɪvə(r)]",
+        "gb": "[trʌk] [ˈdraɪvə]"
+      },
+      "translations": {
+        "rus": "водитель грузовика",
+        "spa": "el camionero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1855,
+      "word": "unemployed",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnɪmˈplɔɪd]",
+        "br": "[ˌʌnɪmˈplɔɪd]",
+        "gb": "[ˈʌnɪmˈplɔɪd]"
+      },
+      "translations": {
+        "rus": "безработный",
+        "spa": "desempleado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They are unemployed.",
+            "ru": "Они безработные."
+          },
+          {
+            "en": "We're all unemployed.",
+            "ru": "Мы все безработные."
+          },
+          {
+            "en": "My cat is unemployed.",
+            "ru": "Мой кот безработный."
+          },
+          {
+            "en": "I am an unemployed teacher.",
+            "ru": "Я безработный учитель."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 1677,
+      "word": "unemployment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌʌnɪmˈplɔɪmənt]",
+        "br": "[ˌʌnɪmˈplɔɪmənt]",
+        "gb": "[ˈʌnɪmˈplɔɪmənt]"
+      },
+      "translations": {
+        "rus": "безработица",
+        "spa": "el desempleo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Unemployment is rising.",
+            "ru": "Безработица растёт."
+          },
+          {
+            "en": "The unemployment level is high.",
+            "ru": "Уровень безработицы высок."
+          },
+          {
+            "en": "Who is responsible for high unemployment?",
+            "ru": "Кто несет ответственность за высокий уровень безработицы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "The unemployment level is high.",
+            "es": "El desempleo está alto."
+          },
+          {
+            "en": "Besides that, unemployment is increasing.",
+            "es": "Y aparte, está creciendo el desempleo."
+          },
+          {
+            "en": "This year unemployment will reach record levels.",
+            "es": "Este año el desempleo alcanzará niveles récord."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "oxford3000_b1",
+        "politics",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1681,
+      "word": "vacancy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈveɪkənsi]",
+        "br": "[ˈveɪkənsi]",
+        "gb": "[ˈveɪkənsɪ]"
+      },
+      "translations": {
+        "rus": "вакансия",
+        "spa": "la vacante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career"
+      ]
+    },
+    {
+      "id": 1856,
+      "word": "vacant",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈveɪkənt]",
+        "br": "[ˈveɪkənt]",
+        "gb": "[ˈveɪkənt]"
+      },
+      "translations": {
+        "rus": "вакантный, свободный, доступный",
+        "spa": "libre, vacío"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1857,
+      "word": "vacation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈkeɪʃn]",
+        "br": "[vəˈkeɪʃn]",
+        "gb": "[vəˈkeɪʃn]"
+      },
+      "translations": {
+        "rus": "отпуск, каникулы",
+        "spa": "las vacaciones"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was away on vacation.",
+            "ru": "Она уехала в отпуск."
+          },
+          {
+            "en": "Did you have a good vacation?",
+            "ru": "Хорошо ли вы провели отпуск?"
+          },
+          {
+            "en": "We badly need a vacation.",
+            "ru": "Мы остро нуждаемся в отпуске."
+          },
+          {
+            "en": "She is now on vacation.",
+            "ru": "Она сейчас в отпуске."
+          },
+          {
+            "en": "Have a nice summer vacation!",
+            "ru": "Хороших летних каникул!"
+          },
+          {
+            "en": "I just want a vacation.",
+            "ru": "Я просто хочу в отпуск."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The vacation is over now.",
+            "es": "Terminaron las vacaciones."
+          },
+          {
+            "en": "When do you go on vacation?",
+            "es": "¿Cuándo te vas de vacaciones?"
+          },
+          {
+            "en": "They took a brief vacation.",
+            "es": "Ellos se dieron unas breves vacaciones."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1",
+        "time",
+        "travel"
+      ]
+    },
+    {
+      "id": 1858,
+      "word": "veterinary doctor, vet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvetərəneri] [ˈdɑːktər], [vet]",
+        "br": null,
+        "gb": "[ˈvetərɪnərɪ] [ˈdɔktə] [vet]"
+      },
+      "translations": {
+        "rus": "ветеринарный врач, ветеринар",
+        "spa": "el veterinario"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1859,
+      "word": "vice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vaɪs]",
+        "br": "[vaɪs]",
+        "gb": "[vaɪs]"
+      },
+      "translations": {
+        "rus": "заместитель",
+        "spa": "el vicio, el sustituto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1860,
+      "word": "wage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪdʒ]",
+        "br": "[weɪdʒ]",
+        "gb": "[weɪʤ]"
+      },
+      "translations": {
+        "rus": "заработная плата",
+        "spa": "el salario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The minimum wage is $2.13 an hour.",
+            "ru": "Минимальная заработная плата — $2.13 в час."
+          },
+          {
+            "en": "What's the minimum wage in your country?",
+            "ru": "Какова минимальная заработная плата в вашей стране?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "What's the minimum wage in Australia?",
+            "es": "¿Cuál es el salario mínimo en Australia?"
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1861,
+      "word": "waiter, waitress",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈweɪtər], [ˈweɪtrəs]",
+        "br": "[ˈweɪtə(r)], [ˈweɪtrəs]",
+        "gb": "[ˈweɪtə] [ˈweɪtrɪs]"
+      },
+      "translations": {
+        "rus": "официант, официантка",
+        "spa": "el camarero, el mesero, la camarera, la mesera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a waiter and an actor.",
+            "ru": "Он официант и актер."
+          },
+          {
+            "en": "Ask the waitress for the menu.",
+            "ru": "Попроси меню у официантки."
+          },
+          {
+            "en": "Mary works as a waitress at a restaurant on Park Street.",
+            "ru": "Мэри работает официанткой в ресторане на Парк-стрит."
+          },
+          {
+            "en": "The waiter doesn't see us.",
+            "ru": "Официант нас не видит."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "oxford3000_a1"
+      ]
+    },
+    {
+      "id": 1862,
+      "word": "watchman",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɑːtʃmən]",
+        "br": "[ˈwɒtʃmən]",
+        "gb": "[ˈwɔʧmən]"
+      },
+      "translations": {
+        "rus": "сторож, охранник",
+        "spa": "el vigilante"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1863,
+      "word": "welder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈweldər]",
+        "br": "[ˈweldə(r)]",
+        "gb": "[ˈweldə]"
+      },
+      "translations": {
+        "rus": "сварщик",
+        "spa": "el soldador"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1864,
+      "word": "window cleaner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndəʊ] [ˈkliːnər]",
+        "br": "[ˈwɪndəʊ] [ˈkliːnə(r)]",
+        "gb": "[ˈwɪndəʊ] [ˈkliːnə]"
+      },
+      "translations": {
+        "rus": "мойщик окон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career"
+      ]
+    },
+    {
+      "id": 1866,
+      "word": "writer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈraɪtər]",
+        "br": "[ˈraɪtə(r)]",
+        "gb": "[ˈraɪtə]"
+      },
+      "translations": {
+        "rus": "писатель, автор",
+        "spa": "el escritor, el autor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a good writer.",
+            "ru": "Он хороший писатель."
+          },
+          {
+            "en": "He was a poet and writer.",
+            "ru": "Он был поэтом и писателем."
+          },
+          {
+            "en": "You should be a writer.",
+            "ru": "Тебе нужно быть писателем."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is a good writer.",
+            "es": "Él es un buen escritor."
+          },
+          {
+            "en": "You should be a writer.",
+            "es": "Deberías ser escritor."
+          },
+          {
+            "en": "I'm not much of a writer.",
+            "es": "No soy muy buen escritor."
+          },
+          {
+            "en": "He was a poet and writer.",
+            "es": "Él era un poeta y un escritor."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "literature",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    }
+  ]
+}

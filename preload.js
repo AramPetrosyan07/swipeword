@@ -12,6 +12,8 @@ contextBridge.exposeInMainWorld('electronAPI', {
   storeLoadDictionary: () => ipcRenderer.invoke('store:loadDictionary'),
   storeLoadC1Dictionary: () => ipcRenderer.invoke('store:loadC1Dictionary'),
   storeLoadVerbDictionary: () => ipcRenderer.invoke('store:loadVerbDictionary'),
+  jsonListCategories: () => ipcRenderer.invoke('json:listCategories'),
+  jsonLoadCategory: (file) => ipcRenderer.invoke('json:loadCategory', file),
   storeLoadTags: () => ipcRenderer.invoke('store:loadTags'),
   loadFavoritesFile: () => ipcRenderer.invoke('store:loadFavoritesFile'),
   collectionLoad: () => ipcRenderer.invoke('collection:load'),

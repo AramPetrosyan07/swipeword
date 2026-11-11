@@ -1,0 +1,3095 @@
+{
+  "category": {
+    "id": "money",
+    "name_rus": "Деньги",
+    "type": "topic",
+    "word_count": 77
+  },
+  "words": [
+    {
+      "id": 1329,
+      "word": "asset",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæset]",
+        "br": "[ˈæset]",
+        "gb": "[ˈæset]"
+      },
+      "translations": {
+        "rus": "актив, имущество",
+        "spa": "el activo, los bienes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're a valuable asset to me.",
+            "ru": "Для меня ты ценный актив."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5611,
+      "word": "ATM (automated teller machine)",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌeɪ tiː ˈem]",
+        "br": "[ˌeɪ tiː ˈem]",
+        "gb": "[ˌeɪ tiː ˈem]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where can I find an ATM?",
+            "ru": "Где я могу найти банкомат?"
+          },
+          {
+            "en": "Is there an ATM nearby?",
+            "ru": "Здесь поблизости есть банкомат?"
+          },
+          {
+            "en": "My grandfather doesn't know how to take money out of an ATM.",
+            "ru": "Мой дед не умеет снимать деньги в банкомате."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 1338,
+      "word": "bank",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[bæŋk]",
+        "br": "[bæŋk]",
+        "gb": "[bæŋk]"
+      },
+      "translations": {
+        "rus": "банк, банковский",
+        "spa": "el banco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you from the bank?",
+            "ru": "Вы из банка?"
+          },
+          {
+            "en": "He is a bank clerk.",
+            "ru": "Он банковский служащий."
+          },
+          {
+            "en": "The bank is on the left.",
+            "ru": "Банк слева."
+          },
+          {
+            "en": "I'll open a bank account.",
+            "ru": "Я открою банковский счёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I work in a bank.",
+            "es": "Yo trabajo para un banco."
+          },
+          {
+            "en": "He works for a bank.",
+            "es": "Él trabaja en un banco."
+          },
+          {
+            "en": "She sat on the bank.",
+            "es": "Se sentó en el banco."
+          },
+          {
+            "en": "Please go to the bank.",
+            "es": "Por favor, ve al banco."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1341,
+      "word": "banknote",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæŋknəʊt]",
+        "br": "[ˈbæŋknəʊt]",
+        "gb": "[ˈbæŋknəʊt]"
+      },
+      "translations": {
+        "rus": "банкнота, купюра",
+        "spa": "el billete de banco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The animal shown printed on the five-real banknote is a heron.",
+            "ru": "Животное, отпечатанное на пятиреаловой банкноте, - цапля."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 1354,
+      "word": "bill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪl]",
+        "br": "[bɪl]",
+        "gb": "[bɪl]"
+      },
+      "translations": {
+        "rus": "банкнота, купюра",
+        "spa": "el billete de banco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you change a five-dollar bill?",
+            "ru": "Вы можете разменять пятидолларовую купюру?"
+          },
+          {
+            "en": "Tom took a twenty dollar bill out of his pocket.",
+            "ru": "Том достал из кармана купюру в двадцать долларов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5612,
+      "word": "black market",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blæk] [ˈmɑːrkɪt]",
+        "br": "[blæk] [ˈmɑːkɪt]",
+        "gb": "[blæk] [ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "теневой рынок",
+        "spa": "el mercado negro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5613,
+      "word": "broke",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[brəʊk]",
+        "br": "[brəʊk]",
+        "gb": "[brəʊk]"
+      },
+      "translations": {
+        "rus": "на мели, разорённый, без гроша",
+        "spa": "en bancarrota"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 1362,
+      "word": "budget",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌdʒɪt]",
+        "br": "[ˈbʌdʒɪt]",
+        "gb": "[ˈbʌʤɪt]"
+      },
+      "translations": {
+        "rus": "бюджет",
+        "spa": "el presupuesto, presupuestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We discussed our household budget.",
+            "ru": "Мы обсудили наш семейный бюджет."
+          },
+          {
+            "en": "We live on a modest budget.",
+            "ru": "Мы живём на скромный бюджет."
+          },
+          {
+            "en": "Costs overran the budget by about 30%.",
+            "ru": "Расходы превысили бюджет приблизительно на 30%."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a budget?",
+            "es": "¿Tienes un presupuesto?"
+          },
+          {
+            "en": "The budget must be balanced.",
+            "es": "El presupuesto debe ser balanceado."
+          },
+          {
+            "en": "We're working on a limited budget.",
+            "es": "Estamos trabajando con un presupuesto limitado."
+          },
+          {
+            "en": "The committee approved the budget.",
+            "es": "El comité aprobó el presupuesto."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1736,
+      "word": "cash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ]",
+        "br": "[kæʃ]",
+        "gb": "[kæʃ]"
+      },
+      "translations": {
+        "rus": "наличные деньги",
+        "spa": "el dinero en efectivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This restaurant only accepts cash.",
+            "ru": "В этом ресторане принимают только наличные деньги."
+          },
+          {
+            "en": "We are short of cash.",
+            "ru": "У нас не хватает наличных."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't have any cash.",
+            "es": "No tengo dinero en efectivo."
+          },
+          {
+            "en": "I'd like to withdraw some cash.",
+            "es": "Me gustaría retirar algún dinero en efectivo."
+          },
+          {
+            "en": "I'm short of cash at the moment.",
+            "es": "Momentáneamente estoy corto de efectivo."
+          },
+          {
+            "en": "This restaurant only accepts cash.",
+            "es": "Este restaurante solo acepta efectivo."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5614,
+      "word": "cash dispenser",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ] [dɪˈspensər]",
+        "br": "[kæʃ] [dɪˈspensə(r)]",
+        "gb": "[kæʃ] [dɪsˈpensə]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cash machine has swallowed my debit card.",
+            "es": "El cajero automático se tragó mi tarjeta de débito."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 5615,
+      "word": "cash machine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ] [məˈʃiːn]",
+        "br": "[kæʃ] [məˈʃiːn]",
+        "gb": "[kæʃ] [məˈʃiːn]"
+      },
+      "translations": {
+        "rus": "банкомат",
+        "spa": "el cajero automático"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I got some money from a cash machine.",
+            "ru": "Я снял немного денег через банкомат."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The cash machine has swallowed my debit card.",
+            "es": "El cajero automático se tragó mi tarjeta de débito."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "town"
+      ]
+    },
+    {
+      "id": 1737,
+      "word": "cashier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæˈʃɪr]",
+        "br": "[kæˈʃɪə(r)]",
+        "gb": "[kæˈʃɪə]"
+      },
+      "translations": {
+        "rus": "кассир",
+        "spa": "el cajero"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The cashier was a very honest man.",
+            "es": "El cajero era un hombre muy honesto."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "money"
+      ]
+    },
+    {
+      "id": 5616,
+      "word": "cent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sent]",
+        "br": "[sent]",
+        "gb": "[sent]"
+      },
+      "translations": {
+        "rus": "цент, грош",
+        "spa": "el centavo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This translation is not worth a red cent.",
+            "ru": "Этот перевод гроша ломаного не стоит."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You gave me only fifty cents.",
+            "es": "Me diste sólo cincuenta centavos."
+          },
+          {
+            "en": "One hundred cents makes one dollar.",
+            "es": "Cien centavos hacen un dólar."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5617,
+      "word": "change",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃeɪndʒ]",
+        "br": "[tʃeɪndʒ]",
+        "gb": "[ʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "сдача, мелочь",
+        "spa": "el cambio, el suelto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You have forgotten your change.",
+            "ru": "Ты забыл свою сдачу."
+          },
+          {
+            "en": "Do you have any small change?",
+            "ru": "У вас есть мелочь?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "You can keep the change.",
+            "es": "Puedes quedarte con el cambio."
+          },
+          {
+            "en": "You have forgotten your change.",
+            "es": "Se ha dejado el cambio."
+          },
+          {
+            "en": "You didn't give me the correct change.",
+            "es": "No me ha dado el cambio exacto."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "top1000"
+      ]
+    },
+    {
+      "id": 498,
+      "word": "cheap",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[tʃiːp]",
+        "br": "[tʃiːp]",
+        "gb": "[ʧiːp]"
+      },
+      "translations": {
+        "rus": "дешёвый",
+        "spa": "barato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The rent was cheap.",
+            "ru": "Аренда была дешёвая."
+          },
+          {
+            "en": "That's a cheap store.",
+            "ru": "Это дешёвый магазин."
+          },
+          {
+            "en": "Apples are cheap today.",
+            "ru": "Яблоки сегодня дешёвые."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It seemed to be cheap.",
+            "es": "Se veía barato."
+          },
+          {
+            "en": "Buy it, it's very cheap.",
+            "es": "Cómprelo, es muy barato."
+          },
+          {
+            "en": "This wasn't cheap, was it?",
+            "es": "No era barato, ¿verdad?"
+          },
+          {
+            "en": "It's not cheap to eat here.",
+            "es": "No es barato comer aquí."
+          },
+          {
+            "en": "It was cheaper than I thought.",
+            "es": "Era más barato de lo que pensaba."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "money",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1382,
+      "word": "check",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃek]",
+        "br": "[tʃek]",
+        "gb": "[ʧek]"
+      },
+      "translations": {
+        "rus": "чек",
+        "spa": "el cheque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here's your check.",
+            "ru": "Вот ваш чек."
+          },
+          {
+            "en": "He signed the check.",
+            "ru": "Он подписал чек."
+          },
+          {
+            "en": "Can you write me a check?",
+            "ru": "Вы можете выписать мне чек?"
+          },
+          {
+            "en": "Have you made out the check yet?",
+            "ru": "Вы уже выписали чек?"
+          },
+          {
+            "en": "Deposit this check in my checking account.",
+            "ru": "Положите этот чек на мой банковский счёт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can I cash this check?",
+            "es": "¿Puedo hacer efectivo este cheque?"
+          },
+          {
+            "en": "Can I pay for the book by check?",
+            "es": "¿Puedo pagar el libro con un cheque?"
+          },
+          {
+            "en": "May I pay by check?",
+            "es": "¿Puedo pagar con cheque?"
+          },
+          {
+            "en": "Will you take a check?",
+            "es": "¿Recibís cheques?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1384,
+      "word": "cheque",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃek]",
+        "br": "[tʃek]",
+        "gb": "[ʧek]"
+      },
+      "translations": {
+        "rus": "чек",
+        "spa": "el cheque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here's your cheque.",
+            "ru": "Вот ваш чек."
+          },
+          {
+            "en": "He signed the cheque.",
+            "ru": "Он подписал чек."
+          },
+          {
+            "en": "Can you write me a cheque?",
+            "ru": "Вы можете выписать мне чек?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can I cash this cheque?",
+            "es": "¿Puedo hacer efectivo este cheque?"
+          },
+          {
+            "en": "Can I pay for the book by cheque?",
+            "es": "¿Puedo pagar el libro con un cheque?"
+          },
+          {
+            "en": "May I pay by cheque?",
+            "es": "¿Puedo pagar con cheque?"
+          },
+          {
+            "en": "Will you take a cheque?",
+            "es": "¿Recibís cheques?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5618,
+      "word": "coin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔɪn]",
+        "br": "[kɔɪn]",
+        "gb": "[kɔɪn]"
+      },
+      "translations": {
+        "rus": "монета",
+        "spa": "la moneda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A new coin was issued.",
+            "ru": "Была пущена в обращение новая монета."
+          },
+          {
+            "en": "This coin is a counterfeit.",
+            "ru": "Эта монета фальшивая."
+          },
+          {
+            "en": "This coin will not pass.",
+            "ru": "Эту монету не примут."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you have a coin?",
+            "es": "¿Tienes una moneda?"
+          },
+          {
+            "en": "She picked up a coin.",
+            "es": "Ella recogió una moneda."
+          },
+          {
+            "en": "There is a gold coin.",
+            "es": "Hay una moneda de oro."
+          },
+          {
+            "en": "The bill was paid in coin.",
+            "es": "La cuenta fue pagada con monedas."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5303,
+      "word": "cost",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːst]",
+        "br": "[kɒst]",
+        "gb": "[kɔst]"
+      },
+      "translations": {
+        "rus": "стоимость",
+        "spa": "el costo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Have you figured out the cost?",
+            "ru": "Ты подсчитал стоимость?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Cost hasn't been an issue.",
+            "es": "El costo no ha sido ningún problema."
+          },
+          {
+            "en": "The cost of living has gone up.",
+            "es": "El costo de vida ha aumentado."
+          },
+          {
+            "en": "We have to reduce the cost to a minimum.",
+            "es": "Tenemos que reducir el costo a un mínimo."
+          }
+        ]
+      },
+      "categories": [
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 5619,
+      "word": "credit card",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkredɪt] [kɑːrd]",
+        "br": "[ˈkredɪt] [kɑːd]",
+        "gb": "[ˈkredɪt] [kɑːd]"
+      },
+      "translations": {
+        "rus": "кредитная карточка",
+        "spa": "la tarjeta de crédito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I have two credit cards.",
+            "es": "Tengo dos tarjetas crédito."
+          },
+          {
+            "en": "Can I pay by credit card?",
+            "es": "¿Puedo pagar con tarjeta de crédito?"
+          },
+          {
+            "en": "Do you accept credit cards?",
+            "es": "¿Acepta tarjeta de crédito?"
+          }
+        ]
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5620,
+      "word": "credit limit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkredɪt] [ˈlɪmɪt]",
+        "br": "[ˈkredɪt] [ˈlɪmɪt]",
+        "gb": "[ˈkredɪt] [ˈlɪmɪt]"
+      },
+      "translations": {
+        "rus": "кредитный лимит",
+        "spa": "el límite de crédito"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 2807,
+      "word": "currency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɜːrənsi]",
+        "br": "[ˈkʌrənsi]",
+        "gb": "[ˈkʌrənsɪ]"
+      },
+      "translations": {
+        "rus": "валюта",
+        "spa": "la moneda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Euro is more than a currency.",
+            "ru": "Евро - больше чем валюта."
+          },
+          {
+            "en": "Where can I exchange foreign currency?",
+            "ru": "Где я могу обменять иностранную валюту?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where can I exchange foreign currency?",
+            "es": "¿Dónde podré cambiar moneda extranjera?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2809,
+      "word": "debt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[det]",
+        "br": "[det]",
+        "gb": "[det]"
+      },
+      "translations": {
+        "rus": "долг",
+        "spa": "la deuda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A promise is a debt.",
+            "ru": "Обещание — это долг."
+          },
+          {
+            "en": "I have a debt to pay.",
+            "ru": "У меня есть долг, который нужно заплатить."
+          },
+          {
+            "en": "I must repay the debt.",
+            "ru": "Я должен выплатить долг."
+          },
+          {
+            "en": "I sold it and paid my debt.",
+            "ru": "Я продал его и выплатил долг."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I owe him a debt.",
+            "es": "Tengo una deuda con él."
+          },
+          {
+            "en": "I am free of debt.",
+            "es": "Estoy libre de deudas."
+          },
+          {
+            "en": "I don't have any debt.",
+            "es": "No tengo ningún tipo de deudas."
+          },
+          {
+            "en": "I am forever in your debt.",
+            "es": "Estoy en deuda contigo para siempre."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1432,
+      "word": "deficit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdefɪsɪt]",
+        "br": "[ˈdefɪsɪt]",
+        "gb": "[ˈdefɪsɪt]"
+      },
+      "translations": {
+        "rus": "дефицит",
+        "spa": "el déficit"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have a deficit.",
+            "ru": "У нас дефицит."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The company is in deficit.",
+            "es": "La empresa está en déficit."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5621,
+      "word": "deflation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdiːˈfleɪʃn]",
+        "br": "[ˌdiːˈfleɪʃn]",
+        "gb": "[dɪˈfleɪʃn]"
+      },
+      "translations": {
+        "rus": "дефляция",
+        "spa": "la deflación"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 2811,
+      "word": "deposit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpɑːzɪt]",
+        "br": "[dɪˈpɒzɪt]",
+        "gb": "[dɪˈpɔzɪt]"
+      },
+      "translations": {
+        "rus": "вклад (банковский)",
+        "spa": "el depósito, depositar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Do you require a deposit?",
+            "es": "¿Requiere usted un depósito?"
+          },
+          {
+            "en": "I want to deposit some money.",
+            "es": "Quiero depositar dinero."
+          },
+          {
+            "en": "Do I have to leave a deposit?",
+            "es": "¿Tengo que dejar un depósito?"
+          },
+          {
+            "en": "Deposit your money in the bank.",
+            "es": "Por favor deposite su dinero en el banco."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1444,
+      "word": "discount",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪskaʊnt]",
+        "br": "[ˈdɪskaʊnt]",
+        "gb": "[ˈdɪskaʊnt]"
+      },
+      "translations": {
+        "rus": "скидка",
+        "spa": "el descuento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wanted a bigger discount.",
+            "ru": "Я хотел скидку побольше."
+          },
+          {
+            "en": "Is there a student discount?",
+            "ru": "Для студентов есть скидка?"
+          },
+          {
+            "en": "I bought this book at a discount.",
+            "ru": "Я купил эту книгу со скидкой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you give me a discount?",
+            "es": "¿Me puede hacer un descuento?"
+          },
+          {
+            "en": "Is there a student discount?",
+            "es": "¿Hay descuento por ser estudiante?"
+          },
+          {
+            "en": "I bought the car at a 10% discount.",
+            "es": "Compré el coche con una rebaja del 10%."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5623,
+      "word": "due date",
+      "pos": "noun",
+      "transcription": {
+        "us": "[duː] [deɪt]",
+        "br": "[djuː] [deɪt]",
+        "gb": "[djuː] [deɪt]"
+      },
+      "translations": {
+        "rus": "крайний срок (оплаты, действия)",
+        "spa": "la fecha de vencimiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 1760,
+      "word": "earnings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɜːrnɪŋz]",
+        "br": "[ˈɜːnɪŋz]",
+        "gb": "[ˈɜːnɪŋz]"
+      },
+      "translations": {
+        "rus": "доход, заработок",
+        "spa": "los ingresos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1454,
+      "word": "economic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌiːkəˈnɑːmɪk], [ˌekəˈnɑːmɪk]",
+        "br": "[ˌiːkəˈnɒmɪk], [ˌekəˈnɒmɪk]",
+        "gb": "[iːkəˈnɔmɪk]"
+      },
+      "translations": {
+        "rus": "экономический, экономичный, экономный",
+        "spa": "económico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "The economic situation grew worse.",
+            "es": "La situación económica empeoraba."
+          },
+          {
+            "en": "High taxes stifle economic growth.",
+            "es": "Altos impuestos asfixian el crecimiento económico."
+          },
+          {
+            "en": "The country is in a bad economic state.",
+            "es": "La situación económica de ese país es mala."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5624,
+      "word": "exchange office",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪksˈtʃeɪndʒ] [ˈɑːfɪs]",
+        "br": "[ɪksˈtʃeɪndʒ] [ˈɒfɪs]",
+        "gb": "[ɪksˈʧeɪnʤ] [ˈɔfɪs]"
+      },
+      "translations": {
+        "rus": "обменный пункт",
+        "spa": "la oficina de intercambio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 1460,
+      "word": "exchange rate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪksˈtʃeɪndʒ] [reɪt]",
+        "br": "[ɪksˈtʃeɪndʒ] [reɪt]",
+        "gb": "[ɪksˈʧeɪnʤ] [reɪt]"
+      },
+      "translations": {
+        "rus": "обменный курс",
+        "spa": "el tipo de cambio, la tasa de cambio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "What is the exchange rate today?",
+            "es": "¿Cuál es el tipo de cambio hoy?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 5625,
+      "word": "expensive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪkˈspensɪv]",
+        "br": "[ɪkˈspensɪv]",
+        "gb": "[ɪksˈpensɪv]"
+      },
+      "translations": {
+        "rus": "дорогой (по цене)",
+        "spa": "caro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm using an expensive watch.",
+            "ru": "Я ношу дорогие часы."
+          },
+          {
+            "en": "Why is fish so expensive?",
+            "ru": "Почему рыба такая дорогая?"
+          },
+          {
+            "en": "It must have been expensive.",
+            "ru": "Это, наверное, было дорого."
+          },
+          {
+            "en": "This book is too expensive.",
+            "ru": "Эта книга слишком дорогая."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It will be very expensive.",
+            "es": "Será muy caro."
+          },
+          {
+            "en": "The trip was very expensive.",
+            "es": "El viaje era muy caro."
+          },
+          {
+            "en": "That suit has an expensive look.",
+            "es": "Ese traje parece caro."
+          },
+          {
+            "en": "Things have become so expensive!",
+            "es": "¡Todo se ha puesto tan caro!"
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5025,
+      "word": "fee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fiː]",
+        "br": "[fiː]",
+        "gb": "[fiː]"
+      },
+      "translations": {
+        "rus": "плата, цена услуг, вознаграждение",
+        "spa": "la cuota"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the admission fee?",
+            "ru": "Каков вступительный взнос?"
+          },
+          {
+            "en": "There's no membership fee for joining.",
+            "ru": "Вступительного взноса нет."
+          },
+          {
+            "en": "How much is the entrance fee?",
+            "ru": "Сколько стоит вход?"
+          },
+          {
+            "en": "Each member has to pay a membership fee.",
+            "ru": "Каждый участник должен внести членский взнос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I can't afford the fees.",
+            "es": "No puedo permitirme la cuota."
+          }
+        ]
+      },
+      "categories": [
+        "legal_english",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1471,
+      "word": "fiscal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈfɪskl]",
+        "br": "[ˈfɪskl]",
+        "gb": "[ˈfɪskəl]"
+      },
+      "translations": {
+        "rus": "фискальный",
+        "spa": "fiscal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "money"
+      ]
+    },
+    {
+      "id": 5626,
+      "word": "fiver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfaɪvər]",
+        "br": "[ˈfaɪvə(r)]",
+        "gb": "[ˈfaɪvə]"
+      },
+      "translations": {
+        "rus": "пятёрик, пятак",
+        "spa": "el billete de cinco dólares"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5627,
+      "word": "grand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrænd]",
+        "br": "[ɡrænd]",
+        "gb": "[grænd]"
+      },
+      "translations": {
+        "rus": "тысяча долларов",
+        "spa": "mil dólares"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He lost three grand in the gambling casino last night.",
+            "ru": "Вчера в казино он просадил три тысячи долларов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5628,
+      "word": "gross income",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[grəʊs] [ˈɪnkʌm]"
+      },
+      "translations": {
+        "rus": "валовой доход, брутто-доход",
+        "spa": "los ingresos brutos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5630,
+      "word": "hard currency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɑːrd] [ˈkɜːrənsi]",
+        "br": "[hɑːd] [ˈkʌrənsi]",
+        "gb": "[hɑːd] [ˈkʌrənsɪ]"
+      },
+      "translations": {
+        "rus": "твердая валюта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 1510,
+      "word": "inflation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈfleɪʃn]",
+        "br": "[ɪnˈfleɪʃn]",
+        "gb": "[ɪnˈfleɪʃn]"
+      },
+      "translations": {
+        "rus": "инфляция",
+        "spa": "la inflación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Inflation is down.",
+            "ru": "Инфляция снизилась."
+          },
+          {
+            "en": "Inflation is getting out of control.",
+            "ru": "Инфляция выходит из-под контроля."
+          },
+          {
+            "en": "His salary can't keep pace with inflation.",
+            "ru": "Его зарплата не поспевает за инфляцией."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Someone must find a way to stop inflation.",
+            "es": "Se debe encontrar una manera de evitar la inflación."
+          },
+          {
+            "en": "The policy will only accelerate inflation.",
+            "es": "La política solo acelerará la inflación."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2834,
+      "word": "invoice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnvɔɪs]",
+        "br": "[ˈɪnvɔɪs]",
+        "gb": "[ˈɪnvɔɪs]"
+      },
+      "translations": {
+        "rus": "счет-фактура, накладная, квитанция",
+        "spa": "la factura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The conditions of sale are printed on the back of the invoice.",
+            "ru": "Условия продажи напечатаны на оборотной стороне накладной."
+          },
+          {
+            "en": "I stapled the order form to the invoice.",
+            "ru": "Я прикрепил бланк заказа к счёт-фактуре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 1538,
+      "word": "loan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ləʊn]",
+        "br": "[ləʊn]",
+        "gb": "[ləʊn]"
+      },
+      "translations": {
+        "rus": "ссуда, заем",
+        "spa": "el préstamo, prestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll need a loan.",
+            "ru": "Мне понадобится ссуда."
+          },
+          {
+            "en": "I no longer need a loan.",
+            "ru": "Мне больше не нужна ссуда."
+          },
+          {
+            "en": "The bank loaned her 500 dollars.",
+            "ru": "Банк ссудил ей 500 долларов."
+          },
+          {
+            "en": "You can get a loan from a bank.",
+            "ru": "Ты можешь получить ссуду в банке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you still need a loan?",
+            "es": "¿Todavía necesitas un préstamo?"
+          },
+          {
+            "en": "A friend loaned this book to me.",
+            "es": "Este libro me lo prestó un amigo."
+          },
+          {
+            "en": "He got a loan from the bank.",
+            "es": "Él obtuvo un préstamo del banco."
+          },
+          {
+            "en": "The bank loaned him 500 dollars.",
+            "es": "El banco le prestó 500 dólares."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1540,
+      "word": "loss",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːs]",
+        "br": "[lɒs]",
+        "gb": "[lɔs]"
+      },
+      "translations": {
+        "rus": "убыток, потеря, утрата",
+        "spa": "la pérdida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The loss amounted to 100 dollars.",
+            "ru": "Убыток составил сто долларов."
+          },
+          {
+            "en": "I was at a loss for words.",
+            "ru": "Я потерял дар речи."
+          },
+          {
+            "en": "I'm selling my car at a loss.",
+            "ru": "Я продаю свой автомобиль себе в убыток."
+          },
+          {
+            "en": "This is a huge loss.",
+            "ru": "Это огромная потеря."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was a great loss.",
+            "es": "Fue una gran pérdida."
+          },
+          {
+            "en": "Their loss is our gain.",
+            "es": "Su pérdida supone nuestra ganancia."
+          },
+          {
+            "en": "I'm sorry about your loss.",
+            "es": "Siento tu pérdida."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5632,
+      "word": "money",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌni]",
+        "br": "[ˈmʌni]",
+        "gb": "[ˈmʌnɪ]"
+      },
+      "translations": {
+        "rus": "деньги",
+        "spa": "el dinero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The money's on the table.",
+            "ru": "Деньги на столе."
+          },
+          {
+            "en": "Did she forget her money?",
+            "ru": "Она забыла деньги?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have run out of money.",
+            "es": "Se me terminó el dinero."
+          },
+          {
+            "en": "She gave him the money.",
+            "es": "Ella le dio el dinero."
+          },
+          {
+            "en": "I will transfer the money.",
+            "es": "Transferiré el dinero."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1580,
+      "word": "payment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪmənt]",
+        "br": "[ˈpeɪmənt]",
+        "gb": "[ˈpeɪmənt]"
+      },
+      "translations": {
+        "rus": "платёж, оплата",
+        "spa": "el pago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Payment is due on the first day of every month.",
+            "ru": "Оплата производится в первый день каждого месяца."
+          },
+          {
+            "en": "I gave them £10 in part payment.",
+            "ru": "Я дал им 10 фунтов в качестве частичной оплаты."
+          },
+          {
+            "en": "You can make a payment in any bank.",
+            "ru": "Оплату можно произвести в любом банке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What payment options are available?",
+            "es": "¿Qué alternativas de pago están disponibles?"
+          },
+          {
+            "en": "Your payment is now two months overdue.",
+            "es": "Tus pagos se retrasan dos meses."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5633,
+      "word": "petty cash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeti] [kæʃ]",
+        "br": "[ˈpeti] [kæʃ]",
+        "gb": "[ˈpetɪ] [kæʃ]"
+      },
+      "translations": {
+        "rus": "карманные деньги",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 674,
+      "word": "poor",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[pɔːr]",
+        "br": "[pɔː(r)]",
+        "gb": "[pʊə]"
+      },
+      "translations": {
+        "rus": "бедный, плохой, жалкий, ничтожный, низкого качества",
+        "spa": "pobre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am a poor swimmer.",
+            "ru": "Я плохо плаваю."
+          },
+          {
+            "en": "I am poor at sport.",
+            "ru": "Спортсмен из меня никакой."
+          },
+          {
+            "en": "She came from a poor family.",
+            "ru": "Она родилась в бедной семье."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He is rich and I am poor.",
+            "es": "Él es rico y yo pobre."
+          },
+          {
+            "en": "They are a poor family.",
+            "es": "Son una familia pobre."
+          },
+          {
+            "en": "Tony did not feel poor.",
+            "es": "Tony no se sentía pobre."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "money",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5634,
+      "word": "poverty",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɑːvərti]",
+        "br": "[ˈpɒvəti]",
+        "gb": "[ˈpɔvətɪ]"
+      },
+      "translations": {
+        "rus": "бедность, нищета",
+        "spa": "la pobreza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The family lived in poverty.",
+            "ru": "Семья жила в бедности."
+          },
+          {
+            "en": "People struggled against poverty.",
+            "ru": "Народ боролся с нищетой."
+          },
+          {
+            "en": "Poverty is everywhere.",
+            "ru": "Повсюду царит бедность."
+          },
+          {
+            "en": "You grew up in poverty, didn't you?",
+            "ru": "Ты вырос в бедности, не так ли?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Poverty drove him to steal.",
+            "es": "La pobreza lo hizo robar."
+          },
+          {
+            "en": "Poverty is the root of all evil.",
+            "es": "La pobreza es la raíz de todo mal."
+          },
+          {
+            "en": "Crime has often been related to poverty.",
+            "es": "El crimen ha estado frecuentemente relacionado con la pobreza."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5635,
+      "word": "price",
+      "pos": "noun",
+      "transcription": {
+        "us": "[praɪs]",
+        "br": "[praɪs]",
+        "gb": "[praɪs]"
+      },
+      "translations": {
+        "rus": "цена",
+        "spa": "el precio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The price of meat dropped.",
+            "ru": "Цена мяса упала."
+          },
+          {
+            "en": "The price is not reasonable.",
+            "ru": "Цена неразумна."
+          },
+          {
+            "en": "Does that price include breakfast?",
+            "ru": "Цена включает в себя завтрак?"
+          },
+          {
+            "en": "The price includes postage charges.",
+            "ru": "Цена включает почтовые расходы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you ask the price?",
+            "es": "¿Preguntaste el precio?"
+          },
+          {
+            "en": "The price is too high.",
+            "es": "El precio es demasiado alto."
+          },
+          {
+            "en": "We need to raise prices.",
+            "es": "Tenemos que aumentar los precios."
+          },
+          {
+            "en": "Every man has his price.",
+            "es": "Todo el mundo tiene un precio."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2863,
+      "word": "profit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːfɪt]",
+        "br": "[ˈprɒfɪt]",
+        "gb": "[ˈprɔfɪt]"
+      },
+      "translations": {
+        "rus": "прибыль, выгода",
+        "spa": "la ganancia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's split the profits.",
+            "ru": "Давайте разделим прибыль."
+          },
+          {
+            "en": "He claimed his share of the profits.",
+            "ru": "Он требовал себе часть дохода."
+          },
+          {
+            "en": "You made a profit.",
+            "ru": "Ты получил выгоду."
+          },
+          {
+            "en": "They netted a good profit.",
+            "ru": "Они получили хорошую прибыль."
+          },
+          {
+            "en": "My profits were just on paper.",
+            "ru": "Мои доходы существовали только на бумаге."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Profit is better than fame.",
+            "es": "Las ganancias son mejores que la fama."
+          },
+          {
+            "en": "The profits were very high.",
+            "es": "Las ganancias fueron muy altas."
+          },
+          {
+            "en": "We shared the profit among us all.",
+            "es": "Compartimos la ganancia entre todos nosotros."
+          },
+          {
+            "en": "We'll divide the profits among all of us.",
+            "es": "Repartiremos las ganancias entre todos."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1608,
+      "word": "receipt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈsiːt]",
+        "br": "[rɪˈsiːt]",
+        "gb": "[rɪˈsiːt]"
+      },
+      "translations": {
+        "rus": "квитанция, чек об оплате",
+        "spa": "el recibo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Here is your receipt.",
+            "ru": "Вот ваша квитанция."
+          },
+          {
+            "en": "Do you have a receipt?",
+            "ru": "У вас есть квитанция?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll need a receipt for that.",
+            "es": "Necesitaré un recibo por eso."
+          },
+          {
+            "en": "I enclosed the receipt in the letter.",
+            "es": "Incluí el recibo en la carta."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5636,
+      "word": "refund",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːfʌnd]",
+        "br": "[ˈriːfʌnd]",
+        "gb": "[ˈriːfʌnd]"
+      },
+      "translations": {
+        "rus": "возмещение, компенсация, возврат",
+        "spa": "el reembolso, reembolsar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They refused to give me a refund.",
+            "ru": "Они отказались сделать мне возмещение."
+          },
+          {
+            "en": "The customer demanded a refund.",
+            "ru": "Клиент потребовал возврата денег."
+          },
+          {
+            "en": "No refunds or exchanges are allowed.",
+            "ru": "Возврат или обмен не допускаются."
+          },
+          {
+            "en": "Any person who wants a refund must have a receipt.",
+            "ru": "Любой человек, который хочет возврата денег, должен иметь при себе чек."
+          }
+        ],
+        "spa": [
+          {
+            "en": "You should ask for a refund.",
+            "es": "Deberías pedir el reembolso."
+          },
+          {
+            "en": "May I return this for a refund?",
+            "es": "¿Puedo devolver esto para que me lo reembolsen?"
+          },
+          {
+            "en": "They wouldn't give me a refund.",
+            "es": "No me querían dar el reembolso."
+          },
+          {
+            "en": "I certainly would like a refund.",
+            "es": "Claro que querría un reembolso."
+          }
+        ]
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5637,
+      "word": "repayment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈpeɪmənt]",
+        "br": "[rɪˈpeɪmənt]",
+        "gb": "[riːˈpeɪmənt]"
+      },
+      "translations": {
+        "rus": "погашение, возмещение, выплата",
+        "spa": "el pago, el reembolso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5638,
+      "word": "rich",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[rɪtʃ]",
+        "br": "[rɪtʃ]",
+        "gb": "[rɪʧ]"
+      },
+      "translations": {
+        "rus": "богатый",
+        "spa": "rico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I know you are rich.",
+            "ru": "Я знаю, что ты богат."
+          },
+          {
+            "en": "He is far from rich.",
+            "ru": "Он далеко не богат."
+          },
+          {
+            "en": "He seems to be rich.",
+            "ru": "Он кажется богатым."
+          },
+          {
+            "en": "My family is rich.",
+            "ru": "Моя семья богата."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Because he is wealthy, he can go there.",
+            "es": "Como él es rico, puede ir allá."
+          },
+          {
+            "en": "I wish I were rich.",
+            "es": "Ojalá fuera rico."
+          },
+          {
+            "en": "He seems to be rich.",
+            "es": "Él parece rico."
+          },
+          {
+            "en": "I know you are rich.",
+            "es": "Sé que eres rico."
+          },
+          {
+            "en": "I know you are rich.",
+            "es": "Sé que eres rico."
+          },
+          {
+            "en": "He is far from rich.",
+            "es": "Está lejos de ser rico."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2877,
+      "word": "shortage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɔːrtɪdʒ]",
+        "br": "[ˈʃɔːtɪdʒ]",
+        "gb": "[ˈʃɔːtɪʤ]"
+      },
+      "translations": {
+        "rus": "нехватка, дефицит",
+        "spa": "el déficit"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's a wheat shortage.",
+            "ru": "Пшеница в дефиците."
+          },
+          {
+            "en": "The recent coffee shortage brought about many problems.",
+            "ru": "Недавний дефицит кофе вызвал много проблем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5639,
+      "word": "small change",
+      "pos": "noun",
+      "transcription": {
+        "us": "[smɔːl] [tʃeɪndʒ]",
+        "br": "[smɔːl] [tʃeɪndʒ]",
+        "gb": "[smɔːl] [ʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "мелочь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 2883,
+      "word": "tax",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks]",
+        "br": "[tæks]",
+        "gb": "[tæks]"
+      },
+      "translations": {
+        "rus": "налог",
+        "spa": "el impuesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We must pay the tax.",
+            "ru": "Мы должны уплатить налог."
+          },
+          {
+            "en": "I don't like paying taxes.",
+            "ru": "Я не люблю платить налоги."
+          },
+          {
+            "en": "He was able to reduce taxes.",
+            "ru": "Ему удалось понизить налоги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I paid $200 in taxes.",
+            "es": "Pagué $200 en impuestos."
+          },
+          {
+            "en": "You have to pay taxes.",
+            "es": "Tienes que pagar impuestos."
+          },
+          {
+            "en": "Is there any tax on this?",
+            "es": "¿Hay algún impuesto sobre esto?"
+          },
+          {
+            "en": "Does that price include tax?",
+            "es": "¿Ese precio incluye impuestos?"
+          },
+          {
+            "en": "This merchandise is tax free.",
+            "es": "Esta mercadería está libre de impuestos."
+          },
+          {
+            "en": "He was accused of evading tax.",
+            "es": "Fue acusado de evadir impuestos."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5641,
+      "word": "tenner",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtenər]",
+        "br": "[ˈtenə(r)]",
+        "gb": "[ˈtenə]"
+      },
+      "translations": {
+        "rus": "червонец",
+        "spa": "el billete de diez dólares"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5642,
+      "word": "tip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tɪp]",
+        "br": "[tɪp]",
+        "gb": "[tɪp]"
+      },
+      "translations": {
+        "rus": "чаевые",
+        "spa": "la propina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where's my tip?",
+            "ru": "Где мои чаевые?"
+          },
+          {
+            "en": "Did you leave a tip?",
+            "ru": "Ты оставил чаевые?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you leave a tip?",
+            "es": "¿Dejaste propina?"
+          },
+          {
+            "en": "It is rude not to tip a waiter.",
+            "es": "No es de buena educación negarle la propina a un camarero."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1343,
+      "word": "to bargain",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈbɑːrɡən]",
+        "br": "[tə] [ˈbɑːɡən]",
+        "gb": "[tuː] [ˈbɑːgɪn]"
+      },
+      "translations": {
+        "rus": "торговаться",
+        "spa": "negociar, regatear"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I hate bargaining.",
+            "ru": "Терпеть не могу торговаться."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "money"
+      ]
+    },
+    {
+      "id": 812,
+      "word": "to borrow",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈbɔːrəʊ]",
+        "br": "[tə] [ˈbɒrəʊ]",
+        "gb": "[tuː] [ˈbɔrəʊ]"
+      },
+      "translations": {
+        "rus": "брать в долг, заимствовать",
+        "spa": "pedir prestado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I borrowed it.",
+            "ru": "Я это позаимствовал."
+          },
+          {
+            "en": "She borrowed $20 from me.",
+            "ru": "Она заняла у меня $20."
+          },
+          {
+            "en": "I borrowed her hairbrush.",
+            "ru": "Я позаимствовал её расческу."
+          },
+          {
+            "en": "Could I borrow a hammer?",
+            "ru": "Можно позаимствовать молоток?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't want to lend or borrow.",
+            "es": "No quiero ni prestar ni pedir prestado."
+          },
+          {
+            "en": "I had to borrow money to purchase the car.",
+            "es": "Tuve que pedir prestado dinero para comprar el coche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 820,
+      "word": "to buy",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [baɪ]",
+        "br": "[tə] [baɪ]",
+        "gb": "[tuː] [baɪ]"
+      },
+      "translations": {
+        "rus": "покупать",
+        "spa": "comprar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I will buy the tickets.",
+            "ru": "Я куплю билеты."
+          },
+          {
+            "en": "One does not buy happiness.",
+            "ru": "Нельзя купить счастье."
+          },
+          {
+            "en": "I am buying a new car.",
+            "ru": "Я покупаю новую машину."
+          },
+          {
+            "en": "How much wine should I buy?",
+            "ru": "Сколько вина покупать?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I will buy a car.",
+            "es": "Me compraré un coche."
+          },
+          {
+            "en": "I must buy some milk.",
+            "es": "Tengo que comprar leche."
+          },
+          {
+            "en": "Do you want to buy it?",
+            "es": "¿Querés comprarlo?"
+          },
+          {
+            "en": "Please do not buy it.",
+            "es": "No lo compres por favor."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "money",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 875,
+      "word": "to cost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kɔːst]",
+        "br": "[tə] [kɒst]",
+        "gb": "[tuː] [kɔst]"
+      },
+      "translations": {
+        "rus": "стоить",
+        "spa": "costar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tea costs two euros.",
+            "ru": "Чай стоит два евро."
+          },
+          {
+            "en": "That cost him his job.",
+            "ru": "Это стоило ему работы."
+          },
+          {
+            "en": "How much will it cost?",
+            "ru": "Сколько это будет стоить?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "This hat cost me $10.",
+            "es": "Este sombrero costó diez dólares."
+          },
+          {
+            "en": "It cost me a fortune.",
+            "es": "Me costó un dineral."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "marketing",
+        "money",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1445,
+      "word": "to discount",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈdɪskaʊnt]",
+        "br": "[tə] [ˈdɪskaʊnt]",
+        "gb": "[tuː] [dɪsˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "делать скидку",
+        "spa": "rebajar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Can the price be discounted?",
+            "es": "¿Admite el precio rebaja?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 5622,
+      "word": "to donate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈdəʊneɪt]",
+        "br": "[tə] [dəʊˈneɪt]",
+        "gb": "[tuː] [dəʊˈneɪt]"
+      },
+      "translations": {
+        "rus": "жертвовать, дарить",
+        "spa": "donar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He always donates.",
+            "ru": "Он всегда жертвует."
+          },
+          {
+            "en": "Would you donate a kidney?",
+            "ru": "Ты бы пожертвовал почку?"
+          },
+          {
+            "en": "You can give the gift of life by donating blood.",
+            "ru": "Можно подарить кому-то жизнь сдав кровь."
+          },
+          {
+            "en": "Do you want to know who donated the money?",
+            "ru": "Ты хочешь знать, кто пожертвовал деньги?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "They donated money to the Red Cross.",
+            "es": "Ellos donaron dinero a la Cruz Roja."
+          },
+          {
+            "en": "He donated countless pieces to the museum.",
+            "es": "Donó innumerables piezas al museo."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5629,
+      "word": "to haggle",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈhæɡl]",
+        "br": "[tə] [ˈhæɡl]",
+        "gb": "[tuː] [hægl]"
+      },
+      "translations": {
+        "rus": "торговаться",
+        "spa": "negociar, regatear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money"
+      ]
+    },
+    {
+      "id": 5631,
+      "word": "to invest",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ɪnˈvest]",
+        "br": "[tu] [ɪnˈvest]",
+        "gb": "[tuː] [ɪnˈvest]"
+      },
+      "translations": {
+        "rus": "инвестировать, вкладывать",
+        "spa": "invertir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How much have you invested?",
+            "ru": "Сколько ты инвестировал?"
+          },
+          {
+            "en": "You really should be investing your money.",
+            "ru": "Тебе точно следует вкладывать деньги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He invested his money in stocks.",
+            "es": "Ha invertido su dinero en las acciones de bolsa."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2835,
+      "word": "to invoice",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪnvɔɪs]",
+        "br": "[tu] [ˈɪnvɔɪs]",
+        "gb": "[tuː] [ˈɪnvɔɪs]"
+      },
+      "translations": {
+        "rus": "выставлять счёт",
+        "spa": "facturar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She invoiced the company for her expenses.",
+            "ru": "Она выставила компании счёт за свои расходы."
+          },
+          {
+            "en": "They will invoice you directly.",
+            "ru": "Они выставят вам счёт напрямую."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 1057,
+      "word": "to lend",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lend]",
+        "br": "[tə] [lend]",
+        "gb": "[tuː] [lend]"
+      },
+      "translations": {
+        "rus": "давать в долг, одолжить, предоставлять",
+        "spa": "prestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll lend it to you.",
+            "ru": "Я тебе её одолжу."
+          },
+          {
+            "en": "He'll lend you his book.",
+            "ru": "Он одолжит тебе свою книгу."
+          },
+          {
+            "en": "Can you lend me yours?",
+            "ru": "Ты можешь одолжить мне свой?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll lend it to you.",
+            "es": "Yo te lo presto."
+          },
+          {
+            "en": "He'll lend you his book.",
+            "es": "Él te prestará su libro."
+          },
+          {
+            "en": "I can't lend you any money.",
+            "es": "No puedo prestarte nada de dinero."
+          },
+          {
+            "en": "I don't want to lend or borrow.",
+            "es": "No quiero ni prestar ni pedir prestado."
+          },
+          {
+            "en": "I offered to lend money to her.",
+            "es": "Le ofrecí prestarle dinero."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1101,
+      "word": "to owe",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əʊ]",
+        "br": "[tu] [əʊ]",
+        "gb": "[tuː] [əʊ]"
+      },
+      "translations": {
+        "rus": "быть должным, задолжать",
+        "spa": "deber"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The government owed millions of dollars.",
+            "ru": "Правительство задолжало миллионы долларов."
+          },
+          {
+            "en": "He owes me $5.",
+            "ru": "Он должен мне пять долларов."
+          },
+          {
+            "en": "I owe you a drink.",
+            "ru": "Я должен тебе выпивку."
+          },
+          {
+            "en": "I owe the bank a lot of money.",
+            "ru": "Я должен банку много денег."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I owe him 100 yen.",
+            "es": "Le debo 100 yenes."
+          },
+          {
+            "en": "You owe me a beer.",
+            "es": "Me debes una cerveza."
+          },
+          {
+            "en": "What do we owe you?",
+            "es": "¿Cuánto te debemos?"
+          },
+          {
+            "en": "I owe a lot of money.",
+            "es": "Debo mucho dinero."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1139,
+      "word": "to purchase",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈpɜːrtʃəs]",
+        "br": "[tə] [ˈpɜːtʃəs]",
+        "gb": "[tuː] [ˈpɜːʧəs]"
+      },
+      "translations": {
+        "rus": "покупать, приобретать",
+        "spa": "comprar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The couple wants to purchase a house.",
+            "ru": "Супруги хотят купить дом."
+          },
+          {
+            "en": "When was it purchased?",
+            "ru": "Когда это было приобретено?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I purchased one bag.",
+            "es": "Compré una bolsa."
+          },
+          {
+            "en": "I purchased a new car last week.",
+            "es": "Compré un coche nuevo la semana pasada."
+          },
+          {
+            "en": "I would like to purchase some boots.",
+            "es": "Me gustaría comprarme unas botas."
+          },
+          {
+            "en": "The couple wants to purchase a home.",
+            "es": "La pareja quiere comprar una casa."
+          },
+          {
+            "en": "I had to borrow money to purchase the car.",
+            "es": "Tuve que pedir prestado dinero para comprar el coche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1203,
+      "word": "to sell",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sel]",
+        "br": "[tə] [sel]",
+        "gb": "[tuː] [sel]"
+      },
+      "translations": {
+        "rus": "продавать",
+        "spa": "vender"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you sell cigarettes?",
+            "ru": "Вы продаёте сигареты?"
+          },
+          {
+            "en": "The brothers sell shoes.",
+            "ru": "Братья продают обувь."
+          },
+          {
+            "en": "Toni's selling his car for £700.",
+            "ru": "Тони продает свою машину за 700 фунтов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am selling a new car.",
+            "es": "Vendo un coche nuevo."
+          },
+          {
+            "en": "I have to sell it today.",
+            "es": "Debo venderlo hoy."
+          },
+          {
+            "en": "Do you want to sell them?",
+            "es": "¿Querés venderlos?"
+          },
+          {
+            "en": "Selling cars is my job.",
+            "es": "Vender coches es mi trabajo."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "money",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5640,
+      "word": "to speculate",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈspekjuleɪt]",
+        "br": "[tə] [ˈspekjuleɪt]",
+        "gb": "[tuː] [ˈspekjʊleɪt]"
+      },
+      "translations": {
+        "rus": "спекулировать",
+        "spa": "especular"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1692,
+      "word": "to withdraw",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [wɪðˈdrɔː]",
+        "br": "[tə] [wɪðˈdrɔː]",
+        "gb": "[tuː] [wɪðˈdrɔː]"
+      },
+      "translations": {
+        "rus": "снимать (деньги со счета), извлекать, изымать, отзывать, брать назад",
+        "spa": "retirar, retirarse, sacar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "I'd like to withdraw some cash.",
+            "es": "Me gustaría retirar algún dinero en efectivo."
+          },
+          {
+            "en": "How much money you would like to withdraw?",
+            "es": "¿Cuánto dinero desea sacar?"
+          },
+          {
+            "en": "Many people use ATMs to withdraw money.",
+            "es": "Mucha gente usa cajeros automáticos para retirar dinero."
+          },
+          {
+            "en": "I'm gonna withdraw some money real quick.",
+            "es": "Voy a retirar algún dinero realmente rápido."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2894,
+      "word": "transaction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trænˈzækʃn]",
+        "br": "[trænˈzækʃn]",
+        "gb": "[trænˈzækʃn]"
+      },
+      "translations": {
+        "rus": "транзакция",
+        "spa": "la transacción"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Do you wish to make any other transaction?",
+            "es": "¿Deseas hacer cualquier otra transacción?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5643,
+      "word": "wealth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[welθ]",
+        "br": "[welθ]",
+        "gb": "[welθ]"
+      },
+      "translations": {
+        "rus": "богатство",
+        "spa": "la riqueza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Wealth is relative.",
+            "ru": "Богатство относительно."
+          },
+          {
+            "en": "I don't have much desire for wealth.",
+            "ru": "Я не жажду богатства."
+          },
+          {
+            "en": "Health is better than wealth.",
+            "ru": "Здоровье лучше богатства."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Health is better than wealth.",
+            "es": "La salud es mejor que la riqueza."
+          },
+          {
+            "en": "My uncle possesses great wealth.",
+            "es": "Mi tío posee una gran riqueza."
+          },
+          {
+            "en": "His wealth has not made him happy.",
+            "es": "Su riqueza no le ha hecho feliz."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5644,
+      "word": "wealthy",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈwelθi]",
+        "br": "[ˈwelθi]",
+        "gb": "[ˈwelθɪ]"
+      },
+      "translations": {
+        "rus": "богатый, состоятельный, обильный",
+        "spa": "rico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are you wealthy?",
+            "ru": "Ты богатый?"
+          },
+          {
+            "en": "I'm a wealthy man.",
+            "ru": "Я состоятельный человек."
+          },
+          {
+            "en": "I'm not wealthy.",
+            "ru": "Я не богат."
+          },
+          {
+            "en": "She is a wealthy woman.",
+            "ru": "Она состоятельная женщина."
+          },
+          {
+            "en": "They were wealthy.",
+            "ru": "Они были богаты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Because he is wealthy, he can go there.",
+            "es": "Como él es rico, puede ir allá."
+          },
+          {
+            "en": "I wish I were rich.",
+            "es": "Ojalá fuera rico."
+          },
+          {
+            "en": "He seems to be rich.",
+            "es": "Él parece rico."
+          },
+          {
+            "en": "I know you are rich.",
+            "es": "Sé que eres rico."
+          }
+        ]
+      },
+      "categories": [
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    }
+  ]
+}

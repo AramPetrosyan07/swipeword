@@ -1,0 +1,1845 @@
+{
+  "category": {
+    "id": "space",
+    "name_rus": "Космос",
+    "type": "topic",
+    "word_count": 67
+  },
+  "words": [
+    {
+      "id": 463,
+      "word": "air",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[er]",
+        "br": "[eə(r)]",
+        "gb": "[ɛə]"
+      },
+      "translations": {
+        "rus": "воздух, воздушный, эфир",
+        "spa": "el aire"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A delicious smell filled the air.",
+            "ru": "Воздух наполнился восхитительно вкусным запахом."
+          },
+          {
+            "en": "There is no air on the moon.",
+            "ru": "На Луне нет воздуха."
+          },
+          {
+            "en": "The programme goes on the air.",
+            "ru": "Программа выходит в эфир."
+          },
+          {
+            "en": "They were off the air.",
+            "ru": "Они закончили передачу."
+          },
+          {
+            "en": "We cannot live without air.",
+            "ru": "Мы не можем жить без воздуха."
+          },
+          {
+            "en": "The picture was taken from the air.",
+            "ru": "Снимок сделали с воздуха."
+          },
+          {
+            "en": "The air is soft, the soil moist.",
+            "ru": "Воздух мягкий, почва влажная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I just need some air.",
+            "es": "Solo necesito aire."
+          },
+          {
+            "en": "Let in some fresh air.",
+            "es": "Deja entrar algo de aire fresco."
+          },
+          {
+            "en": "He put air in his tires.",
+            "es": "Le echó aire a sus neumáticos."
+          },
+          {
+            "en": "The air in here is foul.",
+            "es": "El aire aquí está muy viciado."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7861,
+      "word": "alien",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈeɪliən]",
+        "br": "[ˈeɪliən]",
+        "gb": "[ˈeɪljən]"
+      },
+      "translations": {
+        "rus": "инопланетянин, иностранец, чужой, вражеский",
+        "spa": "el extraterrestre, el alienígena, el extranjero, extraño, ajeno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A story about alien beings who invade Earth.",
+            "ru": "История об инопланетных существах, которые вторглись на Землю."
+          },
+          {
+            "en": "It's alien to my thoughts.",
+            "ru": "Это мне чуждо."
+          },
+          {
+            "en": "Ambition is alien to his nature.",
+            "ru": "Честолюбие ему чуждо."
+          },
+          {
+            "en": "A way of life that is totally alien to us.",
+            "ru": "Совершенно чуждый для нас образ жизни."
+          },
+          {
+            "en": "Do aliens exist?",
+            "ru": "Инопланетяне существуют?"
+          },
+          {
+            "en": "I don't believe in aliens.",
+            "ru": "Я не верю в инопланетян."
+          },
+          {
+            "en": "I was abducted by aliens.",
+            "ru": "Меня похищали инопланетяне."
+          },
+          {
+            "en": "I swear, I saw an alien!",
+            "ru": "Клянусь, я видел инопланетянина!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 9822,
+      "word": "asteroid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæstərɔɪd]",
+        "br": "[ˈæstərɔɪd]",
+        "gb": "[ˈæstərɔɪd]"
+      },
+      "translations": {
+        "rus": "астероид",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9823,
+      "word": "astronaut",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæstrənɔːt]",
+        "br": "[ˈæstrənɔːt]",
+        "gb": "[ˈæstrənɔːt]"
+      },
+      "translations": {
+        "rus": "астронавт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9824,
+      "word": "astronomy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈstrɑːnəmi]",
+        "br": "[əˈstrɒnəmi]",
+        "gb": "[əsˈtrɔnəmɪ]"
+      },
+      "translations": {
+        "rus": "астрономия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 2622,
+      "word": "atmosphere",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈætməsfɪr]",
+        "br": "[ˈætməsfɪə(r)]",
+        "gb": "[ˈætməsfɪə]"
+      },
+      "translations": {
+        "rus": "атмосфера",
+        "spa": "la atmósfera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The moon has no atmosphere.",
+            "ru": "У Луны нет атмосферы."
+          },
+          {
+            "en": "The atmosphere is being polluted.",
+            "ru": "Атмосфера загрязняется."
+          },
+          {
+            "en": "The atmosphere was uncomfortable.",
+            "ru": "Атмосфера была неприятной."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The atmosphere is being polluted.",
+            "es": "La atmósfera está siendo contaminada."
+          },
+          {
+            "en": "The atmosphere mostly consists of nitrogen and oxygen.",
+            "es": "La atmósfera se compone en su mayor parte de nitrógeno y oxígeno."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9825,
+      "word": "atmospheric",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌætməsˈferɪk]",
+        "br": "[ˌætməsˈferɪk]",
+        "gb": "[ætməsˈferɪk]"
+      },
+      "translations": {
+        "rus": "атмосферный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9826,
+      "word": "black hole",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blæk] [həʊl]",
+        "br": "[blæk] [həʊl]",
+        "gb": "[blæk] [həʊl]"
+      },
+      "translations": {
+        "rus": "черная дыра",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 322,
+      "word": "celestial body",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈlestʃl] [ˈbɑːdi]",
+        "br": "[səˈlestiəl] [ˈbɒdi]",
+        "gb": "[sɪˈlestjəl] [ˈbɔdɪ]"
+      },
+      "translations": {
+        "rus": "небесное тело",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "space"
+      ]
+    },
+    {
+      "id": 9827,
+      "word": "comet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːmɪt]",
+        "br": "[ˈkɒmɪt]",
+        "gb": "[ˈkɔmɪt]"
+      },
+      "translations": {
+        "rus": "комета",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9828,
+      "word": "constellation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːnstəˈleɪʃn]",
+        "br": "[ˌkɒnstəˈleɪʃn]",
+        "gb": "[kɔnstəˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "созвездие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9829,
+      "word": "cosmonaut",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːzmənɔːt]",
+        "br": "[ˈkɒzmənɔːt]",
+        "gb": "[ˈkɔzmənɔːt]"
+      },
+      "translations": {
+        "rus": "космонавт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9830,
+      "word": "crater",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkreɪtər]",
+        "br": "[ˈkreɪtə(r)]",
+        "gb": "[ˈkreɪtə]"
+      },
+      "translations": {
+        "rus": "кратер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9831,
+      "word": "crust",
+      "pos": "noun",
+      "transcription": {
+        "us": "[krʌst]",
+        "br": "[krʌst]",
+        "gb": "[krʌst]"
+      },
+      "translations": {
+        "rus": "земная кора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 2654,
+      "word": "Earth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɜːrθ]",
+        "br": "[ɜːθ]",
+        "gb": "[ɜːθ]"
+      },
+      "translations": {
+        "rus": "Земля",
+        "spa": "la Tierra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live on the Earth.",
+            "ru": "Мы живём на Земле."
+          },
+          {
+            "en": "It was Earth Day yesterday.",
+            "ru": "Вчера был День Земли."
+          },
+          {
+            "en": "Flowers are the Earth's smile.",
+            "ru": "Цветы — улыбка земли."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The Earth is our home.",
+            "es": "La Tierra es nuestro hogar."
+          },
+          {
+            "en": "What makes the Earth spin?",
+            "es": "¿Qué hace girar a la Tierra?"
+          },
+          {
+            "en": "How can we save the Earth?",
+            "es": "¿Cómo podemos salvar la Tierra?"
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9832,
+      "word": "eclipse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈklɪps]",
+        "br": "[ɪˈklɪps]",
+        "gb": "[ɪˈklɪps]"
+      },
+      "translations": {
+        "rus": "затмение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9833,
+      "word": "flying saucer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflaɪɪŋ] [ˈsɔːsər]",
+        "br": "[ˈflaɪɪŋ] [ˈsɔːsə(r)]",
+        "gb": "[ˈflaɪɪŋ] [ˈsɔːsə]"
+      },
+      "translations": {
+        "rus": "летающая тарелка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9834,
+      "word": "full moon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊl] [muːn]",
+        "br": "[fʊl] [muːn]",
+        "gb": "[fʊl] [muːn]"
+      },
+      "translations": {
+        "rus": "полнолуние",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9835,
+      "word": "galaxy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡæləksi]",
+        "br": "[ˈɡæləksi]",
+        "gb": "[ˈgæləksɪ]"
+      },
+      "translations": {
+        "rus": "галактика",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's the largest galaxy known to exist.",
+            "ru": "Это самая крупная из известных галактик."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 8065,
+      "word": "globe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡləʊb]",
+        "br": "[ɡləʊb]",
+        "gb": "[gləʊb]"
+      },
+      "translations": {
+        "rus": "земной шар, глобус",
+        "spa": "el globo, el mundo, el globo terráqueo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 8882,
+      "word": "gravity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡrævəti]",
+        "br": "[ˈɡrævəti]",
+        "gb": "[ˈgrævɪtɪ]"
+      },
+      "translations": {
+        "rus": "гравитация, сила тяжести",
+        "spa": "la gravedad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How does gravity work?",
+            "ru": "Как действует гравитация?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford5000_c1",
+        "space"
+      ]
+    },
+    {
+      "id": 9836,
+      "word": "Great Bear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡreɪt] [ber]",
+        "br": "[ɡreɪt] [beə(r)]",
+        "gb": "[greɪt] [bɛə]"
+      },
+      "translations": {
+        "rus": "Большая Медведица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 7547,
+      "word": "heaven",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhevn]",
+        "br": "[ˈhevn]",
+        "gb": "[hevn]"
+      },
+      "translations": {
+        "rus": "небеса, небо",
+        "spa": "el cielo, el paraíso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank heaven for small mercies.",
+            "ru": "Хвала небесам хоть за эту маленькую удачу."
+          },
+          {
+            "en": "I would move heaven and earth to help her.",
+            "ru": "Я сдвину небо и землю, чтобы помочь ей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 9837,
+      "word": "heavenly",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhevnli]",
+        "br": "[ˈhevnli]",
+        "gb": "[ˈhevnlɪ]"
+      },
+      "translations": {
+        "rus": "небесный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9838,
+      "word": "Jupiter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒuːpɪtər]",
+        "br": "[ˈdʒuːpɪtə(r)]",
+        "gb": "[ˈʤuːpɪtə]"
+      },
+      "translations": {
+        "rus": "Юпитер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 7589,
+      "word": "launch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɔːntʃ]",
+        "br": "[lɔːntʃ]",
+        "gb": "[lɔːnʧ]"
+      },
+      "translations": {
+        "rus": "запуск",
+        "spa": "el lanzamiento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The launch of a ship was a big occasion.",
+            "ru": "Спуск корабля на воду был большим событием."
+          },
+          {
+            "en": "The launch was postponed to a later date.",
+            "ru": "Запуск был перенесён на более поздний срок."
+          },
+          {
+            "en": "The satellite launch was broadcast live.",
+            "ru": "Запуск спутника транслировался в прямом эфире."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The probe launch was successful.",
+            "es": "El lanzamiento de la sonda fue exitoso."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9839,
+      "word": "light year",
+      "pos": "noun",
+      "transcription": {
+        "us": "[laɪt] [jɪr]",
+        "br": "[laɪt] [jɪə(r)]",
+        "gb": "[laɪt] [jɜː]"
+      },
+      "translations": {
+        "rus": "световой год",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9840,
+      "word": "Little Bear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtl] [ber]",
+        "br": "[ˈlɪtl] [beə(r)]",
+        "gb": "[lɪtl] [bɛə]"
+      },
+      "translations": {
+        "rus": "Малая Медведица",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9841,
+      "word": "lunar eclipse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈluːnər] [ɪˈklɪps]",
+        "br": "[ˈluːnə(r)] [ɪˈklɪps]",
+        "gb": "[ˈluːnə] [ɪˈklɪps]"
+      },
+      "translations": {
+        "rus": "лунное затмение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9842,
+      "word": "Mars",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɑːrz]",
+        "br": "[mɑːz]",
+        "gb": "[mɑːz]"
+      },
+      "translations": {
+        "rus": "Марс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9843,
+      "word": "martian",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈmɑːrʃn]",
+        "br": "[ˈmɑːʃn]",
+        "gb": "[ˈmɑːʃjən]"
+      },
+      "translations": {
+        "rus": "марсианский",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9844,
+      "word": "Mercury",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɜːrkjəri]",
+        "br": "[ˈmɜːkjəri]",
+        "gb": "[ˈmɜːkjʊrɪ]"
+      },
+      "translations": {
+        "rus": "Меркурий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9845,
+      "word": "meteor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmiːtiər]",
+        "br": "[ˈmiːtiə(r)]",
+        "gb": "[ˈmiːtjə]"
+      },
+      "translations": {
+        "rus": "метеор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9846,
+      "word": "meteorite",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmiːtiəraɪt]",
+        "br": "[ˈmiːtiəraɪt]",
+        "gb": "[ˈmiːtjəraɪt]"
+      },
+      "translations": {
+        "rus": "метеорит",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9847,
+      "word": "milky way",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪlki] [weɪ]",
+        "br": "[ˈmɪlki] [weɪ]",
+        "gb": "[ˈmɪlkɪ] [weɪ]"
+      },
+      "translations": {
+        "rus": "млечный путь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 2700,
+      "word": "Moon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[muːn]",
+        "br": "[muːn]",
+        "gb": "[muːn]"
+      },
+      "translations": {
+        "rus": "Луна",
+        "spa": "la luna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Moon comes out.",
+            "ru": "Луна выходит."
+          },
+          {
+            "en": "The Moon waxes.",
+            "ru": "Луна растёт."
+          },
+          {
+            "en": "The Moon wanes.",
+            "ru": "Луна убывает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9848,
+      "word": "nebula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnebjələ]",
+        "br": "[ˈnebjələ]",
+        "gb": "[ˈnebjʊlə]"
+      },
+      "translations": {
+        "rus": "туманность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9849,
+      "word": "Neptune",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneptuːn]",
+        "br": "[ˈneptjuːn]",
+        "gb": "[ˈneptjuːn]"
+      },
+      "translations": {
+        "rus": "Нептун",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9850,
+      "word": "orbit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːrbɪt]",
+        "br": "[ˈɔːbɪt]",
+        "gb": "[ˈɔːbɪt]"
+      },
+      "translations": {
+        "rus": "орбита",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9851,
+      "word": "outer space",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaʊtər] [speɪs]",
+        "br": "[ˈaʊtə(r)] [speɪs]",
+        "gb": "[ˈaʊtə] [speɪs]"
+      },
+      "translations": {
+        "rus": "открытый космос",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 6643,
+      "word": "planet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈplænɪt]",
+        "br": "[ˈplænɪt]",
+        "gb": "[ˈplænɪt]"
+      },
+      "translations": {
+        "rus": "планета, планетарный",
+        "spa": "el planeta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Which planet are you from?",
+            "ru": "С какой ты планеты?"
+          },
+          {
+            "en": "Take care of our planet.",
+            "ru": "Берегите нашу планету."
+          },
+          {
+            "en": "Can we save the planet?",
+            "ru": "Мы можем спасти планету?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9852,
+      "word": "Pluto",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpluːtəʊ]",
+        "br": "[ˈpluːtəʊ]",
+        "gb": "[ˈpluːtəʊ]"
+      },
+      "translations": {
+        "rus": "Плутон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9853,
+      "word": "quasar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkweɪzɑːr]",
+        "br": "[ˈkweɪzɑː(r)]",
+        "gb": "[ˈkweɪzɑːr]"
+      },
+      "translations": {
+        "rus": "квазар",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 5591,
+      "word": "rocket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɑːkɪt]",
+        "br": "[ˈrɒkɪt]",
+        "gb": "[ˈrɔkɪt]"
+      },
+      "translations": {
+        "rus": "ракета, снаряд",
+        "spa": "el cohete, el misil"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They launched a rocket.",
+            "ru": "Они запустили ракету."
+          },
+          {
+            "en": "I went to space on a rocket.",
+            "ru": "Я полетел в космос на ракете."
+          },
+          {
+            "en": "The rocket was launched into space.",
+            "ru": "Ракета была запущена в космос."
+          },
+          {
+            "en": "They're going to send up a rocket.",
+            "ru": "Они собираются запустить ракету."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "military_weapons",
+        "oxford5000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 7717,
+      "word": "satellite",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsætəlaɪt]",
+        "br": "[ˈsætəlaɪt]",
+        "gb": "[ˈsætəlaɪt]"
+      },
+      "translations": {
+        "rus": "спутник",
+        "spa": "el satélite"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The satellite is now in orbit.",
+            "ru": "Спутник сейчас на орбите."
+          },
+          {
+            "en": "Uranus has 27 known natural satellites.",
+            "ru": "У Урана есть 27 известных естественных спутников."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 9854,
+      "word": "Saturn",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsætɜːrn]",
+        "br": "[ˈsætɜːn]",
+        "gb": "[ˈsætən]"
+      },
+      "translations": {
+        "rus": "Сатурн",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9855,
+      "word": "shooting star",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃuːtɪŋ] [stɑːr]",
+        "br": "[ˈʃuːtɪŋ] [stɑː(r)]",
+        "gb": "[ˈʃuːtɪŋ] [stɑː]"
+      },
+      "translations": {
+        "rus": "падающая звезда",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 7762,
+      "word": "solar",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsəʊlər]",
+        "br": "[ˈsəʊlə(r)]",
+        "gb": "[ˈsəʊlə]"
+      },
+      "translations": {
+        "rus": "солнечный",
+        "spa": "solar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's talk about solar energy.",
+            "ru": "Давайте поговорим о солнечной энергии."
+          },
+          {
+            "en": "Did you see the solar eclipse yesterday?",
+            "ru": "Ты вчера видел солнечное затмение?"
+          },
+          {
+            "en": "Is there life beyond the solar system?",
+            "ru": "Есть ли жизнь за пределами Солнечной системы?"
+          },
+          {
+            "en": "The solar panels generate electricity.",
+            "ru": "Солнечные панели производят электричество."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space"
+      ]
+    },
+    {
+      "id": 9856,
+      "word": "solar eclipse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊlər] [ɪˈklɪps]",
+        "br": "[ˈsəʊlə(r)] [ɪˈklɪps]",
+        "gb": "[ˈsəʊlə] [ɪˈklɪps]"
+      },
+      "translations": {
+        "rus": "солнечное затмение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9857,
+      "word": "solar system",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊlər] [ˈsɪstəm]",
+        "br": "[ˈsəʊlə(r)] [ˈsɪstəm]",
+        "gb": "[ˈsəʊlə] [ˈsɪstɪm]"
+      },
+      "translations": {
+        "rus": "солнечная система",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 443,
+      "word": "space",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪs]",
+        "br": "[speɪs]",
+        "gb": "[speɪs]"
+      },
+      "translations": {
+        "rus": "пространство, место, космос, космический, пробел",
+        "spa": "el espacio, espacial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Leave a space after each number.",
+            "ru": "Оставьте пробел после каждой цифры."
+          },
+          {
+            "en": "There's not much empty space.",
+            "ru": "Там не так много свободного места."
+          },
+          {
+            "en": "The Space Shuttle is now in orbit.",
+            "ru": "Космический шаттл сейчас находится на орбите."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Give us a little space.",
+            "es": "Danos un poco de espacio."
+          },
+          {
+            "en": "Space travel was thought to be impossible.",
+            "es": "Se pensaba que los viajes espaciales eran imposibles."
+          },
+          {
+            "en": "I just need my own space.",
+            "es": "Solo necesito mi espacio."
+          },
+          {
+            "en": "Space is full of mystery.",
+            "es": "El espacio está lleno de misterios."
+          },
+          {
+            "en": "I just needed some space.",
+            "es": "Solo necesitaba algo de espacio."
+          },
+          {
+            "en": "We have space for two beds.",
+            "es": "Tenemos espacio para dos camas."
+          }
+        ]
+      },
+      "categories": [
+        "architecture",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 9858,
+      "word": "space probe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪs] [prəʊb]",
+        "br": "[speɪs] [prəʊb]",
+        "gb": "[speɪs] [prəʊb]"
+      },
+      "translations": {
+        "rus": "космический зонд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9859,
+      "word": "space shuttle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪs] [ˈʃʌtl]",
+        "br": "[speɪs] [ˈʃʌtl]",
+        "gb": "[speɪs] [ʃʌtl]"
+      },
+      "translations": {
+        "rus": "космический челнок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9860,
+      "word": "space station",
+      "pos": "noun",
+      "transcription": {
+        "us": "[speɪs] [ˈsteɪʃn]",
+        "br": "[speɪs] [ˈsteɪʃn]",
+        "gb": "[speɪs] [steɪʃn]"
+      },
+      "translations": {
+        "rus": "космическая станция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9861,
+      "word": "spaceship",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspeɪsʃɪp]",
+        "br": "[ˈspeɪsʃɪp]",
+        "gb": "[ˈspeɪsʃɪp]"
+      },
+      "translations": {
+        "rus": "космический корабль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 2759,
+      "word": "star",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[stɑːr]",
+        "br": "[stɑː(r)]",
+        "gb": "[stɑː]"
+      },
+      "translations": {
+        "rus": "звезда, звездный",
+        "spa": "la estrella"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sun is a star.",
+            "ru": "Солнце - звезда."
+          },
+          {
+            "en": "Do you see the star?",
+            "ru": "Видишь звезду?"
+          },
+          {
+            "en": "The sky is full of stars.",
+            "ru": "На небе полно звёзд."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She made me a star.",
+            "es": "Ella me hizo una estrella."
+          },
+          {
+            "en": "Today, I saw a star.",
+            "es": "Hoy he visto una estrella."
+          },
+          {
+            "en": "Antares is a red star.",
+            "es": "Antares es una estrella roja."
+          },
+          {
+            "en": "This is my star pupil.",
+            "es": "Este es mi alumno estrella."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2764,
+      "word": "Sun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌn]",
+        "br": "[sʌn]",
+        "gb": "[sʌn]"
+      },
+      "translations": {
+        "rus": "Солнце, солнечный",
+        "spa": "el sol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Sun has gone down.",
+            "ru": "Солнце село."
+          },
+          {
+            "en": "The heat of the Sun hardens clay.",
+            "ru": "Солнечное тепло делает глину твёрдой."
+          },
+          {
+            "en": "The Sun is a star.",
+            "ru": "Солнце - звезда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like the sun a lot.",
+            "es": "Me gusta mucho el sol."
+          },
+          {
+            "en": "The sun is rising now.",
+            "es": "El sol está saliendo ya."
+          },
+          {
+            "en": "The sun doesn't always shine.",
+            "es": "El sol no brilla siempre."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2765,
+      "word": "sunrise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnraɪz]",
+        "br": "[ˈsʌnraɪz]",
+        "gb": "[ˈsʌnraɪz]"
+      },
+      "translations": {
+        "rus": "восход Солнца",
+        "spa": "el amanecer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How beautiful a sunrise is!",
+            "ru": "Как прекрасен восход солнца!"
+          },
+          {
+            "en": "Did you see the sunrise this morning?",
+            "ru": "Вы видели сегодня утром восход солнца?"
+          },
+          {
+            "en": "She got up early to see the sunrise.",
+            "ru": "Она встала рано, чтобы увидеть восход солнца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I woke up at sunrise.",
+            "es": "Me desperté al amanecer."
+          },
+          {
+            "en": "The rooster crows at sunrise.",
+            "es": "El gallo canta al amanecer."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "space",
+        "travel"
+      ]
+    },
+    {
+      "id": 9862,
+      "word": "sunset",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnset]",
+        "br": "[ˈsʌnset]",
+        "gb": "[ˈsʌnset]"
+      },
+      "translations": {
+        "rus": "закат, заход Солнца",
+        "spa": "la puesta del sol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Tonight I saw the sunset.",
+            "ru": "Сегодня вечером я наблюдал заход солнца."
+          },
+          {
+            "en": "We worked from sunrise to sunset.",
+            "ru": "Мы работали от рассвета до заката."
+          },
+          {
+            "en": "The hour of sunset was near.",
+            "ru": "Приближался час заката."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It's a beautiful sunset, isn't it?",
+            "es": "Es una bella puesta sol, ¿no es así?"
+          },
+          {
+            "en": "We admired the beautiful sunset.",
+            "es": "Admiramos la hermosa puesta del sol."
+          }
+        ]
+      },
+      "categories": [
+        "space",
+        "travel"
+      ]
+    },
+    {
+      "id": 9863,
+      "word": "telescope",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtelɪskəʊp]",
+        "br": "[ˈtelɪskəʊp]",
+        "gb": "[ˈtelɪskəʊp]"
+      },
+      "translations": {
+        "rus": "телескоп",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9864,
+      "word": "terrestrial",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[təˈrestriəl]",
+        "br": "[təˈrestriəl]",
+        "gb": "[tɪˈrestrɪəl]"
+      },
+      "translations": {
+        "rus": "земной",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 7590,
+      "word": "to launch",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [lɔːntʃ]",
+        "br": "[tə] [lɔːntʃ]",
+        "gb": "[tuː] [lɔːnʧ]"
+      },
+      "translations": {
+        "rus": "запускать",
+        "spa": "lanzar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They launched a rocket.",
+            "ru": "Они запустили ракету."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They launched a rocket.",
+            "es": "Ellos lanzaron un cohete."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9865,
+      "word": "UFO (unidentified flying object)",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌjuː ef ˈəʊ]",
+        "br": "[ˌjuː ef ˈəʊ]",
+        "gb": "[ˌjuː ef ˈəʊ]"
+      },
+      "translations": {
+        "rus": "НЛО",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 7814,
+      "word": "universe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjuːnɪvɜːrs]",
+        "br": "[ˈjuːnɪvɜːs]",
+        "gb": "[ˈjuːnɪvɜːs]"
+      },
+      "translations": {
+        "rus": "вселенная, мир",
+        "spa": "el universo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Are there other universes outside our own?",
+            "ru": "Есть ли другие вселенные, кроме нашей?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_b2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 9866,
+      "word": "Uranus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjʊrənəs]",
+        "br": "[ˈjʊərənəs]",
+        "gb": "[ˈjʊərənəs]"
+      },
+      "translations": {
+        "rus": "Уран",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9867,
+      "word": "Venus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈviːnəs]",
+        "br": "[ˈviːnəs]",
+        "gb": "[ˈviːnəs]"
+      },
+      "translations": {
+        "rus": "Венера",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    },
+    {
+      "id": 9868,
+      "word": "weightlessness state",
+      "pos": null,
+      "transcription": {
+        "us": "[ˈweɪtləsnəs] [steɪt]",
+        "br": "[ˈweɪtləsnəs] [steɪt]",
+        "gb": "[ˈweɪtlɪsnɪs] [steɪt]"
+      },
+      "translations": {
+        "rus": "состояние невесомости",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "space"
+      ]
+    }
+  ]
+}

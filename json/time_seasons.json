@@ -1,0 +1,240 @@
+{
+  "category": {
+    "id": "time_seasons",
+    "name_rus": "Времена года",
+    "type": "topic",
+    "word_count": 5
+  },
+  "words": [
+    {
+      "id": 5896,
+      "word": "autumn",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈɔːtəm]",
+        "br": "[ˈɔːtəm]",
+        "gb": "[ˈɔːtəm]"
+      },
+      "translations": {
+        "rus": "осень, осенний",
+        "spa": "el otoño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Autumn is just around the corner.",
+            "ru": "Осень на носу."
+          },
+          {
+            "en": "The rain made the autumn day dismal.",
+            "ru": "Дождь сделал осенний день унылым."
+          },
+          {
+            "en": "Leaves fall in the autumn.",
+            "ru": "Листья падают осенью."
+          },
+          {
+            "en": "Enjoy the beautiful autumn days.",
+            "ru": "Наслаждайся прекрасными осенними днями."
+          },
+          {
+            "en": "The autumn sun gilded the lake.",
+            "ru": "Осеннее солнце позолотило озеро."
+          },
+          {
+            "en": "She went off to college in the autumn of 1999.",
+            "ru": "Она пошла в колледж осенью 1999 года."
+          },
+          {
+            "en": "The leaves on trees change colour in the autumn.",
+            "ru": "Осенью листья на деревьях меняют цвет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_seasons",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5999,
+      "word": "fall",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[fɔːl]",
+        "br": "[fɔːl]",
+        "gb": "[fɔːl]"
+      },
+      "translations": {
+        "rus": "осень, осенний",
+        "spa": "el otoño"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_seasons",
+        "top3000"
+      ]
+    },
+    {
+      "id": 6246,
+      "word": "spring",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[sprɪŋ]",
+        "br": "[sprɪŋ]",
+        "gb": "[sprɪŋ]"
+      },
+      "translations": {
+        "rus": "весна, весенний",
+        "spa": "la primavera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It will be spring soon.",
+            "ru": "Скоро весна."
+          },
+          {
+            "en": "Where did you go on spring vacation?",
+            "ru": "Куда ты ездил на весенних каникулах?"
+          },
+          {
+            "en": "Are you ready for spring?",
+            "ru": "Ты готов к весне?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like spring the best.",
+            "es": "Lo que más me gusta es la primavera."
+          },
+          {
+            "en": "Are you ready for spring?",
+            "es": "¿Estás listo para la primavera?"
+          },
+          {
+            "en": "Spring is late this year.",
+            "es": "La primavera se está retrasando este año."
+          },
+          {
+            "en": "The roses bloom in spring.",
+            "es": "Las rosas florecen en primavera."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_seasons",
+        "top3000"
+      ]
+    },
+    {
+      "id": 6256,
+      "word": "summer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌmər]",
+        "br": "[ˈsʌmə(r)]",
+        "gb": "[ˈsʌmə]"
+      },
+      "translations": {
+        "rus": "лето, летний",
+        "spa": "el verano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It will be summer soon.",
+            "ru": "Скоро лето."
+          },
+          {
+            "en": "It was a warm summer evening.",
+            "ru": "Был жаркий летний вечер."
+          },
+          {
+            "en": "I had a bad summer.",
+            "ru": "У меня было плохое лето."
+          },
+          {
+            "en": "Have a good summer vacation!",
+            "ru": "Хороших летних каникул!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like summer the best.",
+            "es": "Lo que más me gusta es el verano."
+          },
+          {
+            "en": "I can't wait till summer.",
+            "es": "No puedo esperar hasta el verano."
+          },
+          {
+            "en": "I'll see you next summer.",
+            "es": "Te veré el próximo verano."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_seasons",
+        "top1000"
+      ]
+    },
+    {
+      "id": 6330,
+      "word": "winter",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪntər]",
+        "br": "[ˈwɪntə(r)]",
+        "gb": "[ˈwɪntə]"
+      },
+      "translations": {
+        "rus": "зима, зимний",
+        "spa": "el invierno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Winter has set in.",
+            "ru": "Наступила зима."
+          },
+          {
+            "en": "It was a long, cold winter.",
+            "ru": "Это была длинная, холодная зима."
+          },
+          {
+            "en": "Winter is approaching.",
+            "ru": "Приближается зима."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It will be winter soon.",
+            "es": "El invierno se acerca."
+          },
+          {
+            "en": "I met her last winter.",
+            "es": "La conocí el invierno pasado."
+          },
+          {
+            "en": "He went skiing during the winter.",
+            "es": "Fue a esquiar durante el invierno."
+          }
+        ]
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_seasons",
+        "top3000"
+      ]
+    }
+  ]
+}

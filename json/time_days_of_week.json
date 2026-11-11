@@ -1,0 +1,231 @@
+{
+  "category": {
+    "id": "time_days_of_week",
+    "name_rus": "Дни недели",
+    "type": "topic",
+    "word_count": 7
+  },
+  "words": [
+    {
+      "id": 6018,
+      "word": "Friday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfraɪdeɪ]",
+        "br": "[ˈfraɪdeɪ]",
+        "gb": "[ˈfrʌɪdeɪ]"
+      },
+      "translations": {
+        "rus": "пятница",
+        "spa": "viernes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We aim to finish by Friday.",
+            "ru": "Мы намереваемся закончить к пятнице."
+          },
+          {
+            "en": "Can you meet me Friday morning?",
+            "ru": "Можешь встретить меня в пятницу утром?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6117,
+      "word": "Monday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌndeɪ]",
+        "br": "[ˈmʌndeɪ]",
+        "gb": "[ˈmʌndeɪ]"
+      },
+      "translations": {
+        "rus": "понедельник",
+        "spa": "lunes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Bye! See you on Monday.",
+            "ru": "Пока! Увидимся в понедельник."
+          },
+          {
+            "en": "It was raining on Monday.",
+            "ru": "В понедельник шёл дождь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6217,
+      "word": "Saturday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsætərdeɪ]",
+        "br": "[ˈsætədeɪ]",
+        "gb": "[ˈsatədeɪ]"
+      },
+      "translations": {
+        "rus": "суббота",
+        "spa": "sábado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We go marketing every Saturday.",
+            "ru": "По субботам мы ходим на рынок."
+          },
+          {
+            "en": "The store is open Monday through Saturday.",
+            "ru": "Магазин открыт с понедельника по субботу."
+          },
+          {
+            "en": "Saturday afternoons go by like lightning!",
+            "ru": "Субботние дни пролетают - не заметишь!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6257,
+      "word": "Sunday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌndeɪ]",
+        "br": "[ˈsʌndeɪ]",
+        "gb": "[ˈsʌndeɪ]"
+      },
+      "translations": {
+        "rus": "воскресенье",
+        "spa": "domingo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We like to walk every Sunday.",
+            "ru": "Нам нравится гулять каждое воскресенье."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6279,
+      "word": "Thursday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθɜːrzdeɪ]",
+        "br": "[ˈθɜːzdeɪ]",
+        "gb": "[ˈθəːzdeɪ]"
+      },
+      "translations": {
+        "rus": "четверг",
+        "spa": "jueves"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was late last Thursday.",
+            "ru": "Он опоздал в прошлый четверг."
+          },
+          {
+            "en": "We bowl every Thursday.",
+            "ru": "Каждый четверг мы играли в боулинг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6295,
+      "word": "Tuesday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtuːzdeɪ]",
+        "br": "[ˈtjuːzdeɪ]",
+        "gb": "[ˈtjuːzdeɪ]"
+      },
+      "translations": {
+        "rus": "вторник",
+        "spa": "martes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They'll be here on Tuesday.",
+            "ru": "Они будут здесь во вторник."
+          },
+          {
+            "en": "He's off every Tuesday.",
+            "ru": "Он отсутствует каждый вторник."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    },
+    {
+      "id": 6317,
+      "word": "Wednesday",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwenzdeɪ]",
+        "br": "[ˈwenzdeɪ]",
+        "gb": "[ˈwɛnzdeɪ]"
+      },
+      "translations": {
+        "rus": "среда",
+        "spa": "miércoles"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I spoke to her last Wednesday.",
+            "ru": "Я говорил с ней в прошлую среду."
+          },
+          {
+            "en": "New Year's Day falls on a Wednesday.",
+            "ru": "Новый Год приходится на среду."
+          },
+          {
+            "en": "The sale starts on Wednesday.",
+            "ru": "Распродажа начинается в среду."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_days_of_week"
+      ]
+    }
+  ]
+}

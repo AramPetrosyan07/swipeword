@@ -1,0 +1,5740 @@
+{
+  "category": {
+    "id": "economy",
+    "name_rus": "Экономика",
+    "type": "topic",
+    "word_count": 194
+  },
+  "words": [
+    {
+      "id": 1306,
+      "word": "account",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkaʊnt]",
+        "br": "[əˈkaʊnt]",
+        "gb": "[əˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "учетная запись, аккаунт, счёт (в банке)",
+        "spa": "la cuenta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll open a bank account.",
+            "ru": "Я открою банковский счёт."
+          },
+          {
+            "en": "She activated the account.",
+            "ru": "Она активировала учётную запись."
+          },
+          {
+            "en": "I do not have an account in these forums.",
+            "ru": "У меня нет учетной записи на этих форумах."
+          },
+          {
+            "en": "Can you delete my account?",
+            "ru": "Вы можете удалить мой аккаунт?"
+          },
+          {
+            "en": "Do you have a Twitter account?",
+            "ru": "У тебя есть аккаунт в Твиттере?"
+          },
+          {
+            "en": "I can't log in to my account.",
+            "ru": "Я не могу залогиниться в свой аккаунт."
+          },
+          {
+            "en": "She deleted her Facebook account.",
+            "ru": "Она удалила свой аккаунт на Фейсбуке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'll open a bank account.",
+            "es": "Voy a abrir una cuenta bancaria."
+          },
+          {
+            "en": "Put it on my father's account.",
+            "es": "Ponelo en la cuenta de mi padre."
+          },
+          {
+            "en": "I have a Twitter account.",
+            "es": "Tengo una cuenta Twitter."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "computer",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1307,
+      "word": "account",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkaʊnt]",
+        "br": "[əˈkaʊnt]",
+        "gb": "[əˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "отчёт, доклад, мнение",
+        "spa": "la versión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1308,
+      "word": "accounting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkaʊntɪŋ]",
+        "br": "[əˈkaʊntɪŋ]",
+        "gb": "[əˈkaʊntɪŋ]"
+      },
+      "translations": {
+        "rus": "бухгалтерский учет, бухгалтерское дело",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2779,
+      "word": "accumulation fund",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˌkjuːmjəˈleɪʃn] [fʌnd]",
+        "br": "[əˌkjuːmjəˈleɪʃn] [fʌnd]",
+        "gb": "[əkjuːmjʊˈleɪʃn] [fʌnd]"
+      },
+      "translations": {
+        "rus": "фонд накопления",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2780,
+      "word": "administration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ədˌmɪnɪˈstreɪʃn]",
+        "br": "[ədˌmɪnɪˈstreɪʃn]",
+        "gb": "[ədmɪnɪsˈtreɪʃn]"
+      },
+      "translations": {
+        "rus": "администрация, управление, администрирование, правительство",
+        "spa": "la administración"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The administration approved the budget.",
+            "ru": "Администрация утвердила бюджет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2781,
+      "word": "advantageous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌædvənˈteɪdʒəs]",
+        "br": "[ˌædvənˈteɪdʒəs]",
+        "gb": "[ædvənˈteɪʤəs]"
+      },
+      "translations": {
+        "rus": "выгодный",
+        "spa": "ventajoso, favorable"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1314,
+      "word": "agent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɪdʒənt]",
+        "br": "[ˈeɪdʒənt]",
+        "gb": "[ˈeɪʤənt]"
+      },
+      "translations": {
+        "rus": "агент",
+        "spa": "el agente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is an FBI agent.",
+            "ru": "Он - агент ФБР."
+          },
+          {
+            "en": "She's a real estate agent.",
+            "ru": "Она - агент по недвижимости."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let's ask a travel agent.",
+            "es": "Preguntémosle a un agente de viajes."
+          },
+          {
+            "en": "Tom is Mary's real estate agent.",
+            "es": "Tom es el agente inmobiliario de Mary."
+          },
+          {
+            "en": "Under what name did you work as agent?",
+            "es": "¿Bajo qué nombre trabajaste como agente?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1315,
+      "word": "agreement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈɡriːmənt]",
+        "br": "[əˈɡriːmənt]",
+        "gb": "[əˈgriːmənt]"
+      },
+      "translations": {
+        "rus": "соглашение, согласие, договор",
+        "spa": "el acuerdo, el contrato"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They came to an agreement.",
+            "ru": "Они пришли к соглашению."
+          },
+          {
+            "en": "We had an agreement. You broke it.",
+            "ru": "У нас был договор. Ты его нарушил."
+          },
+          {
+            "en": "We have a signed agreement.",
+            "ru": "У нас подписано соглашение."
+          },
+          {
+            "en": "A nod is a sign of agreement.",
+            "ru": "Кивок — это знак согласия."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We are all in agreement.",
+            "es": "Estamos todos de acuerdo."
+          },
+          {
+            "en": "Did you make a formal agreement with him?",
+            "es": "¿Hizo usted un contrato en forma con él?"
+          },
+          {
+            "en": "They came to an agreement.",
+            "es": "Llegaron a un acuerdo."
+          },
+          {
+            "en": "This agreement becomes valid at midnight.",
+            "es": "Este contrato entra en vigor a medianoche."
+          },
+          {
+            "en": "A nod is a sign of agreement.",
+            "es": "Un asentimiento con la cabeza es un gesto de acuerdo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "legal_english",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1324,
+      "word": "arbitration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːrbɪˈtreɪʃn]",
+        "br": "[ˌɑːbɪˈtreɪʃn]",
+        "gb": "[ɑːbɪˈtreɪʃn]"
+      },
+      "translations": {
+        "rus": "арбитраж",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 2782,
+      "word": "arrears",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈrɪrz]",
+        "br": "[əˈrɪəz]",
+        "gb": "[əˈrɪəz]"
+      },
+      "translations": {
+        "rus": "задолженность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1329,
+      "word": "asset",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæset]",
+        "br": "[ˈæset]",
+        "gb": "[ˈæset]"
+      },
+      "translations": {
+        "rus": "актив, имущество",
+        "spa": "el activo, los bienes"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You're a valuable asset to me.",
+            "ru": "Для меня ты ценный актив."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2783,
+      "word": "audit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːdɪt]",
+        "br": "[ˈɔːdɪt]",
+        "gb": "[ˈɔːdɪt]"
+      },
+      "translations": {
+        "rus": "аудит, ревизия, проверка",
+        "spa": "la auditoría, la inspección"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1336,
+      "word": "balance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæləns]",
+        "br": "[ˈbæləns]",
+        "gb": "[ˈbæləns]"
+      },
+      "translations": {
+        "rus": "баланс, сальдо",
+        "spa": "el equilibrio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The balance of nature is very fragile.",
+            "ru": "Природный баланс очень хрупок."
+          },
+          {
+            "en": "The budget must be balanced.",
+            "ru": "Бюджет должен быть сбалансирован."
+          },
+          {
+            "en": "I believe it would disrupt the balance.",
+            "ru": "Я полагаю, это нарушило бы баланс."
+          },
+          {
+            "en": "I try to eat a balanced diet.",
+            "ru": "Я стараюсь придерживаться сбалансированной диеты."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He lost his balance and fell down.",
+            "es": "Perdió el equilibrio y se cayó."
+          },
+          {
+            "en": "My income and expenses aren't balanced.",
+            "es": "Mis ingresos y mis gastos no están equilibrados."
+          },
+          {
+            "en": "I lost my balance on the muddy road.",
+            "es": "Perdí el equilibrio en el camino lodoso."
+          },
+          {
+            "en": "The balance of nature is very fragile.",
+            "es": "El equilibro de la naturaleza es muy frágil."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2784,
+      "word": "balance sheet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæləns] [ʃiːt]",
+        "br": "[ˈbæləns] [ʃiːt]",
+        "gb": "[ˈbæləns] [ʃiːt]"
+      },
+      "translations": {
+        "rus": "балансовый отчет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2785,
+      "word": "bank rate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæŋk] [reɪt]",
+        "br": "[bæŋk] [reɪt]",
+        "gb": "[bæŋk] [reɪt]"
+      },
+      "translations": {
+        "rus": "учетная ставка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1351,
+      "word": "bid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪd]",
+        "br": "[bɪd]",
+        "gb": "[bɪd]"
+      },
+      "translations": {
+        "rus": "предлагаемая цена, предложение",
+        "spa": "la oferta, la puja"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2786,
+      "word": "bill of lading",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bɪl] [ɔv] [ˈleɪdɪŋ]"
+      },
+      "translations": {
+        "rus": "коносамент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1357,
+      "word": "bond",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːnd]",
+        "br": "[bɒnd]",
+        "gb": "[bɔnd]"
+      },
+      "translations": {
+        "rus": "облигация, (подписывать) обязательство, закладная, связь",
+        "spa": "el vínculo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has invested most of her money in stocks and bonds.",
+            "ru": "Она вложила большую часть своих денег в акции и облигации."
+          },
+          {
+            "en": "What is a covalent bond?",
+            "ru": "Что такое ковалентная связь?"
+          },
+          {
+            "en": "A daughter's bond with her mother.",
+            "ru": "Связь дочери с матерью."
+          },
+          {
+            "en": "The grandparents want to bond with the child.",
+            "ru": "Бабушка и дедушка хотят сблизиться с ребёнком."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2787,
+      "word": "borrower",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɔːrəʊər]",
+        "br": "[ˈbɒrəʊə(r)]",
+        "gb": "[ˈbɒrəʊər]"
+      },
+      "translations": {
+        "rus": "кредитополучатель, заемщик",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2788,
+      "word": "break-even point",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪk] [ˈiːvn] [pɔɪnt]",
+        "br": "[breɪk] [ˈiːvn] [pɔɪnt]",
+        "gb": "[breɪk] [ˈiːvən] [pɔɪnt]"
+      },
+      "translations": {
+        "rus": "точка безубыточности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2789,
+      "word": "broker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrəʊkər]",
+        "br": "[ˈbrəʊkə(r)]",
+        "gb": "[ˈbrəʊkə]"
+      },
+      "translations": {
+        "rus": "биржевой маклер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2790,
+      "word": "business slowdown",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɪznəs] [ˈsləʊdaʊn]",
+        "br": "[ˈbɪznəs] [ˈsləʊdaʊn]",
+        "gb": "[ˈbɪznɪs] [ˈsləʊdaʊn]"
+      },
+      "translations": {
+        "rus": "спад деловой активности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2791,
+      "word": "capital flight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpɪtl] [flaɪt]",
+        "br": "[ˈkæpɪtl] [flaɪt]",
+        "gb": "[ˈkæpɪtl] [flaɪt]"
+      },
+      "translations": {
+        "rus": "утечка капитала, бегство капитала",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2792,
+      "word": "capital intensive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈkæpɪtl] [ɪnˈtensɪv]",
+        "br": "[ˈkæpɪtl] [ɪnˈtensɪv]",
+        "gb": "[ˈkæpɪtl] [ɪnˈtensɪv]"
+      },
+      "translations": {
+        "rus": "капиталоемкий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2793,
+      "word": "capital investment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpɪtl] [ɪnˈvestmənt]",
+        "br": "[ˈkæpɪtl] [ɪnˈvestmənt]",
+        "gb": "[ˈkæpɪtl] [ɪnˈvestmənt]"
+      },
+      "translations": {
+        "rus": "капиталовложения, инвестиции",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1372,
+      "word": "cargo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrɡəʊ]",
+        "br": "[ˈkɑːɡəʊ]",
+        "gb": "[ˈkɑːgəʊ]"
+      },
+      "translations": {
+        "rus": "груз",
+        "spa": "la carga, el cargamento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cargo was stopped at customs.",
+            "ru": "Груз задержали на таможне."
+          },
+          {
+            "en": "The cargo was too heavy.",
+            "ru": "Груз был слишком тяжелый."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1736,
+      "word": "cash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæʃ]",
+        "br": "[kæʃ]",
+        "gb": "[kæʃ]"
+      },
+      "translations": {
+        "rus": "наличные деньги",
+        "spa": "el dinero en efectivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This restaurant only accepts cash.",
+            "ru": "В этом ресторане принимают только наличные деньги."
+          },
+          {
+            "en": "We are short of cash.",
+            "ru": "У нас не хватает наличных."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I don't have any cash.",
+            "es": "No tengo dinero en efectivo."
+          },
+          {
+            "en": "I'd like to withdraw some cash.",
+            "es": "Me gustaría retirar algún dinero en efectivo."
+          },
+          {
+            "en": "I'm short of cash at the moment.",
+            "es": "Momentáneamente estoy corto de efectivo."
+          },
+          {
+            "en": "This restaurant only accepts cash.",
+            "es": "Este restaurante solo acepta efectivo."
+          }
+        ]
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2794,
+      "word": "Chamber of Commerce",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʧeɪmbə] [ɔv] [ˈkɔmɜːs]"
+      },
+      "translations": {
+        "rus": "торговая палата",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2795,
+      "word": "chartering",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʧɑrtərɪŋ]"
+      },
+      "translations": {
+        "rus": "фрахтование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1391,
+      "word": "client",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklaɪənt]",
+        "br": "[ˈklaɪənt]",
+        "gb": "[ˈklaɪənt]"
+      },
+      "translations": {
+        "rus": "клиент",
+        "spa": "el cliente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A meeting with an important client.",
+            "ru": "Встреча с важным клиентом."
+          },
+          {
+            "en": "She has an appointment with a client at 10:30.",
+            "ru": "У неё встреча с клиентом в 10:30."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2796,
+      "word": "collateral",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kəˈlætərəl]",
+        "br": "[kəˈlætərəl]",
+        "gb": "[kɔˈlætərəl]"
+      },
+      "translations": {
+        "rus": "залог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2797,
+      "word": "commodity turnover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈmɑːdəti] [ˈtɜːrnəʊvər]",
+        "br": "[kəˈmɒdəti] [ˈtɜːnəʊvə(r)]",
+        "gb": "[kəˈmɔdɪtɪ] [ˈtɜːnəʊvə]"
+      },
+      "translations": {
+        "rus": "товарооборот",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2798,
+      "word": "competition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːmpəˈtɪʃn]",
+        "br": "[ˌkɒmpəˈtɪʃn]",
+        "gb": "[kɔmpɪˈtɪʃn]"
+      },
+      "translations": {
+        "rus": "конкуренция, соревнование, конкурс",
+        "spa": "el concurso, la competencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It was a competition.",
+            "ru": "Это было состязание."
+          },
+          {
+            "en": "I missed the competition.",
+            "ru": "Я пропустил соревнования."
+          },
+          {
+            "en": "We're not afraid of competition.",
+            "ru": "Мы не боимся конкуренции."
+          },
+          {
+            "en": "Competition drives down prices.",
+            "ru": "Конкуренция снижает цены."
+          },
+          {
+            "en": "He won many competitions.",
+            "ru": "Он выиграл много соревнований."
+          },
+          {
+            "en": "He was disqualified from the competition.",
+            "ru": "Он был дисквалифицирован во время соревнования."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The competition is fierce.",
+            "es": "La competencia es ardua."
+          },
+          {
+            "en": "You won many competitions.",
+            "es": "Has ganado muchas competencias."
+          },
+          {
+            "en": "There's a lot of competition in business.",
+            "es": "Hay mucha competencia en el comercio."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_a2",
+        "sport",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2799,
+      "word": "competitive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kəmˈpetətɪv]",
+        "br": "[kəmˈpetətɪv]",
+        "gb": "[kəmˈpetɪtɪv]"
+      },
+      "translations": {
+        "rus": "конкурентоспособный, конкурентный, соперничающий",
+        "spa": "competitivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "With this price, your product would not be competitive in the Japanese market.",
+            "ru": "С такой ценой ваш продукт не будет конкурентоспособным на японском рынке."
+          },
+          {
+            "en": "She is overly competitive.",
+            "ru": "Она слишком склонна к соперничеству."
+          },
+          {
+            "en": "What is the company's competitive advantage?",
+            "ru": "В чем конкурентные преимущества компании?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "If your prices are competitive, we will place a large order.",
+            "es": "Si sus precios son competitivos, haremos un pedido mayor."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2800,
+      "word": "competitor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpetɪtər]",
+        "br": "[kəmˈpetɪtə(r)]",
+        "gb": "[kəmˈpetɪtə]"
+      },
+      "translations": {
+        "rus": "конкурент, соперник",
+        "spa": "el competidor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're competitors, not partners.",
+            "ru": "Мы конкуренты, а не партнёры."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1409,
+      "word": "consumer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈsuːmər]",
+        "br": "[kənˈsjuːmə(r)]",
+        "gb": "[kənˈsjuːmə]"
+      },
+      "translations": {
+        "rus": "потребитель",
+        "spa": "el consumidor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Try to be a more rational consumer.",
+            "ru": "Попытайся быть более рациональным потребителем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2801,
+      "word": "consumer goods",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈsuːmər] [ɡʊdz]",
+        "br": "[kənˈsjuːmə(r)] [ɡʊdz]",
+        "gb": "[kənˈsjuːmə] [gʊdz]"
+      },
+      "translations": {
+        "rus": "потребительские товары",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1410,
+      "word": "consumption",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈsʌmpʃn]",
+        "br": "[kənˈsʌmpʃn]",
+        "gb": "[kənˈsʌmpʃn]"
+      },
+      "translations": {
+        "rus": "потребление",
+        "spa": "el consumo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Alcohol consumption is increasing every year.",
+            "ru": "Потребление алкоголя растёт с каждым годом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2426,
+      "word": "contractor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːntræktər]",
+        "br": "[ˈkɒntræktə(r)], [kənˈtræktə(r)]",
+        "gb": "[kənˈtræktə]"
+      },
+      "translations": {
+        "rus": "подрядчик, контрактор",
+        "spa": "el (la) contratista"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1414,
+      "word": "convertible",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[kənˈvɜːrtəbl]",
+        "br": "[kənˈvɜːtəbl]",
+        "gb": "[kənˈvɜːtəbl]"
+      },
+      "translations": {
+        "rus": "конвертируемый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2802,
+      "word": "cost accounting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːst] [əˈkaʊntɪŋ]",
+        "br": "[kɒst] [əˈkaʊntɪŋ]",
+        "gb": "[kɔst] [əˈkaʊntɪŋ]"
+      },
+      "translations": {
+        "rus": "учёт затрат, ведение отчётности",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2803,
+      "word": "cost recovery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːst] [rɪˈkʌvəri]",
+        "br": "[kɒst] [rɪˈkʌvəri]",
+        "gb": "[kɔst] [rɪˈkʌvərɪ]"
+      },
+      "translations": {
+        "rus": "возмещение затрат",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2804,
+      "word": "costs",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kɒsts]"
+      },
+      "translations": {
+        "rus": "издержки, расходы",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have to drive down costs.",
+            "ru": "Нам придётся сократить расходы."
+          },
+          {
+            "en": "Costs outran her income.",
+            "ru": "Расходы превысили её доходы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2806,
+      "word": "credit terms",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkredɪt] [tɜːrmz]",
+        "br": "[ˈkredɪt] [tɜːmz]",
+        "gb": "[ˈkredɪt] [tɜːmz]"
+      },
+      "translations": {
+        "rus": "условия кредита",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2807,
+      "word": "currency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɜːrənsi]",
+        "br": "[ˈkʌrənsi]",
+        "gb": "[ˈkʌrənsɪ]"
+      },
+      "translations": {
+        "rus": "валюта",
+        "spa": "la moneda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Euro is more than a currency.",
+            "ru": "Евро - больше чем валюта."
+          },
+          {
+            "en": "Where can I exchange foreign currency?",
+            "ru": "Где я могу обменять иностранную валюту?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Where can I exchange foreign currency?",
+            "es": "¿Dónde podré cambiar moneda extranjera?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2808,
+      "word": "current plans",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈkʌrənt] [plænz]"
+      },
+      "translations": {
+        "rus": "текущие планы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1420,
+      "word": "customer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkʌstəmər]",
+        "br": "[ˈkʌstəmə(r)]",
+        "gb": "[ˈkʌstəmə]"
+      },
+      "translations": {
+        "rus": "покупатель, клиент",
+        "spa": "el cliente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The customer isn't always right.",
+            "ru": "Покупатель не всегда прав."
+          },
+          {
+            "en": "There were no other customers.",
+            "ru": "Других покупателей не было."
+          },
+          {
+            "en": "She is one of our best customers.",
+            "ru": "Она является одним из наших лучших клиентов."
+          },
+          {
+            "en": "Poor customer service has ruined the company's reputation.",
+            "ru": "Плохое обслуживание клиентов погубило репутацию компании."
+          },
+          {
+            "en": "The customer has a perfect right to ask for the earth.",
+            "ru": "Покупатель имеет полное право требовать всё, что угодно."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I am only a customer.",
+            "es": "No soy más que un cliente."
+          },
+          {
+            "en": "The customer is always right.",
+            "es": "El cliente siempre tiene razón."
+          },
+          {
+            "en": "That shop has many customers.",
+            "es": "Esa tienda tiene muchos clientes."
+          },
+          {
+            "en": "There are few customers today.",
+            "es": "Hoy hay pocos clientes."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 1422,
+      "word": "damage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdæmɪdʒ]",
+        "br": "[ˈdæmɪdʒ]",
+        "gb": "[ˈdæmɪʤ]"
+      },
+      "translations": {
+        "rus": "порча, урон, ущерб",
+        "spa": "el daño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The damage is already done.",
+            "ru": "Ущерб уже нанесён."
+          },
+          {
+            "en": "How much damage was done?",
+            "ru": "Какой был понесён ущерб?"
+          },
+          {
+            "en": "We must repair the damage.",
+            "ru": "Мы должны возместить ущерб."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My liver is heavily damaged.",
+            "es": "Mi hígado está severamente dañado."
+          },
+          {
+            "en": "The damage has been done.",
+            "es": "El daño está hecho."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "legal_english",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1427,
+      "word": "deal",
+      "pos": "noun",
+      "transcription": {
+        "us": "[diːl]",
+        "br": "[diːl]",
+        "gb": "[diːl]"
+      },
+      "translations": {
+        "rus": "дело, сделка, соглашение, по рукам",
+        "spa": "el acuerdo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a good deal.",
+            "ru": "Это хорошая сделка."
+          },
+          {
+            "en": "If they make a deal, we're saved.",
+            "ru": "Если они придут к соглашению, мы спасены."
+          },
+          {
+            "en": "It's not a bad deal.",
+            "ru": "Это не плохая сделка."
+          },
+          {
+            "en": "I'm offering you a deal.",
+            "ru": "Предлагаю тебе сделку."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They supposedly have reached a deal.",
+            "es": "Ellos supuestamente han llegado a un acuerdo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2809,
+      "word": "debt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[det]",
+        "br": "[det]",
+        "gb": "[det]"
+      },
+      "translations": {
+        "rus": "долг",
+        "spa": "la deuda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A promise is a debt.",
+            "ru": "Обещание — это долг."
+          },
+          {
+            "en": "I have a debt to pay.",
+            "ru": "У меня есть долг, который нужно заплатить."
+          },
+          {
+            "en": "I must repay the debt.",
+            "ru": "Я должен выплатить долг."
+          },
+          {
+            "en": "I sold it and paid my debt.",
+            "ru": "Я продал его и выплатил долг."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I owe him a debt.",
+            "es": "Tengo una deuda con él."
+          },
+          {
+            "en": "I am free of debt.",
+            "es": "Estoy libre de deudas."
+          },
+          {
+            "en": "I don't have any debt.",
+            "es": "No tengo ningún tipo de deudas."
+          },
+          {
+            "en": "I am forever in your debt.",
+            "es": "Estoy en deuda contigo para siempre."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1432,
+      "word": "deficit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdefɪsɪt]",
+        "br": "[ˈdefɪsɪt]",
+        "gb": "[ˈdefɪsɪt]"
+      },
+      "translations": {
+        "rus": "дефицит",
+        "spa": "el déficit"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have a deficit.",
+            "ru": "У нас дефицит."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The company is in deficit.",
+            "es": "La empresa está en déficit."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1433,
+      "word": "delivery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈlɪvəri]",
+        "br": "[dɪˈlɪvəri]",
+        "gb": "[dɪˈlɪvərɪ]"
+      },
+      "translations": {
+        "rus": "доставка, поставка",
+        "spa": "la entrega"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you charge for delivery?",
+            "ru": "У вас доставка платная?"
+          },
+          {
+            "en": "Who made the delivery?",
+            "ru": "Кто осуществил доставку?"
+          },
+          {
+            "en": "The last delivery was damaged.",
+            "ru": "Последняя партия была повреждена."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1434,
+      "word": "demand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈmænd]",
+        "br": "[dɪˈmɑːnd]",
+        "gb": "[dɪˈmɑːnd]"
+      },
+      "translations": {
+        "rus": "спрос, требование",
+        "spa": "la demanda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His books are in high demand.",
+            "ru": "Его книги пользуются большим спросом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2811,
+      "word": "deposit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpɑːzɪt]",
+        "br": "[dɪˈpɒzɪt]",
+        "gb": "[dɪˈpɔzɪt]"
+      },
+      "translations": {
+        "rus": "вклад (банковский)",
+        "spa": "el depósito, depositar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Do you require a deposit?",
+            "es": "¿Requiere usted un depósito?"
+          },
+          {
+            "en": "I want to deposit some money.",
+            "es": "Quiero depositar dinero."
+          },
+          {
+            "en": "Do I have to leave a deposit?",
+            "es": "¿Tengo que dejar un depósito?"
+          },
+          {
+            "en": "Deposit your money in the bank.",
+            "es": "Por favor deposite su dinero en el banco."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2812,
+      "word": "depreciation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˌpriːʃiˈeɪʃn]",
+        "br": "[dɪˌpriːʃiˈeɪʃn]",
+        "gb": "[dɪpriːʃɪˈeɪʃn]"
+      },
+      "translations": {
+        "rus": "амортизация, обесценивание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1444,
+      "word": "discount",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪskaʊnt]",
+        "br": "[ˈdɪskaʊnt]",
+        "gb": "[ˈdɪskaʊnt]"
+      },
+      "translations": {
+        "rus": "скидка",
+        "spa": "el descuento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wanted a bigger discount.",
+            "ru": "Я хотел скидку побольше."
+          },
+          {
+            "en": "Is there a student discount?",
+            "ru": "Для студентов есть скидка?"
+          },
+          {
+            "en": "I bought this book at a discount.",
+            "ru": "Я купил эту книгу со скидкой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Can you give me a discount?",
+            "es": "¿Me puede hacer un descuento?"
+          },
+          {
+            "en": "Is there a student discount?",
+            "es": "¿Hay descuento por ser estudiante?"
+          },
+          {
+            "en": "I bought the car at a 10% discount.",
+            "es": "Compré el coche con una rebaja del 10%."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2813,
+      "word": "discount rate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪskaʊnt] [reɪt]",
+        "br": "[ˈdɪskaʊnt] [reɪt]",
+        "gb": "[ˈdɪskaʊnt] [reɪt]"
+      },
+      "translations": {
+        "rus": "учетная ставка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2814,
+      "word": "dispute",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪspjuːt]",
+        "br": "[ˈdɪspjuːt]",
+        "gb": "[ˈdɪspjuːt]"
+      },
+      "translations": {
+        "rus": "спор, конфликт, диспут, полемика",
+        "spa": "el conflicto, la disputa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The dispute was finally settled.",
+            "ru": "Спор наконец-то закончился."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "legal_english",
+        "literature",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1449,
+      "word": "dividend",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪvɪdend]",
+        "br": "[ˈdɪvɪdend]",
+        "gb": "[ˈdɪvɪdend]"
+      },
+      "translations": {
+        "rus": "дивиденд, выгода, польза",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2815,
+      "word": "domestic market",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dəˈmestɪk] [ˈmɑːrkɪt]",
+        "br": "[dəˈmestɪk] [ˈmɑːkɪt]",
+        "gb": "[dəʊˈmestɪk] [ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "внутренний рынок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 1760,
+      "word": "earnings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɜːrnɪŋz]",
+        "br": "[ˈɜːnɪŋz]",
+        "gb": "[ˈɜːnɪŋz]"
+      },
+      "translations": {
+        "rus": "доход, заработок",
+        "spa": "los ingresos"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "economy",
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2816,
+      "word": "economy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈkɑːnəmi]",
+        "br": "[ɪˈkɒnəmi]",
+        "gb": "[iːˈkɔnəmɪ]"
+      },
+      "translations": {
+        "rus": "экономика (страны, региона), экономичность",
+        "spa": "la economía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The economy is growing fast.",
+            "ru": "Экономика быстро развивается."
+          },
+          {
+            "en": "It's going to affect our economy.",
+            "ru": "Это повлияет на нашу экономику."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The war is draining our economy.",
+            "es": "Esta guerra está consumiendo nuestra economía."
+          },
+          {
+            "en": "That country's economy is growing.",
+            "es": "La economía de ese país está creciendo."
+          },
+          {
+            "en": "The economy has entered a recession.",
+            "es": "La economía entró en recesión."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2817,
+      "word": "efficiency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈfɪʃnsi]",
+        "br": "[ɪˈfɪʃnsi]",
+        "gb": "[ɪˈfɪʃnsɪ]"
+      },
+      "translations": {
+        "rus": "эффективность",
+        "spa": "la eficiencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This will increase efficiency by 20%.",
+            "ru": "Это повысит эффективность на 20%."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1455,
+      "word": "employee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈplɔɪiː]",
+        "br": "[ɪmˈplɔɪiː]",
+        "gb": "[emplɔɪˈiː]"
+      },
+      "translations": {
+        "rus": "служащий, сотрудник",
+        "spa": "el empleado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Each employee is given a code number.",
+            "ru": "Каждому сотруднику присваивается кодовый номер."
+          },
+          {
+            "en": "The table shows the salary of each employee.",
+            "ru": "Таблица отображает заработную плату каждого работника."
+          },
+          {
+            "en": "A good boss listens to his employees.",
+            "ru": "Хороший начальник слушает своих сотрудников."
+          },
+          {
+            "en": "That new employee is really a hard worker.",
+            "ru": "Этот новый сотрудник действительно очень усерден."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I'm not one of your employees.",
+            "es": "Yo no soy uno de tus empleados."
+          },
+          {
+            "en": "He treats his employees well.",
+            "es": "Él trata bien a sus empleados."
+          },
+          {
+            "en": "How many employees do you have?",
+            "es": "¿Cuántos empleados tienes?"
+          },
+          {
+            "en": "He apologized to the employee.",
+            "es": "Se disculpó con el empleado."
+          },
+          {
+            "en": "Most of our employees are young.",
+            "es": "La mayoría de nuestros empleados son jóvenes."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1456,
+      "word": "employer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪmˈplɔɪər]",
+        "br": "[ɪmˈplɔɪə(r)]",
+        "gb": "[ɪmˈplɔɪə]"
+      },
+      "translations": {
+        "rus": "работодатель, наниматель",
+        "spa": "el empleador"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who is your current employer?",
+            "ru": "Кто ваш нынешний работодатель?"
+          },
+          {
+            "en": "The employer wants to cut back health benefits.",
+            "ru": "Работодатель хочет сократить пособия по болезни."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2818,
+      "word": "enterprise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈentərpraɪz]",
+        "br": "[ˈentəpraɪz]",
+        "gb": "[ˈentəpraɪz]"
+      },
+      "translations": {
+        "rus": "предприятие",
+        "spa": "la empresa, la iniciativa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The enterprise was doomed to failure.",
+            "ru": "Предприятие было обречено на провал."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2819,
+      "word": "entrepreneur",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːntrəprəˈnɜːr]",
+        "br": "[ˌɒntrəprəˈnɜː(r)]",
+        "gb": "[ɔntrəprəˈnɜː]"
+      },
+      "translations": {
+        "rus": "предприниматель",
+        "spa": "el empresario"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm an entrepreneur.",
+            "ru": "Я предприниматель."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2820,
+      "word": "equity capital",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈekwəti] [ˈkæpɪtl]",
+        "br": "[ˈekwəti] [ˈkæpɪtl]",
+        "gb": "[ˈekwɪtɪ] [ˈkæpɪtl]"
+      },
+      "translations": {
+        "rus": "акционерный капитал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2821,
+      "word": "equity investment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈekwəti] [ɪnˈvestmənt]",
+        "br": "[ˈekwəti] [ɪnˈvestmənt]",
+        "gb": "[ˈekwɪtɪ] [ɪnˈvestmənt]"
+      },
+      "translations": {
+        "rus": "чистая стоимость капитала",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1460,
+      "word": "exchange rate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪksˈtʃeɪndʒ] [reɪt]",
+        "br": "[ɪksˈtʃeɪndʒ] [reɪt]",
+        "gb": "[ɪksˈʧeɪnʤ] [reɪt]"
+      },
+      "translations": {
+        "rus": "обменный курс",
+        "spa": "el tipo de cambio, la tasa de cambio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "What is the exchange rate today?",
+            "es": "¿Cuál es el tipo de cambio hoy?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 2822,
+      "word": "expenditure",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspendɪtʃər]",
+        "br": "[ɪkˈspendɪtʃə(r)]",
+        "gb": "[ɪksˈpendɪʧə]"
+      },
+      "translations": {
+        "rus": "расход, трата, потребление",
+        "spa": "el gasto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He cuts his expenditures.",
+            "ru": "Он сокращает свои расходы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2823,
+      "word": "expense",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈspens]",
+        "br": "[ɪkˈspens]",
+        "gb": "[ɪksˈpens]"
+      },
+      "translations": {
+        "rus": "расход, издержки",
+        "spa": "el gasto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He calculated the expenses.",
+            "ru": "Он подсчитал расходы."
+          },
+          {
+            "en": "There'll be a lot of expenses.",
+            "ru": "Будет много расходов."
+          },
+          {
+            "en": "He took charge of the expenses.",
+            "ru": "Он взял расходы на себя."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2824,
+      "word": "export",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈekspɔːrt]",
+        "br": "[ˈekspɔːt]",
+        "gb": "[ˈɛkspɔːt]"
+      },
+      "translations": {
+        "rus": "экспорт, вывоз, экспортный",
+        "spa": "la exportación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The export of weapons was prohibited.",
+            "ru": "Экспорт оружия был запрещен."
+          },
+          {
+            "en": "Imports exceeded exports last year.",
+            "ru": "Импорт в прошлом году превысил экспорт."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Imports exceeded exports last year.",
+            "es": "La importación superó a la exportación el año pasado."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2825,
+      "word": "fixed capital",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪkst] [ˈkæpɪtl]",
+        "br": "[fɪkst] [ˈkæpɪtl]",
+        "gb": "[fɪkst] [ˈkæpɪtl]"
+      },
+      "translations": {
+        "rus": "основной капитал",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2826,
+      "word": "freely convertible currency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfriːli] [kənˈvɜːrtəbl] [ˈkɜːrənsi]",
+        "br": "[ˈfriːli] [kənˈvɜːtəbl] [ˈkʌrənsi]",
+        "gb": "[ˈfriːlɪ] [kənˈvɜːtəbl] [ˈkʌrənsɪ]"
+      },
+      "translations": {
+        "rus": "свободно конвертируемая валюта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1477,
+      "word": "freight",
+      "pos": "noun",
+      "transcription": {
+        "us": "[freɪt]",
+        "br": "[freɪt]",
+        "gb": "[freɪt]"
+      },
+      "translations": {
+        "rus": "фрахт, груз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 1481,
+      "word": "fund",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʌnd]",
+        "br": "[fʌnd]",
+        "gb": "[fʌnd]"
+      },
+      "translations": {
+        "rus": "фонд, капитал, запас, резерв",
+        "spa": "el fondo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The fund was set up to help orphans.",
+            "ru": "Фонд был создан для помощи сиротам."
+          },
+          {
+            "en": "When do you think his funds will run out?",
+            "ru": "Когда, ты думаешь, его запасы иссякнут?"
+          },
+          {
+            "en": "He donated $10, 000 to the refugee fund.",
+            "ru": "Он пожертвовал $10, 000 в фонд помощи беженцам."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have no funds in the bank.",
+            "es": "No tengo fondos en el banco."
+          },
+          {
+            "en": "You don't have to worry about funds.",
+            "es": "No debes preocuparte de los fondos."
+          },
+          {
+            "en": "His undertaking failed for lack of funds.",
+            "es": "Su empresa fracasó por falta de fondos."
+          },
+          {
+            "en": "All funds are frozen until further notice.",
+            "es": "Todos los fondos están congelados hasta nuevo aviso."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2827,
+      "word": "grant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrænt]",
+        "br": "[ɡrɑːnt]",
+        "gb": "[grɑːnt]"
+      },
+      "translations": {
+        "rus": "дар, субсидия, стипендия",
+        "spa": "la beca"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1489,
+      "word": "gross domestic product",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəʊs] [dəˈmestɪk] [ˈprɑːdʌkt]",
+        "br": "[ɡrəʊs] [dəˈmestɪk] [ˈprɒdʌkt]",
+        "gb": "[grəʊs] [dəʊˈmestɪk] [ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "валовый внутренний продукт, ВВП",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2828,
+      "word": "Gross National Product",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[grəʊs] [ˈnæʃənl] [ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "ВНП (валовой национальный продукт)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2829,
+      "word": "growth rate",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəʊθ] [reɪt]",
+        "br": "[ɡrəʊθ] [reɪt]",
+        "gb": "[grəʊθ] [reɪt]"
+      },
+      "translations": {
+        "rus": "темпы роста",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2830,
+      "word": "hard",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[hɑːrd]",
+        "br": "[hɑːd]",
+        "gb": "[hɑːd]"
+      },
+      "translations": {
+        "rus": "твердый (валюта)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2831,
+      "word": "incentive",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈsentɪv]",
+        "br": "[ɪnˈsentɪv]",
+        "gb": "[ɪnˈsentɪv]"
+      },
+      "translations": {
+        "rus": "стимул, побуждение, побудительный",
+        "spa": "el incentivo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Incentives must be introduced.",
+            "ru": "Надо создать стимулы."
+          },
+          {
+            "en": "Incentives always help.",
+            "ru": "Стимулы всегда помогают."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1507,
+      "word": "income tax",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnkʌm] [tæks]",
+        "br": "[ˈɪnkʌm] [tæks]",
+        "gb": "[ˈɪnkʌm] [tæks]"
+      },
+      "translations": {
+        "rus": "подоходный налог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 1514,
+      "word": "insolvency",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈsɑːlvənsi]",
+        "br": "[ɪnˈsɒlvənsi]",
+        "gb": "[ɪnˈsɔlvənsɪ]"
+      },
+      "translations": {
+        "rus": "неплатежеспособность, несостоятельность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 1516,
+      "word": "insurance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈʃʊrəns]",
+        "br": "[ɪnˈʃʊərəns]",
+        "gb": "[ɪnˈʃʊərəns]"
+      },
+      "translations": {
+        "rus": "страхование, страховка",
+        "spa": "el seguro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The damage was covered by insurance.",
+            "ru": "Ущерб был покрыт страховкой."
+          },
+          {
+            "en": "What does your insurance cover?",
+            "ru": "Что покрывает ваша страховка?"
+          },
+          {
+            "en": "I think insurance will cover it.",
+            "ru": "Думаю, страховка это покроет."
+          }
+        ],
+        "spa": [
+          {
+            "en": "How much fire insurance do you have?",
+            "es": "¿De cuánto es el seguro contra incendios que tiene usted?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1518,
+      "word": "interest rate",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈɪntrɪst] [reɪt]"
+      },
+      "translations": {
+        "rus": "процентная ставка, ссудный процент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2832,
+      "word": "intermediary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪntərˈmiːdieri]",
+        "br": "[ˌɪntəˈmiːdiəri]",
+        "gb": "[ɪntəˈmiːdjərɪ]"
+      },
+      "translations": {
+        "rus": "посредник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 2833,
+      "word": "International Monetary Fund",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ɪntəˈnæʃənl] [ˈmʌnɪtərɪ] [fʌnd]"
+      },
+      "translations": {
+        "rus": "Международный валютный фонд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1525,
+      "word": "investor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈvestər]",
+        "br": "[ɪnˈvestə(r)]",
+        "gb": "[ɪnˈvestə]"
+      },
+      "translations": {
+        "rus": "инвестор, вкладчик",
+        "spa": "el inversor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They need investors.",
+            "ru": "Им нужны инвесторы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "career",
+        "economy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2834,
+      "word": "invoice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnvɔɪs]",
+        "br": "[ˈɪnvɔɪs]",
+        "gb": "[ˈɪnvɔɪs]"
+      },
+      "translations": {
+        "rus": "счет-фактура, накладная, квитанция",
+        "spa": "la factura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The conditions of sale are printed on the back of the invoice.",
+            "ru": "Условия продажи напечатаны на оборотной стороне накладной."
+          },
+          {
+            "en": "I stapled the order form to the invoice.",
+            "ru": "Я прикрепил бланк заказа к счёт-фактуре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 2836,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпуск, издание",
+        "spa": "la emisión, la expedición, el número, la edición"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1527,
+      "word": "issue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪʃuː]",
+        "br": "[ˈɪʃuː]",
+        "gb": "[ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "проблема, вопрос",
+        "spa": "el asunto, el tema, la cuestión, el problema"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The issue is not settled.",
+            "ru": "Проблема не решена."
+          },
+          {
+            "en": "This is a serious issue.",
+            "ru": "Это серьёзная проблема."
+          }
+        ],
+        "spa": [
+          {
+            "en": "This is a serious issue.",
+            "es": "Esto es un asunto sumamente serio."
+          },
+          {
+            "en": "I agree with you on this issue.",
+            "es": "En este asunto estoy de acuerdo contigo."
+          },
+          {
+            "en": "This issue has nothing to do with you.",
+            "es": "Este asunto no tiene nada que ver contigo."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "literature",
+        "mass_media",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1529,
+      "word": "joint",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[dʒɔɪnt]",
+        "br": "[dʒɔɪnt]",
+        "gb": "[ʤɔɪnt]"
+      },
+      "translations": {
+        "rus": "совместный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2837,
+      "word": "labor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɪbər]",
+        "br": "[ˈleɪbə(r)]",
+        "gb": "[ˈleɪbə]"
+      },
+      "translations": {
+        "rus": "работа, труд, рабочая сила",
+        "spa": "el trabajo, la labor, la tarea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Labor created man.",
+            "ru": "Труд создал человека."
+          },
+          {
+            "en": "Is this the Department of Labor?",
+            "ru": "Это Министерство труда?"
+          },
+          {
+            "en": "Unskilled labor is poorly paid.",
+            "ru": "Неквалифицированный труд низко оплачивается."
+          },
+          {
+            "en": "He did hard manual labor through the day.",
+            "ru": "Он занимался тяжёлым физическим трудом весь день."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Manual labor is necessary in this company.",
+            "es": "En esta compañía, el trabajo manual es necesario."
+          },
+          {
+            "en": "Is this the Department of Labor?",
+            "es": "¿Es este el Ministerio de Trabajo?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2838,
+      "word": "labor intensive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈleɪbər] [ɪnˈtensɪv]",
+        "br": "[ˈleɪbə(r)] [ɪnˈtensɪv]",
+        "gb": "[ˈleɪbə] [ɪnˈtensɪv]"
+      },
+      "translations": {
+        "rus": "трудоемкий",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2839,
+      "word": "labour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɪbər]",
+        "br": "[ˈleɪbə(r)]",
+        "gb": "[ˈleɪbə]"
+      },
+      "translations": {
+        "rus": "работа, труд, рабочая сила",
+        "spa": "el trabajo, la labor, la tarea"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Labour created man.",
+            "ru": "Труд создал человека."
+          },
+          {
+            "en": "Is this the Department of Labour?",
+            "ru": "Это Министерство труда?"
+          },
+          {
+            "en": "Unskilled labour is poorly paid.",
+            "ru": "Неквалифицированный труд низко оплачивается."
+          },
+          {
+            "en": "He did hard manual labour through the day.",
+            "ru": "Он занимался тяжёлым физическим трудом весь день."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Manual labour is necessary in this company.",
+            "es": "En esta compañía, el trabajo manual es necesario."
+          },
+          {
+            "en": "Is this the Department of Labour?",
+            "es": "¿Es este el Ministerio de Trabajo?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2840,
+      "word": "lender",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlendər]",
+        "br": "[ˈlendə(r)]",
+        "gb": "[ˈlendə]"
+      },
+      "translations": {
+        "rus": "кредитор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2841,
+      "word": "letter of credit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌletər] [əv] [ˈkredɪt]",
+        "br": "[ˌletər] [əv] [ˈkredɪt]",
+        "gb": "[ˈletə] [ɔv] [ˈkredɪt]"
+      },
+      "translations": {
+        "rus": "аккредитив",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1535,
+      "word": "liability",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌlaɪəˈbɪləti]",
+        "br": "[ˌlaɪəˈbɪləti]",
+        "gb": "[laɪəˈbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "обязательство, ответственность",
+        "spa": "la responsabilidad"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't want to take on another liability.",
+            "ru": "Я не хочу брать на себя ещё одно обязательство."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "legal_english",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2842,
+      "word": "limited",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈlɪmɪtɪd]",
+        "br": "[ˈlɪmɪtɪd]",
+        "gb": "[ˈlɪmɪtɪd]"
+      },
+      "translations": {
+        "rus": "ограниченный, лимитированный",
+        "spa": "limitado, restringido, reducido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your time is limited.",
+            "ru": "Твоё время ограничено."
+          },
+          {
+            "en": "Our resources are limited.",
+            "ru": "Наши ресурсы ограниченны."
+          },
+          {
+            "en": "Tickets are limited.",
+            "ru": "Количество билетов ограничено."
+          },
+          {
+            "en": "My French is very limited.",
+            "ru": "Мои познания во французском очень ограничены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 2843,
+      "word": "listing",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪstɪŋ]",
+        "br": "[ˈlɪstɪŋ]",
+        "gb": "[ˈlɪstɪŋ]"
+      },
+      "translations": {
+        "rus": "листинг, распечатка, перечисление, котировка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1538,
+      "word": "loan",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ləʊn]",
+        "br": "[ləʊn]",
+        "gb": "[ləʊn]"
+      },
+      "translations": {
+        "rus": "ссуда, заем",
+        "spa": "el préstamo, prestar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll need a loan.",
+            "ru": "Мне понадобится ссуда."
+          },
+          {
+            "en": "I no longer need a loan.",
+            "ru": "Мне больше не нужна ссуда."
+          },
+          {
+            "en": "The bank loaned her 500 dollars.",
+            "ru": "Банк ссудил ей 500 долларов."
+          },
+          {
+            "en": "You can get a loan from a bank.",
+            "ru": "Ты можешь получить ссуду в банке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you still need a loan?",
+            "es": "¿Todavía necesitas un préstamo?"
+          },
+          {
+            "en": "A friend loaned this book to me.",
+            "es": "Este libro me lo prestó un amigo."
+          },
+          {
+            "en": "He got a loan from the bank.",
+            "es": "Él obtuvo un préstamo del banco."
+          },
+          {
+            "en": "The bank loaned him 500 dollars.",
+            "es": "El banco le prestó 500 dólares."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2844,
+      "word": "long-term plans",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[lɔŋ] [tɜːm] [plænz]"
+      },
+      "translations": {
+        "rus": "долгосрочные планы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2845,
+      "word": "management",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmænɪdʒmənt]",
+        "br": "[ˈmænɪdʒmənt]",
+        "gb": "[ˈmænɪʤmənt]"
+      },
+      "translations": {
+        "rus": "управление, менеджмент, администрация, правление, умение справляться",
+        "spa": "la gerencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're under new management.",
+            "ru": "У нас новое руководство."
+          },
+          {
+            "en": "The firm is under foreign management.",
+            "ru": "Эта фирма управляется из-за границы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Who represent the executive management?",
+            "es": "¿Quiénes representan la gerencia ejecutiva?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2846,
+      "word": "manpower",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmænpaʊər]",
+        "br": "[ˈmænpaʊə(r)]",
+        "gb": "[ˈmænpaʊə]"
+      },
+      "translations": {
+        "rus": "рабочая сила",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2847,
+      "word": "means of production",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[miːnz] [ɔv] [prəˈdʌkʃn]"
+      },
+      "translations": {
+        "rus": "средства производства",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2848,
+      "word": "medium-term plans",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈmiːdjəm] [tɜːm] [plænz]"
+      },
+      "translations": {
+        "rus": "среднесрочные планы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2849,
+      "word": "military-industrial complex",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪləteri] [ɪnˈdʌstriəl] [ˈkɑːmpleks]",
+        "br": "[ˈmɪlətri] [ɪnˈdʌstriəl] [ˈkɒmpleks]",
+        "gb": "[ˈmɪlɪtərɪ] [ɪnˈdʌstrɪəl] [ˈkɔmpleks]"
+      },
+      "translations": {
+        "rus": "военно-промышленный комплекс (ВПК)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2850,
+      "word": "money supply",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌni] [səˈplaɪ]",
+        "br": "[ˈmʌni] [səˈplaɪ]",
+        "gb": "[ˈmʌnɪ] [səˈplaɪ]"
+      },
+      "translations": {
+        "rus": "денежная масса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1555,
+      "word": "mortgage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɔːrɡɪdʒ]",
+        "br": "[ˈmɔːɡɪdʒ]",
+        "gb": "[ˈmɔːgɪʤ]"
+      },
+      "translations": {
+        "rus": "ипотека, ссуда, заём при покупке дома",
+        "spa": "la hipoteca"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "construction",
+        "economy",
+        "home",
+        "legal_english",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2705,
+      "word": "natural resources",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈnæʧrəl] [rɪˈzɔːsɪz]"
+      },
+      "translations": {
+        "rus": "природные ресурсы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "economy"
+      ]
+    },
+    {
+      "id": 2851,
+      "word": "negotiable instrument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nɪˈɡəʊʃiəbl] [ˈɪnstrəmənt]",
+        "br": "[nɪˈɡəʊʃiəbl] [ˈɪnstrəmənt]",
+        "gb": "[nɪˈgəʊʃjəbl] [ˈɪnstrʊmənt]"
+      },
+      "translations": {
+        "rus": "оборотный инструмент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2852,
+      "word": "non-collected taxes",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[nɔn] [kəˈlektɪd] [ˈtæksəz]"
+      },
+      "translations": {
+        "rus": "неуплаченные налоги",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1567,
+      "word": "order",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːrdər]",
+        "br": "[ˈɔːdə(r)]",
+        "gb": "[ˈɔːdə]"
+      },
+      "translations": {
+        "rus": "заказ, приказ, порядок",
+        "spa": "la orden"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am giving you an order.",
+            "ru": "Я даю тебе приказ."
+          },
+          {
+            "en": "The captain gave the order.",
+            "ru": "Капитан отдал приказ."
+          },
+          {
+            "en": "The word order needs to be changed.",
+            "ru": "Надо изменить порядок слов."
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I take your order?",
+            "es": "¿Puedo tomar su orden?"
+          },
+          {
+            "en": "Did you give the order?",
+            "es": "¿Usted dio la orden?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2853,
+      "word": "output",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaʊtpʊt]",
+        "br": "[ˈaʊtpʊt]",
+        "gb": "[ˈaʊtpʊt]"
+      },
+      "translations": {
+        "rus": "вывод, выход, мощность, выработка, выпускать",
+        "spa": "la producción, producir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Output is up 30% on last year.",
+            "ru": "С прошлого года выработка повысилась на 30%."
+          },
+          {
+            "en": "Computers output data very quickly.",
+            "ru": "Компьютеры выводят данные очень быстро."
+          },
+          {
+            "en": "Korea's agricultural output.",
+            "ru": "Корейская сельскохозяйственная продукция."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The output of this factory has increased by 20%.",
+            "es": "La producción de esta fábrica ha aumentado un 20%."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2854,
+      "word": "overheads",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvərhedz]",
+        "br": "[ˈəʊvəhedz]",
+        "gb": "[ˈoʊvərˌhɛdz]"
+      },
+      "translations": {
+        "rus": "накладные расходы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1580,
+      "word": "payment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpeɪmənt]",
+        "br": "[ˈpeɪmənt]",
+        "gb": "[ˈpeɪmənt]"
+      },
+      "translations": {
+        "rus": "платёж, оплата",
+        "spa": "el pago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Payment is due on the first day of every month.",
+            "ru": "Оплата производится в первый день каждого месяца."
+          },
+          {
+            "en": "I gave them £10 in part payment.",
+            "ru": "Я дал им 10 фунтов в качестве частичной оплаты."
+          },
+          {
+            "en": "You can make a payment in any bank.",
+            "ru": "Оплату можно произвести в любом банке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What payment options are available?",
+            "es": "¿Qué alternativas de pago están disponibles?"
+          },
+          {
+            "en": "Your payment is now two months overdue.",
+            "es": "Tus pagos se retrasan dos meses."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2856,
+      "word": "payments",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpeɪmənts]"
+      },
+      "translations": {
+        "rus": "отчисления",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2857,
+      "word": "per capita",
+      "pos": "adjective, adverb, participle",
+      "transcription": {
+        "us": "[pər] [ˈkæpɪtə]",
+        "br": "[pə] [ˈkæpɪtə]",
+        "gb": "[pɜː] [ˈkæpɪtə]"
+      },
+      "translations": {
+        "rus": "на душу населения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2858,
+      "word": "personnel turnover",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌpɜːrsəˈnel] [ˈtɜːrnəʊvər]",
+        "br": "[ˌpɜːsəˈnel] [ˈtɜːnəʊvə(r)]",
+        "gb": "[pɜːsəˈnel] [ˈtɜːnəʊvə]"
+      },
+      "translations": {
+        "rus": "текучесть кадров",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2529,
+      "word": "pipeline",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaɪplaɪn]",
+        "br": "[ˈpaɪplaɪn]",
+        "gb": "[ˈpaɪplaɪn]"
+      },
+      "translations": {
+        "rus": "трубопровод",
+        "spa": "la tubería, el conducto"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2859,
+      "word": "planned economy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌplænd] [ɪˈkɑːnəmi]",
+        "br": "[ˌplænd] [ɪˈkɒnəmi]",
+        "gb": "[plænd] [iːˈkɔnəmɪ]"
+      },
+      "translations": {
+        "rus": "плановая экономика",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1589,
+      "word": "portfolio",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɔːrtˈfəʊliəʊ]",
+        "br": "[pɔːtˈfəʊliəʊ]",
+        "gb": "[pɔːtˈfəʊljəʊ]"
+      },
+      "translations": {
+        "rus": "портфель, портфолио, папка",
+        "spa": "el portafolio, el portafolios, la cartera, la carpeta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I can't find my portfolio.",
+            "ru": "Я не могу найти своё портфолио."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1593,
+      "word": "price list",
+      "pos": "noun",
+      "transcription": {
+        "us": "[praɪs] [lɪst]",
+        "br": "[praɪs] [lɪst]",
+        "gb": "[praɪs] [lɪst]"
+      },
+      "translations": {
+        "rus": "прейскурант",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2860,
+      "word": "procurement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈkjʊrmənt]",
+        "br": "[prəˈkjʊəmənt]",
+        "gb": "[prəˈkjʊəmənt]"
+      },
+      "translations": {
+        "rus": "приобретение, поставка, закупка, получение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2861,
+      "word": "producer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈduːsər]",
+        "br": "[prəˈdjuːsə(r)]",
+        "gb": "[prəˈdjuːsə]"
+      },
+      "translations": {
+        "rus": "производитель, продюсер",
+        "spa": "el productor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Japan's largest producer of microchips.",
+            "ru": "Крупнейший в Японии производитель микрочипов."
+          },
+          {
+            "en": "I'm a music producer.",
+            "ru": "Я музыкальный продюсер."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "movie",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2862,
+      "word": "production cost, prime cost, cost price",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈdʌkʃn] [kɔːst], [praɪm] [kɔːst], [kɔːst] [praɪs]",
+        "br": "[prəˈdʌkʃn] [kɒst], [praɪm] [kɒst], [kɒst] [praɪs]",
+        "gb": "[prəˈdʌkʃn] [kɔst] [praɪm] [kɔst] [kɔst] [praɪs]"
+      },
+      "translations": {
+        "rus": "себестоимость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1599,
+      "word": "productivity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌprəʊdʌkˈtɪvəti]",
+        "br": "[ˌprɒdʌkˈtɪvəti]",
+        "gb": "[prɔdʌkˈtɪvɪtɪ]"
+      },
+      "translations": {
+        "rus": "продуктивность",
+        "spa": "la productividad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2863,
+      "word": "profit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈprɑːfɪt]",
+        "br": "[ˈprɒfɪt]",
+        "gb": "[ˈprɔfɪt]"
+      },
+      "translations": {
+        "rus": "прибыль, выгода",
+        "spa": "la ganancia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's split the profits.",
+            "ru": "Давайте разделим прибыль."
+          },
+          {
+            "en": "He claimed his share of the profits.",
+            "ru": "Он требовал себе часть дохода."
+          },
+          {
+            "en": "You made a profit.",
+            "ru": "Ты получил выгоду."
+          },
+          {
+            "en": "They netted a good profit.",
+            "ru": "Они получили хорошую прибыль."
+          },
+          {
+            "en": "My profits were just on paper.",
+            "ru": "Мои доходы существовали только на бумаге."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Profit is better than fame.",
+            "es": "Las ganancias son mejores que la fama."
+          },
+          {
+            "en": "The profits were very high.",
+            "es": "Las ganancias fueron muy altas."
+          },
+          {
+            "en": "We shared the profit among us all.",
+            "es": "Compartimos la ganancia entre todos nosotros."
+          },
+          {
+            "en": "We'll divide the profits among all of us.",
+            "es": "Repartiremos las ganancias entre todos."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2864,
+      "word": "profitability",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌprɑːfɪtəˈbɪləti]",
+        "br": "[ˌprɒfɪtəˈbɪləti]",
+        "gb": "[prɒfɪtəˈbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "прибыльность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2865,
+      "word": "profitable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈprɑːfɪtəbl]",
+        "br": "[ˈprɒfɪtəbl]",
+        "gb": "[ˈprɔfɪtəbl]"
+      },
+      "translations": {
+        "rus": "прибыльный",
+        "spa": "rentable, lucrativo, provechoso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2866,
+      "word": "pumping",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpʌmpɪŋ]"
+      },
+      "translations": {
+        "rus": "резкое повышение котировки на бирже",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2867,
+      "word": "purchase",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɜːrtʃəs]",
+        "br": "[ˈpɜːtʃəs]",
+        "gb": "[ˈpɜːʧəs]"
+      },
+      "translations": {
+        "rus": "покупка, приобретение",
+        "spa": "la compra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Thank you for your purchase.",
+            "ru": "Спасибо за покупку."
+          },
+          {
+            "en": "I'm thrilled with my purchase.",
+            "ru": "Я в восторге от своей покупки."
+          },
+          {
+            "en": "I paid for the purchase in cash.",
+            "ru": "Я заплатил за покупку наличными."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Thank you for your purchase.",
+            "es": "Gracias por su compra."
+          },
+          {
+            "en": "I paid for the purchase in cash.",
+            "es": "Pagué esas compras en efectivo."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2868,
+      "word": "ratio",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈreɪʃiəʊ]",
+        "br": "[ˈreɪʃiəʊ]",
+        "gb": "[ˈreɪʃɪəʊ]"
+      },
+      "translations": {
+        "rus": "соотношение, отношение, коэффициент",
+        "spa": "la proporción"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2869,
+      "word": "raw materials",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[rɔː] [məˈtɪriəlz]"
+      },
+      "translations": {
+        "rus": "сырье",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2870,
+      "word": "reimbursement",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌriːɪmˈbɜːrsmənt]",
+        "br": "[ˌriːɪmˈbɜːsmənt]",
+        "gb": "[riːɪmˈbɜːsmənt]"
+      },
+      "translations": {
+        "rus": "возмещение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2871,
+      "word": "repayment of credit",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[riːˈpeɪmənt] [ɔv] [ˈkredɪt]"
+      },
+      "translations": {
+        "rus": "погашение кредитов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2872,
+      "word": "reporting",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈpɔːrtɪŋ]",
+        "br": "[rɪˈpɔːtɪŋ]",
+        "gb": "[rɪˈpɔːtɪŋ]"
+      },
+      "translations": {
+        "rus": "отчётность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1617,
+      "word": "representative",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˌreprɪˈzentətɪv]",
+        "br": "[ˌreprɪˈzentətɪv]",
+        "gb": "[reprɪˈzentətɪv]"
+      },
+      "translations": {
+        "rus": "представитель, уполномоченный",
+        "spa": "el representante, representativo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We appointed him as our representative.",
+            "ru": "Мы назначили его нашим представителем."
+          },
+          {
+            "en": "You elect your representative by voting.",
+            "ru": "Вы выбираете своего представителя голосованием."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1619,
+      "word": "retail",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈriːteɪl]",
+        "br": "[ˈriːteɪl]",
+        "gb": "[ˈriːteɪl]"
+      },
+      "translations": {
+        "rus": "розничный, розничная продажа",
+        "spa": "la venta al por menor, vender al por menor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "What's the retail price of eggs?",
+            "ru": "Какова розничная цена яиц?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1621,
+      "word": "revenue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrevənuː]",
+        "br": "[ˈrevənjuː]",
+        "gb": "[ˈrevɪnjuː]"
+      },
+      "translations": {
+        "rus": "поступления, доход",
+        "spa": "el ingreso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His revenue doubled after retirement.",
+            "ru": "После выхода на пенсию его доход увеличился вдвое."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2873,
+      "word": "risk management",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪsk] [ˈmænɪdʒmənt]",
+        "br": "[rɪsk] [ˈmænɪdʒmənt]",
+        "gb": "[rɪsk] [ˈmænɪʤmənt]"
+      },
+      "translations": {
+        "rus": "управление риском",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1627,
+      "word": "sales",
+      "pos": "noun",
+      "transcription": {
+        "us": "[seɪlz]",
+        "br": "[seɪlz]",
+        "gb": "[seɪlz]"
+      },
+      "translations": {
+        "rus": "продажи",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 2874,
+      "word": "savings",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈseɪvɪŋz]",
+        "br": "[ˈseɪvɪŋz]",
+        "gb": "[ˈseɪvɪŋz]"
+      },
+      "translations": {
+        "rus": "сбережения",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2875,
+      "word": "scarce",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[skers]",
+        "br": "[skeəs]",
+        "gb": "[skɛəs]"
+      },
+      "translations": {
+        "rus": "недостаточный, скудный, редкий, дефицитный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1630,
+      "word": "securities",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[sɪˈkjʊrətiz]"
+      },
+      "translations": {
+        "rus": "ценные бумаги",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2876,
+      "word": "self-financing",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[self] [ˈfaɪnænsɪŋ]"
+      },
+      "translations": {
+        "rus": "самофинансирование",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1637,
+      "word": "share",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ʃer]",
+        "br": "[ʃeə(r)]",
+        "gb": "[ʃɛə]"
+      },
+      "translations": {
+        "rus": "доля, часть, акция",
+        "spa": "la cuota, la acción, la participación, la parte"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He gypped me out of my share.",
+            "ru": "Он украл у меня мою долю."
+          },
+          {
+            "en": "They offered 40 cents a share.",
+            "ru": "Они предложили 40 центов за акцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2877,
+      "word": "shortage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃɔːrtɪdʒ]",
+        "br": "[ˈʃɔːtɪdʒ]",
+        "gb": "[ˈʃɔːtɪʤ]"
+      },
+      "translations": {
+        "rus": "нехватка, дефицит",
+        "spa": "el déficit"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's a wheat shortage.",
+            "ru": "Пшеница в дефиците."
+          },
+          {
+            "en": "The recent coffee shortage brought about many problems.",
+            "ru": "Недавний дефицит кофе вызвал много проблем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2878,
+      "word": "State Bank",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[steɪt] [bæŋk]"
+      },
+      "translations": {
+        "rus": "государственный банк",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1649,
+      "word": "stock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk]",
+        "br": "[stɒk]",
+        "gb": "[stɔk]"
+      },
+      "translations": {
+        "rus": "склад, запас",
+        "spa": "la reserva, el stock"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We're out of stock.",
+            "ru": "У нас кончились запасы."
+          },
+          {
+            "en": "We have a very limited stock.",
+            "ru": "Мы имеем очень ограниченный запас."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Our stock of oil is running out.",
+            "es": "Nuestra reserva de petróleo se está agotando."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1650,
+      "word": "stock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk]",
+        "br": "[stɒk]",
+        "gb": "[stɔk]"
+      },
+      "translations": {
+        "rus": "акция, ценная бумага",
+        "spa": "las acciones, los bonos"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He holds stocks in this company.",
+            "ru": "У него есть акции этой компании."
+          },
+          {
+            "en": "Stocks fell hard.",
+            "ru": "Акции обрушились."
+          },
+          {
+            "en": "Stock prices dropped.",
+            "ru": "Цены на акции упали."
+          },
+          {
+            "en": "He invested a lot of money in stocks.",
+            "ru": "Он вложил много денег в акции."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He holds stocks in this company.",
+            "es": "Tiene acciones en esta compañía."
+          },
+          {
+            "en": "He invested a lot of money in stocks.",
+            "es": "Él invirtió mucho dinero en acciones."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2879,
+      "word": "stock company",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk] [ˈkʌmpəni]",
+        "br": "[stɒk] [ˈkʌmpəni]",
+        "gb": "[stɔk] [ˈkʌmpənɪ]"
+      },
+      "translations": {
+        "rus": "акционерное общество",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1842,
+      "word": "stock exchange",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk] [ɪksˈtʃeɪndʒ]",
+        "br": "[stɒk] [ɪksˈtʃeɪndʒ]",
+        "gb": "[stɔk] [ɪksˈʧeɪnʤ]"
+      },
+      "translations": {
+        "rus": "фондовая биржа",
+        "spa": "la bolsa"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "economy"
+      ]
+    },
+    {
+      "id": 2880,
+      "word": "stock market",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɑːk] [ˈmɑːrkɪt]",
+        "br": "[stɒk] [ˈmɑːkɪt]",
+        "gb": "[stɔk] [ˈmɑːkɪt]"
+      },
+      "translations": {
+        "rus": "фондовый рынок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1651,
+      "word": "stockholder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɑːkhəʊldər]",
+        "br": "[ˈstɒkhəʊldə(r)]",
+        "gb": "[ˈstɔkhəʊldə]"
+      },
+      "translations": {
+        "rus": "держатель акций, акционер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy"
+      ]
+    },
+    {
+      "id": 2881,
+      "word": "storehouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstɔːrhaʊs]",
+        "br": "[ˈstɔːhaʊs]",
+        "gb": "[ˈstɔːhaʊs]"
+      },
+      "translations": {
+        "rus": "склад, хранилище",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2587,
+      "word": "subcontractor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌbˈkɑːntræktər]",
+        "br": "[ˈsʌbkəntræktə(r)]",
+        "gb": "[sʌbkənˈtræktər]"
+      },
+      "translations": {
+        "rus": "субподрядчик, субконтрактор",
+        "spa": "el subcontratista (la subcontratista)"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 2592,
+      "word": "supplier",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈplaɪər]",
+        "br": "[səˈplaɪə(r)]",
+        "gb": "[səˈplaɪər]"
+      },
+      "translations": {
+        "rus": "поставщик",
+        "spa": "el proveedor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have suppliers.",
+            "ru": "У нас есть поставщики."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "economy",
+        "marketing",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1655,
+      "word": "supply",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈplaɪ]",
+        "br": "[səˈplaɪ]",
+        "gb": "[səˈplaɪ]"
+      },
+      "translations": {
+        "rus": "поставка, снабжение, предложение",
+        "spa": "el suministro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The government is planning to improve the supply of drinkable water.",
+            "ru": "Правительство планирует улучшить снабжение питьевой водой."
+          },
+          {
+            "en": "Supplies cannot keep up with the demand.",
+            "ru": "Поставки не могут идти в ногу со спросом."
+          },
+          {
+            "en": "They monopolized the supply of raw materials and set sky-high prices.",
+            "ru": "Они монополизировали поставки сырья и установили заоблачные цены."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1658,
+      "word": "surplus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɜːrplʌs]",
+        "br": "[ˈsɜːpləs]",
+        "gb": "[ˈsɜːpləs]"
+      },
+      "translations": {
+        "rus": "избыток, излишек",
+        "spa": "el excedente, el superávit"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2882,
+      "word": "tariff",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtærɪf]",
+        "br": "[ˈtærɪf]",
+        "gb": "[ˈtærɪf]"
+      },
+      "translations": {
+        "rus": "пошлина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2883,
+      "word": "tax",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks]",
+        "br": "[tæks]",
+        "gb": "[tæks]"
+      },
+      "translations": {
+        "rus": "налог",
+        "spa": "el impuesto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We must pay the tax.",
+            "ru": "Мы должны уплатить налог."
+          },
+          {
+            "en": "I don't like paying taxes.",
+            "ru": "Я не люблю платить налоги."
+          },
+          {
+            "en": "He was able to reduce taxes.",
+            "ru": "Ему удалось понизить налоги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I paid $200 in taxes.",
+            "es": "Pagué $200 en impuestos."
+          },
+          {
+            "en": "You have to pay taxes.",
+            "es": "Tienes que pagar impuestos."
+          },
+          {
+            "en": "Is there any tax on this?",
+            "es": "¿Hay algún impuesto sobre esto?"
+          },
+          {
+            "en": "Does that price include tax?",
+            "es": "¿Ese precio incluye impuestos?"
+          },
+          {
+            "en": "This merchandise is tax free.",
+            "es": "Esta mercadería está libre de impuestos."
+          },
+          {
+            "en": "He was accused of evading tax.",
+            "es": "Fue acusado de evadir impuestos."
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2884,
+      "word": "tax code",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks] [kəʊd]",
+        "br": "[tæks] [kəʊd]",
+        "gb": "[tæks] [kəʊd]"
+      },
+      "translations": {
+        "rus": "налоговый кодекс",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2885,
+      "word": "tax collection",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks] [kəˈlekʃn]",
+        "br": "[tæks] [kəˈlekʃn]",
+        "gb": "[tæks] [kəˈlekʃn]"
+      },
+      "translations": {
+        "rus": "сбор налогов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2886,
+      "word": "tax evasion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks] [ɪˈveɪʒn]",
+        "br": "[tæks] [ɪˈveɪʒn]",
+        "gb": "[tæks] [ɪˈveɪʒən]"
+      },
+      "translations": {
+        "rus": "уклонение от налогов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2887,
+      "word": "tax exemption",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks] [ɪɡˈzempʃn]",
+        "br": "[tæks] [ɪɡˈzempʃn]",
+        "gb": "[tæks] [ɪgˈzempʃn]"
+      },
+      "translations": {
+        "rus": "налоговые льготы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2888,
+      "word": "tax return",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tæks] [rɪˈtɜːrn]",
+        "br": "[tæks] [rɪˈtɜːn]",
+        "gb": "[tæks] [rɪˈtɜːn]"
+      },
+      "translations": {
+        "rus": "налоговая декларация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2889,
+      "word": "taxable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtæksəbl]",
+        "br": "[ˈtæksəbl]",
+        "gb": "[ˈtæksəbl]"
+      },
+      "translations": {
+        "rus": "подлежащий налогообложению",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2890,
+      "word": "taxation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tækˈseɪʃn]",
+        "br": "[tækˈseɪʃn]",
+        "gb": "[tækˈseɪʃn]"
+      },
+      "translations": {
+        "rus": "налогообложение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1661,
+      "word": "tender",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtendər]",
+        "br": "[ˈtendə(r)]",
+        "gb": "[ˈtendə]"
+      },
+      "translations": {
+        "rus": "тендер, предложение",
+        "spa": "el ténder, la oferta, la licitación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tender met the conditions.",
+            "ru": "Это предложение удовлетворяло условиям."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2891,
+      "word": "terms of delivery",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tɜːmz] [ɔv] [dɪˈlɪvərɪ]"
+      },
+      "translations": {
+        "rus": "условия поставки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2892,
+      "word": "terms of payment",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tɜːmz] [ɔv] [ˈpeɪmənt]"
+      },
+      "translations": {
+        "rus": "условия платежа",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2805,
+      "word": "to cover expenses",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [ˈkʌvə] [ɪkˈspensɪz]"
+      },
+      "translations": {
+        "rus": "покрывать расходы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 883,
+      "word": "to damage",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈdæmɪdʒ]",
+        "br": "[tə] [ˈdæmɪdʒ]",
+        "gb": "[tuː] [ˈdæmɪʤ]"
+      },
+      "translations": {
+        "rus": "повреждать",
+        "spa": "dañar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The roof was damaged by the storm.",
+            "ru": "Крыша была повреждена штормом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I paid for the damage.",
+            "es": "Pagué por los daños."
+          },
+          {
+            "en": "The roof was damaged by the storm.",
+            "es": "El techo estaba dañado por la tormenta."
+          },
+          {
+            "en": "Smoking does damage your lungs.",
+            "es": "Fumar daña tus pulmones."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2810,
+      "word": "to deduct, to write off from taxes",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[tuː] [dɪˈdʌkt] [tuː] [raɪt] [ɔf] [frɔm] [ˈtæksəz]"
+      },
+      "translations": {
+        "rus": "вычитать, списать с налогов",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 892,
+      "word": "to deliver",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [dɪˈlɪvər]",
+        "br": "[tə] [dɪˈlɪvə(r)]",
+        "gb": "[tuː] [dɪˈlɪvə]"
+      },
+      "translations": {
+        "rus": "доставлять, снабжать",
+        "spa": "entregar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Deliver the package to my home.",
+            "ru": "Доставьте пакет мне домой."
+          },
+          {
+            "en": "We will deliver them up to the police.",
+            "ru": "Мы передадим их в руки полиции."
+          },
+          {
+            "en": "After two days, a bouquet was delivered to her mother.",
+            "ru": "Через два дня букет был доставлен её маме."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We can deliver it this evening.",
+            "es": "Podemos entregarlo esta tarde."
+          },
+          {
+            "en": "This package was delivered last night.",
+            "es": "Este paquete fue entregado anoche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "mass_media",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1445,
+      "word": "to discount",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈdɪskaʊnt]",
+        "br": "[tə] [ˈdɪskaʊnt]",
+        "gb": "[tuː] [dɪsˈkaʊnt]"
+      },
+      "translations": {
+        "rus": "делать скидку",
+        "spa": "rebajar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Can the price be discounted?",
+            "es": "¿Admite el precio rebaja?"
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing",
+        "money",
+        "oxford3000_b2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 1488,
+      "word": "to grant",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ɡrænt]",
+        "br": "[tə] [ɡrɑːnt]",
+        "gb": "[tuː] [grɑːnt]"
+      },
+      "translations": {
+        "rus": "предоставлять",
+        "spa": "conceder"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bank refused to grant me the loan.",
+            "ru": "Банк отказался выдать мне кредит."
+          },
+          {
+            "en": "Her wish was granted.",
+            "ru": "Её желание было исполнено."
+          },
+          {
+            "en": "They granted his request.",
+            "ru": "Они выполнили его просьбу."
+          },
+          {
+            "en": "The mayor granted our request.",
+            "ru": "Мэр удовлетворил нашу просьбу."
+          },
+          {
+            "en": "Lincoln granted liberty to slaves.",
+            "ru": "Линкольн наделил рабов свободой."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The mayor granted our request.",
+            "es": "El alcalde concedió nuestra demanda."
+          },
+          {
+            "en": "Without hesitation, I granted his request.",
+            "es": "Sin titubeos yo concedí su demanda."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2835,
+      "word": "to invoice",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪnvɔɪs]",
+        "br": "[tu] [ˈɪnvɔɪs]",
+        "gb": "[tuː] [ˈɪnvɔɪs]"
+      },
+      "translations": {
+        "rus": "выставлять счёт",
+        "spa": "facturar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She invoiced the company for her expenses.",
+            "ru": "Она выставила компании счёт за свои расходы."
+          },
+          {
+            "en": "They will invoice you directly.",
+            "ru": "Они выставят вам счёт напрямую."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "money"
+      ]
+    },
+    {
+      "id": 1039,
+      "word": "to issue",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [ˈɪʃuː]",
+        "br": "[tu] [ˈɪʃuː]",
+        "gb": "[tuː] [ˈɪʃuː]"
+      },
+      "translations": {
+        "rus": "выпускать, издавать",
+        "spa": "emitir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The magazine is issued twice a month.",
+            "ru": "Этот журнал издаётся два раза в месяц."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "legal_english",
+        "literature",
+        "mass_media",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2855,
+      "word": "to patent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈpætnt]",
+        "br": "[tə] [ˈpætnt]",
+        "gb": "[tuː] [ˈpætnt]"
+      },
+      "translations": {
+        "rus": "патентовать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 1139,
+      "word": "to purchase",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈpɜːrtʃəs]",
+        "br": "[tə] [ˈpɜːtʃəs]",
+        "gb": "[tuː] [ˈpɜːʧəs]"
+      },
+      "translations": {
+        "rus": "покупать, приобретать",
+        "spa": "comprar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The couple wants to purchase a house.",
+            "ru": "Супруги хотят купить дом."
+          },
+          {
+            "en": "When was it purchased?",
+            "ru": "Когда это было приобретено?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I purchased one bag.",
+            "es": "Compré una bolsa."
+          },
+          {
+            "en": "I purchased a new car last week.",
+            "es": "Compré un coche nuevo la semana pasada."
+          },
+          {
+            "en": "I would like to purchase some boots.",
+            "es": "Me gustaría comprarme unas botas."
+          },
+          {
+            "en": "The couple wants to purchase a home.",
+            "es": "La pareja quiere comprar una casa."
+          },
+          {
+            "en": "I had to borrow money to purchase the car.",
+            "es": "Tuve que pedir prestado dinero para comprar el coche."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "economy",
+        "money",
+        "oxford3000_b2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1208,
+      "word": "to share",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ʃer]",
+        "br": "[tə] [ʃeə(r)]",
+        "gb": "[tuː] [ʃɛə]"
+      },
+      "translations": {
+        "rus": "делить, делиться, распространять, разделять",
+        "spa": "compartir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I share your opinion.",
+            "ru": "Я разделяю ваше мнение."
+          },
+          {
+            "en": "They shared the last cookie.",
+            "ru": "Они разделили последнее печенье."
+          },
+          {
+            "en": "I'd like to share this idea with you.",
+            "ru": "Я хотел бы поделиться этой идеей с вами."
+          },
+          {
+            "en": "I share the room with him.",
+            "ru": "Я делю с ним комнату."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Do you share a room?",
+            "es": "¿Compartes una habitación?"
+          },
+          {
+            "en": "I don't want to share.",
+            "es": "No quiero compartir."
+          },
+          {
+            "en": "He and I share a room.",
+            "es": "Él y yo compartimos pieza."
+          },
+          {
+            "en": "Do you want to share it?",
+            "es": "¿Querés compartirlo?"
+          },
+          {
+            "en": "He shared his soup with me.",
+            "es": "Compartió su sopa conmigo."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "economy",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1242,
+      "word": "to supply",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [səˈplaɪ]",
+        "br": "[tə] [səˈplaɪ]",
+        "gb": "[tuː] [səˈplaɪ]"
+      },
+      "translations": {
+        "rus": "обеспечивать, поставлять",
+        "spa": "suministrar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cow supplies us with milk.",
+            "ru": "Корова обеспечивает нас молоком."
+          },
+          {
+            "en": "They supplied us with food.",
+            "ru": "Они поставляли нам еду."
+          },
+          {
+            "en": "This lake supplies our city with water.",
+            "ru": "Это озеро обеспечивает водой наш город."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They supplied us with food.",
+            "es": "Nos suministraron comida."
+          },
+          {
+            "en": "Water was supplied from outside.",
+            "es": "El agua era suministrada desde afuera."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "business",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1664,
+      "word": "trade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪd]",
+        "br": "[treɪd]",
+        "gb": "[treɪd]"
+      },
+      "translations": {
+        "rus": "торговля, торговый",
+        "spa": "el comercio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm working for a trading firm.",
+            "ru": "Я работаю в торговой фирме."
+          },
+          {
+            "en": "Trade helps nations develop.",
+            "ru": "Торговля помогает странам развиваться."
+          },
+          {
+            "en": "Japan depends on foreign trade.",
+            "ru": "Япония зависит от зарубежной торговли."
+          },
+          {
+            "en": "His brother works for a trading company.",
+            "ru": "Его брат работает в торговой компании."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The company stands for free trade.",
+            "es": "La compañía está por el libre comercio."
+          },
+          {
+            "en": "Japan does a lot of trade with the USA.",
+            "es": "Japón tiene mucho comercio con Estados Unidos."
+          },
+          {
+            "en": "My father is engaged in foreign trade.",
+            "es": "Mi padre se dedica al comercio exterior."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2893,
+      "word": "trade mission",
+      "pos": "noun",
+      "transcription": {
+        "us": "[treɪd] [ˈmɪʃn]",
+        "br": "[treɪd] [ˈmɪʃn]",
+        "gb": "[treɪd] [mɪʃn]"
+      },
+      "translations": {
+        "rus": "торговая миссия, торговая делегация",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 2894,
+      "word": "transaction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trænˈzækʃn]",
+        "br": "[trænˈzækʃn]",
+        "gb": "[trænˈzækʃn]"
+      },
+      "translations": {
+        "rus": "транзакция",
+        "spa": "la transacción"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Do you wish to make any other transaction?",
+            "es": "¿Deseas hacer cualquier otra transacción?"
+          }
+        ]
+      },
+      "categories": [
+        "economy",
+        "money",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1672,
+      "word": "trial",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈtraɪəl]",
+        "br": "[ˈtraɪəl]",
+        "gb": "[ˈtraɪəl]"
+      },
+      "translations": {
+        "rus": "суд, судебный процесс, испытание, пробный, испытательный",
+        "spa": "el juicio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The trial lasted five days.",
+            "ru": "Суд длился пять дней."
+          },
+          {
+            "en": "We learn by trial and error.",
+            "ru": "Мы учимся методом проб и ошибок."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The trial lasted five days.",
+            "es": "El juicio duró cinco días."
+          },
+          {
+            "en": "The accused thief is on trial now.",
+            "es": "El ladrón acusado ahora está en un juicio."
+          },
+          {
+            "en": "The trial is not open to the public.",
+            "es": "El juicio no está abierto al público."
+          }
+        ]
+      },
+      "categories": [
+        "business",
+        "economy",
+        "legal_english",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2895,
+      "word": "value added tax",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌvæljuː] [ˌædɪd] [ˈtæks]",
+        "br": "[ˌvæljuː] [ˌædɪd] [ˈtæks]",
+        "gb": "[ˈvæljuː] [ˈædɪd] [tæks]"
+      },
+      "translations": {
+        "rus": "налог на добавленную стоимость (НДС)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    },
+    {
+      "id": 1687,
+      "word": "warehouse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwerhaʊs]",
+        "br": "[ˈweəhaʊs]",
+        "gb": "[ˈwɛəhaʊs]"
+      },
+      "translations": {
+        "rus": "склад, амбар, хранилище",
+        "spa": "el almacén, el depósito"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Who was it that forgot to lock the door of the warehouse?",
+            "ru": "Кто забыл запереть дверь от склада?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 1691,
+      "word": "wholesale",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈhəʊlseɪl]",
+        "br": "[ˈhəʊlseɪl]",
+        "gb": "[ˈhəʊlseɪl]"
+      },
+      "translations": {
+        "rus": "оптовая продажа, оптовый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "economy",
+        "marketing"
+      ]
+    },
+    {
+      "id": 2896,
+      "word": "World Trade Organization",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɜːrld] [treɪd] [ˌɔːrɡənəˈzeɪʃn]",
+        "br": "[wɜːld] [treɪd] [ˌɔːɡənaɪˈzeɪʃn]",
+        "gb": "[wɜːld] [treɪd] [ɔːgənaɪˈzeɪʃn]"
+      },
+      "translations": {
+        "rus": "Всемирная Торговая Организация (ВТО)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "economy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5575 @@
+{
+  "category": {
+    "id": "irregular_verbs",
+    "name_rus": "Неправильные глаголы",
+    "type": "topic",
+    "word_count": 265
+  },
+  "words": [
+    {
+      "id": 4618,
+      "word": "abide - abode - abode",
+      "pos": "verb",
+      "transcription": {
+        "us": "[əˈbaɪd] - [əˈbəʊd] - [əˈbəʊd]",
+        "br": "[əˈbaɪd] - [əˈbəʊd] - [əˈbəʊd]",
+        "gb": "[əˈbaɪd] [əˈbəʊd] [əˈbəʊd]"
+      },
+      "translations": {
+        "rus": "соблюдать, придерживаться чего-либо",
+        "spa": "soportar, tolerar, morar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4619,
+      "word": "arise - arose - arisen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əˈraɪz] [əˈrəʊz] [əˈrɪzn]"
+      },
+      "translations": {
+        "rus": "возникать",
+        "spa": "surgir, levantarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4620,
+      "word": "awake - awoke - awoken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[əˈweɪk] - [əˈwəʊk] - [əˈwəʊkən]",
+        "br": "[əˈweɪk] - [əˈwəʊk] - [əˈwəʊkən]",
+        "gb": "[əˈweɪk] [əˈwəʊk] [əˈwəukən]"
+      },
+      "translations": {
+        "rus": "будить, просыпаться, пробуждаться",
+        "spa": "despertar, despertarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4621,
+      "word": "bear - bore - born, borne",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ber] - [bɔːr] - [bɔːrn], [bɔːrn]",
+        "br": "[beə(r)] - [bɔː(r)] - [bɔːn], [bɔːn]",
+        "gb": "[bɛə] [bɔː] [bɔːn] [bɔːn]"
+      },
+      "translations": {
+        "rus": "нести, иметь, терпеть, вынести",
+        "spa": "soportar, aguantar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4622,
+      "word": "beat - beat - beaten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[biːt] [biːt] [biːtn]"
+      },
+      "translations": {
+        "rus": "бить, взбивать, побеждать, опережать",
+        "spa": "batir, golpear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4623,
+      "word": "become - became - become",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪˈkʌm] - [bɪˈkeɪm] - [bɪˈkʌm]",
+        "br": "[bɪˈkʌm] - [bɪˈkeɪm] - [bɪˈkʌm]",
+        "gb": "[bɪˈkʌm] [bɪˈkeɪm] [bɪˈkʌm]"
+      },
+      "translations": {
+        "rus": "становиться",
+        "spa": "convertirse en, volverse, hacerse, ponerse, llegar a ser"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4624,
+      "word": "befall - befell - befallen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bɪˈfɔːl] [bɪˈfɛl] [bɪˈfɔːlən]"
+      },
+      "translations": {
+        "rus": "случаться, приключаться",
+        "spa": "suceder, ocurrir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4625,
+      "word": "beget - begot, begat - begot, begotten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bɪˈget] [bɪˈgɒt] [bɪˈget] [bɪˈgɒt] [bɪˈgɔtn]"
+      },
+      "translations": {
+        "rus": "вызывать, порождать",
+        "spa": "engendrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4626,
+      "word": "begin - began - begun",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪˈɡɪn] - [bɪˈɡæn] - [bɪˈɡʌn]",
+        "br": "[bɪˈɡɪn] - [bɪˈɡæn] - [bɪˈɡʌn]",
+        "gb": "[bɪˈgɪn] [bɪˈgæn] [bɪˈgʌn]"
+      },
+      "translations": {
+        "rus": "начинать",
+        "spa": "empezar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4627,
+      "word": "behold - beheld - beheld",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪˈhəʊld] - [bɪˈheld] - [bɪˈheld]",
+        "br": "[bɪˈhəʊld] - [bɪˈheld] - [bɪˈheld]",
+        "gb": "[bɪˈhəʊld] [bɪˈhɛld] [bɪˈhɛld]"
+      },
+      "translations": {
+        "rus": "наблюдать, созерцать, вглядываться, замечать",
+        "spa": "contemplar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4628,
+      "word": "bend - bent - bent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bend] - [bent] - [bent]",
+        "br": "[bend] - [bent] - [bent]",
+        "gb": "[bend] [bent] [bent]"
+      },
+      "translations": {
+        "rus": "гнуть(ся), сгибать(ся)",
+        "spa": "doblar, doblarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4629,
+      "word": "beseech - beseeched, besought - beseeched, besought",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bɪˈsiːtʃ] [bɪˈsiːtʃt] [bɪˈsɔːt] [bɪˈsiːtʃt] [bɪˈsɔːt]"
+      },
+      "translations": {
+        "rus": "просить, умолять",
+        "spa": "suplicar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4630,
+      "word": "beset - beset - beset",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪˈset] - [bɪˈset] - [bɪˈset]",
+        "br": "[bɪˈset] - [bɪˈset] - [bɪˈset]",
+        "gb": "[bɪˈset] [bɪˈset] [bɪˈset]"
+      },
+      "translations": {
+        "rus": "окружать, осаждать",
+        "spa": "acosar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4631,
+      "word": "bestride - bestrode - bestridden",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪˈstraɪd] - [bɪˈstrəʊd] - [bɪˈstrɪdn]",
+        "br": "[bɪˈstraɪd] - [bɪˈstrəʊd] - [bɪˈstrɪdn]",
+        "gb": "[bɪˈstraɪd] [bɪˈstrəʊd] [bɪˈstrɪdn]"
+      },
+      "translations": {
+        "rus": "садиться, сидеть верхом",
+        "spa": "montar a horcajadas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4632,
+      "word": "bet - bet - bet",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bet] - [bet] - [bet]",
+        "br": "[bet] - [bet] - [bet]",
+        "gb": "[bet] [bet] [bet]"
+      },
+      "translations": {
+        "rus": "держать пари, делать ставку, быть уверенным",
+        "spa": "apostar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4633,
+      "word": "bid - bid - bid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪd] - [bɪd] - [bɪd]",
+        "br": "[bɪd] - [bɪd] - [bɪd]",
+        "gb": "[bɪd] [bɪd] [bɪd]"
+      },
+      "translations": {
+        "rus": "предлагать цену, велеть, просить",
+        "spa": "pujar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4634,
+      "word": "bind - bound - bound",
+      "pos": "verb",
+      "transcription": {
+        "us": "[baɪnd] - [baʊnd] - [baʊnd]",
+        "br": "[baɪnd] - [baʊnd] - [baʊnd]",
+        "gb": "[baɪnd] [baʊnd] [baʊnd]"
+      },
+      "translations": {
+        "rus": "привязывать, связывать",
+        "spa": "atar, encuadernar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4635,
+      "word": "bite - bit - bitten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[baɪt] - [bɪt] - [ˈbɪtn]",
+        "br": "[baɪt] - [bɪt] - [ˈbɪtn]",
+        "gb": "[baɪt] [bɪt] [bɪtn]"
+      },
+      "translations": {
+        "rus": "кусать(ся)",
+        "spa": "morder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4636,
+      "word": "bleed - bled - bled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bliːd] [blɛd] [blɛd]"
+      },
+      "translations": {
+        "rus": "кровоточить",
+        "spa": "sangrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4637,
+      "word": "bless - blessed, blest - blessed, blest",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bles] [blest] [blɛst] [blest] [blɛst]"
+      },
+      "translations": {
+        "rus": "благословлять",
+        "spa": "bendecir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4638,
+      "word": "blow - blew - blown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[bləʊ] [bluː] [bləʊn]"
+      },
+      "translations": {
+        "rus": "дуть, взрывать",
+        "spa": "soplar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4639,
+      "word": "break - broke - broken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[breɪk] - [brəʊk] - [ˈbrəʊkən]",
+        "br": "[breɪk] - [brəʊk] - [ˈbrəʊkən]",
+        "gb": "[breɪk] [brəʊk] [ˈbrəʊkən]"
+      },
+      "translations": {
+        "rus": "ломать, прерывать, нарушать, вырваться",
+        "spa": "romper"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4640,
+      "word": "breed - bred - bred",
+      "pos": "verb",
+      "transcription": {
+        "us": "[briːd] - [bred] - [bred]",
+        "br": "[briːd] - [bred] - [bred]",
+        "gb": "[briːd] [bred] [bred]"
+      },
+      "translations": {
+        "rus": "размножать, порождать, разводить, выводить",
+        "spa": "criar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4641,
+      "word": "bring - brought - brought",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[brɪŋ] [brɔːt] [brɔːt]"
+      },
+      "translations": {
+        "rus": "приносить, приводить, доставлять",
+        "spa": "traer, llevar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4642,
+      "word": "broadcast - broadcast, broadcasted - broadcast, broadcasted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbrɔːdkɑːst] [ˈbrɔːdkɑːst] [ˈbrɔːdkɑːstɪd] [ˈbrɔːdkɑːst] [ˈbrɔːdkɑːstɪd]"
+      },
+      "translations": {
+        "rus": "вещать, распространять, транслировать",
+        "spa": "transmitir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4643,
+      "word": "browbeat - browbeat - browbeaten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈbraʊbiːt] [ˈbraʊbiːt] [ˈbraʊbiːtn]"
+      },
+      "translations": {
+        "rus": "запугивать",
+        "spa": "intimidar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4644,
+      "word": "build - built - built",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɪld] - [bɪlt] - [bɪlt]",
+        "br": "[bɪld] - [bɪlt] - [bɪlt]",
+        "gb": "[bɪld] [bɪlt] [bɪlt]"
+      },
+      "translations": {
+        "rus": "строить, формировать, созидать",
+        "spa": "construir, fabricar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4645,
+      "word": "burn - burnt - burnt",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɜːrn] - [bɜːrnt] - [bɜːrnt]",
+        "br": "[bɜːn] - [bɜːnt] - [bɜːnt]",
+        "gb": "[bɜːn] [bɜːnt] [bɜːnt]"
+      },
+      "translations": {
+        "rus": "жечь, гореть, обжигать",
+        "spa": "quemar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4646,
+      "word": "burst - burst - burst",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bɜːrst] - [bɜːrst] - [bɜːrst]",
+        "br": "[bɜːst] - [bɜːst] - [bɜːst]",
+        "gb": "[bɜːst] [bɜːst] [bɜːst]"
+      },
+      "translations": {
+        "rus": "лопать(ся), взрывать(ся)",
+        "spa": "estallar, reventar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4647,
+      "word": "bust - bust, busted - bust, busted",
+      "pos": "verb",
+      "transcription": {
+        "us": "[bʌst] - [bʌst], [ˈbʌstɪd] - [bʌst], [ˈbʌstɪd]",
+        "br": "[bʌst] - [bʌst], [ˈbʌstɪd] - [bʌst], [ˈbʌstɪd]",
+        "gb": "[bʌst] [bʌst] [ˈbʌstɪd] [bʌst] [ˈbʌstɪd]"
+      },
+      "translations": {
+        "rus": "ломать, разрушать, арестовывать",
+        "spa": "romper, estropear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4648,
+      "word": "buy - bought - bought",
+      "pos": "verb",
+      "transcription": {
+        "us": "[baɪ] - [bɔːt] - [bɔːt]",
+        "br": "[baɪ] - [bɔːt] - [bɔːt]",
+        "gb": "[baɪ] [bɔːt] [bɔːt]"
+      },
+      "translations": {
+        "rus": "покупать",
+        "spa": "comprar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4649,
+      "word": "can - could - been able",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kæn] [kʊd] [biːn] [eɪbl]"
+      },
+      "translations": {
+        "rus": "мочь, можно (ли)",
+        "spa": "poder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4650,
+      "word": "cast - cast - cast",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kæst] - [kæst] - [kæst]",
+        "br": "[kɑːst] - [kɑːst] - [kɑːst]",
+        "gb": "[kɑːst] [kɑːst] [kɑːst]"
+      },
+      "translations": {
+        "rus": "бросать, кидать, лить (металл)",
+        "spa": "arrojar, tirar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4651,
+      "word": "catch - caught - caught",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": "[kætʃ] [kɔːt] [kɔːt]",
+        "gb": "[kæʧ] [kɔːt] [kɔːt]"
+      },
+      "translations": {
+        "rus": "ловить, подхватить (болезнь)",
+        "spa": "agarrar, coger"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4652,
+      "word": "choose - chose - chosen",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tʃuːz] - [tʃəʊz] - [ˈtʃəʊzn]",
+        "br": "[tʃuːz] - [tʃəʊz] - [ˈtʃəʊzn]",
+        "gb": "[ʧuːz] [ʧəʊz] [ʧəʊzn]"
+      },
+      "translations": {
+        "rus": "выбирать, избирать, решать",
+        "spa": "escoger, elegir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4653,
+      "word": "cleave - cleave, clove, cleft - cleaved, cloven",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kliːv] [kliːv] [kləʊv] [kleft] [kliːvd] [kləʊvn]"
+      },
+      "translations": {
+        "rus": "рассечь, расколоть, раскалывать",
+        "spa": "hender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4654,
+      "word": "cling - clung - clung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[klɪŋ] - [klʌŋ] - [klʌŋ]",
+        "br": "[klɪŋ] - [klʌŋ] - [klʌŋ]",
+        "gb": "[klɪŋ] [klʌŋ] [klʌŋ]"
+      },
+      "translations": {
+        "rus": "прилипать, цеплять, льнуть, цепляться",
+        "spa": "aferrarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4655,
+      "word": "clothe - clothed - clothed",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kləʊð] - [kləʊðd] - [kləʊðd]",
+        "br": "[kləʊð] - [kləʊðd] - [kləʊðd]",
+        "gb": "[kləʊð] [kləʊðd] [kləʊðd]"
+      },
+      "translations": {
+        "rus": "одевать",
+        "spa": "vestir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4656,
+      "word": "come - came - come",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kʌm] - [keɪm] - [kʌm]",
+        "br": "[kʌm] - [keɪm] - [kʌm]",
+        "gb": "[kʌm] [keɪm] [kʌm]"
+      },
+      "translations": {
+        "rus": "приходить, приезжать",
+        "spa": "venir, llegar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4657,
+      "word": "cost - cost - cost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kɔːst] - [kɔːst] - [kɔːst]",
+        "br": "[kɒst] - [kɒst] - [kɒst]",
+        "gb": "[kɔst] [kɔst] [kɔst]"
+      },
+      "translations": {
+        "rus": "стоить",
+        "spa": "costar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4658,
+      "word": "creep - crept - crept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kriːp] - [krept] - [krept]",
+        "br": "[kriːp] - [krept] - [krept]",
+        "gb": "[kriːp] [krɛpt] [krɛpt]"
+      },
+      "translations": {
+        "rus": "ползать, красться",
+        "spa": "arrastrar, arrastrarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4659,
+      "word": "cut - cut - cut",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kʌt] - [kʌt] - [kʌt]",
+        "br": "[kʌt] - [kʌt] - [kʌt]",
+        "gb": "[kʌt] [kʌt] [kʌt]"
+      },
+      "translations": {
+        "rus": "резать",
+        "spa": "cortar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4660,
+      "word": "dare - durst - dared",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dɛə] [dɜːst] [deəd]"
+      },
+      "translations": {
+        "rus": "сметь, отваживаться, иметь наглость",
+        "spa": "retar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4661,
+      "word": "deal - dealt - dealt",
+      "pos": "verb",
+      "transcription": {
+        "us": "[diːl] - [delt] - [delt]",
+        "br": "[diːl] - [delt] - [delt]",
+        "gb": "[diːl] [delt] [delt]"
+      },
+      "translations": {
+        "rus": "иметь дело, торговать, рассматривать вопрос",
+        "spa": "tratar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4662,
+      "word": "dig - dug - dug",
+      "pos": "verb",
+      "transcription": {
+        "us": "[dɪɡ] - [dʌɡ] - [dʌɡ]",
+        "br": "[dɪɡ] - [dʌɡ] - [dʌɡ]",
+        "gb": "[dɪg] [dʌg] [dʌg]"
+      },
+      "translations": {
+        "rus": "копать",
+        "spa": "cavar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4663,
+      "word": "dive - dove - dived",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[daɪv] [dʌv] [daɪvd]"
+      },
+      "translations": {
+        "rus": "нырять",
+        "spa": "zambullirse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4664,
+      "word": "do, does - did - done",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[duː] [dʌz] [dɪd] [dʌn]"
+      },
+      "translations": {
+        "rus": "делать",
+        "spa": "hacer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4665,
+      "word": "draw - drew - drawn",
+      "pos": "verb",
+      "transcription": {
+        "us": "[drɔː] - [druː] - [drɔːn]",
+        "br": "[drɔː] - [druː] - [drɔːn]",
+        "gb": "[drɔː] [druː] [drɔːn]"
+      },
+      "translations": {
+        "rus": "рисовать, чертить, тащить, тянуть",
+        "spa": "dibujar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4666,
+      "word": "dream - dreamt, dreamed - dreamt, dreamed",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[driːm] [drɛmt] [driːmd] [drɛmt] [driːmd]"
+      },
+      "translations": {
+        "rus": "мечтать, видеть сон",
+        "spa": "soñar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4667,
+      "word": "drink - drank - drunk",
+      "pos": "verb",
+      "transcription": {
+        "us": "[drɪŋk] - [dræŋk] - [drʌŋk]",
+        "br": "[drɪŋk] - [dræŋk] - [drʌŋk]",
+        "gb": "[drɪŋk] [dræŋk] [drʌŋk]"
+      },
+      "translations": {
+        "rus": "пить",
+        "spa": "beber"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4668,
+      "word": "drive - drove - driven",
+      "pos": "verb",
+      "transcription": {
+        "us": "[draɪv] - [drəʊv] - [ˈdrɪvn]",
+        "br": "[draɪv] - [drəʊv] - [ˈdrɪvn]",
+        "gb": "[draɪv] [drəʊv] [drɪvn]"
+      },
+      "translations": {
+        "rus": "водить машину, управлять",
+        "spa": "manejar, conducir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4669,
+      "word": "dwell - dwelt - dwelt",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[dwel] [dwɛlt] [dwɛlt]"
+      },
+      "translations": {
+        "rus": "обитать, пребывать, задерживаться на чем-либо",
+        "spa": "morar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4670,
+      "word": "eat - ate - eaten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[iːt] [ɛt] [iːtn]"
+      },
+      "translations": {
+        "rus": "есть, кушать",
+        "spa": "comer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4671,
+      "word": "fall - fell - fallen",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fɔːl] - [fel] - [ˈfɔːlən]",
+        "br": "[fɔːl] - [fel] - [ˈfɔːlən]",
+        "gb": "[fɔːl] [fel] [ˈfɔːlən]"
+      },
+      "translations": {
+        "rus": "падать",
+        "spa": "caer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4672,
+      "word": "feed - fed - fed",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fiːd] - [fed] - [fed]",
+        "br": "[fiːd] - [fed] - [fed]",
+        "gb": "[fiːd] [fed] [fed]"
+      },
+      "translations": {
+        "rus": "кормить",
+        "spa": "alimentar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4673,
+      "word": "feel - felt - felt",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fiːl] - [felt] - [felt]",
+        "br": "[fiːl] - [felt] - [felt]",
+        "gb": "[fiːl] [felt] [felt]"
+      },
+      "translations": {
+        "rus": "чувствовать",
+        "spa": "sentir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4674,
+      "word": "fight - fought - fought",
+      "pos": "verb",
+      "transcription": {
+        "us": "[faɪt] - [fɔːt] - [fɔːt]",
+        "br": "[faɪt] - [fɔːt] - [fɔːt]",
+        "gb": "[faɪt] [fɔːt] [fɔːt]"
+      },
+      "translations": {
+        "rus": "бороться, драться",
+        "spa": "luchar, combatir, pelearse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4675,
+      "word": "find - found - found",
+      "pos": "verb",
+      "transcription": {
+        "us": "[faɪnd] - [faʊnd] - [faʊnd]",
+        "br": "[faɪnd] - [faʊnd] - [faʊnd]",
+        "gb": "[faɪnd] [faʊnd] [faʊnd]"
+      },
+      "translations": {
+        "rus": "находить, обнаруживать",
+        "spa": "encontrar, buscar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4676,
+      "word": "fit - fit - fit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fɪt] - [fɪt] - [fɪt]",
+        "br": "[fɪt] - [fɪt] - [fɪt]",
+        "gb": "[fɪt] [fɪt] [fɪt]"
+      },
+      "translations": {
+        "rus": "соответствовать, подходить",
+        "spa": "caber, encajar, igualar, emparejar, hacer juego con"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4677,
+      "word": "flee - fled - fled",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fliː] - [fled] - [fled]",
+        "br": "[fliː] - [fled] - [fled]",
+        "gb": "[fliː] [fled] [fled]"
+      },
+      "translations": {
+        "rus": "бежать, спасаться бегством, убегать",
+        "spa": "huir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4678,
+      "word": "fling - flung - flung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[flɪŋ] - [flʌŋ] - [flʌŋ]",
+        "br": "[flɪŋ] - [flʌŋ] - [flʌŋ]",
+        "gb": "[flɪŋ] [flʌŋ] [flʌŋ]"
+      },
+      "translations": {
+        "rus": "бросать, кидать",
+        "spa": "arrojar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4679,
+      "word": "fly - flew - flown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[flaɪ] [fluː] [fləʊn]"
+      },
+      "translations": {
+        "rus": "летать",
+        "spa": "volar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4680,
+      "word": "forbear - forbore - forborne",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fɔːrˈber] - [fɔːrˈbɔːr] - [fɔːrˈbɔːrn]",
+        "br": "[fɔːˈbeə(r)] - [fɔːˈbɔː(r)] - [fɔːˈbɔːn]",
+        "gb": "[ˈfɔːbɛə] [fɔːˈbɔː] [fɔːˈbɔːn]"
+      },
+      "translations": {
+        "rus": "воздерживаться",
+        "spa": "abstenerse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4681,
+      "word": "forbid - forbade, forbad - forbidden",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fəˈbɪd] [fəˈbeɪd] [fəˈbæd] [fəˈbɪdn]"
+      },
+      "translations": {
+        "rus": "запрещать",
+        "spa": "prohibir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4682,
+      "word": "forecast - forecast, forecasted - forecast, forecasted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈfɔːkɑːst] [ˈfɔːkɑːst] [ˈfɔːkɑːstɪd] [ˈfɔːkɑːst] [ˈfɔːkɑːstɪd]"
+      },
+      "translations": {
+        "rus": "предвидеть, предсказывать",
+        "spa": "pronosticar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4683,
+      "word": "forego - forewent - foregone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fɔːˈgəʊ] [fɔːˈwɛnt] [fɔːˈgɒn]"
+      },
+      "translations": {
+        "rus": "отказываться, воздерживаться, предшествовать",
+        "spa": "preceder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4684,
+      "word": "foresee - foresaw - foreseen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fɔːˈsiː] [fɔːˈsɔː] [fɔːˈsiːn]"
+      },
+      "translations": {
+        "rus": "предвидеть",
+        "spa": "prever"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4685,
+      "word": "foretell - foretold - foretold",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fɔːrˈtel] - [fɔːrˈtəʊld] - [fɔːrˈtəʊld]",
+        "br": "[fɔːˈtel] - [fɔːˈtəʊld] - [fɔːˈtəʊld]",
+        "gb": "[fɔːˈtel] [fɔːˈtəʊld] [fɔːˈtəʊld]"
+      },
+      "translations": {
+        "rus": "предсказывать, прогнозировать",
+        "spa": "predecir, pronosticar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4686,
+      "word": "forget - forgot - forgotten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[fərˈɡet] - [fərˈɡɑːt] - [fərˈɡɑːtn]",
+        "br": "[fəˈɡet] - [fəˈɡɒt] - [fəˈɡɒtn]",
+        "gb": "[fəˈget] [fəˈgɒt] [fəˈgɔtn]"
+      },
+      "translations": {
+        "rus": "забывать",
+        "spa": "olvidar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4687,
+      "word": "forgive - forgave - forgiven",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fəˈgɪv] [fəˈgeɪv] [fəˈgɪvn]"
+      },
+      "translations": {
+        "rus": "прощать",
+        "spa": "perdonar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4688,
+      "word": "forsake - forsook - forsaken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fəˈseɪk] [fəˈsʊk] [fəˈseɪkən]"
+      },
+      "translations": {
+        "rus": "бросать, отказываться, оставлять, покидать",
+        "spa": "abandonar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4689,
+      "word": "forswear - forswore - forsworn",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[fɔːˈswɛː] [fɔːˈswɔː] [fɔːˈswɔːn]"
+      },
+      "translations": {
+        "rus": "зарекаться, отрекаться, отказываться",
+        "spa": "abjurar de, renunciar a"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4690,
+      "word": "freeze - froze - frozen",
+      "pos": "verb",
+      "transcription": {
+        "us": "[friːz] - [frəʊz] - [ˈfrəʊzn]",
+        "br": "[friːz] - [frəʊz] - [ˈfrəʊzn]",
+        "gb": "[friːz] [frəʊz] [frəʊzn]"
+      },
+      "translations": {
+        "rus": "замораживать, замерзать",
+        "spa": "congelar, helar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4691,
+      "word": "gainsay - gainsaid - gainsaid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[geɪnˈseɪ] [geɪnˈseɪd] [geɪnˈseɪd]"
+      },
+      "translations": {
+        "rus": "отрицать, возражать",
+        "spa": "negar, contradecir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4692,
+      "word": "get - got - got, gotten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ɡet] - [ɡɑːt] - [ɡɑːt], [ˈɡɑːtn]",
+        "br": "[ɡet] - [ɡɒt] - [ɡɒt], [ˈɡɒtn]",
+        "gb": "[get] [gɔt] [gɔt] [ˈɡɒtən]"
+      },
+      "translations": {
+        "rus": "получать, добираться, становиться, осознать, понять",
+        "spa": "conseguir, obtener, comprar, recibir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4693,
+      "word": "gild - gilt, gilded - gilt, gilded",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ɡɪld] - [ɡɪlt], [ˈɡɪldɪd] - [ɡɪlt], [ˈɡɪldɪd]",
+        "br": "[ɡɪld] - [ɡɪlt], [ˈɡɪldɪd] - [ɡɪlt], [ˈɡɪldɪd]",
+        "gb": "[gɪld] [gɪlt] [ˈgɪldɪd] [gɪlt] [ˈgɪldɪd]"
+      },
+      "translations": {
+        "rus": "золотить, украшать",
+        "spa": "dorar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4694,
+      "word": "gird - girt, girded - girt, girded",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[gɜːd] [gɜːt] [ˈgɜːdɪd] [gɜːt] [ˈgɜːdɪd]"
+      },
+      "translations": {
+        "rus": "опоясывать",
+        "spa": "aprestarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4695,
+      "word": "give - gave - given",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ɡɪv] - [ɡeɪv] - [ˈɡɪvn]",
+        "br": "[ɡɪv] - [ɡeɪv] - [ˈɡɪvn]",
+        "gb": "[gɪv] [geɪv] [gɪvn]"
+      },
+      "translations": {
+        "rus": "давать, предоставлять, дарить",
+        "spa": "dar, regalar, obsequiar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4696,
+      "word": "go, goes - went - gone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[gəʊ] [gəʊz] [wɛnt] [gɔn]"
+      },
+      "translations": {
+        "rus": "идти, ехать, уходить, уезжать, становиться",
+        "spa": "ir, irse, funcionar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4697,
+      "word": "grind - ground - ground",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ɡraɪnd] - [ɡraʊnd] - [ɡraʊnd]",
+        "br": "[ɡraɪnd] - [ɡraʊnd] - [ɡraʊnd]",
+        "gb": "[graɪnd] [graʊnd] [graʊnd]"
+      },
+      "translations": {
+        "rus": "молоть, перетирать",
+        "spa": "moler"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4698,
+      "word": "grow - grew - grown",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ɡrəʊ] - [ɡruː] - [ɡrəʊn]",
+        "br": "[ɡrəʊ] - [ɡruː] - [ɡrəʊn]",
+        "gb": "[grəʊ] [gruː] [grəʊn]"
+      },
+      "translations": {
+        "rus": "расти, выращивать, становиться",
+        "spa": "crecer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4699,
+      "word": "hang - hung, hanged - hung, hanged",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[hæŋ] [hʌŋ] [hæŋd] [hʌŋ] [hæŋd]"
+      },
+      "translations": {
+        "rus": "вешать, висеть",
+        "spa": "colgar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4700,
+      "word": "have, has - had - had",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[hæv] [hæz] [hæd] [hæd]"
+      },
+      "translations": {
+        "rus": "иметь, обладать",
+        "spa": "tener, haber"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4701,
+      "word": "hear - heard - heard",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[hɪə] [hɜːd] [hɜːd]"
+      },
+      "translations": {
+        "rus": "слышать",
+        "spa": "oír, escuchar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4702,
+      "word": "hew - hewed - hewed, hewn",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[hjuː] [hjuːd] [hjuːd] [hjuːn]"
+      },
+      "translations": {
+        "rus": "разрубать, рассекать, рубить, тесать",
+        "spa": "cortar, tallar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4703,
+      "word": "hide - hid - hidden",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[haɪd] [hɪd] [hɪdn]"
+      },
+      "translations": {
+        "rus": "прятать, скрывать",
+        "spa": "esconder, esconderse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4704,
+      "word": "hit - hit - hit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[hɪt] - [hɪt] - [hɪt]",
+        "br": "[hɪt] - [hɪt] - [hɪt]",
+        "gb": "[hɪt] [hɪt] [hɪt]"
+      },
+      "translations": {
+        "rus": "ударять, поражать, нападать, нажимать",
+        "spa": "golpear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4705,
+      "word": "hold - held - held",
+      "pos": "verb",
+      "transcription": {
+        "us": "[həʊld] - [held] - [held]",
+        "br": "[həʊld] - [held] - [held]",
+        "gb": "[həʊld] [held] [held]"
+      },
+      "translations": {
+        "rus": "держать, иметь, вести, удерживать",
+        "spa": "agarrar, sujetar, tener, agarrarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4706,
+      "word": "hurt - hurt - hurt",
+      "pos": "verb",
+      "transcription": {
+        "us": "[hɜːrt] - [hɜːrt] - [hɜːrt]",
+        "br": "[hɜːt] - [hɜːt] - [hɜːt]",
+        "gb": "[hɜːt] [hɜːt] [hɜːt]"
+      },
+      "translations": {
+        "rus": "повреждать, ранить",
+        "spa": "hacer daño, lastimado, herir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4707,
+      "word": "input - input, inputted - input, inputted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈɪnpʊt] [ˈɪnpʊt] [ˈɪnpʊtɪd] [ˈɪnpʊt] [ˈɪnpʊtɪd]"
+      },
+      "translations": {
+        "rus": "вводить (в компьютер)",
+        "spa": "entrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4708,
+      "word": "inset - inset - inset",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˈɪnset] - [ˈɪnset] - [ˈɪnset]",
+        "br": "[ˈɪnset] - [ˈɪnset] - [ˈɪnset]",
+        "gb": "[ˈɪnset] [ˈɪnset] [ˈɪnset]"
+      },
+      "translations": {
+        "rus": "вставлять, вкладывать",
+        "spa": "insertar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4709,
+      "word": "interweave - interwove - interwoven",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ɪntəˈwiːv] [ˌɪntə(ː)ˈwəʊv] [ɪntəˈwəʊən]"
+      },
+      "translations": {
+        "rus": "переплетать, сплетать",
+        "spa": "entretejer, entretejerse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4710,
+      "word": "keep - kept - kept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[kiːp] - [kept] - [kept]",
+        "br": "[kiːp] - [kept] - [kept]",
+        "gb": "[kiːp] [kept] [kept]"
+      },
+      "translations": {
+        "rus": "держать, хранить, сохранять, продолжать, проводить",
+        "spa": "guardar, conservar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4711,
+      "word": "kneel - knelt, kneeled - knelt, kneeled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[niːl] [nɛlt] [niːld] [nɛlt] [niːld]"
+      },
+      "translations": {
+        "rus": "становиться на колени",
+        "spa": "arrodillarse, estar de rodillas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4712,
+      "word": "knit - knit, knitted - knit, knitted",
+      "pos": "verb",
+      "transcription": {
+        "us": "[nɪt] - [nɪt], [ˈnɪtɪd] - [nɪt], [ˈnɪtɪd]",
+        "br": "[nɪt] - [nɪt], [ˈnɪtɪd] - [nɪt], [ˈnɪtɪd]",
+        "gb": "[nɪt] [nɪt] [ˈnɪtɪd] [nɪt] [ˈnɪtɪd]"
+      },
+      "translations": {
+        "rus": "вязать",
+        "spa": "tejer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4713,
+      "word": "know - knew - known",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[nəʊ] [njuː] [nəʊn]"
+      },
+      "translations": {
+        "rus": "знать",
+        "spa": "saber, conocer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4714,
+      "word": "lay - laid - laid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[leɪ] - [leɪd] - [leɪd]",
+        "br": "[leɪ] - [leɪd] - [leɪd]",
+        "gb": "[leɪ] [leɪd] [leɪd]"
+      },
+      "translations": {
+        "rus": "класть",
+        "spa": "poner"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4715,
+      "word": "lead - led - led",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[liːd] [led] [led]"
+      },
+      "translations": {
+        "rus": "вести, руководить, лидировать",
+        "spa": "llevar, conducir, mostrar el camino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4716,
+      "word": "lean - leant, leaned - leant, leaned",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[liːn] [lɛnt] [liːnd] [lɛnt] [liːnd]"
+      },
+      "translations": {
+        "rus": "опираться, наклоняться, прислоняться",
+        "spa": "estar inclinado hacia, magro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4717,
+      "word": "leap - leapt, leaped - leapt, leaped",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[liːp] [lɛpt] [liːpt] [lɛpt] [liːpt]"
+      },
+      "translations": {
+        "rus": "прыгать",
+        "spa": "saltar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4718,
+      "word": "learn - learnt, learned - learnt, learned",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[lɜːn] [lɜːnt] [lɜːnt] [lɜːnt] [lɜːnt]"
+      },
+      "translations": {
+        "rus": "учить, учиться",
+        "spa": "aprender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4719,
+      "word": "leave - left - left",
+      "pos": "verb",
+      "transcription": {
+        "us": "[liːv] - [left] - [left]",
+        "br": "[liːv] - [left] - [left]",
+        "gb": "[liːv] [left] [left]"
+      },
+      "translations": {
+        "rus": "оставлять, покидать, уходить, уезжать",
+        "spa": "dejar, irse de"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4720,
+      "word": "lend - lent - lent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[lend] - [lent] - [lent]",
+        "br": "[lend] - [lent] - [lent]",
+        "gb": "[lend] [lent] [lent]"
+      },
+      "translations": {
+        "rus": "давать в долг, одолжить, предоставлять",
+        "spa": "prestar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4721,
+      "word": "let - let - let",
+      "pos": "verb",
+      "transcription": {
+        "us": "[let] - [let] - [let]",
+        "br": "[let] - [let] - [let]",
+        "gb": "[let] [let] [let]"
+      },
+      "translations": {
+        "rus": "позволять, давать, допускать",
+        "spa": "permitir, dejar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4722,
+      "word": "lie - lay - lain",
+      "pos": "verb",
+      "transcription": {
+        "us": "[laɪ] - [leɪ] - [leɪn]",
+        "br": "[laɪ] - [leɪ] - [leɪn]",
+        "gb": "[laɪ] [leɪ] [leɪn]"
+      },
+      "translations": {
+        "rus": "лежать",
+        "spa": "acostarse, yacer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4723,
+      "word": "light - lit, lighted - lit, lighted",
+      "pos": "verb",
+      "transcription": {
+        "us": "[laɪt] - [lɪt], [ˈlaɪtɪd] - [lɪt], [ˈlaɪtɪd]",
+        "br": "[laɪt] - [lɪt], [ˈlaɪtɪd] - [lɪt], [ˈlaɪtɪd]",
+        "gb": "[laɪt] [lɪt] [ˈlaɪtɪd] [lɪt] [ˈlaɪtɪd]"
+      },
+      "translations": {
+        "rus": "зажигать, освещать",
+        "spa": "encender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4724,
+      "word": "lose - lost - lost",
+      "pos": "verb",
+      "transcription": {
+        "us": "[luːz] - [lɔːst] - [lɔːst]",
+        "br": "[luːz] - [lɒst] - [lɒst]",
+        "gb": "[luːz] [lɔst] [lɔst]"
+      },
+      "translations": {
+        "rus": "терять, проигрывать",
+        "spa": "perder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4725,
+      "word": "make - made - made",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[meɪk] [meɪd] [meɪd]"
+      },
+      "translations": {
+        "rus": "делать, изготовлять",
+        "spa": "hacer, preparar, crear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4726,
+      "word": "may - might - might",
+      "pos": "verb",
+      "transcription": {
+        "us": "[meɪ] - [maɪt] - [maɪt]",
+        "br": "[meɪ] - [maɪt] - [maɪt]",
+        "gb": "[meɪ] [maɪt] [maɪt]"
+      },
+      "translations": {
+        "rus": "мочь, иметь право",
+        "spa": "poder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4727,
+      "word": "mean - meant - meant",
+      "pos": "verb",
+      "transcription": {
+        "us": "[miːn] - [ment] - [ment]",
+        "br": "[miːn] - [ment] - [ment]",
+        "gb": "[miːn] [ment] [ment]"
+      },
+      "translations": {
+        "rus": "значить, означать, намереваться, иметь в виду",
+        "spa": "significar, querer decir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4728,
+      "word": "meet - met - met",
+      "pos": "verb",
+      "transcription": {
+        "us": "[miːt] - [met] - [met]",
+        "br": "[miːt] - [met] - [met]",
+        "gb": "[miːt] [met] [met]"
+      },
+      "translations": {
+        "rus": "встречать, соответствовать, удовлетворять",
+        "spa": "conocer, encontrarse, encontrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4729,
+      "word": "mishear - misheard - misheard",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˌmɪsˈhɪə] [ˌmɪsˈhɜːd] [ˌmɪsˈhɜːd]"
+      },
+      "translations": {
+        "rus": "ослышаться",
+        "spa": "oír mal, entender mal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4730,
+      "word": "mishit - mishit - mishit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌmɪsˈhɪt] - [ˌmɪsˈhɪt] - [ˌmɪsˈhɪt]",
+        "br": "[ˌmɪsˈhɪt] - [ˌmɪsˈhɪt] - [ˌmɪsˈhɪt]",
+        "gb": "[ˈmɪshɪt] [ˈmɪshɪt] [ˈmɪshɪt]"
+      },
+      "translations": {
+        "rus": "промахнуться",
+        "spa": "golpear mal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4731,
+      "word": "mislay - mislaid - mislaid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mɪsˈleɪ] [mɪsˈleɪd] [mɪsˈleɪd]"
+      },
+      "translations": {
+        "rus": "класть не на место",
+        "spa": "extraviar, perder"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4732,
+      "word": "mislead - misled - misled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mɪsˈliːd] [mɪsˈled] [mɪsˈled]"
+      },
+      "translations": {
+        "rus": "вводить в заблуждение",
+        "spa": "engañar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4733,
+      "word": "misread - misread - misread",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌmɪsˈriːd] - [ˌmɪsˈred] - [ˌmɪsˈred]",
+        "br": "[ˌmɪsˈriːd] - [ˌmɪsˈred] - [ˌmɪsˈred]",
+        "gb": "[ˈmɪsˈriːd] [ˈmɪsˈred] [ˈmɪsˈred]"
+      },
+      "translations": {
+        "rus": "прочитать неправильно",
+        "spa": "leer mal, interpretar mal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4734,
+      "word": "misspell - misspelt, misspelled - misspelt, misspelled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mɪsˈspel] [ˈmɪsˈspɛlt] [ˈmɪsˈspɛld] [ˈmɪsˈspɛlt] [ˈmɪsˈspɛld]"
+      },
+      "translations": {
+        "rus": "писать с орфографическими ошибками",
+        "spa": "escribir mal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4735,
+      "word": "misspend - misspent - misspent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌmɪsˈspend] - [ˌmɪsˈspent] - [ˌmɪsˈspent]",
+        "br": "[ˌmɪsˈspend] - [ˌmɪsˈspent] - [ˌmɪsˈspent]",
+        "gb": "[ˈmɪsˈspɛnd] [ˈmɪsˈspɛnt] [ˈmɪsˈspɛnt]"
+      },
+      "translations": {
+        "rus": "неразумно тратить",
+        "spa": "malgastar, desperdiciar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4736,
+      "word": "mistake - mistook - mistaken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[mɪˈsteɪk] - [mɪˈstʊk] - [mɪˈsteɪkən]",
+        "br": "[mɪˈsteɪk] - [mɪˈstʊk] - [mɪˈsteɪkən]",
+        "gb": "[mɪsˈteɪk] [mɪsˈtʊk] [mɪsˈteɪkən]"
+      },
+      "translations": {
+        "rus": "ошибаться, заблуждаться",
+        "spa": "equivocar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4737,
+      "word": "misunderstand - misunderstood - misunderstood",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌmɪsʌndərˈstænd] - [ˌmɪsʌndərˈstʊd] - [ˌmɪsʌndərˈstʊd]",
+        "br": "[ˌmɪsʌndəˈstænd] - [ˌmɪsʌndəˈstʊd] - [ˌmɪsʌndəˈstʊd]",
+        "gb": "[ˈmɪsʌndəˈstænd] [ˈmɪsʌndəˈstʊd] [ˈmɪsʌndəˈstʊd]"
+      },
+      "translations": {
+        "rus": "неправильно понять",
+        "spa": "malinterpretar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4738,
+      "word": "mow - mowed - mowed, mown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[maʊ] [maʊd] [maʊd] [məʊn]"
+      },
+      "translations": {
+        "rus": "косить",
+        "spa": "cortar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4739,
+      "word": "outbid - outbid - outbid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌaʊtˈbɪd] - [ˌaʊtˈbɪd] - [ˌaʊtˈbɪd]",
+        "br": "[ˌaʊtˈbɪd] - [ˌaʊtˈbɪd] - [ˌaʊtˈbɪd]",
+        "gb": "[aʊtˈbɪd] [aʊtˈbɪd] [aʊtˈbɪd]"
+      },
+      "translations": {
+        "rus": "перебивать цену",
+        "spa": "superar la oferta"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4740,
+      "word": "outdo - outdid - outdone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[aʊtˈduː] [aʊtˈdɪd] [aʊtˈdʌn]"
+      },
+      "translations": {
+        "rus": "превзойти",
+        "spa": "superar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4741,
+      "word": "outgrow - outgrew - outgrown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[aʊtˈgrəʊ] [aʊtˈgruː] [aʊtˈgrəʊn]"
+      },
+      "translations": {
+        "rus": "перерастать, вырастать",
+        "spa": "crecer más alto que"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4742,
+      "word": "output - output - output",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˈaʊtpʊt] - [ˈaʊtpʊt] - [ˈaʊtpʊt]",
+        "br": "[ˈaʊtpʊt] - [ˈaʊtpʊt] - [ˈaʊtpʊt]",
+        "gb": "[ˈaʊtpʊt] [ˈaʊtpʊt] [ˈaʊtpʊt]"
+      },
+      "translations": {
+        "rus": "выпускать, выводить (данные)",
+        "spa": "producir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4743,
+      "word": "outrun - outran - outrun",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌaʊtˈrʌn] - [ˌaʊtˈræn] - [ˌaʊtˈrʌn]",
+        "br": "[ˌaʊtˈrʌn] - [ˌaʊtˈræn] - [ˌaʊtˈrʌn]",
+        "gb": "[aʊtˈrʌn] [aʊtˈræn] [aʊtˈrʌn]"
+      },
+      "translations": {
+        "rus": "перегонять, опережать",
+        "spa": "dejar atrás, escapar de"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4744,
+      "word": "outsell - outsold - outsold",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[aʊtˈsɛl] [aʊtˈsəʊld] [aʊtˈsəʊld]"
+      },
+      "translations": {
+        "rus": "продавать больше, продаваться больше",
+        "spa": "superar en ventas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4745,
+      "word": "outshine - outshone - outshone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[aʊtˈʃaɪn] [aʊtˈʃɒn] [aʊtˈʃɒn]"
+      },
+      "translations": {
+        "rus": "затмить",
+        "spa": "eclipsar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4746,
+      "word": "overbid - overbid - overbid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˌəʊvəˈbɪd] [ˌəʊvəˈbɪd] [ˌəʊvəˈbɪd]"
+      },
+      "translations": {
+        "rus": "перебивать цену",
+        "spa": "hacer mejor oferta que"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4747,
+      "word": "overcome - overcame - overcome",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌəʊvərˈkʌm] - [ˌəʊvərˈkeɪm] - [ˌəʊvərˈkʌm]",
+        "br": "[ˌəʊvəˈkʌm] - [ˌəʊvəˈkeɪm] - [ˌəʊvəˈkʌm]",
+        "gb": "[əʊvəˈkʌm] [ˌəʊvəˈkeɪm] [əʊvəˈkʌm]"
+      },
+      "translations": {
+        "rus": "преодолевать, справляться",
+        "spa": "vencer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4748,
+      "word": "overdo - overdid - overdone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əʊvəˈduː] [ˌəʊvəˈdɪd] [əʊvəˈdʌn]"
+      },
+      "translations": {
+        "rus": "перестараться",
+        "spa": "pasarse con, exagerar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4749,
+      "word": "overeat - overate - overeaten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌəʊvərˈiːt] - [ˌəʊvərˈeɪt] - [ˌəʊvərˈiːtn]",
+        "br": "[ˌəʊvərˈiːt] - [ˌəʊvərˈeɪt] - [ˌəʊvərˈiːtn]",
+        "gb": "[ˈəʊvərˈiːt] [ˌəʊvəˈrɛt] [ˌəʊvəˈriːtn]"
+      },
+      "translations": {
+        "rus": "объедаться, переедать",
+        "spa": "comer en exceso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4750,
+      "word": "overfly - overflew - overflown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əʊvəˈflaɪ] [ˌəʊvəˈfluː] [ˌəʊvəˈfləʊn]"
+      },
+      "translations": {
+        "rus": "перелетать",
+        "spa": "sobrevolar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4751,
+      "word": "overhang - overhung - overhung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌəʊvərˈhæŋ] - [ˌəʊvərˈhʌŋ] - [ˌəʊvərˈhʌŋ]",
+        "br": "[ˌəʊvəˈhæŋ] - [ˌəʊvəˈhʌŋ] - [ˌəʊvəˈhʌŋ]",
+        "gb": "[ˈəʊvəhæŋ] [ˌəʊvəˈhʌŋ] [ˌəʊvəˈhʌŋ]"
+      },
+      "translations": {
+        "rus": "нависать",
+        "spa": "sobresalir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4752,
+      "word": "overhear - overheard - overheard",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əʊvəˈhɪə] [ˌəʊvəˈhɜːd] [ˌəʊvəˈhɜːd]"
+      },
+      "translations": {
+        "rus": "подслушивать",
+        "spa": "oír por casualidad"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4753,
+      "word": "overlay - overlaid - overlaid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌəʊvərˈleɪ] - [ˌəʊvərˈleɪd] - [ˌəʊvərˈleɪd]",
+        "br": "[ˌəʊvəˈleɪ] - [ˌəʊvəˈleɪd] - [ˌəʊvəˈleɪd]",
+        "gb": "[ˈəʊvəleɪ] [əʊvəˈleɪd] [əʊvəˈleɪd]"
+      },
+      "translations": {
+        "rus": "перекрывать, покрывать",
+        "spa": "recubrir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4754,
+      "word": "overpay - overpaid - overpaid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəˈpeɪ] [ˈəʊvəˈpeɪd] [ˈəʊvəˈpeɪd]"
+      },
+      "translations": {
+        "rus": "переплачивать",
+        "spa": "pagar demasiado a"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4755,
+      "word": "override - overrode - overridden",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[əʊvəˈraɪd] [ˌəʊvəˈrəʊd] [əʊvəˈrɪdn]"
+      },
+      "translations": {
+        "rus": "отменять, перевешивать",
+        "spa": "anular"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4756,
+      "word": "overrun - overran - overrun",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌəʊvəˈrʌn] - [ˌəʊvəˈræn] - [ˌəʊvəˈrʌn]",
+        "br": "[ˌəʊvəˈrʌn] - [ˌəʊvəˈræn] - [ˌəʊvəˈrʌn]",
+        "gb": "[əʊvəˈrʌn] [ˌəʊvəˈræn] [əʊvəˈrʌn]"
+      },
+      "translations": {
+        "rus": "переходить установленные пределы",
+        "spa": "invadir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4757,
+      "word": "oversee - oversaw - overseen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəˈsiː] [ˌəʊvəˈsɔː] [ˈəʊvəˈsiːn]"
+      },
+      "translations": {
+        "rus": "наблюдать, присматривать",
+        "spa": "supervisar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4758,
+      "word": "overshoot - overshot - overshot",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəˈʃuːt] [ˌəʊvəˈʃɒt] [ˌəʊvəˈʃɒt]"
+      },
+      "translations": {
+        "rus": "промахнуться",
+        "spa": "pasar de largo, pasarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4759,
+      "word": "oversleep - overslept - overslept",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəˈsliːp] [ˌəʊvəˈslɛpt] [ˌəʊvəˈslɛpt]"
+      },
+      "translations": {
+        "rus": "проспать",
+        "spa": "quedarse dormido"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4760,
+      "word": "overtake - overtook - overtaken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəˈteɪk] [ˌəʊvəˈtʊk] [ˈəʊvəˈteɪkən]"
+      },
+      "translations": {
+        "rus": "догнать, обогнать, овладеть",
+        "spa": "adelantar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4761,
+      "word": "overthrow - overthrew - overthrown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈəʊvəθrəʊ] [ˌəʊvəˈθruː] [əʊvəˈθrəʊn]"
+      },
+      "translations": {
+        "rus": "свергать, перебрасывать",
+        "spa": "derrocar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4762,
+      "word": "partake - partook - partaken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pɑːˈteɪk] [pɑːˈtʊk] [pɑːˈteɪkən]"
+      },
+      "translations": {
+        "rus": "принимать участие",
+        "spa": "participar en"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4763,
+      "word": "pay - paid - paid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[peɪ] - [peɪd] - [peɪd]",
+        "br": "[peɪ] - [peɪd] - [peɪd]",
+        "gb": "[peɪ] [peɪd] [peɪd]"
+      },
+      "translations": {
+        "rus": "платить",
+        "spa": "pagar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4764,
+      "word": "prepay - prepaid - prepaid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈpriːˈpeɪ] [ˌpriːˈpeɪd] [ˌpriːˈpeɪd]"
+      },
+      "translations": {
+        "rus": "платить вперёд",
+        "spa": "pagar por adelantado"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4765,
+      "word": "prove - proved - proved, proven",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[pruːv] [pruːvd] [pruːvd] [ˈpruːvən]"
+      },
+      "translations": {
+        "rus": "доказывать",
+        "spa": "probar, comprobar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4766,
+      "word": "put - put - put",
+      "pos": "verb",
+      "transcription": {
+        "us": "[pʊt] - [pʊt] - [pʊt]",
+        "br": "[pʊt] - [pʊt] - [pʊt]",
+        "gb": "[pʊt] [pʊt] [pʊt]"
+      },
+      "translations": {
+        "rus": "класть, ставить, помещать",
+        "spa": "poner, meter"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4767,
+      "word": "quit - quit, quitted - quit, quitted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[kwɪt] [kwɪt] [ˈkwɪtɪd] [kwɪt] [ˈkwɪtɪd]"
+      },
+      "translations": {
+        "rus": "оставлять, покидать",
+        "spa": "dejar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4768,
+      "word": "read - read - read",
+      "pos": "verb",
+      "transcription": {
+        "us": "[riːd] - [red] - [red]",
+        "br": "[riːd] - [red] - [red]",
+        "gb": "[riːd] [red] [red]"
+      },
+      "translations": {
+        "rus": "читать",
+        "spa": "leer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4769,
+      "word": "rebuild - rebuilt - rebuilt",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈriːˈbɪld] [ˈriːˈbɪlt] [ˈriːˈbɪlt]"
+      },
+      "translations": {
+        "rus": "отстроить заново, реконструировать, перестраивать, восстанавливать",
+        "spa": "reconstruir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4770,
+      "word": "recast - recast - recast",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌriːˈkæst] - [ˌriːˈkæst] - [ˌriːˈkæst]",
+        "br": "[ˌriːˈkɑːst] - [ˌriːˈkɑːst] - [ˌriːˈkɑːst]",
+        "gb": "[ˈriːˈkɑːst] [ˈriːˈkɑːst] [ˈriːˈkɑːst]"
+      },
+      "translations": {
+        "rus": "переделывать, изменять",
+        "spa": "refundir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4771,
+      "word": "redo - redid - redone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈriːˈduː] [ˌriːˈdɪd] [ˌriːˈdʌn]"
+      },
+      "translations": {
+        "rus": "делать вновь, переделывать",
+        "spa": "rehacer, reacondicionar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4772,
+      "word": "remake - remade - remade",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌriːˈmeɪk] - [ˌriːˈmeɪd] - [ˌriːˈmeɪd]",
+        "br": "[ˌriːˈmeɪk] - [ˌriːˈmeɪd] - [ˌriːˈmeɪd]",
+        "gb": "[ˈriːˈmeɪk] [ˈriːˈmeɪd] [ˈriːˈmeɪd]"
+      },
+      "translations": {
+        "rus": "переделать",
+        "spa": "rehacer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4773,
+      "word": "rend - rent - rent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[rend] - [rent] - [rent]",
+        "br": "[rend] - [rent] - [rent]",
+        "gb": "[rend] [rent] [rent]"
+      },
+      "translations": {
+        "rus": "раздирать на куски",
+        "spa": "rasgar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4774,
+      "word": "repay - repaid - repaid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[rɪˈpeɪ] - [rɪˈpeɪd] - [rɪˈpeɪd]",
+        "br": "[rɪˈpeɪ] - [rɪˈpeɪd] - [rɪˈpeɪd]",
+        "gb": "[riːˈpeɪ] [riːˈpeɪd] [riːˈpeɪd]"
+      },
+      "translations": {
+        "rus": "выплатить, отдать долг, возместить",
+        "spa": "devolver, recompensar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4775,
+      "word": "rerun - reran - rerun",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈriːˈrʌn] [ˈˌriːˈræn] [ˈriːˈrʌn]"
+      },
+      "translations": {
+        "rus": "перезапускать",
+        "spa": "reponer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4776,
+      "word": "resell - resold - resold",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈriːˈsel] [ˈriːˈsəʊld] [ˈriːˈsəʊld]"
+      },
+      "translations": {
+        "rus": "перепродавать",
+        "spa": "revender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4777,
+      "word": "reset - reset - reset",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌriːˈset] - [ˌriːˈset] - [ˌriːˈset]",
+        "br": "[ˌriːˈset] - [ˌriːˈset] - [ˌriːˈset]",
+        "gb": "[ˈriːˈset] [ˈriːˈset] [ˈriːˈset]"
+      },
+      "translations": {
+        "rus": "вновь устанавливать, сбрасывать",
+        "spa": "reajustar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4778,
+      "word": "resit - resat - resat",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈrezɪt] [ˌriːˈsæt] [ˌriːˈsæt]"
+      },
+      "translations": {
+        "rus": "пересдавать (экзамен)",
+        "spa": "repetir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4779,
+      "word": "retake - retook - retaken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[riːˈteɪk] [ˌriːˈtʊk] [ˌriːˈteɪkən]"
+      },
+      "translations": {
+        "rus": "пересдавать (экзамен), снова взять",
+        "spa": "volver a tomar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4780,
+      "word": "retell - retold - retold",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌriːˈtel] - [ˌriːˈtəʊld] - [ˌriːˈtəʊld]",
+        "br": "[ˌriːˈtel] - [ˌriːˈtəʊld] - [ˌriːˈtəʊld]",
+        "gb": "[riːˈtel] [riːˈtəʊld] [riːˈtəʊld]"
+      },
+      "translations": {
+        "rus": "пересказывать",
+        "spa": "volver a contar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4781,
+      "word": "rewrite - rewrote - rewritten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈriːˈraɪt] [ˌriːˈrəʊt] [ˈriːˈrɪtn]"
+      },
+      "translations": {
+        "rus": "переписать",
+        "spa": "reescribir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4782,
+      "word": "rid - rid, ridded - rid, ridded",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[rɪd] [rɪd] [ˈrɪdɪd] [rɪd] [ˈrɪdɪd]"
+      },
+      "translations": {
+        "rus": "освобождать, избавлять",
+        "spa": "librar de"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4783,
+      "word": "ride - rode - ridden",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[raɪd] [rəʊd] [rɪdn]"
+      },
+      "translations": {
+        "rus": "ездить, ехать",
+        "spa": "montar, ir en"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4784,
+      "word": "ring - rang - rung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[rɪŋ] - [ræŋ] - [rʌŋ]",
+        "br": "[rɪŋ] - [ræŋ] - [rʌŋ]",
+        "gb": "[rɪŋ] [ræŋ] [rʌŋ]"
+      },
+      "translations": {
+        "rus": "звонить, звенеть",
+        "spa": "llamar, sonar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4785,
+      "word": "rise - rose - risen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[raɪz] [rəʊz] [ˈrɪzn]"
+      },
+      "translations": {
+        "rus": "повышать, подниматься",
+        "spa": "subir, levantarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4786,
+      "word": "run - ran - run",
+      "pos": "verb",
+      "transcription": {
+        "us": "[rʌn] - [ræn] - [rʌn]",
+        "br": "[rʌn] - [ræn] - [rʌn]",
+        "gb": "[rʌn] [ræn] [rʌn]"
+      },
+      "translations": {
+        "rus": "бежать, работать, запускать",
+        "spa": "correr"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4787,
+      "word": "saw - sawed - sawn, sawed",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[sɔː] [sɔːd] [sɔːn] [sɔːd]"
+      },
+      "translations": {
+        "rus": "пилить",
+        "spa": "serruchar, serrar, cortar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4788,
+      "word": "say - said - said",
+      "pos": "verb",
+      "transcription": {
+        "us": "[seɪ] - [sed] - [sed]",
+        "br": "[seɪ] - [sed] - [sed]",
+        "gb": "[seɪ] [sed] [sed]"
+      },
+      "translations": {
+        "rus": "говорить, сказать",
+        "spa": "decir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4789,
+      "word": "see - saw - seen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[siː] [sɔː] [siːn]"
+      },
+      "translations": {
+        "rus": "видеть, смотреть",
+        "spa": "ver"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4790,
+      "word": "seek - sought - sought",
+      "pos": "verb",
+      "transcription": {
+        "us": "[siːk] - [sɔːt] - [sɔːt]",
+        "br": "[siːk] - [sɔːt] - [sɔːt]",
+        "gb": "[siːk] [sɔːt] [sɔːt]"
+      },
+      "translations": {
+        "rus": "искать, стремиться, добиваться",
+        "spa": "buscar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4791,
+      "word": "sell - sold - sold",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sel] - [səʊld] - [səʊld]",
+        "br": "[sel] - [səʊld] - [səʊld]",
+        "gb": "[sel] [səʊld] [səʊld]"
+      },
+      "translations": {
+        "rus": "продавать",
+        "spa": "vender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4792,
+      "word": "send - sent - sent",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[send] [sent] [sent]"
+      },
+      "translations": {
+        "rus": "отправлять, посылать",
+        "spa": "enviar, mandar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4793,
+      "word": "set - set - set",
+      "pos": "verb",
+      "transcription": {
+        "us": "[set] - [set] - [set]",
+        "br": "[set] - [set] - [set]",
+        "gb": "[set] [set] [set]"
+      },
+      "translations": {
+        "rus": "задавать, устанавливать",
+        "spa": "poner, establecer, colocar, tender, situar, imponer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4794,
+      "word": "sew - sewed - sewed, sewn",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[səʊ] [səʊd] [səʊd] [səʊn]"
+      },
+      "translations": {
+        "rus": "шить",
+        "spa": "coser"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4795,
+      "word": "shake - shook - shaken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃeɪk] - [ʃʊk] - [ˈʃeɪkən]",
+        "br": "[ʃeɪk] - [ʃʊk] - [ˈʃeɪkən]",
+        "gb": "[ʃeɪk] [ʃʊk] [ˈʃeɪkən]"
+      },
+      "translations": {
+        "rus": "трясти",
+        "spa": "agitar, sacudir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4796,
+      "word": "shall - should - should",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʃæl] [ʃʊd] [ʃʊd]"
+      },
+      "translations": {
+        "rus": "быть должным",
+        "spa": "deber"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4797,
+      "word": "shave - shaved - shaved",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʃeɪv] [ʃeɪvd] [ʃeɪvd]"
+      },
+      "translations": {
+        "rus": "брить, бриться",
+        "spa": "afeitarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4798,
+      "word": "shear - sheared, shore - sheared, shorn",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʃɪə] [ʃɪəd] [ʃɔː] [ʃɪəd] [ʃɔːn]"
+      },
+      "translations": {
+        "rus": "стричь, резать, лишать",
+        "spa": "esquilar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4799,
+      "word": "shed - shed - shed",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃed] - [ʃed] - [ʃed]",
+        "br": "[ʃed] - [ʃed] - [ʃed]",
+        "gb": "[ʃed] [ʃed] [ʃed]"
+      },
+      "translations": {
+        "rus": "проливать, сбрасывать",
+        "spa": "derramar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4800,
+      "word": "shine - shone - shone",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃaɪn] - [ʃəʊn] - [ʃəʊn]",
+        "br": "[ʃaɪn] - [ʃɒn] - [ʃɒn]",
+        "gb": "[ʃaɪn] [ʃɒn] [ʃɒn]"
+      },
+      "translations": {
+        "rus": "сиять, светить",
+        "spa": "brillar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4801,
+      "word": "shoe - shod - shod",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃuː] - [ʃɑːd] - [ʃɑːd]",
+        "br": "[ʃuː] - [ʃɒd] - [ʃɒd]",
+        "gb": "[ʃuː] [ʃɔd] [ʃɔd]"
+      },
+      "translations": {
+        "rus": "обувать, подковывать",
+        "spa": "herrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4802,
+      "word": "shoot - shot - shot",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃuːt] - [ʃɑːt] - [ʃɑːt]",
+        "br": "[ʃuːt] - [ʃɒt] - [ʃɒt]",
+        "gb": "[ʃuːt] [ʃɔt] [ʃɔt]"
+      },
+      "translations": {
+        "rus": "стрелять, снимать, фотографировать",
+        "spa": "disparar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4803,
+      "word": "show - showed - shown, showed",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʃəʊ] [ʃəʊd] [ʃəʊn] [ʃəʊd]"
+      },
+      "translations": {
+        "rus": "показывать",
+        "spa": "mostrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4804,
+      "word": "shrink - shrank, shrunk - shrunk",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃrɪŋk] - [ʃræŋk], [ʃrʌŋk] - [ʃrʌŋk]",
+        "br": "[ʃrɪŋk] - [ʃræŋk], [ʃrʌŋk] - [ʃrʌŋk]",
+        "gb": "[ʃrɪŋk] [ʃræŋk] [ʃrʌŋk] [ʃrʌŋk]"
+      },
+      "translations": {
+        "rus": "сокращаться, сжиматься, отскочить, отпрянуть",
+        "spa": "encogerse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4805,
+      "word": "shut - shut - shut",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʃʌt] - [ʃʌt] - [ʃʌt]",
+        "br": "[ʃʌt] - [ʃʌt] - [ʃʌt]",
+        "gb": "[ʃʌt] [ʃʌt] [ʃʌt]"
+      },
+      "translations": {
+        "rus": "закрывать",
+        "spa": "cerrar, cerrado, cerrarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4806,
+      "word": "sing - sang - sung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sɪŋ] - [sæŋ] - [sʌŋ]",
+        "br": "[sɪŋ] - [sæŋ] - [sʌŋ]",
+        "gb": "[sɪŋ] [sæŋ] [sʌŋ]"
+      },
+      "translations": {
+        "rus": "петь",
+        "spa": "cantar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4807,
+      "word": "sink - sank - sunk",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sɪŋk] - [sæŋk] - [sʌŋk]",
+        "br": "[sɪŋk] - [sæŋk] - [sʌŋk]",
+        "gb": "[sɪŋk] [sæŋk] [sʌŋk]"
+      },
+      "translations": {
+        "rus": "опускаться, погружаться, тонуть",
+        "spa": "hundir, hundirse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4808,
+      "word": "sit - sat - sat",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sɪt] - [sæt] - [sæt]",
+        "br": "[sɪt] - [sæt] - [sæt]",
+        "gb": "[sɪt] [sæt] [sæt]"
+      },
+      "translations": {
+        "rus": "сидеть",
+        "spa": "sentarse, sentar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4809,
+      "word": "slay - slew - slain",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sleɪ] - [sluː] - [sleɪn]",
+        "br": "[sleɪ] - [sluː] - [sleɪn]",
+        "gb": "[sleɪ] [sluː] [sleɪn]"
+      },
+      "translations": {
+        "rus": "убивать, уничтожать",
+        "spa": "matar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4810,
+      "word": "sleep - slept - slept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sliːp] - [slept] - [slept]",
+        "br": "[sliːp] - [slept] - [slept]",
+        "gb": "[sliːp] [slɛpt] [slɛpt]"
+      },
+      "translations": {
+        "rus": "спать",
+        "spa": "dormir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4811,
+      "word": "slide - slid - slid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[slaɪd] [slɪd] [slɪd]"
+      },
+      "translations": {
+        "rus": "скользить",
+        "spa": "resbalar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4812,
+      "word": "sling - slung - slung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[slɪŋ] - [slʌŋ] - [slʌŋ]",
+        "br": "[slɪŋ] - [slʌŋ] - [slʌŋ]",
+        "gb": "[slɪŋ] [slʌŋ] [slʌŋ]"
+      },
+      "translations": {
+        "rus": "бросать, швырять, вешать через плечо, подвешивать",
+        "spa": "tirar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4813,
+      "word": "slink - slunk - slunk",
+      "pos": "verb",
+      "transcription": {
+        "us": "[slɪŋk] - [slʌŋk] - [slʌŋk]",
+        "br": "[slɪŋk] - [slʌŋk] - [slʌŋk]",
+        "gb": "[slɪŋk] [slʌŋk] [slʌŋk]"
+      },
+      "translations": {
+        "rus": "красться",
+        "spa": "escabullirse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4814,
+      "word": "slit - slit - slit",
+      "pos": "verb",
+      "transcription": {
+        "us": "[slɪt] - [slɪt] - [slɪt]",
+        "br": "[slɪt] - [slɪt] - [slɪt]",
+        "gb": "[slɪt] [slɪt] [slɪt]"
+      },
+      "translations": {
+        "rus": "разрезать, резать в длину",
+        "spa": "cortar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4815,
+      "word": "smell - smelt, smelled - smelt, smelled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[smel] [smelt] [smɛld] [smelt] [smɛld]"
+      },
+      "translations": {
+        "rus": "пахнуть, нюхать",
+        "spa": "oler"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4816,
+      "word": "smite - smote - smitten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[smaɪt] - [sməʊt] - [ˈsmɪtn]",
+        "br": "[smaɪt] - [sməʊt] - [ˈsmɪtn]",
+        "gb": "[smaɪt] [sməʊt] [smɪtn]"
+      },
+      "translations": {
+        "rus": "ударять, бить, поразить",
+        "spa": "golpear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4817,
+      "word": "sow - sowed - sowed, sown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[səʊ] [səʊd] [səʊd] [səʊn]"
+      },
+      "translations": {
+        "rus": "сеять",
+        "spa": "sembrar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4818,
+      "word": "speak - spoke - spoken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[spiːk] - [spəʊk] - [ˈspəʊkən]",
+        "br": "[spiːk] - [spəʊk] - [ˈspəʊkən]",
+        "gb": "[spiːk] [spəʊk] [ˈspəʊkən]"
+      },
+      "translations": {
+        "rus": "говорить",
+        "spa": "hablar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4819,
+      "word": "speed - sped, speeded - sped, speeded",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spiːd] [spɛd] [ˈspiːdɪd] [spɛd] [ˈspiːdɪd]"
+      },
+      "translations": {
+        "rus": "мчаться, спешить, ускорять",
+        "spa": "pasar a toda velocidad, apresurarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4820,
+      "word": "spell - spelt, spelled - spelt, spelled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spel] [spelt] [speld] [spelt] [speld]"
+      },
+      "translations": {
+        "rus": "писать по буквам",
+        "spa": "deletrear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4821,
+      "word": "spend - spent - spent",
+      "pos": "verb",
+      "transcription": {
+        "us": "[spend] - [spent] - [spent]",
+        "br": "[spend] - [spent] - [spent]",
+        "gb": "[spend] [spent] [spent]"
+      },
+      "translations": {
+        "rus": "тратить, проводить (время)",
+        "spa": "gastar, pasar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4822,
+      "word": "spill - spilt, spilled - spilt, spilled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spɪl] [ˈspɪlt] [spɪld] [ˈspɪlt] [spɪld]"
+      },
+      "translations": {
+        "rus": "проливать",
+        "spa": "derramar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4823,
+      "word": "spin - spun - spun",
+      "pos": "verb",
+      "transcription": {
+        "us": "[spɪn] - [spʌn] - [spʌn]",
+        "br": "[spɪn] - [spʌn] - [spʌn]",
+        "gb": "[spɪn] [spʌn] [spʌn]"
+      },
+      "translations": {
+        "rus": "прясть, крутиться",
+        "spa": "hilar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4824,
+      "word": "spit - spat - spat",
+      "pos": "verb",
+      "transcription": {
+        "us": "[spɪt] - [spæt] - [spæt]",
+        "br": "[spɪt] - [spæt] - [spæt]",
+        "gb": "[spɪt] [spæt] [spæt]"
+      },
+      "translations": {
+        "rus": "плевать",
+        "spa": "escupir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4825,
+      "word": "split - split - split",
+      "pos": "verb",
+      "transcription": {
+        "us": "[splɪt] - [splɪt] - [splɪt]",
+        "br": "[splɪt] - [splɪt] - [splɪt]",
+        "gb": "[splɪt] [splɪt] [splɪt]"
+      },
+      "translations": {
+        "rus": "раскалывать, расщеплять, разбить",
+        "spa": "hender, partir, rajar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4826,
+      "word": "spoil - spoilt, spoiled - spoilt, spoiled",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[spɔːɪl] [spɔɪlt] [ˈspɔɪld] [spɔɪlt] [ˈspɔɪld]"
+      },
+      "translations": {
+        "rus": "портить(ся), баловать",
+        "spa": "estropear, estropearse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4827,
+      "word": "spotlight - spotlit, spotlighted - spotlit, spotlighted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈspɔtlaɪt] [ˈspɔtlɪt] [ˈspɒtlaɪtɪd] [ˈspɔtlɪt] [ˈspɒtlaɪtɪd]"
+      },
+      "translations": {
+        "rus": "освещать",
+        "spa": "destacar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4828,
+      "word": "spread - spread - spread",
+      "pos": "verb",
+      "transcription": {
+        "us": "[spred] - [spred] - [spred]",
+        "br": "[spred] - [spred] - [spred]",
+        "gb": "[spred] [spred] [spred]"
+      },
+      "translations": {
+        "rus": "распространять(ся), простираться",
+        "spa": "extender, extenderse, difundir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4829,
+      "word": "spring - sprang - sprung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[sprɪŋ] - [spræŋ] - [sprʌŋ]",
+        "br": "[sprɪŋ] - [spræŋ] - [sprʌŋ]",
+        "gb": "[sprɪŋ] [spræŋ] [sprʌŋ]"
+      },
+      "translations": {
+        "rus": "возникать, внезапно открыть, брызнуть",
+        "spa": "saltar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4830,
+      "word": "stand - stood - stood",
+      "pos": "verb",
+      "transcription": {
+        "us": "[stænd] - [stʊd] - [stʊd]",
+        "br": "[stænd] - [stʊd] - [stʊd]",
+        "gb": "[stænd] [stʊd] [stʊd]"
+      },
+      "translations": {
+        "rus": "стоять, терпеть",
+        "spa": "estar de pie, ponerse de pie, aguantar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4831,
+      "word": "steal - stole - stolen",
+      "pos": "verb",
+      "transcription": {
+        "us": "[stiːl] - [stəʊl] - [ˈstəʊlən]",
+        "br": "[stiːl] - [stəʊl] - [ˈstəʊlən]",
+        "gb": "[stiːl] [stəʊl] [ˈstəʊlən]"
+      },
+      "translations": {
+        "rus": "красть, воровать",
+        "spa": "robar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4832,
+      "word": "stick - stuck - stuck",
+      "pos": "verb",
+      "transcription": {
+        "us": "[stɪk] - [stʌk] - [stʌk]",
+        "br": "[stɪk] - [stʌk] - [stʌk]",
+        "gb": "[stɪk] [stʌk] [stʌk]"
+      },
+      "translations": {
+        "rus": "втыкать, приклеивать(ся), липнуть, сдержаться",
+        "spa": "pegar, pegarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4833,
+      "word": "sting - stung - stung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[stɪŋ] - [stʌŋ] - [stʌŋ]",
+        "br": "[stɪŋ] - [stʌŋ] - [stʌŋ]",
+        "gb": "[stɪŋ] [stʌŋ] [stʌŋ]"
+      },
+      "translations": {
+        "rus": "жалить",
+        "spa": "picar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4834,
+      "word": "stink - stank - stunk",
+      "pos": "verb",
+      "transcription": {
+        "us": "[stɪŋk] - [stæŋk] - [stʌŋk]",
+        "br": "[stɪŋk] - [stæŋk] - [stʌŋk]",
+        "gb": "[stɪŋk] [stæŋk] [stʌŋk]"
+      },
+      "translations": {
+        "rus": "вонять",
+        "spa": "apestar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4835,
+      "word": "strew - strewed - strewn, strewed",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[struː] [struːd] [struːn] [struːd]"
+      },
+      "translations": {
+        "rus": "посыпать, усеять, разбрасывать, расстилать",
+        "spa": "esparcir, cubrir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4836,
+      "word": "stride - strode - stridden",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[straɪd] [strəʊd] [ˈstrɪdn]"
+      },
+      "translations": {
+        "rus": "шагать",
+        "spa": "dar zancadas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4837,
+      "word": "strike - struck - struck",
+      "pos": "verb",
+      "transcription": {
+        "us": "[straɪk] - [strʌk] - [strʌk]",
+        "br": "[straɪk] - [strʌk] - [strʌk]",
+        "gb": "[straɪk] [strʌk] [strʌk]"
+      },
+      "translations": {
+        "rus": "бить, ударять",
+        "spa": "golpear"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4838,
+      "word": "string - strung - strung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[strɪŋ] - [strʌŋ] - [strʌŋ]",
+        "br": "[strɪŋ] - [strʌŋ] - [strʌŋ]",
+        "gb": "[strɪŋ] [strʌŋ] [strʌŋ]"
+      },
+      "translations": {
+        "rus": "натягивать, нанизывать, связывать",
+        "spa": "encordar, ensartar, colgar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4839,
+      "word": "strive - strove - striven",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[straɪv] [strəʊv] [ˈstrɪvn]"
+      },
+      "translations": {
+        "rus": "стараться, стремиться",
+        "spa": "esforzarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4840,
+      "word": "sublet - sublet - sublet",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌsʌbˈlet] - [ˌsʌbˈlet] - [ˌsʌbˈlet]",
+        "br": "[ˌsʌbˈlet] - [ˌsʌbˈlet] - [ˌsʌbˈlet]",
+        "gb": "[ˈsʌbˈlet] [ˈsʌbˈlet] [ˈsʌbˈlet]"
+      },
+      "translations": {
+        "rus": "сдавать в субаренду",
+        "spa": "subarrendar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4841,
+      "word": "swear - swore - sworn",
+      "pos": "verb",
+      "transcription": {
+        "us": "[swer] - [swɔːr] - [swɔːrn]",
+        "br": "[sweə(r)] - [swɔː(r)] - [swɔːn]",
+        "gb": "[swɛə] [swɔː] [swɔːn]"
+      },
+      "translations": {
+        "rus": "клясться, присягать, браниться, ругаться",
+        "spa": "jurar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4842,
+      "word": "sweep - swept - swept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[swiːp] - [swept] - [swept]",
+        "br": "[swiːp] - [swept] - [swept]",
+        "gb": "[swiːp] [swept] [swept]"
+      },
+      "translations": {
+        "rus": "подметать, мести",
+        "spa": "barrer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4843,
+      "word": "swell - swelled - swollen",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[swel] [swɛld] [ˈswəʊlən]"
+      },
+      "translations": {
+        "rus": "пухнуть, раздуваться, набухать",
+        "spa": "hinchar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4844,
+      "word": "swim - swam - swum",
+      "pos": "verb",
+      "transcription": {
+        "us": "[swɪm] - [swæm] - [swʌm]",
+        "br": "[swɪm] - [swæm] - [swʌm]",
+        "gb": "[swɪm] [swæm] [swʌm]"
+      },
+      "translations": {
+        "rus": "плавать",
+        "spa": "nadar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4845,
+      "word": "swing - swung - swung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[swɪŋ] - [swʌŋ] - [swʌŋ]",
+        "br": "[swɪŋ] - [swʌŋ] - [swʌŋ]",
+        "gb": "[swɪŋ] [swʌŋ] [swʌŋ]"
+      },
+      "translations": {
+        "rus": "качать(ся), размахивать, вертеться",
+        "spa": "balancear, columpiarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4846,
+      "word": "take - took - taken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[teɪk] [tʊk] [ˈteɪkən]"
+      },
+      "translations": {
+        "rus": "брать, принимать, выбирать, требовать, требоваться",
+        "spa": "tomar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4847,
+      "word": "teach - taught - taught",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tiːtʃ] - [tɔːt] - [tɔːt]",
+        "br": "[tiːtʃ] - [tɔːt] - [tɔːt]",
+        "gb": "[tiːʧ] [tɔːt] [tɔːt]"
+      },
+      "translations": {
+        "rus": "учить (кого-либо), обучать",
+        "spa": "enseñar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4848,
+      "word": "tear - tore - torn",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ter] - [tɔːr] - [tɔːrn]",
+        "br": "[teə(r)] - [tɔː(r)] - [tɔːn]",
+        "gb": "[tɛə] [tɔː] [tɔːn]"
+      },
+      "translations": {
+        "rus": "рвать",
+        "spa": "rasgar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4849,
+      "word": "tell - told - told",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tel] - [təʊld] - [təʊld]",
+        "br": "[tel] - [təʊld] - [təʊld]",
+        "gb": "[tel] [təʊld] [təʊld]"
+      },
+      "translations": {
+        "rus": "сказать, рассказывать",
+        "spa": "decir, contar, distinguir, saber"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4850,
+      "word": "think - thought - thought",
+      "pos": "verb",
+      "transcription": {
+        "us": "[θɪŋk] - [θɔːt] - [θɔːt]",
+        "br": "[θɪŋk] - [θɔːt] - [θɔːt]",
+        "gb": "[θɪŋk] [θɔːt] [θɔːt]"
+      },
+      "translations": {
+        "rus": "думать",
+        "spa": "pensar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4851,
+      "word": "thrive - throve, thrived - thriven, thrived",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[θraɪv] [θrəuv] [θraɪvd] [ˈθrɪvn] [θraɪvd]"
+      },
+      "translations": {
+        "rus": "преуспевать, процветать",
+        "spa": "crecer muy bien"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4852,
+      "word": "throw - threw - thrown",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[θrəʊ] [θruː] [θrəʊn]"
+      },
+      "translations": {
+        "rus": "кидать, бросать",
+        "spa": "tirar, lanzar, arrojar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4853,
+      "word": "thrust - thrust - thrust",
+      "pos": "verb",
+      "transcription": {
+        "us": "[θrʌst] - [θrʌst] - [θrʌst]",
+        "br": "[θrʌst] - [θrʌst] - [θrʌst]",
+        "gb": "[θrʌst] [θrʌst] [θrʌst]"
+      },
+      "translations": {
+        "rus": "толкать, засовывать, колоть, выгонять, сунуть",
+        "spa": "introducir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4854,
+      "word": "tread - trod - trod, trodden",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tred] - [trɑːd] - [trɑːd], [ˈtrɑːdn]",
+        "br": "[tred] - [trɒd] - [trɒd], [ˈtrɒdn]",
+        "gb": "[tred] [trɒd] [trɒd] [ˈtrɒdn]"
+      },
+      "translations": {
+        "rus": "ступать, наступать",
+        "spa": "pisar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4855,
+      "word": "unbend - unbent - unbent",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʌnˈbend] [ʌnˈbɛnt] [ʌnˈbɛnt]"
+      },
+      "translations": {
+        "rus": "выпрямляться, разгибаться",
+        "spa": "enderezar, relajarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4856,
+      "word": "undercut - undercut - undercut",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌʌndərˈkʌt] - [ˌʌndərˈkʌt] - [ˌʌndərˈkʌt]",
+        "br": "[ˌʌndəˈkʌt] - [ˌʌndəˈkʌt] - [ˌʌndəˈkʌt]",
+        "gb": "[ˈʌndəkʌt] [ˈʌndəkʌt] [ˈʌndəkʌt]"
+      },
+      "translations": {
+        "rus": "подорвать, навредить, надломить, подрезать",
+        "spa": "vender más barato que, debilitar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4857,
+      "word": "undergo - underwent - undergone",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌndəˈgəʊ] [ˌʌndəˈwɛnt] [ʌndəˈgɔn]"
+      },
+      "translations": {
+        "rus": "испытывать, переносить, подвергаться",
+        "spa": "sufrir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4858,
+      "word": "underlie - underlay - underlain",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌndəˈlaɪ] [ʌndəˈleɪ] [ˌʌndəˈleɪn]"
+      },
+      "translations": {
+        "rus": "лежать в основе",
+        "spa": "sustentar, subyacer a"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4859,
+      "word": "underpay - underpaid - underpaid",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌʌndərˈpeɪ] - [ˌʌndərˈpeɪd] - [ˌʌndərˈpeɪd]",
+        "br": "[ˌʌndəˈpeɪ] - [ˌʌndəˈpeɪd] - [ˌʌndəˈpeɪd]",
+        "gb": "[ˈʌndəˈpeɪ] [ˈʌndəˈpeɪd] [ˈʌndəˈpeɪd]"
+      },
+      "translations": {
+        "rus": "недоплачивать",
+        "spa": "pagar mal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4860,
+      "word": "undersell - undersold - undersold",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌʌndərˈsel] - [ˌʌndərˈsəʊld] - [ˌʌndərˈsəʊld]",
+        "br": "[ˌʌndəˈsel] - [ˌʌndəˈsəʊld] - [ˌʌndəˈsəʊld]",
+        "gb": "[ˌʌndəˈsɛl] [ˌʌndəˈsəʊld] [ˌʌndəˈsəʊld]"
+      },
+      "translations": {
+        "rus": "продавать дешевле",
+        "spa": "vender a precio más bajo que"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4861,
+      "word": "understand - understood - understood",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌʌndərˈstænd] - [ˌʌndərˈstʊd] - [ˌʌndərˈstʊd]",
+        "br": "[ˌʌndəˈstænd] - [ˌʌndəˈstʊd] - [ˌʌndəˈstʊd]",
+        "gb": "[ʌndəˈstænd] [ʌndəˈstʊd] [ʌndəˈstʊd]"
+      },
+      "translations": {
+        "rus": "понимать",
+        "spa": "entender, comprender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4862,
+      "word": "undertake - undertook - undertaken",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌndəˈteɪk] [ˌʌndəˈtʊk] [ʌndəˈteɪkən]"
+      },
+      "translations": {
+        "rus": "предпринимать, браться",
+        "spa": "emprender"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4863,
+      "word": "underwrite - underwrote - underwritten",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈʌndəraɪt] [ˈʌndərəʊt] [ˈʌndərɪtn]"
+      },
+      "translations": {
+        "rus": "подписывать, гарантировать",
+        "spa": "apoyar, asegurar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4864,
+      "word": "undo - undid - undone",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʌnˈduː] - [ʌnˈdɪd] - [ʌnˈdʌn]",
+        "br": "[ʌnˈduː] - [ʌnˈdɪd] - [ʌnˈdʌn]",
+        "gb": "[ˈʌnˈduː] [ʌnˈdɪd] [ˈʌnˈdʌn]"
+      },
+      "translations": {
+        "rus": "расстёгивать, развязывать",
+        "spa": "deshacer, reparar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4865,
+      "word": "unwind - unwound - unwound",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ˌʌnˈwaɪnd] - [ˌʌnˈwaʊnd] - [ˌʌnˈwaʊnd]",
+        "br": "[ˌʌnˈwaɪnd] - [ˌʌnˈwaʊnd] - [ˌʌnˈwaʊnd]",
+        "gb": "[ˈʌnˈwaɪnd] [ˈʌnˈwaʊnd] [ˈʌnˈwaʊnd]"
+      },
+      "translations": {
+        "rus": "разматывать",
+        "spa": "desenrollar, relajarse"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4866,
+      "word": "uphold - upheld - upheld",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ʌpˈhəʊld] [ʌpˈhɛld] [ʌpˈhɛld]"
+      },
+      "translations": {
+        "rus": "поддерживать, одобрять",
+        "spa": "conservar, mantener"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4867,
+      "word": "upset - upset - upset",
+      "pos": "verb",
+      "transcription": {
+        "us": "[ʌpˈset] - [ʌpˈset] - [ʌpˈset]",
+        "br": "[ʌpˈset] - [ʌpˈset] - [ʌpˈset]",
+        "gb": "[ʌpˈset] [ʌpˈset] [ʌpˈset]"
+      },
+      "translations": {
+        "rus": "расстраивать, огорчать",
+        "spa": "afligir, molestar, alterar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4868,
+      "word": "wake - woke - woken",
+      "pos": "verb",
+      "transcription": {
+        "us": "[weɪk] - [wəʊk] - [ˈwəʊkən]",
+        "br": "[weɪk] - [wəʊk] - [ˈwəʊkən]",
+        "gb": "[weɪk] [wəʊk] [ˈwəʊkən]"
+      },
+      "translations": {
+        "rus": "будить, просыпаться",
+        "spa": "despertar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4869,
+      "word": "waylay - waylaid - waylaid",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[weɪˈleɪ] [ˌweɪˈleɪd] [ˌweɪˈleɪd]"
+      },
+      "translations": {
+        "rus": "подстерегать",
+        "spa": "abordar, detener, atracar, asaltar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4870,
+      "word": "wear - wore - worn",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wɛə] [wɔː] [wɔːn]"
+      },
+      "translations": {
+        "rus": "носить, изнашивать",
+        "spa": "llevar, desgastar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4871,
+      "word": "weave - wove, weaved - woven, weaved",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wiːv] [wəʊv] [wiːvd] [ˈwəʊvən] [wiːvd]"
+      },
+      "translations": {
+        "rus": "ткать, плести",
+        "spa": "tejer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4872,
+      "word": "wed - wed, wedded - wed, wedded",
+      "pos": "verb",
+      "transcription": {
+        "us": "[wed] - [wed], [ˈwedɪd] - [wed], [ˈwedɪd]",
+        "br": "[wed] - [wed], [ˈwedɪd] - [wed], [ˈwedɪd]",
+        "gb": "[wed] [wed] [ˈwedɪd] [wed] [ˈwedɪd]"
+      },
+      "translations": {
+        "rus": "венчать(ся), жениться, выходить замуж, выдавать замуж",
+        "spa": "casarse con"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4873,
+      "word": "weep - wept - wept",
+      "pos": "verb",
+      "transcription": {
+        "us": "[wiːp] - [wept] - [wept]",
+        "br": "[wiːp] - [wept] - [wept]",
+        "gb": "[wiːp] [wɛpt] [wɛpt]"
+      },
+      "translations": {
+        "rus": "плакать",
+        "spa": "llorar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4874,
+      "word": "wet - wet, wetted - wet, wetted",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wet] [wet] [ˈwɛtɪd] [wet] [ˈwɛtɪd]"
+      },
+      "translations": {
+        "rus": "мочить, смачивать",
+        "spa": "mojar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4875,
+      "word": "will - would - would",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wɪl] [wʊd] [wʊd]"
+      },
+      "translations": {
+        "rus": "глагол для образования будущего времени",
+        "spa": "querer, disponer, dejar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4876,
+      "word": "win - won - won",
+      "pos": "verb",
+      "transcription": {
+        "us": "[wɪn] - [wɑːn] - [wɑːn]",
+        "br": "[wɪn] - [wɒn] - [wɒn]",
+        "gb": "[wɪn] [wʌn] [wʌn]"
+      },
+      "translations": {
+        "rus": "выиграть, побеждать",
+        "spa": "ganar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4877,
+      "word": "wind - wound - wound",
+      "pos": "verb",
+      "transcription": {
+        "us": "[waɪnd] - [wuːnd] - [wuːnd]",
+        "br": "[waɪnd] - [wuːnd] - [wuːnd]",
+        "gb": "[waɪnd] [wuːnd] [wuːnd]"
+      },
+      "translations": {
+        "rus": "наматывать, виться, извиваться, изгибаться, заводить (механизм)",
+        "spa": "enrollar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4878,
+      "word": "withdraw - withdrew - withdrawn",
+      "pos": "verb",
+      "transcription": {
+        "us": "[wɪðˈdrɔː] - [wɪðˈdruː] - [wɪðˈdrɔːn]",
+        "br": "[wɪðˈdrɔː] - [wɪðˈdruː] - [wɪðˈdrɔːn]",
+        "gb": "[wɪðˈdrɔː] [wɪðˈdruː] [wɪðˈdrɔːn]"
+      },
+      "translations": {
+        "rus": "снимать (деньги со счета), извлекать, изымать, отзывать, брать назад",
+        "spa": "retirar, retirarse, sacar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4879,
+      "word": "withhold - withheld - withheld",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wɪðˈhəʊld] [wɪðˈheld] [wɪðˈheld]"
+      },
+      "translations": {
+        "rus": "утаивать, удерживать",
+        "spa": "ocultar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4880,
+      "word": "withstand - withstood - withstood",
+      "pos": "verb",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[wɪðˈstænd] [wɪðˈstʊd] [wɪðˈstʊd]"
+      },
+      "translations": {
+        "rus": "выдержать, противостоять",
+        "spa": "soportar, resistir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4881,
+      "word": "wring - wrung - wrung",
+      "pos": "verb",
+      "transcription": {
+        "us": "[rɪŋ] - [rʌŋ] - [rʌŋ]",
+        "br": "[rɪŋ] - [rʌŋ] - [rʌŋ]",
+        "gb": "[rɪŋ] [rʌŋ] [rʌŋ]"
+      },
+      "translations": {
+        "rus": "скручивать, крутить, жать, выжимать",
+        "spa": "torcer"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    },
+    {
+      "id": 4882,
+      "word": "write - wrote - written",
+      "pos": "verb",
+      "transcription": {
+        "us": "[raɪt] - [rəʊt] - [ˈrɪtn]",
+        "br": "[raɪt] - [rəʊt] - [ˈrɪtn]",
+        "gb": "[raɪt] [rəʊt] [rɪtn]"
+      },
+      "translations": {
+        "rus": "писать, записывать, сочинять",
+        "spa": "escribir"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "irregular_verbs"
+      ]
+    }
+  ]
+}

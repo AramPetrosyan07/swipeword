@@ -1,0 +1,304 @@
+{
+  "category": {
+    "id": "signs_of_zodiac",
+    "name_rus": "Знаки зодиака",
+    "type": "topic",
+    "word_count": 14
+  },
+  "words": [
+    {
+      "id": 9818,
+      "word": "Aquarius",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkweriəs]",
+        "br": "[əˈkweəriəs]",
+        "gb": "[əˈkwɛərɪəs]"
+      },
+      "translations": {
+        "rus": "Водолей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9808,
+      "word": "Aries",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeriːz]",
+        "br": "[ˈeəriːz]",
+        "gb": "[ˈɛəriːz]"
+      },
+      "translations": {
+        "rus": "Овен",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9811,
+      "word": "Cancer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkænsər]",
+        "br": "[ˈkænsə(r)]",
+        "gb": "[ˈkænsə]"
+      },
+      "translations": {
+        "rus": "Рак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9817,
+      "word": "Capricorn",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæprɪkɔːrn]",
+        "br": "[ˈkæprɪkɔːn]",
+        "gb": "[ˈkæprɪkɔːn]"
+      },
+      "translations": {
+        "rus": "Козерог",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9810,
+      "word": "Gemini",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒemɪnaɪ], [ˈdʒemɪni]",
+        "br": "[ˈdʒemɪnaɪ], [ˈdʒemɪni]",
+        "gb": "[ˈʤemɪnaɪ]"
+      },
+      "translations": {
+        "rus": "Близнецы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9820,
+      "word": "horoscope",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɔːrəskəʊp]",
+        "br": "[ˈhɒrəskəʊp]",
+        "gb": "[ˈhɔrəskəʊp]"
+      },
+      "translations": {
+        "rus": "гороскоп",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9812,
+      "word": "Leo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈliːəʊ]",
+        "br": "[ˈliːəʊ]",
+        "gb": "[ˈliːəʊ]"
+      },
+      "translations": {
+        "rus": "Лев",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9814,
+      "word": "Libra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈliːbrə]",
+        "br": "[ˈliːbrə]",
+        "gb": "[ˈliːbrə]"
+      },
+      "translations": {
+        "rus": "Весы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9819,
+      "word": "Pisces",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpaɪsiːz]",
+        "br": "[ˈpaɪsiːz]",
+        "gb": "[ˈpʌɪsiːz]"
+      },
+      "translations": {
+        "rus": "Рыбы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9816,
+      "word": "Sagittarius",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌsædʒɪˈteriəs]",
+        "br": "[ˌsædʒɪˈteəriəs]",
+        "gb": "[sæʤɪˈtɛərɪəs]"
+      },
+      "translations": {
+        "rus": "Стрелец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9815,
+      "word": "Scorpio",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskɔːrpiəʊ]",
+        "br": "[ˈskɔːpiəʊ]",
+        "gb": "[ˈskɔːpɪəʊ]"
+      },
+      "translations": {
+        "rus": "Скорпион",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9809,
+      "word": "Taurus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɔːrəs]",
+        "br": "[ˈtɔːrəs]",
+        "gb": "[ˈtɔːrəs]"
+      },
+      "translations": {
+        "rus": "Телец",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9813,
+      "word": "Virgo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɜːrɡəʊ]",
+        "br": "[ˈvɜːɡəʊ]",
+        "gb": "[ˈvɜːgəʊ]"
+      },
+      "translations": {
+        "rus": "Дева",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    },
+    {
+      "id": 9821,
+      "word": "zodiacal constellation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[zəʊˈdaɪəkl] [ˌkɑːnstəˈleɪʃn]",
+        "br": "[zəʊˈdaɪəkl] [ˌkɒnstəˈleɪʃn]",
+        "gb": "[zəʊˈdaɪəkəl] [kɔnstəˈleɪʃn]"
+      },
+      "translations": {
+        "rus": "зодиакальное созвездие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "signs_of_zodiac"
+      ]
+    }
+  ]
+}

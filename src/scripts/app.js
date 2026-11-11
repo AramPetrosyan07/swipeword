@@ -142,21 +142,25 @@ class App {
     this._updateVoiceUi();
 
     const savedLastScreen = appStore.data.lastScreen || null;
-    const savedWords = appStore.getAllWords();
-    if (savedWords.length > 0) {
-      this.words = savedWords;
-      this.currentFileName = appStore.data.currentFileName || null;
-      this._startLearning();
-    } else if (appStore.dictionary.length > 0) {
-      const vocab = appStore.data.vocabulary || 'b2';
-      const fileName = vocab === 'c1' ? 'oxford_c1_words' : vocab === 'verb' ? 'verb' : 'b2-word-list';
-      await appStore.initFromDictionary(appStore.dictionary.length, fileName);
-      await appStore.addHistory(fileName, appStore.dictionary.length);
-      this.words = appStore.getAllWords();
-      this.currentFileName = fileName;
-      this._startLearning();
+    if (appStore.data.openLastDeck === false) {
+      deckPicker.show();
     } else {
-      this._showReadHome();
+      const savedWords = appStore.getAllWords();
+      if (savedWords.length > 0) {
+        this.words = savedWords;
+        this.currentFileName = appStore.data.currentFileName || null;
+        this._startLearning();
+      } else if (appStore.dictionary.length > 0) {
+        const vocab = appStore.data.vocabulary || 'b2';
+        const fileName = appStore._fileNameForVocab(vocab);
+        await appStore.initFromDictionary(appStore.dictionary.length, fileName);
+        await appStore.addHistory(fileName, appStore.dictionary.length);
+        this.words = appStore.getAllWords();
+        this.currentFileName = fileName;
+        this._startLearning();
+      } else {
+        this._showReadHome();
+      }
     }
 
     modesManager.init();
@@ -182,7 +186,7 @@ class App {
     });
     document.getElementById('sideLearn').addEventListener('click', () => {
       this._closeSidebar();
-      if (this.words.length > 0) this._showLearnScreen();
+      deckPicker.show();
     });
     document.getElementById('sideReview').addEventListener('click', () => {
       this._closeSidebar();
@@ -239,12 +243,12 @@ class App {
     document.getElementById('sidePdfText').addEventListener('click', () => this._pdfShowSidebarView('text'));
 
     document.getElementById('readCardWords').addEventListener('click', () => {
-      if (this.words.length > 0) this._showLearnScreen();
+      if (this.words.length > 0) deckPicker.show();
       else this._showImportScreen();
     });
 
     document.getElementById('btnLearnBack').addEventListener('click', () => {
-      this._showReadHome();
+      deckPicker.show();
     });
 
     document.getElementById('sideShuffle').addEventListener('click', () => {
@@ -341,13 +345,6 @@ class App {
     document.getElementById('btnLearnMode').addEventListener('click', () => {
       studyModeManager.toggle();
       this._showCurrentCard();
-    });
-    document.querySelectorAll('#btnVocabSwitch .vocab-switch-label').forEach((label) => {
-      label.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const vocab = label.classList.contains('b2') ? 'b2' : label.classList.contains('c1') ? 'c1' : 'verb';
-        this._switchVocabulary(vocab);
-      });
     });
 
     document.getElementById('btnFavFilter').addEventListener('click', () => {
@@ -614,7 +611,8 @@ class App {
       return;
     }
     if (saved.id === 'screen-learn' && this.words.length > 0) {
-      this._showLearnScreen();
+      if (appStore.data.openLastDeck === false) deckPicker.show();
+      else this._showLearnScreen();
       return;
     }
     if (saved.id === 'screen-words') {
@@ -676,24 +674,6 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-vocablib').classList.add('active');
     vocabLibrary.show();
-  }
-
-  async _switchVocabulary(target) {
-    const cur = appStore.data.vocabulary;
-    if (target === cur) return;
-    appStore.setCurrentIndex(this.currentIndex);
-    await appStore.switchVocabulary(target);
-    this.words = appStore.getAllWords();
-    this.currentIndex = appStore.getCurrentIndex();
-    this.currentFileName = appStore.data.currentFileName;
-    this.undoStack = [];
-    this.sessionHistory = [];
-    this.filterLetter = null;
-    this._buildQueue();
-    this._showCurrentCard();
-    this._updateSidebar();
-    this._renderLetterStrip();
-    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', target);
   }
 
   _toggleSidebar() {
@@ -821,6 +801,20 @@ class App {
     this._showReadHome();
   }
 
+  async openDeck(deckId) {
+    await appStore.ensureDeck(deckId);
+    await appStore.switchVocabulary(deckId);
+    this.words = appStore.getAllWords();
+    this.currentIndex = appStore.getCurrentIndex();
+    this.currentFileName = appStore.data.currentFileName;
+    this.undoStack = [];
+    this.sessionHistory = [];
+    this.filterLetter = null;
+    this._showLearnScreen();
+    this._updateSidebar();
+    this._renderLetterStrip();
+  }
+
   _buildQueue() {
     const today = new Date().toISOString().split('T')[0];
     this.screenOrder = this.words.filter((w) => w.nextReview <= today);
@@ -917,8 +911,6 @@ class App {
     document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
     document.getElementById('screen-learn').classList.add('active');
     this._updateSidebarContent('learn');
-
-    document.getElementById('btnVocabSwitch').setAttribute('data-vocab', appStore.data.vocabulary || 'b2');
 
     const favBtn = document.getElementById('btnFavFilter');
     favBtn.classList.toggle('active', this.favFilterEnabled);

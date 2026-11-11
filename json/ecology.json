@@ -1,0 +1,5109 @@
+{
+  "category": {
+    "id": "ecology",
+    "name_rus": "Экология",
+    "type": "topic",
+    "word_count": 172
+  },
+  "words": [
+    {
+      "id": 2620,
+      "word": "acid rain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæsɪd] [reɪn]",
+        "br": "[ˈæsɪd] [reɪn]",
+        "gb": "[ˈæsɪd] [reɪn]"
+      },
+      "translations": {
+        "rus": "кислотный дождь",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 463,
+      "word": "air",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[er]",
+        "br": "[eə(r)]",
+        "gb": "[ɛə]"
+      },
+      "translations": {
+        "rus": "воздух, воздушный, эфир",
+        "spa": "el aire"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A delicious smell filled the air.",
+            "ru": "Воздух наполнился восхитительно вкусным запахом."
+          },
+          {
+            "en": "There is no air on the moon.",
+            "ru": "На Луне нет воздуха."
+          },
+          {
+            "en": "The programme goes on the air.",
+            "ru": "Программа выходит в эфир."
+          },
+          {
+            "en": "They were off the air.",
+            "ru": "Они закончили передачу."
+          },
+          {
+            "en": "We cannot live without air.",
+            "ru": "Мы не можем жить без воздуха."
+          },
+          {
+            "en": "The picture was taken from the air.",
+            "ru": "Снимок сделали с воздуха."
+          },
+          {
+            "en": "The air is soft, the soil moist.",
+            "ru": "Воздух мягкий, почва влажная."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I just need some air.",
+            "es": "Solo necesito aire."
+          },
+          {
+            "en": "Let in some fresh air.",
+            "es": "Deja entrar algo de aire fresco."
+          },
+          {
+            "en": "He put air in his tires.",
+            "es": "Le echó aire a sus neumáticos."
+          },
+          {
+            "en": "The air in here is foul.",
+            "es": "El aire aquí está muy viciado."
+          }
+        ]
+      },
+      "categories": [
+        "art",
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2621,
+      "word": "alkalinity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌælkəˈlɪnəti]",
+        "br": "[ˌælkəˈlɪnəti]",
+        "gb": "[ælkəˈlɪnɪtɪ]"
+      },
+      "translations": {
+        "rus": "щелочность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2622,
+      "word": "atmosphere",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈætməsfɪr]",
+        "br": "[ˈætməsfɪə(r)]",
+        "gb": "[ˈætməsfɪə]"
+      },
+      "translations": {
+        "rus": "атмосфера",
+        "spa": "la atmósfera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The moon has no atmosphere.",
+            "ru": "У Луны нет атмосферы."
+          },
+          {
+            "en": "The atmosphere is being polluted.",
+            "ru": "Атмосфера загрязняется."
+          },
+          {
+            "en": "The atmosphere was uncomfortable.",
+            "ru": "Атмосфера была неприятной."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The atmosphere is being polluted.",
+            "es": "La atmósfera está siendo contaminada."
+          },
+          {
+            "en": "The atmosphere mostly consists of nitrogen and oxygen.",
+            "es": "La atmósfera se compone en su mayor parte de nitrógeno y oxígeno."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2623,
+      "word": "biodegradability",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[baɪəʊdɪˈgreɪdəbɪlɪtɪ]"
+      },
+      "translations": {
+        "rus": "биоразлагаемость",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2624,
+      "word": "biosphere",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbaɪəʊsfɪr]",
+        "br": "[ˈbaɪəʊsfɪə(r)]",
+        "gb": "[ˈbaɪəsfɪə]"
+      },
+      "translations": {
+        "rus": "биосфера",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2625,
+      "word": "blizzard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈblɪzərd]",
+        "br": "[ˈblɪzəd]",
+        "gb": "[ˈblɪzəd]"
+      },
+      "translations": {
+        "rus": "вьюга",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2628,
+      "word": "bog",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɑːɡ]",
+        "br": "[bɒɡ]",
+        "gb": "[bɔg]"
+      },
+      "translations": {
+        "rus": "болото",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2629,
+      "word": "burdock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɜːrdɑːk]",
+        "br": "[ˈbɜːdɒk]",
+        "gb": "[ˈbɜːdɔk]"
+      },
+      "translations": {
+        "rus": "репей, лопух",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2630,
+      "word": "by-product",
+      "pos": "noun",
+      "transcription": {
+        "us": "[baɪ] [ˈprɑːdʌkt]",
+        "br": "[baɪ] [ˈprɒdʌkt]",
+        "gb": "[baɪ] [ˈprɔdʌkt]"
+      },
+      "translations": {
+        "rus": "побочный продукт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2631,
+      "word": "calamity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəˈlæməti]",
+        "br": "[kəˈlæməti]",
+        "gb": "[kəˈlæmɪtɪ]"
+      },
+      "translations": {
+        "rus": "бедствие",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2632,
+      "word": "carbon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːrbən]",
+        "br": "[ˈkɑːbən]",
+        "gb": "[ˈkɑːbən]"
+      },
+      "translations": {
+        "rus": "углерод",
+        "spa": "el carbono"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How many carbon atoms does methane have?",
+            "ru": "Сколько атомов углерода в метане?"
+          },
+          {
+            "en": "Cast iron is an alloy of iron and carbon.",
+            "ru": "Чугун — это сплав железа с углеродом."
+          },
+          {
+            "en": "All living things on Earth contain carbon.",
+            "ru": "Всё живое на Земле содержит в себе углерод."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2633,
+      "word": "catchment level",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈkæʧmənt] [levl]"
+      },
+      "translations": {
+        "rus": "уровень водосбора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2634,
+      "word": "chamomile",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæməmaɪl]",
+        "br": "[ˈkæməmaɪl]",
+        "gb": "[ˈkæməmaɪl]"
+      },
+      "translations": {
+        "rus": "ромашка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2635,
+      "word": "chlorine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklɔːriːn]",
+        "br": "[ˈklɔːriːn]",
+        "gb": "[ˈklɔːriːn]"
+      },
+      "translations": {
+        "rus": "хлор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 326,
+      "word": "clay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kleɪ]",
+        "br": "[kleɪ]",
+        "gb": "[kleɪ]"
+      },
+      "translations": {
+        "rus": "глина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "archaeology",
+        "architecture",
+        "ecology"
+      ]
+    },
+    {
+      "id": 2637,
+      "word": "cloud",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klaʊd]",
+        "br": "[klaʊd]",
+        "gb": "[klaʊd]"
+      },
+      "translations": {
+        "rus": "туча, облако",
+        "spa": "la nube"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The cloud was pitch black.",
+            "ru": "Туча была черной как смоль."
+          },
+          {
+            "en": "There are clouds in the sky.",
+            "ru": "На небе облака."
+          },
+          {
+            "en": "The clouds are getting darker.",
+            "ru": "Облака темнеют."
+          },
+          {
+            "en": "What colour is the cloud?",
+            "ru": "Какого цвета облако?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2638,
+      "word": "coast",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[kəʊst]",
+        "br": "[kəʊst]",
+        "gb": "[kəʊst]"
+      },
+      "translations": {
+        "rus": "берег, побережье, береговой",
+        "spa": "la costa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He lives on the coast.",
+            "ru": "Он живет на побережье."
+          },
+          {
+            "en": "We'll sail along the coast.",
+            "ru": "Мы проплывем вдоль побережья."
+          },
+          {
+            "en": "A village on the south coast.",
+            "ru": "Деревня на Южном побережье."
+          },
+          {
+            "en": "From here, it's about three kilometers to the coast.",
+            "ru": "Отсюда до побережья около трёх километров."
+          },
+          {
+            "en": "We went to the coast for our summer vacation.",
+            "ru": "На летние каникулы мы отправились на побережье."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She moved to the West Coast.",
+            "es": "Ella se mudó a la Costa Oeste."
+          },
+          {
+            "en": "I'm from the West Coast.",
+            "es": "Soy de la costa oeste."
+          },
+          {
+            "en": "We drove along the coast.",
+            "es": "Conducimos a lo largo de la costa."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2639,
+      "word": "conservation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːnsərˈveɪʃn]",
+        "br": "[ˌkɒnsəˈveɪʃn]",
+        "gb": "[kɔnsɜːˈveɪʃn]"
+      },
+      "translations": {
+        "rus": "сохранение, охрана",
+        "spa": "la conservación, la protección"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2640,
+      "word": "contamination",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˌtæmɪˈneɪʃn]",
+        "br": "[kənˌtæmɪˈneɪʃn]",
+        "gb": "[kəntæmɪˈneɪʃn]"
+      },
+      "translations": {
+        "rus": "загрязнение, заражение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2641,
+      "word": "crawfish",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkrɔːfɪʃ]",
+        "br": "[ˈkrɔːfɪʃ]",
+        "gb": "[ˈkrɔːfɪʃ]"
+      },
+      "translations": {
+        "rus": "рак",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2642,
+      "word": "decay",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈkeɪ]",
+        "br": "[dɪˈkeɪ]",
+        "gb": "[dɪˈkeɪ]"
+      },
+      "translations": {
+        "rus": "разложение, гниение, гниль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2643,
+      "word": "deforestation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌdiːˌfɔːrɪˈsteɪʃn]",
+        "br": "[ˌdiːˌfɒrɪˈsteɪʃn]",
+        "gb": "[dɪfɔːrɪˈsteɪʃn]"
+      },
+      "translations": {
+        "rus": "вырубка леса",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2644,
+      "word": "depletion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈpliːʃn]",
+        "br": "[dɪˈpliːʃn]",
+        "gb": "[dɪˈpliːʃn]"
+      },
+      "translations": {
+        "rus": "истощение, обеднение, уменьшение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2645,
+      "word": "desertification",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˌzɜːrtɪfɪˈkeɪʃn]",
+        "br": "[dɪˌzɜːtɪfɪˈkeɪʃn]",
+        "gb": "[dɪˈzɜːtɪfɪkeɪʃn]"
+      },
+      "translations": {
+        "rus": "опустынивание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2646,
+      "word": "dioxide",
+      "pos": "noun",
+      "transcription": {
+        "us": "[daɪˈɑːksaɪd]",
+        "br": "[daɪˈɒksaɪd]",
+        "gb": "[daɪˈɔksaɪd]"
+      },
+      "translations": {
+        "rus": "двуокись",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2647,
+      "word": "dirt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɜːrt]",
+        "br": "[dɜːt]",
+        "gb": "[dɜːt]"
+      },
+      "translations": {
+        "rus": "грязь",
+        "spa": "el lodo, la suciedad, el barro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The children were playing in the dirt.",
+            "ru": "Дети играли в грязи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2434,
+      "word": "ditch",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪtʃ]",
+        "br": "[dɪtʃ]",
+        "gb": "[dɪʧ]"
+      },
+      "translations": {
+        "rus": "канава, ров, котлован",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology"
+      ]
+    },
+    {
+      "id": 2648,
+      "word": "diversion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈvɜːrʒn]",
+        "br": "[daɪˈvɜːʃn]",
+        "gb": "[daɪˈvɜːʃn]"
+      },
+      "translations": {
+        "rus": "отклонение, отвод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2649,
+      "word": "downpour",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdaʊnpɔːr]",
+        "br": "[ˈdaʊnpɔː(r)]",
+        "gb": "[ˈdaʊnpɔː]"
+      },
+      "translations": {
+        "rus": "ливень",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2650,
+      "word": "dragonfly",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdræɡənflaɪ]",
+        "br": "[ˈdræɡənflaɪ]",
+        "gb": "[ˈdrægənflaɪ]"
+      },
+      "translations": {
+        "rus": "стрекоза",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2651,
+      "word": "drizzle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdrɪzl]",
+        "br": "[ˈdrɪzl]",
+        "gb": "[drɪzl]"
+      },
+      "translations": {
+        "rus": "изморось",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2652,
+      "word": "drought",
+      "pos": "noun",
+      "transcription": {
+        "us": "[draʊt]",
+        "br": "[draʊt]",
+        "gb": "[draʊt]"
+      },
+      "translations": {
+        "rus": "засуха",
+        "spa": "la sequía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There's a drought in California.",
+            "ru": "В Калифорнии засуха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2653,
+      "word": "dump",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʌmp]",
+        "br": "[dʌmp]",
+        "gb": "[dʌmp]"
+      },
+      "translations": {
+        "rus": "свалка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 1451,
+      "word": "dumping",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʌmpɪŋ]",
+        "br": "[ˈdʌmpɪŋ]",
+        "gb": "[ˈdʌmpɪŋ]"
+      },
+      "translations": {
+        "rus": "демпинг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "business",
+        "ecology",
+        "marketing"
+      ]
+    },
+    {
+      "id": 2654,
+      "word": "Earth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɜːrθ]",
+        "br": "[ɜːθ]",
+        "gb": "[ɜːθ]"
+      },
+      "translations": {
+        "rus": "Земля",
+        "spa": "la Tierra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We live on the Earth.",
+            "ru": "Мы живём на Земле."
+          },
+          {
+            "en": "It was Earth Day yesterday.",
+            "ru": "Вчера был День Земли."
+          },
+          {
+            "en": "Flowers are the Earth's smile.",
+            "ru": "Цветы — улыбка земли."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The Earth is our home.",
+            "es": "La Tierra es nuestro hogar."
+          },
+          {
+            "en": "What makes the Earth spin?",
+            "es": "¿Qué hace girar a la Tierra?"
+          },
+          {
+            "en": "How can we save the Earth?",
+            "es": "¿Cómo podemos salvar la Tierra?"
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2655,
+      "word": "ecosystem",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈiːkəʊsɪstəm]",
+        "br": "[ˈiːkəʊsɪstəm]",
+        "gb": "[ˈiːkəʊsɪstəm]"
+      },
+      "translations": {
+        "rus": "экосистема",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2656,
+      "word": "effluent",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈefluənt]",
+        "br": "[ˈefluənt]",
+        "gb": "[ˈeflʊənt]"
+      },
+      "translations": {
+        "rus": "сточные воды",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2657,
+      "word": "element",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈelɪmənt]",
+        "br": "[ˈelɪmənt]",
+        "gb": "[ˈelɪmənt]"
+      },
+      "translations": {
+        "rus": "стихия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2658,
+      "word": "emergency",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ɪˈmɜːrdʒənsi]",
+        "br": "[ɪˈmɜːdʒənsi]",
+        "gb": "[ɪˈmɜːʤənsɪ]"
+      },
+      "translations": {
+        "rus": "аварийный, экстренный, непредвиденный, авария, критическое положение",
+        "spa": "la emergencia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where is the emergency exit?",
+            "ru": "Где аварийный выход?"
+          },
+          {
+            "en": "This is an emergency.",
+            "ru": "Это экстренная ситуация."
+          },
+          {
+            "en": "You must take emergency measures.",
+            "ru": "Вы должны принять экстренные меры."
+          },
+          {
+            "en": "Use only in case of emergency.",
+            "ru": "Использовать только в случае экстренной необходимости."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2659,
+      "word": "emission",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈmɪʃn]",
+        "br": "[ɪˈmɪʃn]",
+        "gb": "[ɪˈmɪʃn]"
+      },
+      "translations": {
+        "rus": "выброс, излучение, выпуск, эмиссия",
+        "spa": "la emisión, la expulsión, la polución"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Since 1990, methane emissions have decreased by 11%.",
+            "ru": "С 1990 года выбросы метана сократились на 11%."
+          },
+          {
+            "en": "What are some ways to reduce carbon emissions?",
+            "ru": "Какими способами можно сократить углеродосодержащие выбросы?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2660,
+      "word": "emissions",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ɪˈmɪʃənz]"
+      },
+      "translations": {
+        "rus": "выходы, выбросы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2661,
+      "word": "endangered",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˈdeɪndʒərd]",
+        "br": "[ɪnˈdeɪndʒəd]",
+        "gb": "[ɪnˈdeɪnʤəd]"
+      },
+      "translations": {
+        "rus": "исчезающий, вымирающий, находящийся под угрозой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2662,
+      "word": "environmental",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ɪnˌvaɪrənˈmentl]",
+        "br": "[ɪnˌvaɪrənˈmentl]",
+        "gb": "[ɪnvaɪərənˈmentl]"
+      },
+      "translations": {
+        "rus": "относящийся к окружающей среде, экологический",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2663,
+      "word": "extinction",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪkˈstɪŋkʃn]",
+        "br": "[ɪkˈstɪŋkʃn]",
+        "gb": "[ɪksˈtɪŋkʃn]"
+      },
+      "translations": {
+        "rus": "вымирание, исчезновение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2664,
+      "word": "filth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪlθ]",
+        "br": "[fɪlθ]",
+        "gb": "[fɪlθ]"
+      },
+      "translations": {
+        "rus": "грязь, гадость, нечистота",
+        "spa": "la porquería, la mugre, la suciedad, la inmundicia, las obscenidades"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Filth breeds illnesses.",
+            "ru": "Грязь порождает заболевания."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2665,
+      "word": "flock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flɑːk]",
+        "br": "[flɒk]",
+        "gb": "[flɔk]"
+      },
+      "translations": {
+        "rus": "стая",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2666,
+      "word": "flood",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flʌd]",
+        "br": "[flʌd]",
+        "gb": "[flʌd]"
+      },
+      "translations": {
+        "rus": "наводнение, потоп",
+        "spa": "la inundación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bridge was washed away by the flood.",
+            "ru": "Мост смыло наводнением."
+          },
+          {
+            "en": "The flood ruined the crops.",
+            "ru": "Наводнение уничтожило посевы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2667,
+      "word": "flooding",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈflʌdɪŋ]",
+        "br": "[ˈflʌdɪŋ]",
+        "gb": "[ˈflʌdɪŋ]"
+      },
+      "translations": {
+        "rus": "наводнение, затопление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2668,
+      "word": "flow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fləʊ]",
+        "br": "[fləʊ]",
+        "gb": "[fləʊ]"
+      },
+      "translations": {
+        "rus": "поток, течение",
+        "spa": "el flujo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The flow of this river is fast.",
+            "ru": "У этой реки быстрое течение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2669,
+      "word": "flower",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈflaʊər]",
+        "br": "[ˈflaʊə(r)]",
+        "gb": "[ˈflaʊə]"
+      },
+      "translations": {
+        "rus": "цветок, цветочный",
+        "spa": "la flor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Flowers bloom.",
+            "ru": "Цветы цветут."
+          },
+          {
+            "en": "What is this flower called?",
+            "ru": "Как называется этот цветок?"
+          },
+          {
+            "en": "The plant will flower every other year.",
+            "ru": "Это растение будет цвести раз в два года."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The bee alighted on the flower.",
+            "es": "La abeja se posó en la flor."
+          },
+          {
+            "en": "The rose is the national flower of this country.",
+            "es": "La rosa es la flor nacional de este país."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2670,
+      "word": "foliage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfəʊliɪdʒ]",
+        "br": "[ˈfəʊliɪdʒ]",
+        "gb": "[ˈfəʊlɪɪʤ]"
+      },
+      "translations": {
+        "rus": "листва",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2671,
+      "word": "forest",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈfɔːrɪst]",
+        "br": "[ˈfɒrɪst]",
+        "gb": "[ˈfɔrɪst]"
+      },
+      "translations": {
+        "rus": "лес, лесной",
+        "spa": "el bosque"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The fox lit out for the forest.",
+            "ru": "Лиса быстро побежала к лесу."
+          },
+          {
+            "en": "The forest stretches for miles.",
+            "ru": "Лес тянется на много миль."
+          },
+          {
+            "en": "Fires destroyed acres of forest.",
+            "ru": "Пожары уничтожили несколько гектаров леса."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I got lost in the forest.",
+            "es": "Me perdí en el bosque."
+          },
+          {
+            "en": "Animals inhabit the forest.",
+            "es": "Los animales viven en el bosque."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2672,
+      "word": "fossil fuel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɑːsl] [ˈfjuːəl]",
+        "br": "[ˈfɒsl] [ˈfjuːəl]",
+        "gb": "[fɔsl] [fjʊəl]"
+      },
+      "translations": {
+        "rus": "ископаемое топливо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2673,
+      "word": "frost",
+      "pos": "noun",
+      "transcription": {
+        "us": "[frɔːst]",
+        "br": "[frɒst]",
+        "gb": "[frɔst]"
+      },
+      "translations": {
+        "rus": "заморозок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2674,
+      "word": "fume",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fjuːm]",
+        "br": "[fjuːm]",
+        "gb": "[fjuːm]"
+      },
+      "translations": {
+        "rus": "дым, выхлоп",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2675,
+      "word": "fungus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfʌŋɡəs]",
+        "br": "[ˈfʌŋɡəs]",
+        "gb": "[ˈfʌŋgəs]"
+      },
+      "translations": {
+        "rus": "грибок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "health"
+      ]
+    },
+    {
+      "id": 2676,
+      "word": "glade",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡleɪd]",
+        "br": "[ɡleɪd]",
+        "gb": "[gleɪd]"
+      },
+      "translations": {
+        "rus": "поляна",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2677,
+      "word": "gloom",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡluːm]",
+        "br": "[ɡluːm]",
+        "gb": "[gluːm]"
+      },
+      "translations": {
+        "rus": "мрак, тьма",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was often subject to periods of gloom.",
+            "ru": "Он часто был подвержен периодам уныния."
+          },
+          {
+            "en": "I've never seen you looking so gloomy.",
+            "ru": "Никогда не видел тебя таким мрачным."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2678,
+      "word": "grass",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡræs]",
+        "br": "[ɡrɑːs]",
+        "gb": "[grɑːs]"
+      },
+      "translations": {
+        "rus": "трава",
+        "spa": "el césped"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The grass was knee-high.",
+            "ru": "Трава была по колено."
+          },
+          {
+            "en": "We picnicked on the grass.",
+            "ru": "Мы устроили пикник на траве."
+          },
+          {
+            "en": "Don't tread on the grass.",
+            "ru": "Не ходи по траве."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2679,
+      "word": "green belt",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡriːn] [belt]",
+        "br": "[ɡriːn] [belt]",
+        "gb": "[griːn] [belt]"
+      },
+      "translations": {
+        "rus": "полоса зеленых насаждений",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2680,
+      "word": "greenhouse effect",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɡriːnhaʊs] [ɪˈfekt]",
+        "br": "[ˈɡriːnhaʊs] [ɪˈfekt]",
+        "gb": "[ˈgriːnhaʊs] [ɪˈfekt]"
+      },
+      "translations": {
+        "rus": "парниковый эффект",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2681,
+      "word": "grove",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrəʊv]",
+        "br": "[ɡrəʊv]",
+        "gb": "[grəʊv]"
+      },
+      "translations": {
+        "rus": "роща",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A grove of ancient oak trees.",
+            "ru": "Роща древних дубовых деревьев."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2682,
+      "word": "habitat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhæbɪtæt]",
+        "br": "[ˈhæbɪtæt]",
+        "gb": "[ˈhæbɪtæt]"
+      },
+      "translations": {
+        "rus": "место, среда обитания",
+        "spa": "el hábitat"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Their habitat is threatened by deforestation.",
+            "ru": "Их среда обитания находится под угрозой из-за вырубки лесов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 2683,
+      "word": "hazardous",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈhæzərdəs]",
+        "br": "[ˈhæzədəs]",
+        "gb": "[ˈhæzədəs]"
+      },
+      "translations": {
+        "rus": "опасный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2684,
+      "word": "heat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hiːt]",
+        "br": "[hiːt]",
+        "gb": "[hiːt]"
+      },
+      "translations": {
+        "rus": "жара, тепло",
+        "spa": "el calor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I don't like the heat.",
+            "ru": "Жара мне не нравится."
+          },
+          {
+            "en": "The sun gives light and heat.",
+            "ru": "Солнце даёт свет и тепло."
+          },
+          {
+            "en": "The heat is terrible today.",
+            "ru": "Сегодня ужасная жара."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Heat is a form of energy.",
+            "es": "El calor es una forma de energía."
+          },
+          {
+            "en": "I cannot stand this heat.",
+            "es": "No aguanto este calor."
+          },
+          {
+            "en": "Heat turns ice into water.",
+            "es": "El calor transforma el hielo en agua."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2685,
+      "word": "herbicide",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": "[ˈhɜːbɪsaɪd]",
+        "gb": "[ˈhɜːbɪsaɪd]"
+      },
+      "translations": {
+        "rus": "гербицид",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2686,
+      "word": "hill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪl]",
+        "br": "[hɪl]",
+        "gb": "[hɪl]"
+      },
+      "translations": {
+        "rus": "холм",
+        "spa": "la colina"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I walked up the hill.",
+            "ru": "Я поднялся на холм."
+          },
+          {
+            "en": "The hill is always green.",
+            "ru": "Холм всегда зелёный."
+          },
+          {
+            "en": "You must go up the hill.",
+            "ru": "Вам надо подняться на холм."
+          },
+          {
+            "en": "The hill was all covered with snow.",
+            "ru": "Холм был весь в снегу."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I walked up the hill.",
+            "es": "Subí la colina a pie."
+          },
+          {
+            "en": "He is standing on the hill.",
+            "es": "Él está parado en la colina."
+          },
+          {
+            "en": "They began to climb the hill.",
+            "es": "Ellos empezaron a escalar la colina."
+          },
+          {
+            "en": "Look at that tower standing on the hill.",
+            "es": "Mira esa torre sobre la colina."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2482,
+      "word": "hole",
+      "pos": "noun",
+      "transcription": {
+        "us": "[həʊl]",
+        "br": "[həʊl]",
+        "gb": "[həʊl]"
+      },
+      "translations": {
+        "rus": "дыра, отверстие, нора, лунка",
+        "spa": "el agujero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It is a black hole.",
+            "ru": "Это чёрная дыра."
+          },
+          {
+            "en": "I don't see any bullet holes.",
+            "ru": "Я не вижу никаких пулевых отверстий."
+          },
+          {
+            "en": "There's a hole in the ceiling.",
+            "ru": "В потолке дыра."
+          },
+          {
+            "en": "How deep is the hole?",
+            "ru": "Какой глубины дыра?"
+          },
+          {
+            "en": "There was a bullet hole in the windshield.",
+            "ru": "В ветровом стекле было пулевое отверстие."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The hole is big enough.",
+            "es": "El agujero es bastante grande."
+          }
+        ]
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2485,
+      "word": "humidity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hjuːˈmɪdəti]",
+        "br": "[hjuːˈmɪdəti]",
+        "gb": "[hjuːˈmɪdɪtɪ]"
+      },
+      "translations": {
+        "rus": "влажность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology"
+      ]
+    },
+    {
+      "id": 2687,
+      "word": "hurricane",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈhɜːrəkeɪn]",
+        "br": "[ˈhʌrɪkən]",
+        "gb": "[ˈhʌrɪkən]"
+      },
+      "translations": {
+        "rus": "ураган, тропический циклон",
+        "spa": "el huracán"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "After the hurricane, their house was a wreck.",
+            "ru": "После урагана их дом был разрушен."
+          },
+          {
+            "en": "In spite of the hurricane, the ship reached port.",
+            "ru": "Несмотря на ураган, судно достигло порта."
+          },
+          {
+            "en": "Florida is famous for its hurricanes and floods.",
+            "ru": "Флорида известна своими ураганами и наводнениями."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2688,
+      "word": "hydrocarbon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌhaɪdrəˈkɑːrbən]",
+        "br": "[ˌhaɪdrəˈkɑːbən]",
+        "gb": "[ˌhaɪdroʊˈkɑrbən]"
+      },
+      "translations": {
+        "rus": "углеводород",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2689,
+      "word": "ice",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[aɪs]",
+        "br": "[aɪs]",
+        "gb": "[aɪs]"
+      },
+      "translations": {
+        "rus": "лед, ледяной",
+        "spa": "el hielo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's as cold as ice.",
+            "ru": "Он холоден, как лёд."
+          },
+          {
+            "en": "Ice melts in the sun.",
+            "ru": "Лёд тает на солнце."
+          },
+          {
+            "en": "The ice is very thick.",
+            "ru": "Лёд очень толстый."
+          },
+          {
+            "en": "The water turned to ice.",
+            "ru": "Вода превратилась в лед."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why does ice float?",
+            "es": "¿Por qué el hielo flota?"
+          },
+          {
+            "en": "It's as cold as ice.",
+            "es": "Es tan frío como el hielo."
+          },
+          {
+            "en": "The ice has melted.",
+            "es": "El hielo se ha derretido."
+          },
+          {
+            "en": "Falling on ice hurts.",
+            "es": "Duele caer sobre el hielo."
+          },
+          {
+            "en": "Heat turns ice into water.",
+            "es": "El calor transforma el hielo en agua."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2690,
+      "word": "ice floe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪs] [fləʊ]",
+        "br": "[aɪs] [fləʊ]",
+        "gb": "[aɪs] [fləʊ]"
+      },
+      "translations": {
+        "rus": "льдина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2691,
+      "word": "incineration",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˌsɪnəˈreɪʃn]",
+        "br": "[ɪnˌsɪnəˈreɪʃn]",
+        "gb": "[ɪnˈsɪnəˈreɪʃn]"
+      },
+      "translations": {
+        "rus": "сжигание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2692,
+      "word": "island",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪlənd]",
+        "br": "[ˈaɪlənd]",
+        "gb": "[ˈaɪlənd]"
+      },
+      "translations": {
+        "rus": "остров",
+        "spa": "la isla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you like my island?",
+            "ru": "Тебе нравится мой остров?"
+          },
+          {
+            "en": "This really isn't an island.",
+            "ru": "На самом деле это не остров."
+          },
+          {
+            "en": "There's no way off the island.",
+            "ru": "С острова никуда не деться."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Few people live on the island.",
+            "es": "Poca gente vive en la isla."
+          },
+          {
+            "en": "The island is warm all year.",
+            "es": "La isla es cálida todo el año."
+          },
+          {
+            "en": "There's no way off the island.",
+            "es": "No hay camino fuera de la isla."
+          },
+          {
+            "en": "The island is a paradise for children.",
+            "es": "La isla es un paraíso para los niños."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2693,
+      "word": "lake",
+      "pos": "noun",
+      "transcription": {
+        "us": "[leɪk]",
+        "br": "[leɪk]",
+        "gb": "[leɪk]"
+      },
+      "translations": {
+        "rus": "озеро",
+        "spa": "el lago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Let's drive to the lake.",
+            "ru": "Поехали на озеро."
+          },
+          {
+            "en": "We swam in the lake.",
+            "ru": "Мы плавали в озере."
+          },
+          {
+            "en": "The lake is very deep.",
+            "ru": "Озеро очень глубокое."
+          },
+          {
+            "en": "She took him to the lake.",
+            "ru": "Она отвела его к озеру."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We swam in the lake.",
+            "es": "Nadamos en el lago."
+          },
+          {
+            "en": "The lake is deep here.",
+            "es": "El lago es profundo por aquí."
+          },
+          {
+            "en": "Some boats are on the lake.",
+            "es": "Algunos botes están en el lago."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2694,
+      "word": "landfill",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlændfɪl]",
+        "br": "[ˈlændfɪl]",
+        "gb": "[ˈlændfɪl]"
+      },
+      "translations": {
+        "rus": "свалка мусора",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2695,
+      "word": "layer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈleɪər]",
+        "br": "[ˈleɪə(r)]",
+        "gb": "[ˈleɪə]"
+      },
+      "translations": {
+        "rus": "слой, уровень, пласт",
+        "spa": "la capa"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Frost is a layer of ice crystals.",
+            "ru": "Иней — это слой кристаллов льда."
+          },
+          {
+            "en": "The layer of ice was thick enough to walk on.",
+            "ru": "Слой льда был достаточно толстый, чтобы по нему можно было ходить."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2696,
+      "word": "marsh",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɑːrʃ]",
+        "br": "[mɑːʃ]",
+        "gb": "[mɑːʃ]"
+      },
+      "translations": {
+        "rus": "болото, болотный",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The crane lives in marshy habitats.",
+            "ru": "Журавль обитает в болотистой среде."
+          },
+          {
+            "en": "Marsh gases ignited suddenly.",
+            "ru": "Внезапно воспламенились болотные газы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2697,
+      "word": "meadow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmedəʊ]",
+        "br": "[ˈmedəʊ]",
+        "gb": "[ˈmedəʊ]"
+      },
+      "translations": {
+        "rus": "луг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2698,
+      "word": "mean daily sample",
+      "pos": "noun",
+      "transcription": {
+        "us": "[miːn] [ˈdeɪli] [ˈsæmpl]",
+        "br": "[miːn] [ˈdeɪli] [ˈsɑːmpl]",
+        "gb": "[miːn] [ˈdeɪlɪ] [sɑːmpl]"
+      },
+      "translations": {
+        "rus": "среднесуточная проба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2699,
+      "word": "monoxide",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[mɔˈnɔksaɪd]"
+      },
+      "translations": {
+        "rus": "окись",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2700,
+      "word": "Moon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[muːn]",
+        "br": "[muːn]",
+        "gb": "[muːn]"
+      },
+      "translations": {
+        "rus": "Луна",
+        "spa": "la luna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Moon comes out.",
+            "ru": "Луна выходит."
+          },
+          {
+            "en": "The Moon waxes.",
+            "ru": "Луна растёт."
+          },
+          {
+            "en": "The Moon wanes.",
+            "ru": "Луна убывает."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2701,
+      "word": "mountain ridge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaʊntn] [rɪdʒ]",
+        "br": "[ˈmaʊntən] [rɪdʒ]",
+        "gb": "[ˈmaʊntɪn] [rɪʤ]"
+      },
+      "translations": {
+        "rus": "горный хребет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2702,
+      "word": "mud",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mʌd]",
+        "br": "[mʌd]",
+        "gb": "[mʌd]"
+      },
+      "translations": {
+        "rus": "грязь",
+        "spa": "el lodo, el barro, el fango"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We like playing in mud.",
+            "ru": "Мы любим играть в грязи."
+          },
+          {
+            "en": "He was knee deep in mud.",
+            "ru": "Он был по колено в грязи."
+          },
+          {
+            "en": "She pulled him out of the mud.",
+            "ru": "Она вытащила его из грязи."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 2703,
+      "word": "multiple use",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌltɪpl] [juːs]",
+        "br": "[ˈmʌltɪpl] [juːs]",
+        "gb": "[ˈmʌltɪpl] [juːs]"
+      },
+      "translations": {
+        "rus": "комплексное использование (ресурсов)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2704,
+      "word": "natural",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈnætʃrəl]",
+        "br": "[ˈnætʃrəl]",
+        "gb": "[ˈnæʧrəl]"
+      },
+      "translations": {
+        "rus": "натуральный, естественный, природный",
+        "spa": "natural"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "25 is a natural number.",
+            "ru": "25 — натуральное число."
+          },
+          {
+            "en": "I think it's natural.",
+            "ru": "Думаю, он натуральный."
+          },
+          {
+            "en": "Are you a natural blonde?",
+            "ru": "Вы натуральная блондинка?"
+          },
+          {
+            "en": "Is her hair naturally red?",
+            "ru": "Её волосы рыжие от природы?"
+          },
+          {
+            "en": "This is my natural hair color.",
+            "ru": "Это мой натуральный цвет волос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He died of natural causes.",
+            "es": "Murió por causas naturales."
+          },
+          {
+            "en": "What's your natural hair color?",
+            "es": "¿Cuál es color natural de tu pelo?"
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2705,
+      "word": "natural resources",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈnæʧrəl] [rɪˈzɔːsɪz]"
+      },
+      "translations": {
+        "rus": "природные ресурсы",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "economy"
+      ]
+    },
+    {
+      "id": 2706,
+      "word": "negligence",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneɡlɪdʒəns]",
+        "br": "[ˈneɡlɪdʒəns]",
+        "gb": "[ˈneglɪʤəns]"
+      },
+      "translations": {
+        "rus": "халатность, небрежность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "legal_english"
+      ]
+    },
+    {
+      "id": 2707,
+      "word": "nightingale",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnaɪtɪŋɡeɪl]",
+        "br": "[ˈnaɪtɪŋɡeɪl]",
+        "gb": "[ˈnaɪtɪŋgeɪl]"
+      },
+      "translations": {
+        "rus": "соловей",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2708,
+      "word": "noise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nɔɪz]",
+        "br": "[nɔɪz]",
+        "gb": "[nɔɪz]"
+      },
+      "translations": {
+        "rus": "шум",
+        "spa": "el ruido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you hear the noise?",
+            "ru": "Ты слышал этот шум?"
+          },
+          {
+            "en": "He was awoken by the noise.",
+            "ru": "Его разбудил шум."
+          },
+          {
+            "en": "Where's the noise coming from?",
+            "ru": "Откуда идёт шум?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "That noise woke me up.",
+            "es": "El ruido me despertó."
+          },
+          {
+            "en": "I can't stand the noise.",
+            "es": "No puedo soportar el ruido."
+          },
+          {
+            "en": "The noise frightened the baby.",
+            "es": "El ruido asustó al bebé."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2709,
+      "word": "non-renewable",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌnɑːn rɪˈnuːəbl]",
+        "br": "[ˌnɒn rɪˈnjuːəbl]",
+        "gb": "[ˌnɒn rɪˈnjuːəbl]"
+      },
+      "translations": {
+        "rus": "невозобновляемый",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2710,
+      "word": "occupational disease",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːkjuˈpeɪʃənl] [dɪˈziːz]",
+        "br": "[ˌɒkjuˈpeɪʃənl] [dɪˈziːz]",
+        "gb": "[ɔkjʊˈpeɪʃənl] [dɪˈziːz]"
+      },
+      "translations": {
+        "rus": "профессиональное заболевание",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2711,
+      "word": "oil slick",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɔɪl] [slɪk]",
+        "br": "[ɔɪl] [slɪk]",
+        "gb": "[ɔɪl] [slɪk]"
+      },
+      "translations": {
+        "rus": "нефтяная пленка (на воде)",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2712,
+      "word": "overflow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvərfləʊ]",
+        "br": "[ˈəʊvəfləʊ]",
+        "gb": "[ˈəʊvəfləʊ]"
+      },
+      "translations": {
+        "rus": "переполнение, перелив, разлив",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2713,
+      "word": "ozone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊzəʊn]",
+        "br": "[ˈəʊzəʊn]",
+        "gb": "[ˈəʊzəʊn]"
+      },
+      "translations": {
+        "rus": "озон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2714,
+      "word": "peninsula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈnɪnsələ]",
+        "br": "[pəˈnɪnsjələ]",
+        "gb": "[pɪˈnɪnsjʊlə]"
+      },
+      "translations": {
+        "rus": "полуостров",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography"
+      ]
+    },
+    {
+      "id": 2715,
+      "word": "permafrost",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɜːrməfrɔːst]",
+        "br": "[ˈpɜːməfrɒst]",
+        "gb": "[ˈpɜːməfrɔst]"
+      },
+      "translations": {
+        "rus": "вечная мерзлота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2716,
+      "word": "pesticide",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpestɪsaɪd]",
+        "br": "[ˈpestɪsaɪd]",
+        "gb": "[ˈpestɪsaɪd]"
+      },
+      "translations": {
+        "rus": "пестицид",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2717,
+      "word": "phenomenon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fəˈnɑːmɪnən]",
+        "br": "[fəˈnɒmɪnən]",
+        "gb": "[fɪˈnɔmɪnən]"
+      },
+      "translations": {
+        "rus": "явление, феномен",
+        "spa": "el fenómeno"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Lightning is an electrical phenomenon.",
+            "ru": "Молния — электрическое явление."
+          },
+          {
+            "en": "This phenomenon is very easy to explain.",
+            "ru": "Этот феномен очень легко объяснить."
+          },
+          {
+            "en": "Acid rain is not a natural phenomenon.",
+            "ru": "Кислотный дождь не является природным явлением."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2718,
+      "word": "pine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[paɪn]",
+        "br": "[paɪn]",
+        "gb": "[paɪn]"
+      },
+      "translations": {
+        "rus": "сосна",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pine is a soft wood.",
+            "ru": "У сосны мягкая древесина."
+          },
+          {
+            "en": "Pine wood saws easily.",
+            "ru": "Сосновая древесина легко пилится."
+          },
+          {
+            "en": "Pine trees exude a sticky substance.",
+            "ru": "Сосновые деревья выделяют липкую субстанцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2719,
+      "word": "plain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pleɪn]",
+        "br": "[pleɪn]",
+        "gb": "[pleɪn]"
+      },
+      "translations": {
+        "rus": "равнина",
+        "spa": "la llanura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The mountain rises above the plain.",
+            "ru": "Гора возвышается над равниной."
+          },
+          {
+            "en": "Missouri has both mountains and plains.",
+            "ru": "В Миссури есть и горы, и равнины."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2720,
+      "word": "plant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plænt]",
+        "br": "[plɑːnt]",
+        "gb": "[plɑːnt]"
+      },
+      "translations": {
+        "rus": "завод",
+        "spa": "la planta, la fábrica"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We have a plant in Boston.",
+            "ru": "У нас в Бостоне есть завод."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2721,
+      "word": "plant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[plænt]",
+        "br": "[plɑːnt]",
+        "gb": "[plɑːnt]"
+      },
+      "translations": {
+        "rus": "растение, цветок",
+        "spa": "la planta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This plant is a hybrid.",
+            "ru": "Это растение — гибрид."
+          },
+          {
+            "en": "Remember to water the plants.",
+            "ru": "Не забудь полить цветы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What kind of plant is it?",
+            "es": "¿Qué planta es?"
+          },
+          {
+            "en": "This plant is good to eat.",
+            "es": "Esta planta es comestible."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2723,
+      "word": "plume",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pluːm]",
+        "br": "[pluːm]",
+        "gb": "[pluːm]"
+      },
+      "translations": {
+        "rus": "шлейф",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2724,
+      "word": "poacher",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpəʊtʃər]",
+        "br": "[ˈpəʊtʃə(r)]",
+        "gb": "[ˈpəʊʧə]"
+      },
+      "translations": {
+        "rus": "браконьер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2725,
+      "word": "pollutant",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈluːtənt]",
+        "br": "[pəˈluːtənt]",
+        "gb": "[pəˈluːtənt]"
+      },
+      "translations": {
+        "rus": "загрязняющее вещество",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2726,
+      "word": "pollution",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pəˈluːʃn]",
+        "br": "[pəˈluːʃn]",
+        "gb": "[pəˈluːʃn]"
+      },
+      "translations": {
+        "rus": "загрязнение",
+        "spa": "la contaminación"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Pollution can be controlled.",
+            "ru": "Загрязнение можно контролировать."
+          },
+          {
+            "en": "The pollution worsens with each year.",
+            "ru": "С каждым годом загрязнение всё хуже."
+          },
+          {
+            "en": "This village is free from air pollution.",
+            "ru": "В этой деревне нет загрязнения воздуха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2727,
+      "word": "precipice",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpresəpɪs]",
+        "br": "[ˈpresəpɪs]",
+        "gb": "[ˈpresɪpɪs]"
+      },
+      "translations": {
+        "rus": "обрыв",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2728,
+      "word": "precipitation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prɪˌsɪpɪˈteɪʃn]",
+        "br": "[prɪˌsɪpɪˈteɪʃn]",
+        "gb": "[prɪsɪpɪˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "осадки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2729,
+      "word": "preserve, sanctuary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prɪˈzɜːrv], [ˈsæŋktʃueri]",
+        "br": "[prɪˈzɜːv], [ˈsæŋktʃuəri]",
+        "gb": "[prɪˈzɜːv] [ˈsæŋktjʊərɪ]"
+      },
+      "translations": {
+        "rus": "заповедник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2730,
+      "word": "protection",
+      "pos": "noun",
+      "transcription": {
+        "us": "[prəˈtekʃn]",
+        "br": "[prəˈtekʃn]",
+        "gb": "[prəˈtekʃn]"
+      },
+      "translations": {
+        "rus": "защита",
+        "spa": "la protección"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I need protection.",
+            "ru": "Мне нужна защита."
+          },
+          {
+            "en": "They wanted protection.",
+            "ru": "Они хотели защиты."
+          },
+          {
+            "en": "You're under my protection.",
+            "ru": "Ты под моей защитой."
+          },
+          {
+            "en": "I don't need your protection.",
+            "ru": "Я не нуждаюсь в твоей защите."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2731,
+      "word": "radioactive",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌreɪdiəʊˈæktɪv]",
+        "br": "[ˌreɪdiəʊˈæktɪv]",
+        "gb": "[ˈreɪdɪəʊˈæktɪv]"
+      },
+      "translations": {
+        "rus": "радиоактивный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2732,
+      "word": "ravine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rəˈviːn]",
+        "br": "[rəˈviːn]",
+        "gb": "[rəˈviːn]"
+      },
+      "translations": {
+        "rus": "овраг",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2733,
+      "word": "recycling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌriːˈsaɪklɪŋ]",
+        "br": "[ˌriːˈsaɪklɪŋ]",
+        "gb": "[riːˈsaɪklɪŋ]"
+      },
+      "translations": {
+        "rus": "вторичное использование, рекуперация, рециркуляция",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2734,
+      "word": "relief",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈliːf]",
+        "br": "[rɪˈliːf]",
+        "gb": "[rɪˈliːf]"
+      },
+      "translations": {
+        "rus": "рельеф",
+        "spa": "el relieve"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2735,
+      "word": "renewable energy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈnuːəbl] [ˈenərdʒi]",
+        "br": "[rɪˈnjuːəbl] [ˈenədʒi]",
+        "gb": "[rɪˈnjuːəbl] [ˈenəʤɪ]"
+      },
+      "translations": {
+        "rus": "возобновляемая энергия",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2736,
+      "word": "reserve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈzɜːrv]",
+        "br": "[rɪˈzɜːv]",
+        "gb": "[rɪˈzɜːv]"
+      },
+      "translations": {
+        "rus": "резерв, запас, резервный",
+        "spa": "la reserva"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I borrowed money from the company's cash reserve.",
+            "ru": "Я занял денег из наличных резервов компании."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000",
+        "travel"
+      ]
+    },
+    {
+      "id": 2737,
+      "word": "reservoir",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrezərvwɑːr]",
+        "br": "[ˈrezəvwɑː(r)]",
+        "gb": "[ˈrezəvwɑː]"
+      },
+      "translations": {
+        "rus": "водоем",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2738,
+      "word": "resource",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈriːsɔːrs]",
+        "br": "[rɪˈsɔːs]",
+        "gb": "[rɪˈsɔːs]"
+      },
+      "translations": {
+        "rus": "ресурс, средство, запас, возможность",
+        "spa": "el recurso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They don't have resources.",
+            "ru": "У них нет ресурсов."
+          },
+          {
+            "en": "Our resources are limited.",
+            "ru": "Наши ресурсы ограниченны."
+          },
+          {
+            "en": "He has infinite resources.",
+            "ru": "Он имеет неограниченные ресурсы."
+          },
+          {
+            "en": "Gas is an important natural resource.",
+            "ru": "Газ — важный природный ресурс."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That country has natural resources.",
+            "es": "Ese país tiene recursos naturales."
+          },
+          {
+            "en": "We mustn't waste our energy resources.",
+            "es": "No debemos desperdiciar nuestros recursos energéticos."
+          },
+          {
+            "en": "Australia is rich in natural resources.",
+            "es": "Australia es rica en recursos naturales."
+          },
+          {
+            "en": "Water is an important natural resource.",
+            "es": "El agua es un recurso natural importante."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2740,
+      "word": "river",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈrɪvər]",
+        "br": "[ˈrɪvə(r)]",
+        "gb": "[ˈrɪvə]"
+      },
+      "translations": {
+        "rus": "река, речной",
+        "spa": "el río"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The river floods.",
+            "ru": "Река поднимается."
+          },
+          {
+            "en": "They sailed down the river.",
+            "ru": "Они поплыли вниз по реке."
+          },
+          {
+            "en": "The river recedes.",
+            "ru": "Вода в реке спадает."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He swims in the river.",
+            "es": "Él nada en el río."
+          },
+          {
+            "en": "The river has dried up.",
+            "es": "El río se ha secado."
+          },
+          {
+            "en": "The river is deep here.",
+            "es": "El río es profundo aquí."
+          },
+          {
+            "en": "I was swimming in the river.",
+            "es": "Yo estaba nadando en el río."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2741,
+      "word": "rock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɑːk]",
+        "br": "[rɒk]",
+        "gb": "[rɔk]"
+      },
+      "translations": {
+        "rus": "скала, камень",
+        "spa": "la roca, la piedra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The ship crashed on the rocks.",
+            "ru": "Корабль разбился о скалы."
+          },
+          {
+            "en": "He hid himself behind a large rock.",
+            "ru": "Он спрятался за большой скалой."
+          },
+          {
+            "en": "This rock has the shape of an animal.",
+            "ru": "Эта скала имеет форму животного."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It was hard as rock.",
+            "es": "Era duro como piedra."
+          },
+          {
+            "en": "It's solid as a rock.",
+            "es": "Es duro como una roca."
+          },
+          {
+            "en": "There is a rock in my shoe.",
+            "es": "Hay una piedra en mi zapato."
+          },
+          {
+            "en": "She's going up the rock.",
+            "es": "Ella se sube arriba de la roca."
+          },
+          {
+            "en": "He threw a rock into the pond.",
+            "es": "Él tiró una piedra en el estanque."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2742,
+      "word": "rot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɑːt]",
+        "br": "[rɒt]",
+        "gb": "[rɔt]"
+      },
+      "translations": {
+        "rus": "гниль, гниение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2743,
+      "word": "runoff",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈrʌnɒf]"
+      },
+      "translations": {
+        "rus": "сток, отвод",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2744,
+      "word": "salinity",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈlɪnəti]",
+        "br": "[səˈlɪnəti]",
+        "gb": "[səˈlɪnɪtɪ]"
+      },
+      "translations": {
+        "rus": "соленость, засоление",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2745,
+      "word": "sampling",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsæmplɪŋ]",
+        "br": "[ˈsɑːmplɪŋ]",
+        "gb": "[ˈsɑːmplɪŋ]"
+      },
+      "translations": {
+        "rus": "отбор проб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2746,
+      "word": "sand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sænd]",
+        "br": "[sænd]",
+        "gb": "[sænd]"
+      },
+      "translations": {
+        "rus": "песок",
+        "spa": "la arena, pulir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have sand in my shoes.",
+            "ru": "У меня песок в ботинках."
+          },
+          {
+            "en": "Let's lie on the sand.",
+            "ru": "Давай ляжем на песок."
+          },
+          {
+            "en": "I got some sand in my eye.",
+            "ru": "У меня песок в глазу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2747,
+      "word": "sea",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[siː]",
+        "br": "[siː]",
+        "gb": "[siː]"
+      },
+      "translations": {
+        "rus": "море, морской",
+        "spa": "el mar, marino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We lived close by the sea.",
+            "ru": "Мы жили у моря."
+          },
+          {
+            "en": "Fish live in the sea.",
+            "ru": "Рыбы живут в море."
+          },
+          {
+            "en": "There is no sea in Armenia.",
+            "ru": "В Армении нет моря."
+          },
+          {
+            "en": "I looked down at the sea.",
+            "ru": "Я смотрел вниз на море."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Fish live in the sea.",
+            "es": "Los peces viven en el mar."
+          },
+          {
+            "en": "Sea turtles have a long lifespan.",
+            "es": "Las tortugas marinas son longevas."
+          },
+          {
+            "en": "He wanted to go to sea.",
+            "es": "Él quería viajar al mar."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top1000",
+        "town"
+      ]
+    },
+    {
+      "id": 2748,
+      "word": "sediment",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsedɪmənt]",
+        "br": "[ˈsedɪmənt]",
+        "gb": "[ˈsedɪmənt]"
+      },
+      "translations": {
+        "rus": "осадок, отложение",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2749,
+      "word": "sewage",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsuːɪdʒ]",
+        "br": "[ˈsuːɪdʒ]",
+        "gb": "[ˈsjuːɪʤ]"
+      },
+      "translations": {
+        "rus": "стоки, нечистоты",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2750,
+      "word": "shrubbery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃrʌbəri]",
+        "br": "[ˈʃrʌbəri]",
+        "gb": "[ˈʃrʌbərɪ]"
+      },
+      "translations": {
+        "rus": "кустарник",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2751,
+      "word": "sky",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skaɪ]",
+        "br": "[skaɪ]",
+        "gb": "[skaɪ]"
+      },
+      "translations": {
+        "rus": "небо, небесный",
+        "spa": "el cielo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sun was high in the sky.",
+            "ru": "Солнце стояло высоко в небе."
+          },
+          {
+            "en": "The evening sky was darkening as I made my way home.",
+            "ru": "Пока я добирался домой, вечернее небо становилось всё темнее."
+          },
+          {
+            "en": "There wasn't a cloud in the sky.",
+            "ru": "На небе не было ни облачка."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The sky is becoming cloudy.",
+            "es": "El cielo se está nublando."
+          },
+          {
+            "en": "The sky started to darken.",
+            "es": "El cielo empezó a oscurecerse."
+          },
+          {
+            "en": "The sky is full of stars.",
+            "es": "El cielo está lleno de estrellas."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2752,
+      "word": "sludge",
+      "pos": "noun",
+      "transcription": {
+        "us": "[slʌdʒ]",
+        "br": "[slʌdʒ]",
+        "gb": "[slʌʤ]"
+      },
+      "translations": {
+        "rus": "ил, грязь, осадок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2753,
+      "word": "snowdrift",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsnəʊdrɪft]",
+        "br": "[ˈsnəʊdrɪft]",
+        "gb": "[ˈsnəʊdrɪft]"
+      },
+      "translations": {
+        "rus": "сугроб",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2572,
+      "word": "soil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔɪl]",
+        "br": "[sɔɪl]",
+        "gb": "[sɔɪl]"
+      },
+      "translations": {
+        "rus": "почва",
+        "spa": "la tierra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The soil here is very poor.",
+            "ru": "Почва здесь неплодородна."
+          },
+          {
+            "en": "Flowers will not do in this soil.",
+            "ru": "Цветы не будут расти на этой почве."
+          },
+          {
+            "en": "In the summer months the soil dries out quickly.",
+            "ru": "В летние месяцы почва высыхает быстро."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2754,
+      "word": "solid",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈsɑːlɪd]",
+        "br": "[ˈsɒlɪd]",
+        "gb": "[ˈsɔlɪd]"
+      },
+      "translations": {
+        "rus": "твердый, прочный, сплошной, твердое тело",
+        "spa": "sólido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Ice is solid.",
+            "ru": "Лёд твёрдый."
+          },
+          {
+            "en": "This bed looks solid.",
+            "ru": "Эта кровать кажется прочной."
+          },
+          {
+            "en": "Is the beam solid or hollow?",
+            "ru": "Эта балка сплошная или полая?"
+          },
+          {
+            "en": "It's solid as a rock.",
+            "ru": "Он твёрдый, как камень."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2363,
+      "word": "source",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[sɔːrs]",
+        "br": "[sɔːs]",
+        "gb": "[sɔːs]"
+      },
+      "translations": {
+        "rus": "источник, исходный",
+        "spa": "la fuente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Beans are a very good source of protein.",
+            "ru": "Бобы — очень хороший источник белка."
+          },
+          {
+            "en": "Sources dry up.",
+            "ru": "Источники пересыхают."
+          },
+          {
+            "en": "He refused to disclose the source of his information.",
+            "ru": "Он отказался раскрыть источник своей информации."
+          },
+          {
+            "en": "Information from various intelligence sources.",
+            "ru": "Информация из различных разведывательных источников."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I can't reveal my source.",
+            "es": "No puedo revelar mis fuentes."
+          },
+          {
+            "en": "Is it a good source of protein?",
+            "es": "¿Es una buena fuente de proteína?"
+          },
+          {
+            "en": "What are the sources of happiness?",
+            "es": "¿Cuáles son las fuentes de la felicidad?"
+          },
+          {
+            "en": "That was the source of his troubles.",
+            "es": "Esa era la fuente de sus problemas."
+          },
+          {
+            "en": "I got the news from a reliable source.",
+            "es": "Obtuve la noticia de una fuente confiable."
+          },
+          {
+            "en": "They had no alternative energy sources.",
+            "es": "No tenían fuentes de energía alternativa."
+          },
+          {
+            "en": "Sunshine is the main source of vitamin D.",
+            "es": "La luz solar es la principal fuente de vitamina D."
+          }
+        ]
+      },
+      "categories": [
+        "computer",
+        "ecology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2755,
+      "word": "species",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspiːʃiːz]",
+        "br": "[ˈspiːʃiːz]",
+        "gb": "[ˈspiːʃiːz]"
+      },
+      "translations": {
+        "rus": "вид, разновидность, порода",
+        "spa": "la especie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It is an endangered species.",
+            "ru": "Это вымирающий вид."
+          },
+          {
+            "en": "They wiped out an entire species.",
+            "ru": "Они уничтожили целый вид."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2756,
+      "word": "spider",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspaɪdər]",
+        "br": "[ˈspaɪdə(r)]",
+        "gb": "[ˈspaɪdə]"
+      },
+      "translations": {
+        "rus": "паук",
+        "spa": "la araña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The spider must wait for prey to be ensnared on its web.",
+            "ru": "Паук должен ждать, пока жертва не запутается в его паутине."
+          },
+          {
+            "en": "He watched a spider spinning its web.",
+            "ru": "Он наблюдал за тем, как паук плетёт свою паутину."
+          },
+          {
+            "en": "It's just a spider, you chicken!",
+            "ru": "Это же просто паук, трусишка!"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 2757,
+      "word": "spring",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sprɪŋ]",
+        "br": "[sprɪŋ]",
+        "gb": "[sprɪŋ]"
+      },
+      "translations": {
+        "rus": "родник, источник, ключ",
+        "spa": "el manantial"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He drank from the spring.",
+            "ru": "Он пил из источника."
+          }
+        ],
+        "spa": [
+          {
+            "en": "They satisfied their thirst at the spring.",
+            "es": "Ellos apaciguaron su sed en el manantial."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2758,
+      "word": "stalk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stɔːk]",
+        "br": "[stɔːk]",
+        "gb": "[stɔːk]"
+      },
+      "translations": {
+        "rus": "стебель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2759,
+      "word": "star",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[stɑːr]",
+        "br": "[stɑː(r)]",
+        "gb": "[stɑː]"
+      },
+      "translations": {
+        "rus": "звезда, звездный",
+        "spa": "la estrella"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The sun is a star.",
+            "ru": "Солнце - звезда."
+          },
+          {
+            "en": "Do you see the star?",
+            "ru": "Видишь звезду?"
+          },
+          {
+            "en": "The sky is full of stars.",
+            "ru": "На небе полно звёзд."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She made me a star.",
+            "es": "Ella me hizo una estrella."
+          },
+          {
+            "en": "Today, I saw a star.",
+            "es": "Hoy he visto una estrella."
+          },
+          {
+            "en": "Antares is a red star.",
+            "es": "Antares es una estrella roja."
+          },
+          {
+            "en": "This is my star pupil.",
+            "es": "Este es mi alumno estrella."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2760,
+      "word": "stone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[stəʊn]",
+        "br": "[stəʊn]",
+        "gb": "[stəʊn]"
+      },
+      "translations": {
+        "rus": "камень, каменный",
+        "spa": "la piedra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He picked up a stone.",
+            "ru": "Он поднял камень."
+          },
+          {
+            "en": "He has a heart of stone.",
+            "ru": "У него каменное сердце."
+          },
+          {
+            "en": "What kind of stone is this?",
+            "ru": "Что это за камень?"
+          },
+          {
+            "en": "It's a gray stone building.",
+            "ru": "Это серое каменное здание."
+          },
+          {
+            "en": "There is a stone in my shoe.",
+            "ru": "У меня камень в туфле."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He crushed the stone completely.",
+            "es": "Machacó la piedra completamente."
+          },
+          {
+            "en": "He tried in vain to lift up the stone.",
+            "es": "Él intentó en vano levantar la piedra."
+          },
+          {
+            "en": "Show me the stone that broke the window.",
+            "es": "Enséñame la piedra que rompió la ventana."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2761,
+      "word": "stream",
+      "pos": "noun",
+      "transcription": {
+        "us": "[striːm]",
+        "br": "[striːm]",
+        "gb": "[striːm]"
+      },
+      "translations": {
+        "rus": "поток, ручей",
+        "spa": "el arroyo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A small stream runs by my house.",
+            "ru": "Небольшой ручей течёт у моего дома."
+          },
+          {
+            "en": "The boys leaped over the stream.",
+            "ru": "Мальчики перепрыгнули через ручей."
+          },
+          {
+            "en": "A small stream ran down among the rocks.",
+            "ru": "Маленький ручей стекал между скал."
+          },
+          {
+            "en": "Immigrants streamed into the land.",
+            "ru": "Иммигранты текли в страну."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "geography",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2762,
+      "word": "stuffiness",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstʌfinəs]",
+        "br": "[ˈstʌfinəs]",
+        "gb": "[ˈstʌfɪnəs]"
+      },
+      "translations": {
+        "rus": "духота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2763,
+      "word": "substance",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌbstəns]",
+        "br": "[ˈsʌbstəns]",
+        "gb": "[ˈsʌbstəns]"
+      },
+      "translations": {
+        "rus": "вещество, содержание, субстанция, сущность",
+        "spa": "la sustancia"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Salt is a useful substance.",
+            "ru": "Соль - полезное вещество."
+          },
+          {
+            "en": "This substance can also destroy plants.",
+            "ru": "Это Вещество может также уничтожить растения."
+          },
+          {
+            "en": "A substance in a fluid state.",
+            "ru": "Вещество в жидком состоянии."
+          },
+          {
+            "en": "Pine trees exude a sticky substance.",
+            "ru": "Сосновые деревья выделяют липкую субстанцию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2764,
+      "word": "Sun",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sʌn]",
+        "br": "[sʌn]",
+        "gb": "[sʌn]"
+      },
+      "translations": {
+        "rus": "Солнце, солнечный",
+        "spa": "el sol"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The Sun has gone down.",
+            "ru": "Солнце село."
+          },
+          {
+            "en": "The heat of the Sun hardens clay.",
+            "ru": "Солнечное тепло делает глину твёрдой."
+          },
+          {
+            "en": "The Sun is a star.",
+            "ru": "Солнце - звезда."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I like the sun a lot.",
+            "es": "Me gusta mucho el sol."
+          },
+          {
+            "en": "The sun is rising now.",
+            "es": "El sol está saliendo ya."
+          },
+          {
+            "en": "The sun doesn't always shine.",
+            "es": "El sol no brilla siempre."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a1",
+        "space",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2765,
+      "word": "sunrise",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsʌnraɪz]",
+        "br": "[ˈsʌnraɪz]",
+        "gb": "[ˈsʌnraɪz]"
+      },
+      "translations": {
+        "rus": "восход Солнца",
+        "spa": "el amanecer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How beautiful a sunrise is!",
+            "ru": "Как прекрасен восход солнца!"
+          },
+          {
+            "en": "Did you see the sunrise this morning?",
+            "ru": "Вы видели сегодня утром восход солнца?"
+          },
+          {
+            "en": "She got up early to see the sunrise.",
+            "ru": "Она встала рано, чтобы увидеть восход солнца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I woke up at sunrise.",
+            "es": "Me desperté al amanecer."
+          },
+          {
+            "en": "The rooster crows at sunrise.",
+            "es": "El gallo canta al amanecer."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "space",
+        "travel"
+      ]
+    },
+    {
+      "id": 2766,
+      "word": "taxidermy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtæksɪdɜːrmi]",
+        "br": "[ˈtæksɪdɜːmi]",
+        "gb": "[ˈtæksɪdɜːmɪ]"
+      },
+      "translations": {
+        "rus": "изготовление чучел",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2767,
+      "word": "terrain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[təˈreɪn]",
+        "br": "[təˈreɪn]",
+        "gb": "[ˈtereɪn]"
+      },
+      "translations": {
+        "rus": "местность, территория, рельеф",
+        "spa": "el terreno, el relieve"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2768,
+      "word": "thermal",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈθɜːrml]",
+        "br": "[ˈθɜːml]",
+        "gb": "[ˈθɜːməl]"
+      },
+      "translations": {
+        "rus": "тепловой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2769,
+      "word": "thicket",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθɪkɪt]",
+        "br": "[ˈθɪkɪt]",
+        "gb": "[ˈθɪkɪt]"
+      },
+      "translations": {
+        "rus": "чаща",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2770,
+      "word": "threat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θret]",
+        "br": "[θret]",
+        "gb": "[θret]"
+      },
+      "translations": {
+        "rus": "угроза",
+        "spa": "la amenaza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is not a threat.",
+            "ru": "Это не угроза."
+          },
+          {
+            "en": "The threat is real.",
+            "ru": "Угроза реальна."
+          },
+          {
+            "en": "That sounds like a threat.",
+            "ru": "Это звучит как угроза."
+          },
+          {
+            "en": "You're a threat to our mission.",
+            "ru": "Ты угроза нашей миссии."
+          }
+        ],
+        "spa": [
+          {
+            "en": "That sounds like a threat.",
+            "es": "Eso suena como una amenaza."
+          },
+          {
+            "en": "Your threats don't frighten me.",
+            "es": "No me asustan tus amenazas."
+          },
+          {
+            "en": "We thought his threat was only a joke.",
+            "es": "Pensábamos que sus amenazas eran sólo de broma."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2605,
+      "word": "timber",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɪmbər]",
+        "br": "[ˈtɪmbə(r)]",
+        "gb": "[ˈtɪmbə]"
+      },
+      "translations": {
+        "rus": "лесоматериалы",
+        "spa": "la madera, la viga, el madero, la cuaderna"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "construction",
+        "ecology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2626,
+      "word": "to bloom",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [bluːm]",
+        "br": "[tə] [bluːm]",
+        "gb": "[tuː] [bluːm]"
+      },
+      "translations": {
+        "rus": "расцветать, цвести",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2627,
+      "word": "to blossom",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈblɑːsəm]",
+        "br": "[tə] [ˈblɒsəm]",
+        "gb": "[tuː] [ˈblɔsəm]"
+      },
+      "translations": {
+        "rus": "расцветать, цвести",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2636,
+      "word": "to chop down",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tʃɑːp] [daʊn]",
+        "br": "[tə] [tʃɒp] [daʊn]",
+        "gb": "[tuː] [ʧɔp] [daʊn]"
+      },
+      "translations": {
+        "rus": "срубать, вырубать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 1003,
+      "word": "to heat",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hiːt]",
+        "br": "[tə] [hiːt]",
+        "gb": "[tuː] [hiːt]"
+      },
+      "translations": {
+        "rus": "нагревать",
+        "spa": "calentar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Please heat the water.",
+            "ru": "Пожалуйста, нагрейте воду."
+          },
+          {
+            "en": "Heat up the water until it boils.",
+            "ru": "Нагрейте воду до кипения."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1011,
+      "word": "to hunt",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [hʌnt]",
+        "br": "[tə] [hʌnt]",
+        "gb": "[tuː] [hʌnt]"
+      },
+      "translations": {
+        "rus": "охотиться, искать",
+        "spa": "cazar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you know how to hunt?",
+            "ru": "Ты умеешь охотиться?"
+          },
+          {
+            "en": "He likes to hunt.",
+            "ru": "Он любит охотиться."
+          },
+          {
+            "en": "He has never hunted.",
+            "ru": "Он никогда не охотился."
+          },
+          {
+            "en": "Owls hunt at night.",
+            "ru": "Совы охотятся ночью."
+          },
+          {
+            "en": "How is your job hunting going?",
+            "ru": "Как у тебя дела с поиском работы?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He likes to hunt.",
+            "es": "Le gusta cazar."
+          },
+          {
+            "en": "They hunted foxes.",
+            "es": "Ellos cazaban zorros."
+          },
+          {
+            "en": "Polar bears hunt seals.",
+            "es": "Los osos polares cazan focas."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2722,
+      "word": "to plant",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [plænt]",
+        "br": "[tə] [plɑːnt]",
+        "gb": "[tuː] [plɑːnt]"
+      },
+      "translations": {
+        "rus": "сажать растения",
+        "spa": "plantar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's planting flowers in the garden.",
+            "ru": "Она сажает цветы в саду."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Have you ever planted a tree?",
+            "es": "¿Has plantado un árbol alguna vez?"
+          },
+          {
+            "en": "Did you plant this yourself?",
+            "es": "¿Plantaste esto tú mismo?"
+          },
+          {
+            "en": "I am planting an orange tree.",
+            "es": "Estoy plantando un naranjo."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 1154,
+      "word": "to reduce",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [rɪˈduːs]",
+        "br": "[tə] [rɪˈdjuːs]",
+        "gb": "[tuː] [rɪˈdjuːs]"
+      },
+      "translations": {
+        "rus": "уменьшать, снижать, сводить",
+        "spa": "reducir"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That would reduce costs.",
+            "ru": "Это сократило бы расходы."
+          },
+          {
+            "en": "He was able to reduce taxes.",
+            "ru": "Ему удалось понизить налоги."
+          },
+          {
+            "en": "I bought it at a reduced price.",
+            "ru": "Я купил его по сниженной цене."
+          },
+          {
+            "en": "This medicine will reduce the pain.",
+            "ru": "Это лекарство ослабит боль."
+          },
+          {
+            "en": "I think we should reduce the price.",
+            "ru": "Я думаю, мы должны снизить цены."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He was able to reduce taxes.",
+            "es": "Él pudo reducir los impuestos."
+          },
+          {
+            "en": "We have to reduce our expenses.",
+            "es": "Tenemos que reducir nuestros gastos."
+          },
+          {
+            "en": "The building was reduced to rubble.",
+            "es": "El edificio fue reducido a escombros."
+          },
+          {
+            "en": "We have to reduce the cost to a minimum.",
+            "es": "Tenemos que reducir el costo a un mínimo."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "ecology",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2739,
+      "word": "to ripen",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈraɪpən]",
+        "br": "[tə] [ˈraɪpən]",
+        "gb": "[tuː] [ˈraɪpən]"
+      },
+      "translations": {
+        "rus": "созревать",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2771,
+      "word": "to threaten",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [ˈθretn]",
+        "br": "[tə] [ˈθretn]",
+        "gb": "[tuː] [θretn]"
+      },
+      "translations": {
+        "rus": "угрожать, припугивать, предвещать",
+        "spa": "amenazar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I was threatened.",
+            "ru": "Мне угрожали."
+          },
+          {
+            "en": "Did you threaten him?",
+            "ru": "Вы угрожали ему?"
+          },
+          {
+            "en": "Do not threaten me.",
+            "ru": "Не угрожайте мне."
+          },
+          {
+            "en": "She threatened him.",
+            "ru": "Она угрожала ему."
+          },
+          {
+            "en": "No one threatened us.",
+            "ru": "Никто не угрожал нам."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She threatened him.",
+            "es": "Ella le amenazó."
+          },
+          {
+            "en": "It is threatening to rain.",
+            "es": "Amenaza con llover."
+          },
+          {
+            "en": "She threatened to kill me.",
+            "es": "Ella amenazó con matarme."
+          },
+          {
+            "en": "Threatening me is useless, I won't say anything.",
+            "es": "Es inútil amenazarme, no diré nada."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 1289,
+      "word": "to wave",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [weɪv]",
+        "br": "[tə] [weɪv]",
+        "gb": "[tuː] [weɪv]"
+      },
+      "translations": {
+        "rus": "махать, размахивать",
+        "spa": "saludar con la mano, agitar, ondear"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He waved at her.",
+            "ru": "Он помахал ей."
+          },
+          {
+            "en": "I was waving a flag.",
+            "ru": "Я махал флагом."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2772,
+      "word": "toxic",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˈtɑːksɪk]",
+        "br": "[ˈtɒksɪk]",
+        "gb": "[ˈtɔksɪk]"
+      },
+      "translations": {
+        "rus": "токсичный",
+        "spa": "tóxico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That product is toxic.",
+            "ru": "Этот продукт токсичен."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 2773,
+      "word": "trunk",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trʌŋk]",
+        "br": "[trʌŋk]",
+        "gb": "[trʌŋk]"
+      },
+      "translations": {
+        "rus": "ствол",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2774,
+      "word": "unleaded",
+      "pos": "adjective, participle",
+      "transcription": {
+        "us": "[ˌʌnˈledɪd]",
+        "br": "[ˌʌnˈledɪd]",
+        "gb": "[ənˈledɪd]"
+      },
+      "translations": {
+        "rus": "не содержащий свинца, неэтилированный",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2775,
+      "word": "vegetation",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌvedʒəˈteɪʃn]",
+        "br": "[ˌvedʒəˈteɪʃn]",
+        "gb": "[veʤɪˈteɪʃn]"
+      },
+      "translations": {
+        "rus": "растительность",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "ecology"
+      ]
+    },
+    {
+      "id": 2776,
+      "word": "waste",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪst]",
+        "br": "[weɪst]",
+        "gb": "[weɪst]"
+      },
+      "translations": {
+        "rus": "отходы, пустая трата",
+        "spa": "la pérdida"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Trying to fix this is a waste of time.",
+            "ru": "Попытка это починить - пустая трата времени."
+          },
+          {
+            "en": "That's just a waste of taxpayer money.",
+            "ru": "Это лишь пустая трата денег налогоплательщиков."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 2777,
+      "word": "water",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɔːtər]",
+        "br": "[ˈwɔːtə(r)]",
+        "gb": "[ˈwɔːtə]"
+      },
+      "translations": {
+        "rus": "вода",
+        "spa": "el agua"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can I have some water?",
+            "ru": "Можно мне немного воды?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "The water turned to ice.",
+            "es": "El agua se congeló."
+          },
+          {
+            "en": "Fill the bucket with water.",
+            "es": "Llena el balde con agua."
+          },
+          {
+            "en": "The soldier gave water to me.",
+            "es": "El soldado me dio agua."
+          }
+        ]
+      },
+      "categories": [
+        "ecology",
+        "home",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 2778,
+      "word": "wave",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪv]",
+        "br": "[weɪv]",
+        "gb": "[weɪv]"
+      },
+      "translations": {
+        "rus": "волна, колебание",
+        "spa": "la ola, la onda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That is the perfect wave.",
+            "ru": "Это идеальная волна."
+          },
+          {
+            "en": "The waves are high today.",
+            "ru": "Сегодня волны высокие."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "ecology",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    }
+  ]
+}

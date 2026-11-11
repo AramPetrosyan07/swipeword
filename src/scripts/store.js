@@ -5,6 +5,8 @@ class Store {
     this.b2Dictionary = [];
     this.c1Dictionary = [];
     this.verbDictionary = [];
+    this.decks = {};
+    this._armLookup = {};
     this.tags = {};
   }
 
@@ -29,14 +31,81 @@ class Store {
       if (b2 && Array.isArray(b2)) this.b2Dictionary = b2;
       if (c1 && Array.isArray(c1)) this.c1Dictionary = c1;
       if (verb && Array.isArray(verb)) this.verbDictionary = verb;
-      this.dictionary = this._getDictionaryForVocab(this.data.vocabulary);
+      this._buildArmLookup();
+      await this.ensureDeck(this.data.vocabulary || 'b2');
     } catch (e) {
       console.error('Failed to load dictionaries:', e);
     }
     return this.dictionary;
   }
 
+  _buildArmLookup() {
+    this._armLookup = {};
+    for (const dict of [this.b2Dictionary, this.c1Dictionary, this.verbDictionary]) {
+      for (const entry of dict || []) {
+        if (entry && entry.english && entry.armenian) {
+          const key = entry.english.toLowerCase();
+          if (!this._armLookup[key]) {
+            this._armLookup[key] = Array.isArray(entry.armenian)
+              ? entry.armenian.join(', ')
+              : entry.armenian;
+          }
+        }
+      }
+    }
+  }
+
+  async ensureDeck(deckId, meta = {}) {
+    if (this.decks[deckId]) {
+      this.dictionary = this.decks[deckId];
+      return this.dictionary;
+    }
+    let dict = [];
+    if (deckId === 'b2') dict = this.b2Dictionary;
+    else if (deckId === 'c1') dict = this.c1Dictionary;
+    else if (deckId === 'verb') dict = this.verbDictionary;
+    else if (deckId.startsWith('json:')) {
+      try {
+        const file = meta.file || `${deckId.slice(5)}.json`;
+        const data = await window.electronAPI.jsonLoadCategory(file);
+        dict = data && Array.isArray(data.words) ? this._normalizeJsonWords(data.words) : [];
+      } catch (e) {
+        console.error('Failed to load json deck:', deckId, e);
+        dict = [];
+      }
+    }
+    this.decks[deckId] = dict;
+    this.dictionary = dict;
+    return this.dictionary;
+  }
+
+  _normalizeJsonWords(words) {
+    return words.map((w, i) => {
+      const english = (w.word || '').toString();
+      const examples = (w.examples && w.examples.rus) || [];
+      return {
+        id: i,
+        english,
+        armenian: this._armLookup[english.toLowerCase()] || '',
+        russian: (w.translations && w.translations.rus) || '',
+        spanish: (w.translations && w.translations.spa) || '',
+        type: w.pos || '',
+        synonyms: [],
+        antonyms: [],
+        description: '',
+        adjective: '',
+        adverb: '',
+        english_example: examples.map((e) => e && e.en).filter(Boolean),
+        russian_example: examples.map((e) => e && e.ru).filter(Boolean),
+        examples: examples.map((e) => e && e.en).filter(Boolean),
+        example: examples[0] && examples[0].en ? examples[0].en : '',
+        letter: english.charAt(0).toUpperCase(),
+      };
+    });
+  }
+
   _getDictionaryForVocab(vocab) {
+    if (this.decks[vocab]) return this.decks[vocab];
     if (vocab === 'c1') return this.c1Dictionary;
     if (vocab === 'verb') return this.verbDictionary;
     return this.b2Dictionary;
@@ -74,11 +143,16 @@ class Store {
   _fileNameForVocab(vocab) {
     if (vocab === 'c1') return 'oxford_c1_words';
     if (vocab === 'verb') return 'verb';
-    return 'b2-word-list';
+    if (vocab === 'b2') return 'b2-word-list';
+    if (vocab && vocab.startsWith('json:')) return vocab.slice(5);
+    return vocab || 'b2-word-list';
   }
 
   async switchVocabulary(vocab) {
-    if (vocab === this.data.vocabulary) return;
+    if (vocab === this.data.vocabulary) {
+      await this.ensureDeck(vocab);
+      return;
+    }
     const cur = this.data.vocabulary;
     this.data[`${cur}_words`] = this.data.words;
     this.data[`${cur}_favorites`] = this.data.favorites;
@@ -88,7 +162,7 @@ class Store {
     this.data[`${cur}_stats`] = this.data.stats;
     this.data[`${cur}_currentFileName`] = this.data.currentFileName;
     this.data.vocabulary = vocab;
-    this.dictionary = this._getDictionaryForVocab(vocab);
+    await this.ensureDeck(vocab);
     const savedWords = this.data[`${vocab}_words`];
     if (savedWords && savedWords.length > 0) {
       this.data.words = savedWords;
@@ -133,6 +207,9 @@ class Store {
     if (!this.data.greenStars) this.data.greenStars = [];
     if (!this.data.notes) this.data.notes = {};
     if (this.data.vocabulary === undefined) this.data.vocabulary = 'b2';
+    if (this.data.deckOrder === undefined) this.data.deckOrder = [];
+    if (this.data.deckFavorites === undefined) this.data.deckFavorites = [];
+    if (this.data.openLastDeck === undefined) this.data.openLastDeck = true;
     if (this.data.translationSidebar === undefined) this.data.translationSidebar = false;
     if (this.data.pdfFolder === undefined) this.data.pdfFolder = null;
     if (!this.data.pdfRecents) this.data.pdfRecents = [];
@@ -174,6 +251,9 @@ class Store {
       storyWords: [],
       notes: {},
       vocabulary: 'b2',
+      deckOrder: [],
+      deckFavorites: [],
+      openLastDeck: true,
       pdfFolder: null,
       pdfRecents: [],
       pdfPinnedFolders: [],
@@ -311,6 +391,7 @@ class Store {
           examples: [],
           type: custom.type || '',
           russian: custom.russian || '',
+          spanish: custom.spanish || '',
           russian_example: custom.russian_example || [],
           adjective: custom.adjective || '',
           adverb: custom.adverb || '',
@@ -336,6 +417,7 @@ class Store {
         examples: dictEntry.english_example || [],
         type: dictEntry.type || '',
         russian: dictEntry.russian || '',
+        spanish: dictEntry.spanish || '',
         russian_example: dictEntry.russian_example || [],
         adjective: dictEntry.adjective || '',
         adverb: dictEntry.adverb || '',
@@ -361,6 +443,7 @@ class Store {
       examples: [],
       type: '',
       russian: '',
+      spanish: '',
       russian_example: [],
       adjective: '',
       adverb: '',
@@ -613,6 +696,24 @@ class Store {
 
   isFavorite(id) {
     return this.data.favorites.includes(id);
+  }
+
+  isDeckFavorite(deckId) {
+    return (this.data.deckFavorites || []).includes(deckId);
+  }
+
+  async toggleDeckFavorite(deckId) {
+    if (!this.data.deckFavorites) this.data.deckFavorites = [];
+    const idx = this.data.deckFavorites.indexOf(deckId);
+    if (idx === -1) this.data.deckFavorites.push(deckId);
+    else this.data.deckFavorites.splice(idx, 1);
+    await this.save();
+    return idx === -1;
+  }
+
+  async setDeckOrder(order) {
+    this.data.deckOrder = order;
+    return this.save();
   }
 
   async toggleFavorite(id) {

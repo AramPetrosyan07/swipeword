@@ -1,0 +1,4449 @@
+{
+  "category": {
+    "id": "anatomy",
+    "name_rus": "Анатомия",
+    "type": "topic",
+    "word_count": 131
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "abdomen",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæbdəmən]",
+        "br": "[ˈæbdəmən]",
+        "gb": "[ˈæbdəmen]"
+      },
+      "translations": {
+        "rus": "живот",
+        "spa": "el abdomen"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "anatomy",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈnætəmi]",
+        "br": "[əˈnætəmi]",
+        "gb": "[əˈnætəmɪ]"
+      },
+      "translations": {
+        "rus": "анатомия",
+        "spa": "la anatomía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's an expert in human anatomy.",
+            "ru": "Она - эксперт в анатомии человека."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "ankle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæŋkl]",
+        "br": "[ˈæŋkl]",
+        "gb": "[æŋkl]"
+      },
+      "translations": {
+        "rus": "голеностоп, лодыжка, щиколотка",
+        "spa": "el tobillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Gradually, my ankle got better.",
+            "ru": "Постепенно, моей лодыжке стало лучше."
+          },
+          {
+            "en": "The nurse bandaged a sprained ankle.",
+            "ru": "Медсестра перевязала вывихнутую лодыжку."
+          },
+          {
+            "en": "He tweaked his ankle playing soccer.",
+            "ru": "Играя в футбол он подвернул лодыжку."
+          },
+          {
+            "en": "The dog sank its teeth into his ankle.",
+            "ru": "Собака вцепилась ему в лодыжку."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a swollen ankle.",
+            "es": "Tengo un tobillo inflamado."
+          },
+          {
+            "en": "I slipped and twisted my ankle.",
+            "es": "Yo me resbalé y me torcí el tobillo."
+          },
+          {
+            "en": "I tripped on a stone and twisted my ankle.",
+            "es": "Me tropecé con una piedra, torciéndome el tobillo."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_a2"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "anus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɪnəs]",
+        "br": "[ˈeɪnəs]",
+        "gb": "[ˈeɪnəs]"
+      },
+      "translations": {
+        "rus": "задний проход",
+        "spa": "el ano"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "appendix",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈpendɪks]",
+        "br": "[əˈpendɪks]",
+        "gb": "[əˈpendɪks]"
+      },
+      "translations": {
+        "rus": "аппендикс, червеобразный отросток",
+        "spa": "el apéndice"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I am going to remove the appendix.",
+            "ru": "Я буду удалять аппендикс."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "arm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːrm]",
+        "br": "[ɑːm]",
+        "gb": "[ɑːm]"
+      },
+      "translations": {
+        "rus": "рука",
+        "spa": "el brazo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How's your arm?",
+            "ru": "Как твоя рука?"
+          },
+          {
+            "en": "Does your arm hurt?",
+            "ru": "Твоя рука болит?"
+          },
+          {
+            "en": "Your arm's broken.",
+            "ru": "У тебя сломана рука."
+          },
+          {
+            "en": "She has her arm in a cast.",
+            "ru": "У неё рука в гипсе."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let go of my arm.",
+            "es": "Suéltame el brazo."
+          },
+          {
+            "en": "He died in my arms.",
+            "es": "Él murió en mis brazos."
+          },
+          {
+            "en": "He broke his left arm.",
+            "es": "Se rompió el brazo izquierdo."
+          },
+          {
+            "en": "He has a scar on his arm.",
+            "es": "Él tiene una cicatriz en el brazo."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "armpit",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrmpɪt]",
+        "br": "[ˈɑːmpɪt]",
+        "gb": "[ˈɑːmpɪt]"
+      },
+      "translations": {
+        "rus": "подмышка",
+        "spa": "el sobaco"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She shaved her armpits.",
+            "ru": "Она побрила подмышки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I perspired under my armpits.",
+            "es": "Sudaba de los sobacos."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "artery",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːrtəri]",
+        "br": "[ˈɑːtəri]",
+        "gb": "[ˈɑːtərɪ]"
+      },
+      "translations": {
+        "rus": "артерия",
+        "spa": "la arteria"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bullet cut through an artery.",
+            "ru": "Пуля перебила артерию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "back",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæk]",
+        "br": "[bæk]",
+        "gb": "[bæk]"
+      },
+      "translations": {
+        "rus": "спина",
+        "spa": "la espalda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you hurt your back?",
+            "ru": "Ты повредил спину?"
+          },
+          {
+            "en": "I have a pain in my back.",
+            "ru": "У меня болит спина."
+          },
+          {
+            "en": "The cat arched its back.",
+            "ru": "Кошка выгнула спину."
+          },
+          {
+            "en": "My back still hurts.",
+            "ru": "Спина у меня ещё болит."
+          },
+          {
+            "en": "Roll over on your back.",
+            "ru": "Повернитесь на спину."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My back is killing me.",
+            "es": "La espalda me está matando."
+          },
+          {
+            "en": "I feel a pain in the back.",
+            "es": "Siento un dolor en la espalda."
+          },
+          {
+            "en": "He stabbed me in the back!",
+            "es": "¡Me apuñaló por la espalda!"
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top100"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "backbone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbækbəʊn]",
+        "br": "[ˈbækbəʊn]",
+        "gb": "[ˈbækbəʊn]"
+      },
+      "translations": {
+        "rus": "позвоночник",
+        "spa": "la columna vertebral, la espina dorsal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Backbone consists of vertebrae and protects spinal cord.",
+            "ru": "Позвоночник состоит из позвонков и защищает спинной мозг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "belly button",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbeli] [ˈbʌtn]",
+        "br": "[ˈbeli] [ˈbʌtn]",
+        "gb": "[ˈbelɪ] [bʌtn]"
+      },
+      "translations": {
+        "rus": "пупок",
+        "spa": "el ombligo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She got her belly button pierced.",
+            "ru": "Она проколола себе пупок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 12,
+      "word": "biceps",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbaɪseps]",
+        "br": "[ˈbaɪseps]",
+        "gb": "[ˈbaɪseps]"
+      },
+      "translations": {
+        "rus": "бицепс",
+        "spa": "los bíceps"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His biceps are very big.",
+            "ru": "У него огромные бицепсы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "His biceps are very big.",
+            "es": "Sus bíceps son muy grandes."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "birthmark",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɜːrθmɑːrk]",
+        "br": "[ˈbɜːθmɑːk]",
+        "gb": "[ˈbɜːθmɑːk]"
+      },
+      "translations": {
+        "rus": "родинка, родимое пятно",
+        "spa": "la marca de nacimiento"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 14,
+      "word": "blood",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[blʌd]",
+        "br": "[blʌd]",
+        "gb": "[blʌd]"
+      },
+      "translations": {
+        "rus": "кровь, кровяной",
+        "spa": "la sangre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It made my blood freeze.",
+            "ru": "У меня от этого кровь стыла в жилах."
+          },
+          {
+            "en": "The sharks will smell blood.",
+            "ru": "Акулы учуют запах крови."
+          },
+          {
+            "en": "The color of blood is red.",
+            "ru": "Цвет крови — красный."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are you afraid of blood?",
+            "es": "¿Te da miedo la sangre?"
+          },
+          {
+            "en": "Blood runs in the veins.",
+            "es": "La sangre corre por las venas."
+          },
+          {
+            "en": "The blood was still wet.",
+            "es": "La sangre estaba aún mojada."
+          },
+          {
+            "en": "This makes my blood boil.",
+            "es": "Esto hace que me hierva la sangre."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "blood vessel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[blʌd] [ˈvesl]",
+        "br": "[blʌd] [ˈvesl]",
+        "gb": "[blʌd] [vesl]"
+      },
+      "translations": {
+        "rus": "кровеносный сосуд",
+        "spa": "el vaso sanguíneo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A blood vessel burst inside his brain.",
+            "ru": "У него в мозгу лопнул кровеносный сосуд."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "body",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːdi]",
+        "br": "[ˈbɒdi]",
+        "gb": "[ˈbɔdɪ]"
+      },
+      "translations": {
+        "rus": "тело",
+        "spa": "el cuerpo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Where was the body found?",
+            "ru": "Где нашли тело?"
+          },
+          {
+            "en": "He has a strong body.",
+            "ru": "У него сильное тело."
+          },
+          {
+            "en": "My whole body is sore.",
+            "ru": "У меня болит всё тело."
+          },
+          {
+            "en": "His body ached.",
+            "ru": "Его тело болело."
+          },
+          {
+            "en": "The soul animates the body.",
+            "ru": "Душа оживляет тело."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a nice body.",
+            "es": "Ella tiene un hermoso cuerpo."
+          },
+          {
+            "en": "My whole body is sore.",
+            "es": "Me duele todo el cuerpo."
+          },
+          {
+            "en": "This body has no life.",
+            "es": "Este cuerpo no tiene vida."
+          },
+          {
+            "en": "She's ashamed of her body.",
+            "es": "A ella le avergüenza su cuerpo."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "body type",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbɑːdi] [taɪp]",
+        "br": "[ˈbɒdi] [taɪp]",
+        "gb": "[ˈbɔdɪ] [taɪp]"
+      },
+      "translations": {
+        "rus": "телосложение",
+        "spa": "la contextura, la complexión"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 18,
+      "word": "bone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊn]",
+        "br": "[bəʊn]",
+        "gb": "[bəʊn]"
+      },
+      "translations": {
+        "rus": "кость, костный",
+        "spa": "el hueso"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She is all skin and bone.",
+            "ru": "Она просто кожа да кости."
+          },
+          {
+            "en": "The bones form a skeleton.",
+            "ru": "Кости формируют скелет."
+          },
+          {
+            "en": "There are no broken bones.",
+            "ru": "Сломанных костей нет."
+          },
+          {
+            "en": "A bone stuck in my throat.",
+            "ru": "У меня в горле застряла кость."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is all skin and bone.",
+            "es": "Ella es piel y hueso."
+          },
+          {
+            "en": "There are no broken bones.",
+            "es": "No hay huesos rotos."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 19,
+      "word": "bowel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbaʊəl]",
+        "br": "[ˈbaʊəl]",
+        "gb": "[ˈbaʊəl]"
+      },
+      "translations": {
+        "rus": "кишка",
+        "spa": "el intestino"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 20,
+      "word": "brain",
+      "pos": "noun",
+      "transcription": {
+        "us": "[breɪn]",
+        "br": "[breɪn]",
+        "gb": "[breɪn]"
+      },
+      "translations": {
+        "rus": "мозг, мозговой",
+        "spa": "el cerebro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My brain was in a buzz.",
+            "ru": "Мои мозги гудели."
+          },
+          {
+            "en": "The job requires brains.",
+            "ru": "Эта работа требует мозгов."
+          },
+          {
+            "en": "Alcohol fogs his brain.",
+            "ru": "Алкоголь затуманивает его мозги."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Plants do not have a brain.",
+            "es": "Las plantas no tienen cerebro."
+          },
+          {
+            "en": "The brain has a complex structure.",
+            "es": "El cerebro tiene una estructura compleja."
+          },
+          {
+            "en": "That's too much for my little brain.",
+            "es": "Esto es demasiado para mi cerebro pequeño."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "breast",
+      "pos": "noun",
+      "transcription": {
+        "us": "[brest]",
+        "br": "[brest]",
+        "gb": "[brest]"
+      },
+      "translations": {
+        "rus": "(женская) грудь, грудной",
+        "spa": "el pecho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She put the baby to her breast.",
+            "ru": "Она приложила младенца к груди."
+          },
+          {
+            "en": "She crouched her head upon her breast.",
+            "ru": "Она склонила голову на грудь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Many men have larger breasts than women.",
+            "es": "Muchos hombres tienen pechos más grandes que las mujeres."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 22,
+      "word": "bronchus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbrɑːŋkəs]",
+        "br": "[ˈbrɒŋkəs]",
+        "gb": "[ˈbrɒŋkəs]"
+      },
+      "translations": {
+        "rus": "бронх",
+        "spa": "el bronquio"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "build",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bɪld]",
+        "br": "[bɪld]",
+        "gb": "[bɪld]"
+      },
+      "translations": {
+        "rus": "телосложение",
+        "spa": "el físico, la constitución, la complexión"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a slim build.",
+            "ru": "У него худощавое телосложение."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "top1000"
+      ]
+    },
+    {
+      "id": 24,
+      "word": "buttock",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbʌtək]",
+        "br": "[ˈbʌtək]",
+        "gb": "[ˈbʌtək]"
+      },
+      "translations": {
+        "rus": "ягодица",
+        "spa": "las nalgas"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The young woman slapped the man who pinched her buttocks.",
+            "ru": "Девушка дала пощёчину мужчине, который ущипнул её за задницу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 25,
+      "word": "calf",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kæf]",
+        "br": "[kɑːf]",
+        "gb": "[kɑːf]"
+      },
+      "translations": {
+        "rus": "икра ноги",
+        "spa": "la pantorrilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The boots are tight around the calf.",
+            "ru": "Сапоги жмут в икрах."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 26,
+      "word": "canine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkeɪnaɪn]",
+        "br": "[ˈkeɪnaɪn]",
+        "gb": "[ˈkeɪnaɪn]"
+      },
+      "translations": {
+        "rus": "клык",
+        "spa": "el colmillo, el diente canino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This is a canine tooth.",
+            "ru": "Это клык."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 27,
+      "word": "capillary",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkæpəleri]",
+        "br": "[kəˈpɪləri]",
+        "gb": "[kəˈpɪlərɪ]"
+      },
+      "translations": {
+        "rus": "капилляр",
+        "spa": "el capilar"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 28,
+      "word": "cerebrum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈriːbrəm], [ˈserəbrəm]",
+        "br": "[səˈriːbrəm], [ˈserəbrəm]",
+        "gb": "[ˈserɪbrəm]"
+      },
+      "translations": {
+        "rus": "большой мозг, конечный мозг",
+        "spa": "el cerebro"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 29,
+      "word": "cheek",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃiːk]",
+        "br": "[tʃiːk]",
+        "gb": "[ʧiːk]"
+      },
+      "translations": {
+        "rus": "щека",
+        "spa": "la mejilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He pinched her cheek.",
+            "ru": "Он ущипнул ее за щеку."
+          },
+          {
+            "en": "She kissed the baby on the cheek.",
+            "ru": "Она поцеловала малыша в щёку."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "cheekbone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃiːkbəʊn]",
+        "br": "[ˈtʃiːkbəʊn]",
+        "gb": "[ˈʧiːkbəʊn]"
+      },
+      "translations": {
+        "rus": "скула",
+        "spa": "el pómulo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 31,
+      "word": "chest",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃest]",
+        "br": "[tʃest]",
+        "gb": "[ʧest]"
+      },
+      "translations": {
+        "rus": "грудная клетка, грудь",
+        "spa": "el pecho"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a chest pain.",
+            "ru": "У меня болит грудь."
+          },
+          {
+            "en": "He folded his arms over his chest.",
+            "ru": "Он сложил руки на груди."
+          },
+          {
+            "en": "The bullet penetrated his chest.",
+            "ru": "Пуля пронзила его грудь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a chest pain.",
+            "es": "Me duele el pecho."
+          },
+          {
+            "en": "The heart is located in the chest.",
+            "es": "El corazón se encuentra en el pecho."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "chin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʃɪn]",
+        "br": "[tʃɪn]",
+        "gb": "[ʧɪn]"
+      },
+      "translations": {
+        "rus": "подбородок",
+        "spa": "el mentón, la barbilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He took a blow to the chin.",
+            "ru": "Он получил удар в подбородок."
+          },
+          {
+            "en": "He cut his chin while shaving.",
+            "ru": "Он порезал подбородок, когда брился."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I hit him on the chin.",
+            "es": "Le pegué en el mentón."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 33,
+      "word": "clavicle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklævɪkl]",
+        "br": "[ˈklævɪkl]",
+        "gb": "[ˈklævɪkl]"
+      },
+      "translations": {
+        "rus": "ключица",
+        "spa": "la clavícula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 34,
+      "word": "corpse",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːrps]",
+        "br": "[kɔːps]",
+        "gb": "[kɔːps]"
+      },
+      "translations": {
+        "rus": "труп",
+        "spa": "el cadáver"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He went pale at the sight of the mutilated corpse.",
+            "ru": "Он побледнел при виде изуродованного тела."
+          },
+          {
+            "en": "The corpse was found by children playing in the woods.",
+            "ru": "Труп был найден играющими в лесу детьми."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "dimple",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdɪmpl]",
+        "br": "[ˈdɪmpl]",
+        "gb": "[dɪmpl]"
+      },
+      "translations": {
+        "rus": "ямочка на щеке",
+        "spa": "el hoyuelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I wish I had dimples.",
+            "ru": "Я бы хотел иметь ямки на щеках."
+          },
+          {
+            "en": "She has cute dimples when she smiles.",
+            "ru": "Когда она улыбается, у неё появляются милые ямки на щеках."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "ear",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪr]",
+        "br": "[ɪə(r)]",
+        "gb": "[ɪə]"
+      },
+      "translations": {
+        "rus": "ухо",
+        "spa": "la oreja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do not yell into my ear.",
+            "ru": "Не ори мне в ухо."
+          },
+          {
+            "en": "I have an itch in my ear.",
+            "ru": "У меня чешется ухо."
+          },
+          {
+            "en": "She tucked her hair behind her ears.",
+            "ru": "Она заправила свои волосы за уши."
+          },
+          {
+            "en": "She's had her ears pierced.",
+            "ru": "Она проколола уши."
+          }
+        ],
+        "spa": [
+          {
+            "en": "We hear with our ears.",
+            "es": "Oímos con nuestras orejas."
+          },
+          {
+            "en": "I got my ears pierced.",
+            "es": "Me perforé las orejas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "earlobe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪrləʊb]",
+        "br": "[ˈɪələʊb]",
+        "gb": "[ˈɜːləʊb]"
+      },
+      "translations": {
+        "rus": "мочка уха",
+        "spa": "el lóbulo de la oreja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He kissed her earlobe.",
+            "ru": "Он поцеловал её в мочку уха."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "elbow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈelbəʊ]",
+        "br": "[ˈelbəʊ]",
+        "gb": "[ˈelbəʊ]"
+      },
+      "translations": {
+        "rus": "локоть",
+        "spa": "el codo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stop jabbing me with your elbow!",
+            "ru": "Перестань толкать меня своим локтем!"
+          },
+          {
+            "en": "The two bones connect at the elbow.",
+            "ru": "Эти две кости соединяются в локте."
+          },
+          {
+            "en": "That rude man elbowed me aside and got on the bus ahead of me!",
+            "ru": "Этот мужлан оттолкнул меня и пролез в автобус передо мной!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "My right elbow hurts a lot.",
+            "es": "Me duele mucho el codo derecho."
+          },
+          {
+            "en": "She hurt her elbow when she fell down.",
+            "es": "Se lastimó su codo cuando se cayó."
+          },
+          {
+            "en": "Stop resting your elbows on the table.",
+            "es": "Deja de poner los codos sobre la mesa."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 39,
+      "word": "enamel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪˈnæml]",
+        "br": "[ɪˈnæml]",
+        "gb": "[ɪˈnæməl]"
+      },
+      "translations": {
+        "rus": "зубная эмаль",
+        "spa": "el esmalte"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 40,
+      "word": "entrails",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈentreɪlz]",
+        "br": "[ˈentreɪlz]",
+        "gb": "[ˈentreɪlz]"
+      },
+      "translations": {
+        "rus": "внутренности, кишки",
+        "spa": "las entrañas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 41,
+      "word": "esophagus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[iˈsɑːfəɡəs]",
+        "br": "[iˈsɒfəɡəs]",
+        "gb": "[iːˈsɔfəgəs]"
+      },
+      "translations": {
+        "rus": "пищевод",
+        "spa": "el esófago"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "eye",
+      "pos": "noun",
+      "transcription": {
+        "us": "[aɪ]",
+        "br": "[aɪ]",
+        "gb": "[aɪ]"
+      },
+      "translations": {
+        "rus": "глаз",
+        "spa": "el ojo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Emily opened her eyes.",
+            "ru": "Эмили открыла глаза."
+          },
+          {
+            "en": "He has an artist's eye.",
+            "ru": "У него глаз художника."
+          },
+          {
+            "en": "I have something in my eye.",
+            "ru": "Что-то попало мне в глаз."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Why is your eye red?",
+            "es": "¿Por qué tienes el ojo rojo?"
+          },
+          {
+            "en": "Her right eye is blind.",
+            "es": "Ella tiene el ojo derecho ciego."
+          },
+          {
+            "en": "I have something in my eye.",
+            "es": "Tengo algo en el ojo."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 43,
+      "word": "eyebrow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪbraʊ]",
+        "br": "[ˈaɪbraʊ]",
+        "gb": "[ˈaɪbraʊ]"
+      },
+      "translations": {
+        "rus": "бровь",
+        "spa": "la ceja"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "But Judy, thank God, was busy with the eyebrow pencil.",
+            "ru": "Но все внимание Джуди, слава богу, было сосредоточено на подводке бровей."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He arched his eyebrows in surprise.",
+            "es": "Arqueó las cejas con sorpresa."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "eyelash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪlæʃ]",
+        "br": "[ˈaɪlæʃ]",
+        "gb": "[ˈaɪlæʃ]"
+      },
+      "translations": {
+        "rus": "ресница",
+        "spa": "la pestaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She batted her eyelashes.",
+            "ru": "Она похлопала ресницами."
+          },
+          {
+            "en": "Mary wore false eyelashes.",
+            "ru": "Мэри носила накладные ресницы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "eyelid",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪlɪd]",
+        "br": "[ˈaɪlɪd]",
+        "gb": "[ˈaɪlɪd]"
+      },
+      "translations": {
+        "rus": "веко",
+        "spa": "el párpado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The left eyelid is twitching.",
+            "ru": "У меня дёргается левое веко."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The left eyelid is twitching.",
+            "es": "El párpado izquierdo me tiembla."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "face",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[feɪs]",
+        "br": "[feɪs]",
+        "gb": "[feɪs]"
+      },
+      "translations": {
+        "rus": "лицо, лицевой",
+        "spa": "la cara"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We stood face to face.",
+            "ru": "Мы стояли лицом к лицу."
+          },
+          {
+            "en": "Her face beamed with joy.",
+            "ru": "Её лицо сияло от радости."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He lied to my face.",
+            "es": "Él me mintió en mi cara."
+          },
+          {
+            "en": "She has a funny face.",
+            "es": "Ella tiene una cara graciosa."
+          },
+          {
+            "en": "Did you see his face?",
+            "es": "¿Viste su cara?"
+          },
+          {
+            "en": "Anger showed on his face.",
+            "es": "La ira se dibujó en su cara."
+          },
+          {
+            "en": "You should wash your face.",
+            "es": "Deberías lavarte la cara."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɪŋɡər]",
+        "br": "[ˈfɪŋɡə(r)]",
+        "gb": "[ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "палец (руки)",
+        "spa": "el dedo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You haven't lifted a finger.",
+            "ru": "Ты и пальцем не пошевелил."
+          },
+          {
+            "en": "Pain shot through his finger.",
+            "ru": "Боль пронзила его палец."
+          },
+          {
+            "en": "I've got blisters on my fingers.",
+            "ru": "У меня мозоли на пальцах."
+          },
+          {
+            "en": "I just cut my finger.",
+            "ru": "Я только что порезал себе палец."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have cut my finger.",
+            "es": "Me corté el dedo."
+          },
+          {
+            "en": "A man has ten fingers.",
+            "es": "Un hombre tiene diez dedos."
+          },
+          {
+            "en": "The hand has five fingers.",
+            "es": "La mano tiene cinco dedos."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 48,
+      "word": "fist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪst]",
+        "br": "[fɪst]",
+        "gb": "[fɪst]"
+      },
+      "translations": {
+        "rus": "кулак",
+        "spa": "el puño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He hit his fist on the table.",
+            "ru": "Он ударил кулаком по столу."
+          },
+          {
+            "en": "She held the money tightly in her fist.",
+            "ru": "Она крепко держала деньги в своем кулаке."
+          },
+          {
+            "en": "Don't shake your fist at me!",
+            "ru": "Не грози мне своим кулаком!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "He banged his fist on the table.",
+            "es": "Él golpeó su puño sobre la mesa."
+          },
+          {
+            "en": "She attacked him with her fists.",
+            "es": "Ella le pegó con sus puños."
+          },
+          {
+            "en": "A closed fist can indicate stress.",
+            "es": "Un puño cerrado puede indicar estrés."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "foot",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fʊt]",
+        "br": "[fʊt]",
+        "gb": "[fʊt]"
+      },
+      "translations": {
+        "rus": "нога, стопа",
+        "spa": "el pie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My foot hurts.",
+            "ru": "Моя ступня болит."
+          },
+          {
+            "en": "Stop wiggling your foot.",
+            "ru": "Не качай ногой."
+          },
+          {
+            "en": "Ouch! My foot!",
+            "ru": "Ой! Моя нога!"
+          },
+          {
+            "en": "My right foot is sleeping.",
+            "ru": "Моя правая нога затекла."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Are we going on foot?",
+            "es": "¿Vamos a pie?"
+          },
+          {
+            "en": "He went home on foot.",
+            "es": "Él se fue a casa a pie."
+          },
+          {
+            "en": "I have a pain in my foot.",
+            "es": "Me duele el pie."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 50,
+      "word": "forearm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrɑːrm]",
+        "br": "[ˈfɔːrɑːm]",
+        "gb": "[ˈfɔːrɑːm]"
+      },
+      "translations": {
+        "rus": "предплечье",
+        "spa": "el antebrazo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "You have a mosquito on your right forearm.",
+            "es": "Tienes un mosquito en el antebrazo derecho."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 51,
+      "word": "forefinger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrfɪŋɡər]",
+        "br": "[ˈfɔːfɪŋɡə(r)]",
+        "gb": "[ˈfɔːfɪŋgə]"
+      },
+      "translations": {
+        "rus": "указательный палец",
+        "spa": "el dedo índice, el índice"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I stabbed at the menu with my forefinger.",
+            "ru": "Я ткнул в меню указательным пальцем."
+          },
+          {
+            "en": "She tapped the box with her forefinger.",
+            "ru": "Она постучала по коробке своим указательным пальцем."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 52,
+      "word": "forehead",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfɔːrhed], [ˈfɔːrəd]",
+        "br": "[ˈfɔːhed], [ˈfɒrɪd]",
+        "gb": "[ˈfɔːhɛd]"
+      },
+      "translations": {
+        "rus": "лоб",
+        "spa": "la frente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Feel his forehead - he's burning up.",
+            "ru": "Потрогай его лоб - у него жар."
+          },
+          {
+            "en": "He passed his hand across his forehead.",
+            "ru": "Он провёл рукой по лбу."
+          },
+          {
+            "en": "He pressed his hands against his forehead.",
+            "ru": "Он прижал ладони ко лбу."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 53,
+      "word": "fourth finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɔːrθ] [ˈfɪŋɡər]",
+        "br": "[fɔːθ] [ˈfɪŋɡə(r)]",
+        "gb": "[fɔːθ] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "безымянный палец",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The origin of the selection of the fourth finger as the ring finger is not definitely known.",
+            "ru": "Почему безымянный палец выбран для ношения кольца, доподлинно неизвестно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 54,
+      "word": "gall bladder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɔːl] [ˈblædər]",
+        "br": "[ɡɔːl] [ˈblædə(r)]",
+        "gb": "[ˈɡɔːl] [blædər]"
+      },
+      "translations": {
+        "rus": "желчный пузырь",
+        "spa": "la vesícula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 55,
+      "word": "gland",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡlænd]",
+        "br": "[ɡlænd]",
+        "gb": "[glænd]"
+      },
+      "translations": {
+        "rus": "железа",
+        "spa": "la glándula"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The adrenal glands secrete adrenalin.",
+            "ru": "Надпочечные железы выделяют адреналин."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 56,
+      "word": "groin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrɔɪn]",
+        "br": "[ɡrɔɪn]",
+        "gb": "[grɔɪn]"
+      },
+      "translations": {
+        "rus": "пах",
+        "spa": "la ingle"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 57,
+      "word": "gum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡʌm]",
+        "br": "[ɡʌm]",
+        "gb": "[gʌm]"
+      },
+      "translations": {
+        "rus": "десна",
+        "spa": "la encía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My gums are bleeding.",
+            "ru": "Мои десны кровоточат."
+          },
+          {
+            "en": "You have a gum infection.",
+            "ru": "У вас инфекция дёсен."
+          },
+          {
+            "en": "Do your gums bleed?",
+            "ru": "У тебя кровоточат дёсны?"
+          },
+          {
+            "en": "I have pus coming out of my gums.",
+            "ru": "У меня десна гноится."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 58,
+      "word": "hair",
+      "pos": "noun",
+      "transcription": {
+        "us": "[her]",
+        "br": "[heə(r)]",
+        "gb": "[hɛə]"
+      },
+      "translations": {
+        "rus": "волос, волосы",
+        "spa": "el pelo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Fix your hair!",
+            "ru": "Причеши волосы!"
+          },
+          {
+            "en": "She has dark hair.",
+            "ru": "У неё темные волосы."
+          },
+          {
+            "en": "She pinned up her hair.",
+            "ru": "Она заколола свои волосы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has got long hair.",
+            "es": "Ella tiene el pelo largo."
+          },
+          {
+            "en": "Your hair is too long.",
+            "es": "Tu pelo está demasiado largo."
+          },
+          {
+            "en": "Her hair is very short.",
+            "es": "Lleva el pelo muy corto."
+          },
+          {
+            "en": "He had dark brown hair.",
+            "es": "Tenía el pelo castaño oscuro."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 59,
+      "word": "hand",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hænd]",
+        "br": "[hænd]",
+        "gb": "[hænd]"
+      },
+      "translations": {
+        "rus": "рука, кисть руки",
+        "spa": "la mano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My hand itches.",
+            "ru": "У меня рука чешется."
+          },
+          {
+            "en": "The young couple were holding hands.",
+            "ru": "Молодая пара держалась за руки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "May I hold your hand?",
+            "es": "¿Te puedo tomar la mano?"
+          },
+          {
+            "en": "I wash clothes by hand.",
+            "es": "Lavo la ropa a mano."
+          },
+          {
+            "en": "Raise up your left hand.",
+            "es": "Levanta la mano izquierda."
+          },
+          {
+            "en": "He had a book in his hand.",
+            "es": "Lleva un libro en la mano."
+          },
+          {
+            "en": "The dog bit me in the hand.",
+            "es": "El perro me mordió la mano."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 60,
+      "word": "head",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hed]",
+        "br": "[hed]",
+        "gb": "[hed]"
+      },
+      "translations": {
+        "rus": "голова",
+        "spa": "la cabeza"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I think with my head.",
+            "ru": "Я думаю своей головой."
+          },
+          {
+            "en": "She held up her head.",
+            "ru": "Она подняла голову."
+          },
+          {
+            "en": "The statue has no head.",
+            "ru": "У статуи нет головы."
+          },
+          {
+            "en": "Does your head hurt often?",
+            "ru": "У тебя часто болит голова?"
+          },
+          {
+            "en": "Take that off your head.",
+            "ru": "Выбрось это из твоей головы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My head aches so much.",
+            "es": "Me duele tanto la cabeza."
+          },
+          {
+            "en": "The statue has no head.",
+            "es": "La estatua no tiene cabeza."
+          },
+          {
+            "en": "Take that off your head.",
+            "es": "Sacate eso de la cabeza."
+          },
+          {
+            "en": "I think with my head.",
+            "es": "Pienso con la cabeza."
+          },
+          {
+            "en": "The band came at the head of the parade.",
+            "es": "La banda venía encabezando el desfile."
+          },
+          {
+            "en": "My head aches so much.",
+            "es": "Me duele tanto la cabeza."
+          },
+          {
+            "en": "The statue has no head.",
+            "es": "La estatua no tiene cabeza."
+          },
+          {
+            "en": "Take that off your head.",
+            "es": "Sacate eso de la cabeza."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 61,
+      "word": "heart",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[hɑːrt]",
+        "br": "[hɑːt]",
+        "gb": "[hɑːt]"
+      },
+      "translations": {
+        "rus": "сердце, основа, сердечный",
+        "spa": "el corazón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "You don't have a heart.",
+            "ru": "У вас нет сердца."
+          },
+          {
+            "en": "He has lived through three heart attacks.",
+            "ru": "Он пережил три сердечных приступа."
+          },
+          {
+            "en": "The heart is a muscle.",
+            "ru": "Сердце - это мышца."
+          },
+          {
+            "en": "He is kind at heart.",
+            "ru": "У него доброе сердце."
+          },
+          {
+            "en": "It's bad for the heart.",
+            "ru": "Это вредно для сердца."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My heart is in pain.",
+            "es": "Me duele el corazón."
+          },
+          {
+            "en": "Ann has a kind heart.",
+            "es": "Ann tiene un buen corazón."
+          },
+          {
+            "en": "He is young at heart.",
+            "es": "Él es joven de corazón."
+          },
+          {
+            "en": "The heart is a muscle.",
+            "es": "El corazón es un músculo."
+          },
+          {
+            "en": "I have a heart problem.",
+            "es": "Tengo un problema de corazón."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top1000"
+      ]
+    },
+    {
+      "id": 62,
+      "word": "heel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hiːl]",
+        "br": "[hiːl]",
+        "gb": "[hiːl]"
+      },
+      "translations": {
+        "rus": "пятка, каблук",
+        "spa": "el talón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "A shoe with a thick heel.",
+            "ru": "Туфля с толстым каблуком."
+          },
+          {
+            "en": "The back of my shoe is rubbing against my heel and giving me a blister.",
+            "ru": "Задник моего ботинка трётся о пятку и натирает мне волдырь."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My left heel is inflamed.",
+            "es": "Mi talón izquierdo está inflamado."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "clothing",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 63,
+      "word": "hip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɪp]",
+        "br": "[hɪp]",
+        "gb": "[hɪp]"
+      },
+      "translations": {
+        "rus": "бедро (верхняя или тазовая часть)",
+        "spa": "la cadera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has wide hips.",
+            "ru": "У неё широкие бёдра."
+          },
+          {
+            "en": "The man wore a gun on his hip.",
+            "ru": "На бедре человека висел пистолет."
+          },
+          {
+            "en": "The old lady fell down and broke her hip.",
+            "ru": "Старушка упала и сломала бедро."
+          },
+          {
+            "en": "Mary has narrow shoulders and wide hips.",
+            "ru": "У Мэри узкие плечи и широкие бедра."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 64,
+      "word": "index finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪndeks] [ˈfɪŋɡər]",
+        "br": "[ˈɪndeks] [ˈfɪŋɡə(r)]",
+        "gb": "[ˈɪndeks] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "указательный палец",
+        "spa": "el dedo índice, el índice"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He crooked his index finger.",
+            "ru": "Он изогнул указательный палец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 65,
+      "word": "instep",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnstep]",
+        "br": "[ˈɪnstep]",
+        "gb": "[ˈɪnstep]"
+      },
+      "translations": {
+        "rus": "подъем",
+        "spa": "el empeine"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 66,
+      "word": "intestine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɪnˈtestɪn]",
+        "br": "[ɪnˈtestɪn]",
+        "gb": "[ɪnˈtestɪn]"
+      },
+      "translations": {
+        "rus": "кишечник, кишка",
+        "spa": "el intestino"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The small intestine consists of three parts.",
+            "ru": "Тонкая кишка состоит из трёх частей."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 67,
+      "word": "iris",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈaɪrɪs]",
+        "br": "[ˈaɪrɪs]",
+        "gb": "[ˈaɪərɪs]"
+      },
+      "translations": {
+        "rus": "радужная оболочка глаза",
+        "spa": "el iris, el lirio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The iris gives the eye its color.",
+            "ru": "Радужка придаёт глазу цвет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 68,
+      "word": "jaw",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒɔː]",
+        "br": "[dʒɔː]",
+        "gb": "[ʤɔː]"
+      },
+      "translations": {
+        "rus": "челюсть",
+        "spa": "la mandíbula"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He broke his upper jaw.",
+            "ru": "Он сломал верхнюю челюсть."
+          },
+          {
+            "en": "He punched him on the jaw.",
+            "ru": "Он ударил его в челюсть."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health"
+      ]
+    },
+    {
+      "id": 69,
+      "word": "kidney",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɪdni]",
+        "br": "[ˈkɪdni]",
+        "gb": "[ˈkɪdnɪ]"
+      },
+      "translations": {
+        "rus": "почка",
+        "spa": "el riñón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your kidneys are doing fine.",
+            "ru": "Ваши почки в порядке."
+          },
+          {
+            "en": "Do you have kidney stones?",
+            "ru": "У вас есть камни в почках?"
+          },
+          {
+            "en": "He needs a kidney transplant.",
+            "ru": "Ему нужна пересадка почки."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "knee",
+      "pos": "noun",
+      "transcription": {
+        "us": "[niː]",
+        "br": "[niː]",
+        "gb": "[niː]"
+      },
+      "translations": {
+        "rus": "колено, коленный",
+        "spa": "la rodilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Did you hurt your knee?",
+            "ru": "Ты повредил колено?"
+          },
+          {
+            "en": "The snow was knee deep.",
+            "ru": "Снег был по колено."
+          },
+          {
+            "en": "He was knee deep in mud.",
+            "ru": "Он был по колено в грязи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He shot him in the knee.",
+            "es": "Le dio un disparo en la rodilla."
+          },
+          {
+            "en": "She felt her knees tremble.",
+            "es": "Ella sentía temblar sus rodillas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 71,
+      "word": "knuckle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnʌkl]",
+        "br": "[ˈnʌkl]",
+        "gb": "[nʌkl]"
+      },
+      "translations": {
+        "rus": "сустав пальца",
+        "spa": "el nudillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Stop cracking your knuckles.",
+            "ru": "Прекрати хрустеть пальцами."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 72,
+      "word": "larynx",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlærɪŋks]",
+        "br": "[ˈlærɪŋks]",
+        "gb": "[ˈlærɪŋks]"
+      },
+      "translations": {
+        "rus": "гортань",
+        "spa": "la laringe"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The human voice is produced by the larynx.",
+            "ru": "Голос человека зарождается в гортани."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 73,
+      "word": "lash",
+      "pos": "noun",
+      "transcription": {
+        "us": "[læʃ]",
+        "br": "[læʃ]",
+        "gb": "[læʃ]"
+      },
+      "translations": {
+        "rus": "ресница",
+        "spa": "la pestaña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The tears rolled over the long lashes.",
+            "ru": "Слезы катились по длинным ресницам."
+          },
+          {
+            "en": "Her eyes were ringed with stiff black lashes.",
+            "ru": "Её глаза обрамляли густые чёрные ресницы."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 74,
+      "word": "leg",
+      "pos": "noun",
+      "transcription": {
+        "us": "[leɡ]",
+        "br": "[leɡ]",
+        "gb": "[leg]"
+      },
+      "translations": {
+        "rus": "нога, ножка",
+        "spa": "la pierna"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How's your leg?",
+            "ru": "Как твоя нога?"
+          },
+          {
+            "en": "My legs are hurting.",
+            "ru": "У меня болят ноги."
+          },
+          {
+            "en": "A table has four legs.",
+            "ru": "У стола четыре ножки."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My legs hurt a lot.",
+            "es": "Me duelen mucho las piernas."
+          },
+          {
+            "en": "The dog bit her leg.",
+            "es": "El perro le mordió la pierna a ella."
+          },
+          {
+            "en": "I broke my right leg.",
+            "es": "Me rompí la pierna derecha."
+          },
+          {
+            "en": "Can you move your legs?",
+            "es": "¿Puede mover las piernas?"
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 75,
+      "word": "lip",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lɪp]",
+        "br": "[lɪp]",
+        "gb": "[lɪp]"
+      },
+      "translations": {
+        "rus": "губа",
+        "spa": "el labio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "His bottom lip was swollen.",
+            "ru": "Его нижняя губа распухла."
+          },
+          {
+            "en": "She died with a prayer on her lips.",
+            "ru": "Она умерла с молитвой на устах."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 76,
+      "word": "little finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtl] [ˈfɪŋɡər]",
+        "br": "[ˈlɪtl] [ˈfɪŋɡə(r)]",
+        "gb": "[lɪtl] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "мизинец руки",
+        "spa": "el dedillo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Not a very manly injury, to hurt your little finger.",
+            "ru": "Не мужская это травма - повредить мизинец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 77,
+      "word": "little toe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪtl] [təʊ]",
+        "br": "[ˈlɪtl] [təʊ]",
+        "gb": "[lɪtl] [təʊ]"
+      },
+      "translations": {
+        "rus": "мизинец ноги",
+        "spa": "dedo pequeño"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a pain in my little toe.",
+            "ru": "У меня болит мизинец на ноге."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 78,
+      "word": "liver",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪvər]",
+        "br": "[ˈlɪvə(r)]",
+        "gb": "[ˈlɪvə]"
+      },
+      "translations": {
+        "rus": "печень",
+        "spa": "el hígado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your liver is doing fine.",
+            "ru": "Ваша печень в порядке."
+          },
+          {
+            "en": "Alcohol damages the liver.",
+            "ru": "Алкоголь разрушает печень."
+          },
+          {
+            "en": "My liver is heavily damaged.",
+            "ru": "Моя печень серьезно повреждена."
+          },
+          {
+            "en": "This can cause liver damage.",
+            "ru": "Это может вызвать поражение печени."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My liver is heavily damaged.",
+            "es": "Mi hígado está severamente dañado."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "food",
+        "health",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 79,
+      "word": "lung",
+      "pos": "noun",
+      "transcription": {
+        "us": "[lʌŋ]",
+        "br": "[lʌŋ]",
+        "gb": "[lʌŋ]"
+      },
+      "translations": {
+        "rus": "легкое",
+        "spa": "el pulmón"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The knife punctured his lung.",
+            "ru": "Нож пробил его лёгкое."
+          },
+          {
+            "en": "Smog is the enemy of healthy lungs.",
+            "ru": "Смог — враг здоровых лёгких."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 80,
+      "word": "middle finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmɪdl] [ˈfɪŋɡər]",
+        "br": "[ˈmɪdl] [ˈfɪŋɡə(r)]",
+        "gb": "[mɪdl] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "средний палец",
+        "spa": "el dedo medio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's like the universe is giving me the big middle finger.",
+            "ru": "Как будто вселенная показала мне огромный средний палец."
+          },
+          {
+            "en": "The middle finger is the longest.",
+            "ru": "Средний палец - самый длинный."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 81,
+      "word": "milk-tooth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɪlk] [tuːθ]",
+        "br": "[mɪlk] [tuːθ]",
+        "gb": "[mɪlk] [tuːθ]"
+      },
+      "translations": {
+        "rus": "молочный зуб",
+        "spa": "el diente de leche"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 82,
+      "word": "molar",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[ˈməʊlər]",
+        "br": "[ˈməʊlə(r)]",
+        "gb": "[ˈməʊlə]"
+      },
+      "translations": {
+        "rus": "большой коренной зуб",
+        "spa": "la muela"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I had to get a molar extracted.",
+            "ru": "Мне надо было удалить коренной зуб."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 83,
+      "word": "mole",
+      "pos": "noun",
+      "transcription": {
+        "us": "[məʊl]",
+        "br": "[məʊl]",
+        "gb": "[məʊl]"
+      },
+      "translations": {
+        "rus": "родинка, родимое пятно",
+        "spa": "el lunar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She had a mole on her face.",
+            "ru": "У неё на лице была родинка."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 84,
+      "word": "mouth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[maʊθ]",
+        "br": "[maʊθ]",
+        "gb": "[maʊθ]"
+      },
+      "translations": {
+        "rus": "рот",
+        "spa": "la boca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He opened his mouth wide.",
+            "ru": "Он разинул рот."
+          },
+          {
+            "en": "He has a big mouth.",
+            "ru": "У него большой рот."
+          },
+          {
+            "en": "We have one mouth only.",
+            "ru": "У нас только один рот."
+          },
+          {
+            "en": "Don't talk with your mouth full.",
+            "ru": "Не разговаривай с набитым ртом."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has a big mouth.",
+            "es": "Él tiene una boca grande."
+          },
+          {
+            "en": "Her mouth hurt a lot.",
+            "es": "Le dolía mucho la boca."
+          },
+          {
+            "en": "I kept my mouth shut.",
+            "es": "Mantuve mi boca cerrada."
+          },
+          {
+            "en": "I need to rinse my mouth.",
+            "es": "Necesito enjuagarme la boca."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 85,
+      "word": "muscle",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmʌsl]",
+        "br": "[ˈmʌsl]",
+        "gb": "[mʌsl]"
+      },
+      "translations": {
+        "rus": "мышца, мускул",
+        "spa": "el músculo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Muscles ache.",
+            "ru": "Мышцы болят."
+          },
+          {
+            "en": "He pulled his muscle in the game.",
+            "ru": "Во время игры он растянул мышцу."
+          },
+          {
+            "en": "Swimming develops our muscles.",
+            "ru": "Плавание развивает наши мышцы."
+          },
+          {
+            "en": "Muscle tension can be a sign of stress.",
+            "ru": "Напряжение мышц может быть признаком стресса."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The heart is a muscle.",
+            "es": "El corazón es un músculo."
+          },
+          {
+            "en": "The cat didn't move a muscle.",
+            "es": "El gato no movió ni un músculo."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 86,
+      "word": "nail",
+      "pos": "noun",
+      "transcription": {
+        "us": "[neɪl]",
+        "br": "[neɪl]",
+        "gb": "[neɪl]"
+      },
+      "translations": {
+        "rus": "ноготь",
+        "spa": "la uña"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I've broken my nail.",
+            "ru": "Я сломала ноготь."
+          },
+          {
+            "en": "Stop biting your nails!",
+            "ru": "Прекрати грызть ногти!"
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a broken nail.",
+            "es": "Tengo una uña rota."
+          },
+          {
+            "en": "My nails are too short.",
+            "es": "Tengo las uñas demasiado cortas."
+          },
+          {
+            "en": "Mary chewed on her nails.",
+            "es": "María se comía las uñas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 87,
+      "word": "nape",
+      "pos": "noun",
+      "transcription": {
+        "us": "[neɪp]",
+        "br": "[neɪp]",
+        "gb": "[neɪp]"
+      },
+      "translations": {
+        "rus": "затылок, задняя часть шеи",
+        "spa": "la nuca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My nape hurts.",
+            "ru": "У меня болит затылок."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 88,
+      "word": "navel",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈneɪvl]",
+        "br": "[ˈneɪvl]",
+        "gb": "[ˈneɪvəl]"
+      },
+      "translations": {
+        "rus": "пупок",
+        "spa": "el ombligo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Why don't koalas have navels?",
+            "ru": "Почему у коал нет пупка?"
+          },
+          {
+            "en": "Mary wants to get her navel pierced.",
+            "ru": "Мэри хочет сделать пирсинг пупка."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 89,
+      "word": "neck",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nek]",
+        "br": "[nek]",
+        "gb": "[nek]"
+      },
+      "translations": {
+        "rus": "шея",
+        "spa": "el cuello"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He has a thick neck.",
+            "ru": "У него толстая шея."
+          },
+          {
+            "en": "My neck hurts a little.",
+            "ru": "Моя шея слегка болит."
+          },
+          {
+            "en": "Today I have neck pain.",
+            "ru": "Сегодня у меня болит шея."
+          },
+          {
+            "en": "My neck snapped when I did a headstand.",
+            "ru": "Моя шея щелкнула, когда я делал стойку на голове."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has a long neck.",
+            "es": "Tiene un cuello muy largo."
+          },
+          {
+            "en": "I have a pain in my neck.",
+            "es": "Tengo un dolor en mi cuello."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 90,
+      "word": "nerve",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nɜːrv]",
+        "br": "[nɜːv]",
+        "gb": "[nɜːv]"
+      },
+      "translations": {
+        "rus": "нерв, нервный",
+        "spa": "el nervio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Calm your nerves down.",
+            "ru": "Успокой свои нервы."
+          },
+          {
+            "en": "It gets on my nerves.",
+            "ru": "Это действует мне на нервы."
+          },
+          {
+            "en": "Music has settled my nerves.",
+            "ru": "Музыка успокоила мои нервы."
+          }
+        ],
+        "spa": [
+          {
+            "en": "It gets on my nerves.",
+            "es": "Me pone de los nervios."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 91,
+      "word": "nevus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈniːvəs]",
+        "br": "[ˈniːvəs]",
+        "gb": "[ˈniːvəs]"
+      },
+      "translations": {
+        "rus": "родинка, невус",
+        "spa": "el nevus, el nevo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 92,
+      "word": "nose",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nəʊz]",
+        "br": "[nəʊz]",
+        "gb": "[nəʊz]"
+      },
+      "translations": {
+        "rus": "нос, носовой",
+        "spa": "la nariz"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My nose is stuffed up.",
+            "ru": "У меня нос заложен."
+          },
+          {
+            "en": "I want to scratch my nose.",
+            "ru": "Я хочу почесать нос."
+          },
+          {
+            "en": "He scrunched his nose.",
+            "ru": "Он сморщил нос."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He has a nose bleed.",
+            "es": "Le sangra la nariz."
+          },
+          {
+            "en": "I want to scratch my nose.",
+            "es": "Me quiero rascar la nariz."
+          },
+          {
+            "en": "The child's nose is bleeding.",
+            "es": "La nariz del niño está sangrando."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 93,
+      "word": "nostril",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈnɑːstrəl]",
+        "br": "[ˈnɒstrəl]",
+        "gb": "[ˈnɔstrɪl]"
+      },
+      "translations": {
+        "rus": "ноздря",
+        "spa": "el orificio nasal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 94,
+      "word": "oesophagus",
+      "pos": "noun",
+      "transcription": {
+        "us": "[iˈsɑːfəɡəs]",
+        "br": "[iˈsɒfəɡəs]",
+        "gb": "[iːˈsɔfəgəs]"
+      },
+      "translations": {
+        "rus": "пищевод",
+        "spa": "el esófago"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 95,
+      "word": "ovule",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvjuːl]",
+        "br": "[ˈəʊvjuːl], [ˈɒvjuːl]",
+        "gb": "[ˈəʊvjuːl]"
+      },
+      "translations": {
+        "rus": "яйцеклетка",
+        "spa": "el óvulo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health"
+      ]
+    },
+    {
+      "id": 96,
+      "word": "ovum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊvəm]",
+        "br": "[ˈəʊvəm]",
+        "gb": "[ˈəʊvəm]"
+      },
+      "translations": {
+        "rus": "яйцеклетка",
+        "spa": "el óvulo"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health"
+      ]
+    },
+    {
+      "id": 97,
+      "word": "palm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pɑːm]",
+        "br": "[pɑːm]",
+        "gb": "[pɑːm]"
+      },
+      "translations": {
+        "rus": "ладонь",
+        "spa": "la palma"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She looked at the coins in her palm.",
+            "ru": "Она посмотрела на монеты на своей ладони."
+          },
+          {
+            "en": "She turned her hand over, palm uppermost.",
+            "ru": "Она повернула руку ладонью вверх."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 98,
+      "word": "pancreas",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpæŋkriəs]",
+        "br": "[ˈpæŋkriəs]",
+        "gb": "[ˈpæŋkrɪəs]"
+      },
+      "translations": {
+        "rus": "поджелудочная железа",
+        "spa": "el páncreas"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 99,
+      "word": "pelvis",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpelvɪs]",
+        "br": "[ˈpelvɪs]",
+        "gb": "[ˈpelvɪs]"
+      },
+      "translations": {
+        "rus": "таз",
+        "spa": "la pelvis"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 100,
+      "word": "physique",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fɪˈziːk]",
+        "br": "[fɪˈziːk]",
+        "gb": "[fɪˈziːk]"
+      },
+      "translations": {
+        "rus": "телосложение",
+        "spa": "el físico"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 101,
+      "word": "pupil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpjuːpl]",
+        "br": "[ˈpjuːpl]",
+        "gb": "[pjuːpl]"
+      },
+      "translations": {
+        "rus": "зрачок",
+        "spa": "la pupila"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her pupils were as black and deep as an abyss.",
+            "ru": "Её зрачки были черны и глубоки, как бездна."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 102,
+      "word": "rib",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪb]",
+        "br": "[rɪb]",
+        "gb": "[rɪb]"
+      },
+      "translations": {
+        "rus": "ребро",
+        "spa": "la costilla"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She was taken to hospital with a broken arm and ribs.",
+            "ru": "Её доставили в больницу с переломами руки и рёбер."
+          },
+          {
+            "en": "He was punched and kicked in the ribs.",
+            "ru": "Его били по рёбрам руками и ногами."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I just cracked a rib.",
+            "es": "Me he roto una costilla."
+          },
+          {
+            "en": "He broke two ribs and punctured his lung.",
+            "es": "Él se rompió dos costillas y se perforó el pulmón."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 103,
+      "word": "ring finger",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪŋ] [ˈfɪŋɡər]",
+        "br": "[rɪŋ] [ˈfɪŋɡə(r)]",
+        "gb": "[rɪŋ] [ˈfɪŋgə]"
+      },
+      "translations": {
+        "rus": "безымянный палец (на котором носят кольцо)",
+        "spa": "el dedo anular"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The origin of the selection of the fourth finger as the ring finger is not definitely known.",
+            "ru": "Почему безымянный палец выбран для ношения кольца, доподлинно неизвестно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 104,
+      "word": "scapula",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskæpjələ]",
+        "br": "[ˈskæpjələ]",
+        "gb": "[ˈskæpjʊlə]"
+      },
+      "translations": {
+        "rus": "лопатка",
+        "spa": "la escápula"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 105,
+      "word": "shoulder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈʃəʊldər]",
+        "br": "[ˈʃəʊldə(r)]",
+        "gb": "[ˈʃəʊldə]"
+      },
+      "translations": {
+        "rus": "плечо",
+        "spa": "el hombro"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Lean against my shoulder.",
+            "ru": "Прислонись к моему плечу."
+          },
+          {
+            "en": "She carried a backpack on one shoulder.",
+            "ru": "Она несла рюкзак на одном плече."
+          },
+          {
+            "en": "My shoulder hurts like hell.",
+            "ru": "Моё плечо адски болит."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Will you rub my shoulders?",
+            "es": "¿Me frotarías los hombros?"
+          },
+          {
+            "en": "I have a pain in my shoulders.",
+            "es": "Me duele el hombro."
+          },
+          {
+            "en": "He has a head on his shoulders.",
+            "es": "Él tiene la cabeza sobre los hombros."
+          },
+          {
+            "en": "Bill tapped me on the shoulder.",
+            "es": "Bill me dio una palmadita en el hombro."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 106,
+      "word": "skeleton",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈskelɪtn]",
+        "br": "[ˈskelɪtn]",
+        "gb": "[ˈskelɪtn]"
+      },
+      "translations": {
+        "rus": "скелет",
+        "spa": "el esqueleto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The bones form a skeleton.",
+            "ru": "Кости формируют скелет."
+          },
+          {
+            "en": "He looks just like a skeleton.",
+            "ru": "Он выглядит как скелет."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 107,
+      "word": "skin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skɪn]",
+        "br": "[skɪn]",
+        "gb": "[skɪn]"
+      },
+      "translations": {
+        "rus": "кожа, шкура, кожура",
+        "spa": "la piel"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has soft skin.",
+            "ru": "У неё нежная кожа."
+          },
+          {
+            "en": "Beauty is only skin deep.",
+            "ru": "Красота не глубже кожи."
+          },
+          {
+            "en": "He tried to save his skin.",
+            "ru": "Он пытался спасти свою шкуру."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She is all skin and bone.",
+            "es": "Ella es piel y hueso."
+          },
+          {
+            "en": "A baby has delicate skin.",
+            "es": "Un bebé tiene la piel sensible."
+          },
+          {
+            "en": "Her skin is whiter than snow.",
+            "es": "Su piel es blanca como la nieve."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 108,
+      "word": "skull",
+      "pos": "noun",
+      "transcription": {
+        "us": "[skʌl]",
+        "br": "[skʌl]",
+        "gb": "[skʌl]"
+      },
+      "translations": {
+        "rus": "череп",
+        "spa": "el cráneo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He cracked his skull in the accident.",
+            "ru": "В этой автокатастрофе он получил перелом черепа."
+          },
+          {
+            "en": "The bullet passed straight through his skull.",
+            "ru": "Пуля прошла прямо сквозь его череп."
+          },
+          {
+            "en": "He was killed by an axe blow to the base of his skull.",
+            "ru": "Он был убит ударом топора в основание черепа."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 109,
+      "word": "spinal column",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspaɪnl] [ˈkɑːləm]",
+        "br": "[ˈspaɪnl] [ˈkɒləm]",
+        "gb": "[spaɪnl] [ˈkɔləm]"
+      },
+      "translations": {
+        "rus": "позвоночник",
+        "spa": "la columna vertebral, la espina dorsal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Spinal column consists of vertebrae and protects spinal cord.",
+            "ru": "Позвоночник состоит из позвонков и защищает спинной мозг."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health"
+      ]
+    },
+    {
+      "id": 110,
+      "word": "spinal cord",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈspaɪnl] [kɔːrd]",
+        "br": "[ˈspaɪnl] [kɔːd]",
+        "gb": "[spaɪnl] [kɔːd]"
+      },
+      "translations": {
+        "rus": "спинной мозг",
+        "spa": "la médula espinal"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 111,
+      "word": "spine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[spaɪn]",
+        "br": "[spaɪn]",
+        "gb": "[spaɪn]"
+      },
+      "translations": {
+        "rus": "позвоночник",
+        "spa": "la columna vertebral, la espina dorsal"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "One of the bullets damaged his spine.",
+            "ru": "Одна из пуль повредила ему позвоночник."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 112,
+      "word": "stomach",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈstʌmək]",
+        "br": "[ˈstʌmək]",
+        "gb": "[ˈstʌmək]"
+      },
+      "translations": {
+        "rus": "желудок",
+        "spa": "el estómago"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Don't drink on an empty stomach.",
+            "ru": "Не пей на пустой желудок."
+          },
+          {
+            "en": "His stomach worries him.",
+            "ru": "Его беспокоит желудок."
+          },
+          {
+            "en": "My stomach hurts after meals.",
+            "ru": "Мой желудок болит после еды."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a sore stomach.",
+            "es": "Me duele el estómago."
+          },
+          {
+            "en": "She died of stomach cancer.",
+            "es": "Ella murió de cáncer de estómago."
+          },
+          {
+            "en": "My stomach hurts after meals.",
+            "es": "Me duele el estómago después de las comidas."
+          },
+          {
+            "en": "An ulcer forms in the stomach.",
+            "es": "Una úlcera se forma en el estómago."
+          },
+          {
+            "en": "The stomach ache has gone away.",
+            "es": "El dolor de estómago pasó."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 113,
+      "word": "temple",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtempl]",
+        "br": "[ˈtempl]",
+        "gb": "[templ]"
+      },
+      "translations": {
+        "rus": "висок",
+        "spa": "la sien"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "During the night, a wasp stung my temple.",
+            "ru": "Ночью меня ужалила оса в висок."
+          }
+        ],
+        "spa": [
+          {
+            "en": "His hair's thin at the temples.",
+            "es": "En las sienes tiene el pelo muy claro."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 114,
+      "word": "thigh",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θaɪ]",
+        "br": "[θaɪ]",
+        "gb": "[θaɪ]"
+      },
+      "translations": {
+        "rus": "бедро, бедренная кость",
+        "spa": "el muslo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She has a tattoo of a lizard on her thigh.",
+            "ru": "У неё есть татуировка в виде ящерицы на бедре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 115,
+      "word": "thorax",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθɔːræks]",
+        "br": "[ˈθɔːræks]",
+        "gb": "[ˈθɔːræks]"
+      },
+      "translations": {
+        "rus": "грудная клетка",
+        "spa": "el tórax"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 116,
+      "word": "throat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θrəʊt]",
+        "br": "[θrəʊt]",
+        "gb": "[θrəʊt]"
+      },
+      "translations": {
+        "rus": "горло",
+        "spa": "la garganta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My throat had dried up.",
+            "ru": "У меня в горле пересохло."
+          },
+          {
+            "en": "I've got a tickle in my throat.",
+            "ru": "У меня першит в горле."
+          },
+          {
+            "en": "He held a knife to her throat.",
+            "ru": "Он держал нож у ее горла."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have a sore throat.",
+            "es": "Me duele la garganta."
+          },
+          {
+            "en": "Is there a home remedy for dry throat?",
+            "es": "¿Hay algún remedio casero para la garganta seca?"
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 117,
+      "word": "thumb",
+      "pos": "noun",
+      "transcription": {
+        "us": "[θʌm]",
+        "br": "[θʌm]",
+        "gb": "[θʌm]"
+      },
+      "translations": {
+        "rus": "большой палец (руки)",
+        "spa": "el dedo pulgar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Press your thumb on this spot.",
+            "ru": "Прижмите свой большой палец к этому месту."
+          },
+          {
+            "en": "I accidentally cut my thumb.",
+            "ru": "Я случайно порезал большой палец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 118,
+      "word": "thyroid gland",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈθaɪrɔɪd] [ɡlænd]",
+        "br": "[ˈθaɪrɔɪd] [ɡlænd]",
+        "gb": "[ˈθaɪrɔːɪd] [glænd]"
+      },
+      "translations": {
+        "rus": "щитовидная железа",
+        "spa": "glándula tiroides"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 119,
+      "word": "toe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[təʊ]",
+        "br": "[təʊ]",
+        "gb": "[təʊ]"
+      },
+      "translations": {
+        "rus": "палец ноги",
+        "spa": "el dedo del pie"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "My sock has a hole in the toe.",
+            "ru": "У меня дырка на носке, где палец."
+          },
+          {
+            "en": "I accidentally stepped on her toe.",
+            "ru": "Я случайно наступил ей на палец ноги."
+          },
+          {
+            "en": "I stubbed my toe on the table's leg.",
+            "ru": "Я ударился пальцем о ножку стола."
+          }
+        ],
+        "spa": [
+          {
+            "en": "My toe began to bleed.",
+            "es": "Mi dedo del pie empezó a sangrar."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 120,
+      "word": "tongue",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tʌŋ]",
+        "br": "[tʌŋ]",
+        "gb": "[tʌŋ]"
+      },
+      "translations": {
+        "rus": "язык",
+        "spa": "la lengua"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Ouch! I bit my tongue!",
+            "ru": "Ай! Я прикусил язык!"
+          },
+          {
+            "en": "She has a sharp tongue.",
+            "ru": "У неё острый язык."
+          },
+          {
+            "en": "Linda stuck her tongue out.",
+            "ru": "Линда высунула язык."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Ouch! I bit my tongue.",
+            "es": "Ouch! Me mordí la lengua."
+          },
+          {
+            "en": "Let me see your tongue.",
+            "es": "Enséñame la lengua."
+          },
+          {
+            "en": "The chili burnt my tongue.",
+            "es": "El chile me quemó la lengua."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 121,
+      "word": "tonsil",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtɑːnsl]",
+        "br": "[ˈtɒnsl]",
+        "gb": "[tɔnsl]"
+      },
+      "translations": {
+        "rus": "миндалина",
+        "spa": "la amígdala"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'm afraid my tonsils are swollen.",
+            "ru": "Я боюсь, у меня воспалены миндалины."
+          },
+          {
+            "en": "I might have to get my tonsils out.",
+            "ru": "Мне, возможно, придётся удалить миндалины."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 122,
+      "word": "tooth",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːθ]",
+        "br": "[tuːθ]",
+        "gb": "[tuːθ]"
+      },
+      "translations": {
+        "rus": "зуб",
+        "spa": "el diente"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I had my tooth out.",
+            "ru": "Мне удалили зуб."
+          },
+          {
+            "en": "Which tooth aches?",
+            "ru": "Какой зуб вас беспокоит?"
+          },
+          {
+            "en": "The baby cut a tooth.",
+            "ru": "У ребенка прорезался зуб."
+          },
+          {
+            "en": "Which tooth hurts?",
+            "ru": "Который зуб болит?"
+          },
+          {
+            "en": "I had a tooth pulled.",
+            "ru": "Мне выдернули зуб."
+          },
+          {
+            "en": "My front tooth fell out.",
+            "ru": "У меня выпал передний зуб."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I had a tooth pulled.",
+            "es": "Me sacaron un diente."
+          },
+          {
+            "en": "Your tooth must be extracted.",
+            "es": "Hay que extraerte el diente."
+          },
+          {
+            "en": "Should I have my tooth extracted?",
+            "es": "¿Debería hacer que me extraigan el diente?"
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "health",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 123,
+      "word": "trachea",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtreɪkiə]",
+        "br": "[trəˈkiːə]",
+        "gb": "[trəˈkiːə]"
+      },
+      "translations": {
+        "rus": "трахея",
+        "spa": "la tráquea"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 124,
+      "word": "urinary bladder",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈjʊrɪneri] [ˈblædər]",
+        "br": "[ˈjʊərɪnəri] [ˈblædə(r)]",
+        "gb": "[ˈjʊərɪnərɪ] [ˈblædə]"
+      },
+      "translations": {
+        "rus": "мочевой пузырь",
+        "spa": "la vejiga"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I have a steel bladder.",
+            "ru": "У меня стальной мочевой пузырь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 125,
+      "word": "vagina",
+      "pos": "noun",
+      "transcription": {
+        "us": "[vəˈdʒaɪnə]",
+        "br": "[vəˈdʒaɪnə]",
+        "gb": "[vəˈʤaɪnə]"
+      },
+      "translations": {
+        "rus": "влагалище",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 126,
+      "word": "vein",
+      "pos": "noun",
+      "transcription": {
+        "us": "[veɪn]",
+        "br": "[veɪn]",
+        "gb": "[veɪn]"
+      },
+      "translations": {
+        "rus": "вена, жила",
+        "spa": "la vena"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The surgeon clamped the vein.",
+            "ru": "Хирург пережал вену."
+          },
+          {
+            "en": "We injected the glucose into the patient's vein.",
+            "ru": "Мы ввели глюкозу в вену пациента."
+          }
+        ],
+        "spa": [
+          {
+            "en": "I have blue blood in my veins.",
+            "es": "Tengo sangre azul en las venas."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 127,
+      "word": "vertebra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvɜːrtɪbrə]",
+        "br": "[ˈvɜːtɪbrə]",
+        "gb": "[ˈvɜːtɪbrə]"
+      },
+      "translations": {
+        "rus": "позвонок",
+        "spa": "la vértebra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 128,
+      "word": "vulva",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈvʌlvə]",
+        "br": "[ˈvʌlvə]",
+        "gb": "[ˈvʌlvə]"
+      },
+      "translations": {
+        "rus": "вульва",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 129,
+      "word": "waist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[weɪst]",
+        "br": "[weɪst]",
+        "gb": "[weɪst]"
+      },
+      "translations": {
+        "rus": "талия, пояс",
+        "spa": "la cintura"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He put his arm around her waist.",
+            "ru": "Он обнял ее за талию."
+          },
+          {
+            "en": "She wore a belt around her waist.",
+            "ru": "Она носила пояс вокруг талии."
+          },
+          {
+            "en": "He has a narrow waist and broad shoulders.",
+            "ru": "У него узкая талия и широкие плечи."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She has a small waist.",
+            "es": "Tiene una cintura muy pequeña."
+          },
+          {
+            "en": "What is your waist size?",
+            "es": "¿Cuál es tu medida de cintura?"
+          },
+          {
+            "en": "He put his arm around my waist.",
+            "es": "Puso su brazo alrededor de mi cintura."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance"
+      ]
+    },
+    {
+      "id": 130,
+      "word": "windpipe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈwɪndpaɪp]",
+        "br": "[ˈwɪndpaɪp]",
+        "gb": "[ˈwɪndpaɪp]"
+      },
+      "translations": {
+        "rus": "трахея",
+        "spa": "la tráquea"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "anatomy"
+      ]
+    },
+    {
+      "id": 131,
+      "word": "wrist",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[rɪst]",
+        "br": "[rɪst]",
+        "gb": "[rɪst]"
+      },
+      "translations": {
+        "rus": "запястье, наручный",
+        "spa": "la muñeca"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She had a gold watch on her wrist.",
+            "ru": "У неё были золотые часы на запястье."
+          },
+          {
+            "en": "The ball hit him hard on the wrist.",
+            "ru": "Мяч сильно ударил его по запястью."
+          }
+        ],
+        "spa": [
+          {
+            "en": "He seized me by the wrist.",
+            "es": "Él me agarró por la muñeca."
+          },
+          {
+            "en": "I fell down and hurt my wrist.",
+            "es": "Me caí y me hice daño en la muñeca."
+          }
+        ]
+      },
+      "categories": [
+        "anatomy",
+        "appearance",
+        "health",
+        "oxford5000_b2"
+      ]
+    }
+  ]
+}

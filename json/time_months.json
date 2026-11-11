@@ -1,0 +1,387 @@
+{
+  "category": {
+    "id": "time_months",
+    "name_rus": "Месяцы",
+    "type": "topic",
+    "word_count": 12
+  },
+  "words": [
+    {
+      "id": 5889,
+      "word": "April",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈeɪprəl]",
+        "br": "[ˈeɪprəl]",
+        "gb": "[ˈeɪprəl]"
+      },
+      "translations": {
+        "rus": "апрель",
+        "spa": "abril"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "April has 30 days.",
+            "ru": "В апреле 30 дней."
+          },
+          {
+            "en": "The hearing was arranged for April.",
+            "ru": "Слушание было запланировано на апрель."
+          },
+          {
+            "en": "The law was promulgated in April 1988.",
+            "ru": "Данный закон был обнародован в апреле 1988 года."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 5895,
+      "word": "August",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːɡəst]",
+        "br": "[ˈɔːɡəst]",
+        "gb": "[ˈɔːɡəst]"
+      },
+      "translations": {
+        "rus": "август",
+        "spa": "agosto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I took two weeks off in August.",
+            "ru": "Я взял двухнедельный отпуск в августе."
+          },
+          {
+            "en": "We are taking our vacation in August.",
+            "ru": "Мы возьмём свой отпуск в августе."
+          },
+          {
+            "en": "The last two Augusts have been very dry.",
+            "ru": "Последние два августа были очень засушливыми."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 5963,
+      "word": "December",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dɪˈsembər]",
+        "br": "[dɪˈsembə(r)]",
+        "gb": "[dɪˈsembə]"
+      },
+      "translations": {
+        "rus": "декабрь",
+        "spa": "diciembre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her birthday is in late December.",
+            "ru": "Её день рождения — в конце декабря."
+          },
+          {
+            "en": "December is the busiest time of year for shops.",
+            "ru": "Декабрь — самое загруженное время года для магазинов."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6008,
+      "word": "February",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈfebrueri]",
+        "br": "[ˈfebruəri]",
+        "gb": "[ˈfebrʊərɪ]"
+      },
+      "translations": {
+        "rus": "февраль",
+        "spa": "febrero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "We can do it in February.",
+            "ru": "Мы можем сделать это в феврале."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6069,
+      "word": "January",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈdʒænjueri]",
+        "br": "[ˈdʒænjuəri]",
+        "gb": "[ˈʤænjʊərɪ]"
+      },
+      "translations": {
+        "rus": "январь",
+        "spa": "enero"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They are expecting another child in January.",
+            "ru": "Они ожидают ещё одного ребенка в январе."
+          },
+          {
+            "en": "The package arrived January 6.",
+            "ru": "Посылка была доставлена шестого января."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6071,
+      "word": "July",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒuˈlaɪ]",
+        "br": "[dʒuˈlaɪ]",
+        "gb": "[ʤuːˈlaɪ]"
+      },
+      "translations": {
+        "rus": "июль",
+        "spa": "julio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's cold for July.",
+            "ru": "Холодновато для июля."
+          },
+          {
+            "en": "July is my favorite month.",
+            "ru": "Июль — это мой любимый месяц."
+          },
+          {
+            "en": "I plan to graduate in July.",
+            "ru": "Я планирую закончить учёбу в июле."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6072,
+      "word": "June",
+      "pos": "noun",
+      "transcription": {
+        "us": "[dʒuːn]",
+        "br": "[dʒuːn]",
+        "gb": "[ʤuːn]"
+      },
+      "translations": {
+        "rus": "июнь",
+        "spa": "junio"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Dawn comes early in June.",
+            "ru": "В июне светает рано."
+          },
+          {
+            "en": "I finished school last June.",
+            "ru": "Я закончил школу в июне прошлого года."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6101,
+      "word": "March",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mɑːrtʃ]",
+        "br": "[mɑːtʃ]",
+        "gb": "[mɑːʧ]"
+      },
+      "translations": {
+        "rus": "март",
+        "spa": "marzo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I'll be leaving in March.",
+            "ru": "Я уеду в марте."
+          },
+          {
+            "en": "He'll be home in late March.",
+            "ru": "Он вернётся домой к концу марта."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months",
+        "top3000"
+      ]
+    },
+    {
+      "id": 6104,
+      "word": "May",
+      "pos": "noun",
+      "transcription": {
+        "us": "[meɪ]",
+        "br": "[meɪ]",
+        "gb": "[meɪ]"
+      },
+      "translations": {
+        "rus": "май",
+        "spa": "mayo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The last two Mays have been cold and rainy.",
+            "ru": "Последние два года погода в мае была холодной и дождливой."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6141,
+      "word": "November",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nəʊˈvembər]",
+        "br": "[nəʊˈvembə(r)]",
+        "gb": "[nəʊˈvembə]"
+      },
+      "translations": {
+        "rus": "ноябрь",
+        "spa": "noviembre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It snowed in early November.",
+            "ru": "В начале ноября выпал снег."
+          },
+          {
+            "en": "We'll be here from now until November.",
+            "ru": "Мы пробудем здесь до ноября."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6145,
+      "word": "October",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɑːkˈtəʊbər]",
+        "br": "[ɒkˈtəʊbə(r)]",
+        "gb": "[ɔkˈtəʊbə]"
+      },
+      "translations": {
+        "rus": "октябрь",
+        "spa": "octubre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "In October the nights start drawing in.",
+            "ru": "В октябре ночи начинают удлиняться."
+          },
+          {
+            "en": "He retired in October.",
+            "ru": "Он вышел в отставку в октябре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    },
+    {
+      "id": 6223,
+      "word": "September",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sepˈtembər]",
+        "br": "[sepˈtembə(r)]",
+        "gb": "[sepˈtembə]"
+      },
+      "translations": {
+        "rus": "сентябрь",
+        "spa": "septiembre"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "It's rare to see snow in September.",
+            "ru": "Снег в сентябре нечасто увидишь."
+          },
+          {
+            "en": "There's no shooting till September.",
+            "ru": "Охота запрещена до сентября."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "oxford3000_a1",
+        "time_months"
+      ]
+    }
+  ]
+}

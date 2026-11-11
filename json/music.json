@@ -1,0 +1,2338 @@
+{
+  "category": {
+    "id": "music",
+    "name_rus": "Музыка",
+    "type": "topic",
+    "word_count": 87
+  },
+  "words": [
+    {
+      "id": 5710,
+      "word": "accordion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[əˈkɔːrdiən]",
+        "br": "[əˈkɔːdiən]",
+        "gb": "[əˈkɔːdjən]"
+      },
+      "translations": {
+        "rus": "аккордеон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5711,
+      "word": "album",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈælbəm]",
+        "br": "[ˈælbəm]",
+        "gb": "[ˈælbəm]"
+      },
+      "translations": {
+        "rus": "альбом",
+        "spa": "el álbum"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They released a new album.",
+            "ru": "Они выпустили новый альбом."
+          },
+          {
+            "en": "I'll show my album to you.",
+            "ru": "Я покажу тебе свой альбом."
+          },
+          {
+            "en": "How many photos are in this album?",
+            "ru": "Сколько фотографий в этом альбоме?"
+          },
+          {
+            "en": "What's your favorite Rolling Stones album?",
+            "ru": "Какой ваш любимый альбом у Rolling Stones?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_b1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5712,
+      "word": "alto",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈæltəʊ]",
+        "br": "[ˈæltəʊ]",
+        "gb": "[ˈæltəʊ]"
+      },
+      "translations": {
+        "rus": "альт, альтовый гобой, английский рожок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5713,
+      "word": "bagpipe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbæɡpaɪp]",
+        "br": "[ˈbæɡpaɪp]",
+        "gb": "[ˈbægpaɪp]"
+      },
+      "translations": {
+        "rus": "волынка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5714,
+      "word": "balalaika",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌbæləˈlaɪkə]",
+        "br": "[ˌbæləˈlaɪkə]",
+        "gb": "[bæləˈlaɪkə]"
+      },
+      "translations": {
+        "rus": "балалайка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5715,
+      "word": "ballet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bæˈleɪ]",
+        "br": "[ˈbæleɪ]",
+        "gb": "[ˈbæleɪ]"
+      },
+      "translations": {
+        "rus": "балет",
+        "spa": "el ballet"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "How was the ballet?",
+            "ru": "Как балет?"
+          },
+          {
+            "en": "I don't know anything about ballet.",
+            "ru": "Я ничего не знаю о балете."
+          },
+          {
+            "en": "She invited me to the ballet.",
+            "ru": "Она пригласила меня на балет."
+          },
+          {
+            "en": "She went to Paris for the purpose of learning ballet.",
+            "ru": "Она поехала в Париж, чтобы учиться балету."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5716,
+      "word": "band",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bænd]",
+        "br": "[bænd]",
+        "gb": "[bænd]"
+      },
+      "translations": {
+        "rus": "оркестр, группа",
+        "spa": "la banda"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The band played a march.",
+            "ru": "Оркестр играл марш."
+          },
+          {
+            "en": "I love this band.",
+            "ru": "Я обожаю эту группу."
+          },
+          {
+            "en": "Do you play in a band?",
+            "ru": "Вы играете в оркестре?"
+          },
+          {
+            "en": "My school has a band.",
+            "ru": "В моей школе есть группа."
+          }
+        ],
+        "spa": [
+          {
+            "en": "The band played Dixie.",
+            "es": "La banda tocó Dixie."
+          },
+          {
+            "en": "The brass band played three marches.",
+            "es": "La banda de bronces tocó tres marchas."
+          },
+          {
+            "en": "What time will the band start playing?",
+            "es": "¿A qué hora empezará a tocar la banda?"
+          }
+        ]
+      },
+      "categories": [
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5717,
+      "word": "banjo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbændʒəʊ]",
+        "br": "[ˈbændʒəʊ]",
+        "gb": "[ˈbænʤəʊ]"
+      },
+      "translations": {
+        "rus": "банджо",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5718,
+      "word": "baritone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈbærɪtəʊn]",
+        "br": "[ˈbærɪtəʊn]",
+        "gb": "[ˈbærɪtəʊn]"
+      },
+      "translations": {
+        "rus": "баритон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5719,
+      "word": "bass",
+      "pos": "noun",
+      "transcription": {
+        "us": "[beɪs]",
+        "br": "[beɪs]",
+        "gb": "[beıs]"
+      },
+      "translations": {
+        "rus": "бас, контрабас",
+        "spa": "el bajo, el contrabajo, los graves"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He plays bass guitar.",
+            "ru": "Он играет на бас-гитаре."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5720,
+      "word": "bassoon",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈsuːn]",
+        "br": "[bəˈsuːn]",
+        "gb": "[bəˈsuːn]"
+      },
+      "translations": {
+        "rus": "фагот",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5721,
+      "word": "baton",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəˈtɑːn]",
+        "br": null,
+        "gb": "[ˈbætən]"
+      },
+      "translations": {
+        "rus": "дирижерская палочка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5722,
+      "word": "beat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[biːt]",
+        "br": "[biːt]",
+        "gb": "[biːt]"
+      },
+      "translations": {
+        "rus": "удар, ритм, биение",
+        "spa": "el ritmo, el pulso"
+      },
+      "examples": {
+        "rus": null,
+        "spa": [
+          {
+            "en": "Feel the rhythm and follow the beat.",
+            "es": "Siente el ritmo y sigue el pulso."
+          },
+          {
+            "en": "With a weak beat, it continues to bleed.",
+            "es": "Con un pulso débil, continúa sangrando."
+          }
+        ]
+      },
+      "categories": [
+        "music",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5723,
+      "word": "bow",
+      "pos": "noun",
+      "transcription": {
+        "us": "[bəʊ]",
+        "br": "[bəʊ]",
+        "gb": "[bəʊ]"
+      },
+      "translations": {
+        "rus": "смычок",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5724,
+      "word": "brass instruments",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[brɑːs] [ˈɪnstrəmənts]"
+      },
+      "translations": {
+        "rus": "медные духовые инструменты",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5725,
+      "word": "cello",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃeləʊ]",
+        "br": "[ˈtʃeləʊ]",
+        "gb": "[ˈʧeləʊ]"
+      },
+      "translations": {
+        "rus": "виолончель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5726,
+      "word": "chamber music",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtʃeɪmbər] [ˈmjuːzɪk]",
+        "br": "[ˈtʃeɪmbə(r)] [ˈmjuːzɪk]",
+        "gb": "[ˈʧeɪmbə] [ˈmjuːzɪk]"
+      },
+      "translations": {
+        "rus": "камерная музыка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5727,
+      "word": "chord",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kɔːrd]",
+        "br": "[kɔːd]",
+        "gb": "[kɔːd]"
+      },
+      "translations": {
+        "rus": "аккорд",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5728,
+      "word": "clarinet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌklærəˈnet]",
+        "br": "[ˌklærəˈnet]",
+        "gb": "[klærɪˈnet]"
+      },
+      "translations": {
+        "rus": "кларнет",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5729,
+      "word": "classical music",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈklæsɪkl] [ˈmjuːzɪk]",
+        "br": "[ˈklæsɪkl] [ˈmjuːzɪk]",
+        "gb": "[ˈklæsɪkəl] [ˈmjuːzɪk]"
+      },
+      "translations": {
+        "rus": "классическая музыка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5730,
+      "word": "clef",
+      "pos": "noun",
+      "transcription": {
+        "us": "[klef]",
+        "br": "[klef]",
+        "gb": "[klef]"
+      },
+      "translations": {
+        "rus": "(музыкальный) ключ",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5731,
+      "word": "composer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kəmˈpəʊzər]",
+        "br": "[kəmˈpəʊzə(r)]",
+        "gb": "[kəmˈpəʊzə]"
+      },
+      "translations": {
+        "rus": "композитор",
+        "spa": "el compositor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a famous composer.",
+            "ru": "Он известный композитор."
+          },
+          {
+            "en": "Who is your favorite composer?",
+            "ru": "Кто Ваш любимый композитор?"
+          },
+          {
+            "en": "Beethoven was a great composer.",
+            "ru": "Бетховен был великим композитором."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5732,
+      "word": "composition",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌkɑːmpəˈzɪʃn]",
+        "br": "[ˌkɒmpəˈzɪʃn]",
+        "gb": "[kɔmpəˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "композиция, сочинение",
+        "spa": "la composición"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Your composition has a few mistakes.",
+            "ru": "В твоём сочинении есть несколько ошибок."
+          },
+          {
+            "en": "His composition is by far the best of all.",
+            "ru": "Его сочинение гораздо лучше остальных."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_c1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5733,
+      "word": "concert",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkɑːnsərt]",
+        "br": "[ˈkɒnsət]",
+        "gb": "[ˈkɔnsɜːt]"
+      },
+      "translations": {
+        "rus": "концерт",
+        "spa": "el concierto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I went to a concert.",
+            "ru": "Я ходил на концерт."
+          },
+          {
+            "en": "The concert was a success.",
+            "ru": "Концерт удался."
+          }
+        ],
+        "spa": [
+          {
+            "en": "What time is the concert?",
+            "es": "¿A qué hora es el concierto?"
+          },
+          {
+            "en": "Where will the concert be?",
+            "es": "¿Dónde va a ser el concierto?"
+          },
+          {
+            "en": "When does the concert begin?",
+            "es": "¿Cuándo empieza el concierto?"
+          },
+          {
+            "en": "The concert is about to start.",
+            "es": "El concierto está por comenzar."
+          }
+        ]
+      },
+      "categories": [
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5734,
+      "word": "conductor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[kənˈdʌktər]",
+        "br": "[kənˈdʌktə(r)]",
+        "gb": "[kənˈdʌktə]"
+      },
+      "translations": {
+        "rus": "дирижер",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5735,
+      "word": "cymbals",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[ˈsɪmbəlz]"
+      },
+      "translations": {
+        "rus": "тарелки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5736,
+      "word": "drum",
+      "pos": "noun",
+      "transcription": {
+        "us": "[drʌm]",
+        "br": "[drʌm]",
+        "gb": "[drʌm]"
+      },
+      "translations": {
+        "rus": "барабан",
+        "spa": "el tambor"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The drums beat all night.",
+            "ru": "Барабаны били всю ночь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5738,
+      "word": "drum sticks",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[drʌm] [stɪks]"
+      },
+      "translations": {
+        "rus": "барабанные палочки",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5739,
+      "word": "drums",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[drʌmz]"
+      },
+      "translations": {
+        "rus": "ударные инструменты",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5740,
+      "word": "flat",
+      "pos": "noun",
+      "transcription": {
+        "us": "[flæt]",
+        "br": "[flæt]",
+        "gb": "[flæt]"
+      },
+      "translations": {
+        "rus": "бемоль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5741,
+      "word": "flute",
+      "pos": "noun",
+      "transcription": {
+        "us": "[fluːt]",
+        "br": "[fluːt]",
+        "gb": "[fluːt]"
+      },
+      "translations": {
+        "rus": "флейта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5742,
+      "word": "French horn",
+      "pos": "noun",
+      "transcription": {
+        "us": null,
+        "br": null,
+        "gb": "[frenʧ] [hɔːn]"
+      },
+      "translations": {
+        "rus": "валторна",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5743,
+      "word": "grand piano",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡrænd] [piˈænəʊ]",
+        "br": "[ɡrænd] [piˈænəʊ]",
+        "gb": "[grænd] [pɪˈænəʊ]"
+      },
+      "translations": {
+        "rus": "рояль",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5744,
+      "word": "guitar",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ɡɪˈtɑːr]",
+        "br": "[ɡɪˈtɑː(r)]",
+        "gb": "[gɪˈtɑː]"
+      },
+      "translations": {
+        "rus": "гитара",
+        "spa": "la guitarra"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The guitar is in tune.",
+            "ru": "Гитара настроена."
+          },
+          {
+            "en": "Who does this guitar belong to?",
+            "ru": "Кому принадлежит эта гитара?"
+          },
+          {
+            "en": "Do you want this guitar?",
+            "ru": "Хочешь эту гитару?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5745,
+      "word": "harmonica",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɑːrˈmɑːnɪkə]",
+        "br": "[hɑːˈmɒnɪkə]",
+        "gb": "[hɑːˈmɔnɪkə]"
+      },
+      "translations": {
+        "rus": "губная гармоника",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5746,
+      "word": "harp",
+      "pos": "noun",
+      "transcription": {
+        "us": "[hɑːrp]",
+        "br": "[hɑːp]",
+        "gb": "[hɑːp]"
+      },
+      "translations": {
+        "rus": "арфа",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5747,
+      "word": "instrument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɪnstrəmənt]",
+        "br": "[ˈɪnstrəmənt]",
+        "gb": "[ˈɪnstrʊmənt]"
+      },
+      "translations": {
+        "rus": "инструмент, орудие, прибор",
+        "spa": "el instrumento"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Do you play an instrument?",
+            "ru": "Вы играете на каком-нибудь инструменте?"
+          },
+          {
+            "en": "The trumpet is a musical instrument.",
+            "ru": "Труба — это музыкальный инструмент."
+          },
+          {
+            "en": "What's your favorite musical instrument?",
+            "ru": "Какой твой любимый музыкальный инструмент?"
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5748,
+      "word": "instrumental music",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɪnstrəˈmentl] [ˈmjuːzɪk]",
+        "br": "[ˌɪnstrəˈmentl] [ˈmjuːzɪk]",
+        "gb": "[ɪnstrʊˈmentl] [ˈmjuːzɪk]"
+      },
+      "translations": {
+        "rus": "инструментальная музыка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 2332,
+      "word": "keyboard",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈkiːbɔːrd]",
+        "br": "[ˈkiːbɔːd]",
+        "gb": "[ˈkiːbɔːd]"
+      },
+      "translations": {
+        "rus": "клавиатура",
+        "spa": "el teclado"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He switched from keyboard to voice mode.",
+            "ru": "Он переключился с режима ввода с клавиатуры на голосовой."
+          },
+          {
+            "en": "If you boot up your system without the keyboard being plugged in, you will see an error message.",
+            "ru": "Если при начальной загрузке не подключена клавиатура, вы увидите сообщение об ошибке."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "computer",
+        "music",
+        "oxford3000_b1"
+      ]
+    },
+    {
+      "id": 5749,
+      "word": "loudspeaker",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌlaʊdˈspiːkər]",
+        "br": "[ˌlaʊdˈspiːkə(r)]",
+        "gb": "[laʊdˈspiːkər]"
+      },
+      "translations": {
+        "rus": "динамик, громкоговоритель",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5750,
+      "word": "lyrics",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈlɪrɪks]",
+        "br": "[ˈlɪrɪks]",
+        "gb": "[ˈlɪrɪks]"
+      },
+      "translations": {
+        "rus": "текст песни",
+        "spa": "la letra"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5751,
+      "word": "mandolin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmændəlɪn]",
+        "br": "[ˈmændəlɪn]",
+        "gb": "[ˈmændəlɪn]"
+      },
+      "translations": {
+        "rus": "мандолина",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5752,
+      "word": "melody",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmelədi]",
+        "br": "[ˈmelədi]",
+        "gb": "[ˈmelədɪ]"
+      },
+      "translations": {
+        "rus": "мелодия",
+        "spa": "la melodía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "That's a very catchy melody.",
+            "ru": "Это очень привязчивая мелодия."
+          },
+          {
+            "en": "I can't get that melody out of my head.",
+            "ru": "Я никак не могу выбросить из головы эту мелодию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_c1"
+      ]
+    },
+    {
+      "id": 5753,
+      "word": "microphone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmaɪkrəfəʊn]",
+        "br": "[ˈmaɪkrəfəʊn]",
+        "gb": "[ˈmaɪkrəfəʊn]"
+      },
+      "translations": {
+        "rus": "микрофон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5754,
+      "word": "musical instrument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈmjuːzɪkl] [ˈɪnstrəmənt]",
+        "br": "[ˈmjuːzɪkl] [ˈɪnstrəmənt]",
+        "gb": "[ˈmjuːzɪkəl] [ˈɪnstrəmənt]"
+      },
+      "translations": {
+        "rus": "музыкальный инструмент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 1804,
+      "word": "musician",
+      "pos": "noun",
+      "transcription": {
+        "us": "[mjuˈzɪʃn]",
+        "br": "[mjuˈzɪʃn]",
+        "gb": "[mjuːˈzɪʃn]"
+      },
+      "translations": {
+        "rus": "музыкант",
+        "spa": "el músico"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "She's a very talented musician.",
+            "ru": "Она очень талантливый музыкант."
+          },
+          {
+            "en": "To be a good musician, you have to practice a lot.",
+            "ru": "Чтобы быть хорошим музыкантом, нужно много упражняться."
+          },
+          {
+            "en": "She is more of a poet than a musician.",
+            "ru": "Она больше поэт, чем музыкант."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "music",
+        "oxford3000_a2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5755,
+      "word": "note",
+      "pos": "noun",
+      "transcription": {
+        "us": "[nəʊt]",
+        "br": "[nəʊt]",
+        "gb": "[nəʊt]"
+      },
+      "translations": {
+        "rus": "нота",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5756,
+      "word": "oboe",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈəʊbəʊ]",
+        "br": "[ˈəʊbəʊ]",
+        "gb": "[ˈəʊbəʊ]"
+      },
+      "translations": {
+        "rus": "гобой",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5757,
+      "word": "octave",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːktɪv]",
+        "br": "[ˈɒktɪv]",
+        "gb": "[ˈɔktɪv]"
+      },
+      "translations": {
+        "rus": "октава",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5758,
+      "word": "opera",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɑːprə]",
+        "br": "[ˈɒprə]",
+        "gb": "[ˈɔpərə]"
+      },
+      "translations": {
+        "rus": "опера",
+        "spa": "la ópera"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He wrote the score of the opera.",
+            "ru": "Он написал оперу."
+          },
+          {
+            "en": "Yesterday I went to the opera.",
+            "ru": "Я вчера ходил в оперу."
+          },
+          {
+            "en": "The opera starts at seven.",
+            "ru": "Опера начинается в семь."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5759,
+      "word": "operetta",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌɑːpəˈretə]",
+        "br": "[ˌɒpəˈretə]",
+        "gb": "[ɔpəˈretə]"
+      },
+      "translations": {
+        "rus": "оперетта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5760,
+      "word": "orchestra",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːrkɪstrə]",
+        "br": "[ˈɔːkɪstrə]",
+        "gb": "[ˈɔːkɪstrə]"
+      },
+      "translations": {
+        "rus": "оркестр",
+        "spa": "la orquesta"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The orchestra began to play.",
+            "ru": "Оркестр начал играть."
+          },
+          {
+            "en": "A conductor directs an orchestra.",
+            "ru": "Дирижёр управляет оркестром."
+          },
+          {
+            "en": "The orchestra is drowning out the singer's voice.",
+            "ru": "Оркестр заглушает голос певца."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford5000_b2"
+      ]
+    },
+    {
+      "id": 5761,
+      "word": "organ",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈɔːrɡən]",
+        "br": "[ˈɔːɡən]",
+        "gb": "[ˈɔːgən]"
+      },
+      "translations": {
+        "rus": "орган (инструмент)",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "The organ resounded throughout the church.",
+            "ru": "Звуки органа разнеслись по всей церкви."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5762,
+      "word": "percussion",
+      "pos": "noun",
+      "transcription": {
+        "us": "[pərˈkʌʃn]",
+        "br": "[pəˈkʌʃn]",
+        "gb": "[pəˈkʌʃn]"
+      },
+      "translations": {
+        "rus": "перкуссия, ударные инструменты",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 3385,
+      "word": "piano",
+      "pos": "noun",
+      "transcription": {
+        "us": "[piˈænəʊ]",
+        "br": "[piˈænəʊ]",
+        "gb": "[pɪˈænəʊ]"
+      },
+      "translations": {
+        "rus": "фортепиано",
+        "spa": "el piano"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was playing the piano.",
+            "ru": "Он играл на фортепиано."
+          },
+          {
+            "en": "My daughter wants a piano.",
+            "ru": "Моя дочь хочет фортепиано."
+          },
+          {
+            "en": "There is a piano in the room.",
+            "ru": "В комнате есть фортепиано."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "furniture",
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5763,
+      "word": "piccolo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈpɪkələʊ]",
+        "br": "[ˈpɪkələʊ]",
+        "gb": "[ˈpɪkələʊ]"
+      },
+      "translations": {
+        "rus": "пикколо, малая флейта",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5764,
+      "word": "recital",
+      "pos": "noun",
+      "transcription": {
+        "us": "[rɪˈsaɪtl]",
+        "br": "[rɪˈsaɪtl]",
+        "gb": "[rɪˈsaɪtl]"
+      },
+      "translations": {
+        "rus": "сольный концерт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5765,
+      "word": "rhythm",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈrɪðəm]",
+        "br": "[ˈrɪðəm]",
+        "gb": "[ˈrɪðəm]"
+      },
+      "translations": {
+        "rus": "ритм",
+        "spa": "el ritmo"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I like the slow rhythm of that song.",
+            "ru": "Мне нравится медленный ритм этой песни."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_b2"
+      ]
+    },
+    {
+      "id": 5766,
+      "word": "saxophone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsæksəfəʊn]",
+        "br": "[ˈsæksəfəʊn]",
+        "gb": "[ˈsæksəfəʊn]"
+      },
+      "translations": {
+        "rus": "саксофон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 1839,
+      "word": "singer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋər]",
+        "br": "[ˈsɪŋə(r)]",
+        "gb": "[ˈsɪŋə]"
+      },
+      "translations": {
+        "rus": "певец",
+        "spa": "el cantante"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He is a good singer.",
+            "ru": "Он хороший певец."
+          },
+          {
+            "en": "He is not a singer, but an actor.",
+            "ru": "Он не певец, а актёр."
+          },
+          {
+            "en": "I am an American singer.",
+            "ru": "Я американский певец."
+          },
+          {
+            "en": "I'm not much of a singer.",
+            "ru": "Я не очень хороший певец."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "career",
+        "music",
+        "oxford3000_a1",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5767,
+      "word": "single",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪŋɡl]",
+        "br": "[ˈsɪŋɡl]",
+        "gb": "[sɪŋgl]"
+      },
+      "translations": {
+        "rus": "сингл (альбом из одной песни)",
+        "spa": "el sencillo, el single"
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5768,
+      "word": "soloist",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsəʊləʊɪst]",
+        "br": "[ˈsəʊləʊɪst]",
+        "gb": "[ˈsəʊləʊɪst]"
+      },
+      "translations": {
+        "rus": "солист",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5769,
+      "word": "song",
+      "pos": "noun",
+      "transcription": {
+        "us": "[sɔːŋ]",
+        "br": "[sɒŋ]",
+        "gb": "[sɔŋ]"
+      },
+      "translations": {
+        "rus": "песня",
+        "spa": "la canción, el canto"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Can you sing the song?",
+            "ru": "Можешь спеть песню?"
+          },
+          {
+            "en": "I want to sing a song.",
+            "ru": "Я хочу спеть песню."
+          },
+          {
+            "en": "This is a good song.",
+            "ru": "Это хорошая песня."
+          },
+          {
+            "en": "I like to sing songs.",
+            "ru": "Я люблю петь песни."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let us sing a song.",
+            "es": "Vamos, cantemos una canción."
+          },
+          {
+            "en": "Do you know this song?",
+            "es": "¿Conoces esta canción?"
+          },
+          {
+            "en": "I want to sing the song.",
+            "es": "Quiero cantar la canción."
+          },
+          {
+            "en": "She sang the song softly.",
+            "es": "Ella cantó suavemente la canción."
+          }
+        ]
+      },
+      "categories": [
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5770,
+      "word": "soprano",
+      "pos": "noun",
+      "transcription": {
+        "us": "[səˈprɑːnəʊ]",
+        "br": "[səˈprɑːnəʊ]",
+        "gb": "[səˈprɑːnəʊ]"
+      },
+      "translations": {
+        "rus": "сопрано",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5697,
+      "word": "sound",
+      "pos": "noun, adjective, participle",
+      "transcription": {
+        "us": "[saʊnd]",
+        "br": "[saʊnd]",
+        "gb": "[saʊnd]"
+      },
+      "translations": {
+        "rus": "звук, звуковой",
+        "spa": "el sonido"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "There was no sound.",
+            "ru": "Не было звука."
+          },
+          {
+            "en": "Some birds can break the sound barrier.",
+            "ru": "Некоторые птицы могут преодолевать звуковой барьер."
+          },
+          {
+            "en": "Turn the sound off.",
+            "ru": "Отключи звук."
+          }
+        ],
+        "spa": [
+          {
+            "en": "Did you hear that sound?",
+            "es": "¿Oíste el sonido?"
+          },
+          {
+            "en": "The sound rises and falls.",
+            "es": "El sonido sube y baja."
+          },
+          {
+            "en": "What sound does a mouse make?",
+            "es": "¿Qué sonido hace el ratón?"
+          }
+        ]
+      },
+      "categories": [
+        "movie",
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5772,
+      "word": "string instrument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[strɪŋ] [ˈɪnstrəmənt]",
+        "br": "[strɪŋ] [ˈɪnstrəmənt]",
+        "gb": "[strɪŋ] [ˈɪnstrəmənt]"
+      },
+      "translations": {
+        "rus": "струнный инструмент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5773,
+      "word": "symphony",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪmfəni]",
+        "br": "[ˈsɪmfəni]",
+        "gb": "[ˈsɪmfənɪ]"
+      },
+      "translations": {
+        "rus": "симфония",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5774,
+      "word": "synthesizer",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈsɪnθəsaɪzər]",
+        "br": "[ˈsɪnθəsaɪzə(r)]",
+        "gb": "[ˈsɪnθəsaɪzər]"
+      },
+      "translations": {
+        "rus": "синтезатор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5775,
+      "word": "tambourine",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌtæmbəˈriːn]",
+        "br": "[ˌtæmbəˈriːn]",
+        "gb": "[tæmbəˈriːn]"
+      },
+      "translations": {
+        "rus": "тамбурин",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5776,
+      "word": "tempo",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtempəʊ]",
+        "br": "[ˈtempəʊ]",
+        "gb": "[ˈtempəʊ]"
+      },
+      "translations": {
+        "rus": "темп",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5777,
+      "word": "tenor",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtenər]",
+        "br": "[ˈtenə(r)]",
+        "gb": "[ˈtenə]"
+      },
+      "translations": {
+        "rus": "тенор",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5709,
+      "word": "to accompany",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tu] [əˈkʌmpəni]",
+        "br": "[tu] [əˈkʌmpəni]",
+        "gb": "[tuː] [əˈkʌmpənɪ]"
+      },
+      "translations": {
+        "rus": "сопровождать, аккомпанировать",
+        "spa": "acompañar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He was accompanied by his wife.",
+            "ru": "Его сопровождала жена."
+          },
+          {
+            "en": "She accompanied me on the piano.",
+            "ru": "Она аккомпанировала мне на фортепиано."
+          },
+          {
+            "en": "Please accompany me.",
+            "ru": "Пожалуйста, сопроводите меня."
+          },
+          {
+            "en": "I accompanied her on a walk.",
+            "ru": "Я сопровождал её на прогулке."
+          }
+        ],
+        "spa": [
+          {
+            "en": "She accompanied him to Japan.",
+            "es": "Ella lo acompañó hasta Japón."
+          },
+          {
+            "en": "Misery and sorrow accompany war.",
+            "es": "A la guerra la acompañará la miseria y la pena."
+          },
+          {
+            "en": "Jim accompanied her on the piano.",
+            "es": "Jim la acompañó en el piano."
+          },
+          {
+            "en": "May we accompany you on your walk?",
+            "es": "¿Podemos acompañarte en tu paseo?"
+          }
+        ]
+      },
+      "categories": [
+        "music",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 852,
+      "word": "to compose",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [kəmˈpəʊz]",
+        "br": "[tə] [kəmˈpəʊz]",
+        "gb": "[tuː] [kəmˈpəʊz]"
+      },
+      "translations": {
+        "rus": "сочинять, писать, составлять",
+        "spa": "componer"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "He composes beautiful poems.",
+            "ru": "Он пишет красивые стихи."
+          },
+          {
+            "en": "Bronze is composed of copper and tin.",
+            "ru": "Бронза состоит из меди и олова."
+          },
+          {
+            "en": "Society is composed of individuals.",
+            "ru": "Общество состоит из индивидов."
+          },
+          {
+            "en": "How many symphonies did Beethoven compose?",
+            "ru": "Сколько симфоний написал Бетховен?"
+          },
+          {
+            "en": "A team is composed of eleven players.",
+            "ru": "Команда состоит из одиннадцати игроков."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "basic_verbs",
+        "music",
+        "oxford5000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5737,
+      "word": "to drum",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [drʌm]",
+        "br": "[tə] [drʌm]",
+        "gb": "[tuː] [drʌm]"
+      },
+      "translations": {
+        "rus": "барабанить",
+        "spa": null
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Her foot was drumming on the carpet.",
+            "ru": "Она постукивала ногой по ковру."
+          },
+          {
+            "en": "Rain drummed upon the roof of the car.",
+            "ru": "Дождь барабанил по крыше автомобиля."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 1215,
+      "word": "to sing",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [sɪŋ]",
+        "br": "[tə] [sɪŋ]",
+        "gb": "[tuː] [sɪŋ]"
+      },
+      "translations": {
+        "rus": "петь",
+        "spa": "cantar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "I want to sing a song.",
+            "ru": "Я хочу спеть песню."
+          },
+          {
+            "en": "I promise not to sing.",
+            "ru": "Я обещаю не петь."
+          },
+          {
+            "en": "Is it OK to sing here?",
+            "ru": "Здесь можно петь?"
+          }
+        ],
+        "spa": [
+          {
+            "en": "Let us sing a song.",
+            "es": "Cantemos una canción."
+          },
+          {
+            "en": "Are you going to sing?",
+            "es": "¿Vas a cantar?"
+          },
+          {
+            "en": "He is good at singing.",
+            "es": "Él canta bien."
+          },
+          {
+            "en": "It's your turn to sing.",
+            "es": "Te toca cantar."
+          }
+        ]
+      },
+      "categories": [
+        "basic_verbs",
+        "hobby",
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5771,
+      "word": "to sound",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [saʊnd]",
+        "br": "[tə] [saʊnd]",
+        "gb": "[tuː] [saʊnd]"
+      },
+      "translations": {
+        "rus": "звучать",
+        "spa": "sonar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "They sound better live.",
+            "ru": "Они лучше звучат вживую."
+          },
+          {
+            "en": "His words sound reasonable.",
+            "ru": "Его слова звучат разумно."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_a1",
+        "top1000"
+      ]
+    },
+    {
+      "id": 5778,
+      "word": "to transcribe",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [trænˈskraɪb]",
+        "br": "[tə] [trænˈskraɪb]",
+        "gb": "[tuː] [trænsˈkraɪb]"
+      },
+      "translations": {
+        "rus": "записывать нотами",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5783,
+      "word": "to tune",
+      "pos": "verb",
+      "transcription": {
+        "us": "[tə] [tuːn]",
+        "br": "[tə] [tjuːn]",
+        "gb": "[tuː] [tjuːn]"
+      },
+      "translations": {
+        "rus": "настраивать, регулировать, налаживать",
+        "spa": "afinar"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "This piano needs to be tuned.",
+            "ru": "Это пианино нужно настроить."
+          },
+          {
+            "en": "The orchestra's tuning up.",
+            "ru": "В оркестре настраивают инструменты."
+          },
+          {
+            "en": "They have been tuning the organ all day.",
+            "ru": "Они целый день настраивали орган."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5779,
+      "word": "trombone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[trɑːmˈbəʊn]",
+        "br": "[trɒmˈbəʊn]",
+        "gb": "[trɔmˈbəʊn]"
+      },
+      "translations": {
+        "rus": "тромбон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5780,
+      "word": "trumpet",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtrʌmpɪt]",
+        "br": "[ˈtrʌmpɪt]",
+        "gb": "[ˈtrʌmpɪt]"
+      },
+      "translations": {
+        "rus": "труба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5781,
+      "word": "tuba",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈtuːbə]",
+        "br": "[ˈtjuːbə]",
+        "gb": "[ˈtjuːbə]"
+      },
+      "translations": {
+        "rus": "туба",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5782,
+      "word": "tune",
+      "pos": "noun",
+      "transcription": {
+        "us": "[tuːn]",
+        "br": "[tjuːn]",
+        "gb": "[tjuːn]"
+      },
+      "translations": {
+        "rus": "мелодия, мотив, строй",
+        "spa": "la melodía"
+      },
+      "examples": {
+        "rus": [
+          {
+            "en": "Play us a tune.",
+            "ru": "Сыграй нам мелодию."
+          },
+          {
+            "en": "The guitar is in tune.",
+            "ru": "Гитара настроена."
+          },
+          {
+            "en": "What's the name of this tune?",
+            "ru": "Как называется эта мелодия?"
+          },
+          {
+            "en": "He began to whistle a tune.",
+            "ru": "Он начал насвистывать мелодию."
+          }
+        ],
+        "spa": null
+      },
+      "categories": [
+        "music",
+        "oxford3000_b2",
+        "top3000"
+      ]
+    },
+    {
+      "id": 5784,
+      "word": "viola",
+      "pos": "noun",
+      "transcription": {
+        "us": "[viˈəʊlə]",
+        "br": "[viˈəʊlə]",
+        "gb": "[vɪˈəʊlə]"
+      },
+      "translations": {
+        "rus": "альт",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5785,
+      "word": "violin",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌvaɪəˈlɪn]",
+        "br": "[ˌvaɪəˈlɪn]",
+        "gb": "[vaɪəˈlɪn]"
+      },
+      "translations": {
+        "rus": "скрипка",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5786,
+      "word": "virtuoso",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˌvɜːrtʃuˈəʊzəʊ]",
+        "br": "[ˌvɜːtʃuˈəʊzəʊ]",
+        "gb": "[vɜːtjʊˈəʊzəʊ]"
+      },
+      "translations": {
+        "rus": "виртуоз",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5787,
+      "word": "wind instrument",
+      "pos": "noun",
+      "transcription": {
+        "us": "[wɪnd] [ˈɪnstrəmənt]",
+        "br": "[wɪnd] [ˈɪnstrəmənt]",
+        "gb": "[wɪnd] [ˈɪnstrəmənt]"
+      },
+      "translations": {
+        "rus": "духовой инструмент",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    },
+    {
+      "id": 5788,
+      "word": "xylophone",
+      "pos": "noun",
+      "transcription": {
+        "us": "[ˈzaɪləfəʊn]",
+        "br": "[ˈzaɪləfəʊn]",
+        "gb": "[ˈzaɪləfəʊn]"
+      },
+      "translations": {
+        "rus": "ксилофон",
+        "spa": null
+      },
+      "examples": {
+        "rus": null,
+        "spa": null
+      },
+      "categories": [
+        "music"
+      ]
+    }
+  ]
+}
