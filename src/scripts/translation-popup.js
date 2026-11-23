@@ -73,6 +73,23 @@ class TranslationPopup {
       e.preventDefault();
       this._toggleChipSelection(chip);
     });
+    this._bodyEl.addEventListener('input', (e) => {
+      const input = e.target.closest('.rw-custom-input');
+      if (!input) return;
+      const lang = input.dataset.lang;
+      const value = input.value.trim();
+      const lower = (this._currentWord || '').toLowerCase();
+      if (!lang || !lower) return;
+      const data = this._cache.get(lower) || {};
+      data[lang] = value ? [value] : [];
+      this._cache.set(lower, data);
+      this._selectedTranslations.set(lang, new Set(value ? [0] : []));
+    });
+    this._bodyEl.addEventListener('keydown', (e) => {
+      if (!e.target.closest('.rw-custom-input')) return;
+      e.stopPropagation();
+      if (e.key === 'Enter') e.target.blur();
+    });
   }
 
   _initAnnotationControls() {
@@ -487,7 +504,7 @@ class TranslationPopup {
   }
 
   setEngine(engine) {
-    const valid = ['auto', 'google', 'mymemory', 'libre', 'deepl'];
+    const valid = ['auto', 'google', 'mymemory', 'libre', 'deepl', 'custom'];
     if (!valid.includes(engine)) return;
     this._engine = engine;
     try {
@@ -513,6 +530,7 @@ class TranslationPopup {
       ['google', 'Google'],
       ['mymemory', 'MyMemory'],
       ['libre', 'Libre'],
+      ['custom', 'My own'],
     ];
     this._engineTabsEl.innerHTML = engines
       .map(([v, label]) => `<button class="reader-engine-tab${v === this.engine ? ' active' : ''}" data-engine="${v}">${label}</button>`)
@@ -527,6 +545,7 @@ class TranslationPopup {
   }
 
   _renderBody(translations) {
+    const custom = this.engine === 'custom';
     this._bodyEl.innerHTML = this._targetLangs.map(lang => {
       const label = this._langNames[lang] || lang;
       const val = translations[lang];
@@ -534,7 +553,12 @@ class TranslationPopup {
         ? val.filter(v => v && v !== '—')
         : ((val && val !== '—') ? [val] : []);
       let wordsHtml;
-      if (values.length === 0) {
+      if (custom) {
+        const suggested = values.length > 0
+          ? values[0].replace(/"/g, '&quot;').replace(/</g, '&lt;')
+          : '';
+        wordsHtml = `<input type="text" class="rw-custom-input" data-lang="${lang}" placeholder="Write your own..." value="${suggested}" spellcheck="false" />`;
+      } else if (values.length === 0) {
         wordsHtml = '<span class="rw-word-ellipsis">...</span>';
       } else {
         wordsHtml = values.map((v, i) => {
@@ -785,6 +809,12 @@ class TranslationPopup {
 
   async _fetchTranslation(word) {
     const lower = word.toLowerCase();
+    if (this.engine === 'custom') {
+      this._renderBody(this._cache.get(lower) || {});
+      const first = this._bodyEl.querySelector('.rw-custom-input');
+      if (first) first.focus();
+      return;
+    }
     if (this._cache.has(lower)) {
       this._renderBody(this._cache.get(lower));
       this._preloadTTS(this._cache.get(lower));

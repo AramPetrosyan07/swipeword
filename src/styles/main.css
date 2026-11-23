@@ -3036,6 +3036,29 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
   border-color: var(--primary);
 }
 
+/* "My own" custom translation input */
+.rw-custom-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--bg-secondary, rgba(128, 128, 128, 0.08));
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  outline: none;
+}
+
+.rw-custom-input:focus {
+  border-color: var(--primary);
+}
+
+.rw-custom-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
 .reader-translate-actions {
   display: flex;
   justify-content: flex-end;
