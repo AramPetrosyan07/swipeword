@@ -2,6 +2,9 @@ class DeckPicker {
   constructor() {
     this._categories = null;
     this._draggedId = null;
+    this._jiggleTimer = null;
+    this._dragOriginRect = null;
+    this._longPressed = false;
     this._bindEvents();
   }
 
@@ -102,6 +105,10 @@ class DeckPicker {
     document.getElementById('btnDecksBack').addEventListener('click', () => {
       if (typeof app !== 'undefined' && app._showReadHome) app._showReadHome();
     });
+    document.addEventListener('pointerup', () => {
+      this._clearJiggleTimer();
+      if (!this._draggedId) this._stopJiggle(document.getElementById('decksGridItems'));
+    });
   }
 
   async show() {
@@ -181,6 +188,7 @@ class DeckPicker {
       const id = card.dataset.deckId;
       card.addEventListener('click', async (e) => {
         if (e.target.closest('.deck-card-fav-btn')) return;
+        if (this._longPressed) return;
         if (typeof app !== 'undefined' && app.openDeck) {
           await app.openDeck(id);
         }
@@ -197,15 +205,34 @@ class DeckPicker {
 
   _bindDrag(container) {
     container.querySelectorAll('.deck-card').forEach((card) => {
+      card.addEventListener('pointerdown', (e) => {
+        if (e.button !== 0 || e.target.closest('.deck-card-fav-btn')) return;
+        this._longPressed = false;
+        this._clearJiggleTimer();
+        this._jiggleTimer = setTimeout(() => {
+          this._jiggleTimer = null;
+          if (!this._draggedId) {
+            this._longPressed = true;
+            this._startJiggle(container);
+          }
+        }, 500);
+      });
       card.addEventListener('dragstart', (e) => {
+        this._clearJiggleTimer();
         this._draggedId = card.dataset.deckId;
+        this._dragOriginRect = card.getBoundingClientRect();
         card.classList.add('deck-card-dragging');
+        this._startJiggle(container, this._draggedId);
         e.dataTransfer.effectAllowed = 'move';
         try { e.dataTransfer.setData('text/plain', this._draggedId); } catch (err) {}
+        this._setLiftedDragImage(e, card);
       });
       card.addEventListener('dragend', () => {
+        this._clearJiggleTimer();
+        this._dragOriginRect = null;
         card.classList.remove('deck-card-dragging');
         this._draggedId = null;
+        this._stopJiggle(container);
         container.querySelectorAll('.deck-card-drop-before').forEach((el) =>
           el.classList.remove('deck-card-drop-before')
         );
@@ -214,6 +241,18 @@ class DeckPicker {
 
     if (container._deckDragBound) return;
     container._deckDragBound = true;
+
+    container.addEventListener('pointerup', () => {
+      this._clearJiggleTimer();
+      if (!this._draggedId) this._stopJiggle(container);
+    });
+    container.addEventListener('pointercancel', () => {
+      this._clearJiggleTimer();
+      if (!this._draggedId) this._stopJiggle(container);
+    });
+    window.addEventListener('blur', () => {
+      this._clearJiggleTimer();
+    });
 
     container.addEventListener('dragover', (e) => {
       if (!this._draggedId) return;
@@ -233,6 +272,45 @@ class DeckPicker {
       e.preventDefault();
       await this._handleDrop(container, e.clientX, e.clientY);
     });
+  }
+
+  _clearJiggleTimer() {
+    if (this._jiggleTimer) {
+      clearTimeout(this._jiggleTimer);
+      this._jiggleTimer = null;
+    }
+  }
+
+  _startJiggle(container, skipId = null) {
+    container.querySelectorAll('.deck-card').forEach((card) => {
+      if (card.dataset.deckId === skipId || card.classList.contains('deck-jiggle')) return;
+      card.classList.add('deck-jiggle');
+      card.style.setProperty('--jiggle-delay', `${(Math.random() * 0.3 - 0.15).toFixed(2)}s`);
+      card.style.setProperty('--jiggle-rotate', `${(Math.random() * 0.8 + 0.9).toFixed(2)}deg`);
+    });
+  }
+
+  _stopJiggle(container) {
+    container.querySelectorAll('.deck-jiggle').forEach((card) => {
+      card.classList.remove('deck-jiggle');
+      card.style.removeProperty('--jiggle-delay');
+      card.style.removeProperty('--jiggle-rotate');
+    });
+  }
+
+  _setLiftedDragImage(e, card) {
+    try {
+      const rect = card.getBoundingClientRect();
+      const ghost = card.cloneNode(true);
+      ghost.classList.remove('deck-jiggle', 'deck-card-dragging', 'deck-card-drop-before');
+      ghost.classList.add('deck-card-drag-ghost');
+      ghost.style.width = `${rect.width}px`;
+      ghost.style.left = `${rect.left}px`;
+      ghost.style.top = `${rect.top}px`;
+      document.body.appendChild(ghost);
+      e.dataTransfer.setDragImage(ghost, rect.width / 2, rect.height / 2);
+      setTimeout(() => ghost.remove(), 0);
+    } catch (err) {}
   }
 
   _computeInsertIndex(otherCards, x, y) {
@@ -259,12 +337,37 @@ class DeckPicker {
     const draggedId = this._draggedId;
     if (!cards.some((c) => c.dataset.deckId === draggedId)) return;
 
+    const originRect = this._dragOriginRect;
+    this._dragOriginRect = null;
+
+    let insertIndex;
+    if (originRect) {
+      const pad = 24;
+      const inOwnSlot =
+        x >= originRect.left - pad &&
+        x <= originRect.right + pad &&
+        y >= originRect.top - pad &&
+        y <= originRect.bottom + pad;
+      if (inOwnSlot) {
+        this._draggedId = null;
+        this._render();
+        return;
+      }
+    }
+
+    const ids = cards.map((c) => c.dataset.deckId);
     const others = cards.filter((c) => c.dataset.deckId !== draggedId);
     const othersIds = others.map((c) => c.dataset.deckId);
     const firstNonFavIdx = othersIds.findIndex((id) => !appStore.isDeckFavorite(id));
     const favBoundary = firstNonFavIdx === -1 ? othersIds.length : firstNonFavIdx;
 
-    const insertIndex = this._computeInsertIndex(others, x, y);
+    insertIndex = this._computeInsertIndex(others, x, y);
+
+    if (insertIndex === ids.indexOf(draggedId)) {
+      this._draggedId = null;
+      this._render();
+      return;
+    }
 
     const willBeFavorite = insertIndex <= favBoundary;
     if (willBeFavorite !== appStore.isDeckFavorite(draggedId)) {
