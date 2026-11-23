@@ -1,4 +1,17 @@
 __appMixinBindings = {};
+
+__appMixinBindings['_syncThemeDropdown'] = function() {
+  const menu = document.getElementById('themeDropdownMenu');
+  if (!menu) return;
+  const pdfOriginal = this._getPdfRenderMode() === 'original';
+  menu.querySelectorAll('.theme-dropdown-option').forEach((opt) => {
+    const mode = opt.dataset.theme;
+    const active = mode === 'light' ? !themeManager.darkMode
+      : mode === 'dark' ? (themeManager.darkMode && !pdfOriginal)
+      : (themeManager.darkMode && pdfOriginal);
+    opt.classList.toggle('active', active);
+  });
+};
 __appMixinBindings['_bindReadPageEvents'] = function() {
   this._readCurrentPage = null;
   this._readPdfFile = null;
@@ -18,10 +31,38 @@ __appMixinBindings['_bindReadPageEvents'] = function() {
     this._backToReadHome();
   });
 
-  document.getElementById('btnReaderTheme').addEventListener('click', () => {
-    themeManager.toggle();
-    this._updateSidebar();
-  });
+  const readerThemeBtn = document.getElementById('btnReaderTheme');
+  const themeDropdownMenu = document.getElementById('themeDropdownMenu');
+  if (readerThemeBtn && themeDropdownMenu) {
+    readerThemeBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = themeDropdownMenu.style.display !== 'none';
+      themeDropdownMenu.style.display = open ? 'none' : 'flex';
+      if (!open) this._syncThemeDropdown();
+    });
+    document.addEventListener('click', (e) => {
+      if (themeDropdownMenu.style.display === 'none') return;
+      if (themeDropdownMenu.contains(e.target) || readerThemeBtn.contains(e.target)) return;
+      themeDropdownMenu.style.display = 'none';
+    });
+    themeDropdownMenu.addEventListener('click', (e) => {
+      const opt = e.target.closest('.theme-dropdown-option');
+      if (!opt) return;
+      e.stopPropagation();
+      const mode = opt.dataset.theme;
+      if (mode === 'light') {
+        if (themeManager.darkMode) themeManager.toggle();
+      } else {
+        if (!themeManager.darkMode) themeManager.toggle();
+        if (mode === 'dark-pdf-original' && this._getPdfRenderMode() !== 'original') {
+          themeManager.setPdfRenderMode('original');
+          this._syncPdfRenderToggle();
+        }
+      }
+      themeDropdownMenu.style.display = 'none';
+      this._updateSidebar();
+    });
+  }
 
   document.getElementById('btnReaderSettings').addEventListener('click', () => {
     this._openReaderSettingsPopup();
