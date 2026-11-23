@@ -218,6 +218,16 @@ __appMixinReader['_renderPdfTabs'] = function() {
   this._pdfTabs.forEach((tab, i) => {
     const el = document.createElement('div');
     el.className = 'pdf-tab' + (i === this._pdfActiveTab ? ' active' : '');
+    const thumb = document.createElement('span');
+    thumb.className = 'pdf-tab-thumb';
+    const ph = document.createElement('span');
+    ph.className = 'pdf-tab-thumb-ph';
+    ph.textContent = 'PDF';
+    const img = document.createElement('img');
+    img.className = 'pdf-tab-thumb-img';
+    img.alt = '';
+    thumb.appendChild(ph);
+    thumb.appendChild(img);
     const label = document.createElement('span');
     label.className = 'pdf-tab-name';
     label.textContent = tab.name;
@@ -230,11 +240,22 @@ __appMixinReader['_renderPdfTabs'] = function() {
       e.stopPropagation();
       this._closePdfTab(i);
     });
+    el.appendChild(thumb);
     el.appendChild(label);
     el.appendChild(close);
     el.addEventListener('click', () => {
       if (i !== this._pdfActiveTab) this._showPdfTab(i);
     });
+    if (tab.path) {
+      const key = tab.path + '|0';
+      if (this._pdfThumbCache.has(key)) {
+        img.src = this._pdfThumbCache.get(key);
+        img.classList.add('loaded');
+      } else {
+        this._pdfThumbQueue.push({ path: tab.path, mtimeMs: 0, imgEl: img });
+        this._pdfPumpThumbs();
+      }
+    }
     strip.appendChild(el);
   });
   bar.style.display = this._pdfTabs.length ? 'flex' : 'none';
