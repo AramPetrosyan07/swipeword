@@ -214,6 +214,16 @@ __appMixinReader['_renderPdfTabs'] = function() {
   const strip = document.getElementById('pdfTabsStrip');
   const bar = document.getElementById('pdfTabsBar');
   if (!strip || !bar) return;
+  if (!strip._wheelBound) {
+    strip._wheelBound = true;
+    strip.addEventListener('wheel', (e) => {
+      if (strip.scrollWidth <= strip.clientWidth) return;
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+        e.preventDefault();
+        strip.scrollLeft += e.deltaY;
+      }
+    }, { passive: false });
+  }
   strip.innerHTML = '';
   this._pdfTabs.forEach((tab, i) => {
     const el = document.createElement('div');

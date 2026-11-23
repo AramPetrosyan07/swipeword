@@ -4889,7 +4889,11 @@ body.theme-dark .read-url-input:focus {
   gap: 6px;
   overflow-x: auto;
   flex: 1;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+}
+
+.pdf-tabs-strip::-webkit-scrollbar {
+  display: none;
 }
 
 .pdf-tab {
