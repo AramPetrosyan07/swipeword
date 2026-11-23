@@ -709,9 +709,9 @@ const _ttsPending = new Map();
 async function _edgeTTS(text, lang, voiceIndex) {
   if (!_edgeTTSAvailable) throw new Error("edge-tts is not installed");
   const voice = _ttsVoiceFor(lang, voiceIndex);
-  const cacheKey = `${text}|${voice}`;
-  if (_ttsCache.has(cacheKey)) return _ttsCache.get(cacheKey);
-  if (_ttsPending.has(cacheKey)) return _ttsPending.get(cacheKey);
+  // NOTE: no dedup here - the tts:speak handler above already dedups concurrent
+  // requests via _ttsPending. Checking _ttsPending with the same key here would
+  // return the handler's own pending promise, deadlocking on itself forever.
 
   const trimmed = (text || "").trim();
   if (!trimmed) {
@@ -755,7 +755,6 @@ async function _edgeTTS(text, lang, voiceIndex) {
   for (let i = 0; i <= MAX_RETRIES; i++) {
     try {
       const result = await attempt(i);
-      _ttsCache.set(cacheKey, result);
       return result;
     } catch (e) {
       lastErr = e;
@@ -888,11 +887,13 @@ async function _googleTTS(text, lang) {
 const TTS_CACHE_MAX = 300;
 
 ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
+  console.log("[tts] handler called:", text, lang, voice);
   const trimmed = (text || "").trim();
   if (!trimmed) return { success: false, error: "TTS called with empty text" };
   const cacheKey = `${trimmed}|${_ttsVoiceFor(lang, voice)}`;
 
   if (_ttsCache.has(cacheKey)) {
+    console.log("[tts] cache hit");
     return { success: true, audio: _ttsCache.get(cacheKey) };
   }
 
@@ -900,17 +901,20 @@ ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
   if (!pending) {
     pending = (async () => {
       const attempts = [];
+      attempts.push(() => _googleTTS(trimmed, lang));
       attempts.push(() => _edgeTTSJS(trimmed, lang, voice));
       if (_edgeTTSAvailable) attempts.push(() => _edgeTTS(trimmed, lang, voice));
-      attempts.push(() => _googleTTS(trimmed, lang));
       let lastError = "TTS unavailable";
       for (const attempt of attempts) {
+        const t0 = Date.now();
         try {
           const audio = await attempt();
+          console.log(`[tts] attempt ok in ${Date.now() - t0}ms`);
           if (_ttsCache.size >= TTS_CACHE_MAX) _ttsCache.clear();
           _ttsCache.set(cacheKey, audio);
           return { success: true, audio };
         } catch (e) {
+          console.log(`[tts] attempt failed in ${Date.now() - t0}ms:`, e.message);
           lastError = e.message;
         }
       }
