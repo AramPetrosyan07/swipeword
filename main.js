@@ -887,13 +887,11 @@ async function _googleTTS(text, lang) {
 const TTS_CACHE_MAX = 300;
 
 ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
-  console.log("[tts] handler called:", text, lang, voice);
   const trimmed = (text || "").trim();
   if (!trimmed) return { success: false, error: "TTS called with empty text" };
   const cacheKey = `${trimmed}|${_ttsVoiceFor(lang, voice)}`;
 
   if (_ttsCache.has(cacheKey)) {
-    console.log("[tts] cache hit");
     return { success: true, audio: _ttsCache.get(cacheKey) };
   }
 
@@ -906,15 +904,12 @@ ipcMain.handle("tts:speak", async (_event, { text, lang, voice }) => {
       if (_edgeTTSAvailable) attempts.push(() => _edgeTTS(trimmed, lang, voice));
       let lastError = "TTS unavailable";
       for (const attempt of attempts) {
-        const t0 = Date.now();
         try {
           const audio = await attempt();
-          console.log(`[tts] attempt ok in ${Date.now() - t0}ms`);
           if (_ttsCache.size >= TTS_CACHE_MAX) _ttsCache.clear();
           _ttsCache.set(cacheKey, audio);
           return { success: true, audio };
         } catch (e) {
-          console.log(`[tts] attempt failed in ${Date.now() - t0}ms:`, e.message);
           lastError = e.message;
         }
       }
