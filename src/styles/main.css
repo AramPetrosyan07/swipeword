@@ -3268,16 +3268,16 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 
 .rw-word.annot-underline {
   text-decoration: underline !important;
-  text-decoration-color: #2196f3 !important;
+  text-decoration-color: var(--annot-underline-color, #2196f3) !important;
   text-decoration-thickness: 2px !important;
-  text-underline-offset: 4px !important;
+  text-underline-offset: var(--annot-underline-offset, 4px) !important;
 }
 
 .rw-word.annot-underline-wavy {
   text-decoration: underline wavy !important;
   text-decoration-color: var(--annot-underline-color, #e91e63) !important;
   text-decoration-thickness: 2px !important;
-  text-underline-offset: 4px !important;
+  text-underline-offset: var(--annot-underline-offset, 4px) !important;
 }
 
 .rw-word.annot-has-note {
@@ -7560,6 +7560,28 @@ body.theme-dark .yt-shadow-gear-btn:hover {
   font-size: 13px;
   color: var(--text-secondary);
   cursor: pointer;
+}
+
+.settings-offset-px {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.settings-offset-px input[type="number"] {
+  width: 64px;
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  text-align: center;
+}
+
+.settings-offset-unit {
+  font-size: 13px;
+  color: var(--text-secondary);
 }
 
 .mark-switch {

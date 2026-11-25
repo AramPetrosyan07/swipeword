@@ -482,6 +482,15 @@ class ReaderMode {
     annotLayer.appendChild(div);
   }
 
+  _getUnderlineOffsetPx() {
+    try {
+      if (typeof app !== 'undefined' && typeof app._getMarkSavedPrefs === 'function') {
+        return Math.min(20, Math.max(0, parseInt(app._getMarkSavedPrefs().underlineOffset, 10) || 4));
+      }
+    } catch (e) {}
+    return 4;
+  }
+
   _drawUnderlineLine(annotLayer, run, uColor) {
     if (!annotLayer) return;
     let minL = Infinity, maxR = -Infinity, maxB = -Infinity;
@@ -494,7 +503,7 @@ class ReaderMode {
     const line = document.createElement('div');
     line.className = 'annot-underline-line';
     line.style.left = minL + 'px';
-    line.style.top = (maxB + 4) + 'px';
+    line.style.top = (maxB + this._getUnderlineOffsetPx()) + 'px';
     line.style.width = (maxR - minL) + 'px';
     line.style.background = uColor || '#2196f3';
     annotLayer.appendChild(line);
@@ -721,7 +730,7 @@ class ReaderMode {
 
         if (a.underline && a.underline !== 'wavy') {
           const uc = this._parseRgb01(a.underlineColor || '#2196f3');
-          const underlineY = Math.max(0, pdfY - 4);
+          const underlineY = Math.max(0, pdfY - this._getUnderlineOffsetPx() * scaleY);
           try {
             page.drawLine({
               start: { x: Math.max(0, pdfX), y: underlineY },

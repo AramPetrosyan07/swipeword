@@ -401,11 +401,12 @@ __appMixinSettings['_getMarkSavedPrefs'] = function() {
         enabled: !!p.enabled,
         style: p.style === 'highlight' ? 'highlight' : 'underline',
         color: p.color || '#64b5f6',
+        underlineOffset: Math.min(20, Math.max(0, parseInt(p.underlineOffset, 10) || 4)),
       };
       return this._markSavedPrefs;
     }
   } catch (e) {}
-  this._markSavedPrefs = { enabled: true, style: 'underline', color: '#64b5f6' };
+  this._markSavedPrefs = { enabled: true, style: 'underline', color: '#64b5f6', underlineOffset: 4 };
   return this._markSavedPrefs;
 };
 
@@ -420,12 +421,22 @@ __appMixinSettings['_applyMarkSavedPrefsToUI'] = function() {
   const prefs = this._getMarkSavedPrefs();
   const toggle = document.getElementById('pdfMarkSavedEnabled');
   const color = document.getElementById('pdfMarkSavedColor');
+  const offset = document.getElementById('pdfMarkSavedUnderlineOffset');
   const styleWrap = document.getElementById('pdfMarkSavedStyleWrap');
   if (toggle) toggle.checked = prefs.enabled;
   if (color) color.value = prefs.color;
+  if (offset) offset.value = prefs.underlineOffset;
+  this._applyUnderlineOffsetVar(prefs.underlineOffset);
   const radios = document.querySelectorAll('input[name="pdfMarkSavedStyle"]');
   radios.forEach((r) => { r.checked = r.value === prefs.style; });
   if (styleWrap) styleWrap.classList.toggle('disabled', !prefs.enabled);
+};
+
+// Reflect the underline offset on <body> as a CSS var so wavy underlines
+// (pure CSS) pick it up instantly without re-rendering pages
+__appMixinSettings['_applyUnderlineOffsetVar'] = function(px) {
+  const v = Math.min(20, Math.max(0, parseInt(px, 10) || 4));
+  document.body.style.setProperty('--annot-underline-offset', v + 'px');
 };
 
 __appMixinSettings['_bindMarkSavedPrefsEvents'] = function() {
@@ -463,6 +474,41 @@ __appMixinSettings['_bindMarkSavedPrefsEvents'] = function() {
         this._recolorSavedWordMarks(beforeColor, color.value);
       }
       beforeColor = null;
+    });
+  }
+
+  // Underline offset (px) — number input with native up/down arrows
+  const offsetInput = document.getElementById('pdfMarkSavedUnderlineOffset');
+  if (offsetInput) {
+    let offsetTimer = null;
+    const commit = () => {
+      const prefs = this._getMarkSavedPrefs();
+      prefs.underlineOffset = Math.min(20, Math.max(0, parseInt(offsetInput.value, 10) || 4));
+      offsetInput.value = prefs.underlineOffset;
+      this._saveMarkSavedPrefs(prefs);
+      this._applyUnderlineOffsetVar(prefs.underlineOffset);
+    };
+    offsetInput.addEventListener('input', () => {
+      // CSS var updates instantly (wavy), straight lines refresh debounced
+      this._applyUnderlineOffsetVar(offsetInput.value);
+      if (offsetTimer) clearTimeout(offsetTimer);
+      offsetTimer = setTimeout(() => {
+        offsetTimer = null;
+        commit();
+        if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+          readerMode.refreshAllAnnotations();
+        }
+      }, 150);
+    });
+    offsetInput.addEventListener('change', () => {
+      if (offsetTimer) {
+        clearTimeout(offsetTimer);
+        offsetTimer = null;
+      }
+      commit();
+      if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+        readerMode.refreshAllAnnotations();
+      }
     });
   }
 };
