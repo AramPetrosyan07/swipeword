@@ -118,12 +118,11 @@ class TranslationPopup {
     const customColorInput = document.getElementById('annotCustomColorInput');
     if (customColorInput) {
       customColorInput.addEventListener('input', (e) => {
-        const color = e.target.value;
-        this._applyAnnotation({ color });
+        // Debounced while dragging: live refresh of every page + store save per tick is too slow
+        this._debouncedApplyAnnotation({ color: e.target.value });
       });
       customColorInput.addEventListener('change', (e) => {
-        const color = e.target.value;
-        this._applyAnnotation({ color });
+        this._debouncedApplyAnnotation({ color: e.target.value }, true);
       });
     }
 
@@ -134,13 +133,13 @@ class TranslationPopup {
         const underlineColor = e.target.value;
         const preview = document.getElementById('annotUnderlineColorPreview');
         if (preview) preview.style.backgroundColor = underlineColor;
-        this._applyAnnotation({ underlineColor });
+        this._debouncedApplyAnnotation({ underlineColor });
       });
       underlineColorInput.addEventListener('change', (e) => {
         const underlineColor = e.target.value;
         const preview = document.getElementById('annotUnderlineColorPreview');
         if (preview) preview.style.backgroundColor = underlineColor;
-        this._applyAnnotation({ underlineColor });
+        this._debouncedApplyAnnotation({ underlineColor }, true);
       });
     }
 
@@ -231,6 +230,22 @@ class TranslationPopup {
       return readerMode.pageNum;
     }
     return null;
+  }
+
+  _debouncedApplyAnnotation(changes, immediate = false) {
+    if (immediate) {
+      if (this._annotApplyTimer) {
+        clearTimeout(this._annotApplyTimer);
+        this._annotApplyTimer = null;
+      }
+      this._applyAnnotation(changes);
+      return;
+    }
+    if (this._annotApplyTimer) clearTimeout(this._annotApplyTimer);
+    this._annotApplyTimer = setTimeout(() => {
+      this._annotApplyTimer = null;
+      this._applyAnnotation(changes);
+    }, 150);
   }
 
   _applyAnnotation(changes, opts = {}) {
@@ -373,14 +388,17 @@ class TranslationPopup {
       btn.classList.toggle('active', btn.dataset.color === curColor);
     });
 
+    // While a color pick is in flight (native dialog open), don't stomp the input value
+    const picking = !!this._annotApplyTimer;
+
     const customColorInput = document.getElementById('annotCustomColorInput');
-    if (customColorInput && curColor && curColor.startsWith('#')) {
+    if (customColorInput && curColor && curColor.startsWith('#') && !picking) {
       customColorInput.value = curColor;
     }
 
     const underlineColorInput = document.getElementById('annotUnderlineColorInput');
     const underlineColorPreview = document.getElementById('annotUnderlineColorPreview');
-    if (underlineColorInput) underlineColorInput.value = curUnderlineColor;
+    if (underlineColorInput && !picking) underlineColorInput.value = curUnderlineColor;
     if (underlineColorPreview) underlineColorPreview.style.backgroundColor = curUnderlineColor;
 
     const btnUnderline = document.getElementById('btnAnnotUnderline');

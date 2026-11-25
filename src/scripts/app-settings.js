@@ -451,11 +451,49 @@ __appMixinSettings['_bindMarkSavedPrefsEvents'] = function() {
     });
   });
   if (color) {
+    let beforeColor = null;
     color.addEventListener('input', () => {
       const prefs = this._getMarkSavedPrefs();
+      if (beforeColor === null) beforeColor = prefs.color;
       prefs.color = color.value;
       this._saveMarkSavedPrefs(prefs);
     });
+    color.addEventListener('change', () => {
+      if (beforeColor !== null && beforeColor !== color.value) {
+        this._recolorSavedWordMarks(beforeColor, color.value);
+      }
+      beforeColor = null;
+    });
+  }
+};
+
+// Recolor existing saved-word marks that still use the old settings color
+__appMixinSettings['_recolorSavedWordMarks'] = function(oldColor, newColor) {
+  if (!oldColor || !newColor || oldColor === newColor) return;
+  if (typeof appStore === 'undefined' || !appStore.data || !appStore.data.pdfAnnotations) return;
+
+  const all = appStore.data.pdfAnnotations;
+  Object.keys(all).forEach((docKey) => {
+    const annots = all[docKey];
+    Object.keys(annots).forEach((key) => {
+      const a = annots[key];
+      if (!a) return;
+      let changed = false;
+      if (a.underline && a.underlineColor === oldColor) {
+        a.underlineColor = newColor;
+        changed = true;
+      }
+      if (a.color === oldColor) {
+        a.color = newColor;
+        changed = true;
+      }
+      if (changed) a.updatedAt = Date.now();
+    });
+  });
+  appStore.save();
+
+  if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
+    readerMode.refreshAllAnnotations();
   }
 };
 

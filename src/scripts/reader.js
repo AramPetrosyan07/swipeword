@@ -379,6 +379,7 @@ class ReaderMode {
       w.style.textDecorationStyle = '';
       w.style.textDecorationThickness = '';
       w.style.textUnderlineOffset = '';
+      w.style.removeProperty('--annot-underline-color');
       if (!a) return;
       if (a.note && a.note.trim()) {
         w.classList.add('annot-has-note');
@@ -431,7 +432,10 @@ class ReaderMode {
         flush();
       }
       if (g.underline === 'wavy') {
-        g.items.forEach(it => it.el.classList.add('annot-underline-wavy'));
+        g.items.forEach(it => {
+          it.el.classList.add('annot-underline-wavy');
+          if (g.underlineColor) it.el.style.setProperty('--annot-underline-color', g.underlineColor);
+        });
       } else if (g.underline) {
         let run = [];
         const flush = () => {
