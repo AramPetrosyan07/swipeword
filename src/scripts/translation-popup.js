@@ -114,6 +114,24 @@ class TranslationPopup {
       });
     });
 
+    // Recent colors row: click = apply color, right = remove color
+    const recentContainer = document.getElementById('annotRecentColors');
+    if (recentContainer) {
+      recentContainer.addEventListener('click', (e) => {
+        const btn = e.target.closest('.annot-recent-btn');
+        if (!btn) return;
+        e.stopPropagation();
+        this._applyAnnotation({ color: btn.dataset.color }, { toggle: true });
+      });
+      recentContainer.addEventListener('contextmenu', (e) => {
+        const btn = e.target.closest('.annot-recent-btn');
+        if (!btn) return;
+        e.preventDefault();
+        e.stopPropagation();
+        this._removeColor();
+      });
+    }
+
     // Custom Color picker
     const customColorInput = document.getElementById('annotCustomColorInput');
     if (customColorInput) {
@@ -206,6 +224,9 @@ class TranslationPopup {
         this._clearAnnotation();
       });
     }
+
+    this._recentColorTimer = null;
+    this._renderRecentColors();
   }
 
   _getDocKey() {
@@ -288,12 +309,42 @@ class TranslationPopup {
       } else {
         appStore.setPdfAnnotation(docKey, key, updated);
       }
+      if (w === this._targetWords[0] && updated.color && /^#[0-9a-fA-F]{6}$/.test(updated.color)) {
+        this._scheduleRecentColorSave(updated.color);
+      }
     });
 
     if (typeof readerMode !== 'undefined' && typeof readerMode.refreshAllAnnotations === 'function') {
       readerMode.refreshAllAnnotations();
     }
     this._syncAnnotationUI();
+  }
+
+  _scheduleRecentColorSave(color) {
+    if (typeof appStore === 'undefined' || typeof appStore.pushRecentHighlightColor !== 'function') return;
+    if (this._recentColorTimer) clearTimeout(this._recentColorTimer);
+    this._recentColorTimer = setTimeout(() => {
+      this._recentColorTimer = null;
+      appStore.pushRecentHighlightColor(color);
+      this._renderRecentColors();
+    }, 1500);
+  }
+
+  _renderRecentColors() {
+    if (!this._annotToolbar) return;
+    const container = document.getElementById('annotRecentColors');
+    if (!container) return;
+    container.innerHTML = '';
+    const colors = (typeof appStore !== 'undefined' && typeof appStore.getRecentHighlightColors === 'function')
+      ? appStore.getRecentHighlightColors() : [];
+    colors.slice(0, 4).forEach((color) => {
+      const btn = document.createElement('button');
+      btn.className = 'annot-color-btn annot-recent-btn';
+      btn.dataset.color = color;
+      btn.style.backgroundColor = color;
+      btn.title = `Recent: ${color}`;
+      container.appendChild(btn);
+    });
   }
 
   _toggleUnderline(type) {
@@ -392,8 +443,13 @@ class TranslationPopup {
     const picking = !!this._annotApplyTimer;
 
     const customColorInput = document.getElementById('annotCustomColorInput');
-    if (customColorInput && curColor && curColor.startsWith('#') && !picking) {
-      customColorInput.value = curColor;
+    if (customColorInput && !picking) {
+      if (curColor && curColor.startsWith('#')) {
+        customColorInput.value = curColor;
+      } else if (typeof appStore !== 'undefined' && typeof appStore.getRecentHighlightColors === 'function') {
+        const recents = appStore.getRecentHighlightColors();
+        if (recents.length > 0) customColorInput.value = recents[0];
+      }
     }
 
     const underlineColorInput = document.getElementById('annotUnderlineColorInput');

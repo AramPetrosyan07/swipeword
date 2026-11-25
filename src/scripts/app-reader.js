@@ -224,51 +224,330 @@ __appMixinReader['_renderPdfTabs'] = function() {
       }
     }, { passive: false });
   }
-  strip.innerHTML = '';
-  this._pdfTabs.forEach((tab, i) => {
-    const el = document.createElement('div');
-    el.className = 'pdf-tab' + (i === this._pdfActiveTab ? ' active' : '');
-    const thumb = document.createElement('span');
-    thumb.className = 'pdf-tab-thumb';
-    const ph = document.createElement('span');
-    ph.className = 'pdf-tab-thumb-ph';
-    ph.textContent = 'PDF';
-    const img = document.createElement('img');
-    img.className = 'pdf-tab-thumb-img';
-    img.alt = '';
-    thumb.appendChild(ph);
-    thumb.appendChild(img);
-    const label = document.createElement('span');
-    label.className = 'pdf-tab-name';
-    label.textContent = tab.name;
-    label.title = tab.name;
-    const close = document.createElement('button');
-    close.className = 'pdf-tab-close';
-    close.textContent = '\u00d7';
-    close.title = 'Close tab';
-    close.addEventListener('click', (e) => {
-      e.stopPropagation();
-      this._closePdfTab(i);
-    });
-    el.appendChild(thumb);
-    el.appendChild(label);
-    el.appendChild(close);
-    el.addEventListener('click', () => {
-      if (i !== this._pdfActiveTab) this._showPdfTab(i);
-    });
-    if (tab.path) {
-      const key = tab.path + '|0';
-      if (this._pdfThumbCache.has(key)) {
-        img.src = this._pdfThumbCache.get(key);
-        img.classList.add('loaded');
-      } else {
-        this._pdfThumbQueue.push({ path: tab.path, mtimeMs: 0, imgEl: img });
-        this._pdfPumpThumbs();
+  if (!strip._groupDnDBound) {
+    strip._groupDnDBound = true;
+    strip.addEventListener('dragover', (e) => {
+      if (this._pdfDragTab === null || this._pdfDragTab === undefined) return;
+      if (e.target === strip || e.target === strip.parentNode) {
+        e.preventDefault();
+        strip.classList.add('pdf-dnd-ungroup');
       }
+    });
+    strip.addEventListener('dragleave', (e) => {
+      if (e.target === strip) strip.classList.remove('pdf-dnd-ungroup');
+    });
+    strip.addEventListener('drop', (e) => {
+      strip.classList.remove('pdf-dnd-ungroup');
+      if (e.target !== strip) return;
+      const src = this._pdfDragTab;
+      if (src === null || src === undefined) return;
+      const tab = this._pdfTabs[src];
+      if (tab && tab.groupId) {
+        e.preventDefault();
+        tab.groupId = null;
+        this._pdfCleanupGroups();
+        this._pdfPersistOpenTabs();
+        this._renderPdfTabs();
+      }
+    });
+  }
+  if (!document.body._pdfGroupOutsideBound) {
+    document.body._pdfGroupOutsideBound = true;
+    document.addEventListener('click', (e) => {
+      if (e.target.closest && (e.target.closest('.pdf-tab-group-dropdown') || e.target.closest('.pdf-tab-group-menu') || e.target.closest('.pdf-tab-group-pill'))) return;
+      this._pdfCloseGroupMenus();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') this._pdfCloseGroupMenus();
+    });
+    document.addEventListener('dragend', () => { this._pdfDragTab = null; });
+    document.addEventListener('drop', () => { this._pdfDragTab = null; });
+  }
+  strip.innerHTML = '';
+  const tabs = this._pdfTabs;
+  this._pdfCleanupGroups();
+  this._pdfPersistOpenTabs();
+  const renderedGroups = new Set();
+  for (let i = 0; i < tabs.length; i++) {
+    const tab = tabs[i];
+    if (tab.groupId && this._pdfGetGroup(tab.groupId)) {
+      if (renderedGroups.has(tab.groupId)) continue;
+      renderedGroups.add(tab.groupId);
+      // collect ALL members of this group wherever they sit in the strip
+      const members = [];
+      tabs.forEach((t, k) => { if (t.groupId === tab.groupId) members.push(k); });
+      this._renderGroupPill(strip, tab.groupId, members);
+      continue;
     }
-    strip.appendChild(el);
-  });
+    this._renderSinglePdfTab(strip, tab, i);
+  }
   bar.style.display = this._pdfTabs.length ? 'flex' : 'none';
+};
+
+__appMixinReader['_makePdfTabChip'] = function(tab, index, inGroup) {
+  const el = document.createElement('div');
+  el.className = 'pdf-tab' + (index === this._pdfActiveTab ? ' active' : '');
+  if (inGroup) el.classList.add('pdf-tab-in-group');
+  const thumb = document.createElement('span');
+  thumb.className = 'pdf-tab-thumb';
+  const ph = document.createElement('span');
+  ph.className = 'pdf-tab-thumb-ph';
+  ph.textContent = 'PDF';
+  const img = document.createElement('img');
+  img.className = 'pdf-tab-thumb-img';
+  img.alt = '';
+  thumb.appendChild(ph);
+  thumb.appendChild(img);
+  const label = document.createElement('span');
+  label.className = 'pdf-tab-name';
+  label.textContent = tab.name;
+  label.title = tab.name;
+  const close = document.createElement('button');
+  close.className = 'pdf-tab-close';
+  close.textContent = '\u00d7';
+  close.title = 'Close tab';
+  close.addEventListener('click', (e) => {
+    e.stopPropagation();
+    this._closePdfTab(index);
+  });
+  el.appendChild(thumb);
+  el.appendChild(label);
+  el.appendChild(close);
+  el.addEventListener('click', () => {
+    if (index !== this._pdfActiveTab) this._showPdfTab(index);
+  });
+  el.setAttribute('draggable', 'true');
+  el.addEventListener('dragstart', (e) => {
+    this._pdfDragTab = index;
+    e.dataTransfer.setData('text/plain', String(index));
+    e.dataTransfer.effectAllowed = 'move';
+  });
+  el.addEventListener('dragend', () => { this._pdfDragTab = null; });
+  el.addEventListener('dragover', (e) => {
+    if (this._pdfDragTab === null || this._pdfDragTab === undefined || this._pdfDragTab === index) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    el.classList.add('pdf-dnd-target');
+  });
+  el.addEventListener('dragleave', () => el.classList.remove('pdf-dnd-target'));
+  el.addEventListener('drop', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    el.classList.remove('pdf-dnd-target');
+    this._pdfHandleTabDrop(index);
+  });
+  this._pdfBindThumb(tab, img);
+  return el;
+};
+
+__appMixinReader['_renderSinglePdfTab'] = function(strip, tab, index) {
+  strip.appendChild(this._makePdfTabChip(tab, index, false));
+};
+
+__appMixinReader['_renderGroupPill'] = function(strip, gid, memberIdxs) {
+  const group = this._pdfGetGroup(gid);
+  if (!group) return;
+  const from = memberIdxs[0];
+  const to = memberIdxs[memberIdxs.length - 1] + 1;
+  const hasActive = memberIdxs.indexOf(this._pdfActiveTab) !== -1;
+  const pill = document.createElement('div');
+  pill.className = 'pdf-tab-group-pill' + (hasActive ? ' active' : '');
+  pill.style.setProperty('--group-color', group.color);
+  pill.style.background = group.color + '2b';
+  pill.title = group.name + ' — click to open, right-click for options';
+
+  const chevron = document.createElement('span');
+  chevron.className = 'pdf-tab-group-chevron';
+  chevron.textContent = '\u25be';
+
+  const name = document.createElement('span');
+  name.className = 'pdf-tab-group-name';
+  name.textContent = group.name;
+
+  const count = document.createElement('span');
+  count.className = 'pdf-tab-group-count';
+  count.textContent = String(memberIdxs.length);
+
+  pill.appendChild(chevron);
+  pill.appendChild(name);
+  pill.appendChild(count);
+
+  // click pill -> toggle dropdown; rename only via right-click menu
+  const startRename = () => {
+    this._pdfCloseGroupMenus();
+    const input = document.createElement('input');
+    input.className = 'pdf-tab-group-rename';
+    input.value = group.name;
+    input.maxLength = 60;
+    pill.replaceChild(input, name);
+    input.focus();
+    input.select();
+    let done = false;
+    const commit = (save) => {
+      if (done) return;
+      done = true;
+      const v = input.value.trim();
+      if (save && v) group.name = v;
+      this._pdfPersistOpenTabs();
+      this._renderPdfTabs();
+    };
+    input.addEventListener('keydown', (ev) => {
+      ev.stopPropagation();
+      if (ev.key === 'Enter') commit(true);
+      else if (ev.key === 'Escape') commit(false);
+    });
+    input.addEventListener('blur', () => commit(true));
+    input.addEventListener('click', (ev) => ev.stopPropagation());
+  };
+
+  // dropdown with member tabs
+  const openDropdown = (e) => {
+    e.stopPropagation();
+    const existing = document.querySelector('.pdf-tab-group-dropdown');
+    const isOwn = existing && existing.dataset.groupId === gid;
+    this._pdfCloseGroupMenus();
+    if (isOwn) return;
+    const dd = document.createElement('div');
+    dd.className = 'pdf-tab-group-dropdown';
+    dd.style.setProperty('--group-color', group.color);
+    for (let k = from; k < to; k++) {
+      const tab = this._pdfTabs[k];
+      const row = document.createElement('div');
+      row.className = 'pdf-tab-group-item' + (k === this._pdfActiveTab ? ' active' : '');
+      const thumb = document.createElement('span');
+      thumb.className = 'pdf-tab-thumb';
+      const ph = document.createElement('span');
+      ph.className = 'pdf-tab-thumb-ph';
+      ph.textContent = 'PDF';
+      const img = document.createElement('img');
+      img.className = 'pdf-tab-thumb-img';
+      img.alt = '';
+      thumb.appendChild(ph);
+      thumb.appendChild(img);
+      const label = document.createElement('span');
+      label.className = 'pdf-tab-name';
+      label.textContent = tab.name;
+      label.title = tab.name;
+      const close = document.createElement('button');
+      close.className = 'pdf-tab-close';
+      close.textContent = '\u00d7';
+      close.title = 'Close tab';
+      close.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        this._pdfCloseGroupMenus();
+        this._closePdfTab(k);
+      });
+      row.appendChild(thumb);
+      row.appendChild(label);
+      row.appendChild(close);
+      row.addEventListener('click', () => {
+        this._pdfCloseGroupMenus();
+        if (k !== this._pdfActiveTab) this._showPdfTab(k);
+      });
+      // drag member out of the group: drop on empty strip -> ungroup,
+      // drop on another tab/pill -> move there
+      row.setAttribute('draggable', 'true');
+      row.addEventListener('dragstart', (ev) => {
+        this._pdfDragTab = k;
+        try {
+          ev.dataTransfer.setData('text/plain', String(k));
+          ev.dataTransfer.effectAllowed = 'move';
+        } catch (err) {}
+        // close the menu so drop targets are visible (drag already captured)
+        setTimeout(() => {
+          if (this._pdfDragTab === k) this._pdfCloseGroupMenus();
+        }, 50);
+      });
+      row.addEventListener('dragend', () => { this._pdfDragTab = null; });
+      this._pdfBindThumb(tab, img);
+      dd.appendChild(row);
+    }
+    document.body.appendChild(dd);
+    dd.dataset.groupId = gid;
+    const r = pill.getBoundingClientRect();
+    const ddWidth = 260;
+    dd.style.left = Math.min(r.left, window.innerWidth - ddWidth - 12) + 'px';
+    dd.style.top = (r.bottom + 6) + 'px';
+  };
+
+  pill.addEventListener('click', (e) => openDropdown(e));
+
+  // right-click context menu
+  pill.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    this._pdfCloseGroupMenus();
+    const menu = document.createElement('div');
+    menu.className = 'pdf-tab-group-menu';
+
+    const renameItem = document.createElement('div');
+    renameItem.className = 'pdf-tab-group-menu-item';
+    renameItem.textContent = 'Rename';
+    renameItem.addEventListener('click', () => {
+      this._pdfCloseGroupMenus();
+      startRename();
+    });
+    menu.appendChild(renameItem);
+
+    const colorRow = document.createElement('div');
+    colorRow.className = 'pdf-tab-group-menu-colors';
+    this._pdfGroupColors.forEach((c) => {
+      const dot = document.createElement('button');
+      dot.className = 'pdf-tab-group-color-dot' + (c === group.color ? ' active' : '');
+      dot.style.background = c;
+      dot.addEventListener('click', () => {
+        group.color = c;
+        this._pdfPersistOpenTabs();
+        this._pdfCloseGroupMenus();
+        this._renderPdfTabs();
+      });
+      colorRow.appendChild(dot);
+    });
+    menu.appendChild(colorRow);
+
+    const ungroupItem = document.createElement('div');
+    ungroupItem.className = 'pdf-tab-group-menu-item';
+    ungroupItem.textContent = 'Ungroup';
+    ungroupItem.addEventListener('click', () => {
+      this._pdfCloseGroupMenus();
+      this._pdfUngroupTabs(gid);
+    });
+    menu.appendChild(ungroupItem);
+
+    const closeItem = document.createElement('div');
+    closeItem.className = 'pdf-tab-group-menu-item danger';
+    closeItem.textContent = 'Close group';
+    closeItem.addEventListener('click', () => {
+      this._pdfCloseGroupMenus();
+      this._pdfCloseGroup(gid);
+    });
+    menu.appendChild(closeItem);
+
+    document.body.appendChild(menu);
+    const r = pill.getBoundingClientRect();
+    menu.style.left = Math.min(r.left, window.innerWidth - 190) + 'px';
+    menu.style.top = (r.bottom + 6) + 'px';
+  });
+
+  // DnD: dropping a dragged tab onto the pill adds it to the group
+  pill.setAttribute('draggable', 'false');
+  pill.addEventListener('dragover', (e) => {
+    if (this._pdfDragTab === null || this._pdfDragTab === undefined) return;
+    const dragged = this._pdfTabs[this._pdfDragTab];
+    if (!dragged || dragged.groupId === gid) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    pill.classList.add('pdf-dnd-target');
+  });
+  pill.addEventListener('dragleave', () => pill.classList.remove('pdf-dnd-target'));
+  pill.addEventListener('drop', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    pill.classList.remove('pdf-dnd-target');
+    this._pdfHandleGroupDrop(gid);
+  });
+
+  strip.appendChild(pill);
 };
 
 __appMixinReader['_closePdfTab'] = async function(index) {
@@ -288,6 +567,7 @@ __appMixinReader['_closePdfTab'] = async function(index) {
   }
   const wasActive = index === this._pdfActiveTab;
   this._pdfTabs.splice(index, 1);
+  this._pdfCleanupGroups();
   this._pdfPersistOpenTabs();
   if (this._pdfTabs.length === 0) {
     this._pdfActiveTab = -1;
@@ -795,12 +1075,14 @@ __appMixinReader['_initSidebarResizer'] = function() {
 };
 
 __appMixinReader['_pdfPersistOpenTabs'] = function() {
+  if (!appStore || !appStore.data) return;
   if (!appStore.data.pdfOpenTabs) appStore.data.pdfOpenTabs = [];
   const open = appStore.data.pdfOpenTabs;
   open.length = 0;
   this._pdfTabs.forEach((t) => {
-    if (t.path) open.push({ path: t.path, name: t.name });
+    if (t.path) open.push({ path: t.path, name: t.name, groupId: t.groupId || null });
   });
+  appStore.data.pdfGroups = this._pdfGroups || [];
   appStore.save();
 };
 
@@ -814,8 +1096,111 @@ __appMixinReader['_pdfRemoveOpenTab'] = function(path) {
   }
 };
 
+// --- PDF tab groups (Chrome-style) ---
+
+__appMixinReader['_pdfGroupColors'] = ['#e05561', '#f5a623', '#4caf7d', '#5b8def', '#9a6ee2', '#e97cb4'];
+
+__appMixinReader['_pdfEnsureGroups'] = function() {
+  if (!Array.isArray(this._pdfGroups)) this._pdfGroups = [];
+  return this._pdfGroups;
+};
+
+__appMixinReader['_pdfGetGroup'] = function(gid) {
+  return this._pdfEnsureGroups().find((g) => g.id === gid) || null;
+};
+
+__appMixinReader['_pdfCreateGroupObj'] = function(name) {
+  const groups = this._pdfEnsureGroups();
+  const g = {
+    id: 'g' + Date.now().toString(36) + Math.floor(Math.random() * 1296).toString(36),
+    name: name || 'Group',
+    color: this._pdfGroupColors[groups.length % this._pdfGroupColors.length],
+  };
+  groups.push(g);
+  return g;
+};
+
+// Remove groups left with fewer than 2 members (member becomes a normal tab)
+__appMixinReader['_pdfCleanupGroups'] = function() {
+  const groups = this._pdfEnsureGroups();
+  for (const g of groups.slice()) {
+    const members = this._pdfTabs.filter((t) => t.groupId === g.id);
+    if (members.length <= 1) {
+      members.forEach((t) => { t.groupId = null; });
+      groups.splice(groups.indexOf(g), 1);
+    }
+  }
+};
+
+__appMixinReader['_pdfHandleTabDrop'] = function(targetIdx) {
+  const src = this._pdfDragTab;
+  this._pdfDragTab = null;
+  if (src === null || src === undefined || src === targetIdx) return;
+  const srcTab = this._pdfTabs[src];
+  const dstTab = this._pdfTabs[targetIdx];
+  if (!srcTab || !dstTab) return;
+  if (srcTab.groupId && srcTab.groupId === dstTab.groupId) return;
+  if (dstTab.groupId) {
+    srcTab.groupId = dstTab.groupId;
+  } else {
+    const g = this._pdfCreateGroupObj(dstTab.name);
+    dstTab.groupId = g.id;
+    srcTab.groupId = g.id;
+  }
+  this._pdfCleanupGroups();
+  this._pdfPersistOpenTabs();
+  this._renderPdfTabs();
+};
+
+__appMixinReader['_pdfHandleGroupDrop'] = function(gid) {
+  const src = this._pdfDragTab;
+  this._pdfDragTab = null;
+  if (src === null || src === undefined) return;
+  const tab = this._pdfTabs[src];
+  if (!tab || tab.groupId === gid) return;
+  tab.groupId = gid;
+  this._pdfCleanupGroups();
+  this._pdfPersistOpenTabs();
+  this._renderPdfTabs();
+};
+
+__appMixinReader['_pdfUngroupTabs'] = function(gid) {
+  this._pdfTabs.forEach((t) => { if (t.groupId === gid) t.groupId = null; });
+  const groups = this._pdfEnsureGroups();
+  const g = groups.find((x) => x.id === gid);
+  if (g) groups.splice(groups.indexOf(g), 1);
+  this._pdfPersistOpenTabs();
+  this._renderPdfTabs();
+};
+
+__appMixinReader['_pdfCloseGroup'] = async function(gid) {
+  const indices = [];
+  this._pdfTabs.forEach((t, i) => { if (t.groupId === gid) indices.push(i); });
+  indices.sort((a, b) => b - a);
+  for (const idx of indices) {
+    await this._closePdfTab(idx);
+  }
+};
+
+__appMixinReader['_pdfCloseGroupMenus'] = function() {
+  document.querySelectorAll('.pdf-tab-group-dropdown, .pdf-tab-group-menu').forEach((el) => el.remove());
+};
+
+__appMixinReader['_pdfBindThumb'] = function(tab, img) {
+  if (!tab.path) return;
+  const key = tab.path + '|0';
+  if (this._pdfThumbCache.has(key)) {
+    img.src = this._pdfThumbCache.get(key);
+    img.classList.add('loaded');
+  } else {
+    this._pdfThumbQueue.push({ path: tab.path, mtimeMs: 0, imgEl: img });
+    this._pdfPumpThumbs();
+  }
+};
+
 __appMixinReader['_restorePdfTabs'] = async function() {
   const saved = appStore.data.pdfOpenTabs || [];
+  this._pdfGroups = (appStore.data.pdfGroups || []).slice();
   if (!saved.length) return;
   const activeKey = appStore.data.pdfActiveTab;
   for (const entry of saved) {
@@ -831,7 +1216,7 @@ __appMixinReader['_restorePdfTabs'] = async function() {
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'lib/pdf/pdf.worker.min.js';
       const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
       const savedPos = (appStore.data.pdfScrollPositions || {})[entry.path];
-      this._pdfTabs.push({ path: entry.path, name: entry.name, doc, scrollTop: savedPos || 0 });
+      this._pdfTabs.push({ path: entry.path, name: entry.name, doc, scrollTop: savedPos || 0, groupId: entry.groupId || null });
     } catch (e) {
       console.error('PDF restore error:', e);
       this._pdfRemoveOpenTab(entry.path);

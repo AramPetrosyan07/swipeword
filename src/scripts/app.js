@@ -52,6 +52,7 @@ class App {
 
     this._pdfTabs = [];
     this._pdfActiveTab = -1;
+    this._pdfGroups = [];
     this._pdfSidebarWords = [];
     this._translationSidebarVisible = false;
 

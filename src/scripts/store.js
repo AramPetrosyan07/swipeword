@@ -216,6 +216,7 @@ class Store {
     if (!this.data.pdfPinnedFolders) this.data.pdfPinnedFolders = [];
     if (!this.data.pdfOpenTabs) this.data.pdfOpenTabs = [];
     if (!this.data.pdfAnnotations) this.data.pdfAnnotations = {};
+    if (!this.data.recentHighlightColors) this.data.recentHighlightColors = [];
     if (this.data.c1_favorites && !this.data._c1Migrated) {
       this.data.c1_favorites = [];
       this.data.c1_notes = {};
@@ -263,6 +264,7 @@ class Store {
       pdfViewMode: 'viewer',
       translationSidebar: false,
       pdfAnnotations: {},
+      recentHighlightColors: [],
     };
   }
 
@@ -323,6 +325,21 @@ class Store {
 
   removePdfAnnotation(pdfKey, annotId) {
     return this.setPdfAnnotation(pdfKey, annotId, null);
+  }
+
+  getRecentHighlightColors() {
+    if (!this.data) return [];
+    if (!Array.isArray(this.data.recentHighlightColors)) this.data.recentHighlightColors = [];
+    return this.data.recentHighlightColors;
+  }
+
+  pushRecentHighlightColor(color) {
+    if (!this.data) return;
+    if (typeof color !== 'string' || !/^#[0-9a-fA-F]{6}$/.test(color)) return;
+    const list = this.getRecentHighlightColors().filter((c) => c !== color.toLowerCase());
+    list.unshift(color.toLowerCase());
+    this.data.recentHighlightColors = list.slice(0, 4);
+    return this.save();
   }
 
   getDailyActivity(days = 30) {

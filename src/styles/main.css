@@ -3118,6 +3118,26 @@ body.pdf-rail .sidebar.collapsed .sidebar-info {
 .annot-c-purple { background-color: #ba68c8; }
 .annot-c-orange { background-color: #ffb74d; }
 
+.annot-recent-sep {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+}
+
+.annot-recent-colors {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.annot-recent-btn {
+  border-color: var(--border);
+}
+
+.annot-recent-btn.active {
+  border-color: var(--text);
+}
+
 .annot-custom-color-btn {
   position: relative;
   display: inline-flex;
@@ -5141,6 +5161,190 @@ body.theme-dark .read-url-input:focus {
 .pdf-tab-close:hover {
   opacity: 1;
   background: rgba(127, 127, 127, 0.25);
+}
+
+/* --- PDF tab groups (Chrome-style) --- */
+
+.pdf-tab-group-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px 4px 8px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1.5px solid var(--group-color, #5b8def);
+  border-left-width: 6px;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  max-width: 220px;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.pdf-tab-group-pill:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-tab-group-pill.active {
+  box-shadow: 0 0 0 2px var(--group-color, #5b8def) inset;
+  background: var(--bg-hover);
+}
+
+.pdf-tab-group-chevron {
+  font-size: 10px;
+  color: var(--group-color, #5b8def);
+  line-height: 1;
+}
+
+.pdf-tab-group-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--group-color, var(--text));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pdf-tab-group-count {
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  background: var(--group-color, #5b8def);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pdf-tab-group-rename {
+  width: 120px;
+  padding: 2px 6px;
+  border: 1px solid var(--group-color, var(--border));
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+}
+
+.pdf-tab-in-group {
+  border-left-width: 4px;
+  border-left-color: var(--group-color, var(--border));
+}
+
+.pdf-tab-group-dropdown {
+  position: fixed;
+  z-index: 1100;
+  width: 260px;
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--group-color, var(--border));
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pdf-tab-group-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.pdf-tab-group-item:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-tab-group-item.active {
+  background: var(--surface-hover, rgba(100, 120, 255, 0.14));
+  box-shadow: 0 0 0 1.5px var(--group-color, var(--border)) inset;
+}
+
+.pdf-tab-group-item .pdf-tab-thumb {
+  width: 22px;
+  height: 28px;
+}
+
+.pdf-tab-group-item .pdf-tab-name {
+  flex: 1;
+}
+
+.pdf-tab-group-menu {
+  position: fixed;
+  z-index: 1100;
+  width: 180px;
+  background: var(--bg-secondary, #fff);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pdf-tab-group-menu-item {
+  padding: 6px 10px;
+  font-size: 12.5px;
+  color: var(--text);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdf-tab-group-menu-item:hover {
+  background: var(--bg-hover);
+}
+
+.pdf-tab-group-menu-item.danger:hover {
+  background: rgba(224, 85, 97, 0.15);
+  color: #e05561;
+}
+
+.pdf-tab-group-menu-colors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin: 2px 0;
+}
+
+.pdf-tab-group-color-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pdf-tab-group-color-dot.active {
+  border-color: var(--text);
+  box-shadow: 0 0 0 1.5px var(--bg-secondary, #fff) inset;
+}
+
+/* Drag & drop targets */
+.pdf-tab.pdf-dnd-target,
+.pdf-tab-group-pill.pdf-dnd-target {
+  outline: 2px dashed var(--primary);
+  outline-offset: -2px;
+}
+
+.pdf-tabs-strip.pdf-dnd-ungroup {
+  outline: 2px dashed var(--border);
+  outline-offset: -4px;
 }
 
 /* YouTube Language Bar */
