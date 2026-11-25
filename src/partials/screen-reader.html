@@ -30,6 +30,7 @@
           <button class="btn btn-secondary btn-sm reader-new-btn" id="btnReadNewToolbar" style="display:none;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg> New</button>
           <button class="icon-btn" id="btnReaderLangBarToggle" style="display:none;" title="Hide settings bar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg></button>
           <button class="icon-btn" id="btnTranslationSidebar" style="display:none;" title="Toggle translation sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg></button>
+          <button class="icon-btn" id="btnPdfSearch" style="display:none;" title="Search in PDF (Ctrl+F)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
           <button class="icon-btn" id="btnReadAloud" title="Read Aloud (right-click to start)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
           <span class="read-aloud-inline" id="readAloudInline" style="display:none;">
             <button class="read-aloud-inline-btn" id="btnReadAloudPlay" title="Play / Pause"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M8 5.5v13l11-6.5z"/></svg></button>
@@ -99,8 +100,21 @@
         </div>
       </div>
 
-      <!-- Home: main learning tools -->
-      <div class="read-home" id="readHome">
+        <!-- PDF search bar -->
+        <div class="pdf-search-bar" id="pdfSearchBar" style="display:none;">
+          <div class="pdf-search-bar-row">
+            <input type="text" id="pdfSearchInput" placeholder="Search in PDF…" spellcheck="false" autocomplete="off" />
+            <span class="pdf-search-counter" id="pdfSearchCounter"></span>
+            <button class="pdf-search-nav-btn" id="pdfSearchPrev" title="Previous match (Shift+Enter)">&#9650;</button>
+            <button class="pdf-search-nav-btn" id="pdfSearchNext" title="Next match (Enter)">&#9660;</button>
+            <button class="pdf-search-nav-btn pdf-search-close" id="pdfSearchClose" title="Close (Esc)">&times;</button>
+          </div>
+          <div class="pdf-search-results" id="pdfSearchResults"></div>
+          <div class="pdf-search-results-more" id="pdfSearchMore" style="display:none;">&#8230;</div>
+        </div>
+
+        <!-- Home: main learning tools -->
+        <div class="read-home" id="readHome">
         <div class="read-home-inner">
           <div class="read-home-hero">
             <div class="read-home-brand">

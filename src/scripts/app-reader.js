@@ -380,6 +380,11 @@ __appMixinReader['_updateTranslationSidebarBtnVisibility'] = function() {
   if (btn) btn.style.display = this._readCurrentPage === 'pdf' ? '' : 'none';
   const saveBtn = document.getElementById('btnSavePdfFile');
   if (saveBtn) saveBtn.style.display = (this._readCurrentPage === 'pdf' && this._pdfTabs && this._pdfTabs.length > 0) ? '' : 'none';
+  const searchBtn = document.getElementById('btnPdfSearch');
+  if (searchBtn) searchBtn.style.display = (this._readCurrentPage === 'pdf' && this._pdfTabs && this._pdfTabs.length > 0) ? '' : 'none';
+  if (this._readCurrentPage !== 'pdf' && typeof pdfSearch !== 'undefined' && pdfSearch && pdfSearch._open) {
+    pdfSearch.close();
+  }
 };
 
 __appMixinReader['_saveCurrentPdfFile'] = async function() {
